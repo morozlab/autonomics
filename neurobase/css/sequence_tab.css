@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sequence-container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#sequence-main{
+	width: 1015px;
+	min-height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sequence-display-header{
+	width: 1015px;
+	height: 84px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:left;
+	background-image: url(../slimebase2/images/browse/sequence_header.jpg);
+	background-repeat: no-repeat;		
+}
+
+#quick-view-select{
+	color: #686868;
+	font-size: 1.2em;
+	margin-top: 28px;
+	margin-left: 28px;
+	width: auto;
+	float:left;	
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+}
+
+#quick-view-select a{
+	text-decoration:none;
+	color: #701387;	
+}
+
+#quick-view-select a:hover{
+	text-decoration:underline;	
+}
+
+.project-name-display{
+	float:left;
+	width: auto;
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+	font-size: 2.2em;
+	color: #548da3;	
+	margin: 32px 0 0 0;	
+}
+
+#result-form{
+	width: auto;
+	float:right;
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+	color: #000000;
+	font-size: 1em;
+	margin: 29px 5px 5px 5px;
+}
+
+#result-form select{
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+	font-size: .8em;
+}
+
+.resultNav{
+	width: 1007px;
+	margin: 10px 0px 0px 8px;
+	float:left;	
+}
+
+#bottom-page-nav{
+	margin: 0 0 25px 8px;	
+	float:left;
+	width: 1000px;
+}
+
+.result-link{
+	width: auto;
+	float: right;	
+	margin: 27px 5px 5px 5px;
+}
+
+#next-link{
+	margin-right: 28px;
+}
+
+.result-link a{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: #50b7f9;
+	text-decoration: none;
+}
+
+.result-link a:hover{
+	color: #3181b5;	
+}
+
+#seqDisplay{
+	color: #000000;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	float:left;
+	width: 999px;
+	margin-left: 8px;
+}
+
+#seq-header-container{
+	float:left;
+	width: 989px;
+	margin-left: 8px;
+	margin-bottom: -10px;
+	padding: 0px 5px;	
+	color: #000000;
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+	font-size: 1.2em;
+	
+}
+
+#seqDisplayBorder{
+	float: left;
+	width: 989px;
+	padding: 0px 5px;
+	border: 1px solid #B0D2E3;
+}
+
+.sequenceContainer{
+	float: left;
+	width: 989px;
+	border-bottom: 1px dotted #666666;
+	/*background-image: url(../slimebase2/images/view_seqs/seq_background.jpg);
+	background-color: #E3F0F6;
+	background-repeat: repeat-x;
+	background-position: bottom;*/
+}
+
+.sequenceContainerInner{
+	float:left;
+	width: 989px;
+	background-color:#FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.seqEntryHeader{
+	float: left;
+	width: 989px;
+}
+
+.annotationBorder{
+	float:left;
+	width: 880px;
+	/*margin-left: 30px;
+	*/height: 1px;
+	border-bottom: 1px solid #C4DEEB;
+}
+
+.annotationIcon{
+	float:left;
+	width:  60px;
+	height: auto;
+}
+
+.annotationTextCell{
+	width: 759px;
+	padding: 0 5px;
+	vertical-align:middle;
+}
+
+.annotationTextCell a{
+	color: #000000;
+	text-decoration:none;
+}
+
+.annotationTextCell a:hover{
+	text-decoration:underline;
+}
+
+.evalCell{
+	width: 100px;
+	text-align:right;
+}
+
+.evalCell a{
+	text-decoration:none;
+	color: #000;
+}
+
+.evalCell a:hover{
+	color: #3181b5;
+}
+
+.evalCellSmaller{
+	width: 80px;
+	text-align:right;
+}
+
+.evalCellSmaller a{
+	text-decoration:none;
+	color: #000;
+}
+
+.evalCellSmaller a:hover{
+	color: #3181b5;
+}
+
+.abundanceCell{
+	width: 80px;
+	text-align: right;
+}
+
+.abundanceCell a{
+	text-decoration:none;
+	color: #000;
+}
+
+.abundanceCell a:hover{
+	color: #3181b5;
+}
+
+.abundanceImageContainer{
+	margin-left: 3px;
+	width: auto;
+	float:right;
+}
+
+.abundanceAmount{
+	width: auto;
+	float:right;
+}
+
+.annotTableContainer{
+	float:left;
+	width: auto;
+}
+
+.annotTable{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+	
+.annotTable td{
+	vertical-align:middle;
+}
+
+
+.sbCell{
+	vertical-align:middle;
+	width: 80px;
+}
+
+.iconCell{
+	vertical-align:top;
+	text-align:center;
+	width: 140px;
+}
+
+
+/*************************************************STYLES FOR THE DROPDOWN MENU*********************************************/
+
+.project-option-container{
+	width: auto;
+	float: left;
+	margin: 45px 0px 0px 20px;
+}
+
+.optionMenu, .optionMenu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height:1;
+	width: auto;
+	color: #701387;
+	font-size: 1.2em;
+	font-family: "Franklin Gothic Book", Helvetica, Verdana, Arial;
+}
+
+.optionMenu li {
+	float: left;
+	width: 100px;
+}
+
+.optionMenu li ul {
+	position: absolute;
+	width: 100px;
+	margin-top: 0px;
+	left: -999em;
+}
+
+.optionMenu li ul a{
+	color: #000;	
+}
+
+.optionMenu li ul li{
+	width: 100px;
+}
+
+.optionMenu li ul li ul li{
+	width: 160px;	
+}
+
+.optionMenu li li ul{
+	margin: -26px 0 0 105px;
+}
+
+.optionMenu li:hover ul ul, #projectOptions li.sfhover ul ul {
+	left: -999em;
+}
+
+.optionMenu li:hover ul, .optionMenu li li:hover ul, #projectOptions li.sfhover ul, #projectOptions li li:hover ul{
+	left: auto;
+}
+
+li.invisible{
+	background-image: url(../slimebase2/images/view_seqs/transparent.png);
+	background-repeat:repeat;
+	margin-bottom: 0px;
+	height: 10px;
+}
+
+li.colored{
+	margin-top: -1px;
+	background-color: #FFFFFF;
+	color:#000000;
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: .9em;
+	font-weight: normal;
+}
+
+.colored a{
+	width: 100px;
+	color: #701387;
+	text-decoration:none;
+}
+
+.colored a:hover{
+	color:#FFFFFF;
+}
+
+
+li.colored:hover{
+	background-color: #8CC2DE;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+

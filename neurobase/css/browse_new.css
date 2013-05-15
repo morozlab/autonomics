@@ -1,0 +1,516 @@
+#neurobase-logo{
+	width: 624px;
+	float:left;	
+	margin-top: 25px;
+}
+#neurobase-nav-left{
+	float:left;
+	margin-top: 50px;
+	margin-left: 30px;
+	width: 12px;	
+}
+
+#neurobase-nav{
+	margin-left: 666px;
+	padding-top: 50px;
+	background-image:url(../slimebase2/images/neurobase_nav_fil.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	height: 59px;
+	font-family: "Franklin Gothic Book", Arial, Helvetica;
+	font-size: 1.2em;
+	color: #971b6a;
+}
+
+.nav-element{
+	float:left;
+	margin-left: 20px;	
+	margin-top: 14px;
+}
+
+#neurobase-nav a{
+	text-decoration:none;
+	color: #971b6a;
+}
+
+#neurobase-nav a:hover{
+	text-decoration:underline;	
+}
+
+.first-nav{
+	float:left;
+	margin-left: 28px;
+	margin-top: 14px;	
+}
+
+
+#selectContainer{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	color:#FFFFFF;
+	width: 900px;
+	float:left;
+}
+
+#selectBoxTextTop{
+	width: auto;
+	float:left;
+	margin-left: 0px;
+	font-size: 1.6em;
+	margin-top: 25px;
+}
+
+#selectBoxMiddle{
+	width: auto;
+	float:left;
+	margin-left: 0px;
+	color: #1a4f78;
+	margin-top: 15px;
+	/*height: 110px;
+	display: table;
+	position: relative;
+	*/
+}
+
+#selectBoxMiddleText{
+	width: 160px;
+	#position: absolute; 
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#selectBoxTextBottom{
+	width: 800px;
+	float:left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+#selectBox{
+	display: table-cell;
+	width: 658px;
+	height: 108px;
+	background-image:url(../slimebase2/images/browse/select_box2.png);
+	background-repeat: no-repeat;
+}
+
+#projectSelectElement{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.0em;
+	padding: 10px 0px;
+	margin-top: 25px;
+	width: 600px;
+	margin-left: 25px;
+	color: #036788;
+}
+
+#projDetailContainer{
+	width: 900px;
+	float:left;
+	margin-left: 0;
+	margin-top: 40px;
+	height: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#projDetailHeader{
+	width: 900px;
+	float:left;
+}
+
+#projDetailContent{
+	width: 900px;
+	background-image:url(../slimebase2/images/browse/detail_box_bg_large.png);
+	background-repeat: repeat;
+	height: 250px;
+	float:left;
+}	
+
+#organism-description{
+	width: 277px;
+	float:left;
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 220px;
+	background-image: url(../slimebase2/images/browse/project-detail-fill-small.png);
+	background-repeat: no-repeat;
+}
+
+#projectImage{
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 300px;
+	height: 220px;
+	float:left;
+	background-image: url(../slimebase2/images/organisms/cancer_borealis1.png);
+	background-repeat:no-repeat;
+}
+
+#projectStats{
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 277px;
+	float:left;
+	height: 220px;
+}
+
+.pSCorner{
+	float:left;
+	width: 13px;
+}
+
+.pSMiddle{
+	float:left;
+	width: 379px;
+	height: 10px;
+	background-color:#FFFFFF;
+	font-size: .1em;
+}
+
+#pSContent{
+	width: 277px;
+	background-image:url(../slimebase2/images/browse/project-detail-fill-small.png);
+	background-position:bottom;
+	background-repeat: no-repeat;
+	float:left;
+	height: 220px;
+}
+
+#pSContent h1{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-family: "Franklin Gothic Book", Arial, Helvetica;
+	font-size: 1.4em;
+	padding: 0px;
+}
+
+.project-information h1{
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-family: "Franklin Gothic Book", Arial, Helvetica;
+	font-size: 1.4em;
+	padding: 0px;	
+}
+
+.project-information p{
+	margin-top: 0px;
+	margin-left: 25px;
+	margin-right: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+.information-label{
+	color: #04314E;
+}
+
+#pSContent p{
+	margin-top: 0px;
+	margin-left: 40px;
+	color: #04314E;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+/************************** CODE FOR THE EXTRA CONTENT PORTION OF PROJECT BROWSER ***********************************/
+
+#extraContent{
+	margin-top: 30px;
+	float:left;
+	width: 100%;
+	background-color:#FFFFFF;
+	background-image:url(../slimebase2/images/browse/extraContentHeader.jpg);
+	background-repeat: repeat-x;
+	display: none;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+#extraContentNav{
+	margin: 0 auto;
+	width: 1000px;
+	height: 60px;
+	display:table;
+}
+
+.extraContentNavElement{
+	margin-right: 30px;
+	height: 60px;
+	float:left;
+	width: auto;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.6em;
+	display:table-cell;
+	padding: .25em 0;
+	background-repeat:no-repeat;
+}
+
+.extraContentNavElement a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.extraContentNavElement a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#extraContentMain{
+	width: 100%;
+	float:left;
+}
+
+#information-container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;	
+}
+
+#information-content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	margin-bottom: 30px;
+}
+
+#information-container a{
+	text-decoration:none;
+	color: #971b6a;	
+}
+
+#information-container h1{
+	margin:50px 0px 15px 0px;
+	padding: 0;
+	font-family: "Franklin Gothic Book", Arial, Helvetica;
+	font-size: 2.2em;
+	color: #548da3;	
+	font-weight: normal;
+}
+
+#information-container p{
+	margin-top: 10px;
+	color: #757272;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.people-details{
+	width: auto;
+	float:left;
+	color: #757272;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.contact-message{
+	width: 100%;
+	float:left;
+	margin-top: 20px;
+}
+
+.abstractTitle{
+	color: #3c6c7f;
+}
+
+.abstractText{
+	color:#666;
+	line-height: 1.5em;
+	border-left: 1px dotted #666;
+	border-right: 1px dotted #666;
+	padding: 0px 10px 0px 10px;
+}
+
+.project-information{
+	font-size: 1em;	
+	margin-top: 10px;
+}
+
+/******************** STYLES FOR THE CROSS-COMPARISON TOOL ***************************************/
+
+#cross-container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;	
+}
+
+.cross-comparison-header{
+	width: 100%;
+	float:left;
+	font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucidia Grande", sans-serif;
+	color:#333;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 1px solid #84B4C6;
+	text-align:center;
+	background-image: url(../slimebase2/images/browse/test_bg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+#cross-comparison-selects{
+	width: 1000px;
+	float:left;	
+	margin-top: 40px;
+	font-family:Century, Georgia, serif;
+	font-size: 1.6em;
+	color: #548da3;
+}
+
+#cross-comparison-selects SELECT{
+	width: 400px;
+	padding: 5px;
+	font-size: 1.2em;
+	color: #000;
+	font-family:Century, Georgia, serif;	
+}
+
+#cross-comparison-main{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;	
+	height: auto;
+}
+
+#comparison-result-container{
+	width: 1000px;
+	float:left;
+}
+
+#comparison-navigation{
+	width: 1000px;
+	float:left;	
+	margin-top: 40px;
+	line-height: 1em;
+	margin-bottom: 20px;
+}
+
+#comparison-navigation-left{
+	width: 400px;
+	float:right;
+	text-align:right;
+}
+
+#comparison-navigation-left a{
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: #50b7f9;
+}
+
+#comparison-navigation-right{
+	width: 600px;
+	float:right;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+}
+
+#page-display{
+	width: 500px;
+	text-align:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color:#666;
+	float:left;
+	
+}
+
+.comparison-result-table{
+	width: 1000px;
+	float:left;
+	/*border-collapse:collapse;
+	*/
+}
+
+.c-result-header{
+	font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucidia Grande", sans-serif;
+	font-size: 1em;	
+	color: #548da3;
+	float:left;
+	width: 1000px;
+	margin-top: 10px;
+}
+
+.c-result-data{
+	font-size: .8em;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px dotted #666;
+	width: 1000px;
+	float:left;
+	
+}
+
+.c-alignment-container{
+	width: 760px;
+	margin-left: 100px;
+	float:left;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em; 
+	padding: 20px;
+	display:none;
+	margin-bottom: 10px;
+}
+
+
+.sbID-cell{
+	width:100px;
+	overflow:hidden;
+	text-align: center;
+	padding: 10px 0px;
+	float:left;
+}
+
+.align-cell-header{
+	width: 400px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucidia Grande", sans-serif;	
+	font-size: 1em;
+	padding: 10px 0px;
+	float:left;
+}
+
+.eval-cell{
+	text-align:center;
+	width: 80px;
+	padding: 10px 0px;
+	float:left;
+}
+
+.iden-cell{
+	text-align:center;
+	width: 80px;	
+	padding: 10px 0px;
+	float:left;
+}
+
+.annot-cell{
+	width: 320px;	
+	overflow: hidden;
+	padding: 10px 0px;
+	float:left;
+}
+
+.align-cell{
+	width: 400px;
+	overflow:hidden;
+	font-family:"Courier New", Courier, monospace;
+	font-size: .6em;	
+}
+
+
+
+
+
+
+
+

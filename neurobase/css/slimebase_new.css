@@ -1,0 +1,223 @@
+#selectContainer{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	color:#FFFFFF;
+	width: 900px;
+	float:left;
+}
+
+#selectBoxTextTop{
+	width: auto;
+	float:left;
+	margin-left: 50px;
+	font-size: 1.6em;
+	margin-top: 45px;
+}
+
+#selectBoxMiddle{
+	width: auto;
+	float:left;
+	margin-left: 50px;
+	color: #1a4f78;
+	margin-top: 20px;
+	/*height: 110px;
+	display: table;
+	position: relative;
+	*/
+}
+
+#selectBoxMiddleText{
+	width: 160px;
+	#position: absolute; 
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#selectBoxTextBottom{
+	width: 800px;
+	float:left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+#selectBox{
+	display: table-cell;
+	width: 406px;
+	height: 110px;
+	background-image:url(../slimebase2/images/browse/select_box.png);
+	background-repeat: no-repeat;
+}
+
+#projectSelectElement{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.0em;
+	padding: 10px 0px;
+	margin-top: 25px;
+	width: 350px;
+	margin-left: 25px;
+	color: #036788;
+}
+
+#projDetailContainer{
+	width: 800px;
+	margin-left: 50px;
+	height: 0px;
+	float:left;
+}
+
+
+/******************************************************SEQUENCE VIEW CSS***********************************************/
+
+#pageInfoContainer{
+	float:left;
+	width:900px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 20px;
+}
+
+#resultHeader{
+	/*font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color:#027BA3;
+	font-weight: bold;
+	float:left;
+	width:900px;
+	*/
+	color: #000000;
+	margin:0 24px 0 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.6em;
+	font-weight: lighter;
+	border: none;
+}
+
+#resultDescription{
+	padding-top: 3px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color:#000000;
+	margin-top: 20px;
+	margin-left: 10px;
+	float:left;
+	width: 590px;
+}
+
+#resultNav{
+	margin-top:20px;
+	width: 295px;
+	text-align:right;
+	float:left;
+	padding-right: 5px;
+}
+
+#resultLink{
+	padding-top: 3px;
+	float:right;
+}
+
+
+#resultNav a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	color: #0099CC;
+	text-decoration:none;
+}
+
+#resultNav a:hover{
+	text-decoration:underline;
+}
+
+#resultForm{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	float:right;
+	margin: 0 10px;
+}
+
+#viewOptionsBox{
+	width: 900px;
+	text-align:right;
+}
+
+
+/********************************************* STYLES FOR INDIVIDUAL SEQUENCES in SEQ DISPLAY************************/
+
+
+#itemEntry{
+	float:left;
+	width: 900px;
+	margin-bottom: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+#itemEntry table td{
+	padding: 10px 0;	
+}
+
+table#seqTable{
+	width: 890px;
+	margin-left: 10px;
+}
+
+td#numberCell{
+	vertical-align:top;
+}
+
+#seqNumber{
+	float:left;
+}
+
+td#description{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+#seqDate{
+	text-align:right;
+	width: 200px;
+}
+
+#descriptionSpan{
+	margin-left: 10px;
+}
+
+/********************************************************PROJECT SEARCH STYLES********************************************/
+
+#searchBG{
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	width: 205px;
+	height: 26px;
+	float:left;
+	background-image:url(../slimebase2/images/search_bg.jpg);
+	background-repeat:no-repeat;
+}
+
+#searchBG input[TYPE=TEXT]{
+	border: none;
+	height: 18px;
+	width: 199px;
+	margin-left: 1px;
+	padding-top: 3px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color:#999999;
+}
+
+#searchIcon{
+	width:44px;
+	height: 31px;
+	float:left;
+	background-image:url(../slimebase2/images/search_icon.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+
+

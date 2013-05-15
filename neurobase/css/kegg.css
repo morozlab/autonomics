@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+#kegg-meat-container{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#kegg-header{
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 3em;	
+	width: 100%;
+	float:left;
+}
+
+#kegg-graphics-container{
+	margin-top: 20px;
+	width: auto;
+	float:left;	
+}
+
+#kegg-pathway-select{
+	color: #000;
+	font-size: 2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 100%;
+	float:left;	
+	margin-top: 30px;
+}
+
+#kegg-pathway-select SPAN{
+	width: auto;
+	float:left;	
+	margin-top: 7px; 
+}
+
+#kegg-pathway-select SELECT{
+	padding: 5px;
+	font-size: 1.0em;
+	color: #000;
+	font-family:Century, Georgia, serif;	
+	width: 500px;
+	float:left;
+	margin: 0 0 0 20px;
+}
+
+#kegg-pathway-components{
+	width: 970px;
+	float:left;
+	background: #FFF;
+	border: 1px solid #09F;
+	padding: 15px;
+	margin: 30px 0 60px 0;
+}
+
+.kegg-component{
+	float:left;
+	width: 970px;
+	margin-bottom: 30px;
+}
+
+.component-kegg-data{
+	width: 200px;
+	float:left;	
+	height: 100%;
+}
+
+.component-neurobase-data{
+	width: 770px;
+	float:left	
+}
+
+.kegg-sb-cell{
+	width: 150px;
+	float:left;	
+	margin-bottom: 10px;
+}
+
+.kegg-annot-cell{
+	width: 620px;
+	float:left;
+	margin-bottom: 15px;
+}
+
+#kegg-detail-options{
+	width: auto;
+	padding: 10px;
+	margin: 0 0 0 15px;
+	float:left;	
+	border-radius: 10px;
+	background-color: #000;
+}
+
+.kegg-option a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .8em;
+}
+
+.kegg-option a:hover{
+	color: #09F;
+}

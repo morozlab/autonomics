@@ -1,0 +1,370 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>zeroclick.neurobase_uploader &mdash; zeroclick  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="zeroclick  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for zeroclick.neurobase_uploader</h1><div class="highlight"><pre>
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.sql</span> <span class="kn">import</span> <span class="n">select</span><span class="p">,</span> <span class="n">and_</span>
+<span class="kn">from</span> <span class="nn">zeroclick</span> <span class="kn">import</span> <span class="n">settings</span><span class="p">,</span> <span class="n">netutils</span><span class="p">,</span> <span class="n">utility</span>
+<span class="kn">from</span> <span class="nn">zeroclick.file_io</span> <span class="kn">import</span> <span class="n">FileExtensions</span>
+
+<span class="n">current_project_name</span> <span class="o">=</span> <span class="bp">None</span>
+ 
+<div class="viewcode-block" id="init_project"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.init_project">[docs]</a><span class="k">def</span> <span class="nf">init_project</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --init-project -v&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="load_go"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_go">[docs]</a><span class="k">def</span> <span class="nf">load_go</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span> 
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --GO -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --GOCategories -v&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    <span class="n">go_cats</span> <span class="o">=</span> <span class="n">current_project_name</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">current_project_name</span> <span class="o">+</span> <span class="s">&quot;_gocats.txt&quot;</span>
+    <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_DATA_PATH</span> <span class="o">+</span> <span class="n">go_cats</span><span class="p">,</span> <span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_STORAGE_PATH</span> <span class="o">+</span> <span class="n">go_cats</span><span class="p">)</span>
+
+</div>
+<div class="viewcode-block" id="load_kegg"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_kegg">[docs]</a><span class="k">def</span> <span class="nf">load_kegg</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --KEGG -v&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="load_nr"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_nr">[docs]</a><span class="k">def</span> <span class="nf">load_nr</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --annotation --nr -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --alignments --nr -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="load_pfam"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_pfam">[docs]</a><span class="k">def</span> <span class="nf">load_pfam</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --pfam -v&quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="load_quantification"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_quantification">[docs]</a><span class="k">def</span> <span class="nf">load_quantification</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --quantification -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+    </div>
+<div class="viewcode-block" id="load_sequences"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_sequences">[docs]</a><span class="k">def</span> <span class="nf">load_sequences</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="c">#does raw data exist and need to be moved?</span>
+    <span class="n">raw_base</span> <span class="o">=</span> <span class="n">current_project_name</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">current_project_name</span>
+    <span class="n">raw_exts</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;.fasta&#39;</span><span class="p">,</span> <span class="s">&#39;.fastq&#39;</span><span class="p">]</span>
+    <span class="n">raws</span> <span class="o">=</span> <span class="p">[</span><span class="n">raw_base</span> <span class="o">+</span> <span class="n">ext</span> <span class="k">for</span> <span class="n">ext</span> <span class="ow">in</span> <span class="n">raw_exts</span><span class="p">]</span>
+ 
+    <span class="k">for</span> <span class="n">raw_file</span> <span class="ow">in</span> <span class="n">raws</span><span class="p">:</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_DATA_PATH</span> <span class="o">+</span> <span class="n">raw_file</span><span class="p">)):</span>
+            <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_DATA_PATH</span> <span class="o">+</span> <span class="n">raw_file</span><span class="p">,</span> <span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_STORAGE_PATH</span> <span class="o">+</span> <span class="n">raw_file</span><span class="p">)</span>
+ 
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --seqs -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="load_swissprot"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.load_swissprot">[docs]</a><span class="k">def</span> <span class="nf">load_swissprot</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">):</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --annotation --swissprot -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">base_cmd</span> <span class="o">+</span> <span class="s">&quot; --alignments --swissprot -v &quot;</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+    
+    </div>
+<div class="viewcode-block" id="job_loaded"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.job_loaded">[docs]</a><span class="k">def</span> <span class="nf">job_loaded</span><span class="p">(</span><span class="n">jid</span><span class="p">,</span> <span class="n">session</span><span class="p">):</span>
+    <span class="n">loaded</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;loaded_jobs&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">loaded</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">loaded</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="o">==</span><span class="n">jid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="n">row</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+</div>
+<div class="viewcode-block" id="job_loaded_bytype"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.job_loaded_bytype">[docs]</a><span class="k">def</span> <span class="nf">job_loaded_bytype</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="p">,</span> <span class="n">session</span><span class="p">):</span>
+    <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">loaded</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;loaded_jobs&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">loaded</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="p">],</span> <span class="n">and_</span><span class="p">(</span><span class="n">loaded</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="o">==</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="p">,</span>
+                                         <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job_type</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="n">row</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+ 
+ </div>
+<div class="viewcode-block" id="mark_loaded"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.mark_loaded">[docs]</a><span class="k">def</span> <span class="nf">mark_loaded</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="p">,</span> <span class="n">session</span><span class="p">):</span>
+    <span class="n">jid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">get_jid</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">loaded</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;loaded_jobs&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">loaded</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">job_id</span><span class="o">=</span><span class="n">jid</span><span class="p">)</span>
+    <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+      
+</div>
+<div class="viewcode-block" id="ok_to_load"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.ok_to_load">[docs]</a><span class="k">def</span> <span class="nf">ok_to_load</span><span class="p">(</span><span class="n">jtype</span><span class="p">,</span> <span class="n">pid</span><span class="p">,</span> <span class="n">project_path</span><span class="p">,</span> <span class="n">file_hash</span><span class="p">,</span> <span class="n">session</span><span class="p">):</span>
+    <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">loaded</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;loaded_jobs&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">jtype</span> <span class="o">!=</span> <span class="s">&#39;assemble&#39;</span><span class="p">):</span>
+        <span class="c">#check if assemble is loaded</span>
+        <span class="n">assem_loaded</span> <span class="o">=</span> <span class="n">job_loaded_bytype</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span> <span class="s">&#39;assemble&#39;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+        <span class="c">#check if quantification is loaded</span>
+        <span class="n">quant_loaded</span> <span class="o">=</span> <span class="n">job_loaded_bytype</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span> <span class="s">&#39;quantification&#39;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+            
+        <span class="k">if</span><span class="p">(</span><span class="n">jtype</span> <span class="o">!=</span> <span class="s">&#39;quantification&#39;</span><span class="p">):</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">assem_loaded</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">quant_loaded</span><span class="p">):</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;Quantification not loaded&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="bp">False</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Quantification job.&quot;</span><span class="p">)</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">assem_loaded</span><span class="p">):</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;Assembly not loaded.&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="bp">False</span>
+                  
+    <span class="c">#try to get a jid for this job</span>
+    <span class="n">jid_query</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span>
+                                       <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">jtype</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="n">row</span> <span class="o">=</span> <span class="n">jid_query</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;No jid found for this job_type&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    
+    <span class="n">jid</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">job_id</span>
+    
+    <span class="c">#check if this job is already loaded</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">job_loaded</span><span class="p">(</span><span class="n">jid</span><span class="p">,</span> <span class="n">session</span><span class="p">)):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Job is already loaded.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    
+    <span class="c">#file operations</span>
+    <span class="k">for</span> <span class="n">data_file</span><span class="p">,</span> <span class="n">chksum</span> <span class="ow">in</span> <span class="n">file_hash</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">d</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">data_file</span><span class="p">)</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">project_path</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">f</span>
+        <span class="c">#check if the appropriate file exists</span>
+        <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">)):</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Expected input file does not exist.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="bp">False</span>
+    
+        <span class="c">#do the checksums match?</span>
+        <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">utility</span><span class="o">.</span><span class="n">sha1_file</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="o">==</span> <span class="n">chksum</span><span class="p">):</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Checksums don&#39;t work out.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="bp">False</span>
+    
+    <span class="k">return</span> <span class="bp">True</span>
+
+</div>
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.neurobase_uploader.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    
+    <span class="k">global</span> <span class="n">current_project_name</span>
+
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--sleep-interval&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;SLEEP_INTERVAL&#39;</span><span class="p">,</span>
+                        <span class="n">default</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">mainLoopSleepInterval</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--zc-dbhost&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;ZC_DB_HOST&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">&#39;localhost&#39;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--zc-dbuser&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;ZC_DB_USER&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">&#39;zeroclick&#39;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--zc-dbpass&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;ZC_DB_PASSWD&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">&#39;Whitney2011&#39;</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+    <span class="n">out_exts</span> <span class="o">=</span> <span class="n">FileExtensions</span><span class="o">.</span><span class="n">outputExtensions</span>
+    <span class="n">load_order</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;assemble&#39;</span><span class="p">,</span> <span class="s">&#39;quantification&#39;</span><span class="p">,</span> <span class="s">&#39;blast_swissprot&#39;</span><span class="p">,</span> <span class="s">&#39;blast_nr&#39;</span><span class="p">,</span> <span class="s">&#39;go&#39;</span><span class="p">,</span> <span class="s">&#39;kegg&#39;</span><span class="p">,</span> <span class="s">&#39;pfam&#39;</span><span class="p">]</span>
+    
+    <span class="n">load_job</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;quantification&quot;</span><span class="p">:</span> <span class="n">load_quantification</span><span class="p">,</span> <span class="s">&quot;blast_swissprot&quot;</span><span class="p">:</span> <span class="n">load_swissprot</span><span class="p">,</span>
+                 <span class="s">&quot;blast_nr&quot;</span><span class="p">:</span> <span class="n">load_nr</span><span class="p">,</span> <span class="s">&quot;go&quot;</span><span class="p">:</span> <span class="n">load_go</span><span class="p">,</span> <span class="s">&quot;kegg&quot;</span><span class="p">:</span> <span class="n">load_kegg</span><span class="p">,</span> <span class="s">&quot;pfam&quot;</span><span class="p">:</span> <span class="n">load_pfam</span><span class="p">,</span> 
+                 <span class="s">&quot;assemble&quot;</span><span class="p">:</span> <span class="n">load_sequences</span><span class="p">}</span>
+    
+    <span class="n">UPLOAD_SCRIPT</span> <span class="o">=</span> <span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">&quot;</span> <span class="o">+</span> <span class="n">settings</span><span class="o">.</span><span class="n">WINDOWS_SCRIPT_PATH</span> <span class="o">+</span> <span class="s">&quot;upload.py</span><span class="se">\&quot;</span><span class="s">&quot;</span>
+    <span class="n">UPLOAD_CMD</span> <span class="o">=</span> <span class="n">UPLOAD_SCRIPT</span> <span class="o">+</span> <span class="s">&quot; --user &quot;</span>  <span class="o">+</span> <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_USER</span> <span class="o">+</span> <span class="s">&quot; --password &quot;</span> <span class="o">+</span> <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_PASSWD</span>
+
+
+    <span class="n">zc_session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_HOST</span><span class="p">,</span> <span class="s">&quot;zero_click&quot;</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_USER</span><span class="p">,</span>
+                                    <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_PASSWD</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">MYSQLDB_DRIVER</span><span class="p">)</span>
+    <span class="n">nb_session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_HOST</span><span class="p">,</span> <span class="s">&quot;moroz_lab&quot;</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_USER</span><span class="p">,</span>
+                                    <span class="n">args</span><span class="o">.</span><span class="n">ZC_DB_PASSWD</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">MYSQLDB_DRIVER</span><span class="p">)</span>
+
+
+    <span class="k">while</span><span class="p">(</span><span class="bp">True</span><span class="p">):</span>        
+        
+        <span class="c">#set up some table objects</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;configuration&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+        <span class="n">proj_dir</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;project_directory&quot;</span><span class="p">,</span> <span class="n">nb_session</span><span class="p">)</span>
+        <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+        <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+        <span class="n">loaded</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;loaded_jobs&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+
+        <span class="c">#create a list of job types</span>
+        <span class="c">#results = select([default_config.c.job_type]).execute()</span>
+        <span class="c">#job_types = [row.job_type for row in results.fetchall()]</span>
+
+        <span class="sd">&#39;&#39;&#39;neurobase_uploader.py</span>
+<span class="sd">        ---------------------</span>
+<span class="sd">            - wake up</span>
+<span class="sd">            - iterate over directories in the landing directory for data to be uploaded</span>
+<span class="sd">            - open the checksum.txt file in each directory</span>
+<span class="sd">            - read the list of filenames and their checksums.</span>
+<span class="sd">            - if checksum of corresponding file matches that in list</span>
+<span class="sd">              - for each dependency, if job_id loaded or job_id not configured</span>
+<span class="sd">              - load data file</span>
+<span class="sd">              - mark job_id loaded&#39;&#39;&#39;</span>
+          
+        <span class="c">#iterate over uploaded files</span>
+        <span class="n">projects</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_DATA_PATH</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">project</span> <span class="ow">in</span> <span class="n">projects</span><span class="p">:</span>
+            
+            <span class="n">current_project_name</span> <span class="o">=</span> <span class="n">project</span>
+            <span class="n">base_cmd</span> <span class="o">=</span> <span class="n">UPLOAD_CMD</span> <span class="o">+</span> <span class="s">&quot; -p &quot;</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot; --public-name &quot;</span> <span class="o">+</span> <span class="n">project</span>
+            <span class="n">storage_path</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_STORAGE_PATH</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span>
+            <span class="n">project_path</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">NEUROBASE_DATA_PATH</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span>
+            <span class="n">pickle_name</span> <span class="o">=</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;_checksum.pickle&quot;</span>
+            <span class="n">pickle_path</span> <span class="o">=</span> <span class="n">project_path</span> <span class="o">+</span> <span class="n">pickle_name</span>
+            
+            <span class="c">#check if this directory only has a checksum pickles</span>
+            <span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">project_path</span><span class="p">)</span>
+            <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">files</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">pickle_path</span> <span class="ow">and</span> <span class="p">(</span><span class="n">project_path</span> <span class="o">!=</span> <span class="s">&quot;/&quot;</span> <span class="ow">or</span> <span class="n">project_path</span> <span class="o">!=</span> <span class="s">&quot;C:</span><span class="se">\\</span><span class="s">&quot;</span><span class="p">)):</span>
+                    <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">project_path</span><span class="p">)</span>
+                    <span class="k">break</span>
+            
+            <span class="c">#check if a storage directory exists for this project</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">storage_path</span><span class="p">)):</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">storage_path</span><span class="p">)</span>
+                           
+            <span class="c">#do we need to initialize this project?</span>
+            <span class="n">nb_pid_query</span> <span class="o">=</span> <span class="n">proj_dir</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">proj_dir</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">project</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="n">nb_row</span> <span class="o">=</span> <span class="n">nb_pid_query</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">nb_row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+                <span class="n">init_project</span><span class="p">(</span><span class="n">base_cmd</span><span class="p">)</span>
+            
+            <span class="c">#get the project id for this project</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">project</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="n">pid</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">pid</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;No project entry in pn_mapping for: &quot;</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;, skipping.&quot;</span><span class="p">)</span>
+                <span class="k">continue</span>
+
+            <span class="n">pid</span> <span class="o">=</span> <span class="n">pid</span><span class="o">.</span><span class="n">project_id</span>
+            
+            <span class="c">#pickle-in the dictionary of filename =&gt; checksums</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">pickle_path</span><span class="p">)):</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;No checksum pickle found for: &quot;</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;, skipping.&quot;</span><span class="p">)</span>
+                <span class="k">continue</span>
+            
+            <span class="n">fh</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">pickle_path</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span>
+            <span class="n">chk_hash</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fh</span><span class="p">)</span>
+            <span class="n">fh</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            
+            <span class="c">#iterate over job_types in load_order, checking the checksums of each file</span>
+            <span class="k">for</span> <span class="n">job_type</span> <span class="ow">in</span> <span class="n">load_order</span><span class="p">:</span>
+                
+                <span class="c">#first, check if job_type is in the checksum hash</span>
+                <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">job_type</span> <span class="ow">in</span> <span class="n">chk_hash</span><span class="p">):</span>
+                    <span class="k">continue</span>
+                
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;Checking load preconditions for &quot;</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">job_type</span><span class="p">)</span>
+                <span class="n">file_hash</span> <span class="o">=</span> <span class="n">chk_hash</span><span class="p">[</span><span class="n">job_type</span><span class="p">]</span>
+                <span class="c">#check if this job_is ok to load</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">ok_to_load</span><span class="p">(</span><span class="n">job_type</span><span class="p">,</span> <span class="n">pid</span><span class="p">,</span> <span class="n">project_path</span><span class="p">,</span> <span class="n">file_hash</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)):</span>
+                    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Loading data for &quot;</span> <span class="o">+</span> <span class="n">project</span> <span class="o">+</span> <span class="s">&quot;, job type: &quot;</span> <span class="o">+</span> <span class="n">job_type</span><span class="p">)</span>
+                    <span class="c">#load based on the job_type</span>
+                    <span class="n">load_job</span><span class="p">[</span><span class="n">job_type</span><span class="p">](</span><span class="n">base_cmd</span><span class="p">)</span> 
+                    <span class="c">#move the file for storage</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="n">data_path</span><span class="p">,</span> <span class="n">discard</span><span class="p">)</span> <span class="ow">in</span> <span class="n">file_hash</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                        <span class="n">d</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">data_path</span><span class="p">)</span>
+                        <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">project_path</span> <span class="o">+</span> <span class="n">f</span><span class="p">,</span> <span class="n">storage_path</span> <span class="o">+</span> <span class="n">f</span><span class="p">)</span>
+                
+                            
+
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Sleeping for: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">SLEEP_INTERVAL</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">SLEEP_INTERVAL</span><span class="p">)</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Author.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Log in to Members Area</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<link href="../css/membersArea.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="mainPage" onload="MM_preloadImages('../images/layout/rollovers/home_over.jpg','../images/layout/rollovers/background_over.jpg','../images/layout/rollovers/pre_over.jpg','../images/layout/rollovers/post_over.jpg','../images/layout/rollovers/regulatory_over.jpg','../images/layout/rollovers/proposal_over.jpg','../images/layout/rollovers/moroz_lab_member_roll.jpg')">
+<div id="container">
+	<div id="header"></div>
+    <div id="navigation"><div id="navElement"><a href="../index.php">home</a>
+</div></div>
+<div id="content">
+      <div id="leftContent">
+        <form class="membersArea" name="authForm" method="post" action="doLogin.php">
+          <fieldset id="maForm">
+   		  <legend>Log in information</legend>
+       	  <p><label for="userName">Username</label> <input type="text" name="userName" size="40"/></p>
+			<p><label for="passWord">Password</label> <input type="password" name="passWord" size="40"/></p>
+			<p class="submitButton"><input id="smButton" name="submit" type="submit" value="Log in" />
+            <span style="margin-left: 1.5em; font-size: 8pt;"><a href="forgotten_password.php">forgot password</a> | <a href="forgotten_username.php">forgot username</a></span>			</p>
+            </fieldset>
+        </form>
+            </p>
+   	  </div>
+   	  <div class="quickLinks" id="rightContent">
+   	
+            	</div>
+  </div>
+	<div id="footer"></div>
+</div>
+</body>
+</html>

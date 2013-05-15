@@ -1,0 +1,662 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>zeroclick.data_gremlin &mdash; zeroclick  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="zeroclick  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for zeroclick.data_gremlin</h1><div class="highlight"><pre>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Created on Nov 28, 2012</span>
+
+<span class="sd">@author: Mathew Citarella</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">netutils</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">settings</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">zeroclick.file_io</span> <span class="kn">import</span> <span class="n">read_credentials</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">select</span><span class="p">,</span> <span class="n">update</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.sql</span> <span class="kn">import</span> <span class="n">and_</span><span class="p">,</span> <span class="n">or_</span>
+
+
+<div class="viewcode-block" id="get_name_mapping"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.get_name_mapping">[docs]</a><span class="k">def</span> <span class="nf">get_name_mapping</span><span class="p">(</span><span class="n">run_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">run_name</span><span class="p">):</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">run_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">],</span> <span class="n">and_</span><span class="p">(</span><span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="p">,</span> <span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">run_name</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="n">mapping</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">mapping</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">None</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span><span class="p">(</span><span class="n">mapping</span><span class="o">.</span><span class="n">project_name</span><span class="p">)</span>
+
+</div>
+<div class="viewcode-block" id="get_runname"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.get_runname">[docs]</a><span class="k">def</span> <span class="nf">get_runname</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">src_type</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">src_type</span> <span class="o">==</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">s</span><span class="p">)[</span><span class="mi">1</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+    </div>
+<div class="viewcode-block" id="get_configuration_tables"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.get_configuration_tables">[docs]</a><span class="k">def</span> <span class="nf">get_configuration_tables</span><span class="p">():</span>
+    <span class="n">default</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_configuration&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;configuration&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">rn_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">default</span><span class="p">)</span>
+    
+    </div>
+<div class="viewcode-block" id="make_arg_string"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.make_arg_string">[docs]</a><span class="k">def</span> <span class="nf">make_arg_string</span><span class="p">(</span><span class="n">row_obj</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">row_obj</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">&quot;&quot;</span>
+        
+    <span class="n">row_attrs</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;executable&quot;</span><span class="p">,</span> <span class="s">&quot;loc&quot;</span><span class="p">,</span> <span class="s">&quot;process_args&quot;</span><span class="p">,</span> <span class="s">&quot;pipeline_args&quot;</span><span class="p">,</span> <span class="s">&quot;resources&quot;</span><span class="p">,</span> <span class="s">&quot;priority&quot;</span><span class="p">]</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">row_attrs</span><span class="p">:</span>
+        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">row_obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">)))</span>
+    
+    <span class="k">return</span> <span class="s">&quot;;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        
+    </div>
+<div class="viewcode-block" id="make_zcdb_session"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.make_zcdb_session">[docs]</a><span class="k">def</span> <span class="nf">make_zcdb_session</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">h</span><span class="o">=</span><span class="n">SRC_DB_HOST</span><span class="p">,</span> <span class="n">u</span><span class="o">=</span><span class="n">SRC_DB_USER</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">SRC_DB_PASSWD</span><span class="p">,</span> <span class="n">d</span><span class="o">=</span><span class="n">SRC_DB</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="n">MYSQL_DRIVER</span><span class="p">)</span>
+
+</div>
+<div class="viewcode-block" id="move_file"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.move_file">[docs]</a><span class="k">def</span> <span class="nf">move_file</span><span class="p">(</span><span class="n">local</span><span class="p">,</span> <span class="n">remote</span><span class="p">,</span> <span class="n">ssh</span><span class="p">):</span>
+    <span class="n">remote_path</span><span class="p">,</span> <span class="n">remote_fn</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">remote</span><span class="p">)</span>
+    <span class="c">#local_path, local_fn = os.path.split(local)</span>
+    <span class="n">remote_path</span> <span class="o">+=</span> <span class="s">&quot;/&quot;</span>
+    <span class="c">#put the data on the zc server</span>
+    <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">netutils</span><span class="o">.</span><span class="n">remote_path_exists</span><span class="p">(</span><span class="n">ssh</span><span class="p">,</span> <span class="n">remote_path</span><span class="p">)):</span>
+        <span class="n">ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;mkdir &quot;</span> <span class="o">+</span> <span class="n">remote_path</span><span class="p">)</span>
+        
+    <span class="n">ssh</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">local</span><span class="p">,</span> <span class="n">remote</span><span class="p">)</span>
+
+</div>
+<div class="viewcode-block" id="move_ftp_data"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.move_ftp_data">[docs]</a><span class="k">def</span> <span class="nf">move_ftp_data</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">credentials</span><span class="p">,</span> <span class="n">destination</span><span class="p">,</span> <span class="n">src</span><span class="p">):</span>
+    <span class="n">rn_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&#39;pn_mapping&#39;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">zc_ssh</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">SSHConnection</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_HOST</span><span class="p">,</span> 
+                                    <span class="n">username</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_USER</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_PASSWD</span><span class="p">)</span>
+    <span class="n">loc</span> <span class="o">=</span> <span class="s">&quot;local&quot;</span>
+    <span class="k">if</span><span class="p">(</span><span class="s">&quot;localhost&quot;</span> <span class="ow">in</span> <span class="n">host</span><span class="p">):</span>
+        <span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">src</span><span class="p">)</span>
+                    
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">loc</span><span class="o">=</span> <span class="s">&quot;remote&quot;</span>
+        <span class="n">source_ssh</span> <span class="o">=</span> <span class="bp">None</span>
+    
+    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+        <span class="n">full_path</span> <span class="o">=</span> <span class="n">src</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span>  <span class="o">+</span> <span class="n">f</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">full_path</span><span class="p">)</span>
+        <span class="nb">dir</span><span class="p">,</span> <span class="n">filename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">full_path</span><span class="p">)</span>
+        <span class="n">base</span><span class="p">,</span> <span class="n">ext</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">ext</span> <span class="ow">in</span> <span class="n">settings</span><span class="o">.</span><span class="n">SUPPORTED_FILETYPES</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="c">#add support for zipped files</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">run_configured</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">source_id</span><span class="p">)):</span>
+                    <span class="n">proj_name</span> <span class="o">=</span> <span class="n">get_name_mapping</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">proj_name</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+                        <span class="k">continue</span>
+                
+                    <span class="c">#set up the remote directories and move the file</span>
+                    <span class="n">proj_dir</span> <span class="o">=</span> <span class="n">destination</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">proj_name</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span>
+                    <span class="n">final_file</span> <span class="o">=</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="n">proj_name</span> <span class="o">+</span> <span class="n">ext</span>
+                    <span class="n">dest_file</span> <span class="o">=</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="n">filename</span>
+                
+                    <span class="k">if</span><span class="p">(</span><span class="n">loc</span> <span class="o">==</span> <span class="s">&quot;local&quot;</span><span class="p">):</span>
+                        <span class="n">move_file</span><span class="p">(</span><span class="n">full_path</span><span class="p">,</span> <span class="n">dest_file</span><span class="p">,</span> <span class="n">zc_ssh</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">move_remote_files</span><span class="p">(</span><span class="n">full_path</span><span class="p">,</span> <span class="n">dest_file</span><span class="p">,</span> <span class="n">source_ssh</span><span class="p">,</span> <span class="n">zc_ssh</span><span class="p">)</span>
+                
+                    <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;mv &quot;</span> <span class="o">+</span> <span class="n">dest_file</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">final_file</span><span class="p">)</span>
+                    <span class="c">#transfer an uploaded flag</span>
+                    <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;touch &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="s">&quot;SRC_UPLOADED&quot;</span><span class="p">)</span>
+                    <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;chmod -R a+wrx &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span><span class="p">)</span>
+                    <span class="c">#mark run as uploaded</span>
+                    <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base</span><span class="p">,</span> 
+                                          <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">))</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">downloaded</span><span class="o">=</span><span class="s">&#39;Y&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+                                          
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Error moving ftp file: &quot;</span> <span class="o">+</span> <span class="n">f</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+                <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span> 
+
+</div>
+<div class="viewcode-block" id="move_it_data"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.move_it_data">[docs]</a><span class="k">def</span> <span class="nf">move_it_data</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">credentials</span><span class="p">,</span> <span class="n">destination</span><span class="p">,</span> <span class="n">src</span><span class="p">):</span>
+    <span class="c">#get connection to destination and src</span>
+    <span class="n">zc_ssh</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">SSHConnection</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_HOST</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_USER</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_PASSWD</span><span class="p">)</span>
+    <span class="n">ion_ssh</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">SSHConnection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">],</span> <span class="n">password</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;passwd&#39;</span><span class="p">])</span>
+    <span class="c">#connect to the ion torrent server to check for completed runs</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">h</span><span class="o">=</span><span class="n">host</span><span class="p">,</span> <span class="n">d</span><span class="o">=</span><span class="s">&quot;iondb&quot;</span><span class="p">,</span> <span class="n">u</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;dbuser&#39;</span><span class="p">],</span> <span class="n">p</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;dbpasswd&#39;</span><span class="p">],</span> <span class="n">driver</span><span class="o">=</span><span class="n">POSTGRES_DRIVER</span><span class="p">)</span>
+    <span class="c">#get tables containing run data from iondb</span>
+    <span class="n">rundb_results</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;rundb_results&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">rundb_experiment</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;rundb_experiment&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="c">#get zero_click table that contains run-&gt;project mappings</span>
+    <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">run_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">rundb_results</span><span class="p">,</span> <span class="n">rundb_experiment</span><span class="p">],</span> <span class="n">and_</span><span class="p">(</span><span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">experiment_id</span><span class="o">==</span><span class="n">rundb_experiment</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">assembly</span><span class="o">==</span><span class="s">&#39;N&#39;</span><span class="p">,</span> <span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">status</span><span class="o">==</span><span class="s">&#39;Completed&#39;</span><span class="p">),</span> <span class="n">use_labels</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">fastq_path</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">rundb_results_fastqLink</span>
+        <span class="n">fastq_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">fastq_path</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">data_file</span> <span class="o">=</span> <span class="n">fastq_file</span> <span class="o">+</span> <span class="s">&quot;.zip&quot;</span>
+        <span class="n">run_name</span> <span class="o">=</span> <span class="n">get_runname</span><span class="p">(</span><span class="n">fastq_path</span><span class="p">,</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">)</span>
+        <span class="n">src_file</span> <span class="o">=</span> <span class="n">BASE_DATA_DIR</span> <span class="o">+</span> <span class="n">fastq_path</span> <span class="o">+</span> <span class="s">&quot;.zip&quot;</span>
+        
+        <span class="c">#check if this run has a project name in the system</span>
+        <span class="n">proj_name</span> <span class="o">=</span> <span class="n">get_name_mapping</span><span class="p">(</span><span class="n">run_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">run_name</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">proj_name</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+            <span class="c">#print(&quot;Run &quot; + run_name + &quot; doesn&#39;t exist in system, skipping.&quot;)</span>
+            <span class="k">continue</span>
+        
+        <span class="n">proj_dir</span> <span class="o">=</span> <span class="n">destination</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">proj_name</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span>
+        <span class="n">dest_file</span> <span class="o">=</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="n">data_file</span>
+        <span class="k">try</span><span class="p">:</span>
+            
+            <span class="c">#check if this project is already downloaded</span>
+            <span class="c">#if the destination directory for this file already exists, skip to next data</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="n">run_2_pid</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">run_name</span><span class="p">,</span>
+                                        <span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">,</span> 
+                                        <span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">downloaded</span><span class="o">==</span><span class="s">&#39;N&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="n">res_row</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">res_row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">&quot;Run &quot;</span> <span class="o">+</span> <span class="n">run_name</span> <span class="o">+</span> <span class="s">&quot; exists on remote server, skipping.&quot;</span><span class="p">)</span>
+                <span class="k">continue</span>
+
+            <span class="c">#get the file from the ion server</span>
+            <span class="n">ion_ssh</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">src_file</span><span class="p">,</span> <span class="n">data_file</span><span class="p">)</span>
+            <span class="c">#put the data on the zc server</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;mkdir &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span><span class="p">)</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">data_file</span><span class="p">,</span> <span class="n">dest_file</span><span class="p">)</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;unzip &quot;</span> <span class="o">+</span> <span class="n">dest_file</span> <span class="o">+</span> <span class="s">&quot; -d &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span><span class="p">)</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;mv &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="n">fastq_file</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="n">proj_name</span> <span class="o">+</span> <span class="s">&quot;.fastq&quot;</span><span class="p">)</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;rm &quot;</span> <span class="o">+</span> <span class="n">dest_file</span><span class="p">)</span>
+            <span class="c">#set this run as uploaded in the db</span>
+            <span class="n">rundb_results</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">id</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">rundb_results_id</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">assembly</span><span class="o">=</span><span class="s">&#39;Y&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="c">#transfer an uploaded flag</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;touch &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span> <span class="o">+</span> <span class="s">&quot;SRC_UPLOADED&quot;</span><span class="p">)</span>
+            <span class="n">zc_ssh</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;chmod -R a+wrx &quot;</span> <span class="o">+</span> <span class="n">proj_dir</span><span class="p">)</span>
+            <span class="c">#mark run as uploaded</span>
+            <span class="n">run_2_pid</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">run_name</span><span class="p">,</span> 
+                                          <span class="n">run_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">))</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">downloaded</span><span class="o">=</span><span class="s">&#39;Y&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">data_file</span><span class="p">)</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Error during file transfer involving: &quot;</span> <span class="o">+</span> <span class="n">src_file</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+
+    <span class="n">zc_ssh</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">ion_ssh</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">zc_session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+    </div>
+<div class="viewcode-block" id="move_remote_files"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.move_remote_files">[docs]</a><span class="k">def</span> <span class="nf">move_remote_files</span><span class="p">(</span><span class="n">one</span><span class="p">,</span> <span class="n">two</span><span class="p">,</span> <span class="n">three</span><span class="p">,</span> <span class="n">four</span><span class="p">):</span>
+    <span class="k">pass</span>
+    
+    </div>
+<div class="viewcode-block" id="prune_projects"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.prune_projects">[docs]</a><span class="k">def</span> <span class="nf">prune_projects</span><span class="p">(</span><span class="n">session</span><span class="p">):</span>
+    <span class="n">pa</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;project_adapters&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;configuration&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">rn_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;args&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    
+    <span class="c">#get the projects we want to prune</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">or_</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">&quot;delete&quot;</span><span class="p">),</span> 
+                                    <span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">&quot;Delete&quot;</span><span class="p">),</span>
+                                    <span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s">&quot;DUPLICATE&quot;</span><span class="p">)))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">pid</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">project_id</span>
+        <span class="c">#get all of the jobs for this project_id</span>
+        <span class="n">jn_results</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">jn_row</span> <span class="ow">in</span> <span class="n">jn_results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+            <span class="c">#remove the args for each project</span>
+            <span class="n">args</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="o">==</span><span class="n">jn_row</span><span class="o">.</span><span class="n">job_id</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#remove adapter entries</span>
+        <span class="n">pa</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">pa</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#remove all the jn_mapping data for this project</span>
+        <span class="n">jn_mapping</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#remove all the configuration data for this project</span>
+        <span class="n">config</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#remove the pn_mapping for this project</span>
+        <span class="n">pn_mapping</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#change the rn_2_pid information for this project</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">configured</span><span class="o">=</span><span class="s">&#39;N&#39;</span><span class="p">,</span> <span class="n">downloaded</span><span class="o">=</span><span class="s">&#39;Y&#39;</span><span class="p">)</span>
+        <span class="n">u</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>   
+
+</div>
+<div class="viewcode-block" id="push_configuration"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.push_configuration">[docs]</a><span class="k">def</span> <span class="nf">push_configuration</span><span class="p">():</span>
+    <span class="p">(</span><span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">ignore</span><span class="p">)</span> <span class="o">=</span> <span class="n">get_configuration_tables</span><span class="p">()</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;args&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">SSHConnection</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_HOST</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_USER</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">ZC_PASSWD</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">pn_mapping</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="p">],</span> <span class="n">and_</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="p">,</span> 
+                                                  <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">downloaded</span><span class="o">==</span><span class="s">&#39;N&#39;</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">configured</span><span class="o">==</span><span class="s">&#39;Y&#39;</span><span class="p">),</span> 
+                     <span class="n">use_labels</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+                     
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">pid</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">pn_mapping_project_id</span>
+        <span class="n">pn</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">pn_mapping_project_name</span>
+        <span class="n">source_id</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">runname_to_pid_source_id</span>
+        <span class="n">run_name</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">runname_to_pid_run_name</span>
+        <span class="n">paired</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">runname_to_pid_paired_end</span>
+        <span class="n">downloaded</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">runname_to_pid_downloaded</span>
+        <span class="n">configured</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">runname_to_pid_configured</span>
+        <span class="n">local_job_config</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">CONFIG_PATH</span> <span class="o">+</span> <span class="n">pn</span>
+        <span class="n">local_project_config</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">CONFIG_PATH</span> <span class="o">+</span> <span class="n">pn</span> <span class="o">+</span> <span class="s">&quot;_global&quot;</span>
+        <span class="n">fh_global</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">local_project_config</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+        <span class="n">fh</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">local_job_config</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+        <span class="c">#get each of the job_ids FROM jn_mapping, grab</span>
+        <span class="n">jobs</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">record</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">source_id</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">run_name</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">pid</span><span class="p">),</span> <span class="n">downloaded</span><span class="p">,</span> <span class="n">configured</span><span class="p">,</span> <span class="n">paired</span><span class="p">]</span>
+            <span class="n">fh_global</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\t</span><span class="s">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">record</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">job</span> <span class="ow">in</span> <span class="n">jobs</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+                <span class="c">#get the job_id for each job</span>
+                <span class="n">jid_result</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">jn_mapping</span><span class="p">],</span> <span class="n">and_</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+                <span class="n">row</span> <span class="o">=</span> <span class="n">jid_result</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+                <span class="c">#get the runname, source_id for this job</span>
+                <span class="c">#write the configuration of this job to file, put the args at the end (if there are any)</span>
+                <span class="n">arg_results</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_id</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+                <span class="n">arg_row</span> <span class="o">=</span> <span class="n">arg_results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+                <span class="n">arg_str</span> <span class="o">=</span> <span class="n">make_arg_string</span><span class="p">(</span><span class="n">arg_row</span><span class="p">)</span>
+                <span class="n">record</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">job_id</span><span class="p">),</span> <span class="n">job</span><span class="o">.</span><span class="n">job_type</span><span class="p">,</span> <span class="n">job</span><span class="o">.</span><span class="n">code</span><span class="p">,</span> <span class="n">arg_str</span><span class="p">,</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">]</span>
+                <span class="n">fh</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\t</span><span class="s">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">record</span><span class="p">))</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">raise</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Error pushing configuration for &quot;</span> <span class="o">+</span> <span class="n">run_name</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">pn</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">pid</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">source_id</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">run_name</span><span class="p">)]))</span>
+
+        <span class="n">fh_global</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">fh</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="c">#move the configuration files to the ZC pipeline</span>
+        <span class="n">config_path</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">home_dir</span> <span class="o">+</span> <span class="n">settings</span><span class="o">.</span><span class="n">CONFIG_PATH</span>
+        <span class="n">job_dest</span> <span class="o">=</span> <span class="n">config_path</span> <span class="o">+</span> <span class="n">pn</span>
+        <span class="n">project_dest</span> <span class="o">=</span> <span class="n">config_path</span> <span class="o">+</span> <span class="n">pn</span> <span class="o">+</span> <span class="s">&quot;_global&quot;</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">local_job_config</span><span class="p">,</span> <span class="n">job_dest</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;chmod a+rwx &quot;</span> <span class="o">+</span> <span class="n">job_dest</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">local_project_config</span><span class="p">,</span> <span class="n">project_dest</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;chmod a+rwx &quot;</span> <span class="o">+</span> <span class="n">project_dest</span><span class="p">)</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">local_project_config</span><span class="p">)</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">local_job_config</span><span class="p">)</span>
+
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+</div>
+<div class="viewcode-block" id="run_configured"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.run_configured">[docs]</a><span class="k">def</span> <span class="nf">run_configured</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">source_id</span><span class="p">):</span>
+    <span class="n">rn_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">results</span><span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base</span><span class="p">,</span> 
+                                  <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">,</span> 
+                                  <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">configured</span><span class="o">==</span><span class="s">&#39;Y&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="n">configured</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">configured</span> <span class="o">=</span> <span class="bp">True</span>
+        
+    <span class="k">return</span> <span class="n">configured</span>
+
+</div>
+<div class="viewcode-block" id="source_active"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.source_active">[docs]</a><span class="k">def</span> <span class="nf">source_active</span><span class="p">(</span><span class="n">source_id</span><span class="p">):</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+</div>
+<div class="viewcode-block" id="update_preassemble_config"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.update_preassemble_config">[docs]</a><span class="k">def</span> <span class="nf">update_preassemble_config</span><span class="p">(</span><span class="n">assembler</span><span class="p">,</span> <span class="n">pid</span><span class="p">,</span> <span class="n">assem_config</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+    <span class="c">#update configuration for this assembler</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">assem_config</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">assem_config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">assembler</span><span class="o">==</span><span class="n">assembler</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">res</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> 
+                                       <span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">code</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">code</span><span class="p">)</span>
+        <span class="n">u</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+
+</div>
+<div class="viewcode-block" id="write_configuration"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.write_configuration">[docs]</a><span class="k">def</span> <span class="nf">write_configuration</span><span class="p">(</span><span class="n">base_name</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">default</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">paired</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="c">#insert an entry into pn_mapping</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">)</span>
+    <span class="n">pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    
+    <span class="c">#if the project name is taken, try to append the source_id and submit again</span>
+    <span class="c">#if(pid is None): </span>
+    <span class="c">#    base_name = base_name + &quot;_&quot; + str(source_id)</span>
+    <span class="c">#    s = pn_mapping.select(pn_mapping.c.project_name==base_name)</span>
+    <span class="c">#    i = pn_mapping.insert().values(project_name=base_name)</span>
+    <span class="c">#    pid = netutils.check_and_insert(s, i)</span>
+        
+    <span class="c">#if we still didn&#39;t have any luck, return failure</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">pid</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+
+    <span class="c">#set the appropriate paired-end flag</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">paired</span><span class="p">):</span>
+        <span class="n">paired_end</span> <span class="o">=</span> <span class="s">&#39;Y&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">paired_end</span> <span class="o">=</span> <span class="s">&#39;N&#39;</span>
+
+    <span class="c">#insert an entry in rn_2_pn</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">))</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">source_id</span><span class="o">=</span><span class="n">source_id</span><span class="p">,</span> <span class="n">run_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span> <span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">,</span> <span class="n">paired_end</span><span class="o">=</span><span class="n">paired_end</span><span class="p">)</span>
+    <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+
+    <span class="c">#insert entries into jn_mapping, configuration</span>
+    <span class="n">job_types</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;job_types&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">default_args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_args&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;args&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">default</span><span class="p">,</span> <span class="n">job_types</span><span class="p">,</span> <span class="n">default_args</span><span class="p">],</span> 
+                    <span class="n">and_</span><span class="p">(</span><span class="n">default</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job_types</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> 
+                        <span class="n">default_args</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job_types</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">type</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">,</span> <span class="n">code</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">code</span><span class="p">)</span>
+        <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+
+        <span class="n">s</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">)</span>
+        <span class="n">jid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        
+        <span class="c">#check if this project is paired-end, and if this job supports paired-end input</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">paired</span> <span class="ow">and</span> <span class="n">row</span><span class="o">.</span><span class="n">supports_paired_end</span><span class="p">):</span>
+            <span class="c">#insert paired-end args for this job</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">job_id</span><span class="o">=</span><span class="n">jid</span><span class="p">,</span> <span class="n">executable</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">loc</span><span class="p">,</span> 
+                                    <span class="n">resources</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">resources</span><span class="p">,</span> <span class="n">process_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">process_args</span><span class="p">,</span>
+                                    <span class="n">pipeline_args</span><span class="o">=</span><span class="s">&quot;--paired_end &quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">pipeline_args</span><span class="p">,</span> 
+                                    <span class="n">priority</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">priority</span><span class="p">)</span>          
+            <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            
+    <span class="k">return</span> <span class="bp">True</span>
+            
+</div>
+<div class="viewcode-block" id="write_ftp_runs"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.write_ftp_runs">[docs]</a><span class="k">def</span> <span class="nf">write_ftp_runs</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">credentials</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+    <span class="c">#create the needed table objects</span>
+    <span class="p">(</span><span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">default</span><span class="p">)</span> <span class="o">=</span> <span class="n">get_configuration_tables</span><span class="p">()</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="s">&quot;localhost&quot;</span> <span class="ow">in</span> <span class="n">host</span><span class="p">):</span>
+        <span class="c">#open an ssh connection to the remote computer</span>
+        <span class="n">ssh</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">SSHConnection</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">],</span> <span class="n">password</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;passwd&#39;</span><span class="p">])</span>
+    
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c">#check if the path exists</span>
+        <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">)):</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Data source &quot;</span> <span class="o">+</span> <span class="n">source_id</span> <span class="o">+</span> <span class="s">&quot; @ &quot;</span> <span class="o">+</span> <span class="n">host</span> <span class="o">+</span> <span class="s">&quot; misconfigured.&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        
+        <span class="c">#if the path exists, read the files there</span>
+        <span class="n">files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">,</span> <span class="n">filename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+            <span class="n">full_path</span> <span class="o">=</span> <span class="n">d</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="n">filename</span>
+            <span class="n">base</span><span class="p">,</span> <span class="n">ext</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">ext</span> <span class="ow">in</span> <span class="n">settings</span><span class="o">.</span><span class="n">SUPPORTED_FILETYPES</span><span class="p">):</span>
+                <span class="k">continue</span>
+                
+            <span class="c">#the basename is the new default project name</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">run_configured</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">source_id</span><span class="p">)):</span>
+                <span class="c">#check if this run is paired-end</span>
+                <span class="n">paired</span> <span class="o">=</span> <span class="bp">False</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">f</span> <span class="o">+</span> <span class="s">&quot;.end2.fastq&quot;</span><span class="p">)):</span>
+                    <span class="n">paired</span> <span class="o">=</span> <span class="bp">True</span>
+                
+                <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">write_configuration</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="p">,</span> <span class="n">pn_mapping</span><span class="p">,</span> 
+                                           <span class="n">jn_mapping</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">default</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">paired</span><span class="o">=</span><span class="n">paired</span><span class="p">)):</span>
+                    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Did not write configuration for: &quot;</span> <span class="o">+</span> <span class="n">base</span><span class="p">)</span>
+
+</div>
+<div class="viewcode-block" id="write_it_runs"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.write_it_runs">[docs]</a><span class="k">def</span> <span class="nf">write_it_runs</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">source_id</span><span class="p">,</span> <span class="n">credentials</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="c">#create DB sessions/table objects</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">h</span><span class="o">=</span><span class="n">host</span><span class="p">,</span> <span class="n">u</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;dbuser&#39;</span><span class="p">],</span> <span class="n">p</span><span class="o">=</span><span class="n">credentials</span><span class="p">[</span><span class="s">&#39;dbpasswd&#39;</span><span class="p">],</span> <span class="n">d</span><span class="o">=</span><span class="s">&#39;iondb&#39;</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="n">POSTGRES_DRIVER</span><span class="p">)</span>
+    <span class="n">rundb_results</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;rundb_results&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="n">rundb_experiment</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;rundb_experiment&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+    <span class="c">#seq_files = netutils.getTableObject(&quot;system_input&quot;, zc_session)</span>
+
+    <span class="n">args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;args&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">default_args</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_args&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">default</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_configuration&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;configuration&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">pn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">jn_mapping</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">rn_2_pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;runname_to_pid&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    <span class="n">assem_config</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;assembler_config&quot;</span><span class="p">,</span> <span class="n">zc_session</span><span class="p">)</span>
+    
+    <span class="n">assemble_replacer</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;--assembler\s\w+&quot;</span><span class="p">)</span>
+
+    <span class="c">#select the completed runs that aren&#39;t assembled or configured</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">fastqLink</span><span class="p">,</span> <span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">experiment_id</span><span class="p">],</span> <span class="n">rundb_results</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">assembly</span><span class="o">==</span><span class="s">&#39;N&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+        <span class="n">base_name</span> <span class="o">=</span> <span class="n">get_runname</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">fastqLink</span><span class="p">,</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">)</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="n">exid</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">experiment_id</span>
+        
+        <span class="n">row</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+        <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">row</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+            <span class="k">continue</span>
+
+        <span class="c">#insert an entry into pn_mapping</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">pn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">pn_mapping</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">)</span>
+        <span class="n">pid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        
+        <span class="k">if</span><span class="p">(</span><span class="n">pid</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Project already configured with this name but not with this run, skipping.&quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+
+        <span class="c">#insert an entry in rn_2_pn</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">,</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">))</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">source_id</span><span class="o">=</span><span class="n">source_id</span><span class="p">,</span> <span class="n">run_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span> <span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">)</span>
+        <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+
+        <span class="c">#insert entries into jn_mapping</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">select</span><span class="p">()</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="n">jids</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">config</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">,</span> <span class="n">code</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">code</span><span class="p">)</span>
+            <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+
+            <span class="n">s</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">pid</span><span class="p">,</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">))</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">jn_mapping</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">pid</span><span class="p">,</span> <span class="n">job_type</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">)</span>
+            <span class="n">jid</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">check_and_insert</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+            
+            <span class="n">jids</span><span class="p">[</span><span class="n">row</span><span class="o">.</span><span class="n">job_type</span><span class="p">]</span> <span class="o">=</span> <span class="n">jid</span>
+            
+        <span class="c">#update rundb_results to mark configured</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">update</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_id</span><span class="o">==</span><span class="n">source_id</span><span class="p">,</span> 
+                                         <span class="n">rn_2_pid</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">run_name</span><span class="o">==</span><span class="n">base_name</span><span class="p">))</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">configured</span><span class="o">=</span><span class="s">&#39;Y&#39;</span><span class="p">)</span>
+        <span class="n">u</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#check the chip type and get the assembler</span>
+        <span class="n">chip_res</span> <span class="o">=</span> <span class="n">select</span><span class="p">([</span><span class="n">rundb_experiment</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">chipType</span><span class="p">],</span> <span class="n">rundb_experiment</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">id</span><span class="o">==</span><span class="n">exid</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="n">row</span> <span class="o">=</span> <span class="n">chip_res</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+        <span class="n">chipType</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">chipType</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">&quot;</span><span class="p">,</span> <span class="s">&quot;&quot;</span><span class="p">)[:</span><span class="mi">3</span><span class="p">]</span>
+        <span class="n">assembler</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">ION_ASSEMBLERS</span><span class="p">[</span><span class="n">chipType</span><span class="p">]</span>
+        
+        <span class="n">update_preassemble_config</span><span class="p">(</span><span class="n">assembler</span><span class="p">,</span> <span class="n">pid</span><span class="p">,</span> <span class="n">assem_config</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+        
+        <span class="c">#set the appropriate pipeline_args for the assembly job</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">default_args</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">default_args</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="s">&#39;assemble&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="n">row</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+        <span class="n">pipe_args</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">pipeline_args</span>
+        <span class="n">pipe_args</span> <span class="o">=</span> <span class="n">assemble_replacer</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">&quot;--assembler mira&quot;</span><span class="p">,</span> <span class="n">pipe_args</span><span class="p">)</span>
+        
+        <span class="n">i</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">job_id</span><span class="o">=</span><span class="n">jids</span><span class="p">[</span><span class="s">&#39;assemble&#39;</span><span class="p">],</span> <span class="n">loc</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">loc</span><span class="p">,</span> 
+                                 <span class="n">executable</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span> <span class="n">process_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">process_args</span><span class="p">,</span> <span class="n">pipeline_args</span><span class="o">=</span><span class="n">pipe_args</span><span class="p">,</span>
+                                 <span class="n">resources</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">resources</span><span class="p">,</span> <span class="n">priority</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">priority</span><span class="p">)</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        
+        <span class="c">#s = seq_files.select(and_(seq_files.c.source_id==source_id, seq_files.c.base_name==base_name))</span>
+        <span class="c">#i = seq_files.insert().values(source_id=source_id, base_name=base_name, configured=&#39;N&#39;)</span>
+        <span class="c">#insert a record in sequence_files if this run hasn&#39;t been configured and isn&#39;t already in the table</span>
+        <span class="c">#netutils.check_and_insert(s, i)</span>
+        <span class="c">#fh.write(get_runname(row.fastqLink, &quot;ion_torrent&quot;) + &quot;\n&quot;)</span>
+
+    <span class="n">session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">zc_session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+
+<span class="c">########################### DB CONFIGURATION ###############################</span></div>
+<span class="n">SRC_DB_HOST</span> <span class="o">=</span> <span class="s">&quot;localhost&quot;</span>
+<span class="n">SRC_DB</span> <span class="o">=</span> <span class="s">&quot;zero_click&quot;</span>
+<span class="n">SRC_DB_USER</span> <span class="o">=</span> <span class="s">&quot;zeroclick&quot;</span>
+<span class="n">SRC_DB_PASSWD</span> <span class="o">=</span> <span class="s">&quot;Whitney2011&quot;</span>
+<span class="n">MYSQL_DRIVER</span> <span class="o">=</span> <span class="s">&quot;mysql+mysqldb&quot;</span>
+<span class="n">POSTGRES_DRIVER</span> <span class="o">=</span> <span class="s">&quot;postgresql+pg8000&quot;</span>
+<span class="n">zc_session</span> <span class="o">=</span> <span class="n">make_zcdb_session</span><span class="p">()</span>
+
+<span class="c">########################## Ion Torrent Config #############################</span>
+<span class="n">BASE_DATA_DIR</span> <span class="o">=</span> <span class="s">&quot;/var/www/&quot;</span>
+
+
+<span class="n">config_runs</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;ftp&quot;</span><span class="p">:</span> <span class="n">write_ftp_runs</span><span class="p">,</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">:</span> <span class="n">write_it_runs</span><span class="p">}</span>
+<span class="n">file_movers</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;ftp&quot;</span><span class="p">:</span> <span class="n">move_ftp_data</span><span class="p">,</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">:</span> <span class="n">move_it_data</span><span class="p">}</span>
+<span class="n">data_sources</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;ftp&quot;</span><span class="p">,</span> <span class="s">&quot;ion_torrent&quot;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.data_gremlin.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+
+    <span class="n">DEST_DIR</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">dest_dir</span>
+    <span class="n">SLEEP_INTERVAL</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">sleep_interval</span>
+    <span class="k">while</span><span class="p">(</span><span class="bp">True</span><span class="p">):</span>
+        <span class="c">#connect to the database to get a current copy of the data sources we&#39;re using</span>
+        <span class="n">session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="n">SRC_DB_HOST</span><span class="p">,</span> <span class="n">SRC_DB</span><span class="p">,</span> <span class="n">SRC_DB_USER</span><span class="p">,</span> <span class="n">SRC_DB_PASSWD</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="n">MYSQL_DRIVER</span><span class="p">)</span>
+        <span class="n">session</span><span class="o">.</span><span class="n">activateConnection</span><span class="p">()</span>
+        
+        <span class="c">#remove projects marked for deletion</span>
+        <span class="n">prune_projects</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>  
+        
+        <span class="n">src_tbl</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;data_sources&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">src_type</span> <span class="ow">in</span> <span class="n">data_sources</span><span class="p">:</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="n">src_tbl</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">and_</span><span class="p">(</span><span class="n">src_tbl</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">active</span><span class="o">==</span><span class="mi">1</span><span class="p">,</span> <span class="n">src_tbl</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">source_type</span><span class="o">==</span><span class="n">src_type</span><span class="p">))</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+                <span class="c">#check if this data source is active</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">source_active</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">source_id</span><span class="p">)):</span>
+                    <span class="n">cred</span> <span class="o">=</span> <span class="n">read_credentials</span><span class="p">(</span><span class="s">&quot;credentials/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">host</span><span class="p">))</span>
+                    <span class="c">#write this configuration data to the ZC server</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">config_runs</span><span class="p">[</span><span class="n">src_type</span><span class="p">](</span><span class="n">row</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="n">row</span><span class="o">.</span><span class="n">source_id</span><span class="p">,</span> <span class="n">cred</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">directory</span><span class="p">)</span>
+                    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Error configuring runs for source: &quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">source_name</span><span class="p">)</span>
+                        <span class="k">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+                    <span class="c">#push default configuration for all runs to the db</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">settings</span><span class="o">.</span><span class="n">PUSH_CONFIGURATION_DATA</span><span class="p">):</span>
+                        <span class="k">try</span><span class="p">:</span>
+                            <span class="n">push_configuration</span><span class="p">()</span>
+                        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                            <span class="k">raise</span>
+                            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+                            <span class="k">print</span><span class="p">(</span><span class="s">&quot;Error pushing configurations for &quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">source_name</span><span class="p">)</span>
+                            <span class="k">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+                    <span class="c">#move completed runs to ZC server</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">file_movers</span><span class="p">[</span><span class="n">src_type</span><span class="p">](</span><span class="n">row</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="n">row</span><span class="o">.</span><span class="n">source_id</span><span class="p">,</span> <span class="n">cred</span><span class="p">,</span> <span class="n">DEST_DIR</span><span class="p">,</span> <span class="n">row</span><span class="o">.</span><span class="n">directory</span><span class="p">)</span>
+                    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                        <span class="k">raise</span>
+                        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Error moving data files for &quot;</span> <span class="o">+</span> <span class="n">row</span><span class="o">.</span><span class="n">source_name</span><span class="p">)</span>
+                        <span class="k">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+                        
+          
+
+        <span class="c">#for each datasource, check if there&#39;s new data</span>
+        <span class="c">#move the data to the dest, renaming if required (check file_renames table)</span>
+
+        <span class="n">session</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">SLEEP_INTERVAL</span><span class="p">)</span>
+
+
+
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--dest-dir&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;dest_dir&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">settings</span><span class="o">.</span><span class="n">home_dir</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&#39;Destination on the remote server where the gremlin should put files.&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&#39;--sleep-interval&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s">&#39;sleep_interval&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;How long this gremlin should sleep between checks.&quot;</span><span class="p">)</span>
+    <span class="n">main</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">parse_args</span><span class="p">())</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Author.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>zeroclick.dispatcher &mdash; zeroclick  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="zeroclick  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for zeroclick.dispatcher</h1><div class="highlight"><pre>
+<span class="c">#############################################################################################</span>
+<span class="c">#</span>
+<span class="c">#  Peter L. Williams</span>
+<span class="c">#  November 29, 2012</span>
+<span class="c">#</span>
+<span class="c">#  dispatcher.py</span>
+<span class="c">#</span>
+<span class="c">#     input: none</span>
+<span class="c">#</span>
+<span class="c">#     action:  loops forever, sleeping for SLEEP_INTERVAL:</span>
+<span class="c">#               -- finds new projects in assembled data directory, PIPELINE_PATH,</span>
+<span class="c">#                  and adds annotation jobs to queue table in zero_click database.</span>
+<span class="c">#               -- looks for completed projects in queue table and adds them to</span>
+<span class="c">#                  completed_projects table, and if they have a job_type=&#39;upload&#39;,</span>
+<span class="c">#                  ftp&#39;s the relevant files to Whitney&#39;s ftp server.</span>
+<span class="c">#</span>
+<span class="c">#     ====================================================================================</span>
+<span class="c">#     BEFORE USING: modify SLEEP_INTERVAL, PIPELINE_PATH, (possibly) REMOTE_PIPELINE_PATH,</span>
+<span class="c">#                   and change &quot;_dev&quot; ==&gt; &quot;&quot; globally in this file.</span>
+<span class="c">#     ====================================================================================</span>
+<span class="c">#</span>
+<span class="c">#     details:</span>
+<span class="c">#       open database tables: queue, pn_mapping, jn_mapping, configuration,</span>
+<span class="c">#                             default_configuration, init_projects, completed_projects,</span>
+<span class="c">#                             submitted_projects, args, default_args</span>
+<span class="c">#       Default Jobs for a Project: uses entries in default_configuration &amp; default_args tables</span>
+<span class="c">#       Special Case: uses entries in pn_mapping, jn_mapping, configuration, &amp; args tables.</span>
+<span class="c">#</span>
+<span class="c">#       loop forever:</span>
+<span class="c">#         ENTER NEW PROJECTS INTO QUEUE:</span>
+<span class="c">#         read PIPELINE_PATH dir to find all projects to be annotated,</span>
+<span class="c">#         foreach &lt;project_name&gt; found:</span>
+<span class="c">#           look up &lt;project_name&gt; in pn_mapping_table</span>
+<span class="c">#           if there ==&gt; not a default job; so ==&gt; &lt;project_id&gt;</span>
+<span class="c">#             if &lt;project_id&gt; not in init_projects_table:</span>
+<span class="c">#               insert &lt;project_id&gt; into init_projects_table</span>
+<span class="c">#               foreach &lt;project_id&gt; entry in configuration_table ==&gt; &lt;job_type&gt;, &lt;code&gt;</span>
+<span class="c">#                 if &lt;code&gt; == &#39;+&#39;:</span>
+<span class="c">#                   create &lt;job_name&gt; = &lt;project_name&gt;_&lt;job type&gt;</span>
+<span class="c">#	            lookup &lt;job_type&gt; &amp; &lt;project_id&gt; in jn_mapping table ==&gt; &lt;job_id&gt;</span>
+<span class="c">#                   lookup &lt;job_id&gt; in args table ==&gt; &lt;args_list&gt;</span>
+<span class="c">#                   insert &lt;project_id&gt;, &lt;job_id&gt;, &lt;job_type&gt;, &lt;args_list&gt; into queue table</span>
+<span class="c">#                      setting started, finished = &#39;N&#39;</span>
+<span class="c">#               insert &lt;project_id&gt; into submitted_projects table</span>
+<span class="c">#           else: &lt;project_name&gt; not in pn_table so its a default job</span>
+<span class="c">#             insert &lt;project_name&gt; into pn_mapping -&gt; &lt;project_id&gt;</span>
+<span class="c">#             insert &lt;project_id&gt; into init_projects table</span>
+<span class="c">#             foreach &lt;job_type&gt; in default_configuration:</span>
+<span class="c">#               if &lt;code&gt; == &#39;+&#39;:</span>
+<span class="c">#                 create &lt;job_name&gt; = &lt;project_name&gt;_&lt;job type&gt;</span>
+<span class="c">#                 insert &lt;job_type&gt;,&lt;project_id&gt; into jn_mapping -&gt; &lt;job_id&gt;</span>
+<span class="c">#                 lookup &lt;job_type&gt; in default_args table -&gt; &lt;args_list&gt;</span>
+<span class="c">#                 insert &lt;project_id&gt;, &lt;job_id&gt;, &lt;job_type&gt;, &lt;args_list&gt; into queue table</span>
+<span class="c">#                      setting started, finished = &#39;N&#39;</span>
+<span class="c">#             insert &lt;project_id&gt; into submitted_projects table</span>
+<span class="c">#</span>
+<span class="c">#         PROCESS COMPLETED JOBS</span>
+<span class="c">#         find all submitted projects, not in completed projects ==&gt; &lt;project_id_list&gt;</span>
+<span class="c">#         foreach &lt;project_id&gt; in &lt;project_id_list&gt;:</span>
+<span class="c">#           find all jobs for that &lt;project_id&gt; in queue_table where finished = &#39;N&#39;</span>
+<span class="c">#           if no rows with finished=N, or one row with finished=N and job_type = upload then proj is complete</span>
+<span class="c">#           if found job_type=upload and all other rows finished:</span>
+<span class="c">#             do upload:</span>
+<span class="c">#               get project_name from pn_mapping_table</span>
+<span class="c">#               ftp = FTP(&#39;128.227.123.35&#39;,&#39;ftpguest&#39;,&#39;7002ram&#39;)</span>
+<span class="c">#               send all files in PIPELINE_PATH/&lt;project_name&gt; dir</span>
+<span class="c">#               to ftp.server/REMOTE_PIPELINE_PATH/&lt;project_name&gt;</span>
+<span class="c">#         insert project_id in completed_projects</span>
+<span class="c">#         if job_type=&#39;upload&#39; set upload finished=&#39;Y&#39; in queue table</span>
+<span class="c">#   end for row in results.fetchall():</span>
+<span class="c">#   END PROCESS COMPLETED JOBS</span>
+<span class="c">#</span>
+<span class="c">#   sleep(SLEEP_INTERVAL)</span>
+<span class="c">##############################################################################################</span>
+
+<span class="kn">from</span> <span class="nn">zeroclick</span> <span class="kn">import</span> <span class="n">settings</span><span class="p">,</span> <span class="n">netutils</span>
+<span class="kn">from</span> <span class="nn">zeroclick.file_io</span> <span class="kn">import</span> <span class="n">FileExtensions</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">isfile</span><span class="p">,</span> <span class="n">join</span><span class="p">,</span> <span class="n">isdir</span><span class="p">,</span> <span class="n">exists</span>
+<span class="kn">from</span> <span class="nn">ftplib</span> <span class="kn">import</span> <span class="n">FTP</span>
+
+<span class="c"># SLEEP_INTERVAL = 5*60*60 # 5 hours</span>
+<span class="n">SLEEP_INTERVAL</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">60</span> <span class="c"># 5 min</span>
+<span class="n">PIPELINE_PATH</span> <span class="o">=</span> <span class="s">&quot;/srv/data2/pipeline&quot;</span>
+<span class="c"># REMOTE_PIPELINE_PATH = &#39;moroz.pipeline&#39;</span>
+<span class="n">REMOTE_PIPELINE_PATH</span> <span class="o">=</span> <span class="s">&#39;/cygdrive/c/wamp/zeroclick_data&#39;</span>
+
+
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../zeroclick.html#zeroclick.dispatcher.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+
+<span class="c"># Deal with database:</span>
+  <span class="n">session</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">DBSession</span><span class="p">(</span><span class="s">&quot;localhost&quot;</span><span class="p">,</span> <span class="s">&quot;zero_click&quot;</span><span class="p">,</span> <span class="s">&quot;zeroclick&quot;</span><span class="p">,</span> <span class="s">&quot;Whitney2011&quot;</span><span class="p">)</span>
+  <span class="n">session</span><span class="o">.</span><span class="n">activateConnection</span><span class="p">()</span>
+  <span class="n">completed_projects_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;completed_projects&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">init_projects_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;init_projects&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">submitted_projects_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;submitted_projects&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">configuration_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;configuration&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">default_configuration_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_configuration&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">pn_mapping_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;pn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">jn_mapping_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;jn_mapping&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">args_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;args&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">default_args_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;default_args&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+  <span class="n">queue_table</span> <span class="o">=</span> <span class="n">netutils</span><span class="o">.</span><span class="n">getTableObject</span><span class="p">(</span><span class="s">&quot;queue&quot;</span><span class="p">,</span> <span class="n">session</span><span class="p">)</span>
+
+  <span class="n">projects_to_run</span> <span class="o">=</span> <span class="p">[]</span>
+
+  <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+
+<span class="c">#   ENTER NEW PROJECTS INTO QUEUE</span>
+
+<span class="c">#   find names of projects in PIPELINE_PATH</span>
+    <span class="n">sample_name</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="n">sample_name_with_path</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="n">dir_names</span> <span class="o">=</span> <span class="p">[</span> <span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">PIPELINE_PATH</span><span class="p">)</span> <span class="k">if</span> <span class="n">isdir</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">PIPELINE_PATH</span><span class="p">,</span><span class="n">f</span><span class="p">))</span> <span class="p">]</span>
+    <span class="k">for</span> <span class="n">dname</span> <span class="ow">in</span> <span class="n">dir_names</span><span class="p">:</span>
+      <span class="n">dname_flag</span> <span class="o">=</span> <span class="n">dname</span> <span class="o">+</span> <span class="s">&quot;/SRC_UPLOADED&quot;</span>
+      <span class="n">dname_flag_with_path</span> <span class="o">=</span> <span class="n">PIPELINE_PATH</span> <span class="o">+</span> <span class="s">&#39;/&#39;</span> <span class="o">+</span> <span class="n">dname_flag</span>
+      <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dname_flag_with_path</span><span class="p">):</span>
+        <span class="n">sample_name</span> <span class="o">=</span> <span class="n">dname</span>
+        <span class="n">sample_name_with_path</span> <span class="o">=</span> <span class="n">PIPELINE_PATH</span> <span class="o">+</span> <span class="s">&#39;/&#39;</span> <span class="o">+</span> <span class="n">dname</span>
+      <span class="k">else</span><span class="p">:</span>
+<span class="c">#        print &quot; skipping dir: &quot;, dname, &quot;because no SRC_UPLOADED flag in it&quot;</span>
+        <span class="k">continue</span>
+<span class="c">#      print &quot;adding &quot;, sample_name, &quot; to projects to run&quot;</span>
+      <span class="n">projects_to_run</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sample_name</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">project_name</span> <span class="ow">in</span> <span class="n">projects_to_run</span><span class="p">:</span>
+<span class="c">#     look up &lt;project_name&gt; in pn_mapping</span>
+      <span class="n">s</span> <span class="o">=</span> <span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">select</span><span class="p">(</span>
+            <span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="p">)</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">project_name</span><span class="p">)</span>
+      <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+      <span class="n">xxx</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+      <span class="k">if</span> <span class="n">xxx</span><span class="p">:</span> <span class="c">#  THEN ITS NOT A DEFAULT JOB</span>
+        <span class="n">project_id</span> <span class="o">=</span> <span class="n">xxx</span><span class="o">.</span><span class="n">project_id</span>
+<span class="c">#       if &lt;project_id&gt; not in init_projects table:</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">init_projects_table</span><span class="o">.</span><span class="n">select</span><span class="p">(</span>
+              <span class="n">init_projects_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">ts</span><span class="p">)</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">init_projects_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">project_id</span><span class="p">)</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">():</span> <span class="c"># proj not in init_projects table</span>
+          <span class="k">print</span> <span class="s">&quot;Adding &quot;</span><span class="p">,</span> <span class="n">project_name</span><span class="p">,</span> <span class="s">&quot; to queue table&quot;</span>
+<span class="c">#         insert &lt;project_id&gt; into init_projects table</span>
+          <span class="n">i</span> <span class="o">=</span> <span class="n">init_projects_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+          <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+<span class="c">#         foreach &lt;project_id&gt; entry in configuration table ==&gt; &lt;job_type&gt;, &lt;code&gt;</span>
+          <span class="n">s</span> <span class="o">=</span> <span class="n">configuration_table</span><span class="o">.</span><span class="n">select</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">configuration_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">project_id</span><span class="p">)</span>
+          <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+          <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">row</span><span class="o">.</span><span class="n">code</span> <span class="o">==</span> <span class="s">&#39;+&#39;</span><span class="p">:</span>
+<span class="c">#             create &lt;job_name&gt; = &lt;project_name&gt;_&lt;job type&gt;</span>
+              <span class="n">job_type</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">job_type</span>
+              <span class="n">job_name</span> <span class="o">=</span> <span class="n">project_name</span> <span class="o">+</span> <span class="s">&#39;_&#39;</span> <span class="o">+</span> <span class="n">job_type</span>
+<span class="c">#	      lookup &lt;job_type&gt; &amp; &lt;project_id&gt; in jn_mapping table ==&gt; &lt;job_id&gt;</span>
+              <span class="n">results</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span>
+                 <span class="s">&quot;select job_id from jn_mapping where ((project_id = ?) and (job_type = ?))&quot;</span><span class="p">,</span>
+                 <span class="p">(</span><span class="n">project_id</span><span class="p">,</span><span class="n">job_type</span><span class="p">,))</span>
+              <span class="n">xxx</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+              <span class="n">job_id</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+              <span class="k">if</span> <span class="ow">not</span> <span class="n">xxx</span><span class="p">:</span>
+                <span class="k">print</span> <span class="s">&quot;ERROR &quot;</span><span class="p">,</span> <span class="n">job_name</span><span class="p">,</span> <span class="s">&quot; not found in jn_mapping table&quot;</span>
+                <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+              <span class="k">else</span><span class="p">:</span>
+                <span class="n">job_id</span> <span class="o">=</span> <span class="n">xxx</span><span class="o">.</span><span class="n">job_id</span>
+<span class="c">#	      lookup &lt;job_id&gt; in args table ==&gt; &lt;args_list&gt;</span>
+              <span class="n">s</span> <span class="o">=</span> <span class="n">args_table</span><span class="o">.</span><span class="n">select</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">args_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_id</span><span class="o">==</span><span class="n">job_id</span><span class="p">)</span>
+              <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+              <span class="n">rows</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+              <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rows</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="n">s</span> <span class="o">=</span> <span class="n">default_args_table</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">default_args_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job_type</span><span class="p">)</span>
+                <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+                <span class="n">rows</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+              <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+<span class="c">#        	insert &lt;project_id&gt;, &lt;job_id&gt;, &lt;job_type&gt;, &lt;args_list&gt; into queue table</span>
+                <span class="n">i</span> <span class="o">=</span> <span class="n">queue_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+                <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">,</span><span class="n">job_id</span><span class="o">=</span><span class="n">job_id</span><span class="p">,</span><span class="n">job_type</span><span class="o">=</span><span class="n">job_type</span><span class="p">,</span><span class="n">executable</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span>
+                  <span class="n">loc</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">loc</span><span class="p">,</span><span class="n">process_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">process_args</span><span class="p">,</span><span class="n">pipeline_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">pipeline_args</span><span class="p">,</span>
+                  <span class="n">resources</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">resources</span><span class="p">,</span><span class="n">started</span><span class="o">=</span><span class="s">&#39;N&#39;</span><span class="p">,</span><span class="n">finished</span><span class="o">=</span><span class="s">&#39;N&#39;</span><span class="p">)</span>
+<span class="c">#         insert &lt;project_id&gt; into submitted_projects table</span>
+          <span class="n">i</span> <span class="o">=</span> <span class="n">submitted_projects_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+          <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+      <span class="k">else</span><span class="p">:</span> <span class="c"># &lt;project_name&gt; not in pn_mapping, so ITS A DEFAULT JOB</span>
+        <span class="k">print</span> <span class="s">&quot;Adding &quot;</span><span class="p">,</span> <span class="n">project_name</span><span class="p">,</span> <span class="s">&quot; to queue table&quot;</span>
+<span class="c">#       insert &lt;project_name&gt; into pn_mapping -&gt; &lt;project_id&gt;</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_name</span><span class="o">=</span><span class="n">project_name</span><span class="p">)</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="p">)</span><span class="o">.</span><span class="n">where</span><span class="p">(</span>
+                                                  <span class="n">pn_mapping_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_name</span><span class="o">==</span><span class="n">project_name</span><span class="p">)</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="n">project_id</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span><span class="o">.</span><span class="n">project_id</span>
+<span class="c">#       insert &lt;project_id&gt; into init_projects table</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">init_projects_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+<span class="c">#       foreach &lt;job_type&gt; in default_configuration:</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">default_configuration_table</span><span class="o">.</span><span class="n">select</span><span class="p">()</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">row</span><span class="o">.</span><span class="n">code</span> <span class="o">==</span> <span class="s">&#39;+&#39;</span><span class="p">:</span>
+<span class="c">#             create &lt;job_name&gt; = &lt;project_name&gt;_&lt;job type&gt;</span>
+              <span class="n">job_type</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">job_type</span>
+              <span class="n">job_name</span> <span class="o">=</span> <span class="n">project_name</span> <span class="o">+</span> <span class="s">&#39;_&#39;</span> <span class="o">+</span> <span class="n">job_type</span>
+<span class="c">#             insert &lt;job_type&gt;,&lt;project_id&gt; into jn_mapping -&gt; &lt;job_id&gt;</span>
+              <span class="n">i</span> <span class="o">=</span> <span class="n">jn_mapping_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+              <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">job_type</span><span class="o">=</span><span class="n">job_type</span><span class="p">,</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+              <span class="n">results</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span>
+                            <span class="s">&quot;select job_id from jn_mapping where ((project_id = ?) and (job_type = ?))&quot;</span><span class="p">,</span>
+                             <span class="p">(</span><span class="n">project_id</span><span class="p">,</span><span class="n">job_type</span><span class="p">,))</span>
+              <span class="n">job_id</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span><span class="o">.</span><span class="n">job_id</span>
+<span class="c">#             lookup &lt;job_type&gt; in default_args table -&gt; &lt;args_list&gt;</span>
+              <span class="n">s</span> <span class="o">=</span> <span class="n">default_args_table</span><span class="o">.</span><span class="n">select</span><span class="p">()</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">default_args_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">job_type</span><span class="o">==</span><span class="n">job_type</span><span class="p">)</span>
+              <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+              <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+<span class="c">#               insert &lt;project_id&gt;, &lt;job_id&gt;, &lt;job_type&gt;, &lt;args_list&gt; into queue table</span>
+                <span class="n">i</span> <span class="o">=</span> <span class="n">queue_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+                <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">,</span><span class="n">job_id</span><span class="o">=</span><span class="n">job_id</span><span class="p">,</span><span class="n">job_type</span><span class="o">=</span><span class="n">job_type</span><span class="p">,</span><span class="n">executable</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">executable</span><span class="p">,</span>
+                    <span class="n">loc</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">loc</span><span class="p">,</span><span class="n">process_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">process_args</span><span class="p">,</span><span class="n">pipeline_args</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">pipeline_args</span><span class="p">,</span>
+                    <span class="n">resources</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">resources</span><span class="p">,</span><span class="n">started</span><span class="o">=</span><span class="s">&#39;N&#39;</span><span class="p">,</span><span class="n">finished</span><span class="o">=</span><span class="s">&#39;N&#39;</span><span class="p">)</span>
+<span class="c">#       insert &lt;project_id&gt; into submitted_projects table</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">submitted_projects_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+
+<span class="c">#       now all eligible projects have been entered into queue table</span>
+<span class="c">#   end for project_name in projects_to_run</span>
+<span class="c">#   END ENTER NEW PROJECTS INTO QUEUE</span>
+
+
+<span class="c">#   PROCESS COMPLETED JOBS</span>
+
+<span class="c">#   find all submitted projects that are not completed projects</span>
+    <span class="n">results</span><span class="o">=</span><span class="n">session</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;select project_id from submitted_projects where project_id not in (select project_id from completed_projects)&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+      <span class="n">project_id</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">project_id</span>
+      <span class="n">s</span> <span class="o">=</span> <span class="n">queue_table</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">queue_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="p">)</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">queue_table</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">project_id</span><span class="o">==</span><span class="n">project_id</span><span class="p">)</span>
+      <span class="n">results</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">execute</span><span class="p">();</span>
+      <span class="k">if</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchone</span><span class="p">():</span> <span class="c"># then this project has some entries in the queue_table</span>
+<span class="c">#       find all jobs for this project_id where finished = &#39;N&#39;</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span>
+           <span class="s">&quot;select job_type,job_id from queue where ((project_id = ?) and (finished = &#39;N&#39;))&quot;</span><span class="p">,(</span><span class="n">project_id</span><span class="p">,))</span>
+        <span class="n">found_upload</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">num_rows</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="c">#       if no rows with finished=N, or one row with finished=N and job_type = upload then proj is complete</span>
+        <span class="n">upload_job_id</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+          <span class="n">num_rows</span> <span class="o">+=</span> <span class="mi">1</span>
+          <span class="k">if</span> <span class="n">row</span><span class="o">.</span><span class="n">job_type</span> <span class="o">==</span> <span class="s">&#39;upload&#39;</span><span class="p">:</span>
+            <span class="n">upload_job_id</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">job_id</span>
+            <span class="n">found_upload</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">found_upload</span> <span class="ow">and</span> <span class="n">num_rows</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span> <span class="ow">or</span> <span class="n">num_rows</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+          <span class="k">if</span> <span class="n">found_upload</span> <span class="ow">and</span> <span class="n">num_rows</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+            <span class="k">pass</span>
+<span class="c">#           do upload:  get project_name from pn_mapping_table</span>
+<span class="c">#            s = pn_mapping_table.select(pn_mapping_table.c.project_id==project_id)</span>
+<span class="c">#            results = s.execute();</span>
+<span class="c">#            project_name = results.fetchone().project_name</span>
+<span class="c">#            print &quot;starting upload of: &quot;, project_name</span>
+<span class="c">#            sshConn = 0</span>
+<span class="c">#            retries = 5</span>
+<span class="c">#            while (retries &gt; 0):</span>
+<span class="c">#              try:</span>
+<span class="c">#                sshConn = netutils.SSHConnection(&#39;128.227.123.35&#39;, username=&#39;Administrator&#39;, password=&#39;ds2008&#39;, port=2122)</span>
+<span class="c">#                print &quot;connected to 128.227.123.35&quot;</span>
+<span class="c">#                break</span>
+<span class="c">#              except Exception as e:</span>
+<span class="c">#                print(e)</span>
+<span class="c">#                sys.stderr.write(&quot;Error creating SSHConnection, sleeping for two minutes and trying again.\n&quot;)</span>
+<span class="c">#                time.sleep(120)</span>
+<span class="c">#                retries -= 1</span>
+<span class="c">#                if(retries == 0):</span>
+<span class="c">#                  raise</span>
+<span class="c">#            local_path = PIPELINE_PATH + &#39;/&#39; + project_name</span>
+<span class="c">#            this_remote_path = REMOTE_PIPELINE_PATH + &#39;/&#39; + project_name</span>
+<span class="c">#            cmd = &quot;mkdir &quot; + this_remote_path</span>
+<span class="c">#            try: sshConn.execute(cmd)</span>
+<span class="c">#            except:</span>
+<span class="c">#              nnn=os.getpid()</span>
+<span class="c">#              new_name = this_remote_path + &quot;.&quot; + str(nnn)</span>
+<span class="c">#              cmd = &quot;mv &quot; + this_remote_path + &quot; &quot; + new_name</span>
+<span class="c">#              sshConn.execute(cmd)</span>
+<span class="c">#              cmd = &quot;mkdir &quot; + this_remote_path</span>
+<span class="c">#              sshConn.execute(cmd)</span>
+<span class="c">#            cmd = &quot;chmod -R a+rwx &quot; + this_remote_path</span>
+<span class="c">#            sshConn.execute(cmd)</span>
+<span class="c">#            proc = subprocess.Popen(&quot;touch &quot; + local_path + &quot;/FILES_UPLOADED&quot;, shell=True)</span>
+<span class="c">#            proc.wait()</span>
+<span class="c">#            upload_files = [project_name + extension for extension in FileExtensions.outputExtensions.values()]</span>
+<span class="c">#            upload_files.append(&quot;FILES_UPLOADED&quot;)</span>
+<span class="c">#            file_names = [ f for f in os.listdir(local_path) if(isfile(join(local_path,f)) and f in upload_files) ]</span>
+<span class="c">#            print &quot;sftp-ing &quot;, project_name</span>
+<span class="c">#            for f in file_names:</span>
+<span class="c">#              fp = local_path + &#39;/&#39; + f</span>
+<span class="c">#              rp = this_remote_path + &#39;/&#39; + f</span>
+<span class="c">#              sshConn.put(fp,rp)</span>
+<span class="c">#         end if found_upload and num_rows==1:</span>
+<span class="c">#         insert project_id in completed_projects</span>
+          <span class="n">i</span> <span class="o">=</span> <span class="n">completed_projects_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+          <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">project_id</span><span class="o">=</span><span class="n">project_id</span><span class="p">)</span>
+<span class="c">#         if job_type=&#39;upload&#39; set upload finished=&#39;Y&#39; in queue table</span>
+          <span class="k">if</span> <span class="n">upload_job_id</span><span class="p">:</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">queue_table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">conn</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span>
+                 <span class="s">&quot;update queue set finished = ? where job_id = ?&quot;</span><span class="p">,(</span><span class="s">&#39;Y&#39;</span><span class="p">,</span><span class="n">upload_job_id</span><span class="p">))</span>
+
+<span class="c">#   end for row in results.fetchall():</span>
+<span class="c">#   END PROCESS COMPLETED JOBS</span>
+
+    <span class="k">print</span> <span class="s">&quot;Sleeping for: &quot;</span><span class="p">,</span> <span class="n">SLEEP_INTERVAL</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">SLEEP_INTERVAL</span><span class="p">)</span>
+
+  <span class="c"># end infinite while loop</span>
+<span class="c"># end main()</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">zeroclick  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Author.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

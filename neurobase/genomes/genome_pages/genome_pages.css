@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+#abstract{
+	margin-top: 20x;
+	width: 1200px;
+	float:left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.2em;	
+	font-weight: 200;
+}
+
+#abstract h1{
+	margin: 0 0 25px 0;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 2em;
+	font-weight: normal;	
+}
+
+#abstract h3{
+	margin: 40px 0px -20px 0px;
+	padding: 0;	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+}
+
+#abstract .subheading{
+	font-size: .8em;
+}
+
+#abstract p{
+	color: #666;
+	margin-top:40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#abstract a{
+	text-decoration:none;
+	color: #2792d8;	
+}
+
+#abstract a:hover{
+	text-decoration:underline;	
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+#banner-container{
+	width: 100%;
+	float:left;
+	background-color:#000;
+	-moz-box-shadow: 0px 5px 15px #888;
+    -webkit-box-shadow: 0px 5px 15px #888;
+    box-shadow: 0px 5px 15px #888;
+}
+
+.banner-content{
+	width: 1200px;
+	min-height: 627px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#aplysia-banner-content{
+	background-image: url(aplysia/img/central_banner_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#bottom-content-container{
+	padding-bottom: 50px;
+	border-bottom: 1px dotted #999;	
+	margin-top: 30px;
+}
+
+#collaborators{
+	margin-top: 50px;
+	width: 440px;
+	float:left;
+	text-align: right;	
+}
+
+#contact{
+	width: 580px;
+	float: left;	
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #666;
+	margin-top: 30px;
+}
+
+#contact h1{
+	font-weight: normal;
+	font-size: 1.9em;
+	color:#09C;	
+}
+
+#contact h2{
+	font-size: 1.4em;
+	font-weight: normal;
+	color: #000;	
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#contact p{
+	margin-top: 30px;	
+	padding-left: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.8em;
+	color:#333;
+}
+
+
+.content{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.inner-content{
+	width: 1200px;
+	float:left;	
+}
+
+.content-container{
+	width: 100%;
+	float:left;
+}
+
+#copyright{
+	width: 620px;
+	float:left;
+	text-align:right;
+	margin-top: 55px;	
+}
+
+#dllink{
+	width: auto;;	
+}
+
+#dllink a{
+}
+
+#footer{
+	padding-bottom: 20px;	
+}
+
+#gbrowselink{
+}
+
+#gbrowselink a{
+
+}
+
+.genericHeader{
+	float:left;
+	width:760px;	
+}
+
+#genome-navigation{
+	margin-top:-1px;
+	float:left;
+	width: 100%;
+	height: 100px;
+	background-color:#000;
+	z-index: 0;
+}
+
+#genome-nav-buttons{
+	width: 1200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.nav-element{
+	width: auto;
+	padding: 27px 25px;
+	height: 46px;
+	font-size: 1.8em;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	float:left;	
+	font-weight: normal;
+	position:relative;
+}
+
+.nav-element a{
+	color: #FFF;
+	text-decoration:none;	
+}
+
+.nav-element a:hover{
+	color: #2792d6;
+}
+
+.organism-img{
+	margin: 30px 15px 15px 20px;
+}
+
+#species-header{
+	width: auto;
+	float:left;
+	margin: 25px 0 0 0;	
+}
+
+.span-link{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 1 	
+}
+
+#tbrowselink{
+}
+
+#tbrowselink a{
+}
+
+#top-content-container{
+	
+}
+
+#top-content{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+}

@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+#explanation{
+	margin: 20px 0px;
+	float:left;
+	width: auto;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.0em; 
+	background-color:#C1FFBB;
+	border: 1px solid #006600;
+	padding: 5px;
+}
+
+#step1{
+	float:left;
+	width: 890px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+
+#step2{
+	float:left;
+	width: 890px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+#step3{
+	float:left;
+	width: 890px;
+	margin-top: 25px;
+	text-align:right;
+}
+
+#startButton{
+	margin-bottom: 10px;
+}
+
+.stepNumber{
+	float:left;
+	width:auto;
+}
+
+.stepHeader{
+	float:left;
+	width: 835px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	padding-top: 12px;
+	margin-left: 5px;
+}
+
+.stepOptions{
+	background-color: #88C0F4;
+	/*background-image: url(../slimebase2/images/quantify/query_option_bg.jpg);
+	*/background-position: bottom;
+	background-repeat: repeat-x;
+	border: 1px solid #247CC7;
+	float:left;
+	width: 890px;
+}
+
+#step1Choices{
+	margin-left: 55px;
+	width: 295px;
+	float:left;
+}
+
+#pasteOptionImg{
+	margin-top: 40px;
+	width: auto;
+	float: left;
+}
+
+#uploadOptionImg{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: auto;
+	float:left;
+}
+
+#step1Data{
+	float:left;
+	width:540px;
+}
+
+#pasteBox{
+	float:right;
+	width: auto;
+	margin-right: 50px;
+	margin-top: 40px;
+	display:none;
+}
+
+#fileBox{
+	float:right;
+	width: auto;
+	margin-right: 50px;
+	margin-top: 135px;
+	display:none;
+}
+
+#projectBox{
+	float:left;
+	width: auto;
+	margin-left: 55px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+select#projectSelect{
+	padding: 5px 0px 5px 0px;
+	font-family: "Franklin Gothic Book", Helvetica, "Courier New";
+	font-size: 1.2em;
+}
+
+input#queryFile{
+	font-size: 1.4em;
+	width: 440px;
+	padding: 5px 0px;
+}
+
+textArea#queryText{
+	height: 131px;
+	width: 440px;
+	color:#999999;
+	font-family:"Franklin Gothic Book", Helvetica, "Courier New";
+	font-size: .8em; 
+}
+
+#evalueSelect{
+	float:left;
+	width: auto;
+	margin-left: 55px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.blueGraySelect{
+	/*background-color:#FFFFFF;
+	color:#0080FF;*/
+}
+
+#identitySelect{
+	float:left;
+	width: auto;
+	margin-left: 55px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+select#evalue{
+	padding: 5px 0px 5px 0px;
+	font-family: "Franklin Gothic Book", Helvetica, "Courier New";
+	font-size: 1.2em;
+}
+
+select#identity{
+	padding: 5px 0px 5px 0px;
+	font-family: "Franklin Gothic Book", Helvetica, "Courier New";
+	font-size: 1.2em;
+}

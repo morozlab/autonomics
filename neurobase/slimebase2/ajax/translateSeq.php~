@@ -1,0 +1,10 @@
+<?php
+
+$nt = $_GET['sequence'];
+
+$array = array();
+exec("perl C:\PerlScripts\Format\slimebase2translate.pl " . $nt, $array);
+
+echo(json_encode($array));
+
+?>
