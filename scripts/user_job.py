@@ -22,7 +22,7 @@ January 3, 2013 .. April 25, 2013
 
 
 This script inserts a single custom user job (e.g. blast_nr, assemble, etc.) into
-the zeroclick pipeline.
+the autonomics pipeline.
 
 This code: 
    reads, parses and verifies the args
@@ -36,8 +36,8 @@ This code:
    inserts job into special_queue
 '''
 
-from zeroclick import settings, netutils
-from zeroclick.file_io import FileExtensions
+from autonomics import settings, netutils
+from autonomics.file_io import FileExtensions
 import os
 from sqlalchemy import *
 import argparse
@@ -62,11 +62,11 @@ def main():
 
     session = netutils.DBSession("localhost", settings.ZC_DB_NAME, 
                                 settings.db_cred.user, settings.db_cred.passwd)
-    default_args_table = netutils.getTableObject("default_args", session)
-    args_table = netutils.getTableObject("args", session)
-    queue_table = netutils.getTableObject(settings.special_queue, session)
-    pn_mapping_table = netutils.getTableObject("pn_mapping", session)
-    jn_mapping_table = netutils.getTableObject("jn_mapping", session)
+    default_args_table = netutils.get_table_object("default_args", session)
+    args_table = netutils.get_table_object("args", session)
+    queue_table = netutils.get_table_object(settings.special_queue, session)
+    pn_mapping_table = netutils.get_table_object("pn_mapping", session)
+    jn_mapping_table = netutils.get_table_object("jn_mapping", session)
 
     ###########################################################################
     #

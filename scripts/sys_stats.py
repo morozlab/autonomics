@@ -2,10 +2,10 @@ import argparse
 import sys
 from sqlalchemy import func
 from sqlalchemy.sql import and_, select, or_
-from zeroclick import netutils
+from autonomics import netutils
 
 def project_duration(pid, session, count_nr=False):
-    jn_mapping = netutils.getTableObject('jn_mapping',
+    jn_mapping = netutils.get_table_object('jn_mapping',
                                          session)
 
     if(not count_nr):

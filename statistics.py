@@ -28,7 +28,7 @@ import sys
 import threading
 import time
 from Bio import SeqIO
-from zeroclick import settings, utility, netutils
+from autonomics import settings, utility, netutils
 
 err_written = 0
 
@@ -45,18 +45,20 @@ def do_stats_update( rdict, proj_id, special_run, dir):
     '''
 
     session = netutils.make_db_session()
-    stats = netutils.getTableObject('run_stats', session)
+    stats = netutils.get_table_object('run_stats', session)
     for key, value in rdict.items():
         if value == 'NULL':
             continue
         pair = ""
         pair = {str(key): utility.convert_if_int(value)}
+        print "STATS: ", str(key),"  ", utility.convert_if_int(value)
         if not special_run:
+            print "updating run_stats for project_id: ", proj_id
             u = stats.update().where(
                              stats.c.project_id==proj_id).values(pair).execute()
         else:
             file = dir + 'stats'
-            cmd = 'echo ' + str(key) + ' ' + str(value) + ' >> ' + file
+            cmd = 'echo ' + str(key) + ' ' + utility.convert_if_int(value) + ' >> ' + file
             os.system(cmd)
     session = None
 

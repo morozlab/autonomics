@@ -1,6 +1,6 @@
 '''
 Name:        manager.py
-Purpose:     Manage jobs submitted to the zeroclick annotation system
+Purpose:     Manage jobs submitted to the autonomics annotation system
 
 Author:      Mathew Citarella
 
@@ -10,13 +10,13 @@ Copyright:   (c) Mathew Citarella 2012
 
 from sqlalchemy import exc
 from sqlalchemy.sql import functions, select, and_
-from zeroclick import netutils, settings
-from zeroclick.jobs import BlastJob, BlastJobNR, BlastJobSwissprot, BlatJob
-from zeroclick.jobs import BlastAssociationJob, PfamJob, AssemblyJob
-from zeroclick.jobs import JobState, Locations, Resources, AdapterTrimJob
-from zeroclick.jobs import ReadNormJob, PantherJob, QuantificationJob
-from zeroclick.jobs import QualityTrimJob, UploadJob
-from zeroclick.queue import remove_from_queue
+from autonomics import netutils, settings
+from autonomics.jobs import BlastJob, BlastJobNR, BlastJobSwissprot, BlatJob
+from autonomics.jobs import BlastAssociationJob, PfamJob, AssemblyJob
+from autonomics.jobs import JobState, Locations, Resources, AdapterTrimJob
+from autonomics.jobs import ReadNormJob, PantherJob, QuantificationJob
+from autonomics.jobs import QualityTrimJob, UploadJob
+from autonomics.queue import remove_from_queue
 import argparse
 import datetime
 import gc
@@ -161,26 +161,34 @@ def start_job(job, job_list, pipe_resources, mysql_session, queue):
     '''
     try:
         dependency = None
-        if (queue==settings.normal_queue):
+        if (queue==settings.normal_queue):  # alternative is que_special which has no dependencies
             #check if this job has unfinished dependencies in the queue
             depends = netutils.get_table_object("jid_dependency", mysql_session)
             jn = netutils.get_table_object("jn_mapping", mysql_session)
+
+            print "checking dependency of job_id: ", job.jid
+
             s = select([jn, depends], and_(depends.c.job_id==job.jid,
                                            jn.c.job_id==depends.c.depends_on,
                                            jn.c.finished=='N',))
             dependency = s.execute().fetchone()
+            if(dependency is None):
+              print "dependency is None"
+            else:
+              print "depends on: ", dependency.depends_on
+
         if(dependency is None):
+            print " calling job.start() for job_id: ", job.jid, " job_type: ", job.job_type
             job.start()
             pipe_resources.give_to(job)
             job_list.append(job)
             mysql_session.conn.execute("UPDATE jn_mapping SET started='Y', \
                    s_ts=CURRENT_TIMESTAMP() WHERE job_id='" + str(job.jid) + "'")
             remove_from_queue(job.jid, queue, mysql_session)
-
     except Exception as e:
+        print "manager in exception after trying to start job"
         sys.stderr.write(e.message + "\n")
         sys.stderr.write("Error starting job: " + job.job_name + "\n")
-
 
 class Unbuffered:
     '''
@@ -233,7 +241,7 @@ def main():
 
     HPC_RESOURCES = Resources()
     HPC_RESOURCES.add_resource("cpu", 1024)
-    HPC_RESOURCES.add_resource("blast_nr", 1)
+    HPC_RESOURCES.add_resource("blast_nr", 2)
 
     resources_at_location = {Locations.LOCAL: PIPE_RESOURCES, 
                              Locations.HPC: HPC_RESOURCES}
@@ -249,18 +257,24 @@ def main():
     if(not args.dbUser is None):
         db_passwd = raw_input("Enter database passwod:")
         settings.db_cred.update(args.user, db_passwd)
-
     session = netutils.DBSession("localhost", settings.ZC_DB_NAME, 
                                 settings.db_cred.user, settings.db_cred.passwd)
     job_list = []
     finished = []
+    lloop_num = 0
+    print_res = 0
 
     while(True):
+        lloop_num = lloop_num + 1
         try:
             for queue in manager_queues:
                 q = netutils.get_table_object(queue, session)
-                s = q.select()
-                results = s.execute()
+                results = ""
+                if (queue == 'quenew'):
+                    results=session.conn.execute("select * from quenew order by priority desc")
+                else:
+                    s = q.select()
+                    results = s.execute()
                 for q_row in results.fetchall():
                     if(q_row.job_type == 'upload'):
                         continue
@@ -280,11 +294,9 @@ def main():
                     job = job_constructors[q_row.job_type](q_row, args_row)
                     if(resources_at_location[job.location].has_enough_free(
                                                                   job.resources)):
+                        print_res = 1
                         start_job(job, job_list, 
                               resources_at_location[job.location], session, queue)
-                    else:
-                        print("manager .. Not enough resources for " + \
-                                    q_row.job_type + "  " + str(q_row.project_id))
             finished = []
 
             for j in job_list:
@@ -294,24 +306,32 @@ def main():
                     finished.append(j)
                     j.complete()
                     resources_at_location[j.location].take_from(j)
+                    print_res = 1
                 elif(state == JobState.ERROR):
-                    print("manager" + j.job_name + " ERROR")
+                    print("manager .. " + j.job_name + " ERROR")
                     finished.append(j)
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
+                    print_res = 1
                 else:
-                    print "manager .. ", j.job_name, " RUNNING"
+                    if (lloop_num == 10):
+                        print "manager .. ", j.job_name, " RUNNING"
 
             job_list = [j for j in job_list if not j in finished]
 
-            for loc, resources in resources_at_location.items():
-                print('--- Resources ---')
-                print(resources.free)
-                print(resources.totals)
-                print('-----------------')
+            if print_res == 1:
+                print_res = 0
+                for loc, resources in resources_at_location.items():
+                    print('--- Resources ---')
+                    print("free: ", resources.free)
+                    print("total: ", resources.totals)
+                    print('-----------------')
 
             gc.collect()
-            print("Sleeping for: " + str(SLEEP_INTERVAL))
+
+            if (lloop_num == 5):
+              print("Sleeping for: " + str(SLEEP_INTERVAL) + " printing this every fifth sleep")
+              lloop_num = 0
             SLEEP_INTERVAL = 60
             time.sleep(SLEEP_INTERVAL)
         except exc.OperationalError as e:

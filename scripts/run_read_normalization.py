@@ -37,7 +37,7 @@ import argparse
 import os
 import sys
 import re
-from zeroclick import netutils, settings
+from autonomics import netutils, settings
 
 def main():
 

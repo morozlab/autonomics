@@ -1,5 +1,5 @@
 import os, xmlrpclib
-from zeroclick import netutils, utility, settings
+from autonomics import netutils, utility, settings
 
 debug = False
 

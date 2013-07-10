@@ -2,10 +2,10 @@ import argparse
 import os
 import subprocess
 from sqlalchemy.sql import and_
-from zeroclick import settings, netutils
-from zeroclick.file_io import Record
-from zeroclick.utility import row2dict
-from zeroclick.queue import remove_from_queue, configured_to_run
+from autonomics import settings, netutils
+from autonomics.file_io import Record
+from autonomics.utility import row2dict
+from autonomics.queue import remove_from_queue, configured_to_run
 
 
 '''
@@ -42,16 +42,18 @@ def add_job(project_name, job_type, session):
     if(pid is None):
         print("Could not add job: " + job_Type + ", no project_id found for: " + project_name)
         return False
+    job_name = project_name + "_" + job_type
+    session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name))
 
+    '''
     try:
         if(job_name is None):
             job_name = project_name + "_" + job_type
-        session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type,
-                                                job_name=job_name))
+        session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name))
     except Exception as e:
         print(e.message)
         return False
-
+    '''
     return True
 
 
@@ -263,8 +265,8 @@ def set_configuration(project_name, job_type, code, session):
 
 
 def set_workflow(project_name, session):
-    deps = netutils.getTableObject('dependency', session)
-    job_deps = netutils.getTableObject('jid_dependency', session)
+    deps = netutils.get_table_object('dependency', session)
+    job_deps = netutils.get_table_object('jid_dependency', session)
     pid = netutils.get_pid(project_name, session)
 
     res = session.conn.execute(deps.select())

@@ -4,9 +4,9 @@ import subprocess
 import os
 from Bio import SeqIO
 from sqlalchemy.sql import and_
-from zeroclick import netutils
-from zeroclick.settings import SCRIPTPATH
-from zeroclick.utility import replace_nonstandard_bases
+from autonomics import netutils
+from autonomics.settings import SCRIPTPATH
+from autonomics.utility import replace_nonstandard_bases
 
 #collect arguments for the assembly pipeline
 parser = argparse.ArgumentParser(description='Submission script for two-stage transcriptome assembly pipeline.')

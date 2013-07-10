@@ -13,8 +13,8 @@ from Bio.Blast import NCBIStandalone
 from Bio import SeqIO
 from sqlalchemy import *
 from sqlalchemy.sql import *
-from zeroclick.file_io import Record
-from zeroclick import settings, netutils, utility
+from autonomics.file_io import Record
+from autonomics import settings, netutils, utility
 import argparse
 import datetime
 import os
@@ -25,15 +25,18 @@ import subprocess
 import sys
 import time
 import utils
+from datetime import date
+import warnings
 
-perlPath="/home/oem/PerlScripts/Database/"
-pythonPath = "/home/oem/moroz-python/"
+perlPath=settings.PERLPATH
 baseDir = settings.NEUROBASE_DATA_PATH
+debug = 0
+debug_kegg = 0
 
 def allPipe(args, s, v):
 
     s.activateConnection()
-    
+    session = s
     #ftp directory
     baseDir = settings.NEUROBASE_DATA_PATH
     if(not args.data_dir is None):
@@ -41,66 +44,83 @@ def allPipe(args, s, v):
         
     baseName = baseDir + args.pn + "/" + args.pn
 
-    reportStatus("Initiating project...", v)
+    reportStatus("Initiating project...\n", v)
     initProject(args.publicName, s)
-    reportStatus("done.\n", v)
+    reportStatus("done initiating project.\n", v)
 
-    reportStatus("Loading project sequences...", v)
+    reportStatus("Loading project sequences...\n", v)
     seqs = baseName + "_project.fasta"
     loadSequences(args.pn, args.seqType, s, seqs, v, sbStart=args.sbStart)
-    reportStatus("done.\n", v)
+    reportStatus("done loading seqs.\n", v)
 
     projectID = getProjectID(args.pn, s, True)
 
-    reportStatus("Linking sequence identifiers in FASTA file to NeuroBase ID...", v)
+    reportStatus("Linking sequence identifiers in FASTA file to NeuroBase ID...\n", v)
     linkDict = utils.link_dbid_to_fastaid(projectID, s)
-    reportStatus("done.\n", v)
 
-    reportStatus("Loading quantification data...", v)
-    if(args.quantFile is None):
-        args.quantFile = baseName + "_quantification.txt"
-    loadQuantification(projectID, args.pn, args.quantFile, args.abundanceCol, s, v)
-    reportStatus("done.\n", v)
+    if (quant):
+      reportStatus("Loading quantification data...\n", v)
+      if(args.quantFile is None):
+          args.quantFile = baseName + "_quantification.txt"
+      loadQuantification(projectID, args.pn, args.quantFile, args.abundanceCol, s, v)
+      reportStatus("done loading quantif.\n", v)
     
-    reportStatus("Loading swissprot homology data...", v)
+    reportStatus("Loading swissprot homology data...\n", v)
     p = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
     p.read()
-    loadHomology(projectID, linkDict, p, s, v, args.deleteH)
-    reportStatus("done.\n", v)
+    loadHomology(projectID, linkDict, p, s, args.deleteH)
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='swiss')
+
+    reportStatus("done loading swiss.\n", v)
     
-    reportStatus("Storing annotation alignments...", v)
+    reportStatus("Storing annotation alignments...\n", v)
     loadHomologyAlignments(projectID, linkDict, p, s, v)
-    reportStatus("done.\n", v)
+    reportStatus("done storing anno.\n", v)
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='anno_align')
 
-    reportStatus("Assigning best annotations to sequences..", v)
+    reportStatus("Assigning best annotations to sequences..\n", v)
     assignBestAnnotation(projectID, s, v)
-    reportStatus("done\n", v)
+    reportStatus("done assign best\n", v)
 
-    reportStatus("Loading GO terms...", v)
+    reportStatus("Loading GO terms...\n", v)
     if(args.goFile is None):
         args.goFile = baseName + "_GO.txt"
     loadGO(projectID, linkDict, args.goFile, s, v)
-    reportStatus("done.\n", v)
+    reportStatus("done loading go.\n", v)
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='go')
 
-    reportStatus("Loading GO categories..", v)
+    reportStatus("Loading GO categories..\n", v)
     catFile = baseName + "_gocats.txt"
     loadGOCategories(projectID, args.pn, catFile, s, v)
-    reportStatus(".done\n", v)
+    reportStatus(".done loading gocats\n", v)
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='gocat')
     
-    reportStatus("Loading KEGG pathways...", v)
+    reportStatus("Loading KEGG pathways...\n", v)
     if(args.keggFile is None):
         args.keggFile = baseName + "_KEGG.txt"
     loadKEGG(projectID, linkDict, args.keggFile, s, v)
-    reportStatus("done.\n", v)
+    reportStatus("done loading kegg.\n", v)
     
-    reportStatus("Loading pfam annotations...", v)
+    reportStatus("Loading pfam annotations...\n", v)
     if(args.pfamFile is None):
             args.pfamFile = baseName + "_pfam.txt"
     loadPfam(projectID, args.pfamFile, args.seqType, linkDict, s)
-    reportStatus("done.\n", v)
+    reportStatus("done loading pfam.\n", v)
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='pfam')
 
 
 def assignBestAnnotation(projectID, session, v):
+
     if(v):
         reportStatus("Assigning best annotation.\n", v)
 
@@ -109,10 +129,11 @@ def assignBestAnnotation(projectID, session, v):
     annotation_db = netutils.get_table_object('annotation_db', session)
     seq_table = netutils.get_table_object(str(projectID) + "_sequences", session)
     best_annot = netutils.get_table_object('best_annotations', session)
-    
+    datab = 'best_anno'
+    session.conn.execute("DELETE FROM load_info WHERE data='" + datab + "' and project_id='" + str(projectID) + "'")
+
     res = seq_table.select().execute()
     for row in res.fetchall():
-
         conn = MySQLdb.connect(host=session.host, db=session.db,
                            user=session.user, passwd=session.passwd)
         cursor = conn.cursor(MySQLdb.cursors.DictCursor)
@@ -126,17 +147,9 @@ def assignBestAnnotation(projectID, session, v):
         cursor.execute(q, (projectID, sb_id))
 
         annot_row = cursor.fetchone()
-        #fields = [annotation_db.c.text, sorted_homology.c.evalue]
-        #q = select(fields, and_(sorted_homology.c.sort_id==1, 
-#                                        sorted_homology.c.project_id==projectID, 
-#                                        sorted_homology.c.sb_id==sb_id, 
-#                                        sorted_homology.c.annotation_id==annotation_db.c.annotation_id)).order_by(sorted_homology.c.ranking).offset(0).limit(1)
-        #res = q.execute()
-        #annot_row = res.fetchone()
         if(annot_row is None):
             annot_row = {'text': "No annotation",
                          'evalue': 0}
-    
         i = best_annot.insert().values(project_id=projectID, sb_id=sb_id, annot=annot_row['text'], 
                                        eval=annot_row['evalue'])
         try:
@@ -147,25 +160,13 @@ def assignBestAnnotation(projectID, session, v):
                                                                                   eval=annot_row['evalue'])
             session.conn.execute(u)
         
-    '''
-    session.activateConnection()
-    skipped = 0
-    for seqID, annotations in alnReader.annotations.iteritems():
-        seqID = seqID.split(" ")[0]
-        seqID = seqID.strip()
-        if(not seqID in linkDict):
-            skipped += 1
-            continue
-        sb_id = linkDict[seqID]
-        best = annotations[0]
-        values = "(\"" + str(projectID) + "\", \"" + str(sb_id) + "\", \"" + best.reference_id + "\", \"" + str(best.significance) + "\")"
-        update = "ON DUPLICATE KEY UPDATE annot = (IF(eval > " + str(best.significance) + ", \"" + str(best.reference_id) + "\", annot)), eval = (IF(eval > " + str(best.significance) + ", " + str(best.significance) + ", eval))"
-        query = "INSERT INTO best_annotations (project_id, sb_id, annot, eval) values " + values + " " + update
-        session.conn.execute(query)
-    print(str(skipped) + " sequences skipped while assigning best annotations.")
-    '''
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='best_anno')
+
 
 def collapseAssociationFile(lines, keyColumns, rankColumn, keep):
+
     ret = {}
     for line in lines:
         key = "-".join(line[c] for c in keyColumns)
@@ -181,7 +182,7 @@ def collapseAssociationFile(lines, keyColumns, rankColumn, keep):
 
     return ret
 
-
+# not used
 def getGOParents(go_id, session):
     go_relations = utils.createTableObject("go_relationships", session)
     results = go_relations.select(go_relations.c.child_id==go_id).execute()
@@ -197,7 +198,6 @@ def getProjectID(projectName, session, v):
         reportStatus("It's " + str(projectID) + "\n", v)
         return projectID
     else: 
-        sys.stderr.write("Couldn't find the project name you specified, please check your submission if the project is already created.")
         return None
 
 def linkDescToID(desc, linkDict, attempt = 0):
@@ -244,37 +244,41 @@ def initProject(publicName, session):
         insert = t.insert()
         insert.execute(projectID=projectID, path=projectPath, assembly='Y', project_name=publicName)
 
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='init')
+
     else:
         sys.stderr.write("This project already exists, no need to create tables - exiting!")
         return
 
 
 
-def loadHomology(projectID, linkDict, alnParser, session,
-                 cutoff=1e-04, v = False, remove = False):
-    #check if this project has abundance information loaded
-    if(session.conn == None):
-        session.activateConnection()
-    directory = utils.createTableObject("project_directory", session)
-    #result = session.conn.execute(select([directory.c.has_abundance], directory.c.projectID==projectID))
-    #if(result.fetchone()["has_abundance"] != "Y"):
-    #    sys.stderr.write("This project does not yet have sequence abundance associated with it, which is required for storing homology data. Please load the abundance data and try again.\n")
-    #    sys.exit()
+def loadHomology(projectID, linkDict, alnParser, session, remove = False):
+
+
+    if debug:
+      print "a few members of linkDict";
+      num = 0
+      for key, value in linkDict.iteritems():
+        print key, value
+        num = num +1
+        if num > 5: 
+          break
+
+    cutoff = 1e-04
     #open the load files for writing
     tmpFilePrefix = os.getcwd() + "/"
-    homologyLoad = tmpFilePrefix + "_homology_load.txt"
-    annotationLoad = tmpFilePrefix + "_" + str(alnParser.database) + "_annotation_update_load.txt"
+    pid = os.getpid()    
+    homologyLoad = tmpFilePrefix + "_homology_load.txt." + str(pid)
+    annotationLoad = tmpFilePrefix + "_" + str(alnParser.database) + "_annotation_update_load.txt." + str(pid)
+
     hl = open(homologyLoad, 'w')
     al = open(annotationLoad, 'w')
-    #remove existing annotations for this project to avoid duplications
-    '''if(remove):
-        removeExistingHomology(projectID, session)
-        ^^ NOT IMPLEMENTED
-    '''
+
     firstAln = True
     firstAnnot = True
     seen = {}
-    reportStatus("Writing annotation and homology entries to load files\n")
     noEntries = 0
     for query, annotation in alnParser.annotations.iteritems():
         query = query.strip()
@@ -288,7 +292,6 @@ def loadHomology(projectID, linkDict, alnParser, session,
         while(n < maxHits):
             if(annotation[n].significance > cutoff):
                 break
-
             #check if annotation for this hit sequence already exists
             refParts = annotation[n].reference_id.split("|")
             hitId = refParts[1]
@@ -312,35 +315,63 @@ def loadHomology(projectID, linkDict, alnParser, session,
                 hl.write("\n\t" + "\t".join([str(projectID), str(sbid),str(hitId), str(annotation[n].significance), str(alnParser.database)]))
             n += 1
         noEntries += 1
-        reportStatus("%d lines written to load files.\r" % noEntries)
-    reportStatus("\n")
     hl.close()
     al.close()
 
     #load the annotation files
     session.activateConnection()
-    reportStatus("Importing load files to database...\n", v)
-    reportStatus("homology data...\n", v)
-    session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
-    reportStatus("annotation data...\n", v)
-    session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-    os.remove(homologyLoad)
-    os.remove(annotationLoad)
+    if settings.machine == 'oem':
+      with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
+    else:
+      with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
+    if settings.machine == 'oem':
+      session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+    else:
+      session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+
+    if not debug:
+      os.remove(homologyLoad)
+      os.remove(annotationLoad)
 
     #store sorted homology
-    reportStatus("sorting homology entries...\n", v)
-    subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 1", shell=True).wait()
-    proc = subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 2", shell=True)
-    proc.wait()
-    reportStatus("done.\n", v)
 
-    #empty the homology table
-    session.conn.execute("TRUNCATE TABLE homology")
-    #if(v): reportStatus("done.\n")
+    t1 = ""
+    t2 = ""
+    if settings.machine == 'oem':
+      t1 = "/home/oem/python_software/autonomics/scripts/ss.done1"
+      t2 = "/home/oem/python_software/autonomics/scripts/ss.done2"
+    else:
+      t1 = "/home/pwilliams/python_software/autonomics/scripts/ss.done1"
+      t2 = "/home/pwilliams/python_software/autonomics/scripts/ss.done2"
+
+    subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 1 " + str(debug) , shell=True).wait()
+    proc = subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 2 " + str(debug), shell=True)
+
+    proc.wait()
+    
+    if(not os.path.exists(t1)):
+        print t1, " does not exist"
+        print "storeSortedHomology.pl failed for sort 1"
+        sys.exit()        
+
+    if(not os.path.exists(t2)):
+        print t2, " does not exist"
+        print "storeSortedHomology.pl failed for sort 2"
+        sys.exit()        
+
+    os.remove(t1)
+    os.remove(t2)
+
+    session.conn.execute("DELETE FROM homology")
 
 def loadHomologyAlignments(projectID, linkDict, alnReader, session, v = False):
     d = os.getcwd()
-    alignmentLoad = d + "/" + str(alnReader.database) + "_alignment_load.txt"
+    pid = os.getpid()
+    alignmentLoad = d + "/" + str(alnReader.database) + "_alignment_load.txt." + str(pid)
     alignments = open(alignmentLoad, 'w')
     reportStatus("Writing load files.\n", v)
     firstAln = True
@@ -370,23 +401,27 @@ def loadHomologyAlignments(projectID, linkDict, alnReader, session, v = False):
 
             n += 1
         noEntries += 1
-        reportStatus("%d queries written to load files.\r" % noEntries, v)
     alignments.close()
     reportStatus("\n", v)
     #store annotation alignments
-    reportStatus("Loading annotation alignments...", v)
+    reportStatus("Loading mysql table  annotation alignments...\n", v)
     session.activateConnection()
-    session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
-    os.remove(alignmentLoad)
-    reportStatus("done.\n", v)
+
+    if settings.machine == 'oem':
+      session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+    else:
+      session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+
+    if not debug:    os.remove(alignmentLoad)
 
 
 def loadQuantification(projectID, projectName, abundanceFile, abundanceCol, s, v=False):
     if(abundanceFile == None):
         sys.stderr.write("No abundance file specified, using default.\n")
-        abundanceFile = baseDir + projectName + "/" + projectName + "_quantification.txt"
+        pid = os.getpid()    
+        abundanceFile = baseDir + projectName + "/" + projectName + "_quantification.txt." + str(pid)
 
-    reportStatus("Loading quantification data...", v)
+    reportStatus("Loading quantification data...\n", v)
     seq_table = utils.createTableObject(str(projectID) + "_sequences", s)
     abundances = {}
     abundanceCol -= 1
@@ -405,107 +440,126 @@ def loadQuantification(projectID, projectName, abundanceFile, abundanceCol, s, v
     proj_dir = utils.createTableObject("project_directory", s)
     u = proj_dir.update().where(proj_dir.c.projectID==projectID).values(has_abundance='Y')
 
-    reportStatus("done.\n", v)    
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='quant')
+
 
 
 def loadKEGG(projectID, linkDict, keggFile, session, v=False):
-    if(v): reportStatus("Parsing KEGG file...")
+    if(v): reportStatus("Parsing KEGG file...\n")
     lines = parseCSV(keggFile, "\t")
-    if(v): reportStatus("done\n")
+
     if(v):
-        reportStatus("Collapsing KEGG file...")
+        reportStatus("Collapsing KEGG file...\n")
     collapsedLines = collapseAssociationFile(lines, [0, 2, 3], 6, "smallest")
-    if(v):
-        reportStatus("done.\n")
-    if(v): reportStatus("Removing old KEGG entries for this project...")
+    if(v): reportStatus("Removing old KEGG entries for this project...\n")
     if(session.conn == None):
         session.activateConnection()
     session.conn.execute("DELETE FROM kegg_annotations WHERE project_id='" + str(projectID) + "'")
+    datak = 'kegg'
+    session.conn.execute("DELETE FROM load_info WHERE data='" + datak + "' and project_id='" + str(projectID) + "'")
+
     kegg = utils.createTableObject('kegg_annotations', session)
-    if(v): reportStatus("done\n")
-    if(v): reportStatus("Inserting KEGG annotations...")
+
+    if(v): reportStatus("Inserting KEGG annotations...\n")
     for key, elements in collapsedLines.items():
-        sbID = linkDescToID(elements[0], linkDict)
+#        sbID = linkDescToID(elements[0].replace(" ",""), linkDict)
+        sbID = linkDescToID(elements[0].strip(), linkDict)
         insert = kegg.insert()
         try:
+            if debug and debug_kegg:
+              print "insert.execute(project_id=",projectID," sb_id = ",sbID, " kegg_id= ", str(elements[2]).strip(), " path_id= ",str(elements[3]).strip(), " kegg_pathway_description= ",str(elements[4]).strip(), " annotating_acc= ", elements[1]," evalue= ",elements[6]
+              print "elem[0] = ", str(elements[0])
+
             insert.execute(project_id=projectID, sb_id = sbID, kegg_id=str(elements[2]).strip(), path_id=str(elements[3]).strip(), kegg_pathway_description=str(elements[4]).strip(), annotating_acc=elements[1], evalue=elements[6])
         #catch sqlalchemy exception
         except sqlalchemy.exc.OperationalError:
             #do not insert this value, print warning
             print("Error inserting KEGG record for: " + str(elements[0]))
 
-    if(v): reportStatus("done\n")
+
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='kegg')
 
 
 def loadGO(projectID, linkDict, goFile, session, v = False):
-    #seqs = utils.createTableObject(str(projectID) + "_sequences", session)
-    #goAnnot = utils.createTableObject('go_annotation_new', session)
-    #reportStatus("Removing existing GeneOntology annotations...", v)
-    #delete the existing annotations for this project
-    #results = select([seqs.c.sb_id]).execute()
-    #for row in results.fetchall():
-    #    goAnnot.delete(goAnnot.c.sb_id==row.sb_id).execute()
-    #reportStatus("done.\n", v)
-    loadFile = "go_load.txt"
+
+    tmpFilePrefix = os.getcwd() + "/"
+    pid = os.getpid()    
+    loadFile = tmpFilePrefix + "go_load.txt." + str(pid)
     curId = ""
-    reportStatus("Parsing GeneOntology CSV file...", v)
+    reportStatus("Parsing GeneOntology CSV file...\n", v)
     f = parseCSV(goFile, "\t")
-    reportStatus("done.\n", v)
-    #reportStatus("Collapsing Gene Ontology file...", v)
-    #f = collapseAssociationFile(f, [0, 2], 7, "smallest")
-    #reportStatus("done.\n", v)
+
     gLoad = open(loadFile, 'w')
-    reportStatus("Creating load file...\r", v)
+    reportStatus("Creating load file...\n", v)
     records = 0
+    
     for elements in f:
+        elen = len(elements)
         curId = linkDescToID(elements[0], linkDict)
         goId = elements[2].split(":")[1]
-        gLoad.write("".join(["\t".join([str(goId), str(curId), elements[1], elements[3]]), "\n"]))
+        if debug:
+           if records < 10:
+             print "==============="
+             print str(goId), "\t", str(curId), "\t", elements[1], "\t", elements[elen-1]
+             print "==============="
+        gLoad.write("".join(["\t".join([str(goId), str(curId), elements[1], elements[elen-1]]), "\n"]))
         records += 1
-        reportStatus("Creating load file..." + str(records) + " records processed\r", v)
-        #i.execute(go_id=goId, sb_id=curId, project_id=projectID, go_higher=curHigher, annotator_id=elements[5], annotation_ev=elements[7], date='CURDATE()')
-
     gLoad.close()
-    reportStatus("\nDone.\n", v)
+
     session.activateConnection()
-    reportStatus("Loading raw GO data...", v)
-    session.conn.execute("LOAD DATA INFILE 'go_load.txt' REPLACE INTO TABLE go_annotation_new")
-    os.remove(loadFile)
-    reportStatus("done.\n", v)
+    print "Loading ", records, " GO records into sql database...\n"
+    if settings.machine == 'oem':
+      session.conn.execute("LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+    else:
+      session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+
+    if not debug:    
+      print "os.remove(loadFile)" 
+      os.remove(loadFile)
+    reportStatus("loadGO done.\n", v)
 
 
 def loadGOCategories(projectID, projectName, catFile, session, v):
     #open the go category file
     fh = open(catFile, 'r')
-    tmp = open("tmp.txt", 'w')
+    tmpFilePrefix = os.getcwd() + "/"
+    pid = os.getpid()    
+    tmpFile = tmpFilePrefix + "gocat_load.txt." + str(pid)
+
+    tmp = open(tmpFile, 'w')
     for line in fh:
         tmp.write(line.replace(projectName, str(projectID)))
     
     fh.close()
     tmp.close()
-    reportStatus("Loading GO category data...\n", v)
+    reportStatus("Loading mysql table go_categories...\n", v)
     session.activateConnection()
-    session.conn.execute("LOAD DATA INFILE 'tmp.txt' REPLACE INTO TABLE go_categories" )
-    os.remove("tmp.txt")
-    reportStatus("done.\n", v)
 
+    if settings.machine == 'oem':
+      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+    else:
+      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+
+    if not debug:    os.remove(tmpFile)
 
 
 def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
     pfamFile = rewritePfam(pfamFile, seqType, linkDict)
-    tmp = "pfam_load_tmp.txt"
+    tmpFilePrefix = os.getcwd() + "/"
+    pid = os.getpid()    
+    tmpFile = tmpFilePrefix + "pfam_load_tmp.txt." + str(pid)
     flattened = pfamFile + "_flattened.txt"
-    reportStatus("Flattening Pfam annotation file...", v)
-    proc = subprocess.Popen("python \"" + pythonPath + "/zeroclick/scripts/filetools.py\" --fields seq_id:1 alignment_start:2 alignment_end:3 hmm_acc:6 E-value:13:float --key-col 1 2 3 6 --filter E-value:lt:1e-04 --flatten \"" + pfamFile + "\"", shell=True)
+    reportStatus("Flattening Pfam annotation file...\n", v)
+    proc = subprocess.Popen("python \"" + settings.python_scripts_path + "filetools.py\" --fields seq_id:1 alignment_start:2 alignment_end:3 hmm_acc:6 E-value:13:float --key-col 1 2 3 6 --filter E-value:lt:1e-04 --flatten \"" + pfamFile + "\"", shell=True)
     proc.wait()
-    reportStatus("done.\n", v)
-    #os.chdir("C:\\Documents and Settings\\Administrator\\My Documents\\Dropbox\\Work\\JAva\\Bioinformatics\\build\\classes")
-    #proc = subprocess.Popen("java " + javaClassPathPfam + " -Xmx1500m annotation.scripts.AnnotatePfamDomains " + str(projectID) + " " + pfamFile + " 1e-04 database > " + tmp, shell=True)
-    #proc.wait()
-    #write the records to tmp
-    reportStatus("Writing load file...", v)
+
+    reportStatus("Writing load file...\n", v)
     fh = open(flattened, 'r')
-    tmpOut = open(tmp, 'w')
+    tmpOut = open(tmpFile, 'w')
     for line in fh:
         line = line.rstrip("\n")
         el = line.split("\t")
@@ -513,17 +567,20 @@ def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
         
     fh.close()
     tmpOut.close()
-    os.remove(flattened)
-    reportStatus("done.\n")
+    if not debug:    os.remove(flattened)
+
     
-    reportStatus("Loading pfam annotations...", v)
+    reportStatus("Loading pfam annotations...\n", v)
     #load the data into the pfam_annotations table
     if(session.conn == None):
         session.activateConnection()
-    session.conn.execute("LOAD DATA INFILE '" + tmp + "' REPLACE INTO TABLE pfam_annotations")
-    reportStatus("done.\n", v)
-    
-    reportStatus("Loading pfam domain counts...", v)
+
+    if settings.machine == 'oem':
+      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+    else:
+      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+
+    reportStatus("Loading pfam domain counts...\n", v)
     #get category information
     pfam = utils.createTableObject('pfam_annotations', session)
     categories = utils.createTableObject('pfam_domain_counts', session)
@@ -535,9 +592,9 @@ def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
         #generate a new insert statement
         i = categories.insert()
         i.execute(project_id=projectID, acc=row.pfamA_acc, description = row.description, counts = row.pfamCatCount)
-    os.remove(tmp)
-    os.remove(pfamFile)
-    reportStatus("done.\n", v)
+    if not debug:    os.remove(tmpFile)
+    if not debug:    os.remove(pfamFile)
+
 
 def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStart=None):
     #check if this project has abundances yet
@@ -588,20 +645,21 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
     seqhandle = open(seqFile, 'r')
     
     #write the sequences to the load file
+    print "writing seqs to load file: ", loadFilePath
+    today = date.today()
     for rec in SeqIO.parse(seqhandle, "fasta"):
         if(seqType == "NT"):
-            loadFile.write("\t".join([str(curId), str(fileID), str(rec.seq), "", str(rec.id), seqType, str(len(str(rec.seq))),"CURDATE()","1"]))
+            loadFile.write("\t".join([str(curId), str(fileID), str(rec.seq), "", str(rec.id), seqType, str(len(str(rec.seq))),str(today),"1"]))
             loadFile.write("\n")
         else:
-            loadFile.write("\t".join([str(curId), str(fileID), "", str(rec.seq), str(rec.id), seqType, str(len(str(rec.seq))),"CURDATE()","1"]))
+            loadFile.write("\t".join([str(curId), str(fileID), "", str(rec.seq), str(rec.id), seqType, str(len(str(rec.seq))),str(today),"1"]))
             loadFile.write("\n")
             
         rec.id = "sb|" + str(curId) + "|"
         dbFile.write(">" + rec.id + "\n" + str(rec.seq) + "\n")
         curId += 1
         numSeqs += 1
-        reportStatus(str(numSeqs) + " written to load file.\r", v)
-            
+    print "DONE writing seqs to load file"
 
     seqhandle.close()
     loadFile.close()
@@ -611,8 +669,12 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
     retries = 5
     while(retries > 0):
         try:
-            session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
-            session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+            if settings.machine == 'oem':
+              session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
+              session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+            else:
+              session.conn.execute("delete from " + str(projectID) + "_sequences")
+              session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
             break
         
         except sqlalchemy.exc.OperationalError as e:
@@ -620,25 +682,29 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
             print("MySQL Server went away, reconnecting and trying again.")
             session = netutils.make_db_session("moroz_lab")
     #remove the temporary file
-    os.remove(loadFilePath)
+    if not debug:    os.remove(loadFilePath)
+
+    print "DONE loading seqs to nn_sequences"
+
+    print "formating DB for blast"
 
     #format the database file for BLAST                                       
     db_file = dbPath + "/" + seqType + "DatabaseFile.fas"
     #first try with formatdb                                                  
     if(seqType == "NT"): typeFlg = "-p F"
     else: typeFlg = "-p T"
-    p = subprocess.Popen('formatdb -i ' + db_file + ' ' + typeFlg,
-                         shell=True)
+    p = subprocess.Popen('formatdb -i ' + db_file + ' ' + typeFlg,shell=True)
     p.wait()
+    
     if(p.returncode != 0):
-        #try with makeblastdb                                                 
+        #try with makeblastdb
+        print "formating with makeblastdb instead"
         if(seqType == "NT"):
             typeFlg = "-dbtype nucl"
         else:
             typeFlg = "-dbtype prot"
 
-        p = subprocess.Popen('makeblastdb -in ' + db_file + " " + typeFlg,
-                             shell=True)
+        p = subprocess.Popen('makeblastdb -in ' + db_file + " " + typeFlg, shell=True)
         p.wait()
         utility.die_on_error(p.returncode)
 
@@ -647,8 +713,14 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
     i.execute(begin=sbStart, end=curId - 1, fileID=fileID, projectID=projectID)
 
     #update the number of sequences in the project directory
-    if(seqType == "NT"): session.conn.execute(directory.update().where(directory.c.projectID == projectID).values(num_NT_seqs=numSeqs))
-    else: session.conn.execute(directory.update().where(directory.c.projectID == projectID).values(num_AA_seqs=numSeqs))
+    if(seqType == "NT"): 
+       session.conn.execute(directory.update().where(directory.c.projectID == projectID).values(num_NT_seqs=numSeqs))
+    else: 
+       session.conn.execute(directory.update().where(directory.c.projectID == projectID).values(num_AA_seqs=numSeqs))
+
+    linfo = utils.createTableObject('load_info', session)
+    insert = linfo.insert()
+    insert.execute(project_id=projectID, data='seqs')
 
     #close the session
 
@@ -717,11 +789,12 @@ def setDBs(db, args):
     else:
         args.annotDb=2
 
-
+# not used:
 def storeSortedHomology(projectID, sortType):
     subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " " + str(sortType), shell=True).wait()
 
 def main():
+    print sys.argv
     parser = argparse.ArgumentParser(description = "This script contains various methods of loading data into NeuroBase.")
     parser.add_argument('-a', '--append', dest='append', default=False, const=True, action='store_const')
     #parser.add_argument('-w', '--write', dest='write', default=False, const=True, action='store_const')
@@ -756,11 +829,36 @@ def main():
     parser.add_argument('--user', dest='user', required=True, help='Username for mysql database containing NeuroBase data')
     parser.add_argument('--password', dest='passwd', required=True, help='Password for mysql database containing NeuroBase data')
     parser.add_argument('-v', dest='verbose', default=False, const=True, action='store_const')
+    parser.add_argument('--debug', dest='debug', default=False, const=True, action='store_const')
+    parser.add_argument('--no-quant', dest='no_quant', default=False, const=True, action='store_const')
     args = parser.parse_args()
 
+    global debug
+    global debug_kegg
+    global quant
+
     v = args.verbose
+    debug = args.debug
+    no_quant = args.no_quant
+
+    if debug: debug = 1
+    else: debug = 0
+
+    if no_quant: quant = 0
+    else: quant = 1
+
+    print "debug = ", debug
+    print "quant = ", quant
+    debug_kegg = 0
+    print "debug_kegg = ", debug_kegg
+
+    if (quant):
+      print "running quant"
+    else:      print "NOT running quant"
+
     reportStatus("Starting a new MySQLseq session with NeuroBase\n", v)
     s = utils.DBSession(args.user, args.passwd, 'localhost')
+    session = s
 
     if(not args.data_dir is None):
         baseDir = args.data_dir
@@ -785,25 +883,30 @@ def main():
 
         p = None
 
+        name = baseName + "_blast_swissprot.txt"
         if(args.swissprot):
             reportStatus("Loading swissprot homology data...\n",)
             p = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
-
         elif(args.nr):
+            name = baseName + "_blast_nr.txt"
             reportStatus("Loading nr homology data.\n", v)
             p = Reader(baseName + "_blast_nr.txt", args.alnFmt, 1, v)
-
-
         p.read()
-        loadHomology(projectID, linkDict, p, s, v, args.deleteH)
+        loadHomology(projectID, linkDict, p, s, args.deleteH)
+        if(args.swissprot):
+          linfo = utils.createTableObject('load_info', session)
+          insert = linfo.insert()
+          insert.execute(project_id=projectID, data='swiss')
+        elif(args.nr):
+          linfo = utils.createTableObject('load_info', session)
+          insert = linfo.insert()
+          insert.execute(project_id=projectID, data='nr')
         assignBestAnnotation(projectID, s, v)
-        reportStatus("Done.\n")
-        
+
     elif(args.alignments):
         projectID = getProjectID(args.pn, s, v)
         reportStatus("Linking sequence identifiers in FASTA file to Neurobase ID\n", v)
         linkDict = utils.link_dbid_to_fastaid(projectID, s)
-        reportStatus("Done.\n", v)
         if(args.swissprot):
             r = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
 
@@ -813,36 +916,26 @@ def main():
         r.read()
         reportStatus("Loading annotation alignments.\n", v)
         loadHomologyAlignments(projectID, linkDict, r, s, v)
-
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='anno_align')
 
     elif(args.bestAnnotation):
-    
-        '''if(args.swissprot):
-            reportStatus("Loading swissprot best homology data...\n",)
-            p = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
-
-        elif(args.nr):
-            reportStatus("Loading nr best homology data.\n", v)
-            p = Reader(baseName + "_blast_nr.txt", args.alnFmt, 1, v)
-
-        p.read()
-        '''
         assignBestAnnotation(projectID, s, v)
-        reportStatus("Done.\n")
 
     elif(args.initProject):
         initProject(args.publicName, s)
 
     elif(args.quant):
         projectID = getProjectID(args.pn, s, v)
+        if(args.quantFile is None):
+           args.quantFile = baseName + "_quantification.txt"
         loadQuantification(projectID, args.pn, args.quantFile, args.abundanceCol, s, v)
 
     elif(args.KEGG):
         projectID = getProjectID(args.pn, s, v)
         #create linkage of assembly ID to neurobase ID
-        if(v):print("Linking sequence identifiers in FASTA file to NeuroBase ID")
         linkDict = utils.link_dbid_to_fastaid(projectID, s)
-        if(v):print("Done.")
         if(args.keggFile is None):
             args.keggFile = baseName + "_KEGG.txt"
         loadKEGG(projectID, linkDict, args.keggFile, s, v)
@@ -850,16 +943,21 @@ def main():
     elif(args.GO):
         projectID = getProjectID(args.pn, s, v)
         #create linkage of assembly ID to neurobase ID
-        if(v):print("Linking sequence identifiers in FASTA file to NeuroBase ID")
         linkDict = utils.link_dbid_to_fastaid(projectID, s)
         if(args.goFile is None):
             args.goFile = baseName + "_GO.txt"
         loadGO(projectID, linkDict, args.goFile, s, v)
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='go')
         
     elif(args.GOCategories):
         projectID = getProjectID(args.pn, s, v)
         catFile = baseName + "_gocats.txt"
         loadGOCategories(projectID, args.pn, catFile, s, v)
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='gocat')
 
     elif(args.pfam):
         projectID = getProjectID(args.pn, s, v)
@@ -868,13 +966,21 @@ def main():
             args.pfamFile = baseName + "_pfam.txt"
             
         loadPfam(projectID, args.pfamFile, args.seqType, linkDict, s)
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='pfam')
 
     elif(args.loadSeqs):
-        reportStatus("Loading project sequences...")
+        reportStatus("Loading project sequences...\n")
         loadSequences(args.pn, args.seqType, s, args.seqFile, v, sbStart=args.sbStart)
-        reportStatus("done.")
+        linfo = utils.createTableObject('load_info', session)
+        insert = linfo.insert()
+        insert.execute(project_id=projectID, data='seqs')
+
     else:
         allPipe(args, s, v)
+
+    print "Completed upload!!\n"
 
 if __name__ == '__main__':
     main()

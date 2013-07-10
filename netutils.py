@@ -17,7 +17,7 @@ from sqlalchemy import *
 from sqlalchemy import Column
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import and_
-from zeroclick import settings, utility
+from autonomics import settings, utility
 import sys
 
 Base = declarative_base()
@@ -179,8 +179,8 @@ def get_adapter_rows(pid, session, retries=settings.SSH_RETRIES):
     '''
     try:
         ret = []
-        ka = getTableObject("known_adapters", session)
-        pa = getTableObject('project_adapters', session)
+        ka = get_table_object("known_adapters", session)
+        pa = get_table_object('project_adapters', session)
         results = select([ka.c.adapter_sequence, ka.c.end],
                          and_(ka.c.adapter_id==pa.c.adapter_id, pa.c.project_id==pid)).execute()
         return [row for row in results.fetchall()]
@@ -189,7 +189,7 @@ def get_adapter_rows(pid, session, retries=settings.SSH_RETRIES):
         print("Error getting adaptors, sleeping and re-opening connection")
         time.sleep(10)
         session = make_db_session()
-        get_adapters(pid, session, retries - 1)
+        get_adapter_rows(pid, session, retries - 1)
 
 
 def get_file(remote_path, local_path, credentials,

@@ -3,7 +3,7 @@ Peter L. Williams
 November 29, 2012 .. April 28, 2013
 
 This module runs as a daemon and is responsible for monitoring new project
-data uploaded to the zeroclick server by the data_gremlin module.  New
+data uploaded to the autonomics server by the data_gremlin module.  New
 projects found are added to the pn_mapping, run_stats and init_projects
 tables; all required jobs for a project are added to the jn_mapping &
 jid_dependencies tables.  In addition, projects are checked that all
@@ -52,9 +52,9 @@ in the jn_mapping table, this entry is set to started and finished and
 the time stamps are set.
 '''
 
-from zeroclick import settings, netutils
-from zeroclick.file_io import FileExtensions
-from zeroclick.queue import queue_all
+from autonomics import settings, netutils
+from autonomics.file_io import FileExtensions
+from autonomics.queue import queue_all
 import os
 from sqlalchemy import *
 from sqlalchemy.sql import functions, select, and_
@@ -71,18 +71,18 @@ def main():
 #   Deal with database:
     session = netutils.DBSession("localhost", settings.ZC_DB_NAME,
                                 settings.db_cred.user, settings.db_cred.passwd)
-    completed_projects_table = netutils.getTableObject("completed_projects",
+    completed_projects_table = netutils.get_table_object("completed_projects",
                                                                        session)
-    run_stats = netutils.getTableObject('run_stats', session)
-    init_projects_table = netutils.getTableObject("init_projects", session)
-    configuration_table = netutils.getTableObject("configuration", session)
-    dependency_table = netutils.getTableObject("dependency", session)
-    default_configuration_table = netutils.getTableObject(
+    run_stats = netutils.get_table_object('run_stats', session)
+    init_projects_table = netutils.get_table_object("init_projects", session)
+    configuration_table = netutils.get_table_object("configuration", session)
+    dependency_table = netutils.get_table_object("dependency", session)
+    default_configuration_table = netutils.get_table_object(
                                               "default_configuration", session)
-    pn_mapping_table = netutils.getTableObject("pn_mapping", session)
-    jn_mapping_table = netutils.getTableObject("jn_mapping", session)
-    quenew_table = netutils.getTableObject("quenew", session)
-    jid_dependency_table = netutils.getTableObject("jid_dependency", session)
+    pn_mapping_table = netutils.get_table_object("pn_mapping", session)
+    jn_mapping_table = netutils.get_table_object("jn_mapping", session)
+    quenew_table = netutils.get_table_object("quenew", session)
+    jid_dependency_table = netutils.get_table_object("jid_dependency", session)
 
     while True:
 
@@ -96,7 +96,7 @@ def main():
                                               if isdir(join(pipeline_path,f)) ]
         projects_to_run = []
         for dname in dir_names:
-            dname_flag = dname + "/" + settings.SRC_UPLOADED_FLAG
+            dname_flag = dname + "/SRC_UPLOADED"
             dname_flag_with_path = pipeline_path + '/' + dname_flag
             if os.path.exists(dname_flag_with_path):
                 project_name = dname
@@ -162,6 +162,8 @@ def main():
                                 i = jid_dependency_table.insert()
                                 i.execute(job_id=jid,depends_on=job_id_dep)
             else: # <project_name> not in pn_mapping, so ITS A DEFAULT JOB
+
+                # insert project name into pn_mapping table and get back a project_id
                 i = pn_mapping_table.insert()
                 i.execute(project_name=project_name)
                 s = pn_mapping_table.select(
@@ -170,14 +172,20 @@ def main():
                 results = s.execute()
                 project_id = results.fetchone().project_id
                 print "Adding project: ", project_name, " with default jobs"
+
+                # insert project id into run_stats table
                 i = run_stats.insert()
                 try:
                     i.execute(project_id=project_id)
                 except Exception as e:
                     print("Warning: " + str(projectID) +
                                          " already exists in run_stats table.")
+     
+                # insert proj into init_projects table
                 i = init_projects_table.insert()
                 i.execute(project_id=project_id)
+
+                # find all different job_types to run for a default job
                 job_types = []
                 s = default_configuration_table.select()
                 results = s.execute()
@@ -187,8 +195,10 @@ def main():
                         job_types.append(job_type)
                         job_name = project_name + '_' + job_type
                         i = jn_mapping_table.insert()
-                        i.execute(job_type=job_type,project_id=project_id,
-                                                             job_name=job_name)
+                        i.execute(job_type=job_type,project_id=project_id, job_name=job_name)
+
+                # for each job_type, find and insert dependencies in jid_dependency_table
+                # and insert jobs into queue & set queued = 'Y' in jn_mapping table.
                 for jt in job_types:
                     s = jn_mapping_table.select(and_(
                                                jn_mapping_table.c.job_type==jt,
@@ -209,6 +219,11 @@ def main():
                             job_id_dep = row2.job_id
                             i = jid_dependency_table.insert()
                             i.execute(job_id=jid,depends_on=job_id_dep)
+                    # insert each job_type into queue and set queued = 'Y' in jn_mapping table
+                    print "i = quenew_table.insert().values(project_id = ",project_id," job_id= ",jid," job_type= ",jt,").execute()"
+                    print "u = jn_mapping.update().where(jn_mapping.c.job_id== ",jid," ).values(queued=\'Y\').execute()"
+                    i = quenew_table.insert().values(project_id = project_id,job_id=jid,job_type=jt).execute()
+                    u = jn_mapping_table.update().where(jn_mapping_table.c.job_id==jid).values(queued='Y').execute()
 
 #       END ENTER NEW PROJECTS
 
@@ -238,7 +253,7 @@ def main():
                     i.execute(project_id=project_id)
                     u = jn_mapping_table.update().where(
                          jn_mapping_table.c.job_id==upload_job_id).values(
-                     s_ts=functions.current_timestamp(), started='Y').execute()
+                        s_ts=functions.current_timestamp(), started='Y').execute()
                     u = jn_mapping_table.update().where(
                          jn_mapping_table.c.job_id==upload_job_id).values(
                     f_ts=functions.current_timestamp(), finished='Y').execute()

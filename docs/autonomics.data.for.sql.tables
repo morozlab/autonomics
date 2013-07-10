@@ -1,0 +1,315 @@
+-- MySQL dump 10.13  Distrib 5.5.20, for linux2.6 (x86_64)
+--
+-- Host: localhost    Database: zero_click
+-- ------------------------------------------------------
+-- Server version	5.5.20
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `assembler_config`
+--
+
+DROP TABLE IF EXISTS `assembler_config`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `assembler_config` (
+  `assembler` varchar(255) NOT NULL DEFAULT '',
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `code` char(1) DEFAULT NULL,
+  PRIMARY KEY (`assembler`,`job_type`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `assembler_config`
+--
+
+LOCK TABLES `assembler_config` WRITE;
+/*!40000 ALTER TABLE `assembler_config` DISABLE KEYS */;
+INSERT INTO `assembler_config` VALUES ('mira','adapter_trim','+'),('mira','quality_trim','+'),('mira','quantification','-'),('mira','read_normalization','-'),('trinity','adapter_trim','+'),('trinity','quality_trim','+'),('trinity','read_normalization','+');
+/*!40000 ALTER TABLE `assembler_config` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `default_args`
+--
+
+DROP TABLE IF EXISTS `default_args`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `default_args` (
+  `job_type` varchar(255) NOT NULL DEFAULT '',
+  `executable` varchar(255) DEFAULT NULL,
+  `loc` varchar(255) DEFAULT NULL,
+  `process_args` text,
+  `pipeline_args` text,
+  `resources` text,
+  `priority` int(11) DEFAULT NULL,
+  PRIMARY KEY (`job_type`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `default_args`
+--
+
+LOCK TABLES `default_args` WRITE;
+/*!40000 ALTER TABLE `default_args` DISABLE KEYS */;
+INSERT INTO `default_args` VALUES ('adapter_trim','','local','','--adapter-trimmer cutadapt','cpu:1',100),('assemble','','local','','--assembler trinity','cpu:20',1),('blast_nr','blastx','HPC','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -out <output>','','cpu:200',1),('blast_swissprot','blastx','HPC','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -out <output>','','cpu:100',1),('go','','local','','','cpu:1',1),('kegg','','local','','','cpu:1',1),('pfam','NA','HPC','-fasta <input>','--translate','cpu:150',1),('quality_trim','','local','--quality-cutoff 20','--trimmer cutadapt','cpu:1',100),('quantification','bowtie','HPC','--query <query> --db <db>','--aligner bowtie --db-type NT','cpu:50',100),('read_normalization','','local','','','cpu:1',100),('upload','NA','local','','','cpu:1',100);
+/*!40000 ALTER TABLE `default_args` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `default_configuration`
+--
+
+DROP TABLE IF EXISTS `default_configuration`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `default_configuration` (
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `code` char(1) DEFAULT NULL,
+  PRIMARY KEY (`job_type`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `default_configuration`
+--
+
+LOCK TABLES `default_configuration` WRITE;
+/*!40000 ALTER TABLE `default_configuration` DISABLE KEYS */;
+INSERT INTO `default_configuration` VALUES ('adapter_trim','+'),('assemble','+'),('blast_nr','+'),('blast_swissprot','+'),('go','+'),('kegg','+'),('pfam','+'),('quality_trim','+'),('quantification','+'),('read_normalization','+'),('upload','+');
+/*!40000 ALTER TABLE `default_configuration` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `executables`
+--
+
+DROP TABLE IF EXISTS `executables`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `executables` (
+  `exec_name` varchar(255) NOT NULL,
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `location` varchar(50) NOT NULL DEFAULT 'local',
+  `command` text,
+  `args` text,
+  PRIMARY KEY (`exec_name`,`job_type`,`location`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `executables`
+--
+
+LOCK TABLES `executables` WRITE;
+/*!40000 ALTER TABLE `executables` DISABLE KEYS */;
+INSERT INTO `executables` VALUES ('blastn','quantification','HPC','blastn',' -query <query> -db <db> -num_threads <num_threads> -evalue 1e-04 -outfmt \"6 std qlen slen\" -max_target_seqs 1000000 -out <output>'),('blastp','blast_nr','HPC','blastp','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -num_threads <num_threads> -out <output> -db nr'),('blastp','blast_swissprot','HPC','blastp','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -num_threads <num_threads> -out <output> -db swissprot'),('blastx','blast_nr','HPC','blastx','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -num_threads <num_threads> -out <output> -db nr'),('blastx','blast_swissprot','HPC','blastx','-query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -num_threads <num_threads> -out <output> -db swissprot'),('blastx','quantification','HPC','blastx',' -query <query> -db <db> -num_threads <num_threads> -evalue 1e-04 -outfmt \"6 std qlen slen\" -max_target_seqs 1000000 -out <output>'),('bowtie','quantification','HPC','bowtie','--sam -y --quiet -p <num_threads> <db> <query> <output>'),('bowtie_paired','quantification','HPC','bowtie','--sam --best --quiet -p <num_threads> <db> -1 <query> -2 <query2> <output>'),('cutadapt','adapter_trim','local','cutadapt','<adapter> -o <output> -m 50 -O 6 <input>'),('cutadapt','quality_trim','local','cutadapt','-q <quality_cutoff> -f fastq -m <min_read_length> <input> > <output>'),('fastx_clipper','adapter_trim','local','fastx_clipper','-Q33 -M 10 -n -l 50 -v -a <adapter> -i <input> -o <output>'),('pfam_scan','pfam','HPC','pfam_scan.pl','-fasta <input>'),('tblastn','quantification','HPC','tblastn',' -query <query> -db <db> -num_threads <num_threads> -evalue 1e-04 -outfmt \"6 std qlen slen\" -max_target_seqs 1000000 -out <output>');
+/*!40000 ALTER TABLE `executables` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `dependency`
+--
+
+DROP TABLE IF EXISTS `dependency`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `dependency` (
+  `job_type` varchar(255) NOT NULL DEFAULT '',
+  `depends_on` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`job_type`,`depends_on`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `dependency`
+--
+
+LOCK TABLES `dependency` WRITE;
+/*!40000 ALTER TABLE `dependency` DISABLE KEYS */;
+INSERT INTO `dependency` VALUES ('assemble','adapter_trim'),('assemble','quality_trim'),('assemble','read_normalization'),('blast_nr','assemble'),('blast_swissprot','assemble'),('go','assemble'),('go','blast_swissprot'),('kegg','assemble'),('kegg','blast_swissprot'),('pfam','assemble'),('quality_trim','adapter_trim'),('quantification','assemble'),('read_normalization','adapter_trim'),('read_normalization','quality_trim'),('upload','upload');
+/*!40000 ALTER TABLE `dependency` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `goa`
+--
+
+DROP TABLE IF EXISTS `goa`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `goa` (
+  `uniprot_id` varchar(50) NOT NULL DEFAULT '',
+  `go_id` varchar(50) NOT NULL DEFAULT '',
+  `go_ref` varchar(255) NOT NULL DEFAULT '',
+  `aspect` char(1) DEFAULT NULL,
+  `synonym` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`uniprot_id`,`go_id`,`go_ref`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `goa`
+--
+
+LOCK TABLES `goa` WRITE;
+/*!40000 ALTER TABLE `goa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `goa` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `known_adapters`
+--
+
+DROP TABLE IF EXISTS `known_adapters`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `known_adapters` (
+  `adapter_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `adapter_name` varchar(255) DEFAULT NULL,
+  `end` int(1) DEFAULT NULL,
+  `adapter_sequence` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`adapter_id`),
+  UNIQUE KEY `uc_adapterName` (`adapter_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `known_adapters`
+--
+
+LOCK TABLES `known_adapters` WRITE;
+/*!40000 ALTER TABLE `known_adapters` DISABLE KEYS */;
+INSERT INTO `known_adapters` VALUES (1,'Ion_Torrent_A',NULL,'CCATCTCATCCCTGCGTGTCTCCGACTCAG'),(2,'Andrea_custom1_5prime',5,'AAGCAGTGGTATCAACGCAGAGTGGCCATTACGGCCGGG'),(3,'Andrea_custom1_3prime',5,'AAGCAGTGGTATCAACGCAGAGTCGCAGTCGGTACTTTTTTCTTTTTT'),(4,'Andrea_custom1_5prime_reverse',3,'CCCGGCCGTAATGGCCACTCTGCGTTGATACCACTGCTT'),(5,'Andrea_custom1_3prime_reverse',3,'AAAAAAGAAAAAAGTACCGACTGCGACTCTGCGTTGATACCACTGCTT');
+/*!40000 ALTER TABLE `known_adapters` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pipe_option_display`
+--
+
+DROP TABLE IF EXISTS `pipe_option_display`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pipe_option_display` (
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `flag` varchar(255) NOT NULL DEFAULT '',
+  `display_label` varchar(255) DEFAULT NULL,
+  `opt_type` varchar(64) DEFAULT NULL,
+  `opt_group` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`job_type`,`flag`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pipe_option_display`
+--
+
+LOCK TABLES `pipe_option_display` WRITE;
+/*!40000 ALTER TABLE `pipe_option_display` DISABLE KEYS */;
+INSERT INTO `pipe_option_display` VALUES ('adapter_trim','adapter_trimmer','Select adapter trimmer:','select','adapter'),('adapter_trim','paired_end','Data is paired-end','checkbox','adapter_trim'),('all','input_file',NULL,NULL,NULL),('assemble','assembler','Select Assembler','select','assemble'),('blast_nr','aligner','Aligner used for NR annotation','select','blast_nr'),('blast_swissprot','aligner','Aligner used for SwissProt annotation','select','blast_swissprot'),('quality_trim','paired_end','Data is paired-end','checkbox','quality_trim'),('quality_trim','quality_trimmer','Select quality trimmer:','select','quality'),('quantification','aligner','Aligner used in quantification','select','quantification'),('quantification','db_type','Sequence Type','select','quantification'),('read_normalization','paired_end','Data is paired-end','checkbox','read_normalization');
+/*!40000 ALTER TABLE `pipe_option_display` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pipe_options`
+--
+
+DROP TABLE IF EXISTS `pipe_options`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pipe_options` (
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `flag` varchar(255) NOT NULL DEFAULT '',
+  `default_value` text,
+  `arg_required` char(1) DEFAULT 'N',
+  PRIMARY KEY (`job_type`,`flag`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pipe_options`
+--
+
+LOCK TABLES `pipe_options` WRITE;
+/*!40000 ALTER TABLE `pipe_options` DISABLE KEYS */;
+INSERT INTO `pipe_options` VALUES ('adapter_trim','adapter_trimmer','','Y'),('adapter_trim','paired_end','False','N'),('all','input_file','','Y'),('assemble','assembler','trinity','Y'),('blast_nr','aligner','blastx','Y'),('blast_swissprot','aligner','blastx','Y'),('quality_trim','paired_end','False','N'),('quality_trim','quality_trimmer','','Y'),('quantification','aligner','bowtie','Y'),('quantification','db_type','NT','Y'),('read_normalization','paired_end','False','N');
+/*!40000 ALTER TABLE `pipe_options` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `proc_options`
+--
+
+DROP TABLE IF EXISTS `proc_options`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `proc_options` (
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `flag` varchar(255) NOT NULL DEFAULT '',
+  `default_value` text,
+  `arg_required` char(1) DEFAULT 'N',
+  PRIMARY KEY (`job_type`,`flag`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `proc_options`
+--
+
+LOCK TABLES `proc_options` WRITE;
+/*!40000 ALTER TABLE `proc_options` DISABLE KEYS */;
+INSERT INTO `proc_options` VALUES ('adapter_trim','adapter','','Y'),('blast_nr','num_threads','4','Y'),('blast_swissprot','num_threads','4','Y'),('go','evalue','0.0001','Y'),('kegg','evalue','0.0001','Y'),('quality_trim','min_read_length','50','Y'),('quality_trim','quality_cutoff','20','Y'),('quantification','db','','Y'),('quantification','num_threads','4','Y'),('quantification','query','','Y');
+/*!40000 ALTER TABLE `proc_options` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `proc_option_display`
+--
+
+DROP TABLE IF EXISTS `proc_option_display`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `proc_option_display` (
+  `job_type` varchar(64) NOT NULL DEFAULT '',
+  `flag` varchar(255) NOT NULL DEFAULT '',
+  `display_label` varchar(255) DEFAULT NULL,
+  `opt_type` varchar(64) DEFAULT NULL,
+  `opt_group` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`job_type`,`flag`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `proc_option_display`
+--
+
+LOCK TABLES `proc_option_display` WRITE;
+/*!40000 ALTER TABLE `proc_option_display` DISABLE KEYS */;
+INSERT INTO `proc_option_display` VALUES ('adapter_trim','adapter','None','None','None'),('blast_nr','num_threads','Number of Threads Per Aligner Instance','text','blast_nr'),('blast_swissprot','num_threads','Number of Threads Per Aligner Instance','text','blast_swissprot'),('go','evalue','E-value cutoff','select','go'),('kegg','evalue','E-value cutoff','select','kegg'),('quality_trim','min_read_length','Minimum read length to keep (after trimming)','text','quality_trimmer'),('quality_trim','quality_cutoff','Quality Score Cutoff','text','quality_trimmer'),('quantification','db','Alignment Database File','text','quantification'),('quantification','num_threads','Number of Threads Per Aligner Instance','text','aligner'),('quantification','query','Alignment Query File','text','quantification');
+/*!40000 ALTER TABLE `proc_option_display` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2013-05-22  6:45:44

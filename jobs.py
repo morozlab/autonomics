@@ -1,22 +1,21 @@
-
 '''
 
 Author: Mathew Citarella
 Version 1.1
 10/24/12
 
-jobs.py: Holds classes and methods for creating and manipulating zeroclick jobs
+jobs.py: Holds classes and methods for creating and manipulating autonomics jobs
 '''
 
 from sqlalchemy.sql import functions, select, and_
 from multiprocessing import Process
 from sqlalchemy.sql import select, and_, or_
-from zeroclick.file_io import AlignmentReader, FileExtensions
-from zeroclick.file_io import translate_seq_file, make_record, sha1_file
-from zeroclick import statistics
-from zeroclick.statistics import do_stats_update
-from zeroclick.utility import attr_or_default, die_on_error
-from zeroclick import settings, netutils
+from autonomics.file_io import AlignmentReader, FileExtensions
+from autonomics.file_io import translate_seq_file, make_record, sha1_file
+from autonomics import statistics
+from autonomics.statistics import do_stats_update
+from autonomics.utility import attr_or_default, die_on_error
+from autonomics import settings, netutils
 from utility import convert_if_int
 import datetime
 import imaplib
@@ -36,8 +35,8 @@ session = netutils.make_db_session()
 
 
 JOB_INPUT_FLAGS = {
-    'quality_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
     'adapter_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
+    'quality_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
     'read_normalization': {'input': '.fastq',
                            'end2': '.fastq'},
     'quantification': {'query': '.fastq',
@@ -143,6 +142,7 @@ def get_project_name(pid, retries=5):
          the project given by pid instead.
     '''
     global session
+
     try:
         pn_mapping = netutils.get_table_object("pn_mapping", session)
         results = pn_mapping.select(pn_mapping.c.project_id==pid).execute()
@@ -518,7 +518,7 @@ class Arguments:
         else:
             self._setattr(arg_name, value)
 
-    def _init_attributes(self, from_table, overwrite=False):
+    def _init_attributes(self, from_table, overwrite=False, retries=5):
         ''' from_table (str):
                 Table to use when checking for default flag values. Currently
                 accepted values are: 'proc_options', 'pipe_options'
@@ -530,21 +530,17 @@ class Arguments:
             Looks up default arguments in from_table, and assigns their values
             to this arguments object. If overwrite is True, will overwrite
             existing attributes with default values from the tables.
-
+            here, get all of the supported options and set them to the default 
+            values, if not already set
         '''
-        #here, get all of the supported options and set them to the default values, if not already set
+
+        session = netutils.make_db_session()
         options = netutils.get_table_object(from_table, session)
-        res = session.conn.execute(
-                                   options.select(
-                                                  options.c.job_type==\
-                                                  self.job_type
-                                                  )
-                                   )
+        res = session.conn.execute(options.select(options.c.job_type==self.job_type))
         value_map = {'False': False, 'True': True}
         for row in res.fetchall():
             if(hasattr(self, row.flag) and not overwrite):
                 continue
-
             if(row.arg_required=='Y'):
                 setattr(self, row.flag, row.default_value)
             else:
@@ -563,9 +559,10 @@ class Arguments:
             type these arguments are attached to.
         '''
 
+        session = netutils.make_db_session()
+
         if(self.job_type is None):
             return
-
         table = netutils.get_table_object(table_name, session)
         results = table.select(and_(table.c.job_type==self.job_type,
                                     table.c.arg_required=='Y')).execute()
@@ -655,7 +652,23 @@ class Resources:
 
         In a future release, this object will be replaced by a stand-alone
         resource server holding global information about resource levels.
+  
+        amount of resources for a job found in args/default_args table
+
+job_type     | executable | loc   | process_args        | pipeline_args                 | resources | priority |
+adapter_trim              | local |                     | --adapter-trimmer cutadapt    | cpu:1     |      100 |
+quality_trim              | local | --quality-cutoff 20 | --trimmer cutadapt            | cpu:1     |      100 |
+read_normalization        | local |                     |                               | cpu:1     |      100 |
+assemble                  | local |                     | --assembler trinity           | cpu:20    |        1 |
+go                        | local |                     |                               | cpu:1     |        1 |
+kegg                      | local |                     |                               | cpu:1     |        1 |
+pfam         | NA         | HPC   | -fasta <input>      | --translate                   | cpu:150   |        1 |
+quantifica   | bowtie     | HPC   | --query <query> --db <db> | --aligner bowtie --db-type NT | cpu:50 |   100 |
+blast_nr     | blastx     | HPC   | -query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -out <output> |   | cpu:200 | 1 |
+blast_swiss  | blastx     | HPC   | -query <input> -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -out <output> |   | cpu:100 | 1 |
+
     '''
+
 
     def __init__(self):
 
@@ -692,7 +705,6 @@ class Resources:
                 if(key in self.totals):
                     self.free[key] -= job.resources[key]
 
-
         return enoughResources
 
     def has_enough_free(self, resources):
@@ -709,7 +721,6 @@ class Resources:
             if(key in self.totals):
                 if(value > self.free[key]):
                     enough = False
-
         return enough
 
     def take_from(self, job):
@@ -726,7 +737,6 @@ class Resources:
                 self.free[key] += job.resources[key]
             else:
                 self.free[key] = self.totals[key]
-
 
 class Locations:
 
@@ -865,14 +875,9 @@ class Job:
         self.output_files = set()
         self.DO_NOT_SPLIT = []
         self.outputFile = ""
-
-        self.job_name = ""
-
-        #same for the output file
         out_modifier = self.job_name + ".txt"
         if(t in FileExtensions.output_exts):
             out_modifier = self.pn + FileExtensions.for_output(self.job_type)
-
         self.current_output = self.local_dir + out_modifier
         self.pipeline_args = PipeArgs(pipeline_arg_str, self.job_type)
         self.process_args = ProcArgs(process_arg_str, self.job_type)
@@ -975,10 +980,8 @@ class Job:
         if(capture_output):
             redirect = subprocess.PIPE
         p = subprocess.Popen(cmd, shell=True, stdout=redirect, stderr=redirect)
-
         if(blocking):
             p.wait()
-
         return p
 
     def _rm_working_dir(self):
@@ -1013,10 +1016,10 @@ class Job:
                 return JobState.RUNNING
             elif(p.exitcode != 0):
                 print(p.exitcode)
-                print("Got a weird exit code.")
+                print"Got a weird exit code.  for jid: ", self.jid
                 return JobState.ERROR
             elif(self.error_status()):
-                print("Got an error status")
+                print "Got an error status for jid: ", self.jid
                 print(self.error_status())
                 return JobState.ERROR
 
@@ -1041,6 +1044,7 @@ class Job:
             will also calculate statistics for the analysis task, if possible.
             Statistics are stored in the run_stats table.  
         '''
+        session = netutils.make_db_session()
         results = session.conn.execute(
             "select project_id from jn_mapping where ((project_id = ?) and \
             (job_type = 'upload'))",
@@ -1085,6 +1089,7 @@ class Job:
             accomplished by setting the finished field = 'Y' and f_ts =
             CURRENT_TIMESTAMP().
         '''
+        session = netutils.make_db_session()
         jn = netutils.get_table_object('jn_mapping', session)
         jn.update(
                   ).where(
@@ -1146,7 +1151,6 @@ class Job:
                 retries -= 1
                 if(retries == 0):
                     raise
-
 
         cmd = "mkdir \"" + remote_dir + "\""
         ssh_conn.execute(cmd)
@@ -1283,7 +1287,7 @@ class HPCJob(Job):
     restart_jobs = settings.restart_jobs
     location = Locations.HPC
 
-    def __init__(self, pid, jid, job_type, executable, resources="", 
+    def __init__(self, pid, jid, job_type, executable, resources="",
                  pipeline_arg_str="", process_arg_str=""):
         Job.__init__(self, pid, jid, job_type, executable, resources, 
                      pipeline_arg_str, process_arg_str)
@@ -1360,7 +1364,6 @@ class LocalJob(Job):
                  resources="",
                  pipeline_arg_str="",
                  process_arg_str=""):
-
         Job.__init__(self,
                      pid,
                      jid,
@@ -1439,7 +1442,6 @@ class AdapterTrimJob(LocalJob):
         self.mark_complete()
 
     def start(self):
-        print("Starting AdapterTrimJob: " + self.job_name)
         p = self.constructor(self.pn,
                              self.input_files,
                              self.current_output,
@@ -1522,7 +1524,6 @@ class AssemblyJob(LocalJob):
             paired_end = 0
             if(self.paired_end):
                 paired_end = 1
-            print("Starting AssemblyJob " + self.job_name)
             p = self.constructor(self.pn,
                                  self.input_files['input'],
                                  self.current_output,
@@ -1563,19 +1564,25 @@ class AssemblyJob(LocalJob):
         if not self.special_run:
             fn = self.input_files['input']
             fn = fn.replace(".fasta", ".fastq")
+            paired = 0
             if(self.input_files.has_key('end2') and
                os.path.exists(self.input_files['end2'])):
+                paired = 1
                 stats_temp_file = self.local_dir + 'stats.temp'
                 cmd = 'cat ' + fn + ' ' + self.input_files['end2'] + \
                      ' > ' + stats_temp_file
                 os.system(cmd)
+                stats_temp_file = stats_temp_file.replace(".fasta", ".fastq")
                 fn = stats_temp_file
-                fn = fn.replace(".fasta", ".fastq")
             rdict = statistics.CalculateReadsStatistics(fn)
             statistics.do_stats_update(rdict, self.pid,
                                         self.special_run, self.local_dir
                                         )
+            if paired:
+                os.remove(stats_temp_file)
+
         if(self.assembler in settings.QUANTIFICATION_ASSEMBLERS):
+            session = netutils.make_db_session()
             #add the quantification fn to upload
             self.output_files.add(self.local_dir + self.pn + \
                                    "_quantification.txt")
@@ -1682,8 +1689,6 @@ class BlastAssociationJob(LocalJob):
             object's start method, and finally appends the object ot the list
              of processes for this job. 
         '''
-        print("Starting BlastAssociationJob: " + self.job_type + " " \
-              + self.job_name)
         arg1 = self.pn
         out_f = self.current_output
 
@@ -1795,7 +1800,6 @@ class QualityTrimJob(LocalJob):
         self.mark_complete()
 
     def start(self):
-        print("Starting QualityTrimJob " + self.job_name)
         p = self.constructor(self.pn, self.input_files, self.current_output,
                              self.pipeline_args, self.process_args,
                              self.resources, paired_end=self.paired_end)
@@ -1849,7 +1853,6 @@ class ReadNormJob(LocalJob):
         self.constructor = ReadNormProcess
 
     def start(self):
-        print("Starting ReadNormJob " + self.job_name)
         p = self.constructor(self.pn,
                              self.input_files['input'],
                              self.current_output,
@@ -1994,7 +1997,6 @@ class PipeProcess(Process):
         ret_cmd = cmd_template
         for key, value in replacement_dict.items():
             ret_cmd = ret_cmd.replace("<" + key + ">", str(value))
-
         return ret_cmd
 
     def _proc_options_dict(self, job_type, session):
@@ -2081,15 +2083,17 @@ class AdapterTrimProcess(PipeProcess):
             name of the input file should be created, but the sequences in that
             file should have all adapter subsequences removed.
         '''
-        session = netutils.make_db_session()
+
         tmp = f + ".trimming.tmp"
         prog = "fastx_clipper"
         if(hasattr(args, "adapter_trimmer")):
             prog = args.adapter_trimmer
 
         #get the adaptors sequences
-        adapts = netutils.get_adapters(netutils.get_pid(self.project_name,
+        session = netutils.make_db_session()
+        adapts = netutils.get_adapter_rows(netutils.get_pid(self.project_name,
                                                         session), session)
+        if len(adapts) ==0: print "There are no known_adapters for this project, so skipping adapter_trim"
         for adapt in adapts:
             adapt_flg = adapt.adapter_sequence
             if(prog == 'cutadapt'):
@@ -2097,7 +2101,6 @@ class AdapterTrimProcess(PipeProcess):
                     adapt_flg = '-a ' + adapt_flg
                 else:
                     adapt_flg = '-g '+ adapt_flg
-
             self.process_args.adapter = adapt_flg
             cmd = self._get_cmd_template(prog, "adapter_trim", session)
             param_dict = self._proc_options_dict("adapter_trim", session)
@@ -2193,7 +2196,7 @@ class AssemblyProcess(PipeProcess):
                 in_file2 = out_dir + self.pn + ".end2.fasta"
             cmd = "python " + settings.SCRIPTPATH + "run_trinity.py \
                     -in_file1 " + in_file1 + " -in_file2 " + in_file2 + \
-                    " -cpus " + str(self.cpus)
+                    " -cpus " + str(self.cpus) 
         else:
             prefix = ""
             if (self.special_run):
@@ -2271,13 +2274,12 @@ class BlastAssociationProcess(PipeProcess):
                               port = settings.REDIS_PORT, db=0)
         r = AlignmentReader(self.blast_file, "hpc-blast")
         r.read()
-
+      
         out = open(self.current_output, 'w')
         for query, hits in r.annotations.items():
             for hit in hits:
                 if(hit.significance > float(self.process_args.evalue)):
                     continue
-
                 reference = hit.reference_id.split("|")[1]
                 reference = reference.split(".")[0]
                 #for each hit asccesion, get all of the associated records in the db
@@ -2285,7 +2287,6 @@ class BlastAssociationProcess(PipeProcess):
                 for record in records:
                     out.write(query + "\t" + record + "\t" + str(hit.score) + \
                                "\t" + str(hit.significance) + "\n")
-
         out.close()
 
 
@@ -2360,16 +2361,14 @@ class GOProcess(BlastAssociationProcess):
         die_on_error(p.returncode)
         p = self._exec_cmd("wc -l " + self.current_output + "_flattened.txt",
                            capture_out=True)
+
         die_on_error(p.returncode)
         output = p.stdout.readline()
         num = convert_if_int(output.split(" ")[0])
         tmp_outs = self.current_output + "_flattened.txt"
         if(num > 200000):
             #having more than 200000 records triggers flattening
-            p = self._exec_cmd("python " + settings.SCRIPTPATH + "/filetools.p\
-            y  --fields seq_id:1 sp_acc:2 go_term:3 evalue:8:float --key-col 1\
-             --flatten --flatten-depth 10 " + self.current_output  + \
-              "_flattened.txt")
+            p = self._exec_cmd("python " + settings.SCRIPTPATH + "/filetools.py --fields seq_id:1 sp_acc:2 go_term:3 evalue:8:float --key-col 1 --flatten --flatten-depth 10 " + self.current_output  + "_flattened.txt")
             die_on_error(p.returncode)
             os.remove(tmp_outs)
             tmp_outs = self.current_output + "_flattened.txt_flattened.txt"
@@ -2433,7 +2432,6 @@ class KEGGProcess(BlastAssociationProcess):
                  special_run,
                  job_name
                  ):
-
         BlastAssociationProcess.__init__(
                                          self,
                                          base_name,
@@ -2499,7 +2497,6 @@ class PfamProcess(PipeProcess):
             the Pfam annotation file.
         '''
         #translate the input file
-
         self.translated = translate_seq_file(self.input_file, "fasta")
         os.chdir(settings.pfam_exec_path)
         #run pfam
@@ -2509,8 +2506,6 @@ class PfamProcess(PipeProcess):
                              self.translated, shell=True)
         #wait for pfam to finish
         p.wait()
-        print("Pfam process done.")
-
 
 class QualityTrimProcess(PipeProcess):
     '''
@@ -2635,7 +2630,7 @@ class ReadNormProcess(PipeProcess, Job):
         '''
         if(self.paired_end):
             cmd = "python " + settings.SCRIPTPATH + "run_read_normalization.py -in_file\
-                 " + self.input_file + " -paired_end "
+                 " + self.input_file + " -paired_end 1"
         else:
             cmd = "python " + settings.SCRIPTPATH + "run_read_normalization.py -in_file\
                  " + self.input_file
@@ -2646,7 +2641,6 @@ class ReadNormProcess(PipeProcess, Job):
         #parse the process args
         self.pipeline_args.parse()
         self.process_args.parse()
-        print("Normalizing with khmer.")
         self.run_khmer()
 
 
@@ -2686,7 +2680,6 @@ class BlastJob(HPCJob):
                  pipeline_args,
                  process_args
                  ):
-
         HPCJob.__init__(
                         self,
                         pid,
@@ -2697,7 +2690,6 @@ class BlastJob(HPCJob):
                         pipeline_args,
                         process_args
                         )
-
         self.process_args.arg_string += " -num_threads " + \
                                         str(self.resources['ppn'])
         self.hpc_qsub_files['input'] = self.input_files['input']
@@ -2751,7 +2743,6 @@ class BlastJobNR(BlastJob):
                  pipeline_args,
                  process_args
                  ):
-
         BlastJob.__init__(
                           self,
                           pid,
@@ -2766,8 +2757,9 @@ class BlastJobNR(BlastJob):
 
     def _default_resources(self):
         ret = BlastJob._default_resources(self)
-        ret['mem'] = "5000mb"
-        ret['wall'] = "192:00:00"
+        ret['mem'] = "12000mb"
+#        ret['wall'] = "192:00:00"
+        ret['wall'] = "99:00:00"
         ret['blast_nr'] = 1
         return ret
 
@@ -2800,7 +2792,7 @@ class BlastJobSwissprot(BlastJob):
 
     def _default_resources(self):
         ret = BlastJob._default_resources(self)
-        ret['mem'] = "1000mb"
+        ret['mem'] = "2000mb"
         ret['wall'] = "48:00:00"
         return ret
 
@@ -2882,7 +2874,6 @@ class PfamJob(HPCJob, threading.Thread):
                  pipeline_args,
                  process_args
                  ):
-
         threading.Thread.__init__(self)
         HPCJob.__init__(
                         self,
@@ -2894,7 +2885,6 @@ class PfamJob(HPCJob, threading.Thread):
                         pipeline_args,
                         process_args
                         )
-
         self.executable = "pfam_scan.pl"
         self.process_args.arg_string = " -dir " + settings.pfam_data_path + \
             " -cpu " + str(self.resources["ppn"]) + " " + process_args
@@ -2914,7 +2904,6 @@ class PfamJob(HPCJob, threading.Thread):
     def run(self):
         #check if we need to translate the input
         if(hasattr(self.pipeline_args, "translate")):
-            print("Translating pfam input file.")
             self.input_files['input'] = translate_seq_file(self.input_files[\
                                             'input'], "fasta")
             self.hpc_qsub_files['input'] = self.input_files['input']
@@ -3021,7 +3010,6 @@ class QuantificationJob(HPCJob):
                  pipeline_arg_str = "",
                  process_arg_str = ""
                  ):
-
         self.query_files = {}
         self.remote_db_path = ""
         self.db_files = []
@@ -3272,7 +3260,6 @@ class QuantificationJob(HPCJob):
             self.hpc_qsub_files['query'] = combined_fn
 
     def start(self):
-        print("Starting QuantificationJob " + self.job_name)
         self.prepare_for_aln[self.quant_type]()
         self.resources['modules'] = self.aligner_modules[self.quant_type]
         self.executable = self.pipeline_args.aligner
@@ -3407,11 +3394,9 @@ class Qsub:
         '''
             Removes each file stored in self.inputs.
         '''
-        os.remove(self.local_dir + self.name + ".qsub")
         for infile in self.inputs.values():
             try:
                 os.remove(infile)
-
             except:
                 pass
 
@@ -3468,6 +3453,8 @@ class Qsub:
         #gets the output created by this Qsub job, returns the local path to the file
         #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
         try:
+            rfile = self.remote_dir + "/" + self.current_output
+            lfile = self.local_dir + self.current_output
             c.get(self.remote_dir + "/" + self.current_output,
                   self.local_dir + self.current_output)
         except IOError as e:
@@ -3483,7 +3470,7 @@ class Qsub:
             c, and increasing the memory by the amount specified in memIncrease.
         '''
         self.create_pbs_header(self.walltime, self.q, 
-                               str(self.mem_req + memIncrease) + "mb", 
+                               str(self.mem_req + memIncrease) + "mb",
                                self.nodes, self.ppn, self.email)
         self.submit(c)
 
@@ -3539,7 +3526,6 @@ class Qsub:
         out.write(self.qsub)
         out.write(self.commands)
         out.close()
-
 
 class HPCProcess(PipeProcess):
     '''
@@ -3637,7 +3623,6 @@ class HPCProcess(PipeProcess):
                  jid,
                  output_file
                  ):
-
         Process.__init__(self)
         self.input_files = input_files
         self.hpc_job_files = hpc_job_files
@@ -3662,7 +3647,6 @@ class HPCProcess(PipeProcess):
         self.mail_credentials = settings.mail_cred
         self.ssh_credentials = settings.hpc_cred
         self.location = Locations.HPC
-
         self.retry_interval = 30
         self.restart = settings.restart_jobs
         self.mail_connect = None
@@ -3687,7 +3671,6 @@ class HPCProcess(PipeProcess):
         self.resources['mem'] = str(mem) + "mb"
         self.mem_increment = self.mem_increment / self.resources['ppn']
 
-
     def check(self, conn = None):
         '''
             Checks the status of this analysis process. 
@@ -3701,6 +3684,7 @@ class HPCProcess(PipeProcess):
         c = netutils.ssh_connect(self.ssh_credentials)
         num_finished = 0
         errors = []
+        num_procs = len(self.processes)
         for index, proc in enumerate(self.processes):
             stat = self.check_individual_job(index, c)
             if(stat == 'finished'):
@@ -3713,6 +3697,7 @@ class HPCProcess(PipeProcess):
             elif(stat == 'exceedMem'):
                 #check if we should restart this job
                 if(self.restart):
+                    print "in stat=exceedMem' self.mem_increment: ", self.mem_increment
                     proc.resubmit(c, self.mem_increment)
                 else:
                     num_finished += 1
@@ -3925,8 +3910,6 @@ class HPCProcess(PipeProcess):
                                                     self.resources['cpu'])
 
                 num_parts = len(split_files[flag])
-
-        #split_files = {flag: [self.remote_dir + f for f in hpc_files[flag]] for flag in hpc_files.keys()}
         return (num_parts, split_files)
 
     def check_individual_job(self, job_index, c):
@@ -3940,6 +3923,7 @@ class HPCProcess(PipeProcess):
         #check if this job terminated due to exeeding memory requests
         exceeded = self._exceeded_memory(proc)
         if(exceeded > 0):
+            print "check_individual_job()  exceeded: ", exceeded
             proc.status = "exceedMem"
             if(self.restart):
                 #set the new memory request to the amount used when the job was killed
@@ -3976,7 +3960,7 @@ class HPCProcess(PipeProcess):
 
     def cleanup(self):
         self._cleanup_local_files()
-        self._rm_working_dir()
+#        self._rm_working_dir()
 
     def move_job_data(self):
         '''
@@ -4007,7 +3991,6 @@ class HPCProcess(PipeProcess):
                 out.write(tmp.read())
                 tmp.close()
                 os.remove(single_f)
-
         c.close()
         out.close()
         return self.current_output
@@ -4077,7 +4060,7 @@ class HPCProcess(PipeProcess):
             '''
             job_no = i + 1
             job_name = self.job_name + str(job_no)
-            qsub_out = job_name + \
+            qsub_out =job_name + \
                 FileExtensions.for_program_output(self.job_type)
 
             this_input = {
@@ -4106,7 +4089,6 @@ class HPCProcess(PipeProcess):
                 param_dict['num_threads'] = self.resources['ppn']
                 self.hpc_command = self._prepare_cmd(self.hpc_command,
                                                      param_dict)
-
             #get the files needed by this qsub
             these_qsub_files = {flag: qsub_files[flag][i]
                                 for flag in qsub_flags}
@@ -4122,16 +4104,21 @@ class HPCProcess(PipeProcess):
             else:
                 qsub = Qsub(job_name, self.remote_dir, these_qsub_files,
                             working_dir)
-
             qsub.create_pbs_header(self.resources['wall'],
                                    self.resources['queue'],
                                    self.resources['mem'],
                                    self.resources['nodesPerSubJob'],
                                    self.resources['ppn'],
-                                   settings.MAIL_ACCOUNT + "@" +\
-                                    settings.MAIL_PROVIDER)
+                                   settings.MAIL_ACCOUNT + "@" + settings.MAIL_PROVIDER + "," + settings.MAIL_ACCOUNT2 + "@" + settings.MAIL_PROVIDER)
             qsub.append_qsub_command(self.resources['modules'])
+            touch_file = self.remote_dir + "/start." + job_name
+            tcommand = "touch " + touch_file
+            qsub.append_qsub_command(tcommand)
             qsub.append_qsub_command(self.hpc_command)
+            touch_file = self.remote_dir + "/done." + job_name
+            tcommand = "touch " + touch_file
+            qsub.append_qsub_command(tcommand)
+#           c = ssh connections
             qsub.submit(c)
             self.processes.append(qsub)
 
@@ -4142,6 +4129,5 @@ class HPCProcess(PipeProcess):
             if stat == JobState.FINISHED:
                 break
             time.sleep(60)
-
         self.complete()
         print("HPC process done.")

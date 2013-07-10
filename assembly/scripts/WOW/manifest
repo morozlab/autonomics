@@ -1,0 +1,9 @@
+#test manifest
+
+project = TestAssem
+job = denovo,est,normal,454
+parameters = -GE:not=4 454_SETTINGS -SK:pr=70 -AL:mo=40:ms=10:mrs=70 -AS:mrl=40 -CL:qc=no -OUT:sssip=yes
+
+readgroup = SomeTestStuff
+data = /srv/data2/pipeline/Rat_rattus_nRNA-Seq_C1_PG1-69_Trans/Rat_rattus_nRNA-Seq_C1_PG1-69_Trans.fastq.cutadpated
+technology = 

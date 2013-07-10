@@ -1,4 +1,4 @@
-from zeroclick import settings
+from autonomics import settings
 import argparse
 
 def make_job_insert(vals):

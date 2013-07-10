@@ -33,7 +33,7 @@
 import argparse
 import os
 import re
-from zeroclick import netutils, settings
+from autonomics import netutils, settings
 
 def main():
     parser = argparse.ArgumentParser(description='Submission script for running Trinity.')

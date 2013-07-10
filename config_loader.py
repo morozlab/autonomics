@@ -16,7 +16,7 @@ Note: Please see the ZIPline database documentation for the runname_to_pid, pn_m
 
 '''
 
-from zeroclick import settings, netutils
+from autonomics import settings, netutils
 from sqlalchemy.sql import select, insert, update, and_
 import sqlalchemy.exc
 import os, time
@@ -32,14 +32,14 @@ def check_run_exists(source_id, run_name, session):
         Name for this run as a string. source_id, run_name form the primary key of the runname_to_pid table
 
     session (netutils.DBSession):
-        A netutils.DBSession object, which can be used to reflect database tables via netutils.getTableObject(). Can also directly execute queries through the conn attribute.
+        A netutils.DBSession object, which can be used to reflect database tables via netutils.get_table_object(). Can also directly execute queries through the conn attribute.
 
     Uses runname and source_id to check if the specified run exists in the database currently connected to by session.
 
     Returns True if the run exists, False otherwise.
     '''
 
-    rn_2_pid = netutils.getTableObject("runname_to_pid", session)
+    rn_2_pid = netutils.get_table_object("runname_to_pid", session)
     results = rn_2_pid.select(and_(rn_2_pid.c.source_id==source_id, rn_2_pid.c.run_name==run_name)).execute()
     row = results.fetchone()
     if(row is None):
@@ -62,7 +62,7 @@ def get_pid(source_id, run_name, session):
 
     '''
 
-    rn_2_pid = netutils.getTableObject("runname_to_pid", session)
+    rn_2_pid = netutils.get_table_object("runname_to_pid", session)
     results = rn_2_pid.select(and_(rn_2_pid.c.run_name==run_name, rn_2_pid.c.source_id==source_id)).execute()
     row = results.fetchone()
     return row.project_id
@@ -80,8 +80,8 @@ def get_project_name(source_id, run_name, session):
         An open session with the autonomics database
     Uses source_id and run_name to fetch and return the project_name for the run.
     '''
-    rn_2_pid = netutils.getTableObject("runname_to_pid", session)
-    pn_mapping = netutils.getTableObject("pn_mapping", session)
+    rn_2_pid = netutils.get_table_object("runname_to_pid", session)
+    pn_mapping = netutils.get_table_object("pn_mapping", session)
     results = select([pn_mapping, rn_2_pid], and_(rn_2_pid.c.project_id==pn_mapping.c.project_id, rn_2_pid.c.run_name==run_name, rn_2_pid.c.source_id==source_id)).execute()
     row = results.fetchone()
     return row.project_name
@@ -100,7 +100,7 @@ def update_project_name(old_name, new_name, session):
 
     Changes old_name to new_name using the connection to the database specified by session.
     '''
-    pn_mapping = netutils.getTableObject("pn_mapping", session)
+    pn_mapping = netutils.get_table_object("pn_mapping", session)
     u = pn_mapping.update().where(pn_mapping.c.project_name==old_name).values(project_name=new_name)
     u.execute()
 
@@ -108,11 +108,11 @@ def update_project_name(old_name, new_name, session):
 def main():
 
     session = netutils.make_db_session()
-    pn_mapping = netutils.getTableObject("pn_mapping", session)
-    jn_mapping = netutils.getTableObject("jn_mapping", session)
-    config = netutils.getTableObject("configuration", session)
-    rn_2_pid = netutils.getTableObject("runname_to_pid", session)
-    args = netutils.getTableObject("args", session)
+    pn_mapping = netutils.get_table_object("pn_mapping", session)
+    jn_mapping = netutils.get_table_object("jn_mapping", session)
+    config = netutils.get_table_object("configuration", session)
+    rn_2_pid = netutils.get_table_object("runname_to_pid", session)
+    args = netutils.get_table_object("args", session)
 
     proj_attrs = ["source_id", "run_name", "pid", "downloaded", "configured", "paired"]
     arg_attrs = ["executable", "loc", "process_args", "pipeline_args", "resources", "priority"]

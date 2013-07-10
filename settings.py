@@ -6,11 +6,28 @@ Created on Oct 23, 2012
 '''
 
 import platform
-#set plw = 0 when checking in to git
+import os
+import re
 
-# plw = 1 is for using Peter's install dir, pipeline dir and database
+hname = os.environ['HOST'] 
+print hname
 
-plw = 0
+machine = ""
+match_obj = re.search('oem',hname)
+if match_obj:
+  machine = 'oem'
+
+match_obj = re.search('acis',hname)
+if match_obj:
+  machine = 'acis'
+
+match_obj = re.search('hpc',hname)
+if match_obj:
+  machine = 'hpc'
+
+if machine == "":
+  print "settings.py unable to find machine it is running on"
+  sys.exit()
 
 class Credentials:
     '''
@@ -103,16 +120,21 @@ mira_path = "/usr/bin/"
 #
 remote_dir = "/scratch/hpc/mcitar/"
 
-#Directory containing all python scripts used by the system. This is the full 
-#path to the 'scripts' subdirectory of the Autonomics repository.
-python_scripts_path = "/home/oem/moroz-python/zeroclick/scripts/"
-
 #Main installation directories. INSTALL_DIR is the full path to where the 
 #system was cloned from github. 
-INSTALL_DIR = "/home/oem/moroz-python/zeroclick/"
-if plw:
-    INSTALL_DIR = "/home/pwilliams/python_software/zeroclick/"
-    python_scripts_path = "/home/pwilliams/python_software/zeroclick/scripts/"
+if machine == 'oem':
+    INSTALL_DIR = "/home/oem/python_software/autonomics/"
+    PERLPATH = "/home/oem/PerlScripts/Database/"
+if machine == 'acis':
+    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+if machine == 'hpc':
+    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+    PERLPATH = "/home/pwilliams/PerlScripts/Database/"
+
+#Directory containing all python scripts used by the system. This is the full 
+#path to the 'scripts' subdirectory of the Autonomics repository.
+
+python_scripts_path = INSTALL_DIR + "scripts/"
 
 #SCRIPT_BASE describes where to find scripts, relative to the main Autonomics
 #installation.
@@ -143,21 +165,22 @@ CRED_PATH = INSTALL_DIR + "credentials/"
 CONFIG_BASE = "proj_config/"
 CONFIG_PATH = INSTALL_DIR + CONFIG_BASE
 
-#if plw:
-#    home_dir = "/srv/data2/pipeline.peter/"
-
 #Names for system queues
 #These names correspond to the table names in the Autonomics database storing 
 #the respective queues. 
 normal_queue = 'quenew'
 special_queue = 'quenew_special'
 
-
 #System storage paths
 CYGWIN_NEUROBASE_STORAGE = "//Moroz-500g/disk 2/zeroclick_load_data/"
-NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"
-NEUROBASE_DATA_PATH = "/data/neurobase_load_data/"
-NEUROBASE_STORAGE_PATH = "G:/zeroclick_storage/"
+# NEUROBASE_STORAGE_PATH = "G:/zeroclick_storage/"
+
+if machine == 'oem':
+   NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"
+   NEUROBASE_DATA_PATH = "/data/neurobase_load_data/"
+if machine == 'hpc':
+   NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
+   NEUROBASE_DATA_PATH = "/data/autonomics_data/"
 
 #System credentials 
 mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
@@ -170,7 +193,7 @@ creds['128.227.70.246'] = zc_cred
 
 
 #time the manager waits between checking job status
-mainLoopSleepInterval = 60
+mainLoopSleepInterval = 30
 
 #total seconds job must not be seen in HPC queue to be marked as complete
 waitBeforeMarkComplete = 120
@@ -197,8 +220,6 @@ ZC_HOST = "128.227.70.246"
 ZC_USER = "morozgroup"
 ZC_PASSWD = "Whitney2011"
 ZC_DB_NAME = "zero_click"
-# if plw:
-#  ZC_DB_NAME = "plw_db2"
 
 DISPATCHER_SLEEP_INTERVAL = 60
 
@@ -209,6 +230,7 @@ MYSQLDB_DRIVER = "mysql+mysqldb"
 #email configuration
 MAIL_PROVIDER = "gmail.com"
 MAIL_ACCOUNT = "morozhpc"
+MAIL_ACCOUNT2 = "plw1080"
 
 #should we push configuration data from the web server to zc server
 PUSH_CONFIGURATION_DATA = True

@@ -24,7 +24,7 @@ This module configures new runs with the following logic:
     
 Data is moved with the move_<source_type>_data family of methods.
 
-Configuration is pushed from the web server to the zeroclick compute server with push_configuration. 
+Configuration is pushed from the web server to the autonomics compute server with push_configuration. 
 
 Configuration data includes (but is not limited to):
     - project_name
@@ -32,7 +32,7 @@ Configuration data includes (but is not limited to):
     - custom arguments for configured jobs (pipeline_args, process_args, etc)
     - whether the job is paired-end, has been configured, or downloaded
     
-Configuration data is pushed to the zeroclick compute server so that the MySQL instance there can be maintained as a mirror of the database intsance on the web server in the presence of firewalls. Without the firewall, the zeroclick server would access the web server MySQL instance directly.
+Configuration data is pushed to the autonomics compute server so that the MySQL instance there can be maintained as a mirror of the database intsance on the web server in the presence of firewalls. Without the firewall, the autonomics server would access the web server MySQL instance directly.
 
 '''
 
@@ -43,8 +43,8 @@ import re
 import settings
 import sys
 import time
-from zeroclick.file_io import Record
-from zeroclick.settings import Credentials
+from autonomics.file_io import Record
+from autonomics.settings import Credentials
 from sqlalchemy import select, update
 from sqlalchemy.sql import and_, or_
 
@@ -923,7 +923,7 @@ def prune_projects(session):
     session (netutils.DBSession):
         A session object with an active connection to the Autonomics database. 
         
-    Deletes run data from the zeroclick MySQL database if they have been 
+    Deletes run data from the autonomics MySQL database if they have been 
     marked for deletion via the web interface. 
     
     To mark for deletion, currently need to name the project with a prefix that
@@ -1184,7 +1184,7 @@ def update_project_assembler(pid, assembler, zc_session):
             Identifier of the assembler to assign to this project's jobs.
             
         zc_session (netuils.DBSession):
-            Session object with active connection to the zeroclick database.
+            Session object with active connection to the autonomics database.
             
         Updates the pipeline_args of any 'assemble' jobs associated with the 
         supplied project ID, setting --assembler = assembler.

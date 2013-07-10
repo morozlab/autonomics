@@ -471,9 +471,8 @@ class AlignmentReader:
             if(state == "START"):
                 if(query_reg.search(l)):
                     examined += 1
-                    if(self.v):
-                        sys.stderr.write("%d query sequeneces processed.\r" \
-                                         % examined)
+#                    if(self.v):
+#                        sys.stderr.write("%d query sequeneces processed.\r"% examined)
                     state = "QUERY"
                     query_name = query_reg.sub("", l)
                     first_score = True

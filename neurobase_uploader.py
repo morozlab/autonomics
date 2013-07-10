@@ -30,8 +30,8 @@ import subprocess
 import sys
 import time
 from sqlalchemy.sql import select, and_
-from zeroclick import settings, netutils, utility, file_io
-from zeroclick.file_io import FileExtensions
+from autonomics import settings, netutils, utility, file_io
+from autonomics.file_io import FileExtensions
 
 
 current_project_name = None
