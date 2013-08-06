@@ -80,7 +80,7 @@ def allPipe(args, s, v):
     reportStatus("done storing anno.\n", v)
     linfo = utils.createTableObject('load_info', session)
     insert = linfo.insert()
-    insert.execute(project_id=projectID, data='anno_align')
+    insert.execute(project_id=projectID, data='anno_align_swiss')
 
     reportStatus("Assigning best annotations to sequences..\n", v)
     assignBestAnnotation(projectID, s, v)
@@ -370,6 +370,8 @@ def loadHomology(projectID, linkDict, alnParser, session, remove = False):
 
 def loadHomologyAlignments(projectID, linkDict, alnReader, session, v = False):
     d = os.getcwd()
+    if settings.machine == 'oem':
+      d = "/tmp"
     pid = os.getpid()
     alignmentLoad = d + "/" + str(alnReader.database) + "_alignment_load.txt." + str(pid)
     alignments = open(alignmentLoad, 'w')
@@ -554,7 +556,7 @@ def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
     tmpFile = tmpFilePrefix + "pfam_load_tmp.txt." + str(pid)
     flattened = pfamFile + "_flattened.txt"
     reportStatus("Flattening Pfam annotation file...\n", v)
-    proc = subprocess.Popen("python \"" + settings.python_scripts_path + "filetools.py\" --fields seq_id:1 alignment_start:2 alignment_end:3 hmm_acc:6 E-value:13:float --key-col 1 2 3 6 --filter E-value:lt:1e-04 --flatten \"" + pfamFile + "\"", shell=True)
+    proc = subprocess.Popen("python \"" + settings.SCRIPTPATH + "filetools.py\" --fields seq_id:1 alignment_start:2 alignment_end:3 hmm_acc:6 E-value:13:float --key-col 1 2 3 6 --filter E-value:lt:1e-04 --flatten \"" + pfamFile + "\"", shell=True)
     proc.wait()
 
     reportStatus("Writing load file...\n", v)
@@ -909,16 +911,16 @@ def main():
         linkDict = utils.link_dbid_to_fastaid(projectID, s)
         if(args.swissprot):
             r = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
-
+            suffix = 'anno_align_swiss'
         elif(args.nr):
             r = Reader(baseName + "_blast_nr.txt", args.alnFmt, 1, v)
-
+            suffix = 'anno_align_nr'
         r.read()
         reportStatus("Loading annotation alignments.\n", v)
         loadHomologyAlignments(projectID, linkDict, r, s, v)
         linfo = utils.createTableObject('load_info', session)
         insert = linfo.insert()
-        insert.execute(project_id=projectID, data='anno_align')
+        insert.execute(project_id=projectID, data=suffix)
 
     elif(args.bestAnnotation):
         assignBestAnnotation(projectID, s, v)

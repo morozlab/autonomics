@@ -166,7 +166,7 @@ def start_job(job, job_list, pipe_resources, mysql_session, queue):
             depends = netutils.get_table_object("jid_dependency", mysql_session)
             jn = netutils.get_table_object("jn_mapping", mysql_session)
 
-            print "checking dependency of job_id: ", job.jid
+            print "\nchecking dependency of job_id: ", job.jid
 
             s = select([jn, depends], and_(depends.c.job_id==job.jid,
                                            jn.c.job_id==depends.c.depends_on,
@@ -302,36 +302,37 @@ def main():
             for j in job_list:
                 state = j.check()
                 if(state == JobState.FINISHED):
-                    print "manager .. ", j.job_name, " FINISHED"
+                    print "\nmanager .. ", j.job_name, " FINISHED"
                     finished.append(j)
                     j.complete()
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.ERROR):
-                    print("manager .. " + j.job_name + " ERROR")
+                    print("\nmanager .. " + j.job_name + " ERROR")
                     finished.append(j)
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 else:
                     if (lloop_num == 10):
-                        print "manager .. ", j.job_name, " RUNNING"
+                        print "\nmanager .. ", j.job_name, " RUNNING"
 
             job_list = [j for j in job_list if not j in finished]
 
             if print_res == 1:
                 print_res = 0
                 for loc, resources in resources_at_location.items():
-                    print('--- Resources ---')
+                    print("\n--- Resources ---")
                     print("free: ", resources.free)
                     print("total: ", resources.totals)
                     print('-----------------')
 
             gc.collect()
 
-            if (lloop_num == 5):
-              print("Sleeping for: " + str(SLEEP_INTERVAL) + " printing this every fifth sleep")
-              lloop_num = 0
+            sys.stdout.write('.')
+#            if (lloop_num == 5):
+#              print("Sleeping for: " + str(SLEEP_INTERVAL) + " printing this every fifth sleep")
+#              lloop_num = 0
             SLEEP_INTERVAL = 60
             time.sleep(SLEEP_INTERVAL)
         except exc.OperationalError as e:

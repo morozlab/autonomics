@@ -63,7 +63,7 @@ def main():
     in_file_basename = os.path.basename(in_file)
 
     khmer_path = settings.khmer_path
-    python_scripts_path = settings.python_scripts_path
+    python_scripts_path = settings.SCRIPTPATH
 
     KHMER_MIN_SEQS = settings.KHMER_MIN_SEQS
 

@@ -88,7 +88,7 @@ def main():
     #
     ###########################################################################
 
-    cmd = settings.python_scripts_path + 'fastq2fasta.py'
+    cmd = settings.SCRIPTPATH + 'fastq2fasta.py'
     in_file1_fasta = work_dir + sample_name + ".fasta"
     in_file2_fasta = work_dir + sample_name + ".fasta.end2"
 
