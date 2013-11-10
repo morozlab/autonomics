@@ -1,7 +1,0 @@
-<?php 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "meow12";
-
-$connection = mysql_connect($dbhost, $dbuser, $dbpass) or die ("Could not connect to mysql database");
-?>

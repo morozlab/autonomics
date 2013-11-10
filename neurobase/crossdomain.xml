@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
- <cross-domain-policy>
-   <allow-access-from domain="150.176.130.196:8888" />
-   <allow-access-from domain="localhost" />
-   <allow-access-from domain="10.41.138.82"/>
- </cross-domain-policy>

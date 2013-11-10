@@ -1,7 +1,0 @@
-zeroclick
-=========
-
-.. toctree::
-   :maxdepth: 4
-
-   zeroclick
