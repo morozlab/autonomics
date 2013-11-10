@@ -2,6 +2,7 @@ from sqlalchemy.sql import and_, select, insert, delete
 from autonomics import netutils, settings
 
 
+
 def configured_to_run(pid, jtype, session):
     config = netutils.get_table_object('configuration', session)
 #    def_config = netutils.get_table_object('default_configuration', session)
