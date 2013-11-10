@@ -7,9 +7,9 @@ use File::Basename;
 use File::Path;
 use Cwd;
 
-my ($projectID) = @ARGV;
-if ((not defined $projectID)) {
-    print "\nUsage: $0 <project_id>\n";
+my ($projectID,$root_pw) = @ARGV;
+if ((not defined $projectID) || (not defined $root_pw)) {
+    print "\nUsage: $0 <project_id> <root_password>\n";
     exit 0;
 }
 
@@ -19,7 +19,7 @@ if ($host =~ /hpc/) {  $host = "hpc"; }
 if ($host =~ /acis/) {  $host = "acis"; }
 
 my $dsn = "dbi:mysql:database=moroz_lab;host=localhost";
-my $dbh = DBI->connect($dsn, "root", "Moof2011");
+my $dbh = DBI->connect($dsn, "root", $root_pw);
 
 my $db_dir = "";
 if ($host eq "hpc") {
