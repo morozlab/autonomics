@@ -564,7 +564,7 @@ def move_ftp_data(host, source_id, zc_session, credentials, destination, src):
             A Credentials object produced by read_credentials.
         
         destination (str):
-            The path to the ZIPline data directory (usually settings.home_dir).
+            The path to the ZIPline data directory (usually settings.proj_dir).
         
         src (str):
             The path to the folder on the FTP server containing the run data.
@@ -665,7 +665,7 @@ def move_it_data(host, source_id, zc_session, credentials, destination, src):
             A Credentials object produced by read_credentials.
         
         destination (str):
-            The path to the ZIPline data directory (usually settings.home_dir).
+            The path to the ZIPline data directory (usually settings.proj_dir).
         
         src (str):
             The path to the folder on the FTP server containing the run data.
@@ -828,7 +828,7 @@ def move_miseq_data(host, source_id, zc_session, credentials, destination, src):
                                               rn_2_pid.c.downloaded=='N')))
     for row in res.fetchall():
         #get the log file for the run
-        remote_project_dir = settings.home_dir + row.project_name + "/"
+        remote_project_dir = settings.proj_dir + row.project_name + "/"
         remote_ssh_dir = src + row.run_name + "/"
         remote_sftp_dir = sftp_path + row.run_name + "/"
         local_log_name = row.run_name + log_name
@@ -1045,7 +1045,7 @@ def push_configuration(zc_session):
         fh.close()
         
         # move the configuration files to the ZC pipeline
-        config_path = settings.home_dir + settings.CONFIG_BASE
+        config_path = settings.proj_dir + settings.CONFIG_BASE
         job_dest = config_path + pn
         project_dest = config_path + pn + "_global"
         try:
@@ -1415,7 +1415,7 @@ def main(args):
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--dest-dir', dest='dest_dir', 
-                   default=settings.home_dir, 
+                   default=settings.proj_dir, 
                    help='Destination on the remote server where the gremlin \
                    should put files.')
     p.add_argument('--sleep-interval', dest='sleep_interval', 

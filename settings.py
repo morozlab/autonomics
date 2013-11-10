@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 '''
-Created on Oct 23, 2012
 
-@author: Mathew Citarella
+@authors: Mathew Citarella & Peter Williams
+
+
 '''
+
+#-----------------------------------------------------------------------------------
+# SETTINGS YOU NEED TO SET ARE BELOW AT  ======= START OF SETTINGS TO MODIFY =====
+#-----------------------------------------------------------------------------------
 
 import platform
 import os
@@ -11,23 +16,6 @@ import re
 
 hname = os.environ['HOST'] 
 print hname
-
-machine = ""
-match_obj = re.search('oem',hname)
-if match_obj:
-  machine = 'oem'
-
-match_obj = re.search('acis',hname)
-if match_obj:
-  machine = 'acis'
-
-match_obj = re.search('hpc',hname)
-if match_obj:
-  machine = 'hpc'
-
-if machine == "":
-  print "settings.py unable to find machine it is running on"
-  sys.exit()
 
 class Credentials:
     '''
@@ -93,104 +81,189 @@ class Credentials:
         self.user = u
         self.passwd = p
 
-#detect the operating system the software is currently running on
-THIS_OS = platform.system()
 
-#The default data directory
-#
-#All project folders will be created under this directory
-#
-#Command-line and web-interface submitted jobs can be found under:
-#    home_dir/special_jobs/
-home_dir = "/srv/data2/pipeline/"
-special_runs_dir = "/srv/data2/pipeline/special_runs/"
+# ======= START OF SETTINGS TO MODIFY =====================
 
+# FIND MACHINE WE ARE RUNNING ON.
+# acis is the machine where our autonomics pipeline is installed;
+# oem, hpc,ap, pb are machines which host our neurobase web servers.
+# If you are running only the autonomics pipeline, ignore the
+# oem, hpc, pb and ap cases herein and only modify the acis related settings.)
 
-#Important system paths for finding various executables and data directories.
-#
+machine = ""
+match_obj = re.search('acis',hname)
+if match_obj:
+  machine = 'acis'
+match_obj = re.search('oem',hname)
+if match_obj:
+  machine = 'oem'
+match_obj = re.search('hpc',hname)
+if match_obj:
+  machine = 'hpc'
+match_obj = re.search('pleurobrachia',hname)
+if match_obj:
+  machine = 'pb'
+match_obj = re.search('aplysia',hname)
+if match_obj:
+  machine = 'ap'
+if machine == "":
+  print "settings.py unable to find machine it is running on"
+  sys.exit()
+
+# INSTALL_DIR is the full path to where the autonomics dir (cloned from github) exists
+# git clone https://github.com/morozlab/autonomics
+
+if machine == 'acis':
+    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+if machine == 'oem':
+    INSTALL_DIR = "/home/oem/python_software/autonomics/"
+if machine == 'hpc':
+    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+if machine == 'pb':
+    INSTALL_DIR = "/home/morozgroup/python_software/autonomics/"
+if machine == 'ap':
+    INSTALL_DIR = "/home/morozgroup/python_software/autonomics/"
+
+# PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
+
+# these paths are on the machine running the autonomics pipeline (acis in our case)
+proj_dir = "/srv/data2/pipeline/"  # where your project folders will be created
 pfam_exec_path = "/srv/data/pfam/PfamScan/"
-pfam_data_path = "/scratch/hpc/mcitar/pfam/"
-panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"
 khmer_path = "/srv/data2/software/Khmer/scripts/"
 trinity_path = "/srv/data2/software/Trinity/"
 cutadapt_path = "/usr/local/bin/"
 mira_path = "/usr/bin/"
+panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"  # panther is optional
 
-#Base directory to use for temporary files and folders on the remote HPC cluster
-#
-remote_dir = "/scratch/hpc/mcitar/"
+# these paths are on the remote HPC cluster
+pfam_data_path = "/scratch/lfs/moroz/pfam/"  # dir where the pfam_scan data files located
+remote_dir = "/scratch/lfs/moroz/" #directory where a remote job can create a sub dir
 
-#Main installation directories. INSTALL_DIR is the full path to where the 
-#system was cloned from github. 
-if machine == 'oem':
-    INSTALL_DIR = "/home/oem/python_software/autonomics/"
-    PERLPATH = "/home/oem/PerlScripts/Database/"
-if machine == 'acis':
-    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
-if machine == 'hpc':
-    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
-    PERLPATH = "/home/pwilliams/PerlScripts/Database/"
+# user name on remote HPC cluster
+hpc_user = "plw1080"
 
-#Directory containing all python scripts used by the system. This is the full 
-#path to the 'scripts' subdirectory of the Autonomics repository.
+# QSUB_OK is used by jobs.py to check for the success of the HPC cluster sub job submission command
+# i.e. what "qsub xxx.qsub" returns when it successfully submits the qsub script on the cluster.
+# on our HPC cluster qsub returns: <process_id>.moab.ufhpc, e.g. 1303263.moab.ufhpc
+# our code checks for success by checking for the presence of 'moab' in what is returned.
+# we check for success because there are many different reasons for failure making
+# it hard to check for failure.
+QSUB_OK = 'moab'
 
-python_scripts_path = INSTALL_DIR + "scripts/"
+# MYSQL SERVER INFORMATION (for autonomics pipeline database)
+ZC_DB_NAME = "zero_click"
+# next 3 only needed if using data_gremlin
+ZC_HOST = "128.227.70.246"
+ZC_USER = "zeroclick"
+ZC_PASSWD = "XXXXXXXX"
 
-#SCRIPT_BASE describes where to find scripts, relative to the main Autonomics
-#installation.
-SCRIPT_BASE = "scripts/"
-#SCRIPT_PATH is the full path to the scripts directory.
-SCRIPTPATH = INSTALL_DIR + SCRIPT_BASE
+# EMAIL CONFIGURATION (where HPC cluster will send error alerts)
+MAIL_PROVIDER = "gmail.com"
+MAIL_ACCOUNT = "morozhpc"
+MAIL_ACCOUNT2 = "plw1080"
 
-#CYGWIN_INSTALL_DIR refers to the installation path for an instance of 
-#Autonomics running on a cygwin machine.
-CYGWIN_INSTALL_DIR = "/cygdrive/c/Documents and Settings/Administrator/My \
-Documents/Dropbox/Work/moroz-python/zeroclick/"
-#WINDOWS_INSTALL_DIR is the full path for the installation of Autonomics on
-#a machine running a flavor of Windows.
-WINDOWS_INSTALL_DIR = "C:/Documents and Settings/Administrator/My Documents\
-/Dropbox/Work/moroz-python/zeroclick/"
-WINDOWS_SCRIPT_PATH = WINDOWS_INSTALL_DIR + SCRIPT_BASE
-
-#Change the installation paths depending on the detected platform.
-if("Windows" in THIS_OS):
-    INSTALL_DIR = WINDOWS_INSTALL_DIR
-    SCRIPTPATH = WINDOWS_SCRIPT_PATH
-if("CYGWIN" in THIS_OS):
-    INSTALL_DIR = CYGWIN_INSTALL_DIR
-
-#Path for credentials files
+# PATH FOR CREDENTIALS FILES (see .../autonomics/credentials/ for examples)
+# do not modify this
 CRED_PATH = INSTALL_DIR + "credentials/"
-#Path for configuration files
-CONFIG_BASE = "proj_config/"
-CONFIG_PATH = INSTALL_DIR + CONFIG_BASE
 
-#Names for system queues
-#These names correspond to the table names in the Autonomics database storing 
-#the respective queues. 
-normal_queue = 'quenew'
-special_queue = 'quenew_special'
+# SYSTEM CREDENTIALS: 
+acis_url = '128.227.70.246'
+mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
+db_cred = Credentials(from_file=CRED_PATH + "web_config_db")
+hpc_cred = Credentials(from_file=CRED_PATH + "gator.hpc.ufl.edu")
+zc_cred = Credentials(from_file=CRED_PATH + acis_url)
 
-#System storage paths
-CYGWIN_NEUROBASE_STORAGE = "//Moroz-500g/disk 2/zeroclick_load_data/"
-# NEUROBASE_STORAGE_PATH = "G:/zeroclick_storage/"
+creds = {}
+creds[acis_url] = zc_cred
 
+# SOME EXAMPLES OF CREDS FILES:
+# pwd: /home/pwilliams/python_software/autonomics/credentials
+# ls:  10.41.128.71  pipeline_mail_account submit.hpc.ufl.ed 128.227.70.246 web_config_db
+# cat pipeline_mail_account 
+# host:pop.gmail.com
+# user:morozhpc
+# passwd:XXXXXXXXacis.ufl.edu{pwilliams}1222: cat 128.227.70.246
+# host:128.227.70.246
+# user:morozgroupc
+# passwd:XXXXXXXX10node12.acis.ufl.edu{pwilliams}1223: cat 128.227.123.35
+# host:128.227.123.35
+# user:Administrator
+# passwd:XXXXX
+# port:2122
+# acis.ufl.edu{pwilliams}1225: cat submit.hpc.ufl.edu 
+# host:hipergator.hpc.ufl.edu
+# user:plw1080
+# passwd:XXXXXXXacis.ufl.edu{pwilliams}1226:
+
+# MAX NUM LOCAL/REMOTE CPUS WE CAN USE AT ONE TIME (depends on your local/hpc_cluster policy/allocation)
+MAX_NUM_LOCAL_CPUS = 61
+MAX_NUM_HPC_CPUS = 1024
+
+# MAX NUM LOCAL JOBS / REMOTE BLAST_NR JOBS WE CAN RUN AT ONE TIME
+# (each job may use multiple cpus)  We limit number blast_nr jobs to 2 as they can take
+# a long time and prevent other shorter jobs such as pfam or swissprot from running.
+MAX_NUM_LOCAL_JOBS = 5
+MAX_NUM_BLAST_NR_JOBS = 2
+
+# you may need to adjust this depending on the efficiency of your hpc cluster
+BLAST_NR_MAX_WALL_TIME = "99:00:00"
+BLAST_NR_MAX_MEM = "12000mb"
+
+BLAST_SWISSPROT_MAX_WALL_TIME = "48:00:00"
+BLAST_SWISSPROT_MAX_MEM = "2000mb"
+
+QUANTIFICATION_MAX_WALL_TIME = "24:00:00"
+PFAM_MAX_WALL_TIME = "48:00:00"
+
+# REDIS DB CONNECTION DETAILS (http://redis.io/topics/quickstart)
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+
+# SET ONLY IF USING NEUROBASE BROWSER(S):
+# If you are running only the autonomics pipeline, ignore these
+# NEUROBASE related settings.
+
+NEUROBASE_FASTADB_PATH = ""
+NEUROBASE_DATA_PATH = ""
 if machine == 'oem':
    NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"
    NEUROBASE_DATA_PATH = "/data/neurobase_load_data/"
 if machine == 'hpc':
    NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
    NEUROBASE_DATA_PATH = "/data/autonomics_data/"
+if machine == 'pb':
+   NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
+   NEUROBASE_DATA_PATH = "/data/autonomics_data/"
+if machine == 'ap':
+   NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
+   NEUROBASE_DATA_PATH = "/data/autonomics_data/"
 
-#System credentials 
-mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
-db_cred = Credentials(from_file=CRED_PATH + "web_config_db")
-hpc_cred = Credentials(from_file=CRED_PATH + "submit.hpc.ufl.edu")
-zc_cred = Credentials(from_file=CRED_PATH + "128.227.70.246")
-creds = {}
-creds['128.227.123.35'] = Credentials(from_file=CRED_PATH + "128.227.123.35")
-creds['128.227.70.246'] = zc_cred
 
+# ======= END OF SETTINGS TO MODIFY =====================
+
+# special_runs_dir = "/srv/data2/pipeline/special_runs/"
+
+SCRIPTPATH = INSTALL_DIR + "scripts/"
+
+def sp():  # so perl scripts can use this path
+  x = open(SCRIPTPATH + "SCRIPTPATH", 'w')
+  x.write(SCRIPTPATH + "\n")
+  x.close
+sp()
+
+def dp():
+  x = open(SCRIPTPATH + "DATAPATH", 'w')
+  x.write(NEUROBASE_DATA_PATH + "\n")
+  x.close
+dp()
+
+#Path for configuration files
+CONFIG_BASE = "proj_config/"
+CONFIG_PATH = INSTALL_DIR + CONFIG_BASE
+
+#These names correspond to the table names in the Autonomics database storing the respective queues. 
+normal_queue = 'quenew'
+special_queue = 'quenew_special'
 
 #time the manager waits between checking job status
 mainLoopSleepInterval = 30
@@ -204,37 +277,15 @@ restart_jobs = True
 SUPPORTED_FILETYPES = set([".fasta", ".fa", ".fastq", ".bam"])
 PAIRED_EXTENSION = ".end2"
 
-#Default resource allocations for the pipeline
-DEFAULT_HPC_CPU = 100
-DEFAULT_LOCAL_CPU = 1
-
-#redis db connection details
-REDIS_HOST = 'localhost'
-REDIS_PORT = 6379
-
-#key for unlocking credentials
-CRED_KEY = "tg3wutpP6j7j"
-
-#connection details for the ZC server
-ZC_HOST = "128.227.70.246"
-ZC_USER = "morozgroup"
-ZC_PASSWD = "Whitney2011"
-ZC_DB_NAME = "zero_click"
-
 DISPATCHER_SLEEP_INTERVAL = 60
 
 #database stuff
 DEFAULT_MYSQL_DRIVER = "mysql+oursql"
 MYSQLDB_DRIVER = "mysql+mysqldb"
-
-#email configuration
-MAIL_PROVIDER = "gmail.com"
-MAIL_ACCOUNT = "morozhpc"
-MAIL_ACCOUNT2 = "plw1080"
+MYSQLDBNAME = 'moroz_lab'
 
 #should we push configuration data from the web server to zc server
 PUSH_CONFIGURATION_DATA = True
-
 
 ####################### process-specific settings #########################
 PAIRED_END_FLAG = "--paired-end"
@@ -260,9 +311,6 @@ MAX_HPC_CORES = 16
 ION_ASSEMBLERS = {"314": "mira", "316": "mira", "318": "mira", "318C": "mira", 
                   "316D": "mira", "900": "trinity"}
 IT_BASE_DIR = "/var/www/"
-
-#MiSeq-specific settings
-MISEQ_SAMPLE_CSV = "SampleSheet.csv"
 
 #How do you want to transfer files? Acceptable values are 'rsync' 
 #(fast, requires public-key infrastructure) and 'sftp' (slow, uses password, 

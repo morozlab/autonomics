@@ -8,7 +8,7 @@ This module monitors the directory proj_config/ located in the system's main dat
 
 This module is run as a daemon and performs the following tasks:
 
-1) Get a list of configuration files stored in settings.home_dir/proj_config/ - configuration files for a project are named [project_name, project_name_global]; see the documentation for push_configuration() in the data_gremlin module for the format of these files.
+1) Get a list of configuration files stored in settings.proj_dir/proj_config/ - configuration files for a project are named [project_name, project_name_global]; see the documentation for push_configuration() in the data_gremlin module for the format of these files.
 2) Check for, and open, the global configuration file containing project and run information. If the project exists in the system, update any project-wide settings. Otherwise create a new project in the system and add the system-wide settings. System-wide settings include whether or not the project includes paired-end data, was configured on the web-server, and if it has been downloaded yet.
 3) Open the job-specific configuration file. This file contains a line for each configured job for the project. If the jobs exist in the MySQL database on the ZIPline server, update job settings. Otherwise add the jobs and set the job settings.
 
@@ -21,7 +21,7 @@ from sqlalchemy.sql import select, insert, update, and_
 import sqlalchemy.exc
 import os, time
 
-CHECK_PATH = settings.home_dir + settings.CONFIG_BASE
+CHECK_PATH = settings.proj_dir + settings.CONFIG_BASE
 
 def check_run_exists(source_id, run_name, session):
     '''

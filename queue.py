@@ -40,7 +40,7 @@ def elligible_jobs(session):
     for row in res.fetchall():
         if(dependencies_satisfied(row.job_id, session) and
            configured_to_run(row.project_id, row.job_type, session)):
-            print "queue.py elligible_jobs():: job_id ", row.job_id, " job_type: ", row.job_type, " proj_id: ", row.project_id
+#            print "queue.py elligible_jobs():: job_id ", row.job_id, " job_type: ", row.job_type, " proj_id: ", row.project_id
             yield row
 
 
@@ -81,7 +81,7 @@ def queue_all(session):
         q = settings.normal_queue
         if(job.project_id == 0):
             q = settings.special_queue
-        print "queue_all: inserting in queue: project_id ", job.project_id, " job_id: ", job.job_id, " job_type: ", job.job_type
+        print "\nqueue.py queue_all(): queuing: pid ", job.project_id, " jid: ", job.job_id, " job_type: ", job.job_type
         insert_in_queue(job.project_id, job.job_id,
                         job.job_type, q, session)
         run_stats = netutils.get_table_object('run_stats', session)
@@ -89,7 +89,7 @@ def queue_all(session):
         try:
            i.execute(project_id=job.project_id)
         except Exception as e:
-           print("Warning from queue_all: " + str(job.project_id) + " already exists in run_stats table.")
+           pass
 
 
 def queue_job(jid, queue, session):

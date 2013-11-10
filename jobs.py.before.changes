@@ -795,7 +795,7 @@ class Job:
                 The working directory for this job. All intermediary files
                 and output are placed in this directory.
 
-                Defaults to: settings.proj_dir + pn
+                Defaults to: settings.home_dir + pn
 
                 If this is a command-line submitted job, this attribute will
                 be overridden by: PATH_TO_COMMAND_LINE_JOBS/job_name/
@@ -858,9 +858,9 @@ class Job:
         self.files = []
         self.processes = []
         self.executable = executable
-        self.local_dir = settings.proj_dir + "/" + self.pn + "/"
+        self.local_dir = settings.home_dir + "/" + self.pn + "/"
         if self.special_run:
-            self.local_dir = settings.proj_dir + "/special_runs/" + \
+            self.local_dir = settings.home_dir + "/special_runs/" + \
                             self.job_name + "/"
         self.run_name = self.generate_run_name()
         self.resources = self._default_resources()
@@ -1125,8 +1125,8 @@ class Job:
         self.pipeline_args.arg_string = self.pipeline_args.arg_string.\
             replace("<" + placeholder + ">" , repl)
 
-    '''
     def upload(self):
+        '''
             upload() NOT USED CURRENTLY .. used to be used to copy finished results
             to our only neurobase server.  Now we have multiple neurobase servers on
             different machine.  After confirming that the finished results are valid
@@ -1137,7 +1137,7 @@ class Job:
             Adds the checksums for all output files to a pickled hash of output
             files for the project and transfers the updated hash along with
             the output files to the data destination.
-
+        '''
         xfer_mthd = 'sftp'
         local_dir = self.local_dir
         if(len(local_dir) > 0):
@@ -1177,6 +1177,7 @@ class Job:
 
             netutils.put_file(
                               local_file, remote_file,
+#                              settings.creds['128.227.123.35'], xfer_mthd
                               settings.creds['128.227.123.35'], xfer_mthd
                               )
             #ssh_conn.put(local_file, remote_file)
@@ -1204,7 +1205,6 @@ class Job:
 #                          settings.creds['128.227.123.35'], xfer_mthd)
                           settings.creds['128.227.123.35'], xfer_mthd)
         ssh_conn.close()
-    '''
 
 
 class HPCJob(Job):
@@ -2198,7 +2198,7 @@ class AssemblyProcess(PipeProcess):
 
     def run(self):
 
-        out_dir = settings.proj_dir + self.pn + "/"
+        out_dir = settings.home_dir + self.pn + "/"
         if (self.paired_end):
             if (self.assembler == "trinity"):
                 in_file1 = ""
@@ -2257,7 +2257,7 @@ class BlastAssociationProcess(PipeProcess):
                  ):
         PipeProcess.__init__(self)
         self.base_name = base_name
-        self.local_dir = settings.proj_dir + "/" + base_name + "/"
+        self.local_dir = settings.home_dir + "/" + base_name + "/"
         self.blast_file = blast_file
         self.current_output = out_file
         self.process_args = process_args
@@ -2776,10 +2776,9 @@ class BlastJobNR(BlastJob):
 
     def _default_resources(self):
         ret = BlastJob._default_resources(self)
-#        ret['mem'] = "12000mb"
-        ret['mem'] = settings.BLAST_NR_MAX_MEM
-#        ret['wall'] = "192:00:00""99:00:00"
-        ret['wall'] = settings.BLAST_NR_MAX_WALL_TIME
+        ret['mem'] = "12000mb"
+#        ret['wall'] = "192:00:00"
+        ret['wall'] = "99:00:00"
         ret['blast_nr'] = 1
         return ret
 
@@ -2812,10 +2811,8 @@ class BlastJobSwissprot(BlastJob):
 
     def _default_resources(self):
         ret = BlastJob._default_resources(self)
-#        ret['mem'] = "2000mb"
-        ret['mem'] = settings.BLAST_SWISSPROT_MAX_MEM
-#        ret['wall'] = "48:00:00"
-        ret['wall'] = settings.BLAST_SWISSPROT_MAX_WALL_TIME
+        ret['mem'] = "2000mb"
+        ret['wall'] = "48:00:00"
         return ret
 
     def complete(self):
@@ -2915,8 +2912,7 @@ class PfamJob(HPCJob, threading.Thread):
 
     def _default_resources(self):
         ret = HPCJob._default_resources(self)
-        ret['wall'] = settings.PFAM_MAX_WALL_TIME
-#        ret['wall'] = "48:00:00"
+        ret['wall'] = "48:00:00"
         ret['modules'] = "module load hmmer"
         return ret
 
@@ -3075,8 +3071,7 @@ class QuantificationJob(HPCJob):
     def _default_resources(self):
         resources = HPCJob._default_resources(self)
         resources['ppn'] = 4
-#        resources['wall'] = "24:00:00"
-        resources['wall'] = settings.QUANTIFICATION_MAX_WALL_TIME
+        resources['wall'] = "24:00:00"
         return resources
 
     def _handle_args(self):
@@ -3097,6 +3092,25 @@ class QuantificationJob(HPCJob):
 
         if('blast' in aligner):
             self.quant_type = BLAST_TYPE
+
+            #        if(not hasattr(self.process_args, "db")):
+            #    self.process_args.db = "<db>"
+            #if(not hasattr(self.process_args, "query")):
+            #    self.process_args.query = "<query>"
+
+
+            #if(not os.path.isfile(self.process_args.db)):
+            #if(self.quant_type != BLAST_TYPE):
+            #    self.db_file = self.pn + "_project.fasta"
+            #else:
+            #    self.db_file = self.pn + ".fasta"
+                #add code to check if fastq file exists, and if so convert
+
+                #self.local_db_path = self.local_dir + self.db_file
+
+                #else:
+                #self.local_db_path = self.process_args.db
+                #discard, self.db_file = os.path.split(self.local_db_path)
 
     def complete(self):
         '''
@@ -3199,8 +3213,18 @@ class QuantificationJob(HPCJob):
                 local_db_path
         '''
         self.db_files = [self.local_db_path]
+        #add a directive to make the wu-blast database
+        #self.hpc_command = "".join(["xdformat ", file_io.wu_blast_typeflags[self.db_type],
+        #                                " -o ", self.remote_db_path, " ",
+        #                                self.remote_db_path, "\n"])
+
         if(self.db_type == "NT"):
             exts = ['.nin', '.nsq', '.nhr']
+            #self.db_files.append(self.local_db_path + ".nin")
+            #self.db_files.append(self.local_db_path + ".nsq")
+            #self.db_files.append(self.local_db_path + ".nhr")
+            # blast_files = [(self.db_file + ".nin"), (self.db_file + ".nsq"), + (self.db_file + ".nhr")]
+        #    self.db_files.extend(blast_files)
         else:
             exts = ['.pin', '.psq', '.phr']
 
@@ -3532,22 +3556,15 @@ class Qsub:
         command = "cd " + self.remote_dir + ";"
         command += "qsub " + self.name + ".qsub"
         retries = 10
-        sleep_time = 30
-# PROBLEM IS HERE qsub not being executed ... maybe there is an error but the word error not in job_id
         while (retries > 0):
               job_id = c.execute(command)
-              print "job_id from qsub submission: ", job_id
-              print self.name, " job_id[0]: ", job_id[0]
-#              if ('error' in job_id[0]):
-#              if ('moab' not in job_id[0]):
-              if (settings.QSUB_OK not in job_id[0]):
+              if ('error' in job_id[0]):
                   if(retries > 0):
-                     sys.stderr.write("error executing qsub, retrying command: " + command + "\n")
+                     sys.stderr.write("error submitting qsub, retrying command\n")
                      retries -= 1
-                     time.sleep(sleep_time)
-                     sleep_time = sleep_time * 2
+                     time.sleep(15)
                   else:
-                      raise ValueError("error executing qsub, abandoning it " + command + "\n")
+                      raise ValueError("error submitting qsub, abandoning qsub\n", command, "\n")
               else:
                   break
         self.job_id = job_id[0].strip()
@@ -3980,7 +3997,6 @@ class HPCProcess(PipeProcess):
 
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
         retries = 10
-        sleep_time = 120
         while (retries > 0):
             try:
                 running = int(c.execute(command)[0])
@@ -3991,9 +4007,8 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Error retrieving status of running job " + proc.name + " - abandoning.\nCommand: " + command + "\n")
                     running = -1
                 else:
-                    time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
-                    sys.stderr.write("Error retrieving status of running job " + proc.name + " -retrying after sleeping " + sleep_time + "\nCommand: " + command + "\n")
+                    time.sleep(120)
+                    sys.stderr.write("Error retrieving status of running job " + proc.name + " -retrying.\nCommand: " + command + "\n")
 
         if(running == 0):
             proc.status = "finished"
@@ -4182,3 +4197,28 @@ class HPCProcess(PipeProcess):
             time.sleep(60)
         self.complete()
         print("HPC process " , self.job_name,   "done.")
+
+        ''' comment
+#! /bin/bash
+#PBS -r n
+#PBS -N Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID
+#PBS -o Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID.stdout
+#PBS -e Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID.stderr
+#PBS -q bio
+#PBS -m a
+#PBS -M morozhpc@gmail.com,plw1080@gmail.com
+#PBS -l walltime=48:00:00
+#PBS -l pmem=500mb
+#PBS -l nodes=1:ppn=4
+$PBS -t 1-25
+
+cd $PBS_O_WORKDIR #Get back to the directory the job is submitted from--shortens all the paths below
+
+module load ncbi_blast
+touch start.Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID
+
+blastx -query Rhopalura_Male_45_project_blast_swissprot_$PBS_ARRAYID.fasta -evalue 1e-04 -num_alignments 5 -num_descriptions 5 -num_threads 4 -out Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID_blast_swissprot.txt -db swissprot
+
+touch done.Rhopalura_Male_45_blast_swissprot$PBS_ARRAYID
+
+        ''' 

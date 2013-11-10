@@ -235,16 +235,16 @@ def main():
     else:
         my_name = args.my_name
 
-    local_resources = Resources()
-    local_resources.add_resource("cpu", settings.MAX_NUM_LOCAL_CPUS)
-    local_resources.add_resource("local", settings.MAX_NUM_LOCAL_JOBS)
+    PIPE_RESOURCES = Resources()
+    PIPE_RESOURCES.add_resource("cpu", 61)
+    PIPE_RESOURCES.add_resource("a8r", 5)
 
-    HPC_resources = Resources()
-    HPC_resources.add_resource("cpu", settings.MAX_NUM_HPC_CPUS)
-    HPC_resources.add_resource("blast_nr", settings.MAX_NUM_BLAST_NR_JOBS)
+    HPC_RESOURCES = Resources()
+    HPC_RESOURCES.add_resource("cpu", 1024)
+    HPC_RESOURCES.add_resource("blast_nr", 2)
 
-    resources_at_location = {Locations.LOCAL: local_resources, 
-                             Locations.HPC: HPC_resources}
+    resources_at_location = {Locations.LOCAL: PIPE_RESOURCES, 
+                             Locations.HPC: HPC_RESOURCES}
 
     SLEEP_INTERVAL = float(args.mainLoopSleepInterval)
 
@@ -321,15 +321,18 @@ def main():
 
             if print_res == 1:
                 print_res = 0
-                print("\n--- Resources ---")
                 for loc, resources in resources_at_location.items():
-                    print("free resources: ", resources.free)
-                    print("total resources: ", resources.totals)
-                print('-----------------')
+                    print("\n--- Resources ---")
+                    print("free: ", resources.free)
+                    print("total: ", resources.totals)
+                    print('-----------------')
 
             gc.collect()
 
             sys.stdout.write('.')
+#            if (lloop_num == 5):
+#              print("Sleeping for: " + str(SLEEP_INTERVAL) + " printing this every fifth sleep")
+#              lloop_num = 0
             SLEEP_INTERVAL = 60
             time.sleep(SLEEP_INTERVAL)
         except exc.OperationalError as e:

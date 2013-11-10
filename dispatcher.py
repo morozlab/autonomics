@@ -16,11 +16,11 @@ settings.DISPATCHER_SLEEP_INTERVAL between loops.
 (b) are not marked started, and (c) have all dependencies satisfied, are
 inserted into queue table and jn_mapping table set to queued = 'Y'
 
-2) Iterates over all directories found in settings.home_dir, treating each
+2) Iterates over all directories found in settings.proj_dir, treating each
 directory as a project_name.
 
 3) For each project_name, checks if the directory for that project
-(settings.home_dir + project_name) contains SRC_UPLOADED, which marks that
+(settings.proj_dir + project_name) contains SRC_UPLOADED, which marks that
 data_gremlin.py has finished its upload. If so, does the following for
 each project.
 
@@ -90,10 +90,11 @@ def main():
         queue_all(session)
 
 #       find names of projects in pipeline_path
-        pipeline_path = settings.home_dir
+        pipeline_path = settings.proj_dir
         project_name = ""
         dir_names = [ f for f in os.listdir(pipeline_path)
                                               if isdir(join(pipeline_path,f)) ]
+
         projects_to_run = []
         for dname in dir_names:
             dname_flag = dname + "/SRC_UPLOADED"
@@ -103,6 +104,11 @@ def main():
             else:
                 continue
             projects_to_run.append(project_name)
+
+#       code from here to "END ENTER NEW PROJECTS" does not get executed 
+#       unless there is a SRC_UPLOADED flag in proj dir; only if using data gremlin
+#       will there be a SRC_UPLOADED flag, so if not using data gremlin, then
+#       projects_to_run is empty so entire block of code skipped.
 
         for project_name in projects_to_run:
             # look in pn_mapping table to see if project_name has a
@@ -227,6 +233,7 @@ def main():
 
 #       END ENTER NEW PROJECTS
 
+#       since init_projects table not being used, next block of code not used.
 #       NOW CHECK FOR COMPLETED PROJECTS & UPLOADS
         results=session.conn.execute("select project_id from init_projects\
           where project_id not in (select project_id from completed_projects)")
@@ -260,8 +267,8 @@ def main():
                     u = quenew_table.delete().where(
                                quenew_table.c.project_id==project_id).execute()
 
-
-        print "Sleeping for: ", settings.DISPATCHER_SLEEP_INTERVAL
+        sys.stdout.write('.')
+        time.sleep(settings.DISPATCHER_SLEEP_INTERVAL)
         sys.stdout.flush()
         time.sleep(settings.DISPATCHER_SLEEP_INTERVAL)
 
