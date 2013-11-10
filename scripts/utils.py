@@ -7,6 +7,7 @@ Created on Aug 21, 2012
 from sqlalchemy import *
 from sqlalchemy import Column
 from sqlalchemy.ext.declarative import declarative_base
+from autonomics import settings
 
 Base = declarative_base()
 
@@ -36,8 +37,11 @@ class DBSession:
         self.host = h
         self.user = u
         self.passwd = p
-        self.db = 'moroz_lab';
-        self.engine = create_engine('mysql+mysqldb://' + u + ':' + p + '@' + h + '/moroz_lab')
+        self.db = settings.MYSQLDBNAME
+        print "self.db: ", self.db
+        print "create_engine(",'mysql+mysqldb://' + u + ':' + p + '@' + h + '/' + self.db
+        self.engine = create_engine('mysql+mysqldb://' + u + ':' + p + '@' + h + '/' + self.db)
+        print "in utils.py after create_engine"
         self.meta = MetaData(bind=self.engine)
         self.conn = None
 

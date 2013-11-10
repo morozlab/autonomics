@@ -44,16 +44,6 @@ def add_job(project_name, job_type, session):
         return False
     job_name = project_name + "_" + job_type
     session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name))
-
-    '''
-    try:
-        if(job_name is None):
-            job_name = project_name + "_" + job_type
-        session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name))
-    except Exception as e:
-        print(e.message)
-        return False
-    '''
     return True
 
 
@@ -206,11 +196,11 @@ def remove_project(pid, session, remove_files=False):
         session.conn.execute(pn_mapping.delete(pn_mapping.c.project_id==pid))
         session.conn.execute(runname_to_pid.delete(runname_to_pid.c.project_id==pid))
         if(remove_files):
-            project_dir = settings.home_dir + pn + "/"
+            project_dir = settings.proj_dir + pn + "/"
             while(True):
                 answer = raw_input("Are you sure you want to delete project files located in " + project_dir + "? (y/n)")
                 if(answer == 'y'):
-                    shutil.rmtree(settings.home_dir + pn + "/")
+                    shutil.rmtree(settings.proj_dir + pn + "/")
                     break
                 elif(answer == 'n'):
                     break
@@ -226,16 +216,17 @@ def remove_project(pid, session, remove_files=False):
 def set_args(project_name, job_type, arg_list, session):
     pid = netutils.get_pid(project_name, session)
     jid = netutils.get_jid(pid, job_type, session)
+
     if(jid is None):
         print("No job entry found for: " + project_name + " " + job_type)
         return
 
     def_args = netutils.get_table_object('default_args', session)
+
     args = netutils.get_table_object('args', session)
 
     def_arg_res = session.conn.execute(def_args.select(def_args.c.job_type==job_type))
     def_dict = row2dict(def_arg_res.fetchone())
-
     passed_args = {}
     for arg in arg_list:
         el = arg.split(";")
@@ -388,7 +379,7 @@ def main():
     if(args.mark_for_dispatch):
         for name in pns:
             #make a SRC_UPLOADED file in each project directory specified
-            p = subprocess.Popen("touch " + settings.home_dir + name + "/SRC_UPLOADED", shell=True)
+            p = subprocess.Popen("touch " + settings.proj_dir + name + "/SRC_UPLOADED", shell=True)
             p.wait()
 
     if(not args.assign_adapters is None):

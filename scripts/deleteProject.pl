@@ -50,15 +50,6 @@ while(my $row = $sth->fetchrow_hashref()){
   $seqTableExists = 1;
 }
 
-=stop
-print "Removing source files\n";
-#remove source files
-@files = </var/www/html/neurobase/seq_view/projects/$projectID/*>;
-foreach my $file (@files){
-  unlink($file);
-}
-=cut 
-
 my $project_selector = " WHERE project_id='$projectID'";
 
 #remove entries from the project_files table  project_files not used
@@ -129,15 +120,18 @@ $dbh->do($query);
 
 print "Emptying sequence table\n";
 #empty the sequence table for this project
-if($seqTableExists){
-  $query = "TRUNCATE TABLE $projectID\_sequences";
-  $dbh->do($query);
+#if($seqTableExists){
+#  $query = "TRUNCATE TABLE $projectID\_sequences";
+#  $dbh->do($query);
   #delete the sequence table for this project
   $query = "DROP TABLE IF EXISTS $projectID\_sequences";
   $dbh->do($query);
-}
+# }
 
 #remove this project from the project directory table
+
 $query = "DELETE FROM project_directory WHERE projectID='$projectID'";
 $dbh->do($query);
+
+print "DELETE COMPLETED\n";
 

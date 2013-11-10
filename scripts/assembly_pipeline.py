@@ -26,6 +26,8 @@ parser.add_argument('directory', help='Directory containing the files for this a
 args = parser.parse_args()
 #if args.pn == 'none': args.pn = [x for x in args.directory.split('/') if x!=''][-1]
 
+#/home/pwilliams/python_software/autonomics/scripts/assembly_pipeline.py -mira -o Rhopalura_Male_45 -cpu 20 fastq /srv/data2/pipeline/Rhopalura_Male_45/
+
 #function definitions
 def getFileList(extension, dir):
     fileList = [os.path.normcase(f) for f in os.listdir(dir)]
@@ -222,6 +224,7 @@ def assemble(directory, inputFile, qualFile = None):
             f.write("job = est,denovo,accurate\n")
             #mrpc - minimum reads per contig, sssip - save simple singlets in project
             f.write("parameters = -GE:not=" + args.numCPU + " IONTOR_SETTINGS -AS:mrl=30:mrpc=1 -OUT:sssip=yes")
+#             f.write("parameters = -GE:not=4 IONTOR_SETTINGS -AS:mrl=30:mrpc=1 -OUT:sssip=yes")
             f.write('\n')
             f.write("readgroup = " + args.outputPrefix + '\n')
             f.write("data = " + fastq_in_path + "\n")# ".khmer.out\n")
@@ -261,6 +264,9 @@ def assemble(directory, inputFile, qualFile = None):
 
     #recover NEWBLER contigs from the MIRA singlets file
     if not(args.miraOnly):
+        print "in not args.miraOnly"
+        print "python " + SCRIPTPATH + "ContigRecovery.py " + debrisList + " " + unusedReadsFile
+
         process = subprocess.Popen("python " + SCRIPTPATH + "ContigRecovery.py " + debrisList + " " + unusedReadsFile, shell=True)
         process.wait()
 
@@ -270,6 +276,8 @@ def assemble(directory, inputFile, qualFile = None):
         contigFiles = [miraDir +"recoveredContigs.fa", miraContigs]
     else:
         contigFiles = [miraContigs]
+    print "contigsFiles: ", contigFiles
+    print "contigs: ", contigs
     cat(contigFiles, contigs)
     contigs.close()
 
@@ -280,7 +288,8 @@ def assemble(directory, inputFile, qualFile = None):
         finalFiles = [unusedReadsFile, miraContigs]
     else:
         finalFiles = [miraContigs]
-
+    print "finalFiles: ", finalFiles
+    print "final:", final
     print(finalFiles)
     print(final)
     cat(finalFiles, final)
@@ -290,10 +299,10 @@ def assemble(directory, inputFile, qualFile = None):
     tmp_file = directory + "/replace_nonstandard_bases.fasta"
     tmp = open(tmp_file, 'w')
     assem = open(assem_file, 'r')
+    print "doing SeqIO.parse"
     for record in SeqIO.parse(assem, "fasta"):
         tmp.write("".join([">", record.id, "\n"]))
         tmp.write("".join([replace_nonstandard_bases(str(record.seq)), "\n"]))
-
     tmp.close()
     assem.close()
 
@@ -311,16 +320,16 @@ def assemble(directory, inputFile, qualFile = None):
         line = line.rstrip("\n")
         el = line.split("\t")
         out_file.write(el[0] + "\t" + str(el[3]) + "\n")
-
+    print "doing quant step"
     in_file.close()
     out_file.close()
 
-    #remove the log file
-    #os.remove(log_file)
-    #if(miraDir != "/"):
-        #
-        #shutil.rmtree(miraDir)
-
+    # remove the log file
+    os.remove(log_file)
+    if(miraDir != "/"):
+        shutil.rmtree(miraDir)
+    manifestFile = args.directory + "/" + "mira_manifest"
+    os.remove(manifestFile)
 
 ######################## END ASSEMBLY SUBROUTINE #########################################
 
