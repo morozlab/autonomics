@@ -167,30 +167,25 @@ MAIL_ACCOUNT2 = "plw1080"
 CRED_PATH = INSTALL_DIR + "credentials/"
 
 # SYSTEM CREDENTIALS: 
-acis_url = '128.227.70.246'
-mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
-db_cred = Credentials(from_file=CRED_PATH + "web_config_db")
-hpc_cred = Credentials(from_file=CRED_PATH + "gator.hpc.ufl.edu")
-zc_cred = Credentials(from_file=CRED_PATH + acis_url)
+# set next to name of file in credentials dir with login info for pipeline mysql database
+db_cred = Credentials(from_file=CRED_PATH + "autonomics_pipe_db");
 
-creds = {}
-creds[acis_url] = zc_cred
+# set to name of file in credentials dir with your email info (for error reports from the HPC)
+mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
+
+# set this to file with login info for your HPC cluster
+hpc_cred = Credentials(from_file=CRED_PATH + "hpc")
 
 # SOME EXAMPLES OF CREDS FILES:
 # pwd: /home/pwilliams/python_software/autonomics/credentials
-# ls:  10.41.128.71  pipeline_mail_account submit.hpc.ufl.ed 128.227.70.246 web_config_db
+# ls:  pipeline_mail_account autonomics_pipe_db gator.hpc.ufl.edu
 # cat pipeline_mail_account 
 # host:pop.gmail.com
 # user:morozhpc
-# passwd:XXXXXXXXacis.ufl.edu{pwilliams}1222: cat 128.227.70.246
-# host:128.227.70.246
-# user:morozgroupc
-# passwd:XXXXXXXX10node12.acis.ufl.edu{pwilliams}1223: cat 128.227.123.35
-# host:128.227.123.35
-# user:Administrator
-# passwd:XXXXX
-# port:2122
-# acis.ufl.edu{pwilliams}1225: cat submit.hpc.ufl.edu 
+# passwd:XXXXXXXXacis.ufl.edu{pwilliams}1222: cat autonomics_pipe_db
+# host:localhost
+# user:zeroclick
+# passwd:XXXXXXXX%: cat hpc
 # host:hipergator.hpc.ufl.edu
 # user:plw1080
 # passwd:XXXXXXXacis.ufl.edu{pwilliams}1226:
