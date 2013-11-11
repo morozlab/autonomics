@@ -3453,14 +3453,10 @@ class Qsub:
         command += "qsub " + self.name + ".qsub"
         retries = 10
         sleep_time = 30
-# PROBLEM IS HERE qsub not being executed ... maybe there is an error but the word error not in job_id
         while (retries > 0):
               job_id = c.execute(command)
               print "job_id from qsub submission: ", job_id
-              print self.name, " job_id[0]: ", job_id[0]
-#              if ('error' in job_id[0]):
-#              if ('moab' not in job_id[0]):
-              if (settings.QSUB_OK not in job_id[0]):
+              if (job_id == [] or settings.QSUB_OK not in job_id[0]):
                   if(retries > 0):
                      sys.stderr.write("error executing qsub, retrying command: " + command + "\n")
                      retries -= 1
