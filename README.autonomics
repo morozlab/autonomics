@@ -53,7 +53,7 @@ machine. (see autonomics/docs/README).  Then load the data to
 initialize the tables. Here is what I did, right after the above commands.
 In the autonomics directory:
 mysql -u root -p zero_click < autonomics/data/autonomics.sql.tables
-mysql -u root -p zero_click < autonomics/datas/autonomics.data.for.sql.tables
+mysql -u root -p zero_click < autonomics/data/autonomics.data.for.sql.tables
 
 A redis keystore is used to speed up the annotation of Gene Ontology
 and Kyoto Encyclopedia of Genes and Genomes terms.  First, download
