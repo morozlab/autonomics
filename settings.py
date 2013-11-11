@@ -176,6 +176,9 @@ mail_cred = Credentials(from_file=CRED_PATH + "pipeline_mail_account")
 # set this to file with login info for your HPC cluster
 hpc_cred = Credentials(from_file=CRED_PATH + "hpc")
 
+# only needed if you use the data gremlin
+zc_cred = Credentials(from_file=CRED_PATH + "data_gremlin")
+
 # SOME EXAMPLES OF CREDS FILES:
 # pwd: /home/pwilliams/python_software/autonomics/credentials
 # ls:  pipeline_mail_account autonomics_pipe_db gator.hpc.ufl.edu
