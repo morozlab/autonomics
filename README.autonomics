@@ -34,7 +34,8 @@ a penalty in setting the priority of your jobs in the submission
 queue.
 
 Set up the mySQL database for the autonomics pipeline.  Here is how we did it:
-
+(assumes ZC_DB_NAME = "zero_click" in settings.py; if not, change below to
+whatever you set ZC_DB_NAME to)
 % mysql -u root --password=XXXXX --database=mysql
 mysql> create database zero_click;
 mysql> create user zeroclick;
@@ -51,8 +52,8 @@ Now create the necessary tables in your mySQL database on your local
 machine. (see autonomics/docs/README).  Then load the data to
 initialize the tables. Here is what I did, right after the above commands.
 In the autonomics directory:
-mysql -u zeroclick -p zero_click < autonomics/data/autonomics.sql.tables
-mysql -u zeroclick -p zero_click < autonomics/datas/autonomics.data.for.sql.tables
+mysql -u root -p zero_click < autonomics/data/autonomics.sql.tables
+mysql -u root -p zero_click < autonomics/datas/autonomics.data.for.sql.tables
 
 A redis keystore is used to speed up the annotation of Gene Ontology
 and Kyoto Encyclopedia of Genes and Genomes terms.  First, download
