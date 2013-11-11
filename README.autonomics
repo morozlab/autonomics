@@ -35,7 +35,7 @@ queue.
 
 Set up the mySQL database for the autonomics pipeline.  Here is how we did it:
 
-% mysql -u root --password=XXXXX mysql
+% mysql -u root --password=XXXXX --database=mysql
 mysql> create database zero_click;
 mysql> create user zeroclick;
 mysql> GRANT SELECT, INSERT, UPDATE, DELETE, INDEX, LOCK TABLES ON `zero_click`.* TO 'zeroclick'@'localhost';
