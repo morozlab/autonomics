@@ -1,5 +1,6 @@
 '''
 
+
 Author: Mathew Citarella
 
 jobs.py: Holds classes and methods for creating and manipulating autonomics jobs
@@ -1124,87 +1125,6 @@ class Job:
         '''
         self.pipeline_args.arg_string = self.pipeline_args.arg_string.\
             replace("<" + placeholder + ">" , repl)
-
-    '''
-    def upload(self):
-            upload() NOT USED CURRENTLY .. used to be used to copy finished results
-            to our only neurobase server.  Now we have multiple neurobase servers on
-            different machine.  After confirming that the finished results are valid
-            and complete, we copy the results by hand (rsync).
-
-            Uploads the results of this job to a registered data destination.
-            
-            Adds the checksums for all output files to a pickled hash of output
-            files for the project and transfers the updated hash along with
-            the output files to the data destination.
-
-        xfer_mthd = 'sftp'
-        local_dir = self.local_dir
-        if(len(local_dir) > 0):
-            local_dir += "/"
-        pickle_file = self.pn + "_checksum.pickle"
-        pickle_path = local_dir + pickle_file
-        remote_dir =  settings.CYGWIN_NEUROBASE_STORAGE + "/" + self.pn + "/"
-        retries = 5
-        while (retries > 0):
-            try:
-                ssh_conn = \
-                netutils.SSHConnection(settings.creds['128.227.123.35'].host,
-                              username=settings.creds['128.227.123.35'].user,
-                              password=settings.creds['128.227.123.35'].passwd,
-                              port=2122)
-                print "connected to 128.227.123.35 port 2122"
-
-                break
-            except Exception:
-                sys.stderr.write("Error creating SSHConnection,\
-                     sleeping for two minutes and trying again.\n")
-                time.sleep(120)
-                retries -= 1
-                if(retries == 0):
-                    raise
-
-        cmd = "mkdir \"" + remote_dir + "\""
-        ssh_conn.execute(cmd)
-        cmd = "chmod -R a+rwx \"" + remote_dir + "\""
-        ssh_conn.execute(cmd)
-        for fn in self.output_files:
-            fn = os.path.split(fn)[1]
-            local_file = local_dir + fn
-            remote_file = remote_dir + fn
-            if(not os.path.isfile(local_file)):
-                raise Exception("Local file " + local_file + " doesn't exist.")
-
-            netutils.put_file(
-                              local_file, remote_file,
-                              settings.creds['128.227.123.35'], xfer_mthd
-                              )
-            #ssh_conn.put(local_file, remote_file)
-            file_hash = {local_file: sha1_file(local_file)}
-            #check if the checksum pickle exists
-            if(os.path.isfile(pickle_path)):
-                fh = open(pickle_path, 'r')
-                chk_hash = pickle.load(fh)
-                if(self.job_type in chk_hash):
-                    chk_hash[self.job_type].update(file_hash)
-                else:
-                    chk_hash[self.job_type] = \
-                        {local_file: sha1_file(local_file)}
-                fh.close()
-            else:
-                chk_hash = {self.job_type: file_hash}
-
-            #open file for de-pickling
-            fh = open(pickle_path, 'w')
-            pickle.dump(chk_hash, fh)
-            fh.close()
-
-        #move the de-pickled file
-        netutils.put_file(pickle_path, remote_dir + pickle_file,
-#                          settings.creds['128.227.123.35'], xfer_mthd)
-                          settings.creds['128.227.123.35'], xfer_mthd)
-        ssh_conn.close()
-    '''
 
 
 class HPCJob(Job):
