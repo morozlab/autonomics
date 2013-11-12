@@ -3368,17 +3368,14 @@ class Qsub:
                 
             Returns the local path of the file it retrieved.
         '''
-        #gets the output created by this Qsub job, returns the local path to the file
-        #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
         try:
             rfile = self.remote_dir + "/" + self.current_output
             lfile = self.local_dir + self.current_output
-#            c.get(self.remote_dir + "/" + self.current_output, self.local_dir + self.current_output)
             c.get(rfile, lfile)
         except IOError as e:
-            sys.stdout.write("Error " + str(e.errno) +  "  "  + e.strerror + " retrieving: " + rfile + "\n")
+            sys.stdout.write("\nError " + str(e.errno) +  "  "  + e.strerror + rfile + "\n")
+            sys.stdout.write("Unable to retrieve these rusults;\njob will need to be rerun after checking: " + self.remote_dir)
             return None
-#         return self.local_dir + self.current_output
         return lfile
 
     def resubmit(self, c, memIncrease = 0):
@@ -3455,7 +3452,6 @@ class Qsub:
         sleep_time = 30
         while (retries > 0):
               job_id = c.execute(command)
-              print "job_id from qsub submission: ", job_id
               if (job_id == [] or settings.QSUB_OK not in job_id[0]):
                   if(retries > 0):
                      sys.stderr.write("error executing qsub, retrying command: " + command + "\n")
