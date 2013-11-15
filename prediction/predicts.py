@@ -8,27 +8,25 @@ from autonomics import settings
 
 parser = argparse.ArgumentParser(description='Signaling Peptide prediction script for the zero-click pipeline')
 parser.add_argument('projName', help='Unique identifier (name) for this project. Should be consistantly used across the pipeline.')
+parser.add_argument('--sp_cutoff',default = 0.5)
+parser.add_argument('--use_tmhmm',action='store_true')
+parser.add_argument('--use_phobtm',action='store_true')
+parser.add_argument('--use_phobsp',action='store_true')
 args = parser.parse_args()
 pn = args.projName
 
 ############################################
-ppath = settings.proj_dir
-apath = os.environ["AUTONOMICS_PATH"]
-
-#pred_dir = '/srv/data2/pipeline/prediction/%s/' % pn
-pred_dir = ppath + '/' + pn + '/prediction/'
-
-pd = ppath + '/' + pn
-
 processor = 'x86_64'
 
-#np_dir = '/srv/data2/pipeline/prediction/neuroscripts/' 
+ppath = settings.proj_dir
+apath = os.environ["AUTONOMICS_PATH"]
+pred_dir = ppath + '/' + pn + '/prediction/'
+pd = ppath + '/' + pn
 np_dir = apath + '/prediction/neuroscripts/' 
-
-#fa = '%s_final_assembly_tr.fasta' % pn #Fasta protein file
-fa = '%s_proteins.fasta' % pn #Fasta protein file
-
+fa = '%s_proteins.fasta' % pn
 outname = '_peptide_prediction'
+
+############################################
 
 print "outname: ", outname
 print "pd: ", pd
@@ -79,10 +77,11 @@ def main():
 
         call("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True) #Run TMHMM
         ###
+        print "Running PHOBIUS: " + flnm
         call(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True) #Run Phobius
 #    with open(pd + pn + '_final_prediction.out','w+') as h:
-    with open(pd + pn + outname,'w+') as h:
-        h.write('sp3nn,sp3hmm,tp,sp4,tmhmm,phobtm,phobsp,is_sp3,is_sp4\n')
+    with open(pd + '/' + pn + outname,'w+') as h:
+        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp\n')
         sp = 0
         tmhmm = 1
         phobtm = 2
@@ -91,9 +90,9 @@ def main():
             results = parse_predictions(i)
             for n in results: #Write compiled prediction results, restoring original name
                 preds = results[n]
-                isSP = preds[sp]>0.5 and (preds[tmhmm] == 0 or (preds[tmhmm] == 1 and preds[phobtm] == 0 and preds[phobsp] ==1))
+                isSP = preds[sp]>sp_cutoff and (((not use_tmhmm) or preds[tmhmm] == 0) or (((not use_tmhmm) or preds[tmhmm] == 1) and ((not use_phobtm) or preds[phobtm] == 0) and ((not use_phobsp) or preds[phobsp] ==1)))
                 preds.append(isSP and '+' or '-')
-                h.write(cypher[int(n)].name + ':' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
+                h.write(cypher[int(n)].name + ',' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
     call(['rm','-r',pred_dir]) #Clean up the prediction directory
 ####################################################
 def write_fasta_sameline(flnm,seq,mode='w+'):
