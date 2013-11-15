@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+656	
+
+ psg: 0.71  gvh: 0.39  alm: 0.44  top: 0.40  tms: 0.08  mit: 0.29  mip: 0.02
+ nuc: 0.00  erl: 0.00  erm: 0.60  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.14  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 1.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.09  lps: 0.09  len: 0.35 
+
+	 30.4 %: cytoplasmic
+	 26.1 %: nuclear
+	 13.0 %: Golgi
+	  8.7 %: vesicles of secretory system
+	  8.7 %: endoplasmic reticulum
+	  8.7 %: mitochondrial
+	  4.3 %: peroxisomal
+
+>> prediction for 656 is cyt (k=23)
+

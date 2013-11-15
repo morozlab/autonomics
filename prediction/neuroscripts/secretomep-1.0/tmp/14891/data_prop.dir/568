@@ -1,0 +1,288 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1534 568         
+MEGGKKRKKAGGRKPRKSAENSAPAEEPEAPVVDPPVGRGKKKRGKKPTPDDVVREVVIDSDSPPPEPQTRGRKKRKSAG      80
+SAVKNQDEFIGVTRDVSPKKGVHNKRYTVSPPKKRDMFAAILKQGGNVTESGKSSDQAEEEEVESEVEVVRKKKKVKKVG     160
+EPNPYLQKVKKEVKDEIKEEEEEEEAGQVAELVTNEMMEQEEQNEEQEQNGEGEQEEQNEEGDEQEQNGEGDEQEQLPPQ     240
+PFIGYDNFDAYSNSLLPLVVGFLKVTKQLPGTKDEFDFFQSYPSFLAFTKNQGQRVLQLIGKMFKHHHVYQKWNTTPTTT     320
+VTGIEEQTEAVVEANDTLLERVDKILDMMKQSKNEDRLDLKPSSSNSVLVAAWNTKSPANQTKPIRLLHTRNILRPQMKW     400
+KDKPDNTDAPFVPHIREKPNAKVPLPEVFVQMMKNEKEDELASFIKIARGSTVEYPHPYQHELEVFEPLPWQLELGRKHQ     480
+PELMDTTPLVIIDKVEQLDDLIAALSLSREIAIDLEAHSYRSFLGFSCLMQLSTRKGDYIVDTLALRGQLTVLNKIFTDP     560
+NILKVSWVPEVPGGGRRRLQDANQTKPIRLLHTRNILRPQMKWKDKPDNTDAPFVPHIREKPNAKVPLPEVFVQMMKNEK     640
+EDELASFIKIARGSTVEYPHPYQHELEVFEPLPWQLELGRKHQPELMDTTPLVIIDKVEQLDDLIAALSLSREIAIDLEA     720
+HSYRSFLGFSCLMQLSTRKGDYIVDTLALRGQLTVLNKIFTDPNILKVFHGSHNDVLWHVSLDPDMEQLYKLRIVACKQL     800
+TLPRASLSFLLHRYCGVTADKQYQLADWRIRPLPELMIKYAREDTHYLLFIYDCLRYELLAEGPHALESVYRNSARECIQ     880
+VYQKPTYSDDSYLDVYHKIRITLKPQQKECLKQLHSWRDQTARTEDESTAFVLPNHMMLKISELLPPDQEGILACCNPPP     960
+PIVRLHIPELHLIVEKARHYNPLLDPKREEVVGEEGDDDEYTPGFLDMTHQSVVESLLNVSKRSRRTSEIFYVPKTGPDL    1040
+EILRQPKDASDTFSITSETGTIRHADTTVTFFETARAELSDAVKTVTEGMAAPFRLFMNKIAELREEEKKKEEEEEGERG    1120
+DLYPLPAAIPPPVQFSHEGEDVDEGGNLIVFKAPAKRPPPPEGEEPEERGLRAKSGKKRRKKEVGEFSPFNFEEVSMKQM    1200
+AAQEEVRPRERGDMLNAGEDSRAGSIKQRTNMKTAHSQYGCLHEKESDWLGQQWIQMPFRLRTPTRQGVSSRCCWRYRTT    1280
+PVSSFEAGFLDMTHQSVVESLLNVSKRSRRTSEIFYVPKTGPDLEILRQPKDASDTFSITSETGTIRHADTTVTFFETAR    1360
+AELSDAVKTVTEGMAAPFRLFMNKIAELREEEKKKEEEEEGERGDLYPLPAAIPPPVQFSHEGEDVDGGGNLIVFKAPAK    1440
+RPPPPEGEEPEERGLRAKSGKKRRKKEVGEFSPFNFEEVSMKQMAAQEEVRPRERGDMLNAGEDSRAGSIKQRTNMKTGN    1520
+RSSFQNFLKKKFRR                                                                      1600
+...........................................................................P....      80
+.........................................................................P......     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+..............................................................P.................    1040
+................................................................................    1120
+.............................................................P..................    1200
+................................................................................    1280
+..........................P.....................................................    1360
+................................................................................    1440
+.........................P......................................................    1520
+..............                                                                      1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+568              5    --MEGGK|KR  0.057    .
+568              6    -MEGGKK|RK  0.081    .
+568              7    MEGGKKR|KK  0.229    .
+568              8    EGGKKRK|KA  0.135    .
+568              9    GGKKRKK|AG  0.123    .
+568             13    RKKAGGR|KP  0.088    .
+568             14    KKAGGRK|PR  0.085    .
+568             16    AGGRKPR|KS  0.236    .
+568             17    GGRKPRK|SA  0.234    .
+568             39    VDPPVGR|GK  0.089    .
+568             41    PPVGRGK|KK  0.071    .
+568             42    PVGRGKK|KR  0.258    .
+568             43    VGRGKKK|RG  0.100    .
+568             44    GRGKKKR|GK  0.473    .
+568             46    GKKKRGK|KP  0.065    .
+568             47    KKKRGKK|PT  0.279    .
+568             55    TPDDVVR|EV  0.111    .
+568             71    PPEPQTR|GR  0.095    .
+568             73    EPQTRGR|KK  0.126    .
+568             74    PQTRGRK|KR  0.130    .
+568             75    QTRGRKK|RK  0.137    .
+568             76    TRGRKKR|KS  0.782 *ProP*
+568             77    RGRKKRK|SA  0.326    .
+568             84    SAGSAVK|NQ  0.064    .
+568             94    EFIGVTR|DV  0.170    .
+568             99    TRDVSPK|KG  0.066    .
+568            100    RDVSPKK|GV  0.208    .
+568            105    KKGVHNK|RY  0.072    .
+568            106    KGVHNKR|YT  0.169    .
+568            113    YTVSPPK|KR  0.055    .
+568            114    TVSPPKK|RD  0.098    .
+568            115    VSPPKKR|DM  0.271    .
+568            123    MFAAILK|QG  0.070    .
+568            133    NVTESGK|SS  0.106    .
+568            151    SEVEVVR|KK  0.085    .
+568            152    EVEVVRK|KK  0.080    .
+568            153    VEVVRKK|KK  0.089    .
+568            154    EVVRKKK|KV  0.529 *ProP*
+568            155    VVRKKKK|VK  0.136    .
+568            157    RKKKKVK|KV  0.106    .
+568            158    KKKKVKK|VG  0.121    .
+568            168    PNPYLQK|VK  0.055    .
+568            170    PYLQKVK|KE  0.056    .
+568            171    YLQKVKK|EV  0.224    .
+568            174    KVKKEVK|DE  0.075    .
+568            178    EVKDEIK|EE  0.066    .
+568            264    LVVGFLK|VT  0.060    .
+568            267    GFLKVTK|QL  0.062    .
+568            273    KQLPGTK|DE  0.066    .
+568            290    SFLAFTK|NQ  0.067    .
+568            295    TKNQGQR|VL  0.121    .
+568            302    VLQLIGK|MF  0.062    .
+568            305    LIGKMFK|HH  0.071    .
+568            312    HHHVYQK|WN  0.077    .
+568            341    NDTLLER|VD  0.067    .
+568            344    LLERVDK|IL  0.136    .
+568            350    KILDMMK|QS  0.057    .
+568            353    DMMKQSK|NE  0.059    .
+568            357    QSKNEDR|LD  0.074    .
+568            361    EDRLDLK|PS  0.059    .
+568            376    VAAWNTK|SP  0.076    .
+568            383    SPANQTK|PI  0.082    .
+568            386    NQTKPIR|LL  0.079    .
+568            391    IRLLHTR|NI  0.090    .
+568            395    HTRNILR|PQ  0.080    .
+568            399    ILRPQMK|WK  0.079    .
+568            401    RPQMKWK|DK  0.104    .
+568            403    QMKWKDK|PD  0.067    .
+568            416    PFVPHIR|EK  0.069    .
+568            418    VPHIREK|PN  0.074    .
+568            422    REKPNAK|VP  0.062    .
+568            434    VFVQMMK|NE  0.056    .
+568            437    QMMKNEK|ED  0.058    .
+568            446    ELASFIK|IA  0.078    .
+568            449    SFIKIAR|GS  0.108    .
+568            477    WQLELGR|KH  0.080    .
+568            478    QLELGRK|HQ  0.074    .
+568            494    PLVIIDK|VE  0.052    .
+568            509    AALSLSR|EI  0.075    .
+568            521    LEAHSYR|SF  0.136    .
+568            535    LMQLSTR|KG  0.093    .
+568            536    MQLSTRK|GD  0.079    .
+568            547    VDTLALR|GQ  0.071    .
+568            555    QLTVLNK|IF  0.056    .
+568            564    TDPNILK|VS  0.057    .
+568            576    EVPGGGR|RR  0.062    .
+568            577    VPGGGRR|RL  0.141    .
+568            578    PGGGRRR|LQ  0.142    .
+568            586    QDANQTK|PI  0.068    .
+568            589    NQTKPIR|LL  0.075    .
+568            594    IRLLHTR|NI  0.090    .
+568            598    HTRNILR|PQ  0.080    .
+568            602    ILRPQMK|WK  0.079    .
+568            604    RPQMKWK|DK  0.104    .
+568            606    QMKWKDK|PD  0.067    .
+568            619    PFVPHIR|EK  0.069    .
+568            621    VPHIREK|PN  0.074    .
+568            625    REKPNAK|VP  0.062    .
+568            637    VFVQMMK|NE  0.056    .
+568            640    QMMKNEK|ED  0.058    .
+568            649    ELASFIK|IA  0.078    .
+568            652    SFIKIAR|GS  0.108    .
+568            680    WQLELGR|KH  0.080    .
+568            681    QLELGRK|HQ  0.074    .
+568            697    PLVIIDK|VE  0.052    .
+568            712    AALSLSR|EI  0.075    .
+568            724    LEAHSYR|SF  0.136    .
+568            738    LMQLSTR|KG  0.093    .
+568            739    MQLSTRK|GD  0.079    .
+568            750    VDTLALR|GQ  0.071    .
+568            758    QLTVLNK|IF  0.056    .
+568            767    TDPNILK|VF  0.063    .
+568            791    DMEQLYK|LR  0.058    .
+568            793    EQLYKLR|IV  0.113    .
+568            798    LRIVACK|QL  0.070    .
+568            804    KQLTLPR|AS  0.076    .
+568            813    LSFLLHR|YC  0.097    .
+568            821    CGVTADK|QY  0.057    .
+568            829    YQLADWR|IR  0.064    .
+568            831    LADWRIR|PL  0.075    .
+568            839    LPELMIK|YA  0.073    .
+568            842    LMIKYAR|ED  0.093    .
+568            856    FIYDCLR|YE  0.072    .
+568            872    ALESVYR|NS  0.089    .
+568            876    VYRNSAR|EC  0.116    .
+568            884    CIQVYQK|PT  0.060    .
+568            898    YLDVYHK|IR  0.059    .
+568            900    DVYHKIR|IT  0.086    .
+568            904    KIRITLK|PQ  0.060    .
+568            908    TLKPQQK|EC  0.075    .
+568            912    QQKECLK|QL  0.066    .
+568            918    KQLHSWR|DQ  0.111    .
+568            923    WRDQTAR|TE  0.108    .
+568            940    PNHMMLK|IS  0.066    .
+568            964    PPPPIVR|LH  0.088    .
+568            976    LHLIVEK|AR  0.057    .
+568            978    LIVEKAR|HY  0.110    .
+568            987    NPLLDPK|RE  0.064    .
+568            988    PLLDPKR|EE  0.129    .
+568           1022    SLLNVSK|RS  0.057    .
+568           1023    LLNVSKR|SR  0.510 *ProP*
+568           1025    NVSKRSR|RT  0.113    .
+568           1026    VSKRSRR|TS  0.480    .
+568           1035    EIFYVPK|TG  0.062    .
+568           1044    PDLEILR|QP  0.074    .
+568           1047    EILRQPK|DA  0.231    .
+568           1063    SETGTIR|HA  0.108    .
+568           1076    TFFETAR|AE  0.068    .
+568           1084    ELSDAVK|TV  0.088    .
+568           1095    GMAAPFR|LF  0.094    .
+568           1100    FRLFMNK|IA  0.075    .
+568           1105    NKIAELR|EE  0.084    .
+568           1109    ELREEEK|KK  0.071    .
+568           1110    LREEEKK|KE  0.113    .
+568           1111    REEEKKK|EE  0.125    .
+568           1119    EEEEGER|GD  0.064    .
+568           1152    GNLIVFK|AP  0.064    .
+568           1156    VFKAPAK|RP  0.058    .
+568           1157    FKAPAKR|PP  0.161    .
+568           1169    GEEPEER|GL  0.094    .
+568           1172    PEERGLR|AK  0.222    .
+568           1174    ERGLRAK|SG  0.091    .
+568           1177    LRAKSGK|KR  0.097    .
+568           1178    RAKSGKK|RR  0.076    .
+568           1179    AKSGKKR|RK  0.285    .
+568           1180    KSGKKRR|KK  0.386    .
+568           1181    SGKKRRK|KE  0.088    .
+568           1182    GKKRRKK|EV  0.592 *ProP*
+568           1198    FEEVSMK|QM  0.073    .
+568           1207    AAQEEVR|PR  0.086    .
+568           1209    QEEVRPR|ER  0.130    .
+568           1211    EVRPRER|GD  0.073    .
+568           1222    NAGEDSR|AG  0.094    .
+568           1227    SRAGSIK|QR  0.083    .
+568           1229    AGSIKQR|TN  0.124    .
+568           1233    KQRTNMK|TA  0.077    .
+568           1245    YGCLHEK|ES  0.066    .
+568           1260    WIQMPFR|LR  0.086    .
+568           1262    QMPFRLR|TP  0.079    .
+568           1266    RLRTPTR|QG  0.099    .
+568           1272    RQGVSSR|CC  0.128    .
+568           1276    SSRCCWR|YR  0.101    .
+568           1278    RCCWRYR|TT  0.086    .
+568           1306    SLLNVSK|RS  0.057    .
+568           1307    LLNVSKR|SR  0.510 *ProP*
+568           1309    NVSKRSR|RT  0.113    .
+568           1310    VSKRSRR|TS  0.480    .
+568           1319    EIFYVPK|TG  0.062    .
+568           1328    PDLEILR|QP  0.074    .
+568           1331    EILRQPK|DA  0.231    .
+568           1347    SETGTIR|HA  0.108    .
+568           1360    TFFETAR|AE  0.068    .
+568           1368    ELSDAVK|TV  0.088    .
+568           1379    GMAAPFR|LF  0.094    .
+568           1384    FRLFMNK|IA  0.075    .
+568           1389    NKIAELR|EE  0.084    .
+568           1393    ELREEEK|KK  0.071    .
+568           1394    LREEEKK|KE  0.113    .
+568           1395    REEEKKK|EE  0.125    .
+568           1403    EEEEGER|GD  0.064    .
+568           1436    GNLIVFK|AP  0.060    .
+568           1440    VFKAPAK|RP  0.058    .
+568           1441    FKAPAKR|PP  0.161    .
+568           1453    GEEPEER|GL  0.094    .
+568           1456    PEERGLR|AK  0.222    .
+568           1458    ERGLRAK|SG  0.091    .
+568           1461    LRAKSGK|KR  0.097    .
+568           1462    RAKSGKK|RR  0.076    .
+568           1463    AKSGKKR|RK  0.285    .
+568           1464    KSGKKRR|KK  0.386    .
+568           1465    SGKKRRK|KE  0.088    .
+568           1466    GKKRRKK|EV  0.592 *ProP*
+568           1482    FEEVSMK|QM  0.073    .
+568           1491    AAQEEVR|PR  0.086    .
+568           1493    QEEVRPR|ER  0.130    .
+568           1495    EVRPRER|GD  0.073    .
+568           1506    NAGEDSR|AG  0.094    .
+568           1511    SRAGSIK|QR  0.081    .
+568           1513    AGSIKQR|TN  0.122    .
+568           1517    KQRTNMK|TG  0.062    .
+568           1521    NMKTGNR|SS  0.114    .
+568           1529    SFQNFLK|KK  0.065    .
+568           1530    FQNFLKK|KF  0.103    .
+568           1531    QNFLKKK|FR  0.114    .
+568           1533    FLKKKFR|R-  0.100    .
+568           1534    LKKKFRR|--  0.229    .
+____________________________^_________________
+
+
+
+

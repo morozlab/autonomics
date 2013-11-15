@@ -1,0 +1,18 @@
+# 478 Length: 1671
+# 478 Number of predicted TMHs:  6
+# 478 Exp number of AAs in TMHs: 220.32367
+# 478 Exp number, first 60 AAs:  3.36378
+# 478 Total prob of N-in:        0.89105
+478	TMHMM2.0	outside	     1   396
+478	TMHMM2.0	TMhelix	   397   419
+478	TMHMM2.0	inside	   420   430
+478	TMHMM2.0	TMhelix	   431   450
+478	TMHMM2.0	outside	   451   488
+478	TMHMM2.0	TMhelix	   489   508
+478	TMHMM2.0	inside	   509   514
+478	TMHMM2.0	TMhelix	   515   537
+478	TMHMM2.0	outside	   538   577
+478	TMHMM2.0	TMhelix	   578   600
+478	TMHMM2.0	inside	   601   612
+478	TMHMM2.0	TMhelix	   613   635
+478	TMHMM2.0	outside	   636  1671

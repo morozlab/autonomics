@@ -1,0 +1,206 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1632 508         
+MKYYEGLNDVICVWTAPDKSCWRGYFSPAECKPIEVNGFLHEQCPSLDRYYTQFKCPRSNHTYFIYTEVWSGESVYSKLC      80
+PSDPGFYQACGHSGSTGSTELAGTPLLCGTFICDRNIATNWVYDLYQHCESGACKNTELNMVGCIAEKCNNICDEYNCSD     160
+ESYCNGVQYGLWCEGHYVPPAWNCLDEKTDCINKKDAIEGCLNWTVDDHTTCQRIWTSKIIRIQDNMRCFDPGRSICENG     240
+QDQTNCSDPEKVVMKCLSEGFPTTISIWGYCKGYTLCDDGYNNVCVDPELGCSIHKGQLCDGHRDCNNGGDETNCKDLTK     320
+VTRCFRRFHSPNVEKNVSLPIPLEWVMDGEVDCLDGMDEDEEKWLKCGTDYYTRYQELETECEEVLLCPSERNFIDLNNL     400
+CDRINTCSFEEKLCNAARQTDVDVTTLTDTVITSQDQHFIQHCFPTGAEDLERKLGKCNTVEHTAGIVKTVINAQQPVLV     480
+SIPEKKVECSHLFGTNYVYAACNNICLNAECPLKKIPGDTCINKKDSVVRALAETAIPSTTTLFKTAKDPGFYDSKIFPC     560
+DNKRCVSYQDVCNLKDDCGDGSDENFCANHFKCNNYSELVVLSQVCDGVVHCRDFSDECSQSCSSTQNKDIFEKIFLRSA     640
+GVSMGLISTSLNTVSLVRSAWKLPRQKTYEMFLNTFAIVLINLGDLMIGVYLLLLSYFNFIYNADGNYCQEKYRWFSSRE     720
+CSFLGVLSTTGSQLSLFAILHPKRAQVWSGESVYSKLCPSDPGFYQACGHSGSTGSTELAGTPLLCGTFICDRNIATNWV     800
+YDLYQHCESGACGNTDLNMRIWTSKIIRIQDSMRCFDPGRSICENGQDQTNCSDPEKVVLQCLSQGFPTTISIWGYCKGY     880
+TLCDDGYNNVCVDPELGCNIHKGQLCDGHLDCNNGGDETNCKDLTKVTRCIRRFHSPNVEKNVSLPIPLEWVMDGEMDCL     960
+DGMDEDEESWLKCGTDYYIRYQELETECKEVLLCPLEKNYIDLNNLCDRISTCSFEEMLCNAARQTDVDVTTLIDTFITS    1040
+KDQHFIQHCFPAGAADLERQLGKCNTVEHTAGIVKTVVNVQQPVLVSIPEKKVDCSHLFGANYVYAACNNICINAECPLK    1120
+KIPGDTCINEKDSVVRALADTAIPSTTTLFKTAKDPGFYDSKIFPCDNKRCVSYQDVCNLKDDCGDGSDENFCANHFKCN    1200
+NYSELVVLSQVCDGVVHCRDFSDECSQICPSTQNKHIFAKIFLRSVSVSMGLISTSLNTVSLARSACKLPRHKTYEMFLN    1280
+TFAIVLINLGDLMIGVYLLLLSYFDFIYNADGNYCEEKYRWFSSSECSSTGSQLSLFAMTMLSITRLANIETFVRRDLFS    1360
+YKSATKLVFLLGFPLLACVLIAVTPILSFTEDYFVNGLYYYGSPLFIRPASKIDHYKVFKEYFEGRSVSWEKASFSWEAI    1440
+RSTIKEMFSSDHGGILNSTVHFYGNDGVCVFKYLVTRDDPQWVFSTSILLVNFLCFIFILVSYGYINFKTQQSSRNVGAA    1520
+TGRRGANRALQAKISAIILTDFFCWVPLSIVSFLHLSEAINATTWYPFFSILIIPINSVINPLLYDSNFYFDLLFGPVRV    1600
+LRRTANSFITAIQTSNERETVEGTPPLQETAL                                                    1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................                                                    1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+508              2    -----MK|YY  0.076    .
+508             19    VWTAPDK|SC  0.076    .
+508             23    PDKSCWR|GY  0.078    .
+508             32    FSPAECK|PI  0.068    .
+508             49    QCPSLDR|YY  0.073    .
+508             55    RYYTQFK|CP  0.059    .
+508             58    TQFKCPR|SN  0.177    .
+508             78    GESVYSK|LC  0.061    .
+508            115    GTFICDR|NI  0.071    .
+508            135    CESGACK|NT  0.072    .
+508            148    VGCIAEK|CN  0.058    .
+508            188    WNCLDEK|TD  0.060    .
+508            194    KTDCINK|KD  0.053    .
+508            195    TDCINKK|DA  0.200    .
+508            214    DHTTCQR|IW  0.074    .
+508            219    QRIWTSK|II  0.082    .
+508            222    WTSKIIR|IQ  0.095    .
+508            228    RIQDNMR|CF  0.118    .
+508            234    RCFDPGR|SI  0.155    .
+508            251    NCSDPEK|VV  0.088    .
+508            255    PEKVVMK|CL  0.105    .
+508            272    SIWGYCK|GY  0.062    .
+508            296    LGCSIHK|GQ  0.057    .
+508            304    QLCDGHR|DC  0.108    .
+508            316    GDETNCK|DL  0.085    .
+508            320    NCKDLTK|VT  0.061    .
+508            323    DLTKVTR|CF  0.079    .
+508            326    KVTRCFR|RF  0.129    .
+508            327    VTRCFRR|FH  0.191    .
+508            335    HSPNVEK|NV  0.081    .
+508            363    MDEDEEK|WL  0.065    .
+508            366    DEEKWLK|CG  0.057    .
+508            374    GTDYYTR|YQ  0.080    .
+508            392    LLCPSER|NF  0.089    .
+508            403    LNNLCDR|IN  0.092    .
+508            412    TCSFEEK|LC  0.082    .
+508            418    KLCNAAR|QT  0.123    .
+508            453    GAEDLER|KL  0.113    .
+508            454    AEDLERK|LG  0.062    .
+508            457    LERKLGK|CN  0.074    .
+508            469    HTAGIVK|TV  0.073    .
+508            485    LVSIPEK|KV  0.085    .
+508            486    VSIPEKK|VE  0.092    .
+508            514    NAECPLK|KI  0.056    .
+508            515    AECPLKK|IP  0.097    .
+508            524    GDTCINK|KD  0.064    .
+508            525    DTCINKK|DS  0.085    .
+508            530    KKDSVVR|AL  0.084    .
+508            545    STTTLFK|TA  0.064    .
+508            548    TLFKTAK|DP  0.081    .
+508            556    PGFYDSK|IF  0.053    .
+508            563    IFPCDNK|RC  0.053    .
+508            564    FPCDNKR|CV  0.315    .
+508            575    QDVCNLK|DD  0.067    .
+508            592    FCANHFK|CN  0.076    .
+508            613    DGVVHCR|DF  0.144    .
+508            629    CSSTQNK|DI  0.110    .
+508            634    NKDIFEK|IF  0.059    .
+508            638    FEKIFLR|SA  0.191    .
+508            658    NTVSLVR|SA  0.138    .
+508            662    LVRSAWK|LP  0.062    .
+508            665    SAWKLPR|QK  0.097    .
+508            667    WKLPRQK|TY  0.068    .
+508            712    GNYCQEK|YR  0.065    .
+508            714    YCQEKYR|WF  0.121    .
+508            719    YRWFSSR|EC  0.123    .
+508            743    FAILHPK|RA  0.062    .
+508            744    AILHPKR|AQ  0.150    .
+508            756    GESVYSK|LC  0.061    .
+508            793    GTFICDR|NI  0.071    .
+508            820    NTDLNMR|IW  0.074    .
+508            825    MRIWTSK|II  0.082    .
+508            828    WTSKIIR|IQ  0.096    .
+508            834    RIQDSMR|CF  0.145    .
+508            840    RCFDPGR|SI  0.154    .
+508            857    NCSDPEK|VV  0.087    .
+508            878    SIWGYCK|GY  0.062    .
+508            902    LGCNIHK|GQ  0.061    .
+508            922    GDETNCK|DL  0.082    .
+508            926    NCKDLTK|VT  0.065    .
+508            929    DLTKVTR|CI  0.086    .
+508            932    KVTRCIR|RF  0.119    .
+508            933    VTRCIRR|FH  0.157    .
+508            941    HSPNVEK|NV  0.081    .
+508            972    DEESWLK|CG  0.053    .
+508            980    GTDYYIR|YQ  0.077    .
+508            989    ELETECK|EV  0.059    .
+508            998    LLCPLEK|NY  0.061    .
+508           1009    LNNLCDR|IS  0.098    .
+508           1024    MLCNAAR|QT  0.127    .
+508           1041    DTFITSK|DQ  0.069    .
+508           1059    GAADLER|QL  0.131    .
+508           1063    LERQLGK|CN  0.069    .
+508           1075    HTAGIVK|TV  0.070    .
+508           1091    LVSIPEK|KV  0.085    .
+508           1092    VSIPEKK|VD  0.095    .
+508           1120    NAECPLK|KI  0.055    .
+508           1121    AECPLKK|IP  0.115    .
+508           1131    DTCINEK|DS  0.057    .
+508           1136    EKDSVVR|AL  0.084    .
+508           1151    STTTLFK|TA  0.064    .
+508           1154    TLFKTAK|DP  0.081    .
+508           1162    PGFYDSK|IF  0.053    .
+508           1169    IFPCDNK|RC  0.053    .
+508           1170    FPCDNKR|CV  0.315    .
+508           1181    QDVCNLK|DD  0.067    .
+508           1198    FCANHFK|CN  0.076    .
+508           1219    DGVVHCR|DF  0.144    .
+508           1235    CPSTQNK|HI  0.095    .
+508           1240    NKHIFAK|IF  0.075    .
+508           1244    FAKIFLR|SV  0.219    .
+508           1264    NTVSLAR|SA  0.166    .
+508           1268    LARSACK|LP  0.064    .
+508           1271    SACKLPR|HK  0.104    .
+508           1273    CKLPRHK|TY  0.066    .
+508           1318    GNYCEEK|YR  0.062    .
+508           1320    YCEEKYR|WF  0.119    .
+508           1346    TMLSITR|LA  0.083    .
+508           1355    NIETFVR|RD  0.065    .
+508           1356    IETFVRR|DL  0.170    .
+508           1362    RDLFSYK|SA  0.096    .
+508           1366    SYKSATK|LV  0.065    .
+508           1408    GSPLFIR|PA  0.140    .
+508           1412    FIRPASK|ID  0.062    .
+508           1417    SKIDHYK|VF  0.071    .
+508           1420    DHYKVFK|EY  0.072    .
+508           1426    KEYFEGR|SV  0.291    .
+508           1432    RSVSWEK|AS  0.068    .
+508           1441    FSWEAIR|ST  0.155    .
+508           1445    AIRSTIK|EM  0.063    .
+508           1472    DGVCVFK|YL  0.066    .
+508           1477    FKYLVTR|DD  0.103    .
+508           1509    YGYINFK|TQ  0.060    .
+508           1515    KTQQSSR|NV  0.189    .
+508           1523    VGAATGR|RG  0.069    .
+508           1524    GAATGRR|GA  0.204    .
+508           1528    GRRGANR|AL  0.153    .
+508           1533    NRALQAK|IS  0.083    .
+508           1599    LLFGPVR|VL  0.077    .
+508           1602    GPVRVLR|RT  0.258    .
+508           1603    PVRVLRR|TA  0.144    .
+508           1618    IQTSNER|ET  0.073    .
+____________________________^_________________
+
+
+
+

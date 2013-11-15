@@ -1,0 +1,24 @@
+# 658 Length: 1441
+# 658 Number of predicted TMHs:  9
+# 658 Exp number of AAs in TMHs: 243.27729
+# 658 Exp number, first 60 AAs:  0
+# 658 Total prob of N-in:        0.00035
+658	TMHMM2.0	outside	     1   788
+658	TMHMM2.0	TMhelix	   789   808
+658	TMHMM2.0	inside	   809   814
+658	TMHMM2.0	TMhelix	   815   837
+658	TMHMM2.0	outside	   838   840
+658	TMHMM2.0	TMhelix	   841   860
+658	TMHMM2.0	inside	   861   989
+658	TMHMM2.0	TMhelix	   990  1012
+658	TMHMM2.0	outside	  1013  1039
+658	TMHMM2.0	TMhelix	  1040  1062
+658	TMHMM2.0	inside	  1063  1105
+658	TMHMM2.0	TMhelix	  1106  1128
+658	TMHMM2.0	outside	  1129  1257
+658	TMHMM2.0	TMhelix	  1258  1280
+658	TMHMM2.0	inside	  1281  1299
+658	TMHMM2.0	TMhelix	  1300  1322
+658	TMHMM2.0	outside	  1323  1341
+658	TMHMM2.0	TMhelix	  1342  1364
+658	TMHMM2.0	inside	  1365  1441

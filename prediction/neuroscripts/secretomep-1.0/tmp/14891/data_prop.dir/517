@@ -1,0 +1,247 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1626 517         
+MTYVPHGDTRPLSIFVEYIVLVSDGDNSPIIEFNVLPFPAGDKRYINRRVYYHPKTDTDTLKLLFPINIANYPNMNYVTY      80
+FLGHEGKGSLYQYLSTRGYITLLMASINVEAKNFILIDINFGLTDEGLRDPNVIVDALFKYIKRIKDEGVNENRWQENKD     160
+IDNIMFKFKEKESAADYASLISSRMARVDDPRDYLNPPSRRHFNRSCGWLAANQGPVFPDSLLIFNFNRTLEEEIMGFIT     240
+PTNMNMYISSLKFSLESPNQYGPTLDKVIDAPNCIDYNPFSPPITISPHVPLAPTHHPPLQVEEWYSTPYANVPIKEADI     320
+KNWLEIGTEDELHLPDANDFIPDDFRLLAYEGNDLPVEVNNTLDMTIWWFQDKEFSQPKMYLNCQIIPKQNTPTLKDELL     400
+SEMLSKMFTQETAALLYPAITVEYEVFFNFKTVWHIAIGGFSHSEKVKNVIKTSMGSLFDMNFSMEESFFNATIREPLRK     480
+RYLNVQNSSPADLSMRATRILQDKYFFEFSDALDMIDGLTQEGVKELRDNFLEEISVDCSAIGNVNKDQTVEYAEIVKTK     560
+LVTGGSASVVKEDRLEDFVFPALKLPAEKTLVIRQKVLNKDEPNSAVVTTFQIGPMKGNGELFKGRKPYTRYVLTRLLGL     640
+MMREPCFNYLRTQQQLGYVASCFDEEYKDIVTFNILVQGSRPGFGAEVIAEEHDNLLELQFTSFHELNSTSEGKANWEGL     720
+KVAMQQQIEQKQISLKDFSLELNSEIFNSPRDFARKKKMVDALADVTADDFLIFYRTYLMGDQMRKISSQVCGPITLRHL     800
+VRSHQVSMSPNRSPPALTVTAMPYCHWHGPRFNSSSYNDISLSLVKVTNSFYHRSTEKTTQCRLVTCLKDQYSYHQISRG     880
+TETTILPHRSMKTNRDDVISLSVININLTNIPLGLFCHVFGFIWKSGSRVAPTRAPPTFQINPANLIIQSTNIYHLPPQY     960
+PSISSSLGAISYQIRGRTIQVGLSAGGERFGDIDTWCDRTRWLCRQGNDHRTKFSVTYLTANAPSGCALNKGFSQTTRLR    1040
+RVGLFIPTFDELILMRNVTLTGVSLTGVLMRLTNYVKCDQIAGDLRELISREAELPQQGLHLPSRGDYRAYYDPYRSPCS    1120
+SCYYNTLRTKKDDKNKVALLRSLSIRARVSSQSHRAFGPGRELTDVEHVKNKHVPLYHCLDKNKVALLRSLSIRARVSSQ    1200
+SHRAFGPVRELTDVEHVKNKNNYTTENQIQKGVAANIGLNINKCRHFTNTKVNKYKREIASPRPAKRLRTMHTQPVEPEG    1280
+SCSGSDNLNNKPKTQNGHNSNNGVGTVYIPPHLRDTVRLIGQHLADLGLQKTVQQLVEECDSQLEHPLASQLRDNITSGL    1360
+WEEALEVFGELASTAESGAREIKYRILEQKYLELLESDKFPSETKQILEHRDEVLHCSWSNSGLYLATGALDGSLYIWKY    1440
+NPQCYQLVEDKLIDALFSVGYIAWSPDDTMLCICGVEKCPEATVYTVSGSTAVLKCKISQSPEDVLTTCAWSPDNRYIYT    1520
+GGQQGQFYKYDLHTSTVYKWEGIRLHGVATLRDNKTVLAADSHKRVRSYNFEDHSEQTIYESEQQIISMSISSDEKYCLL    1600
+TLEKQVRLVSIRNRLKQLNNQSELAI                                                          1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+.....................................P..........................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..........................                                                          1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+517             10    VPHGDTR|PL  0.112    .
+517             43    PFPAGDK|RY  0.051    .
+517             44    FPAGDKR|YI  0.185    .
+517             48    DKRYINR|RV  0.126    .
+517             49    KRYINRR|VY  0.127    .
+517             55    RVYYHPK|TD  0.070    .
+517             62    TDTDTLK|LL  0.070    .
+517             87    FLGHEGK|GS  0.066    .
+517             97    YQYLSTR|GY  0.104    .
+517            112    SINVEAK|NF  0.069    .
+517            129    LTDEGLR|DP  0.079    .
+517            140    IVDALFK|YI  0.066    .
+517            143    ALFKYIK|RI  0.066    .
+517            144    LFKYIKR|IK  0.171    .
+517            146    KYIKRIK|DE  0.080    .
+517            154    EGVNENR|WQ  0.080    .
+517            159    NRWQENK|DI  0.097    .
+517            167    IDNIMFK|FK  0.078    .
+517            169    NIMFKFK|EK  0.075    .
+517            171    MFKFKEK|ES  0.063    .
+517            184    ASLISSR|MA  0.090    .
+517            187    ISSRMAR|VD  0.361    .
+517            192    ARVDDPR|DY  0.087    .
+517            200    YLNPPSR|RH  0.077    .
+517            201    LNPPSRR|HF  0.148    .
+517            205    SRRHFNR|SC  0.344    .
+517            229    LIFNFNR|TL  0.112    .
+517            252    MYISSLK|FS  0.063    .
+517            267    YGPTLDK|VI  0.056    .
+517            316    YANVPIK|EA  0.084    .
+517            321    IKEADIK|NW  0.066    .
+517            346    FIPDDFR|LL  0.075    .
+517            373    IWWFQDK|EF  0.068    .
+517            379    KEFSQPK|MY  0.064    .
+517            389    NCQIIPK|QN  0.072    .
+517            396    QNTPTLK|DE  0.068    .
+517            406    LSEMLSK|MF  0.073    .
+517            431    EVFFNFK|TV  0.074    .
+517            446    GFSHSEK|VK  0.081    .
+517            448    SHSEKVK|NV  0.099    .
+517            452    KVKNVIK|TS  0.069    .
+517            475    FFNATIR|EP  0.079    .
+517            479    TIREPLR|KR  0.074    .
+517            480    IREPLRK|RY  0.096    .
+517            481    REPLRKR|YL  0.182    .
+517            496    PADLSMR|AT  0.090    .
+517            499    LSMRATR|IL  0.359    .
+517            504    TRILQDK|YF  0.078    .
+517            525    LTQEGVK|EL  0.060    .
+517            528    EGVKELR|DN  0.102    .
+517            547    AIGNVNK|DQ  0.072    .
+517            558    EYAEIVK|TK  0.054    .
+517            560    AEIVKTK|LV  0.097    .
+517            571    GSASVVK|ED  0.065    .
+517            574    SVVKEDR|LE  0.088    .
+517            584    FVFPALK|LP  0.053    .
+517            589    LKLPAEK|TL  0.058    .
+517            594    EKTLVIR|QK  0.071    .
+517            596    TLVIRQK|VL  0.083    .
+517            600    RQKVLNK|DE  0.063    .
+517            617    FQIGPMK|GN  0.076    .
+517            624    GNGELFK|GR  0.072    .
+517            626    GELFKGR|KP  0.077    .
+517            627    ELFKGRK|PY  0.077    .
+517            631    GRKPYTR|YV  0.163    .
+517            636    TRYVLTR|LL  0.146    .
+517            643    LLGLMMR|EP  0.070    .
+517            651    PCFNYLR|TQ  0.069    .
+517            668    CFDEEYK|DI  0.062    .
+517            681    ILVQGSR|PG  0.083    .
+517            714    NSTSEGK|AN  0.074    .
+517            721    ANWEGLK|VA  0.067    .
+517            731    QQQIEQK|QI  0.076    .
+517            736    QKQISLK|DF  0.097    .
+517            751    EIFNSPR|DF  0.111    .
+517            755    SPRDFAR|KK  0.127    .
+517            756    PRDFARK|KK  0.073    .
+517            757    RDFARKK|KM  0.115    .
+517            758    DFARKKK|MV  0.647 *ProP*
+517            776    DFLIFYR|TY  0.077    .
+517            785    LMGDQMR|KI  0.121    .
+517            786    MGDQMRK|IS  0.084    .
+517            798    CGPITLR|HL  0.070    .
+517            802    TLRHLVR|SH  0.140    .
+517            812    VSMSPNR|SP  0.118    .
+517            831    CHWHGPR|FN  0.120    .
+517            846    ISLSLVK|VT  0.056    .
+517            854    TNSFYHR|ST  0.254    .
+517            858    YHRSTEK|TT  0.064    .
+517            863    EKTTQCR|LV  0.102    .
+517            869    RLVTCLK|DQ  0.062    .
+517            879    SYHQISR|GT  0.112    .
+517            889    TTILPHR|SM  0.139    .
+517            892    LPHRSMK|TN  0.177    .
+517            895    RSMKTNR|DD  0.160    .
+517            925    VFGFIWK|SG  0.083    .
+517            929    IWKSGSR|VA  0.071    .
+517            934    SRVAPTR|AP  0.097    .
+517            975    AISYQIR|GR  0.113    .
+517            977    SYQIRGR|TI  0.118    .
+517            989    LSAGGER|FG  0.088    .
+517            999    IDTWCDR|TR  0.067    .
+517           1001    TWCDRTR|WL  0.131    .
+517           1005    RTRWLCR|QG  0.104    .
+517           1011    RQGNDHR|TK  0.081    .
+517           1013    GNDHRTK|FS  0.082    .
+517           1031    SGCALNK|GF  0.075    .
+517           1038    GFSQTTR|LR  0.106    .
+517           1040    SQTTRLR|RV  0.125    .
+517           1041    QTTRLRR|VG  0.198    .
+517           1056    DELILMR|NV  0.096    .
+517           1071    LTGVLMR|LT  0.094    .
+517           1077    RLTNYVK|CD  0.059    .
+517           1086    QIAGDLR|EL  0.082    .
+517           1091    LRELISR|EA  0.097    .
+517           1105    GLHLPSR|GD  0.100    .
+517           1109    PSRGDYR|AY  0.101    .
+517           1116    AYYDPYR|SP  0.092    .
+517           1128    CYYNTLR|TK  0.072    .
+517           1130    YNTLRTK|KD  0.060    .
+517           1131    NTLRTKK|DD  0.273    .
+517           1134    RTKKDDK|NK  0.062    .
+517           1136    KKDDKNK|VA  0.059    .
+517           1141    NKVALLR|SL  0.130    .
+517           1146    LRSLSIR|AR  0.124    .
+517           1148    SLSIRAR|VS  0.165    .
+517           1155    VSSQSHR|AF  0.200    .
+517           1161    RAFGPGR|EL  0.138    .
+517           1170    TDVEHVK|NK  0.070    .
+517           1172    VEHVKNK|HV  0.077    .
+517           1182    LYHCLDK|NK  0.064    .
+517           1184    HCLDKNK|VA  0.056    .
+517           1189    NKVALLR|SL  0.126    .
+517           1194    LRSLSIR|AR  0.124    .
+517           1196    SLSIRAR|VS  0.165    .
+517           1203    VSSQSHR|AF  0.181    .
+517           1209    RAFGPVR|EL  0.129    .
+517           1218    TDVEHVK|NK  0.066    .
+517           1220    VEHVKNK|NN  0.084    .
+517           1231    TENQIQK|GV  0.092    .
+517           1243    IGLNINK|CR  0.055    .
+517           1245    LNINKCR|HF  0.102    .
+517           1251    RHFTNTK|VN  0.056    .
+517           1254    TNTKVNK|YK  0.073    .
+517           1256    TKVNKYK|RE  0.072    .
+517           1257    KVNKYKR|EI  0.220    .
+517           1263    REIASPR|PA  0.122    .
+517           1266    ASPRPAK|RL  0.154    .
+517           1267    SPRPAKR|LR  0.171    .
+517           1269    RPAKRLR|TM  0.151    .
+517           1291    SDNLNNK|PK  0.076    .
+517           1293    NLNNKPK|TQ  0.074    .
+517           1314    YIPPHLR|DT  0.098    .
+517           1318    HLRDTVR|LI  0.157    .
+517           1331    ADLGLQK|TV  0.069    .
+517           1353    PLASQLR|DN  0.137    .
+517           1380    TAESGAR|EI  0.088    .
+517           1383    SGAREIK|YR  0.127    .
+517           1385    AREIKYR|IL  0.168    .
+517           1390    YRILEQK|YL  0.082    .
+517           1399    ELLESDK|FP  0.059    .
+517           1405    KFPSETK|QI  0.062    .
+517           1411    KQILEHR|DE  0.084    .
+517           1439    GSLYIWK|YN  0.065    .
+517           1451    YQLVEDK|LI  0.063    .
+517           1478    CICGVEK|CP  0.064    .
+517           1495    GSTAVLK|CK  0.063    .
+517           1497    TAVLKCK|IS  0.067    .
+517           1516    AWSPDNR|YI  0.181    .
+517           1529    QQGQFYK|YD  0.062    .
+517           1539    HTSTVYK|WE  0.091    .
+517           1544    YKWEGIR|LH  0.073    .
+517           1552    HGVATLR|DN  0.110    .
+517           1555    ATLRDNK|TV  0.115    .
+517           1564    LAADSHK|RV  0.073    .
+517           1565    AADSHKR|VR  0.155    .
+517           1567    DSHKRVR|SY  0.169    .
+517           1596    SISSDEK|YC  0.060    .
+517           1604    CLLTLEK|QV  0.058    .
+517           1607    TLEKQVR|LV  0.128    .
+517           1612    VRLVSIR|NR  0.091    .
+517           1614    LVSIRNR|LK  0.085    .
+517           1616    SIRNRLK|QL  0.064    .
+____________________________^_________________
+
+
+
+

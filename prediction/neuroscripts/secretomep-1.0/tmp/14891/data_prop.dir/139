@@ -1,0 +1,549 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2800 139         
+MESSSLVLNHFMLTLSPSLCVSLSLSLSLSLSYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI      80
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     160
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     240
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     320
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     400
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     480
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     560
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     640
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     720
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     800
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     880
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI     960
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSI    1040
+SLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSPSLSPSHVSSLHIYRPRFSPSCLRPLESVLKELQMYPFDYWSK    1120
+HVPKLNSEQQGKSDGGISFGYLTLCCFGQKTLMHCCRDRSKPPIRTRYLGHVTVYQPIRDQYFLIRSVPALLFFDVMELH    1200
+KINTITLGFISPLSSILLRCLSHVMFPKREGTLTGKCPGPKRGVWGHPLKRGCGGRAPTLEIPSNAAAAAAAAAAAAAAA    1280
+AAAAALQISRQRQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1360
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1440
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1520
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1600
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1680
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1760
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1840
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRERQRER    1920
+QRERQRERQRERQRERQRERQRERQRERQRERQRERQRERERERERERQRERQRERQRERERDREKQRQRETETEAVTVY    2000
+RKKKRDMPLFMKDYRTMVHYLPIMMSRQDRSVSSTSLYNHPDYCDLGEEDVSPIRTRYLGHVTGYQPIRGQYFLNRSVHG    2080
+PWDLVLWITPNEHNYYTLDTSVDNSCQFHELVQLAAPVNQEQHTILWWVIHGRSITRFFFLFNTHQEPSDTSKQPIKTRY    2160
+LGHVTGYQPIRDQYFLTHISITGISDSNEAKRALEETLFGVFHHIISEAPVTKDLYQAPTSYMQFLAFDSSIPVHASRAL    2240
+ENIIYSVRDKVIHKSRQNRPYLACNDTTGSMLSFEVQSIASSYSNGRCSRSESVSDQQSDKCSSIAESETKQSELTPDSI    2320
+SIQISNLLDGFQEFLEPEPDLDETINEDTLSTNLMKFKSNRDSAESEDTGFGSGLELDLDAYSEREDTPVLSPRSISELE    2400
+EPISRKGSQASSQASRPQSLYQSRSSLCSSKSSLYSHTAKQRSNWDPDHHHSASRLPSDGLSVSQLICNWVTANKDSFNP    2480
+ETLSAKLCLRCGKPHDTVKIALVGSDRTVAAMATSYSEMLSQSTKKCGKLDFEFFYVPLRTHTVPHKNIEISQYKIYIKS    2560
+EYNLSDYLCHMDPIYAQRLFYPVHTVLRILPSVKPCPDIQEFEKTSRDPASILRASLSSYMLHAQTDYHLSVVNTCIIII    2640
+SIRNRPNQEILVPDWLLISHSIGLSVSPERVRTVVRALVSGGGNVVHKSLPGGTYWSIVATNVPRPDLTTKPPDPQCETL    2720
+NLTVIGAISKSKNKGLEFLPSEEIHDYTIGGMHVESDSTFDVVIDHYKYTSIKKTRNRPNQEILVPDWLITSQRDLINEF    2800
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+.............................P..................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+139           1092    SSLHIYR|PR  0.068    .
+139           1094    LHIYRPR|FS  0.098    .
+139           1101    FSPSCLR|PL  0.090    .
+139           1108    PLESVLK|EL  0.060    .
+139           1120    PFDYWSK|HV  0.065    .
+139           1124    WSKHVPK|LN  0.082    .
+139           1132    NSEQQGK|SD  0.099    .
+139           1150    LCCFGQK|TL  0.059    .
+139           1157    TLMHCCR|DR  0.128    .
+139           1159    MHCCRDR|SK  0.138    .
+139           1161    CCRDRSK|PP  0.059    .
+139           1165    RSKPPIR|TR  0.094    .
+139           1167    KPPIRTR|YL  0.146    .
+139           1179    TVYQPIR|DQ  0.112    .
+139           1186    DQYFLIR|SV  0.160    .
+139           1201    DVMELHK|IN  0.058    .
+139           1219    LSSILLR|CL  0.150    .
+139           1228    SHVMFPK|RE  0.070    .
+139           1229    HVMFPKR|EG  0.143    .
+139           1236    EGTLTGK|CP  0.065    .
+139           1241    GKCPGPK|RG  0.059    .
+139           1242    KCPGPKR|GV  0.257    .
+139           1250    VWGHPLK|RG  0.061    .
+139           1251    WGHPLKR|GC  0.242    .
+139           1256    KRGCGGR|AP  0.112    .
+139           1290    AALQISR|QR  0.070    .
+139           1292    LQISRQR|QR  0.090    .
+139           1294    ISRQRQR|ER  0.088    .
+139           1296    RQRQRER|QR  0.111    .
+139           1298    RQRERQR|ER  0.085    .
+139           1300    RERQRER|QR  0.106    .
+139           1302    RQRERQR|ER  0.085    .
+139           1304    RERQRER|QR  0.105    .
+139           1306    RQRERQR|ER  0.085    .
+139           1308    RERQRER|QR  0.105    .
+139           1310    RQRERQR|ER  0.085    .
+139           1312    RERQRER|QR  0.105    .
+139           1314    RQRERQR|ER  0.085    .
+139           1316    RERQRER|QR  0.105    .
+139           1318    RQRERQR|ER  0.085    .
+139           1320    RERQRER|QR  0.105    .
+139           1322    RQRERQR|ER  0.085    .
+139           1324    RERQRER|QR  0.105    .
+139           1326    RQRERQR|ER  0.085    .
+139           1328    RERQRER|QR  0.105    .
+139           1330    RQRERQR|ER  0.085    .
+139           1332    RERQRER|QR  0.105    .
+139           1334    RQRERQR|ER  0.085    .
+139           1336    RERQRER|QR  0.105    .
+139           1338    RQRERQR|ER  0.085    .
+139           1340    RERQRER|QR  0.105    .
+139           1342    RQRERQR|ER  0.085    .
+139           1344    RERQRER|QR  0.105    .
+139           1346    RQRERQR|ER  0.085    .
+139           1348    RERQRER|QR  0.105    .
+139           1350    RQRERQR|ER  0.085    .
+139           1352    RERQRER|QR  0.105    .
+139           1354    RQRERQR|ER  0.085    .
+139           1356    RERQRER|QR  0.105    .
+139           1358    RQRERQR|ER  0.085    .
+139           1360    RERQRER|QR  0.105    .
+139           1362    RQRERQR|ER  0.085    .
+139           1364    RERQRER|QR  0.105    .
+139           1366    RQRERQR|ER  0.085    .
+139           1368    RERQRER|QR  0.105    .
+139           1370    RQRERQR|ER  0.085    .
+139           1372    RERQRER|QR  0.105    .
+139           1374    RQRERQR|ER  0.085    .
+139           1376    RERQRER|QR  0.105    .
+139           1378    RQRERQR|ER  0.085    .
+139           1380    RERQRER|QR  0.105    .
+139           1382    RQRERQR|ER  0.085    .
+139           1384    RERQRER|QR  0.105    .
+139           1386    RQRERQR|ER  0.085    .
+139           1388    RERQRER|QR  0.105    .
+139           1390    RQRERQR|ER  0.085    .
+139           1392    RERQRER|QR  0.105    .
+139           1394    RQRERQR|ER  0.085    .
+139           1396    RERQRER|QR  0.105    .
+139           1398    RQRERQR|ER  0.085    .
+139           1400    RERQRER|QR  0.105    .
+139           1402    RQRERQR|ER  0.085    .
+139           1404    RERQRER|QR  0.105    .
+139           1406    RQRERQR|ER  0.085    .
+139           1408    RERQRER|QR  0.105    .
+139           1410    RQRERQR|ER  0.085    .
+139           1412    RERQRER|QR  0.105    .
+139           1414    RQRERQR|ER  0.085    .
+139           1416    RERQRER|QR  0.105    .
+139           1418    RQRERQR|ER  0.085    .
+139           1420    RERQRER|QR  0.105    .
+139           1422    RQRERQR|ER  0.085    .
+139           1424    RERQRER|QR  0.105    .
+139           1426    RQRERQR|ER  0.085    .
+139           1428    RERQRER|QR  0.105    .
+139           1430    RQRERQR|ER  0.085    .
+139           1432    RERQRER|QR  0.105    .
+139           1434    RQRERQR|ER  0.085    .
+139           1436    RERQRER|QR  0.105    .
+139           1438    RQRERQR|ER  0.085    .
+139           1440    RERQRER|QR  0.105    .
+139           1442    RQRERQR|ER  0.085    .
+139           1444    RERQRER|QR  0.105    .
+139           1446    RQRERQR|ER  0.085    .
+139           1448    RERQRER|QR  0.105    .
+139           1450    RQRERQR|ER  0.085    .
+139           1452    RERQRER|QR  0.105    .
+139           1454    RQRERQR|ER  0.085    .
+139           1456    RERQRER|QR  0.105    .
+139           1458    RQRERQR|ER  0.085    .
+139           1460    RERQRER|QR  0.105    .
+139           1462    RQRERQR|ER  0.085    .
+139           1464    RERQRER|QR  0.105    .
+139           1466    RQRERQR|ER  0.085    .
+139           1468    RERQRER|QR  0.105    .
+139           1470    RQRERQR|ER  0.085    .
+139           1472    RERQRER|QR  0.105    .
+139           1474    RQRERQR|ER  0.085    .
+139           1476    RERQRER|QR  0.105    .
+139           1478    RQRERQR|ER  0.085    .
+139           1480    RERQRER|QR  0.105    .
+139           1482    RQRERQR|ER  0.085    .
+139           1484    RERQRER|QR  0.105    .
+139           1486    RQRERQR|ER  0.085    .
+139           1488    RERQRER|QR  0.105    .
+139           1490    RQRERQR|ER  0.085    .
+139           1492    RERQRER|QR  0.105    .
+139           1494    RQRERQR|ER  0.085    .
+139           1496    RERQRER|QR  0.105    .
+139           1498    RQRERQR|ER  0.085    .
+139           1500    RERQRER|QR  0.105    .
+139           1502    RQRERQR|ER  0.085    .
+139           1504    RERQRER|QR  0.105    .
+139           1506    RQRERQR|ER  0.085    .
+139           1508    RERQRER|QR  0.105    .
+139           1510    RQRERQR|ER  0.085    .
+139           1512    RERQRER|QR  0.105    .
+139           1514    RQRERQR|ER  0.085    .
+139           1516    RERQRER|QR  0.105    .
+139           1518    RQRERQR|ER  0.085    .
+139           1520    RERQRER|QR  0.105    .
+139           1522    RQRERQR|ER  0.085    .
+139           1524    RERQRER|QR  0.105    .
+139           1526    RQRERQR|ER  0.085    .
+139           1528    RERQRER|QR  0.105    .
+139           1530    RQRERQR|ER  0.085    .
+139           1532    RERQRER|QR  0.105    .
+139           1534    RQRERQR|ER  0.085    .
+139           1536    RERQRER|QR  0.105    .
+139           1538    RQRERQR|ER  0.085    .
+139           1540    RERQRER|QR  0.105    .
+139           1542    RQRERQR|ER  0.085    .
+139           1544    RERQRER|QR  0.105    .
+139           1546    RQRERQR|ER  0.085    .
+139           1548    RERQRER|QR  0.105    .
+139           1550    RQRERQR|ER  0.085    .
+139           1552    RERQRER|QR  0.105    .
+139           1554    RQRERQR|ER  0.085    .
+139           1556    RERQRER|QR  0.105    .
+139           1558    RQRERQR|ER  0.085    .
+139           1560    RERQRER|QR  0.105    .
+139           1562    RQRERQR|ER  0.085    .
+139           1564    RERQRER|QR  0.105    .
+139           1566    RQRERQR|ER  0.085    .
+139           1568    RERQRER|QR  0.105    .
+139           1570    RQRERQR|ER  0.085    .
+139           1572    RERQRER|QR  0.105    .
+139           1574    RQRERQR|ER  0.085    .
+139           1576    RERQRER|QR  0.105    .
+139           1578    RQRERQR|ER  0.085    .
+139           1580    RERQRER|QR  0.105    .
+139           1582    RQRERQR|ER  0.085    .
+139           1584    RERQRER|QR  0.105    .
+139           1586    RQRERQR|ER  0.085    .
+139           1588    RERQRER|QR  0.105    .
+139           1590    RQRERQR|ER  0.085    .
+139           1592    RERQRER|QR  0.105    .
+139           1594    RQRERQR|ER  0.085    .
+139           1596    RERQRER|QR  0.105    .
+139           1598    RQRERQR|ER  0.085    .
+139           1600    RERQRER|QR  0.105    .
+139           1602    RQRERQR|ER  0.085    .
+139           1604    RERQRER|QR  0.105    .
+139           1606    RQRERQR|ER  0.085    .
+139           1608    RERQRER|QR  0.105    .
+139           1610    RQRERQR|ER  0.085    .
+139           1612    RERQRER|QR  0.105    .
+139           1614    RQRERQR|ER  0.085    .
+139           1616    RERQRER|QR  0.105    .
+139           1618    RQRERQR|ER  0.085    .
+139           1620    RERQRER|QR  0.105    .
+139           1622    RQRERQR|ER  0.085    .
+139           1624    RERQRER|QR  0.105    .
+139           1626    RQRERQR|ER  0.085    .
+139           1628    RERQRER|QR  0.105    .
+139           1630    RQRERQR|ER  0.085    .
+139           1632    RERQRER|QR  0.105    .
+139           1634    RQRERQR|ER  0.085    .
+139           1636    RERQRER|QR  0.105    .
+139           1638    RQRERQR|ER  0.085    .
+139           1640    RERQRER|QR  0.105    .
+139           1642    RQRERQR|ER  0.085    .
+139           1644    RERQRER|QR  0.105    .
+139           1646    RQRERQR|ER  0.085    .
+139           1648    RERQRER|QR  0.105    .
+139           1650    RQRERQR|ER  0.085    .
+139           1652    RERQRER|QR  0.105    .
+139           1654    RQRERQR|ER  0.085    .
+139           1656    RERQRER|QR  0.105    .
+139           1658    RQRERQR|ER  0.085    .
+139           1660    RERQRER|QR  0.105    .
+139           1662    RQRERQR|ER  0.085    .
+139           1664    RERQRER|QR  0.105    .
+139           1666    RQRERQR|ER  0.085    .
+139           1668    RERQRER|QR  0.105    .
+139           1670    RQRERQR|ER  0.085    .
+139           1672    RERQRER|QR  0.105    .
+139           1674    RQRERQR|ER  0.085    .
+139           1676    RERQRER|QR  0.105    .
+139           1678    RQRERQR|ER  0.085    .
+139           1680    RERQRER|QR  0.105    .
+139           1682    RQRERQR|ER  0.085    .
+139           1684    RERQRER|QR  0.105    .
+139           1686    RQRERQR|ER  0.085    .
+139           1688    RERQRER|QR  0.105    .
+139           1690    RQRERQR|ER  0.085    .
+139           1692    RERQRER|QR  0.105    .
+139           1694    RQRERQR|ER  0.085    .
+139           1696    RERQRER|QR  0.105    .
+139           1698    RQRERQR|ER  0.085    .
+139           1700    RERQRER|QR  0.105    .
+139           1702    RQRERQR|ER  0.085    .
+139           1704    RERQRER|QR  0.105    .
+139           1706    RQRERQR|ER  0.085    .
+139           1708    RERQRER|QR  0.105    .
+139           1710    RQRERQR|ER  0.085    .
+139           1712    RERQRER|QR  0.105    .
+139           1714    RQRERQR|ER  0.085    .
+139           1716    RERQRER|QR  0.105    .
+139           1718    RQRERQR|ER  0.085    .
+139           1720    RERQRER|QR  0.105    .
+139           1722    RQRERQR|ER  0.085    .
+139           1724    RERQRER|QR  0.105    .
+139           1726    RQRERQR|ER  0.085    .
+139           1728    RERQRER|QR  0.105    .
+139           1730    RQRERQR|ER  0.085    .
+139           1732    RERQRER|QR  0.105    .
+139           1734    RQRERQR|ER  0.085    .
+139           1736    RERQRER|QR  0.105    .
+139           1738    RQRERQR|ER  0.085    .
+139           1740    RERQRER|QR  0.105    .
+139           1742    RQRERQR|ER  0.085    .
+139           1744    RERQRER|QR  0.105    .
+139           1746    RQRERQR|ER  0.085    .
+139           1748    RERQRER|QR  0.105    .
+139           1750    RQRERQR|ER  0.085    .
+139           1752    RERQRER|QR  0.105    .
+139           1754    RQRERQR|ER  0.085    .
+139           1756    RERQRER|QR  0.105    .
+139           1758    RQRERQR|ER  0.085    .
+139           1760    RERQRER|QR  0.105    .
+139           1762    RQRERQR|ER  0.085    .
+139           1764    RERQRER|QR  0.105    .
+139           1766    RQRERQR|ER  0.085    .
+139           1768    RERQRER|QR  0.105    .
+139           1770    RQRERQR|ER  0.085    .
+139           1772    RERQRER|QR  0.105    .
+139           1774    RQRERQR|ER  0.085    .
+139           1776    RERQRER|QR  0.105    .
+139           1778    RQRERQR|ER  0.085    .
+139           1780    RERQRER|QR  0.105    .
+139           1782    RQRERQR|ER  0.085    .
+139           1784    RERQRER|QR  0.105    .
+139           1786    RQRERQR|ER  0.085    .
+139           1788    RERQRER|QR  0.105    .
+139           1790    RQRERQR|ER  0.085    .
+139           1792    RERQRER|QR  0.105    .
+139           1794    RQRERQR|ER  0.085    .
+139           1796    RERQRER|QR  0.105    .
+139           1798    RQRERQR|ER  0.085    .
+139           1800    RERQRER|QR  0.105    .
+139           1802    RQRERQR|ER  0.085    .
+139           1804    RERQRER|QR  0.105    .
+139           1806    RQRERQR|ER  0.085    .
+139           1808    RERQRER|QR  0.105    .
+139           1810    RQRERQR|ER  0.085    .
+139           1812    RERQRER|QR  0.105    .
+139           1814    RQRERQR|ER  0.085    .
+139           1816    RERQRER|QR  0.105    .
+139           1818    RQRERQR|ER  0.085    .
+139           1820    RERQRER|QR  0.105    .
+139           1822    RQRERQR|ER  0.085    .
+139           1824    RERQRER|QR  0.105    .
+139           1826    RQRERQR|ER  0.085    .
+139           1828    RERQRER|QR  0.105    .
+139           1830    RQRERQR|ER  0.085    .
+139           1832    RERQRER|QR  0.105    .
+139           1834    RQRERQR|ER  0.085    .
+139           1836    RERQRER|QR  0.105    .
+139           1838    RQRERQR|ER  0.085    .
+139           1840    RERQRER|QR  0.105    .
+139           1842    RQRERQR|ER  0.085    .
+139           1844    RERQRER|QR  0.105    .
+139           1846    RQRERQR|ER  0.085    .
+139           1848    RERQRER|QR  0.105    .
+139           1850    RQRERQR|ER  0.085    .
+139           1852    RERQRER|QR  0.105    .
+139           1854    RQRERQR|ER  0.085    .
+139           1856    RERQRER|QR  0.105    .
+139           1858    RQRERQR|ER  0.085    .
+139           1860    RERQRER|QR  0.105    .
+139           1862    RQRERQR|ER  0.085    .
+139           1864    RERQRER|QR  0.105    .
+139           1866    RQRERQR|ER  0.085    .
+139           1868    RERQRER|QR  0.105    .
+139           1870    RQRERQR|ER  0.085    .
+139           1872    RERQRER|QR  0.105    .
+139           1874    RQRERQR|ER  0.085    .
+139           1876    RERQRER|QR  0.105    .
+139           1878    RQRERQR|ER  0.085    .
+139           1880    RERQRER|QR  0.105    .
+139           1882    RQRERQR|ER  0.085    .
+139           1884    RERQRER|QR  0.105    .
+139           1886    RQRERQR|ER  0.085    .
+139           1888    RERQRER|QR  0.105    .
+139           1890    RQRERQR|ER  0.085    .
+139           1892    RERQRER|QR  0.105    .
+139           1894    RQRERQR|ER  0.085    .
+139           1896    RERQRER|QR  0.105    .
+139           1898    RQRERQR|ER  0.085    .
+139           1900    RERQRER|QR  0.105    .
+139           1902    RQRERQR|ER  0.085    .
+139           1904    RERQRER|QR  0.105    .
+139           1906    RQRERQR|ER  0.085    .
+139           1908    RERQRER|QR  0.105    .
+139           1910    RQRERQR|ER  0.085    .
+139           1912    RERQRER|QR  0.105    .
+139           1914    RQRERQR|ER  0.085    .
+139           1916    RERQRER|QR  0.105    .
+139           1918    RQRERQR|ER  0.085    .
+139           1920    RERQRER|QR  0.105    .
+139           1922    RQRERQR|ER  0.085    .
+139           1924    RERQRER|QR  0.105    .
+139           1926    RQRERQR|ER  0.085    .
+139           1928    RERQRER|QR  0.105    .
+139           1930    RQRERQR|ER  0.085    .
+139           1932    RERQRER|QR  0.105    .
+139           1934    RQRERQR|ER  0.085    .
+139           1936    RERQRER|QR  0.105    .
+139           1938    RQRERQR|ER  0.085    .
+139           1940    RERQRER|QR  0.105    .
+139           1942    RQRERQR|ER  0.085    .
+139           1944    RERQRER|QR  0.105    .
+139           1946    RQRERQR|ER  0.085    .
+139           1948    RERQRER|QR  0.105    .
+139           1950    RQRERQR|ER  0.085    .
+139           1952    RERQRER|QR  0.108    .
+139           1954    RQRERQR|ER  0.086    .
+139           1956    RERQRER|QR  0.105    .
+139           1958    RQRERQR|ER  0.095    .
+139           1960    RERQRER|ER  0.096    .
+139           1962    RQRERER|ER  0.091    .
+139           1964    RERERER|ER  0.095    .
+139           1966    RERERER|ER  0.082    .
+139           1968    RERERER|QR  0.096    .
+139           1970    RERERQR|ER  0.085    .
+139           1972    RERQRER|QR  0.103    .
+139           1974    RQRERQR|ER  0.081    .
+139           1976    RERQRER|QR  0.113    .
+139           1978    RQRERQR|ER  0.085    .
+139           1980    RERQRER|ER  0.089    .
+139           1982    RQRERER|DR  0.138    .
+139           1984    RERERDR|EK  0.107    .
+139           1986    RERDREK|QR  0.068    .
+139           1988    RDREKQR|QR  0.134    .
+139           1990    REKQRQR|ET  0.129    .
+139           2001    EAVTVYR|KK  0.084    .
+139           2002    AVTVYRK|KK  0.068    .
+139           2003    VTVYRKK|KR  0.094    .
+139           2004    TVYRKKK|RD  0.315    .
+139           2005    VYRKKKR|DM  0.206    .
+139           2012    DMPLFMK|DY  0.069    .
+139           2015    LFMKDYR|TM  0.092    .
+139           2027    LPIMMSR|QD  0.096    .
+139           2030    MMSRQDR|SV  0.698 *ProP*
+139           2055    EDVSPIR|TR  0.068    .
+139           2057    VSPIRTR|YL  0.148    .
+139           2069    TGYQPIR|GQ  0.096    .
+139           2076    GQYFLNR|SV  0.207    .
+139           2133    WWVIHGR|SI  0.164    .
+139           2137    HGRSITR|FF  0.090    .
+139           2153    EPSDTSK|QP  0.072    .
+139           2157    TSKQPIK|TR  0.066    .
+139           2159    KQPIKTR|YL  0.156    .
+139           2171    TGYQPIR|DQ  0.107    .
+139           2191    SDSNEAK|RA  0.074    .
+139           2192    DSNEAKR|AL  0.312    .
+139           2213    SEAPVTK|DL  0.098    .
+139           2238    IPVHASR|AL  0.131    .
+139           2248    NIIYSVR|DK  0.084    .
+139           2250    IYSVRDK|VI  0.084    .
+139           2254    RDKVIHK|SR  0.067    .
+139           2256    KVIHKSR|QN  0.120    .
+139           2259    HKSRQNR|PY  0.396    .
+139           2287    SSYSNGR|CS  0.082    .
+139           2290    SNGRCSR|SE  0.468    .
+139           2301    SDQQSDK|CS  0.083    .
+139           2311    IAESETK|QS  0.066    .
+139           2356    LSTNLMK|FK  0.070    .
+139           2358    TNLMKFK|SN  0.109    .
+139           2361    MKFKSNR|DS  0.216    .
+139           2385    LDAYSER|ED  0.106    .
+139           2394    TPVLSPR|SI  0.286    .
+139           2405    LEEPISR|KG  0.079    .
+139           2406    EEPISRK|GS  0.089    .
+139           2416    ASSQASR|PQ  0.116    .
+139           2424    QSLYQSR|SS  0.107    .
+139           2431    SSLCSSK|SS  0.072    .
+139           2440    LYSHTAK|QR  0.082    .
+139           2442    SHTAKQR|SN  0.160    .
+139           2455    HHHSASR|LP  0.123    .
+139           2475    NWVTANK|DS  0.065    .
+139           2486    PETLSAK|LC  0.057    .
+139           2490    SAKLCLR|CG  0.074    .
+139           2493    LCLRCGK|PH  0.116    .
+139           2499    KPHDTVK|IA  0.074    .
+139           2507    ALVGSDR|TV  0.103    .
+139           2525    MLSQSTK|KC  0.085    .
+139           2526    LSQSTKK|CG  0.087    .
+139           2529    STKKCGK|LD  0.060    .
+139           2540    FFYVPLR|TH  0.065    .
+139           2547    THTVPHK|NI  0.076    .
+139           2555    IEISQYK|IY  0.069    .
+139           2559    QYKIYIK|SE  0.065    .
+139           2578    DPIYAQR|LF  0.093    .
+139           2588    PVHTVLR|IL  0.087    .
+139           2594    RILPSVK|PC  0.065    .
+139           2604    DIQEFEK|TS  0.059    .
+139           2607    EFEKTSR|DP  0.097    .
+139           2614    DPASILR|AS  0.076    .
+139           2643    IIIISIR|NR  0.079    .
+139           2645    IISIRNR|PN  0.109    .
+139           2670    LSVSPER|VR  0.076    .
+139           2672    VSPERVR|TV  0.101    .
+139           2676    RVRTVVR|AL  0.110    .
+139           2688    GGNVVHK|SL  0.116    .
+139           2705    VATNVPR|PD  0.073    .
+139           2711    RPDLTTK|PP  0.070    .
+139           2730    VIGAISK|SK  0.081    .
+139           2732    GAISKSK|NK  0.067    .
+139           2734    ISKSKNK|GL  0.072    .
+139           2768    VVIDHYK|YT  0.072    .
+139           2773    YKYTSIK|KT  0.066    .
+139           2774    KYTSIKK|TR  0.068    .
+139           2776    TSIKKTR|NR  0.114    .
+139           2778    IKKTRNR|PN  0.100    .
+139           2794    WLITSQR|DL  0.123    .
+____________________________^_________________
+
+
+
+

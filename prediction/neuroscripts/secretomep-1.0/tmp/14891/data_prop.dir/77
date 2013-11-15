@@ -1,0 +1,432 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3393 77          
+MASLYTQSVLPLLDTVRRSYSARISLPKVKQTKLQIEVSSTCISVVEDKKVHRELFYPQIRHVAITTKSSVVITTASTET      80
+ITATFKSANHAESFVALMDCHYSNLYPYKMMVSSFGEGFKSDEESLHFNPKEQFNLVSPSPLVSFFMEVEEVKAALIKVP     160
+EKKGVYTVVKRPTTAAYGLLYAISDTIQPKAIKFTEGLYHIDKNTTKFNDLGDLVAALTPKIEGGERVQLTKRISDSLLV     240
+DLLACNEIMEHYPPMFITLHRPALQHTGVYTRYWILLYCCKGEVHEAVVEKGEDGWYFLQQAPLRRYSSLTALVNLARPQ     320
+PGPRTPDCQLTTGLTDTEILDVQDPDVGRVFIDNSHLSNFEKIKDTWLRVVSRGQFAKTPAEKRGINIVQYKGWTMSYTD     400
+RKELFLACSLIRDQPHDNVAMIFGLSTDTFHQPDTVSMVLEYGPFYTLAEHLRTEYTPAYSEIDVNNIESLDDGPVGFTL     480
+LFKYTNYILCGLLFLHRNGICHTFPAPQHILVDKIRNNLKLFDVGIMGRVYSNSKKNRKDILHLSSRDEGRCVLRWFPTS     560
+VLHKPSAILTPYTDRYMYPAADTMGSLQNTRSIRLYSEDKLKITDGASLYTLTKACSKHIGLQAESFHCFRLVQKNLVLL     640
+SQRRKLDIVIKAPAPIFFRAVNLDSDVVGKCRKDPALSIYLYHQALHDVLENVSSLPTTIVQTIISLDIALHQHLFTCPT     720
+INSAYQLYFGLHENRASLKSTVTPYTLTPRDSITECYLEMASLYTQSVLPLLDTVRRSYSARISLPKVKQTKLQIEVSST     800
+CISVVEDKKVHRELFYPQIRHVAITTKSSVVITTASTETITATFKSANHAESFVALMDCHYSNLYPYKMMVSSFGEGFKS     880
+DEESLHFNPKEQFNLVSPSPLVSFFMEVEEVKAALIKVPEKKGVYTVVKRPTTAAYGLLYAISDTIQPKAIKFTEGLYHI     960
+DKNTTKFNDLGDLVAALTPKIEGGERVQLTKRISDSLLVDLLACNEIMEHYPPMFITLHRPALQHTGVYTLHSISRKYLS    1040
+GGAFQGSALVYHGAALKRKDVCEMYSVNRRLNYENVVKMIGICKPGCLVNTIIMLEHLPSYRTLHSFLLDYPDCPMKTRL    1120
+DIIDQLATALKSLHGLTPPVEHTCPAPHHILISPTDHKIKLKDLGLVKKLILKEMGGSMMDPCELRWIPGYFLKRPKKEF    1200
+DVHLDSWVFGCTIWQIFNNGKLPLSEISDEQLIARYQDLRQNSSVPWFPMTLEIPQQDKMRLNNMQCEFVGLFDRIGNFR    1280
+YLSSGPDGTPRSSTKFCEKTRRTTLTLTRPDRNLIFAPTPTNVRTLITLVPSLAPQNFQVLARITRFILTSLFSKKGSWV    1360
+FGCTIWQIFNNGKLPLSEISDEQLIARYQDLRQNSSVPWFPMTLEIPQQDKMRLNNMVQKLINYIFTAPIDSNVSLSVSA    1440
+YVFYCSVTRLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1520
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1600
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1680
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1760
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1840
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1920
+AAAAAAAAAAAASLSLSLSLSLSHSLSLSLSLSLSFSLSFSLPLPLSGLFFLIFSTFQDNSFEMIADLYTQYIYSPDRDV    2000
+DIYALIDPRTELNIAKKSDGRVVFEELRLEDVFSRGGGGGGSTSGAGGGGFNQLGRGGVGGMVTMNTSTNQLSDCSVEDL    2080
+ECENFEPIETFESESESIHSSYGRYDNNCAPDDMVANDWMEDDIEERGDKDGCYTDESDDQFMYDMMLMAELSKFNQEKR    2160
+WETCDYNLKEEIGRGNFGAVRKATIKSVPNLPSNLHGEQVAVKIFEMKSGSVAQDLMNSVSSEAVSMCKLEHPKVVPLYG    2240
+ISSAPDLREIHLIMPFFPYGSLKHYVINKRHTLEKERMVSFGLQIAEGMEFINKQGFVHRDLALRNVLLAQLQSDPDLVT    2320
+PDLVTPRFSDRINFPRYRELTVFDPDLVATPIAKAGLPVFSYPPEFFVSHKYDTWCDVWSFGVTMFELWSFGERPYASDR    2400
+INDSSELIEFLRHSTLPIPPGTGFSKLVQYFHRCWKPKKDRWSFKEITEFIKNKVVYLNPYTKRVPDPSLSNALWTLVKG    2480
+SGEGPLEEGFSTVKGPLPKVRSLRIAMKEGKLTTDPEHMANILQEQYVKVFSSPSSDSLQNNPNAQLTNARLHEITISAE    2560
+AIRKAIADIPISSAPGPDKFPCLVLKECAPVLAPILSQLWEGAFNSGQTAAIFKHQTIVPIYKKGNRGLASNYRPVSLTS    2640
+HLCKLFERVVRKELVGFLEEQEVITQDQHGFRVGRSCLTQLVDHLDSVLKDLEAGHNVDVLYVDMAKAFDKVCHSRLLTK    2720
+LASVGVGGKLLTWLKSFLVGRTQSVVVEGKLSRPETVRSGVPQGTVLGPILFLLYVNDMPDVLQHSSMKLFADDAKLHKT    2800
+IRDESDRSLLLNDIERVSEWAINNSMELNADKDQLLQHGMNDLLKKPYTLPTGTTVCGDATVRDLGITVDTHLSGKEHTA    2880
+QITKTANQASGRVLRAFESRDEETMLTLLKTYIRPHLEYLSPIWSPHQVGEIQRVEAIQRAFTAKIENCQLLNYWQLLDY    2960
+LNLYSLQRRRERYQGNTSTAMVTRKPEIAMPFLEATITRHKSTLTEKEVQALLKIRHKYLMEFTGYCVSPGIIDLVHPTH    3040
+SLGTLHSFGSRQKKDQTWKYTSYVLKGLKFLHEQGIVHGNLSWKNVWLRNRDIAVLSGWGLSSKVTMDDIFDPTIYPPEV    3120
+LEDLQSKGESGPLTKKTDSWSFGVLLVQLMSNGNVYSDVDLTGCLEDKISVLLSRISKDSPAGYLSPEFTSRQQLLNKGW    3200
+RRVDPGAPCMAAPYPIYLILRRARGVRQDAVHSVHPTLSHPLLNKAAAAVDSWLVFNRIKYLVGNYMPTCDCQSIGLTRF    3280
+SRARTVVILQLTRAMRTLIILNRSWFDTIFQSFDVVLRVRVNSELFNLLPCLAAPDPVLRIKTGSLTVLCSHIESAPQDS    3360
+HSLPEGVELSGGAIPHLILKTVRSNGVAAPDRG                                                   3440
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+..................................P.............................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+.............P..................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+.................................                                                   3440
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+77              17    PLLDTVR|RS  0.072    .
+77              18    LLDTVRR|SY  0.213    .
+77              23    RRSYSAR|IS  0.192    .
+77              28    ARISLPK|VK  0.069    .
+77              30    ISLPKVK|QT  0.069    .
+77              33    PKVKQTK|LQ  0.066    .
+77              49    ISVVEDK|KV  0.087    .
+77              50    SVVEDKK|VH  0.069    .
+77              53    EDKKVHR|EL  0.090    .
+77              61    LFYPQIR|HV  0.114    .
+77              68    HVAITTK|SS  0.082    .
+77              86    TITATFK|SA  0.099    .
+77             109    SNLYPYK|MM  0.069    .
+77             120    SFGEGFK|SD  0.093    .
+77             131    SLHFNPK|EQ  0.067    .
+77             153    MEVEEVK|AA  0.066    .
+77             158    VKAALIK|VP  0.067    .
+77             162    LIKVPEK|KG  0.054    .
+77             163    IKVPEKK|GV  0.201    .
+77             170    GVYTVVK|RP  0.062    .
+77             171    VYTVVKR|PT  0.168    .
+77             190    SDTIQPK|AI  0.071    .
+77             193    IQPKAIK|FT  0.069    .
+77             203    GLYHIDK|NT  0.064    .
+77             207    IDKNTTK|FN  0.070    .
+77             221    VAALTPK|IE  0.074    .
+77             227    KIEGGER|VQ  0.066    .
+77             232    ERVQLTK|RI  0.077    .
+77             233    RVQLTKR|IS  0.166    .
+77             261    MFITLHR|PA  0.103    .
+77             272    HTGVYTR|YW  0.084    .
+77             281    ILLYCCK|GE  0.058    .
+77             291    HEAVVEK|GE  0.075    .
+77             305    LQQAPLR|RY  0.082    .
+77             306    QQAPLRR|YS  0.123    .
+77             318    ALVNLAR|PQ  0.071    .
+77             324    RPQPGPR|TP  0.114    .
+77             349    QDPDVGR|VF  0.080    .
+77             362    HLSNFEK|IK  0.088    .
+77             364    SNFEKIK|DT  0.078    .
+77             369    IKDTWLR|VV  0.180    .
+77             373    WLRVVSR|GQ  0.130    .
+77             378    SRGQFAK|TP  0.076    .
+77             383    AKTPAEK|RG  0.059    .
+77             384    KTPAEKR|GI  0.201    .
+77             392    INIVQYK|GW  0.082    .
+77             401    TMSYTDR|KE  0.077    .
+77             402    MSYTDRK|EL  0.080    .
+77             412    LACSLIR|DQ  0.084    .
+77             453    TLAEHLR|TE  0.082    .
+77             483    GFTLLFK|YT  0.078    .
+77             497    GLLFLHR|NG  0.065    .
+77             514    QHILVDK|IR  0.058    .
+77             516    ILVDKIR|NN  0.096    .
+77             520    KIRNNLK|LF  0.071    .
+77             529    DVGIMGR|VY  0.080    .
+77             535    RVYSNSK|KN  0.058    .
+77             536    VYSNSKK|NR  0.123    .
+77             538    SNSKKNR|KD  0.152    .
+77             539    NSKKNRK|DI  0.090    .
+77             547    ILHLSSR|DE  0.115    .
+77             551    SSRDEGR|CV  0.179    .
+77             555    EGRCVLR|WF  0.092    .
+77             564    PTSVLHK|PS  0.066    .
+77             575    LTPYTDR|YM  0.098    .
+77             591    GSLQNTR|SI  0.100    .
+77             594    QNTRSIR|LY  0.181    .
+77             600    RLYSEDK|LK  0.060    .
+77             602    YSEDKLK|IT  0.067    .
+77             614    SLYTLTK|AC  0.071    .
+77             618    LTKACSK|HI  0.072    .
+77             631    ESFHCFR|LV  0.115    .
+77             635    CFRLVQK|NL  0.053    .
+77             643    LVLLSQR|RK  0.068    .
+77             644    VLLSQRR|KL  0.139    .
+77             645    LLSQRRK|LD  0.078    .
+77             651    KLDIVIK|AP  0.065    .
+77             659    PAPIFFR|AV  0.087    .
+77             670    DSDVVGK|CR  0.058    .
+77             672    DVVGKCR|KD  0.071    .
+77             673    VVGKCRK|DP  0.077    .
+77             735    FGLHENR|AS  0.081    .
+77             739    ENRASLK|ST  0.081    .
+77             750    PYTLTPR|DS  0.087    .
+77             776    PLLDTVR|RS  0.072    .
+77             777    LLDTVRR|SY  0.213    .
+77             782    RRSYSAR|IS  0.192    .
+77             787    ARISLPK|VK  0.069    .
+77             789    ISLPKVK|QT  0.069    .
+77             792    PKVKQTK|LQ  0.066    .
+77             808    ISVVEDK|KV  0.087    .
+77             809    SVVEDKK|VH  0.069    .
+77             812    EDKKVHR|EL  0.090    .
+77             820    LFYPQIR|HV  0.114    .
+77             827    HVAITTK|SS  0.082    .
+77             845    TITATFK|SA  0.099    .
+77             868    SNLYPYK|MM  0.069    .
+77             879    SFGEGFK|SD  0.093    .
+77             890    SLHFNPK|EQ  0.067    .
+77             912    MEVEEVK|AA  0.066    .
+77             917    VKAALIK|VP  0.067    .
+77             921    LIKVPEK|KG  0.054    .
+77             922    IKVPEKK|GV  0.201    .
+77             929    GVYTVVK|RP  0.062    .
+77             930    VYTVVKR|PT  0.168    .
+77             949    SDTIQPK|AI  0.071    .
+77             952    IQPKAIK|FT  0.069    .
+77             962    GLYHIDK|NT  0.064    .
+77             966    IDKNTTK|FN  0.070    .
+77             980    VAALTPK|IE  0.074    .
+77             986    KIEGGER|VQ  0.066    .
+77             991    ERVQLTK|RI  0.077    .
+77             992    RVQLTKR|IS  0.166    .
+77            1020    MFITLHR|PA  0.103    .
+77            1036    TLHSISR|KY  0.096    .
+77            1037    LHSISRK|YL  0.190    .
+77            1057    YHGAALK|RK  0.061    .
+77            1058    HGAALKR|KD  0.157    .
+77            1059    GAALKRK|DV  0.203    .
+77            1069    EMYSVNR|RL  0.075    .
+77            1070    MYSVNRR|LN  0.136    .
+77            1078    NYENVVK|MI  0.076    .
+77            1084    KMIGICK|PG  0.059    .
+77            1102    EHLPSYR|TL  0.081    .
+77            1117    YPDCPMK|TR  0.065    .
+77            1119    DCPMKTR|LD  0.079    .
+77            1131    QLATALK|SL  0.083    .
+77            1158    ISPTDHK|IK  0.058    .
+77            1160    PTDHKIK|LK  0.066    .
+77            1162    DHKIKLK|DL  0.086    .
+77            1168    KDLGLVK|KL  0.060    .
+77            1169    DLGLVKK|LI  0.103    .
+77            1173    VKKLILK|EM  0.066    .
+77            1186    MDPCELR|WI  0.081    .
+77            1194    IPGYFLK|RP  0.065    .
+77            1195    PGYFLKR|PK  0.133    .
+77            1197    YFLKRPK|KE  0.061    .
+77            1198    FLKRPKK|EF  0.367    .
+77            1221    QIFNNGK|LP  0.058    .
+77            1235    DEQLIAR|YQ  0.092    .
+77            1240    ARYQDLR|QN  0.098    .
+77            1259    EIPQQDK|MR  0.056    .
+77            1261    PQQDKMR|LN  0.095    .
+77            1275    FVGLFDR|IG  0.064    .
+77            1280    DRIGNFR|YL  0.136    .
+77            1291    GPDGTPR|SS  0.137    .
+77            1295    TPRSSTK|FC  0.109    .
+77            1299    STKFCEK|TR  0.061    .
+77            1301    KFCEKTR|RT  0.083    .
+77            1302    FCEKTRR|TT  0.106    .
+77            1309    TTLTLTR|PD  0.077    .
+77            1312    TLTRPDR|NL  0.199    .
+77            1324    PTPTNVR|TL  0.072    .
+77            1343    NFQVLAR|IT  0.129    .
+77            1346    VLARITR|FI  0.352    .
+77            1355    LTSLFSK|KG  0.073    .
+77            1356    TSLFSKK|GS  0.132    .
+77            1373    QIFNNGK|LP  0.058    .
+77            1387    DEQLIAR|YQ  0.092    .
+77            1392    ARYQDLR|QN  0.098    .
+77            1411    EIPQQDK|MR  0.056    .
+77            1413    PQQDKMR|LN  0.109    .
+77            1420    LNNMVQK|LI  0.080    .
+77            1449    FYCSVTR|LR  0.069    .
+77            1451    CSVTRLR|AA  0.100    .
+77            1998    YIYSPDR|DV  0.144    .
+77            2009    YALIDPR|TE  0.062    .
+77            2016    TELNIAK|KS  0.065    .
+77            2017    ELNIAKK|SD  0.223    .
+77            2021    AKKSDGR|VV  0.115    .
+77            2028    VVFEELR|LE  0.065    .
+77            2035    LEDVFSR|GG  0.133    .
+77            2056    GFNQLGR|GG  0.121    .
+77            2104    IHSSYGR|YD  0.107    .
+77            2127    EDDIEER|GD  0.087    .
+77            2130    IEERGDK|DG  0.103    .
+77            2154    LMAELSK|FN  0.065    .
+77            2159    SKFNQEK|RW  0.078    .
+77            2160    KFNQEKR|WE  0.143    .
+77            2169    TCDYNLK|EE  0.054    .
+77            2174    LKEEIGR|GN  0.103    .
+77            2181    GNFGAVR|KA  0.082    .
+77            2182    NFGAVRK|AT  0.110    .
+77            2186    VRKATIK|SV  0.099    .
+77            2203    GEQVAVK|IF  0.067    .
+77            2208    VKIFEMK|SG  0.106    .
+77            2229    EAVSMCK|LE  0.058    .
+77            2234    CKLEHPK|VV  0.067    .
+77            2248    SSAPDLR|EI  0.102    .
+77            2263    FPYGSLK|HY  0.069    .
+77            2269    KHYVINK|RH  0.057    .
+77            2270    HYVINKR|HT  0.209    .
+77            2275    KRHTLEK|ER  0.071    .
+77            2277    HTLEKER|MV  0.142    .
+77            2294    GMEFINK|QG  0.061    .
+77            2300    KQGFVHR|DL  0.099    .
+77            2305    HRDLALR|NV  0.101    .
+77            2327    PDLVTPR|FS  0.098    .
+77            2331    TPRFSDR|IN  0.108    .
+77            2336    DRINFPR|YR  0.107    .
+77            2338    INFPRYR|EL  0.089    .
+77            2354    VATPIAK|AG  0.059    .
+77            2371    EFFVSHK|YD  0.069    .
+77            2394    LWSFGER|PY  0.078    .
+77            2400    RPYASDR|IN  0.121    .
+77            2412    ELIEFLR|HS  0.072    .
+77            2426    PGTGFSK|LV  0.067    .
+77            2433    LVQYFHR|CW  0.108    .
+77            2436    YFHRCWK|PK  0.105    .
+77            2438    HRCWKPK|KD  0.094    .
+77            2439    RCWKPKK|DR  0.102    .
+77            2441    WKPKKDR|WS  0.137    .
+77            2445    KDRWSFK|EI  0.088    .
+77            2452    EITEFIK|NK  0.057    .
+77            2454    TEFIKNK|VV  0.081    .
+77            2463    YLNPYTK|RV  0.063    .
+77            2464    LNPYTKR|VP  0.190    .
+77            2479    ALWTLVK|GS  0.075    .
+77            2494    EGFSTVK|GP  0.058    .
+77            2499    VKGPLPK|VR  0.060    .
+77            2501    GPLPKVR|SL  0.189    .
+77            2504    PKVRSLR|IA  0.429    .
+77            2508    SLRIAMK|EG  0.061    .
+77            2511    IAMKEGK|LT  0.078    .
+77            2529    LQEQYVK|VF  0.055    .
+77            2551    AQLTNAR|LH  0.087    .
+77            2563    ISAEAIR|KA  0.112    .
+77            2564    SAEAIRK|AI  0.097    .
+77            2579    SAPGPDK|FP  0.068    .
+77            2586    FPCLVLK|EC  0.067    .
+77            2614    QTAAIFK|HQ  0.066    .
+77            2623    TIVPIYK|KG  0.067    .
+77            2624    IVPIYKK|GN  0.082    .
+77            2627    IYKKGNR|GL  0.080    .
+77            2634    GLASNYR|PV  0.110    .
+77            2644    LTSHLCK|LF  0.087    .
+77            2648    LCKLFER|VV  0.130    .
+77            2651    LFERVVR|KE  0.170    .
+77            2652    FERVVRK|EL  0.095    .
+77            2672    QDQHGFR|VG  0.090    .
+77            2675    HGFRVGR|SC  0.516 *ProP*
+77            2690    HLDSVLK|DL  0.080    .
+77            2707    LYVDMAK|AF  0.069    .
+77            2711    MAKAFDK|VC  0.066    .
+77            2716    DKVCHSR|LL  0.091    .
+77            2720    HSRLLTK|LA  0.087    .
+77            2729    SVGVGGK|LL  0.058    .
+77            2735    KLLTWLK|SF  0.073    .
+77            2741    KSFLVGR|TQ  0.105    .
+77            2750    SVVVEGK|LS  0.063    .
+77            2753    VEGKLSR|PE  0.068    .
+77            2758    SRPETVR|SG  0.147    .
+77            2789    LQHSSMK|LF  0.063    .
+77            2796    LFADDAK|LH  0.066    .
+77            2799    DDAKLHK|TI  0.066    .
+77            2802    KLHKTIR|DE  0.108    .
+77            2807    IRDESDR|SL  0.100    .
+77            2816    LLNDIER|VS  0.098    .
+77            2832    MELNADK|DQ  0.061    .
+77            2845    GMNDLLK|KP  0.063    .
+77            2846    MNDLLKK|PY  0.093    .
+77            2863    CGDATVR|DL  0.115    .
+77            2876    DTHLSGK|EH  0.068    .
+77            2884    HTAQITK|TA  0.067    .
+77            2892    ANQASGR|VL  0.107    .
+77            2895    ASGRVLR|AF  0.268    .
+77            2900    LRAFESR|DE  0.163    .
+77            2910    TMLTLLK|TY  0.053    .
+77            2914    LLKTYIR|PH  0.074    .
+77            2934    QVGEIQR|VE  0.073    .
+77            2940    RVEAIQR|AF  0.095    .
+77            2945    QRAFTAK|IE  0.082    .
+77            2968    NLYSLQR|RR  0.080    .
+77            2969    LYSLQRR|RE  0.144    .
+77            2970    YSLQRRR|ER  0.129    .
+77            2972    LQRRRER|YQ  0.297    .
+77            2984    STAMVTR|KP  0.119    .
+77            2985    TAMVTRK|PE  0.096    .
+77            2999    LEATITR|HK  0.104    .
+77            3001    ATITRHK|ST  0.071    .
+77            3007    KSTLTEK|EV  0.074    .
+77            3014    EVQALLK|IR  0.070    .
+77            3016    QALLKIR|HK  0.101    .
+77            3018    LLKIRHK|YL  0.068    .
+77            3051    LHSFGSR|QK  0.096    .
+77            3053    SFGSRQK|KD  0.060    .
+77            3054    FGSRQKK|DQ  0.545 *ProP*
+77            3059    KKDQTWK|YT  0.091    .
+77            3066    YTSYVLK|GL  0.073    .
+77            3069    YVLKGLK|FL  0.063    .
+77            3084    HGNLSWK|NV  0.078    .
+77            3089    WKNVWLR|NR  0.101    .
+77            3091    NVWLRNR|DI  0.094    .
+77            3104    GWGLSSK|VT  0.067    .
+77            3127    LEDLQSK|GE  0.066    .
+77            3135    ESGPLTK|KT  0.064    .
+77            3136    SGPLTKK|TD  0.089    .
+77            3168    TGCLEDK|IS  0.054    .
+77            3175    ISVLLSR|IS  0.092    .
+77            3178    LLSRISK|DS  0.227    .
+77            3192    SPEFTSR|QQ  0.081    .
+77            3198    RQQLLNK|GW  0.074    .
+77            3201    LLNKGWR|RV  0.203    .
+77            3202    LNKGWRR|VD  0.128    .
+77            3221    PIYLILR|RA  0.098    .
+77            3222    IYLILRR|AR  0.119    .
+77            3224    LILRRAR|GV  0.453    .
+77            3227    RRARGVR|QD  0.230    .
+77            3245    SHPLLNK|AA  0.072    .
+77            3258    SWLVFNR|IK  0.095    .
+77            3260    LVFNRIK|YL  0.062    .
+77            3279    QSIGLTR|FS  0.092    .
+77            3282    GLTRFSR|AR  0.223    .
+77            3284    TRFSRAR|TV  0.176    .
+77            3293    VILQLTR|AM  0.066    .
+77            3296    QLTRAMR|TL  0.190    .
+77            3303    TLIILNR|SW  0.181    .
+77            3318    SFDVVLR|VR  0.069    .
+77            3320    DVVLRVR|VN  0.075    .
+77            3340    APDPVLR|IK  0.094    .
+77            3342    DPVLRIK|TG  0.060    .
+77            3380    IPHLILK|TV  0.079    .
+77            3383    LILKTVR|SN  0.140    .
+77            3392    GVAAPDR|G-  0.102    .
+____________________________^_________________
+
+
+
+

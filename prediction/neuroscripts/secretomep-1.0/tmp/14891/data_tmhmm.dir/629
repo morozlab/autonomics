@@ -1,0 +1,37 @@
+# 629 Length: 1472
+# 629 Number of predicted TMHs:  15
+# 629 Exp number of AAs in TMHs: 330.31769
+# 629 Exp number, first 60 AAs:  21.65064
+# 629 Total prob of N-in:        0.30566
+# 629 POSSIBLE N-term signal sequence
+629	TMHMM2.0	outside	     1    26
+629	TMHMM2.0	TMhelix	    27    49
+629	TMHMM2.0	inside	    50    69
+629	TMHMM2.0	TMhelix	    70    92
+629	TMHMM2.0	outside	    93   315
+629	TMHMM2.0	TMhelix	   316   333
+629	TMHMM2.0	inside	   334   345
+629	TMHMM2.0	TMhelix	   346   365
+629	TMHMM2.0	outside	   366   449
+629	TMHMM2.0	TMhelix	   450   472
+629	TMHMM2.0	inside	   473   653
+629	TMHMM2.0	TMhelix	   654   676
+629	TMHMM2.0	outside	   677   695
+629	TMHMM2.0	TMhelix	   696   713
+629	TMHMM2.0	inside	   714   729
+629	TMHMM2.0	TMhelix	   730   752
+629	TMHMM2.0	outside	   753   781
+629	TMHMM2.0	TMhelix	   782   801
+629	TMHMM2.0	inside	   802   821
+629	TMHMM2.0	TMhelix	   822   844
+629	TMHMM2.0	outside	   845   863
+629	TMHMM2.0	TMhelix	   864   886
+629	TMHMM2.0	inside	   887  1058
+629	TMHMM2.0	TMhelix	  1059  1076
+629	TMHMM2.0	outside	  1077  1090
+629	TMHMM2.0	TMhelix	  1091  1113
+629	TMHMM2.0	inside	  1114  1184
+629	TMHMM2.0	TMhelix	  1185  1207
+629	TMHMM2.0	outside	  1208  1243
+629	TMHMM2.0	TMhelix	  1244  1266
+629	TMHMM2.0	inside	  1267  1472

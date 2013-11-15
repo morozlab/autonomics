@@ -1,0 +1,567 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3729 57          
+MACIRVLYQLMSEYVSVPWQALSHLSGSVIYGGRVTDKWDQRTLSAILGKFFGESVLQTNNRSFSTIESYQIPENLSIDE      80
+TLSFISSLPNVDHPELFGMHQNAEKTYNEHSSKELVHYMHFFQPAIELTNRHVNTDTIVMEFLIHVHNTLPQKIELPSFL     160
+EVSTEVIHSALQGSERPPSVLVEKGYLKAKVSDVRHCTPMENVIRHEVRHYNKLLDVIHTSSKTMAMCLQGEEAMTEDMD     240
+KMYQSILENTMPIIWQEYTGACSKLLAAWVVDFARKIAFMRYWLDLKTEGTVANQLFGLEYHELLAEAKEGVVNFEDVMK     320
+MSSAYQKTTQKVYPEKLPRSFWINAFFFPQGLLTAILQTHSRAHRIPINSLSFETTVHQLPTAAEDEARVAAEHAGLTPS     400
+NWSFPGPEVPVSGILVHGLSLDGARWDGTNLVEALPGKQVTPLPEIHFLPTEEAKLNPNDYECPVYRTQERCGELNESGM     480
+IQKYGSWTFHSQILNFVAVVVVVAVALVVAVALVVVVVAVGLGSLTVTKPFVRGRCPPIEVEVVVPKPVANWFIRATDDN     560
+CEFVEDPFELPYSCEGRVCPNDARELLLVKPGGGGLGGLDKKKIERGTRGGDRRIRVGHGFLVRVSELCRQNGDSCENKN     640
+YGSNLDQFLGNFVHIIFFSKIRKFIFHSCIHFSFIHDVSILIFHHYAIFLWLEFIFPMSTIKLKSEHQVTLQLRKCSCMI     720
+LALPVTFNELYHGSLLVTIYNSKKAVRYENGSTGSWNEGVYKGYWPSTVYCTRTQTREPLGLARFSSNGAGFLAQRFPVR     800
+PGPASSLAIFHIRIIEYRSRRRCSDWRCSFSNRSQVNLDESHSHWVRSFAPGVGVELLKQVSMSIDNVSQTSDYSSASER     880
+SIGYVAGHHSQRSNLISKNPPRGSNFSTGGTAGPSSSSQHSVPVSFYTRASSSRDQQQQRQSNPVGDAIRQSQISSFTSQ     960
+VKTLFQENENLKHENQQLLVKCGKVEECENQFHALQLKFKSYVAASESRQKLEEELRVKLQKEMDQVKRQSAGSVANLQR    1040
+EISALKLVLREKEELVSILVEERASSKKKEEDVQYDFIAANTISFSIPRRRRALLYMPGDDLRKITKAASLDVDLAVLDC    1120
+EDAVAVSRKGEARTTITKALATLDFGRTERGVRINSSLEQRFSPDCCGLPLIFQTESALGLVNLREIILTLQRSTVLRAE    1200
+AVVFGSDDYISDIRGSRDDIMAVVYARQKVVTLARAYGLQPIDRVYIEYKDTEGLRAESEQGFGFGFTGKQCIHPGQIQI    1280
+VQQAFSPSETQIEHARALISAFSENQAAGKGAFAFRGKMIDRPTLLQAQNLYPGPTTTDSMLRWMKKSNTNDSDAYSSTI    1360
+DGMKKVYKKYVRPLEEMYRYQEFYSPLLTDRQKVVTLARAYGLQPIDRVYIEYKDTEGLRAESEQGFGFGFTGKQCIHPG    1440
+QIQIVQQAFSPSETQIEHARALISAFSENQAAGKGAFSFRGKMIDRPTLLQAQNLYPGPTTTDSMLRWMKKSNTNDSDAY    1520
+SSTIDGMKKVYKKYVRPLEEMYRYQEFYSPLLTDSDFDAPPTVMLLGQYSTGKTTFIKYLLETNYPGLRIGPEPTTDKFV    1600
+AIMHGDQDQIIPGNALVVDQKHPYKVLTRFGNNFLQRFEAAVLKNPVLQGLTLLDTPGVLAGAKQTVNRGYDFTGVVKWF    1680
+ADRVDMIVMLFDAHKLDISDEFSETIAACKGNDTKIRIVLNKADRVTNQQLMRVYGALMWSLGKVLGTPEVARVYIGSFW    1760
+DQPYQNDDNRKLFEAEEEDLFRDIQSVPRGSIVRKLNDLVKRCRLAKTHAYIMSHIKNELPMFGKEAKMKQIIANIPKIF    1840
+EQIERERGIPAGDFPNVAEFQENLRGFDISKLPKLNQTMIDSLDKMIGSELPKLMAQVPQDQDLAHEDYMVNVRKREGGA    1920
+LFDKNLTPFGEGATMDILNSPLPMREFEFEFEKLGPGGDGKINGTVARGPLQDSKLPNATLRRIWTLADFDQDGKLSLHE    2000
+FAICKQLMKMKLEGHELPVELPSVWLIVTSFNFRIIIPEIIPLCLSLSLSLSLSLSLSLSVSLSLSLAAAAAAAAAAAAA    2080
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALRRIWTLADFDQDGKLSLHEFAICK    2160
+QLMKMKLEGHELPVELPSNYHTGDHSSLSLSVSVSVSVSLSLSLSLSLSLSLSLSPCTLCCIILHQHTIIPGNALVVDHN    2240
+HSYKVLSRFGNNFLQRFEGAVINNPVLQGLTLLDTPGVLSGEKQRISRGYDFTGVVQWFAERVDMIILLFDAHKLDISDE    2320
+FQRVIQACKGNDTKIRIVLNKADGITNQQLMRVYGALMWSLGKVLNTPEVARVYCGSFWDQPYQNDDNRKLFEAEEEDLF    2400
+KDIQDIPREPYNSFGYEINPLPLFQIIPGNALVVDHNHSYKVLSRFGNNFLQRFEGAVINNPVLQGLTLLDTPGVLSGEK    2480
+QRISRGYDFTGVVQWFAERVDMIILLFDAHKLDISDEFQRVIQACKGNDTKIRIVLNKADGITNQQLMRVYGALMWSLGK    2560
+VLNTPEVARVYCGSFWDQPYQNDDNRKLFEAEEEDLFKDIQDIPRGAIVRKLNDLIKRSRLAKTHAYIIAHLKNEMPAVF    2640
+GKEAKQKQLIQQLPAIFEQIQRATGLPAGDFPNIAEFSETLKNCDFNSFKKLNLPMIEAVEKMLATELPRLMSQVPQDQE    2720
+VAHEDFMKNVRKRDGGALYDDDVTPFGMGTTLDLLNSPVPVKLYQHEFESLGPGEDGKVTGTQAKKPMQDSKLPNTTLKR    2800
+IWNLGDIDKDGKLDVREFAIVKHLMKIKLEGHELPKTQKRKDEESILKDSLRERQLAEITMASRGRGRGRGKSNSSINVI    2880
+SEALGIGRGDIVGLSAPIEPPNTFPPLLRKPQPLTESTHHHYLIALKQEFRNYMRDSPYHIRPETAKSKIERYSDRFKHY    2960
+HTHKELDWIPNWEMFPSELRMRTSKAAKSKPEIKPRMVGRRADHASDKELLKKLDKHAKNEKDVSDSEITMASRGRGRGR    3040
+GKSNSSINVISEALGIGRGDIVGLSAPIEPPNTFPPLLRKPQPLTESTHHHYLIALKQEFRNYMRDSPYHIRPETAKSKI    3120
+ERYSDRFKHYHTHKELDWIPNWEMFPSELRMRTSKAAKSKPEIKPRMVGRRADHASDKELLKKLDKHAKNEKDVSDSESI    3200
+GGDVFEEELGDDVEEDLDYCMVMDHSNGHGHHVNGHHTTNGHHSMEEGVNDEFIARLEEPWKYSTGVPGKAIRDQMMNGL    3280
+NHWLGVEKPVLDQIKKLIGILHESSLLIDDIQDNSTMRRGQPAAYLIYGKSEVINIANLKYFEAGKLALELPDYSSCDVD    3360
+KCEPSRIFNDWMIKLHQGQGLDIYWRDHFVCPTINQYIDMVMKKTGGLMMLAFDLMYIFRAPHRQNKRFDKKSGDEFLAT    3440
+FSRMFQIRDDFCNLWDAKYAANKSYCEDLTEGKFSWVIVQGVLKGKLVSGGEGRAGEREKEGWREREREREGEREREGGG    3520
+ANGYWRTCLVSECAYRVSGTSWKYVAISKRYLRGAGWLLGGPGQVIRHPEWFLGVSWSAKRNARATYGDRVVSDRYKSGL    3600
+ATLTECPIEPSITETGAAQLTVRLSLSLILTILPAIPPGLLADYCTERVEQPIRTRYLGHVTGYQPIRDQYFGRFLIWGI    3680
+VHQYSWKLEYCVLYLLREILNFQESQVKSFETHFNTTYCLTAKAPRPPI                                   3760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+....................P...........................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+.................................................                                   3760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+57               5    --MACIR|VL  0.081    .
+57              34    SVIYGGR|VT  0.082    .
+57              38    GGRVTDK|WD  0.071    .
+57              42    TDKWDQR|TL  0.139    .
+57              50    LSAILGK|FF  0.093    .
+57              62    VLQTNNR|SF  0.193    .
+57             105    MHQNAEK|TY  0.060    .
+57             113    YNEHSSK|EL  0.074    .
+57             131    AIELTNR|HV  0.104    .
+57             153    HNTLPQK|IE  0.058    .
+57             176    ALQGSER|PP  0.088    .
+57             184    PSVLVEK|GY  0.067    .
+57             188    VEKGYLK|AK  0.055    .
+57             190    KGYLKAK|VS  0.066    .
+57             195    AKVSDVR|HC  0.098    .
+57             205    PMENVIR|HE  0.075    .
+57             209    VIRHEVR|HY  0.127    .
+57             213    EVRHYNK|LL  0.071    .
+57             223    VIHTSSK|TM  0.062    .
+57             241    MTEDMDK|MY  0.069    .
+57             264    YTGACSK|LL  0.060    .
+57             275    WVVDFAR|KI  0.091    .
+57             276    VVDFARK|IA  0.071    .
+57             281    RKIAFMR|YW  0.106    .
+57             287    RYWLDLK|TE  0.062    .
+57             309    ELLAEAK|EG  0.058    .
+57             320    NFEDVMK|MS  0.084    .
+57             327    MSSAYQK|TT  0.091    .
+57             331    YQKTTQK|VY  0.059    .
+57             336    QKVYPEK|LP  0.059    .
+57             339    YPEKLPR|SF  0.137    .
+57             362    ILQTHSR|AH  0.092    .
+57             365    THSRAHR|IP  0.290    .
+57             389    AAEDEAR|VA  0.095    .
+57             425    LSLDGAR|WD  0.105    .
+57             438    VEALPGK|QV  0.080    .
+57             455    LPTEEAK|LN  0.061    .
+57             467    YECPVYR|TQ  0.092    .
+57             471    VYRTQER|CG  0.093    .
+57             483    ESGMIQK|YG  0.074    .
+57             529    GSLTVTK|PF  0.061    .
+57             533    VTKPFVR|GR  0.081    .
+57             535    KPFVRGR|CP  0.096    .
+57             547    VEVVVPK|PV  0.072    .
+57             555    VANWFIR|AT  0.132    .
+57             577    PYSCEGR|VC  0.077    .
+57             584    VCPNDAR|EL  0.075    .
+57             590    RELLLVK|PG  0.068    .
+57             601    GLGGLDK|KK  0.059    .
+57             602    LGGLDKK|KI  0.119    .
+57             603    GGLDKKK|IE  0.092    .
+57             606    DKKKIER|GT  0.116    .
+57             609    KIERGTR|GG  0.204    .
+57             613    GTRGGDR|RI  0.092    .
+57             614    TRGGDRR|IR  0.158    .
+57             616    GGDRRIR|VG  0.191    .
+57             624    GHGFLVR|VS  0.079    .
+57             630    RVSELCR|QN  0.112    .
+57             639    GDSCENK|NY  0.101    .
+57             660    HIIFFSK|IR  0.061    .
+57             662    IFFSKIR|KF  0.073    .
+57             663    FFSKIRK|FI  0.123    .
+57             702    FPMSTIK|LK  0.068    .
+57             704    MSTIKLK|SE  0.099    .
+57             714    QVTLQLR|KC  0.084    .
+57             715    VTLQLRK|CS  0.076    .
+57             743    VTIYNSK|KA  0.063    .
+57             744    TIYNSKK|AV  0.160    .
+57             747    NSKKAVR|YE  0.105    .
+57             762    WNEGVYK|GY  0.073    .
+57             773    STVYCTR|TQ  0.082    .
+57             777    CTRTQTR|EP  0.074    .
+57             784    EPLGLAR|FS  0.112    .
+57             796    AGFLAQR|FP  0.074    .
+57             800    AQRFPVR|PG  0.082    .
+57             813    LAIFHIR|II  0.093    .
+57             818    IRIIEYR|SR  0.124    .
+57             820    IIEYRSR|RR  0.068    .
+57             821    IEYRSRR|RC  0.524 *ProP*
+57             822    EYRSRRR|CS  0.118    .
+57             827    RRCSDWR|CS  0.108    .
+57             833    RCSFSNR|SQ  0.138    .
+57             847    SHSHWVR|SF  0.220    .
+57             859    VGVELLK|QV  0.084    .
+57             880    YSSASER|SI  0.316    .
+57             892    AGHHSQR|SN  0.134    .
+57             898    RSNLISK|NP  0.061    .
+57             902    ISKNPPR|GS  0.114    .
+57             929    PVSFYTR|AS  0.097    .
+57             934    TRASSSR|DQ  0.221    .
+57             940    RDQQQQR|QS  0.131    .
+57             950    PVGDAIR|QS  0.081    .
+57             962    SFTSQVK|TL  0.067    .
+57             972    QENENLK|HE  0.068    .
+57             981    NQQLLVK|CG  0.060    .
+57             984    LLVKCGK|VE  0.061    .
+57             998    FHALQLK|FK  0.073    .
+57            1000    ALQLKFK|SY  0.089    .
+57            1009    VAASESR|QK  0.083    .
+57            1011    ASESRQK|LE  0.058    .
+57            1017    KLEEELR|VK  0.084    .
+57            1019    EEELRVK|LQ  0.054    .
+57            1022    LRVKLQK|EM  0.086    .
+57            1028    KEMDQVK|RQ  0.065    .
+57            1029    EMDQVKR|QS  0.168    .
+57            1040    SVANLQR|EI  0.114    .
+57            1046    REISALK|LV  0.061    .
+57            1050    ALKLVLR|EK  0.086    .
+57            1052    KLVLREK|EE  0.057    .
+57            1063    SILVEER|AS  0.085    .
+57            1067    EERASSK|KK  0.061    .
+57            1068    ERASSKK|KE  0.152    .
+57            1069    RASSKKK|EE  0.198    .
+57            1089    ISFSIPR|RR  0.087    .
+57            1090    SFSIPRR|RR  0.096    .
+57            1091    FSIPRRR|RA  0.128    .
+57            1092    SIPRRRR|AL  0.364    .
+57            1103    MPGDDLR|KI  0.098    .
+57            1104    PGDDLRK|IT  0.068    .
+57            1107    DLRKITK|AA  0.072    .
+57            1128    DAVAVSR|KG  0.079    .
+57            1129    AVAVSRK|GE  0.092    .
+57            1133    SRKGEAR|TT  0.132    .
+57            1138    ARTTITK|AL  0.063    .
+57            1147    ATLDFGR|TE  0.082    .
+57            1150    DFGRTER|GV  0.321    .
+57            1153    RTERGVR|IN  0.202    .
+57            1161    NSSLEQR|FS  0.104    .
+57            1185    LGLVNLR|EI  0.070    .
+57            1193    IILTLQR|ST  0.075    .
+57            1198    QRSTVLR|AE  0.131    .
+57            1214    DYISDIR|GS  0.081    .
+57            1217    SDIRGSR|DD  0.227    .
+57            1227    MAVVYAR|QK  0.085    .
+57            1229    VVYARQK|VV  0.062    .
+57            1235    KVVTLAR|AY  0.100    .
+57            1244    GLQPIDR|VY  0.099    .
+57            1250    RVYIEYK|DT  0.086    .
+57            1256    KDTEGLR|AE  0.095    .
+57            1270    GFGFTGK|QC  0.065    .
+57            1296    TQIEHAR|AL  0.116    .
+57            1310    ENQAAGK|GA  0.085    .
+57            1316    KGAFAFR|GK  0.125    .
+57            1318    AFAFRGK|MI  0.068    .
+57            1322    RGKMIDR|PT  0.080    .
+57            1343    TTDSMLR|WM  0.084    .
+57            1346    SMLRWMK|KS  0.109    .
+57            1347    MLRWMKK|SN  0.142    .
+57            1364    STIDGMK|KV  0.071    .
+57            1365    TIDGMKK|VY  0.086    .
+57            1368    GMKKVYK|KY  0.067    .
+57            1369    MKKVYKK|YV  0.270    .
+57            1372    VYKKYVR|PL  0.090    .
+57            1379    PLEEMYR|YQ  0.080    .
+57            1391    SPLLTDR|QK  0.076    .
+57            1393    LLTDRQK|VV  0.067    .
+57            1399    KVVTLAR|AY  0.099    .
+57            1408    GLQPIDR|VY  0.099    .
+57            1414    RVYIEYK|DT  0.086    .
+57            1420    KDTEGLR|AE  0.095    .
+57            1434    GFGFTGK|QC  0.065    .
+57            1460    TQIEHAR|AL  0.116    .
+57            1474    ENQAAGK|GA  0.078    .
+57            1480    KGAFSFR|GK  0.142    .
+57            1482    AFSFRGK|MI  0.077    .
+57            1486    RGKMIDR|PT  0.077    .
+57            1507    TTDSMLR|WM  0.084    .
+57            1510    SMLRWMK|KS  0.109    .
+57            1511    MLRWMKK|SN  0.142    .
+57            1528    STIDGMK|KV  0.071    .
+57            1529    TIDGMKK|VY  0.086    .
+57            1532    GMKKVYK|KY  0.067    .
+57            1533    MKKVYKK|YV  0.270    .
+57            1536    VYKKYVR|PL  0.090    .
+57            1543    PLEEMYR|YQ  0.080    .
+57            1573    GQYSTGK|TT  0.066    .
+57            1578    GKTTFIK|YL  0.061    .
+57            1589    TNYPGLR|IG  0.065    .
+57            1598    PEPTTDK|FV  0.072    .
+57            1621    ALVVDQK|HP  0.070    .
+57            1625    DQKHPYK|VL  0.066    .
+57            1629    PYKVLTR|FG  0.085    .
+57            1637    GNNFLQR|FE  0.152    .
+57            1644    FEAAVLK|NP  0.059    .
+57            1664    GVLAGAK|QT  0.059    .
+57            1669    AKQTVNR|GY  0.120    .
+57            1678    DFTGVVK|WF  0.061    .
+57            1683    VKWFADR|VD  0.073    .
+57            1695    MLFDAHK|LD  0.064    .
+57            1710    ETIAACK|GN  0.075    .
+57            1715    CKGNDTK|IR  0.059    .
+57            1717    GNDTKIR|IV  0.136    .
+57            1722    IRIVLNK|AD  0.076    .
+57            1725    VLNKADR|VT  0.111    .
+57            1733    TNQQLMR|VY  0.122    .
+57            1744    LMWSLGK|VL  0.063    .
+57            1753    GTPEVAR|VY  0.101    .
+57            1770    YQNDDNR|KL  0.106    .
+57            1771    QNDDNRK|LF  0.107    .
+57            1782    EEEDLFR|DI  0.115    .
+57            1789    DIQSVPR|GS  0.085    .
+57            1794    PRGSIVR|KL  0.090    .
+57            1795    RGSIVRK|LN  0.102    .
+57            1801    KLNDLVK|RC  0.063    .
+57            1802    LNDLVKR|CR  0.160    .
+57            1804    DLVKRCR|LA  0.089    .
+57            1807    KRCRLAK|TH  0.144    .
+57            1817    YIMSHIK|NE  0.060    .
+57            1825    ELPMFGK|EA  0.066    .
+57            1828    MFGKEAK|MK  0.072    .
+57            1830    GKEAKMK|QI  0.100    .
+57            1838    IIANIPK|IF  0.083    .
+57            1845    IFEQIER|ER  0.080    .
+57            1847    EQIERER|GI  0.094    .
+57            1865    EFQENLR|GF  0.079    .
+57            1871    RGFDISK|LP  0.058    .
+57            1874    DISKLPK|LN  0.072    .
+57            1885    MIDSLDK|MI  0.075    .
+57            1893    IGSELPK|LM  0.068    .
+57            1914    DYMVNVR|KR  0.076    .
+57            1915    YMVNVRK|RE  0.105    .
+57            1916    MVNVRKR|EG  0.276    .
+57            1924    GGALFDK|NL  0.069    .
+57            1945    NSPLPMR|EF  0.087    .
+57            1953    FEFEFEK|LG  0.057    .
+57            1961    GPGGDGK|IN  0.082    .
+57            1968    INGTVAR|GP  0.097    .
+57            1975    GPLQDSK|LP  0.060    .
+57            1982    LPNATLR|RI  0.098    .
+57            1983    PNATLRR|IW  0.129    .
+57            1995    DFDQDGK|LS  0.052    .
+57            2005    HEFAICK|QL  0.063    .
+57            2009    ICKQLMK|MK  0.060    .
+57            2011    KQLMKMK|LE  0.081    .
+57            2034    VTSFNFR|II  0.103    .
+57            2137    AAAAALR|RI  0.079    .
+57            2138    AAAALRR|IW  0.134    .
+57            2150    DFDQDGK|LS  0.052    .
+57            2160    HEFAICK|QL  0.063    .
+57            2164    ICKQLMK|MK  0.060    .
+57            2166    KQLMKMK|LE  0.081    .
+57            2244    DHNHSYK|VL  0.080    .
+57            2248    SYKVLSR|FG  0.090    .
+57            2256    GNNFLQR|FE  0.193    .
+57            2283    GVLSGEK|QR  0.052    .
+57            2285    LSGEKQR|IS  0.114    .
+57            2288    EKQRISR|GY  0.290    .
+57            2302    VQWFAER|VD  0.070    .
+57            2314    LLFDAHK|LD  0.062    .
+57            2323    ISDEFQR|VI  0.087    .
+57            2329    RVIQACK|GN  0.080    .
+57            2334    CKGNDTK|IR  0.058    .
+57            2336    GNDTKIR|IV  0.149    .
+57            2341    IRIVLNK|AD  0.089    .
+57            2352    TNQQLMR|VY  0.117    .
+57            2363    LMWSLGK|VL  0.058    .
+57            2372    NTPEVAR|VY  0.103    .
+57            2389    YQNDDNR|KL  0.106    .
+57            2390    QNDDNRK|LF  0.107    .
+57            2401    EEEDLFK|DI  0.082    .
+57            2408    DIQDIPR|EP  0.083    .
+57            2441    DHNHSYK|VL  0.080    .
+57            2445    SYKVLSR|FG  0.090    .
+57            2453    GNNFLQR|FE  0.193    .
+57            2480    GVLSGEK|QR  0.052    .
+57            2482    LSGEKQR|IS  0.114    .
+57            2485    EKQRISR|GY  0.290    .
+57            2499    VQWFAER|VD  0.070    .
+57            2511    LLFDAHK|LD  0.062    .
+57            2520    ISDEFQR|VI  0.087    .
+57            2526    RVIQACK|GN  0.080    .
+57            2531    CKGNDTK|IR  0.058    .
+57            2533    GNDTKIR|IV  0.149    .
+57            2538    IRIVLNK|AD  0.089    .
+57            2549    TNQQLMR|VY  0.117    .
+57            2560    LMWSLGK|VL  0.058    .
+57            2569    NTPEVAR|VY  0.103    .
+57            2586    YQNDDNR|KL  0.106    .
+57            2587    QNDDNRK|LF  0.107    .
+57            2598    EEEDLFK|DI  0.085    .
+57            2605    DIQDIPR|GA  0.099    .
+57            2610    PRGAIVR|KL  0.098    .
+57            2611    RGAIVRK|LN  0.091    .
+57            2617    KLNDLIK|RS  0.064    .
+57            2618    LNDLIKR|SR  0.224    .
+57            2620    DLIKRSR|LA  0.085    .
+57            2623    KRSRLAK|TH  0.206    .
+57            2633    YIIAHLK|NE  0.066    .
+57            2642    MPAVFGK|EA  0.115    .
+57            2645    VFGKEAK|QK  0.066    .
+57            2647    GKEAKQK|QL  0.111    .
+57            2662    IFEQIQR|AT  0.084    .
+57            2682    EFSETLK|NC  0.057    .
+57            2690    CDFNSFK|KL  0.058    .
+57            2691    DFNSFKK|LN  0.089    .
+57            2702    MIEAVEK|ML  0.074    .
+57            2710    LATELPR|LM  0.088    .
+57            2728    AHEDFMK|NV  0.082    .
+57            2731    DFMKNVR|KR  0.077    .
+57            2732    FMKNVRK|RD  0.101    .
+57            2733    MKNVRKR|DG  0.481    .
+57            2762    NSPVPVK|LY  0.063    .
+57            2778    GPGEDGK|VT  0.081    .
+57            2785    VTGTQAK|KP  0.062    .
+57            2786    TGTQAKK|PM  0.079    .
+57            2792    KPMQDSK|LP  0.068    .
+57            2799    LPNTTLK|RI  0.071    .
+57            2800    PNTTLKR|IW  0.128    .
+57            2809    NLGDIDK|DG  0.061    .
+57            2812    DIDKDGK|LD  0.055    .
+57            2816    DGKLDVR|EF  0.078    .
+57            2822    REFAIVK|HL  0.062    .
+57            2826    IVKHLMK|IK  0.059    .
+57            2828    KHLMKIK|LE  0.073    .
+57            2836    EGHELPK|TQ  0.059    .
+57            2839    ELPKTQK|RK  0.057    .
+57            2840    LPKTQKR|KD  0.225    .
+57            2841    PKTQKRK|DE  0.137    .
+57            2848    DEESILK|DS  0.058    .
+57            2852    ILKDSLR|ER  0.096    .
+57            2854    KDSLRER|QL  0.119    .
+57            2864    EITMASR|GR  0.088    .
+57            2866    TMASRGR|GR  0.134    .
+57            2868    ASRGRGR|GR  0.141    .
+57            2870    RGRGRGR|GK  0.117    .
+57            2872    RGRGRGK|SN  0.099    .
+57            2888    EALGIGR|GD  0.094    .
+57            2909    TFPPLLR|KP  0.077    .
+57            2910    FPPLLRK|PQ  0.071    .
+57            2927    HYLIALK|QE  0.055    .
+57            2931    ALKQEFR|NY  0.073    .
+57            2935    EFRNYMR|DS  0.095    .
+57            2942    DSPYHIR|PE  0.080    .
+57            2947    IRPETAK|SK  0.084    .
+57            2949    PETAKSK|IE  0.058    .
+57            2952    AKSKIER|YS  0.152    .
+57            2956    IERYSDR|FK  0.130    .
+57            2958    RYSDRFK|HY  0.077    .
+57            2964    KHYHTHK|EL  0.083    .
+57            2980    MFPSELR|MR  0.065    .
+57            2982    PSELRMR|TS  0.083    .
+57            2985    LRMRTSK|AA  0.210    .
+57            2988    RTSKAAK|SK  0.104    .
+57            2990    SKAAKSK|PE  0.076    .
+57            2994    KSKPEIK|PR  0.068    .
+57            2996    KPEIKPR|MV  0.219    .
+57            3000    KPRMVGR|RA  0.189    .
+57            3001    PRMVGRR|AD  0.256    .
+57            3008    ADHASDK|EL  0.075    .
+57            3012    SDKELLK|KL  0.066    .
+57            3013    DKELLKK|LD  0.083    .
+57            3016    LLKKLDK|HA  0.067    .
+57            3019    KLDKHAK|NE  0.071    .
+57            3022    KHAKNEK|DV  0.190    .
+57            3034    EITMASR|GR  0.090    .
+57            3036    TMASRGR|GR  0.132    .
+57            3038    ASRGRGR|GR  0.141    .
+57            3040    RGRGRGR|GK  0.117    .
+57            3042    RGRGRGK|SN  0.099    .
+57            3058    EALGIGR|GD  0.094    .
+57            3079    TFPPLLR|KP  0.077    .
+57            3080    FPPLLRK|PQ  0.071    .
+57            3097    HYLIALK|QE  0.055    .
+57            3101    ALKQEFR|NY  0.073    .
+57            3105    EFRNYMR|DS  0.095    .
+57            3112    DSPYHIR|PE  0.080    .
+57            3117    IRPETAK|SK  0.084    .
+57            3119    PETAKSK|IE  0.058    .
+57            3122    AKSKIER|YS  0.152    .
+57            3126    IERYSDR|FK  0.130    .
+57            3128    RYSDRFK|HY  0.077    .
+57            3134    KHYHTHK|EL  0.083    .
+57            3150    MFPSELR|MR  0.065    .
+57            3152    PSELRMR|TS  0.083    .
+57            3155    LRMRTSK|AA  0.210    .
+57            3158    RTSKAAK|SK  0.104    .
+57            3160    SKAAKSK|PE  0.076    .
+57            3164    KSKPEIK|PR  0.068    .
+57            3166    KPEIKPR|MV  0.219    .
+57            3170    KPRMVGR|RA  0.189    .
+57            3171    PRMVGRR|AD  0.256    .
+57            3178    ADHASDK|EL  0.075    .
+57            3182    SDKELLK|KL  0.066    .
+57            3183    DKELLKK|LD  0.083    .
+57            3186    LLKKLDK|HA  0.067    .
+57            3189    KLDKHAK|NE  0.071    .
+57            3192    KHAKNEK|DV  0.175    .
+57            3256    NDEFIAR|LE  0.081    .
+57            3262    RLEEPWK|YS  0.069    .
+57            3270    STGVPGK|AI  0.089    .
+57            3273    VPGKAIR|DQ  0.117    .
+57            3288    HWLGVEK|PV  0.075    .
+57            3295    PVLDQIK|KL  0.074    .
+57            3296    VLDQIKK|LI  0.097    .
+57            3318    QDNSTMR|RG  0.080    .
+57            3319    DNSTMRR|GQ  0.167    .
+57            3330    AYLIYGK|SE  0.063    .
+57            3340    INIANLK|YF  0.075    .
+57            3346    KYFEAGK|LA  0.058    .
+57            3361    SSCDVDK|CE  0.061    .
+57            3366    DKCEPSR|IF  0.082    .
+57            3374    FNDWMIK|LH  0.058    .
+57            3386    GLDIYWR|DH  0.090    .
+57            3403    YIDMVMK|KT  0.070    .
+57            3404    IDMVMKK|TG  0.107    .
+57            3420    DLMYIFR|AP  0.095    .
+57            3424    IFRAPHR|QN  0.081    .
+57            3427    APHRQNK|RF  0.201    .
+57            3428    PHRQNKR|FD  0.256    .
+57            3431    QNKRFDK|KS  0.241    .
+57            3432    NKRFDKK|SG  0.224    .
+57            3443    FLATFSR|MF  0.081    .
+57            3448    SRMFQIR|DD  0.188    .
+57            3458    CNLWDAK|YA  0.067    .
+57            3463    AKYAANK|SY  0.085    .
+57            3473    EDLTEGK|FS  0.066    .
+57            3484    IVQGVLK|GK  0.062    .
+57            3486    QGVLKGK|LV  0.103    .
+57            3494    VSGGEGR|AG  0.094    .
+57            3498    EGRAGER|EK  0.080    .
+57            3500    RAGEREK|EG  0.067    .
+57            3504    REKEGWR|ER  0.080    .
+57            3506    KEGWRER|ER  0.091    .
+57            3508    GWRERER|ER  0.093    .
+57            3510    RERERER|EG  0.099    .
+57            3514    REREGER|ER  0.090    .
+57            3516    REGERER|EG  0.098    .
+57            3526    GANGYWR|TC  0.096    .
+57            3536    VSECAYR|VS  0.096    .
+57            3543    VSGTSWK|YV  0.089    .
+57            3549    KYVAISK|RY  0.057    .
+57            3550    YVAISKR|YL  0.304    .
+57            3553    ISKRYLR|GA  0.475    .
+57            3567    GPGQVIR|HP  0.115    .
+57            3580    GVSWSAK|RN  0.072    .
+57            3581    VSWSAKR|NA  0.171    .
+57            3584    SAKRNAR|AT  0.329    .
+57            3590    RATYGDR|VV  0.100    .
+57            3595    DRVVSDR|YK  0.116    .
+57            3597    VVSDRYK|SG  0.079    .
+57            3623    AAQLTVR|LS  0.073    .
+57            3648    ADYCTER|VE  0.077    .
+57            3654    RVEQPIR|TR  0.076    .
+57            3656    EQPIRTR|YL  0.117    .
+57            3668    TGYQPIR|DQ  0.123    .
+57            3674    RDQYFGR|FL  0.177    .
+57            3687    VHQYSWK|LE  0.063    .
+57            3697    CVLYLLR|EI  0.075    .
+57            3708    FQESQVK|SF  0.089    .
+57            3723    TYCLTAK|AP  0.065    .
+57            3726    LTAKAPR|PP  0.089    .
+____________________________^_________________
+
+
+
+

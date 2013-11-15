@@ -1,0 +1,442 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3213 98          
+MSGREEILYSDFVHIFHSMFDTAAPESVEDVNEYISEKLKDKVELNEYTRRNADYQFKILLYLSCTASCPRQKETIDYIQ      80
+TLSTEKQHFIYEVIQDIEGLVNAHASKRVPSKSTEQDEFTSSAQDRMLDEPPTSGRPSIAQQLEESFSAPPDDDPEIPQK     160
+GQIFGLPLIELTARCDNDAGIPNIVVQCANYIRQHGMQVWNGRSKRNSRYQRGYFRDKRGVTTSKNPTLCLLYLLKQHYR     240
+MIASRKNKSLISLYPSQQITHQIPQKGQIFGLPLIELTARCDNDAGIPNIVVQCANYIRQHGMQEEGLFRVSGNRRIIDQ     320
+LRNEYDQFGTADLNAIQDISVVTSVFKMFFRELPNPLITDDVGLFATHLFLSESILTLEKRNRINKVSEEILSASEDKSL     400
+TVADLVAKVRGYCKNLPAINYSVLKYLCAFLNEVGQREVDTKMSDSSLAIVFGPNLFRIKNDLEALQRQPAITKSMSCLI     480
+THNKQIFPEAEVIYSQVVKPLKSANLTVVEQAKLGENYTFILDQTREKENVQLPYDNRNLNKYINYRLESIEGTSWKTLE     560
+VKNNCHRGFSGKVLMFIIFLPTFCPLCPQYTCFLRFQFAHVGKCGQMWAKKKVTSPPPLIQPHVMAQTRERTVVRALADK     640
+FPPPFQTQTMDMMYKMVAKAISKKGPVGARVTDYLNFYALGIRVPLSEVNFPEEEEEEAAAAAAAAAAAAAAAAAAAAAA     720
+AASLPHSPFIDLVAKVRGYCKNLPAINYSVLKYLCAFLNEVGQREVDTKMSDSSLAIVFGPNLFRIKNDLEALQRQPAIT     800
+KSMSCLITHNKQIFPEAEVIYSQVVKPLKSANLTVVEQAKLGENYTFILDQTREKENVQLPYDNRNLNKIFPEAEVIYSQ     880
+VVKPLKSANLTVVEQAKLGENYTFILDQTREKENVQLPYDNRNLNKELQCVASKSIGHANIILSTLIGYIPFLSLSLSLP     960
+FSLSLSISFSPTLSFRVQTCFSYYIMMLRSLFRSNSKHQGGDGGAIVAGSASKRGKDWDDAWLSDLAQDSPSPETEDILA    1040
+RSHDSMSSMSPLTASGNLTIQFNMQQTIRECIWEMLIPAPATSDHSFNVYQTKMEQHQQQRDNGTPSPSPRNVDDRRGSD    1120
+GVFNFTAPPLSSLTKNRASPQKRRHTAKPKSTGDSGSPDNLVPKLNLNSLPKNESGSSLTTCQSDSFNLSPKRSPKTVSS    1200
+ASSIASLTSKIALLKQKVVDFDQAFEKTHGRVPSGNERRPIVGVIKELQELKRLLLDAKAVEQSLQKTSLGSQFSTISVK    1280
+LEEKRKLAGRPLDLSLMTAAQLNEEKLCIQKMLLHFEETYGRPKTKEQKDVMRPIYDRYRKVKLALNRSQTKGSSSGGTP    1360
+NSKTPTGGTAPPPLNDTWNVTMASPAAVSGIELVNLSTEQLVWKLAELQESKKGLRKTLRDFEKEFLRECTILSCSPVFQ    1440
+LTPSSQHDQLPEYYQFVTPTVFCIMTVFELIRLYCGYVGNLQESVPELAAFWMVSVILQLPLCLYSLLDSGALILPLEVS    1520
+VNSILLLFVLAELVVSTALSYINEKFQTFQHYFKQINLSLPSIDLITVLASILQSFRSLFICCWPACNGCFRMTVTSKYD    1600
+SCITRSDFEDVLSGEVFNNDYKGSDLLVCLERGDAACPSSVHKPQLWDLLKACYKMLPASALFSVPGDQTDLRESFAKLH    1680
+KDLLIGNMVKQALKKGVCRIPEKILKSVSCLRPCLPTPSASLDMADDESSFPLHRYYKHNGYKGISIPTFTSEKAYKIVE    1760
+QMEARKDDVLISTYSKSGTTWLQNIVYHLLGCPQGPMGKLTDVVPWLQCDHEDEKWQRMFNFKSPRIFKTHDFYSWLPEQ    1840
+WKNTRLIYCYRNPKDWAVSLFHHFKTFQMDGEAKMAELTFPEFVSQICRQKHVCPYGLWEDHVLDWKTQEGADNILFLTF    1920
+EDMVENMEREIRKIAFFLDVDLTPELLEKVMHEGNFETMKSNGAVNYGWVKGVQERPFIRSGKVGGWKEWFTEEQSKEMD    2000
+DVIAKVESAGGRVRCTLDFNRFNNNFTIPSLYIAMTNIEALLLLLVSLIKCASTYEIGAQKGRLSHPYAEKILKSVSCLR    2080
+PCLPTPSASLDMADDESSFPLHRYYKHNGYKGISIPTFTSEKAYKIVEQMEARKDDVLISTYSKSGTTWLQNIVYHLLGC    2160
+PQGPMGKLTDVVPWLQCDHEDEKWQRMFNFKSPRLFKTHDFYSWLPEQWKSTRLIYCYRNPKDWAVSLFHHFKTFQMDGE    2240
+AKMAELTFPEFVSQICQQKHVCPYGLWEDHVLDWKTQEGADNILFLTFEDMVENMEREIRKIAFFLDVDLTPELLEKVMH    2320
+EGNFETMRSNGAVNYGWVKGVQERPFIRSGKVGGWKEWFTEDQSKEMDDVIAKVESAGGRVRSMTSIEALLLLLVSLIKC    2400
+ASTYEIYDNLLRGISVGQTDSVRYSVAHHLLTSDHIDDIVGVIKNFKSNTTDESNQCAHKIAQIFESLETTNRMEGVKFI    2480
+DALGKPPSGLLSGNTVLMGSYDSCAGINNTDHQWYKSCHISATGVIGQDFSPQYRKLTLFDPDLVDTPILTRAFPPRVSL    2560
+NRSPTVLVNNGEGGEEDEEIVEDGRTPPPDTSQGKDFIPQSTLDYTNALPIWQRWSMEVVYNGLPSVDTFFFLSGFLVSL    2640
+LLSKELARKGGRFNIAAYFIHRYIRLTAPFLIVTMVTGFLLPVIVRGPFETILKPLLQSCQAYWWTNLLYLNNFIPWSKM    2720
+EICVGHSWYLSNDFQFYAVAPIFIYLLYKSPRIGVSVTLIALAGSCIAAGVLSWVYNFTATVILEVNALDDFRLMYIKPW    2800
+IRIPPYLVGVLGGWWTFKNLDSLKLFVGRLRMGQKLLLGSAVWLVSCTIQYWIVFGLHSQMLHKLAGEPQSQIAGTLYET    2880
+FARTSWAVALLLQILACETGLGGVINTLLSWRGWIVLSRLTFAVYLLHYSLIQSYVAQLRHAFFYRPDYELLVCFTITTF    2960
+SSGVSVTLIALAGSCIAAGVLSWVYNFTATVILEVNALDDFRLMYIKPWIRIPPYLVGVLGGWWTFKNLDSLKLFVGRLR    3040
+MGQKLLLGSAVWLVSCTIQYWIVFGLHSQMLHKLAGEPQSQIAGTLYETFARTSWAVALLLQILACETGLGGVINTLLSW    3120
+RGWIVLSRLTFAVYLLHYSLIQSYVAQLRHAFFYRPDYELAVLYIGFLGVTYAVASLLFTLVEQPCYRCCSNFICLCVRF    3200
+RFYSVSEFPRWID                                                                       3280
+................................................................................      80
+................................................................................     160
+.............................................P............P.....................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+.............                                                                       3280
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+98               4    ---MSGR|EE  0.073    .
+98              38    NEYISEK|LK  0.069    .
+98              40    YISEKLK|DK  0.069    .
+98              42    SEKLKDK|VE  0.055    .
+98              50    ELNEYTR|RN  0.081    .
+98              51    LNEYTRR|NA  0.212    .
+98              58    NADYQFK|IL  0.058    .
+98              71    CTASCPR|QK  0.095    .
+98              73    ASCPRQK|ET  0.079    .
+98              86    QTLSTEK|QH  0.058    .
+98             107    VNAHASK|RV  0.068    .
+98             108    NAHASKR|VP  0.244    .
+98             112    SKRVPSK|ST  0.184    .
+98             126    TSSAQDR|ML  0.200    .
+98             136    EPPTSGR|PS  0.112    .
+98             160    DPEIPQK|GQ  0.071    .
+98             174    LIELTAR|CD  0.087    .
+98             193    QCANYIR|QH  0.102    .
+98             203    MQVWNGR|SK  0.153    .
+98             205    VWNGRSK|RN  0.072    .
+98             206    WNGRSKR|NS  0.714 *ProP*
+98             209    RSKRNSR|YQ  0.332    .
+98             212    RNSRYQR|GY  0.372    .
+98             216    YQRGYFR|DK  0.123    .
+98             218    RGYFRDK|RG  0.056    .
+98             219    GYFRDKR|GV  0.698 *ProP*
+98             225    RGVTTSK|NP  0.058    .
+98             236    CLLYLLK|QH  0.057    .
+98             240    LLKQHYR|MI  0.087    .
+98             245    YRMIASR|KN  0.085    .
+98             246    RMIASRK|NK  0.083    .
+98             248    IASRKNK|SL  0.356    .
+98             266    THQIPQK|GQ  0.079    .
+98             280    LIELTAR|CD  0.087    .
+98             299    QCANYIR|QH  0.119    .
+98             310    QEEGLFR|VS  0.073    .
+98             315    FRVSGNR|RI  0.104    .
+98             316    RVSGNRR|II  0.237    .
+98             322    RIIDQLR|NE  0.098    .
+98             347    VVTSVFK|MF  0.066    .
+98             351    VFKMFFR|EL  0.084    .
+98             380    SILTLEK|RN  0.054    .
+98             381    ILTLEKR|NR  0.132    .
+98             383    TLEKRNR|IN  0.113    .
+98             386    KRNRINK|VS  0.218    .
+98             398    LSASEDK|SL  0.089    .
+98             408    VADLVAK|VR  0.060    .
+98             410    DLVAKVR|GY  0.122    .
+98             414    KVRGYCK|NL  0.063    .
+98             425    INYSVLK|YL  0.077    .
+98             437    LNEVGQR|EV  0.157    .
+98             442    QREVDTK|MS  0.084    .
+98             458    FGPNLFR|IK  0.080    .
+98             460    PNLFRIK|ND  0.058    .
+98             468    DLEALQR|QP  0.072    .
+98             474    RQPAITK|SM  0.076    .
+98             484    CLITHNK|QI  0.072    .
+98             499    IYSQVVK|PL  0.075    .
+98             502    QVVKPLK|SA  0.075    .
+98             513    TVVEQAK|LG  0.066    .
+98             526    FILDQTR|EK  0.080    .
+98             528    LDQTREK|EN  0.060    .
+98             538    QLPYDNR|NL  0.083    .
+98             542    DNRNLNK|YI  0.084    .
+98             547    NKYINYR|LE  0.098    .
+98             557    IEGTSWK|TL  0.077    .
+98             562    WKTLEVK|NN  0.063    .
+98             567    VKNNCHR|GF  0.126    .
+98             572    HRGFSGK|VL  0.079    .
+98             595    QYTCFLR|FQ  0.085    .
+98             603    QFAHVGK|CG  0.063    .
+98             610    CGQMWAK|KK  0.067    .
+98             611    GQMWAKK|KV  0.121    .
+98             612    QMWAKKK|VT  0.113    .
+98             629    HVMAQTR|ER  0.092    .
+98             631    MAQTRER|TV  0.136    .
+98             635    RERTVVR|AL  0.126    .
+98             640    VRALADK|FP  0.068    .
+98             655    TMDMMYK|MV  0.086    .
+98             659    MYKMVAK|AI  0.102    .
+98             663    VAKAISK|KG  0.056    .
+98             664    AKAISKK|GP  0.122    .
+98             670    KGPVGAR|VT  0.083    .
+98             683    FYALGIR|VP  0.060    .
+98             735    FIDLVAK|VR  0.060    .
+98             737    DLVAKVR|GY  0.115    .
+98             741    KVRGYCK|NL  0.063    .
+98             752    INYSVLK|YL  0.077    .
+98             764    LNEVGQR|EV  0.157    .
+98             769    QREVDTK|MS  0.084    .
+98             785    FGPNLFR|IK  0.080    .
+98             787    PNLFRIK|ND  0.058    .
+98             795    DLEALQR|QP  0.072    .
+98             801    RQPAITK|SM  0.076    .
+98             811    CLITHNK|QI  0.072    .
+98             826    IYSQVVK|PL  0.075    .
+98             829    QVVKPLK|SA  0.075    .
+98             840    TVVEQAK|LG  0.066    .
+98             853    FILDQTR|EK  0.080    .
+98             855    LDQTREK|EN  0.060    .
+98             865    QLPYDNR|NL  0.093    .
+98             869    DNRNLNK|IF  0.074    .
+98             883    IYSQVVK|PL  0.075    .
+98             886    QVVKPLK|SA  0.075    .
+98             897    TVVEQAK|LG  0.066    .
+98             910    FILDQTR|EK  0.080    .
+98             912    LDQTREK|EN  0.060    .
+98             922    QLPYDNR|NL  0.091    .
+98             926    DNRNLNK|EL  0.066    .
+98             934    LQCVASK|SI  0.101    .
+98             976    SPTLSFR|VQ  0.071    .
+98             989    YYIMMLR|SL  0.104    .
+98             993    MLRSLFR|SN  0.214    .
+98             997    LFRSNSK|HQ  0.070    .
+98            1013    VAGSASK|RG  0.056    .
+98            1014    AGSASKR|GK  0.277    .
+98            1016    SASKRGK|DW  0.139    .
+98            1041    TEDILAR|SH  0.127    .
+98            1069    NMQQTIR|EC  0.085    .
+98            1093    FNVYQTK|ME  0.069    .
+98            1101    EQHQQQR|DN  0.131    .
+98            1111    TPSPSPR|NV  0.351    .
+98            1116    PRNVDDR|RG  0.158    .
+98            1117    RNVDDRR|GS  0.226    .
+98            1135    PLSSLTK|NR  0.058    .
+98            1137    SSLTKNR|AS  0.132    .
+98            1142    NRASPQK|RR  0.071    .
+98            1143    RASPQKR|RH  0.269    .
+98            1144    ASPQKRR|HT  0.162    .
+98            1148    KRRHTAK|PK  0.125    .
+98            1150    RHTAKPK|ST  0.127    .
+98            1164    PDNLVPK|LN  0.066    .
+98            1172    NLNSLPK|NE  0.065    .
+98            1192    SFNLSPK|RS  0.065    .
+98            1193    FNLSPKR|SP  0.182    .
+98            1196    SPKRSPK|TV  0.299    .
+98            1210    IASLTSK|IA  0.072    .
+98            1215    SKIALLK|QK  0.062    .
+98            1217    IALLKQK|VV  0.073    .
+98            1227    FDQAFEK|TH  0.072    .
+98            1231    FEKTHGR|VP  0.093    .
+98            1238    VPSGNER|RP  0.083    .
+98            1239    PSGNERR|PI  0.182    .
+98            1246    PIVGVIK|EL  0.061    .
+98            1252    KELQELK|RL  0.052    .
+98            1253    ELQELKR|LL  0.160    .
+98            1259    RLLLDAK|AV  0.093    .
+98            1267    VEQSLQK|TS  0.057    .
+98            1280    FSTISVK|LE  0.058    .
+98            1284    SVKLEEK|RK  0.057    .
+98            1285    VKLEEKR|KL  0.122    .
+98            1286    KLEEKRK|LA  0.104    .
+98            1290    KRKLAGR|PL  0.130    .
+98            1306    AQLNEEK|LC  0.059    .
+98            1311    EKLCIQK|ML  0.060    .
+98            1322    FEETYGR|PK  0.085    .
+98            1324    ETYGRPK|TK  0.066    .
+98            1326    YGRPKTK|EQ  0.081    .
+98            1329    PKTKEQK|DV  0.080    .
+98            1333    EQKDVMR|PI  0.104    .
+98            1338    MRPIYDR|YR  0.090    .
+98            1340    PIYDRYR|KV  0.102    .
+98            1341    IYDRYRK|VK  0.135    .
+98            1343    DRYRKVK|LA  0.147    .
+98            1348    VKLALNR|SQ  0.118    .
+98            1352    LNRSQTK|GS  0.080    .
+98            1363    GGTPNSK|TP  0.056    .
+98            1404    TEQLVWK|LA  0.081    .
+98            1412    AELQESK|KG  0.050    .
+98            1413    ELQESKK|GL  0.126    .
+98            1416    ESKKGLR|KT  0.070    .
+98            1417    SKKGLRK|TL  0.098    .
+98            1420    GLRKTLR|DF  0.166    .
+98            1424    TLRDFEK|EF  0.066    .
+98            1428    FEKEFLR|EC  0.072    .
+98            1472    TVFELIR|LY  0.086    .
+98            1545    LSYINEK|FQ  0.060    .
+98            1554    TFQHYFK|QI  0.079    .
+98            1577    SILQSFR|SL  0.105    .
+98            1592    ACNGCFR|MT  0.103    .
+98            1598    RMTVTSK|YD  0.070    .
+98            1605    YDSCITR|SD  0.138    .
+98            1622    VFNNDYK|GS  0.060    .
+98            1632    LLVCLER|GD  0.089    .
+98            1643    CPSSVHK|PQ  0.066    .
+98            1651    QLWDLLK|AC  0.069    .
+98            1655    LLKACYK|ML  0.064    .
+98            1673    GDQTDLR|ES  0.100    .
+98            1678    LRESFAK|LH  0.072    .
+98            1681    SFAKLHK|DL  0.073    .
+98            1690    LIGNMVK|QA  0.068    .
+98            1694    MVKQALK|KG  0.052    .
+98            1695    VKQALKK|GV  0.167    .
+98            1699    LKKGVCR|IP  0.128    .
+98            1703    VCRIPEK|IL  0.060    .
+98            1706    IPEKILK|SV  0.134    .
+98            1712    KSVSCLR|PC  0.077    .
+98            1735    SSFPLHR|YY  0.092    .
+98            1738    PLHRYYK|HN  0.207    .
+98            1743    YKHNGYK|GI  0.085    .
+98            1754    PTFTSEK|AY  0.067    .
+98            1757    TSEKAYK|IV  0.131    .
+98            1765    VEQMEAR|KD  0.099    .
+98            1766    EQMEARK|DD  0.074    .
+98            1776    LISTYSK|SG  0.087    .
+98            1799    PQGPMGK|LT  0.063    .
+98            1815    CDHEDEK|WQ  0.057    .
+98            1818    EDEKWQR|MF  0.083    .
+98            1823    QRMFNFK|SP  0.087    .
+98            1826    FNFKSPR|IF  0.102    .
+98            1829    KSPRIFK|TH  0.101    .
+98            1842    WLPEQWK|NT  0.060    .
+98            1845    EQWKNTR|LI  0.082    .
+98            1851    RLIYCYR|NP  0.080    .
+98            1854    YCYRNPK|DW  0.167    .
+98            1865    SLFHHFK|TF  0.069    .
+98            1874    QMDGEAK|MA  0.077    .
+98            1889    FVSQICR|QK  0.095    .
+98            1891    SQICRQK|HV  0.094    .
+98            1907    DHVLDWK|TQ  0.059    .
+98            1929    MVENMER|EI  0.098    .
+98            1932    NMEREIR|KI  0.183    .
+98            1933    MEREIRK|IA  0.094    .
+98            1949    TPELLEK|VM  0.064    .
+98            1960    GNFETMK|SN  0.115    .
+98            1971    VNYGWVK|GV  0.070    .
+98            1976    VKGVQER|PF  0.104    .
+98            1980    QERPFIR|SG  0.137    .
+98            1983    PFIRSGK|VG  0.170    .
+98            1988    GKVGGWK|EW  0.074    .
+98            1997    FTEEQSK|EM  0.070    .
+98            2005    MDDVIAK|VE  0.067    .
+98            2012    VESAGGR|VR  0.079    .
+98            2014    SAGGRVR|CT  0.085    .
+98            2021    CTLDFNR|FN  0.074    .
+98            2050    LLVSLIK|CA  0.073    .
+98            2061    YEIGAQK|GR  0.056    .
+98            2063    IGAQKGR|LS  0.103    .
+98            2071    SHPYAEK|IL  0.058    .
+98            2074    YAEKILK|SV  0.121    .
+98            2080    KSVSCLR|PC  0.077    .
+98            2103    SSFPLHR|YY  0.092    .
+98            2106    PLHRYYK|HN  0.207    .
+98            2111    YKHNGYK|GI  0.085    .
+98            2122    PTFTSEK|AY  0.067    .
+98            2125    TSEKAYK|IV  0.131    .
+98            2133    VEQMEAR|KD  0.099    .
+98            2134    EQMEARK|DD  0.074    .
+98            2144    LISTYSK|SG  0.087    .
+98            2167    PQGPMGK|LT  0.063    .
+98            2183    CDHEDEK|WQ  0.057    .
+98            2186    EDEKWQR|MF  0.083    .
+98            2191    QRMFNFK|SP  0.079    .
+98            2194    FNFKSPR|LF  0.095    .
+98            2197    KSPRLFK|TH  0.103    .
+98            2210    WLPEQWK|ST  0.074    .
+98            2213    EQWKSTR|LI  0.090    .
+98            2219    RLIYCYR|NP  0.079    .
+98            2222    YCYRNPK|DW  0.167    .
+98            2233    SLFHHFK|TF  0.069    .
+98            2242    QMDGEAK|MA  0.077    .
+98            2259    SQICQQK|HV  0.099    .
+98            2275    DHVLDWK|TQ  0.059    .
+98            2297    MVENMER|EI  0.098    .
+98            2300    NMEREIR|KI  0.183    .
+98            2301    MEREIRK|IA  0.094    .
+98            2317    TPELLEK|VM  0.064    .
+98            2328    GNFETMR|SN  0.198    .
+98            2339    VNYGWVK|GV  0.070    .
+98            2344    VKGVQER|PF  0.104    .
+98            2348    QERPFIR|SG  0.137    .
+98            2351    PFIRSGK|VG  0.170    .
+98            2356    GKVGGWK|EW  0.068    .
+98            2365    FTEDQSK|EM  0.071    .
+98            2373    MDDVIAK|VE  0.067    .
+98            2380    VESAGGR|VR  0.075    .
+98            2382    SAGGRVR|SM  0.148    .
+98            2399    LLVSLIK|CA  0.069    .
+98            2412    IYDNLLR|GI  0.106    .
+98            2423    GQTDSVR|YS  0.079    .
+98            2444    DIVGVIK|NF  0.058    .
+98            2447    GVIKNFK|SN  0.084    .
+98            2460    SNQCAHK|IA  0.075    .
+98            2473    SLETTNR|ME  0.089    .
+98            2478    NRMEGVK|FI  0.082    .
+98            2485    FIDALGK|PP  0.065    .
+98            2516    TDHQWYK|SC  0.114    .
+98            2535    DFSPQYR|KL  0.087    .
+98            2536    FSPQYRK|LT  0.066    .
+98            2552    DTPILTR|AF  0.065    .
+98            2557    TRAFPPR|VS  0.108    .
+98            2562    PRVSLNR|SP  0.116    .
+98            2585    EIVEDGR|TP  0.067    .
+98            2595    PDTSQGK|DF  0.072    .
+98            2614    ALPIWQR|WS  0.092    .
+98            2644    VSLLLSK|EL  0.058    .
+98            2648    LSKELAR|KG  0.086    .
+98            2649    SKELARK|GG  0.075    .
+98            2652    LARKGGR|FN  0.111    .
+98            2662    AAYFIHR|YI  0.086    .
+98            2665    FIHRYIR|LT  0.226    .
+98            2686    LLPVIVR|GP  0.074    .
+98            2694    PFETILK|PL  0.054    .
+98            2719    NFIPWSK|ME  0.062    .
+98            2749    FIYLLYK|SP  0.073    .
+98            2752    LLYKSPR|IG  0.087    .
+98            2793    NALDDFR|LM  0.069    .
+98            2798    FRLMYIK|PW  0.066    .
+98            2802    YIKPWIR|IP  0.065    .
+98            2818    GGWWTFK|NL  0.064    .
+98            2824    KNLDSLK|LF  0.060    .
+98            2829    LKLFVGR|LR  0.079    .
+98            2831    LFVGRLR|MG  0.079    .
+98            2835    RLRMGQK|LL  0.064    .
+98            2864    HSQMLHK|LA  0.090    .
+98            2883    LYETFAR|TS  0.087    .
+98            2912    NTLLSWR|GW  0.077    .
+98            2919    GWIVLSR|LT  0.092    .
+98            2940    SYVAQLR|HA  0.107    .
+98            2946    RHAFFYR|PD  0.113    .
+98            3002    NALDDFR|LM  0.069    .
+98            3007    FRLMYIK|PW  0.066    .
+98            3011    YIKPWIR|IP  0.065    .
+98            3027    GGWWTFK|NL  0.064    .
+98            3033    KNLDSLK|LF  0.060    .
+98            3038    LKLFVGR|LR  0.079    .
+98            3040    LFVGRLR|MG  0.079    .
+98            3044    RLRMGQK|LL  0.064    .
+98            3073    HSQMLHK|LA  0.090    .
+98            3092    LYETFAR|TS  0.087    .
+98            3121    NTLLSWR|GW  0.077    .
+98            3128    GWIVLSR|LT  0.092    .
+98            3149    SYVAQLR|HA  0.107    .
+98            3155    RHAFFYR|PD  0.095    .
+98            3188    VEQPCYR|CC  0.083    .
+98            3199    FICLCVR|FR  0.081    .
+98            3201    CLCVRFR|FY  0.123    .
+98            3210    SVSEFPR|WI  0.163    .
+____________________________^_________________
+
+
+
+

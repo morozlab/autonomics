@@ -1,0 +1,302 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1479 624         
+MQEAHKRMNGHRSKFTEAGHQGSALAQHCWEAHRDQFSLDYFKLGLIKNYRFEHMLRVEAQVTLLNQIVCSNELLESDIL      80
+SSVKPSIGRRFLFPDLEERKFRILQAARQQILTECSIPEATRALNELNLECQAGKTPGYNSDHPKMLKIRRNIERKHQVK     160
+KQFFVNKPQQAPCPNKRRGAYRARRKRRVKERKGNAKEKRLEARRQKVETIKTTTVRNLSDEEVPDGAYLYLAKGLNFVE     240
+TKPLEQEDLKHDAREFLRKLEWRAHFHQIGKEDTREEDDHPELRIPSRRWPTDFQSNVVDEIKRNLLAYVDSLRPPRPKS     320
+NLNYLELEGKKWLIQAIEEEKIFISKADKGGATLILNYRTALGSVEESLADRSKFSETDTPISDRMLPNQPPIRLVHATR     400
+NGPLYRLEKWVSPYLTKLSKEYVGEEFLRDTDELLKQLNGMGELQGNTRVFTLDVQALYPSIRKDLALTALDHALSNLRS     480
+RDDKAGARSRVPRETASGLYLLLWIGSGRDLFPSDHSVEAQVTLLNQIVCSNELLESDILSSVKPSIGRRFLFPDLEERK     560
+FRILQAARQQILTECSIPEATRALNELNLECQAGKTPGYNSDHPKMLKIRRNIERKHQVKKQFFVNKPQQAPCPNKRRGA     640
+YRARRKRRVKERKGNAKEKRLEARRQKVETIKTTTVRNLSDEEVPDGAYLYLAKGLNFVETKPLEQEDLKHDAREFLRKL     720
+EWRAHFHQIGKEDTREEDDHPELRIPSRRWPTDFQSNVVDEIKRNLLAYVDSLRPPRPKSNLNYLELEGKKWLIQAIEEE     800
+KIFISKADKGGATLILNYRTALGSVEESLADRSKFSETDTPISDRMSAVTAMVKILVLEEVERGNISERDKTLITGINRK     880
+GNLKTSPVLRPEVPFTYPLFKIHKLTEEQISEGLVPPIRLVHATRNGPLYRLEKWVSPYLTKLSKEYVGEEFLRDTDELL     960
+KQLNGMGELQGNTRVFTLDVQALYPSIRKDLALTALDHALSNLRSRDDKAGAVKRFVKCILEETFVTFREVVYTTVEGIP    1040
+TGNCISRQLADIFLHWLLFVECPRLIPREALMWRRFIDDVFGIWRGSERQLANFISSLNRTTSSYGIIFGDHQFGETVNF    1120
+LDTSVTIENSRIHYRLYRKPTDARDYLKTDSYHPKHVFKSVIFSQMIRVINRNSRESTRLEDLNELKIDLLRSGQLERDL    1200
+DHFQSKAVDRAQMLSLGEPGSSKPDTPKSLVFATTFFEGIDELRSYLKGLEEDIAAITGGCTVLLSMRKSPAIGNLVVRN    1280
+RRLSESSTGPIESEEDFNQKCGGPGCRTCPMMSTSPTLSINGQRLKLNGSLNCKSKNIIYIAQCTICSRGSGNRKEDSYI    1360
+GQTMQEAHKRMNGHRSKFTEAGHQGSALAQHGGEAHRDQFSLDYFKLGLIKTVSPLALDRHENKLIDRLRTKLFGLNRIN    1440
+VIIISPGRNIDTNTSYNKLVGLLIGSFIASYCKSTVTEF                                             1520
+................................................................................      80
+................................................................................     160
+..........................PP....................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+............P...................................................................     560
+................................................................................     640
+......PP........................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+.......................................                                             1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+624              6    -MQEAHK|RM  0.058    .
+624              7    MQEAHKR|MN  0.205    .
+624             12    KRMNGHR|SK  0.197    .
+624             14    MNGHRSK|FT  0.109    .
+624             34    HCWEAHR|DQ  0.083    .
+624             43    FSLDYFK|LG  0.052    .
+624             48    FKLGLIK|NY  0.054    .
+624             51    GLIKNYR|FE  0.093    .
+624             57    RFEHMLR|VE  0.072    .
+624             84    DILSSVK|PS  0.058    .
+624             89    VKPSIGR|RF  0.060    .
+624             90    KPSIGRR|FL  0.231    .
+624             99    FPDLEER|KF  0.080    .
+624            100    PDLEERK|FR  0.067    .
+624            102    LEERKFR|IL  0.396    .
+624            108    RILQAAR|QQ  0.078    .
+624            122    SIPEATR|AL  0.077    .
+624            135    LECQAGK|TP  0.067    .
+624            145    YNSDHPK|ML  0.092    .
+624            148    DHPKMLK|IR  0.059    .
+624            150    PKMLKIR|RN  0.100    .
+624            151    KMLKIRR|NI  0.166    .
+624            155    IRRNIER|KH  0.100    .
+624            156    RRNIERK|HQ  0.122    .
+624            160    ERKHQVK|KQ  0.069    .
+624            161    RKHQVKK|QF  0.150    .
+624            167    KQFFVNK|PQ  0.067    .
+624            176    QAPCPNK|RR  0.063    .
+624            177    APCPNKR|RG  0.110    .
+624            178    PCPNKRR|GA  0.189    .
+624            182    KRRGAYR|AR  0.122    .
+624            184    RGAYRAR|RK  0.095    .
+624            185    GAYRARR|KR  0.377    .
+624            186    AYRARRK|RR  0.072    .
+624            187    YRARRKR|RV  0.684 *ProP*
+624            188    RARRKRR|VK  0.719 *ProP*
+624            190    RRKRRVK|ER  0.130    .
+624            192    KRRVKER|KG  0.159    .
+624            193    RRVKERK|GN  0.124    .
+624            197    ERKGNAK|EK  0.068    .
+624            199    KGNAKEK|RL  0.080    .
+624            200    GNAKEKR|LE  0.190    .
+624            204    EKRLEAR|RQ  0.088    .
+624            205    KRLEARR|QK  0.119    .
+624            207    LEARRQK|VE  0.128    .
+624            212    QKVETIK|TT  0.062    .
+624            217    IKTTTVR|NL  0.115    .
+624            234    AYLYLAK|GL  0.067    .
+624            242    LNFVETK|PL  0.076    .
+624            250    LEQEDLK|HD  0.059    .
+624            254    DLKHDAR|EF  0.089    .
+624            258    DAREFLR|KL  0.090    .
+624            259    AREFLRK|LE  0.096    .
+624            263    LRKLEWR|AH  0.126    .
+624            271    HFHQIGK|ED  0.068    .
+624            275    IGKEDTR|EE  0.081    .
+624            284    DDHPELR|IP  0.087    .
+624            288    ELRIPSR|RW  0.091    .
+624            289    LRIPSRR|WP  0.196    .
+624            303    NVVDEIK|RN  0.055    .
+624            304    VVDEIKR|NL  0.129    .
+624            314    AYVDSLR|PP  0.071    .
+624            317    DSLRPPR|PK  0.171    .
+624            319    LRPPRPK|SN  0.089    .
+624            330    YLELEGK|KW  0.057    .
+624            331    LELEGKK|WL  0.095    .
+624            341    QAIEEEK|IF  0.057    .
+624            346    EKIFISK|AD  0.062    .
+624            349    FISKADK|GG  0.067    .
+624            359    TLILNYR|TA  0.088    .
+624            372    EESLADR|SK  0.144    .
+624            374    SLADRSK|FS  0.082    .
+624            385    DTPISDR|ML  0.085    .
+624            394    PNQPPIR|LV  0.145    .
+624            400    RLVHATR|NG  0.074    .
+624            406    RNGPLYR|LE  0.085    .
+624            409    PLYRLEK|WV  0.245    .
+624            417    VSPYLTK|LS  0.060    .
+624            420    YLTKLSK|EY  0.059    .
+624            429    VGEEFLR|DT  0.128    .
+624            436    DTDELLK|QL  0.057    .
+624            449    ELQGNTR|VF  0.072    .
+624            463    ALYPSIR|KD  0.075    .
+624            464    LYPSIRK|DL  0.066    .
+624            479    HALSNLR|SR  0.099    .
+624            481    LSNLRSR|DD  0.141    .
+624            484    LRSRDDK|AG  0.170    .
+624            488    DDKAGAR|SR  0.107    .
+624            490    KAGARSR|VP  0.075    .
+624            493    ARSRVPR|ET  0.582 *ProP*
+624            509    LWIGSGR|DL  0.142    .
+624            544    DILSSVK|PS  0.058    .
+624            549    VKPSIGR|RF  0.060    .
+624            550    KPSIGRR|FL  0.231    .
+624            559    FPDLEER|KF  0.080    .
+624            560    PDLEERK|FR  0.067    .
+624            562    LEERKFR|IL  0.396    .
+624            568    RILQAAR|QQ  0.078    .
+624            582    SIPEATR|AL  0.077    .
+624            595    LECQAGK|TP  0.067    .
+624            605    YNSDHPK|ML  0.092    .
+624            608    DHPKMLK|IR  0.059    .
+624            610    PKMLKIR|RN  0.100    .
+624            611    KMLKIRR|NI  0.166    .
+624            615    IRRNIER|KH  0.100    .
+624            616    RRNIERK|HQ  0.122    .
+624            620    ERKHQVK|KQ  0.069    .
+624            621    RKHQVKK|QF  0.150    .
+624            627    KQFFVNK|PQ  0.067    .
+624            636    QAPCPNK|RR  0.063    .
+624            637    APCPNKR|RG  0.110    .
+624            638    PCPNKRR|GA  0.189    .
+624            642    KRRGAYR|AR  0.122    .
+624            644    RGAYRAR|RK  0.095    .
+624            645    GAYRARR|KR  0.377    .
+624            646    AYRARRK|RR  0.072    .
+624            647    YRARRKR|RV  0.684 *ProP*
+624            648    RARRKRR|VK  0.719 *ProP*
+624            650    RRKRRVK|ER  0.130    .
+624            652    KRRVKER|KG  0.159    .
+624            653    RRVKERK|GN  0.124    .
+624            657    ERKGNAK|EK  0.068    .
+624            659    KGNAKEK|RL  0.080    .
+624            660    GNAKEKR|LE  0.190    .
+624            664    EKRLEAR|RQ  0.088    .
+624            665    KRLEARR|QK  0.119    .
+624            667    LEARRQK|VE  0.128    .
+624            672    QKVETIK|TT  0.062    .
+624            677    IKTTTVR|NL  0.115    .
+624            694    AYLYLAK|GL  0.067    .
+624            702    LNFVETK|PL  0.076    .
+624            710    LEQEDLK|HD  0.059    .
+624            714    DLKHDAR|EF  0.089    .
+624            718    DAREFLR|KL  0.090    .
+624            719    AREFLRK|LE  0.096    .
+624            723    LRKLEWR|AH  0.126    .
+624            731    HFHQIGK|ED  0.068    .
+624            735    IGKEDTR|EE  0.081    .
+624            744    DDHPELR|IP  0.087    .
+624            748    ELRIPSR|RW  0.091    .
+624            749    LRIPSRR|WP  0.196    .
+624            763    NVVDEIK|RN  0.055    .
+624            764    VVDEIKR|NL  0.129    .
+624            774    AYVDSLR|PP  0.071    .
+624            777    DSLRPPR|PK  0.171    .
+624            779    LRPPRPK|SN  0.089    .
+624            790    YLELEGK|KW  0.057    .
+624            791    LELEGKK|WL  0.095    .
+624            801    QAIEEEK|IF  0.057    .
+624            806    EKIFISK|AD  0.062    .
+624            809    FISKADK|GG  0.067    .
+624            819    TLILNYR|TA  0.088    .
+624            832    EESLADR|SK  0.144    .
+624            834    SLADRSK|FS  0.082    .
+624            845    DTPISDR|MS  0.075    .
+624            854    AVTAMVK|IL  0.055    .
+624            863    VLEEVER|GN  0.086    .
+624            869    RGNISER|DK  0.116    .
+624            871    NISERDK|TL  0.081    .
+624            879    LITGINR|KG  0.063    .
+624            880    ITGINRK|GN  0.075    .
+624            884    NRKGNLK|TS  0.059    .
+624            890    KTSPVLR|PE  0.083    .
+624            901    FTYPLFK|IH  0.061    .
+624            904    PLFKIHK|LT  0.069    .
+624            919    GLVPPIR|LV  0.122    .
+624            925    RLVHATR|NG  0.074    .
+624            931    RNGPLYR|LE  0.085    .
+624            934    PLYRLEK|WV  0.245    .
+624            942    VSPYLTK|LS  0.060    .
+624            945    YLTKLSK|EY  0.059    .
+624            954    VGEEFLR|DT  0.128    .
+624            961    DTDELLK|QL  0.057    .
+624            974    ELQGNTR|VF  0.072    .
+624            988    ALYPSIR|KD  0.075    .
+624            989    LYPSIRK|DL  0.066    .
+624           1004    HALSNLR|SR  0.101    .
+624           1006    LSNLRSR|DD  0.123    .
+624           1009    LRSRDDK|AG  0.198    .
+624           1014    DKAGAVK|RF  0.060    .
+624           1015    KAGAVKR|FV  0.436    .
+624           1018    AVKRFVK|CI  0.138    .
+624           1029    ETFVTFR|EV  0.087    .
+624           1047    TGNCISR|QL  0.145    .
+624           1064    LFVECPR|LI  0.076    .
+624           1068    CPRLIPR|EA  0.097    .
+624           1074    REALMWR|RF  0.089    .
+624           1075    EALMWRR|FI  0.231    .
+624           1085    DVFGIWR|GS  0.100    .
+624           1089    IWRGSER|QL  0.097    .
+624           1100    FISSLNR|TT  0.114    .
+624           1131    VTIENSR|IH  0.066    .
+624           1135    NSRIHYR|LY  0.101    .
+624           1138    IHYRLYR|KP  0.238    .
+624           1139    HYRLYRK|PT  0.077    .
+624           1144    RKPTDAR|DY  0.096    .
+624           1148    DARDYLK|TD  0.066    .
+624           1155    TDSYHPK|HV  0.150    .
+624           1159    HPKHVFK|SV  0.184    .
+624           1168    IFSQMIR|VI  0.083    .
+624           1172    MIRVINR|NS  0.100    .
+624           1175    VINRNSR|ES  0.237    .
+624           1179    NSRESTR|LE  0.087    .
+624           1187    EDLNELK|ID  0.051    .
+624           1192    LKIDLLR|SG  0.088    .
+624           1198    RSGQLER|DL  0.129    .
+624           1206    LDHFQSK|AV  0.121    .
+624           1210    QSKAVDR|AQ  0.107    .
+624           1223    GEPGSSK|PD  0.058    .
+624           1228    SKPDTPK|SL  0.084    .
+624           1244    EGIDELR|SY  0.114    .
+624           1248    ELRSYLK|GL  0.070    .
+624           1268    TVLLSMR|KS  0.082    .
+624           1269    VLLSMRK|SP  0.084    .
+624           1279    IGNLVVR|NR  0.099    .
+624           1281    NLVVRNR|RL  0.096    .
+624           1282    LVVRNRR|LS  0.344    .
+624           1300    EEDFNQK|CG  0.071    .
+624           1307    CGGPGCR|TC  0.070    .
+624           1324    LSINGQR|LK  0.071    .
+624           1326    INGQRLK|LN  0.062    .
+624           1334    NGSLNCK|SK  0.080    .
+624           1336    SLNCKSK|NI  0.082    .
+624           1349    QCTICSR|GS  0.087    .
+624           1354    SRGSGNR|KE  0.099    .
+624           1355    RGSGNRK|ED  0.115    .
+624           1369    TMQEAHK|RM  0.060    .
+624           1370    MQEAHKR|MN  0.226    .
+624           1375    KRMNGHR|SK  0.197    .
+624           1377    MNGHRSK|FT  0.109    .
+624           1397    HGGEAHR|DQ  0.085    .
+624           1406    FSLDYFK|LG  0.052    .
+624           1411    FKLGLIK|TV  0.066    .
+624           1420    SPLALDR|HE  0.082    .
+624           1424    LDRHENK|LI  0.071    .
+624           1428    ENKLIDR|LR  0.070    .
+624           1430    KLIDRLR|TK  0.089    .
+624           1432    IDRLRTK|LF  0.065    .
+624           1438    KLFGLNR|IN  0.077    .
+624           1448    IIISPGR|NI  0.097    .
+624           1458    TNTSYNK|LV  0.081    .
+624           1473    FIASYCK|ST  0.079    .
+____________________________^_________________
+
+
+
+

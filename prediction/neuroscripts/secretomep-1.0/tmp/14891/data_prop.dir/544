@@ -1,0 +1,267 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1576 544         
+MVLHNRIKEFEGLIQYIEVQASYEASAERPNSVAWEVPVSAIKQPSLPFPPNGDPQLFYYPYLPPQPYQYQVPGPPYPPP      80
+MLDPNVVAVPGVNSNNSHPSLLPPLLSLVVVIRRRVTVERGTGQGHDGYKPKSKLDTLDPPQEMPTPGSTSSEQKKSPPP     160
+PQKASSPTKKEATPQITEDSPVETPSPAEAASTQQSPEIPASQTVEVGKDEPKAVESEVVNHIAETIPDSTSNAVQESDK     240
+KDVDIIEEKIPAEKIKKEKHEVKEEVTQEEKQEIIGESAENSVVDAETKQGVLTNGEVVLEEEKTPTKTAKEENSLPCDE     320
+AATESKEMKVSGEAEGTKPRGDTESSESFSLKHNTSGDLNEKLEEAINDNSSTEQPPVLDGPATSASNTSEVDGTATTAS     400
+TTSEADGPTTSTISELDGPATTTTDNSAIVIPNSPEKGNWTMVSSGALSSSSSDNFVHVGSDGSAHSLPTSPDVSERKEE     480
+EPPTREKTVVPAGGEVVPVKRKKKESGNKVAGKPPTPPSAVTKPTKEQPPVKAARAVKVSASSADGDSKEVDVLSESGLS     560
+TMSSSSVHSCISLPTNPLARSTSWADLVRKGKSDSPPVTAPKKQVSSKSAASKYQSTPSRYLSHVQQAPETTTKKQVTVS     640
+KSRSLPLSSKPARPPKTSHIGEDGWSVSSGKSRVKTIPNKGQPEPKPGKSTTDTIGRTGKTASPHLTQRAVKPRTGEVKS     720
+KVAGDKSKPDIGSRTKSSDSIEKARPSRATVPKSRPVPSKPVSKPSSTTPKPVKKTLTASKPLSKPSTTTSKPLSKARSL     800
+DGANKLDPTKSSKGISKSSDSLDKTGKKKEEPKGKKTTSTTTTNPPAATPPTTLTVDTTEEILSDVITPATEDGITPLIE     880
+DLEREISFECKSIQTETINEEYSYYPTSEIKDLQEQQEKERAARAMVHAEKLARAEQLRDQKIAEVKRKAQEEDMKVNEI     960
+AFINSLEAQNRKMELLGKEQQAEAKRAEIQVRQKEVRKRRSEELHAKEEAVLGRKQAIEADRLARIASIEDKIRVSQERT    1040
+SESAAAAQCGNGYLQVSNRDPPSHQVDLNKLEMERGAREKALEREVMREFIRHDRGGDKKSVSSSTLKEMQEKAAMLCRN    1120
+LVPDYLPAHTLYDPPKWCSACNVKIVSEAVLMGHMIKRHQRSTEDEAEKESQFIVNYTDDLCPLTQDNVTRQKILRKRAK    1200
+KVKTRIVNKIPELPAIKLLETGLECPNRNRLTKCIKAMGNVKTREKGLGDLSRTVMTRNDVNHLLEKGVLEQLCGLLSDS    1280
+KLIAPVSKLLLHSCTLSSTGAQICSRYLPDVVESLTVTPAATLPAVHVDLTRLTTALIRSLTPCEPLTVDMISFLVCKEV    1360
+IDVINETCTRTTWIKEGMSPSITPLPQSVLDSEGMSLELRHVCNYLLTCATHNNYNTVLDMCIQLIGYVVFSHPSNQILL    1440
+QNGPSPSILQLLTSLPFSYFSDVSIPQPMTSSFFRQSQITFLQGERQGHQNIMQCLVKRIKMLENALREASTTFSLSDYI    1520
+SLTLSFSLSLPLSLSLSLSLSLPPSFYISISPAAIAENGKFLHATCPLTKDVEFLA                            1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.......................................P........................................    1040
+................................................................................    1120
+........................................P.......................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+........................................................                            1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+544              6    -MVLHNR|IK  0.083    .
+544              8    VLHNRIK|EF  0.070    .
+544             29    YEASAER|PN  0.092    .
+544             43    VPVSAIK|QP  0.056    .
+544            113    SLVVVIR|RR  0.095    .
+544            114    LVVVIRR|RV  0.178    .
+544            115    VVVIRRR|VT  0.098    .
+544            120    RRVTVER|GT  0.228    .
+544            130    QGHDGYK|PK  0.065    .
+544            132    HDGYKPK|SK  0.106    .
+544            134    GYKPKSK|LD  0.065    .
+544            155    STSSEQK|KS  0.062    .
+544            156    TSSEQKK|SP  0.212    .
+544            163    SPPPPQK|AS  0.074    .
+544            169    KASSPTK|KE  0.071    .
+544            170    ASSPTKK|EA  0.238    .
+544            209    QTVEVGK|DE  0.079    .
+544            213    VGKDEPK|AV  0.084    .
+544            240    AVQESDK|KD  0.062    .
+544            241    VQESDKK|DV  0.193    .
+544            249    VDIIEEK|IP  0.058    .
+544            254    EKIPAEK|IK  0.057    .
+544            256    IPAEKIK|KE  0.079    .
+544            257    PAEKIKK|EK  0.096    .
+544            259    EKIKKEK|HE  0.078    .
+544            263    KEKHEVK|EE  0.068    .
+544            271    EVTQEEK|QE  0.059    .
+544            289    VVDAETK|QG  0.053    .
+544            304    VVLEEEK|TP  0.050    .
+544            308    EEKTPTK|TA  0.059    .
+544            311    TPTKTAK|EE  0.073    .
+544            326    EAATESK|EM  0.065    .
+544            329    TESKEMK|VS  0.120    .
+544            338    GEAEGTK|PR  0.075    .
+544            340    AEGTKPR|GD  0.107    .
+544            352    SESFSLK|HN  0.085    .
+544            362    SGDLNEK|LE  0.061    .
+544            437    IPNSPEK|GN  0.079    .
+544            477    SPDVSER|KE  0.103    .
+544            478    PDVSERK|EE  0.075    .
+544            485    EEEPPTR|EK  0.092    .
+544            487    EPPTREK|TV  0.076    .
+544            500    GEVVPVK|RK  0.060    .
+544            501    EVVPVKR|KK  0.150    .
+544            502    VVPVKRK|KK  0.085    .
+544            503    VPVKRKK|KE  0.113    .
+544            504    PVKRKKK|ES  0.453    .
+544            509    KKESGNK|VA  0.068    .
+544            513    GNKVAGK|PP  0.064    .
+544            523    PPSAVTK|PT  0.097    .
+544            526    AVTKPTK|EQ  0.062    .
+544            532    KEQPPVK|AA  0.094    .
+544            535    PPVKAAR|AV  0.192    .
+544            538    KAARAVK|VS  0.117    .
+544            549    SADGDSK|EV  0.072    .
+544            580    PTNPLAR|ST  0.172    .
+544            589    SWADLVR|KG  0.069    .
+544            590    WADLVRK|GK  0.104    .
+544            592    DLVRKGK|SD  0.224    .
+544            602    PPVTAPK|KQ  0.059    .
+544            603    PVTAPKK|QV  0.121    .
+544            608    KKQVSSK|SA  0.128    .
+544            613    SKSAASK|YQ  0.090    .
+544            620    YQSTPSR|YL  0.196    .
+544            634    APETTTK|KQ  0.060    .
+544            635    PETTTKK|QV  0.111    .
+544            641    KQVTVSK|SR  0.083    .
+544            643    VTVSKSR|SL  0.089    .
+544            650    SLPLSSK|PA  0.066    .
+544            653    LSSKPAR|PP  0.135    .
+544            656    KPARPPK|TS  0.362    .
+544            671    WSVSSGK|SR  0.077    .
+544            673    VSSGKSR|VK  0.104    .
+544            675    SGKSRVK|TI  0.063    .
+544            680    VKTIPNK|GQ  0.060    .
+544            686    KGQPEPK|PG  0.066    .
+544            689    PEPKPGK|ST  0.083    .
+544            697    TTDTIGR|TG  0.080    .
+544            700    TIGRTGK|TA  0.276    .
+544            709    SPHLTQR|AV  0.167    .
+544            712    LTQRAVK|PR  0.125    .
+544            714    QRAVKPR|TG  0.136    .
+544            719    PRTGEVK|SK  0.091    .
+544            721    TGEVKSK|VA  0.086    .
+544            726    SKVAGDK|SK  0.089    .
+544            728    VAGDKSK|PD  0.069    .
+544            734    KPDIGSR|TK  0.070    .
+544            736    DIGSRTK|SS  0.087    .
+544            743    SSDSIEK|AR  0.053    .
+544            745    DSIEKAR|PS  0.109    .
+544            748    EKARPSR|AT  0.274    .
+544            753    SRATVPK|SR  0.084    .
+544            755    ATVPKSR|PV  0.115    .
+544            760    SRPVPSK|PV  0.120    .
+544            764    PSKPVSK|PS  0.070    .
+544            771    PSSTTPK|PV  0.116    .
+544            774    TTPKPVK|KT  0.062    .
+544            775    TPKPVKK|TL  0.157    .
+544            781    KTLTASK|PL  0.065    .
+544            785    ASKPLSK|PS  0.059    .
+544            792    PSTTTSK|PL  0.070    .
+544            796    TSKPLSK|AR  0.065    .
+544            798    KPLSKAR|SL  0.231    .
+544            805    SLDGANK|LD  0.054    .
+544            810    NKLDPTK|SS  0.071    .
+544            813    DPTKSSK|GI  0.084    .
+544            817    SSKGISK|SS  0.091    .
+544            824    SSDSLDK|TG  0.060    .
+544            827    SLDKTGK|KK  0.060    .
+544            828    LDKTGKK|KE  0.090    .
+544            829    DKTGKKK|EE  0.103    .
+544            833    KKKEEPK|GK  0.071    .
+544            835    KEEPKGK|KT  0.073    .
+544            836    EEPKGKK|TT  0.096    .
+544            884    LIEDLER|EI  0.088    .
+544            891    EISFECK|SI  0.113    .
+544            911    YPTSEIK|DL  0.072    .
+544            919    LQEQQEK|ER  0.057    .
+544            921    EQQEKER|AA  0.140    .
+544            924    EKERAAR|AM  0.321    .
+544            931    AMVHAEK|LA  0.067    .
+544            934    HAEKLAR|AE  0.071    .
+544            939    ARAEQLR|DQ  0.130    .
+544            942    EQLRDQK|IA  0.128    .
+544            947    QKIAEVK|RK  0.072    .
+544            948    KIAEVKR|KA  0.237    .
+544            949    IAEVKRK|AQ  0.105    .
+544            956    AQEEDMK|VN  0.067    .
+544            971    SLEAQNR|KM  0.089    .
+544            972    LEAQNRK|ME  0.074    .
+544            978    KMELLGK|EQ  0.059    .
+544            985    EQQAEAK|RA  0.091    .
+544            986    QQAEAKR|AE  0.188    .
+544            992    RAEIQVR|QK  0.102    .
+544            994    EIQVRQK|EV  0.079    .
+544            997    VRQKEVR|KR  0.111    .
+544            998    RQKEVRK|RR  0.089    .
+544            999    QKEVRKR|RS  0.186    .
+544           1000    KEVRKRR|SE  0.657 *ProP*
+544           1007    SEELHAK|EE  0.062    .
+544           1014    EEAVLGR|KQ  0.086    .
+544           1015    EAVLGRK|QA  0.075    .
+544           1022    QAIEADR|LA  0.083    .
+544           1025    EADRLAR|IA  0.313    .
+544           1032    IASIEDK|IR  0.072    .
+544           1034    SIEDKIR|VS  0.076    .
+544           1039    IRVSQER|TS  0.106    .
+544           1059    YLQVSNR|DP  0.110    .
+544           1070    HQVDLNK|LE  0.060    .
+544           1075    NKLEMER|GA  0.087    .
+544           1078    EMERGAR|EK  0.156    .
+544           1080    ERGAREK|AL  0.084    .
+544           1084    REKALER|EV  0.101    .
+544           1088    LEREVMR|EF  0.099    .
+544           1092    VMREFIR|HD  0.094    .
+544           1095    EFIRHDR|GG  0.261    .
+544           1099    HDRGGDK|KS  0.056    .
+544           1100    DRGGDKK|SV  0.316    .
+544           1108    VSSSTLK|EM  0.066    .
+544           1113    LKEMQEK|AA  0.073    .
+544           1119    KAAMLCR|NL  0.080    .
+544           1136    TLYDPPK|WC  0.085    .
+544           1144    CSACNVK|IV  0.092    .
+544           1157    LMGHMIK|RH  0.061    .
+544           1158    MGHMIKR|HQ  0.223    .
+544           1161    MIKRHQR|ST  0.649 *ProP*
+544           1169    TEDEAEK|ES  0.061    .
+544           1191    TQDNVTR|QK  0.097    .
+544           1193    DNVTRQK|IL  0.059    .
+544           1196    TRQKILR|KR  0.116    .
+544           1197    RQKILRK|RA  0.092    .
+544           1198    QKILRKR|AK  0.191    .
+544           1200    ILRKRAK|KV  0.098    .
+544           1201    LRKRAKK|VK  0.323    .
+544           1203    KRAKKVK|TR  0.072    .
+544           1205    AKKVKTR|IV  0.166    .
+544           1209    KTRIVNK|IP  0.057    .
+544           1217    PELPAIK|LL  0.064    .
+544           1228    GLECPNR|NR  0.073    .
+544           1230    ECPNRNR|LT  0.078    .
+544           1233    NRNRLTK|CI  0.256    .
+544           1236    RLTKCIK|AM  0.069    .
+544           1242    KAMGNVK|TR  0.070    .
+544           1244    MGNVKTR|EK  0.126    .
+544           1246    NVKTREK|GL  0.074    .
+544           1253    GLGDLSR|TV  0.128    .
+544           1258    SRTVMTR|ND  0.092    .
+544           1267    VNHLLEK|GV  0.085    .
+544           1281    GLLSDSK|LI  0.057    .
+544           1288    LIAPVSK|LL  0.063    .
+544           1306    GAQICSR|YL  0.118    .
+544           1332    VHVDLTR|LT  0.086    .
+544           1339    LTTALIR|SL  0.124    .
+544           1358    ISFLVCK|EV  0.088    .
+544           1370    INETCTR|TT  0.102    .
+544           1375    TRTTWIK|EG  0.058    .
+544           1400    GMSLELR|HV  0.153    .
+544           1475    MTSSFFR|QS  0.126    .
+544           1486    TFLQGER|QG  0.078    .
+544           1498    IMQCLVK|RI  0.065    .
+544           1499    MQCLVKR|IK  0.136    .
+544           1501    CLVKRIK|ML  0.074    .
+544           1508    MLENALR|EA  0.111    .
+544           1560    AIAENGK|FL  0.074    .
+544           1570    ATCPLTK|DV  0.079    .
+____________________________^_________________
+
+
+
+

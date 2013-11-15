@@ -1,0 +1,846 @@
+<HTML>
+<HEAD>
+<TITLE>PSORT Users' Manual</TITLE>
+</HEAD>
+
+<BODY>
+
+<H1>PSORT II Users' Manual</H1> 
+<H3>WWW version (date of last revision: Dec. 1, 1998)</H3>
+<P>
+<H2><A HREF="http://www.imcb.osaka-u.ac.jp/nakai/nakai.html">
+Kenta Nakai</A></H2>
+<H3><A HREF="http://www.imcb.osaka-u.ac.jp">
+Institute for Molecular Biology, Osaka University, Japan</A></H3>
+<P>
+<HR>
+<H2>CONTENTS</H2>
+<dl>
+<A HREF="#intro"><dt><H3>Introduction</H3></dt></A>
+	<dl>
+<B>
+	<A HREF="#about"><dt>About PSORT II</dt></A>
+	<dt>Quick Start</dt>
+</B>	</dl>
+<A HREF="#input"><dt><H3>Input Information for the WWW Server</H3></dt></A>
+	<dl>
+<B>
+	<A HREF="#src"><dt>Source of Input Sequence</dt></A>
+	<A HREF="#seq"><dt>Sequence Field</dt></A>
+</B>	</dl>
+<A HREF="#bact"><dt><H3>Output for Bacterial Sequences</H3></dt></A>
+	<dl>
+<B>
+	<dt>Gram-positive or Gram-negative</dt>
+	<A HREF="#psig"><dt>Recognition of Signal Sequence</dt></A>
+	<A HREF="#palom"><dt>Recognition of Transmembrane Segments</dt></A>
+	<A HREF="#lipop"><dt>Analysis of Lipoproteins</dt></A>
+	<A HREF="#aac"><dt>Analysis of Amino Acid Composition</dt></A>
+</B>	</dl>
+<A HREF="#euk"><dt><H3>Output for Eukaryotic Information</H3></dt></A>
+	<dl>
+<B>	
+	<dt>Yeast, Animal, (or Plant)</dt>
+	<A HREF="#esig"><dt>Recognition of Signal Sequence</dt></A>
+	<A HREF="#ealom"><dt>Recognition of Transmembrane Segments</dt></A>
+	<A HREF="#mtop"><dt>Prediction of Membrane Topology</dt></A>
+	<A HREF="#mit"><dt>Recognition of Mitochondrial Proteins</dt></A>
+	<A HREF="#nuc"><dt>Recognition of Nuclear Proteins</dt></A>
+	<A HREF="#pox"><dt>Recognition of Peroxisomal Proteins</dt></A>
+	<A HREF="#chl"><dt>Recognition of Chloroplast Proteins (not yet supported)</dt></A>
+	<A HREF="#er"><dt>Recognition of ER (endoplasmic reticulum) Proteins</dt></A>
+	<A HREF="#ves"><dt>Analysis of Proteins in Vesicular Pathway</dt></A>
+	<A HREF="#lys"><dt>Lysosomal and Vacuolar Proteins</dt></A>
+	<A HREF="#anc"><dt>Lipid Anchors</dt></A>
+	<A HREF="#motif"><dt>Miscellaneous Motifs</dt></A>
+	<A HREF="#lupas"><dt>Coiled-coil Structure</dt></A>
+</B>	</dl>
+<A HREF="#note"><dt><H3>Notes on the Reasoning System</H3></dt></A>
+	<dl>
+<B>
+	<dt><i>k</i>-Nearest Neighbors Classifier</dt>
+	<dt>Training Data</dt>
+	<dt>Reliability of Prediction Result</dt>
+</B></dl>
+
+<P>
+<HR>
+<A NAME="intro"><H2>Introduction</H2></A>
+<A NAME="about"><H3>About PSORT II</H3></A>
+<P>
+This is a long-awaited new version of PSORT, a program to predict the 
+subcellular localization sites of proteins from their amino acid
+sequences.  Since the older version of PSORT was mostly written in a
+commercial language, OPS83, the distribution of the source code was
+difficult.  Furthermore, since its knowledge base was represented as
+a collection of "if-then" rules and since the assignment of numeric
+certainty parameters to each rule had to be done manually, I could not
+add new rules nor tune the entire numeric parameters using
+newly-obtained sequence data with known localization sites.
+In this version, these difficulties have been overcome:  the entire
+source code was rewritten by perl which will enable this program to
+run on almost all kinds of machines.  Moreover, the reasoning
+algorithm was replaced with a very simple one, the <i>k</i>-nearest
+neighbors classifier, based on the collaboration with Paul Horton,
+Univ. California, Berkeley 
+(<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/ISMB96.html">
+Horton and Nakai, 1996</A>; 
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/horton97.html">
+Horton and Nakai, 1997</A>).  
+Therefore, it is now possible to train
+the program using your own sets of sequence data.  In this server, it
+was trained using the yeast sequences from SWISS-PROT 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=9016499
+&form=6&db=m&Dopt=r"> Bairoch and Apweiler, 1997</A>).
+We expect the
+reliability of prediction is improved and will be improved further 
+because much larger
+training data were used than those for the previous version.
+However, it runs much slower and I have to emphasize that
+the subprograms which calculate various scores from the query
+have not been updated yet in this stage.  In other words,
+the knowledge base is still old although the algorithm to detect
+signal peptides has been refined 
+(<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/GIW96.html">
+Nakai, 1996</A>).  I believe that much more improvements are
+possible on both the reasoning algorithm and the algorithms for
+feature detection.  
+<P>
+
+<H3>Quick Start (WWW server)</H3>
+<P>
+In the input form, select an appropriate button for the source origin of your 
+query sequence and paste that sequence in the field (this means that your WWW
+browser must support the form-fill feature).  If your sequence is already
+registered in the regular release of SWISS-PROT, you may
+indicate it by its accession number, instead.
+Click the "Submit" button, and you will get the output.  
+Its first part is the summary of your input
+for confirmation.  The rest is the result of analyzing various sequence 
+features related to protein sorting signals.
+The final prediction results, <i>i.e.,</i> the percentages of the 
+localization sites of neighbors, are given finally.
+
+<P>
+<HR>
+<A NAME="input"><H2>Input Information for the WWW Server</H2></A>
+<A NAME="src"><H3>Source of Input Sequence</H3>
+<P>
+Select one of the radio buttons to specify the source origin of the input 
+sequence.  This selection determines the candidate localization-sites for 
+prediction as listed below:
+
+<dl>
+<dt>Gram-positive bacterium (not yet supported):</dt>
+	<dd>(cytoplasmic) membrane, cytoplasm, and outside, <i>i.e.,</i> 
+the protein will be secreted.</dd>
+
+<dt>Gram-negative bacterium (not yet supported):</dt>
+	<dd>cytoplasm, inner membrane, periplasm, and outer membrane.</dd>
+
+<dt>yeast and animal:</dt>
+	<dd> cytoskeleton, cytoplasm, nucleus, mitochondria,
+vesicles of secretory system, endoplasmic reticulum (ER),
+Golgi, vacuole, plasma membrane, peroxisome, extracellular space
+including cell wall.</dd>
+
+<dt>plant (not yet supported):</dt>
+	<dd></dd>
+</dl>
+
+<A NAME="seq"><H3>Sequence Field</H3>
+<P>
+Enter the sequence here by direct typing or by copying & pasting.
+You may specify the accession number of SWISS-PROT but currently
+that for daily-updated data cannot be used.
+In case of sequence data,
+characters except standard one-letter code for 20 amino 
+acids, <I>e.g.,</I> spaces, numerals, and carriage returns, will be removed 
+off by the system.  Small cases will be changed to capital ones.<P>
+
+	The input sequence is treated as a full-length amino acid
+sequence containing all information for sorting.  Thus, a 
+warning message will be issued if it starts from an amino acid except M 
+(methionine).
+
+<P>
+<HR>
+<A NAME="bact"><H2>Output for Bacterial Sequences (not yet supported)</H2></A>
+<H3>Gram-positive or Gram-negative</H3>
+<P>
+In the current version, programs and parameters are the same for both kinds 
+of bacteria.  The inner membrane in Gram-negative bacteria is thought to be 
+equivalent to the cytoplasmic membrane of Gram-positive bacteria.  
+Then, the outside in Gram-positive bacteria is further divided into the 
+periplasm and the outer membrane in Gram-negative ones.
+
+<A NAME="psig"><H3>Recognition of Signal Sequence</H3>
+<P>
+In Gram-negative bacteria, most periplasmic and outer membrane proteins 
+have a signal sequence (also called a leader peptide) in the N-terminus, 
+which is cleaved off after the translocation of the cytoplasmic membrane.  
+Some of the cytoplasmic membrane proteins also have a cleavable signal 
+sequence but some N-terminal signals in the cytoplasmic 
+membrane proteins remain as transmembrane segments.  Such a signal
+is called the "signal-anchor" sequence.
+<P>
+	PSORT first predicts the presence of signal sequences by McGeoch's 
+method (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?
+uid=3000102&form=6&db=m&Dopt=r">
+D. J. McGeoch, <I>Virus Res.,</I> <B>3,</B> 271, 1985</A>) modified by
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak91.html">
+Nakai and Kanehisa, 1991</A> and 
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/GIW96.html">
+Nakai, 1996</A>.
+It considers the N-terminal positively-charged region (N-region) 
+and the central hydrophobic region (H-region) of signal sequences.  
+A discriminant score is calculated from the three values: length of 
+H-region, peak value of H-region, and net charge of N-region.  
+These results are summarized in <B>"PSG"</B> (formerly, it was called
+"McG").  A large positive discriminant score means a high possibility 
+to possess a signal sequence but it is unrelated to the possibility 
+of its cleavage.
+<P>
+
+Next, PSORT applies von Heijne's method of signal sequence recognition 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=3714490
+&form=6&db=m&Dopt=r"> G. von Heijne, <I>Nucl. Acids Res.,</I> <B>14,</B> 
+4683, 1986</A>).
+It is a weight-matrix method and incorporates the information of consensus 
+pattern around the cleavage sites (the (-3,-1)-rule) as well as the
+feature of the H-region.  Thus it can be used 
+to detect signal-anchor sequences.  The output score of this 
+<B>"GvH"</B> is the original 
+weight-matrix score (for prokaryotes) subtracted by 7.5.  A large positive 
+output means a high possibility that it has a cleavable signal sequence.  
+The position of possible cleavage site, <I>i.e.,</I> the most C-terminal 
+position of a signal sequence, is also reported.
+
+<A NAME="palom"><H3>Recognition of Transmembrane Segments</H3>
+<P>
+In general, hydrophobic transmembrane segments exist in the cytoplasmic 
+membrane proteins only.  Thus, these segments can be regarded as a
+sorting signal into the cytoplasmic membrane.
+<P>
+	PSORT employs Klein et al.'s method (ALOM, also called
+KKD) to detect potential transmembrane segments 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=3838905
+&form=6&db=m&Dopt=r"> P. Klein, M. Kanehisa, and C. DeLisi, <i>Biochim. 
+Biophys. Acta,</i> <B>815,</B> 468, 1985</A>) modified by <A HREF=
+"http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">Nakai and Kanehisa, 
+1992</A>.  
+It repeats to identify the most probable transmembrane segment from the 
+average hydrophobicity value of 17-residue segments, if any.
+It predicts whether that segment is a transmembrane segment (INTEGRAL) 
+or not (PERIPHERAL) comparing the discriminant score (reported as 'ALOM 
+score') with a threshold parameter(see below).  For an integral membrane 
+protein, position(s) of transmembrane segment(s) are also reported.  
+Their length is fixed to 17 but their extension, <I>i.e.,</I> the maximal 
+range that satisfies the discriminant criterion, is also given in 
+parentheses.  The discrimination step mentioned above is continued after 
+leaving out the detected segment till there remains no predicted 
+transmembrane segment.  The item 'number of TMSs' is the number of 
+predicted transmembrane segments.  Since this algorithm is applied
+to a predicted mature sequence, <i>i.e.,</i> cleavable signal sequence
+is not included, this number is expected to be the one for mature
+proteins.
+<p>
+	The modification by 
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">Nakai and 
+Kanehisa, 1992</A> was to employ
+two kinds of threshold values because ALOM is not very accurate to predict 
+the exact number of transmembrane segments of polytopic, <I>i.e.,</I> 
+multiple membrane-spanning, proteins.  The rationale of our approach
+is that less hydrophobic segments are likely to be more easily integrated 
+into the membrane once a part of the polypeptide is integrated.
+Specifically, PSORT first tentatively evaluates the number of TMSs
+using less stringent value (0.5).  Then, it re-evaluates the number
+by using a more stringent threshold (-2.0).  If it is still predicted
+to have at least one TMS, the former threshold value is used.
+This modified algorithm is named <B>"ALOM2"</B> and the perl program
+is also available.
+
+<A NAME="lipop"><H3>Analysis of Lipoproteins</H3>
+<P>
+The signal sequence of lipoproteins, <i>i.e.,</i> proteins with a covalently 
+attached lipid molecule in their mature N-terminus, are essentially the same 
+as those of usual proteins except the region around their cleavage sites.  
+Thus, they can be recognized by the combination of McGeoch's method and the 
+consensus motif around the cleavage site formulated by von Heijne 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=2664762
+&form=6&db=m&Dopt=r">G. von Heijne, <I>Protein Eng.,</I> <B>2,</B> 531, 
+1989</A>).  
+The program is named as <B>"Lipop"</B> here.  
+It gives the possible modification site around the end position of preceding 
+H-region defined in McGeoch's method for a probable lipoprotein; otherwise, 
+it returns a dummy modification site, -1.
+<P>
+	Since the N-terminal lipid moieties of lipoproteins are thought to 
+be integrated into membranes, they are predicted to be membrane-associated 
+proteins.  For Gram-negative bacterial proteins, further discrimination 
+between the cytoplasmic membrane and the outer membrane is needed.
+It is done as follows based on the experiment of Yamaguchi <i>et al.</i>
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=3284654
+&form=6&db=m&Dopt=r">
+K. Yamaguchi, F. Yu, and M. Inoue, <I>Cell,</I> <B>53,</B> 423, 1988</A>):  
+If a lipoprotein has a negatively charged residue at the second or the 
+third position of the mature part, it is sorted to the inner membrane;
+otherwise, it is sorted to the outer membrane.
+
+<A NAME="aac"><H3>Analysis of Amino Acid Composition</H3>
+<P>
+In Gram-negative bacteria,
+although outer membrane proteins are integrated into the membrane, they 
+do not have any hydrophobic segments which characterize usual integral 
+membrane proteins.  It is interpreted that their membrane-spanning parts 
+consist of beta-strands.  In addition, the sorting signal which discriminates 
+outer membrane proteins from periplasmic proteins is not well 
+characterized.  Therefore, PSORT uses the information of amino acid 
+composition of the predicted mature portion for their discrimination 
+(<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak91.html">
+Nakai and Kanehisa, 1991</A>).  That is, a discriminant score is 
+calculated by the linear combination of the 
+percentage of 10 amino acids for the amino acid sequence except for the
+predicted N-terminal signal sequence, if any.   Large positive scores 
+mean the tendency to be an outer membrane protein.
+In addition, PSORT also examines whether the C-terminal residue is
+phenylalanine or not because its role on sorting to the outer
+membrane has been shown for some proteins (<A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=1848301&form=6
+&db=m&Dopt=r">M. Struyve <i>et al.</i>, <i>J. Mol. Biol.</i>, 
+<b>218</b>, 141, 1991</A>).
+<P>
+<HR>
+<A NAME="euk"><H2>Output for Eukaryotic Information</H2></A>
+<H3>Yeast, Animal, (or Plant)</H3>
+<P>
+In this version of PSORT, parameters for analyzing yeast (or plant) sequences 
+are the same with parameters for animal sequences.  Yeast (and plant) 
+have a candidate site, vacuole, instead of lysosome in animal.  In yeast, the 
+consensus sequence for ER-lumen retention is HDEL rather than KDEL in 
+others.  
+Lastly, plants have a chloroplast as an extra-candidate
+(not yet supported).
+
+<A NAME="esig"><H3>Recognition of Signal Sequence</H3>
+<P>
+In eukaryotes, proteins sorted through the so-called vesicular pathway (bulk 
+flow) usually have a signal sequence (also called a leader peptide) in the N-
+terminus, which is cleaved off after the translocation through the ER 
+membrane.  Some N-terminal signal sequences are not cleaved off, 
+remaining as transmembrane segments but it does not mean these proteins 
+are retained in the ER; they can be further sorted included in vesicles.
+<P>
+	PSORT first predicts the presence of signal sequences by McGeoch's 
+method (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?
+uid=3000102&form=6&db=m&Dopt=r">
+D. J. McGeoch, <I>Virus Res.,</I> <B>3,</B> 271, 1985</A>) modified by
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak91.html">
+Nakai and Kanehisa, 1991</A> and 
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/GIW96.html">
+Nakai, 1996</A>.
+It considers the N-terminal positively-charged region (N-region) 
+and the central hydrophobic region (H-region) of signal sequences.  
+A discriminant score is calculated from the three values: length of 
+H-region, peak value of H-region, and net charge of N-region.  
+These results are summarized in <B>"PSG"</B> (formerly, it was called
+"McG").  A large positive discriminant score means a high possibility 
+to possess a signal sequence but it is unrelated to the possibility 
+of its cleavage.
+<P>
+Next, PSORT applies von Heijne's method of signal sequence recognition 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=3714490
+&form=6&db=m&Dopt=r"> G. von Heijne, <I>Nucl. Acids Res.,</I> <B>14,</B> 
+4683, 1986</A>).
+It is a weight-matrix method and incorporates the information of consensus 
+pattern around the cleavage sites (the (-3,-1)-rule) as well as the
+feature of the H-region.  Thus it can be used 
+to detect signal-anchor sequences.  The output score of this 
+<B>"GvH"</B> is the original 
+weight-matrix score (for eukaryotes) subtracted by 3.5.  A large positive 
+output means a high possibility that it has a cleavable signal sequence.  
+The position of possible cleavage site, <I>i.e.,</I> the most C-terminal 
+position of a signal sequence, is also reported.
+
+
+<A NAME="ealom"><H3>Recognition of Transmembrane Segments</H3>
+<P>
+The current version of PSORT assumes that all integral membrane proteins 
+have hydrophobic transmembrane segment(s) which are thought to be alpha-
+helices in membranes.
+<P>
+	PSORT employs Klein et al.'s method (ALOM, also called
+KKD) to detect potential transmembrane segments 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=3838905
+&form=6&db=m&Dopt=r"> P. Klein, M. Kanehisa, and C. DeLisi, <i>Biochim. 
+Biophys. Acta,</i> <B>815,</B> 468, 1985</A>) modified by <A HREF=
+"http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">Nakai and Kanehisa, 
+1992</A>.  
+It repeats to identify the most probable transmembrane segment from the 
+average hydrophobicity value of 17-residue segments, if any.
+It predicts whether that segment is a transmembrane segment (INTEGRAL) 
+or not (PERIPHERAL) comparing the discriminant score (reported as 'ALOM 
+score') with a threshold parameter(see below).  For an integral membrane 
+protein, position(s) of transmembrane segment(s) are also reported.  
+Their length is fixed to 17 but their extension, <I>i.e.,</I> the maximal 
+range that satisfies the discriminant criterion, is also given in 
+parentheses.  The discrimination step mentioned above is continued after 
+leaving out the detected segment till there remains no predicted 
+transmembrane segment.  The item 'number of TMSs' is the number of 
+predicted transmembrane segments.  Since this algorithm is applied
+to a predicted mature sequence, <i>i.e.,</i> cleavable signal sequence
+is not included, this number is expected to be the one for mature
+proteins.
+<p>
+	The modification by 
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">Nakai and 
+Kanehisa, 1992</A> was to employ
+two kinds of threshold values because ALOM is not very accurate to predict 
+the exact number of transmembrane segments of polytopic, <I>i.e.,</I> 
+multiple membrane-spanning, proteins.  The rationale of our approach
+is that less hydrophobic segments are likely to be more easily integrated 
+into the membrane once a part of the polypeptide is integrated.
+Specifically, PSORT first tentatively evaluates the number of TMSs
+using less stringent value (0.5).  Then, it re-evaluates the number
+by using a more stringent threshold (-2.0).  If it is still predicted
+to have at least one TMS, the former threshold value is used.
+This modified algorithm is named <B>"ALOM2"</B> and the perl program
+is also available.
+
+<A NAME="mtop"><H3>Prediction of Membrane Topology</H3>
+<P>
+Every membrane protein has its own orientation to be integrated in the
+membrane; in other words, membrane proteins know at which side
+(cytoplasmic or exo-cytoplasmic) its N-terminus should be located.
+Such an orientation is called the membrane topology.
+We used Singer's classification for membrane topology (<A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=2275815&form=6
+&db=m&Dopt=r"> S. J. Singer, <I>Ann. Rev. Cell Biol.,</I> <B>6,</B> 247, 
+1990</A>).
+Prediction of membrane topology is important because some sorting signals 
+exist at specific positions, <I>e.g.,</I> the cytoplasmic tail, in a
+certain topology (see below).
+<P>
+	PSORT uses Hartmann et al.'s method 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=2762295
+&form=6&db=m&Dopt=r">E. Hartmann, T. A. Rapoport, and H. F. Lodish, 
+<I>Proc. Natl. Acad. Sci. USA,</I> <B>86,</B> 5786, 1989</A>); called 
+<B>"MTOP"</B> in PSORT) for the prediction of membrane topology.
+MTOP assumes that the overall topology of eukaryotic membrane proteins 
+is determined by the net charge difference of 15 residues flanking 
+the most N-terminal transmembrane segment on both sides.
+The central residue of such a segment is first reported.
+<P>
+	If a protein is predicted to have a cleavable signal sequence
+and one transmembrane segment, its topology is '1a'.  If a protein
+is predicted to have no cleavable signal sequence but has one
+transmembrane segment, its position is examined.  If it exists
+near its C-terminus.  Its topology is assigned as 'Nt (N-tail)'
+(see U. Kutay <i>et al., Trends Cell Biol.</i>, <b>3,</b> 72-75,
+1993).  Otherwise, its topology is assigned to '1b' or '2'
+depending on the charge difference reported by MTOP.
+For polytopic proteins, their topology is simply predicted by MTOP (bug?).
+<P>
+	There seems to be a preference of membrane topology at
+each localization site.  For example, type Ib proteins are favored at the ER 
+while type II tend towards the Golgi complex and the plasma membrane.  
+Thus, dummy variables representing the topology are used for later
+prediction.
+
+<A NAME="mit"><H3>Recognition of Mitochondrial Proteins</H3>
+<P>
+Although many proteins which engage in mitochondrial protein targeting
+have been characterized, their exact pathways has not been fully
+understood.  Many proteins transported to mitochondria have a
+mitochondrial targeting signal on their N-terminus.  Some seem to
+have internal signals but they may be recognized by a common cytosolic
+factor (MSF).
+<P>
+	PSORT employs a very simple method to recognize mitochondrial 
+targeting signals: the discriminant analysis (called <b>"MITDISC"</b>)
+whose variables are the amino acid composition of the N-terminal 20 residues
+(<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">
+Nakai and Kanehisa, 1992</A>).  
+<P>
+	PSORT also reports some consensus patterns around the cleavage 
+sites (<B>"Gavel"</B>), reported in <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=2290832&form=6
+&db=m&Dopt=r">Y. Gavel and G. von Heijne, <I>Prot. Eng.,</I> <B>4,</B> 33, 
+1990</A>).  However, the result is not used in the prediction because
+of its lack of reliability.  
+<P>
+	Hopefully, more reliable prediction methods
+such as (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=
+8944766&form=6&db=m&Dopt=r">Claros and Vincens, 1996</A> and <A HREF=
+"http://www.imcb.osaka-u.ac.jp/nakai/refs/fujiwara97.html">Fujiwara 
+<i>et al.,</i> 1997</A> should be incorporated in the near future.
+<P>
+	In this version, further discrimination of signals directing to
+the substructures of mitochondria, <i>e.g.,</i> intermembrane space,
+is not attempted although proteins which are predicted to have both
+the mitochondrial targeting signal and transmembrane segment(s) are
+likely to be localized at the inner membrane.
+<P>
+
+<A NAME="nuc"><H3>Recognition of Nuclear Proteins</H3>
+<P>
+Although it seems possible that a protein without its own nuclear 
+localization signal (NLS) enters the nucleus via cotransport with a 
+protein that has one, many nuclear proteins have their own NLSs.  
+Presently, NLSs are classified into three categories (reviewed in
+<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=8689555
+&form=6&db=m&Dopt=r">G. R. Hicks and N. V. Raikhel, <i>Ann. Rev. Cell 
+Dev. Biol.,</i> <b>11,</b> 155, 1995</A>).
+<P>
+	The classical type of NLSs is that of SV40 large T antigen.
+PSORT uses the following two rules to detect it: 4 residue pattern 
+(called 'pat4') composed of 4 basic amino acids (K or R), or composed 
+of three basic amino acids (K or R) and either H or P; 
+the other (called 'pat7') is a pattern starting with P and followed 
+within 3 residues by a basic segment containing 3 K/R residues out of 4.
+<P>
+	Another type of NLS is the bipartite NLS, first found in 
+<i>Xenopus</i> nucleoplasmin by Robbins <i>et al.</i> (<A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=1991323&form=6
+&db=m&Dopt=r">J. Robbins, S. M. Dilworth, R. A. Laskey, and C. Dingwall, 
+<I>Cell,</I> <B>64,</B> 615, 1991</A>).  The pattern (called 'bipartite') 
+is: 2 basic residues, 10 residue spacer, and another basic region 
+consisting of at least 3 basic residues out of 5 residues.
+<P>
+	The last category of NLS is the type of an N-terminal signal 
+found in yeast protein, Mat alpha2.  However, PSORT doesn't try to find 
+it because this type of signal has not been well studied.  Nor the
+knowledge of Nuclear Export Signals (NESs) has not been incorporated yet.
+<P>
+<A NAME="nncn">
+	In the yeast genome, nuclear proteins occupy the majority.
+Since the precise discrimination of NLSs is presently difficult, 
+the prediction of nuclear proteins affect much to the total prediction
+accuracy.  Then, PSORT uses a heuristic that nuclear proteins are 
+generally rich in basic residues:  If the sum of K and R compositions 
+are higher than 20%, then the protein is considered to have higher 
+possibility of being nuclear than cytoplasmic.  
+Moreover, a score (called <B>"NNCN"</B>)
+which discriminates the tendency to be at either
+the nucleus or the cytoplasm is calculated based on the amino acid
+composition according to the neural network constructed by Reinhardt
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=
+9547285&form=6&db=m&Dopt=r">A. Reinhardt and T. Hubbard, <i>Nucl. Acids
+Res.</i> <B>26</B>, 2230, 1998</A>).  This routine was originally
+given from Dr. Reinhardt and was translated into perl by K. Nakai.
+You can test the full program developed by Reinhardt and Hubbard from
+<A HREF="http://predict.sanger.ac.uk/nnpsl/">here</A>.
+<P>
+	Most scores mentioned above are combined by a discriminant
+function to give the 'NLS score'.  In addition, PSORT examines the 
+presence of RNP (ribonucleoprotein) consensus motif (called 'RNA-binding
+motif') (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=
+7543225&form=6&db=m&Dopt=r">K. Nagai, <i>et al., Trends Biochem. Sci.</i>, 
+<b>20,</b> 235, 1995</A>) 
+because some RNPs are transported to the nucleus by signals existing in 
+the bound RNAs.  However, it is apparently insufficient for actual 
+prediction.
+<P>
+	In this version, we classify ribosomal proteins as cytoplasmic 
+proteins although some of them have NLSs and are once transported into 
+the nucleus.
+
+<A NAME="pox"><H3>Recognition of Peroxisomal Proteins</H3>
+<P>
+Peroxisomes, sometimes called glyoxisomes, glycosomes, or microbodies, 
+are organelles found in almost every eukaryotic cell.  Several sorting
+signals into peroxisomes have been characterized (see <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=8851661&form=6
+&db=m&Dopt=r">J. A. McNew and J. M. Goodman, <i>Trends Biochem. Sci.,</i> 
+<b>21,</b> 54, 1996</A>).  Obviously there are rooms for further
+improvement.
+
+	As for peroxisomal-matrix targeting sequences (PTSs), two kinds of 
+them are known.  One is the tripeptide, (S/A/C)(K/R/H)L, at the C-terminus,
+known as PTS1 or the SKL-motif.  PSORT calculates score of a given
+sequence empirically.  The other is the N-terminal segment known as
+PTS2.  The consensus patterns of known PTSs, (R/K)(L/I)xxxxx(H/Q)L is
+searched in the present version, although its importance has not been
+fully verified.
+<P>
+	The sorting signal of peroxisomal membrane proteins (mPTSs) is 
+not well understood although the importance of a hydrophilic loop of
+20 residues facing the matrix in Pmp47 is known.
+<P>
+
+<A NAME="chl"><H3>Recognition of Chloroplast Proteins (not yet supported)
+</H3>
+<P>
+Proteins targeted to chloroplasts have cleavable signals in the N-terminus, 
+the chloroplast (stroma) targeting signals.  PSORT postulates that all stromal 
+proteins and thylakoid membrane proteins have this kind of signal.  It uses a 
+discriminant score calculated from partial amino acid compositions 
+(positions 3-10 and 1-30)  and from the amplitude of maximum hydrophobic 
+moment of 165 degrees (potential beta-structure) for residues 25 to 70 
+(<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/Nak92.html">
+Nakai and Kanehisa, 1992</A>).  
+The form of discriminant function shows the abundance of 
+alanine and serine residues in the N-terminal 30 residues.  In addition, the 
+observation that the second residue is often alanine is also used.
+<P>
+	Like some mitochondrial proteins, proteins of chloroplast thylakoid 
+lumen have a bipartite signal in their N-terminus.  Its N-terminal half is 
+essentially the same as a stroma targeting signal and the C-terminal half is 
+used for the translocation from the stroma to the thylakoid lumen.  For the 
+detection of latter signal, another clue, PSORT uses both the result of 
+APOLAR algorithm applied to the limited region of residues 40 to 90 and a 
+weight matrix score around the cleavage sites (<A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=2113278&form=6&
+db=m&Dopt=r">C. J. Howe and T. P. Wallace, 
+<I>Nucl. Acids Res.,</I> <B>18,</B> 3417, 1990</A>).
+<P>
+	Thylakoid membrane proteins were discriminated by ALOM.  The 
+remainder of chloroplast proteins are tentatively regarded as stromal 
+proteins.
+
+<A NAME="er"><H3>Recognition of ER (endoplasmic reticulum) Proteins</H3>
+<P>
+PSORT postulates that the proteins with N-terminal signal sequence will 
+be transported to the cell surface by default unless they have any other 
+signals for specific retrieval, retention, or commitment; a luminal 
+protein will be secreted constitutively to the extracellular space and a 
+membrane protein will reside at the plasma membrane.  For a recent review 
+of ER retrieval signals, see <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=8970721&form=6
+&db=m&Dopt=r">R. D. Teasdale and M. R. Jackson, <i>Ann. Rev. Cell Dev. 
+Biol.,</i> <b>12</b>, 27, 1996</A>.
+<P>
+	The retrieval signal of ER luminal proteins from the bulk flow is 
+the consensus motif, KDEL (HDEL in yeast), in the C-terminus.  In
+addition, these proteins should have a cleavable signal sequence in their
+N-terminus but the existence of KDEL is often practically sufficient.
+Although PSORT only recognizes the (K/H)DEL pattern, it is known that
+some variations of this motif are allowed in some organisms and/or 
+cell types. 
+<P>
+	The retrieval signals for ER membrane proteins appear more
+complex.  Two kinds of signals are known; one is the di-lysine motif
+(the KKXX motif) which exist near the C-terminus of type Ia proteins 
+and the other is the di-arginine motif (the XXRR motif) which exist 
+near the N-terminus of type II proteins.  Note that both of these
+motifs exist close to the terminus of the cytoplasmic tail.
+However, for the practical prediction, the existence of these motifs 
+itself is not necessary nor sufficient for the localization at the 
+ER membrane.  Thus, the reliability of prediction is not high in this 
+stage.
+
+<A NAME="ves"><H3>Analysis of Proteins in Vesicular Pathway</H3>
+<P>
+The signals that govern the protein sorting through the vesicle
+transport are complex because they are inter-related and they
+seem to be recognized in various situation.  Moreover,
+there are redistribution processes via endocytosis and a pathway
+to lysosomes.  Thus, we, should also consider these signals.
+<P>
+	As already exemplified above, many sorting signals of membrane
+proteins transported through these pathways exist in the cytoplasmic 
+tail, a short terminal segment exposed to the cytosol in type Ia, Ib, 
+and II proteins (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/
+query?uid=8602507&form=6&db=m&Dopt=r">J. E. Rothman and F. T. Wieland, 
+<i>Science,</i> <b>272,</b> 227, 1996</A>; for the terminology of 
+membrane topology, see <A HREF="#mtop">above</A>).
+<P>
+	For membrane proteins with (usually) a single transmembrane 
+segment, PSORT tries to find the following motifs in the cytoplasmic
+tail: the YQRL motif which directs the transport from cell
+surface to Golgi; the tyrosine-containing motif and the dileucine
+motif for selective inclusion in clathrin-coated vesicles (endocytosis)
+and lysosomal targeting;
+(recently, the role of another motif, di-acidic signal, has been
+also shown in Nishimura and Balch, 1997).
+However, the subprograms to detect these motifs are rather primitive.
+Further elaboration is clearly needed.
+<P>
+
+<A NAME="lys"><H3>Lysosomal and Vacuolar Proteins</H3>
+<P>
+Lysosomes are acidic organelles that contain numerous hydrolytic enzymes.  
+In yeast and plant cells, similar activities are seen in vacuoles
+(lysosome-like vacuoles) and the protein sorting mechanisms for these
+organelles are conserved to some degree (reviewed in <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=8689553&form=6&
+db=m&Dopt=r">J. H. Stack, B. Horazdovsky, and S. D. Emr, <i>Ann.
+Rev. Cell Dev. Biol.,</i> <b>11</b>, 1, 1995</A>).
+<P>
+	In mammalian lysosomes, one sorting signal of soluble (lumenal) 
+proteins is a post-translational modification, addition of 
+mannose-6-phosphate, but there is also a pathway which is independent
+of mannose-6-phosphate.  Two kinds of mannose-6-phosphate receptor
+are known but the substrate specificity of the enzyme which adds
+mannose-6-phosphate is not well understood although the importance of
+a specific conformation, a beta-hairpin motif, has been implicated.
+<P>
+	Although yeast vacuoles have been studied as a model system
+of mammalian lysosomes, soluble proteins of yeast vacuole do not use
+the mannose-6-phosphate dependent pathway.  Analyses of several
+yeast proteins suggest that the pro-peptides, which are exposed to
+the N-terminus after the cleavage of 'pre' signal sequence, work
+as a sorting signal.  However, there are not apparently conserved
+motifs except for a weak motif, (T/I/K)LP(L/K/I), which PSORT 
+searches for.
+<P>
+	The sorting mechanism of lysosomal membrane proteins seems 
+different from that of lysosomal luminal proteins.  The existence of 
+the GY motif within 17 residues from the membrane boundary in the 
+cytoplasmic tail seems to be important for some of them.  The signals
+for vacuolar membrane proteins have not been clarified yet.
+<P>
+	In this version of PSORT, the prediction accuracy for
+lysosomal/vacuolar proteins is disastrous.  No doubt are further 
+efforts needed.
+<P>
+
+<A NAME="anc"><H3>Lipid Anchors</H3>
+<P>
+The protein modification reactions which bind lipid molecules to proteins 
+are important because a linked lipid moiety can be integrated into various 
+membranes and can anchor the bound protein.
+<P>
+	For example, myristoylations occur at the consensus sequence in the 
+N-terminal 9 residues (reviewed in <A HREF="http://www.ncbi.nlm.nih.gov/
+htbin-post/Entrez/query?uid=7979256&form=6&db=m&Dopt=r">D. R. Johnson, 
+<i>et al., Ann. Rev. Biochem.,</i> <b>63</b>, 869, 1994</A>).  
+PSORT predicts its presence by the 'NMYR' program but note that the
+N-myristoylated proteins are not always anchored to the membrane.
+<P>
+	In contrast, all proteins linked to the glycosyl-phosphatidylinositol 
+(GPI) molecules are thought to be anchored at the extracellular surface 
+of the plasma membrane.  In addition, GPI anchor plays some roles on
+the protein sorting in polarized cells.  Although much is known about
+the biosynthesis of GPI-anchor (reviewed in <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=7482705&form=6
+&db=m&Dopt=r">J. Takeda and T. Kinoshita, <i>Trends Biochem. Sci.,</i> 
+<b>20</b>, 367, 1995</A>),
+PSORT predicts GPI-anchored proteins by empirical knowledge that
+most of them are the type Ia membrane proteins 
+with very short cytoplasmic tail (within 10 residues).
+<P>
+	Lastly, there is a lipid modification known as (iso)prenylation 
+(<i>i.e.,</i> farnesylation or geranylgeranylation; reviewed in <A HREF=
+"http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=8811180&form=6
+&db=m&Dopt=r">F. L. Zhang and P. J. Casey, <i>Ann. Rev. Biochem.,</i> 
+<b>65</b>, 241, 1996</A>).  This modification requires a CaaX motif in 
+the C-terminus, where 'a' denotes an aliphatic amino acid.  
+Prenylated proteins have been found in the plasma membrane and the 
+nuclear envelope.  Since such knowledge may not be reflected in
+the <i>k</i>-NN method, users should notice the report from PSORT.
+<P>
+
+<A NAME="motif"><H3>Miscellaneous Motifs</H3>
+<P>
+Experimentally the knowledge of various protein functional motifs
+in the PROSITE database (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/
+Entrez/query?uid=9016539&form=6&db=m&Dopt=r">Bairoch, <i>et al.,</i> 
+1997</A>) has been included.  To discriminate cytoskeletal proteins,
+two motifs of actin-binding proteins were examined but apparently
+our knowledge is insufficient.
+<P>
+	Ideally, the prediction of PSORT should be done based 
+on the knowledge on various sorting signals only and should be
+independent from the knowledge on the functions of query proteins
+because it will be hopefully applied for engineered/artificial
+sequences.  However, since our knowledge on the NLSs seems to
+be too little to make reliable prediction, these PROSITE motifs
+are experimentally introduced: 63 DNA binding motifs, which may
+be useful to distinguish nuclear proteins; 71 ribosomal protein
+motifs, which may be necessary because the sorting processes of
+ribosomal proteins are complex; 33 prokaryotic DNA binding
+motifs, which might be useful for the prediction of bacterial
+sequences.
+<P>
+
+<A NAME="lupas"><H3>Coiled-coil Structure</H3>
+<P>
+Coiled-coil structures are found in some structural proteins, 
+<i>e.g.,</i> myosins, and in some DNA-binding proteins as the so-called
+leucine-zipper.  In this structure, two alpha-helices bind
+each other making a coil, where these two alpha-helices
+show a 3.5-residue periodicity which is slightly different from
+the typical value, 3.6.  Thus, the detection of coiled-coil structure
+by searching for 7-residue periodicity is relatively more accurate 
+than usual secondary structure prediction.
+Although the presence of coiled-coil structure in a protein itself does
+not indicate its subcellular localization, such information might
+be useful for the people who try to characterize ORFs of unknown
+function.  Currently, a classical detection algorithm developed
+by A. Lupas is used (<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/
+Entrez/query?uid=91233366&form=6&db=m&Dopt=r">Lupas <i>et al.,</i> 
+1991</A>).  The sequences which are likely to be in a coiled-coil
+conformation are reported.  For more recent progresses of the
+coiled-coil prediction, see this <A HREF="http://www.york.ac.uk/depts/
+biol/units/coils/coilcoil.html">Web site</A>.
+<P>
+
+<HR>
+<A NAME="note"><H2>Notes on the Reasoning System</H2></A>
+<H3><i>k</i>-Nearest Neighbors Classifier</H3>
+<P>
+As stated before, the most drastic change in PSORT II is the use
+of <i>k</i>-nearest neighbor (<i>k</i>-NN) algorithm for assessing
+the probability of localizing at each candidate sites (<A HREF=
+"http://www.imcb.osaka-u.ac.jp/nakai/refs/horton97.html">Horton
+and Nakai, 1997</A>).  Namely, for each query protein, the output
+values of the subprograms mentioned above are normalized and
+simple Euclid distances to all of the data points contained in 
+the training data are calculated.  Then, the prediction is
+performed using the <i>k</i>-nearest data points, where <i>k</i> is
+a predefined integer parameter.  If these <i>k</i> data points
+contain, say, nuclear proteins with 50%, the query is predicted
+to be localized to the nucleus with the probability of 50%.
+<P>
+This prediction algorithm seems to be problematic for one point in
+our analysis.  Because the data size for each localization site varies
+very much, the sites with smaller samples would be hard to be predicted
+if a large <i>k</i> value is used.  Therefore, an experimental 
+modification, two-fold <i>k</i>-NN, is employed.  Namely, two
+different <i>k</i> values (<i>k1</i> < <i>k2</i>) are used and
+the localization sites are classified into two categories according to
+their data size.  First, a prediction is performed using the smaller
+<i>k1</i> value.  If its predicted site belongs to the smaller category,
+the algorithm terminates; otherwise, the prediction is redone using the
+larger <i>k2</i>.  Currently, <i>k1</i> and <i>k2</i> are set to
+9 and 23, respectively.  Unfortunately, this two-fold <i>k</i>-NN
+does not seem to be effective so much.  More studies should be needed.
+<P>
+
+<H3>Training Data</H3>
+<P>
+In this distribution package, the program uses a reference data set
+for distance calculation, collected from 1080
+yeast sequences from SWISS-PROT 
+(<A HREF="http://www.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=9016499
+&form=6&db=m&Dopt=r"> Bairoch and Apweiler, 1997</A>).
+Because most sequences are expected to be coded in different genes,
+the redundancy caused from similar sequences is ignored.
+However, proteins coded in the mitochondrial genome were omitted
+(I would like to thank Les Grivell for pointing out my careless
+mistakes).
+The ratio of protein numbers for each localization site can be
+regarded as <i>a priori</i> probability for prediction.  
+<P>
+
+<H3>Reliability of Prediction Result</H3>
+<P>
+The superiority of the <i>k</i>-NN algorithm has been shown in
+<A HREF="http://www.imcb.osaka-u.ac.jp/nakai/refs/horton97.html">
+Horton and Nakai, 1997</A>.  At that time, its prediction accuracy
+evaluated by the cross-validation procedure was approximately 57%
+for yeast sequences and 86% for <i>E. coli</i> sequences.
+However, the labels of candidate localization sites, the number of
+data used for distance calculation, and the variables used are
+not the same with those in this version.  So, I would like to
+emphasize that it is a beta-version whose performance has not been
+explored.  We plan to distribute the whole program and data under
+the GNU copyleft agreement when the tuning of the algorithm is
+done.  Any comments, criticisms, and bug reports are welcome.
+
+<P>
+<HR>
+<ADDRESS>nakai@imcb.osaka-u.ac.jp</ADDRESS>
+</BODY>
+</HTML>

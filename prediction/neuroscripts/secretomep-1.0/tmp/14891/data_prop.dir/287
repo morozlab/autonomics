@@ -1,0 +1,308 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2107 287         
+MTFNMPVTMVTNSVAMATKKPSGEAGWVIKKPSLEAHPVGALVTLKVLIQQSEDSLLPSIVCSGVSACLTDECGCDDNSD      80
+VFYCPHGPGCITFSQVCDSVADCQDSLDECLCHDSSVQLTCLTDGSFQICLSTNQACLKKEHIGTLSCQGFNESEDCSET     160
+YAISPVSEILYENTMRIVLFARSAQGRDLEFPQQKECFNIFNESVYRNGSLTWARELCKRIDVYSSEFGNMIDFYCTNRT     240
+QTKDYIFGSAQQICDGVPHCHNGHDELFCPGRFYCSTEDSKVTWVNEEFVCDGVRDCQNGMDECSGCEIDVLSNSKFLIR     320
+NNLIAAVAMTTAIMIVVLNVKIGYKTFKESPESKNGKIDRVFRIQIAGYDLMMGLYLGALVSAGIILRFVDEYCQLDYWW     400
+RSSSICVTFGCVFSISTHGSFLSITAVSVVRYVKCLDLVDEIPIRLIGWVSGVLGLLNLVHAIIPVIPVWWVEEFFRTSV     480
+ILTSGAENPFLKKYDEEHLNKMYSLVYNRTSEGGMGSILSDLRNITTKPGIFDYITIGYYGNSPLCVANVFKNQSSYQSY     560
+KIGYCVIVSLLLGALSISYMAILLESVKTSRRAGGAAASTGNVKKMAVKLSLMIALASARGPILPPPNHLPLKMFIFEAF     640
+LKILTALLYLLSEIGIVSVRGLQSRVWDPKTKQVWWIAGAAEIKNRAKVLIHELSGPGVLLNSRFRLHDSQSLFQNTLQL     720
+FSDPLCTVLNKRQHIRYRFEVLIDDLKSTESVEYQKSLISLVNCLIDRTSLPDKRIDLRNEMIALGILDAIKSLRSTQNS     800
+SVAQQIIHFYEQKAKDELKLSTSLDPHDPTAMFVLLWKKIAKTPRSNDLIKIIQKLLFTVDTSDLWTAAIEALSGPRTTR     880
+GAFLTSPEKAVEERSKTIGPPPESYAPPQTLDWRPLTDTKPDSVWGSVSGRQIKVPVRNIGEFFFQTYPAAPKLRFITEE     960
+ERVSINVFLSALDDNRCRGNAISLIQSAILAGDITQLPDFALRRLPTHIPTCPSLLSALSEYSGDVETLDCSERLLVEVT    1040
+RIPEYHTRLKCMLGQLDIPSKLERLEGIVGGYCDLVDSLLSPTCPLFDVFKLVLEIGRVLNSEHAVAGFRLEALHQLKNM    1120
+RSPRQPSLTLLHFVAQSLATTYPASLQFARDLVGKLAECHNMGLEDLDGEVKELDLSLRDIRALLVVASPDVKLQFTSDV    1200
+VNAGKRATTLKNRRKTLENKSHKFAKFYCESTSDFSVTTFLHSLGRFCEDLTECKDVYDMTCLVAGESKRSKDHRGRVDS    1280
+GYQSNKTDSSSGNHSNRTESNISYHSNRIDSNSGYHSNKNDGYHSNRTESNSSYHSNRTESNSSHHKVDPKYHDRVDYRD    1360
+QKENRSFRDYNRADSNRSYNNSNTKRSGSGSDYRRNSEGYQSSENRTSYEEDQERDTVISPGGIITRDFSSRSEEDQECT    1440
+FPLRALSEVRSVSIESRLISPPPPPPPPPKPQRPADGLWRGSNLRRLHNNYHSVDLSLNRSRSHDYHSNNQMDRYRHSPP    1520
+TRDNPGVPLPESGESCSSGEESDNPIPRHTTARTVGHNAGVLLAPQPIGGSCRSHQRQHRTDVRDLFGSTSARYGGSTTN    1600
+INSRPPPPRGRHPQQSSLQAMLRGDQNSKVTKPPPIPKRDPILGGGGRGKRENSRSVPVLYTPYSKPSSMSSLSPPPSGG    1680
+SFSPPLSPPSSGTLSPPTLSPPSRGIRPYSAGSRGGGTRLRDHRIDEDMEVHHERQSSEPCGGGGMGKRENSRSVPVLYT    1760
+PYSKPSSMSSLSPPPSGGSFSPPLSPPSSGTLSPPTLSPPSRGIRPYSAGSRGGGTRLRDHRIDEDMEVHHERQSSEPCG    1840
+GGGGMGKRENSRSVPVLYTPYSKPSSMSSLSPPPSGGSFSPPLSPPSSGTLSPPTLSPPSRGIRPYSAGSRGGGTRLRDH    1920
+RIDEDMEVHHERQSSEPCGGGTGALFSARYTRGLSVSTSDIAKSGLETEIEISGKTSYYNIDSYTDYWLTFSHTTATSGM    2000
+GGLSILACVKTGTSYSLKSATGYGWGVSSLTSEDTVGGLTATFVDGVMTCSFTINNSLLPSTSQRLVYGMVGKMVPLYHL    2080
+KMGHKFERLQSHVTIQLCLIKRYKLCA                                                         2160
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..................................................P.............................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+...........................                                                         2160
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+287             19    SVAMATK|KP  0.068    .
+287             20    VAMATKK|PS  0.136    .
+287             30    EAGWVIK|KP  0.063    .
+287             31    AGWVIKK|PS  0.082    .
+287             46    GALVTLK|VL  0.062    .
+287            139    TNQACLK|KE  0.070    .
+287            140    NQACLKK|EH  0.099    .
+287            176    LYENTMR|IV  0.105    .
+287            182    RIVLFAR|SA  0.150    .
+287            187    ARSAQGR|DL  0.192    .
+287            195    LEFPQQK|EC  0.071    .
+287            207    FNESVYR|NG  0.071    .
+287            215    GSLTWAR|EL  0.103    .
+287            219    WARELCK|RI  0.065    .
+287            220    ARELCKR|ID  0.118    .
+287            239    DFYCTNR|TQ  0.066    .
+287            243    TNRTQTK|DY  0.085    .
+287            272    ELFCPGR|FY  0.115    .
+287            281    CSTEDSK|VT  0.059    .
+287            295    FVCDGVR|DC  0.089    .
+287            316    DVLSNSK|FL  0.058    .
+287            320    NSKFLIR|NN  0.083    .
+287            341    IVVLNVK|IG  0.056    .
+287            345    NVKIGYK|TF  0.057    .
+287            348    IGYKTFK|ES  0.067    .
+287            354    KESPESK|NG  0.062    .
+287            357    PESKNGK|ID  0.074    .
+287            360    KNGKIDR|VF  0.120    .
+287            363    KIDRVFR|IQ  0.293    .
+287            388    SAGIILR|FV  0.128    .
+287            401    QLDYWWR|SS  0.135    .
+287            431    TAVSVVR|YV  0.102    .
+287            434    SVVRYVK|CL  0.115    .
+287            445    VDEIPIR|LI  0.093    .
+287            477    WVEEFFR|TS  0.074    .
+287            492    AENPFLK|KY  0.067    .
+287            493    ENPFLKK|YD  0.107    .
+287            501    DEEHLNK|MY  0.064    .
+287            509    YSLVYNR|TS  0.098    .
+287            523    SILSDLR|NI  0.079    .
+287            528    LRNITTK|PG  0.069    .
+287            552    CVANVFK|NQ  0.069    .
+287            561    SSYQSYK|IG  0.072    .
+287            588    ILLESVK|TS  0.060    .
+287            591    ESVKTSR|RA  0.118    .
+287            592    SVKTSRR|AG  0.182    .
+287            604    ASTGNVK|KM  0.059    .
+287            605    STGNVKK|MA  0.136    .
+287            609    VKKMAVK|LS  0.058    .
+287            620    IALASAR|GP  0.077    .
+287            633    PNHLPLK|MF  0.063    .
+287            642    IFEAFLK|IL  0.063    .
+287            660    IGIVSVR|GL  0.086    .
+287            665    VRGLQSR|VW  0.138    .
+287            670    SRVWDPK|TK  0.067    .
+287            672    VWDPKTK|QV  0.086    .
+287            684    AGAAEIK|NR  0.065    .
+287            686    AAEIKNR|AK  0.085    .
+287            688    EIKNRAK|VL  0.074    .
+287            704    GVLLNSR|FR  0.062    .
+287            706    LLNSRFR|LH  0.083    .
+287            731    LCTVLNK|RQ  0.056    .
+287            732    CTVLNKR|QH  0.139    .
+287            736    NKRQHIR|YR  0.127    .
+287            738    RQHIRYR|FE  0.100    .
+287            747    VLIDDLK|ST  0.082    .
+287            756    ESVEYQK|SL  0.074    .
+287            768    VNCLIDR|TS  0.067    .
+287            774    RTSLPDK|RI  0.072    .
+287            775    TSLPDKR|ID  0.141    .
+287            779    DKRIDLR|NE  0.090    .
+287            792    GILDAIK|SL  0.075    .
+287            795    DAIKSLR|ST  0.126    .
+287            813    IHFYEQK|AK  0.065    .
+287            815    FYEQKAK|DE  0.065    .
+287            819    KAKDELK|LS  0.060    .
+287            838    MFVLLWK|KI  0.060    .
+287            839    FVLLWKK|IA  0.077    .
+287            842    LWKKIAK|TP  0.063    .
+287            845    KIAKTPR|SN  0.188    .
+287            851    RSNDLIK|II  0.092    .
+287            855    LIKIIQK|LL  0.064    .
+287            877    EALSGPR|TT  0.082    .
+287            880    SGPRTTR|GA  0.241    .
+287            889    FLTSPEK|AV  0.066    .
+287            894    EKAVEER|SK  0.186    .
+287            896    AVEERSK|TI  0.076    .
+287            914    PQTLDWR|PL  0.086    .
+287            920    RPLTDTK|PD  0.064    .
+287            931    WGSVSGR|QI  0.119    .
+287            934    VSGRQIK|VP  0.104    .
+287            938    QIKVPVR|NI  0.117    .
+287            953    TYPAAPK|LR  0.058    .
+287            955    PAAPKLR|FI  0.186    .
+287            962    FITEEER|VS  0.067    .
+287            976    SALDDNR|CR  0.084    .
+287            978    LDDNRCR|GN  0.098    .
+287           1003    LPDFALR|RL  0.086    .
+287           1004    PDFALRR|LP  0.107    .
+287           1034    TLDCSER|LL  0.082    .
+287           1041    LLVEVTR|IP  0.085    .
+287           1048    IPEYHTR|LK  0.089    .
+287           1050    EYHTRLK|CM  0.062    .
+287           1061    QLDIPSK|LE  0.058    .
+287           1064    IPSKLER|LE  0.133    .
+287           1091    PLFDVFK|LV  0.075    .
+287           1098    LVLEIGR|VL  0.069    .
+287           1110    HAVAGFR|LE  0.062    .
+287           1118    EALHQLK|NM  0.054    .
+287           1121    HQLKNMR|SP  0.111    .
+287           1124    KNMRSPR|QP  0.348    .
+287           1150    ASLQFAR|DL  0.133    .
+287           1155    ARDLVGK|LA  0.079    .
+287           1172    DLDGEVK|EL  0.060    .
+287           1179    ELDLSLR|DI  0.109    .
+287           1182    LSLRDIR|AL  0.152    .
+287           1193    VASPDVK|LQ  0.060    .
+287           1205    DVVNAGK|RA  0.059    .
+287           1206    VVNAGKR|AT  0.142    .
+287           1211    KRATTLK|NR  0.074    .
+287           1213    ATTLKNR|RK  0.072    .
+287           1214    TTLKNRR|KT  0.104    .
+287           1215    TLKNRRK|TL  0.100    .
+287           1220    RKTLENK|SH  0.068    .
+287           1223    LENKSHK|FA  0.081    .
+287           1226    KSHKFAK|FY  0.136    .
+287           1246    FLHSLGR|FC  0.111    .
+287           1255    EDLTECK|DV  0.076    .
+287           1269    LVAGESK|RS  0.060    .
+287           1270    VAGESKR|SK  0.349    .
+287           1272    GESKRSK|DH  0.084    .
+287           1275    KRSKDHR|GR  0.197    .
+287           1277    SKDHRGR|VD  0.107    .
+287           1286    SGYQSNK|TD  0.074    .
+287           1297    SGNHSNR|TE  0.109    .
+287           1308    ISYHSNR|ID  0.135    .
+287           1319    SGYHSNK|ND  0.068    .
+287           1327    DGYHSNR|TE  0.083    .
+287           1338    SSYHSNR|TE  0.120    .
+287           1347    SNSSHHK|VD  0.068    .
+287           1351    HHKVDPK|YH  0.071    .
+287           1355    DPKYHDR|VD  0.080    .
+287           1359    HDRVDYR|DQ  0.113    .
+287           1362    VDYRDQK|EN  0.094    .
+287           1365    RDQKENR|SF  0.189    .
+287           1368    KENRSFR|DY  0.435    .
+287           1372    SFRDYNR|AD  0.078    .
+287           1377    NRADSNR|SY  0.193    .
+287           1385    YNNSNTK|RS  0.069    .
+287           1386    NNSNTKR|SG  0.437    .
+287           1394    GSGSDYR|RN  0.110    .
+287           1395    SGSDYRR|NS  0.233    .
+287           1406    YQSSENR|TS  0.095    .
+287           1415    YEEDQER|DT  0.105    .
+287           1427    PGGIITR|DF  0.087    .
+287           1432    TRDFSSR|SE  0.319    .
+287           1444    ECTFPLR|AL  0.097    .
+287           1450    RALSEVR|SV  0.165    .
+287           1457    SVSIESR|LI  0.115    .
+287           1470    PPPPPPK|PQ  0.072    .
+287           1473    PPPKPQR|PA  0.147    .
+287           1480    PADGLWR|GS  0.074    .
+287           1485    WRGSNLR|RL  0.094    .
+287           1486    RGSNLRR|LH  0.122    .
+287           1500    VDLSLNR|SR  0.100    .
+287           1502    LSLNRSR|SH  0.107    .
+287           1514    SNNQMDR|YR  0.092    .
+287           1516    NQMDRYR|HS  0.099    .
+287           1522    RHSPPTR|DN  0.134    .
+287           1548    SDNPIPR|HT  0.130    .
+287           1553    PRHTTAR|TV  0.293    .
+287           1573    PIGGSCR|SH  0.151    .
+287           1577    SCRSHQR|QH  0.094    .
+287           1580    SHQRQHR|TD  0.235    .
+287           1584    QHRTDVR|DL  0.121    .
+287           1593    FGSTSAR|YG  0.127    .
+287           1604    TTNINSR|PP  0.091    .
+287           1609    SRPPPPR|GR  0.174    .
+287           1611    PPPPRGR|HP  0.089    .
+287           1623    SLQAMLR|GD  0.104    .
+287           1629    RGDQNSK|VT  0.053    .
+287           1632    QNSKVTK|PP  0.068    .
+287           1638    KPPPIPK|RD  0.061    .
+287           1639    PPPIPKR|DP  0.238    .
+287           1648    ILGGGGR|GK  0.083    .
+287           1650    GGGGRGK|RE  0.055    .
+287           1651    GGGRGKR|EN  0.565 *ProP*
+287           1655    GKRENSR|SV  0.157    .
+287           1666    LYTPYSK|PS  0.058    .
+287           1704    TLSPPSR|GI  0.169    .
+287           1707    PPSRGIR|PY  0.397    .
+287           1714    PYSAGSR|GG  0.118    .
+287           1719    SRGGGTR|LR  0.091    .
+287           1721    GGGTRLR|DH  0.118    .
+287           1724    TRLRDHR|ID  0.378    .
+287           1735    MEVHHER|QS  0.124    .
+287           1748    GGGGMGK|RE  0.054    .
+287           1749    GGGMGKR|EN  0.212    .
+287           1753    GKRENSR|SV  0.155    .
+287           1764    LYTPYSK|PS  0.058    .
+287           1802    TLSPPSR|GI  0.169    .
+287           1805    PPSRGIR|PY  0.397    .
+287           1812    PYSAGSR|GG  0.118    .
+287           1817    SRGGGTR|LR  0.091    .
+287           1819    GGGTRLR|DH  0.118    .
+287           1822    TRLRDHR|ID  0.378    .
+287           1833    MEVHHER|QS  0.124    .
+287           1847    GGGGMGK|RE  0.054    .
+287           1848    GGGMGKR|EN  0.206    .
+287           1852    GKRENSR|SV  0.155    .
+287           1863    LYTPYSK|PS  0.058    .
+287           1901    TLSPPSR|GI  0.169    .
+287           1904    PPSRGIR|PY  0.397    .
+287           1911    PYSAGSR|GG  0.118    .
+287           1916    SRGGGTR|LR  0.091    .
+287           1918    GGGTRLR|DH  0.118    .
+287           1921    TRLRDHR|ID  0.378    .
+287           1932    MEVHHER|QS  0.124    .
+287           1949    GALFSAR|YT  0.105    .
+287           1952    FSARYTR|GL  0.417    .
+287           1963    STSDIAK|SG  0.084    .
+287           1975    EIEISGK|TS  0.066    .
+287           2010    SILACVK|TG  0.052    .
+287           2018    GTSYSLK|SA  0.139    .
+287           2065    LPSTSQR|LV  0.176    .
+287           2073    VYGMVGK|MV  0.068    .
+287           2081    VPLYHLK|MG  0.066    .
+287           2085    HLKMGHK|FE  0.061    .
+287           2088    MGHKFER|LQ  0.126    .
+287           2101    IQLCLIK|RY  0.053    .
+287           2102    QLCLIKR|YK  0.139    .
+287           2104    CLIKRYK|LC  0.060    .
+____________________________^_________________
+
+
+
+

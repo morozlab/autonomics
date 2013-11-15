@@ -1,0 +1,371 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2336 237         
+MASKVNQKKQHRNIMKCLKHLADIVGHTYTPSTLPTPVVLLGNAGHANSIGASDVRELVGGSFPYRLYFPPNKQFSLLFT      80
+PQPVPTLVGDINLQKIKEVTLYCCYVTENVTMETVSASLRPPGLHIHPDVVTLEQEQQMVQFFLDSAAASTQEDLKHRKT     160
+LHYGYQFNYKTNSVDLDSPLSEGFPECVRGVMEGIRKLININPDQCTVNIYQPGQGIPKHVDTHSIFTQEILSLSLGSGV     240
+VMEFRHPISGSVVPVHLPARSLTVMSGESRYLWQHGITPRKQDVSDEGDVISRGIRVSLTLRQCTTEPCRCEYPSQCDSQ     320
+NYGKPRFSVASEADAAKIEGEFVSDVYEEIADHFSHTRHSPWPGVVDFLNSLPSRSLVLDVGCGNGKYLGVRDDVMVIGN     400
+DNSANLLSICRERGHETFACNALSLPVRGGLCDGVICIAMLHHLSTRDRRVRCLGNLASLLRPGGRCLVTVWAQEQHLDD     480
+GEVGRREFASQDVFVDWQKKQNTADAELFYRYYHVFREGELEDLLSPDHDNIMALSRVVYQVARTGQCCCAFHTTSPSPG     560
+QWDDIVGKLKRTTDRYTRTAKQSLNNERIKFERIKRERTGYSQQRSTALGFLDRFPTISEFNGYFDRGLWWLPTGGDLMR     640
+RAPENVKPYLQLSRVDKPIGSWLLFLPGAWGITMAASHFSIPHIPLLAAFGVGMKKRAMASKVNQKKQHRNIMKCLKHLA     720
+DIVGHTCTPSTLPTPVVLLGNAGHANSIGASDVRELVGGSFPYRLYFPPNKQFSLLFTPQPVPTLVGDINLQKIKDVTLY     800
+CCYVTENITMETVAASLRPPGLHIHPDVVTLEQEQQMVQFFLDSAAATTQEDLKHRKTLHFGYQFNYKTNSVDLDSPLSE     880
+GFPECVRGVMDGIRKLINIDPDQCTVNIYQPGQGIPKHVDTHSIFTQEILSLSLGSGVVMEFRHPVSGTVVPVHLPARSL     960
+TVMSGESRYLWQHGITPRKQDVSDEGDVISRGIRVSLTLRQCTTEPCRCEYPSQCDSQNYGKPRFSVASEADAAKIEGEF    1040
+VSDVYDEIAEHFSHTRHSPWPGVVDFLNSLPSRSLVLDVGCGNGKYLGVREDVMVIGNDNSANLLSICRERGHETFACNA    1120
+LSLPVRGGLCDGVICIAMLHHLSTRDRRVRCLGNLASLLRPGGRCLVTVWAQEQHLDDGEVGRREFASQDVFVDWQKKQN    1200
+AADAELFYRYYHVFREGELEDLLSPDHDNIMALSRVVYQVARTGQCCCAFHTTSPSPGQWDDIVGKLKRTTDRYTRTAKQ    1280
+RWNNERVKFERIKRERTGYSQQRSTALGFLDRFPTISEFNGYFDRGLWWLPTGGDLMRRAPENVKPYLQLSRVDKPIGSW    1360
+LLFLPGAWGITMAASHFSIPHIPLLAAFGVGAILMRGAGCTVNDIWDIDIDKRVARTRDRPLASNTLSKQDAINWLIIQL    1440
+ACSSLILFSLNKPTIAVGIASLGLVAIYPKMKLLTDYPQVVLGFTFNMGAIMGYSAYTGNILAVTPLALYSAGICWTMVY    1520
+DTVYAHQDKLDDRKVGVRSTALRFGNQTKPILSRFVNGFGWSLFIAGVAAGMGPTYYLATFMSSCMLMRGLQLVDLDKPH    1600
+SCWEFFIMNKNIGMLICKCDMILLDTIEDGQEVPDLEEGSSDEEELKAATSTKNKKTKEKVKSLPKKAKKQSEFATEFSW    1680
+EEQTNLEVEEERFEEKMKAMSKGKMRLHYEGTSAKLAEMAEGVEAPEMSDEEAEPLGEAEPLGEGGETEKEEEEEEKEVT    1760
+AEKEEGKASKFFTEAPEQNMNIKFSEMNISRPLLKNVTALGFAHPTPIQASAIPLALLGKDICACAVTGSGKTAAYVLPI    1840
+LERLLYKPKNSACSRVLILVPTRELGMQVGSVISKLSTGLSINMCLCVGGTDIKTQESNVRASPDILVATPGRLIDLLYN    1920
+TPTFTLDTIEIFVIDEADRCLDENFKDQLNEIVKMCSPGRQSMLFSATMTDEVKELISLSLNQPIKLFINRNTEVASGLT    2000
+QEFIRIRNTQESHRIAIISALVCRTFNEHVMIFVPTKKLAHELRIVLGLLKINVDELHGNLTMAQRVEALSLFKQHKTDV    2080
+LVATDLASRGLDIDGVKTVINYSIPNNVKHYVHRVGRTARAGKFGRSVTLAGEQERKLMKDIVKQSKGPVKSRVIPPEIV    2160
+TKYVQICTGLKDTLSGFLKQESEDKACRIANMELNKAQNMITHEEEIFSRPARSFMQKLPWFRFHFGFFFFFFDLGEEFE    2240
+MMKERDYIKRDARRAARPKKILSCVDDDHKKKKANKRKGGFTEDLTQTKKAKREPKEKKEGKSSGSSEPYREKKMRKAGK    2320
+PSAGSFKSKKKFKRRK                                                                    2400
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+....................................................P...........................    2240
+................................................................................    2320
+................                                                                    2400
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+237              4    ---MASK|VN  0.061    .
+237              8    ASKVNQK|KQ  0.065    .
+237              9    SKVNQKK|QH  0.121    .
+237             12    NQKKQHR|NI  0.122    .
+237             16    QHRNIMK|CL  0.074    .
+237             19    NIMKCLK|HL  0.076    .
+237             56    IGASDVR|EL  0.081    .
+237             66    GGSFPYR|LY  0.113    .
+237             73    LYFPPNK|QF  0.061    .
+237             95    GDINLQK|IK  0.063    .
+237             97    INLQKIK|EV  0.067    .
+237            120    TVSASLR|PP  0.099    .
+237            156    STQEDLK|HR  0.057    .
+237            158    QEDLKHR|KT  0.098    .
+237            159    EDLKHRK|TL  0.090    .
+237            170    GYQFNYK|TN  0.073    .
+237            189    GFPECVR|GV  0.109    .
+237            196    GVMEGIR|KL  0.087    .
+237            197    VMEGIRK|LI  0.076    .
+237            219    PGQGIPK|HV  0.080    .
+237            245    GVVMEFR|HP  0.079    .
+237            260    PVHLPAR|SL  0.135    .
+237            270    VMSGESR|YL  0.128    .
+237            280    QHGITPR|KQ  0.094    .
+237            281    HGITPRK|QD  0.077    .
+237            293    EGDVISR|GI  0.096    .
+237            296    VISRGIR|VS  0.182    .
+237            302    RVSLTLR|QC  0.085    .
+237            310    CTTEPCR|CE  0.077    .
+237            324    DSQNYGK|PR  0.062    .
+237            326    QNYGKPR|FS  0.166    .
+237            337    SEADAAK|IE  0.072    .
+237            358    DHFSHTR|HS  0.077    .
+237            375    LNSLPSR|SL  0.120    .
+237            387    VGCGNGK|YL  0.071    .
+237            392    GKYLGVR|DD  0.093    .
+237            411    NLLSICR|ER  0.077    .
+237            413    LSICRER|GH  0.093    .
+237            428    ALSLPVR|GG  0.084    .
+237            447    LHHLSTR|DR  0.092    .
+237            449    HLSTRDR|RV  0.137    .
+237            450    LSTRDRR|VR  0.289    .
+237            452    TRDRRVR|CL  0.342    .
+237            462    NLASLLR|PG  0.099    .
+237            466    LLRPGGR|CL  0.101    .
+237            485    DDGEVGR|RE  0.098    .
+237            486    DGEVGRR|EF  0.092    .
+237            499    VFVDWQK|KQ  0.058    .
+237            500    FVDWQKK|QN  0.086    .
+237            511    DAELFYR|YY  0.097    .
+237            517    RYYHVFR|EG  0.083    .
+237            537    NIMALSR|VV  0.135    .
+237            544    VVYQVAR|TG  0.072    .
+237            568    WDDIVGK|LK  0.061    .
+237            570    DIVGKLK|RT  0.060    .
+237            571    IVGKLKR|TT  0.259    .
+237            575    LKRTTDR|YT  0.134    .
+237            578    TTDRYTR|TA  0.331    .
+237            581    RYTRTAK|QS  0.129    .
+237            588    QSLNNER|IK  0.085    .
+237            590    LNNERIK|FE  0.075    .
+237            593    ERIKFER|IK  0.095    .
+237            595    IKFERIK|RE  0.067    .
+237            596    KFERIKR|ER  0.362    .
+237            598    ERIKRER|TG  0.101    .
+237            605    TGYSQQR|ST  0.153    .
+237            614    ALGFLDR|FP  0.102    .
+237            627    FNGYFDR|GL  0.104    .
+237            640    TGGDLMR|RA  0.087    .
+237            641    GGDLMRR|AP  0.129    .
+237            647    RAPENVK|PY  0.054    .
+237            654    PYLQLSR|VD  0.075    .
+237            657    QLSRVDK|PI  0.240    .
+237            695    AFGVGMK|KR  0.052    .
+237            696    FGVGMKK|RA  0.094    .
+237            697    GVGMKKR|AM  0.256    .
+237            702    KRAMASK|VN  0.081    .
+237            706    ASKVNQK|KQ  0.065    .
+237            707    SKVNQKK|QH  0.121    .
+237            710    NQKKQHR|NI  0.122    .
+237            714    QHRNIMK|CL  0.074    .
+237            717    NIMKCLK|HL  0.076    .
+237            754    IGASDVR|EL  0.081    .
+237            764    GGSFPYR|LY  0.113    .
+237            771    LYFPPNK|QF  0.061    .
+237            793    GDINLQK|IK  0.062    .
+237            795    INLQKIK|DV  0.079    .
+237            818    TVAASLR|PP  0.089    .
+237            854    TTQEDLK|HR  0.059    .
+237            856    QEDLKHR|KT  0.092    .
+237            857    EDLKHRK|TL  0.087    .
+237            868    GYQFNYK|TN  0.073    .
+237            887    GFPECVR|GV  0.119    .
+237            894    GVMDGIR|KL  0.089    .
+237            895    VMDGIRK|LI  0.072    .
+237            917    PGQGIPK|HV  0.080    .
+237            943    GVVMEFR|HP  0.078    .
+237            958    PVHLPAR|SL  0.136    .
+237            968    VMSGESR|YL  0.128    .
+237            978    QHGITPR|KQ  0.094    .
+237            979    HGITPRK|QD  0.077    .
+237            991    EGDVISR|GI  0.096    .
+237            994    VISRGIR|VS  0.182    .
+237           1000    RVSLTLR|QC  0.085    .
+237           1008    CTTEPCR|CE  0.077    .
+237           1022    DSQNYGK|PR  0.062    .
+237           1024    QNYGKPR|FS  0.166    .
+237           1035    SEADAAK|IE  0.072    .
+237           1056    EHFSHTR|HS  0.078    .
+237           1073    LNSLPSR|SL  0.120    .
+237           1085    VGCGNGK|YL  0.077    .
+237           1090    GKYLGVR|ED  0.077    .
+237           1109    NLLSICR|ER  0.077    .
+237           1111    LSICRER|GH  0.093    .
+237           1126    ALSLPVR|GG  0.084    .
+237           1145    LHHLSTR|DR  0.092    .
+237           1147    HLSTRDR|RV  0.137    .
+237           1148    LSTRDRR|VR  0.289    .
+237           1150    TRDRRVR|CL  0.342    .
+237           1160    NLASLLR|PG  0.099    .
+237           1164    LLRPGGR|CL  0.101    .
+237           1183    DDGEVGR|RE  0.098    .
+237           1184    DGEVGRR|EF  0.092    .
+237           1197    VFVDWQK|KQ  0.059    .
+237           1198    FVDWQKK|QN  0.083    .
+237           1209    DAELFYR|YY  0.100    .
+237           1215    RYYHVFR|EG  0.083    .
+237           1235    NIMALSR|VV  0.135    .
+237           1242    VVYQVAR|TG  0.072    .
+237           1266    WDDIVGK|LK  0.061    .
+237           1268    DIVGKLK|RT  0.060    .
+237           1269    IVGKLKR|TT  0.259    .
+237           1273    LKRTTDR|YT  0.124    .
+237           1276    TTDRYTR|TA  0.226    .
+237           1279    RYTRTAK|QR  0.125    .
+237           1281    TRTAKQR|WN  0.122    .
+237           1286    QRWNNER|VK  0.098    .
+237           1288    WNNERVK|FE  0.072    .
+237           1291    ERVKFER|IK  0.095    .
+237           1293    VKFERIK|RE  0.065    .
+237           1294    KFERIKR|ER  0.367    .
+237           1296    ERIKRER|TG  0.102    .
+237           1303    TGYSQQR|ST  0.153    .
+237           1312    ALGFLDR|FP  0.102    .
+237           1325    FNGYFDR|GL  0.104    .
+237           1338    TGGDLMR|RA  0.087    .
+237           1339    GGDLMRR|AP  0.129    .
+237           1345    RAPENVK|PY  0.054    .
+237           1352    PYLQLSR|VD  0.075    .
+237           1355    QLSRVDK|PI  0.240    .
+237           1396    VGAILMR|GA  0.127    .
+237           1412    WDIDIDK|RV  0.062    .
+237           1413    DIDIDKR|VA  0.121    .
+237           1416    IDKRVAR|TR  0.286    .
+237           1418    KRVARTR|DR  0.104    .
+237           1420    VARTRDR|PL  0.081    .
+237           1429    ASNTLSK|QD  0.062    .
+237           1452    ILFSLNK|PT  0.069    .
+237           1470    LVAIYPK|MK  0.053    .
+237           1472    AIYPKMK|LL  0.072    .
+237           1529    VYAHQDK|LD  0.064    .
+237           1533    QDKLDDR|KV  0.108    .
+237           1534    DKLDDRK|VG  0.062    .
+237           1538    DRKVGVR|ST  0.111    .
+237           1543    VRSTALR|FG  0.118    .
+237           1549    RFGNQTK|PI  0.066    .
+237           1554    TKPILSR|FV  0.174    .
+237           1589    SSCMLMR|GL  0.097    .
+237           1598    QLVDLDK|PH  0.063    .
+237           1610    EFFIMNK|NI  0.062    .
+237           1618    IGMLICK|CD  0.064    .
+237           1647    SDEEELK|AA  0.064    .
+237           1653    KAATSTK|NK  0.079    .
+237           1655    ATSTKNK|KT  0.078    .
+237           1656    TSTKNKK|TK  0.122    .
+237           1658    TKNKKTK|EK  0.101    .
+237           1660    NKKTKEK|VK  0.063    .
+237           1662    KTKEKVK|SL  0.087    .
+237           1666    KVKSLPK|KA  0.061    .
+237           1667    VKSLPKK|AK  0.218    .
+237           1669    SLPKKAK|KQ  0.079    .
+237           1670    LPKKAKK|QS  0.128    .
+237           1692    LEVEEER|FE  0.103    .
+237           1696    EERFEEK|MK  0.063    .
+237           1698    RFEEKMK|AM  0.090    .
+237           1702    KMKAMSK|GK  0.061    .
+237           1704    KAMSKGK|MR  0.078    .
+237           1706    MSKGKMR|LH  0.108    .
+237           1715    YEGTSAK|LA  0.086    .
+237           1750    EGGETEK|EE  0.065    .
+237           1757    EEEEEEK|EV  0.077    .
+237           1763    KEVTAEK|EE  0.068    .
+237           1767    AEKEEGK|AS  0.061    .
+237           1770    EEGKASK|FF  0.082    .
+237           1783    EQNMNIK|FS  0.078    .
+237           1791    SEMNISR|PL  0.091    .
+237           1795    ISRPLLK|NV  0.089    .
+237           1820    PLALLGK|DI  0.079    .
+237           1832    AVTGSGK|TA  0.070    .
+237           1843    VLPILER|LL  0.075    .
+237           1847    LERLLYK|PK  0.062    .
+237           1849    RLLYKPK|NS  0.062    .
+237           1855    KNSACSR|VL  0.098    .
+237           1863    LILVPTR|EL  0.101    .
+237           1875    VGSVISK|LS  0.061    .
+237           1894    VGGTDIK|TQ  0.058    .
+237           1901    TQESNVR|AS  0.106    .
+237           1913    LVATPGR|LI  0.088    .
+237           1939    VIDEADR|CL  0.088    .
+237           1946    CLDENFK|DQ  0.059    .
+237           1954    QLNEIVK|MC  0.084    .
+237           1960    KMCSPGR|QS  0.082    .
+237           1974    TMTDEVK|EL  0.057    .
+237           1986    SLNQPIK|LF  0.065    .
+237           1991    IKLFINR|NT  0.091    .
+237           2005    LTQEFIR|IR  0.099    .
+237           2007    QEFIRIR|NT  0.084    .
+237           2014    NTQESHR|IA  0.101    .
+237           2024    ISALVCR|TF  0.100    .
+237           2037    MIFVPTK|KL  0.074    .
+237           2038    IFVPTKK|LA  0.099    .
+237           2044    KLAHELR|IV  0.144    .
+237           2051    IVLGLLK|IN  0.058    .
+237           2066    NLTMAQR|VE  0.068    .
+237           2074    EALSLFK|QH  0.054    .
+237           2077    SLFKQHK|TD  0.064    .
+237           2089    ATDLASR|GL  0.075    .
+237           2097    LDIDGVK|TV  0.059    .
+237           2109    SIPNNVK|HY  0.057    .
+237           2114    VKHYVHR|VG  0.112    .
+237           2117    YVHRVGR|TA  0.475    .
+237           2120    RVGRTAR|AG  0.336    .
+237           2123    RTARAGK|FG  0.145    .
+237           2126    RAGKFGR|SV  0.331    .
+237           2136    LAGEQER|KL  0.087    .
+237           2137    AGEQERK|LM  0.082    .
+237           2140    QERKLMK|DI  0.084    .
+237           2144    LMKDIVK|QS  0.059    .
+237           2147    DIVKQSK|GP  0.064    .
+237           2151    QSKGPVK|SR  0.071    .
+237           2153    KGPVKSR|VI  0.112    .
+237           2162    PPEIVTK|YV  0.084    .
+237           2171    QICTGLK|DT  0.061    .
+237           2179    TLSGFLK|QE  0.070    .
+237           2185    KQESEDK|AC  0.064    .
+237           2188    SEDKACR|IA  0.096    .
+237           2196    ANMELNK|AQ  0.071    .
+237           2210    EEEIFSR|PA  0.087    .
+237           2213    IFSRPAR|SF  0.791 *ProP*
+237           2218    ARSFMQK|LP  0.073    .
+237           2223    QKLPWFR|FH  0.094    .
+237           2243    EEFEMMK|ER  0.059    .
+237           2245    FEMMKER|DY  0.117    .
+237           2249    KERDYIK|RD  0.054    .
+237           2250    ERDYIKR|DA  0.302    .
+237           2253    YIKRDAR|RA  0.190    .
+237           2254    IKRDARR|AA  0.219    .
+237           2257    DARRAAR|PK  0.190    .
+237           2259    RRAARPK|KI  0.073    .
+237           2260    RAARPKK|IL  0.470    .
+237           2270    CVDDDHK|KK  0.053    .
+237           2271    VDDDHKK|KK  0.086    .
+237           2272    DDDHKKK|KA  0.117    .
+237           2273    DDHKKKK|AN  0.162    .
+237           2276    KKKKANK|RK  0.070    .
+237           2277    KKKANKR|KG  0.223    .
+237           2278    KKANKRK|GG  0.136    .
+237           2289    EDLTQTK|KA  0.063    .
+237           2290    DLTQTKK|AK  0.070    .
+237           2292    TQTKKAK|RE  0.067    .
+237           2293    QTKKAKR|EP  0.136    .
+237           2296    KAKREPK|EK  0.174    .
+237           2298    KREPKEK|KE  0.077    .
+237           2299    REPKEKK|EG  0.102    .
+237           2302    KEKKEGK|SS  0.136    .
+237           2311    GSSEPYR|EK  0.102    .
+237           2313    SEPYREK|KM  0.063    .
+237           2314    EPYREKK|MR  0.381    .
+237           2316    YREKKMR|KA  0.193    .
+237           2317    REKKMRK|AG  0.098    .
+237           2320    KMRKAGK|PS  0.081    .
+237           2327    PSAGSFK|SK  0.089    .
+237           2329    AGSFKSK|KK  0.084    .
+237           2330    GSFKSKK|KF  0.092    .
+237           2331    SFKSKKK|FK  0.135    .
+237           2333    KSKKKFK|RR  0.068    .
+237           2334    SKKKFKR|RK  0.249    .
+237           2335    KKKFKRR|K-  0.201    .
+237           2336    KKFKRRK|--  0.109    .
+____________________________^_________________
+
+
+
+

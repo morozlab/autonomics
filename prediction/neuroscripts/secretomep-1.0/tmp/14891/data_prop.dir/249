@@ -1,0 +1,294 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2278 249         
+MCDEYCYSDNAKFKHVPWVPIPMTLTSTPLDPVHSPFNNLCIIGKGQSIRKLLPITGETFQYRSTNTANSARLDVSARNV      80
+WSDLDKVYTDIRVFNSLAPTNIGKSLQDTIRRHEREKVLNYNDRVLQIARYMEARKRVPTRTLRRKNVLRRAPSFGFLVI     160
+PLKNEGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     240
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     320
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     400
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANPSRALKLRIVSNERHPDFNVFRRICV     480
+LTCAAGSKKSCTFRARHLITAENSSCDLRDLSRDCMLAGRATRSALRLLGQNAKQAKQTGNLAGVVTKGIATSALKAAGA     560
+GASEISSILEQRILGHTSSAELEETGRVLSIGDGIARVYGLKNIQAEEMVEFSSGLKGMALNLEPDNVGVVVFGNDKEIK     640
+EGDVVKRTGAIVDVPVGEGLLGRVVDALGNPIDGMGPLDSSERKRVGLKAPGIIPRESVREPMLTGIKAVDSLVPIGRGQ     720
+RELIIGDRQTGKTAIAIDAIINQKQFNDGTDDKKKLYCLYVAIGQKRSTVAQLVKRLTDSGAMKYTTIVSATASDAAPLQ     800
+YLAPYSACSMGEYFRDTGKHALIIYDDLSKQAVAYRQMSLLLRRPPGRLRMGPLQKMEVRADNLAAAKMSDAYGGGSLTA     880
+LPVIETQAGDVSAYIPTNVISITDGQIFLESELFYKGIRPAINVGLSVSRVGAAAQTKGMKQVAGKMKLELAQYREVAAF     960
+AQFGSDLDTATQSLLSRGVRLTELLKQGQYVPMDIDEQVAVIYCGVRGHLDRIDPSKITDFEKAFVAHIRSNHPDIVGDI    1040
+KATGQLTEANEAKLKDVVINFWTDFWWIDGFNSAKMKISAWGWGVLPVLIVATAHYWFTNFILESEFPGTKTEISISGSN    1120
+FTFTRTEHLTWQAEGADDVSDLSKALGWMHAKDRYVQLCLMRLASQGKLTETFPYDPVNEIFDTVAKQMNFNKIGIETVA    1200
+QYKKGGLAEKVLNSYVDGINEYQGSHNRPLEFVLTNYHPAPFQTTDVVTFIKFVSFVGLDEMGFNTEKLIIELVRSGKVS    1280
+LEFIKETYHPHLANLTAEHASLLRQITDLKSTTGHRSPFVPVITNSNNWVISGVKSASGFPIMSSDPHLDVSKTPNTFYE    1360
+SAYKSPGGVSVFGITVPGIPIILMGRNAHLSFSLTYGMLDMADYFLERVVDGRYERDGHFLPLTERREVVTGRELIFYET    1440
+AEGHIIERSEHLETIADGLYLALRLPGGNDEDAFNQAMLPWTTTVQEAQEVLPISNLGSNFLLADTQGNIGYQQSGRVPR    1520
+RPTGTGLLPLPAWDSKNLWTGYLKGDEYKRSINPPEQFYATANNLIQDENKPCVITFPALSTRVNRISSILRNKSNLTVE    1600
+DMKLFQSDTFSILAETTIPLLEPYLPDTGIGQELRVWDRRFQVDSRPAALWFLFFEELVRAVGERIVGEEVYPTLSKEVM    1680
+NKYNFIKFAVQALETREVAGDPLGPILKVALERSMGRYKEGMVIPLESFMKSLLYKKRPLLPVWMGNLHRGHGWLSPNLQ    1760
+EFHGSVDIYSGAPCVFTQTWRFVTDMSTNIVHSILPGGPSGNIFSNLYTREIENYINEVFKVLHLVAMASYNFKSITVVP    1840
+PSKEVIDIILSKTQRKTPTVVHKHYQISRIRSFYIKKVKFTESNLDEKLAGILGEFPKIEDIHPFYADLMNILYDKDHYK    1920
+LALGQINMAKHLISNVSKDYVRLLKYGDSLYRCKQLKRAALGRMMTIIKRQNSSLLYLEQVRQHLGRLPSIDPNTRTLLL    2000
+FGQIARHTFPENVPLTCLMKEQVITVCAAVPLPLAIVKKASGWMPSASTRAGKKAAAAAAAAAAAAAAAAAAAAAAAAAA    2080
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2160
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2240
+AAAAAASHSHIARHTFPENVPLTCLMKEQVITVCAAVP                                              2320
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+......................................                                              2320
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+249             12    CYSDNAK|FK  0.073    .
+249             14    SDNAKFK|HV  0.112    .
+249             45    NLCIIGK|GQ  0.063    .
+249             50    GKGQSIR|KL  0.111    .
+249             51    KGQSIRK|LL  0.080    .
+249             63    GETFQYR|ST  0.157    .
+249             72    NTANSAR|LD  0.090    .
+249             78    RLDVSAR|NV  0.133    .
+249             86    VWSDLDK|VY  0.069    .
+249             92    KVYTDIR|VF  0.071    .
+249            104    APTNIGK|SL  0.084    .
+249            111    SLQDTIR|RH  0.090    .
+249            112    LQDTIRR|HE  0.102    .
+249            115    TIRRHER|EK  0.229    .
+249            117    RRHEREK|VL  0.070    .
+249            124    VLNYNDR|VL  0.106    .
+249            130    RVLQIAR|YM  0.087    .
+249            135    ARYMEAR|KR  0.093    .
+249            136    RYMEARK|RV  0.079    .
+249            137    YMEARKR|VP  0.120    .
+249            141    RKRVPTR|TL  0.116    .
+249            144    VPTRTLR|RK  0.142    .
+249            145    PTRTLRR|KN  0.083    .
+249            146    TRTLRRK|NV  0.115    .
+249            150    RRKNVLR|RA  0.104    .
+249            151    RKNVLRR|AP  0.213    .
+249            163    FLVIPLK|NE  0.062    .
+249            457    AAANPSR|AL  0.089    .
+249            460    NPSRALK|LR  0.120    .
+249            462    SRALKLR|IV  0.251    .
+249            468    RIVSNER|HP  0.070    .
+249            476    PDFNVFR|RI  0.092    .
+249            477    DFNVFRR|IC  0.115    .
+249            488    TCAAGSK|KS  0.063    .
+249            489    CAAGSKK|SC  0.130    .
+249            494    KKSCTFR|AR  0.114    .
+249            496    SCTFRAR|HL  0.139    .
+249            509    NSSCDLR|DL  0.119    .
+249            513    DLRDLSR|DC  0.102    .
+249            520    DCMLAGR|AT  0.089    .
+249            523    LAGRATR|SA  0.426    .
+249            527    ATRSALR|LL  0.098    .
+249            534    LLGQNAK|QA  0.075    .
+249            537    QNAKQAK|QT  0.097    .
+249            548    LAGVVTK|GI  0.076    .
+249            556    IATSALK|AA  0.074    .
+249            572    SSILEQR|IL  0.103    .
+249            587    ELEETGR|VL  0.088    .
+249            597    IGDGIAR|VY  0.088    .
+249            602    ARVYGLK|NI  0.073    .
+249            617    EFSSGLK|GM  0.055    .
+249            637    VVFGNDK|EI  0.057    .
+249            640    GNDKEIK|EG  0.070    .
+249            646    KEGDVVK|RT  0.086    .
+249            647    EGDVVKR|TG  0.138    .
+249            663    GEGLLGR|VV  0.129    .
+249            683    PLDSSER|KR  0.061    .
+249            684    LDSSERK|RV  0.148    .
+249            685    DSSERKR|VG  0.202    .
+249            689    RKRVGLK|AP  0.075    .
+249            696    APGIIPR|ES  0.092    .
+249            700    IPRESVR|EP  0.080    .
+249            708    PMLTGIK|AV  0.062    .
+249            718    SLVPIGR|GQ  0.092    .
+249            721    PIGRGQR|EL  0.226    .
+249            728    ELIIGDR|QT  0.091    .
+249            732    GDRQTGK|TA  0.082    .
+249            744    DAIINQK|QF  0.067    .
+249            753    NDGTDDK|KK  0.057    .
+249            754    DGTDDKK|KL  0.074    .
+249            755    GTDDKKK|LY  0.091    .
+249            766    YVAIGQK|RS  0.057    .
+249            767    VAIGQKR|ST  0.353    .
+249            775    TVAQLVK|RL  0.075    .
+249            776    VAQLVKR|LT  0.190    .
+249            784    TDSGAMK|YT  0.089    .
+249            815    SMGEYFR|DT  0.150    .
+249            819    YFRDTGK|HA  0.074    .
+249            830    IYDDLSK|QA  0.062    .
+249            836    KQAVAYR|QM  0.099    .
+249            843    QMSLLLR|RP  0.080    .
+249            844    MSLLLRR|PP  0.126    .
+249            848    LRRPPGR|LR  0.096    .
+249            850    RPPGRLR|MG  0.071    .
+249            856    RMGPLQK|ME  0.060    .
+249            860    LQKMEVR|AD  0.080    .
+249            868    DNLAAAK|MS  0.073    .
+249            916    ESELFYK|GI  0.077    .
+249            919    LFYKGIR|PA  0.096    .
+249            930    VGLSVSR|VG  0.072    .
+249            938    GAAAQTK|GM  0.075    .
+249            941    AQTKGMK|QV  0.075    .
+249            946    MKQVAGK|MK  0.063    .
+249            948    QVAGKMK|LE  0.067    .
+249            955    LELAQYR|EV  0.100    .
+249            977    TQSLLSR|GV  0.142    .
+249            980    LLSRGVR|LT  0.215    .
+249            986    RLTELLK|QG  0.057    .
+249           1007    VIYCGVR|GH  0.071    .
+249           1012    VRGHLDR|ID  0.098    .
+249           1017    DRIDPSK|IT  0.072    .
+249           1023    KITDFEK|AF  0.066    .
+249           1030    AFVAHIR|SN  0.151    .
+249           1041    DIVGDIK|AT  0.070    .
+249           1053    TEANEAK|LK  0.082    .
+249           1055    ANEAKLK|DV  0.092    .
+249           1075    DGFNSAK|MK  0.067    .
+249           1077    FNSAKMK|IS  0.088    .
+249           1111    SEFPGTK|TE  0.053    .
+249           1125    SNFTFTR|TE  0.080    .
+249           1144    DVSDLSK|AL  0.075    .
+249           1152    LGWMHAK|DR  0.080    .
+249           1154    WMHAKDR|YV  0.155    .
+249           1162    VQLCLMR|LA  0.111    .
+249           1168    RLASQGK|LT  0.072    .
+249           1187    IFDTVAK|QM  0.059    .
+249           1193    KQMNFNK|IG  0.066    .
+249           1203    ETVAQYK|KG  0.066    .
+249           1204    TVAQYKK|GG  0.088    .
+249           1210    KGGLAEK|VL  0.063    .
+249           1228    YQGSHNR|PL  0.106    .
+249           1252    DVVTFIK|FV  0.089    .
+249           1268    MGFNTEK|LI  0.062    .
+249           1275    LIIELVR|SG  0.114    .
+249           1278    ELVRSGK|VS  0.104    .
+249           1285    VSLEFIK|ET  0.058    .
+249           1304    EHASLLR|QI  0.094    .
+249           1310    RQITDLK|ST  0.076    .
+249           1316    KSTTGHR|SP  0.095    .
+249           1335    WVISGVK|SA  0.081    .
+249           1353    PHLDVSK|TP  0.057    .
+249           1364    FYESAYK|SP  0.073    .
+249           1386    PIILMGR|NA  0.085    .
+249           1408    ADYFLER|VV  0.090    .
+249           1413    ERVVDGR|YE  0.112    .
+249           1416    VDGRYER|DG  0.244    .
+249           1426    FLPLTER|RE  0.062    .
+249           1427    LPLTERR|EV  0.250    .
+249           1433    REVVTGR|EL  0.112    .
+249           1448    EGHIIER|SE  0.102    .
+249           1464    GLYLALR|LP  0.081    .
+249           1517    GYQQSGR|VP  0.077    .
+249           1520    QSGRVPR|RP  0.262    .
+249           1521    SGRVPRR|PT  0.311    .
+249           1536    LPAWDSK|NL  0.073    .
+249           1544    LWTGYLK|GD  0.059    .
+249           1549    LKGDEYK|RS  0.062    .
+249           1550    KGDEYKR|SI  0.274    .
+249           1571    LIQDENK|PC  0.062    .
+249           1583    FPALSTR|VN  0.091    .
+249           1586    LSTRVNR|IS  0.280    .
+249           1592    RISSILR|NK  0.084    .
+249           1594    SSILRNK|SN  0.103    .
+249           1603    LTVEDMK|LF  0.059    .
+249           1635    GIGQELR|VW  0.081    .
+249           1639    ELRVWDR|RF  0.071    .
+249           1640    LRVWDRR|FQ  0.192    .
+249           1646    RFQVDSR|PA  0.082    .
+249           1660    FFEELVR|AV  0.109    .
+249           1665    VRAVGER|IV  0.193    .
+249           1677    VYPTLSK|EV  0.065    .
+249           1682    SKEVMNK|YN  0.079    .
+249           1687    NKYNFIK|FA  0.105    .
+249           1696    VQALETR|EV  0.096    .
+249           1708    PLGPILK|VA  0.054    .
+249           1713    LKVALER|SM  0.157    .
+249           1717    LERSMGR|YK  0.099    .
+249           1719    RSMGRYK|EG  0.066    .
+249           1731    PLESFMK|SL  0.072    .
+249           1736    MKSLLYK|KR  0.063    .
+249           1737    KSLLYKK|RP  0.063    .
+249           1738    SLLYKKR|PL  0.209    .
+249           1750    WMGNLHR|GH  0.098    .
+249           1781    VFTQTWR|FV  0.114    .
+249           1810    FSNLYTR|EI  0.117    .
+249           1821    YINEVFK|VL  0.071    .
+249           1834    MASYNFK|SI  0.126    .
+249           1843    TVVPPSK|EV  0.084    .
+249           1852    IDIILSK|TQ  0.060    .
+249           1855    ILSKTQR|KT  0.117    .
+249           1856    LSKTQRK|TP  0.086    .
+249           1863    TPTVVHK|HY  0.081    .
+249           1869    KHYQISR|IR  0.089    .
+249           1871    YQISRIR|SF  0.104    .
+249           1876    IRSFYIK|KV  0.097    .
+249           1877    RSFYIKK|VK  0.086    .
+249           1879    FYIKKVK|FT  0.080    .
+249           1888    ESNLDEK|LA  0.072    .
+249           1898    ILGEFPK|IE  0.067    .
+249           1916    MNILYDK|DH  0.064    .
+249           1920    YDKDHYK|LA  0.077    .
+249           1930    GQINMAK|HL  0.070    .
+249           1938    LISNVSK|DY  0.084    .
+249           1942    VSKDYVR|LL  0.076    .
+249           1945    DYVRLLK|YG  0.098    .
+249           1952    YGDSLYR|CK  0.069    .
+249           1954    DSLYRCK|QL  0.063    .
+249           1957    YRCKQLK|RA  0.083    .
+249           1958    RCKQLKR|AA  0.197    .
+249           1963    KRAALGR|MM  0.135    .
+249           1969    RMMTIIK|RQ  0.059    .
+249           1970    MMTIIKR|QN  0.145    .
+249           1982    LYLEQVR|QH  0.073    .
+249           1987    VRQHLGR|LP  0.114    .
+249           1996    SIDPNTR|TL  0.068    .
+249           2006    LFGQIAR|HT  0.098    .
+249           2020    PLTCLMK|EQ  0.053    .
+249           2038    LPLAIVK|KA  0.077    .
+249           2039    PLAIVKK|AS  0.159    .
+249           2050    MPSASTR|AG  0.132    .
+249           2053    ASTRAGK|KA  0.162    .
+249           2054    STRAGKK|AA  0.123    .
+249           2253    SHSHIAR|HT  0.164    .
+249           2267    PLTCLMK|EQ  0.053    .
+____________________________^_________________
+
+
+
+

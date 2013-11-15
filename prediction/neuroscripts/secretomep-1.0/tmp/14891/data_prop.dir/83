@@ -1,0 +1,513 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3353 83          
+MSCSTPPDNSVEHLAREIQRLRDCLQARDDLIAGLREDINMRQEKESSYREKVAELYSQIEQSQVEGVKDVIDFSDSFVA      80
+GLEEQLSVAQRILKIRDEEISGLNGRITDLSTRPITPTSPAPKFDSVLESSLKEANQRVSDLNRQLVDDREEIVRLQMTV     160
+DDLNFTVSSLNTQLKEKSCDLSRMEKEYESEMMSMSSSYKDQKATSSGEMEELMATLDQLRTQVKDLERENTRYKEQNER     240
+LSEDHHALVSQLSCGDEDQDGETASPLQTDSLTDLESRLSSQREVNVELQNIVDDLQERATVLRAKEEDGLAHISDLEER     320
+LDELETICQQLRSERSEVVGDRDELQRRFTELQHQTHRFGKDLLSAVQELRLSRDVIRNDVTAGLSMVSSHCTGVTEQME     400
+LLSSLGDVAAENRVKDEEISELQATVHKLKTQGKKVLERQKKQLKDKEAQLKKLSEGKGNDVVVTLQESNQKLEERITEL     480
+LEREDHLQDRVTKLETSEQQLTDQVSILKEESFEMSKIEDPSELIEGVELFTRRFQKLTNWDCSYFTSDSFDMGTAVTVM     560
+RCAPDHLTVYIDNRDSEKSVMETKISEYQSERDEMSVQVENHVTELEDLRAESEEDRELASAERKQYSTELQDVTSKLLA     640
+ESERSKDLEERAEKLLDQLETSQKELAALQGVMEQCDQSTETQQNQIHDLNEALQARQAECESQSLELVELKERCEAQSL     720
+ELVELKERCESQSLELFKMKERCESQSLELVEMKERCEDLEASVDTLSSQVSLLAEEKDCLERSISEPNQPEPSDDSGLK     800
+EALVAKTTECKKYLMIVKKLKLLKQEQDKKVSSLQEQIASLQSPSTLTVECTDVPSESAIPEVEQGQHSAVYTVQGEDNL     880
+VITETPISLSPAVPDIIPSSAADIRSSTSEQSGEVERLRAELLLYERNVSDHEQVVADLSEQLASSRELLAETRAQCEGR     960
+LSELIRDQEERSSCLEQLNQEKSAVEEALSRVQVELQTVQESYKTSTKELDQLRKEKEEWSSREKSLIEKSQVLTEAETV    1040
+RLMSGKPQSQDLDTVSEVSHASLRSHDTSYLSSSYTREMPQDVESLQAELIKRTKVAFFVRQKAKRMETKIREALKEADR    1120
+SGAHAKVKDKISQIEKELLSISGQMKTLSSGKKMEAKGPTTRIDPKYVEEIEVRLNYLTQVEQKYENLMEELQLQIHARN    1200
+SAVSEKEELEGHVADLENSLVRLEDEIRDKDALLCEHIDAAAEEDNRMGLIREKFEKQNSELMMLRDLNKKMKQALIDVT    1280
+DESARIEQTYKSTLMEVEEESDHIKVENADLKEEIHKCWEKIEELEAEIHRMGGMLEQQSGSNSAWAQQEIERLTYENQS    1360
+HAYATEQLKVALGEMQQKLTTTEEEKADLSMKLTELNTILQTTQTERDQAAGRVEELSEQVGNLQTRLEDQGQSFKDQAV    1440
+SYTDELARLSNLAREQESTLADKEAALSTIKTELEELKGSLEEAEQAKQTLDAELSSSNEQISSLRGQLEASGSAQGSFE    1520
+SERDSLLAKNCELSEQVSNITTELKTFKNKVRDLKDEMSTICCQLEEASSSQDQLKSQLTVATEERDQCAVKLEKVHNQL    1600
+NEVLSQNETCKATITTRDTECAELKAKINEISAEFESLKTEKQSLSLTVAEKQEELEHLTQQLDDMISKRDSDTSEEMTV    1680
+LKQTLQSKTDELDAVKPVMERLQNRVSELEEENSKYLVDLHDAGYKLEQWALYNESQEQAVAEYQTQITQLSGEVEQSQQ    1760
+SLIEIRDQLEISKTEQEKANSEVLQLTGSLEKEQNSNSELQRELEKRTTEVNELNSQLKESSEVEVDLKEKLESVSGCLE    1840
+EMDSARSELQETITRLTVEIEAQTETNSRLTEENQQLSLNRTDPSEVEELKKQLRERSEAAKEEVRLLKISLDETKAHAE    1920
+QLEVENVKSGEEMVSLKAQIDELSGVQHEMSNLQKENEELQQHRDRLTESNATLEEGLAKLHDSIQESSTKIAHYEEMLV    2000
+NWQQYEQQQRSYIESLNEQISTNQAAFEELQTSYTELQGQREAVEATLKEKEEAIRTLEERMSDYESTVTTEVAELKSQV    2080
+SDKEREVSELTNQLSELSETSSSQYSQFSEELSVLSSKLSQFEEEKVAVSSQLAELEAEKTSLNDQFSQLIQEKSGLVEQ    2160
+LSQSEDEKAALTGQLAAKEGDLKSLSEEKEVIMKKAKGIMKAYKDAKIEVEKLKREVSEQSSGSGEMEQLRSQVNELTLE    2240
+KESLVVTKETVEKENSVLMSEVEQFELEREIMTQIKDENARLNSVLLEQSQQMESLQIEFETISTESKANVTQLSTDKQT    2320
+LEDQIAQLQQAVSESESIIAAKEGEIEQLKTHCTQLEAAQSELGNLVYSWEAAFNNSEKEKSELHEQCCQLNEQLTQLSA    2400
+TLSSQQGTLQTEREQLAKEVEDVKAERDELVKQVEDDKNERNELVKQVEDVKSQLEEAHVERESLKREVELMSGDRDSLE    2480
+DEIRLKSEKVTSVLEMCDSHEKSLLSKEQELVVLQQSLTDMSGQLRETAAELASLREQGDSETSQMQSFADDLREQLSSV    2560
+QLVSSAREVEIAKLRNELGEAQSQLSSAEQTIATQNESTAKLTSDYKAQRSHLEATIERSREMEGRVGYLTTQVAELESR    2640
+LEAANSAERDEELLNAIRQREAQIEEMRVIGVSMENQLAAQREMFQDVKSDHKNELKELQNELESLRCQLSESAASVQQL    2720
+TTSIEVFRETELALKTELQAATETVTALQTQRADDQNGITGLEQQIEHLGRENADLAAYVDVLSAQVRELTTYKEEADLT    2800
+IAQSKTEQETLRQAISDQTANEELLSKVSSLEEANEALKSSLLKSQEAGVELTAKLDLKTGEVSTCERDILVKKKQIEDM    2880
+SRSLSESENKLEEKTLQITQLKSACEALTENAGQLESQKQEILVLTEQLATSNRQVEEKTAQIAQLKTDFESLVSNNAAL    2960
+DEKLKNFATTQVAEKSATEANLQIKLDEAAAEIGVLRANNKSLVENNNKMTEVHTTLHGNVVIMQQRDAILNQQIKQLNE    3040
+LNIDLQRKLSEKEAELVKKMESSNDERDRLMGQVKNSGAVSDLNEELSLLKESKRKLAAQVETYQSRLTTATSRAELEKK    3120
+LSETTSLFNEQSSSLEKRKAEVTKITGHYKAMKQRLITEMNTRKSMVQDTMVGRDKMVAKLGERTKKIKELNAQLVVCQR    3200
+DREMITTAVQGFIECIEPLKTENEVPDNQRSAVILNLEHRLHDVITFLSRPTASLLPDPSETMSEYTPSEWDQSCWENRS    3280
+ETSLLSDITGFSAVNSVIQTHPRSASVASSVIKPPGTAGETLKYQGDSQCLSTEKRSTHINNQLEFCRHKDWD           3360
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.....................................................................P..........    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+.........................................................................           3360
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+83              16    SVEHLAR|EI  0.103    .
+83              20    LAREIQR|LR  0.080    .
+83              22    REIQRLR|DC  0.112    .
+83              28    RDCLQAR|DD  0.113    .
+83              36    DLIAGLR|ED  0.069    .
+83              42    REDINMR|QE  0.068    .
+83              45    INMRQEK|ES  0.185    .
+83              50    EKESSYR|EK  0.097    .
+83              52    ESSYREK|VA  0.084    .
+83              69    SQVEGVK|DV  0.086    .
+83              91    QLSVAQR|IL  0.101    .
+83              94    VAQRILK|IR  0.115    .
+83              96    QRILKIR|DE  0.152    .
+83             106    ISGLNGR|IT  0.096    .
+83             113    ITDLSTR|PI  0.083    .
+83             123    PTSPAPK|FD  0.089    .
+83             133    VLESSLK|EA  0.063    .
+83             138    LKEANQR|VS  0.081    .
+83             144    RVSDLNR|QL  0.101    .
+83             150    RQLVDDR|EE  0.076    .
+83             155    DREEIVR|LQ  0.080    .
+83             175    SLNTQLK|EK  0.076    .
+83             177    NTQLKEK|SC  0.084    .
+83             183    KSCDLSR|ME  0.089    .
+83             186    DLSRMEK|EY  0.169    .
+83             200    SMSSSYK|DQ  0.080    .
+83             203    SSYKDQK|AT  0.099    .
+83             221    ATLDQLR|TQ  0.066    .
+83             225    QLRTQVK|DL  0.084    .
+83             229    QVKDLER|EN  0.077    .
+83             233    LERENTR|YK  0.122    .
+83             235    RENTRYK|EQ  0.062    .
+83             240    YKEQNER|LS  0.082    .
+83             278    LTDLESR|LS  0.085    .
+83             283    SRLSSQR|EV  0.132    .
+83             299    VDDLQER|AT  0.067    .
+83             304    ERATVLR|AK  0.116    .
+83             306    ATVLRAK|EE  0.064    .
+83             320    ISDLEER|LD  0.075    .
+83             332    TICQQLR|SE  0.103    .
+83             335    QQLRSER|SE  0.293    .
+83             342    SEVVGDR|DE  0.102    .
+83             347    DRDELQR|RF  0.096    .
+83             348    RDELQRR|FT  0.196    .
+83             358    LQHQTHR|FG  0.105    .
+83             361    QTHRFGK|DL  0.223    .
+83             371    SAVQELR|LS  0.090    .
+83             374    QELRLSR|DV  0.347    .
+83             378    LSRDVIR|ND  0.102    .
+83             413    DVAAENR|VK  0.083    .
+83             415    AAENRVK|DE  0.079    .
+83             428    LQATVHK|LK  0.070    .
+83             430    ATVHKLK|TQ  0.072    .
+83             434    KLKTQGK|KV  0.074    .
+83             435    LKTQGKK|VL  0.109    .
+83             439    GKKVLER|QK  0.094    .
+83             441    KVLERQK|KQ  0.054    .
+83             442    VLERQKK|QL  0.462    .
+83             445    RQKKQLK|DK  0.092    .
+83             447    KKQLKDK|EA  0.075    .
+83             452    DKEAQLK|KL  0.073    .
+83             453    KEAQLKK|LS  0.123    .
+83             458    KKLSEGK|GN  0.072    .
+83             472    LQESNQK|LE  0.060    .
+83             476    NQKLEER|IT  0.097    .
+83             483    ITELLER|ED  0.074    .
+83             490    EDHLQDR|VT  0.082    .
+83             493    LQDRVTK|LE  0.101    .
+83             509    DQVSILK|EE  0.056    .
+83             517    ESFEMSK|IE  0.062    .
+83             533    GVELFTR|RF  0.073    .
+83             534    VELFTRR|FQ  0.098    .
+83             537    FTRRFQK|LT  0.122    .
+83             561    TAVTVMR|CA  0.131    .
+83             574    TVYIDNR|DS  0.145    .
+83             578    DNRDSEK|SV  0.105    .
+83             584    KSVMETK|IS  0.063    .
+83             592    SEYQSER|DE  0.104    .
+83             610    TELEDLR|AE  0.081    .
+83             617    AESEEDR|EL  0.099    .
+83             624    ELASAER|KQ  0.075    .
+83             625    LASAERK|QY  0.147    .
+83             637    LQDVTSK|LL  0.064    .
+83             644    LLAESER|SK  0.178    .
+83             646    AESERSK|DL  0.076    .
+83             651    SKDLEER|AE  0.071    .
+83             654    LEERAEK|LL  0.147    .
+83             664    QLETSQK|EL  0.064    .
+83             697    NEALQAR|QA  0.142    .
+83             712    LELVELK|ER  0.058    .
+83             714    LVELKER|CE  0.079    .
+83             726    LELVELK|ER  0.058    .
+83             728    LVELKER|CE  0.091    .
+83             738    QSLELFK|MK  0.084    .
+83             740    LELFKMK|ER  0.065    .
+83             742    LFKMKER|CE  0.102    .
+83             754    LELVEMK|ER  0.061    .
+83             756    LVEMKER|CE  0.071    .
+83             778    SLLAEEK|DC  0.056    .
+83             783    EKDCLER|SI  0.111    .
+83             800    SDDSGLK|EA  0.066    .
+83             806    KEALVAK|TT  0.073    .
+83             811    AKTTECK|KY  0.059    .
+83             812    KTTECKK|YL  0.091    .
+83             818    KYLMIVK|KL  0.054    .
+83             819    YLMIVKK|LK  0.095    .
+83             821    MIVKKLK|LL  0.071    .
+83             824    KKLKLLK|QE  0.062    .
+83             829    LKQEQDK|KV  0.092    .
+83             830    KQEQDKK|VS  0.095    .
+83             905    SSAADIR|SS  0.171    .
+83             917    QSGEVER|LR  0.075    .
+83             919    GEVERLR|AE  0.064    .
+83             927    ELLLYER|NV  0.108    .
+83             947    EQLASSR|EL  0.079    .
+83             954    ELLAETR|AQ  0.082    .
+83             960    RAQCEGR|LS  0.122    .
+83             966    RLSELIR|DQ  0.134    .
+83             971    IRDQEER|SS  0.142    .
+83             982    EQLNQEK|SA  0.076    .
+83             991    VEEALSR|VQ  0.064    .
+83            1004    TVQESYK|TS  0.077    .
+83            1008    SYKTSTK|EL  0.071    .
+83            1014    KELDQLR|KE  0.070    .
+83            1015    ELDQLRK|EK  0.069    .
+83            1017    DQLRKEK|EE  0.104    .
+83            1023    KEEWSSR|EK  0.101    .
+83            1025    EWSSREK|SL  0.084    .
+83            1030    EKSLIEK|SQ  0.071    .
+83            1041    TEAETVR|LM  0.105    .
+83            1046    VRLMSGK|PQ  0.092    .
+83            1064    VSHASLR|SH  0.193    .
+83            1077    LSSSYTR|EM  0.095    .
+83            1092    LQAELIK|RT  0.067    .
+83            1093    QAELIKR|TK  0.117    .
+83            1095    ELIKRTK|VA  0.065    .
+83            1101    KVAFFVR|QK  0.101    .
+83            1103    AFFVRQK|AK  0.059    .
+83            1105    FVRQKAK|RM  0.082    .
+83            1106    VRQKAKR|ME  0.294    .
+83            1110    AKRMETK|IR  0.074    .
+83            1112    RMETKIR|EA  0.118    .
+83            1116    KIREALK|EA  0.084    .
+83            1120    ALKEADR|SG  0.086    .
+83            1126    RSGAHAK|VK  0.089    .
+83            1128    GAHAKVK|DK  0.094    .
+83            1130    HAKVKDK|IS  0.067    .
+83            1136    KISQIEK|EL  0.065    .
+83            1146    SISGQMK|TL  0.093    .
+83            1152    KTLSSGK|KM  0.070    .
+83            1153    TLSSGKK|ME  0.155    .
+83            1157    GKKMEAK|GP  0.076    .
+83            1162    AKGPTTR|ID  0.083    .
+83            1166    TTRIDPK|YV  0.128    .
+83            1174    VEEIEVR|LN  0.069    .
+83            1184    LTQVEQK|YE  0.066    .
+83            1199    QLQIHAR|NS  0.139    .
+83            1206    NSAVSEK|EE  0.065    .
+83            1222    LENSLVR|LE  0.088    .
+83            1228    RLEDEIR|DK  0.108    .
+83            1230    EDEIRDK|DA  0.072    .
+83            1247    AAEEDNR|MG  0.069    .
+83            1252    NRMGLIR|EK  0.141    .
+83            1254    MGLIREK|FE  0.059    .
+83            1257    IREKFEK|QN  0.081    .
+83            1266    SELMMLR|DL  0.113    .
+83            1270    MLRDLNK|KM  0.069    .
+83            1271    LRDLNKK|MK  0.097    .
+83            1273    DLNKKMK|QA  0.082    .
+83            1285    VTDESAR|IE  0.079    .
+83            1291    RIEQTYK|ST  0.083    .
+83            1305    EESDHIK|VE  0.070    .
+83            1312    VENADLK|EE  0.059    .
+83            1317    LKEEIHK|CW  0.082    .
+83            1321    IHKCWEK|IE  0.060    .
+83            1331    LEAEIHR|MG  0.108    .
+83            1353    AQQEIER|LT  0.088    .
+83            1369    YATEQLK|VA  0.060    .
+83            1378    LGEMQQK|LT  0.069    .
+83            1386    TTTEEEK|AD  0.057    .
+83            1392    KADLSMK|LT  0.061    .
+83            1407    QTTQTER|DQ  0.098    .
+83            1413    RDQAAGR|VE  0.088    .
+83            1427    VGNLQTR|LE  0.114    .
+83            1436    DQGQSFK|DQ  0.067    .
+83            1448    YTDELAR|LS  0.082    .
+83            1454    RLSNLAR|EQ  0.119    .
+83            1463    ESTLADK|EA  0.058    .
+83            1471    AALSTIK|TE  0.054    .
+83            1478    TELEELK|GS  0.062    .
+83            1488    EEAEQAK|QT  0.083    .
+83            1506    EQISSLR|GQ  0.076    .
+83            1523    GSFESER|DS  0.098    .
+83            1529    RDSLLAK|NC  0.078    .
+83            1545    NITTELK|TF  0.059    .
+83            1548    TELKTFK|NK  0.061    .
+83            1550    LKTFKNK|VR  0.064    .
+83            1552    TFKNKVR|DL  0.180    .
+83            1555    NKVRDLK|DE  0.131    .
+83            1576    SSQDQLK|SQ  0.092    .
+83            1586    TVATEER|DQ  0.117    .
+83            1592    RDQCAVK|LE  0.057    .
+83            1595    CAVKLEK|VH  0.056    .
+83            1611    SQNETCK|AT  0.086    .
+83            1617    KATITTR|DT  0.125    .
+83            1625    TECAELK|AK  0.069    .
+83            1627    CAELKAK|IN  0.068    .
+83            1639    AEFESLK|TE  0.060    .
+83            1642    ESLKTEK|QS  0.059    .
+83            1652    SLTVAEK|QE  0.061    .
+83            1669    LDDMISK|RD  0.059    .
+83            1670    DDMISKR|DS  0.521 *ProP*
+83            1682    EEMTVLK|QT  0.068    .
+83            1688    KQTLQSK|TD  0.056    .
+83            1696    DELDAVK|PV  0.062    .
+83            1701    VKPVMER|LQ  0.068    .
+83            1705    MERLQNR|VS  0.106    .
+83            1715    LEEENSK|YL  0.060    .
+83            1726    LHDAGYK|LE  0.059    .
+83            1766    QSLIEIR|DQ  0.099    .
+83            1773    DQLEISK|TE  0.055    .
+83            1778    SKTEQEK|AN  0.078    .
+83            1792    LTGSLEK|EQ  0.053    .
+83            1802    SNSELQR|EL  0.139    .
+83            1806    LQRELEK|RT  0.062    .
+83            1807    QRELEKR|TT  0.273    .
+83            1819    ELNSQLK|ES  0.082    .
+83            1829    EVEVDLK|EK  0.055    .
+83            1831    EVDLKEK|LE  0.061    .
+83            1846    EEMDSAR|SE  0.147    .
+83            1855    LQETITR|LT  0.084    .
+83            1869    QTETNSR|LT  0.086    .
+83            1881    QQLSLNR|TD  0.071    .
+83            1891    SEVEELK|KQ  0.057    .
+83            1892    EVEELKK|QL  0.080    .
+83            1895    ELKKQLR|ER  0.090    .
+83            1897    KKQLRER|SE  0.177    .
+83            1902    ERSEAAK|EE  0.072    .
+83            1906    AAKEEVR|LL  0.081    .
+83            1909    EEVRLLK|IS  0.122    .
+83            1916    ISLDETK|AH  0.065    .
+83            1928    LEVENVK|SG  0.075    .
+83            1937    EEMVSLK|AQ  0.073    .
+83            1955    EMSNLQK|EN  0.074    .
+83            1964    EELQQHR|DR  0.085    .
+83            1966    LQQHRDR|LT  0.102    .
+83            1980    LEEGLAK|LH  0.069    .
+83            1991    IQESSTK|IA  0.076    .
+83            2010    QYEQQQR|SY  0.145    .
+83            2041    TELQGQR|EA  0.077    .
+83            2049    AVEATLK|EK  0.066    .
+83            2051    EATLKEK|EE  0.054    .
+83            2056    EKEEAIR|TL  0.086    .
+83            2061    IRTLEER|MS  0.097    .
+83            2077    TEVAELK|SQ  0.066    .
+83            2083    KSQVSDK|ER  0.093    .
+83            2085    QVSDKER|EV  0.188    .
+83            2118    LSVLSSK|LS  0.064    .
+83            2126    SQFEEEK|VA  0.062    .
+83            2140    AELEAEK|TS  0.052    .
+83            2154    SQLIQEK|SG  0.073    .
+83            2168    SQSEDEK|AA  0.083    .
+83            2178    TGQLAAK|EG  0.064    .
+83            2183    AKEGDLK|SL  0.080    .
+83            2189    KSLSEEK|EV  0.066    .
+83            2194    EKEVIMK|KA  0.070    .
+83            2195    KEVIMKK|AK  0.109    .
+83            2197    VIMKKAK|GI  0.102    .
+83            2201    KAKGIMK|AY  0.068    .
+83            2204    GIMKAYK|DA  0.096    .
+83            2207    KAYKDAK|IE  0.065    .
+83            2212    AKIEVEK|LK  0.063    .
+83            2214    IEVEKLK|RE  0.060    .
+83            2215    EVEKLKR|EV  0.252    .
+83            2231    GEMEQLR|SQ  0.118    .
+83            2241    NELTLEK|ES  0.053    .
+83            2248    ESLVVTK|ET  0.079    .
+83            2253    TKETVEK|EN  0.070    .
+83            2269    EQFELER|EI  0.097    .
+83            2276    EIMTQIK|DE  0.075    .
+83            2281    IKDENAR|LN  0.103    .
+83            2308    TISTESK|AN  0.080    .
+83            2318    TQLSTDK|QT  0.059    .
+83            2342    ESIIAAK|EG  0.069    .
+83            2350    GEIEQLK|TH  0.064    .
+83            2379    AFNNSEK|EK  0.071    .
+83            2381    NNSEKEK|SE  0.103    .
+83            2413    GTLQTER|EQ  0.073    .
+83            2418    EREQLAK|EV  0.105    .
+83            2424    KEVEDVK|AE  0.060    .
+83            2427    EDVKAER|DE  0.083    .
+83            2432    ERDELVK|QV  0.075    .
+83            2438    KQVEDDK|NE  0.058    .
+83            2441    EDDKNER|NE  0.066    .
+83            2446    ERNELVK|QV  0.117    .
+83            2452    KQVEDVK|SQ  0.066    .
+83            2462    EEAHVER|ES  0.091    .
+83            2466    VERESLK|RE  0.056    .
+83            2467    ERESLKR|EV  0.227    .
+83            2476    ELMSGDR|DS  0.080    .
+83            2484    SLEDEIR|LK  0.103    .
+83            2486    EDEIRLK|SE  0.060    .
+83            2489    IRLKSEK|VT  0.073    .
+83            2502    MCDSHEK|SL  0.073    .
+83            2507    EKSLLSK|EQ  0.071    .
+83            2526    DMSGQLR|ET  0.111    .
+83            2536    AELASLR|EQ  0.107    .
+83            2554    SFADDLR|EQ  0.071    .
+83            2567    QLVSSAR|EV  0.130    .
+83            2573    REVEIAK|LR  0.058    .
+83            2575    VEIAKLR|NE  0.071    .
+83            2601    QNESTAK|LT  0.078    .
+83            2607    KLTSDYK|AQ  0.060    .
+83            2610    SDYKAQR|SH  0.107    .
+83            2619    LEATIER|SR  0.123    .
+83            2621    ATIERSR|EM  0.074    .
+83            2626    SREMEGR|VG  0.085    .
+83            2640    VAELESR|LE  0.063    .
+83            2649    AANSAER|DE  0.078    .
+83            2658    ELLNAIR|QR  0.080    .
+83            2660    LNAIRQR|EA  0.159    .
+83            2668    AQIEEMR|VI  0.105    .
+83            2682    NQLAAQR|EM  0.072    .
+83            2689    EMFQDVK|SD  0.075    .
+83            2693    DVKSDHK|NE  0.056    .
+83            2697    DHKNELK|EL  0.066    .
+83            2707    NELESLR|CQ  0.063    .
+83            2728    TSIEVFR|ET  0.138    .
+83            2735    ETELALK|TE  0.053    .
+83            2752    TALQTQR|AD  0.105    .
+83            2771    QIEHLGR|EN  0.086    .
+83            2788    VLSAQVR|EL  0.108    .
+83            2794    RELTTYK|EE  0.056    .
+83            2805    LTIAQSK|TE  0.064    .
+83            2812    TEQETLR|QA  0.112    .
+83            2827    NEELLSK|VS  0.061    .
+83            2839    EANEALK|SS  0.061    .
+83            2844    LKSSLLK|SQ  0.113    .
+83            2855    GVELTAK|LD  0.060    .
+83            2859    TAKLDLK|TG  0.061    .
+83            2868    EVSTCER|DI  0.113    .
+83            2873    ERDILVK|KK  0.060    .
+83            2874    RDILVKK|KQ  0.081    .
+83            2875    DILVKKK|QI  0.148    .
+83            2882    QIEDMSR|SL  0.159    .
+83            2890    LSESENK|LE  0.062    .
+83            2894    ENKLEEK|TL  0.061    .
+83            2902    LQITQLK|SA  0.098    .
+83            2919    GQLESQK|QE  0.062    .
+83            2934    QLATSNR|QV  0.197    .
+83            2939    NRQVEEK|TA  0.085    .
+83            2947    AQIAQLK|TD  0.065    .
+83            2963    NAALDEK|LK  0.060    .
+83            2965    ALDEKLK|NF  0.060    .
+83            2975    TTQVAEK|SA  0.101    .
+83            2985    EANLQIK|LD  0.070    .
+83            2997    AEIGVLR|AN  0.097    .
+83            3001    VLRANNK|SL  0.079    .
+83            3009    LVENNNK|MT  0.066    .
+83            3027    VVIMQQR|DA  0.107    .
+83            3036    ILNQQIK|QL  0.067    .
+83            3047    LNIDLQR|KL  0.103    .
+83            3048    NIDLQRK|LS  0.079    .
+83            3052    QRKLSEK|EA  0.084    .
+83            3058    KEAELVK|KM  0.060    .
+83            3059    EAELVKK|ME  0.096    .
+83            3067    ESSNDER|DR  0.100    .
+83            3069    SNDERDR|LM  0.128    .
+83            3075    RLMGQVK|NS  0.075    .
+83            3091    EELSLLK|ES  0.054    .
+83            3094    SLLKESK|RK  0.063    .
+83            3095    LLKESKR|KL  0.211    .
+83            3096    LKESKRK|LA  0.122    .
+83            3107    VETYQSR|LT  0.081    .
+83            3114    LTTATSR|AE  0.070    .
+83            3119    SRAELEK|KL  0.077    .
+83            3120    RAELEKK|LS  0.083    .
+83            3137    QSSSLEK|RK  0.064    .
+83            3138    SSSLEKR|KA  0.360    .
+83            3139    SSLEKRK|AE  0.100    .
+83            3144    RKAEVTK|IT  0.105    .
+83            3150    KITGHYK|AM  0.069    .
+83            3153    GHYKAMK|QR  0.068    .
+83            3155    YKAMKQR|LI  0.116    .
+83            3163    ITEMNTR|KS  0.088    .
+83            3164    TEMNTRK|SM  0.111    .
+83            3174    QDTMVGR|DK  0.107    .
+83            3176    TMVGRDK|MV  0.083    .
+83            3180    RDKMVAK|LG  0.071    .
+83            3184    VAKLGER|TK  0.068    .
+83            3186    KLGERTK|KI  0.066    .
+83            3187    LGERTKK|IK  0.239    .
+83            3189    ERTKKIK|EL  0.084    .
+83            3200    QLVVCQR|DR  0.106    .
+83            3202    VVCQRDR|EM  0.075    .
+83            3220    ECIEPLK|TE  0.059    .
+83            3230    EVPDNQR|SA  0.103    .
+83            3240    ILNLEHR|LH  0.089    .
+83            3250    VITFLSR|PT  0.081    .
+83            3279    QSCWENR|SE  0.135    .
+83            3303    VIQTHPR|SA  0.194    .
+83            3313    VASSVIK|PP  0.095    .
+83            3323    TAGETLK|YQ  0.091    .
+83            3335    QCLSTEK|RS  0.060    .
+83            3336    CLSTEKR|ST  0.449    .
+83            3348    NQLEFCR|HK  0.086    .
+83            3350    LEFCRHK|DW  0.080    .
+____________________________^_________________
+
+
+
+

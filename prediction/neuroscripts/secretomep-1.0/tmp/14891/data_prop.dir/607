@@ -1,0 +1,234 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1494 607         
+MSKRPITDLQSDDDSDVDLDEEFSEDELDEVQPKKSAPKKSKFLRITDFIQDEAEVDDDADDLEEDDDLEEGYSELVKEG      80
+AEEPEDGEDAYSSRMRLQHIMDIEEEDKIEQYYRNKYAEVDDQDVIDTSGYAKNEEVKQQSALPGVKDPRLWQVKCRIGE     160
+EKATAIKLMRKFINLEANNDPLQIKSVVVPVGVKGCIYIEAYKQTHVKATLAGVNALGMGKWQQPMVPINEMPDVLKVVS     240
+EPLAIKQNSWVRIKRGIYRDDLAQIDYVENNQNKALCKLIPRIDYKKVKAVYKDGETVNNFRRSAKGRPSQRIFKAEEIR     320
+ALGGELKKDGDFIIFESNRYRNGFLYKTLSFSGISIDGQKPTVEELKMFDEQPDNVDPENLPSEKKLTTDAVFAAGDVVE     400
+VSEGELIHMTGTIISIAGDKVTIVPNHADLANAGALEFPAKELRKIFKEGDHVKVINGSLEGETGVVVRVDDNIAVLVAD     480
+KTLEEFKVRPRDLQLCTEMNSGVDSHGMYQIGDVIEINQSTVGYIVRIERESVKVLTQYGKTESVNNRAIMRKLRCGQAL     560
+DSQQNFLKFKDIVDVNDDKKRRGEIKFIWRHFLFLFNRGLAENGGIFVAKSRGVTLPGANKSTGSFVAASPRLQSPSRSP     640
+MRAGGEGGASPRHSRGGGRGGKSQRDREFIGKTVKVKTGPYKGYVGIVRDSTDTTARIELHTDCKIISVERGHLAEVTTL     720
+ASGGHITPSTPFINKTPAYTNNLGGATPVYGAQGSRTPMQSGNRTPMYGSQTPSRGDRTPYYGAQTPTHDGNATPRAGYS     800
+AWDPNCPNTPARSSSDDFNDYYENSPSPAPFSPANPQTPGYGEPMTPGYAIDSMGPATPGTDYNTSSAPSPASPYTEPSP     880
+SPGESSLGPPSPGSDSSVPTPYSNMASPMTPASTQENWPLSGIEVVMLESFEDGQYIGQTGYIRAVSGPISTVWLYEEER     960
+EFALRSSRFGPGTFSCIGDVIEINQSTVGYIVRIERESVKVLTQYGKTESVNNRAIMRKLRCGQALDSQQNFLKFKDIVD    1040
+VNDDKKRRGEIKFIWRHFLFLFNRGLAENGGIFVAKSRGVTLPGANKSTGSFVAASPRLQSPSRSPMRAGGEGGASPRHS    1120
+RGGGRGGKSQRDREFIGKTVKVKTGPYKGYVGIVRDSTDTTARIELHTDCKIISVERGHLAEVTTLASGGHITPSTPFIN    1200
+KTPAYTNNLGGATPVYGAQGSRTPMQSGNRTPMYGSQTPSRGDRTPYYGAQTPTHDGNATPRAGYSAWDPNCPNTPARSS    1280
+SDDFNDYYENSPSPAPFSPANPQTPGYGEPMTPGYAIDSMGPATPGTDYNTSSAPSPASPYTEPSPSPGESSLGPPSPGS    1360
+DSSVPTPYSNMASPMTPASTQENWPLSGIEVVMLESFEDGQYIGQTGYIRAVSGPISTVWLYEEEREFECQSYQMKPVVP    1440
+KKQDKVVIITGNRRGNHGQLINIDNDDGIVKADKSLELRILKLDSLAKLSAHHM                              1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+..............P.................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+......................................................                              1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+607              3    ----MSK|RP  0.059    .
+607              4    ---MSKR|PI  0.258    .
+607             34    LDEVQPK|KS  0.066    .
+607             35    DEVQPKK|SA  0.153    .
+607             39    PKKSAPK|KS  0.059    .
+607             40    KKSAPKK|SK  0.234    .
+607             42    SAPKKSK|FL  0.080    .
+607             45    KKSKFLR|IT  0.190    .
+607             78    GYSELVK|EG  0.063    .
+607             94    EDAYSSR|MR  0.100    .
+607             96    AYSSRMR|LQ  0.098    .
+607            108    DIEEEDK|IE  0.054    .
+607            114    KIEQYYR|NK  0.099    .
+607            116    EQYYRNK|YA  0.074    .
+607            133    DTSGYAK|NE  0.070    .
+607            138    AKNEEVK|QQ  0.072    .
+607            147    SALPGVK|DP  0.057    .
+607            150    PGVKDPR|LW  0.082    .
+607            155    PRLWQVK|CR  0.071    .
+607            157    LWQVKCR|IG  0.127    .
+607            162    CRIGEEK|AT  0.080    .
+607            167    EKATAIK|LM  0.059    .
+607            170    TAIKLMR|KF  0.094    .
+607            171    AIKLMRK|FI  0.082    .
+607            185    NDPLQIK|SV  0.084    .
+607            194    VVPVGVK|GC  0.057    .
+607            203    IYIEAYK|QT  0.061    .
+607            208    YKQTHVK|AT  0.083    .
+607            221    NALGMGK|WQ  0.059    .
+607            237    EMPDVLK|VV  0.070    .
+607            246    SEPLAIK|QN  0.062    .
+607            252    KQNSWVR|IK  0.091    .
+607            254    NSWVRIK|RG  0.056    .
+607            255    SWVRIKR|GI  0.525 *ProP*
+607            259    IKRGIYR|DD  0.134    .
+607            274    VENNQNK|AL  0.079    .
+607            278    QNKALCK|LI  0.065    .
+607            282    LCKLIPR|ID  0.082    .
+607            286    IPRIDYK|KV  0.095    .
+607            287    PRIDYKK|VK  0.089    .
+607            289    IDYKKVK|AV  0.120    .
+607            293    KVKAVYK|DG  0.082    .
+607            302    ETVNNFR|RS  0.086    .
+607            303    TVNNFRR|SA  0.359    .
+607            306    NFRRSAK|GR  0.156    .
+607            308    RRSAKGR|PS  0.212    .
+607            312    KGRPSQR|IF  0.106    .
+607            315    PSQRIFK|AE  0.116    .
+607            320    FKAEEIR|AL  0.129    .
+607            327    ALGGELK|KD  0.066    .
+607            328    LGGELKK|DG  0.118    .
+607            339    IIFESNR|YR  0.081    .
+607            341    FESNRYR|NG  0.084    .
+607            347    RNGFLYK|TL  0.077    .
+607            360    ISIDGQK|PT  0.071    .
+607            367    PTVEELK|MF  0.069    .
+607            385    ENLPSEK|KL  0.059    .
+607            386    NLPSEKK|LT  0.102    .
+607            420    ISIAGDK|VT  0.057    .
+607            441    ALEFPAK|EL  0.081    .
+607            444    FPAKELR|KI  0.131    .
+607            445    PAKELRK|IF  0.089    .
+607            448    ELRKIFK|EG  0.072    .
+607            454    KEGDHVK|VI  0.079    .
+607            469    ETGVVVR|VD  0.087    .
+607            481    AVLVADK|TL  0.056    .
+607            487    KTLEEFK|VR  0.053    .
+607            489    LEEFKVR|PR  0.101    .
+607            491    EFKVRPR|DL  0.096    .
+607            527    TVGYIVR|IE  0.087    .
+607            530    YIVRIER|ES  0.238    .
+607            534    IERESVK|VL  0.076    .
+607            541    VLTQYGK|TE  0.060    .
+607            548    TESVNNR|AI  0.177    .
+607            552    NNRAIMR|KL  0.104    .
+607            553    NRAIMRK|LR  0.096    .
+607            555    AIMRKLR|CG  0.234    .
+607            568    SQQNFLK|FK  0.079    .
+607            570    QNFLKFK|DI  0.093    .
+607            579    VDVNDDK|KR  0.058    .
+607            580    DVNDDKK|RR  0.092    .
+607            581    VNDDKKR|RG  0.174    .
+607            582    NDDKKRR|GE  0.153    .
+607            586    KRRGEIK|FI  0.094    .
+607            590    EIKFIWR|HF  0.071    .
+607            598    FLFLFNR|GL  0.095    .
+607            610    GGIFVAK|SR  0.130    .
+607            612    IFVAKSR|GV  0.112    .
+607            621    TLPGANK|ST  0.081    .
+607            632    FVAASPR|LQ  0.099    .
+607            638    RLQSPSR|SP  0.141    .
+607            642    PSRSPMR|AG  0.150    .
+607            652    EGGASPR|HS  0.130    .
+607            655    ASPRHSR|GG  0.446    .
+607            659    HSRGGGR|GG  0.103    .
+607            662    GGGRGGK|SQ  0.204    .
+607            665    RGGKSQR|DR  0.154    .
+607            667    GKSQRDR|EF  0.136    .
+607            672    DREFIGK|TV  0.075    .
+607            675    FIGKTVK|VK  0.055    .
+607            677    GKTVKVK|TG  0.063    .
+607            682    VKTGPYK|GY  0.072    .
+607            689    GYVGIVR|DS  0.093    .
+607            697    STDTTAR|IE  0.069    .
+607            705    ELHTDCK|II  0.077    .
+607            711    KIISVER|GH  0.086    .
+607            735    STPFINK|TP  0.053    .
+607            756    YGAQGSR|TP  0.082    .
+607            764    PMQSGNR|TP  0.071    .
+607            775    GSQTPSR|GD  0.093    .
+607            778    TPSRGDR|TP  0.354    .
+607            796    DGNATPR|AG  0.088    .
+607            812    CPNTPAR|SS  0.286    .
+607            944    GQTGYIR|AV  0.129    .
+607            960    WLYEEER|EF  0.063    .
+607            965    EREFALR|SS  0.160    .
+607            968    FALRSSR|FG  0.189    .
+607            993    TVGYIVR|IE  0.087    .
+607            996    YIVRIER|ES  0.238    .
+607           1000    IERESVK|VL  0.076    .
+607           1007    VLTQYGK|TE  0.060    .
+607           1014    TESVNNR|AI  0.177    .
+607           1018    NNRAIMR|KL  0.104    .
+607           1019    NRAIMRK|LR  0.096    .
+607           1021    AIMRKLR|CG  0.234    .
+607           1034    SQQNFLK|FK  0.079    .
+607           1036    QNFLKFK|DI  0.093    .
+607           1045    VDVNDDK|KR  0.058    .
+607           1046    DVNDDKK|RR  0.092    .
+607           1047    VNDDKKR|RG  0.174    .
+607           1048    NDDKKRR|GE  0.153    .
+607           1052    KRRGEIK|FI  0.094    .
+607           1056    EIKFIWR|HF  0.071    .
+607           1064    FLFLFNR|GL  0.095    .
+607           1076    GGIFVAK|SR  0.130    .
+607           1078    IFVAKSR|GV  0.112    .
+607           1087    TLPGANK|ST  0.081    .
+607           1098    FVAASPR|LQ  0.099    .
+607           1104    RLQSPSR|SP  0.141    .
+607           1108    PSRSPMR|AG  0.150    .
+607           1118    EGGASPR|HS  0.130    .
+607           1121    ASPRHSR|GG  0.446    .
+607           1125    HSRGGGR|GG  0.103    .
+607           1128    GGGRGGK|SQ  0.204    .
+607           1131    RGGKSQR|DR  0.154    .
+607           1133    GKSQRDR|EF  0.136    .
+607           1138    DREFIGK|TV  0.075    .
+607           1141    FIGKTVK|VK  0.055    .
+607           1143    GKTVKVK|TG  0.063    .
+607           1148    VKTGPYK|GY  0.072    .
+607           1155    GYVGIVR|DS  0.093    .
+607           1163    STDTTAR|IE  0.069    .
+607           1171    ELHTDCK|II  0.077    .
+607           1177    KIISVER|GH  0.086    .
+607           1201    STPFINK|TP  0.053    .
+607           1222    YGAQGSR|TP  0.082    .
+607           1230    PMQSGNR|TP  0.071    .
+607           1241    GSQTPSR|GD  0.093    .
+607           1244    TPSRGDR|TP  0.354    .
+607           1262    DGNATPR|AG  0.088    .
+607           1278    CPNTPAR|SS  0.286    .
+607           1410    GQTGYIR|AV  0.129    .
+607           1426    WLYEEER|EF  0.082    .
+607           1436    CQSYQMK|PV  0.091    .
+607           1441    MKPVVPK|KQ  0.076    .
+607           1442    KPVVPKK|QD  0.134    .
+607           1445    VPKKQDK|VV  0.084    .
+607           1453    VIITGNR|RG  0.066    .
+607           1454    IITGNRR|GN  0.167    .
+607           1471    NDDGIVK|AD  0.056    .
+607           1474    GIVKADK|SL  0.073    .
+607           1479    DKSLELR|IL  0.071    .
+607           1482    LELRILK|LD  0.083    .
+607           1488    KLDSLAK|LS  0.059    .
+____________________________^_________________
+
+
+
+

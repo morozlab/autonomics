@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------
+63	
+
+ psg: 0.40  gvh: 0.57  alm: 0.50  top: 0.53  tms: 0.00  mit: 0.46  mip: 0.03
+ nuc: 1.00  erl: 0.00  erm: 0.00  pox: 0.00  px2: 1.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 0.00  tyr: 0.00  leu: 0.00  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 1.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 1.00  ncn: 1.00  lps: 0.06  len: 0.88 
+
+	 82.6 %: nuclear
+	 13.0 %: mitochondrial
+	  4.3 %: cytoplasmic
+
+>> prediction for 63 is nuc (k=23)
+

@@ -1,0 +1,286 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1777 409         
+MQRAMAVKDVRSEKEVRLITAGLKKPATFTPSTMTIRQFIFVYEAYVEAMGMTETAAIKGFISFLDAKSVERLTHAVGSL      80
+DKSSWDAYKQSVCSILEDSSKYNTLSARFNLRNIKQKVGETVHEFGERLRDLGNIGFPEIDAPSVASREAALKDALAAGI     160
+TNDDIGIKLITSIADKTFDEMLKTAITLDISHQARSTIRAREDNVEVSVLRAEWNREEENPRQFNRPRNDYRGAQENEHH     240
+QSRDRFAPVRQHDRQRNRPQNNQTNLECWFCGKRGHLKRDCRALQRYTRGSGATTANSTRRDYRSQGHDDRFTRPSPRTL     320
+GFDQYPDNFAPGSSRHREQTPQRRVHWVGAQNPSTDGTAAAPANNTPAVEGAITNSAGEGENTTPVRLAIKPSAGVFVRI     400
+RIGDEPSDALVDTGACVNILSYSLVNKAKLLADIQPCDWNLVGVSGTPMKCAGKLDRITLELGTQHLEADFVVANIQEQL     480
+ILGQPMLVEHGCVLDLDNASLCVKGNHTPLIVRSPTQERKHTYKICVAEDTKVSKESNGIPYTLIGDTGQSEEGLYYTSE     560
+VNPVMGLFGITEGDILPLHPEKGRGILPCMITQGLTQLELPKGYEIGTCTPAIYCTRVETLHSSEDRDDFDPERVKEIIS     640
+TVGIDTNSDIDDDTKVKVKELLTEFADVFALGRHELRWTPLTQHEINLSTSTPVRLPYRRIPLHLRDDCITELESLLKAG     720
+IIEHSESSYNSPAIVLRKGPGKVRIVLDYRVLNSITVRSYCTVPALNTMTAGCSGANWFSTLDLGDAFLQVPLKPEHRHY     800
+TAFSISGVGFFQYRSMPLGLSGSPGTFQNLLDRVLAGVPPSVAAAFIDDILCPAKTTEDMISHLRVVFGRIRPSKLRLSP     880
+KKCILFQKRIKYCGVYLTTKGIEADTEKISAIRNMTPPRTFKQLRALIGCYSWFRTAVENFSEKAAGLTNCLKQTDKFVL     960
+TDEAMESIQLLNEALTSPPVLIYPSTEKELFVFTDASLKGIGGTIGHMEGNTFKPIAYSSKILNQTEQNWPSYKREFHAL    1040
+WFHITKQWRYYLLGAKFTAYVDMKALTDTGFLRKTNEAIMTRWIMDLSDYTFDLKYKSGALMQVPDCLSRLPQTSDELYP    1120
+WWDRTTPSSREKTEKGKTVTCKTVELSVDTKIITCGEANPTPTAPPKHRTGEYESPLRAHFSAHFAAAQAKDTDIATAKQ    1200
+WLLADQKERDEVKTAAFSDTLLKMWMLFPHLCLSQEGLVCYKYFAGGSKKYRELIYVPHTERKTLIASHHDNESAGHLGP    1280
+KKTLLRVREKYYFEGMTTAVKIYCATCATCFPHNEVYRRNPAAPLKPFLACRPNQILCIDLVGPIRGGRMSWILCMTDKF    1360
+TRLCQAKPLPNASATQIAKCLLTHWVTIYGVPETIHSDRGANLHVATVIVELYRLLGVKKTATTSYHPSGNGAVENLNKT    1440
+IVVIVKKLVGEFPQSWFEKLSYAVFALNSSVNGSTRFTPHQLYFGRELRLPYDLAFDTTTTAYYETGAHLLSEQRESMRD    1520
+TLDLVRANGISAMQRQKLAYDKKRGFHTTYTVGEKALVWKPLPVTVRDYRKFRTKFSGPWTVNKVLSEWTYQLKNDNTGK    1600
+LVVTHFDSLRKIPKSLRTKTREKITPEQGLNQPTIEECDDTGEEEDDGLHDLFYHQTTLQKTQGDHPVGDPEEPLPNEEQ    1680
+GPTTGPEEPQADQGEHTATASPGVPNVSATPTDEDQDPDPHEPEEELEWDDYTTTGVVPGDESFASAIDELEEEEPEPDK    1760
+GPYNLRRERKAPERYEG                                                                   1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+...............................................................P................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+.................                                                                   1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+409              3    ----MQR|AM  0.080    .
+409              8    QRAMAVK|DV  0.111    .
+409             11    MAVKDVR|SE  0.114    .
+409             14    KDVRSEK|EV  0.192    .
+409             17    RSEKEVR|LI  0.114    .
+409             24    LITAGLK|KP  0.054    .
+409             25    ITAGLKK|PA  0.116    .
+409             37    PSTMTIR|QF  0.082    .
+409             59    TETAAIK|GF  0.064    .
+409             68    ISFLDAK|SV  0.130    .
+409             72    DAKSVER|LT  0.100    .
+409             82    AVGSLDK|SS  0.086    .
+409             89    SSWDAYK|QS  0.062    .
+409            101    ILEDSSK|YN  0.063    .
+409            108    YNTLSAR|FN  0.102    .
+409            112    SARFNLR|NI  0.116    .
+409            115    FNLRNIK|QK  0.106    .
+409            117    LRNIKQK|VG  0.087    .
+409            128    VHEFGER|LR  0.078    .
+409            130    EFGERLR|DL  0.137    .
+409            148    APSVASR|EA  0.116    .
+409            153    SREAALK|DA  0.092    .
+409            168    NDDIGIK|LI  0.059    .
+409            176    ITSIADK|TF  0.075    .
+409            183    TFDEMLK|TA  0.061    .
+409            195    DISHQAR|ST  0.240    .
+409            199    QARSTIR|AR  0.103    .
+409            201    RSTIRAR|ED  0.089    .
+409            211    VEVSVLR|AE  0.074    .
+409            216    LRAEWNR|EE  0.087    .
+409            222    REEENPR|QF  0.085    .
+409            226    NPRQFNR|PR  0.120    .
+409            228    RQFNRPR|ND  0.095    .
+409            232    RPRNDYR|GA  0.198    .
+409            243    NEHHQSR|DR  0.131    .
+409            245    HHQSRDR|FA  0.111    .
+409            250    DRFAPVR|QH  0.106    .
+409            254    PVRQHDR|QR  0.080    .
+409            256    RQHDRQR|NR  0.094    .
+409            258    HDRQRNR|PQ  0.096    .
+409            273    ECWFCGK|RG  0.058    .
+409            274    CWFCGKR|GH  0.096    .
+409            278    GKRGHLK|RD  0.069    .
+409            279    KRGHLKR|DC  0.433    .
+409            282    HLKRDCR|AL  0.268    .
+409            286    DCRALQR|YT  0.112    .
+409            289    ALQRYTR|GS  0.352    .
+409            300    TTANSTR|RD  0.104    .
+409            301    TANSTRR|DY  0.312    .
+409            304    STRRDYR|SQ  0.508 *ProP*
+409            311    SQGHDDR|FT  0.136    .
+409            314    HDDRFTR|PS  0.192    .
+409            318    FTRPSPR|TL  0.097    .
+409            335    FAPGSSR|HR  0.081    .
+409            337    PGSSRHR|EQ  0.105    .
+409            343    REQTPQR|RV  0.167    .
+409            344    EQTPQRR|VH  0.107    .
+409            387    ENTTPVR|LA  0.085    .
+409            391    PVRLAIK|PS  0.062    .
+409            399    SAGVFVR|IR  0.114    .
+409            401    GVFVRIR|IG  0.075    .
+409            427    SYSLVNK|AK  0.065    .
+409            429    SLVNKAK|LL  0.091    .
+409            450    VSGTPMK|CA  0.086    .
+409            454    PMKCAGK|LD  0.058    .
+409            457    CAGKLDR|IT  0.099    .
+409            504    NASLCVK|GN  0.070    .
+409            513    HTPLIVR|SP  0.105    .
+409            519    RSPTQER|KH  0.079    .
+409            520    SPTQERK|HT  0.099    .
+409            524    ERKHTYK|IC  0.074    .
+409            532    CVAEDTK|VS  0.054    .
+409            535    EDTKVSK|ES  0.066    .
+409            582    LPLHPEK|GR  0.071    .
+409            584    LHPEKGR|GI  0.104    .
+409            602    TQLELPK|GY  0.077    .
+409            617    PAIYCTR|VE  0.065    .
+409            627    LHSSEDR|DD  0.147    .
+409            634    DDFDPER|VK  0.076    .
+409            636    FDPERVK|EI  0.056    .
+409            655    DIDDDTK|VK  0.057    .
+409            657    DDDTKVK|VK  0.054    .
+409            659    DTKVKVK|EL  0.067    .
+409            673    DVFALGR|HE  0.066    .
+409            677    LGRHELR|WT  0.088    .
+409            695    STSTPVR|LP  0.087    .
+409            699    PVRLPYR|RI  0.081    .
+409            700    VRLPYRR|IP  0.101    .
+409            706    RIPLHLR|DD  0.095    .
+409            718    ELESLLK|AG  0.057    .
+409            737    SPAIVLR|KG  0.094    .
+409            738    PAIVLRK|GP  0.109    .
+409            742    LRKGPGK|VR  0.061    .
+409            744    KGPGKVR|IV  0.111    .
+409            750    RIVLDYR|VL  0.075    .
+409            758    LNSITVR|SY  0.189    .
+409            794    FLQVPLK|PE  0.063    .
+409            798    PLKPEHR|HY  0.083    .
+409            814    VGFFQYR|SM  0.117    .
+409            833    FQNLLDR|VL  0.092    .
+409            855    DILCPAK|TT  0.072    .
+409            865    DMISHLR|VV  0.089    .
+409            870    LRVVFGR|IR  0.104    .
+409            872    VVFGRIR|PS  0.066    .
+409            875    GRIRPSK|LR  0.101    .
+409            877    IRPSKLR|LS  0.080    .
+409            881    KLRLSPK|KC  0.066    .
+409            882    LRLSPKK|CI  0.104    .
+409            888    KCILFQK|RI  0.065    .
+409            889    CILFQKR|IK  0.145    .
+409            891    LFQKRIK|YC  0.085    .
+409            900    GVYLTTK|GI  0.068    .
+409            908    IEADTEK|IS  0.061    .
+409            913    EKISAIR|NM  0.073    .
+409            919    RNMTPPR|TF  0.101    .
+409            922    TPPRTFK|QL  0.179    .
+409            925    RTFKQLR|AL  0.115    .
+409            935    GCYSWFR|TA  0.083    .
+409            944    VENFSEK|AA  0.072    .
+409            953    GLTNCLK|QT  0.066    .
+409            957    CLKQTDK|FV  0.085    .
+409            988    IYPSTEK|EL  0.058    .
+409            999    FTDASLK|GI  0.073    .
+409           1014    MEGNTFK|PI  0.065    .
+409           1021    PIAYSSK|IL  0.076    .
+409           1034    QNWPSYK|RE  0.071    .
+409           1035    NWPSYKR|EF  0.176    .
+409           1046    LWFHITK|QW  0.069    .
+409           1049    HITKQWR|YY  0.087    .
+409           1056    YYLLGAK|FT  0.059    .
+409           1064    TAYVDMK|AL  0.078    .
+409           1073    TDTGFLR|KT  0.111    .
+409           1074    DTGFLRK|TN  0.084    .
+409           1082    NEAIMTR|WI  0.091    .
+409           1095    DYTFDLK|YK  0.069    .
+409           1097    TFDLKYK|SG  0.069    .
+409           1110    VPDCLSR|LP  0.069    .
+409           1124    LYPWWDR|TT  0.071    .
+409           1130    RTTPSSR|EK  0.097    .
+409           1132    TPSSREK|TE  0.073    .
+409           1135    SREKTEK|GK  0.083    .
+409           1137    EKTEKGK|TV  0.076    .
+409           1142    GKTVTCK|TV  0.106    .
+409           1151    ELSVDTK|II  0.081    .
+409           1167    TPTAPPK|HR  0.072    .
+409           1169    TAPPKHR|TG  0.095    .
+409           1178    EYESPLR|AH  0.071    .
+409           1191    FAAAQAK|DT  0.105    .
+409           1199    TDIATAK|QW  0.066    .
+409           1207    WLLADQK|ER  0.058    .
+409           1209    LADQKER|DE  0.088    .
+409           1213    KERDEVK|TA  0.066    .
+409           1223    FSDTLLK|MW  0.056    .
+409           1242    EGLVCYK|YF  0.060    .
+409           1249    YFAGGSK|KY  0.058    .
+409           1250    FAGGSKK|YR  0.098    .
+409           1252    GGSKKYR|EL  0.179    .
+409           1262    YVPHTER|KT  0.070    .
+409           1263    VPHTERK|TL  0.121    .
+409           1281    AGHLGPK|KT  0.059    .
+409           1282    GHLGPKK|TL  0.084    .
+409           1286    PKKTLLR|VR  0.077    .
+409           1288    KTLLRVR|EK  0.091    .
+409           1290    LLRVREK|YY  0.088    .
+409           1301    GMTTAVK|IY  0.056    .
+409           1318    PHNEVYR|RN  0.088    .
+409           1319    HNEVYRR|NP  0.121    .
+409           1326    NPAAPLK|PF  0.069    .
+409           1332    KPFLACR|PN  0.084    .
+409           1346    DLVGPIR|GG  0.073    .
+409           1349    GPIRGGR|MS  0.238    .
+409           1359    ILCMTDK|FT  0.069    .
+409           1362    MTDKFTR|LC  0.076    .
+409           1367    TRLCQAK|PL  0.076    .
+409           1379    SATQIAK|CL  0.064    .
+409           1399    ETIHSDR|GA  0.118    .
+409           1414    VIVELYR|LL  0.089    .
+409           1419    YRLLGVK|KT  0.058    .
+409           1420    RLLGVKK|TA  0.114    .
+409           1439    AVENLNK|TI  0.063    .
+409           1446    TIVVIVK|KL  0.072    .
+409           1447    IVVIVKK|LV  0.145    .
+409           1459    PQSWFEK|LS  0.080    .
+409           1476    SVNGSTR|FT  0.133    .
+409           1486    HQLYFGR|EL  0.077    .
+409           1489    YFGRELR|LP  0.148    .
+409           1515    HLLSEQR|ES  0.068    .
+409           1519    EQRESMR|DT  0.113    .
+409           1526    DTLDLVR|AN  0.083    .
+409           1535    GISAMQR|QK  0.096    .
+409           1537    SAMQRQK|LA  0.076    .
+409           1542    QKLAYDK|KR  0.062    .
+409           1543    KLAYDKK|RG  0.093    .
+409           1544    LAYDKKR|GF  0.279    .
+409           1555    TYTVGEK|AL  0.058    .
+409           1560    EKALVWK|PL  0.069    .
+409           1567    PLPVTVR|DY  0.108    .
+409           1570    VTVRDYR|KF  0.216    .
+409           1571    TVRDYRK|FR  0.080    .
+409           1573    RDYRKFR|TK  0.382    .
+409           1575    YRKFRTK|FS  0.092    .
+409           1584    GPWTVNK|VL  0.073    .
+409           1594    EWTYQLK|ND  0.061    .
+409           1600    KNDNTGK|LV  0.082    .
+409           1610    THFDSLR|KI  0.110    .
+409           1611    HFDSLRK|IP  0.061    .
+409           1614    SLRKIPK|SL  0.111    .
+409           1617    KIPKSLR|TK  0.079    .
+409           1619    PKSLRTK|TR  0.073    .
+409           1621    SLRTKTR|EK  0.144    .
+409           1623    RTKTREK|IT  0.063    .
+409           1661    HQTTLQK|TQ  0.065    .
+409           1760    EEPEPDK|GP  0.057    .
+409           1766    KGPYNLR|RE  0.075    .
+409           1767    GPYNLRR|ER  0.164    .
+409           1769    YNLRRER|KA  0.179    .
+409           1770    NLRRERK|AP  0.358    .
+409           1774    ERKAPER|YE  0.115    .
+____________________________^_________________
+
+
+
+

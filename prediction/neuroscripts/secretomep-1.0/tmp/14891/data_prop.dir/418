@@ -1,0 +1,303 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1763 418         
+MADLDIYSGFDEVNDLSQLQNEEVFQEAVKTSYGQRRGPLVVPATRGGAGFGAKKPPPTTAMRGVLGSRRGTALRVGEDG      80
+GTARPISAINAAGFTAGGSKATIGAASFRSATGETKLEETPEQTIKKMEREIMDLLDESSFALENKQHKQALEKANKAVT     160
+KEKILQRHRDLQGFAEQTYLDLTYSVYFNSGNVFEACEMYQEAQSAYMSIIKNKAFSNAGRFRVNLGNILLKQGKYTEAI     240
+RMYRRALDQIPETHTYMRIKILKNIGISFIKMSPPQYSDAIVSFEHIMKTKADFKTAFNLTLSYYAIGDSDKMKKAFHRL     320
+LAVPIEGMEDEDRYLQYGEDPHSSLVMEAIKDDELRKIERGKRRYAEKCIIQAAKLIAPVIENSEALGFDWCVDCVRDSQ     400
+HTELASELEINKAIMYLRQKDFQKAVEALKVFEKKDSKIASTAANNLSFLYYLKGENKEAEKYADQAIESDRYNPYALVN     480
+RGNIHFKAGELEKARDYYQESLSIESGCAEALYNLGLTYKTMSNIEGALECFEKLHAILNNCPEVIYQIAILYDMKQDVQ     560
+QSMDWFMHLITIVPTDPGILSSIGAIYDQDSDRSQAFQYFLESHKYFPSDISTISWLGAFYVDGQFHEKAIQYFEKASLI     640
+EPQEVKWQLMIASCYRRSGNYQQSLVTYKKIHLKFPENVECLKFLVRICSDLGLKEANEYANKLKKAEKAKELRDQRRDN     720
+SGRRSGRQRGSGGSERSSARNSRQNSGTRRTEDQTAPAAAPRDTASGRKKAVDATYSDPIGELPPRPRTAARTRVMDDDE     800
+FGDEELGDDLLPDSSVSTKPSPALPLPISQPYLTFIAMVGAPPRAQLRLDWIYGYRGHQCRNNVYYLATGEIVYFVAAAA     880
+VIYHPIKKSQRYFIEHTDDIISLALHPDLKTVATGEVGSSPLICVWDSTTLSITSLLSGHHTAGVTALDFSSSGNLLGSV     960
+DLATKCTVCVYDWKKGKLLASHTAHSERVFDVKFRPDDDSSLVSCGVKHISFWKHCGNALRIKVGKVAGKGGAGGEVQSQ    1040
+MCLVFGSEGKCFSGTLSGDIYQWSDGELTSIVSTIKKMEREIMDLLDESSFALENKQHKQALEKANKAVTKEKILQRHRD    1120
+LQGFAEQTYLDLTYSVYFNSGNVFEACEMYQEAQSAYMSIIKNKAFSNAGRFRVNLGNILLKQGKYTEAIRMYRRALDQI    1200
+PETHTYMRIKILKNIGISFIKMSPPQYSDAIVSFEHIMKTKADFKTAFNLTLSYYAIGDSDKMKKAFHRLLAVPIEGIED    1280
+EDRYLQYGEDPHSSLVMEAIKDDELRKIERGKRRYAEKCIIQAAKLIAPVIENSEALGFDWCVDCVRDSQHTELASELEI    1360
+NKAIMYLRQKDFQKAVEALKVFEKKDSKIASTAANNLSFLYYLKGENKEAEKYADQAIESDRYNPYALVNRGNIHFKAGE    1440
+LEKARDYYQESLSIESGCAEALYNLGLTYKTMSNIEGALECFEKLHTILNNCPEVIYQIAILYDMKQDVQQSMDWFMHLI    1520
+TIVPTDPGILSSIGAIYDQDSDRSQAFQYFLESHKYFPSDISTISWLGAFYVDGQFHEKAIQYFEKASLIEPQEVKWQLM    1600
+IASCYRRSGNYQQSLVTYKKIHLKFPENVECLKFLVRICSDLGLKEANEYANKLKKAEKAKELRDQRRDNSGRRSGRQRG    1680
+SGGSERSSARNSRQNSGTRRTEDQSAPAAAPRDTASGRKKAVDATYSDPIGELPPRPRTAARTRVLDDDEFGDEELGDDL    1760
+LPE                                                                                 1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+...                                                                                 1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+418             30    VFQEAVK|TS  0.063    .
+418             36    KTSYGQR|RG  0.080    .
+418             37    TSYGQRR|GP  0.197    .
+418             46    LVVPATR|GG  0.072    .
+418             54    GAGFGAK|KP  0.061    .
+418             55    AGFGAKK|PP  0.072    .
+418             63    PPTTAMR|GV  0.134    .
+418             69    RGVLGSR|RG  0.070    .
+418             70    GVLGSRR|GT  0.098    .
+418             75    RRGTALR|VG  0.118    .
+418             84    EDGGTAR|PI  0.135    .
+418            100    FTAGGSK|AT  0.061    .
+418            109    IGAASFR|SA  0.254    .
+418            116    SATGETK|LE  0.065    .
+418            126    TPEQTIK|KM  0.075    .
+418            127    PEQTIKK|ME  0.109    .
+418            130    TIKKMER|EI  0.133    .
+418            146    SFALENK|QH  0.070    .
+418            149    LENKQHK|QA  0.073    .
+418            154    HKQALEK|AN  0.070    .
+418            157    ALEKANK|AV  0.074    .
+418            161    ANKAVTK|EK  0.072    .
+418            163    KAVTKEK|IL  0.071    .
+418            167    KEKILQR|HR  0.097    .
+418            169    KILQRHR|DL  0.088    .
+418            212    AYMSIIK|NK  0.055    .
+418            214    MSIIKNK|AF  0.093    .
+418            221    AFSNAGR|FR  0.099    .
+418            223    SNAGRFR|VN  0.094    .
+418            232    LGNILLK|QG  0.061    .
+418            235    ILLKQGK|YT  0.085    .
+418            241    KYTEAIR|MY  0.092    .
+418            244    EAIRMYR|RA  0.275    .
+418            245    AIRMYRR|AL  0.255    .
+418            258    ETHTYMR|IK  0.084    .
+418            260    HTYMRIK|IL  0.077    .
+418            263    MRIKILK|NI  0.089    .
+418            271    IGISFIK|MS  0.062    .
+418            289    SFEHIMK|TK  0.063    .
+418            291    EHIMKTK|AD  0.069    .
+418            295    KTKADFK|TA  0.064    .
+418            312    AIGDSDK|MK  0.061    .
+418            314    GDSDKMK|KA  0.101    .
+418            315    DSDKMKK|AF  0.108    .
+418            319    MKKAFHR|LL  0.101    .
+418            333    GMEDEDR|YL  0.113    .
+418            351    LVMEAIK|DD  0.060    .
+418            356    IKDDELR|KI  0.105    .
+418            357    KDDELRK|IE  0.072    .
+418            360    ELRKIER|GK  0.083    .
+418            362    RKIERGK|RR  0.065    .
+418            363    KIERGKR|RY  0.317    .
+418            364    IERGKRR|YA  0.378    .
+418            368    KRRYAEK|CI  0.094    .
+418            375    CIIQAAK|LI  0.077    .
+418            397    WCVDCVR|DS  0.092    .
+418            412    SELEINK|AI  0.056    .
+418            418    KAIMYLR|QK  0.091    .
+418            420    IMYLRQK|DF  0.071    .
+418            424    RQKDFQK|AV  0.094    .
+418            430    KAVEALK|VF  0.059    .
+418            434    ALKVFEK|KD  0.070    .
+418            435    LKVFEKK|DS  0.134    .
+418            438    FEKKDSK|IA  0.072    .
+418            454    SFLYYLK|GE  0.056    .
+418            458    YLKGENK|EA  0.075    .
+418            462    ENKEAEK|YA  0.083    .
+418            472    QAIESDR|YN  0.096    .
+418            481    PYALVNR|GN  0.089    .
+418            487    RGNIHFK|AG  0.070    .
+418            493    KAGELEK|AR  0.066    .
+418            495    GELEKAR|DY  0.121    .
+418            520    NLGLTYK|TM  0.070    .
+418            534    ALECFEK|LH  0.059    .
+418            556    AILYDMK|QD  0.060    .
+418            593    YDQDSDR|SQ  0.118    .
+418            605    YFLESHK|YF  0.060    .
+418            629    DGQFHEK|AI  0.072    .
+418            636    AIQYFEK|AS  0.069    .
+418            646    IEPQEVK|WQ  0.055    .
+418            656    MIASCYR|RS  0.101    .
+418            657    IASCYRR|SG  0.287    .
+418            669    QSLVTYK|KI  0.068    .
+418            670    SLVTYKK|IH  0.082    .
+418            674    YKKIHLK|FP  0.079    .
+418            683    ENVECLK|FL  0.061    .
+418            687    CLKFLVR|IC  0.087    .
+418            695    CSDLGLK|EA  0.055    .
+418            703    ANEYANK|LK  0.057    .
+418            705    EYANKLK|KA  0.082    .
+418            706    YANKLKK|AE  0.113    .
+418            709    KLKKAEK|AK  0.061    .
+418            711    KKAEKAK|EL  0.108    .
+418            714    EKAKELR|DQ  0.097    .
+418            717    KELRDQR|RD  0.165    .
+418            718    ELRDQRR|DN  0.240    .
+418            723    RRDNSGR|RS  0.154    .
+418            724    RDNSGRR|SG  0.214    .
+418            727    SGRRSGR|QR  0.426    .
+418            729    RRSGRQR|GS  0.336    .
+418            736    GSGGSER|SS  0.128    .
+418            740    SERSSAR|NS  0.115    .
+418            743    SSARNSR|QN  0.434    .
+418            749    RQNSGTR|RT  0.105    .
+418            750    QNSGTRR|TE  0.192    .
+418            762    APAAAPR|DT  0.154    .
+418            768    RDTASGR|KK  0.080    .
+418            769    DTASGRK|KA  0.085    .
+418            770    TASGRKK|AV  0.304    .
+418            786    IGELPPR|PR  0.086    .
+418            788    ELPPRPR|TA  0.093    .
+418            792    RPRTAAR|TR  0.093    .
+418            794    RTAARTR|VM  0.113    .
+418            819    DSSVSTK|PS  0.071    .
+418            844    MVGAPPR|AQ  0.076    .
+418            848    PPRAQLR|LD  0.086    .
+418            856    DWIYGYR|GH  0.071    .
+418            861    YRGHQCR|NN  0.119    .
+418            887    VIYHPIK|KS  0.062    .
+418            888    IYHPIKK|SQ  0.138    .
+418            891    PIKKSQR|YF  0.108    .
+418            910    ALHPDLK|TV  0.089    .
+418            965    SVDLATK|CT  0.058    .
+418            974    VCVYDWK|KG  0.054    .
+418            975    CVYDWKK|GK  0.085    .
+418            977    YDWKKGK|LL  0.067    .
+418            988    HTAHSER|VF  0.107    .
+418            993    ERVFDVK|FR  0.069    .
+418            995    VFDVKFR|PD  0.093    .
+418           1008    LVSCGVK|HI  0.074    .
+418           1014    KHISFWK|HC  0.080    .
+418           1021    HCGNALR|IK  0.085    .
+418           1023    GNALRIK|VG  0.066    .
+418           1026    LRIKVGK|VA  0.140    .
+418           1030    VGKVAGK|GG  0.076    .
+418           1050    VFGSEGK|CF  0.065    .
+418           1076    SIVSTIK|KM  0.065    .
+418           1077    IVSTIKK|ME  0.111    .
+418           1080    TIKKMER|EI  0.119    .
+418           1096    SFALENK|QH  0.070    .
+418           1099    LENKQHK|QA  0.073    .
+418           1104    HKQALEK|AN  0.070    .
+418           1107    ALEKANK|AV  0.074    .
+418           1111    ANKAVTK|EK  0.072    .
+418           1113    KAVTKEK|IL  0.071    .
+418           1117    KEKILQR|HR  0.097    .
+418           1119    KILQRHR|DL  0.088    .
+418           1162    AYMSIIK|NK  0.055    .
+418           1164    MSIIKNK|AF  0.093    .
+418           1171    AFSNAGR|FR  0.099    .
+418           1173    SNAGRFR|VN  0.094    .
+418           1182    LGNILLK|QG  0.061    .
+418           1185    ILLKQGK|YT  0.085    .
+418           1191    KYTEAIR|MY  0.092    .
+418           1194    EAIRMYR|RA  0.275    .
+418           1195    AIRMYRR|AL  0.255    .
+418           1208    ETHTYMR|IK  0.084    .
+418           1210    HTYMRIK|IL  0.077    .
+418           1213    MRIKILK|NI  0.089    .
+418           1221    IGISFIK|MS  0.062    .
+418           1239    SFEHIMK|TK  0.063    .
+418           1241    EHIMKTK|AD  0.069    .
+418           1245    KTKADFK|TA  0.064    .
+418           1262    AIGDSDK|MK  0.061    .
+418           1264    GDSDKMK|KA  0.101    .
+418           1265    DSDKMKK|AF  0.108    .
+418           1269    MKKAFHR|LL  0.098    .
+418           1283    GIEDEDR|YL  0.111    .
+418           1301    LVMEAIK|DD  0.060    .
+418           1306    IKDDELR|KI  0.105    .
+418           1307    KDDELRK|IE  0.072    .
+418           1310    ELRKIER|GK  0.083    .
+418           1312    RKIERGK|RR  0.065    .
+418           1313    KIERGKR|RY  0.317    .
+418           1314    IERGKRR|YA  0.378    .
+418           1318    KRRYAEK|CI  0.094    .
+418           1325    CIIQAAK|LI  0.077    .
+418           1347    WCVDCVR|DS  0.092    .
+418           1362    SELEINK|AI  0.056    .
+418           1368    KAIMYLR|QK  0.091    .
+418           1370    IMYLRQK|DF  0.071    .
+418           1374    RQKDFQK|AV  0.094    .
+418           1380    KAVEALK|VF  0.059    .
+418           1384    ALKVFEK|KD  0.070    .
+418           1385    LKVFEKK|DS  0.134    .
+418           1388    FEKKDSK|IA  0.072    .
+418           1404    SFLYYLK|GE  0.056    .
+418           1408    YLKGENK|EA  0.075    .
+418           1412    ENKEAEK|YA  0.083    .
+418           1422    QAIESDR|YN  0.096    .
+418           1431    PYALVNR|GN  0.089    .
+418           1437    RGNIHFK|AG  0.070    .
+418           1443    KAGELEK|AR  0.066    .
+418           1445    GELEKAR|DY  0.121    .
+418           1470    NLGLTYK|TM  0.070    .
+418           1484    ALECFEK|LH  0.060    .
+418           1506    AILYDMK|QD  0.060    .
+418           1543    YDQDSDR|SQ  0.118    .
+418           1555    YFLESHK|YF  0.060    .
+418           1579    DGQFHEK|AI  0.072    .
+418           1586    AIQYFEK|AS  0.069    .
+418           1596    IEPQEVK|WQ  0.055    .
+418           1606    MIASCYR|RS  0.101    .
+418           1607    IASCYRR|SG  0.287    .
+418           1619    QSLVTYK|KI  0.068    .
+418           1620    SLVTYKK|IH  0.082    .
+418           1624    YKKIHLK|FP  0.079    .
+418           1633    ENVECLK|FL  0.061    .
+418           1637    CLKFLVR|IC  0.087    .
+418           1645    CSDLGLK|EA  0.055    .
+418           1653    ANEYANK|LK  0.057    .
+418           1655    EYANKLK|KA  0.082    .
+418           1656    YANKLKK|AE  0.113    .
+418           1659    KLKKAEK|AK  0.061    .
+418           1661    KKAEKAK|EL  0.108    .
+418           1664    EKAKELR|DQ  0.097    .
+418           1667    KELRDQR|RD  0.165    .
+418           1668    ELRDQRR|DN  0.240    .
+418           1673    RRDNSGR|RS  0.154    .
+418           1674    RDNSGRR|SG  0.214    .
+418           1677    SGRRSGR|QR  0.426    .
+418           1679    RRSGRQR|GS  0.336    .
+418           1686    GSGGSER|SS  0.128    .
+418           1690    SERSSAR|NS  0.115    .
+418           1693    SSARNSR|QN  0.434    .
+418           1699    RQNSGTR|RT  0.095    .
+418           1700    QNSGTRR|TE  0.231    .
+418           1712    APAAAPR|DT  0.157    .
+418           1718    RDTASGR|KK  0.080    .
+418           1719    DTASGRK|KA  0.085    .
+418           1720    TASGRKK|AV  0.304    .
+418           1736    IGELPPR|PR  0.086    .
+418           1738    ELPPRPR|TA  0.084    .
+418           1742    RPRTAAR|TR  0.086    .
+418           1744    RTAARTR|VL  0.124    .
+____________________________^_________________
+
+
+
+

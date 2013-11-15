@@ -1,0 +1,48 @@
+# 330 Length: 1963
+# 330 Number of predicted TMHs:  21
+# 330 Exp number of AAs in TMHs: 482.667639999999
+# 330 Exp number, first 60 AAs:  0.00432
+# 330 Total prob of N-in:        0.98263
+330	TMHMM2.0	inside	     1   182
+330	TMHMM2.0	TMhelix	   183   205
+330	TMHMM2.0	outside	   206   209
+330	TMHMM2.0	TMhelix	   210   232
+330	TMHMM2.0	inside	   233   238
+330	TMHMM2.0	TMhelix	   239   261
+330	TMHMM2.0	outside	   262   265
+330	TMHMM2.0	TMhelix	   266   288
+330	TMHMM2.0	inside	   289   294
+330	TMHMM2.0	TMhelix	   295   317
+330	TMHMM2.0	outside	   318   320
+330	TMHMM2.0	TMhelix	   321   343
+330	TMHMM2.0	inside	   344   349
+330	TMHMM2.0	TMhelix	   350   372
+330	TMHMM2.0	outside	   373   375
+330	TMHMM2.0	TMhelix	   376   398
+330	TMHMM2.0	inside	   399   404
+330	TMHMM2.0	TMhelix	   405   427
+330	TMHMM2.0	outside	   428   430
+330	TMHMM2.0	TMhelix	   431   453
+330	TMHMM2.0	inside	   454   459
+330	TMHMM2.0	TMhelix	   460   482
+330	TMHMM2.0	outside	   483   485
+330	TMHMM2.0	TMhelix	   486   508
+330	TMHMM2.0	inside	   509   514
+330	TMHMM2.0	TMhelix	   515   537
+330	TMHMM2.0	outside	   538   540
+330	TMHMM2.0	TMhelix	   541   563
+330	TMHMM2.0	inside	   564   569
+330	TMHMM2.0	TMhelix	   570   592
+330	TMHMM2.0	outside	   593   595
+330	TMHMM2.0	TMhelix	   596   618
+330	TMHMM2.0	inside	   619   624
+330	TMHMM2.0	TMhelix	   625   647
+330	TMHMM2.0	outside	   648   650
+330	TMHMM2.0	TMhelix	   651   673
+330	TMHMM2.0	inside	   674   679
+330	TMHMM2.0	TMhelix	   680   702
+330	TMHMM2.0	outside	   703   705
+330	TMHMM2.0	TMhelix	   706   728
+330	TMHMM2.0	inside	   729   734
+330	TMHMM2.0	TMhelix	   735   757
+330	TMHMM2.0	outside	   758  1963

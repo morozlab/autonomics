@@ -1,0 +1,324 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1920 346         
+MSVKSWTWFDRELDAMSDLATSQKSLASSTLTIARSLSNLPGKQELSYTCDGFIVAVPPPSPKDQPIPPDLVPDNNYPQE      80
+YANPEDPQDNYNYPPDHFEDPQTNGVRVSGHDNKLPHTNDDGLFYSHHHHGPIIGRRSECSRVLPPEDDRYHSYEDLVTV     160
+SSKPDLGYQSHPEFSKSATDLPVTSGVVLDLDLLLSDHDLATVSAISQPTVSYFSNPVYLAPSSQTTPYPRTTGSPLFKN     240
+LGHGSPELYGKICFGSFDEDLSQGEFWDSVSSVDQQLLESNEVTPVNSEPGTPVVLGPGRLVAPVTVHENPSPPPLLAAT     320
+PPQFATPPASSTPTNNTSGSMTPPVAQNSFTVVVKKVDTSLGINVIQKGSGIFIKNLVPDGPATGGYFYGMAEKENEDIN     400
+RLSDNSYHSLNSLGMMGPEIMVEKASVKDISCFLADQAVPAPDSQSVHSRHSEASVKSRQSETPSIKSRQSETPSVKSRH     480
+SETPSRHSKTPSRHSETPSQHHQGVSQGPPSVASSKHSLNNVMSNSQHSIQTQSICSDALGVMVTASSDALATNSSDAMA     560
+TNYQGGVDPIYTTVGAKEKEEEVIPRQSSVVLRPDTGNRRISWNDNPIEPERDVVTVDIKTEGLGTGIILSPQIYPDGIL     640
+VKGLGPTAAAQQYIWPQDLIISIDGNSTDGLSMSDAADLLSTTNTTIRLVVKRDCPNYNVVTVIVEKPKSGSIGLSITER     720
+RSLPGIYISQVTPGGAAHIAGGIERGQRILKIGDASVKYMRQPEFVRLLKESVAQVKLTVGTPTGDIQKSFVEGGGSNRN     800
+SYTNSQGGSNRNSYTNSQENLSRSVHSLASSHRSSPPILRRISPGGSARSGNSQRSGSPSQLSTGSSRRTIGSKNQDHHR     880
+PASYAGSRCSDHKSGSVVDRASLHERSLASDRVSLHERSLASDRASLHERSPASDRASLHERGMASDRASLHERGMASDR     960
+NSIASRNSMVDQNAMVDRNSLLGSRNSLGDRISLADRNSLADRNSLGDRNSLADRRDSDRNISVADRQSLADSRNSLADK    1040
+NSQIGRDSRNSDQPRMEYGRLSYTGSHRSNGVGSDMGSRHSGRNSDRFYSPSQERFSDRGSVHERNSDRGSVQERLSDRG    1120
+SVQEKFSDRGSNFDKYSEKGSNFDRGSERDRGSERDRPGSERDRMSDRMSERDRMSDRMSGHFPPRETDRYSERSSDRYS    1200
+LPRGDQMSDRNSARFSDRYSDRGGHPVERYSDRQSDRQSDRQSGRQSDRQSDRQSDRQSDRQSDRYSGRDMDRYSDRTST    1280
+LEGDRSPRMGSLRGDGDSRHSGSVRGDLGDSRHSGSVRGDIGDSRHSGSVRSSHHSSYAGSRRSVSPHQQWAGIRQSSTR    1360
+SGAPPPPRYEDLGSQKLSTPAGYPIERELDHSALALLRHSSASLQSDTSHNSQLSSRSAKQPTLSSNGVGSDMGSRHSGR    1440
+NSDRFYSPSQERFSDRGSVHERNSDRGSVQERLSDRGSVQEKFSDRGSNFDKYSEKGSNFDRGSERDRGSERDRPGSERD    1520
+RMSDRMSERDRMSDRMSGHFPPRETDRYSERSSDRYSLPRGDQMSDRNSARFSDRYSDRGGHPVERYSDRQSDRQSDRQS    1600
+DRQSDRQSDRQSDRQSDRQSDRYSGRDMDRYSDRTSTLEGDRSPRMGSLRGDGDSRHSGSVRGDLGDSRHSGSVRGDIGD    1680
+SRHSGSVRSSHHSSYAGSRRSVSPHQQWAGIRQSSTRSGAPPPPRYEDLGSQKLSTPAGYPIERELDHSALALLRHSSAS    1760
+LQSDTSHNSQLSSRSAKQPTLRTANLYREKDRIICINDINVENHSHEDAVKLLREASSPVTLVVTDNRPNFRIEKLVRSR    1840
+EEGFGFSIVGGTDSEPPLPITVKQVYDNGPASCKLRTGDQIISVNGKSIEEYTREEATLLLRSCTETVTLKLIGLKEAEQ    1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+..............................................................P.................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+...................P............................................................    1760
+................................................................................    1840
+................................................................................    1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+346              4    ---MSVK|SW  0.082    .
+346             11    SWTWFDR|EL  0.107    .
+346             24    DLATSQK|SL  0.086    .
+346             35    STLTIAR|SL  0.129    .
+346             43    LSNLPGK|QE  0.068    .
+346             63    VPPPSPK|DQ  0.064    .
+346            107    PQTNGVR|VS  0.076    .
+346            114    VSGHDNK|LP  0.067    .
+346            136    HGPIIGR|RS  0.084    .
+346            137    GPIIGRR|SE  0.157    .
+346            142    RRSECSR|VL  0.114    .
+346            150    LPPEDDR|YH  0.082    .
+346            163    LVTVSSK|PD  0.062    .
+346            176    SHPEFSK|SA  0.104    .
+346            231    QTTPYPR|TT  0.090    .
+346            239    TGSPLFK|NL  0.100    .
+346            251    SPELYGK|IC  0.071    .
+346            300    VVLGPGR|LV  0.104    .
+346            355    SFTVVVK|KV  0.092    .
+346            356    FTVVVKK|VD  0.086    .
+346            368    GINVIQK|GS  0.083    .
+346            375    GSGIFIK|NL  0.076    .
+346            394    FYGMAEK|EN  0.064    .
+346            401    ENEDINR|LS  0.099    .
+346            424    PEIMVEK|AS  0.063    .
+346            428    VEKASVK|DI  0.082    .
+346            450    SQSVHSR|HS  0.220    .
+346            457    HSEASVK|SR  0.080    .
+346            459    EASVKSR|QS  0.122    .
+346            467    SETPSIK|SR  0.074    .
+346            469    TPSIKSR|QS  0.149    .
+346            477    SETPSVK|SR  0.076    .
+346            479    TPSVKSR|HS  0.201    .
+346            486    HSETPSR|HS  0.086    .
+346            489    TPSRHSK|TP  0.212    .
+346            493    HSKTPSR|HS  0.102    .
+346            516    PSVASSK|HS  0.064    .
+346            577    YTTVGAK|EK  0.060    .
+346            579    TVGAKEK|EE  0.074    .
+346            586    EEEVIPR|QS  0.114    .
+346            593    QSSVVLR|PD  0.129    .
+346            599    RPDTGNR|RI  0.087    .
+346            600    PDTGNRR|IS  0.090    .
+346            612    NPIEPER|DV  0.140    .
+346            620    VVTVDIK|TE  0.058    .
+346            642    PDGILVK|GL  0.075    .
+346            688    TTNTTIR|LV  0.098    .
+346            692    TIRLVVK|RD  0.067    .
+346            693    IRLVVKR|DC  0.241    .
+346            707    VTVIVEK|PK  0.065    .
+346            709    VIVEKPK|SG  0.099    .
+346            720    GLSITER|RS  0.105    .
+346            721    LSITERR|SL  0.243    .
+346            745    IAGGIER|GQ  0.090    .
+346            748    GIERGQR|IL  0.246    .
+346            751    RGQRILK|IG  0.135    .
+346            758    IGDASVK|YM  0.066    .
+346            761    ASVKYMR|QP  0.088    .
+346            767    RQPEFVR|LL  0.083    .
+346            770    EFVRLLK|ES  0.095    .
+346            777    ESVAQVK|LT  0.061    .
+346            789    PTGDIQK|SF  0.079    .
+346            799    EGGGSNR|NS  0.080    .
+346            811    SQGGSNR|NS  0.089    .
+346            823    SQENLSR|SV  0.182    .
+346            833    SLASSHR|SS  0.184    .
+346            840    SSPPILR|RI  0.127    .
+346            841    SPPILRR|IS  0.128    .
+346            849    SPGGSAR|SG  0.232    .
+346            855    RSGNSQR|SG  0.245    .
+346            868    LSTGSSR|RT  0.089    .
+346            869    STGSSRR|TI  0.209    .
+346            874    RRTIGSK|NQ  0.071    .
+346            880    KNQDHHR|PA  0.148    .
+346            888    ASYAGSR|CS  0.099    .
+346            893    SRCSDHK|SG  0.102    .
+346            900    SGSVVDR|AS  0.134    .
+346            906    RASLHER|SL  0.165    .
+346            912    RSLASDR|VS  0.077    .
+346            918    RVSLHER|SL  0.150    .
+346            924    RSLASDR|AS  0.085    .
+346            930    RASLHER|SP  0.137    .
+346            936    RSPASDR|AS  0.106    .
+346            942    RASLHER|GM  0.108    .
+346            948    RGMASDR|AS  0.108    .
+346            954    RASLHER|GM  0.112    .
+346            960    RGMASDR|NS  0.112    .
+346            966    RNSIASR|NS  0.124    .
+346            978    QNAMVDR|NS  0.090    .
+346            985    NSLLGSR|NS  0.062    .
+346            991    RNSLGDR|IS  0.087    .
+346            997    RISLADR|NS  0.086    .
+346           1003    RNSLADR|NS  0.097    .
+346           1009    RNSLGDR|NS  0.091    .
+346           1015    RNSLADR|RD  0.095    .
+346           1016    NSLADRR|DS  0.160    .
+346           1020    DRRDSDR|NI  0.135    .
+346           1027    NISVADR|QS  0.085    .
+346           1034    QSLADSR|NS  0.071    .
+346           1040    RNSLADK|NS  0.078    .
+346           1046    KNSQIGR|DS  0.145    .
+346           1049    QIGRDSR|NS  0.280    .
+346           1055    RNSDQPR|ME  0.119    .
+346           1060    PRMEYGR|LS  0.104    .
+346           1068    SYTGSHR|SN  0.157    .
+346           1079    GSDMGSR|HS  0.089    .
+346           1083    GSRHSGR|NS  0.128    .
+346           1087    SGRNSDR|FY  0.175    .
+346           1095    YSPSQER|FS  0.104    .
+346           1099    QERFSDR|GS  0.123    .
+346           1105    RGSVHER|NS  0.149    .
+346           1109    HERNSDR|GS  0.116    .
+346           1115    RGSVQER|LS  0.131    .
+346           1119    QERLSDR|GS  0.105    .
+346           1125    RGSVQEK|FS  0.089    .
+346           1129    QEKFSDR|GS  0.084    .
+346           1135    RGSNFDK|YS  0.094    .
+346           1139    FDKYSEK|GS  0.067    .
+346           1145    KGSNFDR|GS  0.139    .
+346           1149    FDRGSER|DR  0.135    .
+346           1151    RGSERDR|GS  0.130    .
+346           1155    RDRGSER|DR  0.121    .
+346           1157    RGSERDR|PG  0.119    .
+346           1162    DRPGSER|DR  0.104    .
+346           1164    PGSERDR|MS  0.090    .
+346           1168    RDRMSDR|MS  0.125    .
+346           1172    SDRMSER|DR  0.115    .
+346           1174    RMSERDR|MS  0.152    .
+346           1178    RDRMSDR|MS  0.165    .
+346           1186    SGHFPPR|ET  0.113    .
+346           1190    PPRETDR|YS  0.122    .
+346           1194    TDRYSER|SS  0.154    .
+346           1198    SERSSDR|YS  0.120    .
+346           1203    DRYSLPR|GD  0.097    .
+346           1210    GDQMSDR|NS  0.082    .
+346           1214    SDRNSAR|FS  0.153    .
+346           1218    SARFSDR|YS  0.198    .
+346           1222    SDRYSDR|GG  0.164    .
+346           1229    GGHPVER|YS  0.124    .
+346           1233    VERYSDR|QS  0.125    .
+346           1237    SDRQSDR|QS  0.126    .
+346           1241    SDRQSDR|QS  0.134    .
+346           1245    SDRQSGR|QS  0.138    .
+346           1249    SGRQSDR|QS  0.120    .
+346           1253    SDRQSDR|QS  0.132    .
+346           1257    SDRQSDR|QS  0.126    .
+346           1261    SDRQSDR|QS  0.105    .
+346           1265    SDRQSDR|YS  0.132    .
+346           1269    SDRYSGR|DM  0.147    .
+346           1273    SGRDMDR|YS  0.097    .
+346           1277    MDRYSDR|TS  0.107    .
+346           1285    STLEGDR|SP  0.080    .
+346           1288    EGDRSPR|MG  0.190    .
+346           1293    PRMGSLR|GD  0.208    .
+346           1299    RGDGDSR|HS  0.100    .
+346           1305    RHSGSVR|GD  0.097    .
+346           1312    GDLGDSR|HS  0.099    .
+346           1318    RHSGSVR|GD  0.108    .
+346           1325    GDIGDSR|HS  0.110    .
+346           1331    RHSGSVR|SS  0.246    .
+346           1342    SSYAGSR|RS  0.073    .
+346           1343    SYAGSRR|SV  0.591 *ProP*
+346           1355    QQWAGIR|QS  0.086    .
+346           1360    IRQSSTR|SG  0.148    .
+346           1368    GAPPPPR|YE  0.088    .
+346           1376    EDLGSQK|LS  0.061    .
+346           1387    AGYPIER|EL  0.086    .
+346           1398    SALALLR|HS  0.100    .
+346           1417    NSQLSSR|SA  0.177    .
+346           1420    LSSRSAK|QP  0.197    .
+346           1436    GSDMGSR|HS  0.089    .
+346           1440    GSRHSGR|NS  0.128    .
+346           1444    SGRNSDR|FY  0.175    .
+346           1452    YSPSQER|FS  0.104    .
+346           1456    QERFSDR|GS  0.123    .
+346           1462    RGSVHER|NS  0.149    .
+346           1466    HERNSDR|GS  0.116    .
+346           1472    RGSVQER|LS  0.131    .
+346           1476    QERLSDR|GS  0.105    .
+346           1482    RGSVQEK|FS  0.089    .
+346           1486    QEKFSDR|GS  0.084    .
+346           1492    RGSNFDK|YS  0.094    .
+346           1496    FDKYSEK|GS  0.067    .
+346           1502    KGSNFDR|GS  0.139    .
+346           1506    FDRGSER|DR  0.135    .
+346           1508    RGSERDR|GS  0.130    .
+346           1512    RDRGSER|DR  0.121    .
+346           1514    RGSERDR|PG  0.119    .
+346           1519    DRPGSER|DR  0.104    .
+346           1521    PGSERDR|MS  0.090    .
+346           1525    RDRMSDR|MS  0.125    .
+346           1529    SDRMSER|DR  0.115    .
+346           1531    RMSERDR|MS  0.152    .
+346           1535    RDRMSDR|MS  0.165    .
+346           1543    SGHFPPR|ET  0.113    .
+346           1547    PPRETDR|YS  0.122    .
+346           1551    TDRYSER|SS  0.154    .
+346           1555    SERSSDR|YS  0.120    .
+346           1560    DRYSLPR|GD  0.097    .
+346           1567    GDQMSDR|NS  0.082    .
+346           1571    SDRNSAR|FS  0.153    .
+346           1575    SARFSDR|YS  0.198    .
+346           1579    SDRYSDR|GG  0.164    .
+346           1586    GGHPVER|YS  0.124    .
+346           1590    VERYSDR|QS  0.125    .
+346           1594    SDRQSDR|QS  0.131    .
+346           1598    SDRQSDR|QS  0.127    .
+346           1602    SDRQSDR|QS  0.127    .
+346           1606    SDRQSDR|QS  0.127    .
+346           1610    SDRQSDR|QS  0.127    .
+346           1614    SDRQSDR|QS  0.126    .
+346           1618    SDRQSDR|QS  0.105    .
+346           1622    SDRQSDR|YS  0.132    .
+346           1626    SDRYSGR|DM  0.147    .
+346           1630    SGRDMDR|YS  0.097    .
+346           1634    MDRYSDR|TS  0.107    .
+346           1642    STLEGDR|SP  0.080    .
+346           1645    EGDRSPR|MG  0.190    .
+346           1650    PRMGSLR|GD  0.208    .
+346           1656    RGDGDSR|HS  0.100    .
+346           1662    RHSGSVR|GD  0.097    .
+346           1669    GDLGDSR|HS  0.099    .
+346           1675    RHSGSVR|GD  0.108    .
+346           1682    GDIGDSR|HS  0.110    .
+346           1688    RHSGSVR|SS  0.246    .
+346           1699    SSYAGSR|RS  0.073    .
+346           1700    SYAGSRR|SV  0.591 *ProP*
+346           1712    QQWAGIR|QS  0.086    .
+346           1717    IRQSSTR|SG  0.148    .
+346           1725    GAPPPPR|YE  0.088    .
+346           1733    EDLGSQK|LS  0.061    .
+346           1744    AGYPIER|EL  0.086    .
+346           1755    SALALLR|HS  0.100    .
+346           1774    NSQLSSR|SA  0.164    .
+346           1777    LSSRSAK|QP  0.165    .
+346           1782    AKQPTLR|TA  0.090    .
+346           1788    RTANLYR|EK  0.107    .
+346           1790    ANLYREK|DR  0.067    .
+346           1792    LYREKDR|II  0.109    .
+346           1811    SHEDAVK|LL  0.060    .
+346           1814    DAVKLLR|EA  0.084    .
+346           1828    LVVTDNR|PN  0.091    .
+346           1832    DNRPNFR|IE  0.080    .
+346           1835    PNFRIEK|LV  0.149    .
+346           1838    RIEKLVR|SR  0.155    .
+346           1840    EKLVRSR|EE  0.090    .
+346           1863    PLPITVK|QV  0.090    .
+346           1874    NGPASCK|LR  0.056    .
+346           1876    PASCKLR|TG  0.134    .
+346           1887    IISVNGK|SI  0.138    .
+346           1894    SIEEYTR|EE  0.073    .
+346           1902    EATLLLR|SC  0.080    .
+346           1911    TETVTLK|LI  0.069    .
+346           1916    LKLIGLK|EA  0.070    .
+____________________________^_________________
+
+
+
+

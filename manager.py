@@ -23,6 +23,7 @@ import datetime
 import gc
 import time
 import sys
+#print "sys_path: ", sys.path
 
 
 def make_upload_job(q_r,args_r):

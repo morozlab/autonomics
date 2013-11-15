@@ -1,0 +1,244 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1578 542         
+MVYTIPRLTSFNYVLSTDITSELTIKVGGLDGKPPLPTTPHSEPLYRGDFQQLYPDLAFSCYLWDNGNILTLPISTSYRV      80
+FTSRWQWNERLPLPYRVCDLPPTAQLICEVHEILSTKGDVVVGGAAVPIYTTDGMLQCGLIDVKIHFGEWTPEELVGKSQ     160
+EELLVRDEMTELARLVKLHHSGEIEKVDWLDRLTFREVEHVNERSKQQHSAYHMSLEFPPVVSQGMIVSVVHHKGEEEAP     240
+VPSGNDICHVHDPELLQESLVEQKHFKLFRSLRNGPEAKNLKPNATTKHHLSLVIDYPATRALTSDEKDMIWLYRYYLAR     320
+FKKALPKFLKCIDWSDEAEVSVAMELVDIWEPIDVEDALGLLSPQFTHTVVRMYAVKRLGEANDDDLRLYLLQLVQALKF     400
+DGETPKTKLSPLGEFLISRACSNSYFGNYFYWYLCVECDDAMQEQDRDLYRFILRSFRTELDNRGVDGQRQRKLFIRQTE     480
+LIKLLRDVMETPGKTRPQRVENMKIAIREKGLETFETDIPLPLDPRVKIVGVVPDKATLFKSSMMPARFHFKTIDGGEYV     560
+TIFKNGDDLRQDQLILQIVELMDKLLCKENLNLKLKPYRALATGPKHGFIQYVDSKAVATVIQENGTILSYFQKQSADKT     640
+VHPDIMDTYIRSCAGYCVITYILGVGDRHLDNLMLTKYGHLLHIDFGYILGQDPKPFPPPMKLSKEMVEAMGGINSPEYS     720
+SFREHCYNAFLILRRSAGLIINLFSLMLRANIQDISIDPEGAFIKSFMVYTIPRLTSFNYVLSTDITSELTIKVGGLDGK     800
+PPLPTTPHSEPLYRGDFQQLYPDLAFSCYLWDNGNILTLPISTSYRVFTSRWQWNERLPLPYRVCDLPPTAQLICEVHEI     880
+LSTKGDVVVGGAAVPIYTTDGMLQCGLIDVKIHFGEWTPEELVGKSQEELLVRDEMTELARLVKLHHSGEIEKVDWLDRL     960
+TFREVEHVNERSKQQHSAYHMSLEFPPVVSQGMIVSVVHHKGEEEAPVPSGNDICHVHDPELLQESLVEQKHFKLFRSLR    1040
+NGPEAKNLKPNATTKHHLSLVIDYPATRALTSDEKDMIWLYRYYLARFKKALPKFLKCIDWSDEAEVSVAMELVDIWEPI    1120
+DVEDALGLLSPQFTHTVVRMYAVKRLGEANDDDLRLYLLQLVQALKFDGETPKTKLSPLGEFLISRACSNSYFGNYFYWY    1200
+LCVECDDAMQEQDRDLYRFILRSFRTELDNRGVDGQRQRKLFIRQTELIKLLRDVMETPGKTRPQRVENMKIAIREKGLE    1280
+TFETDIPLPLDPRVKIVGVVPDKATLFKSSMMPARFHFKTIDGGEYVTIFKNGDDLRQDQLILQIVELMDKLLCKENLNL    1360
+KLKPYRALATGPKHGFIQYVDSKAVATVIQENGTILSYFQKQSADKTVHPDIMDTYIRSCAGYCVITYILGVGDRHLDNL    1440
+MLTKYGHLLHIDFGYILGQDPKPFPPPMKLSKEMVEAMGGINSPEYSSFREHCYNAFLILRRSAGLIINLFSLMLRANIQ    1520
+DISIDPEGAVRKVEDKFSLDLTEEEAVQLFQHIIDASISALFPALMETAHRIRQYIKR                          1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+..........................................................                          1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+542              7    MVYTIPR|LT  0.081    .
+542             26    TSELTIK|VG  0.060    .
+542             33    VGGLDGK|PP  0.060    .
+542             47    HSEPLYR|GD  0.113    .
+542             79    PISTSYR|VF  0.085    .
+542             84    YRVFTSR|WQ  0.092    .
+542             90    RWQWNER|LP  0.077    .
+542             96    RLPLPYR|VC  0.069    .
+542            117    HEILSTK|GD  0.070    .
+542            144    CGLIDVK|IH  0.054    .
+542            158    PEELVGK|SQ  0.077    .
+542            166    QEELLVR|DE  0.096    .
+542            174    EMTELAR|LV  0.084    .
+542            177    ELARLVK|LH  0.125    .
+542            186    HSGEIEK|VD  0.057    .
+542            192    KVDWLDR|LT  0.087    .
+542            196    LDRLTFR|EV  0.154    .
+542            204    VEHVNER|SK  0.120    .
+542            206    HVNERSK|QQ  0.073    .
+542            234    VSVVHHK|GE  0.072    .
+542            264    ESLVEQK|HF  0.055    .
+542            267    VEQKHFK|LF  0.068    .
+542            270    KHFKLFR|SL  0.189    .
+542            273    KLFRSLR|NG  0.175    .
+542            279    RNGPEAK|NL  0.074    .
+542            282    PEAKNLK|PN  0.064    .
+542            288    KPNATTK|HH  0.068    .
+542            301    IDYPATR|AL  0.091    .
+542            308    ALTSDEK|DM  0.059    .
+542            315    DMIWLYR|YY  0.093    .
+542            320    YRYYLAR|FK  0.117    .
+542            322    YYLARFK|KA  0.056    .
+542            323    YLARFKK|AL  0.435    .
+542            327    FKKALPK|FL  0.071    .
+542            330    ALPKFLK|CI  0.072    .
+542            372    FTHTVVR|MY  0.102    .
+542            377    VRMYAVK|RL  0.076    .
+542            378    RMYAVKR|LG  0.186    .
+542            388    ANDDDLR|LY  0.067    .
+542            399    QLVQALK|FD  0.068    .
+542            406    FDGETPK|TK  0.059    .
+542            408    GETPKTK|LS  0.065    .
+542            419    GEFLISR|AC  0.092    .
+542            447    AMQEQDR|DL  0.107    .
+542            451    QDRDLYR|FI  0.149    .
+542            455    LYRFILR|SF  0.134    .
+542            458    FILRSFR|TE  0.141    .
+542            464    RTELDNR|GV  0.155    .
+542            470    RGVDGQR|QR  0.071    .
+542            472    VDGQRQR|KL  0.090    .
+542            473    DGQRQRK|LF  0.189    .
+542            477    QRKLFIR|QT  0.108    .
+542            483    RQTELIK|LL  0.065    .
+542            486    ELIKLLR|DV  0.124    .
+542            494    VMETPGK|TR  0.057    .
+542            496    ETPGKTR|PQ  0.080    .
+542            499    GKTRPQR|VE  0.216    .
+542            504    QRVENMK|IA  0.077    .
+542            508    NMKIAIR|EK  0.082    .
+542            510    KIAIREK|GL  0.087    .
+542            526    PLPLDPR|VK  0.067    .
+542            528    PLDPRVK|IV  0.086    .
+542            536    VGVVPDK|AT  0.060    .
+542            541    DKATLFK|SS  0.078    .
+542            548    SSMMPAR|FH  0.167    .
+542            552    PARFHFK|TI  0.095    .
+542            564    EYVTIFK|NG  0.057    .
+542            570    KNGDDLR|QD  0.088    .
+542            584    IVELMDK|LL  0.057    .
+542            588    MDKLLCK|EN  0.056    .
+542            594    KENLNLK|LK  0.052    .
+542            596    NLNLKLK|PY  0.068    .
+542            599    LKLKPYR|AL  0.117    .
+542            606    ALATGPK|HG  0.066    .
+542            616    IQYVDSK|AV  0.082    .
+542            634    ILSYFQK|QS  0.083    .
+542            639    QKQSADK|TV  0.085    .
+542            651    IMDTYIR|SC  0.102    .
+542            668    ILGVGDR|HL  0.097    .
+542            677    DNLMLTK|YG  0.058    .
+542            695    ILGQDPK|PF  0.060    .
+542            702    PFPPPMK|LS  0.065    .
+542            705    PPMKLSK|EM  0.068    .
+542            723    PEYSSFR|EH  0.077    .
+542            734    NAFLILR|RS  0.065    .
+542            735    AFLILRR|SA  0.252    .
+542            749    LFSLMLR|AN  0.088    .
+542            765    PEGAFIK|SF  0.075    .
+542            774    MVYTIPR|LT  0.084    .
+542            793    TSELTIK|VG  0.060    .
+542            800    VGGLDGK|PP  0.060    .
+542            814    HSEPLYR|GD  0.113    .
+542            846    PISTSYR|VF  0.085    .
+542            851    YRVFTSR|WQ  0.092    .
+542            857    RWQWNER|LP  0.077    .
+542            863    RLPLPYR|VC  0.069    .
+542            884    HEILSTK|GD  0.070    .
+542            911    CGLIDVK|IH  0.054    .
+542            925    PEELVGK|SQ  0.077    .
+542            933    QEELLVR|DE  0.096    .
+542            941    EMTELAR|LV  0.084    .
+542            944    ELARLVK|LH  0.125    .
+542            953    HSGEIEK|VD  0.057    .
+542            959    KVDWLDR|LT  0.087    .
+542            963    LDRLTFR|EV  0.154    .
+542            971    VEHVNER|SK  0.120    .
+542            973    HVNERSK|QQ  0.073    .
+542           1001    VSVVHHK|GE  0.072    .
+542           1031    ESLVEQK|HF  0.055    .
+542           1034    VEQKHFK|LF  0.068    .
+542           1037    KHFKLFR|SL  0.189    .
+542           1040    KLFRSLR|NG  0.175    .
+542           1046    RNGPEAK|NL  0.074    .
+542           1049    PEAKNLK|PN  0.064    .
+542           1055    KPNATTK|HH  0.068    .
+542           1068    IDYPATR|AL  0.091    .
+542           1075    ALTSDEK|DM  0.059    .
+542           1082    DMIWLYR|YY  0.093    .
+542           1087    YRYYLAR|FK  0.117    .
+542           1089    YYLARFK|KA  0.056    .
+542           1090    YLARFKK|AL  0.435    .
+542           1094    FKKALPK|FL  0.071    .
+542           1097    ALPKFLK|CI  0.072    .
+542           1139    FTHTVVR|MY  0.102    .
+542           1144    VRMYAVK|RL  0.076    .
+542           1145    RMYAVKR|LG  0.186    .
+542           1155    ANDDDLR|LY  0.067    .
+542           1166    QLVQALK|FD  0.068    .
+542           1173    FDGETPK|TK  0.059    .
+542           1175    GETPKTK|LS  0.065    .
+542           1186    GEFLISR|AC  0.092    .
+542           1214    AMQEQDR|DL  0.107    .
+542           1218    QDRDLYR|FI  0.149    .
+542           1222    LYRFILR|SF  0.134    .
+542           1225    FILRSFR|TE  0.141    .
+542           1231    RTELDNR|GV  0.155    .
+542           1237    RGVDGQR|QR  0.071    .
+542           1239    VDGQRQR|KL  0.090    .
+542           1240    DGQRQRK|LF  0.189    .
+542           1244    QRKLFIR|QT  0.108    .
+542           1250    RQTELIK|LL  0.065    .
+542           1253    ELIKLLR|DV  0.124    .
+542           1261    VMETPGK|TR  0.057    .
+542           1263    ETPGKTR|PQ  0.080    .
+542           1266    GKTRPQR|VE  0.216    .
+542           1271    QRVENMK|IA  0.077    .
+542           1275    NMKIAIR|EK  0.082    .
+542           1277    KIAIREK|GL  0.087    .
+542           1293    PLPLDPR|VK  0.067    .
+542           1295    PLDPRVK|IV  0.086    .
+542           1303    VGVVPDK|AT  0.060    .
+542           1308    DKATLFK|SS  0.078    .
+542           1315    SSMMPAR|FH  0.167    .
+542           1319    PARFHFK|TI  0.095    .
+542           1331    EYVTIFK|NG  0.057    .
+542           1337    KNGDDLR|QD  0.088    .
+542           1351    IVELMDK|LL  0.057    .
+542           1355    MDKLLCK|EN  0.056    .
+542           1361    KENLNLK|LK  0.052    .
+542           1363    NLNLKLK|PY  0.068    .
+542           1366    LKLKPYR|AL  0.117    .
+542           1373    ALATGPK|HG  0.066    .
+542           1383    IQYVDSK|AV  0.082    .
+542           1401    ILSYFQK|QS  0.083    .
+542           1406    QKQSADK|TV  0.085    .
+542           1418    IMDTYIR|SC  0.102    .
+542           1435    ILGVGDR|HL  0.097    .
+542           1444    DNLMLTK|YG  0.058    .
+542           1462    ILGQDPK|PF  0.060    .
+542           1469    PFPPPMK|LS  0.065    .
+542           1472    PPMKLSK|EM  0.068    .
+542           1490    PEYSSFR|EH  0.077    .
+542           1501    NAFLILR|RS  0.065    .
+542           1502    AFLILRR|SA  0.252    .
+542           1516    LFSLMLR|AN  0.088    .
+542           1531    DPEGAVR|KV  0.120    .
+542           1532    PEGAVRK|VE  0.075    .
+542           1536    VRKVEDK|FS  0.069    .
+542           1571    LMETAHR|IR  0.073    .
+542           1573    ETAHRIR|QY  0.092    .
+542           1577    RIRQYIK|R-  0.068    .
+542           1578    IRQYIKR|--  0.277    .
+____________________________^_________________
+
+
+
+

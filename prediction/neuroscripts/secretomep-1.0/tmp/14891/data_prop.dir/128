@@ -1,0 +1,458 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2965 128         
+MSTSSLALLMSAYPSSPEDSDSSTLPSSSKAPLPRTDSSSSLPAQESSSQCSEIPVKEEILEYTDGEGSYFYVPPEEVEG      80
+SDQEGPTYLPEQEFTSLDRSITGATLWNMEDSHFASLLHNLGLIRRDAAAAISALPSIHKHKLSVLLKSWSPQKAFTDCL     160
+IEFTDCDHHYGPVGYDTVLVTDPIMSAKYDVIKDGLNQLEVERKQLDEFYNFTEEKSFFFEKCKVCGNMYANSLGLRQHV     240
+AHMHPNVNIEELLKKEEGLFPCLKCRRSFNSQAQLKKHFQKAHLPRGGGELNFKCSHCGEHFKTRVLLHRHTSDKHRNRN     320
+KAEAAELHEPWSCEICKNVFYKKGNFLKHMQKVHGKMKVSERLLNSAKLSAQLNLQAIEEEKQAARELEKAENPSPRTRR     400
+ERRKPASKPKVEPEQPTPSPRKSRSGRHAPRRLIVEDSPPPTPPPPKPAPSLPAPSPPSSKEVNVTCLFCKLSFASYTDL     480
+QLHCSEVHRHGNKILLLKMFTIIDGGGGSDENTYQCILCSGVSNTPPMALSHLQTAHIDTPPDEGASSSQLEELGGGDQD     560
+ASSSPVDLFDGPTCRFCHKTFKNVKIKRKHEKTVHKDQSIVCLYCFIPIVNRTELTKHIKREHSGSKSLFKCRWCDEHFP     640
+SIPKRCSHMKEQHSNQVAQIKQQPLSPAAQTPSTSSSSTCEESETQQEGSECTCVFCFSSFSTKDGLVQHIALYHSKTPK     720
+RPYKCKWCEITFETLYQRSVHMKESHDIGDQKAKTPEQHALTGLWSNPKSAPELVRVCRLCNGEVTSMVLKRHLIEHREL     800
+DHFVCLFCDKTVPSIGGIKSHILRNHPFITSRQVEKSGLVGVVDIERMANIERAHATASDLHTPSARRVNLSGPLEPPPP     880
+RITADSDIVFPCTVCFEVLSVVDHVTKEHWQDHHDTSNHGNVSNGNTTSNGNHGNGDGTSWGCTICEQRFTDRATFTFHM     960
+THHASDSVTFAQSHVDIQNTCGYCSLTVETQQSLEGHLLIHRAVGHFNCIFCRAKSGSLEIMKQHISQAHLDGEALANDP    1040
+SRHLNETPFNSSIFKCSICLKMCNNQFNLNSHTKAHILGGKPCQLCNYKFRDMGTLKNHLTLVHGASDDYITALDAGATS    1120
+RCDAVPDYCELCDRTFSSQGRFQKHRKACRESFLKQDHQSPVLLSLLDTPDRSRENSGAQEEEEEEEEEDLEFLPANLPI    1200
+KSDPSSTPPSSSESPHSYNTRKRPRSRITADSDIVFPCTVCFEVLSVVDHVTKEHWQDHHDTSNHGNVSNGNTTSNGNHG    1280
+NGDGTSWGCTICEQRFTDRATFTFHMTHHASDSVTFAQSHVDIQNTCGYCSLTVETQQSLEGHLLIHRAVGHFNCIFCRA    1360
+KSGSLEIMKQHISQAHLDGEALANDPSRHLNETPFNSSIFKCSICLKMCNNQFNLNSHTKAHILGGKPCQLCNYKFRDMG    1440
+TLKNHLTLVHGASDDYITALDAGATSRCDAVPDYCELCDRTFSSQGRFQKHRKACRESFLKQDHQSPVLLSLLDTPDRSR    1520
+ENSGAQEEEEEEEEEDLEFLPANLPIKSDPSSTPPSSSESPHSYNTRKRPRSYTNIIPAKLLTVSYADYARQSYSAAKRM    1600
+SSPLKKPDSSDLAKVTSTVSALTGTPSMVASDVGTTMSCEVCDLNFSSHKQLYWHRHTKRHLAMEIQARGPSAVSRGKHM    1680
+CDLCDHGYNCKKQLHWHKKITHGPQPQQTLAPKPPSMVSDHPLVYNTPPKPIEMKPSAPPLAAAGESPSKIDSQLWWKNV    1760
+TNPGGARGSEVAVPVKVSVCLGNKDEKFDEGAEQGDNVMGESSSGCQNGNGRNEPEIKSEIQATENIEPETIPSSPSNHE    1840
+ADGKTVDTPSSAKPTKSFICELCQVDFKSNKQLYNHKRTLAHIQLSKKLDPTHTDVFYTCEECQLDFQSYKQLWNHRHSL    1920
+QHWELSQRLKQQRGEGAGEGGGEIGGSSAGEGDNGSIGAGADRKGDSSEADKNGDGAVEGGTAVDIKGGSTVAEEEGGNT    2000
+AVTTRSSSTKEQPPAPTEESCNYVCLDCDCVFTHQTQMKQHRTNYSHQIITIVTAPWQKPSASSSPKEKQLPPPPPPPPR    2080
+VPAKCSKGMICSDKIPCRYHQPKKPTPEKHAPYHCEKCNLPFTALRAYTVHCKQHLEEGFKCKLCKQKFQFRNYNNVKRH    2160
+LTKIHKVTSEKAKDYLETFHSYNQNQSEDENCVEKLLEDAGLTLDRVEEHKNWVTTVDCKYCRISFECVGDMLVHVTSEH    2240
+DSTYHLSYLQRFLGDEGSCSDGSVDDHSLSDAELDGESTVPLIRIKRPLVGGDGSSGKKPKFGSKLITPAAGDNSVVGEE    2320
+GESTVGTKRQYVCILCNHGFTVYLAWWYHSKREHDFSNVSYYGGTPDSKLPGKSYESSCKKNVRAECPECRAIFSQRLLL    2400
+EEHLAVHKKPKCFRCDFCCKRFNSCKNASRHRLKCHTVVTYGRKWWVCRECDGVQFPRAEDLIDHVQENHYTGGKGQDNA    2480
+AVTFCCPTCGKGRVPAKCSKGMICSDKIPCRYHQPKKPTPEKHAPYHCEKCNLPFTALRAYTVHCKQHLEEGFKCKLCKQ    2560
+KFQFRNYNNVKRHLTKIHKVTSEKAKDYLETFHSYNQNQSEDGNCVEKLLGDAGLTLDRVEEHKNWITTVDCKYCRISFE    2640
+CVGDMLVHVTSEHDSTYHLSYLQRFLGDDGSCSDGSVDDHSLSDAELDGESTVPLIRIKRPLVGGGGSSGKKPKFGSKLI    2720
+TPAAGDNSVVGEEGESTVGTKRQYVCILCNHGFTVYLAWWYHSKREHDFSNVSYYGGTPDSKLPGKSYESSCKKNVRAEC    2800
+PECRAIFSQRLLLEEHLAVHKKPKCFRCDFCCKRFNSCKNASRHRLKCHTVVTYGRKWWVCRECDGVQFPRAEDLIDHVQ    2880
+ENHYTGGEGQDNAAVTFCCPTCGKVYNKEKRGITILSRFIFEKRAAESVSRLRSQMSLIYRVFNYFMVLYFLCVNHLSLF    2960
+YQPFI                                                                               3040
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+..........................P.....................................................     480
+................................................................................     560
+................................................................................     640
+....P...........................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+..............................................P.................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+...........................................................P....................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+.....                                                                               3040
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+128             30    TLPSSSK|AP  0.060    .
+128             35    SKAPLPR|TD  0.098    .
+128             57    CSEIPVK|EE  0.058    .
+128             99    EFTSLDR|SI  0.113    .
+128            125    HNLGLIR|RD  0.073    .
+128            126    NLGLIRR|DA  0.217    .
+128            140    ALPSIHK|HK  0.058    .
+128            142    PSIHKHK|LS  0.061    .
+128            148    KLSVLLK|SW  0.129    .
+128            154    KSWSPQK|AF  0.072    .
+128            188    DPIMSAK|YD  0.071    .
+128            193    AKYDVIK|DG  0.074    .
+128            203    NQLEVER|KQ  0.071    .
+128            204    QLEVERK|QL  0.096    .
+128            216    YNFTEEK|SF  0.075    .
+128            222    KSFFFEK|CK  0.067    .
+128            224    FFFEKCK|VC  0.065    .
+128            237    ANSLGLR|QH  0.082    .
+128            254    NIEELLK|KE  0.057    .
+128            255    IEELLKK|EE  0.080    .
+128            264    GLFPCLK|CR  0.057    .
+128            266    FPCLKCR|RS  0.103    .
+128            267    PCLKCRR|SF  0.159    .
+128            276    NSQAQLK|KH  0.070    .
+128            277    SQAQLKK|HF  0.101    .
+128            281    LKKHFQK|AH  0.076    .
+128            286    QKAHLPR|GG  0.133    .
+128            294    GGELNFK|CS  0.070    .
+128            303    HCGEHFK|TR  0.057    .
+128            305    GEHFKTR|VL  0.099    .
+128            310    TRVLLHR|HT  0.154    .
+128            315    HRHTSDK|HR  0.072    .
+128            317    HTSDKHR|NR  0.148    .
+128            319    SDKHRNR|NK  0.093    .
+128            321    KHRNRNK|AE  0.077    .
+128            337    WSCEICK|NV  0.083    .
+128            342    CKNVFYK|KG  0.074    .
+128            343    KNVFYKK|GN  0.113    .
+128            348    KKGNFLK|HM  0.073    .
+128            352    FLKHMQK|VH  0.066    .
+128            356    MQKVHGK|MK  0.067    .
+128            358    KVHGKMK|VS  0.076    .
+128            362    KMKVSER|LL  0.090    .
+128            368    RLLNSAK|LS  0.062    .
+128            382    QAIEEEK|QA  0.067    .
+128            386    EEKQAAR|EL  0.122    .
+128            390    AARELEK|AE  0.066    .
+128            397    AENPSPR|TR  0.096    .
+128            399    NPSPRTR|RE  0.101    .
+128            400    PSPRTRR|ER  0.325    .
+128            402    PRTRRER|RK  0.230    .
+128            403    RTRRERR|KP  0.410    .
+128            404    TRRERRK|PA  0.152    .
+128            408    RRKPASK|PK  0.061    .
+128            410    KPASKPK|VE  0.069    .
+128            421    QPTPSPR|KS  0.122    .
+128            422    PTPSPRK|SR  0.089    .
+128            424    PSPRKSR|SG  0.484    .
+128            427    RKSRSGR|HA  0.556 *ProP*
+128            431    SGRHAPR|RL  0.091    .
+128            432    GRHAPRR|LI  0.157    .
+128            447    PTPPPPK|PA  0.061    .
+128            461    PSPPSSK|EV  0.064    .
+128            471    VTCLFCK|LS  0.066    .
+128            489    HCSEVHR|HG  0.114    .
+128            493    VHRHGNK|IL  0.063    .
+128            498    NKILLLK|MF  0.067    .
+128            575    FDGPTCR|FC  0.116    .
+128            579    TCRFCHK|TF  0.063    .
+128            582    FCHKTFK|NV  0.092    .
+128            585    KTFKNVK|IK  0.071    .
+128            587    FKNVKIK|RK  0.078    .
+128            588    KNVKIKR|KH  0.216    .
+128            589    NVKIKRK|HE  0.092    .
+128            592    IKRKHEK|TV  0.127    .
+128            596    HEKTVHK|DQ  0.080    .
+128            612    FIPIVNR|TE  0.061    .
+128            617    NRTELTK|HI  0.070    .
+128            620    ELTKHIK|RE  0.061    .
+128            621    LTKHIKR|EH  0.167    .
+128            627    REHSGSK|SL  0.092    .
+128            631    GSKSLFK|CR  0.068    .
+128            633    KSLFKCR|WC  0.135    .
+128            644    HFPSIPK|RC  0.060    .
+128            645    FPSIPKR|CS  0.500 *ProP*
+128            650    KRCSHMK|EQ  0.082    .
+128            661    NQVAQIK|QQ  0.062    .
+128            704    FSSFSTK|DG  0.075    .
+128            717    IALYHSK|TP  0.057    .
+128            720    YHSKTPK|RP  0.071    .
+128            721    HSKTPKR|PY  0.176    .
+128            724    TPKRPYK|CK  0.219    .
+128            726    KRPYKCK|WC  0.097    .
+128            738    FETLYQR|SV  0.190    .
+128            743    QRSVHMK|ES  0.145    .
+128            752    HDIGDQK|AK  0.077    .
+128            754    IGDQKAK|TP  0.073    .
+128            769    GLWSNPK|SA  0.080    .
+128            776    SAPELVR|VC  0.076    .
+128            779    ELVRVCR|LC  0.258    .
+128            791    VTSMVLK|RH  0.058    .
+128            792    TSMVLKR|HL  0.302    .
+128            798    RHLIEHR|EL  0.089    .
+128            810    VCLFCDK|TV  0.067    .
+128            819    PSIGGIK|SH  0.063    .
+128            824    IKSHILR|NH  0.085    .
+128            832    HPFITSR|QV  0.198    .
+128            836    TSRQVEK|SG  0.093    .
+128            847    GVVDIER|MA  0.092    .
+128            853    RMANIER|AH  0.082    .
+128            867    LHTPSAR|RV  0.120    .
+128            868    HTPSARR|VN  0.085    .
+128            881    LEPPPPR|IT  0.090    .
+128            907    VVDHVTK|EH  0.062    .
+128            949    CTICEQR|FT  0.136    .
+128            953    EQRFTDR|AT  0.116    .
+128           1002    GHLLIHR|AV  0.104    .
+128           1013    FNCIFCR|AK  0.127    .
+128           1015    CIFCRAK|SG  0.080    .
+128           1023    GSLEIMK|QH  0.059    .
+128           1042    LANDPSR|HL  0.116    .
+128           1055    FNSSIFK|CS  0.065    .
+128           1061    KCSICLK|MC  0.070    .
+128           1074    NLNSHTK|AH  0.071    .
+128           1081    AHILGGK|PC  0.057    .
+128           1089    CQLCNYK|FR  0.060    .
+128           1091    LCNYKFR|DM  0.193    .
+128           1097    RDMGTLK|NH  0.059    .
+128           1121    DAGATSR|CD  0.073    .
+128           1134    YCELCDR|TF  0.084    .
+128           1141    TFSSQGR|FQ  0.106    .
+128           1144    SQGRFQK|HR  0.161    .
+128           1146    GRFQKHR|KA  0.132    .
+128           1147    RFQKHRK|AC  0.102    .
+128           1150    KHRKACR|ES  0.105    .
+128           1155    CRESFLK|QD  0.068    .
+128           1172    LLDTPDR|SR  0.125    .
+128           1174    DTPDRSR|EN  0.085    .
+128           1201    PANLPIK|SD  0.075    .
+128           1221    PHSYNTR|KR  0.098    .
+128           1222    HSYNTRK|RP  0.078    .
+128           1223    SYNTRKR|PR  0.261    .
+128           1225    NTRKRPR|SR  0.154    .
+128           1227    RKRPRSR|IT  0.121    .
+128           1253    VVDHVTK|EH  0.062    .
+128           1295    CTICEQR|FT  0.136    .
+128           1299    EQRFTDR|AT  0.116    .
+128           1348    GHLLIHR|AV  0.104    .
+128           1359    FNCIFCR|AK  0.127    .
+128           1361    CIFCRAK|SG  0.080    .
+128           1369    GSLEIMK|QH  0.059    .
+128           1388    LANDPSR|HL  0.116    .
+128           1401    FNSSIFK|CS  0.065    .
+128           1407    KCSICLK|MC  0.070    .
+128           1420    NLNSHTK|AH  0.071    .
+128           1427    AHILGGK|PC  0.057    .
+128           1435    CQLCNYK|FR  0.060    .
+128           1437    LCNYKFR|DM  0.193    .
+128           1443    RDMGTLK|NH  0.059    .
+128           1467    DAGATSR|CD  0.073    .
+128           1480    YCELCDR|TF  0.084    .
+128           1487    TFSSQGR|FQ  0.106    .
+128           1490    SQGRFQK|HR  0.161    .
+128           1492    GRFQKHR|KA  0.132    .
+128           1493    RFQKHRK|AC  0.102    .
+128           1496    KHRKACR|ES  0.105    .
+128           1501    CRESFLK|QD  0.068    .
+128           1518    LLDTPDR|SR  0.125    .
+128           1520    DTPDRSR|EN  0.085    .
+128           1547    PANLPIK|SD  0.075    .
+128           1567    PHSYNTR|KR  0.090    .
+128           1568    HSYNTRK|RP  0.081    .
+128           1569    SYNTRKR|PR  0.181    .
+128           1571    NTRKRPR|SY  0.204    .
+128           1580    TNIIPAK|LL  0.072    .
+128           1591    SYADYAR|QS  0.091    .
+128           1598    QSYSAAK|RM  0.065    .
+128           1599    SYSAAKR|MS  0.228    .
+128           1605    RMSSPLK|KP  0.068    .
+128           1606    MSSPLKK|PD  0.140    .
+128           1614    DSSDLAK|VT  0.080    .
+128           1650    LNFSSHK|QL  0.076    .
+128           1656    KQLYWHR|HT  0.103    .
+128           1659    YWHRHTK|RH  0.149    .
+128           1660    WHRHTKR|HL  0.233    .
+128           1669    AMEIQAR|GP  0.116    .
+128           1676    GPSAVSR|GK  0.148    .
+128           1678    SAVSRGK|HM  0.067    .
+128           1691    DHGYNCK|KQ  0.055    .
+128           1692    HGYNCKK|QL  0.109    .
+128           1698    KQLHWHK|KI  0.070    .
+128           1699    QLHWHKK|IT  0.204    .
+128           1713    QQTLAPK|PP  0.068    .
+128           1730    VYNTPPK|PI  0.080    .
+128           1735    PKPIEMK|PS  0.065    .
+128           1750    AGESPSK|ID  0.058    .
+128           1758    DSQLWWK|NV  0.070    .
+128           1767    TNPGGAR|GS  0.114    .
+128           1776    EVAVPVK|VS  0.055    .
+128           1784    SVCLGNK|DE  0.059    .
+128           1787    LGNKDEK|FD  0.083    .
+128           1812    CQNGNGR|NE  0.078    .
+128           1818    RNEPEIK|SE  0.091    .
+128           1844    NHEADGK|TV  0.070    .
+128           1853    DTPSSAK|PT  0.059    .
+128           1856    SSAKPTK|SF  0.128    .
+128           1868    LCQVDFK|SN  0.080    .
+128           1871    VDFKSNK|QL  0.069    .
+128           1877    KQLYNHK|RT  0.060    .
+128           1878    QLYNHKR|TL  0.264    .
+128           1887    AHIQLSK|KL  0.062    .
+128           1888    HIQLSKK|LD  0.089    .
+128           1911    LDFQSYK|QL  0.076    .
+128           1917    KQLWNHR|HS  0.079    .
+128           1928    HWELSQR|LK  0.081    .
+128           1930    ELSQRLK|QQ  0.082    .
+128           1933    QRLKQQR|GE  0.198    .
+128           1963    IGAGADR|KG  0.095    .
+128           1964    GAGADRK|GD  0.086    .
+128           1972    DSSEADK|NG  0.072    .
+128           1987    GTAVDIK|GG  0.079    .
+128           2005    NTAVTTR|SS  0.233    .
+128           2010    TRSSSTK|EQ  0.090    .
+128           2039    THQTQMK|QH  0.079    .
+128           2042    TQMKQHR|TN  0.115    .
+128           2059    VTAPWQK|PS  0.057    .
+128           2067    SASSSPK|EK  0.067    .
+128           2069    SSSPKEK|QL  0.081    .
+128           2080    PPPPPPR|VP  0.084    .
+128           2084    PPRVPAK|CS  0.093    .
+128           2087    VPAKCSK|GM  0.073    .
+128           2094    GMICSDK|IP  0.061    .
+128           2098    SDKIPCR|YH  0.115    .
+128           2103    CRYHQPK|KP  0.087    .
+128           2104    RYHQPKK|PT  0.102    .
+128           2109    KKPTPEK|HA  0.062    .
+128           2117    APYHCEK|CN  0.062    .
+128           2126    LPFTALR|AY  0.088    .
+128           2133    AYTVHCK|QH  0.059    .
+128           2141    HLEEGFK|CK  0.058    .
+128           2143    EEGFKCK|LC  0.072    .
+128           2146    FKCKLCK|QK  0.074    .
+128           2148    CKLCKQK|FQ  0.074    .
+128           2152    KQKFQFR|NY  0.101    .
+128           2158    RNYNNVK|RH  0.062    .
+128           2159    NYNNVKR|HL  0.262    .
+128           2163    VKRHLTK|IH  0.061    .
+128           2166    HLTKIHK|VT  0.063    .
+128           2171    HKVTSEK|AK  0.069    .
+128           2173    VTSEKAK|DY  0.104    .
+128           2195    DENCVEK|LL  0.080    .
+128           2206    AGLTLDR|VE  0.073    .
+128           2211    DRVEEHK|NW  0.065    .
+128           2220    VTTVDCK|YC  0.063    .
+128           2223    VDCKYCR|IS  0.091    .
+128           2251    HLSYLQR|FL  0.216    .
+128           2284    STVPLIR|IK  0.077    .
+128           2286    VPLIRIK|RP  0.061    .
+128           2287    PLIRIKR|PL  0.526 *ProP*
+128           2298    GDGSSGK|KP  0.059    .
+128           2299    DGSSGKK|PK  0.089    .
+128           2301    SSGKKPK|FG  0.100    .
+128           2305    KPKFGSK|LI  0.069    .
+128           2328    ESTVGTK|RQ  0.058    .
+128           2329    STVGTKR|QY  0.155    .
+128           2351    AWWYHSK|RE  0.060    .
+128           2352    WWYHSKR|EH  0.192    .
+128           2369    GGTPDSK|LP  0.061    .
+128           2373    DSKLPGK|SY  0.082    .
+128           2380    SYESSCK|KN  0.063    .
+128           2381    YESSCKK|NV  0.156    .
+128           2384    SCKKNVR|AE  0.103    .
+128           2391    AECPECR|AI  0.101    .
+128           2397    RAIFSQR|LL  0.091    .
+128           2408    EHLAVHK|KP  0.054    .
+128           2409    HLAVHKK|PK  0.102    .
+128           2411    AVHKKPK|CF  0.077    .
+128           2414    KKPKCFR|CD  0.085    .
+128           2420    RCDFCCK|RF  0.059    .
+128           2421    CDFCCKR|FN  0.189    .
+128           2426    KRFNSCK|NA  0.086    .
+128           2430    SCKNASR|HR  0.077    .
+128           2432    KNASRHR|LK  0.093    .
+128           2434    ASRHRLK|CH  0.073    .
+128           2443    TVVTYGR|KW  0.086    .
+128           2444    VVTYGRK|WW  0.069    .
+128           2449    RKWWVCR|EC  0.137    .
+128           2458    DGVQFPR|AE  0.088    .
+128           2475    NHYTGGK|GQ  0.066    .
+128           2491    CCPTCGK|GR  0.057    .
+128           2493    PTCGKGR|VP  0.079    .
+128           2497    KGRVPAK|CS  0.077    .
+128           2500    VPAKCSK|GM  0.070    .
+128           2507    GMICSDK|IP  0.061    .
+128           2511    SDKIPCR|YH  0.115    .
+128           2516    CRYHQPK|KP  0.087    .
+128           2517    RYHQPKK|PT  0.102    .
+128           2522    KKPTPEK|HA  0.062    .
+128           2530    APYHCEK|CN  0.062    .
+128           2539    LPFTALR|AY  0.088    .
+128           2546    AYTVHCK|QH  0.059    .
+128           2554    HLEEGFK|CK  0.058    .
+128           2556    EEGFKCK|LC  0.072    .
+128           2559    FKCKLCK|QK  0.074    .
+128           2561    CKLCKQK|FQ  0.074    .
+128           2565    KQKFQFR|NY  0.101    .
+128           2571    RNYNNVK|RH  0.062    .
+128           2572    NYNNVKR|HL  0.262    .
+128           2576    VKRHLTK|IH  0.061    .
+128           2579    HLTKIHK|VT  0.063    .
+128           2584    HKVTSEK|AK  0.069    .
+128           2586    VTSEKAK|DY  0.104    .
+128           2608    DGNCVEK|LL  0.085    .
+128           2619    AGLTLDR|VE  0.067    .
+128           2624    DRVEEHK|NW  0.069    .
+128           2633    ITTVDCK|YC  0.065    .
+128           2636    VDCKYCR|IS  0.089    .
+128           2664    HLSYLQR|FL  0.185    .
+128           2697    STVPLIR|IK  0.079    .
+128           2699    VPLIRIK|RP  0.060    .
+128           2700    PLIRIKR|PL  0.586 *ProP*
+128           2711    GGGSSGK|KP  0.058    .
+128           2712    GGSSGKK|PK  0.098    .
+128           2714    SSGKKPK|FG  0.098    .
+128           2718    KPKFGSK|LI  0.069    .
+128           2741    ESTVGTK|RQ  0.058    .
+128           2742    STVGTKR|QY  0.155    .
+128           2764    AWWYHSK|RE  0.060    .
+128           2765    WWYHSKR|EH  0.192    .
+128           2782    GGTPDSK|LP  0.061    .
+128           2786    DSKLPGK|SY  0.082    .
+128           2793    SYESSCK|KN  0.063    .
+128           2794    YESSCKK|NV  0.156    .
+128           2797    SCKKNVR|AE  0.103    .
+128           2804    AECPECR|AI  0.101    .
+128           2810    RAIFSQR|LL  0.091    .
+128           2821    EHLAVHK|KP  0.054    .
+128           2822    HLAVHKK|PK  0.102    .
+128           2824    AVHKKPK|CF  0.077    .
+128           2827    KKPKCFR|CD  0.085    .
+128           2833    RCDFCCK|RF  0.059    .
+128           2834    CDFCCKR|FN  0.189    .
+128           2839    KRFNSCK|NA  0.086    .
+128           2843    SCKNASR|HR  0.077    .
+128           2845    KNASRHR|LK  0.093    .
+128           2847    ASRHRLK|CH  0.073    .
+128           2856    TVVTYGR|KW  0.086    .
+128           2857    VVTYGRK|WW  0.069    .
+128           2862    RKWWVCR|EC  0.137    .
+128           2871    DGVQFPR|AE  0.088    .
+128           2904    CCPTCGK|VY  0.057    .
+128           2908    CGKVYNK|EK  0.062    .
+128           2910    KVYNKEK|RG  0.068    .
+128           2911    VYNKEKR|GI  0.222    .
+128           2918    GITILSR|FI  0.105    .
+128           2923    SRFIFEK|RA  0.079    .
+128           2924    RFIFEKR|AA  0.203    .
+128           2931    AAESVSR|LR  0.075    .
+128           2933    ESVSRLR|SQ  0.091    .
+128           2941    QMSLIYR|VF  0.080    .
+____________________________^_________________
+
+
+
+

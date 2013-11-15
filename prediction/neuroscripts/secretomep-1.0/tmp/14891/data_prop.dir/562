@@ -1,0 +1,273 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1548 562         
+MQGYDRREYLGTDPPPQHQEHDRYRDEQYMREDPREYQQQPREYHPHAGDRSASPLSRVNGRRSRENSGQTIVVKGGRSG      80
+ENRNSRRKNRQPKRQKSGEERVLHSAEWYERYHFVSEGDQSSAKSADPNKKSMMLSHSKPDPSRMMLSHSKPDPSRIFSG     160
+TPSVPTNAQLKDMIQATKAGSSPQQSSVFSGRLGPAQVRNSPVQGRNSPAQGRNSPGQPKQNQPQGKQTQNQSGQSPAAA     240
+NSSGAQTKQPPAVTKAATAVQMIGPQAPLKSQVPPKKQPTVESKQTQQQKAGPSTQVAQQPSKQKPATTTPRQPMSMMAN     320
+PLPPSSSTVSSLPSTTSSTSTTAASPAAASPAKTTQAVTSDEIAEMCISMTMGMKAPVSMATKGKTPVSAPVSKGKEPVI     400
+KTPIQPEVSIMPLTRSQKKKAAKRAKKNLPIKTIKPIIINHPNNTITLPPPPIQGEGKPITTLGKTTTVKLPPSMVLPPP     480
+LPPPAPVAGTSFDFIPAAPGIWPPPQPILPVTEEKPAEFDENFTRTPLGRPSKGRPLTPPLYQHTHATLASLVDRVMDVD     560
+KIRQCSEVVRDLVRVLPLKRGAEITWVDGGTIRRAMDQLGEHLEQRPQEVSPLQLTVTRHIPPPSRLGRKVVFREEDNDP     640
+RSIDSFLKDARYRGEEDPRRSYHHPGEVDHYPHHPHQQGYDRREYLGTDPPPQHQEHDRYRDEQYMREDPREYQQQPREY     720
+HPHAGDRSASPLSRVNGRRSRENSGQTIVVKGGRSGENRNSRRKNRQPKRQKSGEERVLHSAEWYERYHFVSEGDQSSAK     800
+SADPNKKSMMLSHSKPDPSRMMLSHSKPDPSRIFSGTPSVPTNAQLKDMIQATKAGSSPQQSSVFSGRLGPAQVRNSPVQ     880
+GRNSPAQGRNSPGQPKQNQPQGKQTQNQSGQSPAAANSSGAQTKQPPAVTKAATAVQMIGPQAPLKSQVPPKKQPTVESK     960
+QTQQQKAGPSTQVAQQPSKQKPATTTPRQPMSMMANPLPPSSSTVSSLPSTTSSTSTTAASPAAASPAKTTQAVTSDEIA    1040
+EMCISMTMGMKAPVSMATKGKTPVSAPVSKGKEPVIKTPIQPEVSIMPLTRSQKKKAAKRAKKNLPIKTIKPIIINHPNN    1120
+TITLPPPPIQGEGKPITTLGKTTTVKLPPSMVLPPPLPPPAPVAGTSFDFIPAAPGIWPPPQPILPVTEEKPAEFDENFT    1200
+RTPLGRPSKGRPLTPPLYQHTHATLASLVDRVMDVDKIRQCSEVVRDLVRVLPLKRGAEITWVDGGTIRRAMDQLGEHLE    1280
+QMVQDDTRKLVQKCGFKAITANYIEDVKDSKCEVQHQPVVAYEDSGSGHVTGYQPIRDKYFLNPAAPLAHLSRMMLSQFL    1360
+RDRIKQPIRTRYLGHLTGHQPIRDQLELTYFFSSCDTPGNAHEDGNTSNNETYNKGRVKSPYFRYVVGYSEMFMYLQNRA    1440
+GSRDLLSPNQGPVFPNISPVKLCLVCFTAGMVCCTGCSPGKQPIRTRYLGHVTGYQPIRDHIHKKHTAIVHHTTPTNALW    1520
+MCCEKGNIRVWHRPKQVNNQSELVIKVT                                                        1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+............................                                                        1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+562              6    -MQGYDR|RE  0.067    .
+562              7    MQGYDRR|EY  0.108    .
+562             23    QHQEHDR|YR  0.139    .
+562             25    QEHDRYR|DE  0.120    .
+562             31    RDEQYMR|ED  0.081    .
+562             35    YMREDPR|EY  0.106    .
+562             42    EYQQQPR|EY  0.107    .
+562             51    HPHAGDR|SA  0.231    .
+562             58    SASPLSR|VN  0.093    .
+562             62    LSRVNGR|RS  0.097    .
+562             63    SRVNGRR|SR  0.346    .
+562             65    VNGRRSR|EN  0.341    .
+562             75    GQTIVVK|GG  0.071    .
+562             78    IVVKGGR|SG  0.095    .
+562             83    GRSGENR|NS  0.139    .
+562             86    GENRNSR|RK  0.244    .
+562             87    ENRNSRR|KN  0.161    .
+562             88    NRNSRRK|NR  0.092    .
+562             90    NSRRKNR|QP  0.363    .
+562             93    RKNRQPK|RQ  0.211    .
+562             94    KNRQPKR|QK  0.376    .
+562             96    RQPKRQK|SG  0.076    .
+562            101    QKSGEER|VL  0.128    .
+562            111    SAEWYER|YH  0.104    .
+562            124    GDQSSAK|SA  0.145    .
+562            130    KSADPNK|KS  0.063    .
+562            131    SADPNKK|SM  0.128    .
+562            139    MMLSHSK|PD  0.057    .
+562            144    SKPDPSR|MM  0.071    .
+562            151    MMLSHSK|PD  0.059    .
+562            156    SKPDPSR|IF  0.096    .
+562            171    PTNAQLK|DM  0.082    .
+562            178    DMIQATK|AG  0.062    .
+562            192    SSVFSGR|LG  0.101    .
+562            199    LGPAQVR|NS  0.077    .
+562            206    NSPVQGR|NS  0.112    .
+562            213    NSPAQGR|NS  0.090    .
+562            220    NSPGQPK|QN  0.079    .
+562            227    QNQPQGK|QT  0.089    .
+562            248    SSGAQTK|QP  0.077    .
+562            255    QPPAVTK|AA  0.101    .
+562            270    GPQAPLK|SQ  0.077    .
+562            276    KSQVPPK|KQ  0.081    .
+562            277    SQVPPKK|QP  0.101    .
+562            284    QPTVESK|QT  0.080    .
+562            290    KQTQQQK|AG  0.062    .
+562            303    VAQQPSK|QK  0.059    .
+562            305    QQPSKQK|PA  0.075    .
+562            312    PATTTPR|QP  0.081    .
+562            353    AAASPAK|TT  0.079    .
+562            375    SMTMGMK|AP  0.056    .
+562            383    PVSMATK|GK  0.070    .
+562            385    SMATKGK|TP  0.067    .
+562            394    VSAPVSK|GK  0.098    .
+562            396    APVSKGK|EP  0.068    .
+562            401    GKEPVIK|TP  0.074    .
+562            415    SIMPLTR|SQ  0.130    .
+562            418    PLTRSQK|KK  0.106    .
+562            419    LTRSQKK|KA  0.100    .
+562            420    TRSQKKK|AA  0.328    .
+562            423    QKKKAAK|RA  0.086    .
+562            424    KKKAAKR|AK  0.147    .
+562            426    KAAKRAK|KN  0.077    .
+562            427    AAKRAKK|NL  0.241    .
+562            432    KKNLPIK|TI  0.078    .
+562            435    LPIKTIK|PI  0.072    .
+562            458    PIQGEGK|PI  0.081    .
+562            465    PITTLGK|TT  0.063    .
+562            470    GKTTTVK|LP  0.054    .
+562            515    LPVTEEK|PA  0.076    .
+562            525    FDENFTR|TP  0.068    .
+562            530    TRTPLGR|PS  0.102    .
+562            533    PLGRPSK|GR  0.092    .
+562            535    GRPSKGR|PL  0.142    .
+562            555    LASLVDR|VM  0.088    .
+562            561    RVMDVDK|IR  0.062    .
+562            563    MDVDKIR|QC  0.130    .
+562            570    QCSEVVR|DL  0.142    .
+562            574    VVRDLVR|VL  0.073    .
+562            579    VRVLPLK|RG  0.057    .
+562            580    RVLPLKR|GA  0.169    .
+562            593    VDGGTIR|RA  0.118    .
+562            594    DGGTIRR|AM  0.155    .
+562            606    GEHLEQR|PQ  0.107    .
+562            619    LQLTVTR|HI  0.078    .
+562            626    HIPPPSR|LG  0.078    .
+562            629    PPSRLGR|KV  0.473    .
+562            630    PSRLGRK|VV  0.124    .
+562            634    GRKVVFR|EE  0.122    .
+562            641    EEDNDPR|SI  0.124    .
+562            648    SIDSFLK|DA  0.074    .
+562            651    SFLKDAR|YR  0.099    .
+562            653    LKDARYR|GE  0.109    .
+562            659    RGEEDPR|RS  0.082    .
+562            660    GEEDPRR|SY  0.190    .
+562            682    HQQGYDR|RE  0.077    .
+562            683    QQGYDRR|EY  0.122    .
+562            699    QHQEHDR|YR  0.139    .
+562            701    QEHDRYR|DE  0.120    .
+562            707    RDEQYMR|ED  0.081    .
+562            711    YMREDPR|EY  0.106    .
+562            718    EYQQQPR|EY  0.107    .
+562            727    HPHAGDR|SA  0.231    .
+562            734    SASPLSR|VN  0.093    .
+562            738    LSRVNGR|RS  0.097    .
+562            739    SRVNGRR|SR  0.346    .
+562            741    VNGRRSR|EN  0.341    .
+562            751    GQTIVVK|GG  0.071    .
+562            754    IVVKGGR|SG  0.095    .
+562            759    GRSGENR|NS  0.139    .
+562            762    GENRNSR|RK  0.244    .
+562            763    ENRNSRR|KN  0.161    .
+562            764    NRNSRRK|NR  0.092    .
+562            766    NSRRKNR|QP  0.363    .
+562            769    RKNRQPK|RQ  0.211    .
+562            770    KNRQPKR|QK  0.376    .
+562            772    RQPKRQK|SG  0.076    .
+562            777    QKSGEER|VL  0.128    .
+562            787    SAEWYER|YH  0.104    .
+562            800    GDQSSAK|SA  0.145    .
+562            806    KSADPNK|KS  0.063    .
+562            807    SADPNKK|SM  0.128    .
+562            815    MMLSHSK|PD  0.057    .
+562            820    SKPDPSR|MM  0.071    .
+562            827    MMLSHSK|PD  0.059    .
+562            832    SKPDPSR|IF  0.096    .
+562            847    PTNAQLK|DM  0.082    .
+562            854    DMIQATK|AG  0.062    .
+562            868    SSVFSGR|LG  0.101    .
+562            875    LGPAQVR|NS  0.077    .
+562            882    NSPVQGR|NS  0.112    .
+562            889    NSPAQGR|NS  0.090    .
+562            896    NSPGQPK|QN  0.079    .
+562            903    QNQPQGK|QT  0.089    .
+562            924    SSGAQTK|QP  0.077    .
+562            931    QPPAVTK|AA  0.101    .
+562            946    GPQAPLK|SQ  0.077    .
+562            952    KSQVPPK|KQ  0.081    .
+562            953    SQVPPKK|QP  0.101    .
+562            960    QPTVESK|QT  0.080    .
+562            966    KQTQQQK|AG  0.062    .
+562            979    VAQQPSK|QK  0.059    .
+562            981    QQPSKQK|PA  0.075    .
+562            988    PATTTPR|QP  0.081    .
+562           1029    AAASPAK|TT  0.079    .
+562           1051    SMTMGMK|AP  0.056    .
+562           1059    PVSMATK|GK  0.070    .
+562           1061    SMATKGK|TP  0.067    .
+562           1070    VSAPVSK|GK  0.098    .
+562           1072    APVSKGK|EP  0.068    .
+562           1077    GKEPVIK|TP  0.074    .
+562           1091    SIMPLTR|SQ  0.130    .
+562           1094    PLTRSQK|KK  0.106    .
+562           1095    LTRSQKK|KA  0.100    .
+562           1096    TRSQKKK|AA  0.328    .
+562           1099    QKKKAAK|RA  0.086    .
+562           1100    KKKAAKR|AK  0.147    .
+562           1102    KAAKRAK|KN  0.077    .
+562           1103    AAKRAKK|NL  0.241    .
+562           1108    KKNLPIK|TI  0.078    .
+562           1111    LPIKTIK|PI  0.072    .
+562           1134    PIQGEGK|PI  0.081    .
+562           1141    PITTLGK|TT  0.063    .
+562           1146    GKTTTVK|LP  0.054    .
+562           1191    LPVTEEK|PA  0.076    .
+562           1201    FDENFTR|TP  0.068    .
+562           1206    TRTPLGR|PS  0.102    .
+562           1209    PLGRPSK|GR  0.092    .
+562           1211    GRPSKGR|PL  0.142    .
+562           1231    LASLVDR|VM  0.088    .
+562           1237    RVMDVDK|IR  0.062    .
+562           1239    MDVDKIR|QC  0.130    .
+562           1246    QCSEVVR|DL  0.142    .
+562           1250    VVRDLVR|VL  0.073    .
+562           1255    VRVLPLK|RG  0.057    .
+562           1256    RVLPLKR|GA  0.169    .
+562           1269    VDGGTIR|RA  0.118    .
+562           1270    DGGTIRR|AM  0.155    .
+562           1288    MVQDDTR|KL  0.086    .
+562           1289    VQDDTRK|LV  0.090    .
+562           1293    TRKLVQK|CG  0.083    .
+562           1297    VQKCGFK|AI  0.063    .
+562           1308    NYIEDVK|DS  0.059    .
+562           1311    EDVKDSK|CE  0.061    .
+562           1337    TGYQPIR|DK  0.106    .
+562           1339    YQPIRDK|YF  0.053    .
+562           1353    PLAHLSR|MM  0.081    .
+562           1361    MLSQFLR|DR  0.136    .
+562           1363    SQFLRDR|IK  0.087    .
+562           1365    FLRDRIK|QP  0.060    .
+562           1369    RIKQPIR|TR  0.076    .
+562           1371    KQPIRTR|YL  0.114    .
+562           1383    TGHQPIR|DQ  0.107    .
+562           1415    NNETYNK|GR  0.056    .
+562           1417    ETYNKGR|VK  0.121    .
+562           1419    YNKGRVK|SP  0.070    .
+562           1424    VKSPYFR|YV  0.170    .
+562           1439    FMYLQNR|AG  0.090    .
+562           1443    QNRAGSR|DL  0.092    .
+562           1461    PNISPVK|LC  0.060    .
+562           1481    TGCSPGK|QP  0.061    .
+562           1485    PGKQPIR|TR  0.079    .
+562           1487    KQPIRTR|YL  0.143    .
+562           1499    TGYQPIR|DH  0.140    .
+562           1504    IRDHIHK|KH  0.081    .
+562           1505    RDHIHKK|HT  0.207    .
+562           1525    LWMCCEK|GN  0.066    .
+562           1529    CEKGNIR|VW  0.067    .
+562           1533    NIRVWHR|PK  0.091    .
+562           1535    RVWHRPK|QV  0.081    .
+562           1546    QSELVIK|VT  0.067    .
+____________________________^_________________
+
+
+
+

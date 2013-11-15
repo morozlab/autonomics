@@ -1,0 +1,368 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2424 219         
+MCQFQTFQHYFKQINLSLIMSMFDETVANALTGDHRVQRELGQGNALTADDLFILWAYKISGRLDFWSMSYSRFSVWLAD      80
+GWHLVGFGVNFRARRRDWSRNVQLDEQNKTWWGQTLAPPRVWVVRLFRFPAKIFSRQAPKHKKLNNPRTGWGQGLAPPGF     160
+VLLIELNISRPVSSPRPEVDPESHEVPAICQPNGKTAITHRPKVYWLDQRHYWKVKEKKIKFMCQFQTFQHYFKQINLSL     240
+IMSMFDETVVHMGKTLRERERENYFSRSTEGSTEHVYNGCLMLSDDLSGQCSDHSSSLRVQRELGQANALTADYLFILVW     320
+SHPFGDVVTLTTRVRSARKRSDYATKTLHSFSTLSKGIIKAITVGPRFSDILGGKGLGERVLVTKSGWPLNRGPTILVGT     400
+QDGQLMVSDAPDWIQLPPTINLERGVVRDMSIGLTLFSHFSSARELWFGQSIGLIAGIDDSGYPPPPDSTKHDDSNQFPQ     480
+YPRQRQSPYYPGGQYNGPMQCSSDSHTRPITDMDGLASLEIFVTVAVEDYFLKLWDNKNTLLREILFSAPLYGISFVTDY     560
+GALFCSSGTNINVLPVANYLPPTFAAKLLSLPFQEPIFEKLVAVPSSTDTSTPDIAVISMNERRKEKMNKMQTGDGRYSK     640
+QNRRRRRDDDDSRGGGGKGGRRSAASSSRDLPSRDTTTTTSYDGGGSGGTSPVNSTCTGTERSQLLVLPEDQEMKVELVE     720
+NNHQRPVSAADSEFTIIEATLPVAGDGFIPNSVVRLMFEHIPSFRMLFADPRIPKQQPPPPNTAPSSSSRSMVSSQLPSR     800
+LSEIQASQHSRLPSHTTLISSLKPRHLSDLQTTSRKSIVTFEITPSQTTTTTITDPCDSGYPPPPDSTKHDDANKLPKYP     880
+RQRQSPYYPGGQYNGPMQCASDSHTRPITDMDGLASLEIFVTVAVEDYFLKLWDNKNTLLREILFSAPLYGISFVTDYGA     960
+LFCSSGTNINVLPVANYLPPTFAAKLLSLPFQEPIFEKLVAVPSSTDTSTPDIAVISMNERRKEKMNKMQTGDGRYSKQN    1040
+RRRRRDDDDSRGGGGKGGRRSAASSSRDLPSRDTTTTTSYDGGGSGGTSPVNSTCTGTERSQLLVLPEDQEMKVELVENN    1120
+HQRPVSAADSEFTIIEATLPVAGDGFIPNSVVRLMFDHIPSFRMLFSDPRIPKQQPPPPNTAPSSSSRSLVSSQLPSRLS    1200
+EIQASQHSRLPSHTTLISSLKPRHLSDLQTTSRKSIVTFEITPSQTTTTTITAPSTSGVSSSHLLSVLNQSSESVREKRS    1280
+KYAEIALKEKTPSYESAERVPRSQQSLLSSKTSLSSLQTAGTSLTSLRVDQGVISPSEGSDLTAETVEGQPDEILGMEPA    1360
+EVDTGGGDQEVVVELPTLPPVTPKSKKKRSSVAHKRSSVRRQSIASGAGGGKLPKKRRATQKHKNTNSTIHEGDHDLDAK    1440
+SSEETLPNSEQRTSPVTTVTSEDNNSNHQPSVTVITHTTEVQSLKDRLKDIGRLHWVEDKLEQLTGAYDLIDGEKDCFMF    1520
+VKVFDEQVSALPGETVNEETVCATHKVIEEMREQNKIDDVHASELLTSLMKCDTTDFMKFKCLSTLMELMQGQTTSPEHK    1600
+TDKTKDILMEILPFLSHDDEDLKQKAFGHLSEYADINTKEDLKDMMVDMGLLKEGTVESDIEIKTDNKLLNVSYWKNKLD    1680
+TTRPPTSKTSEEIQIVSEFEISVDPNSWKEGLQEQPTTTEPSQLFPSENSLVHSVTGVGGSGLLSGTGAGSGLLSGTGDE    1760
+EDEEEEGVAKVPSIDIKRRILTQIAKPAKVRDTNIGKVRSQGKVYNSANDLLLWFNQDEDRFYDTDSEVIGSMLPNGNIS    1840
+LPPRAGGNLNSLATDPRTAEKGRKLVKNAGCCDKRGNIRNSRGEIIGRLTKEGEFVSADGILYTCDGIYAGKQCVNGNRM    1920
+YLNGERIKLSHNFGWGDIDTCDLTYSLSVSSHTGPKARCELTPEALSAERTDSVAWQPVTPKGNNLKKMCRGRTLPIIFD    2000
+VSNNYWGHVGPDNTMIHLSGAIFDASGVRIGNISQYGERLNACLAVRAREDGQRCLSRHPHPPPPPPSPSPSHPLTLSTP    2080
+HLSLHPIPSGAREDGQWCCDKRGNIRNSRGEIIGRLTKEGEFVSADGILYTCDGIYAGKQCVNGNRMYLNGELSHRAEGP    2160
+TEALSAERTDSVAWQPVTPKGNNLKKMCRGRTLPIIFDVSNNYWGHVGPDNTMIHLSGAIFDASGVRIGNISQYGERLNA    2240
+CLAEQEKTDSGVCLDEQEYPNREIIDPRDGVILGKYKNRDTIITTCGDIFDREGAYVGQLLANGHIMLRQEATKMSPLVS    2320
+RSTVNTRSRAKSRRMGTRTGDQMAALDREGCSTRNRIRAQEIAWSTRRVALDPDPRFEPGTFCMRSEATYRSLCITNLPE    2400
+EFDMFLVCQLSHRARRLVPNRQTV                                                            2480
+......................................P.........................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+......P.........................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+....P...........................................................................    1120
+................................................................................    1200
+..............................................................................P.    1280
+................................................................................    1360
+............................P...................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+...............P........                                                            2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+219             12    TFQHYFK|QI  0.077    .
+219             36    ALTGDHR|VQ  0.072    .
+219             39    GDHRVQR|EL  0.560 *ProP*
+219             59    FILWAYK|IS  0.061    .
+219             63    AYKISGR|LD  0.081    .
+219             73    WSMSYSR|FS  0.087    .
+219             92    GFGVNFR|AR  0.070    .
+219             94    GVNFRAR|RR  0.109    .
+219             95    VNFRARR|RD  0.242    .
+219             96    NFRARRR|DW  0.197    .
+219            100    RRRDWSR|NV  0.139    .
+219            109    QLDEQNK|TW  0.062    .
+219            120    QTLAPPR|VW  0.075    .
+219            125    PRVWVVR|LF  0.087    .
+219            128    WVVRLFR|FP  0.234    .
+219            132    LFRFPAK|IF  0.078    .
+219            136    PAKIFSR|QA  0.105    .
+219            140    FSRQAPK|HK  0.063    .
+219            142    RQAPKHK|KL  0.072    .
+219            143    QAPKHKK|LN  0.099    .
+219            148    KKLNNPR|TG  0.090    .
+219            170    IELNISR|PV  0.102    .
+219            176    RPVSSPR|PE  0.103    .
+219            195    ICQPNGK|TA  0.074    .
+219            201    KTAITHR|PK  0.096    .
+219            203    AITHRPK|VY  0.060    .
+219            210    VYWLDQR|HY  0.084    .
+219            214    DQRHYWK|VK  0.074    .
+219            216    RHYWKVK|EK  0.071    .
+219            218    YWKVKEK|KI  0.065    .
+219            219    WKVKEKK|IK  0.130    .
+219            221    VKEKKIK|FM  0.088    .
+219            234    TFQHYFK|QI  0.077    .
+219            254    TVVHMGK|TL  0.064    .
+219            257    HMGKTLR|ER  0.083    .
+219            259    GKTLRER|ER  0.083    .
+219            261    TLRERER|EN  0.110    .
+219            267    RENYFSR|ST  0.259    .
+219            299    DHSSSLR|VQ  0.086    .
+219            302    SSLRVQR|EL  0.432    .
+219            333    VVTLTTR|VR  0.065    .
+219            335    TLTTRVR|SA  0.121    .
+219            338    TRVRSAR|KR  0.409    .
+219            339    RVRSARK|RS  0.089    .
+219            340    VRSARKR|SD  0.433    .
+219            346    RSDYATK|TL  0.063    .
+219            356    SFSTLSK|GI  0.090    .
+219            360    LSKGIIK|AI  0.071    .
+219            367    AITVGPR|FS  0.096    .
+219            375    SDILGGK|GL  0.070    .
+219            380    GKGLGER|VL  0.073    .
+219            385    ERVLVTK|SG  0.085    .
+219            392    SGWPLNR|GP  0.106    .
+219            424    PTINLER|GV  0.097    .
+219            428    LERGVVR|DM  0.180    .
+219            444    SHFSSAR|EL  0.116    .
+219            471    PPPDSTK|HD  0.068    .
+219            483    QFPQYPR|QR  0.064    .
+219            485    PQYPRQR|QS  0.088    .
+219            508    SSDSHTR|PI  0.110    .
+219            533    VEDYFLK|LW  0.060    .
+219            538    LKLWDNK|NT  0.056    .
+219            543    NKNTLLR|EI  0.085    .
+219            587    PPTFAAK|LL  0.062    .
+219            600    QEPIFEK|LV  0.065    .
+219            623    VISMNER|RK  0.098    .
+219            624    ISMNERR|KE  0.126    .
+219            625    SMNERRK|EK  0.100    .
+219            627    NERRKEK|MN  0.170    .
+219            630    RKEKMNK|MQ  0.071    .
+219            637    MQTGDGR|YS  0.101    .
+219            640    GDGRYSK|QN  0.129    .
+219            643    RYSKQNR|RR  0.089    .
+219            644    YSKQNRR|RR  0.096    .
+219            645    SKQNRRR|RR  0.150    .
+219            646    KQNRRRR|RD  0.478    .
+219            647    QNRRRRR|DD  0.812 *ProP*
+219            653    RDDDDSR|GG  0.092    .
+219            658    SRGGGGK|GG  0.072    .
+219            661    GGGKGGR|RS  0.074    .
+219            662    GGKGGRR|SA  0.191    .
+219            669    SAASSSR|DL  0.109    .
+219            674    SRDLPSR|DT  0.122    .
+219            702    TCTGTER|SQ  0.106    .
+219            715    PEDQEMK|VE  0.054    .
+219            725    VENNHQR|PV  0.213    .
+219            755    IPNSVVR|LM  0.115    .
+219            765    EHIPSFR|ML  0.097    .
+219            772    MLFADPR|IP  0.083    .
+219            775    ADPRIPK|QQ  0.104    .
+219            790    APSSSSR|SM  0.177    .
+219            800    SSQLPSR|LS  0.100    .
+219            811    QASQHSR|LP  0.118    .
+219            823    TLISSLK|PR  0.062    .
+219            825    ISSLKPR|HL  0.243    .
+219            835    DLQTTSR|KS  0.078    .
+219            836    LQTTSRK|SI  0.130    .
+219            869    PPPDSTK|HD  0.067    .
+219            875    KHDDANK|LP  0.051    .
+219            878    DANKLPK|YP  0.073    .
+219            881    KLPKYPR|QR  0.070    .
+219            883    PKYPRQR|QS  0.089    .
+219            906    ASDSHTR|PI  0.102    .
+219            931    VEDYFLK|LW  0.060    .
+219            936    LKLWDNK|NT  0.056    .
+219            941    NKNTLLR|EI  0.085    .
+219            985    PPTFAAK|LL  0.062    .
+219            998    QEPIFEK|LV  0.065    .
+219           1021    VISMNER|RK  0.098    .
+219           1022    ISMNERR|KE  0.126    .
+219           1023    SMNERRK|EK  0.100    .
+219           1025    NERRKEK|MN  0.170    .
+219           1028    RKEKMNK|MQ  0.071    .
+219           1035    MQTGDGR|YS  0.101    .
+219           1038    GDGRYSK|QN  0.129    .
+219           1041    RYSKQNR|RR  0.089    .
+219           1042    YSKQNRR|RR  0.096    .
+219           1043    SKQNRRR|RR  0.150    .
+219           1044    KQNRRRR|RD  0.478    .
+219           1045    QNRRRRR|DD  0.812 *ProP*
+219           1051    RDDDDSR|GG  0.092    .
+219           1056    SRGGGGK|GG  0.072    .
+219           1059    GGGKGGR|RS  0.074    .
+219           1060    GGKGGRR|SA  0.191    .
+219           1067    SAASSSR|DL  0.109    .
+219           1072    SRDLPSR|DT  0.122    .
+219           1100    TCTGTER|SQ  0.106    .
+219           1113    PEDQEMK|VE  0.054    .
+219           1123    VENNHQR|PV  0.213    .
+219           1153    IPNSVVR|LM  0.126    .
+219           1163    DHIPSFR|ML  0.086    .
+219           1170    MLFSDPR|IP  0.080    .
+219           1173    SDPRIPK|QQ  0.112    .
+219           1188    APSSSSR|SL  0.196    .
+219           1198    SSQLPSR|LS  0.099    .
+219           1209    QASQHSR|LP  0.118    .
+219           1221    TLISSLK|PR  0.062    .
+219           1223    ISSLKPR|HL  0.243    .
+219           1233    DLQTTSR|KS  0.078    .
+219           1234    LQTTSRK|SI  0.130    .
+219           1276    QSSESVR|EK  0.106    .
+219           1278    SESVREK|RS  0.074    .
+219           1279    ESVREKR|SK  0.766 *ProP*
+219           1281    VREKRSK|YA  0.115    .
+219           1288    YAEIALK|EK  0.060    .
+219           1290    EIALKEK|TP  0.059    .
+219           1299    SYESAER|VP  0.070    .
+219           1302    SAERVPR|SQ  0.358    .
+219           1311    QSLLSSK|TS  0.060    .
+219           1328    TSLTSLR|VD  0.086    .
+219           1384    LPPVTPK|SK  0.080    .
+219           1386    PVTPKSK|KK  0.060    .
+219           1387    VTPKSKK|KR  0.092    .
+219           1388    TPKSKKK|RS  0.153    .
+219           1389    PKSKKKR|SS  0.612 *ProP*
+219           1395    RSSVAHK|RS  0.086    .
+219           1396    SSVAHKR|SS  0.306    .
+219           1400    HKRSSVR|RQ  0.096    .
+219           1401    KRSSVRR|QS  0.409    .
+219           1412    SGAGGGK|LP  0.058    .
+219           1415    GGGKLPK|KR  0.064    .
+219           1416    GGKLPKK|RR  0.086    .
+219           1417    GKLPKKR|RA  0.284    .
+219           1418    KLPKKRR|AT  0.218    .
+219           1422    KRRATQK|HK  0.083    .
+219           1424    RATQKHK|NT  0.068    .
+219           1440    DHDLDAK|SS  0.087    .
+219           1452    LPNSEQR|TS  0.099    .
+219           1485    TEVQSLK|DR  0.067    .
+219           1487    VQSLKDR|LK  0.124    .
+219           1489    SLKDRLK|DI  0.086    .
+219           1493    RLKDIGR|LH  0.075    .
+219           1500    LHWVEDK|LE  0.055    .
+219           1515    DLIDGEK|DC  0.065    .
+219           1522    DCFMFVK|VF  0.071    .
+219           1546    TVCATHK|VI  0.076    .
+219           1552    KVIEEMR|EQ  0.093    .
+219           1556    EMREQNK|ID  0.062    .
+219           1571    LLTSLMK|CD  0.061    .
+219           1579    DTTDFMK|FK  0.063    .
+219           1581    TDFMKFK|CL  0.090    .
+219           1600    TTSPEHK|TD  0.070    .
+219           1603    PEHKTDK|TK  0.069    .
+219           1605    HKTDKTK|DI  0.079    .
+219           1623    HDDEDLK|QK  0.056    .
+219           1625    DEDLKQK|AF  0.066    .
+219           1639    YADINTK|ED  0.052    .
+219           1643    NTKEDLK|DM  0.060    .
+219           1653    VDMGLLK|EG  0.056    .
+219           1664    ESDIEIK|TD  0.060    .
+219           1668    EIKTDNK|LL  0.055    .
+219           1676    LNVSYWK|NK  0.054    .
+219           1678    VSYWKNK|LD  0.068    .
+219           1683    NKLDTTR|PP  0.081    .
+219           1688    TRPPTSK|TS  0.075    .
+219           1709    VDPNSWK|EG  0.067    .
+219           1770    EEEGVAK|VP  0.060    .
+219           1777    VPSIDIK|RR  0.064    .
+219           1778    PSIDIKR|RI  0.149    .
+219           1779    SIDIKRR|IL  0.175    .
+219           1786    ILTQIAK|PA  0.063    .
+219           1789    QIAKPAK|VR  0.070    .
+219           1791    AKPAKVR|DT  0.124    .
+219           1797    RDTNIGK|VR  0.061    .
+219           1799    TNIGKVR|SQ  0.246    .
+219           1803    KVRSQGK|VY  0.066    .
+219           1821    FNQDEDR|FY  0.097    .
+219           1844    NISLPPR|AG  0.104    .
+219           1857    SLATDPR|TA  0.167    .
+219           1861    DPRTAEK|GR  0.062    .
+219           1863    RTAEKGR|KL  0.104    .
+219           1864    TAEKGRK|LV  0.110    .
+219           1867    KGRKLVK|NA  0.076    .
+219           1874    NAGCCDK|RG  0.056    .
+219           1875    AGCCDKR|GN  0.145    .
+219           1879    DKRGNIR|NS  0.089    .
+219           1882    GNIRNSR|GE  0.278    .
+219           1888    RGEIIGR|LT  0.102    .
+219           1891    IIGRLTK|EG  0.094    .
+219           1912    DGIYAGK|QC  0.062    .
+219           1919    QCVNGNR|MY  0.095    .
+219           1926    MYLNGER|IK  0.066    .
+219           1928    LNGERIK|LS  0.062    .
+219           1956    SSHTGPK|AR  0.065    .
+219           1958    HTGPKAR|CE  0.100    .
+219           1970    EALSAER|TD  0.069    .
+219           1982    WQPVTPK|GN  0.065    .
+219           1987    PKGNNLK|KM  0.065    .
+219           1988    KGNNLKK|MC  0.105    .
+219           1991    NLKKMCR|GR  0.072    .
+219           1993    KKMCRGR|TL  0.114    .
+219           2029    FDASGVR|IG  0.078    .
+219           2039    ISQYGER|LN  0.067    .
+219           2047    NACLAVR|AR  0.106    .
+219           2049    CLAVRAR|ED  0.121    .
+219           2054    AREDGQR|CL  0.103    .
+219           2058    GQRCLSR|HP  0.098    .
+219           2092    PIPSGAR|ED  0.080    .
+219           2101    GQWCCDK|RG  0.056    .
+219           2102    QWCCDKR|GN  0.167    .
+219           2106    DKRGNIR|NS  0.088    .
+219           2109    GNIRNSR|GE  0.278    .
+219           2115    RGEIIGR|LT  0.102    .
+219           2118    IIGRLTK|EG  0.094    .
+219           2139    DGIYAGK|QC  0.062    .
+219           2146    QCVNGNR|MY  0.097    .
+219           2156    NGELSHR|AE  0.098    .
+219           2168    EALSAER|TD  0.072    .
+219           2180    WQPVTPK|GN  0.065    .
+219           2185    PKGNNLK|KM  0.065    .
+219           2186    KGNNLKK|MC  0.105    .
+219           2189    NLKKMCR|GR  0.072    .
+219           2191    KKMCRGR|TL  0.114    .
+219           2227    FDASGVR|IG  0.078    .
+219           2237    ISQYGER|LN  0.074    .
+219           2247    CLAEQEK|TD  0.063    .
+219           2262    EQEYPNR|EI  0.100    .
+219           2268    REIIDPR|DG  0.096    .
+219           2275    DGVILGK|YK  0.061    .
+219           2277    VILGKYK|NR  0.066    .
+219           2279    LGKYKNR|DT  0.124    .
+219           2292    CGDIFDR|EG  0.073    .
+219           2309    NGHIMLR|QE  0.076    .
+219           2314    LRQEATK|MS  0.066    .
+219           2321    MSPLVSR|ST  0.122    .
+219           2327    RSTVNTR|SR  0.145    .
+219           2329    TVNTRSR|AK  0.119    .
+219           2331    NTRSRAK|SR  0.090    .
+219           2333    RSRAKSR|RM  0.133    .
+219           2334    SRAKSRR|MG  0.315    .
+219           2338    SRRMGTR|TG  0.117    .
+219           2348    QMAALDR|EG  0.076    .
+219           2354    REGCSTR|NR  0.087    .
+219           2356    GCSTRNR|IR  0.110    .
+219           2358    STRNRIR|AQ  0.115    .
+219           2367    EIAWSTR|RV  0.094    .
+219           2368    IAWSTRR|VA  0.112    .
+219           2376    ALDPDPR|FE  0.076    .
+219           2385    PGTFCMR|SE  0.087    .
+219           2391    RSEATYR|SL  0.124    .
+219           2413    VCQLSHR|AR  0.078    .
+219           2415    QLSHRAR|RL  0.141    .
+219           2416    LSHRARR|LV  0.615 *ProP*
+219           2421    RRLVPNR|QT  0.100    .
+____________________________^_________________
+
+
+
+

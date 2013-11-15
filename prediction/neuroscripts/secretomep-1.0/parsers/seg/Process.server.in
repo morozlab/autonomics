@@ -1,0 +1,81 @@
+#!/usr/freeware/bin/gawk -f
+
+function process() {
+
+   if (cntL==0 && cntH==0) {
+      printf "*" >> "/dev/stderr";
+      return;
+   }else{
+      printf "." >> "/dev/stderr";
+   }
+
+   fn=fileid".Features/seg_vect";
+   beginarray(ident,fn);
+   makearrays(lenid[ident],setL,setLpos,cntL,0,fn);
+   makearrays(lenid[ident],setH,setHpos,cntH,0,fn);
+   endarray(fn);
+   
+}
+BEGIN {
+  # read lengths
+#  fname=fileid".Features/len/feature.out";
+  fname=fileid".Features/allprot_len/feature.out";
+  i=1;
+  while ( getline < fname > 0 ){
+    lenid[$1]=$2;
+    i++
+  }
+  first=1;
+  close(fname);
+}
+/\/\/\-\/\//{
+
+   if (!first) process();
+     
+   first=0;
+
+   cntH=1;
+   cntL=1;
+   ident=$2;
+
+   if (lenid[ident]=="") {
+#     print "Error '"ident"' does not have a length entry\n" >> "/dev/stderr";
+     print "Error '"ident"' does not have a length entry\n" ;
+     ok=0;
+     next;
+   }
+   
+}
+(substr($0,1,1)==">") {
+
+   range=substr($1,length(ident)+2);
+   split(range,v,/[\(\-\)]/);
+   begin=0+v[2];
+   end=0+v[3];
+
+   getline;
+   if (match(substr($1,1,1),/[a-z]/)==0) {
+#high
+      for (i=begin;i<=end;i++) {
+	 setHpos[cntH]=i;
+	 setH[cntH]=1;
+	 cntH++;
+      }
+      
+   }else{
+#low
+      for (i=begin;i<=end;i++) {
+	 setLpos[cntL]=i;
+	 setL[cntL]=1;
+	    cntL++;
+      }
+   }
+
+#   printf "[%d..%d (%s)]\n",begin,end,range >> "/dev/stderr";
+}
+END {
+   process();
+}
+
+
+

@@ -1,0 +1,245 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1701 450         
+MCNIFRARPRLSGKVLLIWPCRVCGGIQNLILLLLLLYHSLVPTTIIYFGVELKHIMKKNTVAFGASDPDLVPPDLVTPR      80
+FSDRINFPRYRKLTVFDPDLDVTKSGSDCITPYPEYIEQYNYHHAFLKTIQLSISSFYCFIIVFIRFNDINYNYLLIYAI     160
+CNLDIIQSDPDLVTPDLVTPRFIDRINFPRYRKLTIFDPDLVPKILSPEDVTKSGSDCISPYIKNGGMSYFRVSRRIVKC     240
+GSGCGIGSSMSNNTTQGGSSNPYYNQTSRTILVVYLAMLAIPVAVVMNSLMIIAFCTFKRLRITGMYIILNLAVSNLRER     320
+ERRERKREKREREGGREEEEEEFKTEQNSTAPEYGCGIGSSMSNNTTQGGSSNPYYNQTSRVNYLGGVSRHVGYTSCSRY     400
+EQSYDHRILHVQKAERNWQTSLGKSKFLILSRSSDPDLVTPDLVTPRFIDRINFPRYRKLTIFDPDLVPKILSPEDVTKS     480
+GSDCISPYIKNGGMSYFRVSRRIVKCGSGCGIGSSMSNNTTQGGSSNPYYNQTSRTILVVYLAMLAIPVAVVMNSLMIIA     560
+FCTFKRLRITGMYIILNLAVSNLVATLLTIPIVHDIIKDIIRDEWQSLSRSLWCDIRGASDMTLFAVSALTLAASSLDRC     640
+WAVCRPFSYHKRVRSIHAYILIAVIWVISIAISIIPMDFTGKYDQDTRKPEFLQEGMIKYTSFYQYSMYSFSCGLSMSAN     720
+YLPMYLIVAFFLPVMVVIVSYSFILRVALTTISKMGKTFKSVRRKSVSLRQPLPPEFHPTKKALKSSLRTLALVLLFGLS     800
+LMPIMLLSFLIWINRRVKMFISEPQMITIAHFFKECEVSSIPSEDRVVLWVAHSVYAINPIVYGLMDRKFRNAYRTLIHC     880
+KGSYDEFRIINSVRPVGSRATRYTPATPSVYLFTEYHAVAWYYLPLRKSVSLRQPLPPEFHPTKKALKSSLRTLALVLLF     960
+GLSLMPIMLLSFLIWINRRVKMFISEPQMITIAHFFKVVLWVAHSVYAINPIVYGLMDRKFRNAYRTLIHCKGSYDEFRY    1040
+GEISLSLSLPLSLSLSLSLSPLSLSLSLSLSLSLYLSISISISLIPFSLYRKEAQKQFYMDLADHQRRRTQSFHNHSENN    1120
+FKYKTLPTNTDHSTTVKLSNGHSTNNNYQDQKRASVHTAEQSRIRLKHTHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1200
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1440
+AAASLSLSLSISLSLSLSLSSHSLSTERKPRSSFTWTWRTINAGGLRASTTIPKTTSSIKLYPPTRITVLRLSSVMGILP    1520
+ITTTKTRKEDRDQSSQFLIYRVFKIRLKRASVHTAEQSRIRLKHTHIALCCRGWWRGWGLHSSSVSLRKGRCAAHLRCTS    1600
+LLLATAASTTFSTILSERGGRGRTWNRGFGVLIDLKLGRKGVREFEGEGRVLEDWEQGRKGVRGLDWDQDGNGVSHFVAV    1680
+LANEEALLVLEELKALLITHA                                                               1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+.........P......................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..............................P.................................................    1520
+............................P...................................................    1600
+................................................................................    1680
+.....................                                                               1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+450              6    -MCNIFR|AR  0.066    .
+450              8    CNIFRAR|PR  0.081    .
+450             10    IFRARPR|LS  0.139    .
+450             14    RPRLSGK|VL  0.066    .
+450             22    LLIWPCR|VC  0.109    .
+450             54    YFGVELK|HI  0.067    .
+450             58    ELKHIMK|KN  0.065    .
+450             59    LKHIMKK|NT  0.118    .
+450             80    PDLVTPR|FS  0.100    .
+450             84    TPRFSDR|IN  0.105    .
+450             89    DRINFPR|YR  0.093    .
+450             91    INFPRYR|KL  0.088    .
+450             92    NFPRYRK|LT  0.102    .
+450            104    PDLDVTK|SG  0.079    .
+450            128    YHHAFLK|TI  0.069    .
+450            146    FIIVFIR|FN  0.101    .
+450            181    PDLVTPR|FI  0.109    .
+450            185    TPRFIDR|IN  0.094    .
+450            190    DRINFPR|YR  0.089    .
+450            192    INFPRYR|KL  0.089    .
+450            193    NFPRYRK|LT  0.120    .
+450            204    DPDLVPK|IL  0.077    .
+450            213    SPEDVTK|SG  0.101    .
+450            224    CISPYIK|NG  0.070    .
+450            232    GGMSYFR|VS  0.082    .
+450            235    SYFRVSR|RI  0.223    .
+450            236    YFRVSRR|IV  0.260    .
+450            239    VSRRIVK|CG  0.139    .
+450            269    YYNQTSR|TI  0.088    .
+450            299    IAFCTFK|RL  0.061    .
+450            300    AFCTFKR|LR  0.152    .
+450            302    CTFKRLR|IT  0.096    .
+450            318    LAVSNLR|ER  0.070    .
+450            320    VSNLRER|ER  0.073    .
+450            322    NLRERER|RE  0.085    .
+450            323    LRERERR|ER  0.384    .
+450            325    ERERRER|KR  0.252    .
+450            326    RERRERK|RE  0.191    .
+450            327    ERRERKR|EK  0.249    .
+450            329    RERKREK|RE  0.071    .
+450            330    ERKREKR|ER  0.729 *ProP*
+450            332    KREKRER|EG  0.150    .
+450            336    REREGGR|EE  0.108    .
+450            344    EEEEEFK|TE  0.055    .
+450            381    YYNQTSR|VN  0.085    .
+450            390    YLGGVSR|HV  0.135    .
+450            399    GYTSCSR|YE  0.070    .
+450            407    EQSYDHR|IL  0.112    .
+450            413    RILHVQK|AE  0.065    .
+450            416    HVQKAER|NW  0.103    .
+450            424    WQTSLGK|SK  0.074    .
+450            426    TSLGKSK|FL  0.075    .
+450            432    KFLILSR|SS  0.124    .
+450            447    PDLVTPR|FI  0.109    .
+450            451    TPRFIDR|IN  0.094    .
+450            456    DRINFPR|YR  0.089    .
+450            458    INFPRYR|KL  0.089    .
+450            459    NFPRYRK|LT  0.120    .
+450            470    DPDLVPK|IL  0.077    .
+450            479    SPEDVTK|SG  0.101    .
+450            490    CISPYIK|NG  0.070    .
+450            498    GGMSYFR|VS  0.082    .
+450            501    SYFRVSR|RI  0.223    .
+450            502    YFRVSRR|IV  0.260    .
+450            505    VSRRIVK|CG  0.139    .
+450            535    YYNQTSR|TI  0.088    .
+450            565    IAFCTFK|RL  0.061    .
+450            566    AFCTFKR|LR  0.152    .
+450            568    CTFKRLR|IT  0.096    .
+450            598    IVHDIIK|DI  0.089    .
+450            602    IIKDIIR|DE  0.111    .
+450            610    EWQSLSR|SL  0.112    .
+450            617    SLWCDIR|GA  0.115    .
+450            639    AASSLDR|CW  0.098    .
+450            645    RCWAVCR|PF  0.090    .
+450            651    RPFSYHK|RV  0.070    .
+450            652    PFSYHKR|VR  0.180    .
+450            654    SYHKRVR|SI  0.277    .
+450            682    PMDFTGK|YD  0.061    .
+450            688    KYDQDTR|KP  0.073    .
+450            689    YDQDTRK|PE  0.095    .
+450            699    LQEGMIK|YT  0.085    .
+450            746    SYSFILR|VA  0.090    .
+450            754    ALTTISK|MG  0.053    .
+450            757    TISKMGK|TF  0.075    .
+450            760    KMGKTFK|SV  0.141    .
+450            763    KTFKSVR|RK  0.106    .
+450            764    TFKSVRR|KS  0.112    .
+450            765    FKSVRRK|SV  0.295    .
+450            770    RKSVSLR|QP  0.126    .
+450            781    PEFHPTK|KA  0.061    .
+450            782    EFHPTKK|AL  0.141    .
+450            785    PTKKALK|SS  0.067    .
+450            789    ALKSSLR|TL  0.081    .
+450            815    FLIWINR|RV  0.086    .
+450            816    LIWINRR|VK  0.090    .
+450            818    WINRRVK|MF  0.140    .
+450            834    TIAHFFK|EC  0.074    .
+450            846    SIPSEDR|VV  0.107    .
+450            868    VYGLMDR|KF  0.077    .
+450            869    YGLMDRK|FR  0.074    .
+450            871    LMDRKFR|NA  0.306    .
+450            875    KFRNAYR|TL  0.096    .
+450            881    RTLIHCK|GS  0.077    .
+450            888    GSYDEFR|II  0.130    .
+450            894    RIINSVR|PV  0.136    .
+450            899    VRPVGSR|AT  0.097    .
+450            902    VGSRATR|YT  0.292    .
+450            927    WYYLPLR|KS  0.063    .
+450            928    YYLPLRK|SV  0.130    .
+450            933    RKSVSLR|QP  0.132    .
+450            944    PEFHPTK|KA  0.061    .
+450            945    EFHPTKK|AL  0.141    .
+450            948    PTKKALK|SS  0.067    .
+450            952    ALKSSLR|TL  0.081    .
+450            978    FLIWINR|RV  0.086    .
+450            979    LIWINRR|VK  0.090    .
+450            981    WINRRVK|MF  0.140    .
+450            997    TIAHFFK|VV  0.093    .
+450           1019    VYGLMDR|KF  0.077    .
+450           1020    YGLMDRK|FR  0.074    .
+450           1022    LMDRKFR|NA  0.306    .
+450           1026    KFRNAYR|TL  0.096    .
+450           1032    RTLIHCK|GS  0.076    .
+450           1039    GSYDEFR|YG  0.132    .
+450           1091    IPFSLYR|KE  0.087    .
+450           1092    PFSLYRK|EA  0.105    .
+450           1096    YRKEAQK|QF  0.067    .
+450           1107    DLADHQR|RR  0.093    .
+450           1108    LADHQRR|RT  0.121    .
+450           1109    ADHQRRR|TQ  0.169    .
+450           1122    HSENNFK|YK  0.065    .
+450           1124    ENNFKYK|TL  0.096    .
+450           1137    DHSTTVK|LS  0.062    .
+450           1152    NNYQDQK|RA  0.068    .
+450           1153    NYQDQKR|AS  0.165    .
+450           1163    HTAEQSR|IR  0.082    .
+450           1165    AEQSRIR|LK  0.093    .
+450           1167    QSRIRLK|HT  0.079    .
+450           1468    HSLSTER|KP  0.079    .
+450           1469    SLSTERK|PR  0.102    .
+450           1471    STERKPR|SS  0.546 *ProP*
+450           1479    SFTWTWR|TI  0.105    .
+450           1487    INAGGLR|AS  0.098    .
+450           1494    ASTTIPK|TT  0.064    .
+450           1500    KTTSSIK|LY  0.059    .
+450           1506    KLYPPTR|IT  0.083    .
+450           1511    TRITVLR|LS  0.123    .
+450           1525    LPITTTK|TR  0.061    .
+450           1527    ITTTKTR|KE  0.083    .
+450           1528    TTTKTRK|ED  0.093    .
+450           1531    KTRKEDR|DQ  0.145    .
+450           1541    SQFLIYR|VF  0.076    .
+450           1544    LIYRVFK|IR  0.097    .
+450           1546    YRVFKIR|LK  0.125    .
+450           1548    VFKIRLK|RA  0.060    .
+450           1549    FKIRLKR|AS  0.516 *ProP*
+450           1559    HTAEQSR|IR  0.082    .
+450           1561    AEQSRIR|LK  0.088    .
+450           1563    QSRIRLK|HT  0.086    .
+450           1572    HIALCCR|GW  0.110    .
+450           1576    CCRGWWR|GW  0.113    .
+450           1588    SSSVSLR|KG  0.108    .
+450           1589    SSVSLRK|GR  0.085    .
+450           1591    VSLRKGR|CA  0.352    .
+450           1597    RCAAHLR|CT  0.108    .
+450           1618    STILSER|GG  0.080    .
+450           1621    LSERGGR|GR  0.205    .
+450           1623    ERGGRGR|TW  0.123    .
+450           1627    RGRTWNR|GF  0.114    .
+450           1636    GVLIDLK|LG  0.057    .
+450           1639    IDLKLGR|KG  0.076    .
+450           1640    DLKLGRK|GV  0.095    .
+450           1643    LGRKGVR|EF  0.104    .
+450           1650    EFEGEGR|VL  0.098    .
+450           1659    EDWEQGR|KG  0.086    .
+450           1660    DWEQGRK|GV  0.085    .
+450           1663    QGRKGVR|GL  0.106    .
+450           1694    LVLEELK|AL  0.054    .
+____________________________^_________________
+
+
+
+

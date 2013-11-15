@@ -1,0 +1,511 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2966 127         
+MIWKGNRGDGKETMGITRDITWWGKGWFLNGDGCMHGIFFPCYGYMGGGAAEVFEVIEVDFKNFKNWKGDDVGNWNYIGR      80
+SSCPRKTNPIQRLVVALLNESEKIKIGGNCTASWRKMRVFATTPRNLRQFSFSWARLKDLNVLFQMSQRFCKLELTESCN     160
+KTNPNSLFRSRDWLYQPIRDQYFLISVKLYPPRLYDDMVTTSRLIGTRITVDGQTTSTACGTINSVDQTPNSIPHQTYTI     240
+PCPDTTELTVSILLYDDVIESTTDISNDWIIMNVAEIMVYDVWSDPEDPGVIGLIILDIGVLGPDIPGVDGVEGVRGPIV     320
+WSIWTACPAPIWTACPAPIIFGLTLAMLGWALPMFTVWPMLTGWFMLLYGPLFWFWNSCVSNLCSWERRKERYRERDRQT     400
+DRQTDRQTDRQTQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDR     480
+QTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDK     560
+QTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDR     640
+QTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNR     720
+QTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDR     800
+QTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDR     880
+QTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDR     960
+QTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDR    1040
+QTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDKQTDRQTDRQTDRQTDRQTNRQTDRQTDK    1120
+QTDRQTGPSDPSPLLGWTINSTEANSETKTQIIHSLSLTKQQIMDKDHLPSPEKSLTPIFFILEPSQMEVPCEGRGWGDS    1200
+SLVPAVSLIAIVPSGLAVGKPRHSEYTLSLIIKTMISITALHLTLITLTHFLTPIFVIIHSDLSSITGPSVVPILVFVVA    1280
+FVVTHSRCTPRDTTPAAPAPIAPIVVFLTNKRSTSTTIKSRKQTAVRVFSVFTCAHFASIVPGITVLVVYPCPTIDSTIS    1360
+LWISLISQTTRGTKQASKTKITTPFMIYSNVLEQQTGVAVVVLLACLAPLVVCDADLWTHILSQFEGEAEPIPCSSWHTF    1440
+QDRVSVDIGCEVCTCKAGFVECTKGTDCCMFVESDSRAGRAFVGEKYYNGCNRCWCPEVYTESVSRQMLLQELGWELRMG    1520
+QLWSSVEGRSYYILLVPQPYTQPENSLMCVFYSAMICLWTMMCAKNDEVVLETLDKLSAYEDILTEFCTLIQEGHMLISK    1600
+ANLRSGFESVTTDRLPSSGVHEVKAITTVTITDNKLSLQSVEPEKPKLRKRACNKKKEDKENKDGNSAETEKKEKDADKK    1680
+GKDTESEEKETKKEDHHVTNHITNGRRYDLGVWWPTMSRPNPNPNPSPNPNPTRALTLKNLFQHRRKHPDFNVFLKSGTS    1760
+SVKSLPKIWVMCAKNDEVVLETLDKLSAYEDILTEFCTLIQEGHMLISKANLRSGFESVTTDRLPSSGVHEVKAITTVTI    1840
+TDNKLSLQSVEPEKPKLRKRACNKKKEDKENKDGNSAETEKKEKDADKKGKDTESEEKETKKEAFSVRLFSVLRFESVIH    1920
+EFDPYFNYRTTKQLVENGYYEFHNWFDDRAWYPLGRIIGGTIYPGLMVTAAAVYNVFNFFNVTINIRNVCVFLAPMFSSF    2000
+TVIVVYLLTKEVKSVGAGLVAASMIAIVPGYISRSVAGSYDNEGIAIFCMLLTYYTWIKASKTGSICWSLTCALAYFYMV    2080
+SSWGGYVFLINLIPLHVLTLMITGRFSHRIYVAYCIMYSVGTILSMQIPFVGFAPVETSEHMAALGVFGLCQIYAFVTYL    2160
+QANMSTTNFNVLFRTVVTIALAAAGLTFGVATELTDANIFVILYSITSIYFAGVMVRLMLVLAPIMCIMSGIGISTTLAI    2240
+YMKNIESETPAAPSSKSGKKKASDYPIKSEEPTKTSIQPIRTRHLAHVTGYQPIRDQCFLIRSVHDCNINSIFNETSDHA    2320
+ILLGAYTKRFNFIYTVGPRFTGILGGSHAAAAAAAAAAAAAAAAAAAAAAAAAAAAATSNAPYKFWGGPCTICPRFVQGY    2400
+VQGYELRVGRGEACLLRTYIATVIVTVVSIFLTTFVFHCTWVTSEAYSSPSIVLAARGHDGNRIIFDDFREAYNWLKFNT    2480
+PENAKVMSWWDYGYQLTAMANRTIIVDNNTWNNTHISRVGQAMASPEDHSYTIMKELDVDYVLVIFGGMSGYSSDDINKF    2560
+LWMIRIGGSTPEGEHIKESDYYSSTGEYKVDKDASKAMHNSLMYKMCYYRYASRGPSGGVTASPIKRPDLQHQFGEIMTE    2640
+QGKPTGYDRVRNQEIGNKDFELDVVEEAFTSEHWIVRIYKVKDLSNRGTAARNGSVIKILCPYYVAGAVIGKGKTVQEMK    2720
+TKYDVEINTTRRTETPFGLDERAISIEGEDEKVDQCCEDIIKIVCEDTYASMRFVTDYELFFMDQRGPPFYAFMGGYPHN    2800
+TRGGGGPRSGVYMPHRGSYMGPRGGGGGYDMFPPFMRGGGYGRPSRGRFHHHRAASEDRCEPRRVAAEELSSKDFRMAFM    2880
+GQWFEIEQNGLHHRFSQAILDRNSMPGIGIWLFSVPTKIFSLPHSCCRCTGLLRGFRVLFFGIFGGRTLVLHSKSTVDSI    2960
+SKFRFR                                                                              3040
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+......                                                                              3040
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+127              4    ---MIWK|GN  0.067    .
+127              7    MIWKGNR|GD  0.119    .
+127             11    GNRGDGK|ET  0.087    .
+127             18    ETMGITR|DI  0.121    .
+127             25    DITWWGK|GW  0.065    .
+127             62    VIEVDFK|NF  0.053    .
+127             65    VDFKNFK|NW  0.057    .
+127             68    KNFKNWK|GD  0.077    .
+127             80    NWNYIGR|SS  0.143    .
+127             85    GRSSCPR|KT  0.155    .
+127             86    RSSCPRK|TN  0.116    .
+127             92    KTNPIQR|LV  0.143    .
+127            103    LLNESEK|IK  0.072    .
+127            105    NESEKIK|IG  0.078    .
+127            115    NCTASWR|KM  0.075    .
+127            116    CTASWRK|MR  0.067    .
+127            118    ASWRKMR|VF  0.280    .
+127            125    VFATTPR|NL  0.086    .
+127            128    TTPRNLR|QF  0.186    .
+127            136    FSFSWAR|LK  0.076    .
+127            138    FSWARLK|DL  0.075    .
+127            149    LFQMSQR|FC  0.094    .
+127            152    MSQRFCK|LE  0.112    .
+127            161    LTESCNK|TN  0.054    .
+127            169    NPNSLFR|SR  0.131    .
+127            171    NSLFRSR|DW  0.093    .
+127            179    WLYQPIR|DQ  0.090    .
+127            188    YFLISVK|LY  0.054    .
+127            193    VKLYPPR|LY  0.106    .
+127            203    DMVTTSR|LI  0.086    .
+127            208    SRLIGTR|IT  0.130    .
+127            316    DGVEGVR|GP  0.066    .
+127            388    NLCSWER|RK  0.080    .
+127            389    LCSWERR|KE  0.143    .
+127            390    CSWERRK|ER  0.076    .
+127            392    WERRKER|YR  0.314    .
+127            394    RRKERYR|ER  0.119    .
+127            396    KERYRER|DR  0.106    .
+127            398    RYRERDR|QT  0.116    .
+127            402    RDRQTDR|QT  0.138    .
+127            406    TDRQTDR|QT  0.144    .
+127            410    TDRQTDR|QT  0.112    .
+127            416    RQTQTDR|QT  0.124    .
+127            420    TDRQTDK|QT  0.091    .
+127            424    TDKQTDR|QT  0.122    .
+127            428    TDRQTDR|QT  0.139    .
+127            432    TDRQTDR|QT  0.138    .
+127            436    TDRQTDR|QT  0.119    .
+127            440    TDRQTNR|QT  0.142    .
+127            444    TNRQTDR|QT  0.177    .
+127            448    TDRQTDK|QT  0.088    .
+127            452    TDKQTDR|QT  0.122    .
+127            456    TDRQTDR|QT  0.139    .
+127            460    TDRQTDR|QT  0.138    .
+127            464    TDRQTDR|QT  0.119    .
+127            468    TDRQTNR|QT  0.142    .
+127            472    TNRQTDR|QT  0.177    .
+127            476    TDRQTDK|QT  0.088    .
+127            480    TDKQTDR|QT  0.122    .
+127            484    TDRQTDR|QT  0.139    .
+127            488    TDRQTDR|QT  0.138    .
+127            492    TDRQTDR|QT  0.119    .
+127            496    TDRQTNR|QT  0.142    .
+127            500    TNRQTDR|QT  0.177    .
+127            504    TDRQTDK|QT  0.088    .
+127            508    TDKQTDR|QT  0.122    .
+127            512    TDRQTDR|QT  0.139    .
+127            516    TDRQTDR|QT  0.138    .
+127            520    TDRQTDR|QT  0.119    .
+127            524    TDRQTNR|QT  0.142    .
+127            528    TNRQTDR|QT  0.177    .
+127            532    TDRQTDK|QT  0.088    .
+127            536    TDKQTDR|QT  0.122    .
+127            540    TDRQTDR|QT  0.139    .
+127            544    TDRQTDR|QT  0.138    .
+127            548    TDRQTDR|QT  0.119    .
+127            552    TDRQTNR|QT  0.142    .
+127            556    TNRQTDR|QT  0.177    .
+127            560    TDRQTDK|QT  0.088    .
+127            564    TDKQTDR|QT  0.122    .
+127            568    TDRQTDR|QT  0.139    .
+127            572    TDRQTDR|QT  0.138    .
+127            576    TDRQTDR|QT  0.119    .
+127            580    TDRQTNR|QT  0.142    .
+127            584    TNRQTDR|QT  0.177    .
+127            588    TDRQTDK|QT  0.088    .
+127            592    TDKQTDR|QT  0.122    .
+127            596    TDRQTDR|QT  0.139    .
+127            600    TDRQTDR|QT  0.138    .
+127            604    TDRQTDR|QT  0.119    .
+127            608    TDRQTNR|QT  0.142    .
+127            612    TNRQTDR|QT  0.177    .
+127            616    TDRQTDK|QT  0.088    .
+127            620    TDKQTDR|QT  0.122    .
+127            624    TDRQTDR|QT  0.139    .
+127            628    TDRQTDR|QT  0.138    .
+127            632    TDRQTDR|QT  0.119    .
+127            636    TDRQTNR|QT  0.142    .
+127            640    TNRQTDR|QT  0.177    .
+127            644    TDRQTDK|QT  0.088    .
+127            648    TDKQTDR|QT  0.122    .
+127            652    TDRQTDR|QT  0.139    .
+127            656    TDRQTDR|QT  0.138    .
+127            660    TDRQTDR|QT  0.119    .
+127            664    TDRQTNR|QT  0.142    .
+127            668    TNRQTDR|QT  0.177    .
+127            672    TDRQTDK|QT  0.088    .
+127            676    TDKQTDR|QT  0.122    .
+127            680    TDRQTDR|QT  0.139    .
+127            684    TDRQTDR|QT  0.138    .
+127            688    TDRQTDR|QT  0.119    .
+127            692    TDRQTNR|QT  0.142    .
+127            696    TNRQTDR|QT  0.177    .
+127            700    TDRQTDK|QT  0.088    .
+127            704    TDKQTDR|QT  0.122    .
+127            708    TDRQTDR|QT  0.139    .
+127            712    TDRQTDR|QT  0.138    .
+127            716    TDRQTDR|QT  0.119    .
+127            720    TDRQTNR|QT  0.142    .
+127            724    TNRQTDR|QT  0.177    .
+127            728    TDRQTDK|QT  0.088    .
+127            732    TDKQTDR|QT  0.122    .
+127            736    TDRQTDR|QT  0.139    .
+127            740    TDRQTDR|QT  0.138    .
+127            744    TDRQTDR|QT  0.119    .
+127            748    TDRQTNR|QT  0.142    .
+127            752    TNRQTDR|QT  0.177    .
+127            756    TDRQTDK|QT  0.088    .
+127            760    TDKQTDR|QT  0.122    .
+127            764    TDRQTDR|QT  0.139    .
+127            768    TDRQTDR|QT  0.138    .
+127            772    TDRQTDR|QT  0.119    .
+127            776    TDRQTNR|QT  0.142    .
+127            780    TNRQTDR|QT  0.177    .
+127            784    TDRQTDK|QT  0.088    .
+127            788    TDKQTDR|QT  0.122    .
+127            792    TDRQTDR|QT  0.139    .
+127            796    TDRQTDR|QT  0.138    .
+127            800    TDRQTDR|QT  0.119    .
+127            804    TDRQTNR|QT  0.142    .
+127            808    TNRQTDR|QT  0.177    .
+127            812    TDRQTDK|QT  0.088    .
+127            816    TDKQTDR|QT  0.122    .
+127            820    TDRQTDR|QT  0.139    .
+127            824    TDRQTDR|QT  0.138    .
+127            828    TDRQTDR|QT  0.119    .
+127            832    TDRQTNR|QT  0.142    .
+127            836    TNRQTDR|QT  0.177    .
+127            840    TDRQTDK|QT  0.088    .
+127            844    TDKQTDR|QT  0.122    .
+127            848    TDRQTDR|QT  0.139    .
+127            852    TDRQTDR|QT  0.138    .
+127            856    TDRQTDR|QT  0.119    .
+127            860    TDRQTNR|QT  0.142    .
+127            864    TNRQTDR|QT  0.177    .
+127            868    TDRQTDK|QT  0.088    .
+127            872    TDKQTDR|QT  0.122    .
+127            876    TDRQTDR|QT  0.139    .
+127            880    TDRQTDR|QT  0.138    .
+127            884    TDRQTDR|QT  0.119    .
+127            888    TDRQTNR|QT  0.142    .
+127            892    TNRQTDR|QT  0.177    .
+127            896    TDRQTDK|QT  0.088    .
+127            900    TDKQTDR|QT  0.122    .
+127            904    TDRQTDR|QT  0.139    .
+127            908    TDRQTDR|QT  0.138    .
+127            912    TDRQTDR|QT  0.119    .
+127            916    TDRQTNR|QT  0.142    .
+127            920    TNRQTDR|QT  0.177    .
+127            924    TDRQTDK|QT  0.088    .
+127            928    TDKQTDR|QT  0.122    .
+127            932    TDRQTDR|QT  0.139    .
+127            936    TDRQTDR|QT  0.138    .
+127            940    TDRQTDR|QT  0.119    .
+127            944    TDRQTNR|QT  0.142    .
+127            948    TNRQTDR|QT  0.177    .
+127            952    TDRQTDK|QT  0.088    .
+127            956    TDKQTDR|QT  0.122    .
+127            960    TDRQTDR|QT  0.139    .
+127            964    TDRQTDR|QT  0.138    .
+127            968    TDRQTDR|QT  0.119    .
+127            972    TDRQTNR|QT  0.142    .
+127            976    TNRQTDR|QT  0.177    .
+127            980    TDRQTDK|QT  0.088    .
+127            984    TDKQTDR|QT  0.122    .
+127            988    TDRQTDR|QT  0.139    .
+127            992    TDRQTDR|QT  0.138    .
+127            996    TDRQTDR|QT  0.119    .
+127           1000    TDRQTNR|QT  0.142    .
+127           1004    TNRQTDR|QT  0.177    .
+127           1008    TDRQTDK|QT  0.088    .
+127           1012    TDKQTDR|QT  0.122    .
+127           1016    TDRQTDR|QT  0.139    .
+127           1020    TDRQTDR|QT  0.138    .
+127           1024    TDRQTDR|QT  0.119    .
+127           1028    TDRQTNR|QT  0.142    .
+127           1032    TNRQTDR|QT  0.177    .
+127           1036    TDRQTDK|QT  0.088    .
+127           1040    TDKQTDR|QT  0.122    .
+127           1044    TDRQTDR|QT  0.139    .
+127           1048    TDRQTDR|QT  0.138    .
+127           1052    TDRQTDR|QT  0.119    .
+127           1056    TDRQTNR|QT  0.142    .
+127           1060    TNRQTDR|QT  0.177    .
+127           1064    TDRQTDK|QT  0.088    .
+127           1068    TDKQTDR|QT  0.122    .
+127           1072    TDRQTDR|QT  0.139    .
+127           1076    TDRQTDR|QT  0.138    .
+127           1080    TDRQTDR|QT  0.119    .
+127           1084    TDRQTNR|QT  0.142    .
+127           1088    TNRQTDR|QT  0.177    .
+127           1092    TDRQTDK|QT  0.088    .
+127           1096    TDKQTDR|QT  0.122    .
+127           1100    TDRQTDR|QT  0.139    .
+127           1104    TDRQTDR|QT  0.138    .
+127           1108    TDRQTDR|QT  0.119    .
+127           1112    TDRQTNR|QT  0.142    .
+127           1116    TNRQTDR|QT  0.177    .
+127           1120    TDRQTDK|QT  0.083    .
+127           1124    TDKQTDR|QT  0.146    .
+127           1149    EANSETK|TQ  0.061    .
+127           1160    HSLSLTK|QQ  0.060    .
+127           1166    KQQIMDK|DH  0.066    .
+127           1174    HLPSPEK|SL  0.083    .
+127           1195    EVPCEGR|GW  0.105    .
+127           1220    SGLAVGK|PR  0.063    .
+127           1222    LAVGKPR|HS  0.119    .
+127           1233    TLSLIIK|TM  0.069    .
+127           1287    FVVTHSR|CT  0.072    .
+127           1291    HSRCTPR|DT  0.189    .
+127           1311    VVFLTNK|RS  0.052    .
+127           1312    VFLTNKR|ST  0.238    .
+127           1319    STSTTIK|SR  0.078    .
+127           1321    STTIKSR|KQ  0.093    .
+127           1322    TTIKSRK|QT  0.099    .
+127           1327    RKQTAVR|VF  0.090    .
+127           1371    LISQTTR|GT  0.139    .
+127           1374    QTTRGTK|QA  0.140    .
+127           1378    GTKQASK|TK  0.064    .
+127           1380    KQASKTK|IT  0.072    .
+127           1443    WHTFQDR|VS  0.094    .
+127           1456    CEVCTCK|AG  0.061    .
+127           1464    GFVECTK|GT  0.071    .
+127           1477    FVESDSR|AG  0.069    .
+127           1480    SDSRAGR|AF  0.323    .
+127           1486    RAFVGEK|YY  0.067    .
+127           1493    YYNGCNR|CW  0.122    .
+127           1506    YTESVSR|QM  0.081    .
+127           1518    ELGWELR|MG  0.066    .
+127           1529    WSSVEGR|SY  0.197    .
+127           1565    WTMMCAK|ND  0.079    .
+127           1576    VLETLDK|LS  0.056    .
+127           1600    GHMLISK|AN  0.060    .
+127           1604    ISKANLR|SG  0.128    .
+127           1614    ESVTTDR|LP  0.088    .
+127           1624    SGVHEVK|AI  0.084    .
+127           1635    VTITDNK|LS  0.054    .
+127           1645    QSVEPEK|PK  0.059    .
+127           1647    VEPEKPK|LR  0.057    .
+127           1649    PEKPKLR|KR  0.069    .
+127           1650    EKPKLRK|RA  0.089    .
+127           1651    KPKLRKR|AC  0.244    .
+127           1655    RKRACNK|KK  0.079    .
+127           1656    KRACNKK|KE  0.136    .
+127           1657    RACNKKK|ED  0.115    .
+127           1660    NKKKEDK|EN  0.072    .
+127           1663    KEDKENK|DG  0.074    .
+127           1672    NSAETEK|KE  0.061    .
+127           1673    SAETEKK|EK  0.099    .
+127           1675    ETEKKEK|DA  0.106    .
+127           1679    KEKDADK|KG  0.066    .
+127           1680    EKDADKK|GK  0.110    .
+127           1682    DADKKGK|DT  0.111    .
+127           1689    DTESEEK|ET  0.062    .
+127           1692    SEEKETK|KE  0.064    .
+127           1693    EEKETKK|ED  0.114    .
+127           1706    NHITNGR|RY  0.085    .
+127           1707    HITNGRR|YD  0.100    .
+127           1719    WWPTMSR|PN  0.065    .
+127           1734    PNPNPTR|AL  0.087    .
+127           1739    TRALTLK|NL  0.085    .
+127           1745    KNLFQHR|RK  0.092    .
+127           1746    NLFQHRR|KH  0.107    .
+127           1747    LFQHRRK|HP  0.084    .
+127           1756    DFNVFLK|SG  0.086    .
+127           1763    SGTSSVK|SL  0.081    .
+127           1767    SVKSLPK|IW  0.059    .
+127           1774    IWVMCAK|ND  0.090    .
+127           1785    VLETLDK|LS  0.056    .
+127           1809    GHMLISK|AN  0.060    .
+127           1813    ISKANLR|SG  0.128    .
+127           1823    ESVTTDR|LP  0.088    .
+127           1833    SGVHEVK|AI  0.084    .
+127           1844    VTITDNK|LS  0.054    .
+127           1854    QSVEPEK|PK  0.059    .
+127           1856    VEPEKPK|LR  0.057    .
+127           1858    PEKPKLR|KR  0.069    .
+127           1859    EKPKLRK|RA  0.089    .
+127           1860    KPKLRKR|AC  0.244    .
+127           1864    RKRACNK|KK  0.079    .
+127           1865    KRACNKK|KE  0.136    .
+127           1866    RACNKKK|ED  0.115    .
+127           1869    NKKKEDK|EN  0.072    .
+127           1872    KEDKENK|DG  0.074    .
+127           1881    NSAETEK|KE  0.061    .
+127           1882    SAETEKK|EK  0.099    .
+127           1884    ETEKKEK|DA  0.106    .
+127           1888    KEKDADK|KG  0.066    .
+127           1889    EKDADKK|GK  0.110    .
+127           1891    DADKKGK|DT  0.111    .
+127           1898    DTESEEK|ET  0.060    .
+127           1901    SEEKETK|KE  0.058    .
+127           1902    EEKETKK|EA  0.117    .
+127           1908    KEAFSVR|LF  0.109    .
+127           1914    RLFSVLR|FE  0.087    .
+127           1929    DPYFNYR|TT  0.105    .
+127           1932    FNYRTTK|QL  0.139    .
+127           1949    HNWFDDR|AW  0.116    .
+127           1956    AWYPLGR|II  0.105    .
+127           1987    NVTINIR|NV  0.090    .
+127           2010    VVYLLTK|EV  0.069    .
+127           2013    LLTKEVK|SV  0.173    .
+127           2034    VPGYISR|SV  0.226    .
+127           2059    TYYTWIK|AS  0.062    .
+127           2062    TWIKASK|TG  0.063    .
+127           2105    TLMITGR|FS  0.126    .
+127           2109    TGRFSHR|IY  0.098    .
+127           2174    NFNVLFR|TV  0.117    .
+127           2217    FAGVMVR|LM  0.070    .
+127           2243    TLAIYMK|NI  0.079    .
+127           2256    PAAPSSK|SG  0.085    .
+127           2259    PSSKSGK|KK  0.073    .
+127           2260    SSKSGKK|KA  0.138    .
+127           2261    SKSGKKK|AS  0.241    .
+127           2268    ASDYPIK|SE  0.089    .
+127           2274    KSEEPTK|TS  0.069    .
+127           2281    TSIQPIR|TR  0.102    .
+127           2283    IQPIRTR|HL  0.096    .
+127           2295    TGYQPIR|DQ  0.116    .
+127           2302    DQCFLIR|SV  0.184    .
+127           2328    LLGAYTK|RF  0.060    .
+127           2329    LGAYTKR|FN  0.223    .
+127           2339    IYTVGPR|FT  0.119    .
+127           2384    TSNAPYK|FW  0.102    .
+127           2395    PCTICPR|FV  0.114    .
+127           2407    VQGYELR|VG  0.071    .
+127           2410    YELRVGR|GE  0.208    .
+127           2417    GEACLLR|TY  0.080    .
+127           2457    SIVLAAR|GH  0.102    .
+127           2463    RGHDGNR|II  0.100    .
+127           2470    IIFDDFR|EA  0.088    .
+127           2477    EAYNWLK|FN  0.065    .
+127           2485    NTPENAK|VM  0.058    .
+127           2502    LTAMANR|TI  0.092    .
+127           2518    NNTHISR|VG  0.071    .
+127           2535    HSYTIMK|EL  0.070    .
+127           2559    SSDDINK|FL  0.071    .
+127           2565    KFLWMIR|IG  0.082    .
+127           2577    PEGEHIK|ES  0.063    .
+127           2589    SSTGEYK|VD  0.061    .
+127           2592    GEYKVDK|DA  0.127    .
+127           2596    VDKDASK|AM  0.068    .
+127           2605    HNSLMYK|MC  0.068    .
+127           2610    YKMCYYR|YA  0.154    .
+127           2614    YYRYASR|GP  0.103    .
+127           2626    VTASPIK|RP  0.055    .
+127           2627    TASPIKR|PD  0.268    .
+127           2643    IMTEQGK|PT  0.064    .
+127           2649    KPTGYDR|VR  0.082    .
+127           2651    TGYDRVR|NQ  0.115    .
+127           2658    NQEIGNK|DF  0.063    .
+127           2677    SEHWIVR|IY  0.089    .
+127           2680    WIVRIYK|VK  0.118    .
+127           2682    VRIYKVK|DL  0.095    .
+127           2687    VKDLSNR|GT  0.095    .
+127           2692    NRGTAAR|NG  0.100    .
+127           2698    RNGSVIK|IL  0.073    .
+127           2712    AGAVIGK|GK  0.076    .
+127           2714    AVIGKGK|TV  0.075    .
+127           2720    KTVQEMK|TK  0.070    .
+127           2722    VQEMKTK|YD  0.071    .
+127           2731    VEINTTR|RT  0.081    .
+127           2732    EINTTRR|TE  0.115    .
+127           2742    PFGLDER|AI  0.109    .
+127           2752    IEGEDEK|VD  0.059    .
+127           2762    CCEDIIK|IV  0.063    .
+127           2773    DTYASMR|FV  0.166    .
+127           2786    LFFMDQR|GP  0.070    .
+127           2802    GYPHNTR|GG  0.091    .
+127           2808    RGGGGPR|SG  0.100    .
+127           2816    GVYMPHR|GS  0.117    .
+127           2823    GSYMGPR|GG  0.180    .
+127           2837    MFPPFMR|GG  0.128    .
+127           2843    RGGGYGR|PS  0.093    .
+127           2846    GYGRPSR|GR  0.220    .
+127           2848    GRPSRGR|FH  0.110    .
+127           2853    GRFHHHR|AA  0.187    .
+127           2859    RAASEDR|CE  0.079    .
+127           2863    EDRCEPR|RV  0.162    .
+127           2864    DRCEPRR|VA  0.167    .
+127           2873    AEELSSK|DF  0.075    .
+127           2876    LSSKDFR|MA  0.229    .
+127           2894    QNGLHHR|FS  0.138    .
+127           2902    SQAILDR|NS  0.118    .
+127           2918    LFSVPTK|IF  0.069    .
+127           2928    LPHSCCR|CT  0.114    .
+127           2934    RCTGLLR|GF  0.076    .
+127           2937    GLLRGFR|VL  0.203    .
+127           2947    FGIFGGR|TL  0.065    .
+127           2954    TLVLHSK|ST  0.091    .
+127           2962    TVDSISK|FR  0.060    .
+127           2964    DSISKFR|FR  0.096    .
+127           2966    ISKFRFR|--  0.110    .
+____________________________^_________________
+
+
+
+

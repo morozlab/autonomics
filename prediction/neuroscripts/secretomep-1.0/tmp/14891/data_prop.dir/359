@@ -1,0 +1,275 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1872 359         
+MEVDEAPSSSTVAVPAKADKKRFEVKKWSAVALWAWDIVVDNCAICRNHIMDLCIECQANQASHTSEECTVAWGVCNHAF      80
+HFHCISRWLKTRQVCPLDNRDWEFQNYPSSTLFITPLDQYYSRNHNPDMSKKRIADKQLTDRNWLDEEEPEEAGEFKRAD     160
+EETVQKRVIKTARRRLPPGSGADEKPSLFSGFAGFGAPKPAAPTTTTTENTNGATNPFVTSTTPSVPNPDNKPDNNENND     240
+VFLKKLKKLNESVLKFAQEHVAKNSFVILSSVFNDYERHLKRIRSSNGSTTTTADSTPVFSLTSTTNTSEVTPSKPEKEE     320
+ENKEALEKKEESKPLFSFGSATGSTFSFGASSSTPSAGGFSFKLATSVADSSTTPSTGGFSFKPDSSTTTATSSLFGNPI     400
+GSGSSFTGAMEVDEAPSSSTVAVPAKADKKRFEVKKWSAVALWAWDIVVDNCAICRNHIMDLCIECQANQASHTSEECTV     480
+AWGVCNHAFHFHCISRWLKTRQVCPLDNRDWEFQNYPSSTLFITPLDQYYSRNHNPDMSKKRIADKQLTDRNWLDEEEPE     560
+EAGEFKRADEETVQKRVIKTARRRLPPGSGADEKPSLFSGFAGFGAPKPAAPTTTTTTENTNGATNPFVTSTTPSVPTPD     640
+NKSEDNENNDVFLKKLKKLNESVLKFAQEHVAKNSFVILSSVFNDYERHLKRIRSSNGSTTTTADSTPIFSLASTTTTSE     720
+VTPSKPEKEEETKEAVEKKEESKPLFSFGSTTGPSFSFGASSTTPSAGGFSFKLATSVADSSTTPSTGGFSFKPDSSTTT     800
+ATSSLFGNPIGSGSSFTGFGGLVGSSTTAAPAQSSNQEEEPEEPPKAEKVRVQQLLKAGATTIRTNRNSLTAYQGPVFPD     880
+LVGSRQLYIMFCMAQYDLTNQLSEYMDLHLVFPLLEFLSTRRIYDEASLTESKYQLLQNTNRVDFTIDVFRSLHPDEDAP     960
+AALGEKREDVVRRLNYLQQQSSQVIAIFSKQDVTDVAEKNRDSQELWNYLGENYNFQKEQLEDVFHYGKFMYDVGNYAIA    1040
+SSHLDIYRNIAPADSKFYSSAQWGKLASEILQEPTETNIQQIRDQYFLIRLVPASDQCHNMYSEMVIMFNFIQVQLLIRN    1120
+DTTMGTIILNTLLHDKMPISKSGKNGIMIVATNQDSKTETFLVRVNKDKQEEFFGKLEEAPITTRYLGHVTGYQPIRDQY    1200
+FLNWSLGMAQYDLTNQLSEYMDLHLVFPLLEFLSTRRIYDEASLTESKYQLLQNTNMVDFTIDVFRSLHPDEDAPAALGE    1280
+KREDVVRRLNYLQQQSSQVIAIFSKQDVSSWDMVDSTRVVDTVGPRFSDILGGKGFPKYSLHIILLDSKTETFLVRVNKD    1360
+KQEEFFGKLEEAPITTRYLGHVTGYQPIRDQYFLIWSLGMAQYDLTNQLSEYMDLHLVFPLLEFLSTRRIYDEASLTESK    1440
+YQLLQNTNMVDFTIDVFRSLHPDEDAPAALGEKREDVVRRLNYLQQQSSQVIAIFSKQDVTDVAEKNRDSQELWNYLGEN    1520
+YNFQKEQLEDVFHYGKFMYDVGNYAIASSHLDIYRNIAPADSKFYSSAQWGKLASEILQQNWDQAMDELERLKDNIMAAV    1600
+HLTQSEVLIQRAWLVHWGLFVYFNHPQGRDKLIDDFLHQKTYLNAIQTMCPHILRYITTAVVISKRRRDGVKELIKVLQQ    1680
+ESYKDPITEFVESLYVNFDFDEAQSKLKEERPAYHFRDLLPYPPGNEQEPTDTSKQPIRTLNLGHVTGYQPIRDQYFLVQ    1760
+SRIEIDMLADKLNMAPAEAEKWVVNMIRLAHLDAKIDSKNGYVVMGGTSTPIYQKLIDKTKDLHLKANSCCQKVDKKLAR    1840
+NIYKKPKAILQSTILYYSQLCDMKFSRSLSLI                                                    1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................                                                    1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+359             17    TVAVPAK|AD  0.073    .
+359             20    VPAKADK|KR  0.067    .
+359             21    PAKADKK|RF  0.092    .
+359             22    AKADKKR|FE  0.308    .
+359             26    KKRFEVK|KW  0.088    .
+359             27    KRFEVKK|WS  0.147    .
+359             47    DNCAICR|NH  0.074    .
+359             87    HFHCISR|WL  0.100    .
+359             90    CISRWLK|TR  0.101    .
+359             92    SRWLKTR|QV  0.172    .
+359            100    VCPLDNR|DW  0.086    .
+359            123    LDQYYSR|NH  0.078    .
+359            131    HNPDMSK|KR  0.057    .
+359            132    NPDMSKK|RI  0.136    .
+359            133    PDMSKKR|IA  0.497    .
+359            137    KKRIADK|QL  0.069    .
+359            142    DKQLTDR|NW  0.091    .
+359            157    EEAGEFK|RA  0.080    .
+359            158    EAGEFKR|AD  0.185    .
+359            166    DEETVQK|RV  0.063    .
+359            167    EETVQKR|VI  0.190    .
+359            170    VQKRVIK|TA  0.154    .
+359            173    RVIKTAR|RR  0.081    .
+359            174    VIKTARR|RL  0.101    .
+359            175    IKTARRR|LP  0.109    .
+359            185    GSGADEK|PS  0.064    .
+359            199    AGFGAPK|PA  0.067    .
+359            232    VPNPDNK|PD  0.071    .
+359            244    NNDVFLK|KL  0.061    .
+359            245    NDVFLKK|LK  0.094    .
+359            247    VFLKKLK|KL  0.060    .
+359            248    FLKKLKK|LN  0.098    .
+359            255    LNESVLK|FA  0.071    .
+359            263    AQEHVAK|NS  0.078    .
+359            278    VFNDYER|HL  0.088    .
+359            281    DYERHLK|RI  0.102    .
+359            282    YERHLKR|IR  0.215    .
+359            284    RHLKRIR|SS  0.134    .
+359            315    SEVTPSK|PE  0.064    .
+359            318    TPSKPEK|EE  0.101    .
+359            323    EKEEENK|EA  0.062    .
+359            328    NKEALEK|KE  0.060    .
+359            329    KEALEKK|EE  0.143    .
+359            333    EKKEESK|PL  0.070    .
+359            363    AGGFSFK|LA  0.078    .
+359            383    TGGFSFK|PD  0.078    .
+359            426    TVAVPAK|AD  0.073    .
+359            429    VPAKADK|KR  0.067    .
+359            430    PAKADKK|RF  0.092    .
+359            431    AKADKKR|FE  0.308    .
+359            435    KKRFEVK|KW  0.088    .
+359            436    KRFEVKK|WS  0.147    .
+359            456    DNCAICR|NH  0.074    .
+359            496    HFHCISR|WL  0.100    .
+359            499    CISRWLK|TR  0.101    .
+359            501    SRWLKTR|QV  0.172    .
+359            509    VCPLDNR|DW  0.086    .
+359            532    LDQYYSR|NH  0.078    .
+359            540    HNPDMSK|KR  0.057    .
+359            541    NPDMSKK|RI  0.136    .
+359            542    PDMSKKR|IA  0.497    .
+359            546    KKRIADK|QL  0.069    .
+359            551    DKQLTDR|NW  0.091    .
+359            566    EEAGEFK|RA  0.080    .
+359            567    EAGEFKR|AD  0.185    .
+359            575    DEETVQK|RV  0.063    .
+359            576    EETVQKR|VI  0.190    .
+359            579    VQKRVIK|TA  0.154    .
+359            582    RVIKTAR|RR  0.081    .
+359            583    VIKTARR|RL  0.101    .
+359            584    IKTARRR|LP  0.109    .
+359            594    GSGADEK|PS  0.064    .
+359            608    AGFGAPK|PA  0.067    .
+359            642    VPTPDNK|SE  0.079    .
+359            654    NNDVFLK|KL  0.061    .
+359            655    NDVFLKK|LK  0.094    .
+359            657    VFLKKLK|KL  0.060    .
+359            658    FLKKLKK|LN  0.098    .
+359            665    LNESVLK|FA  0.071    .
+359            673    AQEHVAK|NS  0.078    .
+359            688    VFNDYER|HL  0.088    .
+359            691    DYERHLK|RI  0.102    .
+359            692    YERHLKR|IR  0.215    .
+359            694    RHLKRIR|SS  0.134    .
+359            725    SEVTPSK|PE  0.064    .
+359            728    TPSKPEK|EE  0.112    .
+359            733    EKEEETK|EA  0.063    .
+359            738    TKEAVEK|KE  0.068    .
+359            739    KEAVEKK|EE  0.166    .
+359            743    EKKEESK|PL  0.069    .
+359            773    AGGFSFK|LA  0.078    .
+359            793    TGGFSFK|PD  0.078    .
+359            846    EPEEPPK|AE  0.065    .
+359            849    EPPKAEK|VR  0.057    .
+359            851    PKAEKVR|VQ  0.087    .
+359            857    RVQQLLK|AG  0.060    .
+359            864    AGATTIR|TN  0.098    .
+359            867    TTIRTNR|NS  0.236    .
+359            885    PDLVGSR|QL  0.087    .
+359            921    LEFLSTR|RI  0.088    .
+359            922    EFLSTRR|IY  0.098    .
+359            933    ASLTESK|YQ  0.054    .
+359            942    LLQNTNR|VD  0.082    .
+359            951    FTIDVFR|SL  0.171    .
+359            966    PAALGEK|RE  0.056    .
+359            967    AALGEKR|ED  0.109    .
+359            972    KREDVVR|RL  0.094    .
+359            973    REDVVRR|LN  0.163    .
+359            990    VIAIFSK|QD  0.061    .
+359            999    VTDVAEK|NR  0.059    .
+359           1001    DVAEKNR|DS  0.103    .
+359           1018    ENYNFQK|EQ  0.060    .
+359           1029    DVFHYGK|FM  0.068    .
+359           1048    SHLDIYR|NI  0.088    .
+359           1056    IAPADSK|FY  0.075    .
+359           1065    SSAQWGK|LA  0.094    .
+359           1083    TNIQQIR|DQ  0.106    .
+359           1090    DQYFLIR|LV  0.104    .
+359           1119    QVQLLIR|ND  0.077    .
+359           1136    NTLLHDK|MP  0.054    .
+359           1141    DKMPISK|SG  0.080    .
+359           1144    PISKSGK|NG  0.071    .
+359           1157    ATNQDSK|TE  0.057    .
+359           1164    TETFLVR|VN  0.096    .
+359           1167    FLVRVNK|DK  0.211    .
+359           1169    VRVNKDK|QE  0.074    .
+359           1176    QEEFFGK|LE  0.070    .
+359           1185    EAPITTR|YL  0.105    .
+359           1197    TGYQPIR|DQ  0.103    .
+359           1236    LEFLSTR|RI  0.088    .
+359           1237    EFLSTRR|IY  0.098    .
+359           1248    ASLTESK|YQ  0.057    .
+359           1266    FTIDVFR|SL  0.180    .
+359           1281    PAALGEK|RE  0.056    .
+359           1282    AALGEKR|ED  0.109    .
+359           1287    KREDVVR|RL  0.094    .
+359           1288    REDVVRR|LN  0.163    .
+359           1305    VIAIFSK|QD  0.063    .
+359           1318    DMVDSTR|VV  0.145    .
+359           1326    VDTVGPR|FS  0.088    .
+359           1334    SDILGGK|GF  0.061    .
+359           1338    GGKGFPK|YS  0.068    .
+359           1349    IILLDSK|TE  0.051    .
+359           1356    TETFLVR|VN  0.096    .
+359           1359    FLVRVNK|DK  0.211    .
+359           1361    VRVNKDK|QE  0.074    .
+359           1368    QEEFFGK|LE  0.070    .
+359           1377    EAPITTR|YL  0.105    .
+359           1389    TGYQPIR|DQ  0.111    .
+359           1428    LEFLSTR|RI  0.088    .
+359           1429    EFLSTRR|IY  0.098    .
+359           1440    ASLTESK|YQ  0.057    .
+359           1458    FTIDVFR|SL  0.180    .
+359           1473    PAALGEK|RE  0.056    .
+359           1474    AALGEKR|ED  0.109    .
+359           1479    KREDVVR|RL  0.094    .
+359           1480    REDVVRR|LN  0.163    .
+359           1497    VIAIFSK|QD  0.061    .
+359           1506    VTDVAEK|NR  0.059    .
+359           1508    DVAEKNR|DS  0.103    .
+359           1525    ENYNFQK|EQ  0.060    .
+359           1536    DVFHYGK|FM  0.068    .
+359           1555    SHLDIYR|NI  0.088    .
+359           1563    IAPADSK|FY  0.075    .
+359           1572    SSAQWGK|LA  0.100    .
+359           1591    AMDELER|LK  0.075    .
+359           1593    DELERLK|DN  0.063    .
+359           1611    SEVLIQR|AW  0.076    .
+359           1629    FNHPQGR|DK  0.108    .
+359           1631    HPQGRDK|LI  0.092    .
+359           1640    DDFLHQK|TY  0.062    .
+359           1655    MCPHILR|YI  0.102    .
+359           1665    TAVVISK|RR  0.067    .
+359           1666    AVVISKR|RR  0.134    .
+359           1667    VVISKRR|RD  0.137    .
+359           1668    VISKRRR|DG  0.249    .
+359           1672    RRRDGVK|EL  0.091    .
+359           1676    GVKELIK|VL  0.055    .
+359           1684    LQQESYK|DP  0.078    .
+359           1706    FDEAQSK|LK  0.059    .
+359           1708    EAQSKLK|EE  0.063    .
+359           1711    SKLKEER|PA  0.108    .
+359           1717    RPAYHFR|DL  0.192    .
+359           1735    EPTDTSK|QP  0.064    .
+359           1739    TSKQPIR|TL  0.115    .
+359           1753    TGYQPIR|DQ  0.102    .
+359           1762    YFLVQSR|IE  0.078    .
+359           1771    IDMLADK|LN  0.057    .
+359           1781    APAEAEK|WV  0.074    .
+359           1788    WVVNMIR|LA  0.083    .
+359           1795    LAHLDAK|ID  0.076    .
+359           1799    DAKIDSK|NG  0.064    .
+359           1815    STPIYQK|LI  0.061    .
+359           1819    YQKLIDK|TK  0.059    .
+359           1821    KLIDKTK|DL  0.079    .
+359           1826    TKDLHLK|AN  0.074    .
+359           1833    ANSCCQK|VD  0.063    .
+359           1836    CCQKVDK|KL  0.065    .
+359           1837    CQKVDKK|LA  0.096    .
+359           1840    VDKKLAR|NI  0.132    .
+359           1844    LARNIYK|KP  0.073    .
+359           1845    ARNIYKK|PK  0.130    .
+359           1847    NIYKKPK|AI  0.079    .
+359           1864    SQLCDMK|FS  0.058    .
+359           1867    CDMKFSR|SL  0.172    .
+____________________________^_________________
+
+
+
+

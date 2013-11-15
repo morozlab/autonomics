@@ -1,0 +1,545 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3690 59          
+MSKDEVLAETSKQPIRTLYLGHVTGYQPIREQYFLIRSVTGSRLFLSVSFQYPLSFSPSISLYLSLSLSISLSLSLSLSL      80
+SLSHPNTRVSLVRHSALSFTVSTQLAIQFSNFILLIFLLYTRLSVSLSLSLSLSLSLSLSLSLTLLHYIYLYISLSISLS     160
+YTFHPLGKKMFTSVPLNRLLGVVLIETIVGSRVHGILNLIVRMGEQSSKQIPLFTSLRPNMDTTAKIRHGILSSLSCSLF     240
+GACSSKLLLLAETISNADDQSTLVKRAAQGIPQPAPKMPHHHLLSSFSPLSPSYILTKLAIPDRRKMLLLAQEMNQFGSL     320
+RGFKYFTVFGRSTEEMLVTVYNNNYTVPEGGEVADIAAEKLDLVNFDPIMVDQEHPPGSPSRTQPCEVDEECTTYLIGCY     400
+ETYQRPFVWVRSAHARLAERHDVTSTQPIRTLYLGHVTGYEPIRDQYFLSQCAMYGTVERDSPIPLHVFTRYMTNQVISV     480
+WDIVAEIVLLTMDPPPANPFEVDHTFLDNLPSAAEQVYIVPFPDTVRIKSEIEKVYSFTILLTKLNLMPWAASTPFGDTT     560
+INDRIRGPPASTSMGSKTSIMLRPEEIQTISDKTGFTTREIVRLYNRFACLDKTRSGSLRREDLQNIPEFSVNPLCGRVI     640
+EAFFWDSDEVNFMQIKITGCQKMIFMRVFQMTMFGFNPICPQVLSGLVGGTVDPDEMEKVIMRAIDEAVQEDTRSRGCGD     720
+TIVNALLETPKEMFYSEFENCFCDRHTDYIHIVLSLIYVHKLTFQLITHDYNLKEGARLCVVCESGSRSCCAKMINPVRE     800
+RERERERERDREIDRKKDRRGRERKKVSIINCQSIGLTQFSRELRRHELLSKLLGIEDTRWQGVTSLPSKLLPDKIALQL     880
+DFSLFLSHSHSLSSVQMTGTVRNRVEPVQVPTNRSNQPIRTRCLGHVTGYQPISDQYFLSGTYAMQFHPYFRPVVLRCCL     960
+CQSIDLTVLSHKRLHSPNRGITVRQLYPARHELLSKLLGIEDTRWQGVTSLPSKLLPDKIALQLDAMQFHSHYQPMFCLC    1040
+QTIGLTLFSFLSRARNRISRELWSKHWSDSVISQKTTLSKLGHYSTTIIILMSVSQSFSTVGHPDLVDKSLSPEGVPKSG    1120
+SDCTGGVLFDSHTSTKLLITSLLNKVTFDPVITFGGTEISPIECSGTTGKTLGILLDHNLNLERQVNNVRKPCGLALRNL    1200
+WQLHRCFDLPTKIMLVKQLIISRIDYSNILYCGLPGRVLSGLQKLLNACVRFIYNVHGHQESYLEYFRQCHILPISYRLD    1280
+FKACLIAYKIVYGTAPLYLQEMVPLDNSWGLSRTTRMNSVTDPYRLKHPKMTSVNANSKLRRRRLSVFLPTIWNELPLEL    1360
+RSIPNVDTFKARLKTHLFVGAFGVGDGGPMAEIIANILTCFRWVWAVYKRGILLLLLLSIQSQILLFDSTAPSGTCAWVS    1440
+LKMLFLIDDLSEHWPDPILISLKYVLRENCDQSIGLIYSLGILLPGLINLSRIMTSAFQLIPPRQASSSLLQLMQPWSFD    1520
+QRSYPSGPPSPPEPKSFTPKLLSFSPTFLQPNITQQQQPSLSLTPELLALLQQFQILPPSPLDLLPGAAPAAATTSKLPV    1600
+SPVQPESPIRSPVPSGPIDVTTLVNLSIKDLNKQLRGMDRCDVVRLKQLRRRLKNRTYAKLSRHKRVATITMLEDEIREL    1680
+ESEHARAKKIIQGLEISRLCIYSSRSENRLQWSQLANQVSNLTKSFQLTTLNYETDKMSDRVLLWEKENVRTMKENQKKK    1760
+MERDRERKKERKKERERERMREKERERSNQSKRLSMKTLYFIKNRSYCHKEQNRVRLKNDSYLKSDFNGVGNCMRERERE    1840
+RETERQRERHRERHRERQRAKEKERKRETERDHERKKERERERQRETERERERETDREREKGYTSTVRSAMSSGSWSPTS    1920
+EMGFQIFPVAGGTVTFKTSSPTEGTKSDIRFYDFDNEYISGLQVSFGIWIWDHSYTHILIYSFIFCFIYHYYIPRSETIW    2000
+QVIHTTTTLTLKRDGAIILTYTFTSGDCAEAWNTEPSYAALNPVYDTATSAYFDDGVSNWITKQAESLQIDLSSTALQIR    2080
+SNYTEGSGKAVKMYFYQSLSYNGYIQIYYGSSAITYRVSECMSSSVELPTQPDSVGVGTVWTLSLTSTTFTLWCDAVTVL    2160
+EYDYGSLDCGTDDWATPPDEMYFSTTTDSDYRLQPGNYRYLPGKLPDYTPAWGKHATTKHSILKHNAIIILVQMCDSTVE    2240
+VTCKAGYIGSTITCRKDSVWSEDAAELCTAYGKLVAHPTASLFHILFRSLAIVAYLFGSLVFGKFTLTFVMVINNTKVRF    2320
+KRLDLRFLEIQDLPSVKSFETHFSVTQICNVHQNILKLFDSSVVLLLAADFWTVKNITGRLMVGLRWWNKVNEDGTTEWV    2400
+FESRKEGSAAYHSETENRIFWAAMFISSLFWVILLIKNLLGLSLAWMVVCLTGLSLSLSLSLSLSLKILSPEHPGKSGSD    2480
+CIRGHPTASLFHILFRSLAIVAYLFGSLVFGKFTLTFVMVVLLLAADFWTVKNITGRLMVGLRWWNKVNEDGTTEWVFES    2560
+RKEGSAAYHSETENRIFWSAMFISSLFWVILLIKNLLGLSLAWMVVCLTGVAILKPLSLSSTMMNPLVYVRTDGGGTGGG    2640
+GGGGMVSEGGAQQQAAPPPQPPPGMMGFPFQGGTRHGTPGYGVEQDRDLATDSRPHGKSSCSSFKDRLRVNSDEKVSKNT    2720
+YGDVKCEVLDLVRELFAHAGVVDSFPKSHGAEVKCCDWHPQKGLIVSGSKDTQQPIKLWDPRMGTSLSTLHLHKATVTRT    2800
+KFNRNGNWLLTSSRDHLLKIFDIRAMKEMQVFRGHKKEVMSIAWHPVHETMFASGGADGSILFWIVGTDREVGGMDNAHD    2880
+GMVLSLDWHPIGHVLASGSNDHTAKFWSRNRPGDLMEDKYNLNTNPNEGLQDIADIHEAAMNEDPHGLQQAEEPVVLDPN    2960
+VIPGLGELKDLWVDDTVMNTLVPSRVPLRHSGDTRQKQAIIPQIRTEVVPGLQIMSEKIKGDLDIAAFEKVHRENPYHQV    3040
+WGGDRDGPGPQPPLKSNNNNPPTGGTGAGGFNKNDDYGFDRKGVYVEQGRLMGDRPYPDNKPRGGGGSWRGSGGGRGGRG    3120
+RGNDRGGRGRGRGGNQSRSIMWLILAGIIFSLYLLSFVVAPVNYYGKMILYYMVFFLTAVLHMVYCPFFPKNRDNTYTLA    3200
+PFFYHMSRLVTGLTIEAEGMEHVEKSDAGYIIMANHQSSLDTLCMAKIWPHRAIILMKKSLMYVPFFGWAAYLSGHEFIT    3280
+RASGASNEVRDHMNLINERIKEERLRVIVFPEGTRNRTFDGQMLPFKKGGFHMAQQSQCAILPVLIYITPDVYDSKRWVF    3360
+NRGTVRVKVLEPIPTEGLTKDDVNGLLEETQRKMQAALDEMIFPIMAMEESRNFVRLPLLIDYMVQKTYHDLIVLSELLP    3440
+RKSDQERKTSICQFSNRTYQQLFRLRCLVEWACKASTVEKCGEIIMFLDKQASLFVETADSLFAISKDRLKNASFPVFVM    3520
+PTAVDVVITGSYPRLPQCIKDKIVQNPRLSEGERDETLERLTSLIEQRLVLTKIPHKFKDIELDKGFVKLTVPHEFSVRL    3600
+TVPNDDFKNPWQLLTLDLHVQRPVEDDPRPVVHPQQLEYIKGLLQSRLFDPDTEPLESLCETAHQFCLLLQVRERGSFII    3680
+FSIVRISMLN                                                                          3760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+........................P.......................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.................................................................P..............    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+..........                                                                          3760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+59               3    ----MSK|DE  0.067    .
+59              12    VLAETSK|QP  0.059    .
+59              16    TSKQPIR|TL  0.102    .
+59              30    TGYQPIR|EQ  0.092    .
+59              37    EQYFLIR|SV  0.188    .
+59              43    RSVTGSR|LF  0.068    .
+59              88    LSHPNTR|VS  0.073    .
+59              93    TRVSLVR|HS  0.106    .
+59             122    IFLLYTR|LS  0.057    .
+59             168    TFHPLGK|KM  0.069    .
+59             169    FHPLGKK|MF  0.073    .
+59             178    TSVPLNR|LL  0.122    .
+59             192    ETIVGSR|VH  0.070    .
+59             202    ILNLIVR|MG  0.107    .
+59             209    MGEQSSK|QI  0.059    .
+59             218    PLFTSLR|PN  0.077    .
+59             226    NMDTTAK|IR  0.067    .
+59             228    DTTAKIR|HG  0.072    .
+59             246    FGACSSK|LL  0.064    .
+59             265    DQSTLVK|RA  0.089    .
+59             266    QSTLVKR|AA  0.226    .
+59             277    IPQPAPK|MP  0.081    .
+59             298    PSYILTK|LA  0.069    .
+59             304    KLAIPDR|RK  0.085    .
+59             305    LAIPDRR|KM  0.086    .
+59             306    AIPDRRK|ML  0.074    .
+59             321    NQFGSLR|GF  0.080    .
+59             324    GSLRGFK|YF  0.136    .
+59             331    YFTVFGR|ST  0.194    .
+59             360    ADIAAEK|LD  0.058    .
+59             382    PPGSPSR|TQ  0.092    .
+59             405    CYETYQR|PF  0.075    .
+59             411    RPFVWVR|SA  0.228    .
+59             416    VRSAHAR|LA  0.224    .
+59             420    HARLAER|HD  0.079    .
+59             430    TSTQPIR|TL  0.091    .
+59             444    TGYEPIR|DQ  0.087    .
+59             460    MYGTVER|DS  0.102    .
+59             471    PLHVFTR|YM  0.139    .
+59             527    PFPDTVR|IK  0.087    .
+59             529    PDTVRIK|SE  0.082    .
+59             534    IKSEIEK|VY  0.066    .
+59             544    FTILLTK|LN  0.051    .
+59             564    DTTINDR|IR  0.074    .
+59             566    TINDRIR|GP  0.114    .
+59             577    STSMGSK|TS  0.068    .
+59             583    KTSIMLR|PE  0.104    .
+59             593    IQTISDK|TG  0.062    .
+59             599    KTGFTTR|EI  0.084    .
+59             603    TTREIVR|LY  0.073    .
+59             607    IVRLYNR|FA  0.084    .
+59             613    RFACLDK|TR  0.065    .
+59             615    ACLDKTR|SG  0.107    .
+59             620    TRSGSLR|RE  0.115    .
+59             621    RSGSLRR|ED  0.142    .
+59             638    VNPLCGR|VI  0.088    .
+59             656    VNFMQIK|IT  0.073    .
+59             662    KITGCQK|MI  0.065    .
+59             667    QKMIFMR|VF  0.103    .
+59             699    DPDEMEK|VI  0.063    .
+59             703    MEKVIMR|AI  0.117    .
+59             714    AVQEDTR|SR  0.112    .
+59             716    QEDTRSR|GC  0.111    .
+59             731    ALLETPK|EM  0.063    .
+59             745    ENCFCDR|HT  0.105    .
+59             761    SLIYVHK|LT  0.075    .
+59             774    THDYNLK|EG  0.053    .
+59             778    NLKEGAR|LC  0.079    .
+59             788    VCESGSR|SC  0.089    .
+59             793    SRSCCAK|MI  0.127    .
+59             799    KMINPVR|ER  0.088    .
+59             801    INPVRER|ER  0.082    .
+59             803    PVRERER|ER  0.094    .
+59             805    RERERER|ER  0.084    .
+59             807    RERERER|ER  0.093    .
+59             809    RERERER|DR  0.096    .
+59             811    RERERDR|EI  0.107    .
+59             815    RDREIDR|KK  0.087    .
+59             816    DREIDRK|KD  0.086    .
+59             817    REIDRKK|DR  0.117    .
+59             819    IDRKKDR|RG  0.086    .
+59             820    DRKKDRR|GR  0.187    .
+59             822    KKDRRGR|ER  0.203    .
+59             824    DRRGRER|KK  0.098    .
+59             825    RRGRERK|KV  0.604 *ProP*
+59             826    RGRERKK|VS  0.097    .
+59             842    GLTQFSR|EL  0.089    .
+59             845    QFSRELR|RH  0.148    .
+59             846    FSRELRR|HE  0.091    .
+59             852    RHELLSK|LL  0.066    .
+59             860    LGIEDTR|WQ  0.073    .
+59             870    VTSLPSK|LL  0.066    .
+59             875    SKLLPDK|IA  0.064    .
+59             902    QMTGTVR|NR  0.060    .
+59             904    TGTVRNR|VE  0.084    .
+59             914    VQVPTNR|SN  0.140    .
+59             920    RSNQPIR|TR  0.108    .
+59             922    NQPIRTR|CL  0.112    .
+59             952    QFHPYFR|PV  0.083    .
+59             957    FRPVVLR|CC  0.085    .
+59             972    LTVLSHK|RL  0.060    .
+59             973    TVLSHKR|LH  0.158    .
+59             979    RLHSPNR|GI  0.120    .
+59             984    NRGITVR|QL  0.140    .
+59             990    RQLYPAR|HE  0.071    .
+59             996    RHELLSK|LL  0.069    .
+59            1004    LGIEDTR|WQ  0.073    .
+59            1014    VTSLPSK|LL  0.066    .
+59            1019    SKLLPDK|IA  0.065    .
+59            1053    LFSFLSR|AR  0.090    .
+59            1055    SFLSRAR|NR  0.076    .
+59            1057    LSRARNR|IS  0.090    .
+59            1060    ARNRISR|EL  0.323    .
+59            1065    SRELWSK|HW  0.085    .
+59            1075    DSVISQK|TT  0.068    .
+59            1080    QKTTLSK|LG  0.059    .
+59            1109    HPDLVDK|SL  0.103    .
+59            1118    SPEGVPK|SG  0.112    .
+59            1136    DSHTSTK|LL  0.073    .
+59            1145    ITSLLNK|VT  0.067    .
+59            1170    CSGTTGK|TL  0.079    .
+59            1184    HNLNLER|QV  0.111    .
+59            1190    RQVNNVR|KP  0.067    .
+59            1191    QVNNVRK|PC  0.123    .
+59            1198    PCGLALR|NL  0.083    .
+59            1205    NLWQLHR|CF  0.074    .
+59            1212    CFDLPTK|IM  0.055    .
+59            1217    TKIMLVK|QL  0.074    .
+59            1223    KQLIISR|ID  0.067    .
+59            1237    YCGLPGR|VL  0.090    .
+59            1244    VLSGLQK|LL  0.069    .
+59            1251    LLNACVR|FI  0.132    .
+59            1268    SYLEYFR|QC  0.072    .
+59            1278    ILPISYR|LD  0.082    .
+59            1282    SYRLDFK|AC  0.062    .
+59            1289    ACLIAYK|IV  0.066    .
+59            1313    NSWGLSR|TT  0.076    .
+59            1316    GLSRTTR|MN  0.371    .
+59            1325    SVTDPYR|LK  0.088    .
+59            1327    TDPYRLK|HP  0.056    .
+59            1330    YRLKHPK|MT  0.088    .
+59            1339    SVNANSK|LR  0.060    .
+59            1341    NANSKLR|RR  0.077    .
+59            1342    ANSKLRR|RR  0.120    .
+59            1343    NSKLRRR|RL  0.163    .
+59            1344    SKLRRRR|LS  0.310    .
+59            1361    ELPLELR|SI  0.095    .
+59            1370    PNVDTFK|AR  0.054    .
+59            1372    VDTFKAR|LK  0.097    .
+59            1374    TFKARLK|TH  0.058    .
+59            1402    NILTCFR|WV  0.101    .
+59            1409    WVWAVYK|RG  0.057    .
+59            1410    VWAVYKR|GI  0.167    .
+59            1442    CAWVSLK|ML  0.064    .
+59            1463    PILISLK|YV  0.068    .
+59            1467    SLKYVLR|EN  0.095    .
+59            1492    GLINLSR|IM  0.083    .
+59            1504    FQLIPPR|QA  0.111    .
+59            1522    PWSFDQR|SY  0.159    .
+59            1535    PSPPEPK|SF  0.095    .
+59            1540    PKSFTPK|LL  0.086    .
+59            1597    AAATTSK|LP  0.054    .
+59            1610    QPESPIR|SP  0.136    .
+59            1629    LVNLSIK|DL  0.100    .
+59            1633    SIKDLNK|QL  0.065    .
+59            1636    DLNKQLR|GM  0.107    .
+59            1640    QLRGMDR|CD  0.088    .
+59            1645    DRCDVVR|LK  0.076    .
+59            1647    CDVVRLK|QL  0.065    .
+59            1650    VRLKQLR|RR  0.073    .
+59            1651    RLKQLRR|RL  0.098    .
+59            1652    LKQLRRR|LK  0.107    .
+59            1654    QLRRRLK|NR  0.106    .
+59            1656    RRRLKNR|TY  0.118    .
+59            1660    KNRTYAK|LS  0.071    .
+59            1663    TYAKLSR|HK  0.106    .
+59            1665    AKLSRHK|RV  0.071    .
+59            1666    KLSRHKR|VA  0.722 *ProP*
+59            1678    MLEDEIR|EL  0.090    .
+59            1686    LESEHAR|AK  0.137    .
+59            1688    SEHARAK|KI  0.097    .
+59            1689    EHARAKK|II  0.384    .
+59            1698    QGLEISR|LC  0.066    .
+59            1705    LCIYSSR|SE  0.109    .
+59            1709    SSRSENR|LQ  0.107    .
+59            1724    QVSNLTK|SF  0.077    .
+59            1737    LNYETDK|MS  0.076    .
+59            1741    TDKMSDR|VL  0.085    .
+59            1747    RVLLWEK|EN  0.054    .
+59            1751    WEKENVR|TM  0.069    .
+59            1754    ENVRTMK|EN  0.144    .
+59            1758    TMKENQK|KK  0.059    .
+59            1759    MKENQKK|KM  0.109    .
+59            1760    KENQKKK|ME  0.146    .
+59            1763    QKKKMER|DR  0.118    .
+59            1765    KKMERDR|ER  0.099    .
+59            1767    MERDRER|KK  0.098    .
+59            1768    ERDRERK|KE  0.253    .
+59            1769    RDRERKK|ER  0.102    .
+59            1771    RERKKER|KK  0.133    .
+59            1772    ERKKERK|KE  0.096    .
+59            1773    RKKERKK|ER  0.111    .
+59            1775    KERKKER|ER  0.122    .
+59            1777    RKKERER|ER  0.077    .
+59            1779    KERERER|MR  0.114    .
+59            1781    RERERMR|EK  0.103    .
+59            1783    RERMREK|ER  0.067    .
+59            1785    RMREKER|ER  0.096    .
+59            1787    REKERER|SN  0.118    .
+59            1792    ERSNQSK|RL  0.097    .
+59            1793    RSNQSKR|LS  0.317    .
+59            1797    SKRLSMK|TL  0.073    .
+59            1803    KTLYFIK|NR  0.057    .
+59            1805    LYFIKNR|SY  0.168    .
+59            1810    NRSYCHK|EQ  0.079    .
+59            1814    CHKEQNR|VR  0.067    .
+59            1816    KEQNRVR|LK  0.087    .
+59            1818    QNRVRLK|ND  0.064    .
+59            1824    KNDSYLK|SD  0.073    .
+59            1835    GVGNCMR|ER  0.097    .
+59            1837    GNCMRER|ER  0.086    .
+59            1839    CMRERER|ER  0.088    .
+59            1841    RERERER|ET  0.112    .
+59            1845    RERETER|QR  0.090    .
+59            1847    RETERQR|ER  0.079    .
+59            1849    TERQRER|HR  0.100    .
+59            1851    RQRERHR|ER  0.090    .
+59            1853    RERHRER|HR  0.122    .
+59            1855    RHRERHR|ER  0.083    .
+59            1857    RERHRER|QR  0.100    .
+59            1859    RHRERQR|AK  0.123    .
+59            1861    RERQRAK|EK  0.093    .
+59            1863    RQRAKEK|ER  0.062    .
+59            1865    RAKEKER|KR  0.119    .
+59            1866    AKEKERK|RE  0.070    .
+59            1867    KEKERKR|ET  0.167    .
+59            1871    RKRETER|DH  0.116    .
+59            1875    TERDHER|KK  0.107    .
+59            1876    ERDHERK|KE  0.099    .
+59            1877    RDHERKK|ER  0.116    .
+59            1879    HERKKER|ER  0.146    .
+59            1881    RKKERER|ER  0.081    .
+59            1883    KERERER|QR  0.111    .
+59            1885    RERERQR|ET  0.109    .
+59            1889    RQRETER|ER  0.090    .
+59            1891    RETERER|ER  0.076    .
+59            1893    TERERER|ET  0.110    .
+59            1897    RERETDR|ER  0.107    .
+59            1899    RETDRER|EK  0.075    .
+59            1901    TDREREK|GY  0.070    .
+59            1908    GYTSTVR|SA  0.160    .
+59            1937    GGTVTFK|TS  0.074    .
+59            1946    SPTEGTK|SD  0.070    .
+59            1950    GTKSDIR|FY  0.083    .
+59            1995    YHYYIPR|SE  0.114    .
+59            2012    TTTLTLK|RD  0.068    .
+59            2013    TTLTLKR|DG  0.194    .
+59            2063    VSNWITK|QA  0.081    .
+59            2080    STALQIR|SN  0.171    .
+59            2089    YTEGSGK|AV  0.080    .
+59            2092    GSGKAVK|MY  0.067    .
+59            2117    SSAITYR|VS  0.100    .
+59            2192    TTDSDYR|LQ  0.067    .
+59            2199    LQPGNYR|YL  0.093    .
+59            2204    YRYLPGK|LP  0.065    .
+59            2214    YTPAWGK|HA  0.069    .
+59            2219    GKHATTK|HS  0.077    .
+59            2224    TKHSILK|HN  0.075    .
+59            2244    TVEVTCK|AG  0.066    .
+59            2255    GSTITCR|KD  0.079    .
+59            2256    STITCRK|DS  0.108    .
+59            2273    LCTAYGK|LV  0.064    .
+59            2288    LFHILFR|SL  0.140    .
+59            2304    GSLVFGK|FT  0.074    .
+59            2317    MVINNTK|VR  0.057    .
+59            2319    INNTKVR|FK  0.106    .
+59            2321    NTKVRFK|RL  0.061    .
+59            2322    TKVRFKR|LD  0.488    .
+59            2326    FKRLDLR|FL  0.105    .
+59            2337    QDLPSVK|SF  0.088    .
+59            2357    VHQNILK|LF  0.061    .
+59            2375    ADFWTVK|NI  0.063    .
+59            2380    VKNITGR|LM  0.088    .
+59            2386    RLMVGLR|WW  0.103    .
+59            2390    GLRWWNK|VN  0.075    .
+59            2404    EWVFESR|KE  0.089    .
+59            2405    WVFESRK|EG  0.088    .
+59            2418    HSETENR|IF  0.114    .
+59            2437    WVILLIK|NL  0.052    .
+59            2467    SLSLSLK|IL  0.084    .
+59            2476    SPEHPGK|SG  0.131    .
+59            2483    SGSDCIR|GH  0.094    .
+59            2496    LFHILFR|SL  0.140    .
+59            2512    GSLVFGK|FT  0.074    .
+59            2532    ADFWTVK|NI  0.063    .
+59            2537    VKNITGR|LM  0.088    .
+59            2543    RLMVGLR|WW  0.103    .
+59            2547    GLRWWNK|VN  0.075    .
+59            2561    EWVFESR|KE  0.089    .
+59            2562    WVFESRK|EG  0.088    .
+59            2575    HSETENR|IF  0.102    .
+59            2594    WVILLIK|NL  0.052    .
+59            2615    TGVAILK|PL  0.067    .
+59            2631    NPLVYVR|TD  0.099    .
+59            2675    PFQGGTR|HG  0.083    .
+59            2687    YGVEQDR|DL  0.091    .
+59            2694    DLATDSR|PH  0.090    .
+59            2698    DSRPHGK|SS  0.108    .
+59            2705    SSCSSFK|DR  0.074    .
+59            2707    CSSFKDR|LR  0.096    .
+59            2709    SFKDRLR|VN  0.097    .
+59            2715    RVNSDEK|VS  0.056    .
+59            2718    SDEKVSK|NT  0.071    .
+59            2725    NTYGDVK|CE  0.054    .
+59            2733    EVLDLVR|EL  0.070    .
+59            2747    VVDSFPK|SH  0.091    .
+59            2754    SHGAEVK|CC  0.072    .
+59            2762    CDWHPQK|GL  0.068    .
+59            2770    LIVSGSK|DT  0.065    .
+59            2777    DTQQPIK|LW  0.071    .
+59            2782    IKLWDPR|MG  0.079    .
+59            2794    STLHLHK|AT  0.059    .
+59            2799    HKATVTR|TK  0.099    .
+59            2801    ATVTRTK|FN  0.070    .
+59            2804    TRTKFNR|NG  0.118    .
+59            2814    WLLTSSR|DH  0.083    .
+59            2819    SRDHLLK|IF  0.066    .
+59            2824    LKIFDIR|AM  0.089    .
+59            2827    FDIRAMK|EM  0.100    .
+59            2833    KEMQVFR|GH  0.125    .
+59            2836    QVFRGHK|KE  0.095    .
+59            2837    VFRGHKK|EV  0.158    .
+59            2870    WIVGTDR|EV  0.122    .
+59            2905    SNDHTAK|FW  0.099    .
+59            2909    TAKFWSR|NR  0.083    .
+59            2911    KFWSRNR|PG  0.079    .
+59            2919    GDLMEDK|YN  0.062    .
+59            2969    PGLGELK|DL  0.062    .
+59            2985    NTLVPSR|VP  0.062    .
+59            2989    PSRVPLR|HS  0.120    .
+59            2995    RHSGDTR|QK  0.145    .
+59            2997    SGDTRQK|QA  0.065    .
+59            3005    AIIPQIR|TE  0.071    .
+59            3018    LQIMSEK|IK  0.072    .
+59            3020    IMSEKIK|GD  0.076    .
+59            3030    DIAAFEK|VH  0.060    .
+59            3033    AFEKVHR|EN  0.083    .
+59            3045    QVWGGDR|DG  0.074    .
+59            3055    GPQPPLK|SN  0.101    .
+59            3073    GAGGFNK|ND  0.070    .
+59            3081    DDYGFDR|KG  0.081    .
+59            3082    DYGFDRK|GV  0.110    .
+59            3090    VYVEQGR|LM  0.074    .
+59            3095    GRLMGDR|PY  0.093    .
+59            3101    RPYPDNK|PR  0.082    .
+59            3103    YPDNKPR|GG  0.159    .
+59            3110    GGGGSWR|GS  0.199    .
+59            3116    RGSGGGR|GG  0.100    .
+59            3119    GGGRGGR|GR  0.238    .
+59            3121    GRGGRGR|GN  0.190    .
+59            3125    RGRGNDR|GG  0.088    .
+59            3128    GNDRGGR|GR  0.333    .
+59            3130    DRGGRGR|GR  0.132    .
+59            3132    GGRGRGR|GG  0.115    .
+59            3138    RGGNQSR|SI  0.170    .
+59            3167    PVNYYGK|MI  0.066    .
+59            3191    YCPFFPK|NR  0.056    .
+59            3193    PFFPKNR|DN  0.098    .
+59            3208    FFYHMSR|LV  0.096    .
+59            3225    GMEHVEK|SD  0.088    .
+59            3247    DTLCMAK|IW  0.054    .
+59            3252    AKIWPHR|AI  0.097    .
+59            3258    RAIILMK|KS  0.069    .
+59            3259    AIILMKK|SL  0.148    .
+59            3281    GHEFITR|AS  0.105    .
+59            3290    GASNEVR|DH  0.134    .
+59            3299    MNLINER|IK  0.084    .
+59            3301    LINERIK|EE  0.058    .
+59            3304    ERIKEER|LR  0.089    .
+59            3306    IKEERLR|VI  0.088    .
+59            3315    VFPEGTR|NR  0.062    .
+59            3317    PEGTRNR|TF  0.098    .
+59            3327    GQMLPFK|KG  0.069    .
+59            3328    QMLPFKK|GG  0.098    .
+59            3356    PDVYDSK|RW  0.059    .
+59            3357    DVYDSKR|WV  0.226    .
+59            3362    KRWVFNR|GT  0.143    .
+59            3366    FNRGTVR|VK  0.067    .
+59            3368    RGTVRVK|VL  0.069    .
+59            3380    PTEGLTK|DD  0.067    .
+59            3392    LLEETQR|KM  0.094    .
+59            3393    LEETQRK|MQ  0.082    .
+59            3412    MAMEESR|NF  0.075    .
+59            3416    ESRNFVR|LP  0.078    .
+59            3427    IDYMVQK|TY  0.073    .
+59            3441    LSELLPR|KS  0.113    .
+59            3442    SELLPRK|SD  0.091    .
+59            3447    RKSDQER|KT  0.155    .
+59            3448    KSDQERK|TS  0.084    .
+59            3457    ICQFSNR|TY  0.098    .
+59            3464    TYQQLFR|LR  0.087    .
+59            3466    QQLFRLR|CL  0.068    .
+59            3474    LVEWACK|AS  0.062    .
+59            3480    KASTVEK|CG  0.077    .
+59            3490    IIMFLDK|QA  0.072    .
+59            3507    SLFAISK|DR  0.061    .
+59            3509    FAISKDR|LK  0.093    .
+59            3511    ISKDRLK|NA  0.065    .
+59            3534    ITGSYPR|LP  0.070    .
+59            3540    RLPQCIK|DK  0.066    .
+59            3542    PQCIKDK|IV  0.078    .
+59            3548    KIVQNPR|LS  0.089    .
+59            3554    RLSEGER|DE  0.104    .
+59            3560    RDETLER|LT  0.094    .
+59            3568    TSLIEQR|LV  0.129    .
+59            3573    QRLVLTK|IP  0.064    .
+59            3577    LTKIPHK|FK  0.071    .
+59            3579    KIPHKFK|DI  0.078    .
+59            3585    KDIELDK|GF  0.058    .
+59            3589    LDKGFVK|LT  0.069    .
+59            3599    PHEFSVR|LT  0.077    .
+59            3608    VPNDDFK|NP  0.066    .
+59            3622    LDLHVQR|PV  0.122    .
+59            3629    PVEDDPR|PV  0.088    .
+59            3641    QQLEYIK|GL  0.061    .
+59            3647    KGLLQSR|LF  0.071    .
+59            3673    CLLLQVR|ER  0.073    .
+59            3675    LLQVRER|GS  0.113    .
+59            3685    IIFSIVR|IS  0.071    .
+____________________________^_________________
+
+
+
+

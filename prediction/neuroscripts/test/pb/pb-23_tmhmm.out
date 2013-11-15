@@ -1,0 +1,2248 @@
+# 14653 Length: 132
+# 14653 Number of predicted TMHs:  0
+14653	TMHMM2.0	outside	     1   132
+# 14654 Length: 132
+# 14654 Number of predicted TMHs:  0
+14654	TMHMM2.0	inside	     1   132
+# 14655 Length: 132
+# 14655 Number of predicted TMHs:  0
+14655	TMHMM2.0	outside	     1   132
+# 14656 Length: 132
+# 14656 Number of predicted TMHs:  0
+14656	TMHMM2.0	outside	     1   132
+# 14657 Length: 132
+# 14657 Number of predicted TMHs:  0
+14657	TMHMM2.0	outside	     1   132
+# 14658 Length: 132
+# 14658 Number of predicted TMHs:  0
+14658	TMHMM2.0	outside	     1   132
+# 14659 Length: 132
+# 14659 Number of predicted TMHs:  2
+14659	TMHMM2.0	inside	     1    20
+14659	TMHMM2.0	TMhelix	    21    43
+14659	TMHMM2.0	outside	    44    62
+14659	TMHMM2.0	TMhelix	    63    85
+14659	TMHMM2.0	inside	    86   132
+# 14660 Length: 132
+# 14660 Number of predicted TMHs:  0
+14660	TMHMM2.0	outside	     1   132
+# 14661 Length: 132
+# 14661 Number of predicted TMHs:  0
+14661	TMHMM2.0	outside	     1   132
+# 14662 Length: 132
+# 14662 Number of predicted TMHs:  0
+14662	TMHMM2.0	inside	     1   132
+# 14663 Length: 132
+# 14663 Number of predicted TMHs:  1
+14663	TMHMM2.0	inside	     1    44
+14663	TMHMM2.0	TMhelix	    45    67
+14663	TMHMM2.0	outside	    68   132
+# 14664 Length: 132
+# 14664 Number of predicted TMHs:  0
+14664	TMHMM2.0	outside	     1   132
+# 14665 Length: 132
+# 14665 Number of predicted TMHs:  0
+14665	TMHMM2.0	outside	     1   132
+# 14666 Length: 131
+# 14666 Number of predicted TMHs:  0
+14666	TMHMM2.0	outside	     1   131
+# 14667 Length: 131
+# 14667 Number of predicted TMHs:  0
+14667	TMHMM2.0	outside	     1   131
+# 14668 Length: 131
+# 14668 Number of predicted TMHs:  0
+14668	TMHMM2.0	outside	     1   131
+# 14669 Length: 131
+# 14669 Number of predicted TMHs:  0
+14669	TMHMM2.0	outside	     1   131
+# 14670 Length: 131
+# 14670 Number of predicted TMHs:  0
+14670	TMHMM2.0	outside	     1   131
+# 14671 Length: 131
+# 14671 Number of predicted TMHs:  2
+14671	TMHMM2.0	inside	     1    25
+14671	TMHMM2.0	TMhelix	    26    45
+14671	TMHMM2.0	outside	    46    48
+14671	TMHMM2.0	TMhelix	    49    71
+14671	TMHMM2.0	inside	    72   131
+# 14672 Length: 131
+# 14672 Number of predicted TMHs:  0
+14672	TMHMM2.0	outside	     1   131
+# 14673 Length: 131
+# 14673 Number of predicted TMHs:  0
+14673	TMHMM2.0	outside	     1   131
+# 14674 Length: 131
+# 14674 Number of predicted TMHs:  0
+14674	TMHMM2.0	outside	     1   131
+# 14675 Length: 131
+# 14675 Number of predicted TMHs:  0
+14675	TMHMM2.0	outside	     1   131
+# 14676 Length: 131
+# 14676 Number of predicted TMHs:  0
+14676	TMHMM2.0	outside	     1   131
+# 14677 Length: 131
+# 14677 Number of predicted TMHs:  0
+14677	TMHMM2.0	outside	     1   131
+# 14678 Length: 131
+# 14678 Number of predicted TMHs:  0
+14678	TMHMM2.0	inside	     1   131
+# 14679 Length: 131
+# 14679 Number of predicted TMHs:  0
+14679	TMHMM2.0	outside	     1   131
+# 14680 Length: 131
+# 14680 Number of predicted TMHs:  0
+14680	TMHMM2.0	outside	     1   131
+# 14681 Length: 131
+# 14681 Number of predicted TMHs:  0
+14681	TMHMM2.0	outside	     1   131
+# 14682 Length: 131
+# 14682 Number of predicted TMHs:  0
+14682	TMHMM2.0	outside	     1   131
+# 14683 Length: 131
+# 14683 Number of predicted TMHs:  1
+14683	TMHMM2.0	inside	     1    19
+14683	TMHMM2.0	TMhelix	    20    42
+14683	TMHMM2.0	outside	    43   131
+# 14684 Length: 131
+# 14684 Number of predicted TMHs:  0
+14684	TMHMM2.0	outside	     1   131
+# 14685 Length: 131
+# 14685 Number of predicted TMHs:  0
+14685	TMHMM2.0	outside	     1   131
+# 14686 Length: 131
+# 14686 Number of predicted TMHs:  0
+14686	TMHMM2.0	outside	     1   131
+# 14687 Length: 131
+# 14687 Number of predicted TMHs:  0
+14687	TMHMM2.0	outside	     1   131
+# 14688 Length: 131
+# 14688 Number of predicted TMHs:  0
+14688	TMHMM2.0	outside	     1   131
+# 14689 Length: 131
+# 14689 Number of predicted TMHs:  0
+14689	TMHMM2.0	outside	     1   131
+# 14690 Length: 131
+# 14690 Number of predicted TMHs:  1
+14690	TMHMM2.0	inside	     1   107
+14690	TMHMM2.0	TMhelix	   108   130
+14690	TMHMM2.0	outside	   131   131
+# 14691 Length: 131
+# 14691 Number of predicted TMHs:  0
+14691	TMHMM2.0	outside	     1   131
+# 14692 Length: 131
+# 14692 Number of predicted TMHs:  0
+14692	TMHMM2.0	outside	     1   131
+# 14693 Length: 131
+# 14693 Number of predicted TMHs:  0
+14693	TMHMM2.0	outside	     1   131
+# 14694 Length: 131
+# 14694 Number of predicted TMHs:  0
+14694	TMHMM2.0	outside	     1   131
+# 14695 Length: 131
+# 14695 Number of predicted TMHs:  0
+14695	TMHMM2.0	outside	     1   131
+# 14696 Length: 131
+# 14696 Number of predicted TMHs:  0
+14696	TMHMM2.0	outside	     1   131
+# 14697 Length: 131
+# 14697 Number of predicted TMHs:  1
+14697	TMHMM2.0	inside	     1    20
+14697	TMHMM2.0	TMhelix	    21    43
+14697	TMHMM2.0	outside	    44   131
+# 14698 Length: 131
+# 14698 Number of predicted TMHs:  0
+14698	TMHMM2.0	inside	     1   131
+# 14699 Length: 131
+# 14699 Number of predicted TMHs:  2
+14699	TMHMM2.0	inside	     1    12
+14699	TMHMM2.0	TMhelix	    13    35
+14699	TMHMM2.0	outside	    36    49
+14699	TMHMM2.0	TMhelix	    50    72
+14699	TMHMM2.0	inside	    73   131
+# 14700 Length: 131
+# 14700 Number of predicted TMHs:  1
+14700	TMHMM2.0	inside	     1    99
+14700	TMHMM2.0	TMhelix	   100   122
+14700	TMHMM2.0	outside	   123   131
+# 14701 Length: 131
+# 14701 Number of predicted TMHs:  0
+14701	TMHMM2.0	inside	     1   131
+# 14702 Length: 131
+# 14702 Number of predicted TMHs:  0
+14702	TMHMM2.0	outside	     1   131
+# 14703 Length: 131
+# 14703 Number of predicted TMHs:  0
+14703	TMHMM2.0	outside	     1   131
+# 14704 Length: 131
+# 14704 Number of predicted TMHs:  2
+14704	TMHMM2.0	inside	     1    11
+14704	TMHMM2.0	TMhelix	    12    34
+14704	TMHMM2.0	outside	    35    53
+14704	TMHMM2.0	TMhelix	    54    76
+14704	TMHMM2.0	inside	    77   131
+# 14705 Length: 131
+# 14705 Number of predicted TMHs:  0
+14705	TMHMM2.0	outside	     1   131
+# 14706 Length: 131
+# 14706 Number of predicted TMHs:  0
+14706	TMHMM2.0	outside	     1   131
+# 14707 Length: 131
+# 14707 Number of predicted TMHs:  0
+14707	TMHMM2.0	outside	     1   131
+# 14708 Length: 131
+# 14708 Number of predicted TMHs:  1
+14708	TMHMM2.0	outside	     1   103
+14708	TMHMM2.0	TMhelix	   104   126
+14708	TMHMM2.0	inside	   127   131
+# 14709 Length: 131
+# 14709 Number of predicted TMHs:  0
+14709	TMHMM2.0	outside	     1   131
+# 14710 Length: 131
+# 14710 Number of predicted TMHs:  4
+14710	TMHMM2.0	outside	     1     3
+14710	TMHMM2.0	TMhelix	     4    22
+14710	TMHMM2.0	inside	    23    28
+14710	TMHMM2.0	TMhelix	    29    51
+14710	TMHMM2.0	outside	    52    65
+14710	TMHMM2.0	TMhelix	    66    88
+14710	TMHMM2.0	inside	    89    92
+14710	TMHMM2.0	TMhelix	    93   115
+14710	TMHMM2.0	outside	   116   131
+# 14711 Length: 131
+# 14711 Number of predicted TMHs:  0
+14711	TMHMM2.0	outside	     1   131
+# 14712 Length: 131
+# 14712 Number of predicted TMHs:  0
+14712	TMHMM2.0	outside	     1   131
+# 14713 Length: 131
+# 14713 Number of predicted TMHs:  0
+14713	TMHMM2.0	outside	     1   131
+# 14714 Length: 131
+# 14714 Number of predicted TMHs:  0
+14714	TMHMM2.0	outside	     1   131
+# 14715 Length: 131
+# 14715 Number of predicted TMHs:  1
+14715	TMHMM2.0	inside	     1   101
+14715	TMHMM2.0	TMhelix	   102   124
+14715	TMHMM2.0	outside	   125   131
+# 14716 Length: 131
+# 14716 Number of predicted TMHs:  0
+14716	TMHMM2.0	outside	     1   131
+# 14717 Length: 131
+# 14717 Number of predicted TMHs:  0
+14717	TMHMM2.0	outside	     1   131
+# 14718 Length: 131
+# 14718 Number of predicted TMHs:  0
+14718	TMHMM2.0	outside	     1   131
+# 14719 Length: 131
+# 14719 Number of predicted TMHs:  0
+14719	TMHMM2.0	outside	     1   131
+# 14720 Length: 131
+# 14720 Number of predicted TMHs:  0
+14720	TMHMM2.0	outside	     1   131
+# 14721 Length: 131
+# 14721 Number of predicted TMHs:  0
+14721	TMHMM2.0	outside	     1   131
+# 14722 Length: 131
+# 14722 Number of predicted TMHs:  0
+14722	TMHMM2.0	outside	     1   131
+# 14723 Length: 131
+# 14723 Number of predicted TMHs:  0
+14723	TMHMM2.0	outside	     1   131
+# 14724 Length: 131
+# 14724 Number of predicted TMHs:  0
+14724	TMHMM2.0	outside	     1   131
+# 14725 Length: 131
+# 14725 Number of predicted TMHs:  0
+14725	TMHMM2.0	outside	     1   131
+# 14726 Length: 131
+# 14726 Number of predicted TMHs:  0
+14726	TMHMM2.0	inside	     1   131
+# 14727 Length: 131
+# 14727 Number of predicted TMHs:  0
+14727	TMHMM2.0	outside	     1   131
+# 14728 Length: 131
+# 14728 Number of predicted TMHs:  1
+14728	TMHMM2.0	outside	     1    19
+14728	TMHMM2.0	TMhelix	    20    42
+14728	TMHMM2.0	inside	    43   131
+# 14729 Length: 131
+# 14729 Number of predicted TMHs:  1
+14729	TMHMM2.0	inside	     1     6
+14729	TMHMM2.0	TMhelix	     7    24
+14729	TMHMM2.0	outside	    25   131
+# 14730 Length: 131
+# 14730 Number of predicted TMHs:  0
+14730	TMHMM2.0	outside	     1   131
+# 14731 Length: 131
+# 14731 Number of predicted TMHs:  0
+14731	TMHMM2.0	outside	     1   131
+# 14732 Length: 131
+# 14732 Number of predicted TMHs:  0
+14732	TMHMM2.0	outside	     1   131
+# 14733 Length: 131
+# 14733 Number of predicted TMHs:  0
+14733	TMHMM2.0	outside	     1   131
+# 14734 Length: 131
+# 14734 Number of predicted TMHs:  0
+14734	TMHMM2.0	outside	     1   131
+# 14735 Length: 131
+# 14735 Number of predicted TMHs:  0
+14735	TMHMM2.0	outside	     1   131
+# 14736 Length: 131
+# 14736 Number of predicted TMHs:  1
+14736	TMHMM2.0	outside	     1    14
+14736	TMHMM2.0	TMhelix	    15    37
+14736	TMHMM2.0	inside	    38   131
+# 14737 Length: 131
+# 14737 Number of predicted TMHs:  0
+14737	TMHMM2.0	outside	     1   131
+# 14738 Length: 131
+# 14738 Number of predicted TMHs:  0
+14738	TMHMM2.0	outside	     1   131
+# 14739 Length: 131
+# 14739 Number of predicted TMHs:  0
+14739	TMHMM2.0	outside	     1   131
+# 14740 Length: 131
+# 14740 Number of predicted TMHs:  0
+14740	TMHMM2.0	outside	     1   131
+# 14741 Length: 131
+# 14741 Number of predicted TMHs:  0
+14741	TMHMM2.0	outside	     1   131
+# 14742 Length: 131
+# 14742 Number of predicted TMHs:  0
+14742	TMHMM2.0	inside	     1   131
+# 14743 Length: 131
+# 14743 Number of predicted TMHs:  0
+14743	TMHMM2.0	outside	     1   131
+# 14744 Length: 131
+# 14744 Number of predicted TMHs:  0
+14744	TMHMM2.0	outside	     1   131
+# 14745 Length: 131
+# 14745 Number of predicted TMHs:  0
+14745	TMHMM2.0	outside	     1   131
+# 14746 Length: 131
+# 14746 Number of predicted TMHs:  0
+14746	TMHMM2.0	outside	     1   131
+# 14747 Length: 131
+# 14747 Number of predicted TMHs:  0
+14747	TMHMM2.0	outside	     1   131
+# 14748 Length: 131
+# 14748 Number of predicted TMHs:  0
+14748	TMHMM2.0	outside	     1   131
+# 14749 Length: 131
+# 14749 Number of predicted TMHs:  1
+14749	TMHMM2.0	inside	     1    16
+14749	TMHMM2.0	TMhelix	    17    39
+14749	TMHMM2.0	outside	    40   131
+# 14750 Length: 131
+# 14750 Number of predicted TMHs:  0
+14750	TMHMM2.0	outside	     1   131
+# 14751 Length: 131
+# 14751 Number of predicted TMHs:  0
+14751	TMHMM2.0	outside	     1   131
+# 14752 Length: 131
+# 14752 Number of predicted TMHs:  0
+14752	TMHMM2.0	outside	     1   131
+# 14753 Length: 131
+# 14753 Number of predicted TMHs:  0
+14753	TMHMM2.0	outside	     1   131
+# 14754 Length: 130
+# 14754 Number of predicted TMHs:  0
+14754	TMHMM2.0	outside	     1   130
+# 14755 Length: 130
+# 14755 Number of predicted TMHs:  0
+14755	TMHMM2.0	outside	     1   130
+# 14756 Length: 130
+# 14756 Number of predicted TMHs:  1
+14756	TMHMM2.0	inside	     1    45
+14756	TMHMM2.0	TMhelix	    46    68
+14756	TMHMM2.0	outside	    69   130
+# 14757 Length: 130
+# 14757 Number of predicted TMHs:  0
+14757	TMHMM2.0	outside	     1   130
+# 14758 Length: 130
+# 14758 Number of predicted TMHs:  0
+14758	TMHMM2.0	outside	     1   130
+# 14759 Length: 130
+# 14759 Number of predicted TMHs:  0
+14759	TMHMM2.0	outside	     1   130
+# 14760 Length: 130
+# 14760 Number of predicted TMHs:  0
+14760	TMHMM2.0	outside	     1   130
+# 14761 Length: 130
+# 14761 Number of predicted TMHs:  0
+14761	TMHMM2.0	outside	     1   130
+# 14762 Length: 130
+# 14762 Number of predicted TMHs:  0
+14762	TMHMM2.0	outside	     1   130
+# 14763 Length: 130
+# 14763 Number of predicted TMHs:  0
+14763	TMHMM2.0	outside	     1   130
+# 14764 Length: 130
+# 14764 Number of predicted TMHs:  2
+14764	TMHMM2.0	inside	     1    26
+14764	TMHMM2.0	TMhelix	    27    44
+14764	TMHMM2.0	outside	    45    74
+14764	TMHMM2.0	TMhelix	    75    97
+14764	TMHMM2.0	inside	    98   130
+# 14765 Length: 130
+# 14765 Number of predicted TMHs:  1
+14765	TMHMM2.0	outside	     1    71
+14765	TMHMM2.0	TMhelix	    72    94
+14765	TMHMM2.0	inside	    95   130
+# 14766 Length: 130
+# 14766 Number of predicted TMHs:  1
+14766	TMHMM2.0	outside	     1    28
+14766	TMHMM2.0	TMhelix	    29    51
+14766	TMHMM2.0	inside	    52   130
+# 14767 Length: 130
+# 14767 Number of predicted TMHs:  0
+14767	TMHMM2.0	outside	     1   130
+# 14768 Length: 130
+# 14768 Number of predicted TMHs:  0
+14768	TMHMM2.0	outside	     1   130
+# 14769 Length: 130
+# 14769 Number of predicted TMHs:  0
+14769	TMHMM2.0	inside	     1   130
+# 14770 Length: 130
+# 14770 Number of predicted TMHs:  0
+14770	TMHMM2.0	outside	     1   130
+# 14771 Length: 130
+# 14771 Number of predicted TMHs:  0
+14771	TMHMM2.0	outside	     1   130
+# 14772 Length: 130
+# 14772 Number of predicted TMHs:  0
+14772	TMHMM2.0	outside	     1   130
+# 14773 Length: 130
+# 14773 Number of predicted TMHs:  0
+14773	TMHMM2.0	outside	     1   130
+# 14774 Length: 130
+# 14774 Number of predicted TMHs:  0
+14774	TMHMM2.0	outside	     1   130
+# 14775 Length: 130
+# 14775 Number of predicted TMHs:  0
+14775	TMHMM2.0	outside	     1   130
+# 14776 Length: 130
+# 14776 Number of predicted TMHs:  0
+14776	TMHMM2.0	outside	     1   130
+# 14777 Length: 130
+# 14777 Number of predicted TMHs:  0
+14777	TMHMM2.0	outside	     1   130
+# 14778 Length: 130
+# 14778 Number of predicted TMHs:  0
+14778	TMHMM2.0	outside	     1   130
+# 14779 Length: 130
+# 14779 Number of predicted TMHs:  1
+14779	TMHMM2.0	outside	     1    21
+14779	TMHMM2.0	TMhelix	    22    44
+14779	TMHMM2.0	inside	    45   130
+# 14780 Length: 130
+# 14780 Number of predicted TMHs:  0
+14780	TMHMM2.0	inside	     1   130
+# 14781 Length: 130
+# 14781 Number of predicted TMHs:  0
+14781	TMHMM2.0	outside	     1   130
+# 14782 Length: 130
+# 14782 Number of predicted TMHs:  0
+14782	TMHMM2.0	outside	     1   130
+# 14783 Length: 130
+# 14783 Number of predicted TMHs:  0
+14783	TMHMM2.0	outside	     1   130
+# 14784 Length: 130
+# 14784 Number of predicted TMHs:  0
+14784	TMHMM2.0	outside	     1   130
+# 14785 Length: 130
+# 14785 Number of predicted TMHs:  0
+14785	TMHMM2.0	outside	     1   130
+# 14786 Length: 130
+# 14786 Number of predicted TMHs:  0
+14786	TMHMM2.0	outside	     1   130
+# 14787 Length: 130
+# 14787 Number of predicted TMHs:  1
+14787	TMHMM2.0	outside	     1    19
+14787	TMHMM2.0	TMhelix	    20    42
+14787	TMHMM2.0	inside	    43   130
+# 14788 Length: 130
+# 14788 Number of predicted TMHs:  0
+14788	TMHMM2.0	outside	     1   130
+# 14789 Length: 130
+# 14789 Number of predicted TMHs:  0
+14789	TMHMM2.0	outside	     1   130
+# 14790 Length: 130
+# 14790 Number of predicted TMHs:  0
+14790	TMHMM2.0	outside	     1   130
+# 14791 Length: 130
+# 14791 Number of predicted TMHs:  0
+14791	TMHMM2.0	outside	     1   130
+# 14792 Length: 130
+# 14792 Number of predicted TMHs:  2
+14792	TMHMM2.0	inside	     1    37
+14792	TMHMM2.0	TMhelix	    38    60
+14792	TMHMM2.0	outside	    61    93
+14792	TMHMM2.0	TMhelix	    94   111
+14792	TMHMM2.0	inside	   112   130
+# 14793 Length: 130
+# 14793 Number of predicted TMHs:  1
+14793	TMHMM2.0	outside	     1    14
+14793	TMHMM2.0	TMhelix	    15    37
+14793	TMHMM2.0	inside	    38   130
+# 14794 Length: 130
+# 14794 Number of predicted TMHs:  0
+14794	TMHMM2.0	outside	     1   130
+# 14795 Length: 130
+# 14795 Number of predicted TMHs:  1
+14795	TMHMM2.0	outside	     1     4
+14795	TMHMM2.0	TMhelix	     5    27
+14795	TMHMM2.0	inside	    28   130
+# 14796 Length: 130
+# 14796 Number of predicted TMHs:  0
+14796	TMHMM2.0	outside	     1   130
+# 14797 Length: 130
+# 14797 Number of predicted TMHs:  0
+14797	TMHMM2.0	outside	     1   130
+# 14798 Length: 130
+# 14798 Number of predicted TMHs:  0
+14798	TMHMM2.0	outside	     1   130
+# 14799 Length: 130
+# 14799 Number of predicted TMHs:  3
+14799	TMHMM2.0	outside	     1    19
+14799	TMHMM2.0	TMhelix	    20    39
+14799	TMHMM2.0	inside	    40    51
+14799	TMHMM2.0	TMhelix	    52    71
+14799	TMHMM2.0	outside	    72    90
+14799	TMHMM2.0	TMhelix	    91   113
+14799	TMHMM2.0	inside	   114   130
+# 14800 Length: 130
+# 14800 Number of predicted TMHs:  0
+14800	TMHMM2.0	outside	     1   130
+# 14801 Length: 130
+# 14801 Number of predicted TMHs:  0
+14801	TMHMM2.0	outside	     1   130
+# 14802 Length: 130
+# 14802 Number of predicted TMHs:  0
+14802	TMHMM2.0	inside	     1   130
+# 14803 Length: 130
+# 14803 Number of predicted TMHs:  0
+14803	TMHMM2.0	outside	     1   130
+# 14804 Length: 130
+# 14804 Number of predicted TMHs:  0
+14804	TMHMM2.0	outside	     1   130
+# 14805 Length: 130
+# 14805 Number of predicted TMHs:  0
+14805	TMHMM2.0	outside	     1   130
+# 14806 Length: 130
+# 14806 Number of predicted TMHs:  0
+14806	TMHMM2.0	outside	     1   130
+# 14807 Length: 130
+# 14807 Number of predicted TMHs:  0
+14807	TMHMM2.0	outside	     1   130
+# 14808 Length: 130
+# 14808 Number of predicted TMHs:  0
+14808	TMHMM2.0	outside	     1   130
+# 14809 Length: 130
+# 14809 Number of predicted TMHs:  0
+14809	TMHMM2.0	outside	     1   130
+# 14810 Length: 130
+# 14810 Number of predicted TMHs:  0
+14810	TMHMM2.0	outside	     1   130
+# 14811 Length: 130
+# 14811 Number of predicted TMHs:  0
+14811	TMHMM2.0	outside	     1   130
+# 14812 Length: 130
+# 14812 Number of predicted TMHs:  0
+14812	TMHMM2.0	outside	     1   130
+# 14813 Length: 130
+# 14813 Number of predicted TMHs:  0
+14813	TMHMM2.0	inside	     1   130
+# 14814 Length: 130
+# 14814 Number of predicted TMHs:  0
+14814	TMHMM2.0	outside	     1   130
+# 14815 Length: 130
+# 14815 Number of predicted TMHs:  0
+14815	TMHMM2.0	outside	     1   130
+# 14816 Length: 130
+# 14816 Number of predicted TMHs:  0
+14816	TMHMM2.0	outside	     1   130
+# 14817 Length: 130
+# 14817 Number of predicted TMHs:  0
+14817	TMHMM2.0	outside	     1   130
+# 14818 Length: 130
+# 14818 Number of predicted TMHs:  0
+14818	TMHMM2.0	outside	     1   130
+# 14819 Length: 130
+# 14819 Number of predicted TMHs:  0
+14819	TMHMM2.0	outside	     1   130
+# 14820 Length: 130
+# 14820 Number of predicted TMHs:  0
+14820	TMHMM2.0	outside	     1   130
+# 14821 Length: 130
+# 14821 Number of predicted TMHs:  0
+14821	TMHMM2.0	outside	     1   130
+# 14822 Length: 130
+# 14822 Number of predicted TMHs:  0
+14822	TMHMM2.0	outside	     1   130
+# 14823 Length: 130
+# 14823 Number of predicted TMHs:  0
+14823	TMHMM2.0	outside	     1   130
+# 14824 Length: 130
+# 14824 Number of predicted TMHs:  0
+14824	TMHMM2.0	outside	     1   130
+# 14825 Length: 130
+# 14825 Number of predicted TMHs:  0
+14825	TMHMM2.0	outside	     1   130
+# 14826 Length: 130
+# 14826 Number of predicted TMHs:  0
+14826	TMHMM2.0	outside	     1   130
+# 14827 Length: 130
+# 14827 Number of predicted TMHs:  0
+14827	TMHMM2.0	outside	     1   130
+# 14828 Length: 130
+# 14828 Number of predicted TMHs:  1
+14828	TMHMM2.0	outside	     1    27
+14828	TMHMM2.0	TMhelix	    28    50
+14828	TMHMM2.0	inside	    51   130
+# 14829 Length: 130
+# 14829 Number of predicted TMHs:  0
+14829	TMHMM2.0	outside	     1   130
+# 14830 Length: 130
+# 14830 Number of predicted TMHs:  0
+14830	TMHMM2.0	outside	     1   130
+# 14831 Length: 130
+# 14831 Number of predicted TMHs:  0
+14831	TMHMM2.0	outside	     1   130
+# 14832 Length: 130
+# 14832 Number of predicted TMHs:  0
+14832	TMHMM2.0	outside	     1   130
+# 14833 Length: 130
+# 14833 Number of predicted TMHs:  0
+14833	TMHMM2.0	outside	     1   130
+# 14834 Length: 130
+# 14834 Number of predicted TMHs:  0
+14834	TMHMM2.0	outside	     1   130
+# 14835 Length: 130
+# 14835 Number of predicted TMHs:  0
+14835	TMHMM2.0	outside	     1   130
+# 14836 Length: 130
+# 14836 Number of predicted TMHs:  0
+14836	TMHMM2.0	outside	     1   130
+# 14837 Length: 130
+# 14837 Number of predicted TMHs:  0
+14837	TMHMM2.0	outside	     1   130
+# 14838 Length: 130
+# 14838 Number of predicted TMHs:  1
+14838	TMHMM2.0	inside	     1     1
+14838	TMHMM2.0	TMhelix	     2    24
+14838	TMHMM2.0	outside	    25   130
+# 14839 Length: 130
+# 14839 Number of predicted TMHs:  0
+14839	TMHMM2.0	outside	     1   130
+# 14840 Length: 130
+# 14840 Number of predicted TMHs:  0
+14840	TMHMM2.0	outside	     1   130
+# 14841 Length: 130
+# 14841 Number of predicted TMHs:  0
+14841	TMHMM2.0	outside	     1   130
+# 14842 Length: 130
+# 14842 Number of predicted TMHs:  0
+14842	TMHMM2.0	outside	     1   130
+# 14843 Length: 130
+# 14843 Number of predicted TMHs:  0
+14843	TMHMM2.0	outside	     1   130
+# 14844 Length: 130
+# 14844 Number of predicted TMHs:  0
+14844	TMHMM2.0	inside	     1   130
+# 14845 Length: 130
+# 14845 Number of predicted TMHs:  0
+14845	TMHMM2.0	outside	     1   130
+# 14846 Length: 130
+# 14846 Number of predicted TMHs:  1
+14846	TMHMM2.0	outside	     1    73
+14846	TMHMM2.0	TMhelix	    74    96
+14846	TMHMM2.0	inside	    97   130
+# 14847 Length: 130
+# 14847 Number of predicted TMHs:  0
+14847	TMHMM2.0	outside	     1   130
+# 14848 Length: 130
+# 14848 Number of predicted TMHs:  0
+14848	TMHMM2.0	outside	     1   130
+# 14849 Length: 130
+# 14849 Number of predicted TMHs:  0
+14849	TMHMM2.0	outside	     1   130
+# 14850 Length: 130
+# 14850 Number of predicted TMHs:  0
+14850	TMHMM2.0	outside	     1   130
+# 14851 Length: 130
+# 14851 Number of predicted TMHs:  0
+14851	TMHMM2.0	inside	     1   130
+# 14852 Length: 130
+# 14852 Number of predicted TMHs:  0
+14852	TMHMM2.0	outside	     1   130
+# 14853 Length: 130
+# 14853 Number of predicted TMHs:  0
+14853	TMHMM2.0	outside	     1   130
+# 14854 Length: 130
+# 14854 Number of predicted TMHs:  0
+14854	TMHMM2.0	outside	     1   130
+# 14855 Length: 130
+# 14855 Number of predicted TMHs:  0
+14855	TMHMM2.0	inside	     1   130
+# 14856 Length: 130
+# 14856 Number of predicted TMHs:  0
+14856	TMHMM2.0	inside	     1   130
+# 14857 Length: 130
+# 14857 Number of predicted TMHs:  0
+14857	TMHMM2.0	outside	     1   130
+# 14858 Length: 130
+# 14858 Number of predicted TMHs:  0
+14858	TMHMM2.0	outside	     1   130
+# 14859 Length: 130
+# 14859 Number of predicted TMHs:  0
+14859	TMHMM2.0	outside	     1   130
+# 14860 Length: 130
+# 14860 Number of predicted TMHs:  0
+14860	TMHMM2.0	outside	     1   130
+# 14861 Length: 130
+# 14861 Number of predicted TMHs:  0
+14861	TMHMM2.0	outside	     1   130
+# 14862 Length: 130
+# 14862 Number of predicted TMHs:  0
+14862	TMHMM2.0	outside	     1   130
+# 14863 Length: 130
+# 14863 Number of predicted TMHs:  1
+14863	TMHMM2.0	outside	     1    60
+14863	TMHMM2.0	TMhelix	    61    83
+14863	TMHMM2.0	inside	    84   130
+# 14864 Length: 130
+# 14864 Number of predicted TMHs:  0
+14864	TMHMM2.0	outside	     1   130
+# 14865 Length: 129
+# 14865 Number of predicted TMHs:  0
+14865	TMHMM2.0	outside	     1   129
+# 14866 Length: 129
+# 14866 Number of predicted TMHs:  0
+14866	TMHMM2.0	outside	     1   129
+# 14867 Length: 129
+# 14867 Number of predicted TMHs:  0
+14867	TMHMM2.0	outside	     1   129
+# 14868 Length: 129
+# 14868 Number of predicted TMHs:  0
+14868	TMHMM2.0	outside	     1   129
+# 14869 Length: 129
+# 14869 Number of predicted TMHs:  0
+14869	TMHMM2.0	outside	     1   129
+# 14870 Length: 129
+# 14870 Number of predicted TMHs:  0
+14870	TMHMM2.0	outside	     1   129
+# 14871 Length: 129
+# 14871 Number of predicted TMHs:  0
+14871	TMHMM2.0	outside	     1   129
+# 14872 Length: 129
+# 14872 Number of predicted TMHs:  0
+14872	TMHMM2.0	outside	     1   129
+# 14873 Length: 129
+# 14873 Number of predicted TMHs:  0
+14873	TMHMM2.0	outside	     1   129
+# 14874 Length: 129
+# 14874 Number of predicted TMHs:  0
+14874	TMHMM2.0	outside	     1   129
+# 14875 Length: 129
+# 14875 Number of predicted TMHs:  0
+14875	TMHMM2.0	outside	     1   129
+# 14876 Length: 129
+# 14876 Number of predicted TMHs:  0
+14876	TMHMM2.0	outside	     1   129
+# 14877 Length: 129
+# 14877 Number of predicted TMHs:  0
+14877	TMHMM2.0	outside	     1   129
+# 14878 Length: 129
+# 14878 Number of predicted TMHs:  0
+14878	TMHMM2.0	outside	     1   129
+# 14879 Length: 129
+# 14879 Number of predicted TMHs:  0
+14879	TMHMM2.0	outside	     1   129
+# 14880 Length: 129
+# 14880 Number of predicted TMHs:  1
+14880	TMHMM2.0	inside	     1    46
+14880	TMHMM2.0	TMhelix	    47    69
+14880	TMHMM2.0	outside	    70   129
+# 14881 Length: 129
+# 14881 Number of predicted TMHs:  0
+14881	TMHMM2.0	outside	     1   129
+# 14882 Length: 129
+# 14882 Number of predicted TMHs:  0
+14882	TMHMM2.0	outside	     1   129
+# 14883 Length: 129
+# 14883 Number of predicted TMHs:  0
+14883	TMHMM2.0	outside	     1   129
+# 14884 Length: 129
+# 14884 Number of predicted TMHs:  1
+14884	TMHMM2.0	inside	     1    12
+14884	TMHMM2.0	TMhelix	    13    35
+14884	TMHMM2.0	outside	    36   129
+# 14885 Length: 129
+# 14885 Number of predicted TMHs:  0
+14885	TMHMM2.0	outside	     1   129
+# 14886 Length: 129
+# 14886 Number of predicted TMHs:  0
+14886	TMHMM2.0	outside	     1   129
+# 14887 Length: 129
+# 14887 Number of predicted TMHs:  0
+14887	TMHMM2.0	outside	     1   129
+# 14888 Length: 129
+# 14888 Number of predicted TMHs:  0
+14888	TMHMM2.0	outside	     1   129
+# 14889 Length: 129
+# 14889 Number of predicted TMHs:  0
+14889	TMHMM2.0	outside	     1   129
+# 14890 Length: 129
+# 14890 Number of predicted TMHs:  0
+14890	TMHMM2.0	inside	     1   129
+# 14891 Length: 129
+# 14891 Number of predicted TMHs:  0
+14891	TMHMM2.0	outside	     1   129
+# 14892 Length: 129
+# 14892 Number of predicted TMHs:  0
+14892	TMHMM2.0	outside	     1   129
+# 14893 Length: 129
+# 14893 Number of predicted TMHs:  0
+14893	TMHMM2.0	outside	     1   129
+# 14894 Length: 129
+# 14894 Number of predicted TMHs:  0
+14894	TMHMM2.0	outside	     1   129
+# 14895 Length: 129
+# 14895 Number of predicted TMHs:  0
+14895	TMHMM2.0	outside	     1   129
+# 14896 Length: 129
+# 14896 Number of predicted TMHs:  0
+14896	TMHMM2.0	outside	     1   129
+# 14897 Length: 129
+# 14897 Number of predicted TMHs:  0
+14897	TMHMM2.0	outside	     1   129
+# 14898 Length: 129
+# 14898 Number of predicted TMHs:  0
+14898	TMHMM2.0	outside	     1   129
+# 14899 Length: 129
+# 14899 Number of predicted TMHs:  2
+14899	TMHMM2.0	outside	     1    39
+14899	TMHMM2.0	TMhelix	    40    59
+14899	TMHMM2.0	inside	    60    70
+14899	TMHMM2.0	TMhelix	    71    93
+14899	TMHMM2.0	outside	    94   129
+# 14900 Length: 129
+# 14900 Number of predicted TMHs:  3
+14900	TMHMM2.0	inside	     1    11
+14900	TMHMM2.0	TMhelix	    12    34
+14900	TMHMM2.0	outside	    35    48
+14900	TMHMM2.0	TMhelix	    49    71
+14900	TMHMM2.0	inside	    72    90
+14900	TMHMM2.0	TMhelix	    91   113
+14900	TMHMM2.0	outside	   114   129
+# 14901 Length: 129
+# 14901 Number of predicted TMHs:  0
+14901	TMHMM2.0	outside	     1   129
+# 14902 Length: 129
+# 14902 Number of predicted TMHs:  0
+14902	TMHMM2.0	outside	     1   129
+# 14903 Length: 129
+# 14903 Number of predicted TMHs:  0
+14903	TMHMM2.0	outside	     1   129
+# 14904 Length: 129
+# 14904 Number of predicted TMHs:  0
+14904	TMHMM2.0	outside	     1   129
+# 14905 Length: 129
+# 14905 Number of predicted TMHs:  0
+14905	TMHMM2.0	outside	     1   129
+# 14906 Length: 129
+# 14906 Number of predicted TMHs:  0
+14906	TMHMM2.0	outside	     1   129
+# 14907 Length: 129
+# 14907 Number of predicted TMHs:  0
+14907	TMHMM2.0	outside	     1   129
+# 14908 Length: 129
+# 14908 Number of predicted TMHs:  0
+14908	TMHMM2.0	outside	     1   129
+# 14909 Length: 129
+# 14909 Number of predicted TMHs:  0
+14909	TMHMM2.0	outside	     1   129
+# 14910 Length: 129
+# 14910 Number of predicted TMHs:  2
+14910	TMHMM2.0	inside	     1    66
+14910	TMHMM2.0	TMhelix	    67    84
+14910	TMHMM2.0	outside	    85   103
+14910	TMHMM2.0	TMhelix	   104   126
+14910	TMHMM2.0	inside	   127   129
+# 14911 Length: 129
+# 14911 Number of predicted TMHs:  0
+14911	TMHMM2.0	outside	     1   129
+# 14912 Length: 129
+# 14912 Number of predicted TMHs:  0
+14912	TMHMM2.0	outside	     1   129
+# 14913 Length: 129
+# 14913 Number of predicted TMHs:  0
+14913	TMHMM2.0	outside	     1   129
+# 14914 Length: 129
+# 14914 Number of predicted TMHs:  0
+14914	TMHMM2.0	outside	     1   129
+# 14915 Length: 129
+# 14915 Number of predicted TMHs:  0
+14915	TMHMM2.0	inside	     1   129
+# 14916 Length: 129
+# 14916 Number of predicted TMHs:  0
+14916	TMHMM2.0	outside	     1   129
+# 14917 Length: 129
+# 14917 Number of predicted TMHs:  0
+14917	TMHMM2.0	outside	     1   129
+# 14918 Length: 129
+# 14918 Number of predicted TMHs:  0
+14918	TMHMM2.0	outside	     1   129
+# 14919 Length: 129
+# 14919 Number of predicted TMHs:  1
+14919	TMHMM2.0	outside	     1    19
+14919	TMHMM2.0	TMhelix	    20    38
+14919	TMHMM2.0	inside	    39   129
+# 14920 Length: 129
+# 14920 Number of predicted TMHs:  0
+14920	TMHMM2.0	outside	     1   129
+# 14921 Length: 129
+# 14921 Number of predicted TMHs:  0
+14921	TMHMM2.0	outside	     1   129
+# 14922 Length: 129
+# 14922 Number of predicted TMHs:  0
+14922	TMHMM2.0	outside	     1   129
+# 14923 Length: 129
+# 14923 Number of predicted TMHs:  0
+14923	TMHMM2.0	outside	     1   129
+# 14924 Length: 129
+# 14924 Number of predicted TMHs:  3
+14924	TMHMM2.0	inside	     1     4
+14924	TMHMM2.0	TMhelix	     5    22
+14924	TMHMM2.0	outside	    23    27
+14924	TMHMM2.0	TMhelix	    28    50
+14924	TMHMM2.0	inside	    51    62
+14924	TMHMM2.0	TMhelix	    63    85
+14924	TMHMM2.0	outside	    86   129
+# 14925 Length: 129
+# 14925 Number of predicted TMHs:  0
+14925	TMHMM2.0	outside	     1   129
+# 14926 Length: 129
+# 14926 Number of predicted TMHs:  0
+14926	TMHMM2.0	outside	     1   129
+# 14927 Length: 129
+# 14927 Number of predicted TMHs:  0
+14927	TMHMM2.0	outside	     1   129
+# 14928 Length: 129
+# 14928 Number of predicted TMHs:  0
+14928	TMHMM2.0	outside	     1   129
+# 14929 Length: 129
+# 14929 Number of predicted TMHs:  0
+14929	TMHMM2.0	outside	     1   129
+# 14930 Length: 129
+# 14930 Number of predicted TMHs:  0
+14930	TMHMM2.0	outside	     1   129
+# 14931 Length: 129
+# 14931 Number of predicted TMHs:  0
+14931	TMHMM2.0	outside	     1   129
+# 14932 Length: 129
+# 14932 Number of predicted TMHs:  1
+14932	TMHMM2.0	outside	     1    19
+14932	TMHMM2.0	TMhelix	    20    42
+14932	TMHMM2.0	inside	    43   129
+# 14933 Length: 129
+# 14933 Number of predicted TMHs:  0
+14933	TMHMM2.0	outside	     1   129
+# 14934 Length: 129
+# 14934 Number of predicted TMHs:  0
+14934	TMHMM2.0	outside	     1   129
+# 14935 Length: 129
+# 14935 Number of predicted TMHs:  0
+14935	TMHMM2.0	outside	     1   129
+# 14936 Length: 129
+# 14936 Number of predicted TMHs:  1
+14936	TMHMM2.0	inside	     1    12
+14936	TMHMM2.0	TMhelix	    13    32
+14936	TMHMM2.0	outside	    33   129
+# 14937 Length: 129
+# 14937 Number of predicted TMHs:  0
+14937	TMHMM2.0	inside	     1   129
+# 14938 Length: 129
+# 14938 Number of predicted TMHs:  1
+14938	TMHMM2.0	outside	     1    23
+14938	TMHMM2.0	TMhelix	    24    46
+14938	TMHMM2.0	inside	    47   129
+# 14939 Length: 129
+# 14939 Number of predicted TMHs:  0
+14939	TMHMM2.0	outside	     1   129
+# 14940 Length: 129
+# 14940 Number of predicted TMHs:  0
+14940	TMHMM2.0	outside	     1   129
+# 14941 Length: 129
+# 14941 Number of predicted TMHs:  0
+14941	TMHMM2.0	inside	     1   129
+# 14942 Length: 129
+# 14942 Number of predicted TMHs:  0
+14942	TMHMM2.0	outside	     1   129
+# 14943 Length: 129
+# 14943 Number of predicted TMHs:  0
+14943	TMHMM2.0	outside	     1   129
+# 14944 Length: 129
+# 14944 Number of predicted TMHs:  0
+14944	TMHMM2.0	outside	     1   129
+# 14945 Length: 129
+# 14945 Number of predicted TMHs:  1
+14945	TMHMM2.0	inside	     1    12
+14945	TMHMM2.0	TMhelix	    13    35
+14945	TMHMM2.0	outside	    36   129
+# 14946 Length: 129
+# 14946 Number of predicted TMHs:  0
+14946	TMHMM2.0	outside	     1   129
+# 14947 Length: 129
+# 14947 Number of predicted TMHs:  0
+14947	TMHMM2.0	outside	     1   129
+# 14948 Length: 129
+# 14948 Number of predicted TMHs:  0
+14948	TMHMM2.0	outside	     1   129
+# 14949 Length: 129
+# 14949 Number of predicted TMHs:  0
+14949	TMHMM2.0	inside	     1   129
+# 14950 Length: 129
+# 14950 Number of predicted TMHs:  0
+14950	TMHMM2.0	outside	     1   129
+# 14951 Length: 129
+# 14951 Number of predicted TMHs:  0
+14951	TMHMM2.0	outside	     1   129
+# 14952 Length: 129
+# 14952 Number of predicted TMHs:  0
+14952	TMHMM2.0	outside	     1   129
+# 14953 Length: 129
+# 14953 Number of predicted TMHs:  0
+14953	TMHMM2.0	outside	     1   129
+# 14954 Length: 129
+# 14954 Number of predicted TMHs:  0
+14954	TMHMM2.0	outside	     1   129
+# 14955 Length: 129
+# 14955 Number of predicted TMHs:  1
+14955	TMHMM2.0	inside	     1    96
+14955	TMHMM2.0	TMhelix	    97   119
+14955	TMHMM2.0	outside	   120   129
+# 14956 Length: 129
+# 14956 Number of predicted TMHs:  0
+14956	TMHMM2.0	outside	     1   129
+# 14957 Length: 129
+# 14957 Number of predicted TMHs:  0
+14957	TMHMM2.0	outside	     1   129
+# 14958 Length: 129
+# 14958 Number of predicted TMHs:  0
+14958	TMHMM2.0	outside	     1   129
+# 14959 Length: 129
+# 14959 Number of predicted TMHs:  0
+14959	TMHMM2.0	outside	     1   129
+# 14960 Length: 129
+# 14960 Number of predicted TMHs:  0
+14960	TMHMM2.0	outside	     1   129
+# 14961 Length: 129
+# 14961 Number of predicted TMHs:  0
+14961	TMHMM2.0	outside	     1   129
+# 14962 Length: 129
+# 14962 Number of predicted TMHs:  0
+14962	TMHMM2.0	outside	     1   129
+# 14963 Length: 129
+# 14963 Number of predicted TMHs:  0
+14963	TMHMM2.0	outside	     1   129
+# 14964 Length: 128
+# 14964 Number of predicted TMHs:  0
+14964	TMHMM2.0	outside	     1   128
+# 14965 Length: 128
+# 14965 Number of predicted TMHs:  1
+14965	TMHMM2.0	inside	     1    42
+14965	TMHMM2.0	TMhelix	    43    65
+14965	TMHMM2.0	outside	    66   128
+# 14966 Length: 128
+# 14966 Number of predicted TMHs:  0
+14966	TMHMM2.0	outside	     1   128
+# 14967 Length: 128
+# 14967 Number of predicted TMHs:  0
+14967	TMHMM2.0	outside	     1   128
+# 14968 Length: 128
+# 14968 Number of predicted TMHs:  0
+14968	TMHMM2.0	outside	     1   128
+# 14969 Length: 128
+# 14969 Number of predicted TMHs:  0
+14969	TMHMM2.0	inside	     1   128
+# 14970 Length: 128
+# 14970 Number of predicted TMHs:  0
+14970	TMHMM2.0	outside	     1   128
+# 14971 Length: 128
+# 14971 Number of predicted TMHs:  0
+14971	TMHMM2.0	outside	     1   128
+# 14972 Length: 128
+# 14972 Number of predicted TMHs:  0
+14972	TMHMM2.0	outside	     1   128
+# 14973 Length: 128
+# 14973 Number of predicted TMHs:  0
+14973	TMHMM2.0	outside	     1   128
+# 14974 Length: 128
+# 14974 Number of predicted TMHs:  0
+14974	TMHMM2.0	outside	     1   128
+# 14975 Length: 128
+# 14975 Number of predicted TMHs:  0
+14975	TMHMM2.0	outside	     1   128
+# 14976 Length: 128
+# 14976 Number of predicted TMHs:  0
+14976	TMHMM2.0	outside	     1   128
+# 14977 Length: 128
+# 14977 Number of predicted TMHs:  0
+14977	TMHMM2.0	outside	     1   128
+# 14978 Length: 128
+# 14978 Number of predicted TMHs:  0
+14978	TMHMM2.0	outside	     1   128
+# 14979 Length: 128
+# 14979 Number of predicted TMHs:  0
+14979	TMHMM2.0	outside	     1   128
+# 14980 Length: 128
+# 14980 Number of predicted TMHs:  0
+14980	TMHMM2.0	outside	     1   128
+# 14981 Length: 128
+# 14981 Number of predicted TMHs:  0
+14981	TMHMM2.0	outside	     1   128
+# 14982 Length: 128
+# 14982 Number of predicted TMHs:  0
+14982	TMHMM2.0	outside	     1   128
+# 14983 Length: 128
+# 14983 Number of predicted TMHs:  0
+14983	TMHMM2.0	outside	     1   128
+# 14984 Length: 128
+# 14984 Number of predicted TMHs:  0
+14984	TMHMM2.0	outside	     1   128
+# 14985 Length: 128
+# 14985 Number of predicted TMHs:  0
+14985	TMHMM2.0	outside	     1   128
+# 14986 Length: 128
+# 14986 Number of predicted TMHs:  0
+14986	TMHMM2.0	outside	     1   128
+# 14987 Length: 128
+# 14987 Number of predicted TMHs:  0
+14987	TMHMM2.0	outside	     1   128
+# 14988 Length: 128
+# 14988 Number of predicted TMHs:  0
+14988	TMHMM2.0	outside	     1   128
+# 14989 Length: 128
+# 14989 Number of predicted TMHs:  3
+14989	TMHMM2.0	outside	     1     3
+14989	TMHMM2.0	TMhelix	     4    26
+14989	TMHMM2.0	inside	    27    32
+14989	TMHMM2.0	TMhelix	    33    55
+14989	TMHMM2.0	outside	    56    64
+14989	TMHMM2.0	TMhelix	    65    87
+14989	TMHMM2.0	inside	    88   128
+# 14990 Length: 128
+# 14990 Number of predicted TMHs:  0
+14990	TMHMM2.0	inside	     1   128
+# 14991 Length: 128
+# 14991 Number of predicted TMHs:  0
+14991	TMHMM2.0	outside	     1   128
+# 14992 Length: 128
+# 14992 Number of predicted TMHs:  1
+14992	TMHMM2.0	outside	     1    14
+14992	TMHMM2.0	TMhelix	    15    37
+14992	TMHMM2.0	inside	    38   128
+# 14993 Length: 128
+# 14993 Number of predicted TMHs:  0
+14993	TMHMM2.0	outside	     1   128
+# 14994 Length: 128
+# 14994 Number of predicted TMHs:  1
+14994	TMHMM2.0	outside	     1    79
+14994	TMHMM2.0	TMhelix	    80   102
+14994	TMHMM2.0	inside	   103   128
+# 14995 Length: 128
+# 14995 Number of predicted TMHs:  1
+14995	TMHMM2.0	inside	     1    53
+14995	TMHMM2.0	TMhelix	    54    71
+14995	TMHMM2.0	outside	    72   128
+# 14996 Length: 128
+# 14996 Number of predicted TMHs:  0
+14996	TMHMM2.0	inside	     1   128
+# 14997 Length: 128
+# 14997 Number of predicted TMHs:  0
+14997	TMHMM2.0	inside	     1   128
+# 14998 Length: 128
+# 14998 Number of predicted TMHs:  0
+14998	TMHMM2.0	outside	     1   128
+# 14999 Length: 128
+# 14999 Number of predicted TMHs:  0
+14999	TMHMM2.0	outside	     1   128
+# 15000 Length: 128
+# 15000 Number of predicted TMHs:  2
+15000	TMHMM2.0	outside	     1     3
+15000	TMHMM2.0	TMhelix	     4    18
+15000	TMHMM2.0	inside	    19    85
+15000	TMHMM2.0	TMhelix	    86   108
+15000	TMHMM2.0	outside	   109   128
+# 15001 Length: 128
+# 15001 Number of predicted TMHs:  0
+15001	TMHMM2.0	outside	     1   128
+# 15002 Length: 128
+# 15002 Number of predicted TMHs:  0
+15002	TMHMM2.0	outside	     1   128
+# 15003 Length: 128
+# 15003 Number of predicted TMHs:  0
+15003	TMHMM2.0	outside	     1   128
+# 15004 Length: 128
+# 15004 Number of predicted TMHs:  2
+15004	TMHMM2.0	outside	     1    48
+15004	TMHMM2.0	TMhelix	    49    71
+15004	TMHMM2.0	inside	    72    83
+15004	TMHMM2.0	TMhelix	    84   106
+15004	TMHMM2.0	outside	   107   128
+# 15005 Length: 128
+# 15005 Number of predicted TMHs:  0
+15005	TMHMM2.0	outside	     1   128
+# 15006 Length: 128
+# 15006 Number of predicted TMHs:  0
+15006	TMHMM2.0	outside	     1   128
+# 15007 Length: 128
+# 15007 Number of predicted TMHs:  1
+15007	TMHMM2.0	inside	     1   103
+15007	TMHMM2.0	TMhelix	   104   126
+15007	TMHMM2.0	outside	   127   128
+# 15008 Length: 128
+# 15008 Number of predicted TMHs:  0
+15008	TMHMM2.0	outside	     1   128
+# 15009 Length: 128
+# 15009 Number of predicted TMHs:  0
+15009	TMHMM2.0	outside	     1   128
+# 15010 Length: 128
+# 15010 Number of predicted TMHs:  0
+15010	TMHMM2.0	outside	     1   128
+# 15011 Length: 128
+# 15011 Number of predicted TMHs:  0
+15011	TMHMM2.0	outside	     1   128
+# 15012 Length: 128
+# 15012 Number of predicted TMHs:  0
+15012	TMHMM2.0	outside	     1   128
+# 15013 Length: 128
+# 15013 Number of predicted TMHs:  0
+15013	TMHMM2.0	outside	     1   128
+# 15014 Length: 128
+# 15014 Number of predicted TMHs:  0
+15014	TMHMM2.0	outside	     1   128
+# 15015 Length: 128
+# 15015 Number of predicted TMHs:  0
+15015	TMHMM2.0	outside	     1   128
+# 15016 Length: 128
+# 15016 Number of predicted TMHs:  0
+15016	TMHMM2.0	outside	     1   128
+# 15017 Length: 128
+# 15017 Number of predicted TMHs:  0
+15017	TMHMM2.0	outside	     1   128
+# 15018 Length: 128
+# 15018 Number of predicted TMHs:  0
+15018	TMHMM2.0	outside	     1   128
+# 15019 Length: 128
+# 15019 Number of predicted TMHs:  0
+15019	TMHMM2.0	outside	     1   128
+# 15020 Length: 128
+# 15020 Number of predicted TMHs:  0
+15020	TMHMM2.0	outside	     1   128
+# 15021 Length: 128
+# 15021 Number of predicted TMHs:  0
+15021	TMHMM2.0	outside	     1   128
+# 15022 Length: 128
+# 15022 Number of predicted TMHs:  1
+15022	TMHMM2.0	outside	     1    14
+15022	TMHMM2.0	TMhelix	    15    37
+15022	TMHMM2.0	inside	    38   128
+# 15023 Length: 128
+# 15023 Number of predicted TMHs:  0
+15023	TMHMM2.0	outside	     1   128
+# 15024 Length: 128
+# 15024 Number of predicted TMHs:  0
+15024	TMHMM2.0	outside	     1   128
+# 15025 Length: 128
+# 15025 Number of predicted TMHs:  0
+15025	TMHMM2.0	outside	     1   128
+# 15026 Length: 128
+# 15026 Number of predicted TMHs:  0
+15026	TMHMM2.0	outside	     1   128
+# 15027 Length: 128
+# 15027 Number of predicted TMHs:  0
+15027	TMHMM2.0	outside	     1   128
+# 15028 Length: 128
+# 15028 Number of predicted TMHs:  0
+15028	TMHMM2.0	outside	     1   128
+# 15029 Length: 128
+# 15029 Number of predicted TMHs:  0
+15029	TMHMM2.0	outside	     1   128
+# 15030 Length: 128
+# 15030 Number of predicted TMHs:  2
+15030	TMHMM2.0	inside	     1    29
+15030	TMHMM2.0	TMhelix	    30    52
+15030	TMHMM2.0	outside	    53    61
+15030	TMHMM2.0	TMhelix	    62    79
+15030	TMHMM2.0	inside	    80   128
+# 15031 Length: 128
+# 15031 Number of predicted TMHs:  1
+15031	TMHMM2.0	inside	     1     6
+15031	TMHMM2.0	TMhelix	     7    26
+15031	TMHMM2.0	outside	    27   128
+# 15032 Length: 128
+# 15032 Number of predicted TMHs:  0
+15032	TMHMM2.0	outside	     1   128
+# 15033 Length: 128
+# 15033 Number of predicted TMHs:  0
+15033	TMHMM2.0	outside	     1   128
+# 15034 Length: 128
+# 15034 Number of predicted TMHs:  2
+15034	TMHMM2.0	inside	     1    11
+15034	TMHMM2.0	TMhelix	    12    34
+15034	TMHMM2.0	outside	    35    48
+15034	TMHMM2.0	TMhelix	    49    71
+15034	TMHMM2.0	inside	    72   128
+# 15035 Length: 128
+# 15035 Number of predicted TMHs:  0
+15035	TMHMM2.0	outside	     1   128
+# 15036 Length: 128
+# 15036 Number of predicted TMHs:  0
+15036	TMHMM2.0	outside	     1   128
+# 15037 Length: 128
+# 15037 Number of predicted TMHs:  0
+15037	TMHMM2.0	outside	     1   128
+# 15038 Length: 128
+# 15038 Number of predicted TMHs:  0
+15038	TMHMM2.0	outside	     1   128
+# 15039 Length: 128
+# 15039 Number of predicted TMHs:  0
+15039	TMHMM2.0	inside	     1   128
+# 15040 Length: 128
+# 15040 Number of predicted TMHs:  0
+15040	TMHMM2.0	outside	     1   128
+# 15041 Length: 128
+# 15041 Number of predicted TMHs:  0
+15041	TMHMM2.0	outside	     1   128
+# 15042 Length: 128
+# 15042 Number of predicted TMHs:  0
+15042	TMHMM2.0	outside	     1   128
+# 15043 Length: 128
+# 15043 Number of predicted TMHs:  0
+15043	TMHMM2.0	outside	     1   128
+# 15044 Length: 128
+# 15044 Number of predicted TMHs:  0
+15044	TMHMM2.0	outside	     1   128
+# 15045 Length: 128
+# 15045 Number of predicted TMHs:  0
+15045	TMHMM2.0	outside	     1   128
+# 15046 Length: 128
+# 15046 Number of predicted TMHs:  0
+15046	TMHMM2.0	outside	     1   128
+# 15047 Length: 128
+# 15047 Number of predicted TMHs:  0
+15047	TMHMM2.0	outside	     1   128
+# 15048 Length: 128
+# 15048 Number of predicted TMHs:  1
+15048	TMHMM2.0	inside	     1   106
+15048	TMHMM2.0	TMhelix	   107   126
+15048	TMHMM2.0	outside	   127   128
+# 15049 Length: 128
+# 15049 Number of predicted TMHs:  0
+15049	TMHMM2.0	outside	     1   128
+# 15050 Length: 128
+# 15050 Number of predicted TMHs:  0
+15050	TMHMM2.0	outside	     1   128
+# 15051 Length: 128
+# 15051 Number of predicted TMHs:  0
+15051	TMHMM2.0	outside	     1   128
+# 15052 Length: 128
+# 15052 Number of predicted TMHs:  0
+15052	TMHMM2.0	outside	     1   128
+# 15053 Length: 128
+# 15053 Number of predicted TMHs:  0
+15053	TMHMM2.0	inside	     1   128
+# 15054 Length: 128
+# 15054 Number of predicted TMHs:  1
+15054	TMHMM2.0	outside	     1     4
+15054	TMHMM2.0	TMhelix	     5    27
+15054	TMHMM2.0	inside	    28   128
+# 15055 Length: 128
+# 15055 Number of predicted TMHs:  0
+15055	TMHMM2.0	outside	     1   128
+# 15056 Length: 128
+# 15056 Number of predicted TMHs:  0
+15056	TMHMM2.0	outside	     1   128
+# 15057 Length: 128
+# 15057 Number of predicted TMHs:  0
+15057	TMHMM2.0	outside	     1   128
+# 15058 Length: 128
+# 15058 Number of predicted TMHs:  1
+15058	TMHMM2.0	outside	     1     9
+15058	TMHMM2.0	TMhelix	    10    32
+15058	TMHMM2.0	inside	    33   128
+# 15059 Length: 128
+# 15059 Number of predicted TMHs:  0
+15059	TMHMM2.0	inside	     1   128
+# 15060 Length: 128
+# 15060 Number of predicted TMHs:  0
+15060	TMHMM2.0	outside	     1   128
+# 15061 Length: 128
+# 15061 Number of predicted TMHs:  0
+15061	TMHMM2.0	outside	     1   128
+# 15062 Length: 128
+# 15062 Number of predicted TMHs:  0
+15062	TMHMM2.0	outside	     1   128
+# 15063 Length: 128
+# 15063 Number of predicted TMHs:  0
+15063	TMHMM2.0	outside	     1   128
+# 15064 Length: 127
+# 15064 Number of predicted TMHs:  0
+15064	TMHMM2.0	outside	     1   127
+# 15065 Length: 127
+# 15065 Number of predicted TMHs:  0
+15065	TMHMM2.0	outside	     1   127
+# 15066 Length: 127
+# 15066 Number of predicted TMHs:  0
+15066	TMHMM2.0	outside	     1   127
+# 15067 Length: 127
+# 15067 Number of predicted TMHs:  0
+15067	TMHMM2.0	outside	     1   127
+# 15068 Length: 127
+# 15068 Number of predicted TMHs:  0
+15068	TMHMM2.0	outside	     1   127
+# 15069 Length: 127
+# 15069 Number of predicted TMHs:  0
+15069	TMHMM2.0	outside	     1   127
+# 15070 Length: 127
+# 15070 Number of predicted TMHs:  0
+15070	TMHMM2.0	inside	     1   127
+# 15071 Length: 127
+# 15071 Number of predicted TMHs:  0
+15071	TMHMM2.0	inside	     1   127
+# 15072 Length: 127
+# 15072 Number of predicted TMHs:  0
+15072	TMHMM2.0	outside	     1   127
+# 15073 Length: 127
+# 15073 Number of predicted TMHs:  0
+15073	TMHMM2.0	outside	     1   127
+# 15074 Length: 127
+# 15074 Number of predicted TMHs:  0
+15074	TMHMM2.0	outside	     1   127
+# 15075 Length: 127
+# 15075 Number of predicted TMHs:  0
+15075	TMHMM2.0	inside	     1   127
+# 15076 Length: 127
+# 15076 Number of predicted TMHs:  0
+15076	TMHMM2.0	outside	     1   127
+# 15077 Length: 127
+# 15077 Number of predicted TMHs:  1
+15077	TMHMM2.0	inside	     1    58
+15077	TMHMM2.0	TMhelix	    59    81
+15077	TMHMM2.0	outside	    82   127
+# 15078 Length: 127
+# 15078 Number of predicted TMHs:  0
+15078	TMHMM2.0	outside	     1   127
+# 15079 Length: 127
+# 15079 Number of predicted TMHs:  0
+15079	TMHMM2.0	outside	     1   127
+# 15080 Length: 127
+# 15080 Number of predicted TMHs:  0
+15080	TMHMM2.0	outside	     1   127
+# 15081 Length: 127
+# 15081 Number of predicted TMHs:  0
+15081	TMHMM2.0	outside	     1   127
+# 15082 Length: 127
+# 15082 Number of predicted TMHs:  0
+15082	TMHMM2.0	outside	     1   127
+# 15083 Length: 127
+# 15083 Number of predicted TMHs:  0
+15083	TMHMM2.0	outside	     1   127
+# 15084 Length: 127
+# 15084 Number of predicted TMHs:  0
+15084	TMHMM2.0	outside	     1   127
+# 15085 Length: 127
+# 15085 Number of predicted TMHs:  0
+15085	TMHMM2.0	outside	     1   127
+# 15086 Length: 127
+# 15086 Number of predicted TMHs:  0
+15086	TMHMM2.0	outside	     1   127
+# 15087 Length: 127
+# 15087 Number of predicted TMHs:  0
+15087	TMHMM2.0	outside	     1   127
+# 15088 Length: 127
+# 15088 Number of predicted TMHs:  0
+15088	TMHMM2.0	outside	     1   127
+# 15089 Length: 127
+# 15089 Number of predicted TMHs:  0
+15089	TMHMM2.0	outside	     1   127
+# 15090 Length: 127
+# 15090 Number of predicted TMHs:  0
+15090	TMHMM2.0	inside	     1   127
+# 15091 Length: 127
+# 15091 Number of predicted TMHs:  0
+15091	TMHMM2.0	outside	     1   127
+# 15092 Length: 127
+# 15092 Number of predicted TMHs:  0
+15092	TMHMM2.0	outside	     1   127
+# 15093 Length: 127
+# 15093 Number of predicted TMHs:  0
+15093	TMHMM2.0	outside	     1   127
+# 15094 Length: 127
+# 15094 Number of predicted TMHs:  0
+15094	TMHMM2.0	outside	     1   127
+# 15095 Length: 127
+# 15095 Number of predicted TMHs:  0
+15095	TMHMM2.0	outside	     1   127
+# 15096 Length: 127
+# 15096 Number of predicted TMHs:  0
+15096	TMHMM2.0	outside	     1   127
+# 15097 Length: 127
+# 15097 Number of predicted TMHs:  0
+15097	TMHMM2.0	outside	     1   127
+# 15098 Length: 127
+# 15098 Number of predicted TMHs:  0
+15098	TMHMM2.0	outside	     1   127
+# 15099 Length: 127
+# 15099 Number of predicted TMHs:  0
+15099	TMHMM2.0	outside	     1   127
+# 15100 Length: 127
+# 15100 Number of predicted TMHs:  0
+15100	TMHMM2.0	outside	     1   127
+# 15101 Length: 127
+# 15101 Number of predicted TMHs:  0
+15101	TMHMM2.0	inside	     1   127
+# 15102 Length: 127
+# 15102 Number of predicted TMHs:  0
+15102	TMHMM2.0	outside	     1   127
+# 15103 Length: 127
+# 15103 Number of predicted TMHs:  0
+15103	TMHMM2.0	outside	     1   127
+# 15104 Length: 127
+# 15104 Number of predicted TMHs:  0
+15104	TMHMM2.0	outside	     1   127
+# 15105 Length: 127
+# 15105 Number of predicted TMHs:  0
+15105	TMHMM2.0	outside	     1   127
+# 15106 Length: 127
+# 15106 Number of predicted TMHs:  3
+15106	TMHMM2.0	outside	     1    10
+15106	TMHMM2.0	TMhelix	    11    33
+15106	TMHMM2.0	inside	    34    37
+15106	TMHMM2.0	TMhelix	    38    60
+15106	TMHMM2.0	outside	    61    74
+15106	TMHMM2.0	TMhelix	    75    97
+15106	TMHMM2.0	inside	    98   127
+# 15107 Length: 127
+# 15107 Number of predicted TMHs:  0
+15107	TMHMM2.0	outside	     1   127
+# 15108 Length: 127
+# 15108 Number of predicted TMHs:  0
+15108	TMHMM2.0	outside	     1   127
+# 15109 Length: 127
+# 15109 Number of predicted TMHs:  0
+15109	TMHMM2.0	outside	     1   127
+# 15110 Length: 127
+# 15110 Number of predicted TMHs:  0
+15110	TMHMM2.0	outside	     1   127
+# 15111 Length: 127
+# 15111 Number of predicted TMHs:  2
+15111	TMHMM2.0	inside	     1    18
+15111	TMHMM2.0	TMhelix	    19    41
+15111	TMHMM2.0	outside	    42    68
+15111	TMHMM2.0	TMhelix	    69    91
+15111	TMHMM2.0	inside	    92   127
+# 15112 Length: 127
+# 15112 Number of predicted TMHs:  0
+15112	TMHMM2.0	outside	     1   127
+# 15113 Length: 127
+# 15113 Number of predicted TMHs:  1
+15113	TMHMM2.0	outside	     1    69
+15113	TMHMM2.0	TMhelix	    70    92
+15113	TMHMM2.0	inside	    93   127
+# 15114 Length: 127
+# 15114 Number of predicted TMHs:  0
+15114	TMHMM2.0	outside	     1   127
+# 15115 Length: 127
+# 15115 Number of predicted TMHs:  0
+15115	TMHMM2.0	outside	     1   127
+# 15116 Length: 127
+# 15116 Number of predicted TMHs:  0
+15116	TMHMM2.0	outside	     1   127
+# 15117 Length: 127
+# 15117 Number of predicted TMHs:  0
+15117	TMHMM2.0	outside	     1   127
+# 15118 Length: 127
+# 15118 Number of predicted TMHs:  0
+15118	TMHMM2.0	outside	     1   127
+# 15119 Length: 127
+# 15119 Number of predicted TMHs:  1
+15119	TMHMM2.0	outside	     1    33
+15119	TMHMM2.0	TMhelix	    34    56
+15119	TMHMM2.0	inside	    57   127
+# 15120 Length: 127
+# 15120 Number of predicted TMHs:  0
+15120	TMHMM2.0	inside	     1   127
+# 15121 Length: 127
+# 15121 Number of predicted TMHs:  0
+15121	TMHMM2.0	outside	     1   127
+# 15122 Length: 127
+# 15122 Number of predicted TMHs:  0
+15122	TMHMM2.0	outside	     1   127
+# 15123 Length: 127
+# 15123 Number of predicted TMHs:  0
+15123	TMHMM2.0	outside	     1   127
+# 15124 Length: 127
+# 15124 Number of predicted TMHs:  0
+15124	TMHMM2.0	outside	     1   127
+# 15125 Length: 127
+# 15125 Number of predicted TMHs:  2
+15125	TMHMM2.0	outside	     1    38
+15125	TMHMM2.0	TMhelix	    39    61
+15125	TMHMM2.0	inside	    62    67
+15125	TMHMM2.0	TMhelix	    68    90
+15125	TMHMM2.0	outside	    91   127
+# 15126 Length: 127
+# 15126 Number of predicted TMHs:  0
+15126	TMHMM2.0	outside	     1   127
+# 15127 Length: 127
+# 15127 Number of predicted TMHs:  0
+15127	TMHMM2.0	inside	     1   127
+# 15128 Length: 127
+# 15128 Number of predicted TMHs:  2
+15128	TMHMM2.0	inside	     1    59
+15128	TMHMM2.0	TMhelix	    60    82
+15128	TMHMM2.0	outside	    83    96
+15128	TMHMM2.0	TMhelix	    97   119
+15128	TMHMM2.0	inside	   120   127
+# 15129 Length: 127
+# 15129 Number of predicted TMHs:  0
+15129	TMHMM2.0	outside	     1   127
+# 15130 Length: 127
+# 15130 Number of predicted TMHs:  0
+15130	TMHMM2.0	outside	     1   127
+# 15131 Length: 127
+# 15131 Number of predicted TMHs:  0
+15131	TMHMM2.0	outside	     1   127
+# 15132 Length: 127
+# 15132 Number of predicted TMHs:  0
+15132	TMHMM2.0	outside	     1   127
+# 15133 Length: 127
+# 15133 Number of predicted TMHs:  0
+15133	TMHMM2.0	outside	     1   127
+# 15134 Length: 127
+# 15134 Number of predicted TMHs:  0
+15134	TMHMM2.0	outside	     1   127
+# 15135 Length: 127
+# 15135 Number of predicted TMHs:  1
+15135	TMHMM2.0	inside	     1   103
+15135	TMHMM2.0	TMhelix	   104   121
+15135	TMHMM2.0	outside	   122   127
+# 15136 Length: 127
+# 15136 Number of predicted TMHs:  0
+15136	TMHMM2.0	outside	     1   127
+# 15137 Length: 127
+# 15137 Number of predicted TMHs:  0
+15137	TMHMM2.0	outside	     1   127
+# 15138 Length: 127
+# 15138 Number of predicted TMHs:  0
+15138	TMHMM2.0	outside	     1   127
+# 15139 Length: 127
+# 15139 Number of predicted TMHs:  0
+15139	TMHMM2.0	outside	     1   127
+# 15140 Length: 127
+# 15140 Number of predicted TMHs:  0
+15140	TMHMM2.0	outside	     1   127
+# 15141 Length: 127
+# 15141 Number of predicted TMHs:  0
+15141	TMHMM2.0	outside	     1   127
+# 15142 Length: 127
+# 15142 Number of predicted TMHs:  0
+15142	TMHMM2.0	outside	     1   127
+# 15143 Length: 127
+# 15143 Number of predicted TMHs:  0
+15143	TMHMM2.0	outside	     1   127
+# 15144 Length: 127
+# 15144 Number of predicted TMHs:  1
+15144	TMHMM2.0	inside	     1    84
+15144	TMHMM2.0	TMhelix	    85   107
+15144	TMHMM2.0	outside	   108   127
+# 15145 Length: 127
+# 15145 Number of predicted TMHs:  0
+15145	TMHMM2.0	outside	     1   127
+# 15146 Length: 127
+# 15146 Number of predicted TMHs:  0
+15146	TMHMM2.0	outside	     1   127
+# 15147 Length: 127
+# 15147 Number of predicted TMHs:  0
+15147	TMHMM2.0	outside	     1   127
+# 15148 Length: 127
+# 15148 Number of predicted TMHs:  0
+15148	TMHMM2.0	inside	     1   127
+# 15149 Length: 127
+# 15149 Number of predicted TMHs:  0
+15149	TMHMM2.0	outside	     1   127
+# 15150 Length: 127
+# 15150 Number of predicted TMHs:  0
+15150	TMHMM2.0	outside	     1   127
+# 15151 Length: 127
+# 15151 Number of predicted TMHs:  0
+15151	TMHMM2.0	outside	     1   127
+# 15152 Length: 127
+# 15152 Number of predicted TMHs:  0
+15152	TMHMM2.0	outside	     1   127
+# 15153 Length: 127
+# 15153 Number of predicted TMHs:  1
+15153	TMHMM2.0	inside	     1   105
+15153	TMHMM2.0	TMhelix	   106   125
+15153	TMHMM2.0	outside	   126   127
+# 15154 Length: 127
+# 15154 Number of predicted TMHs:  0
+15154	TMHMM2.0	outside	     1   127
+# 15155 Length: 127
+# 15155 Number of predicted TMHs:  0
+15155	TMHMM2.0	outside	     1   127
+# 15156 Length: 127
+# 15156 Number of predicted TMHs:  0
+15156	TMHMM2.0	outside	     1   127
+# 15157 Length: 127
+# 15157 Number of predicted TMHs:  0
+15157	TMHMM2.0	outside	     1   127
+# 15158 Length: 127
+# 15158 Number of predicted TMHs:  0
+15158	TMHMM2.0	outside	     1   127
+# 15159 Length: 127
+# 15159 Number of predicted TMHs:  0
+15159	TMHMM2.0	outside	     1   127
+# 15160 Length: 127
+# 15160 Number of predicted TMHs:  3
+15160	TMHMM2.0	outside	     1     4
+15160	TMHMM2.0	TMhelix	     5    27
+15160	TMHMM2.0	inside	    28    54
+15160	TMHMM2.0	TMhelix	    55    77
+15160	TMHMM2.0	outside	    78    80
+15160	TMHMM2.0	TMhelix	    81   103
+15160	TMHMM2.0	inside	   104   127
+# 15161 Length: 127
+# 15161 Number of predicted TMHs:  0
+15161	TMHMM2.0	outside	     1   127
+# 15162 Length: 127
+# 15162 Number of predicted TMHs:  0
+15162	TMHMM2.0	inside	     1   127
+# 15163 Length: 127
+# 15163 Number of predicted TMHs:  0
+15163	TMHMM2.0	outside	     1   127
+# 15164 Length: 127
+# 15164 Number of predicted TMHs:  0
+15164	TMHMM2.0	outside	     1   127
+# 15165 Length: 126
+# 15165 Number of predicted TMHs:  0
+15165	TMHMM2.0	outside	     1   126
+# 15166 Length: 126
+# 15166 Number of predicted TMHs:  0
+15166	TMHMM2.0	inside	     1   126
+# 15167 Length: 126
+# 15167 Number of predicted TMHs:  0
+15167	TMHMM2.0	outside	     1   126
+# 15168 Length: 126
+# 15168 Number of predicted TMHs:  0
+15168	TMHMM2.0	outside	     1   126
+# 15169 Length: 126
+# 15169 Number of predicted TMHs:  0
+15169	TMHMM2.0	outside	     1   126
+# 15170 Length: 126
+# 15170 Number of predicted TMHs:  0
+15170	TMHMM2.0	outside	     1   126
+# 15171 Length: 126
+# 15171 Number of predicted TMHs:  0
+15171	TMHMM2.0	outside	     1   126
+# 15172 Length: 126
+# 15172 Number of predicted TMHs:  0
+15172	TMHMM2.0	outside	     1   126
+# 15173 Length: 126
+# 15173 Number of predicted TMHs:  0
+15173	TMHMM2.0	outside	     1   126
+# 15174 Length: 126
+# 15174 Number of predicted TMHs:  0
+15174	TMHMM2.0	outside	     1   126
+# 15175 Length: 126
+# 15175 Number of predicted TMHs:  0
+15175	TMHMM2.0	outside	     1   126
+# 15176 Length: 126
+# 15176 Number of predicted TMHs:  0
+15176	TMHMM2.0	outside	     1   126
+# 15177 Length: 126
+# 15177 Number of predicted TMHs:  0
+15177	TMHMM2.0	outside	     1   126
+# 15178 Length: 126
+# 15178 Number of predicted TMHs:  0
+15178	TMHMM2.0	outside	     1   126
+# 15179 Length: 126
+# 15179 Number of predicted TMHs:  0
+15179	TMHMM2.0	outside	     1   126
+# 15180 Length: 126
+# 15180 Number of predicted TMHs:  0
+15180	TMHMM2.0	outside	     1   126
+# 15181 Length: 126
+# 15181 Number of predicted TMHs:  0
+15181	TMHMM2.0	outside	     1   126
+# 15182 Length: 126
+# 15182 Number of predicted TMHs:  0
+15182	TMHMM2.0	outside	     1   126
+# 15183 Length: 126
+# 15183 Number of predicted TMHs:  0
+15183	TMHMM2.0	inside	     1   126
+# 15184 Length: 126
+# 15184 Number of predicted TMHs:  0
+15184	TMHMM2.0	inside	     1   126
+# 15185 Length: 126
+# 15185 Number of predicted TMHs:  0
+15185	TMHMM2.0	outside	     1   126
+# 15186 Length: 126
+# 15186 Number of predicted TMHs:  0
+15186	TMHMM2.0	inside	     1   126
+# 15187 Length: 126
+# 15187 Number of predicted TMHs:  0
+15187	TMHMM2.0	outside	     1   126
+# 15188 Length: 126
+# 15188 Number of predicted TMHs:  0
+15188	TMHMM2.0	outside	     1   126
+# 15189 Length: 126
+# 15189 Number of predicted TMHs:  1
+15189	TMHMM2.0	inside	     1    98
+15189	TMHMM2.0	TMhelix	    99   121
+15189	TMHMM2.0	outside	   122   126
+# 15190 Length: 126
+# 15190 Number of predicted TMHs:  0
+15190	TMHMM2.0	outside	     1   126
+# 15191 Length: 126
+# 15191 Number of predicted TMHs:  0
+15191	TMHMM2.0	inside	     1   126
+# 15192 Length: 126
+# 15192 Number of predicted TMHs:  0
+15192	TMHMM2.0	outside	     1   126
+# 15193 Length: 126
+# 15193 Number of predicted TMHs:  0
+15193	TMHMM2.0	outside	     1   126
+# 15194 Length: 126
+# 15194 Number of predicted TMHs:  0
+15194	TMHMM2.0	outside	     1   126
+# 15195 Length: 126
+# 15195 Number of predicted TMHs:  0
+15195	TMHMM2.0	outside	     1   126
+# 15196 Length: 126
+# 15196 Number of predicted TMHs:  0
+15196	TMHMM2.0	outside	     1   126
+# 15197 Length: 126
+# 15197 Number of predicted TMHs:  0
+15197	TMHMM2.0	outside	     1   126
+# 15198 Length: 126
+# 15198 Number of predicted TMHs:  0
+15198	TMHMM2.0	outside	     1   126
+# 15199 Length: 126
+# 15199 Number of predicted TMHs:  0
+15199	TMHMM2.0	outside	     1   126
+# 15200 Length: 126
+# 15200 Number of predicted TMHs:  1
+15200	TMHMM2.0	inside	     1    12
+15200	TMHMM2.0	TMhelix	    13    35
+15200	TMHMM2.0	outside	    36   126
+# 15201 Length: 126
+# 15201 Number of predicted TMHs:  0
+15201	TMHMM2.0	outside	     1   126
+# 15202 Length: 126
+# 15202 Number of predicted TMHs:  0
+15202	TMHMM2.0	outside	     1   126
+# 15203 Length: 126
+# 15203 Number of predicted TMHs:  0
+15203	TMHMM2.0	outside	     1   126
+# 15204 Length: 126
+# 15204 Number of predicted TMHs:  0
+15204	TMHMM2.0	outside	     1   126
+# 15205 Length: 126
+# 15205 Number of predicted TMHs:  0
+15205	TMHMM2.0	outside	     1   126
+# 15206 Length: 126
+# 15206 Number of predicted TMHs:  0
+15206	TMHMM2.0	outside	     1   126
+# 15207 Length: 126
+# 15207 Number of predicted TMHs:  0
+15207	TMHMM2.0	outside	     1   126
+# 15208 Length: 126
+# 15208 Number of predicted TMHs:  1
+15208	TMHMM2.0	outside	     1    64
+15208	TMHMM2.0	TMhelix	    65    87
+15208	TMHMM2.0	inside	    88   126
+# 15209 Length: 126
+# 15209 Number of predicted TMHs:  0
+15209	TMHMM2.0	outside	     1   126
+# 15210 Length: 126
+# 15210 Number of predicted TMHs:  0
+15210	TMHMM2.0	outside	     1   126
+# 15211 Length: 126
+# 15211 Number of predicted TMHs:  0
+15211	TMHMM2.0	outside	     1   126
+# 15212 Length: 126
+# 15212 Number of predicted TMHs:  0
+15212	TMHMM2.0	outside	     1   126
+# 15213 Length: 126
+# 15213 Number of predicted TMHs:  0
+15213	TMHMM2.0	outside	     1   126
+# 15214 Length: 126
+# 15214 Number of predicted TMHs:  0
+15214	TMHMM2.0	outside	     1   126
+# 15215 Length: 126
+# 15215 Number of predicted TMHs:  0
+15215	TMHMM2.0	outside	     1   126
+# 15216 Length: 126
+# 15216 Number of predicted TMHs:  0
+15216	TMHMM2.0	outside	     1   126
+# 15217 Length: 126
+# 15217 Number of predicted TMHs:  0
+15217	TMHMM2.0	outside	     1   126
+# 15218 Length: 126
+# 15218 Number of predicted TMHs:  0
+15218	TMHMM2.0	outside	     1   126
+# 15219 Length: 126
+# 15219 Number of predicted TMHs:  0
+15219	TMHMM2.0	outside	     1   126
+# 15220 Length: 126
+# 15220 Number of predicted TMHs:  0
+15220	TMHMM2.0	outside	     1   126
+# 15221 Length: 126
+# 15221 Number of predicted TMHs:  0
+15221	TMHMM2.0	outside	     1   126
+# 15222 Length: 126
+# 15222 Number of predicted TMHs:  0
+15222	TMHMM2.0	outside	     1   126
+# 15223 Length: 126
+# 15223 Number of predicted TMHs:  0
+15223	TMHMM2.0	outside	     1   126
+# 15224 Length: 126
+# 15224 Number of predicted TMHs:  0
+15224	TMHMM2.0	outside	     1   126
+# 15225 Length: 126
+# 15225 Number of predicted TMHs:  0
+15225	TMHMM2.0	outside	     1   126
+# 15226 Length: 126
+# 15226 Number of predicted TMHs:  0
+15226	TMHMM2.0	outside	     1   126
+# 15227 Length: 126
+# 15227 Number of predicted TMHs:  0
+15227	TMHMM2.0	inside	     1   126
+# 15228 Length: 126
+# 15228 Number of predicted TMHs:  2
+15228	TMHMM2.0	inside	     1    29
+15228	TMHMM2.0	TMhelix	    30    52
+15228	TMHMM2.0	outside	    53    91
+15228	TMHMM2.0	TMhelix	    92   114
+15228	TMHMM2.0	inside	   115   126
+# 15229 Length: 126
+# 15229 Number of predicted TMHs:  0
+15229	TMHMM2.0	outside	     1   126
+# 15230 Length: 126
+# 15230 Number of predicted TMHs:  1
+15230	TMHMM2.0	outside	     1    14
+15230	TMHMM2.0	TMhelix	    15    37
+15230	TMHMM2.0	inside	    38   126
+# 15231 Length: 126
+# 15231 Number of predicted TMHs:  2
+15231	TMHMM2.0	inside	     1    26
+15231	TMHMM2.0	TMhelix	    27    44
+15231	TMHMM2.0	outside	    45    71
+15231	TMHMM2.0	TMhelix	    72    94
+15231	TMHMM2.0	inside	    95   126
+# 15232 Length: 126
+# 15232 Number of predicted TMHs:  0
+15232	TMHMM2.0	outside	     1   126
+# 15233 Length: 126
+# 15233 Number of predicted TMHs:  0
+15233	TMHMM2.0	outside	     1   126
+# 15234 Length: 126
+# 15234 Number of predicted TMHs:  0
+15234	TMHMM2.0	outside	     1   126
+# 15235 Length: 126
+# 15235 Number of predicted TMHs:  0
+15235	TMHMM2.0	outside	     1   126
+# 15236 Length: 126
+# 15236 Number of predicted TMHs:  1
+15236	TMHMM2.0	outside	     1   101
+15236	TMHMM2.0	TMhelix	   102   124
+15236	TMHMM2.0	inside	   125   126
+# 15237 Length: 126
+# 15237 Number of predicted TMHs:  0
+15237	TMHMM2.0	outside	     1   126
+# 15238 Length: 126
+# 15238 Number of predicted TMHs:  1
+15238	TMHMM2.0	outside	     1    14
+15238	TMHMM2.0	TMhelix	    15    37
+15238	TMHMM2.0	inside	    38   126
+# 15239 Length: 126
+# 15239 Number of predicted TMHs:  0
+15239	TMHMM2.0	outside	     1   126
+# 15240 Length: 126
+# 15240 Number of predicted TMHs:  0
+15240	TMHMM2.0	outside	     1   126
+# 15241 Length: 126
+# 15241 Number of predicted TMHs:  0
+15241	TMHMM2.0	outside	     1   126
+# 15242 Length: 126
+# 15242 Number of predicted TMHs:  0
+15242	TMHMM2.0	outside	     1   126
+# 15243 Length: 126
+# 15243 Number of predicted TMHs:  0
+15243	TMHMM2.0	outside	     1   126
+# 15244 Length: 126
+# 15244 Number of predicted TMHs:  0
+15244	TMHMM2.0	outside	     1   126
+# 15245 Length: 126
+# 15245 Number of predicted TMHs:  1
+15245	TMHMM2.0	outside	     1    59
+15245	TMHMM2.0	TMhelix	    60    82
+15245	TMHMM2.0	inside	    83   126
+# 15246 Length: 126
+# 15246 Number of predicted TMHs:  0
+15246	TMHMM2.0	outside	     1   126
+# 15247 Length: 126
+# 15247 Number of predicted TMHs:  0
+15247	TMHMM2.0	outside	     1   126
+# 15248 Length: 126
+# 15248 Number of predicted TMHs:  0
+15248	TMHMM2.0	outside	     1   126
+# 15249 Length: 126
+# 15249 Number of predicted TMHs:  0
+15249	TMHMM2.0	outside	     1   126
+# 15250 Length: 126
+# 15250 Number of predicted TMHs:  0
+15250	TMHMM2.0	outside	     1   126
+# 15251 Length: 126
+# 15251 Number of predicted TMHs:  1
+15251	TMHMM2.0	outside	     1    74
+15251	TMHMM2.0	TMhelix	    75    97
+15251	TMHMM2.0	inside	    98   126
+# 15252 Length: 126
+# 15252 Number of predicted TMHs:  0
+15252	TMHMM2.0	outside	     1   126
+# 15253 Length: 126
+# 15253 Number of predicted TMHs:  0
+15253	TMHMM2.0	outside	     1   126
+# 15254 Length: 126
+# 15254 Number of predicted TMHs:  0
+15254	TMHMM2.0	outside	     1   126
+# 15255 Length: 126
+# 15255 Number of predicted TMHs:  1
+15255	TMHMM2.0	outside	     1    29
+15255	TMHMM2.0	TMhelix	    30    52
+15255	TMHMM2.0	inside	    53   126
+# 15256 Length: 126
+# 15256 Number of predicted TMHs:  0
+15256	TMHMM2.0	inside	     1   126
+# 15257 Length: 126
+# 15257 Number of predicted TMHs:  0
+15257	TMHMM2.0	outside	     1   126
+# 15258 Length: 126
+# 15258 Number of predicted TMHs:  0
+15258	TMHMM2.0	outside	     1   126
+# 15259 Length: 125
+# 15259 Number of predicted TMHs:  0
+15259	TMHMM2.0	outside	     1   125
+# 15260 Length: 125
+# 15260 Number of predicted TMHs:  1
+15260	TMHMM2.0	inside	     1    90
+15260	TMHMM2.0	TMhelix	    91   113
+15260	TMHMM2.0	outside	   114   125
+# 15261 Length: 125
+# 15261 Number of predicted TMHs:  1
+15261	TMHMM2.0	inside	     1    11
+15261	TMHMM2.0	TMhelix	    12    34
+15261	TMHMM2.0	outside	    35   125
+# 15262 Length: 125
+# 15262 Number of predicted TMHs:  0
+15262	TMHMM2.0	inside	     1   125
+# 15263 Length: 125
+# 15263 Number of predicted TMHs:  0
+15263	TMHMM2.0	inside	     1   125
+# 15264 Length: 125
+# 15264 Number of predicted TMHs:  0
+15264	TMHMM2.0	inside	     1   125
+# 15265 Length: 125
+# 15265 Number of predicted TMHs:  0
+15265	TMHMM2.0	outside	     1   125
+# 15266 Length: 125
+# 15266 Number of predicted TMHs:  0
+15266	TMHMM2.0	outside	     1   125
+# 15267 Length: 125
+# 15267 Number of predicted TMHs:  2
+15267	TMHMM2.0	outside	     1    19
+15267	TMHMM2.0	TMhelix	    20    42
+15267	TMHMM2.0	inside	    43    54
+15267	TMHMM2.0	TMhelix	    55    77
+15267	TMHMM2.0	outside	    78   125
+# 15268 Length: 125
+# 15268 Number of predicted TMHs:  1
+15268	TMHMM2.0	inside	     1    12
+15268	TMHMM2.0	TMhelix	    13    35
+15268	TMHMM2.0	outside	    36   125
+# 15269 Length: 125
+# 15269 Number of predicted TMHs:  1
+15269	TMHMM2.0	inside	     1    19
+15269	TMHMM2.0	TMhelix	    20    42
+15269	TMHMM2.0	outside	    43   125
+# 15270 Length: 125
+# 15270 Number of predicted TMHs:  0
+15270	TMHMM2.0	outside	     1   125
+# 15271 Length: 125
+# 15271 Number of predicted TMHs:  0
+15271	TMHMM2.0	outside	     1   125
+# 15272 Length: 125
+# 15272 Number of predicted TMHs:  0
+15272	TMHMM2.0	outside	     1   125
+# 15273 Length: 125
+# 15273 Number of predicted TMHs:  0
+15273	TMHMM2.0	inside	     1   125
+# 15274 Length: 125
+# 15274 Number of predicted TMHs:  0
+15274	TMHMM2.0	outside	     1   125
+# 15275 Length: 125
+# 15275 Number of predicted TMHs:  1
+15275	TMHMM2.0	outside	     1    35
+15275	TMHMM2.0	TMhelix	    36    58
+15275	TMHMM2.0	inside	    59   125
+# 15276 Length: 125
+# 15276 Number of predicted TMHs:  1
+15276	TMHMM2.0	inside	     1    28
+15276	TMHMM2.0	TMhelix	    29    51
+15276	TMHMM2.0	outside	    52   125
+# 15277 Length: 125
+# 15277 Number of predicted TMHs:  0
+15277	TMHMM2.0	outside	     1   125
+# 15278 Length: 125
+# 15278 Number of predicted TMHs:  0
+15278	TMHMM2.0	outside	     1   125
+# 15279 Length: 125
+# 15279 Number of predicted TMHs:  0
+15279	TMHMM2.0	inside	     1   125
+# 15280 Length: 125
+# 15280 Number of predicted TMHs:  1
+15280	TMHMM2.0	inside	     1    20
+15280	TMHMM2.0	TMhelix	    21    43
+15280	TMHMM2.0	outside	    44   125
+# 15281 Length: 125
+# 15281 Number of predicted TMHs:  0
+15281	TMHMM2.0	outside	     1   125
+# 15282 Length: 125
+# 15282 Number of predicted TMHs:  1
+15282	TMHMM2.0	outside	     1    63
+15282	TMHMM2.0	TMhelix	    64    86
+15282	TMHMM2.0	inside	    87   125
+# 15283 Length: 125
+# 15283 Number of predicted TMHs:  0
+15283	TMHMM2.0	outside	     1   125
+# 15284 Length: 125
+# 15284 Number of predicted TMHs:  0
+15284	TMHMM2.0	outside	     1   125
+# 15285 Length: 125
+# 15285 Number of predicted TMHs:  0
+15285	TMHMM2.0	outside	     1   125
+# 15286 Length: 125
+# 15286 Number of predicted TMHs:  0
+15286	TMHMM2.0	outside	     1   125
+# 15287 Length: 125
+# 15287 Number of predicted TMHs:  0
+15287	TMHMM2.0	outside	     1   125
+# 15288 Length: 125
+# 15288 Number of predicted TMHs:  0
+15288	TMHMM2.0	outside	     1   125
+# 15289 Length: 125
+# 15289 Number of predicted TMHs:  0
+15289	TMHMM2.0	inside	     1   125
+# 15290 Length: 125
+# 15290 Number of predicted TMHs:  2
+15290	TMHMM2.0	inside	     1    52
+15290	TMHMM2.0	TMhelix	    53    75
+15290	TMHMM2.0	outside	    76    89
+15290	TMHMM2.0	TMhelix	    90   112
+15290	TMHMM2.0	inside	   113   125
+# 15291 Length: 125
+# 15291 Number of predicted TMHs:  0
+15291	TMHMM2.0	outside	     1   125
+# 15292 Length: 125
+# 15292 Number of predicted TMHs:  0
+15292	TMHMM2.0	outside	     1   125
+# 15293 Length: 125
+# 15293 Number of predicted TMHs:  0
+15293	TMHMM2.0	outside	     1   125
+# 15294 Length: 125
+# 15294 Number of predicted TMHs:  0
+15294	TMHMM2.0	outside	     1   125
+# 15295 Length: 125
+# 15295 Number of predicted TMHs:  0
+15295	TMHMM2.0	outside	     1   125
+# 15296 Length: 125
+# 15296 Number of predicted TMHs:  0
+15296	TMHMM2.0	outside	     1   125
+# 15297 Length: 125
+# 15297 Number of predicted TMHs:  0
+15297	TMHMM2.0	outside	     1   125
+# 15298 Length: 125
+# 15298 Number of predicted TMHs:  0
+15298	TMHMM2.0	inside	     1   125
+# 15299 Length: 125
+# 15299 Number of predicted TMHs:  0
+15299	TMHMM2.0	inside	     1   125
+# 15300 Length: 125
+# 15300 Number of predicted TMHs:  0
+15300	TMHMM2.0	outside	     1   125
+# 15301 Length: 125
+# 15301 Number of predicted TMHs:  0
+15301	TMHMM2.0	outside	     1   125
+# 15302 Length: 125
+# 15302 Number of predicted TMHs:  0
+15302	TMHMM2.0	outside	     1   125
+# 15303 Length: 125
+# 15303 Number of predicted TMHs:  0
+15303	TMHMM2.0	outside	     1   125
+# 15304 Length: 125
+# 15304 Number of predicted TMHs:  0
+15304	TMHMM2.0	outside	     1   125
+# 15305 Length: 125
+# 15305 Number of predicted TMHs:  0
+15305	TMHMM2.0	outside	     1   125
+# 15306 Length: 125
+# 15306 Number of predicted TMHs:  0
+15306	TMHMM2.0	outside	     1   125
+# 15307 Length: 125
+# 15307 Number of predicted TMHs:  0
+15307	TMHMM2.0	outside	     1   125
+# 15308 Length: 125
+# 15308 Number of predicted TMHs:  0
+15308	TMHMM2.0	outside	     1   125
+# 15309 Length: 125
+# 15309 Number of predicted TMHs:  1
+15309	TMHMM2.0	inside	     1    76
+15309	TMHMM2.0	TMhelix	    77    99
+15309	TMHMM2.0	outside	   100   125
+# 15310 Length: 125
+# 15310 Number of predicted TMHs:  0
+15310	TMHMM2.0	outside	     1   125
+# 15311 Length: 125
+# 15311 Number of predicted TMHs:  0
+15311	TMHMM2.0	outside	     1   125
+# 15312 Length: 125
+# 15312 Number of predicted TMHs:  0
+15312	TMHMM2.0	outside	     1   125
+# 15313 Length: 125
+# 15313 Number of predicted TMHs:  0
+15313	TMHMM2.0	outside	     1   125
+# 15314 Length: 125
+# 15314 Number of predicted TMHs:  0
+15314	TMHMM2.0	outside	     1   125
+# 15315 Length: 125
+# 15315 Number of predicted TMHs:  1
+15315	TMHMM2.0	inside	     1    91
+15315	TMHMM2.0	TMhelix	    92   114
+15315	TMHMM2.0	outside	   115   125
+# 15316 Length: 125
+# 15316 Number of predicted TMHs:  0
+15316	TMHMM2.0	outside	     1   125
+# 15317 Length: 125
+# 15317 Number of predicted TMHs:  0
+15317	TMHMM2.0	outside	     1   125
+# 15318 Length: 125
+# 15318 Number of predicted TMHs:  0
+15318	TMHMM2.0	outside	     1   125

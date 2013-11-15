@@ -1,0 +1,319 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2098 290         
+MVYTGKNSQEKLQDIEKEIAFLKQCSHPNCVQFKGVYLKGHTVWLAMEYCLGSAADIIEVHKSPLDEDDPMDEGTYNDRV      80
+DIWSLGITCIELSEGKPPLFNMNPMAALYHIAQNDSPMLGDSGKDTSVWSDMYRDFIALCLTKDAMNRPTAAELLRHRLM     160
+INLDPDGILGYLVARTKEAVRRLDNKNYRAARKIFMLNEGPVAAEDLDNDSMSTGSAGSLQDPDSLGMDSDNADPEASGE     240
+FNGEKRNSVVEVSSTQDEDENMSFNVLPTIDKDNYKPIHERFSTIKPNATLSKQMLQNNSENDIRNQMMIYKQVILAMDE     320
+GTYNDRVDIWSLGITCIELSEGKPPLFNMNPMAALYHIAQNDSPMLGDSGKDTSVWSDMYRDFIALCLTKDAMNRPTAAE     400
+LLRHRLMINLDPDGILGYLVARTKEAVRRLDNKNYRAARKIFMLNEGPVAAEDLDNDSMSTGSAGSLQDPDSLGMDSDNA     480
+DPEASGEFNGEKRNSVVEVSSTQDEEENMSFNVLPTIDKDNYKPIHERFSTIKPNATLSKQMLQNNSENDIRNQMMIYKQ     560
+MRQSNLKQLKQLEQRHRVSIEELRRVLERDLDTLRSSNERELEKFRQKQRDDKIQRDRDVDRAEKKFVKTLLDKYDNCYK     640
+TQTGESRKQYMQQKERLKKELSQTPKQNRKVSIDVTKERLKRDLDERDQNYLQQVRMENESEVKSHRLGSMKNNHFIDGQ     720
+SLQEEWNLMEVHMTSLAHMTRKHHYDMCGLEEKHLQEIHGLRQQQLQDQLSTEWENQMEYTQRMQKDLRRKHALQNKQQP     800
+KNLKRKRAQIHKQFEATCKIIESQYKELQKDYLKSQPKELHRDICKKLKEDKMAKMIALNDQYKKSIADHLEREQINLSV     880
+TQTAEQEAVRESLQKEQELLQQYQERLQQRLSDSMAKEVELFIEDSDRRYNALQLELEEADREFAVAREEAMSRERARQR     960
+KELTDHQQMSHELMYSAGYNRTWGLIQDINTKQYFYWNSFQTATSGATVMAESPTKKQETTEPTVPKESPKESPQNEEAV    1040
+VAKTEPDKPVENGDKPQTEEVVKSAELTEVCAPAKEYISGRGTADTKLRRTSSIGQVRGTRPWTLVGGLCPPNPPGRSSL    1120
+RALRALRSQVLLLVKSGLRPLHPPRNIELEPALRDVDITDDWSAADSVAVDCPLTIRRTVKHLTDHFKSKELVGLHLARA    1200
+AFRWITCHIQWKHGGSQEPDSVLRKGGGEDAGFCSLFAAMCSECGLTTKTVSGYVKDSGYVPGTVPDSNTVKQYWNTLEV    1280
+EPGVFLTVDCLRAAGFVRNGKFEPVANLKMPDGLRGIFETNDKGILELNLTGCPNMVFSSEVIRILTTKRGDSGAMKTAM    1360
+ELCVRCGVGRGTDSLYPVIVDHNRQFHLIGPLLGELARGTTAYFHCKVKGASQVGRLEIYPSDKCLSLTVSAGPLFSLRE    1440
+KGSVRRLTVTDNSIVCEIMLYIIYYYSNAISQVSVLVDEDICALEKISDNRKSLEEELENSIPVEPESKPVETNETTPII    1520
+EGTKEVPATDDAPTSAAETEKPAETPTETQAPEGTPAPSVTEVAAPTETEGATPTETEGAAPTETEGAAVKSIEANLKMP    1600
+DGLRGIFETNDKGILELNLTGCPNMVFSSEVIRILTTKRGDSGAMKTAMELCVRCGVGRGTDSLYPVIVDHNRQFHLIGP    1680
+LLGELARGTTAYFHCKVKGASQVGRLEIYPSDKCLSLTVSAGPLFSLREKGSVRRLTVTDNSIVCEIMLYIIYYYSNAIS    1760
+QVSVLVDEDICALEKISDNRKSLEEELENSIPVEPESKPVETNETTPIIEGTKEVPATDDAPTSAAETEKPAETPTETQA    1840
+PEGTPAPSVTEVAAPTETEGATPTETEGAAPTEIEGATPTETEGATPTETETPAPVETSTPPTEGNTETPAAEETPATEE    1920
+TPATEETPAIEETPTETPSDAAIPVETEAAAPPPTDKEKASEDASFTPAAEATPEAPLTTNVEAPSAAEAEAPPAAKTEP    2000
+AVEAEAQPAVEAEAPTPAVTVTAPVPTVSADDVTSVWAGEVTIRGRSIHLAAYYGTDYVKLNRTAEIWNILCHSIGLRPY    2080
+SHFFQIKQQVNNQSELVI                                                                  2160
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+.........................................P......................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+..................                                                                  2160
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+290              6    -MVYTGK|NS  0.064    .
+290             11    GKNSQEK|LQ  0.068    .
+290             17    KLQDIEK|EI  0.059    .
+290             23    KEIAFLK|QC  0.063    .
+290             34    PNCVQFK|GV  0.121    .
+290             39    FKGVYLK|GH  0.071    .
+290             62    DIIEVHK|SP  0.071    .
+290             79    EGTYNDR|VD  0.074    .
+290             96    IELSEGK|PP  0.052    .
+290            124    MLGDSGK|DT  0.096    .
+290            134    VWSDMYR|DF  0.131    .
+290            143    IALCLTK|DA  0.069    .
+290            148    TKDAMNR|PT  0.099    .
+290            156    TAAELLR|HR  0.081    .
+290            158    AELLRHR|LM  0.068    .
+290            175    LGYLVAR|TK  0.103    .
+290            177    YLVARTK|EA  0.063    .
+290            181    RTKEAVR|RL  0.075    .
+290            182    TKEAVRR|LD  0.148    .
+290            186    VRRLDNK|NY  0.077    .
+290            189    LDNKNYR|AA  0.158    .
+290            192    KNYRAAR|KI  0.295    .
+290            193    NYRAARK|IF  0.081    .
+290            245    GEFNGEK|RN  0.073    .
+290            246    EFNGEKR|NS  0.149    .
+290            272    VLPTIDK|DN  0.061    .
+290            276    IDKDNYK|PI  0.076    .
+290            281    YKPIHER|FS  0.106    .
+290            286    ERFSTIK|PN  0.068    .
+290            293    PNATLSK|QM  0.063    .
+290            305    NSENDIR|NQ  0.092    .
+290            312    NQMMIYK|QV  0.081    .
+290            326    EGTYNDR|VD  0.074    .
+290            343    IELSEGK|PP  0.052    .
+290            371    MLGDSGK|DT  0.096    .
+290            381    VWSDMYR|DF  0.131    .
+290            390    IALCLTK|DA  0.069    .
+290            395    TKDAMNR|PT  0.099    .
+290            403    TAAELLR|HR  0.081    .
+290            405    AELLRHR|LM  0.068    .
+290            422    LGYLVAR|TK  0.103    .
+290            424    YLVARTK|EA  0.063    .
+290            428    RTKEAVR|RL  0.075    .
+290            429    TKEAVRR|LD  0.148    .
+290            433    VRRLDNK|NY  0.077    .
+290            436    LDNKNYR|AA  0.158    .
+290            439    KNYRAAR|KI  0.295    .
+290            440    NYRAARK|IF  0.081    .
+290            492    GEFNGEK|RN  0.073    .
+290            493    EFNGEKR|NS  0.149    .
+290            519    VLPTIDK|DN  0.061    .
+290            523    IDKDNYK|PI  0.076    .
+290            528    YKPIHER|FS  0.106    .
+290            533    ERFSTIK|PN  0.068    .
+290            540    PNATLSK|QM  0.063    .
+290            552    NSENDIR|NQ  0.096    .
+290            559    NQMMIYK|QM  0.067    .
+290            562    MIYKQMR|QS  0.097    .
+290            567    MRQSNLK|QL  0.075    .
+290            570    SNLKQLK|QL  0.074    .
+290            575    LKQLEQR|HR  0.084    .
+290            577    QLEQRHR|VS  0.093    .
+290            584    VSIEELR|RV  0.078    .
+290            585    SIEELRR|VL  0.129    .
+290            589    LRRVLER|DL  0.190    .
+290            595    RDLDTLR|SS  0.091    .
+290            600    LRSSNER|EL  0.124    .
+290            604    NERELEK|FR  0.067    .
+290            606    RELEKFR|QK  0.079    .
+290            608    LEKFRQK|QR  0.067    .
+290            610    KFRQKQR|DD  0.126    .
+290            613    QKQRDDK|IQ  0.107    .
+290            616    RDDKIQR|DR  0.092    .
+290            618    DKIQRDR|DV  0.251    .
+290            622    RDRDVDR|AE  0.107    .
+290            625    DVDRAEK|KF  0.079    .
+290            626    VDRAEKK|FV  0.178    .
+290            629    AEKKFVK|TL  0.064    .
+290            634    VKTLLDK|YD  0.061    .
+290            640    KYDNCYK|TQ  0.054    .
+290            647    TQTGESR|KQ  0.089    .
+290            648    QTGESRK|QY  0.102    .
+290            654    KQYMQQK|ER  0.068    .
+290            656    YMQQKER|LK  0.075    .
+290            658    QQKERLK|KE  0.054    .
+290            659    QKERLKK|EL  0.391    .
+290            666    ELSQTPK|QN  0.076    .
+290            669    QTPKQNR|KV  0.119    .
+290            670    TPKQNRK|VS  0.092    .
+290            677    VSIDVTK|ER  0.059    .
+290            679    IDVTKER|LK  0.084    .
+290            681    VTKERLK|RD  0.057    .
+290            682    TKERLKR|DL  0.688 *ProP*
+290            687    KRDLDER|DQ  0.093    .
+290            696    NYLQQVR|ME  0.075    .
+290            704    ENESEVK|SH  0.063    .
+290            707    SEVKSHR|LG  0.100    .
+290            712    HRLGSMK|NN  0.076    .
+290            741    SLAHMTR|KH  0.092    .
+290            742    LAHMTRK|HH  0.099    .
+290            753    MCGLEEK|HL  0.063    .
+290            762    QEIHGLR|QQ  0.073    .
+290            783    QMEYTQR|MQ  0.095    .
+290            786    YTQRMQK|DL  0.152    .
+290            789    RMQKDLR|RK  0.088    .
+290            790    MQKDLRR|KH  0.112    .
+290            791    QKDLRRK|HA  0.096    .
+290            797    KHALQNK|QQ  0.065    .
+290            801    QNKQQPK|NL  0.077    .
+290            804    QQPKNLK|RK  0.064    .
+290            805    QPKNLKR|KR  0.201    .
+290            806    PKNLKRK|RA  0.107    .
+290            807    KNLKRKR|AQ  0.241    .
+290            812    KRAQIHK|QF  0.076    .
+290            819    QFEATCK|II  0.071    .
+290            826    IIESQYK|EL  0.062    .
+290            830    QYKELQK|DY  0.071    .
+290            834    LQKDYLK|SQ  0.069    .
+290            838    YLKSQPK|EL  0.066    .
+290            842    QPKELHR|DI  0.151    .
+290            846    LHRDICK|KL  0.062    .
+290            847    HRDICKK|LK  0.134    .
+290            849    DICKKLK|ED  0.063    .
+290            852    KKLKEDK|MA  0.066    .
+290            855    KEDKMAK|MI  0.062    .
+290            864    ALNDQYK|KS  0.066    .
+290            865    LNDQYKK|SI  0.190    .
+290            873    IADHLER|EQ  0.071    .
+290            890    AEQEAVR|ES  0.089    .
+290            895    VRESLQK|EQ  0.062    .
+290            906    LQQYQER|LQ  0.087    .
+290            910    QERLQQR|LS  0.100    .
+290            917    LSDSMAK|EV  0.077    .
+290            928    FIEDSDR|RY  0.080    .
+290            929    IEDSDRR|YN  0.111    .
+290            942    ELEEADR|EF  0.074    .
+290            948    REFAVAR|EE  0.091    .
+290            954    REEAMSR|ER  0.077    .
+290            956    EAMSRER|AR  0.082    .
+290            958    MSRERAR|QR  0.120    .
+290            960    RERARQR|KE  0.084    .
+290            961    ERARQRK|EL  0.493    .
+290            981    YSAGYNR|TW  0.105    .
+290            992    IQDINTK|QY  0.060    .
+290           1016    MAESPTK|KQ  0.074    .
+290           1017    AESPTKK|QE  0.126    .
+290           1027    TEPTVPK|ES  0.069    .
+290           1031    VPKESPK|ES  0.079    .
+290           1043    EEAVVAK|TE  0.069    .
+290           1048    AKTEPDK|PV  0.080    .
+290           1055    PVENGDK|PQ  0.057    .
+290           1063    QTEEVVK|SA  0.090    .
+290           1075    EVCAPAK|EY  0.070    .
+290           1081    KEYISGR|GT  0.101    .
+290           1087    RGTADTK|LR  0.057    .
+290           1089    TADTKLR|RT  0.120    .
+290           1090    ADTKLRR|TS  0.145    .
+290           1098    SSIGQVR|GT  0.111    .
+290           1101    GQVRGTR|PW  0.188    .
+290           1117    PPNPPGR|SS  0.173    .
+290           1121    PGRSSLR|AL  0.111    .
+290           1124    SSLRALR|AL  0.206    .
+290           1127    RALRALR|SQ  0.176    .
+290           1135    QVLLLVK|SG  0.059    .
+290           1139    LVKSGLR|PL  0.074    .
+290           1145    RPLHPPR|NI  0.103    .
+290           1154    ELEPALR|DV  0.127    .
+290           1177    DCPLTIR|RT  0.074    .
+290           1178    CPLTIRR|TV  0.176    .
+290           1181    TIRRTVK|HL  0.238    .
+290           1188    HLTDHFK|SK  0.101    .
+290           1190    TDHFKSK|EL  0.077    .
+290           1199    VGLHLAR|AA  0.115    .
+290           1203    LARAAFR|WI  0.119    .
+290           1212    TCHIQWK|HG  0.099    .
+290           1224    EPDSVLR|KG  0.094    .
+290           1225    PDSVLRK|GG  0.100    .
+290           1249    ECGLTTK|TV  0.081    .
+290           1256    TVSGYVK|DS  0.116    .
+290           1272    PDSNTVK|QY  0.074    .
+290           1292    LTVDCLR|AA  0.121    .
+290           1298    RAAGFVR|NG  0.084    .
+290           1301    GFVRNGK|FE  0.107    .
+290           1309    EPVANLK|MP  0.063    .
+290           1315    KMPDGLR|GI  0.080    .
+290           1323    IFETNDK|GI  0.058    .
+290           1344    FSSEVIR|IL  0.130    .
+290           1349    IRILTTK|RG  0.067    .
+290           1350    RILTTKR|GD  0.209    .
+290           1357    GDSGAMK|TA  0.069    .
+290           1365    AMELCVR|CG  0.068    .
+290           1370    VRCGVGR|GT  0.125    .
+290           1384    VIVDHNR|QF  0.092    .
+290           1398    LLGELAR|GT  0.128    .
+290           1407    TAYFHCK|VK  0.085    .
+290           1409    YFHCKVK|GA  0.110    .
+290           1416    GASQVGR|LE  0.087    .
+290           1424    EIYPSDK|CL  0.064    .
+290           1439    GPLFSLR|EK  0.101    .
+290           1441    LFSLREK|GS  0.067    .
+290           1445    REKGSVR|RL  0.083    .
+290           1446    EKGSVRR|LT  0.117    .
+290           1486    DICALEK|IS  0.054    .
+290           1491    EKISDNR|KS  0.078    .
+290           1492    KISDNRK|SL  0.182    .
+290           1509    PVEPESK|PV  0.087    .
+290           1524    PIIEGTK|EV  0.064    .
+290           1541    SAAETEK|PA  0.084    .
+290           1591    TEGAAVK|SI  0.124    .
+290           1598    SIEANLK|MP  0.065    .
+290           1604    KMPDGLR|GI  0.080    .
+290           1612    IFETNDK|GI  0.058    .
+290           1633    FSSEVIR|IL  0.130    .
+290           1638    IRILTTK|RG  0.067    .
+290           1639    RILTTKR|GD  0.209    .
+290           1646    GDSGAMK|TA  0.069    .
+290           1654    AMELCVR|CG  0.068    .
+290           1659    VRCGVGR|GT  0.125    .
+290           1673    VIVDHNR|QF  0.092    .
+290           1687    LLGELAR|GT  0.128    .
+290           1696    TAYFHCK|VK  0.085    .
+290           1698    YFHCKVK|GA  0.110    .
+290           1705    GASQVGR|LE  0.087    .
+290           1713    EIYPSDK|CL  0.064    .
+290           1728    GPLFSLR|EK  0.101    .
+290           1730    LFSLREK|GS  0.067    .
+290           1734    REKGSVR|RL  0.083    .
+290           1735    EKGSVRR|LT  0.117    .
+290           1775    DICALEK|IS  0.054    .
+290           1780    EKISDNR|KS  0.078    .
+290           1781    KISDNRK|SL  0.182    .
+290           1798    PVEPESK|PV  0.087    .
+290           1813    PIIEGTK|EV  0.064    .
+290           1830    SAAETEK|PA  0.084    .
+290           1957    APPPTDK|EK  0.061    .
+290           1959    PPTDKEK|AS  0.084    .
+290           1997    EAPPAAK|TE  0.063    .
+290           2044    AGEVTIR|GR  0.103    .
+290           2046    EVTIRGR|SI  0.111    .
+290           2060    YGTDYVK|LN  0.062    .
+290           2063    DYVKLNR|TA  0.083    .
+290           2078    CHSIGLR|PY  0.099    .
+290           2087    SHFFQIK|QQ  0.069    .
+____________________________^_________________
+
+
+
+

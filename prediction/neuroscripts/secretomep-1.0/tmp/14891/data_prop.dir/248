@@ -1,0 +1,261 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2284 248         
+MRSVPACMEGTPTTTREKKIARQTFVKDMLVMEYGQYYLHLLADTIDVPALCAKAGLCKKETRDMIYNHPLFAVALKGVQ      80
+EGEGCTACKDGMDMVKLILNSPDLKDLTHIAVKEFCSLVHFSGCDAIIEVVVNQILNEYVPKFDPESVCIGFGACPNNTA     160
+VAVIEEEEVVGDGEICEVCHDALAEVKKIANDPDSAKIVADIAPVICEAISIPFCSRIITSLVETQFDKLKTLDPTKECV     240
+KLAACPAYGALNAVLKAVNSNDPACDRCTQVADQVIAGLEDEQVDTIIRDEIGELCSLLPIPDCKETLDGYFNQLVSLLK     320
+LTNGKQICTMAGICEAVAPEPIGIVRAGSKANTNTLRVEFGHVLVENLRTELLDRDVGQILEVRRVENQLDHVHSILASR     400
+TSLSLLNTFDCSHSLDTRGILAHTVSVMFTSRSMDALVTMYFTTSSPTNSQKSHSTSEIVSVTAGADRAGHIPILAQVCW     480
+GIIPAMVWSRALTSPFIQLAQSSMGTAAQIPPVASLIRSWVAGSVQATLTSEKMAVQSRQDAASPTMGEAEHSRPGLGRP     560
+KPESRADCSKNVLRERTISHHATQNHVCRSQSSDNMLTALLLVALVGACSGSPIVGDAASCRLCTAIFSEVKVAWTDPAT     640
+QDLIKLATGGICAAVPIEDCANWINGEVSALDQTIAGMIPQHTCASIGMCPARSAPAVTDTISDVECDFCEFVGDEVVKY     720
+IVTNASIDLLVNITETVCAKIPLVSNECEQLVMEYGQYYLHLLADTIDVPALCAKAGLCKKETRDMIYNHPLFAVALKGV     800
+QEGEGCTACKDGMDMVKLILNSPDLKDLTHIAVKEFCSLVHFSGCDAIIEVVINQILNEYVPKFDPESVCIGFGACPNNT     880
+VVAVIEEKEVVGDGEICEVCHDALAEVKKIANDPDSAKIVADIAPVICEAISIPFCSRIITSLVETQFDKLKTLDPTKEC     960
+VKLAACPAYGALNAVLKAVNSNDPACDRCTQVADQVIAGLEDEQVDTIIRDEIGELCSLLPIPDCKETLDGYFNQLVSLL    1040
+KLTNGKQICTMAGICEAVAPEPIEVVKDTCGECTMITGMVITSLSDDAARKEVTDAVSEICAVLPGKMAKSCEETVDEYV    1120
+KMLLDYIATMDPKELCSMFGLCTMKYLCLLLACLLAASSANQEGIVMDIVCDTCEFVGHEIDSRLLTKDTKQKILDFGKM    1200
+TCSKLPLFAKECGDAVETYGPEAIAMLFKKFDVDRVCAQVHLCPATNVVDGAFYAHGSTSSCRACKDGFEVVKMIINSAE    1280
+VRDMVHIAVNESCIASTSNAHTVDVCEKLAGKIADEILGNLLPLFDTEGICTSMGVCTSSSPLLHTTPEGCKACVAALDL    1360
+VDVVLKSNDLKDLADVAMDELCIVMGGRVDVCQKILRGVIDPIITNVVQLFDPKMLCSQAGACPAKHVTAVSLVDSNVFC    1440
+DPCKQAIQELHNIVEDNETDTLLTELSGILCNFIEIPFCKSVMAAIIKESLDDVDHTDPAGTCASIGACQSAVAFYDTPS    1520
+KLEDNCSECTEIATQVKAALSNPEIVTLLKDAVECVKLAACPAYGALNAVLKAVNSNDPACDRCTQVADQVIAGLEDEQV    1600
+DTIIRDEIGELCSLLPIPDCKETLDGYFNQLVSLLKLTNGKQICTMAGICEAVAPEPIEVVKDTCGECTLITGMVITSLS    1680
+DDAARKEVTDAVSEICAVLPGKMAKSCEETVDEYVKMLLDYIATMDPKELCSMFGLCTPMILPTVLFLLFPALSSAEPVA    1760
+YNSKCTTCQAIVTQLQPAVLRTQFAALCSDESCPELAGLPSQINAYQLCGKLKLCPRGRYNVYNLQDGLDISMKYLCLLL    1840
+ACVVVAASSANQEGIVMDIVCDTCEFVGHEIDSRLLTKDTKQKILDFGKMTCSKLPLFAKECGDAVDTYGPEAIAMLFKK    1920
+FDVDRVCAQVHLCPATNVVDGAFYAHGSTSSCRACKDGFEVVKMIINSAEVRDMVHIAVNESCIASTSNAHTVDVCEKLA    2000
+GKIADEILGNLLPLFDTEGICTSMGVCTSSSPLLHTTPEGCKACVAALDLVDVVLKSNDLKDLADVAMDELCIVMGGRVD    2080
+VCQKILRGVIDPIITNVVQLFDPKMLCSQAGACPAKHVTAVSLVDSNVFCDPCKQAIQELHNIVEDNETDTLLTELSGIL    2160
+CNFIEIPFCKSVMAAIIKESLDDVDHTDPAGTCASIGACQSAVAFYDTPSKLEDNCSECTEIATQVKAALSNPEIVTLLK    2240
+DAVANSLIQEPTDKSKKPIRTRYLSHVTSFQPIRDQYFLIRSVA                                        2320
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+............................................                                        2320
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+248              2    -----MR|SV  0.216    .
+248             16    GTPTTTR|EK  0.086    .
+248             18    PTTTREK|KI  0.057    .
+248             19    TTTREKK|IA  0.373    .
+248             22    REKKIAR|QT  0.114    .
+248             27    ARQTFVK|DM  0.079    .
+248             54    VPALCAK|AG  0.063    .
+248             59    AKAGLCK|KE  0.059    .
+248             60    KAGLCKK|ET  0.102    .
+248             63    LCKKETR|DM  0.108    .
+248             77    LFAVALK|GV  0.106    .
+248             89    EGCTACK|DG  0.075    .
+248             96    DGMDMVK|LI  0.060    .
+248            105    LNSPDLK|DL  0.081    .
+248            113    LTHIAVK|EF  0.061    .
+248            142    LNEYVPK|FD  0.071    .
+248            187    DALAEVK|KI  0.059    .
+248            188    ALAEVKK|IA  0.133    .
+248            197    NDPDSAK|IV  0.084    .
+248            217    SIPFCSR|II  0.087    .
+248            229    VETQFDK|LK  0.053    .
+248            231    TQFDKLK|TL  0.070    .
+248            237    KTLDPTK|EC  0.054    .
+248            241    PTKECVK|LA  0.054    .
+248            256    ALNAVLK|AV  0.084    .
+248            267    NDPACDR|CT  0.081    .
+248            289    QVDTIIR|DE  0.085    .
+248            305    LPIPDCK|ET  0.071    .
+248            320    QLVSLLK|LT  0.061    .
+248            325    LKLTNGK|QI  0.065    .
+248            346    EPIGIVR|AG  0.104    .
+248            350    IVRAGSK|AN  0.066    .
+248            357    ANTNTLR|VE  0.077    .
+248            369    VLVENLR|TE  0.060    .
+248            375    RTELLDR|DV  0.223    .
+248            384    GQILEVR|RV  0.128    .
+248            385    QILEVRR|VE  0.101    .
+248            400    HSILASR|TS  0.086    .
+248            418    SHSLDTR|GI  0.112    .
+248            432    SVMFTSR|SM  0.158    .
+248            452    SPTNSQK|SH  0.124    .
+248            468    VTAGADR|AG  0.078    .
+248            490    PAMVWSR|AL  0.093    .
+248            518    PVASLIR|SW  0.135    .
+248            533    ATLTSEK|MA  0.065    .
+248            539    KMAVQSR|QD  0.115    .
+248            554    GEAEHSR|PG  0.079    .
+248            559    SRPGLGR|PK  0.110    .
+248            561    PGLGRPK|PE  0.062    .
+248            565    RPKPESR|AD  0.090    .
+248            570    SRADCSK|NV  0.089    .
+248            574    CSKNVLR|ER  0.098    .
+248            576    KNVLRER|TI  0.108    .
+248            589    TQNHVCR|SQ  0.178    .
+248            622    GDAASCR|LC  0.113    .
+248            632    AIFSEVK|VA  0.062    .
+248            645    ATQDLIK|LA  0.071    .
+248            693    IGMCPAR|SA  0.278    .
+248            719    VGDEVVK|YI  0.065    .
+248            740    TETVCAK|IP  0.060    .
+248            775    VPALCAK|AG  0.063    .
+248            780    AKAGLCK|KE  0.059    .
+248            781    KAGLCKK|ET  0.102    .
+248            784    LCKKETR|DM  0.108    .
+248            798    LFAVALK|GV  0.106    .
+248            810    EGCTACK|DG  0.075    .
+248            817    DGMDMVK|LI  0.060    .
+248            826    LNSPDLK|DL  0.081    .
+248            834    LTHIAVK|EF  0.061    .
+248            863    LNEYVPK|FD  0.071    .
+248            888    VAVIEEK|EV  0.064    .
+248            908    DALAEVK|KI  0.059    .
+248            909    ALAEVKK|IA  0.133    .
+248            918    NDPDSAK|IV  0.084    .
+248            938    SIPFCSR|II  0.087    .
+248            950    VETQFDK|LK  0.053    .
+248            952    TQFDKLK|TL  0.070    .
+248            958    KTLDPTK|EC  0.054    .
+248            962    PTKECVK|LA  0.054    .
+248            977    ALNAVLK|AV  0.084    .
+248            988    NDPACDR|CT  0.081    .
+248           1010    QVDTIIR|DE  0.085    .
+248           1026    LPIPDCK|ET  0.071    .
+248           1041    QLVSLLK|LT  0.061    .
+248           1046    LKLTNGK|QI  0.065    .
+248           1067    EPIEVVK|DT  0.091    .
+248           1090    LSDDAAR|KE  0.073    .
+248           1091    SDDAARK|EV  0.119    .
+248           1107    CAVLPGK|MA  0.076    .
+248           1110    LPGKMAK|SC  0.119    .
+248           1121    TVDEYVK|ML  0.074    .
+248           1133    IATMDPK|EL  0.062    .
+248           1145    FGLCTMK|YL  0.062    .
+248           1184    GHEIDSR|LL  0.081    .
+248           1188    DSRLLTK|DT  0.096    .
+248           1191    LLTKDTK|QK  0.058    .
+248           1193    TKDTKQK|IL  0.080    .
+248           1199    KILDFGK|MT  0.071    .
+248           1204    GKMTCSK|LP  0.057    .
+248           1210    KLPLFAK|EC  0.085    .
+248           1229    AIAMLFK|KF  0.064    .
+248           1230    IAMLFKK|FD  0.113    .
+248           1235    KKFDVDR|VC  0.091    .
+248           1263    GSTSSCR|AC  0.126    .
+248           1266    SSCRACK|DG  0.220    .
+248           1273    DGFEVVK|MI  0.066    .
+248           1282    INSAEVR|DM  0.120    .
+248           1308    TVDVCEK|LA  0.081    .
+248           1312    CEKLAGK|IA  0.073    .
+248           1352    TTPEGCK|AC  0.061    .
+248           1366    LVDVVLK|SN  0.069    .
+248           1371    LKSNDLK|DL  0.102    .
+248           1388    CIVMGGR|VD  0.066    .
+248           1394    RVDVCQK|IL  0.064    .
+248           1397    VCQKILR|GV  0.140    .
+248           1414    VQLFDPK|ML  0.062    .
+248           1426    AGACPAK|HV  0.096    .
+248           1444    VFCDPCK|QA  0.081    .
+248           1480    IEIPFCK|SV  0.137    .
+248           1488    VMAAIIK|ES  0.061    .
+248           1521    FYDTPSK|LE  0.053    .
+248           1537    EIATQVK|AA  0.065    .
+248           1550    EIVTLLK|DA  0.064    .
+248           1557    DAVECVK|LA  0.055    .
+248           1572    ALNAVLK|AV  0.084    .
+248           1583    NDPACDR|CT  0.081    .
+248           1605    QVDTIIR|DE  0.085    .
+248           1621    LPIPDCK|ET  0.071    .
+248           1636    QLVSLLK|LT  0.061    .
+248           1641    LKLTNGK|QI  0.065    .
+248           1662    EPIEVVK|DT  0.084    .
+248           1685    LSDDAAR|KE  0.073    .
+248           1686    SDDAARK|EV  0.119    .
+248           1702    CAVLPGK|MA  0.076    .
+248           1705    LPGKMAK|SC  0.119    .
+248           1716    TVDEYVK|ML  0.074    .
+248           1728    IATMDPK|EL  0.062    .
+248           1764    PVAYNSK|CT  0.062    .
+248           1781    LQPAVLR|TQ  0.091    .
+248           1811    AYQLCGK|LK  0.053    .
+248           1813    QLCGKLK|LC  0.068    .
+248           1817    KLKLCPR|GR  0.083    .
+248           1819    KLCPRGR|YN  0.097    .
+248           1834    GLDISMK|YL  0.070    .
+248           1874    GHEIDSR|LL  0.081    .
+248           1878    DSRLLTK|DT  0.096    .
+248           1881    LLTKDTK|QK  0.058    .
+248           1883    TKDTKQK|IL  0.080    .
+248           1889    KILDFGK|MT  0.071    .
+248           1894    GKMTCSK|LP  0.057    .
+248           1900    KLPLFAK|EC  0.086    .
+248           1919    AIAMLFK|KF  0.064    .
+248           1920    IAMLFKK|FD  0.113    .
+248           1925    KKFDVDR|VC  0.091    .
+248           1953    GSTSSCR|AC  0.126    .
+248           1956    SSCRACK|DG  0.220    .
+248           1963    DGFEVVK|MI  0.066    .
+248           1972    INSAEVR|DM  0.120    .
+248           1998    TVDVCEK|LA  0.081    .
+248           2002    CEKLAGK|IA  0.073    .
+248           2042    TTPEGCK|AC  0.061    .
+248           2056    LVDVVLK|SN  0.069    .
+248           2061    LKSNDLK|DL  0.102    .
+248           2078    CIVMGGR|VD  0.066    .
+248           2084    RVDVCQK|IL  0.064    .
+248           2087    VCQKILR|GV  0.140    .
+248           2104    VQLFDPK|ML  0.062    .
+248           2116    AGACPAK|HV  0.096    .
+248           2134    VFCDPCK|QA  0.081    .
+248           2170    IEIPFCK|SV  0.137    .
+248           2178    VMAAIIK|ES  0.061    .
+248           2211    FYDTPSK|LE  0.053    .
+248           2227    EIATQVK|AA  0.065    .
+248           2240    EIVTLLK|DA  0.061    .
+248           2254    IQEPTDK|SK  0.079    .
+248           2256    EPTDKSK|KP  0.061    .
+248           2257    PTDKSKK|PI  0.093    .
+248           2260    KSKKPIR|TR  0.092    .
+248           2262    KKPIRTR|YL  0.127    .
+248           2274    TSFQPIR|DQ  0.114    .
+248           2281    DQYFLIR|SV  0.166    .
+____________________________^_________________
+
+
+
+

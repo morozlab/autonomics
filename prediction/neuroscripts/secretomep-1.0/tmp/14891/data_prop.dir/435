@@ -1,0 +1,291 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1734 435         
+MWTQEEVNPVHHVCSYCGRRFTDSQHVTSHQITSMVWKVYEGMRYFEECTEYEIKRFQRIYQNWEKMVEVLLSADSHFYN      80
+YRPSSWTKDKERLQRYGEAMKRYKEGLDALEEDTDVDPRGGEPRTPCLPTPDFSRPAKGKERAPKYISPVLVKQEVEDLE     160
+RVGVVEINKDTKEPEVDTDEMILQSVPNSLEMISSLVNDKVISNFLPDTAVDIREILIFCPGSENDVLDKFEETLTEEEK     240
+LFLEEETKLAKQELSQLSATELKRELDNLNKVSCFPKFPDPEEEFLGEDELEKIDKHTADILKIAKQMSELSPEEYSKKV     320
+MNVLIEFERIVIPDDNEGVSEESNKEIDDFDFLGDDYNVMIYLNRNIKDPDNCLVELFNDSDSLESAAKSKNEMVDGVRK     400
+NPGRKAKEGVSYKIGDEDDDTDDYLFLRYILTSAPVGCASSKGFLMEKLEPRTEDFVPSVCELHGDLEPCPEIVTAVGTK     480
+DPEKFPVPSFIKIAESKIPGAGFGIFAATFIKPGIIIGEYKGKKLTEKKYRELEASGKESGYAWKVKTSKGVHFVDGSSY     560
+RSSNWLRFINCARGQCEETILMRVYKGTVQYYSYKPIPMGQELLLFYGDEYFTDLGYQICREEPNTEMKFHCKTDNCWRM     640
+FTNEAELLNHQCRTVKRRSNRAIEPNKIHQCPQCDKRYADKFNLRRHIRNVHEGVGTYKCLYCGYLTDSRQKFERHQATH     720
+SEKKEFKCTQCNYSAIKKRTLTVHVHRYHNSNRTFKCKYKQCGVKKPSQEEFAAELKRELDNLNKVSCFPKFPDPEEEFL     800
+GEDELEKIDKHTADILKIAKQMSELSTEEYSKKVMNVLIEFERIVIPDDNEGVSEESNPSVEVTGTDTISTNQTLESTNP     880
+PSTTIEEEIDDFDFLGDDYNVMTYLNRNIKDPDNGLVELFHDPDSSESAAKSKNDMVDGVRKNPGRKAKEGVSYKIGDED     960
+DDTDDYFCWRCKDFVPSVCELHGDLEPCPEIVTAVGTKDPEKFPVPSFIKIAESKIPGAGFGIFAATFIKPGIIIGEYKG    1040
+KKLTEKKYRELEASGKESGYAWKVKTSKGVHFVDGSSYRSSNWLRFINCARGQCEENILMRVYKGAVQYYSYKPIPMGQE    1120
+LLLFYGDEYFTDLGYQVCREEPNMEMKFHCKTDNCWRMFTTEAELLNHQCRTVKRKPNTTIEPNKIHQCPQCDKRYVDKL    1200
+NLRRHIRNVHEGVGNFKCLYCGYLTDNRVDFENHQATHSEKKEFKCSQCNYSAITKQQLTSHVNRHDNSNRTFKCKYKQC    1280
+RVKKPSQEELYEHIRNEHPMKQHRCDVCPISFGNLHHLSSHKLIHSGVKPYQCEYCGKGFTQQHHYNNHQLVHSGAKPHS    1360
+CEVCGKTFTEKVHLKTHMRIHTGGNNFKKSDFNINCIAMITIYDSKTRQKHVLEGLGGPTPTLLIKDHVQHLTDHQMESH    1440
+QLICNSKLLTDESTVDADIDQVIYVMPILRMEQPTVTNNHIQTLQNIINQANLDAKAIPTTLIALLLSTKCRTELLNWEK    1520
+AERFLRANTCVLKFLETVQGKPGVFSTAPNEMTQMLNELGYPAPPPGARTGPGMGTGLRQGIPTGAGGSGLSRITPEFFQ    1600
+QALSGALRATNHQNGEFLIFSLGCTNEPDGDNCPGGGSSGDQEASIAALQQMISAAQQQTQGAPQPQQQQQQNRTEQLSQ    1680
+LHSMGLMDDVQNVQIYENWGRLETHNRLTTPSQFKHSLERDKQIFVRKGEGMEV                              1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+.................P..P...........................P...............................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+......P.........................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+......................................................                              1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+435             19    VCSYCGR|RF  0.120    .
+435             20    CSYCGRR|FT  0.204    .
+435             38    ITSMVWK|VY  0.082    .
+435             44    KVYEGMR|YF  0.104    .
+435             55    CTEYEIK|RF  0.059    .
+435             56    TEYEIKR|FQ  0.251    .
+435             59    EIKRFQR|IY  0.315    .
+435             66    IYQNWEK|MV  0.088    .
+435             82    SHFYNYR|PS  0.095    .
+435             88    RPSSWTK|DK  0.102    .
+435             90    SSWTKDK|ER  0.063    .
+435             92    WTKDKER|LQ  0.107    .
+435             95    DKERLQR|YG  0.266    .
+435            101    RYGEAMK|RY  0.062    .
+435            102    YGEAMKR|YK  0.156    .
+435            104    EAMKRYK|EG  0.064    .
+435            119    DTDVDPR|GG  0.086    .
+435            124    PRGGEPR|TP  0.089    .
+435            135    PTPDFSR|PA  0.112    .
+435            138    DFSRPAK|GK  0.249    .
+435            140    SRPAKGK|ER  0.074    .
+435            142    PAKGKER|AP  0.082    .
+435            145    GKERAPK|YI  0.337    .
+435            153    ISPVLVK|QE  0.057    .
+435            161    EVEDLER|VG  0.060    .
+435            169    GVVEINK|DT  0.066    .
+435            172    EINKDTK|EP  0.066    .
+435            200    SSLVNDK|VI  0.068    .
+435            214    DTAVDIR|EI  0.080    .
+435            230    ENDVLDK|FE  0.065    .
+435            240    TLTEEEK|LF  0.061    .
+435            248    FLEEETK|LA  0.069    .
+435            251    EETKLAK|QE  0.058    .
+435            263    LSATELK|RE  0.058    .
+435            264    SATELKR|EL  0.143    .
+435            271    ELDNLNK|VS  0.050    .
+435            277    KVSCFPK|FP  0.102    .
+435            293    GEDELEK|ID  0.054    .
+435            296    ELEKIDK|HT  0.080    .
+435            303    HTADILK|IA  0.065    .
+435            306    DILKIAK|QM  0.060    .
+435            318    SPEEYSK|KV  0.089    .
+435            319    PEEYSKK|VM  0.083    .
+435            329    VLIEFER|IV  0.097    .
+435            345    VSEESNK|EI  0.072    .
+435            365    VMIYLNR|NI  0.081    .
+435            368    YLNRNIK|DP  0.161    .
+435            389    SLESAAK|SK  0.088    .
+435            391    ESAAKSK|NE  0.065    .
+435            399    EMVDGVR|KN  0.062    .
+435            400    MVDGVRK|NP  0.077    .
+435            404    VRKNPGR|KA  0.131    .
+435            405    RKNPGRK|AK  0.093    .
+435            407    NPGRKAK|EG  0.155    .
+435            413    KEGVSYK|IG  0.066    .
+435            428    DDYLFLR|YI  0.088    .
+435            442    VGCASSK|GF  0.062    .
+435            448    KGFLMEK|LE  0.057    .
+435            452    MEKLEPR|TE  0.082    .
+435            480    VTAVGTK|DP  0.069    .
+435            484    GTKDPEK|FP  0.062    .
+435            492    PVPSFIK|IA  0.069    .
+435            497    IKIAESK|IP  0.088    .
+435            512    FAATFIK|PG  0.064    .
+435            521    IIIGEYK|GK  0.062    .
+435            523    IGEYKGK|KL  0.068    .
+435            524    GEYKGKK|LT  0.113    .
+435            528    GKKLTEK|KY  0.070    .
+435            529    KKLTEKK|YR  0.093    .
+435            531    LTEKKYR|EL  0.153    .
+435            538    ELEASGK|ES  0.069    .
+435            545    ESGYAWK|VK  0.067    .
+435            547    GYAWKVK|TS  0.072    .
+435            550    WKVKTSK|GV  0.095    .
+435            561    VDGSSYR|SS  0.135    .
+435            567    RSSNWLR|FI  0.177    .
+435            573    RFINCAR|GQ  0.093    .
+435            583    EETILMR|VY  0.069    .
+435            586    ILMRVYK|GT  0.239    .
+435            595    VQYYSYK|PI  0.071    .
+435            621    LGYQICR|EE  0.074    .
+435            629    EPNTEMK|FH  0.076    .
+435            633    EMKFHCK|TD  0.063    .
+435            639    KTDNCWR|MF  0.080    .
+435            653    LLNHQCR|TV  0.118    .
+435            656    HQCRTVK|RR  0.088    .
+435            657    QCRTVKR|RS  0.168    .
+435            658    CRTVKRR|SN  0.500 *ProP*
+435            661    VKRRSNR|AI  0.508 *ProP*
+435            667    RAIEPNK|IH  0.057    .
+435            676    QCPQCDK|RY  0.060    .
+435            677    CPQCDKR|YA  0.338    .
+435            681    DKRYADK|FN  0.061    .
+435            685    ADKFNLR|RH  0.075    .
+435            686    DKFNLRR|HI  0.142    .
+435            689    NLRRHIR|NV  0.610 *ProP*
+435            699    EGVGTYK|CL  0.065    .
+435            710    GYLTDSR|QK  0.065    .
+435            712    LTDSRQK|FE  0.064    .
+435            715    SRQKFER|HQ  0.114    .
+435            723    QATHSEK|KE  0.062    .
+435            724    ATHSEKK|EF  0.093    .
+435            727    SEKKEFK|CT  0.071    .
+435            737    CNYSAIK|KR  0.056    .
+435            738    NYSAIKK|RT  0.097    .
+435            739    YSAIKKR|TL  0.269    .
+435            747    LTVHVHR|YH  0.093    .
+435            753    RYHNSNR|TF  0.103    .
+435            756    NSNRTFK|CK  0.202    .
+435            758    NRTFKCK|YK  0.081    .
+435            760    TFKCKYK|QC  0.088    .
+435            765    YKQCGVK|KP  0.074    .
+435            766    KQCGVKK|PS  0.116    .
+435            777    EFAAELK|RE  0.054    .
+435            778    FAAELKR|EL  0.174    .
+435            785    ELDNLNK|VS  0.050    .
+435            791    KVSCFPK|FP  0.102    .
+435            807    GEDELEK|ID  0.054    .
+435            810    ELEKIDK|HT  0.080    .
+435            817    HTADILK|IA  0.065    .
+435            820    DILKIAK|QM  0.059    .
+435            832    STEEYSK|KV  0.079    .
+435            833    TEEYSKK|VM  0.094    .
+435            843    VLIEFER|IV  0.097    .
+435            907    VMTYLNR|NI  0.078    .
+435            910    YLNRNIK|DP  0.206    .
+435            931    SSESAAK|SK  0.112    .
+435            933    ESAAKSK|ND  0.068    .
+435            941    DMVDGVR|KN  0.061    .
+435            942    MVDGVRK|NP  0.080    .
+435            946    VRKNPGR|KA  0.131    .
+435            947    RKNPGRK|AK  0.093    .
+435            949    NPGRKAK|EG  0.155    .
+435            955    KEGVSYK|IG  0.066    .
+435            970    DDYFCWR|CK  0.085    .
+435            972    YFCWRCK|DF  0.069    .
+435            998    VTAVGTK|DP  0.069    .
+435           1002    GTKDPEK|FP  0.062    .
+435           1010    PVPSFIK|IA  0.069    .
+435           1015    IKIAESK|IP  0.088    .
+435           1030    FAATFIK|PG  0.064    .
+435           1039    IIIGEYK|GK  0.062    .
+435           1041    IGEYKGK|KL  0.068    .
+435           1042    GEYKGKK|LT  0.113    .
+435           1046    GKKLTEK|KY  0.070    .
+435           1047    KKLTEKK|YR  0.093    .
+435           1049    LTEKKYR|EL  0.153    .
+435           1056    ELEASGK|ES  0.069    .
+435           1063    ESGYAWK|VK  0.067    .
+435           1065    GYAWKVK|TS  0.072    .
+435           1068    WKVKTSK|GV  0.095    .
+435           1079    VDGSSYR|SS  0.135    .
+435           1085    RSSNWLR|FI  0.177    .
+435           1091    RFINCAR|GQ  0.091    .
+435           1101    EENILMR|VY  0.091    .
+435           1104    ILMRVYK|GA  0.291    .
+435           1113    VQYYSYK|PI  0.070    .
+435           1139    LGYQVCR|EE  0.085    .
+435           1147    EPNMEMK|FH  0.079    .
+435           1151    EMKFHCK|TD  0.062    .
+435           1157    KTDNCWR|MF  0.085    .
+435           1171    LLNHQCR|TV  0.187    .
+435           1174    HQCRTVK|RK  0.084    .
+435           1175    QCRTVKR|KP  0.155    .
+435           1176    CRTVKRK|PN  0.146    .
+435           1185    TTIEPNK|IH  0.060    .
+435           1194    QCPQCDK|RY  0.059    .
+435           1195    CPQCDKR|YV  0.429    .
+435           1199    DKRYVDK|LN  0.059    .
+435           1203    VDKLNLR|RH  0.069    .
+435           1204    DKLNLRR|HI  0.125    .
+435           1207    NLRRHIR|NV  0.589 *ProP*
+435           1217    EGVGNFK|CL  0.063    .
+435           1228    GYLTDNR|VD  0.061    .
+435           1241    QATHSEK|KE  0.060    .
+435           1242    ATHSEKK|EF  0.105    .
+435           1245    SEKKEFK|CS  0.067    .
+435           1256    NYSAITK|QQ  0.060    .
+435           1265    LTSHVNR|HD  0.118    .
+435           1271    RHDNSNR|TF  0.089    .
+435           1274    NSNRTFK|CK  0.217    .
+435           1276    NRTFKCK|YK  0.071    .
+435           1278    TFKCKYK|QC  0.076    .
+435           1281    CKYKQCR|VK  0.110    .
+435           1283    YKQCRVK|KP  0.078    .
+435           1284    KQCRVKK|PS  0.362    .
+435           1295    ELYEHIR|NE  0.081    .
+435           1301    RNEHPMK|QH  0.066    .
+435           1304    HPMKQHR|CD  0.089    .
+435           1322    HHLSSHK|LI  0.067    .
+435           1329    LIHSGVK|PY  0.063    .
+435           1338    QCEYCGK|GF  0.075    .
+435           1357    LVHSGAK|PH  0.067    .
+435           1366    SCEVCGK|TF  0.070    .
+435           1371    GKTFTEK|VH  0.056    .
+435           1375    TEKVHLK|TH  0.071    .
+435           1379    HLKTHMR|IH  0.099    .
+435           1388    TGGNNFK|KS  0.068    .
+435           1389    GGNNFKK|SD  0.194    .
+435           1406    ITIYDSK|TR  0.057    .
+435           1408    IYDSKTR|QK  0.096    .
+435           1410    DSKTRQK|HV  0.096    .
+435           1426    TPTLLIK|DH  0.077    .
+435           1447    QLICNSK|LL  0.062    .
+435           1470    YVMPILR|ME  0.071    .
+435           1496    QANLDAK|AI  0.075    .
+435           1510    ALLLSTK|CR  0.058    .
+435           1512    LLSTKCR|TE  0.079    .
+435           1520    ELLNWEK|AE  0.056    .
+435           1523    NWEKAER|FL  0.095    .
+435           1526    KAERFLR|AN  0.275    .
+435           1533    ANTCVLK|FL  0.076    .
+435           1541    LETVQGK|PG  0.055    .
+435           1569    APPPGAR|TG  0.084    .
+435           1579    GMGTGLR|QG  0.079    .
+435           1593    GGSGLSR|IT  0.098    .
+435           1608    ALSGALR|AT  0.119    .
+435           1674    QQQQQNR|TE  0.093    .
+435           1701    IYENWGR|LE  0.079    .
+435           1707    RLETHNR|LT  0.115    .
+435           1715    TTPSQFK|HS  0.060    .
+435           1720    FKHSLER|DK  0.096    .
+435           1722    HSLERDK|QI  0.066    .
+435           1727    DKQIFVR|KG  0.115    .
+435           1728    KQIFVRK|GE  0.107    .
+____________________________^_________________
+
+
+
+

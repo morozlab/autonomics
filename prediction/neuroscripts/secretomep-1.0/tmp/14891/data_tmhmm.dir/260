@@ -1,0 +1,12 @@
+# 260 Length: 2229
+# 260 Number of predicted TMHs:  3
+# 260 Exp number of AAs in TMHs: 69.7007499999999
+# 260 Exp number, first 60 AAs:  0.0016
+# 260 Total prob of N-in:        0.00021
+260	TMHMM2.0	outside	     1  1467
+260	TMHMM2.0	TMhelix	  1468  1490
+260	TMHMM2.0	inside	  1491  1811
+260	TMHMM2.0	TMhelix	  1812  1834
+260	TMHMM2.0	outside	  1835  2197
+260	TMHMM2.0	TMhelix	  2198  2220
+260	TMHMM2.0	inside	  2221  2229

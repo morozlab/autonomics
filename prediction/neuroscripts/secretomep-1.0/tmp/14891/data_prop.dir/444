@@ -1,0 +1,310 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1706 444         
+MENVPEQAKLSECLKKSNIISNGPEKKHTEPPKSGAKLKKENKPPVTPQVNTKPIVVVSPAPPKTVIDELKMSGEDTKKS      80
+KKRRRKQNKKRQDVDTSILANNTNIPGSSSIFSGASAKKDEPQKTTARKTVVVPEAPLSKNITMGTSRVSPPSITTAAFS     160
+NHQSPESPRMVPVKRDPPVVQKQMKVSPKNPSKSLYEKPIQIPIPPMKPAISKSVIPKNITIKKTQAHVITTTTLVASTA     240
+APGYERSINSVSMSTITMTTTQAMSIINSHTSTSSVIGSTTQSVWGSTSPISSIMPEGSSMAPGGPAPRTTPIKAPGPPK     320
+GYEAVGSGEQMVVGGEGMRVPTPKAIGSERAADRAIGSERARHIHKESPMNGLDPGCSPFANSNPGFFLGLQEILSSAKP     400
+TEKSTSELFFEEDLTSTFPGSWTTSTGQGSLWSSGAVAPPPLSTLNSVSVTNSLDSSNSSRSSPEQQKLIAEEEEEERLR     480
+KERDENRILARQRKRDRKKEQKKAAADRKKQEEEETVMVEQRKQEQELQHKLEEEKKRKDKRRHTKPSKNEDNEDGSSNS     560
+SGSRSSSIERVLMENVPEQAKLSECLKKSNIISNGPEKKHTEPPKSGAKLKKENKPPVTPQVNTKPIVVVSPAPPKTVID     640
+ELKMSGEDTKKSKKRRRKQNKKRQDVDTSILANNTNIPGSSSIFSGASAKKDEPQKTTARKTVVVPEAPLSKNITMGTSR     720
+VSPPSITTAAFSNHQSPESPRMAPVKRDPPVVQKQMKVSPKNPSKSLYEKPIQISIPPMKPAISKSVIPKNITIKKTQAH     800
+VITTTTLVASTAAPGYERSINSVSMSTITMTTTQAMSIINSHTSTSSVIGSTTQSVWGSTSPISSIMPEGSSMAPGGPAP     880
+RTTPIKAPGPPKGYEAMGSGEQMVVGGEGMRVPTPKAIGSERAADRAIGSERARHIHKESPMNGLDPGCSPFANSNPGFF     960
+LGLQEILSSAKPTEKSTSELFFEEDLTSTFPGSWTTSTGQGSLWSSGAVAPPPLSTLNSVSVTNSLDSSNSSRSSPEQQK    1040
+LIAEEEEEERLRKERDENRILARQRKRDRKKEQKKAAADRKKQEEEETVMVEQRKQEQELQHKLEEEKKRKDKRRHTKPS    1120
+KNEDNEDGSSNSSGSRSSSIERVLMENVPEQAKLSECLKKSNIISNGPEKKHTEPPKSGAKLKKENKPPVTPQVNTKPIV    1200
+VVSPAPPKTVIDELKMSGEDTKKSKKRRRKQNKKRQDVDTSILANNTNIPGSSSIFSGASAKKDEPQKTTARKTVVVPEA    1280
+PLSKNITMGTSRVSPPSIPTAAFSNHQSPESPRMVPVKRDPPVVQKQMKVSPKNPSKSLYEKPIQISIPPMKPAISKSVI    1360
+PKNITIKKTQAHVITTTTLVASTAAPGYERSINSVSMSTITMTTTQAMSIINSHTSTSSVIGSTTQSVWGSTSPISSIMP    1440
+EGSSMAPGGPAPRTTPIKAPGPPKGYEAMGSGEQMVVGGEGMRVPTPKAIGSERAADRAIGSERARHIHKESPMNGLDPG    1520
+CSPFANSNPGFFLGLQEILSSAKPTEKSTSELFFEEDLTSTFPGSWTTSTGQGSLWSSGAVAPPPLSTLNSVSVTNSLDS    1600
+SNSSRSSPEVNSLWMQHPPPSQTPPWSCVGAGKVGGPITPPPPQQQQAGSNIGPIPGIIHIPRSISLQSNPSLSPFQAFS    1680
+GLDQRGVRQWTPRLHSGFEMPPMRPS                                                          1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+..........................                                                          1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+444              9    NVPEQAK|LS  0.058    .
+444             15    KLSECLK|KS  0.067    .
+444             16    LSECLKK|SN  0.162    .
+444             26    ISNGPEK|KH  0.062    .
+444             27    SNGPEKK|HT  0.133    .
+444             33    KHTEPPK|SG  0.077    .
+444             37    PPKSGAK|LK  0.057    .
+444             39    KSGAKLK|KE  0.075    .
+444             40    SGAKLKK|EN  0.119    .
+444             43    KLKKENK|PP  0.058    .
+444             53    TPQVNTK|PI  0.081    .
+444             64    VSPAPPK|TV  0.090    .
+444             71    TVIDELK|MS  0.074    .
+444             78    MSGEDTK|KS  0.062    .
+444             79    SGEDTKK|SK  0.123    .
+444             81    EDTKKSK|KR  0.064    .
+444             82    DTKKSKK|RR  0.086    .
+444             83    TKKSKKR|RR  0.220    .
+444             84    KKSKKRR|RK  0.241    .
+444             85    KSKKRRR|KQ  0.206    .
+444             86    SKKRRRK|QN  0.310    .
+444             89    RRRKQNK|KR  0.089    .
+444             90    RRKQNKK|RQ  0.094    .
+444             91    RKQNKKR|QD  0.187    .
+444            118    FSGASAK|KD  0.082    .
+444            119    SGASAKK|DE  0.123    .
+444            124    KKDEPQK|TT  0.064    .
+444            128    PQKTTAR|KT  0.090    .
+444            129    QKTTARK|TV  0.095    .
+444            140    PEAPLSK|NI  0.064    .
+444            148    ITMGTSR|VS  0.085    .
+444            169    QSPESPR|MV  0.132    .
+444            174    PRMVPVK|RD  0.072    .
+444            175    RMVPVKR|DP  0.278    .
+444            182    DPPVVQK|QM  0.064    .
+444            185    VVQKQMK|VS  0.064    .
+444            189    QMKVSPK|NP  0.080    .
+444            193    SPKNPSK|SL  0.102    .
+444            198    SKSLYEK|PI  0.079    .
+444            208    IPIPPMK|PA  0.073    .
+444            213    MKPAISK|SV  0.131    .
+444            218    SKSVIPK|NI  0.100    .
+444            223    PKNITIK|KT  0.075    .
+444            224    KNITIKK|TQ  0.117    .
+444            246    AAPGYER|SI  0.109    .
+444            309    PGGPAPR|TT  0.082    .
+444            314    PRTTPIK|AP  0.070    .
+444            320    KAPGPPK|GY  0.091    .
+444            339    VGGEGMR|VP  0.068    .
+444            344    MRVPTPK|AI  0.112    .
+444            350    KAIGSER|AA  0.154    .
+444            354    SERAADR|AI  0.145    .
+444            360    RAIGSER|AR  0.096    .
+444            362    IGSERAR|HI  0.180    .
+444            366    RARHIHK|ES  0.067    .
+444            399    EILSSAK|PT  0.070    .
+444            403    SAKPTEK|ST  0.096    .
+444            461    DSSNSSR|SS  0.210    .
+444            468    SSPEQQK|LI  0.071    .
+444            478    EEEEEER|LR  0.061    .
+444            480    EEEERLR|KE  0.075    .
+444            481    EEERLRK|ER  0.165    .
+444            483    ERLRKER|DE  0.366    .
+444            487    KERDENR|IL  0.090    .
+444            491    ENRILAR|QR  0.089    .
+444            493    RILARQR|KR  0.083    .
+444            494    ILARQRK|RD  0.329    .
+444            495    LARQRKR|DR  0.272    .
+444            497    RQRKRDR|KK  0.112    .
+444            498    QRKRDRK|KE  0.226    .
+444            499    RKRDRKK|EQ  0.125    .
+444            502    DRKKEQK|KA  0.076    .
+444            503    RKKEQKK|AA  0.151    .
+444            508    KKAAADR|KK  0.129    .
+444            509    KAAADRK|KQ  0.114    .
+444            510    AAADRKK|QE  0.137    .
+444            522    TVMVEQR|KQ  0.135    .
+444            523    VMVEQRK|QE  0.080    .
+444            531    EQELQHK|LE  0.058    .
+444            536    HKLEEEK|KR  0.060    .
+444            537    KLEEEKK|RK  0.110    .
+444            538    LEEEKKR|KD  0.152    .
+444            539    EEEKKRK|DK  0.098    .
+444            541    EKKRKDK|RR  0.130    .
+444            542    KKRKDKR|RH  0.169    .
+444            543    KRKDKRR|HT  0.333    .
+444            546    DKRRHTK|PS  0.160    .
+444            549    RHTKPSK|NE  0.062    .
+444            564    SNSSGSR|SS  0.186    .
+444            570    RSSSIER|VL  0.101    .
+444            581    NVPEQAK|LS  0.057    .
+444            587    KLSECLK|KS  0.067    .
+444            588    LSECLKK|SN  0.162    .
+444            598    ISNGPEK|KH  0.062    .
+444            599    SNGPEKK|HT  0.133    .
+444            605    KHTEPPK|SG  0.077    .
+444            609    PPKSGAK|LK  0.057    .
+444            611    KSGAKLK|KE  0.075    .
+444            612    SGAKLKK|EN  0.119    .
+444            615    KLKKENK|PP  0.058    .
+444            625    TPQVNTK|PI  0.081    .
+444            636    VSPAPPK|TV  0.090    .
+444            643    TVIDELK|MS  0.074    .
+444            650    MSGEDTK|KS  0.062    .
+444            651    SGEDTKK|SK  0.123    .
+444            653    EDTKKSK|KR  0.064    .
+444            654    DTKKSKK|RR  0.086    .
+444            655    TKKSKKR|RR  0.220    .
+444            656    KKSKKRR|RK  0.241    .
+444            657    KSKKRRR|KQ  0.206    .
+444            658    SKKRRRK|QN  0.310    .
+444            661    RRRKQNK|KR  0.089    .
+444            662    RRKQNKK|RQ  0.094    .
+444            663    RKQNKKR|QD  0.187    .
+444            690    FSGASAK|KD  0.082    .
+444            691    SGASAKK|DE  0.123    .
+444            696    KKDEPQK|TT  0.064    .
+444            700    PQKTTAR|KT  0.090    .
+444            701    QKTTARK|TV  0.095    .
+444            712    PEAPLSK|NI  0.064    .
+444            720    ITMGTSR|VS  0.085    .
+444            741    QSPESPR|MA  0.111    .
+444            746    PRMAPVK|RD  0.070    .
+444            747    RMAPVKR|DP  0.335    .
+444            754    DPPVVQK|QM  0.064    .
+444            757    VVQKQMK|VS  0.064    .
+444            761    QMKVSPK|NP  0.080    .
+444            765    SPKNPSK|SL  0.102    .
+444            770    SKSLYEK|PI  0.085    .
+444            780    ISIPPMK|PA  0.071    .
+444            785    MKPAISK|SV  0.131    .
+444            790    SKSVIPK|NI  0.100    .
+444            795    PKNITIK|KT  0.075    .
+444            796    KNITIKK|TQ  0.117    .
+444            818    AAPGYER|SI  0.109    .
+444            881    PGGPAPR|TT  0.082    .
+444            886    PRTTPIK|AP  0.070    .
+444            892    KAPGPPK|GY  0.085    .
+444            911    VGGEGMR|VP  0.068    .
+444            916    MRVPTPK|AI  0.112    .
+444            922    KAIGSER|AA  0.154    .
+444            926    SERAADR|AI  0.145    .
+444            932    RAIGSER|AR  0.096    .
+444            934    IGSERAR|HI  0.180    .
+444            938    RARHIHK|ES  0.067    .
+444            971    EILSSAK|PT  0.070    .
+444            975    SAKPTEK|ST  0.096    .
+444           1033    DSSNSSR|SS  0.210    .
+444           1040    SSPEQQK|LI  0.071    .
+444           1050    EEEEEER|LR  0.061    .
+444           1052    EEEERLR|KE  0.075    .
+444           1053    EEERLRK|ER  0.165    .
+444           1055    ERLRKER|DE  0.366    .
+444           1059    KERDENR|IL  0.090    .
+444           1063    ENRILAR|QR  0.089    .
+444           1065    RILARQR|KR  0.083    .
+444           1066    ILARQRK|RD  0.329    .
+444           1067    LARQRKR|DR  0.272    .
+444           1069    RQRKRDR|KK  0.112    .
+444           1070    QRKRDRK|KE  0.226    .
+444           1071    RKRDRKK|EQ  0.125    .
+444           1074    DRKKEQK|KA  0.076    .
+444           1075    RKKEQKK|AA  0.151    .
+444           1080    KKAAADR|KK  0.129    .
+444           1081    KAAADRK|KQ  0.114    .
+444           1082    AAADRKK|QE  0.137    .
+444           1094    TVMVEQR|KQ  0.135    .
+444           1095    VMVEQRK|QE  0.080    .
+444           1103    EQELQHK|LE  0.058    .
+444           1108    HKLEEEK|KR  0.060    .
+444           1109    KLEEEKK|RK  0.110    .
+444           1110    LEEEKKR|KD  0.152    .
+444           1111    EEEKKRK|DK  0.098    .
+444           1113    EKKRKDK|RR  0.130    .
+444           1114    KKRKDKR|RH  0.169    .
+444           1115    KRKDKRR|HT  0.333    .
+444           1118    DKRRHTK|PS  0.160    .
+444           1121    RHTKPSK|NE  0.062    .
+444           1136    SNSSGSR|SS  0.186    .
+444           1142    RSSSIER|VL  0.101    .
+444           1153    NVPEQAK|LS  0.057    .
+444           1159    KLSECLK|KS  0.067    .
+444           1160    LSECLKK|SN  0.162    .
+444           1170    ISNGPEK|KH  0.062    .
+444           1171    SNGPEKK|HT  0.133    .
+444           1177    KHTEPPK|SG  0.077    .
+444           1181    PPKSGAK|LK  0.057    .
+444           1183    KSGAKLK|KE  0.075    .
+444           1184    SGAKLKK|EN  0.119    .
+444           1187    KLKKENK|PP  0.058    .
+444           1197    TPQVNTK|PI  0.081    .
+444           1208    VSPAPPK|TV  0.090    .
+444           1215    TVIDELK|MS  0.074    .
+444           1222    MSGEDTK|KS  0.062    .
+444           1223    SGEDTKK|SK  0.123    .
+444           1225    EDTKKSK|KR  0.064    .
+444           1226    DTKKSKK|RR  0.086    .
+444           1227    TKKSKKR|RR  0.220    .
+444           1228    KKSKKRR|RK  0.241    .
+444           1229    KSKKRRR|KQ  0.206    .
+444           1230    SKKRRRK|QN  0.310    .
+444           1233    RRRKQNK|KR  0.089    .
+444           1234    RRKQNKK|RQ  0.094    .
+444           1235    RKQNKKR|QD  0.187    .
+444           1262    FSGASAK|KD  0.082    .
+444           1263    SGASAKK|DE  0.123    .
+444           1268    KKDEPQK|TT  0.064    .
+444           1272    PQKTTAR|KT  0.090    .
+444           1273    QKTTARK|TV  0.095    .
+444           1284    PEAPLSK|NI  0.064    .
+444           1292    ITMGTSR|VS  0.087    .
+444           1313    QSPESPR|MV  0.132    .
+444           1318    PRMVPVK|RD  0.072    .
+444           1319    RMVPVKR|DP  0.278    .
+444           1326    DPPVVQK|QM  0.064    .
+444           1329    VVQKQMK|VS  0.064    .
+444           1333    QMKVSPK|NP  0.080    .
+444           1337    SPKNPSK|SL  0.102    .
+444           1342    SKSLYEK|PI  0.085    .
+444           1352    ISIPPMK|PA  0.071    .
+444           1357    MKPAISK|SV  0.131    .
+444           1362    SKSVIPK|NI  0.100    .
+444           1367    PKNITIK|KT  0.075    .
+444           1368    KNITIKK|TQ  0.117    .
+444           1390    AAPGYER|SI  0.109    .
+444           1453    PGGPAPR|TT  0.082    .
+444           1458    PRTTPIK|AP  0.070    .
+444           1464    KAPGPPK|GY  0.085    .
+444           1483    VGGEGMR|VP  0.068    .
+444           1488    MRVPTPK|AI  0.112    .
+444           1494    KAIGSER|AA  0.154    .
+444           1498    SERAADR|AI  0.145    .
+444           1504    RAIGSER|AR  0.096    .
+444           1506    IGSERAR|HI  0.180    .
+444           1510    RARHIHK|ES  0.067    .
+444           1543    EILSSAK|PT  0.070    .
+444           1547    SAKPTEK|ST  0.096    .
+444           1605    DSSNSSR|SS  0.161    .
+444           1633    SCVGAGK|VG  0.071    .
+444           1663    GIIHIPR|SI  0.166    .
+444           1685    FSGLDQR|GV  0.133    .
+444           1688    LDQRGVR|QW  0.281    .
+444           1693    VRQWTPR|LH  0.125    .
+444           1704    FEMPPMR|PS  0.096    .
+____________________________^_________________
+
+
+
+

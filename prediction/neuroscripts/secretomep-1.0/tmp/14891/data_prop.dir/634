@@ -1,0 +1,214 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1465 634         
+MVMVDYEEIRALYIALKDKVDLIEAQELERDIKIIETHWINVYELLIAAFAVNIIYSFINYNVKLFIEDDCDVDYEEIRA      80
+LYIALKDKVDLIEAQELERDIKIIETHWINVYELLIAAFAVIQAREEAVSSEEETTESSGRAGGFAFGIEFGEDQVPSQG     160
+GPDEKGGDEKQPHDKTEPMTTEPISGQQAAPTAPPTTMEVQDLPDVNVNVSNNPVVDYEEIRALYIALKDKVDLIEAQEL     240
+ERDIKIIETHWINVYELLIAAFAVIQAREEAVSSEEETTESSGRAGGFAFGIEFVEGSTMKVLQSAAPAPTATQPAMITT     320
+KETRQEERSSRDDFNGRGFGMFGGGGGMFGMGGIMGGGMQLPMLPQMTYNQGHCCGGGSETTTTTQVDSTRFLSAIIDLR     400
+SWITSHMTELCSYGDSDIEIQLQYLSDLNQVKEIYSRTPIYRDARGKGFCPVNRGARYIGVKERYFPISGEFYPPGKSGF     480
+PVNRGPVNRGPTVAIKIVITYRNIDDRSDSTLVIYAPYSTNNTFMLCRCYGYLVSKHRVSTVTIWRALAEFLIFSLGCMN     560
+EPDGDNCHNKFRGSTSSSGYNIHSNLVLSRLQEARDARAEVAEFEDSMAELEDELIDSEENFTTLKVRLYNLDLIVPNTT     640
+SLAELQGKLELWRSLLDRGVEGCPPSLHQNVQLLSNQWRDLMEAVKGSKNMLKKAHDNVTMIERELKELHEWVQVKEAEM     720
+SRAKMFTTMDEIQLAFATIAQISIDAQNKRLYFEPLKFSAVDAFEGMCMNNVRNFYNTLSSRVVELWQTAEDLSTELRRN     800
+IHIVTNISDCTEHFVSWVKAICLGALNDQCADMTEQLEKTRELIEELNKTNPELAEQLRERCLTAVAEQGATNQKVGEAL     880
+GSLRSLHTQLDEMLHWERHILKTLGELPPIGGDKSAIEALDQQINDIQRKVDREEMRYNRLEDKASKVLIQFELGTGVEI     960
+EEKLTSMQLLWKDIGGASGEHRDRVDKAMFHFNTFESSVLNHEAFLQSQQSHFNYVQAHPEDAEAIARNEKLMEELNNSS    1040
+HLEQMSTALKEMKHLFPDVNAADEFKRFDEIKTHQEVFTSKVEEHTTALIRKEEASVYDSIPVDDLIRWSSNTREEEQCA    1120
+LDAAVPGSLEECEAELDKHESVCHLVRKHLLKELAAKQKEIIKAQTEAEKLFQEKGLDTGVQKLAEKMKQLQEEWGRTNE    1200
+AVGARQRMLEDRLVVLGALSDELEDQLVWIDRVRRGLDEAPEPGTTVTVLMQEIYDVKNVRSDIGEQGQKVTQLCTRGHE    1280
+VLAGTVSSDKLASRLRDLTESWQTVNDMARDRHILLQNTLTVREASEGFERLKDQLEGISRDMDEITKLPAECIPLDFQD    1360
+TLNGVVEEWQRLSAEVNERQVDMAELSRALFSFEDSMVVLRSIKGDLSQRLTVTGMDSNNIEEVGNVCVCMTSSGERVLV    1440
+TKSGWPLNRGQIPLISYIGGNLSCH                                                           1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+........................................................P.......................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+..................................P.............................................    1280
+................................................................................    1360
+................................................................................    1440
+.........................                                                           1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+634             10    VDYEEIR|AL  0.101    .
+634             17    ALYIALK|DK  0.068    .
+634             19    YIALKDK|VD  0.057    .
+634             30    EAQELER|DI  0.118    .
+634             33    ELERDIK|II  0.133    .
+634             64    FINYNVK|LF  0.060    .
+634             79    VDYEEIR|AL  0.098    .
+634             86    ALYIALK|DK  0.068    .
+634             88    YIALKDK|VD  0.057    .
+634             99    EAQELER|DI  0.118    .
+634            102    ELERDIK|II  0.133    .
+634            125    FAVIQAR|EE  0.078    .
+634            141    TTESSGR|AG  0.128    .
+634            165    QGGPDEK|GG  0.072    .
+634            170    EKGGDEK|QP  0.067    .
+634            175    EKQPHDK|TE  0.058    .
+634            222    VDYEEIR|AL  0.101    .
+634            229    ALYIALK|DK  0.068    .
+634            231    YIALKDK|VD  0.057    .
+634            242    EAQELER|DI  0.118    .
+634            245    ELERDIK|II  0.133    .
+634            268    FAVIQAR|EE  0.078    .
+634            284    TTESSGR|AG  0.128    .
+634            301    VEGSTMK|VL  0.063    .
+634            321    PAMITTK|ET  0.082    .
+634            324    ITTKETR|QE  0.083    .
+634            328    ETRQEER|SS  0.138    .
+634            331    QEERSSR|DD  0.365    .
+634            337    RDDFNGR|GF  0.113    .
+634            391    TQVDSTR|FL  0.156    .
+634            400    SAIIDLR|SW  0.146    .
+634            432    SDLNQVK|EI  0.064    .
+634            437    VKEIYSR|TP  0.065    .
+634            442    SRTPIYR|DA  0.214    .
+634            445    PIYRDAR|GK  0.283    .
+634            447    YRDARGK|GF  0.082    .
+634            454    GFCPVNR|GA  0.126    .
+634            457    PVNRGAR|YI  0.548 *ProP*
+634            462    ARYIGVK|ER  0.061    .
+634            464    YIGVKER|YF  0.112    .
+634            477    EFYPPGK|SG  0.082    .
+634            484    SGFPVNR|GP  0.103    .
+634            489    NRGPVNR|GP  0.133    .
+634            496    GPTVAIK|IV  0.082    .
+634            502    KIVITYR|NI  0.096    .
+634            507    YRNIDDR|SD  0.168    .
+634            528    NTFMLCR|CY  0.088    .
+634            536    YGYLVSK|HR  0.056    .
+634            538    YLVSKHR|VS  0.080    .
+634            546    STVTIWR|AL  0.083    .
+634            570    GDNCHNK|FR  0.086    .
+634            572    NCHNKFR|GS  0.118    .
+634            590    SNLVLSR|LQ  0.080    .
+634            595    SRLQEAR|DA  0.228    .
+634            598    QEARDAR|AE  0.302    .
+634            626    ENFTTLK|VR  0.053    .
+634            628    FTTLKVR|LY  0.075    .
+634            648    LAELQGK|LE  0.053    .
+634            653    GKLELWR|SL  0.110    .
+634            658    WRSLLDR|GV  0.277    .
+634            679    LLSNQWR|DL  0.220    .
+634            686    DLMEAVK|GS  0.064    .
+634            689    EAVKGSK|NM  0.054    .
+634            693    GSKNMLK|KA  0.093    .
+634            694    SKNMLKK|AH  0.168    .
+634            704    NVTMIER|EL  0.075    .
+634            707    MIERELK|EL  0.121    .
+634            716    HEWVQVK|EA  0.088    .
+634            722    KEAEMSR|AK  0.083    .
+634            724    AEMSRAK|MF  0.069    .
+634            749    SIDAQNK|RL  0.058    .
+634            750    IDAQNKR|LY  0.168    .
+634            757    LYFEPLK|FS  0.057    .
+634            773    MCMNNVR|NF  0.096    .
+634            782    YNTLSSR|VV  0.110    .
+634            798    DLSTELR|RN  0.093    .
+634            799    LSTELRR|NI  0.167    .
+634            819    HFVSWVK|AI  0.059    .
+634            839    MTEQLEK|TR  0.063    .
+634            841    EQLEKTR|EL  0.088    .
+634            849    LIEELNK|TN  0.055    .
+634            859    ELAEQLR|ER  0.072    .
+634            861    AEQLRER|CL  0.111    .
+634            875    QGATNQK|VG  0.061    .
+634            884    EALGSLR|SL  0.159    .
+634            898    EMLHWER|HI  0.085    .
+634            902    WERHILK|TL  0.074    .
+634            914    PPIGGDK|SA  0.120    .
+634            929    QINDIQR|KV  0.157    .
+634            930    INDIQRK|VD  0.077    .
+634            933    IQRKVDR|EE  0.093    .
+634            937    VDREEMR|YN  0.101    .
+634            940    EEMRYNR|LE  0.205    .
+634            944    YNRLEDK|AS  0.064    .
+634            947    LEDKASK|VL  0.063    .
+634            963    GVEIEEK|LT  0.067    .
+634            972    SMQLLWK|DI  0.086    .
+634            982    GASGEHR|DR  0.135    .
+634            984    SGEHRDR|VD  0.084    .
+634            987    HRDRVDK|AM  0.137    .
+634           1028    DAEAIAR|NE  0.073    .
+634           1031    AIARNEK|LM  0.109    .
+634           1050    QMSTALK|EM  0.064    .
+634           1053    TALKEMK|HL  0.076    .
+634           1066    NAADEFK|RF  0.067    .
+634           1067    AADEFKR|FD  0.265    .
+634           1072    KRFDEIK|TH  0.079    .
+634           1081    QEVFTSK|VE  0.060    .
+634           1091    HTTALIR|KE  0.083    .
+634           1092    TTALIRK|EE  0.086    .
+634           1108    PVDDLIR|WS  0.077    .
+634           1114    RWSSNTR|EE  0.095    .
+634           1138    CEAELDK|HE  0.060    .
+634           1147    SVCHLVR|KH  0.076    .
+634           1148    VCHLVRK|HL  0.108    .
+634           1152    VRKHLLK|EL  0.079    .
+634           1157    LKELAAK|QK  0.076    .
+634           1159    ELAAKQK|EI  0.085    .
+634           1163    KQKEIIK|AQ  0.067    .
+634           1170    AQTEAEK|LF  0.059    .
+634           1175    EKLFQEK|GL  0.080    .
+634           1183    LDTGVQK|LA  0.068    .
+634           1187    VQKLAEK|MK  0.062    .
+634           1189    KLAEKMK|QL  0.078    .
+634           1197    LQEEWGR|TN  0.099    .
+634           1205    NEAVGAR|QR  0.082    .
+634           1207    AVGARQR|ML  0.106    .
+634           1212    QRMLEDR|LV  0.114    .
+634           1232    QLVWIDR|VR  0.075    .
+634           1234    VWIDRVR|RG  0.070    .
+634           1235    WIDRVRR|GL  0.520 *ProP*
+634           1258    QEIYDVK|NV  0.067    .
+634           1261    YDVKNVR|SD  0.147    .
+634           1270    IGEQGQK|VT  0.056    .
+634           1277    VTQLCTR|GH  0.094    .
+634           1290    GTVSSDK|LA  0.064    .
+634           1294    SDKLASR|LR  0.081    .
+634           1296    KLASRLR|DL  0.133    .
+634           1310    TVNDMAR|DR  0.139    .
+634           1312    NDMARDR|HI  0.086    .
+634           1323    QNTLTVR|EA  0.104    .
+634           1331    ASEGFER|LK  0.096    .
+634           1333    EGFERLK|DQ  0.063    .
+634           1341    QLEGISR|DM  0.099    .
+634           1348    DMDEITK|LP  0.053    .
+634           1371    VVEEWQR|LS  0.068    .
+634           1379    SAEVNER|QV  0.173    .
+634           1388    DMAELSR|AL  0.091    .
+634           1401    DSMVVLR|SI  0.155    .
+634           1404    VVLRSIK|GD  0.097    .
+634           1410    KGDLSQR|LT  0.083    .
+634           1437    MTSSGER|VL  0.084    .
+634           1442    ERVLVTK|SG  0.084    .
+634           1449    SGWPLNR|GQ  0.098    .
+____________________________^_________________
+
+
+
+

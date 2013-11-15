@@ -1,0 +1,3 @@
+#Expasy feature, nPos : Total number of positively charged residues
+# col	ident			avg      	dev      	min      	max       	normal (applied)
+2	                nPos	3.753581	0.742715	0.000000	6.342121	log

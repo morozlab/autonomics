@@ -1,0 +1,254 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1553 560         
+MSPMILTLTGEFNSHNKYSGILYVLGDVEMVKEQYYEADVCKKIAEIQFSIFSPDDIAKQSHIQVVNKNLYDHTQNAREA      80
+VPYGVLDRRLGAGNKKTECTTCGLPVTDCIGHYGYIQLQLPVFHIGYFKTIVTILQCICKTCSSVLLPESEKTKFLKMFK     160
+RSGLNRLSQKSYTSQVILSCKKKSVCPSCGVANGVVKKGALLKIVHDQGRCPGKTRKSDGGKHSSLFRDAVAYNKDIGPL     240
+VNRALEVITPLRALELFRGIRPDEVVLLGMNPAIGRPSDLILQRILVPPLCIRPTVEVDASTTNEDDLTTKLTEIVFLNN     320
+VIQTNMQSGTSVSKLMETWDYLQIQCALYINSETAGIPLNLAPKKPARCFYQRLKGKQGRFRSNLSGKRVNFSARTVISP     400
+DPNLRIDEVAVPRQVAMVMTFPEVVTKANIEHMRELIKNGPDKHPGAKFYVANKPGAVKKFLKFANRAEVAKLLKPGDRV     480
+ERHLNDGDVVLFNRQPSLHKVSMMAHYAVVKPHRTFRFNECVCNPYNADFDGDEMNLHLPQTQVNEPAPPSAAAAAAAAA     560
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     640
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     720
+AAAAAAAAAAAAAAAAAAKTRFRRANKNSHVTQGGDNFKKFDFKVHFFSTVILSCKKKSVCPSCGVANGVVKKGALLKIV     800
+HDQGRCPGKTRKSDGGKHSSLFRDAVAYNKDIGPLVNRALEVITPLRALELFRGIRPDEVVLLGMNPAIGRPSDLILQRI     880
+LVPPLCIRPTVEVDASTTNEDDLTTKLTEIVFLNNVIQTNMQSGTSVSKLMETWDYLQIQCALYINSETAGIPLNLAPKK     960
+PARCFYQRLKGKQGRFRSNLSGKRVNFSARTVISPDPNLRIDEVAVPRQVAMVMTFPEVVTKANIEHMRELIKNGPDKHP    1040
+GAKFYVANKPGAVKKFLKFANRAEVAKLLKPGDRVERHLNDGDVVLFNRQPSLHKVVLLGMNPAIGRPSDLILQRILVPP    1120
+LCIRPTVEVDASTTNEDDLTTKLTEIVFLNNVIQTNMQSGTSVSKLMETWDYLQIQCALYINSETAGIPLNLAPKKPARC    1200
+FYQRLKGKQGRFRSNLSGKRVNFSARTVISPDPNLRIDEVAVPRQVAMVMTFPEVVTKANIEHMRELIKNGPDKHPGAKF    1280
+YVANKPGAVKKFLKFANRAEVAKLLKPGDRVERHLNDGDVVLFNRQPSLHKVSMMAHYAVVKPHRTFRFNECVCNPYNAD    1360
+FDGDEMNLHLPQTQEARAEAEALMGVKANLATPRSGEPLIAAIQDFITGAYLLSHKDVFLDRAQFEQLCSAVIVGKDMTL    1440
+KMVIPPPALIKPVRMWTGKQVFNVIISPDSTILLNHRAKNKQYTRDEELCEKDGFVVIRNSELIAGQLDKTLLGGGSKSN    1520
+IFYILLRDYGAEACADAMSRLARLIPTFLSHRG                                                   1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+....................................P...........................................     560
+................................................................................     640
+................................................................................     720
+.......................P........................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+...................................................................P............    1360
+................................................................................    1440
+................................................................................    1520
+.................................                                                   1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+560             17    EFNSHNK|YS  0.072    .
+560             32    GDVEMVK|EQ  0.059    .
+560             42    YEADVCK|KI  0.079    .
+560             43    EADVCKK|IA  0.137    .
+560             59    SPDDIAK|QS  0.080    .
+560             68    HIQVVNK|NL  0.076    .
+560             78    DHTQNAR|EA  0.090    .
+560             88    PYGVLDR|RL  0.103    .
+560             89    YGVLDRR|LG  0.094    .
+560             95    RLGAGNK|KT  0.061    .
+560             96    LGAGNKK|TE  0.080    .
+560            129    FHIGYFK|TI  0.066    .
+560            140    ILQCICK|TC  0.067    .
+560            152    LLPESEK|TK  0.056    .
+560            154    PESEKTK|FL  0.076    .
+560            157    EKTKFLK|MF  0.068    .
+560            160    KFLKMFK|RS  0.059    .
+560            161    FLKMFKR|SG  0.240    .
+560            166    KRSGLNR|LS  0.135    .
+560            170    LNRLSQK|SY  0.091    .
+560            181    QVILSCK|KK  0.063    .
+560            182    VILSCKK|KS  0.061    .
+560            183    ILSCKKK|SV  0.477    .
+560            197    VANGVVK|KG  0.058    .
+560            198    ANGVVKK|GA  0.134    .
+560            203    KKGALLK|IV  0.105    .
+560            210    IVHDQGR|CP  0.131    .
+560            214    QGRCPGK|TR  0.063    .
+560            216    RCPGKTR|KS  0.119    .
+560            217    CPGKTRK|SD  0.233    .
+560            222    RKSDGGK|HS  0.085    .
+560            228    KHSSLFR|DA  0.161    .
+560            235    DAVAYNK|DI  0.075    .
+560            243    IGPLVNR|AL  0.094    .
+560            252    EVITPLR|AL  0.082    .
+560            258    RALELFR|GI  0.106    .
+560            261    ELFRGIR|PD  0.208    .
+560            276    MNPAIGR|PS  0.090    .
+560            284    SDLILQR|IL  0.080    .
+560            293    VPPLCIR|PT  0.080    .
+560            311    EDDLTTK|LT  0.064    .
+560            334    SGTSVSK|LM  0.060    .
+560            364    PLNLAPK|KP  0.060    .
+560            365    LNLAPKK|PA  0.100    .
+560            368    APKKPAR|CF  0.137    .
+560            373    ARCFYQR|LK  0.134    .
+560            375    CFYQRLK|GK  0.061    .
+560            377    YQRLKGK|QG  0.061    .
+560            380    LKGKQGR|FR  0.104    .
+560            382    GKQGRFR|SN  0.142    .
+560            388    RSNLSGK|RV  0.096    .
+560            389    SNLSGKR|VN  0.118    .
+560            395    RVNFSAR|TV  0.143    .
+560            405    SPDPNLR|ID  0.093    .
+560            413    DEVAVPR|QV  0.114    .
+560            427    FPEVVTK|AN  0.072    .
+560            434    ANIEHMR|EL  0.128    .
+560            438    HMRELIK|NG  0.062    .
+560            443    IKNGPDK|HP  0.089    .
+560            448    DKHPGAK|FY  0.079    .
+560            454    KFYVANK|PG  0.057    .
+560            459    NKPGAVK|KF  0.053    .
+560            460    KPGAVKK|FL  0.169    .
+560            463    AVKKFLK|FA  0.093    .
+560            467    FLKFANR|AE  0.079    .
+560            472    NRAEVAK|LL  0.089    .
+560            475    EVAKLLK|PG  0.068    .
+560            479    LLKPGDR|VE  0.073    .
+560            482    PGDRVER|HL  0.264    .
+560            494    DVVLFNR|QP  0.075    .
+560            500    RQPSLHK|VS  0.056    .
+560            511    AHYAVVK|PH  0.063    .
+560            514    AVVKPHR|TF  0.089    .
+560            517    KPHRTFR|FN  0.519 *ProP*
+560            739    AAAAAAK|TR  0.060    .
+560            741    AAAAKTR|FR  0.127    .
+560            743    AAKTRFR|RA  0.096    .
+560            744    AKTRFRR|AN  0.514 *ProP*
+560            747    RFRRANK|NS  0.138    .
+560            759    QGGDNFK|KF  0.066    .
+560            760    GGDNFKK|FD  0.132    .
+560            764    FKKFDFK|VH  0.059    .
+560            776    TVILSCK|KK  0.066    .
+560            777    VILSCKK|KS  0.060    .
+560            778    ILSCKKK|SV  0.475    .
+560            792    VANGVVK|KG  0.058    .
+560            793    ANGVVKK|GA  0.134    .
+560            798    KKGALLK|IV  0.105    .
+560            805    IVHDQGR|CP  0.131    .
+560            809    QGRCPGK|TR  0.063    .
+560            811    RCPGKTR|KS  0.119    .
+560            812    CPGKTRK|SD  0.233    .
+560            817    RKSDGGK|HS  0.085    .
+560            823    KHSSLFR|DA  0.161    .
+560            830    DAVAYNK|DI  0.075    .
+560            838    IGPLVNR|AL  0.094    .
+560            847    EVITPLR|AL  0.082    .
+560            853    RALELFR|GI  0.106    .
+560            856    ELFRGIR|PD  0.208    .
+560            871    MNPAIGR|PS  0.090    .
+560            879    SDLILQR|IL  0.080    .
+560            888    VPPLCIR|PT  0.080    .
+560            906    EDDLTTK|LT  0.064    .
+560            929    SGTSVSK|LM  0.060    .
+560            959    PLNLAPK|KP  0.060    .
+560            960    LNLAPKK|PA  0.100    .
+560            963    APKKPAR|CF  0.137    .
+560            968    ARCFYQR|LK  0.134    .
+560            970    CFYQRLK|GK  0.061    .
+560            972    YQRLKGK|QG  0.061    .
+560            975    LKGKQGR|FR  0.104    .
+560            977    GKQGRFR|SN  0.142    .
+560            983    RSNLSGK|RV  0.096    .
+560            984    SNLSGKR|VN  0.118    .
+560            990    RVNFSAR|TV  0.143    .
+560           1000    SPDPNLR|ID  0.093    .
+560           1008    DEVAVPR|QV  0.114    .
+560           1022    FPEVVTK|AN  0.072    .
+560           1029    ANIEHMR|EL  0.128    .
+560           1033    HMRELIK|NG  0.062    .
+560           1038    IKNGPDK|HP  0.089    .
+560           1043    DKHPGAK|FY  0.079    .
+560           1049    KFYVANK|PG  0.057    .
+560           1054    NKPGAVK|KF  0.053    .
+560           1055    KPGAVKK|FL  0.169    .
+560           1058    AVKKFLK|FA  0.093    .
+560           1062    FLKFANR|AE  0.079    .
+560           1067    NRAEVAK|LL  0.089    .
+560           1070    EVAKLLK|PG  0.068    .
+560           1074    LLKPGDR|VE  0.073    .
+560           1077    PGDRVER|HL  0.264    .
+560           1089    DVVLFNR|QP  0.072    .
+560           1095    RQPSLHK|VV  0.061    .
+560           1107    MNPAIGR|PS  0.090    .
+560           1115    SDLILQR|IL  0.080    .
+560           1124    VPPLCIR|PT  0.080    .
+560           1142    EDDLTTK|LT  0.064    .
+560           1165    SGTSVSK|LM  0.060    .
+560           1195    PLNLAPK|KP  0.060    .
+560           1196    LNLAPKK|PA  0.100    .
+560           1199    APKKPAR|CF  0.137    .
+560           1204    ARCFYQR|LK  0.134    .
+560           1206    CFYQRLK|GK  0.061    .
+560           1208    YQRLKGK|QG  0.061    .
+560           1211    LKGKQGR|FR  0.104    .
+560           1213    GKQGRFR|SN  0.142    .
+560           1219    RSNLSGK|RV  0.096    .
+560           1220    SNLSGKR|VN  0.118    .
+560           1226    RVNFSAR|TV  0.143    .
+560           1236    SPDPNLR|ID  0.093    .
+560           1244    DEVAVPR|QV  0.114    .
+560           1258    FPEVVTK|AN  0.072    .
+560           1265    ANIEHMR|EL  0.128    .
+560           1269    HMRELIK|NG  0.062    .
+560           1274    IKNGPDK|HP  0.089    .
+560           1279    DKHPGAK|FY  0.079    .
+560           1285    KFYVANK|PG  0.057    .
+560           1290    NKPGAVK|KF  0.053    .
+560           1291    KPGAVKK|FL  0.169    .
+560           1294    AVKKFLK|FA  0.093    .
+560           1298    FLKFANR|AE  0.079    .
+560           1303    NRAEVAK|LL  0.089    .
+560           1306    EVAKLLK|PG  0.068    .
+560           1310    LLKPGDR|VE  0.073    .
+560           1313    PGDRVER|HL  0.264    .
+560           1325    DVVLFNR|QP  0.075    .
+560           1331    RQPSLHK|VS  0.056    .
+560           1342    AHYAVVK|PH  0.063    .
+560           1345    AVVKPHR|TF  0.089    .
+560           1348    KPHRTFR|FN  0.519 *ProP*
+560           1377    PQTQEAR|AE  0.098    .
+560           1387    EALMGVK|AN  0.058    .
+560           1394    ANLATPR|SG  0.146    .
+560           1416    AYLLSHK|DV  0.074    .
+560           1422    KDVFLDR|AQ  0.105    .
+560           1436    SAVIVGK|DM  0.071    .
+560           1441    GKDMTLK|MV  0.073    .
+560           1451    PPPALIK|PV  0.070    .
+560           1454    ALIKPVR|MW  0.120    .
+560           1459    VRMWTGK|QV  0.106    .
+560           1477    TILLNHR|AK  0.080    .
+560           1479    LLNHRAK|NK  0.072    .
+560           1481    NHRAKNK|QY  0.073    .
+560           1485    KNKQYTR|DE  0.112    .
+560           1492    DEELCEK|DG  0.065    .
+560           1499    DGFVVIR|NS  0.110    .
+560           1510    IAGQLDK|TL  0.066    .
+560           1518    LLGGGSK|SN  0.066    .
+560           1527    IFYILLR|DY  0.111    .
+560           1540    CADAMSR|LA  0.081    .
+560           1543    AMSRLAR|LI  0.385    .
+560           1552    PTFLSHR|G-  0.084    .
+____________________________^_________________
+
+
+
+

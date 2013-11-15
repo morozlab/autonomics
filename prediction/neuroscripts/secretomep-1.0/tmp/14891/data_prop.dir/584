@@ -1,0 +1,279 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1516 584         
+MKYVRVKKCYPCRYGVPDDFPTLRDMDVFGRTIHEMFYSVTARGINYITLPQFDEICASKKYNFGMKEEEKRALIKEIIK      80
+TRDEQEVVYYEDFVPIGRALLLKWYRQQYPKGGDWLKLSSKRYGFFYLNKMTGETTFRPAQYEREQLSLFLQDTLKEVET     160
+LKETLKFTEEESTALKDKLTSVTAEAEEQGCKSEELGVKIEKLEGELTSERDSHEALLNKYDTVVKEGEDQQRDLALAQE     240
+TISARDEILDQKEADITARDAEISERLSEIAGLNGELSDLRDEIAKANAVANAKASEAAVYLQFISHSMPVWRRHSPFDS     320
+GVGGARQFHAMSLESKVADLEAELREEREVISGLKEQLNTETQKNTMMDGDLRTFKEEHLTAKNKVGLDALFPTSPKRSN     400
+FSKKWQSYDQKRQIFNLILTLVCADPNGPFTNTLKEVETLKETLKFTEEESTALKDKLTSVTAEAEEQGCKSEELGVKIE     480
+KLEGELTSERDSHEALLNKYDTVVKEGEDLQKDLTLAQEAISARDEILEQKEADITARDAEISERLSEIAGLNGELSDLR     560
+DEIAKANAVANAKASEAAGLLYDYEEEKKGHDSTLQELERVREELAVTSAELAGKLSDAEKVYSLLQGSETDLRGKLENE     640
+LNRGKSLESKVADLEAELREEREVIAGLKEQLNTETQKNTMMDGDLRTFKEEHLTAKNKEIAEALNLIDQLKNQLELQKE     720
+EVRTLKLRHSSKTSVFAQQSEGVFKLKEQLAVLEERDNKHAAVLTEAVSRAGKVLRQVYARSNSPAAIKRLKISKISSKS     800
+DRLTGTMSSSLLNGATVGTKGVVTFRAGRGGRETGGTAITVGTKGVVTFRAGRGGREKGGTAVTVGTKGVVTFRAGKGVK     880
+RGDNGTVGNGITGEGAILSTFRRFLVTVLRSRPSSGSSRLTVSGVSFRTVFTTVAASAESVTAAVPIANALNTVLARENW     960
+VRPCPCSGQAPYGRGSLYGHANMRGATCPRSGQCSDSSQYHTRKTLHCQSIGGARENCGGQSIDLTDQTRLVSRYSKSTI    1040
+KTRQLYMFTCQANALTTVLARSEARIGSGQCSDSTIPTCVWGSHQVSNSMSPILTPFLPNIDADLCAPAAAGSHGEPDRR    1120
+GSLFPRVQGNLHDKTENFPAHSPTKGSEPDAQVNPAAPLSPGDRVRFRSVRPGYTESRVLEGVVERVGYRRTGGVHVGVN    1200
+LGVPLFTCQANALTTVLARSEARIGSGQCSDSHLVRSPHVCGDHTRCLILAPDRRGSLFPRVQGNLHDKTENFPAHSPTK    1280
+GSEPVLKKYHCCSDSPLVNYPSVEGIAKVRHVLACPQCRGNCALSSKQNNFTSQQKKWIPRKKWIPRLSARSNLSVRRAR    1360
+GASKKSWLHGSLSEIEVAQRPRSISHTGFRSVIDFRWVKIDAKHDQSLKTWLQAPTLFSDNLRVLGESSWSCEYGKIPAD    1440
+SSRCEMRRYLTFDSLTAEKCAFIARTRVYAVDRAGSYYSRSEYRMQWIQYFTDGHKVPTKAKDRPKQVNNQSELVS        1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+...............................................................................P    1360
+................................................................................    1440
+............................................................................        1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+584              2    -----MK|YV  0.086    .
+584              5    --MKYVR|VK  0.070    .
+584              7    MKYVRVK|KC  0.071    .
+584              8    KYVRVKK|CY  0.211    .
+584             13    KKCYPCR|YG  0.085    .
+584             24    DDFPTLR|DM  0.110    .
+584             31    DMDVFGR|TI  0.099    .
+584             43    FYSVTAR|GI  0.136    .
+584             60    DEICASK|KY  0.062    .
+584             61    EICASKK|YN  0.109    .
+584             67    KYNFGMK|EE  0.063    .
+584             71    GMKEEEK|RA  0.064    .
+584             72    MKEEEKR|AL  0.213    .
+584             76    EKRALIK|EI  0.074    .
+584             80    LIKEIIK|TR  0.061    .
+584             82    KEIIKTR|DE  0.104    .
+584             98    DFVPIGR|AL  0.062    .
+584            103    GRALLLK|WY  0.077    .
+584            106    LLLKWYR|QQ  0.098    .
+584            111    YRQQYPK|GG  0.072    .
+584            117    KGGDWLK|LS  0.065    .
+584            121    WLKLSSK|RY  0.061    .
+584            122    LKLSSKR|YG  0.189    .
+584            130    GFFYLNK|MT  0.070    .
+584            138    TGETTFR|PA  0.105    .
+584            144    RPAQYER|EQ  0.079    .
+584            156    FLQDTLK|EV  0.081    .
+584            162    KEVETLK|ET  0.057    .
+584            166    TLKETLK|FT  0.074    .
+584            176    EESTALK|DK  0.071    .
+584            178    STALKDK|LT  0.074    .
+584            192    AEEQGCK|SE  0.072    .
+584            199    SEELGVK|IE  0.055    .
+584            202    LGVKIEK|LE  0.059    .
+584            211    GELTSER|DS  0.100    .
+584            220    HEALLNK|YD  0.067    .
+584            226    KYDTVVK|EG  0.065    .
+584            233    EGEDQQR|DL  0.122    .
+584            245    QETISAR|DE  0.085    .
+584            252    DEILDQK|EA  0.061    .
+584            259    EADITAR|DA  0.208    .
+584            266    DAEISER|LS  0.091    .
+584            281    GELSDLR|DE  0.081    .
+584            286    LRDEIAK|AN  0.067    .
+584            294    NAVANAK|AS  0.071    .
+584            313    HSMPVWR|RH  0.110    .
+584            314    SMPVWRR|HS  0.098    .
+584            326    SGVGGAR|QF  0.088    .
+584            336    AMSLESK|VA  0.068    .
+584            345    DLEAELR|EE  0.077    .
+584            348    AELREER|EV  0.271    .
+584            355    EVISGLK|EQ  0.054    .
+584            364    LNTETQK|NT  0.064    .
+584            373    MMDGDLR|TF  0.072    .
+584            376    GDLRTFK|EE  0.092    .
+584            383    EEHLTAK|NK  0.062    .
+584            385    HLTAKNK|VG  0.064    .
+584            397    LFPTSPK|RS  0.056    .
+584            398    FPTSPKR|SN  0.261    .
+584            403    KRSNFSK|KW  0.082    .
+584            404    RSNFSKK|WQ  0.184    .
+584            411    WQSYDQK|RQ  0.064    .
+584            412    QSYDQKR|QI  0.254    .
+584            435    PFTNTLK|EV  0.073    .
+584            441    KEVETLK|ET  0.058    .
+584            445    TLKETLK|FT  0.074    .
+584            455    EESTALK|DK  0.071    .
+584            457    STALKDK|LT  0.074    .
+584            471    AEEQGCK|SE  0.072    .
+584            478    SEELGVK|IE  0.055    .
+584            481    LGVKIEK|LE  0.059    .
+584            490    GELTSER|DS  0.100    .
+584            499    HEALLNK|YD  0.067    .
+584            505    KYDTVVK|EG  0.061    .
+584            512    EGEDLQK|DL  0.073    .
+584            524    QEAISAR|DE  0.114    .
+584            531    DEILEQK|EA  0.064    .
+584            538    EADITAR|DA  0.210    .
+584            545    DAEISER|LS  0.091    .
+584            560    GELSDLR|DE  0.081    .
+584            565    LRDEIAK|AN  0.067    .
+584            573    NAVANAK|AS  0.072    .
+584            588    YDYEEEK|KG  0.062    .
+584            589    DYEEEKK|GH  0.082    .
+584            600    TLQELER|VR  0.083    .
+584            602    QELERVR|EE  0.072    .
+584            615    SAELAGK|LS  0.065    .
+584            621    KLSDAEK|VY  0.071    .
+584            634    GSETDLR|GK  0.077    .
+584            636    ETDLRGK|LE  0.055    .
+584            643    LENELNR|GK  0.089    .
+584            645    NELNRGK|SL  0.077    .
+584            650    GKSLESK|VA  0.072    .
+584            659    DLEAELR|EE  0.077    .
+584            662    AELREER|EV  0.325    .
+584            669    EVIAGLK|EQ  0.056    .
+584            678    LNTETQK|NT  0.064    .
+584            687    MMDGDLR|TF  0.072    .
+584            690    GDLRTFK|EE  0.092    .
+584            697    EEHLTAK|NK  0.078    .
+584            699    HLTAKNK|EI  0.076    .
+584            712    NLIDQLK|NQ  0.059    .
+584            719    NQLELQK|EE  0.054    .
+584            723    LQKEEVR|TL  0.067    .
+584            726    EEVRTLK|LR  0.098    .
+584            728    VRTLKLR|HS  0.096    .
+584            732    KLRHSSK|TS  0.070    .
+584            745    QSEGVFK|LK  0.067    .
+584            747    EGVFKLK|EQ  0.067    .
+584            756    LAVLEER|DN  0.093    .
+584            759    LEERDNK|HA  0.118    .
+584            770    LTEAVSR|AG  0.077    .
+584            773    AVSRAGK|VL  0.168    .
+584            776    RAGKVLR|QV  0.141    .
+584            781    LRQVYAR|SN  0.230    .
+584            789    NSPAAIK|RL  0.060    .
+584            790    SPAAIKR|LK  0.204    .
+584            792    AAIKRLK|IS  0.059    .
+584            795    KRLKISK|IS  0.072    .
+584            799    ISKISSK|SD  0.086    .
+584            802    ISSKSDR|LT  0.173    .
+584            820    GATVGTK|GV  0.070    .
+584            826    KGVVTFR|AG  0.111    .
+584            829    VTFRAGR|GG  0.189    .
+584            832    RAGRGGR|ET  0.373    .
+584            844    AITVGTK|GV  0.067    .
+584            850    KGVVTFR|AG  0.097    .
+584            853    VTFRAGR|GG  0.217    .
+584            856    RAGRGGR|EK  0.345    .
+584            858    GRGGREK|GG  0.078    .
+584            868    AVTVGTK|GV  0.067    .
+584            874    KGVVTFR|AG  0.088    .
+584            877    VTFRAGK|GV  0.183    .
+584            880    RAGKGVK|RG  0.062    .
+584            881    AGKGVKR|GD  0.170    .
+584            902    AILSTFR|RF  0.064    .
+584            903    ILSTFRR|FL  0.299    .
+584            910    FLVTVLR|SR  0.094    .
+584            912    VTVLRSR|PS  0.076    .
+584            919    PSSGSSR|LT  0.099    .
+584            928    VSGVSFR|TV  0.155    .
+584            957    LNTVLAR|EN  0.078    .
+584            962    ARENWVR|PC  0.100    .
+584            974    GQAPYGR|GS  0.106    .
+584            984    YGHANMR|GA  0.113    .
+584            990    RGATCPR|SG  0.121    .
+584           1003    SSQYHTR|KT  0.123    .
+584           1004    SQYHTRK|TL  0.097    .
+584           1015    QSIGGAR|EN  0.109    .
+584           1030    DLTDQTR|LV  0.098    .
+584           1034    QTRLVSR|YS  0.100    .
+584           1037    LVSRYSK|ST  0.279    .
+584           1041    YSKSTIK|TR  0.057    .
+584           1043    KSTIKTR|QL  0.102    .
+584           1061    LTTVLAR|SE  0.117    .
+584           1065    LARSEAR|IG  0.105    .
+584           1119    SHGEPDR|RG  0.081    .
+584           1120    HGEPDRR|GS  0.102    .
+584           1126    RGSLFPR|VQ  0.106    .
+584           1134    QGNLHDK|TE  0.061    .
+584           1145    PAHSPTK|GS  0.070    .
+584           1164    PLSPGDR|VR  0.078    .
+584           1166    SPGDRVR|FR  0.118    .
+584           1168    GDRVRFR|SV  0.414    .
+584           1171    VRFRSVR|PG  0.236    .
+584           1178    PGYTESR|VL  0.091    .
+584           1186    LEGVVER|VG  0.075    .
+584           1190    VERVGYR|RT  0.104    .
+584           1191    ERVGYRR|TG  0.142    .
+584           1219    LTTVLAR|SE  0.117    .
+584           1223    LARSEAR|IG  0.105    .
+584           1236    SDSHLVR|SP  0.197    .
+584           1246    VCGDHTR|CL  0.093    .
+584           1254    LILAPDR|RG  0.068    .
+584           1255    ILAPDRR|GS  0.117    .
+584           1261    RGSLFPR|VQ  0.106    .
+584           1269    QGNLHDK|TE  0.061    .
+584           1280    PAHSPTK|GS  0.085    .
+584           1287    GSEPVLK|KY  0.069    .
+584           1288    SEPVLKK|YH  0.092    .
+584           1308    SVEGIAK|VR  0.056    .
+584           1310    EGIAKVR|HV  0.113    .
+584           1319    LACPQCR|GN  0.097    .
+584           1327    NCALSSK|QN  0.061    .
+584           1336    NFTSQQK|KW  0.060    .
+584           1337    FTSQQKK|WI  0.136    .
+584           1341    QKKWIPR|KK  0.089    .
+584           1342    KKWIPRK|KW  0.097    .
+584           1343    KWIPRKK|WI  0.099    .
+584           1347    RKKWIPR|LS  0.095    .
+584           1351    IPRLSAR|SN  0.193    .
+584           1357    RSNLSVR|RA  0.102    .
+584           1358    SNLSVRR|AR  0.182    .
+584           1360    LSVRRAR|GA  0.537 *ProP*
+584           1364    RARGASK|KS  0.062    .
+584           1365    ARGASKK|SW  0.242    .
+584           1380    EIEVAQR|PR  0.084    .
+584           1382    EVAQRPR|SI  0.198    .
+584           1390    ISHTGFR|SV  0.295    .
+584           1396    RSVIDFR|WV  0.110    .
+584           1399    IDFRWVK|ID  0.102    .
+584           1403    WVKIDAK|HD  0.062    .
+584           1409    KHDQSLK|TW  0.060    .
+584           1423    LFSDNLR|VL  0.104    .
+584           1436    WSCEYGK|IP  0.063    .
+584           1443    IPADSSR|CE  0.097    .
+584           1447    SSRCEMR|RY  0.092    .
+584           1448    SRCEMRR|YL  0.153    .
+584           1459    DSLTAEK|CA  0.065    .
+584           1465    KCAFIAR|TR  0.081    .
+584           1467    AFIARTR|VY  0.072    .
+584           1473    RVYAVDR|AG  0.096    .
+584           1480    AGSYYSR|SE  0.126    .
+584           1484    YSRSEYR|MQ  0.112    .
+584           1496    YFTDGHK|VP  0.053    .
+584           1500    GHKVPTK|AK  0.065    .
+584           1502    KVPTKAK|DR  0.075    .
+584           1504    PTKAKDR|PK  0.082    .
+584           1506    KAKDRPK|QV  0.086    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,370 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2149 279         
+MREEGERLQCKSRYSDIQPSTTVSGVVTGDTHPPESHVSTEDESVVPEERVEKVEEQEKKPSQVVVKGEMGGYQIRCFLD      80
+SGSSICLVNRELVQRMGLIEKIIPTKKRHRDRFCHELLLSKENKFGRTTEFFVQKSQAPAANSSTVRERLEVPVRSPVII     160
+RPRQGAFLGEDQVFPLEQRQSEARTTLQERAMKREEVSRNRGRRSPFVGPLIKEAGKLFRRAATIISPRLNPESSSSSSE     240
+DEVRQNRRVPVPPREQPRRNQRVHENEDSYWYGHMTQDGQLHPMPEAQERQYREWYARQSLGMPPRREDPPPPLVLDLGS     320
+REESQREYGTVEPPRDQRVSPGRNGRRRWRPKIKVPEFKAGGDMEEFEMFLEKFKRYLLRVDWEWDQLQDELLESISCKE     400
+IYKKVNRLYLSPEEQADPEWFIAAIKSAIVYEERNEEEERRKLTQMKQCEGESVEEFADRIRDTAEFAFPEETHRVVDQR     480
+MIEALQDGLRDTRVSELVCNLRRSRIDFGKVVKQAATRDRMNKMFQGEVYKPHGRRDETVFQVEEITPLEKTRSTVSQIG     560
+AGVPAASTPKTPVAECEKCGKKGHSGENCWASMTCQLCRETGHIAHQCPRYMYKSGESRGPRLGGNSYPRQPGCFECGSL     640
+SHRVAECPRTGKRQSGWRLPSSNQPQITDEIKRVVGQEGERWQYESRYPYIRPSKTFSGVVTGDTHPPESQSSTGDESVL     720
+PEEIRVEKVEEQEKKPNQVVVEGEMRGHQIRCFLDSGSSICLVNRELVQRMGLVEKIVPTKKRVCDFSGNPIPLFGTIGL     800
+TFSLASRQISQCFVVCGAMDTEVLLGHDFFTATRCSLDYGKKQLAFPGGEKVSFFPRVKSVGKSHLIRGLSGQVIPGDSV     880
+AYIQGRLPEHLKPCVGMITPFGAVGEDGLLVASAVAEGRNRRVTLKVVNISSDPVEIRNKQVLGRFEPIPGYSPISGVQW     960
+GELSTRSRQQPKSAGREMNYLTDSVWRTDIRLKEGAEPRWTNPIPVPYKLREEMDRNIQKMMEVGVIEELNEPSDWNSPI    1040
+FLVKKKTAGAWRLVADLRCVNQECVGDSYPLPNLNHVLDSIGGDSIFSNFDLSKGFWQVPYTQESKKVTSFLYRGRQLCF    1120
+ARCIMGHKASSSKFTRMMQKLLGTLPIEQVIYFVDDVFLSSKTVEEHLNRLERLLARFESANLKISPGKTELLKKEVEFV    1200
+GISIGGEGVRITDQRVAALTALPTPKSRKEVSEVLGAFNYIRKWVPGYSAITKPLHNLLSGPKNREFVWSAECEKAYQEL    1280
+KTLIAEKTLLSIPDPEDPFQSFEVTVDASVDGYAATLSQELERDGVRERKIVAFFSKSVPNYKRSRGQTRLEFDAMVAAL    1360
+EHWRVYLLNTRFTVVTDCKSLLSAEDSLFAKSNPTIIRKVQLLAEFDFDIRHISGESNTLADFLSRFPHRHRMVEASPIS    1440
+EMENLRGVGDQKEENEDPEWEGHEPDQASPISEMENLRGVGDQKEENEDPEWEGHEPDQASPISEMENLRGVGDQKEENE    1520
+DPAWEGHEPDQASPISEIENLVLLGCELIQPTSLPDRESLEMEKEVDSEIEGYESDQTSTISGSLNFERECGADLPTQER    1600
+PSERLLEENHDSVDDLIPEDDVTEVCVSQLHGRSSNGRRDNVGDDSLYPHHSTGDIPVSLSNSSAIGELDTVMGGVEETD    1680
+GFGLNWLFSCDQGQVQFRPIHHVEPSCWCSTNTASTRIEHMEVDAIREVAEGTIEPLMSWREWENAQKEDDLLRVVRTWV    1760
+NQGRRDVLQANRAPSELESLWKQFNLLRVEDGVLQRKWANISTGEDRWLILVPLDQRESVMNRGHGMCGHAGVSSTLQGL    1840
+RRWYYWPGMEGDVKSFVGACVNCGANKQPIAYGRAAMARVMFHNFNDAIVIDHIVPSAGGRTPRGHTAILTISDAWSNFV    1920
+VAVPVKSQTSDENRERILENWVYRMGWPREIICDNHGGFRGAAFRRFFELHGVKITYGTAYNAASTARAESNNKRTNMVL    2000
+RATLHESSPHNWDLHLSKVSFVLNSLKNRRTGFTANRLVYGQELNIPEILMLERDGSESEREENIPKRVYERAKELRTIA    2080
+RRVRKNMEVDWGYAKRQYDKRAYNPGYSVGDKVFVRINCPVHKYGPRWSGPFELRLWSRTLMWSHINNH               2160
+................................................................................      80
+................................................................................     160
+...........................................P....................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+.....................................................................               2160
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+279              2    -----MR|EE  0.099    .
+279              7    MREEGER|LQ  0.083    .
+279             11    GERLQCK|SR  0.075    .
+279             13    RLQCKSR|YS  0.152    .
+279             50    SVVPEER|VE  0.072    .
+279             53    PEERVEK|VE  0.108    .
+279             59    KVEEQEK|KP  0.061    .
+279             60    VEEQEKK|PS  0.114    .
+279             67    PSQVVVK|GE  0.077    .
+279             76    MGGYQIR|CF  0.099    .
+279             90    SICLVNR|EL  0.085    .
+279             95    NRELVQR|MG  0.079    .
+279            101    RMGLIEK|II  0.062    .
+279            106    EKIIPTK|KR  0.061    .
+279            107    KIIPTKK|RH  0.085    .
+279            108    IIPTKKR|HR  0.197    .
+279            110    PTKKRHR|DR  0.100    .
+279            112    KKRHRDR|FC  0.168    .
+279            121    HELLLSK|EN  0.057    .
+279            124    LLSKENK|FG  0.088    .
+279            127    KENKFGR|TT  0.112    .
+279            135    TEFFVQK|SQ  0.095    .
+279            147    ANSSTVR|ER  0.086    .
+279            149    SSTVRER|LE  0.086    .
+279            155    RLEVPVR|SP  0.114    .
+279            161    RSPVIIR|PR  0.089    .
+279            163    PVIIRPR|QG  0.078    .
+279            179    VFPLEQR|QS  0.072    .
+279            184    QRQSEAR|TT  0.132    .
+279            190    RTTLQER|AM  0.088    .
+279            193    LQERAMK|RE  0.110    .
+279            194    QERAMKR|EE  0.121    .
+279            199    KREEVSR|NR  0.092    .
+279            201    EEVSRNR|GR  0.072    .
+279            203    VSRNRGR|RS  0.093    .
+279            204    SRNRGRR|SP  0.766 *ProP*
+279            213    FVGPLIK|EA  0.071    .
+279            217    LIKEAGK|LF  0.061    .
+279            220    EAGKLFR|RA  0.101    .
+279            221    AGKLFRR|AA  0.159    .
+279            229    ATIISPR|LN  0.076    .
+279            244    SSEDEVR|QN  0.095    .
+279            247    DEVRQNR|RV  0.190    .
+279            248    EVRQNRR|VP  0.100    .
+279            254    RVPVPPR|EQ  0.070    .
+279            258    PPREQPR|RN  0.104    .
+279            259    PREQPRR|NQ  0.165    .
+279            262    QPRRNQR|VH  0.277    .
+279            290    MPEAQER|QY  0.104    .
+279            293    AQERQYR|EW  0.277    .
+279            298    YREWYAR|QS  0.100    .
+279            306    SLGMPPR|RE  0.096    .
+279            307    LGMPPRR|ED  0.102    .
+279            321    VLDLGSR|EE  0.080    .
+279            326    SREESQR|EY  0.163    .
+279            335    GTVEPPR|DQ  0.106    .
+279            338    EPPRDQR|VS  0.142    .
+279            343    QRVSPGR|NG  0.079    .
+279            346    SPGRNGR|RR  0.158    .
+279            347    PGRNGRR|RW  0.139    .
+279            348    GRNGRRR|WR  0.186    .
+279            350    NGRRRWR|PK  0.302    .
+279            352    RRRWRPK|IK  0.087    .
+279            354    RWRPKIK|VP  0.070    .
+279            359    IKVPEFK|AG  0.096    .
+279            373    FEMFLEK|FK  0.065    .
+279            375    MFLEKFK|RY  0.056    .
+279            376    FLEKFKR|YL  0.206    .
+279            380    FKRYLLR|VD  0.084    .
+279            399    LESISCK|EI  0.089    .
+279            403    SCKEIYK|KV  0.067    .
+279            404    CKEIYKK|VN  0.082    .
+279            407    IYKKVNR|LY  0.078    .
+279            426    WFIAAIK|SA  0.083    .
+279            434    AIVYEER|NE  0.079    .
+279            440    RNEEEER|RK  0.083    .
+279            441    NEEEERR|KL  0.136    .
+279            442    EEEERRK|LT  0.081    .
+279            447    RKLTQMK|QC  0.074    .
+279            460    VEEFADR|IR  0.118    .
+279            462    EFADRIR|DT  0.088    .
+279            475    FPEETHR|VV  0.108    .
+279            480    HRVVDQR|MI  0.192    .
+279            490    ALQDGLR|DT  0.102    .
+279            493    DGLRDTR|VS  0.120    .
+279            502    ELVCNLR|RS  0.069    .
+279            503    LVCNLRR|SR  0.166    .
+279            505    CNLRRSR|ID  0.166    .
+279            510    SRIDFGK|VV  0.093    .
+279            513    DFGKVVK|QA  0.067    .
+279            518    VKQAATR|DR  0.107    .
+279            520    QAATRDR|MN  0.103    .
+279            523    TRDRMNK|MF  0.158    .
+279            531    FQGEVYK|PH  0.068    .
+279            535    VYKPHGR|RD  0.091    .
+279            536    YKPHGRR|DE  0.146    .
+279            551    EITPLEK|TR  0.057    .
+279            553    TPLEKTR|ST  0.179    .
+279            570    PAASTPK|TP  0.060    .
+279            578    PVAECEK|CG  0.059    .
+279            581    ECEKCGK|KG  0.067    .
+279            582    CEKCGKK|GH  0.100    .
+279            599    MTCQLCR|ET  0.135    .
+279            610    IAHQCPR|YM  0.137    .
+279            614    CPRYMYK|SG  0.097    .
+279            619    YKSGESR|GP  0.110    .
+279            622    GESRGPR|LG  0.324    .
+279            630    GGNSYPR|QP  0.118    .
+279            643    CGSLSHR|VA  0.110    .
+279            649    RVAECPR|TG  0.078    .
+279            652    ECPRTGK|RQ  0.091    .
+279            653    CPRTGKR|QS  0.270    .
+279            658    KRQSGWR|LP  0.109    .
+279            672    QITDEIK|RV  0.072    .
+279            673    ITDEIKR|VV  0.339    .
+279            681    VGQEGER|WQ  0.070    .
+279            687    RWQYESR|YP  0.083    .
+279            692    SRYPYIR|PS  0.092    .
+279            695    PYIRPSK|TF  0.135    .
+279            725    VLPEEIR|VE  0.074    .
+279            728    EEIRVEK|VE  0.110    .
+279            734    KVEEQEK|KP  0.059    .
+279            735    VEEQEKK|PN  0.111    .
+279            746    VVEGEMR|GH  0.068    .
+279            751    MRGHQIR|CF  0.145    .
+279            765    SICLVNR|EL  0.085    .
+279            770    NRELVQR|MG  0.079    .
+279            776    RMGLVEK|IV  0.073    .
+279            781    EKIVPTK|KR  0.056    .
+279            782    KIVPTKK|RV  0.107    .
+279            783    IVPTKKR|VC  0.211    .
+279            807    TFSLASR|QI  0.129    .
+279            834    DFFTATR|CS  0.071    .
+279            841    CSLDYGK|KQ  0.056    .
+279            842    SLDYGKK|QL  0.080    .
+279            851    AFPGGEK|VS  0.049    .
+279            857    KVSFFPR|VK  0.129    .
+279            859    SFFPRVK|SV  0.126    .
+279            863    RVKSVGK|SH  0.071    .
+279            868    GKSHLIR|GL  0.175    .
+279            886    VAYIQGR|LP  0.089    .
+279            892    RLPEHLK|PC  0.062    .
+279            919    SAVAEGR|NR  0.084    .
+279            921    VAEGRNR|RV  0.088    .
+279            922    AEGRNRR|VT  0.427    .
+279            926    NRRVTLK|VV  0.082    .
+279            938    SDPVEIR|NK  0.086    .
+279            940    PVEIRNK|QV  0.065    .
+279            945    NKQVLGR|FE  0.093    .
+279            966    WGELSTR|SR  0.097    .
+279            968    ELSTRSR|QQ  0.099    .
+279            972    RSRQQPK|SA  0.170    .
+279            976    QPKSAGR|EM  0.084    .
+279            987    LTDSVWR|TD  0.075    .
+279            991    VWRTDIR|LK  0.101    .
+279            993    RTDIRLK|EG  0.054    .
+279            999    KEGAEPR|WT  0.108    .
+279           1009    PIPVPYK|LR  0.062    .
+279           1011    PVPYKLR|EE  0.080    .
+279           1016    LREEMDR|NI  0.111    .
+279           1020    MDRNIQK|MM  0.077    .
+279           1044    SPIFLVK|KK  0.068    .
+279           1045    PIFLVKK|KT  0.091    .
+279           1046    IFLVKKK|TA  0.147    .
+279           1052    KTAGAWR|LV  0.119    .
+279           1058    RLVADLR|CV  0.115    .
+279           1094    SNFDLSK|GF  0.080    .
+279           1106    PYTQESK|KV  0.060    .
+279           1107    YTQESKK|VT  0.105    .
+279           1114    VTSFLYR|GR  0.085    .
+279           1116    SFLYRGR|QL  0.092    .
+279           1122    RQLCFAR|CI  0.114    .
+279           1128    RCIMGHK|AS  0.071    .
+279           1133    HKASSSK|FT  0.081    .
+279           1136    SSSKFTR|MM  0.178    .
+279           1140    FTRMMQK|LL  0.070    .
+279           1162    DVFLSSK|TV  0.074    .
+279           1170    VEEHLNR|LE  0.062    .
+279           1173    HLNRLER|LL  0.265    .
+279           1177    LERLLAR|FE  0.123    .
+279           1184    FESANLK|IS  0.061    .
+279           1189    LKISPGK|TE  0.059    .
+279           1194    GKTELLK|KE  0.054    .
+279           1195    KTELLKK|EV  0.168    .
+279           1210    IGGEGVR|IT  0.090    .
+279           1215    VRITDQR|VA  0.078    .
+279           1226    TALPTPK|SR  0.074    .
+279           1228    LPTPKSR|KE  0.077    .
+279           1229    PTPKSRK|EV  0.171    .
+279           1242    GAFNYIR|KW  0.095    .
+279           1243    AFNYIRK|WV  0.095    .
+279           1253    GYSAITK|PL  0.077    .
+279           1263    NLLSGPK|NR  0.056    .
+279           1265    LSGPKNR|EF  0.107    .
+279           1275    WSAECEK|AY  0.061    .
+279           1281    KAYQELK|TL  0.063    .
+279           1287    KTLIAEK|TL  0.058    .
+279           1323    LSQELER|DG  0.098    .
+279           1327    LERDGVR|ER  0.070    .
+279           1329    RDGVRER|KI  0.089    .
+279           1330    DGVRERK|IV  0.197    .
+279           1337    IVAFFSK|SV  0.117    .
+279           1343    KSVPNYK|RS  0.064    .
+279           1344    SVPNYKR|SR  0.319    .
+279           1346    PNYKRSR|GQ  0.102    .
+279           1350    RSRGQTR|LE  0.118    .
+279           1364    AALEHWR|VY  0.066    .
+279           1371    VYLLNTR|FT  0.066    .
+279           1379    TVVTDCK|SL  0.085    .
+279           1391    EDSLFAK|SN  0.107    .
+279           1398    SNPTIIR|KV  0.094    .
+279           1399    NPTIIRK|VQ  0.071    .
+279           1411    EFDFDIR|HI  0.084    .
+279           1426    LADFLSR|FP  0.091    .
+279           1430    LSRFPHR|HR  0.094    .
+279           1432    RFPHRHR|MV  0.169    .
+279           1446    SEMENLR|GV  0.192    .
+279           1452    RGVGDQK|EE  0.059    .
+279           1478    SEMENLR|GV  0.192    .
+279           1484    RGVGDQK|EE  0.059    .
+279           1510    SEMENLR|GV  0.192    .
+279           1516    RGVGDQK|EE  0.059    .
+279           1557    PTSLPDR|ES  0.098    .
+279           1564    ESLEMEK|EV  0.071    .
+279           1589    GSLNFER|EC  0.136    .
+279           1600    DLPTQER|PS  0.079    .
+279           1604    QERPSER|LL  0.120    .
+279           1633    VSQLHGR|SS  0.149    .
+279           1638    GRSSNGR|RD  0.121    .
+279           1639    RSSNGRR|DN  0.185    .
+279           1698    QGQVQFR|PI  0.193    .
+279           1717    TNTASTR|IE  0.099    .
+279           1727    MEVDAIR|EV  0.123    .
+279           1741    EPLMSWR|EW  0.114    .
+279           1748    EWENAQK|ED  0.056    .
+279           1754    KEDDLLR|VV  0.106    .
+279           1757    DLLRVVR|TW  0.207    .
+279           1764    TWVNQGR|RD  0.077    .
+279           1765    WVNQGRR|DV  0.273    .
+279           1772    DVLQANR|AP  0.073    .
+279           1782    ELESLWK|QF  0.058    .
+279           1788    KQFNLLR|VE  0.083    .
+279           1796    EDGVLQR|KW  0.081    .
+279           1797    DGVLQRK|WA  0.085    .
+279           1807    ISTGEDR|WL  0.087    .
+279           1817    LVPLDQR|ES  0.064    .
+279           1823    RESVMNR|GH  0.158    .
+279           1841    STLQGLR|RW  0.075    .
+279           1842    TLQGLRR|WY  0.151    .
+279           1854    GMEGDVK|SF  0.069    .
+279           1867    VNCGANK|QP  0.065    .
+279           1874    QPIAYGR|AA  0.133    .
+279           1879    GRAAMAR|VM  0.135    .
+279           1901    VPSAGGR|TP  0.092    .
+279           1904    AGGRTPR|GH  0.396    .
+279           1926    VVAVPVK|SQ  0.080    .
+279           1934    QTSDENR|ER  0.080    .
+279           1936    SDENRER|IL  0.097    .
+279           1944    LENWVYR|MG  0.109    .
+279           1949    YRMGWPR|EI  0.111    .
+279           1960    DNHGGFR|GA  0.093    .
+279           1965    FRGAAFR|RF  0.087    .
+279           1966    RGAAFRR|FF  0.197    .
+279           1974    FELHGVK|IT  0.054    .
+279           1988    NAASTAR|AE  0.115    .
+279           1994    RAESNNK|RT  0.063    .
+279           1995    AESNNKR|TN  0.209    .
+279           2001    RTNMVLR|AT  0.100    .
+279           2018    WDLHLSK|VS  0.058    .
+279           2027    FVLNSLK|NR  0.059    .
+279           2029    LNSLKNR|RT  0.112    .
+279           2030    NSLKNRR|TG  0.114    .
+279           2037    TGFTANR|LV  0.131    .
+279           2054    EILMLER|DG  0.109    .
+279           2061    DGSESER|EE  0.081    .
+279           2067    REENIPK|RV  0.067    .
+279           2068    EENIPKR|VY  0.186    .
+279           2072    PKRVYER|AK  0.085    .
+279           2074    RVYERAK|EL  0.074    .
+279           2077    ERAKELR|TI  0.098    .
+279           2081    ELRTIAR|RV  0.135    .
+279           2082    LRTIARR|VR  0.110    .
+279           2084    TIARRVR|KN  0.281    .
+279           2085    IARRVRK|NM  0.236    .
+279           2095    VDWGYAK|RQ  0.058    .
+279           2096    DWGYAKR|QY  0.194    .
+279           2100    AKRQYDK|RA  0.066    .
+279           2101    KRQYDKR|AY  0.298    .
+279           2112    GYSVGDK|VF  0.061    .
+279           2116    GDKVFVR|IN  0.106    .
+279           2123    INCPVHK|YG  0.063    .
+279           2127    VHKYGPR|WS  0.105    .
+279           2135    SGPFELR|LW  0.107    .
+279           2139    ELRLWSR|TL  0.091    .
+____________________________^_________________
+
+
+
+

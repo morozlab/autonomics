@@ -1,0 +1,182 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1452 648         
+MPDILKTADHFKHSRKWTLTGRWGEECMACLTIILDTPSTPVSRKKALLGELLYLLKGSKQMKHMLGLDDGLSFGKSLIR      80
+ALITAIATVQDEQAWSGLFRVFIHPVELDFNGTLNPNICGEEIFACQGRWGEECMACLTIILDTPSTPVSRKKALLGELL     160
+YLLKGSKQMKHMLGLDDGLSFGKSLIRALITAIATVQDEQGIECVKVLTSITPLALSHCAVGEACKKFYENSNHHKPALL     240
+LTQLLHSLITSRLVSDLRLLKLLYNTTALLSSPVTVSCAMSLIAAVMVDPAFPMKHRQNVLNQGKVYIESRGTERENFNY     320
+QLQLMKHTRSFHIPISQYNLHDYILECLSSEEEGICVAALEMCLSSSKHHNTSTAMYISESLTALIDREKKRRRERILEK     400
+CFDYLLHLTEIRTPENFPETLSGLVVWGGETLVSQVCLLVSRHTTITFSNIQAMQLTKHLILWMSDNLSQRTRPVAGDQE     480
+MLLGVYLACLNRLLGIILGDGDQQSTGGDVLKSVPNNNDPTIQQVTNTMDPNLQDVLCVVEMHCIQPVFTLECTDLNPSV     560
+FGHLFSLITRVFERTKKCDSDLAKRFVTKIRGLAAEVFSYICLHCGEQHSATVDTLNTFLSTVLSTSPISLRIIATGLEI     640
+LPLIQSLSGDLDSTLRDVVRAAERPSYHVELTETPRFSASYTLLALVASTRQTRVTESGPEGSVLQLVNLYGTHRTLPAS     720
+FLDLAIRIVSHGPPLATSIQGLVLALETHHHLLDLPNYTTPMLTFLLSSETQGIPDPLQHRCCAVLADRVQGETEVLEGG     800
+VRVKLLKSLIDQHQITQHLPAVEILDVLCVVEMHCIQPVFTLECTDLNPSVFGHLFSLITRVFERTKKCDSDLAKRFVTK     880
+IRGLAAEVFSYICLHCGEQHSATVDTLNTFLSTVLSTSPISLRIIATGLEILPHIQSLSGDLDSTLRDVVRAAERPSYHV     960
+ELTETPRFSASYTLLALVASTRQTRVTESGPEGSVLQLVNLYGTHRTLPASFLDLAIRIVSHGPPLATSIQGLVLALETH    1040
+HHLLDLPNYTTPMLTFLLSSETQGIPDPLQHRCCAVLADRVQGETGELEGGVRVKLLKSLIDQHQITQHLPAVEILVRGC    1120
+TDSKMITALVSELTTNLAARGGGGGDVGKFTSSLRILTTIATFHSIPISVRTVVSVIQCVLCGSGDVSVALSYLYTLYTT    1200
+NPSKMSEIFTGRFDLVACLSAMVKPDCVHLNPALVLLTTHLTHNPGCEGVSLDVEGLVEVFERRSNPLTQTLLWRLAATL    1280
+PKISLGYLPLKSLPNCNHNTSLSIGVYLTTSCPDLISSPWVRLSIEMSLLLDHIPSGILWILADLDLPQLARLVEPRIAH    1360
+LLGVLEGRGISGCIVCQKLLTRLYEVFPKEVGGVIEKWASEEKVSPPSPTIWVTVEGATVHRSTLTGIPETILVEIKHNF    1440
+QSIVTLVQSFTN                                                                        1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+............                                                                        1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+648              6    -MPDILK|TA  0.059    .
+648             12    KTADHFK|HS  0.077    .
+648             15    DHFKHSR|KW  0.089    .
+648             16    HFKHSRK|WT  0.124    .
+648             22    KWTLTGR|WG  0.085    .
+648             44    PSTPVSR|KK  0.070    .
+648             45    STPVSRK|KA  0.095    .
+648             46    TPVSRKK|AL  0.135    .
+648             57    ELLYLLK|GS  0.061    .
+648             60    YLLKGSK|QM  0.056    .
+648             63    KGSKQMK|HM  0.074    .
+648             76    DGLSFGK|SL  0.081    .
+648             80    FGKSLIR|AL  0.098    .
+648            100    AWSGLFR|VF  0.090    .
+648            129    IFACQGR|WG  0.109    .
+648            151    PSTPVSR|KK  0.070    .
+648            152    STPVSRK|KA  0.095    .
+648            153    TPVSRKK|AL  0.135    .
+648            164    ELLYLLK|GS  0.061    .
+648            167    YLLKGSK|QM  0.056    .
+648            170    KGSKQMK|HM  0.074    .
+648            183    DGLSFGK|SL  0.081    .
+648            187    FGKSLIR|AL  0.098    .
+648            206    QGIECVK|VL  0.059    .
+648            226    AVGEACK|KF  0.059    .
+648            227    VGEACKK|FY  0.111    .
+648            236    ENSNHHK|PA  0.074    .
+648            252    HSLITSR|LV  0.116    .
+648            258    RLVSDLR|LL  0.069    .
+648            261    SDLRLLK|LL  0.080    .
+648            295    DPAFPMK|HR  0.076    .
+648            297    AFPMKHR|QN  0.078    .
+648            305    NVLNQGK|VY  0.062    .
+648            311    KVYIESR|GT  0.109    .
+648            315    ESRGTER|EN  0.091    .
+648            326    YQLQLMK|HT  0.057    .
+648            329    QLMKHTR|SF  0.191    .
+648            368    MCLSSSK|HH  0.061    .
+648            388    LTALIDR|EK  0.074    .
+648            390    ALIDREK|KR  0.058    .
+648            391    LIDREKK|RR  0.140    .
+648            392    IDREKKR|RR  0.212    .
+648            393    DREKKRR|RE  0.156    .
+648            394    REKKRRR|ER  0.105    .
+648            396    KKRRRER|IL  0.449    .
+648            400    RERILEK|CF  0.069    .
+648            412    LHLTEIR|TP  0.076    .
+648            442    VCLLVSR|HT  0.079    .
+648            458    QAMQLTK|HL  0.062    .
+648            471    SDNLSQR|TR  0.098    .
+648            473    NLSQRTR|PV  0.172    .
+648            492    YLACLNR|LL  0.104    .
+648            512    TGGDVLK|SV  0.101    .
+648            570    LFSLITR|VF  0.080    .
+648            574    ITRVFER|TK  0.075    .
+648            576    RVFERTK|KC  0.059    .
+648            577    VFERTKK|CD  0.227    .
+648            584    CDSDLAK|RF  0.078    .
+648            585    DSDLAKR|FV  0.286    .
+648            589    AKRFVTK|IR  0.075    .
+648            591    RFVTKIR|GL  0.126    .
+648            632    TSPISLR|II  0.118    .
+648            656    DLDSTLR|DV  0.093    .
+648            660    TLRDVVR|AA  0.115    .
+648            664    VVRAAER|PS  0.096    .
+648            676    ELTETPR|FS  0.078    .
+648            691    ALVASTR|QT  0.099    .
+648            694    ASTRQTR|VT  0.280    .
+648            715    NLYGTHR|TL  0.084    .
+648            727    FLDLAIR|IV  0.127    .
+648            781    PDPLQHR|CC  0.069    .
+648            789    CAVLADR|VQ  0.078    .
+648            802    VLEGGVR|VK  0.056    .
+648            804    EGGVRVK|LL  0.064    .
+648            807    VRVKLLK|SL  0.096    .
+648            861    LFSLITR|VF  0.080    .
+648            865    ITRVFER|TK  0.075    .
+648            867    RVFERTK|KC  0.059    .
+648            868    VFERTKK|CD  0.227    .
+648            875    CDSDLAK|RF  0.078    .
+648            876    DSDLAKR|FV  0.286    .
+648            880    AKRFVTK|IR  0.075    .
+648            882    RFVTKIR|GL  0.126    .
+648            923    TSPISLR|II  0.118    .
+648            947    DLDSTLR|DV  0.093    .
+648            951    TLRDVVR|AA  0.115    .
+648            955    VVRAAER|PS  0.096    .
+648            967    ELTETPR|FS  0.078    .
+648            982    ALVASTR|QT  0.099    .
+648            985    ASTRQTR|VT  0.280    .
+648           1006    NLYGTHR|TL  0.084    .
+648           1018    FLDLAIR|IV  0.127    .
+648           1072    PDPLQHR|CC  0.069    .
+648           1080    CAVLADR|VQ  0.077    .
+648           1093    ELEGGVR|VK  0.057    .
+648           1095    EGGVRVK|LL  0.068    .
+648           1098    VRVKLLK|SL  0.096    .
+648           1118    AVEILVR|GC  0.086    .
+648           1124    RGCTDSK|MI  0.065    .
+648           1140    TTNLAAR|GG  0.166    .
+648           1149    GGGDVGK|FT  0.075    .
+648           1155    KFTSSLR|IL  0.082    .
+648           1171    SIPISVR|TV  0.108    .
+648           1204    YTTNPSK|MS  0.062    .
+648           1212    SEIFTGR|FD  0.083    .
+648           1224    CLSAMVK|PD  0.066    .
+648           1263    LVEVFER|RS  0.086    .
+648           1264    VEVFERR|SN  0.138    .
+648           1275    TQTLLWR|LA  0.091    .
+648           1282    LAATLPK|IS  0.063    .
+648           1291    LGYLPLK|SL  0.076    .
+648           1322    ISSPWVR|LS  0.089    .
+648           1352    DLPQLAR|LV  0.116    .
+648           1357    ARLVEPR|IA  0.123    .
+648           1368    LGVLEGR|GI  0.120    .
+648           1378    GCIVCQK|LL  0.063    .
+648           1382    CQKLLTR|LY  0.081    .
+648           1389    LYEVFPK|EV  0.099    .
+648           1397    VGGVIEK|WA  0.070    .
+648           1403    KWASEEK|VS  0.059    .
+648           1422    EGATVHR|ST  0.160    .
+648           1437    TILVEIK|HN  0.074    .
+____________________________^_________________
+
+
+
+

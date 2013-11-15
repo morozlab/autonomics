@@ -1,0 +1,212 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1490 613         
+MERESKKRKEASHNGRRVQANGIAELHEMAYIQSLCNDSSIDYNDHKKVYEKIGEPTEVAMKVLVEKMNVTGLDLSKYTK      80
+GQLATASSDDISNKFKKTSELIRLVSIIQLRRGERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALSLSLSL     160
+SLSLFLSLSLSLSFSLSLSLRSPSSGLPIATLEFSRDRKSMSVLCVPNDTEATSKCGISQTNKLFVKGAPDFVLERCTHI     240
+RVKGKKVPMNQAVLRNISDMIALYGTGKDTLRCLALATRDDSPSLDSMKLEDNRNFAEYESDLTFVGVVGMLDPPRAEVY     320
+DAIERCKKAGIRVIVITGDNKGTAEAICRRIGVFGEDENTEGKSFTGREFDELTPDQQKTAVANANLFARVEPSHKQRII     400
+EFLQGMDQVSAMTGDGVNDAPALKKAEIGIAMGTGTEVAKSASDMVLADDNFSSIVSAVEEGRAIYNNTKQFIRYLISSN     480
+IGEVVCIFLTAALGLPEALIPVQLLWVNLVTDGLPATALSFNAPDPDIMSVPPRNSKEGLITGWLFFRYMAIGIYVGMAT     560
+VGSAAWWFMSYPGGPRLTYYQLSHHMSCHPDNEMYKGFDCEIFGDAHPMTMALSVLVTIEMLNAINRSVIATLEFSRDRK     640
+SMSVLCVPNDTEATSKCGISQTNKLFVKGAPDFVLERCTHIRVKGKKVPMNQAVLRNISDMIALYGTGKDTLRCLALATR     720
+DDSPSLDSMKLEDNRNFAEYESDLTFVGVVGMLDPPRAEVYDAIERCKKAGIRVIVITGDNKGTAEAICRRIGVFGEDEN     800
+TEGKSFTGREFDELTPEQQKTAVANANLFARVEPSHKQRIIEFLQGMDQVSAMTGDGVNDAPALKKAEIGIAMGTGTEVA     880
+KSASDMVLADDNFSSIVSAVEEGRAIYNNTKQFIRYLISSNIGEVVCIFLTAALGLPEALIPVQLLWVNLVTDGLPATAL     960
+SFNAPDPDIMSVPPRNSKEGLITGWLFFRYMAIGIYVGMATVGSAAWWFMSYPGGPRLTYYQLSHHMSCHPDNEILRDPV    1040
+FEETDLLPIAGYAGSRSEGYESHEHEQSERKEKGERDFIMPISSTWELITRDRRSSVISATIMFTSGKDTLRCLALATRD    1120
+DSPSLDSMKLEDNRNFAEYESDLTFVGVVGMLDPPRAEVYDAIERCKKAGIRVIVITGDNKGTAEAICRRIGVFGEDENT    1200
+EGKSFTGREFDELTPEQQKTAVANANLFARVEPSHKQRIIEFLQGMDQVSAMTGDGVNDAPALKKAEIGIAMGTGTEVAK    1280
+SASDMVLADDNFSSIVSAVEEGRAIYNNTKQFIRYLISSNIGEVVCIFLTAALGLPEALIPVQLLWVNLVTDGLPATALS    1360
+FNAPDPDIMSVPPRNSKEGLITGWLFFRYMAIGIYVGMATVGSAAWWFMSYPGGPRLTYYQLSHHMSCHPDNEMYKGFDC    1440
+EIFGDAHPMTMALSVLVTIEMLNAINRPHTKEDSVNRGVNEREKQEDRGN                                  1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+.....................................................P..........................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..................................................                                  1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+613              3    ----MER|ES  0.076    .
+613              6    -MERESK|KR  0.092    .
+613              7    MERESKK|RK  0.122    .
+613              8    ERESKKR|KE  0.144    .
+613              9    RESKKRK|EA  0.226    .
+613             16    EASHNGR|RV  0.164    .
+613             17    ASHNGRR|VQ  0.115    .
+613             47    IDYNDHK|KV  0.081    .
+613             48    DYNDHKK|VY  0.118    .
+613             52    HKKVYEK|IG  0.074    .
+613             62    PTEVAMK|VL  0.057    .
+613             67    MKVLVEK|MN  0.075    .
+613             77    TGLDLSK|YT  0.073    .
+613             80    DLSKYTK|GQ  0.064    .
+613             94    SDDISNK|FK  0.075    .
+613             96    DISNKFK|KT  0.086    .
+613             97    ISNKFKK|TS  0.152    .
+613            103    KTSELIR|LV  0.159    .
+613            111    VSIIQLR|RG  0.084    .
+613            112    SIIQLRR|GE  0.098    .
+613            115    QLRRGER|ER  0.169    .
+613            117    RRGERER|AA  0.137    .
+613            181    SLSLSLR|SP  0.210    .
+613            196    ATLEFSR|DR  0.069    .
+613            198    LEFSRDR|KS  0.083    .
+613            199    EFSRDRK|SM  0.326    .
+613            215    DTEATSK|CG  0.059    .
+613            223    GISQTNK|LF  0.071    .
+613            227    TNKLFVK|GA  0.074    .
+613            236    PDFVLER|CT  0.083    .
+613            241    ERCTHIR|VK  0.147    .
+613            243    CTHIRVK|GK  0.067    .
+613            245    HIRVKGK|KV  0.094    .
+613            246    IRVKGKK|VP  0.094    .
+613            255    MNQAVLR|NI  0.151    .
+613            268    ALYGTGK|DT  0.070    .
+613            272    TGKDTLR|CL  0.080    .
+613            279    CLALATR|DD  0.135    .
+613            289    PSLDSMK|LE  0.058    .
+613            294    MKLEDNR|NF  0.083    .
+613            316    GMLDPPR|AE  0.066    .
+613            325    VYDAIER|CK  0.074    .
+613            327    DAIERCK|KA  0.072    .
+613            328    AIERCKK|AG  0.223    .
+613            332    CKKAGIR|VI  0.083    .
+613            341    VITGDNK|GT  0.059    .
+613            349    TAEAICR|RI  0.109    .
+613            350    AEAICRR|IG  0.117    .
+613            363    DENTEGK|SF  0.084    .
+613            368    GKSFTGR|EF  0.144    .
+613            379    LTPDQQK|TA  0.061    .
+613            390    NANLFAR|VE  0.079    .
+613            396    RVEPSHK|QR  0.062    .
+613            398    EPSHKQR|II  0.189    .
+613            424    NDAPALK|KA  0.079    .
+613            425    DAPALKK|AE  0.101    .
+613            440    TGTEVAK|SA  0.115    .
+613            463    SAVEEGR|AI  0.106    .
+613            470    AIYNNTK|QF  0.065    .
+613            474    NTKQFIR|YL  0.095    .
+613            534    IMSVPPR|NS  0.175    .
+613            537    VPPRNSK|EG  0.085    .
+613            548    TGWLFFR|YM  0.099    .
+613            576    SYPGGPR|LT  0.081    .
+613            596    PDNEMYK|GF  0.077    .
+613            627    MLNAINR|SV  0.249    .
+613            637    ATLEFSR|DR  0.069    .
+613            639    LEFSRDR|KS  0.083    .
+613            640    EFSRDRK|SM  0.326    .
+613            656    DTEATSK|CG  0.059    .
+613            664    GISQTNK|LF  0.071    .
+613            668    TNKLFVK|GA  0.074    .
+613            677    PDFVLER|CT  0.083    .
+613            682    ERCTHIR|VK  0.147    .
+613            684    CTHIRVK|GK  0.067    .
+613            686    HIRVKGK|KV  0.094    .
+613            687    IRVKGKK|VP  0.094    .
+613            696    MNQAVLR|NI  0.151    .
+613            709    ALYGTGK|DT  0.070    .
+613            713    TGKDTLR|CL  0.080    .
+613            720    CLALATR|DD  0.135    .
+613            730    PSLDSMK|LE  0.058    .
+613            735    MKLEDNR|NF  0.083    .
+613            757    GMLDPPR|AE  0.066    .
+613            766    VYDAIER|CK  0.074    .
+613            768    DAIERCK|KA  0.072    .
+613            769    AIERCKK|AG  0.223    .
+613            773    CKKAGIR|VI  0.083    .
+613            782    VITGDNK|GT  0.059    .
+613            790    TAEAICR|RI  0.109    .
+613            791    AEAICRR|IG  0.117    .
+613            804    DENTEGK|SF  0.084    .
+613            809    GKSFTGR|EF  0.140    .
+613            820    LTPEQQK|TA  0.060    .
+613            831    NANLFAR|VE  0.079    .
+613            837    RVEPSHK|QR  0.062    .
+613            839    EPSHKQR|II  0.189    .
+613            865    NDAPALK|KA  0.079    .
+613            866    DAPALKK|AE  0.101    .
+613            881    TGTEVAK|SA  0.115    .
+613            904    SAVEEGR|AI  0.106    .
+613            911    AIYNNTK|QF  0.065    .
+613            915    NTKQFIR|YL  0.095    .
+613            975    IMSVPPR|NS  0.175    .
+613            978    VPPRNSK|EG  0.085    .
+613            989    TGWLFFR|YM  0.099    .
+613           1017    SYPGGPR|LT  0.081    .
+613           1037    PDNEILR|DP  0.094    .
+613           1056    AGYAGSR|SE  0.110    .
+613           1070    EHEQSER|KE  0.081    .
+613           1071    HEQSERK|EK  0.090    .
+613           1073    QSERKEK|GE  0.183    .
+613           1076    RKEKGER|DF  0.094    .
+613           1091    TWELITR|DR  0.093    .
+613           1093    ELITRDR|RS  0.086    .
+613           1094    LITRDRR|SS  0.551 *ProP*
+613           1108    IMFTSGK|DT  0.073    .
+613           1112    SGKDTLR|CL  0.081    .
+613           1119    CLALATR|DD  0.135    .
+613           1129    PSLDSMK|LE  0.058    .
+613           1134    MKLEDNR|NF  0.083    .
+613           1156    GMLDPPR|AE  0.066    .
+613           1165    VYDAIER|CK  0.074    .
+613           1167    DAIERCK|KA  0.072    .
+613           1168    AIERCKK|AG  0.223    .
+613           1172    CKKAGIR|VI  0.083    .
+613           1181    VITGDNK|GT  0.059    .
+613           1189    TAEAICR|RI  0.109    .
+613           1190    AEAICRR|IG  0.117    .
+613           1203    DENTEGK|SF  0.084    .
+613           1208    GKSFTGR|EF  0.140    .
+613           1219    LTPEQQK|TA  0.060    .
+613           1230    NANLFAR|VE  0.079    .
+613           1236    RVEPSHK|QR  0.062    .
+613           1238    EPSHKQR|II  0.189    .
+613           1264    NDAPALK|KA  0.079    .
+613           1265    DAPALKK|AE  0.101    .
+613           1280    TGTEVAK|SA  0.115    .
+613           1303    SAVEEGR|AI  0.106    .
+613           1310    AIYNNTK|QF  0.065    .
+613           1314    NTKQFIR|YL  0.095    .
+613           1374    IMSVPPR|NS  0.175    .
+613           1377    VPPRNSK|EG  0.085    .
+613           1388    TGWLFFR|YM  0.099    .
+613           1416    SYPGGPR|LT  0.081    .
+613           1436    PDNEMYK|GF  0.077    .
+613           1467    MLNAINR|PH  0.089    .
+613           1471    INRPHTK|ED  0.075    .
+613           1477    KEDSVNR|GV  0.175    .
+613           1482    NRGVNER|EK  0.091    .
+613           1484    GVNEREK|QE  0.069    .
+613           1488    REKQEDR|GN  0.091    .
+____________________________^_________________
+
+
+
+

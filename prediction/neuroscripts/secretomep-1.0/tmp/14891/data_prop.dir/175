@@ -1,0 +1,241 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2614 175         
+MFSIRTESQGLSVGARARVQGTILLVQCLVHTWLFTVRVTATGYQPIRDQYFLIRSVPDMNNMLWLIELSIRTFLISLFH      80
+TWETWETLELKTLKNTVSVVYLNAAINPCVLIYRSSELSSFAVFNLFQILHTLSCGFIDRKQARTRRESMSANSGQITAG     160
+ICRPDVAYSQQWPPRITAGQRVSVVTGSDPRRVSRIGGGRQSVAGAAPFMRSFSAGPMEASSSPLITGSAVNSPGVAGNR     240
+RISAALVLKSHRTIFRQIAICGLCTIDAVPTRCRTIFNLPDINVAWLLLGTTETSKQPIRTLNLGHVTGYQQIRNQLIYR     320
+VLFVSYSPTLINSLLPSVEFVFIWRGVPSRSQDTMLRLVVVAVTLLATVAANCSSGDTAYVCANLDRCWGELGFSNSDEL     400
+KYLCDLQGLPTNGGGGGGGSGVAAVITSPPRNVTIPSGASAQFSCSADNAMRIKIVPRDEYNAEAKEDFGDVSPTTQKVI     480
+NAIDEAYEQHIGWYICIAYSADGGSVSAEAYLDIRDICANNDCVSPKTCEPDMYTGTYECVCPSDCPKTFDPVNTMLRLV     560
+VVAVTLLATVAANCSSGDTAYVCANLDRCWGELGFSNSDELKYLCDLQGLPTNGGGGGGGSGVAAVITSPPRNVTIPSGA     640
+SAQFSCSADNAMRIKIVPRDEYNAEAKEDFGDVSPTTQKVINAIDEAYEQHIGWYICIAYSADGGSVSAEAYLDIRDICA     720
+NNDCVSPKTCEPDMYTGTYECVCPSDCPKTFDPVCGSDCQSYFNECSMQKEACERGLVGVTVASRGQCTFSPSSPYFTTT     800
+PPSGTFPGGQPQTFSAAAEASSNDITYEWFFGDRLLGEGQSFTTQLKASQTGEWMVKASVCHGQYEVEHRYSVVVQGGGG     880
+EVDDRQCCDVYGDPHLLTFDSTRYDYMGACTYVLAQDDVKGQWLVYGTFKACGDKTKQLSCIVSITVFFEAEMVQFLRMY     960
+RVNYNGDEFMVPIGETRYLGDIKIENRAMKYFISLGNTGVEVSWDGITTSKICLPDKCAGGVSGMCASADCDPTNDYFPY    1040
+TSSSAFGNSWAVGEGCELEPEDGSLSVERTRPCDFVSQEERFEFEARCSMMLDLDAMVDCVSGMGLDRSALIANCMFDMC    1120
+AGLSMGGNCKGEGDQRCDAEREAKIVQAMAMDGLSRAEAEAMYKPVVLDPAFGERMLFAPVMQLSVTCECVLRTTNQNSL    1200
+FRSRDWLSANQGPVFPDSVGSMVNIFLFLYEDAGYCEADSQRFPLVLRGAHCVLTFLCFFSIHLINKSIWRHSHLVRSPP    1280
+IWDHTRCLCMIVILGKISLPPSIPVNQGPTDDRVVWGKSYDSYLIHVFIGLIETRWIICRRTRIFGVLHHHQYTFLLHII    1360
+LDPLHPIFASYVRSISSRCATSISLRLPCATFDSHAAALHKQEILVLDWLITSHVTYITSSDWLFVCVGRFLSNPYNYKF    1440
+WLEKRSDPDLTAPDLTDTTLSPEGAVKSGCSLRPLERLNQEILVPEWLITSNEGFVKYNTRYKQCVIYWDQNEDRSASNI    1520
+YSYFELTFNFTLLATMLVCNGKQPIRTRYLGHVTIHHPIMDQYFLIQSVPAFRSLRARIQKLTETSKQPIRTRYLGHVTD    1600
+YQPIRDHKQPIRTRYLGHVTIHHPILSQVKSSGRSLPITGKVQELTGTSKQPITARYLGHVTGYQPIRDQYTYIEVVSCL    1680
+LHVCVRGKADLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    1760
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    1840
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    1920
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2000
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2080
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2160
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2240
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2320
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2400
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLD    2480
+LDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLDLYSPAEVHKLGTFVATEVNAPTDTSKQPIRTRYSGHVS    2560
+GHVTGYQPIRDQYFLIMVATIPNPSSIDLIALHVSNNCNLQKLTQEGASKFSTT                              2640
+................................................................................      80
+..................................................................P.............     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+......................................................                              2640
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+175              5    --MFSIR|TE  0.123    .
+175             16    GLSVGAR|AR  0.121    .
+175             18    SVGARAR|VQ  0.119    .
+175             38    TWLFTVR|VT  0.087    .
+175             48    TGYQPIR|DQ  0.105    .
+175             55    DQYFLIR|SV  0.193    .
+175             72    LIELSIR|TF  0.084    .
+175             91    WETLELK|TL  0.056    .
+175             94    LELKTLK|NT  0.058    .
+175            114    PCVLIYR|SS  0.103    .
+175            140    SCGFIDR|KQ  0.077    .
+175            141    CGFIDRK|QA  0.086    .
+175            144    IDRKQAR|TR  0.124    .
+175            146    RKQARTR|RE  0.101    .
+175            147    KQARTRR|ES  0.510 *ProP*
+175            163    ITAGICR|PD  0.079    .
+175            175    SQQWPPR|IT  0.150    .
+175            181    RITAGQR|VS  0.069    .
+175            191    VTGSDPR|RV  0.118    .
+175            192    TGSDPRR|VS  0.202    .
+175            195    DPRRVSR|IG  0.333    .
+175            200    SRIGGGR|QS  0.096    .
+175            211    GAAPFMR|SF  0.272    .
+175            240    PGVAGNR|RI  0.096    .
+175            241    GVAGNRR|IS  0.117    .
+175            249    SAALVLK|SH  0.093    .
+175            252    LVLKSHR|TI  0.093    .
+175            256    SHRTIFR|QI  0.111    .
+175            272    IDAVPTR|CR  0.082    .
+175            274    AVPTRCR|TI  0.079    .
+175            296    GTTETSK|QP  0.057    .
+175            300    TSKQPIR|TL  0.102    .
+175            314    TGYQQIR|NQ  0.090    .
+175            320    RNQLIYR|VL  0.087    .
+175            345    EFVFIWR|GV  0.082    .
+175            350    WRGVPSR|SQ  0.216    .
+175            357    SQDTMLR|LV  0.089    .
+175            387    VCANLDR|CW  0.118    .
+175            401    SNSDELK|YL  0.089    .
+175            431    VITSPPR|NV  0.087    .
+175            452    SADNAMR|IK  0.077    .
+175            454    DNAMRIK|IV  0.078    .
+175            458    RIKIVPR|DE  0.124    .
+175            466    EYNAEAK|ED  0.064    .
+175            478    VSPTTQK|VI  0.062    .
+175            515    EAYLDIR|DI  0.105    .
+175            527    NDCVSPK|TC  0.079    .
+175            548    CPSDCPK|TF  0.089    .
+175            558    PVNTMLR|LV  0.092    .
+175            588    VCANLDR|CW  0.118    .
+175            602    SNSDELK|YL  0.089    .
+175            632    VITSPPR|NV  0.087    .
+175            653    SADNAMR|IK  0.077    .
+175            655    DNAMRIK|IV  0.078    .
+175            659    RIKIVPR|DE  0.124    .
+175            667    EYNAEAK|ED  0.064    .
+175            679    VSPTTQK|VI  0.062    .
+175            716    EAYLDIR|DI  0.105    .
+175            728    NDCVSPK|TC  0.079    .
+175            749    CPSDCPK|TF  0.081    .
+175            770    NECSMQK|EA  0.064    .
+175            775    QKEACER|GL  0.098    .
+175            785    GVTVASR|GQ  0.078    .
+175            834    EWFFGDR|LL  0.096    .
+175            847    SFTTQLK|AS  0.072    .
+175            857    TGEWMVK|AS  0.062    .
+175            870    QYEVEHR|YS  0.110    .
+175            885    GGEVDDR|QC  0.099    .
+175            903    LTFDSTR|YD  0.100    .
+175            920    LAQDDVK|GQ  0.065    .
+175            930    LVYGTFK|AC  0.084    .
+175            935    FKACGDK|TK  0.056    .
+175            937    ACGDKTK|QL  0.084    .
+175            958    EMVQFLR|MY  0.082    .
+175            961    QFLRMYR|VN  0.169    .
+175            977    VPIGETR|YL  0.122    .
+175            983    RYLGDIK|IE  0.061    .
+175            987    DIKIENR|AM  0.073    .
+175            990    IENRAMK|YF  0.200    .
+175           1011    DGITTSK|IC  0.055    .
+175           1017    KICLPDK|CA  0.082    .
+175           1069    GSLSVER|TR  0.075    .
+175           1071    LSVERTR|PC  0.084    .
+175           1081    FVSQEER|FE  0.119    .
+175           1087    RFEFEAR|CS  0.090    .
+175           1108    SGMGLDR|SA  0.145    .
+175           1130    SMGGNCK|GE  0.080    .
+175           1136    KGEGDQR|CD  0.073    .
+175           1141    QRCDAER|EA  0.136    .
+175           1144    DAEREAK|IV  0.190    .
+175           1156    AMDGLSR|AE  0.073    .
+175           1164    EAEAMYK|PV  0.060    .
+175           1175    DPAFGER|ML  0.108    .
+175           1193    TCECVLR|TT  0.078    .
+175           1202    NQNSLFR|SR  0.108    .
+175           1204    NSLFRSR|DW  0.100    .
+175           1242    CEADSQR|FP  0.088    .
+175           1248    RFPLVLR|GA  0.109    .
+175           1267    SIHLINK|SI  0.089    .
+175           1271    INKSIWR|HS  0.098    .
+175           1277    RHSHLVR|SP  0.153    .
+175           1286    PIWDHTR|CL  0.093    .
+175           1296    MIVILGK|IS  0.054    .
+175           1313    QGPTDDR|VV  0.091    .
+175           1318    DRVVWGK|SY  0.114    .
+175           1335    IGLIETR|WI  0.083    .
+175           1340    TRWIICR|RT  0.098    .
+175           1341    RWIICRR|TR  0.121    .
+175           1343    IICRRTR|IF  0.294    .
+175           1373    IFASYVR|SI  0.137    .
+175           1378    VRSISSR|CA  0.159    .
+175           1386    ATSISLR|LP  0.096    .
+175           1401    HAAALHK|QE  0.070    .
+175           1430    LFVCVGR|FL  0.099    .
+175           1439    SNPYNYK|FW  0.068    .
+175           1444    YKFWLEK|RS  0.067    .
+175           1445    KFWLEKR|SD  0.206    .
+175           1467    SPEGAVK|SG  0.077    .
+175           1473    KSGCSLR|PL  0.106    .
+175           1477    SLRPLER|LN  0.086    .
+175           1497    SNEGFVK|YN  0.071    .
+175           1501    FVKYNTR|YK  0.092    .
+175           1503    KYNTRYK|QC  0.065    .
+175           1515    WDQNEDR|SA  0.201    .
+175           1542    MLVCNGK|QP  0.060    .
+175           1546    NGKQPIR|TR  0.075    .
+175           1548    KQPIRTR|YL  0.147    .
+175           1573    QSVPAFR|SL  0.120    .
+175           1576    PAFRSLR|AR  0.254    .
+175           1578    FRSLRAR|IQ  0.126    .
+175           1581    LRARIQK|LT  0.194    .
+175           1587    KLTETSK|QP  0.057    .
+175           1591    TSKQPIR|TR  0.083    .
+175           1593    KQPIRTR|YL  0.143    .
+175           1605    TDYQPIR|DH  0.137    .
+175           1608    QPIRDHK|QP  0.106    .
+175           1612    DHKQPIR|TR  0.078    .
+175           1614    KQPIRTR|YL  0.131    .
+175           1630    PILSQVK|SS  0.089    .
+175           1634    QVKSSGR|SL  0.117    .
+175           1641    SLPITGK|VQ  0.060    .
+175           1650    ELTGTSK|QP  0.060    .
+175           1656    KQPITAR|YL  0.155    .
+175           1668    TGYQPIR|DQ  0.137    .
+175           1686    LLHVCVR|GK  0.091    .
+175           1688    HVCVRGK|AD  0.062    .
+175           2531    SPAEVHK|LG  0.067    .
+175           2548    APTDTSK|QP  0.062    .
+175           2552    TSKQPIR|TR  0.096    .
+175           2554    KQPIRTR|YS  0.123    .
+175           2570    TGYQPIR|DQ  0.108    .
+175           2602    NNCNLQK|LT  0.067    .
+175           2610    TQEGASK|FS  0.070    .
+____________________________^_________________
+
+
+
+

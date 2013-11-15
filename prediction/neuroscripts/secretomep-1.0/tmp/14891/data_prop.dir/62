@@ -1,0 +1,558 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3635 62          
+MEGLVVNTNTGKSTKLKSYYGYWEKRAFDALTKMVITNLTNFNNQLQTKMLFSVDAMLSSPDIIVNPPYNELFKHLMQSV      80
+RGCIESTRNFTRWMAGTCLEVPPQGEREDDLVVFSFHSDIQNVNQITDLSVSVSQTITKSLGALKNMLNKWKKYRPLWKL     160
+DKSIMMEKFALKMPSCESYDEKLQSYCALKEQVGNQPMVREVDFIRLHLGPLAESVQENANAWVTSLGKLLNNSARDNLE     240
+GLKNTIDQLENDLERSPDTLEDLKFVLKTISNIQDLTLEVETRAKDIKERYRTLQMYNIDVPQKEFDMCEKIDDDWIHVF     320
+QQSRRVNQSLVSVKKKFTEITLTQVDKFKEDLSAFREKFLMEGPGAVGYDLDKGINQQKIFKELFEKYQNERQELANAEK     400
+LFGLPISMYPDMVSLEADMQGYDMIYSLYSDQKKGQEEWSQTLWANLNISILSDGIEIFLKRLRKFPKKIRAMGICNILE     480
+AKMKEFKDSIPLFQDLKNDALRERHWKKLMELTGKNFEMNPDTFTLDQLFAMELHNFSDVIGDITTSAVKELSIENGLKD     560
+IIDIWNSTKFNVLKYSKGGQDRGFVLGPVEEIMQSLDDNAMNLQSMSASRFVGPFLENVQSWEKKLSHISEVVEVWMVVQ     640
+RKWMYLEGIFIGGDIRHQLPEEAKKFDIIDKAFKKIMNDTAKTMVVLDACHADNRLTTLEKMSVDLERCQKSLNDYLDSK     720
+RNAFPRFFFISDDELLSILGSSAATCVQEHMIKMFDNIKSLSFEVGNNDEHTAQAMVSSEGETMDFRQAIPAEGRVEDWM     800
+TSVLNEMRRTNRLLTKESVFYYCHEIKRIDWMSNYQGMIVLAANQVWWTWEVEDVFQKVKKGDKLAMKNYSVKMHGQINE     880
+LVTRVREKLSSNDRKKYNSVLTIDVHARDIVDNFVRDSILDVREFEWESQLRFYWEREIDNLQCKQCTGTFDYGYEYMGL     960
+NGRLVITPLTDRIYLTMTQALSMYLGTAPAGPAGTGKTETVKDLAKAFGLLCLVTNCGEGMDFKAIGKIFSGLCQCGAWG    1040
+CFDEFNRIDVSVLSVISSQIKTIQNALIMKLENFQFEGTEISMDGRMGIYITMNPGYAGRTELPESVKALFRPVVVIVPD    1120
+LQQICEIMLFSEGFELAKILAKKMTVLYKLAREQLSKQHHYDFGLRALKAVLVMAGDLKRGAGEMSEDTVLMRALRDMNL    1200
+PKFIFEDVPLFLGLIGDLFPGLDCPRVRYPRFNDAVEEALVECNNILLPDQVDKVVQMYETMLTRHTTMIVGPTGGGKSV    1280
+VIDTLCKAQTKLGMTTKVNTMNPKAVTVVELYGILDPVTRDWTDGLLSNIFRDVNQPTEKKERRYILFDGDVDALWVENM    1360
+NSVMDDNKLLTLANGERMRLQPHVALLFEVADLQYASPATVSRCGMVYVDPKNLRYEPFWMKYIAGRSIKFEADEFQRLY    1440
+TKYVPPLLEYIIEGVLNGKNVPKPKTIVPISDLRLVTQLSVMLDVLIPDSGETNAQSTLSGDTIEALFISALCFSLGGPL    1520
+LEDGRVKFDESLKSLACLGNAPSDTCSPSELPTGRSTLFEYFFDIEANQWKAWSLAVEPYIHDPERLFTEILVPTVDTTR    1600
+AAWLINHMIKIRQPIVLVGETGTSKTATIQDVLRGVDKESSLVLNINFSSRTTSMDIQRNLESNVEKRTKDSFGPPAGKK    1680
+LLVFMDDMNMPVVDTYGSQQPIELLKLLLEKGGMYDRSKDLQWRFFRDISYLAAMGKAGGGRNEVNPRFLSLFCVFNMVF    1760
+PEESTLNYIYATILKGHLQTFNKEIQDLAEPLTQFTLELYANIVKELPPTPSKFHYIFNLRDLSRIYYGLSLTLPERYEQ    1840
+KAAFVRVWRNECLRIFHDRLISNKDKDLVQNHLNDIISSNFREESEVVLRNPILFGDYRAALNPETEPRVYEDLQDFDAS    1920
+GALFTEILEEYNATFNPMNIVLFEDALDHATRIHRVLRMVNGHALLVGVGGSGKQSLTKLAAFAAGCEIFEITLCRGYNE    2000
+ESFKEDLKILYNKLGIENKPTVFLFSEGHVVEEGFLESVNNMLTTGQVPALFPDDEKEAIINNVRDEVNKAGINPNKENC    2080
+WNYFIKKASGNLHIVLSMSPVGETLRTRCRNFPGLVNETVIDWFLPWPVQALEAVASTFLGGENALIPEGHRDNLIQHIV    2160
+LVHQAVITSSNKFHQMLRRVNYVTPKNYLDFVTTFLRLLEEKDNFVLSQCNRLEVGLSKLVEASQQIDELKAKLEVQKIA    2240
+VSAKTTSCNELLKEIEQREEVTKLKQKEAVKKGAEMEEQNKLIIVEKAEAEEALNEALPALELARVALEKLDKGDVVEIR    2320
+SFATPPKTVQAVCECVLVVRGIRDVSWKSAKAMMSESNFLKNLKELKVDDITNAQVRTVKNILKENSQCTLEAMKTISSA    2400
+GFGLLQFVTAILGYCAVAREIKPKREKVAKLEKNFTISKRELDRITAECTSLSAELEDLSKKFEEAMSEKQQLQDEAELM    2480
+SKRLDAAQKLISGLSSEKGRWSADLDGLKKRRTCLLGDCMAGSAFLCYVGAFSFEFRENLLKNVWEKDLKERGIPMSDPF    2560
+RLEALLTNDVEISQWTSEGLPPDELSVQNGILTTQGSRFPLCIDPQQQALTWITKREEKNNLKVCTFNDADFLKQLELAI    2640
+KYGFPFLFKDVDEYIDPVIDNVLERNIKGTGQRQYIVLGDKEVDYDPNFRLYLDTKLANPKYSPGVFGKSMVINYTVTLK    2720
+GLEDQLLSVIVKYERPELEEQREKLIQETFQNKQKLKDLEDTLLRELANSTGNMLDNTELISTLEDTKTKAAEVTEKLKL    2800
+SVKTGVDIERARDGYRMAANRGAVLFFVLSDMSVINPMYQYSLMAFLEVFNISLRRSLPDSLLNKRLRNIIDTLTQNIYA    2880
+YACTGLFEIHKLLFSFQMTIKILQARDELRNEELDFFVKGNISLEKSARKKPHPWIPDQGWEDLVKFGEVCHSLGDVPGM    2960
+VERDGAKWKTWAELDDPESRPVPGGLEDKMGDFQKLCLLKCFRVDRVYRGVTNYVTSQMGEKYVTPPVVTFEAILEQSSP    3040
+ISPVVFILSPGSDPASDLMKLADRTGFGGNRLKFLAMGQGQEKAALQLLDTAITRGQWLMLQNCHLLVNWLIDLEKALEK    3120
+IQKPHPEFRLWLTTEPTPKFPVGILQRSFKVVTEPPNGLKLNLRQTFVKIPSQALQDCSHKAYPELVFVLAFFHAVVQER    3200
+RKYGKIGWNIPYDFNESDFRVCMELIKTYLDKSMEIDGKIPWSSLKYLIGEVMYGGRAIDEFDRRIINTYMDEYMGDFIF    3280
+DSFQPFFFYKDKEISYNIPKESTRDKFLEYIDSLPLANTPCVFGLHSNAEIGYFTNAAKDMCSYMIELQPQTSSSDGGIS    3360
+REQYIEKVASDIEEKLPVLFELDRIRKQLGEITPTAVVLLQELERFNALIFKMKMSVMTLKRALAGEVGMSAELDEVAKA    3440
+LFNGQIPASWRRLAPDTLKSLGNWIAHFERRYTQYMEWIEKGEPAVMWLSGLHIPESYLTALVQATCRKNGWPLDKSTLY    3520
+TTVTQHVRAGDVREKLHNGCYVEGLYLEGGTWDVENSCLRKSKPKILVEELPILKVIPIEAHRLKLQNTFRTPVYTTSER    3600
+RNAMGVGLVFEADITTKEHNSHWVLQGVALMLNAD                                                 3680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+..............................P.................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.....................................P..........................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+...................................                                                 3680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+62              12    VNTNTGK|ST  0.068    .
+62              15    NTGKSTK|LK  0.069    .
+62              17    GKSTKLK|SY  0.110    .
+62              25    YYGYWEK|RA  0.069    .
+62              26    YGYWEKR|AF  0.231    .
+62              33    AFDALTK|MV  0.077    .
+62              49    NNQLQTK|ML  0.080    .
+62              74    PYNELFK|HL  0.075    .
+62              81    HLMQSVR|GC  0.113    .
+62              88    GCIESTR|NF  0.084    .
+62              92    STRNFTR|WM  0.091    .
+62             107    VPPQGER|ED  0.074    .
+62             139    VSQTITK|SL  0.110    .
+62             145    KSLGALK|NM  0.052    .
+62             150    LKNMLNK|WK  0.061    .
+62             152    NMLNKWK|KY  0.063    .
+62             153    MLNKWKK|YR  0.091    .
+62             155    NKWKKYR|PL  0.126    .
+62             159    KYRPLWK|LD  0.065    .
+62             162    PLWKLDK|SI  0.081    .
+62             168    KSIMMEK|FA  0.074    .
+62             172    MEKFALK|MP  0.061    .
+62             182    CESYDEK|LQ  0.067    .
+62             190    QSYCALK|EQ  0.065    .
+62             200    GNQPMVR|EV  0.153    .
+62             206    REVDFIR|LH  0.072    .
+62             229    WVTSLGK|LL  0.056    .
+62             236    LLNNSAR|DN  0.174    .
+62             243    DNLEGLK|NT  0.060    .
+62             255    LENDLER|SP  0.137    .
+62             264    DTLEDLK|FV  0.062    .
+62             268    DLKFVLK|TI  0.070    .
+62             283    TLEVETR|AK  0.129    .
+62             285    EVETRAK|DI  0.070    .
+62             288    TRAKDIK|ER  0.077    .
+62             290    AKDIKER|YR  0.091    .
+62             292    DIKERYR|TL  0.083    .
+62             304    NIDVPQK|EF  0.065    .
+62             311    EFDMCEK|ID  0.065    .
+62             324    HVFQQSR|RV  0.130    .
+62             325    VFQQSRR|VN  0.104    .
+62             334    QSLVSVK|KK  0.068    .
+62             335    SLVSVKK|KF  0.110    .
+62             336    LVSVKKK|FT  0.281    .
+62             347    TLTQVDK|FK  0.069    .
+62             349    TQVDKFK|ED  0.066    .
+62             356    EDLSAFR|EK  0.073    .
+62             358    LSAFREK|FL  0.101    .
+62             373    VGYDLDK|GI  0.066    .
+62             379    KGINQQK|IF  0.060    .
+62             382    NQQKIFK|EL  0.067    .
+62             387    FKELFEK|YQ  0.061    .
+62             392    EKYQNER|QE  0.070    .
+62             400    ELANAEK|LF  0.064    .
+62             433    SLYSDQK|KG  0.061    .
+62             434    LYSDQKK|GQ  0.127    .
+62             461    GIEIFLK|RL  0.059    .
+62             462    IEIFLKR|LR  0.096    .
+62             464    IFLKRLR|KF  0.079    .
+62             465    FLKRLRK|FP  0.276    .
+62             468    RLRKFPK|KI  0.092    .
+62             469    LRKFPKK|IR  0.113    .
+62             471    KFPKKIR|AM  0.097    .
+62             482    CNILEAK|MK  0.065    .
+62             484    ILEAKMK|EF  0.077    .
+62             487    AKMKEFK|DS  0.082    .
+62             497    PLFQDLK|ND  0.055    .
+62             502    LKNDALR|ER  0.096    .
+62             504    NDALRER|HW  0.096    .
+62             507    LRERHWK|KL  0.155    .
+62             508    RERHWKK|LM  0.118    .
+62             515    LMELTGK|NF  0.069    .
+62             550    ITTSAVK|EL  0.058    .
+62             559    SIENGLK|DI  0.085    .
+62             569    DIWNSTK|FN  0.060    .
+62             574    TKFNVLK|YS  0.084    .
+62             577    NVLKYSK|GG  0.057    .
+62             582    SKGGQDR|GF  0.104    .
+62             610    QSMSASR|FV  0.219    .
+62             624    NVQSWEK|KL  0.061    .
+62             625    VQSWEKK|LS  0.161    .
+62             641    VWMVVQR|KW  0.109    .
+62             642    WMVVQRK|WM  0.083    .
+62             656    FIGGDIR|HQ  0.074    .
+62             664    QLPEEAK|KF  0.070    .
+62             665    LPEEAKK|FD  0.092    .
+62             671    KFDIIDK|AF  0.068    .
+62             674    IIDKAFK|KI  0.058    .
+62             675    IDKAFKK|IM  0.104    .
+62             682    IMNDTAK|TM  0.065    .
+62             695    ACHADNR|LT  0.082    .
+62             701    RLTTLEK|MS  0.063    .
+62             708    MSVDLER|CQ  0.083    .
+62             711    DLERCQK|SL  0.232    .
+62             720    NDYLDSK|RN  0.054    .
+62             721    DYLDSKR|NA  0.142    .
+62             726    KRNAFPR|FF  0.194    .
+62             753    VQEHMIK|MF  0.064    .
+62             759    KMFDNIK|SL  0.076    .
+62             787    GETMDFR|QA  0.111    .
+62             795    AIPAEGR|VE  0.073    .
+62             808    SVLNEMR|RT  0.080    .
+62             809    VLNEMRR|TN  0.107    .
+62             812    EMRRTNR|LL  0.231    .
+62             816    TNRLLTK|ES  0.069    .
+62             827    YYCHEIK|RI  0.063    .
+62             828    YCHEIKR|ID  0.157    .
+62             858    VEDVFQK|VK  0.054    .
+62             860    DVFQKVK|KG  0.057    .
+62             861    VFQKVKK|GD  0.106    .
+62             864    KVKKGDK|LA  0.061    .
+62             868    GDKLAMK|NY  0.080    .
+62             873    MKNYSVK|MH  0.094    .
+62             884    INELVTR|VR  0.074    .
+62             886    ELVTRVR|EK  0.072    .
+62             888    VTRVREK|LS  0.066    .
+62             894    KLSSNDR|KK  0.090    .
+62             895    LSSNDRK|KY  0.120    .
+62             896    SSNDRKK|YN  0.153    .
+62             908    TIDVHAR|DI  0.163    .
+62             916    IVDNFVR|DS  0.087    .
+62             923    DSILDVR|EF  0.074    .
+62             932    EWESQLR|FY  0.101    .
+62             937    LRFYWER|EI  0.107    .
+62             945    IDNLQCK|QC  0.070    .
+62             963    YMGLNGR|LV  0.094    .
+62             972    ITPLTDR|IY  0.066    .
+62             997    GPAGTGK|TE  0.067    .
+62            1002    GKTETVK|DL  0.075    .
+62            1006    TVKDLAK|AF  0.063    .
+62            1024    GEGMDFK|AI  0.098    .
+62            1028    DFKAIGK|IF  0.057    .
+62            1047    CFDEFNR|ID  0.074    .
+62            1061    VISSQIK|TI  0.076    .
+62            1070    QNALIMK|LE  0.061    .
+62            1086    EISMDGR|MG  0.100    .
+62            1100    NPGYAGR|TE  0.073    .
+62            1108    ELPESVK|AL  0.061    .
+62            1112    SVKALFR|PV  0.120    .
+62            1138    EGFELAK|IL  0.065    .
+62            1142    LAKILAK|KM  0.060    .
+62            1143    AKILAKK|MT  0.085    .
+62            1149    KMTVLYK|LA  0.072    .
+62            1152    VLYKLAR|EQ  0.089    .
+62            1157    AREQLSK|QH  0.062    .
+62            1166    HYDFGLR|AL  0.095    .
+62            1169    FGLRALK|AV  0.108    .
+62            1179    VMAGDLK|RG  0.056    .
+62            1180    MAGDLKR|GA  0.272    .
+62            1193    EDTVLMR|AL  0.085    .
+62            1196    VLMRALR|DM  0.180    .
+62            1202    RDMNLPK|FI  0.083    .
+62            1226    PGLDCPR|VR  0.068    .
+62            1228    LDCPRVR|YP  0.086    .
+62            1231    PRVRYPR|FN  0.537 *ProP*
+62            1254    LPDQVDK|VV  0.087    .
+62            1265    YETMLTR|HT  0.083    .
+62            1278    GPTGGGK|SV  0.086    .
+62            1287    VIDTLCK|AQ  0.059    .
+62            1291    LCKAQTK|LG  0.059    .
+62            1297    KLGMTTK|VN  0.065    .
+62            1304    VNTMNPK|AV  0.090    .
+62            1320    ILDPVTR|DW  0.150    .
+62            1332    LLSNIFR|DV  0.193    .
+62            1340    VNQPTEK|KE  0.058    .
+62            1341    NQPTEKK|ER  0.083    .
+62            1343    PTEKKER|RY  0.077    .
+62            1344    TEKKERR|YI  0.163    .
+62            1368    SVMDDNK|LL  0.059    .
+62            1377    TLANGER|MR  0.077    .
+62            1379    ANGERMR|LQ  0.077    .
+62            1403    SPATVSR|CG  0.101    .
+62            1412    MVYVDPK|NL  0.068    .
+62            1415    VDPKNLR|YE  0.070    .
+62            1422    YEPFWMK|YI  0.059    .
+62            1427    MKYIAGR|SI  0.180    .
+62            1430    IAGRSIK|FE  0.176    .
+62            1438    EADEFQR|LY  0.079    .
+62            1442    FQRLYTK|YV  0.076    .
+62            1459    EGVLNGK|NV  0.061    .
+62            1463    NGKNVPK|PK  0.075    .
+62            1465    KNVPKPK|TI  0.073    .
+62            1474    VPISDLR|LV  0.092    .
+62            1525    PLLEDGR|VK  0.066    .
+62            1527    LEDGRVK|FD  0.064    .
+62            1533    KFDESLK|SL  0.069    .
+62            1555    SELPTGR|ST  0.106    .
+62            1571    IEANQWK|AW  0.075    .
+62            1586    YIHDPER|LF  0.097    .
+62            1600    PTVDTTR|AA  0.096    .
+62            1610    LINHMIK|IR  0.069    .
+62            1612    NHMIKIR|QP  0.085    .
+62            1625    GETGTSK|TA  0.061    .
+62            1634    TIQDVLR|GV  0.170    .
+62            1638    VLRGVDK|ES  0.071    .
+62            1651    NINFSSR|TT  0.100    .
+62            1659    TSMDIQR|NL  0.098    .
+62            1667    LESNVEK|RT  0.079    .
+62            1668    ESNVEKR|TK  0.236    .
+62            1670    NVEKRTK|DS  0.071    .
+62            1679    FGPPAGK|KL  0.059    .
+62            1680    GPPAGKK|LL  0.084    .
+62            1706    QPIELLK|LL  0.066    .
+62            1711    LKLLLEK|GG  0.056    .
+62            1717    KGGMYDR|SK  0.129    .
+62            1719    GMYDRSK|DL  0.071    .
+62            1724    SKDLQWR|FF  0.103    .
+62            1727    LQWRFFR|DI  0.446    .
+62            1737    YLAAMGK|AG  0.068    .
+62            1742    GKAGGGR|NE  0.074    .
+62            1748    RNEVNPR|FL  0.095    .
+62            1775    IYATILK|GH  0.058    .
+62            1783    HLQTFNK|EI  0.067    .
+62            1805    LYANIVK|EL  0.058    .
+62            1813    LPPTPSK|FH  0.057    .
+62            1821    HYIFNLR|DL  0.106    .
+62            1825    NLRDLSR|IY  0.083    .
+62            1837    SLTLPER|YE  0.079    .
+62            1841    PERYEQK|AA  0.070    .
+62            1846    QKAAFVR|VW  0.091    .
+62            1849    AFVRVWR|NE  0.153    .
+62            1854    WRNECLR|IF  0.107    .
+62            1859    LRIFHDR|LI  0.161    .
+62            1864    DRLISNK|DK  0.082    .
+62            1866    LISNKDK|DL  0.088    .
+62            1882    IISSNFR|EE  0.096    .
+62            1890    ESEVVLR|NP  0.071    .
+62            1899    ILFGDYR|AA  0.090    .
+62            1909    NPETEPR|VY  0.112    .
+62            1952    ALDHATR|IH  0.080    .
+62            1955    HATRIHR|VL  0.195    .
+62            1958    RIHRVLR|MV  0.505 *ProP*
+62            1974    GVGGSGK|QS  0.066    .
+62            1979    GKQSLTK|LA  0.069    .
+62            1996    FEITLCR|GY  0.088    .
+62            2004    YNEESFK|ED  0.065    .
+62            2008    SFKEDLK|IL  0.065    .
+62            2013    LKILYNK|LG  0.063    .
+62            2019    KLGIENK|PT  0.060    .
+62            2057    LFPDDEK|EA  0.057    .
+62            2065    AIINNVR|DE  0.072    .
+62            2070    VRDEVNK|AG  0.060    .
+62            2077    AGINPNK|EN  0.065    .
+62            2086    CWNYFIK|KA  0.107    .
+62            2087    WNYFIKK|AS  0.107    .
+62            2106    PVGETLR|TR  0.072    .
+62            2108    GETLRTR|CR  0.066    .
+62            2110    TLRTRCR|NF  0.085    .
+62            2152    LIPEGHR|DN  0.074    .
+62            2172    VITSSNK|FH  0.057    .
+62            2178    KFHQMLR|RV  0.103    .
+62            2179    FHQMLRR|VN  0.114    .
+62            2186    VNYVTPK|NY  0.069    .
+62            2197    FVTTFLR|LL  0.074    .
+62            2202    LRLLEEK|DN  0.067    .
+62            2212    VLSQCNR|LE  0.069    .
+62            2219    LEVGLSK|LV  0.079    .
+62            2231    QQIDELK|AK  0.066    .
+62            2233    IDELKAK|LE  0.067    .
+62            2238    AKLEVQK|IA  0.070    .
+62            2244    KIAVSAK|TT  0.096    .
+62            2253    SCNELLK|EI  0.079    .
+62            2258    LKEIEQR|EE  0.099    .
+62            2263    QREEVTK|LK  0.066    .
+62            2265    EEVTKLK|QK  0.073    .
+62            2267    VTKLKQK|EA  0.071    .
+62            2271    KQKEAVK|KG  0.061    .
+62            2272    QKEAVKK|GA  0.208    .
+62            2281    EMEEQNK|LI  0.060    .
+62            2287    KLIIVEK|AE  0.063    .
+62            2305    PALELAR|VA  0.086    .
+62            2310    ARVALEK|LD  0.062    .
+62            2313    ALEKLDK|GD  0.065    .
+62            2320    GDVVEIR|SF  0.142    .
+62            2327    SFATPPK|TV  0.089    .
+62            2340    ECVLVVR|GI  0.093    .
+62            2343    LVVRGIR|DV  0.369    .
+62            2348    IRDVSWK|SA  0.135    .
+62            2351    VSWKSAK|AM  0.071    .
+62            2361    SESNFLK|NL  0.067    .
+62            2364    NFLKNLK|EL  0.056    .
+62            2367    KNLKELK|VD  0.060    .
+62            2377    ITNAQVR|TV  0.145    .
+62            2380    AQVRTVK|NI  0.121    .
+62            2384    TVKNILK|EN  0.067    .
+62            2395    CTLEAMK|TI  0.071    .
+62            2419    GYCAVAR|EI  0.116    .
+62            2422    AVAREIK|PK  0.110    .
+62            2424    AREIKPK|RE  0.069    .
+62            2425    REIKPKR|EK  0.189    .
+62            2427    IKPKREK|VA  0.059    .
+62            2430    KREKVAK|LE  0.067    .
+62            2433    KVAKLEK|NF  0.061    .
+62            2439    KNFTISK|RE  0.054    .
+62            2440    NFTISKR|EL  0.206    .
+62            2444    SKRELDR|IT  0.094    .
+62            2461    ELEDLSK|KF  0.061    .
+62            2462    LEDLSKK|FE  0.091    .
+62            2470    EEAMSEK|QQ  0.065    .
+62            2482    EAELMSK|RL  0.064    .
+62            2483    AELMSKR|LD  0.123    .
+62            2489    RLDAAQK|LI  0.064    .
+62            2498    SGLSSEK|GR  0.058    .
+62            2500    LSSEKGR|WS  0.131    .
+62            2509    ADLDGLK|KR  0.056    .
+62            2510    DLDGLKK|RR  0.068    .
+62            2511    LDGLKKR|RT  0.194    .
+62            2512    DGLKKRR|TC  0.104    .
+62            2537    AFSFEFR|EN  0.090    .
+62            2542    FRENLLK|NV  0.069    .
+62            2547    LKNVWEK|DL  0.081    .
+62            2550    VWEKDLK|ER  0.058    .
+62            2552    EKDLKER|GI  0.098    .
+62            2561    PMSDPFR|LE  0.072    .
+62            2598    LTTQGSR|FP  0.070    .
+62            2615    ALTWITK|RE  0.057    .
+62            2616    LTWITKR|EE  0.132    .
+62            2619    ITKREEK|NN  0.102    .
+62            2623    EEKNNLK|VC  0.054    .
+62            2634    NDADFLK|QL  0.075    .
+62            2641    QLELAIK|YG  0.064    .
+62            2649    GFPFLFK|DV  0.097    .
+62            2665    IDNVLER|NI  0.110    .
+62            2668    VLERNIK|GT  0.155    .
+62            2673    IKGTGQR|QY  0.091    .
+62            2681    YIVLGDK|EV  0.061    .
+62            2690    DYDPNFR|LY  0.065    .
+62            2696    RLYLDTK|LA  0.066    .
+62            2701    TKLANPK|YS  0.068    .
+62            2709    SPGVFGK|SM  0.105    .
+62            2720    NYTVTLK|GL  0.074    .
+62            2732    LLSVIVK|YE  0.079    .
+62            2735    VIVKYER|PE  0.070    .
+62            2742    PELEEQR|EK  0.078    .
+62            2744    LEEQREK|LI  0.060    .
+62            2753    QETFQNK|QK  0.060    .
+62            2755    TFQNKQK|LK  0.065    .
+62            2757    QNKQKLK|DL  0.102    .
+62            2765    LEDTLLR|EL  0.072    .
+62            2788    STLEDTK|TK  0.057    .
+62            2790    LEDTKTK|AA  0.078    .
+62            2797    AAEVTEK|LK  0.061    .
+62            2799    EVTEKLK|LS  0.056    .
+62            2803    KLKLSVK|TG  0.062    .
+62            2810    TGVDIER|AR  0.098    .
+62            2812    VDIERAR|DG  0.090    .
+62            2816    RARDGYR|MA  0.099    .
+62            2821    YRMAANR|GA  0.100    .
+62            2855    VFNISLR|RS  0.064    .
+62            2856    FNISLRR|SL  0.220    .
+62            2865    PDSLLNK|RL  0.071    .
+62            2866    DSLLNKR|LR  0.097    .
+62            2868    LLNKRLR|NI  0.142    .
+62            2891    GLFEIHK|LL  0.066    .
+62            2901    SFQMTIK|IL  0.064    .
+62            2906    IKILQAR|DE  0.108    .
+62            2910    QARDELR|NE  0.082    .
+62            2919    ELDFFVK|GN  0.066    .
+62            2926    GNISLEK|SA  0.108    .
+62            2929    SLEKSAR|KK  0.078    .
+62            2930    LEKSARK|KP  0.083    .
+62            2931    EKSARKK|PH  0.129    .
+62            2946    GWEDLVK|FG  0.064    .
+62            2963    VPGMVER|DG  0.111    .
+62            2967    VERDGAK|WK  0.068    .
+62            2969    RDGAKWK|TW  0.071    .
+62            2980    LDDPESR|PV  0.119    .
+62            2989    PGGLEDK|MG  0.059    .
+62            2995    KMGDFQK|LC  0.056    .
+62            3000    QKLCLLK|CF  0.058    .
+62            3003    CLLKCFR|VD  0.072    .
+62            3006    KCFRVDR|VY  0.247    .
+62            3009    RVDRVYR|GV  0.475    .
+62            3022    TSQMGEK|YV  0.090    .
+62            3060    PASDLMK|LA  0.088    .
+62            3064    LMKLADR|TG  0.079    .
+62            3071    TGFGGNR|LK  0.082    .
+62            3073    FGGNRLK|FL  0.077    .
+62            3083    MGQGQEK|AA  0.078    .
+62            3095    LDTAITR|GQ  0.079    .
+62            3116    WLIDLEK|AL  0.074    .
+62            3120    LEKALEK|IQ  0.057    .
+62            3123    ALEKIQK|PH  0.063    .
+62            3129    KPHPEFR|LW  0.150    .
+62            3139    TTEPTPK|FP  0.069    .
+62            3147    PVGILQR|SF  0.107    .
+62            3150    ILQRSFK|VV  0.216    .
+62            3160    EPPNGLK|LN  0.054    .
+62            3164    GLKLNLR|QT  0.114    .
+62            3169    LRQTFVK|IP  0.087    .
+62            3181    LQDCSHK|AY  0.060    .
+62            3200    HAVVQER|RK  0.097    .
+62            3201    AVVQERR|KY  0.173    .
+62            3202    VVQERRK|YG  0.082    .
+62            3205    ERRKYGK|IG  0.075    .
+62            3220    FNESDFR|VC  0.077    .
+62            3227    VCMELIK|TY  0.057    .
+62            3232    IKTYLDK|SM  0.089    .
+62            3239    SMEIDGK|IP  0.062    .
+62            3246    IPWSSLK|YL  0.075    .
+62            3257    EVMYGGR|AI  0.091    .
+62            3264    AIDEFDR|RI  0.077    .
+62            3265    IDEFDRR|II  0.146    .
+62            3290    QPFFFYK|DK  0.093    .
+62            3292    FFFYKDK|EI  0.076    .
+62            3300    ISYNIPK|ES  0.061    .
+62            3304    IPKESTR|DK  0.108    .
+62            3306    KESTRDK|FL  0.091    .
+62            3339    YFTNAAK|DM  0.066    .
+62            3361    SDGGISR|EQ  0.086    .
+62            3367    REQYIEK|VA  0.088    .
+62            3375    ASDIEEK|LP  0.052    .
+62            3384    VLFELDR|IR  0.071    .
+62            3386    FELDRIR|KQ  0.069    .
+62            3387    ELDRIRK|QL  0.274    .
+62            3405    LLQELER|FN  0.096    .
+62            3412    FNALIFK|MK  0.067    .
+62            3414    ALIFKMK|MS  0.070    .
+62            3421    MSVMTLK|RA  0.083    .
+62            3422    SVMTLKR|AL  0.220    .
+62            3439    ELDEVAK|AL  0.070    .
+62            3451    QIPASWR|RL  0.074    .
+62            3452    IPASWRR|LA  0.204    .
+62            3459    LAPDTLK|SL  0.088    .
+62            3470    WIAHFER|RY  0.102    .
+62            3471    IAHFERR|YT  0.253    .
+62            3481    YMEWIEK|GE  0.060    .
+62            3508    LVQATCR|KN  0.092    .
+62            3509    VQATCRK|NG  0.078    .
+62            3516    NGWPLDK|ST  0.076    .
+62            3528    TVTQHVR|AG  0.089    .
+62            3533    VRAGDVR|EK  0.090    .
+62            3535    AGDVREK|LH  0.056    .
+62            3560    VENSCLR|KS  0.080    .
+62            3561    ENSCLRK|SK  0.149    .
+62            3563    SCLRKSK|PK  0.141    .
+62            3565    LRKSKPK|IL  0.084    .
+62            3575    EELPILK|VI  0.052    .
+62            3583    IPIEAHR|LK  0.073    .
+62            3585    IEAHRLK|LQ  0.063    .
+62            3591    KLQNTFR|TP  0.076    .
+62            3600    VYTTSER|RN  0.071    .
+62            3601    YTTSERR|NA  0.152    .
+62            3617    EADITTK|EH  0.056    .
+____________________________^_________________
+
+
+
+

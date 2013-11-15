@@ -1,0 +1,500 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3287 90          
+MISNQTNVVAMLLIHLLSDTVDPYKIYSEFTGVYLIPAACAKDGALDKLEHGAMASESSGVRVAIRVRKLINRELKACEL      80
+IRWQSHDQSIWEINRNDAAYTFDKVLSEHVTNEETYEELGRDLVISAMEGINATIFAYGQTSSGKTHTMMGNSEDRGIIP     160
+RAVKDIFAYCADHADSRSFLLRVSYMEIYNETITDLINPEKKVVESTDKGCEMEADGQARTQATSVNLDQLERPSLARKA     240
+TGAEGIRLKEGGHINNSLMVLSKVIAKLSDANEVVIPFRESRLTRILQSSLGGNAKTCVLCTMTPVAVEESHSTLRLLTM     320
+NDKAIILKYEKRIKTLEKELAEKNQLESNMKIKDTEVQALKSQMAGGKPAGGRKGRRETFFHGPGGLMPSPRNIFIKNSR     400
+ISDTDETDVVKNLFGSGGALPTLVSDRRRRTTDEADTIELEYEMCRTNLEKERQKSLRLQSSLESLEAMCTEMGDRMQDT     480
+IDDQQEQIEQLRGTLEERDTRLEELKSEERLDLMNQIESNAERAQQLENRNNMILAEAEEQRVELEQRLSQLSTSDPSPF     560
+SSPWRLSETLKSTKTEAEHQISELEKSLETAKSGQRSEEEWGDLEGRISSLQETVQSLEGAAERKNQEFSVMQQRAVEES     640
+GALQEESEMRTGELEEALREAQDLIAVHESSLGEVKTNHEEMKTAHQAAIAQMNQLTEQNTELNSKFEQLETTGALNMDV     720
+NENVDEQVAQRTSAITEQKEHELACAYSQVAELKSEIEKMNQEHQESFKTLRYDLEGERLAAVHELTLKSLNFESLVKDR     800
+DKVQSARAELEKLFEDSRRELSEALLKYQQELGQKDEELRAVLERCERLEEEIESTEKGSAMEDLQDKFRGELELANVQI     880
+TELQNKLDVVNSEFDVERQRLVTEIEILQRRGEEFNNSPSSEQQENLIQQIQELERKMEGHVTENATLTLQITDLKDRLS     960
+SSEDLLARVEHLPLEQVVERALQWEEKNVQLETKTMELNEAEDKMMHLQLASVDYSLRFEQLTKNSADLSRRYTELSNEK    1040
+LEISSTLSQRISQLEEEKEALRTAQCTECPQLTAQIETMIGEKEALRTAQCTQCPQLTAQIEAMSHEMSNIQQTSSQCSK    1120
+CPKLQAQISVVSQELETLKSTPVPECTKRELSEALLKYQQELGQKDEELRAVLERCERLEEEIESTEKGSAMEDLQDKFR    1200
+GELELANVQITELQNKLDVVNSEFDVERQRLVTEIEILQRRGEEFNNSPSSEQQENLIQQIQELERKMEGHVTENATLTL    1280
+QITDLKDRLSSSEDLLARVEHLPLEQVVERALQWEEKNVQLETKTMELNEAEDKMMHLQLASVDYSLRFEQLTKNSADLS    1360
+RRYTELSNEKLEISSTLSQRISQLEEEKEALRTAQCTECPQLTAQIETMIGEKEALRTAQCTECPQLTAQIETMIGEKEA    1440
+LRTAQCTECPQLTAQIETMIGEKEALRTTQCTECPQLTAQIEAMIGEKEALRTAQCTQCPQLTAQIEAMIGEKEALRTAQ    1520
+CTQCPQLTAQIETMIGEKEALRTAQCTQCPQLTAQIEAMSHEMSNIQQTSSQCSKCPKLQAQISVVSQELETLKSTPVPE    1600
+CTKCPELETQIGAVFQQLANIQDSPPAECNNCPGLLAQISNLSQELDALKSTECPKCPELAAQISAVCQVLDAVKSAECT    1680
+KCHELAAQISAACQVLDSVKSAECTKCAELAAEVSAACQELDTVKSSPTPECTKCPESAQLISSLSQELDALRTAQPPAE    1760
+CVKCAEFGALVGSLTQALTEANAMPPPDCNQCPALQETVSSLSQELLSLQSAECPKCPQLEAQISSLSRECPKCPGLELQ    1840
+ISSLSQERECLKCVELEGKISAVKEELKTLESSSPPNDQIVAQLEVTIATLRKQEQTLRTELEENAAEAQSLQKVVAEYR    1920
+TKEVDEFQMLEEKMLLEQSNSDYQMKVAAQLQCITSLETALEEKSGQVKEIEGSVTALQAKLDNVSGKLIAESKAKEALR    2000
+DDLDELMVLLQRKERETKAREEEDSGKLGELVREKEDALVASQEQVTEKDRQLEEQRLVIAEGSTRLEQMETEMRMLVGQ    2080
+IDQTSTGYEGMKAQLLEMASQKEQLVGERDELRMQLTESCGIRDQMVNEKEQIQGAIEGLIAEKEQIQGVMEGLMAERDQ    2160
+LIGVVEGLGAEKEELQNQISASQNTTQGAMRELVQELHSTKEYLATIQKEKESLVSDISDARSKLSTMVSEMETLSDAVV    2240
+EREQQCQDLNTRVISLTERTKQLVREKEEESAKVAMVTEQMDKLSADIERSRESVTCEFAKNVRQLAEVEEQLALRERER    2320
+DEAVAELENWRTSGSDMISDRDALKSKVDELQDKANRYEMLATAHRQLSANMQTLQLKKDEADAAKAEIEQDFGKFRQFH    2400
+EEALAKAQDSRKTIDLEYRELQVENMAMNEKLVTLEKQLEMGKEMMETAREDINQFKEKHQIVLNKMNKQDEEIKEQNNT    2480
+MAKHNAEYITLHKQWQDALNEADSLEKRDQLIGVVEGLGAEKEELQNQISASQNTTQGAMRELEQELHSTKEYLATIQKE    2560
+KESLVSDISDARSKLSTMVSEMETLSDAVVEREQQSQDLTTRVIFLTERTEQLVREKEDESTKVAMVTEQMDKLSADIER    2640
+SRESVTCEFAKNVRQLALHLLVNRNSLALALLRHAELENWRTSGSDMISDRNALKSKVEELQDKANRYEMLATAHRQLSA    2720
+NMQTLQLKKDEADAAKAEIEQDFGKFRQFHEEALAKAQDSRKTIDLEYRELQVENMRYLLFNHWDLFVNLYPLEMMETAR    2800
+EDINQFKEKHQIVLNKMNKQDEEIKEQNNTMAKHNAEYITLHKQWQDALNEADSLESKFNTAVNKVTQTTKSLEREIIRR    2880
+KYVEQLAYVTPRTYQPVSLEEFVKSLDNDHADYLEKIKLTYQGVGLVCRQCDKKRDAATARVLNPSSSRQQAAAERFAVP    2960
+SVPSVPEKRGVQEKSRTISPPSSENIDPKPQTPAEPPVAGPSIASVTKQPLLAKRVALTKKTTKQKEDETFVVTCVTTHG    3040
+RPTTSQAGWAVGTGQCQTWRHSHLVRSPHIGDGHTRCLCHQLIPLELDYPLYLSMLQIDPMDRAQELLKDTTLFGAELTP    3120
+VCGDHTRCLCHQVPDSILHSFILHLEPKQIRGPGSPTRPGPRDARYYPGTFCKLANFKSGVQPVRIHTCLAGLSRLNGTQ    3200
+TRSMRKLLNKTCLAPPTRSENQMGYGAAIQNKTKRNLPSFRKMQNFSLLLSEHWPDPLLSLCTRSARELWSEHWPDSTIA    3280
+ILGLVEE                                                                             3360
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+.............................P..................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+.......                                                                             3360
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+90              25    DTVDPYK|IY  0.062    .
+90              42    IPAACAK|DG  0.069    .
+90              48    KDGALDK|LE  0.064    .
+90              62    SESSGVR|VA  0.099    .
+90              66    GVRVAIR|VR  0.077    .
+90              68    RVAIRVR|KL  0.080    .
+90              69    VAIRVRK|LI  0.233    .
+90              73    VRKLINR|EL  0.099    .
+90              76    LINRELK|AC  0.179    .
+90              82    KACELIR|WQ  0.100    .
+90              95    SIWEINR|ND  0.075    .
+90             104    AAYTFDK|VL  0.070    .
+90             121    TYEELGR|DL  0.099    .
+90             145    GQTSSGK|TH  0.065    .
+90             156    MGNSEDR|GI  0.094    .
+90             161    DRGIIPR|AV  0.176    .
+90             164    IIPRAVK|DI  0.164    .
+90             177    ADHADSR|SF  0.092    .
+90             182    SRSFLLR|VS  0.124    .
+90             201    DLINPEK|KV  0.069    .
+90             202    LINPEKK|VV  0.141    .
+90             209    VVESTDK|GC  0.065    .
+90             220    EADGQAR|TQ  0.089    .
+90             233    NLDQLER|PS  0.068    .
+90             238    ERPSLAR|KA  0.139    .
+90             239    RPSLARK|AT  0.175    .
+90             247    TGAEGIR|LK  0.086    .
+90             249    AEGIRLK|EG  0.073    .
+90             263    SLMVLSK|VI  0.062    .
+90             267    LSKVIAK|LS  0.077    .
+90             279    EVVIPFR|ES  0.071    .
+90             282    IPFRESR|LT  0.253    .
+90             285    RESRLTR|IL  0.361    .
+90             296    SLGGNAK|TC  0.063    .
+90             316    ESHSTLR|LL  0.082    .
+90             323    LLTMNDK|AI  0.059    .
+90             328    DKAIILK|YE  0.062    .
+90             331    IILKYEK|RI  0.058    .
+90             332    ILKYEKR|IK  0.133    .
+90             334    KYEKRIK|TL  0.072    .
+90             338    RIKTLEK|EL  0.066    .
+90             343    EKELAEK|NQ  0.055    .
+90             351    QLESNMK|IK  0.068    .
+90             353    ESNMKIK|DT  0.103    .
+90             361    TEVQALK|SQ  0.081    .
+90             368    SQMAGGK|PA  0.076    .
+90             373    GKPAGGR|KG  0.081    .
+90             374    KPAGGRK|GR  0.092    .
+90             376    AGGRKGR|RE  0.179    .
+90             377    GGRKGRR|ET  0.172    .
+90             392    GLMPSPR|NI  0.133    .
+90             397    PRNIFIK|NS  0.088    .
+90             400    IFIKNSR|IS  0.103    .
+90             411    DETDVVK|NL  0.065    .
+90             427    PTLVSDR|RR  0.070    .
+90             428    TLVSDRR|RR  0.108    .
+90             429    LVSDRRR|RT  0.208    .
+90             430    VSDRRRR|TT  0.540 *ProP*
+90             446    LEYEMCR|TN  0.087    .
+90             451    CRTNLEK|ER  0.066    .
+90             453    TNLEKER|QK  0.105    .
+90             455    LEKERQK|SL  0.073    .
+90             458    ERQKSLR|LQ  0.129    .
+90             476    CTEMGDR|MQ  0.093    .
+90             492    EQIEQLR|GT  0.096    .
+90             498    RGTLEER|DT  0.090    .
+90             501    LEERDTR|LE  0.116    .
+90             506    TRLEELK|SE  0.081    .
+90             510    ELKSEER|LD  0.063    .
+90             523    IESNAER|AQ  0.090    .
+90             530    AQQLENR|NN  0.087    .
+90             542    AEAEEQR|VE  0.076    .
+90             548    RVELEQR|LS  0.073    .
+90             565    PFSSPWR|LS  0.106    .
+90             571    RLSETLK|ST  0.114    .
+90             574    ETLKSTK|TE  0.057    .
+90             586    QISELEK|SL  0.124    .
+90             592    KSLETAK|SG  0.081    .
+90             596    TAKSGQR|SE  0.113    .
+90             607    WGDLEGR|IS  0.093    .
+90             624    LEGAAER|KN  0.075    .
+90             625    EGAAERK|NQ  0.090    .
+90             635    FSVMQQR|AV  0.178    .
+90             650    QEESEMR|TG  0.085    .
+90             659    ELEEALR|EA  0.082    .
+90             676    SSLGEVK|TN  0.067    .
+90             683    TNHEEMK|TA  0.104    .
+90             706    NTELNSK|FE  0.060    .
+90             731    DEQVAQR|TS  0.080    .
+90             739    SAITEQK|EH  0.060    .
+90             754    SQVAELK|SE  0.094    .
+90             759    LKSEIEK|MN  0.076    .
+90             769    EHQESFK|TL  0.070    .
+90             772    ESFKTLR|YD  0.108    .
+90             779    YDLEGER|LA  0.074    .
+90             789    VHELTLK|SL  0.064    .
+90             798    NFESLVK|DR  0.067    .
+90             800    ESLVKDR|DK  0.120    .
+90             802    LVKDRDK|VQ  0.061    .
+90             807    DKVQSAR|AE  0.088    .
+90             812    ARAELEK|LF  0.079    .
+90             818    KLFEDSR|RE  0.060    .
+90             819    LFEDSRR|EL  0.169    .
+90             827    LSEALLK|YQ  0.058    .
+90             835    QQELGQK|DE  0.056    .
+90             840    QKDEELR|AV  0.083    .
+90             845    LRAVLER|CE  0.105    .
+90             848    VLERCER|LE  0.212    .
+90             858    EIESTEK|GS  0.058    .
+90             868    MEDLQDK|FR  0.068    .
+90             870    DLQDKFR|GE  0.080    .
+90             886    ITELQNK|LD  0.053    .
+90             898    SEFDVER|QR  0.080    .
+90             900    FDVERQR|LV  0.103    .
+90             910    EIEILQR|RG  0.074    .
+90             911    IEILQRR|GE  0.113    .
+90             936    QIQELER|KM  0.083    .
+90             937    IQELERK|ME  0.089    .
+90             956    LQITDLK|DR  0.057    .
+90             958    ITDLKDR|LS  0.076    .
+90             968    SEDLLAR|VE  0.076    .
+90             980    LEQVVER|AL  0.121    .
+90             987    ALQWEEK|NV  0.081    .
+90             994    NVQLETK|TM  0.065    .
+90            1004    LNEAEDK|MM  0.065    .
+90            1018    SVDYSLR|FE  0.072    .
+90            1024    RFEQLTK|NS  0.055    .
+90            1031    NSADLSR|RY  0.078    .
+90            1032    SADLSRR|YT  0.149    .
+90            1040    TELSNEK|LE  0.054    .
+90            1050    SSTLSQR|IS  0.086    .
+90            1058    SQLEEEK|EA  0.056    .
+90            1062    EEKEALR|TA  0.073    .
+90            1083    ETMIGEK|EA  0.054    .
+90            1087    GEKEALR|TA  0.076    .
+90            1120    TSSQCSK|CP  0.065    .
+90            1123    QCSKCPK|LQ  0.071    .
+90            1139    QELETLK|ST  0.072    .
+90            1148    PVPECTK|RE  0.049    .
+90            1149    VPECTKR|EL  0.215    .
+90            1157    LSEALLK|YQ  0.058    .
+90            1165    QQELGQK|DE  0.056    .
+90            1170    QKDEELR|AV  0.083    .
+90            1175    LRAVLER|CE  0.105    .
+90            1178    VLERCER|LE  0.212    .
+90            1188    EIESTEK|GS  0.058    .
+90            1198    MEDLQDK|FR  0.068    .
+90            1200    DLQDKFR|GE  0.080    .
+90            1216    ITELQNK|LD  0.053    .
+90            1228    SEFDVER|QR  0.080    .
+90            1230    FDVERQR|LV  0.103    .
+90            1240    EIEILQR|RG  0.074    .
+90            1241    IEILQRR|GE  0.113    .
+90            1266    QIQELER|KM  0.083    .
+90            1267    IQELERK|ME  0.089    .
+90            1286    LQITDLK|DR  0.057    .
+90            1288    ITDLKDR|LS  0.076    .
+90            1298    SEDLLAR|VE  0.076    .
+90            1310    LEQVVER|AL  0.121    .
+90            1317    ALQWEEK|NV  0.081    .
+90            1324    NVQLETK|TM  0.065    .
+90            1334    LNEAEDK|MM  0.065    .
+90            1348    SVDYSLR|FE  0.072    .
+90            1354    RFEQLTK|NS  0.055    .
+90            1361    NSADLSR|RY  0.078    .
+90            1362    SADLSRR|YT  0.149    .
+90            1370    TELSNEK|LE  0.054    .
+90            1380    SSTLSQR|IS  0.086    .
+90            1388    SQLEEEK|EA  0.056    .
+90            1392    EEKEALR|TA  0.073    .
+90            1413    ETMIGEK|EA  0.054    .
+90            1417    GEKEALR|TA  0.079    .
+90            1438    ETMIGEK|EA  0.054    .
+90            1442    GEKEALR|TA  0.079    .
+90            1463    ETMIGEK|EA  0.056    .
+90            1467    GEKEALR|TT  0.075    .
+90            1488    EAMIGEK|EA  0.056    .
+90            1492    GEKEALR|TA  0.075    .
+90            1513    EAMIGEK|EA  0.056    .
+90            1517    GEKEALR|TA  0.075    .
+90            1538    ETMIGEK|EA  0.054    .
+90            1542    GEKEALR|TA  0.076    .
+90            1575    TSSQCSK|CP  0.065    .
+90            1578    QCSKCPK|LQ  0.071    .
+90            1594    QELETLK|ST  0.072    .
+90            1603    PVPECTK|CP  0.054    .
+90            1650    QELDALK|ST  0.065    .
+90            1656    KSTECPK|CP  0.061    .
+90            1675    QVLDAVK|SA  0.074    .
+90            1681    KSAECTK|CH  0.064    .
+90            1700    QVLDSVK|SA  0.080    .
+90            1706    KSAECTK|CA  0.072    .
+90            1725    QELDTVK|SS  0.071    .
+90            1734    PTPECTK|CP  0.059    .
+90            1753    QELDALR|TA  0.072    .
+90            1763    PPAECVK|CA  0.079    .
+90            1816    QSAECPK|CP  0.062    .
+90            1829    QISSLSR|EC  0.089    .
+90            1833    LSRECPK|CP  0.076    .
+90            1848    SSLSQER|EC  0.075    .
+90            1852    QERECLK|CV  0.077    .
+90            1859    CVELEGK|IS  0.061    .
+90            1864    GKISAVK|EE  0.059    .
+90            1868    AVKEELK|TL  0.059    .
+90            1892    VTIATLR|KQ  0.085    .
+90            1893    TIATLRK|QE  0.085    .
+90            1899    KQEQTLR|TE  0.068    .
+90            1914    EAQSLQK|VV  0.068    .
+90            1920    KVVAEYR|TK  0.095    .
+90            1922    VAEYRTK|EV  0.077    .
+90            1933    FQMLEEK|ML  0.056    .
+90            1946    NSDYQMK|VA  0.073    .
+90            1964    ETALEEK|SG  0.073    .
+90            1969    EKSGQVK|EI  0.088    .
+90            1981    VTALQAK|LD  0.068    .
+90            1988    LDNVSGK|LI  0.081    .
+90            1994    KLIAESK|AK  0.072    .
+90            1996    IAESKAK|EA  0.066    .
+90            2000    KAKEALR|DD  0.117    .
+90            2012    LMVLLQR|KE  0.062    .
+90            2013    MVLLQRK|ER  0.078    .
+90            2015    LLQRKER|ET  0.293    .
+90            2018    RKERETK|AR  0.135    .
+90            2020    ERETKAR|EE  0.164    .
+90            2027    EEEDSGK|LG  0.063    .
+90            2033    KLGELVR|EK  0.111    .
+90            2035    GELVREK|ED  0.057    .
+90            2049    QEQVTEK|DR  0.072    .
+90            2051    QVTEKDR|QL  0.098    .
+90            2057    RQLEEQR|LV  0.113    .
+90            2066    IAEGSTR|LE  0.074    .
+90            2075    QMETEMR|ML  0.094    .
+90            2092    TGYEGMK|AQ  0.061    .
+90            2102    LEMASQK|EQ  0.070    .
+90            2109    EQLVGER|DE  0.082    .
+90            2113    GERDELR|MQ  0.085    .
+90            2123    TESCGIR|DQ  0.143    .
+90            2130    DQMVNEK|EQ  0.064    .
+90            2144    EGLIAEK|EQ  0.060    .
+90            2158    EGLMAER|DQ  0.080    .
+90            2172    EGLGAEK|EE  0.053    .
+90            2191    TTQGAMR|EL  0.122    .
+90            2201    QELHSTK|EY  0.059    .
+90            2209    YLATIQK|EK  0.060    .
+90            2211    ATIQKEK|ES  0.058    .
+90            2222    SDISDAR|SK  0.099    .
+90            2224    ISDARSK|LS  0.062    .
+90            2242    SDAVVER|EQ  0.102    .
+90            2252    CQDLNTR|VI  0.088    .
+90            2259    VISLTER|TK  0.080    .
+90            2261    SLTERTK|QL  0.062    .
+90            2265    RTKQLVR|EK  0.075    .
+90            2267    KQLVREK|EE  0.063    .
+90            2273    KEEESAK|VA  0.072    .
+90            2283    VTEQMDK|LS  0.063    .
+90            2290    LSADIER|SR  0.143    .
+90            2292    ADIERSR|ES  0.084    .
+90            2301    VTCEFAK|NV  0.086    .
+90            2304    EFAKNVR|QL  0.107    .
+90            2316    EEQLALR|ER  0.078    .
+90            2318    QLALRER|ER  0.089    .
+90            2320    ALRERER|DE  0.101    .
+90            2331    AELENWR|TS  0.076    .
+90            2341    SDMISDR|DA  0.165    .
+90            2345    SDRDALK|SK  0.084    .
+90            2347    RDALKSK|VD  0.066    .
+90            2354    VDELQDK|AN  0.064    .
+90            2357    LQDKANR|YE  0.076    .
+90            2366    MLATAHR|QL  0.119    .
+90            2378    MQTLQLK|KD  0.059    .
+90            2379    QTLQLKK|DE  0.101    .
+90            2386    DEADAAK|AE  0.069    .
+90            2395    IEQDFGK|FR  0.071    .
+90            2397    QDFGKFR|QF  0.105    .
+90            2406    HEEALAK|AQ  0.061    .
+90            2411    AKAQDSR|KT  0.107    .
+90            2412    KAQDSRK|TI  0.098    .
+90            2419    TIDLEYR|EL  0.091    .
+90            2431    NMAMNEK|LV  0.065    .
+90            2437    KLVTLEK|QL  0.075    .
+90            2443    KQLEMGK|EM  0.054    .
+90            2450    EMMETAR|ED  0.099    .
+90            2457    EDINQFK|EK  0.073    .
+90            2459    INQFKEK|HQ  0.079    .
+90            2466    HQIVLNK|MN  0.079    .
+90            2469    VLNKMNK|QD  0.073    .
+90            2475    KQDEEIK|EQ  0.056    .
+90            2483    QNNTMAK|HN  0.072    .
+90            2493    EYITLHK|QW  0.065    .
+90            2507    EADSLEK|RD  0.054    .
+90            2508    ADSLEKR|DQ  0.231    .
+90            2522    EGLGAEK|EE  0.053    .
+90            2541    TTQGAMR|EL  0.154    .
+90            2551    QELHSTK|EY  0.058    .
+90            2559    YLATIQK|EK  0.060    .
+90            2561    ATIQKEK|ES  0.058    .
+90            2572    SDISDAR|SK  0.099    .
+90            2574    ISDARSK|LS  0.062    .
+90            2592    SDAVVER|EQ  0.110    .
+90            2602    SQDLTTR|VI  0.097    .
+90            2609    VIFLTER|TE  0.067    .
+90            2615    RTEQLVR|EK  0.079    .
+90            2617    EQLVREK|ED  0.059    .
+90            2623    KEDESTK|VA  0.065    .
+90            2633    VTEQMDK|LS  0.063    .
+90            2640    LSADIER|SR  0.143    .
+90            2642    ADIERSR|ES  0.084    .
+90            2651    VTCEFAK|NV  0.087    .
+90            2654    EFAKNVR|QL  0.077    .
+90            2664    LHLLVNR|NS  0.064    .
+90            2673    LALALLR|HA  0.085    .
+90            2681    AELENWR|TS  0.075    .
+90            2691    SDMISDR|NA  0.115    .
+90            2695    SDRNALK|SK  0.082    .
+90            2697    RNALKSK|VE  0.066    .
+90            2704    VEELQDK|AN  0.062    .
+90            2707    LQDKANR|YE  0.083    .
+90            2716    MLATAHR|QL  0.119    .
+90            2728    MQTLQLK|KD  0.059    .
+90            2729    QTLQLKK|DE  0.101    .
+90            2736    DEADAAK|AE  0.069    .
+90            2745    IEQDFGK|FR  0.071    .
+90            2747    QDFGKFR|QF  0.105    .
+90            2756    HEEALAK|AQ  0.061    .
+90            2761    AKAQDSR|KT  0.107    .
+90            2762    KAQDSRK|TI  0.098    .
+90            2769    TIDLEYR|EL  0.085    .
+90            2777    LQVENMR|YL  0.076    .
+90            2800    EMMETAR|ED  0.100    .
+90            2807    EDINQFK|EK  0.073    .
+90            2809    INQFKEK|HQ  0.079    .
+90            2816    HQIVLNK|MN  0.079    .
+90            2819    VLNKMNK|QD  0.073    .
+90            2825    KQDEEIK|EQ  0.056    .
+90            2833    QNNTMAK|HN  0.072    .
+90            2843    EYITLHK|QW  0.065    .
+90            2858    ADSLESK|FN  0.079    .
+90            2865    FNTAVNK|VT  0.062    .
+90            2871    KVTQTTK|SL  0.080    .
+90            2875    TTKSLER|EI  0.078    .
+90            2879    LEREIIR|RK  0.078    .
+90            2880    EREIIRR|KY  0.142    .
+90            2881    REIIRRK|YV  0.127    .
+90            2892    LAYVTPR|TY  0.099    .
+90            2904    SLEEFVK|SL  0.084    .
+90            2916    HADYLEK|IK  0.059    .
+90            2918    DYLEKIK|LT  0.066    .
+90            2929    GVGLVCR|QC  0.116    .
+90            2933    VCRQCDK|KR  0.060    .
+90            2934    CRQCDKK|RD  0.087    .
+90            2935    RQCDKKR|DA  0.375    .
+90            2941    RDAATAR|VL  0.107    .
+90            2949    LNPSSSR|QQ  0.094    .
+90            2956    QQAAAER|FA  0.132    .
+90            2968    VPSVPEK|RG  0.069    .
+90            2969    PSVPEKR|GV  0.317    .
+90            2974    KRGVQEK|SR  0.122    .
+90            2976    GVQEKSR|TI  0.092    .
+90            2989    SENIDPK|PQ  0.088    .
+90            3008    SIASVTK|QP  0.061    .
+90            3014    KQPLLAK|RV  0.066    .
+90            3015    QPLLAKR|VA  0.177    .
+90            3020    KRVALTK|KT  0.072    .
+90            3021    RVALTKK|TT  0.148    .
+90            3024    LTKKTTK|QK  0.072    .
+90            3026    KKTTKQK|ED  0.071    .
+90            3041    CVTTHGR|PT  0.088    .
+90            3060    GQCQTWR|HS  0.095    .
+90            3066    RHSHLVR|SP  0.225    .
+90            3076    IGDGHTR|CL  0.107    .
+90            3103    QIDPMDR|AQ  0.075    .
+90            3109    RAQELLK|DT  0.069    .
+90            3127    VCGDHTR|CL  0.122    .
+90            3148    ILHLEPK|QI  0.072    .
+90            3151    LEPKQIR|GP  0.084    .
+90            3158    GPGSPTR|PG  0.079    .
+90            3162    PTRPGPR|DA  0.150    .
+90            3165    PGPRDAR|YY  0.220    .
+90            3173    YPGTFCK|LA  0.068    .
+90            3178    CKLANFK|SG  0.068    .
+90            3185    SGVQPVR|IH  0.075    .
+90            3195    CLAGLSR|LN  0.111    .
+90            3202    LNGTQTR|SM  0.150    .
+90            3205    TQTRSMR|KL  0.207    .
+90            3206    QTRSMRK|LL  0.072    .
+90            3210    MRKLLNK|TC  0.060    .
+90            3218    CLAPPTR|SE  0.135    .
+90            3232    GAAIQNK|TK  0.063    .
+90            3234    AIQNKTK|RN  0.065    .
+90            3235    IQNKTKR|NL  0.216    .
+90            3241    RNLPSFR|KM  0.074    .
+90            3242    NLPSFRK|MQ  0.072    .
+90            3264    LLSLCTR|SA  0.161    .
+90            3267    LCTRSAR|EL  0.235    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,296 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1769 415         
+MLTLTQKAKQQKKPLYAIMVDFRKAFDSIPREALFLKLARMGITGNFYNILRDMYGKSSGRIKLSGHVSREFPIRKGTEQ      80
+GHPLSEDSPVPLPLDYVPDTISSRVSQDQKRNKQGNHFKELVQNHQLRLLNGRTLGDFTGRFTSIQFAGCSVVDYIAISR     160
+SLTPRIDYMKVLDLLPTSDHRPLTTAINCRTAPIPKIYSLKGNYDVAPARFIVSDAGKESFKTLLAHPATKEALAPIEAM     240
+LEDPAKAYQHLTTHLQALCGLTFKKCCTSKPVLINKPPYFHFVPVDPVGRRYHLYRPLLSRILANRAVGTRSLLPPRLAL     320
+CSAPDSAPFPNPERFYFFLLELRERSTSPHCVTPHLIFQFVLLLMLIWPTERQGKTSEAKPVNNLSLGLLDKLGSFTFGT     400
+PVWAIEVPEMKVFMVSDSQENNLQVPGTSDNHSPRSSTPEKKARVIPRRTATQRTIPRKNLSPAEISRKRRESYESRSSG     480
+GMFLGSDTKKQETKKRTQDSTTLQPGVHPWDKNNIQQISLAPGIFLNYTEALLNESDSLPPEDGVTLALNSPVVGPALSH     560
+FIGYTESYINECLTTDTHIKDITFHGQEFECCKTYKLTPSSAEDEENNPSLIFVCLAVGNQGIPLRIRKNNKSPVKHDMK     640
+VGDLVVVNGATSDVISWRVNPDKNHHGGRMIVMSATHSPTDINTVETARIYSESEPELTEAAADYQAGGNLSDTDGVIEN     720
+PTLLFPESPRSFSLPPPQIIVAPPSEEPSEDRSTHSRTQKIYGRKSEVIISPVNRENPNIAKAQEPRPQQDPLMNLQANR     800
+PSAAISPVLGPTNPCISSDTHVTLCDATVVQKTEESMIELKSEIRDHKEVVMQLALLLPGKGSCRKCSPQEAKSSPEAKI     880
+DTSKWEEMESRLKIDLQSTEEKIAELINEANNMRELITNSSREWKTFLDSAFFRKDSELLKEIHKSVTAIEKSNPEIQPT     960
+ARVPGVDRQQNPSRSTRNRQPAEFVPLRPRNATPRQGTTKTTALITNSILSSARPNTIGKGHQCHVIRRRSWRTVSTLKK    1040
+AETLDELIQLQPESIYIHLGVNDVYRWNTQELENDPTEIANLARDFIGELEVSLPNAQVILSLPVLTADRSANRRIIDLK    1120
+MESTLPRLELSYSKPTSGETFFAQRHGKMRESTSQIQLSKLIQKRKITTPIQTPKLTQRLTFQWITNKATNDGNLKETPQ    1200
+RDESMTSNGKPKYQDPDTMSLFSTHDIVCLQEIRQDVPVPNFTDHASVRLSKKTGGVGILIKDNLAEGLSIVETTNPDII    1280
+VGKLQKSFFGFDKDLYIVNTYARPENASGNHIKSGEETISDCDEIIANLPEGDVILCGDFNARVSGDPCQASESEDSPVP    1360
+LPLDYVPDTISSRVSQDQKRNKQGNHFKELVQNHQLRLLNGRTLGDFTGRFTSIQFAGCSVVDYIAISRSLTPRIDYMKV    1440
+LDLLPTSDHRPLTTAINCRTAPIPKIYSLKGNYDVAPARFIVSDAGKESFKTLLAHPATKEALAPIEAMLEDPAKAYQHL    1520
+TTHLQALCGLTFKKSNPGKSPSQSSQPWHRKKHKVAKTMLERASKLVNRFTHGHILRENYYRIKGSYRRLKRNDESKHDA    1600
+KLNSDIMNGKIMNWQAFSDLKNSKTHAVPHNALDMEKFGEFFKDLYANSHSTISDAQKFEMQAEADVINNQAENKTPIED    1680
+ALRKLNSVVTLDETVKSIKQLKSGKAAGPDMISNEVLKLLDTEHQLMLTQVFNCCFKQGIYPWNASIITPLHKKGSTKNP    1760
+DNYRAVSIV                                                                           1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+......................................................................P.........     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+........................................................................P.......    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.......................................................................P........    1600
+................................................................................    1680
+................................................................................    1760
+.........                                                                           1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+415              7    MLTLTQK|AK  0.062    .
+415              9    TLTQKAK|QQ  0.070    .
+415             12    QKAKQQK|KP  0.066    .
+415             13    KAKQQKK|PL  0.137    .
+415             23    AIMVDFR|KA  0.128    .
+415             24    IMVDFRK|AF  0.089    .
+415             31    AFDSIPR|EA  0.071    .
+415             37    REALFLK|LA  0.075    .
+415             40    LFLKLAR|MG  0.085    .
+415             52    NFYNILR|DM  0.082    .
+415             57    LRDMYGK|SS  0.100    .
+415             61    YGKSSGR|IK  0.073    .
+415             63    KSSGRIK|LS  0.096    .
+415             70    LSGHVSR|EF  0.103    .
+415             75    SREFPIR|KG  0.117    .
+415             76    REFPIRK|GT  0.126    .
+415            104    PDTISSR|VS  0.078    .
+415            110    RVSQDQK|RN  0.070    .
+415            111    VSQDQKR|NK  0.170    .
+415            113    QDQKRNK|QG  0.064    .
+415            119    KQGNHFK|EL  0.069    .
+415            128    VQNHQLR|LL  0.095    .
+415            133    LRLLNGR|TL  0.112    .
+415            141    LGDFTGR|FT  0.133    .
+415            160    DYIAISR|SL  0.102    .
+415            165    SRSLTPR|ID  0.129    .
+415            170    PRIDYMK|VL  0.062    .
+415            181    LPTSDHR|PL  0.089    .
+415            190    TTAINCR|TA  0.091    .
+415            196    RTAPIPK|IY  0.066    .
+415            201    PKIYSLK|GN  0.077    .
+415            210    YDVAPAR|FI  0.088    .
+415            218    IVSDAGK|ES  0.073    .
+415            222    AGKESFK|TL  0.064    .
+415            231    LAHPATK|EA  0.070    .
+415            246    MLEDPAK|AY  0.074    .
+415            264    LCGLTFK|KC  0.063    .
+415            265    CGLTFKK|CC  0.084    .
+415            270    KKCCTSK|PV  0.076    .
+415            276    KPVLINK|PP  0.060    .
+415            290    PVDPVGR|RY  0.072    .
+415            291    VDPVGRR|YH  0.085    .
+415            296    RRYHLYR|PL  0.106    .
+415            301    YRPLLSR|IL  0.077    .
+415            306    SRILANR|AV  0.141    .
+415            311    NRAVGTR|SL  0.138    .
+415            317    RSLLPPR|LA  0.083    .
+415            334    PFPNPER|FY  0.079    .
+415            343    FFLLELR|ER  0.070    .
+415            345    LLELRER|ST  0.140    .
+415            372    LIWPTER|QG  0.079    .
+415            375    PTERQGK|TS  0.145    .
+415            380    GKTSEAK|PV  0.073    .
+415            392    SLGLLDK|LG  0.062    .
+415            411    IEVPEMK|VF  0.061    .
+415            435    SDNHSPR|SS  0.255    .
+415            441    RSSTPEK|KA  0.085    .
+415            442    SSTPEKK|AR  0.096    .
+415            444    TPEKKAR|VI  0.132    .
+415            448    KARVIPR|RT  0.143    .
+415            449    ARVIPRR|TA  0.178    .
+415            454    RRTATQR|TI  0.099    .
+415            458    TQRTIPR|KN  0.075    .
+415            459    QRTIPRK|NL  0.135    .
+415            468    SPAEISR|KR  0.096    .
+415            469    PAEISRK|RR  0.076    .
+415            470    AEISRKR|RE  0.130    .
+415            471    EISRKRR|ES  0.688 *ProP*
+415            477    RESYESR|SS  0.233    .
+415            489    FLGSDTK|KQ  0.062    .
+415            490    LGSDTKK|QE  0.134    .
+415            494    TKKQETK|KR  0.066    .
+415            495    KKQETKK|RT  0.113    .
+415            496    KQETKKR|TQ  0.198    .
+415            512    GVHPWDK|NN  0.071    .
+415            580    TTDTHIK|DI  0.082    .
+415            593    QEFECCK|TY  0.056    .
+415            596    ECCKTYK|LT  0.065    .
+415            626    NQGIPLR|IR  0.071    .
+415            628    GIPLRIR|KN  0.080    .
+415            629    IPLRIRK|NN  0.146    .
+415            632    RIRKNNK|SP  0.080    .
+415            636    NNKSPVK|HD  0.073    .
+415            640    PVKHDMK|VG  0.059    .
+415            658    SDVISWR|VN  0.107    .
+415            663    WRVNPDK|NH  0.081    .
+415            669    KNHHGGR|MI  0.143    .
+415            689    NTVETAR|IY  0.108    .
+415            730    LFPESPR|SF  0.118    .
+415            752    EEPSEDR|ST  0.103    .
+415            757    DRSTHSR|TQ  0.125    .
+415            760    THSRTQK|IY  0.213    .
+415            764    TQKIYGR|KS  0.100    .
+415            765    QKIYGRK|SE  0.089    .
+415            775    IISPVNR|EN  0.103    .
+415            782    ENPNIAK|AQ  0.068    .
+415            787    AKAQEPR|PQ  0.102    .
+415            800    MNLQANR|PS  0.085    .
+415            832    DATVVQK|TE  0.059    .
+415            841    ESMIELK|SE  0.067    .
+415            845    ELKSEIR|DH  0.093    .
+415            848    SEIRDHK|EV  0.194    .
+415            861    ALLLPGK|GS  0.060    .
+415            865    PGKGSCR|KC  0.106    .
+415            866    GKGSCRK|CS  0.094    .
+415            873    CSPQEAK|SS  0.083    .
+415            879    KSSPEAK|ID  0.085    .
+415            884    AKIDTSK|WE  0.063    .
+415            891    WEEMESR|LK  0.096    .
+415            893    EMESRLK|ID  0.054    .
+415            902    LQSTEEK|IA  0.080    .
+415            914    NEANNMR|EL  0.085    .
+415            922    LITNSSR|EW  0.092    .
+415            925    NSSREWK|TF  0.168    .
+415            934    LDSAFFR|KD  0.130    .
+415            935    DSAFFRK|DS  0.111    .
+415            941    KDSELLK|EI  0.078    .
+415            945    LLKEIHK|SV  0.119    .
+415            952    SVTAIEK|SN  0.089    .
+415            962    EIQPTAR|VP  0.099    .
+415            968    RVPGVDR|QQ  0.089    .
+415            974    RQQNPSR|ST  0.174    .
+415            977    NPSRSTR|NR  0.442    .
+415            979    SRSTRNR|QP  0.129    .
+415            988    AEFVPLR|PR  0.086    .
+415            990    FVPLRPR|NA  0.092    .
+415            995    PRNATPR|QG  0.128    .
+415           1000    PRQGTTK|TT  0.075    .
+415           1014    SILSSAR|PN  0.100    .
+415           1020    RPNTIGK|GH  0.066    .
+415           1028    HQCHVIR|RR  0.092    .
+415           1029    QCHVIRR|RS  0.134    .
+415           1030    CHVIRRR|SW  0.266    .
+415           1033    IRRRSWR|TV  0.706 *ProP*
+415           1039    RTVSTLK|KA  0.063    .
+415           1040    TVSTLKK|AE  0.098    .
+415           1066    GVNDVYR|WN  0.135    .
+415           1084    EIANLAR|DF  0.146    .
+415           1110    PVLTADR|SA  0.093    .
+415           1114    ADRSANR|RI  0.085    .
+415           1115    DRSANRR|II  0.221    .
+415           1120    RRIIDLK|ME  0.072    .
+415           1127    MESTLPR|LE  0.076    .
+415           1134    LELSYSK|PT  0.063    .
+415           1145    ETFFAQR|HG  0.080    .
+415           1148    FAQRHGK|MR  0.130    .
+415           1150    QRHGKMR|ES  0.158    .
+415           1160    SQIQLSK|LI  0.064    .
+415           1164    LSKLIQK|RK  0.060    .
+415           1165    SKLIQKR|KI  0.211    .
+415           1166    KLIQKRK|IT  0.113    .
+415           1175    TPIQTPK|LT  0.073    .
+415           1179    TPKLTQR|LT  0.117    .
+415           1188    FQWITNK|AT  0.066    .
+415           1196    TNDGNLK|ET  0.060    .
+415           1201    LKETPQR|DE  0.102    .
+415           1210    SMTSNGK|PK  0.061    .
+415           1212    TSNGKPK|YQ  0.109    .
+415           1234    VCLQEIR|QD  0.069    .
+415           1249    TDHASVR|LS  0.112    .
+415           1252    ASVRLSK|KT  0.178    .
+415           1253    SVRLSKK|TG  0.130    .
+415           1262    GVGILIK|DN  0.071    .
+415           1283    PDIIVGK|LQ  0.059    .
+415           1286    IVGKLQK|SF  0.077    .
+415           1293    SFFGFDK|DL  0.078    .
+415           1303    IVNTYAR|PE  0.107    .
+415           1313    ASGNHIK|SG  0.111    .
+415           1343    CGDFNAR|VS  0.086    .
+415           1373    PDTISSR|VS  0.078    .
+415           1379    RVSQDQK|RN  0.070    .
+415           1380    VSQDQKR|NK  0.170    .
+415           1382    QDQKRNK|QG  0.064    .
+415           1388    KQGNHFK|EL  0.069    .
+415           1397    VQNHQLR|LL  0.095    .
+415           1402    LRLLNGR|TL  0.112    .
+415           1410    LGDFTGR|FT  0.133    .
+415           1429    DYIAISR|SL  0.102    .
+415           1434    SRSLTPR|ID  0.129    .
+415           1439    PRIDYMK|VL  0.062    .
+415           1450    LPTSDHR|PL  0.089    .
+415           1459    TTAINCR|TA  0.091    .
+415           1465    RTAPIPK|IY  0.066    .
+415           1470    PKIYSLK|GN  0.077    .
+415           1479    YDVAPAR|FI  0.088    .
+415           1487    IVSDAGK|ES  0.073    .
+415           1491    AGKESFK|TL  0.064    .
+415           1500    LAHPATK|EA  0.070    .
+415           1515    MLEDPAK|AY  0.074    .
+415           1533    LCGLTFK|KS  0.061    .
+415           1534    CGLTFKK|SN  0.121    .
+415           1539    KKSNPGK|SP  0.120    .
+415           1550    SSQPWHR|KK  0.141    .
+415           1551    SQPWHRK|KH  0.089    .
+415           1552    QPWHRKK|HK  0.141    .
+415           1554    WHRKKHK|VA  0.089    .
+415           1557    KKHKVAK|TM  0.069    .
+415           1562    AKTMLER|AS  0.075    .
+415           1565    MLERASK|LV  0.175    .
+415           1569    ASKLVNR|FT  0.138    .
+415           1577    THGHILR|EN  0.092    .
+415           1582    LRENYYR|IK  0.123    .
+415           1584    ENYYRIK|GS  0.065    .
+415           1588    RIKGSYR|RL  0.084    .
+415           1589    IKGSYRR|LK  0.112    .
+415           1591    GSYRRLK|RN  0.163    .
+415           1592    SYRRLKR|ND  0.561 *ProP*
+415           1597    KRNDESK|HD  0.076    .
+415           1601    ESKHDAK|LN  0.084    .
+415           1610    SDIMNGK|IM  0.064    .
+415           1621    QAFSDLK|NS  0.056    .
+415           1624    SDLKNSK|TH  0.057    .
+415           1637    NALDMEK|FG  0.059    .
+415           1643    KFGEFFK|DL  0.078    .
+415           1658    TISDAQK|FE  0.109    .
+415           1675    NNQAENK|TP  0.057    .
+415           1683    PIEDALR|KL  0.072    .
+415           1684    IEDALRK|LN  0.081    .
+415           1696    TLDETVK|SI  0.079    .
+415           1699    ETVKSIK|QL  0.064    .
+415           1702    KSIKQLK|SG  0.101    .
+415           1705    KQLKSGK|AA  0.084    .
+415           1718    ISNEVLK|LL  0.076    .
+415           1737    VFNCCFK|QG  0.057    .
+415           1753    IITPLHK|KG  0.063    .
+415           1754    ITPLHKK|GS  0.108    .
+415           1758    HKKGSTK|NP  0.071    .
+415           1764    KNPDNYR|AV  0.161    .
+____________________________^_________________
+
+
+
+

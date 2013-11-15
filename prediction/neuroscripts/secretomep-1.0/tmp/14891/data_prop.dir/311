@@ -1,0 +1,297 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2024 311         
+MNGGSCPIEGCIPAPAVVSTSPTPDQSVNLETIQQHAAFSAAIDVKFAVPERSEERLLFIKFSSIEAARNVAQTSSLALA      80
+GGGSVKFSEVFYSHKTGSGPYVRTSSQLVRSTCNSTEGVMSRDAQYVAVSKDSIPAFMDSCGEGLEFLETFLVWPPWPRY     160
+EVGSSADSGAHRYADNEELRYSLRSLMVNAPWVRNIYLLTNGQVPNWLNINHPRLHIVTHEEVYRNTSHLPSFSSPSIES     240
+NMLNIPNLSHHFLYLNDDVFLGAPVHPTDFVTSRGYKVYLAWNIPNCNTGCPSNWLTDGYCDLACNVTACNFDGGDCRPG     320
+SASVANLANSLLNQAGGAAMYALNYCNPGCSPSWVGDKYCDPACNVLDCGFDAGDCGVVDVRGKVFEVRVFEGVTNTSTV     400
+DIHPGISAMYLNVSTTGAEISGGTTVTGGRFEAPGVIRTAVLSLPHKMISLTFFPNQTASVPLVLALDNEDTFHLTLNID     480
+TNPAPLYVKPPPPEIGVVDKEVWNIPEFVKSGAQPLPPVEPIAPVLPVKPVQPEVPVQAEVPEQPIEPEAPIFERAAQGD     560
+PETGDELTDRERLPNKERLPNRDQLPNKERLPNRAPLEHDGVRYPGRHLMDTFADSLHHVNNLYNGKYGKSQRKVISHMP     640
+FLINKTILQDLHDDFPEEFQHTSSSRFRTSEDMQFSFSYYYYLIHSLRRETIRERVTSADLNRDGLLSPGEMAVLRSRLF     720
+PVPVSPDNSTLFEEALGNCTTDLSSVEGVLQCDSLVAVVERSLRELTRFPHEITDDYDVTFKMLKSNVTKVSNDLDAVRH     800
+RPKKFICLNDNMNHGHESQVQLSGMLRDFYQTLFPNPSPFELPAVHPEVPVQPEVPVQPEMPVQPEVPVQPEVPVQPIEP     880
+EAPIFEKSAQGDPETGYELTDRERLPNKERLPNRDQLPNKERLPNRAPLEHDGVRYPGRHLMDTFADSLHHVNNLYNGKY     960
+GKSQRKVISHMPFLINKTILQDLHDDFPEEFQHTSSSRFRTSEDMQFSFSYYYYLIHSLRRETIRERVTSADLNRDGLLS    1040
+PGEMSVLRSRLFAVPVSPDNSTLFEEALGNCTTDLSSVEGVLQCDSLVAVVERSLRELTRFPHEITDDYDVTFKMLKSNV    1120
+TKVSNDLDAVRHRPKKFICLNDNMNHGHESQVQLSGMLRDFYQTLFPNPSPFELPAGQTNRFQYIGDIRRTQQSEQQIFL    1200
+ATMPKIKERIKSAFQYFNISGTGSSSSTPSRAHPRKPLGILDISEISAVSPNVSTVANIGDESVVILPDPSTAKENTPVT    1280
+LAAKKDDNPEVKKEVLKKNNAGFLLEEGEMTSIIMVDDFEFQPNPKRQEQLEKSFTEEHRQAGKKSPSRVAVGIFYDIEN    1360
+IPIPSGVTPAEFINKIRKQFAEGPGLWEKTFSVVTWFRYVPQKLEKQMWEYNLDLINIPRHKPDAADNKLRQLMVNFVDA    1440
+HKFSRIVLISGDSDFSMDIRGFRGRGTEVIVVHNSQAKDSLLDAASEAHSVDKVFESEIKKKRQEEDKGQMMGPLKRAFT    1520
+ATKRVFTERPQPRSENQNSNIRLQPVQRSGNPLLQMPQLPVQHLPQYSGYGRQQQAGYSRNHKTSGGSSYDHLMNGFDRY    1600
+RGGSRKSPYDRLTMATITSTPTTITDKEFVRGLINKMLRVEISDGRILIGSLLCTDRDRNLIIGGAAEYWNTVQGEPRLL    1680
+GLVMVPGKHIVSICVDTSSSDGGGVTWFRYVPQKLEKQMWEYNLDLINIPRHKPDAADNKLRQLMVNFVDAHKFSRIVLI    1760
+SGDSDFSMDIRGFRGRGTEVIVVHNSQAKDSLLDAASEAHSVDKVFESEIKKKRQEEDKGQMMGPLKRAFTATKRVFTER    1840
+PQPRSENQNSNIRLQPVQRSGNPLLQMPQLPVQHLPQYSGYGRQQQAGYSRNHKTSGGSSYDHLMNGFDRYRGGSRKSPY    1920
+DRLTMATITAAPTTITDKEFVRGLINKMLRVEISDGRILIGSLLCTDRDRNLIIGGAAEYWNTVQGEPRLLGLVMVPGKH    2000
+IVSICVDTSSSDVTKLLETYDKSK                                                            2080
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+...P............................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+...............P................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+........................                                                            2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+311             46    SAAIDVK|FA  0.086    .
+311             52    KFAVPER|SE  0.141    .
+311             56    PERSEER|LL  0.092    .
+311             61    ERLLFIK|FS  0.066    .
+311             69    SSIEAAR|NV  0.112    .
+311             86    AGGGSVK|FS  0.071    .
+311             95    EVFYSHK|TG  0.059    .
+311            103    GSGPYVR|TS  0.109    .
+311            110    TSSQLVR|ST  0.241    .
+311            122    TEGVMSR|DA  0.160    .
+311            131    QYVAVSK|DS  0.080    .
+311            159    VWPPWPR|YE  0.075    .
+311            172    ADSGAHR|YA  0.171    .
+311            180    ADNEELR|YS  0.096    .
+311            184    ELRYSLR|SL  0.141    .
+311            194    VNAPWVR|NI  0.082    .
+311            214    LNINHPR|LH  0.090    .
+311            225    THEEVYR|NT  0.103    .
+311            274    TDFVTSR|GY  0.123    .
+311            277    VTSRGYK|VY  0.095    .
+311            318    FDGGDCR|PG  0.089    .
+311            358    PSWVGDK|YC  0.071    .
+311            382    CGVVDVR|GK  0.077    .
+311            384    VVDVRGK|VF  0.058    .
+311            389    GKVFEVR|VF  0.121    .
+311            430    TTVTGGR|FE  0.084    .
+311            438    EAPGVIR|TA  0.095    .
+311            447    VLSLPHK|MI  0.069    .
+311            489    PAPLYVK|PP  0.057    .
+311            500    EIGVVDK|EV  0.088    .
+311            510    NIPEFVK|SG  0.071    .
+311            529    APVLPVK|PV  0.085    .
+311            555    EAPIFER|AA  0.111    .
+311            570    GDELTDR|ER  0.072    .
+311            572    ELTDRER|LP  0.067    .
+311            576    RERLPNK|ER  0.063    .
+311            578    RLPNKER|LP  0.071    .
+311            582    KERLPNR|DQ  0.100    .
+311            588    RDQLPNK|ER  0.059    .
+311            590    QLPNKER|LP  0.083    .
+311            594    KERLPNR|AP  0.084    .
+311            603    LEHDGVR|YP  0.115    .
+311            607    GVRYPGR|HL  0.154    .
+311            627    NNLYNGK|YG  0.063    .
+311            630    YNGKYGK|SQ  0.103    .
+311            633    KYGKSQR|KV  0.139    .
+311            634    YGKSQRK|VI  0.091    .
+311            645    MPFLINK|TI  0.067    .
+311            666    QHTSSSR|FR  0.100    .
+311            668    TSSSRFR|TS  0.224    .
+311            688    YLIHSLR|RE  0.077    .
+311            689    LIHSLRR|ET  0.161    .
+311            693    LRRETIR|ER  0.091    .
+311            695    RETIRER|VT  0.083    .
+311            703    TSADLNR|DG  0.097    .
+311            716    GEMAVLR|SR  0.097    .
+311            718    MAVLRSR|LF  0.064    .
+311            761    LVAVVER|SL  0.151    .
+311            764    VVERSLR|EL  0.171    .
+311            768    SLRELTR|FP  0.123    .
+311            782    DYDVTFK|ML  0.058    .
+311            785    VTFKMLK|SN  0.069    .
+311            790    LKSNVTK|VS  0.070    .
+311            799    NDLDAVR|HR  0.073    .
+311            801    LDAVRHR|PK  0.084    .
+311            803    AVRHRPK|KF  0.065    .
+311            804    VRHRPKK|FI  0.515 *ProP*
+311            827    QLSGMLR|DF  0.120    .
+311            887    EAPIFEK|SA  0.094    .
+311            902    GYELTDR|ER  0.068    .
+311            904    ELTDRER|LP  0.068    .
+311            908    RERLPNK|ER  0.063    .
+311            910    RLPNKER|LP  0.071    .
+311            914    KERLPNR|DQ  0.100    .
+311            920    RDQLPNK|ER  0.059    .
+311            922    QLPNKER|LP  0.083    .
+311            926    KERLPNR|AP  0.084    .
+311            935    LEHDGVR|YP  0.115    .
+311            939    GVRYPGR|HL  0.154    .
+311            959    NNLYNGK|YG  0.063    .
+311            962    YNGKYGK|SQ  0.103    .
+311            965    KYGKSQR|KV  0.139    .
+311            966    YGKSQRK|VI  0.091    .
+311            977    MPFLINK|TI  0.067    .
+311            998    QHTSSSR|FR  0.100    .
+311           1000    TSSSRFR|TS  0.224    .
+311           1020    YLIHSLR|RE  0.077    .
+311           1021    LIHSLRR|ET  0.161    .
+311           1025    LRRETIR|ER  0.091    .
+311           1027    RETIRER|VT  0.083    .
+311           1035    TSADLNR|DG  0.097    .
+311           1048    GEMSVLR|SR  0.107    .
+311           1050    MSVLRSR|LF  0.066    .
+311           1093    LVAVVER|SL  0.151    .
+311           1096    VVERSLR|EL  0.171    .
+311           1100    SLRELTR|FP  0.123    .
+311           1114    DYDVTFK|ML  0.058    .
+311           1117    VTFKMLK|SN  0.069    .
+311           1122    LKSNVTK|VS  0.070    .
+311           1131    NDLDAVR|HR  0.073    .
+311           1133    LDAVRHR|PK  0.084    .
+311           1135    AVRHRPK|KF  0.065    .
+311           1136    VRHRPKK|FI  0.515 *ProP*
+311           1159    QLSGMLR|DF  0.120    .
+311           1181    PAGQTNR|FQ  0.100    .
+311           1189    QYIGDIR|RT  0.096    .
+311           1190    YIGDIRR|TQ  0.105    .
+311           1205    FLATMPK|IK  0.068    .
+311           1207    ATMPKIK|ER  0.065    .
+311           1209    MPKIKER|IK  0.124    .
+311           1211    KIKERIK|SA  0.106    .
+311           1231    SSSTPSR|AH  0.107    .
+311           1235    PSRAHPR|KP  0.114    .
+311           1236    SRAHPRK|PL  0.158    .
+311           1274    PDPSTAK|EN  0.067    .
+311           1284    PVTLAAK|KD  0.056    .
+311           1285    VTLAAKK|DD  0.096    .
+311           1292    DDNPEVK|KE  0.057    .
+311           1293    DNPEVKK|EV  0.120    .
+311           1297    VKKEVLK|KN  0.068    .
+311           1298    KKEVLKK|NN  0.112    .
+311           1326    EFQPNPK|RQ  0.069    .
+311           1327    FQPNPKR|QE  0.100    .
+311           1333    RQEQLEK|SF  0.093    .
+311           1340    SFTEEHR|QA  0.137    .
+311           1344    EHRQAGK|KS  0.058    .
+311           1345    HRQAGKK|SP  0.208    .
+311           1349    GKKSPSR|VA  0.102    .
+311           1375    PAEFINK|IR  0.058    .
+311           1377    EFINKIR|KQ  0.108    .
+311           1378    FINKIRK|QF  0.093    .
+311           1389    GPGLWEK|TF  0.067    .
+311           1398    SVVTWFR|YV  0.148    .
+311           1403    FRYVPQK|LE  0.064    .
+311           1406    VPQKLEK|QM  0.066    .
+311           1420    DLINIPR|HK  0.088    .
+311           1422    INIPRHK|PD  0.060    .
+311           1429    PDAADNK|LR  0.058    .
+311           1431    AADNKLR|QL  0.107    .
+311           1442    NFVDAHK|FS  0.065    .
+311           1445    DAHKFSR|IV  0.155    .
+311           1460    DFSMDIR|GF  0.100    .
+311           1463    MDIRGFR|GR  0.298    .
+311           1465    IRGFRGR|GT  0.171    .
+311           1478    VHNSQAK|DS  0.067    .
+311           1493    EAHSVDK|VF  0.069    .
+311           1500    VFESEIK|KK  0.062    .
+311           1501    FESEIKK|KR  0.090    .
+311           1502    ESEIKKK|RQ  0.115    .
+311           1503    SEIKKKR|QE  0.345    .
+311           1508    KRQEEDK|GQ  0.074    .
+311           1516    QMMGPLK|RA  0.069    .
+311           1517    MMGPLKR|AF  0.186    .
+311           1523    RAFTATK|RV  0.087    .
+311           1524    AFTATKR|VF  0.093    .
+311           1529    KRVFTER|PQ  0.124    .
+311           1533    TERPQPR|SE  0.157    .
+311           1542    NQNSNIR|LQ  0.074    .
+311           1548    RLQPVQR|SG  0.151    .
+311           1572    QYSGYGR|QQ  0.095    .
+311           1580    QQAGYSR|NH  0.093    .
+311           1583    GYSRNHK|TS  0.189    .
+311           1599    LMNGFDR|YR  0.144    .
+311           1601    NGFDRYR|GG  0.081    .
+311           1605    RYRGGSR|KS  0.073    .
+311           1606    YRGGSRK|SP  0.155    .
+311           1611    RKSPYDR|LT  0.141    .
+311           1627    PTTITDK|EF  0.058    .
+311           1631    TDKEFVR|GL  0.102    .
+311           1636    VRGLINK|ML  0.077    .
+311           1639    LINKMLR|VE  0.076    .
+311           1646    VEISDGR|IL  0.081    .
+311           1657    SLLCTDR|DR  0.090    .
+311           1659    LCTDRDR|NL  0.092    .
+311           1678    TVQGEPR|LL  0.105    .
+311           1688    LVMVPGK|HI  0.065    .
+311           1709    GGVTWFR|YV  0.145    .
+311           1714    FRYVPQK|LE  0.064    .
+311           1717    VPQKLEK|QM  0.066    .
+311           1731    DLINIPR|HK  0.088    .
+311           1733    INIPRHK|PD  0.060    .
+311           1740    PDAADNK|LR  0.058    .
+311           1742    AADNKLR|QL  0.107    .
+311           1753    NFVDAHK|FS  0.065    .
+311           1756    DAHKFSR|IV  0.155    .
+311           1771    DFSMDIR|GF  0.100    .
+311           1774    MDIRGFR|GR  0.298    .
+311           1776    IRGFRGR|GT  0.171    .
+311           1789    VHNSQAK|DS  0.067    .
+311           1804    EAHSVDK|VF  0.069    .
+311           1811    VFESEIK|KK  0.062    .
+311           1812    FESEIKK|KR  0.090    .
+311           1813    ESEIKKK|RQ  0.115    .
+311           1814    SEIKKKR|QE  0.345    .
+311           1819    KRQEEDK|GQ  0.074    .
+311           1827    QMMGPLK|RA  0.069    .
+311           1828    MMGPLKR|AF  0.186    .
+311           1834    RAFTATK|RV  0.087    .
+311           1835    AFTATKR|VF  0.093    .
+311           1840    KRVFTER|PQ  0.124    .
+311           1844    TERPQPR|SE  0.157    .
+311           1853    NQNSNIR|LQ  0.074    .
+311           1859    RLQPVQR|SG  0.151    .
+311           1883    QYSGYGR|QQ  0.095    .
+311           1891    QQAGYSR|NH  0.093    .
+311           1894    GYSRNHK|TS  0.189    .
+311           1910    LMNGFDR|YR  0.144    .
+311           1912    NGFDRYR|GG  0.081    .
+311           1916    RYRGGSR|KS  0.073    .
+311           1917    YRGGSRK|SP  0.155    .
+311           1922    RKSPYDR|LT  0.133    .
+311           1938    PTTITDK|EF  0.058    .
+311           1942    TDKEFVR|GL  0.102    .
+311           1947    VRGLINK|ML  0.077    .
+311           1950    LINKMLR|VE  0.076    .
+311           1957    VEISDGR|IL  0.081    .
+311           1968    SLLCTDR|DR  0.090    .
+311           1970    LCTDRDR|NL  0.092    .
+311           1989    TVQGEPR|LL  0.105    .
+311           1999    LVMVPGK|HI  0.065    .
+311           2015    SSSDVTK|LL  0.091    .
+311           2022    LLETYDK|SK  0.078    .
+311           2024    ETYDKSK|--  0.067    .
+____________________________^_________________
+
+
+
+

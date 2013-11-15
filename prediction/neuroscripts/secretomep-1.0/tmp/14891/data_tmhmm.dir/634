@@ -1,0 +1,9 @@
+# 634 Length: 1465
+# 634 Number of predicted TMHs:  1
+# 634 Exp number of AAs in TMHs: 31.27937
+# 634 Exp number, first 60 AAs:  19.20088
+# 634 Total prob of N-in:        0.56137
+# 634 POSSIBLE N-term signal sequence
+634	TMHMM2.0	inside	     1    38
+634	TMHMM2.0	TMhelix	    39    61
+634	TMHMM2.0	outside	    62  1465

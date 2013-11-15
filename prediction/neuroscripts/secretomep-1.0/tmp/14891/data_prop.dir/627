@@ -1,0 +1,233 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1475 627         
+MGVGRERPRLSIERSIMELNEINEILSSDTDTTIPVIGDTEVRRKKKSTGKRKGDVYSCKKRNDLFLKELSNELGIDREL      80
+QDITPSHNSPLSSLFDDPAKMQLWLVFIDTSEQEQDQILEERHAERKMKKLSDSVRKQISKVPIKTVKEAEDLVYGCVSD     160
+AETVSVHWTKTQQDRVVLVAVSQFARLKCTSHIHIGLIEIECKKQRFVRPKTLLSDVLAEDLVYGCVSDAETVSVHWTKT     240
+QQDRVVLVAVSQFARLKCTSHIHIGLIEIECKKQRFVRPKTLLSDVLVLHCTTLDSRGANYDNDPNPRRCPPTDRNAQTE     320
+CHFSCEKHTPFARVYLARKTKAARKMIRSVLAKRSLLFPTAARLLNCDPAAYETVLVEKHDKVALLKLNRPRALNSINLQ     400
+VIEDLNAAVKDANADKDIGCLVLTGSNKAFAAGADIKMMEPLSFADTYMTGLFNDLEMVTKNKKPIIAAVNGFALGGGCE     480
+LAMICDFIYAGDRAKFGQPEITLGVIPGAGGTQRLTRSVGKSKAMEMCLTGNFIGAEEAKQIGLVAQVYPADELVAKSIE     560
+AGQKIANFSKIAVALNKEAVNAAYETTLQNGLDYEKRLFYATFSTKDQKEGMGAFVDVLSKEETTGERLISQIGRLANKF     640
+KSVGMGSGDHVAIIGLNHLNYLPTKLGVMATGAVPVHLNPLYNKAEMIKLLKLSECNFAIGHMCSQSNIEAVQADHPLKV     720
+LPNLEVIDEWAKEESLLCPEFNGSIHDTAMMMFSSGTTGLPKAVELSHNNLNSQLAAIAISSNYDQLVKDEGIDQITIVT     800
+NIRNRPKQVNNKSELVITCYLGYVTDLVECVTVGRQCWYWRVDIRTLDRVVLVAVSQFARLKCTSHIHIGLIEIECKKQR     880
+FVRPKTLLSDVLVNLLAKRSLLFPTAARLLNCDPAAYETVLVEKHDKVALLKLNRPRALNSINLQVIEDLNAAVKDANAD     960
+KDIGCLVLTGSNKAFAAGADIKMMEPLSFADTYMTGLFNDLEMVTKNKKPIIAAVNGFALGGGCELAMICDFIYAGDRAK    1040
+FGQPEITLGVIPGAGGTQRLTRSVGKSKAMEMCLTGNFIGAEEAKQIGLVAQVYPADELVAKSIEAGQKIANFSKIAVAL    1120
+NKEAVNAAYETTLQNGLDYEKRLFYATFSTKDQKEGMGAFVDVLSKEETTGERLISQIGRLANKFKSVGMGSGDHVAIIG    1200
+LNHLNYLPTKLGVMATGAVPVHFNPLYNKAEMIKLLKLSECNFAIGHMCSQSNIEAVQADHPLKVLPNLEVIDEWAKEES    1280
+LLCPEFNGSIHDTAMMMFSSGTTGLPKAVELSHNNLNSQLAAIAISSNYDQLVKDEGIDQITIVDFLPEFHSYGGLLAKH    1360
+CVIQGYRRVSLPFFTPELFLENLQNYKVATNIRNRPKKVNNKSELVITRCLGYVTDSVGYGCTETSGATTVAGIEASHKA    1440
+GTVGRVIPGQEIKGVEPPLNYNLLHAHIVIKDSFP                                                 1520
+..............................................P.................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+....................................P...........................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+.....................P..........................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+.....................................P..........................................    1440
+...................................                                                 1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+627              5    --MGVGR|ER  0.068    .
+627              7    MGVGRER|PR  0.083    .
+627              9    VGRERPR|LS  0.079    .
+627             14    PRLSIER|SI  0.122    .
+627             43    IGDTEVR|RK  0.070    .
+627             44    GDTEVRR|KK  0.106    .
+627             45    DTEVRRK|KK  0.088    .
+627             46    TEVRRKK|KS  0.333    .
+627             47    EVRRKKK|ST  0.697 *ProP*
+627             51    KKKSTGK|RK  0.075    .
+627             52    KKSTGKR|KG  0.188    .
+627             53    KSTGKRK|GD  0.081    .
+627             60    GDVYSCK|KR  0.065    .
+627             61    DVYSCKK|RN  0.074    .
+627             62    VYSCKKR|ND  0.132    .
+627             68    RNDLFLK|EL  0.072    .
+627             78    NELGIDR|EL  0.085    .
+627            100    LFDDPAK|MQ  0.058    .
+627            122    DQILEER|HA  0.106    .
+627            126    EERHAER|KM  0.082    .
+627            127    ERHAERK|MK  0.087    .
+627            129    HAERKMK|KL  0.243    .
+627            130    AERKMKK|LS  0.144    .
+627            136    KLSDSVR|KQ  0.105    .
+627            137    LSDSVRK|QI  0.115    .
+627            141    VRKQISK|VP  0.059    .
+627            145    ISKVPIK|TV  0.093    .
+627            148    VPIKTVK|EA  0.086    .
+627            170    VSVHWTK|TQ  0.064    .
+627            175    TKTQQDR|VV  0.140    .
+627            186    AVSQFAR|LK  0.124    .
+627            188    SQFARLK|CT  0.075    .
+627            203    LIEIECK|KQ  0.060    .
+627            204    IEIECKK|QR  0.082    .
+627            206    IECKKQR|FV  0.184    .
+627            209    KKQRFVR|PK  0.222    .
+627            211    QRFVRPK|TL  0.071    .
+627            239    VSVHWTK|TQ  0.064    .
+627            244    TKTQQDR|VV  0.140    .
+627            255    AVSQFAR|LK  0.124    .
+627            257    SQFARLK|CT  0.075    .
+627            272    LIEIECK|KQ  0.060    .
+627            273    IEIECKK|QR  0.082    .
+627            275    IECKKQR|FV  0.184    .
+627            278    KKQRFVR|PK  0.222    .
+627            280    QRFVRPK|TL  0.070    .
+627            297    CTTLDSR|GA  0.072    .
+627            308    DNDPNPR|RC  0.071    .
+627            309    NDPNPRR|CP  0.101    .
+627            315    RCPPTDR|NA  0.095    .
+627            327    CHFSCEK|HT  0.058    .
+627            333    KHTPFAR|VY  0.073    .
+627            338    ARVYLAR|KT  0.156    .
+627            339    RVYLARK|TK  0.066    .
+627            341    YLARKTK|AA  0.268    .
+627            344    RKTKAAR|KM  0.091    .
+627            345    KTKAARK|MI  0.093    .
+627            348    AARKMIR|SV  0.249    .
+627            353    IRSVLAK|RS  0.067    .
+627            354    RSVLAKR|SL  0.177    .
+627            363    LFPTAAR|LL  0.070    .
+627            379    ETVLVEK|HD  0.062    .
+627            382    LVEKHDK|VA  0.062    .
+627            387    DKVALLK|LN  0.058    .
+627            390    ALLKLNR|PR  0.060    .
+627            392    LKLNRPR|AL  0.106    .
+627            410    DLNAAVK|DA  0.077    .
+627            416    KDANADK|DI  0.092    .
+627            428    VLTGSNK|AF  0.063    .
+627            437    AAGADIK|MM  0.064    .
+627            461    DLEMVTK|NK  0.065    .
+627            463    EMVTKNK|KP  0.060    .
+627            464    MVTKNKK|PI  0.108    .
+627            493    FIYAGDR|AK  0.079    .
+627            495    YAGDRAK|FG  0.074    .
+627            514    GAGGTQR|LT  0.108    .
+627            517    GTQRLTR|SV  0.790 *ProP*
+627            521    LTRSVGK|SK  0.083    .
+627            523    RSVGKSK|AM  0.077    .
+627            540    IGAEEAK|QI  0.082    .
+627            557    ADELVAK|SI  0.133    .
+627            564    SIEAGQK|IA  0.068    .
+627            570    KIANFSK|IA  0.072    .
+627            577    IAVALNK|EA  0.062    .
+627            596    NGLDYEK|RL  0.057    .
+627            597    GLDYEKR|LF  0.171    .
+627            606    YATFSTK|DQ  0.072    .
+627            609    FSTKDQK|EG  0.062    .
+627            621    FVDVLSK|EE  0.060    .
+627            628    EETTGER|LI  0.090    .
+627            635    LISQIGR|LA  0.112    .
+627            639    IGRLANK|FK  0.079    .
+627            641    RLANKFK|SV  0.249    .
+627            665    LNYLPTK|LG  0.061    .
+627            684    LNPLYNK|AE  0.060    .
+627            689    NKAEMIK|LL  0.065    .
+627            692    EMIKLLK|LS  0.056    .
+627            719    QADHPLK|VL  0.058    .
+627            732    VIDEWAK|EE  0.055    .
+627            762    GTTGLPK|AV  0.077    .
+627            789    NYDQLVK|DE  0.066    .
+627            803    TIVTNIR|NR  0.076    .
+627            805    VTNIRNR|PK  0.085    .
+627            807    NIRNRPK|QV  0.080    .
+627            812    PKQVNNK|SE  0.073    .
+627            835    ECVTVGR|QC  0.078    .
+627            841    RQCWYWR|VD  0.085    .
+627            845    YWRVDIR|TL  0.104    .
+627            849    DIRTLDR|VV  0.098    .
+627            860    AVSQFAR|LK  0.124    .
+627            862    SQFARLK|CT  0.075    .
+627            877    LIEIECK|KQ  0.060    .
+627            878    IEIECKK|QR  0.082    .
+627            880    IECKKQR|FV  0.184    .
+627            883    KKQRFVR|PK  0.222    .
+627            885    QRFVRPK|TL  0.068    .
+627            898    LVNLLAK|RS  0.055    .
+627            899    VNLLAKR|SL  0.139    .
+627            908    LFPTAAR|LL  0.070    .
+627            924    ETVLVEK|HD  0.062    .
+627            927    LVEKHDK|VA  0.062    .
+627            932    DKVALLK|LN  0.058    .
+627            935    ALLKLNR|PR  0.060    .
+627            937    LKLNRPR|AL  0.106    .
+627            955    DLNAAVK|DA  0.077    .
+627            961    KDANADK|DI  0.092    .
+627            973    VLTGSNK|AF  0.063    .
+627            982    AAGADIK|MM  0.064    .
+627           1006    DLEMVTK|NK  0.065    .
+627           1008    EMVTKNK|KP  0.060    .
+627           1009    MVTKNKK|PI  0.108    .
+627           1038    FIYAGDR|AK  0.079    .
+627           1040    YAGDRAK|FG  0.074    .
+627           1059    GAGGTQR|LT  0.108    .
+627           1062    GTQRLTR|SV  0.790 *ProP*
+627           1066    LTRSVGK|SK  0.083    .
+627           1068    RSVGKSK|AM  0.077    .
+627           1085    IGAEEAK|QI  0.082    .
+627           1102    ADELVAK|SI  0.133    .
+627           1109    SIEAGQK|IA  0.068    .
+627           1115    KIANFSK|IA  0.072    .
+627           1122    IAVALNK|EA  0.062    .
+627           1141    NGLDYEK|RL  0.057    .
+627           1142    GLDYEKR|LF  0.171    .
+627           1151    YATFSTK|DQ  0.072    .
+627           1154    FSTKDQK|EG  0.062    .
+627           1166    FVDVLSK|EE  0.060    .
+627           1173    EETTGER|LI  0.090    .
+627           1180    LISQIGR|LA  0.112    .
+627           1184    IGRLANK|FK  0.079    .
+627           1186    RLANKFK|SV  0.249    .
+627           1210    LNYLPTK|LG  0.061    .
+627           1229    FNPLYNK|AE  0.058    .
+627           1234    NKAEMIK|LL  0.065    .
+627           1237    EMIKLLK|LS  0.056    .
+627           1264    QADHPLK|VL  0.058    .
+627           1277    VIDEWAK|EE  0.055    .
+627           1307    GTTGLPK|AV  0.077    .
+627           1334    NYDQLVK|DE  0.066    .
+627           1359    YGGLLAK|HC  0.063    .
+627           1367    CVIQGYR|RV  0.094    .
+627           1368    VIQGYRR|VS  0.096    .
+627           1387    ENLQNYK|VA  0.061    .
+627           1393    KVATNIR|NR  0.081    .
+627           1395    ATNIRNR|PK  0.087    .
+627           1397    NIRNRPK|KV  0.078    .
+627           1398    IRNRPKK|VN  0.558 *ProP*
+627           1402    PKKVNNK|SE  0.074    .
+627           1409    SELVITR|CL  0.121    .
+627           1439    GIEASHK|AG  0.066    .
+627           1445    KAGTVGR|VI  0.118    .
+627           1453    IPGQEIK|GV  0.100    .
+627           1471    HAHIVIK|DS  0.091    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,271 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1676 471         
+MRKREQRETRNGVSAMRPPNSGIQYLQTFDDVQGPMHGIAVNAPYLTRDFLQQKRCSAQLMDTTYVYDFPNMFREACKVR      80
+WHSYIKEAGLDKSVIPKELARYTELALDQHDNLVEIHRVPGQNKTGMIAWKMTLFTPECPDGRDIIVIANDITCKIGTFG     160
+PREDKLYMRASELSRAHKLPRIYLSVNSGARIGLADEIKTMFKVAWVDNDHADKGFRYLYLTPADYKTISTKNSVQAELI     240
+EDEGESRYKITTIIGEKDGLGVENLQGSGMIAGETSRAYDEVFTISLVTCRSVGIGSYLVRLGQRVIQVDNSCIILTGAN     320
+SLNNVLGRQVYTSNTQLGGTQIMYNNGVSHHTAKDDFSGVVQILDWLAYVPKHKGAPLPIGPMSDPITRKVEWTPTKAPY     400
+DPRNMLAGCEVDGKFLSGFFDKGSWSECMNNWAKTVITGRARLGGIPMGVICVETRTVECEEPADPANLDTETKITQQAG     480
+QVWFPDSAYKTAQAIKDFNREELPLIIFANWRGFSGGVRDMYGEILKYGSYIVDGLVEYKQPVFVYIPPYGELRGGAWVV     560
+VDPKINPDAMEMFADRNSRGGVLEPEGTVTVQFKQRDIVQTMKRVDPKYRALFETVQDNESHLSHDDRKRHVNELRNREA     640
+YLMPSFHMISTTFADLHDTPQRMMAKGVIQEILDWETSREFFYWRVRRRVLENDLERRIKSANKKLEHGQIQSMIRRWFI     720
+EAKGPVMNYLWDDNSAVVDWLSNEEEQESVNENIKILEKDALLSKIDNLYCVLHPSSLFEEGSCLTHYLATPLRTLAVGS     800
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITD     880
+LGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGS     960
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITD    1040
+LGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGS    1120
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITD    1200
+LGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGS    1280
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITD    1360
+LGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGS    1440
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITD    1520
+LGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVGS    1600
+RRHYGPWRLGHDAITDLGGWVTTPLRTLAVGSRRHYGPWRLGHDAITDLGGWVTTPLRTLAVASRLHYGPCNVIKN        1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+............................................................................        1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+471              2    -----MR|KR  0.097    .
+471              3    ----MRK|RE  0.073    .
+471              4    ---MRKR|EQ  0.171    .
+471              7    MRKREQR|ET  0.433    .
+471             10    REQRETR|NG  0.204    .
+471             17    NGVSAMR|PP  0.080    .
+471             48    NAPYLTR|DF  0.095    .
+471             54    RDFLQQK|RC  0.072    .
+471             55    DFLQQKR|CS  0.140    .
+471             74    DFPNMFR|EA  0.110    .
+471             78    MFREACK|VR  0.062    .
+471             80    REACKVR|WH  0.120    .
+471             86    RWHSYIK|EA  0.068    .
+471             92    KEAGLDK|SV  0.142    .
+471             97    DKSVIPK|EL  0.073    .
+471            101    IPKELAR|YT  0.146    .
+471            118    NLVEIHR|VP  0.094    .
+471            124    RVPGQNK|TG  0.064    .
+471            131    TGMIAWK|MT  0.068    .
+471            143    PECPDGR|DI  0.110    .
+471            155    ANDITCK|IG  0.058    .
+471            162    IGTFGPR|ED  0.076    .
+471            165    FGPREDK|LY  0.083    .
+471            169    EDKLYMR|AS  0.094    .
+471            175    RASELSR|AH  0.074    .
+471            178    ELSRAHK|LP  0.123    .
+471            181    RAHKLPR|IY  0.102    .
+471            191    SVNSGAR|IG  0.079    .
+471            199    GLADEIK|TM  0.065    .
+471            203    EIKTMFK|VA  0.064    .
+471            214    DNDHADK|GF  0.060    .
+471            217    HADKGFR|YL  0.084    .
+471            227    LTPADYK|TI  0.065    .
+471            232    YKTISTK|NS  0.071    .
+471            247    EDEGESR|YK  0.084    .
+471            249    EGESRYK|IT  0.066    .
+471            257    TTIIGEK|DG  0.064    .
+471            277    IAGETSR|AY  0.104    .
+471            291    ISLVTCR|SV  0.266    .
+471            301    IGSYLVR|LG  0.087    .
+471            305    LVRLGQR|VI  0.075    .
+471            328    LNNVLGR|QV  0.216    .
+471            354    VSHHTAK|DD  0.106    .
+471            372    WLAYVPK|HK  0.088    .
+471            374    AYVPKHK|GA  0.065    .
+471            389    MSDPITR|KV  0.117    .
+471            390    SDPITRK|VE  0.070    .
+471            397    VEWTPTK|AP  0.066    .
+471            403    KAPYDPR|NM  0.082    .
+471            414    GCEVDGK|FL  0.080    .
+471            422    LSGFFDK|GS  0.072    .
+471            434    CMNNWAK|TV  0.099    .
+471            440    KTVITGR|AR  0.096    .
+471            442    VITGRAR|LG  0.079    .
+471            456    VICVETR|TV  0.158    .
+471            474    NLDTETK|IT  0.069    .
+471            490    FPDSAYK|TA  0.069    .
+471            496    KTAQAIK|DF  0.076    .
+471            500    AIKDFNR|EE  0.074    .
+471            512    IIFANWR|GF  0.129    .
+471            519    GFSGGVR|DM  0.100    .
+471            527    MYGEILK|YG  0.069    .
+471            540    DGLVEYK|QP  0.054    .
+471            554    PPYGELR|GG  0.087    .
+471            564    WVVVDPK|IN  0.068    .
+471            576    MEMFADR|NS  0.095    .
+471            579    FADRNSR|GG  0.162    .
+471            594    TVTVQFK|QR  0.087    .
+471            596    TVQFKQR|DI  0.163    .
+471            603    DIVQTMK|RV  0.076    .
+471            604    IVQTMKR|VD  0.146    .
+471            608    MKRVDPK|YR  0.073    .
+471            610    RVDPKYR|AL  0.104    .
+471            628    HLSHDDR|KR  0.111    .
+471            629    LSHDDRK|RH  0.080    .
+471            630    SHDDRKR|HV  0.290    .
+471            636    RHVNELR|NR  0.099    .
+471            638    VNELRNR|EA  0.083    .
+471            662    LHDTPQR|MM  0.100    .
+471            666    PQRMMAK|GV  0.111    .
+471            679    LDWETSR|EF  0.079    .
+471            685    REFFYWR|VR  0.081    .
+471            687    FFYWRVR|RR  0.061    .
+471            688    FYWRVRR|RV  0.430    .
+471            689    YWRVRRR|VL  0.159    .
+471            697    LENDLER|RI  0.082    .
+471            698    ENDLERR|IK  0.120    .
+471            700    DLERRIK|SA  0.318    .
+471            704    RIKSANK|KL  0.076    .
+471            705    IKSANKK|LE  0.147    .
+471            716    QIQSMIR|RW  0.088    .
+471            717    IQSMIRR|WF  0.169    .
+471            723    RWFIEAK|GP  0.065    .
+471            755    SVNENIK|IL  0.063    .
+471            759    NIKILEK|DA  0.061    .
+471            765    KDALLSK|ID  0.053    .
+471            794    YLATPLR|TL  0.080    .
+471            801    TLAVGSR|RH  0.072    .
+471            802    LAVGSRR|HY  0.194    .
+471            808    RHYGPWR|LG  0.104    .
+471            826    WVTTPLR|TL  0.068    .
+471            833    TLAVGSR|RH  0.072    .
+471            834    LAVGSRR|HY  0.194    .
+471            840    RHYGPWR|LG  0.104    .
+471            858    WVTTPLR|TL  0.068    .
+471            865    TLAVGSR|RH  0.072    .
+471            866    LAVGSRR|HY  0.194    .
+471            872    RHYGPWR|LG  0.104    .
+471            890    WVTTPLR|TL  0.068    .
+471            897    TLAVGSR|RH  0.072    .
+471            898    LAVGSRR|HY  0.194    .
+471            904    RHYGPWR|LG  0.104    .
+471            922    WVTTPLR|TL  0.068    .
+471            929    TLAVGSR|RH  0.072    .
+471            930    LAVGSRR|HY  0.194    .
+471            936    RHYGPWR|LG  0.104    .
+471            954    WVTTPLR|TL  0.068    .
+471            961    TLAVGSR|RH  0.072    .
+471            962    LAVGSRR|HY  0.194    .
+471            968    RHYGPWR|LG  0.104    .
+471            986    WVTTPLR|TL  0.068    .
+471            993    TLAVGSR|RH  0.072    .
+471            994    LAVGSRR|HY  0.194    .
+471           1000    RHYGPWR|LG  0.104    .
+471           1018    WVTTPLR|TL  0.068    .
+471           1025    TLAVGSR|RH  0.072    .
+471           1026    LAVGSRR|HY  0.194    .
+471           1032    RHYGPWR|LG  0.104    .
+471           1050    WVTTPLR|TL  0.068    .
+471           1057    TLAVGSR|RH  0.072    .
+471           1058    LAVGSRR|HY  0.194    .
+471           1064    RHYGPWR|LG  0.104    .
+471           1082    WVTTPLR|TL  0.068    .
+471           1089    TLAVGSR|RH  0.072    .
+471           1090    LAVGSRR|HY  0.194    .
+471           1096    RHYGPWR|LG  0.104    .
+471           1114    WVTTPLR|TL  0.068    .
+471           1121    TLAVGSR|RH  0.072    .
+471           1122    LAVGSRR|HY  0.194    .
+471           1128    RHYGPWR|LG  0.104    .
+471           1146    WVTTPLR|TL  0.068    .
+471           1153    TLAVGSR|RH  0.072    .
+471           1154    LAVGSRR|HY  0.194    .
+471           1160    RHYGPWR|LG  0.104    .
+471           1178    WVTTPLR|TL  0.068    .
+471           1185    TLAVGSR|RH  0.072    .
+471           1186    LAVGSRR|HY  0.194    .
+471           1192    RHYGPWR|LG  0.104    .
+471           1210    WVTTPLR|TL  0.068    .
+471           1217    TLAVGSR|RH  0.072    .
+471           1218    LAVGSRR|HY  0.194    .
+471           1224    RHYGPWR|LG  0.104    .
+471           1242    WVTTPLR|TL  0.068    .
+471           1249    TLAVGSR|RH  0.072    .
+471           1250    LAVGSRR|HY  0.194    .
+471           1256    RHYGPWR|LG  0.104    .
+471           1274    WVTTPLR|TL  0.068    .
+471           1281    TLAVGSR|RH  0.072    .
+471           1282    LAVGSRR|HY  0.194    .
+471           1288    RHYGPWR|LG  0.104    .
+471           1306    WVTTPLR|TL  0.068    .
+471           1313    TLAVGSR|RH  0.072    .
+471           1314    LAVGSRR|HY  0.194    .
+471           1320    RHYGPWR|LG  0.104    .
+471           1338    WVTTPLR|TL  0.068    .
+471           1345    TLAVGSR|RH  0.072    .
+471           1346    LAVGSRR|HY  0.194    .
+471           1352    RHYGPWR|LG  0.104    .
+471           1370    WVTTPLR|TL  0.068    .
+471           1377    TLAVGSR|RH  0.072    .
+471           1378    LAVGSRR|HY  0.194    .
+471           1384    RHYGPWR|LG  0.104    .
+471           1402    WVTTPLR|TL  0.068    .
+471           1409    TLAVGSR|RH  0.072    .
+471           1410    LAVGSRR|HY  0.194    .
+471           1416    RHYGPWR|LG  0.104    .
+471           1434    WVTTPLR|TL  0.068    .
+471           1441    TLAVGSR|RH  0.072    .
+471           1442    LAVGSRR|HY  0.194    .
+471           1448    RHYGPWR|LG  0.104    .
+471           1466    WVTTPLR|TL  0.068    .
+471           1473    TLAVGSR|RH  0.072    .
+471           1474    LAVGSRR|HY  0.194    .
+471           1480    RHYGPWR|LG  0.104    .
+471           1498    WVTTPLR|TL  0.068    .
+471           1505    TLAVGSR|RH  0.072    .
+471           1506    LAVGSRR|HY  0.194    .
+471           1512    RHYGPWR|LG  0.104    .
+471           1530    WVTTPLR|TL  0.068    .
+471           1537    TLAVGSR|RH  0.072    .
+471           1538    LAVGSRR|HY  0.194    .
+471           1544    RHYGPWR|LG  0.104    .
+471           1562    WVTTPLR|TL  0.068    .
+471           1569    TLAVGSR|RH  0.072    .
+471           1570    LAVGSRR|HY  0.194    .
+471           1576    RHYGPWR|LG  0.104    .
+471           1594    WVTTPLR|TL  0.068    .
+471           1601    TLAVGSR|RH  0.072    .
+471           1602    LAVGSRR|HY  0.194    .
+471           1608    RHYGPWR|LG  0.104    .
+471           1626    WVTTPLR|TL  0.068    .
+471           1633    TLAVGSR|RH  0.072    .
+471           1634    LAVGSRR|HY  0.194    .
+471           1640    RHYGPWR|LG  0.104    .
+471           1658    WVTTPLR|TL  0.068    .
+471           1665    TLAVASR|LH  0.076    .
+471           1675    GPCNVIK|N-  0.079    .
+____________________________^_________________
+
+
+
+

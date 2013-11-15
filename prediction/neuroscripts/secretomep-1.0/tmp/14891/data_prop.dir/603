@@ -1,0 +1,282 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1501 603         
+MFGEIYIMCSSGAVMCLSDIVVDLYKNKAGERISEEYIKEIVREKDAAKELVDLSVEEATKILTTSFLSRYGRIDRDEEG      80
+LFFVRDGVFPKITKKEPDEEVEDLGTPPIEDFFAHHIPFEPTCVQFLHFAAAKAPPGGFSKSSANTYFGLEDLITRVILR     160
+MMMPNQITTGGYSDKNKTLEQLYVLVSDGYGDVQEEKVDSKQKHLVITSRRKEAISDIITSKGAATRSEIRQILREQGET     240
+RELSQIDGKTLNRIFGSLVKDGIVKMINVKVSGKELAIYHSPDASKEIIDMKLEVIRETVSRSKCGANYVIEGLVTMFVS     320
+NLLKFPDPIPESLFSEDSFTSDLVYKNPRARFLQEIHFVVSVIIRRWPVDEECLPEFLLVYLNWWQYMVEKAPPVPIQAN     400
+GMYEVYDVMQFMPLKLVFHYNYRHTTFEKMRTLLGDPAYAHRFCFGQLPRDYIKDLHDRQLHLLNSTAKSFDYALNLPGI     480
+IEVPGFGFDINGKMVTNLKFRMRDRILVLDTSNAPVRKDVNRGYNIRKIRKPQVILSLPNLTYQDFIGYWNKVEEICRSL     560
+SFSELASFKAQISDPLRGLGEVLFQHDIKMEQPPEYYNNKGMKERLGEIYSELGPAGFNLRFFFHRVDSWEIGRKNPNKF     640
+GHKPLQAALSMNRNVNTNCPYSRRRSKDAPMSSDEQYTTLCRKRNFRKKSAVEKPKPSKETKAKAKPVTEEKTEVGEAAA     720
+ANKDDVTKQDAAVNSDAEKDKPVKRKRKRPSKAKPKPLPVPTVMLSGSEGSDWEMEGELPKKEKIKIAAKRQPKKRQSFG     800
+AIKLPPTKKSKQEEDSYSTKSRAKFSEEEDEILILWMTCCTIFDKPIEGPVMRNLLHKHIPHLATDKTVHSVMGHHHRVL     880
+NKAHVTNRIVDLKSNARAFMDRCPELCKTMEDLFDQRAEWATSYLQVRTVLPQKVSEFKANNQVVNLALDGRTHITLFCD     960
+PKNRAKRPQFLDIPVKDIWSDPTVSERQKQIYSKIILSLLTDTTDHNEASFKMLTSYDQNELSHVYDYMKKNRMLRRNKA    1040
+AAPLSAKSGKQKPFGFTYETQCSFFEPYNHDLLRVGDLARPPEDPVDEIYYSTLTPRAVYDFFENLLSGCSKVIVSGSIS    1120
+PFIENKSFVEAFQNEETEDELYTSLHTKRNTFFSGIATLEEGRGYGFQLSEKHIGGRMNYKVYQPPESERMVDGYEELLG    1200
+LKQSQWPVPLKIFSTRDTTNSSSFWSRVDLETGVLGKRKQDNEIKGGVCELKRLDVSEACEANIVKGEPKENIVKLFEQA    1280
+CKNLGKFHLVAPGKRLLETIFASTTKGRTLEELMMVGSPDRNITLEALQLCLDIEIVLKAGVTSIKYVSKKYGKHYLITM    1360
+ADDSVSMRGGCRRGRSQSISEKDESTASTSSAKTADNPSDRVMESDFKKFFPLATKPWRSANSDISMSGLGSFLRSIILS    1440
+IFHYPGITKALIDNRYHASLSPAQSTELLESLMQGNNSRLYFCTHTKSNDRHFKLSGLKYI                       1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+..............P.................................................................    1440
+.............................................................                       1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+603             26    IVVDLYK|NK  0.058    .
+603             28    VDLYKNK|AG  0.064    .
+603             32    KNKAGER|IS  0.090    .
+603             39    ISEEYIK|EI  0.064    .
+603             43    YIKEIVR|EK  0.082    .
+603             45    KEIVREK|DA  0.088    .
+603             49    REKDAAK|EL  0.064    .
+603             61    SVEEATK|IL  0.061    .
+603             70    TTSFLSR|YG  0.114    .
+603             73    FLSRYGR|ID  0.393    .
+603             76    RYGRIDR|DE  0.301    .
+603             85    EGLFFVR|DG  0.067    .
+603             91    RDGVFPK|IT  0.080    .
+603             94    VFPKITK|KE  0.056    .
+603             95    FPKITKK|EP  0.101    .
+603            133    LHFAAAK|AP  0.066    .
+603            141    PPGGFSK|SS  0.079    .
+603            156    LEDLITR|VI  0.068    .
+603            160    ITRVILR|MM  0.103    .
+603            175    TGGYSDK|NK  0.066    .
+603            177    GYSDKNK|TL  0.085    .
+603            197    GDVQEEK|VD  0.065    .
+603            201    EEKVDSK|QK  0.065    .
+603            203    KVDSKQK|HL  0.059    .
+603            210    HLVITSR|RK  0.094    .
+603            211    LVITSRR|KE  0.099    .
+603            212    VITSRRK|EA  0.079    .
+603            222    SDIITSK|GA  0.067    .
+603            227    SKGAATR|SE  0.136    .
+603            231    ATRSEIR|QI  0.088    .
+603            235    EIRQILR|EQ  0.085    .
+603            241    REQGETR|EL  0.118    .
+603            249    LSQIDGK|TL  0.072    .
+603            253    DGKTLNR|IF  0.081    .
+603            260    IFGSLVK|DG  0.061    .
+603            265    VKDGIVK|MI  0.066    .
+603            270    VKMINVK|VS  0.070    .
+603            274    NVKVSGK|EL  0.060    .
+603            286    HSPDASK|EI  0.067    .
+603            292    KEIIDMK|LE  0.059    .
+603            297    MKLEVIR|ET  0.074    .
+603            302    IRETVSR|SK  0.170    .
+603            304    ETVSRSK|CG  0.055    .
+603            324    FVSNLLK|FP  0.075    .
+603            346    TSDLVYK|NP  0.065    .
+603            349    LVYKNPR|AR  0.097    .
+603            351    YKNPRAR|FL  0.149    .
+603            365    VVSVIIR|RW  0.092    .
+603            366    VSVIIRR|WP  0.114    .
+603            391    WQYMVEK|AP  0.060    .
+603            415    MQFMPLK|LV  0.071    .
+603            423    VFHYNYR|HT  0.088    .
+603            429    RHTTFEK|MR  0.058    .
+603            431    TTFEKMR|TL  0.089    .
+603            442    DPAYAHR|FC  0.133    .
+603            450    CFGQLPR|DY  0.120    .
+603            454    LPRDYIK|DL  0.086    .
+603            459    IKDLHDR|QL  0.091    .
+603            469    LLNSTAK|SF  0.110    .
+603            493    GFDINGK|MV  0.067    .
+603            499    KMVTNLK|FR  0.057    .
+603            501    VTNLKFR|MR  0.104    .
+603            503    NLKFRMR|DR  0.133    .
+603            505    KFRMRDR|IL  0.077    .
+603            517    TSNAPVR|KD  0.089    .
+603            518    SNAPVRK|DV  0.254    .
+603            522    VRKDVNR|GY  0.110    .
+603            527    NRGYNIR|KI  0.106    .
+603            528    RGYNIRK|IR  0.077    .
+603            530    YNIRKIR|KP  0.232    .
+603            531    NIRKIRK|PQ  0.067    .
+603            552    FIGYWNK|VE  0.059    .
+603            558    KVEEICR|SL  0.137    .
+603            569    SELASFK|AQ  0.058    .
+603            577    QISDPLR|GL  0.176    .
+603            589    LFQHDIK|ME  0.062    .
+603            600    PEYYNNK|GM  0.064    .
+603            603    YNNKGMK|ER  0.069    .
+603            605    NKGMKER|LG  0.090    .
+603            621    PAGFNLR|FF  0.097    .
+603            626    LRFFFHR|VD  0.115    .
+603            634    DSWEIGR|KN  0.076    .
+603            635    SWEIGRK|NP  0.076    .
+603            639    GRKNPNK|FG  0.089    .
+603            643    PNKFGHK|PL  0.071    .
+603            653    AALSMNR|NV  0.088    .
+603            663    TNCPYSR|RR  0.101    .
+603            664    NCPYSRR|RS  0.130    .
+603            665    CPYSRRR|SK  0.271    .
+603            667    YSRRRSK|DA  0.245    .
+603            682    QYTTLCR|KR  0.060    .
+603            683    YTTLCRK|RN  0.068    .
+603            684    TTLCRKR|NF  0.167    .
+603            687    CRKRNFR|KK  0.446    .
+603            688    RKRNFRK|KS  0.093    .
+603            689    KRNFRKK|SA  0.318    .
+603            694    KKSAVEK|PK  0.076    .
+603            696    SAVEKPK|PS  0.064    .
+603            699    EKPKPSK|ET  0.064    .
+603            702    KPSKETK|AK  0.082    .
+603            704    SKETKAK|AK  0.077    .
+603            706    ETKAKAK|PV  0.098    .
+603            712    KPVTEEK|TE  0.056    .
+603            723    EAAAANK|DD  0.073    .
+603            728    NKDDVTK|QD  0.068    .
+603            739    VNSDAEK|DK  0.074    .
+603            741    SDAEKDK|PV  0.097    .
+603            744    EKDKPVK|RK  0.056    .
+603            745    KDKPVKR|KR  0.116    .
+603            746    DKPVKRK|RK  0.096    .
+603            747    KPVKRKR|KR  0.142    .
+603            748    PVKRKRK|RP  0.239    .
+603            749    VKRKRKR|PS  0.256    .
+603            752    KRKRPSK|AK  0.160    .
+603            754    KRPSKAK|PK  0.068    .
+603            756    PSKAKPK|PL  0.068    .
+603            781    MEGELPK|KE  0.058    .
+603            782    EGELPKK|EK  0.084    .
+603            784    ELPKKEK|IK  0.075    .
+603            786    PKKEKIK|IA  0.083    .
+603            790    KIKIAAK|RQ  0.061    .
+603            791    IKIAAKR|QP  0.196    .
+603            794    AAKRQPK|KR  0.103    .
+603            795    AKRQPKK|RQ  0.111    .
+603            796    KRQPKKR|QS  0.387    .
+603            803    QSFGAIK|LP  0.056    .
+603            808    IKLPPTK|KS  0.066    .
+603            809    KLPPTKK|SK  0.130    .
+603            811    PPTKKSK|QE  0.079    .
+603            820    EDSYSTK|SR  0.080    .
+603            822    SYSTKSR|AK  0.173    .
+603            824    STKSRAK|FS  0.079    .
+603            845    CCTIFDK|PI  0.061    .
+603            853    IEGPVMR|NL  0.086    .
+603            858    MRNLLHK|HI  0.082    .
+603            867    PHLATDK|TV  0.076    .
+603            878    VMGHHHR|VL  0.114    .
+603            882    HHRVLNK|AH  0.065    .
+603            888    KAHVTNR|IV  0.152    .
+603            893    NRIVDLK|SN  0.089    .
+603            897    DLKSNAR|AF  0.083    .
+603            902    ARAFMDR|CP  0.104    .
+603            908    RCPELCK|TM  0.062    .
+603            917    EDLFDQR|AE  0.065    .
+603            928    TSYLQVR|TV  0.140    .
+603            934    RTVLPQK|VS  0.058    .
+603            939    QKVSEFK|AN  0.072    .
+603            952    NLALDGR|TH  0.080    .
+603            962    TLFCDPK|NR  0.059    .
+603            964    FCDPKNR|AK  0.098    .
+603            966    DPKNRAK|RP  0.058    .
+603            967    PKNRAKR|PQ  0.459    .
+603            976    FLDIPVK|DI  0.068    .
+603            987    DPTVSER|QK  0.083    .
+603            989    TVSERQK|QI  0.078    .
+603            994    QKQIYSK|II  0.069    .
+603           1012    HNEASFK|ML  0.071    .
+603           1030    HVYDYMK|KN  0.061    .
+603           1031    VYDYMKK|NR  0.065    .
+603           1033    DYMKKNR|ML  0.109    .
+603           1036    KKNRMLR|RN  0.251    .
+603           1037    KNRMLRR|NK  0.169    .
+603           1039    RMLRRNK|AA  0.111    .
+603           1047    AAPLSAK|SG  0.085    .
+603           1050    LSAKSGK|QK  0.082    .
+603           1052    AKSGKQK|PF  0.095    .
+603           1074    YNHDLLR|VG  0.089    .
+603           1080    RVGDLAR|PP  0.091    .
+603           1097    YSTLTPR|AV  0.132    .
+603           1112    LLSGCSK|VI  0.068    .
+603           1126    SPFIENK|SF  0.089    .
+603           1148    YTSLHTK|RN  0.062    .
+603           1149    TSLHTKR|NT  0.213    .
+603           1163    ATLEEGR|GY  0.095    .
+603           1172    GFQLSEK|HI  0.073    .
+603           1177    EKHIGGR|MN  0.104    .
+603           1181    GGRMNYK|VY  0.066    .
+603           1190    QPPESER|MV  0.197    .
+603           1202    EELLGLK|QS  0.052    .
+603           1211    QWPVPLK|IF  0.067    .
+603           1216    LKIFSTR|DT  0.129    .
+603           1227    SSSFWSR|VD  0.095    .
+603           1237    ETGVLGK|RK  0.060    .
+603           1238    TGVLGKR|KQ  0.130    .
+603           1239    GVLGKRK|QD  0.091    .
+603           1245    KQDNEIK|GG  0.061    .
+603           1252    GGVCELK|RL  0.072    .
+603           1253    GVCELKR|LD  0.097    .
+603           1266    CEANIVK|GE  0.061    .
+603           1270    IVKGEPK|EN  0.069    .
+603           1275    PKENIVK|LF  0.063    .
+603           1282    LFEQACK|NL  0.065    .
+603           1286    ACKNLGK|FH  0.065    .
+603           1294    HLVAPGK|RL  0.063    .
+603           1295    LVAPGKR|LL  0.208    .
+603           1306    IFASTTK|GR  0.069    .
+603           1308    ASTTKGR|TL  0.114    .
+603           1321    MVGSPDR|NI  0.079    .
+603           1339    DIEIVLK|AG  0.058    .
+603           1346    AGVTSIK|YV  0.095    .
+603           1350    SIKYVSK|KY  0.078    .
+603           1351    IKYVSKK|YG  0.162    .
+603           1354    VSKKYGK|HY  0.060    .
+603           1368    DDSVSMR|GG  0.117    .
+603           1372    SMRGGCR|RG  0.072    .
+603           1373    MRGGCRR|GR  0.261    .
+603           1375    GGCRRGR|SQ  0.562 *ProP*
+603           1382    SQSISEK|DE  0.090    .
+603           1393    ASTSSAK|TA  0.067    .
+603           1401    ADNPSDR|VM  0.092    .
+603           1408    VMESDFK|KF  0.055    .
+603           1409    MESDFKK|FF  0.126    .
+603           1416    FFPLATK|PW  0.058    .
+603           1419    LATKPWR|SA  0.151    .
+603           1435    GLGSFLR|SI  0.147    .
+603           1449    HYPGITK|AL  0.064    .
+603           1455    KALIDNR|YH  0.072    .
+603           1479    MQGNNSR|LY  0.078    .
+603           1487    YFCTHTK|SN  0.084    .
+603           1491    HTKSNDR|HF  0.073    .
+603           1494    SNDRHFK|LS  0.156    .
+603           1499    FKLSGLK|YI  0.062    .
+____________________________^_________________
+
+
+
+

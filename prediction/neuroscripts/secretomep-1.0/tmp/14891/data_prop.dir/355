@@ -1,0 +1,294 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1890 355         
+MAFFSLAFFSFAAYHVTRSRDLISSTSSAAAAVTPHKTSPKMWVTLLINLPKKLKKGYCTGDSQAVTHPSTNPACGCLTS      80
+EIERDRVHSTEYGRIRHSSIPSAFIPSSFFKLHPHTHSLRVRETSHNTHDDTQNTAVKLSLPQINLFKVVLKSLKLLMES     160
+RTSLPSPSTPRVTCRWPFRIWNNSTTSSVPRDPVTNSPKKSPKMWVTLLINLPKKLKKGYCTGDSQAVTHPSTNPACGCL     240
+TSEIERDRVHSTEYGRIRHSSIPSAFIPSSFFKLHPHTHSLRVRETSHNTHDDTQNTAVKLSLPQINLFKVVLKSLKLLM     320
+ESRTSLPSPSTPRVTCRWPFRIWNNSTTSSVPRDPVTNSPKKSPKMWVTLLINLPKKLKKGYCTGDSQAVTHPSTNPACG     400
+CLTSEIERDRVHSTEYGRIRHSSIPSAFIPSSFFKLHPHTHSLRVRETSHNTHDDTQNTAVSLLLFSIYYRPPDGKADQK     480
+ERNTQINLFKVVLKSFLLKILFKFEKKQWLRARERRERGGRKRRERGGSEREKGVRERGREREREKWRVDWFGSGQTLKV     560
+SAPYSLLDSPLAFMIYIYTASANITPAPRDHLHGEICTVLLRERADIECPRHTVCQIYNPSPSFFLFNYPLIMFCCLLVP     640
+RIPISLSRVSLFISLFFSLLKRGQTLKVSAPYSLLDALLFPFEWDHVYVPIVPTTESYMHLTEAPVTFLMGLTNPVSMED     720
+RSDICILDIDSCKLVLPEDLPELPGRGQLIASIRQCLSSVPPLVNVTAATPSPAPLIGGLQLDPIGAATKPAPSGPVSLA     800
+QRRANRGIPKLKVNLPLTNTPPAAAVSNKTQTIRSLMLNHFASMLLNYAKFVIFPRDRTVWESNRDNQDNFEKDVFLCDQ     880
+AECNLTFFSRFLESHMFSVFVDNKILINFGQPCEAVSVFDSRIEETRKSSFSEIKSPVAMETSVEGAAQTAAAAAAVVPR     960
+VSQSEVICRPPDQRGCLQHEIVSIYSNHGNQNIYIYILCQKLTEISWLESCKLVLPEDLPELPGRGQLIASIRQCLSSVP    1040
+PLVNVTAATPSPAPLIGGLQLDPIGAATKPAPSGPVSLAQRRANRGIPKLKVNLPLTNTPPAAAVSNKTQTIRSLMLNHF    1120
+ASMLLNYAKFVIFPRDRTVWESNRDNQDNFEKDVFLCDQAECNLTFFSRFLESHMFSVFVDNKILINFGQPCEAVSVFDS    1200
+RIEETRKLSFSEIKSPVAMGTSVEGAAQTAAAAAAVVPRVSQSEECKNKINRLLVLKMGAEGQGLGYVVRDVEENASTGS    1280
+TSEDDTIEEMRTATFFRRSNSQTPSSGLPGDLPPSEGLYHDIQNIKNIRMIRTDAGRARAWIRLSIEKQCLHQYMELLTS    1360
+DPATLSRTYKDYAFLREEEKVAPFIKYLYTLSAVPFLCFTSSFPAIAIQYRIYLLTSGKFYAQTTANTWLLLSGDKGDTG    1440
+VYTLPRGENVVNIETRNLGELRSLRVGHDNSGYSPGWLLDHILVENALTGHCTLFRCGYWLSKNNLDGSIERLLIGERIS    1520
+RSEYRALRSSKLESPSPTRDDTNTYRTCTCTLWSFLGTCAPFIKYLYTLSAVPFLCFTSSFPAIGRAEHDLTLYRIYLLT    1600
+SGKFYAQTTANTWLLLSGLFPLWPQIWDGSPLLQHNIEVTIATTNIYLVDLISCDCQLKINISHVQTRNLGELRSLRVGH    1680
+DNSGYSPGWLLDHILVENALTGHCTLFRCGYWLSKNNLDGSIERLLIGERISRSEYRALRSSKRPLRQDVSSPVNSSRAQ    1760
+ELLATSINALVKRCYKGASPNNRGEVNLLCGPQGLVPALRLILSTGLKPIARFTRGPVLPWELILQVYEEVSRLASSHPD    1840
+QPAIKTFMEWVLRLERPSSKSVGLDGKLQTLLCVGNKNQKTKLNPLFKQN                                  1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+...................................P.......P....................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+..................................................                                  1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+355             18    AAYHVTR|SR  0.130    .
+355             20    YHVTRSR|DL  0.102    .
+355             37    AAVTPHK|TS  0.060    .
+355             41    PHKTSPK|MW  0.072    .
+355             52    LLINLPK|KL  0.072    .
+355             53    LINLPKK|LK  0.089    .
+355             55    NLPKKLK|KG  0.058    .
+355             56    LPKKLKK|GY  0.170    .
+355             84    LTSEIER|DR  0.096    .
+355             86    SEIERDR|VH  0.086    .
+355             94    HSTEYGR|IR  0.082    .
+355             96    TEYGRIR|HS  0.095    .
+355            111    IPSSFFK|LH  0.066    .
+355            120    PHTHSLR|VR  0.085    .
+355            122    THSLRVR|ET  0.163    .
+355            138    TQNTAVK|LS  0.068    .
+355            148    PQINLFK|VV  0.073    .
+355            152    LFKVVLK|SL  0.074    .
+355            155    VVLKSLK|LL  0.060    .
+355            161    KLLMESR|TS  0.081    .
+355            171    PSPSTPR|VT  0.079    .
+355            175    TPRVTCR|WP  0.137    .
+355            179    TCRWPFR|IW  0.123    .
+355            191    TTSSVPR|DP  0.128    .
+355            199    PVTNSPK|KS  0.060    .
+355            200    VTNSPKK|SP  0.119    .
+355            203    SPKKSPK|MW  0.089    .
+355            214    LLINLPK|KL  0.072    .
+355            215    LINLPKK|LK  0.089    .
+355            217    NLPKKLK|KG  0.058    .
+355            218    LPKKLKK|GY  0.170    .
+355            246    LTSEIER|DR  0.096    .
+355            248    SEIERDR|VH  0.086    .
+355            256    HSTEYGR|IR  0.082    .
+355            258    TEYGRIR|HS  0.095    .
+355            273    IPSSFFK|LH  0.066    .
+355            282    PHTHSLR|VR  0.085    .
+355            284    THSLRVR|ET  0.163    .
+355            300    TQNTAVK|LS  0.068    .
+355            310    PQINLFK|VV  0.073    .
+355            314    LFKVVLK|SL  0.074    .
+355            317    VVLKSLK|LL  0.060    .
+355            323    KLLMESR|TS  0.081    .
+355            333    PSPSTPR|VT  0.079    .
+355            337    TPRVTCR|WP  0.137    .
+355            341    TCRWPFR|IW  0.123    .
+355            353    TTSSVPR|DP  0.128    .
+355            361    PVTNSPK|KS  0.060    .
+355            362    VTNSPKK|SP  0.119    .
+355            365    SPKKSPK|MW  0.089    .
+355            376    LLINLPK|KL  0.072    .
+355            377    LINLPKK|LK  0.089    .
+355            379    NLPKKLK|KG  0.058    .
+355            380    LPKKLKK|GY  0.170    .
+355            408    LTSEIER|DR  0.096    .
+355            410    SEIERDR|VH  0.086    .
+355            418    HSTEYGR|IR  0.082    .
+355            420    TEYGRIR|HS  0.095    .
+355            435    IPSSFFK|LH  0.066    .
+355            444    PHTHSLR|VR  0.085    .
+355            446    THSLRVR|ET  0.163    .
+355            471    LFSIYYR|PP  0.101    .
+355            476    YRPPDGK|AD  0.072    .
+355            480    DGKADQK|ER  0.062    .
+355            482    KADQKER|NT  0.099    .
+355            490    TQINLFK|VV  0.076    .
+355            494    LFKVVLK|SF  0.071    .
+355            499    LKSFLLK|IL  0.082    .
+355            503    LLKILFK|FE  0.062    .
+355            506    ILFKFEK|KQ  0.057    .
+355            507    LFKFEKK|QW  0.086    .
+355            511    EKKQWLR|AR  0.091    .
+355            513    KQWLRAR|ER  0.095    .
+355            515    WLRARER|RE  0.085    .
+355            516    LRARERR|ER  0.580 *ProP*
+355            518    ARERRER|GG  0.234    .
+355            521    RRERGGR|KR  0.210    .
+355            522    RERGGRK|RR  0.085    .
+355            523    ERGGRKR|RE  0.177    .
+355            524    RGGRKRR|ER  0.694 *ProP*
+355            526    GRKRRER|GG  0.450    .
+355            531    ERGGSER|EK  0.122    .
+355            533    GGSEREK|GV  0.098    .
+355            536    EREKGVR|ER  0.095    .
+355            538    EKGVRER|GR  0.108    .
+355            540    GVRERGR|ER  0.100    .
+355            542    RERGRER|ER  0.090    .
+355            544    RGRERER|EK  0.086    .
+355            546    REREREK|WR  0.067    .
+355            548    REREKWR|VD  0.100    .
+355            559    GSGQTLK|VS  0.056    .
+355            589    NITPAPR|DH  0.097    .
+355            602    ICTVLLR|ER  0.070    .
+355            604    TVLLRER|AD  0.079    .
+355            611    ADIECPR|HT  0.089    .
+355            641    CCLLVPR|IP  0.067    .
+355            648    IPISLSR|VS  0.069    .
+355            661    LFFSLLK|RG  0.053    .
+355            662    FFSLLKR|GQ  0.148    .
+355            667    KRGQTLK|VS  0.059    .
+355            721    PVSMEDR|SD  0.151    .
+355            733    LDIDSCK|LV  0.068    .
+355            746    LPELPGR|GQ  0.087    .
+355            754    QLIASIR|QC  0.086    .
+355            790    PIGAATK|PA  0.066    .
+355            802    PVSLAQR|RA  0.110    .
+355            803    VSLAQRR|AN  0.136    .
+355            806    AQRRANR|GI  0.275    .
+355            810    ANRGIPK|LK  0.060    .
+355            812    RGIPKLK|VN  0.064    .
+355            829    AAAVSNK|TQ  0.066    .
+355            834    NKTQTIR|SL  0.115    .
+355            850    MLLNYAK|FV  0.078    .
+355            856    KFVIFPR|DR  0.106    .
+355            858    VIFPRDR|TV  0.103    .
+355            865    TVWESNR|DN  0.104    .
+355            873    NQDNFEK|DV  0.083    .
+355            890    NLTFFSR|FL  0.122    .
+355            904    SVFVDNK|IL  0.059    .
+355            922    VSVFDSR|IE  0.089    .
+355            927    SRIEETR|KS  0.111    .
+355            928    RIEETRK|SS  0.113    .
+355            935    SSFSEIK|SP  0.096    .
+355            960    AAAVVPR|VS  0.104    .
+355            969    QSEVICR|PP  0.092    .
+355            974    CRPPDQR|GC  0.100    .
+355           1001    IYILCQK|LT  0.059    .
+355           1012    SWLESCK|LV  0.069    .
+355           1025    LPELPGR|GQ  0.087    .
+355           1033    QLIASIR|QC  0.086    .
+355           1069    PIGAATK|PA  0.066    .
+355           1081    PVSLAQR|RA  0.110    .
+355           1082    VSLAQRR|AN  0.136    .
+355           1085    AQRRANR|GI  0.275    .
+355           1089    ANRGIPK|LK  0.060    .
+355           1091    RGIPKLK|VN  0.064    .
+355           1108    AAAVSNK|TQ  0.066    .
+355           1113    NKTQTIR|SL  0.115    .
+355           1129    MLLNYAK|FV  0.078    .
+355           1135    KFVIFPR|DR  0.106    .
+355           1137    VIFPRDR|TV  0.103    .
+355           1144    TVWESNR|DN  0.104    .
+355           1152    NQDNFEK|DV  0.083    .
+355           1169    NLTFFSR|FL  0.122    .
+355           1183    SVFVDNK|IL  0.059    .
+355           1201    VSVFDSR|IE  0.086    .
+355           1206    SRIEETR|KL  0.117    .
+355           1207    RIEETRK|LS  0.078    .
+355           1214    LSFSEIK|SP  0.083    .
+355           1239    AAAVVPR|VS  0.110    .
+355           1247    SQSEECK|NK  0.068    .
+355           1249    SEECKNK|IN  0.061    .
+355           1252    CKNKINR|LL  0.091    .
+355           1257    NRLLVLK|MG  0.062    .
+355           1270    GLGYVVR|DV  0.228    .
+355           1291    DTIEEMR|TA  0.089    .
+355           1297    RTATFFR|RS  0.112    .
+355           1298    TATFFRR|SN  0.303    .
+355           1326    HDIQNIK|NI  0.067    .
+355           1329    QNIKNIR|MI  0.089    .
+355           1332    KNIRMIR|TD  0.176    .
+355           1337    IRTDAGR|AR  0.090    .
+355           1339    TDAGRAR|AW  0.113    .
+355           1343    RARAWIR|LS  0.105    .
+355           1348    IRLSIEK|QC  0.061    .
+355           1367    DPATLSR|TY  0.085    .
+355           1370    TLSRTYK|DY  0.235    .
+355           1376    KDYAFLR|EE  0.108    .
+355           1380    FLREEEK|VA  0.059    .
+355           1386    KVAPFIK|YL  0.069    .
+355           1411    AIAIQYR|IY  0.072    .
+355           1419    YLLTSGK|FY  0.063    .
+355           1436    LLLSGDK|GD  0.057    .
+355           1446    GVYTLPR|GE  0.085    .
+355           1456    VVNIETR|NL  0.110    .
+355           1462    RNLGELR|SL  0.134    .
+355           1465    GELRSLR|VG  0.158    .
+355           1496    GHCTLFR|CG  0.072    .
+355           1503    CGYWLSK|NN  0.056    .
+355           1512    LDGSIER|LL  0.082    .
+355           1518    RLLIGER|IS  0.069    .
+355           1521    IGERISR|SE  0.282    .
+355           1525    ISRSEYR|AL  0.110    .
+355           1528    SEYRALR|SS  0.271    .
+355           1531    RALRSSK|LE  0.126    .
+355           1539    ESPSPTR|DD  0.085    .
+355           1546    DDTNTYR|TC  0.081    .
+355           1564    TCAPFIK|YL  0.072    .
+355           1586    SFPAIGR|AE  0.079    .
+355           1595    HDLTLYR|IY  0.061    .
+355           1603    YLLTSGK|FY  0.063    .
+355           1659    SCDCQLK|IN  0.060    .
+355           1668    ISHVQTR|NL  0.153    .
+355           1674    RNLGELR|SL  0.125    .
+355           1677    GELRSLR|VG  0.158    .
+355           1708    GHCTLFR|CG  0.072    .
+355           1715    CGYWLSK|NN  0.056    .
+355           1724    LDGSIER|LL  0.082    .
+355           1730    RLLIGER|IS  0.069    .
+355           1733    IGERISR|SE  0.282    .
+355           1737    ISRSEYR|AL  0.110    .
+355           1740    SEYRALR|SS  0.320    .
+355           1743    RALRSSK|RP  0.099    .
+355           1744    ALRSSKR|PL  0.200    .
+355           1747    SSKRPLR|QD  0.204    .
+355           1758    SPVNSSR|AQ  0.105    .
+355           1772    SINALVK|RC  0.065    .
+355           1773    INALVKR|CY  0.243    .
+355           1776    LVKRCYK|GA  0.200    .
+355           1783    GASPNNR|GE  0.112    .
+355           1800    GLVPALR|LI  0.077    .
+355           1808    ILSTGLK|PI  0.065    .
+355           1812    GLKPIAR|FT  0.099    .
+355           1815    PIARFTR|GP  0.163    .
+355           1833    VYEEVSR|LA  0.089    .
+355           1845    PDQPAIK|TF  0.059    .
+355           1853    FMEWVLR|LE  0.072    .
+355           1856    WVLRLER|PS  0.168    .
+355           1860    LERPSSK|SV  0.118    .
+355           1867    SVGLDGK|LQ  0.053    .
+355           1877    LLCVGNK|NQ  0.061    .
+355           1880    VGNKNQK|TK  0.055    .
+355           1882    NKNQKTK|LN  0.068    .
+355           1888    KLNPLFK|QN  0.074    .
+____________________________^_________________
+
+
+
+

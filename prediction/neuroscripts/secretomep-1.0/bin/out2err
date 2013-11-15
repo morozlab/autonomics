@@ -1,0 +1,14 @@
+#! /usr/freeware/bin/gawk -f
+
+# 
+# This script prints the input to stderr if V==1
+# 
+# SYNOPSIS	"$AWK -v V=$v_opt -v RS='@' -f out2err"
+# 		This will pass newlines correctly
+# 
+# VERSION	2004 Aug 26	launch, K. Rapacki
+# 
+
+V { printf $0 >"/dev/stderr"; }
+
+# end of script ===============================================================

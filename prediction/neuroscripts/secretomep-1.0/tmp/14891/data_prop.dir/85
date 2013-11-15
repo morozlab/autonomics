@@ -1,0 +1,518 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3321 85          
+MIYHSTQDDFGSGVQPLGVYSGVTVLAQNVAAVSPVVRKSAQDPTQPPSSERDKNLVIFGLPETTDRLTKNSVDGLFAEL      80
+NEAPKVNSMKRIGERNEKGPRPLVVSLERRATLMGLLKKSRQLKNSEHFATVYLSPDLTPIQIKERKALINTLKKLRFED     160
+PGGKYYIKNNIIQLAAFGTRAAEDFRGDARRRILFLPVAKLVLPRKYGHESTFWQRAPVKRPPNTQIVRRNGIHVSGGVF     240
+GPIRPVPIVVSHHVVFHPLVLLSIVRLPDMSLVSVAEFLPIPPVHIPTQKVTLVLPLFPSSLALGLSFLDPELRGPVSTV     320
+LETTVCGNRPYVVSTKGTATAAEILAVIRADDINSGGGRKTTRKKERERERERERERTREGDRDRDRNRNRDRDRDRDRD     400
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRD     480
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRD     560
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRD     640
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRD     720
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRD     800
+RDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDKLTMGLCGLAHTYVLLLHLFMKGARYDFLF     880
+GGRPPINRLFSVKLHKFHVSSMSQFSDIQDMHKIINIFEKKRTCKTTFLAITQSFLGQLTKSWTRWKEDIKLFKMSPIKL     960
+KLAQNARRHGAKCAFCELVKKWLSYRQNREKFSQIWLTFTAYPKLPGFWSCIYLSIYLSIYLSIYLSKTTLLYPDLTPLP    1040
+FWHLSSNHLTNDPPSLVTSLSMVLPSPAIVVPVAHHTRVALVDVVSRVHLGVQLLLNFPHIFSTSSVKIFDVATLAGTAA    1120
+MSLVSVAEFLPIPPVHIPTLKVTLVLPQKGRRERDPDSFLDPKLGGIVLETTFFGNRPYVVSTKGTTTSDTLAVIRADDI    1200
+SSGGNSDKENEKYQHDVKSRKWDREIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1280
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1360
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1440
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1520
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1600
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1680
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    1760
+EIEIEIEIEIEIEIEIEGDRGREREREGIHLLGELKNEEMNESYKILWDFHIQTDNPIEACKDDLFDKLKKEALLIDVAV    1840
+PKDRSVSDREMEMIKKYQELQRERSHEALGEVIPRLEKYHSRYWAVNMGRQLQKSVIFNSMNTLRKVLDQVTSDMLLFFV    1920
+LLIGVTSAANVICTDYGKDIGGGGAFDGYYVRPVPKNCRFQHRGNWSPQFRIQEGQPQCRGGWRKMVNDSVTNTRLISGQ    2000
+PNDREEYQWVENNVMRHNTWHWLGTVCNSRGQNTNVADFFTASGEDMRKIQQKLNARMHPGHHINNHSHLYDEPQAQQQL    2080
+EMAVPSPALPRGKEDRLRGPHGNQSNQNSLFRLRDWGQYFLIRSVPAFYLGYKCCFDFFLGVVGSNKIQEGQPQCRGGWR    2160
+KWKNKCYFERGEMNWQDGERFCNQHQAHIWQPNDREEYQWVENNVMRHNTWHWLGTVCNSRGQNTNVADFFTASGEDMRK    2240
+IQQKLNARMHPGHHINNHSHPCMMSHRHNNSWRWQYHHQHCHEGRRIVCEAPTGPTKGGIEIEIEIEIEIEIEIEIEIEI    2320
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2400
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2480
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2560
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2640
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2720
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2800
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2880
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    2960
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    3040
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    3120
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    3200
+EIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEI    3280
+EIEIEIEIEIEREKTLSGAATPSERICESNGCNFKTTVYMV                                           3360
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+.........................................                                           3360
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+85              38    AVSPVVR|KS  0.101    .
+85              39    VSPVVRK|SA  0.140    .
+85              52    QPPSSER|DK  0.115    .
+85              54    PSSERDK|NL  0.067    .
+85              67    LPETTDR|LT  0.089    .
+85              70    TTDRLTK|NS  0.154    .
+85              85    ELNEAPK|VN  0.068    .
+85              90    PKVNSMK|RI  0.076    .
+85              91    KVNSMKR|IG  0.255    .
+85              95    MKRIGER|NE  0.084    .
+85              98    IGERNEK|GP  0.105    .
+85             101    RNEKGPR|PL  0.085    .
+85             109    LVVSLER|RA  0.074    .
+85             110    VVSLERR|AT  0.159    .
+85             118    TLMGLLK|KS  0.062    .
+85             119    LMGLLKK|SR  0.100    .
+85             121    GLLKKSR|QL  0.110    .
+85             124    KKSRQLK|NS  0.197    .
+85             144    LTPIQIK|ER  0.063    .
+85             146    PIQIKER|KA  0.085    .
+85             147    IQIKERK|AL  0.091    .
+85             154    ALINTLK|KL  0.065    .
+85             155    LINTLKK|LR  0.081    .
+85             157    NTLKKLR|FE  0.104    .
+85             164    FEDPGGK|YY  0.057    .
+85             168    GGKYYIK|NN  0.069    .
+85             180    LAAFGTR|AA  0.135    .
+85             186    RAAEDFR|GD  0.081    .
+85             190    DFRGDAR|RR  0.073    .
+85             191    FRGDARR|RI  0.129    .
+85             192    RGDARRR|IL  0.098    .
+85             200    LFLPVAK|LV  0.064    .
+85             205    AKLVLPR|KY  0.097    .
+85             206    KLVLPRK|YG  0.094    .
+85             216    ESTFWQR|AP  0.075    .
+85             220    WQRAPVK|RP  0.058    .
+85             221    QRAPVKR|PP  0.283    .
+85             229    PNTQIVR|RN  0.086    .
+85             230    NTQIVRR|NG  0.139    .
+85             244    GVFGPIR|PV  0.119    .
+85             266    VLLSIVR|LP  0.074    .
+85             290    VHIPTQK|VT  0.056    .
+85             314    FLDPELR|GP  0.065    .
+85             329    TTVCGNR|PY  0.074    .
+85             336    PYVVSTK|GT  0.072    .
+85             349    EILAVIR|AD  0.079    .
+85             359    INSGGGR|KT  0.100    .
+85             360    NSGGGRK|TT  0.094    .
+85             363    GGRKTTR|KK  0.110    .
+85             364    GRKTTRK|KE  0.088    .
+85             365    RKTTRKK|ER  0.103    .
+85             367    TTRKKER|ER  0.134    .
+85             369    RKKERER|ER  0.090    .
+85             371    KERERER|ER  0.099    .
+85             373    RERERER|ER  0.081    .
+85             375    RERERER|ER  0.082    .
+85             377    RERERER|TR  0.081    .
+85             379    RERERTR|EG  0.087    .
+85             383    RTREGDR|DR  0.096    .
+85             385    REGDRDR|DR  0.096    .
+85             387    GDRDRDR|NR  0.077    .
+85             389    RDRDRNR|NR  0.087    .
+85             391    RDRNRNR|DR  0.118    .
+85             393    RNRNRDR|DR  0.126    .
+85             395    RNRDRDR|DR  0.122    .
+85             397    RDRDRDR|DR  0.116    .
+85             399    RDRDRDR|DR  0.113    .
+85             401    RDRDRDR|DR  0.111    .
+85             403    RDRDRDR|DR  0.111    .
+85             405    RDRDRDR|DR  0.111    .
+85             407    RDRDRDR|DR  0.111    .
+85             409    RDRDRDR|DR  0.111    .
+85             411    RDRDRDR|DR  0.111    .
+85             413    RDRDRDR|DR  0.111    .
+85             415    RDRDRDR|DR  0.111    .
+85             417    RDRDRDR|DR  0.111    .
+85             419    RDRDRDR|DR  0.111    .
+85             421    RDRDRDR|DR  0.111    .
+85             423    RDRDRDR|DR  0.111    .
+85             425    RDRDRDR|DR  0.111    .
+85             427    RDRDRDR|DR  0.111    .
+85             429    RDRDRDR|DR  0.111    .
+85             431    RDRDRDR|DR  0.111    .
+85             433    RDRDRDR|DR  0.111    .
+85             435    RDRDRDR|DR  0.111    .
+85             437    RDRDRDR|DR  0.111    .
+85             439    RDRDRDR|DR  0.111    .
+85             441    RDRDRDR|DR  0.111    .
+85             443    RDRDRDR|DR  0.111    .
+85             445    RDRDRDR|DR  0.111    .
+85             447    RDRDRDR|DR  0.111    .
+85             449    RDRDRDR|DR  0.111    .
+85             451    RDRDRDR|DR  0.111    .
+85             453    RDRDRDR|DR  0.111    .
+85             455    RDRDRDR|DR  0.111    .
+85             457    RDRDRDR|DR  0.111    .
+85             459    RDRDRDR|DR  0.111    .
+85             461    RDRDRDR|DR  0.111    .
+85             463    RDRDRDR|DR  0.111    .
+85             465    RDRDRDR|DR  0.111    .
+85             467    RDRDRDR|DR  0.111    .
+85             469    RDRDRDR|DR  0.111    .
+85             471    RDRDRDR|DR  0.111    .
+85             473    RDRDRDR|DR  0.111    .
+85             475    RDRDRDR|DR  0.111    .
+85             477    RDRDRDR|DR  0.111    .
+85             479    RDRDRDR|DR  0.111    .
+85             481    RDRDRDR|DR  0.111    .
+85             483    RDRDRDR|DR  0.111    .
+85             485    RDRDRDR|DR  0.111    .
+85             487    RDRDRDR|DR  0.111    .
+85             489    RDRDRDR|DR  0.111    .
+85             491    RDRDRDR|DR  0.111    .
+85             493    RDRDRDR|DR  0.111    .
+85             495    RDRDRDR|DR  0.111    .
+85             497    RDRDRDR|DR  0.111    .
+85             499    RDRDRDR|DR  0.111    .
+85             501    RDRDRDR|DR  0.111    .
+85             503    RDRDRDR|DR  0.111    .
+85             505    RDRDRDR|DR  0.111    .
+85             507    RDRDRDR|DR  0.111    .
+85             509    RDRDRDR|DR  0.111    .
+85             511    RDRDRDR|DR  0.111    .
+85             513    RDRDRDR|DR  0.111    .
+85             515    RDRDRDR|DR  0.111    .
+85             517    RDRDRDR|DR  0.111    .
+85             519    RDRDRDR|DR  0.111    .
+85             521    RDRDRDR|DR  0.111    .
+85             523    RDRDRDR|DR  0.111    .
+85             525    RDRDRDR|DR  0.111    .
+85             527    RDRDRDR|DR  0.111    .
+85             529    RDRDRDR|DR  0.111    .
+85             531    RDRDRDR|DR  0.111    .
+85             533    RDRDRDR|DR  0.111    .
+85             535    RDRDRDR|DR  0.111    .
+85             537    RDRDRDR|DR  0.111    .
+85             539    RDRDRDR|DR  0.111    .
+85             541    RDRDRDR|DR  0.111    .
+85             543    RDRDRDR|DR  0.111    .
+85             545    RDRDRDR|DR  0.111    .
+85             547    RDRDRDR|DR  0.111    .
+85             549    RDRDRDR|DR  0.111    .
+85             551    RDRDRDR|DR  0.111    .
+85             553    RDRDRDR|DR  0.111    .
+85             555    RDRDRDR|DR  0.111    .
+85             557    RDRDRDR|DR  0.111    .
+85             559    RDRDRDR|DR  0.111    .
+85             561    RDRDRDR|DR  0.111    .
+85             563    RDRDRDR|DR  0.111    .
+85             565    RDRDRDR|DR  0.111    .
+85             567    RDRDRDR|DR  0.111    .
+85             569    RDRDRDR|DR  0.111    .
+85             571    RDRDRDR|DR  0.111    .
+85             573    RDRDRDR|DR  0.111    .
+85             575    RDRDRDR|DR  0.111    .
+85             577    RDRDRDR|DR  0.111    .
+85             579    RDRDRDR|DR  0.111    .
+85             581    RDRDRDR|DR  0.111    .
+85             583    RDRDRDR|DR  0.111    .
+85             585    RDRDRDR|DR  0.111    .
+85             587    RDRDRDR|DR  0.111    .
+85             589    RDRDRDR|DR  0.111    .
+85             591    RDRDRDR|DR  0.111    .
+85             593    RDRDRDR|DR  0.111    .
+85             595    RDRDRDR|DR  0.111    .
+85             597    RDRDRDR|DR  0.111    .
+85             599    RDRDRDR|DR  0.111    .
+85             601    RDRDRDR|DR  0.111    .
+85             603    RDRDRDR|DR  0.111    .
+85             605    RDRDRDR|DR  0.111    .
+85             607    RDRDRDR|DR  0.111    .
+85             609    RDRDRDR|DR  0.111    .
+85             611    RDRDRDR|DR  0.111    .
+85             613    RDRDRDR|DR  0.111    .
+85             615    RDRDRDR|DR  0.111    .
+85             617    RDRDRDR|DR  0.111    .
+85             619    RDRDRDR|DR  0.111    .
+85             621    RDRDRDR|DR  0.111    .
+85             623    RDRDRDR|DR  0.111    .
+85             625    RDRDRDR|DR  0.111    .
+85             627    RDRDRDR|DR  0.111    .
+85             629    RDRDRDR|DR  0.111    .
+85             631    RDRDRDR|DR  0.111    .
+85             633    RDRDRDR|DR  0.111    .
+85             635    RDRDRDR|DR  0.111    .
+85             637    RDRDRDR|DR  0.111    .
+85             639    RDRDRDR|DR  0.111    .
+85             641    RDRDRDR|DR  0.111    .
+85             643    RDRDRDR|DR  0.111    .
+85             645    RDRDRDR|DR  0.111    .
+85             647    RDRDRDR|DR  0.111    .
+85             649    RDRDRDR|DR  0.111    .
+85             651    RDRDRDR|DR  0.111    .
+85             653    RDRDRDR|DR  0.111    .
+85             655    RDRDRDR|DR  0.111    .
+85             657    RDRDRDR|DR  0.111    .
+85             659    RDRDRDR|DR  0.111    .
+85             661    RDRDRDR|DR  0.111    .
+85             663    RDRDRDR|DR  0.111    .
+85             665    RDRDRDR|DR  0.111    .
+85             667    RDRDRDR|DR  0.111    .
+85             669    RDRDRDR|DR  0.111    .
+85             671    RDRDRDR|DR  0.111    .
+85             673    RDRDRDR|DR  0.111    .
+85             675    RDRDRDR|DR  0.111    .
+85             677    RDRDRDR|DR  0.111    .
+85             679    RDRDRDR|DR  0.111    .
+85             681    RDRDRDR|DR  0.111    .
+85             683    RDRDRDR|DR  0.111    .
+85             685    RDRDRDR|DR  0.111    .
+85             687    RDRDRDR|DR  0.111    .
+85             689    RDRDRDR|DR  0.111    .
+85             691    RDRDRDR|DR  0.111    .
+85             693    RDRDRDR|DR  0.111    .
+85             695    RDRDRDR|DR  0.111    .
+85             697    RDRDRDR|DR  0.111    .
+85             699    RDRDRDR|DR  0.111    .
+85             701    RDRDRDR|DR  0.111    .
+85             703    RDRDRDR|DR  0.111    .
+85             705    RDRDRDR|DR  0.111    .
+85             707    RDRDRDR|DR  0.111    .
+85             709    RDRDRDR|DR  0.111    .
+85             711    RDRDRDR|DR  0.111    .
+85             713    RDRDRDR|DR  0.111    .
+85             715    RDRDRDR|DR  0.111    .
+85             717    RDRDRDR|DR  0.111    .
+85             719    RDRDRDR|DR  0.111    .
+85             721    RDRDRDR|DR  0.111    .
+85             723    RDRDRDR|DR  0.111    .
+85             725    RDRDRDR|DR  0.111    .
+85             727    RDRDRDR|DR  0.111    .
+85             729    RDRDRDR|DR  0.111    .
+85             731    RDRDRDR|DR  0.111    .
+85             733    RDRDRDR|DR  0.111    .
+85             735    RDRDRDR|DR  0.111    .
+85             737    RDRDRDR|DR  0.111    .
+85             739    RDRDRDR|DR  0.111    .
+85             741    RDRDRDR|DR  0.111    .
+85             743    RDRDRDR|DR  0.111    .
+85             745    RDRDRDR|DR  0.111    .
+85             747    RDRDRDR|DR  0.111    .
+85             749    RDRDRDR|DR  0.111    .
+85             751    RDRDRDR|DR  0.111    .
+85             753    RDRDRDR|DR  0.111    .
+85             755    RDRDRDR|DR  0.111    .
+85             757    RDRDRDR|DR  0.111    .
+85             759    RDRDRDR|DR  0.111    .
+85             761    RDRDRDR|DR  0.111    .
+85             763    RDRDRDR|DR  0.111    .
+85             765    RDRDRDR|DR  0.111    .
+85             767    RDRDRDR|DR  0.111    .
+85             769    RDRDRDR|DR  0.111    .
+85             771    RDRDRDR|DR  0.111    .
+85             773    RDRDRDR|DR  0.111    .
+85             775    RDRDRDR|DR  0.111    .
+85             777    RDRDRDR|DR  0.111    .
+85             779    RDRDRDR|DR  0.111    .
+85             781    RDRDRDR|DR  0.111    .
+85             783    RDRDRDR|DR  0.111    .
+85             785    RDRDRDR|DR  0.111    .
+85             787    RDRDRDR|DR  0.111    .
+85             789    RDRDRDR|DR  0.111    .
+85             791    RDRDRDR|DR  0.111    .
+85             793    RDRDRDR|DR  0.111    .
+85             795    RDRDRDR|DR  0.111    .
+85             797    RDRDRDR|DR  0.111    .
+85             799    RDRDRDR|DR  0.111    .
+85             801    RDRDRDR|DR  0.111    .
+85             803    RDRDRDR|DR  0.111    .
+85             805    RDRDRDR|DR  0.111    .
+85             807    RDRDRDR|DR  0.111    .
+85             809    RDRDRDR|DR  0.111    .
+85             811    RDRDRDR|DR  0.111    .
+85             813    RDRDRDR|DR  0.111    .
+85             815    RDRDRDR|DR  0.111    .
+85             817    RDRDRDR|DR  0.111    .
+85             819    RDRDRDR|DR  0.111    .
+85             821    RDRDRDR|DR  0.111    .
+85             823    RDRDRDR|DR  0.111    .
+85             825    RDRDRDR|DR  0.111    .
+85             827    RDRDRDR|DR  0.111    .
+85             829    RDRDRDR|DR  0.111    .
+85             831    RDRDRDR|DR  0.111    .
+85             833    RDRDRDR|DR  0.111    .
+85             835    RDRDRDR|DR  0.111    .
+85             837    RDRDRDR|DR  0.111    .
+85             839    RDRDRDR|DR  0.111    .
+85             841    RDRDRDR|DR  0.111    .
+85             843    RDRDRDR|DR  0.117    .
+85             845    RDRDRDR|DR  0.111    .
+85             847    RDRDRDR|DR  0.139    .
+85             849    RDRDRDR|DK  0.119    .
+85             851    RDRDRDK|LT  0.064    .
+85             872    LLHLFMK|GA  0.078    .
+85             875    LFMKGAR|YD  0.084    .
+85             883    DFLFGGR|PP  0.071    .
+85             888    GRPPINR|LF  0.117    .
+85             893    NRLFSVK|LH  0.062    .
+85             896    FSVKLHK|FH  0.066    .
+85             913    DIQDMHK|II  0.066    .
+85             920    IINIFEK|KR  0.067    .
+85             921    INIFEKK|RT  0.096    .
+85             922    NIFEKKR|TC  0.151    .
+85             925    EKKRTCK|TT  0.159    .
+85             941    FLGQLTK|SW  0.077    .
+85             945    LTKSWTR|WK  0.087    .
+85             947    KSWTRWK|ED  0.069    .
+85             951    RWKEDIK|LF  0.056    .
+85             954    EDIKLFK|MS  0.066    .
+85             959    FKMSPIK|LK  0.056    .
+85             961    MSPIKLK|LA  0.079    .
+85             967    KLAQNAR|RH  0.102    .
+85             968    LAQNARR|HG  0.132    .
+85             972    ARRHGAK|CA  0.099    .
+85             980    AFCELVK|KW  0.054    .
+85             981    FCELVKK|WL  0.098    .
+85             986    KKWLSYR|QN  0.109    .
+85             989    LSYRQNR|EK  0.297    .
+85             991    YRQNREK|FS  0.078    .
+85            1004    TFTAYPK|LP  0.056    .
+85            1028    LSIYLSK|TT  0.061    .
+85            1078    PVAHHTR|VA  0.088    .
+85            1087    LVDVVSR|VH  0.070    .
+85            1108    FSTSSVK|IF  0.064    .
+85            1141    VHIPTLK|VT  0.056    .
+85            1149    TLVLPQK|GR  0.061    .
+85            1151    VLPQKGR|RE  0.072    .
+85            1152    LPQKGRR|ER  0.124    .
+85            1154    QKGRRER|DP  0.372    .
+85            1163    DSFLDPK|LG  0.070    .
+85            1177    TTFFGNR|PY  0.076    .
+85            1184    PYVVSTK|GT  0.073    .
+85            1196    DTLAVIR|AD  0.081    .
+85            1208    SGGNSDK|EN  0.089    .
+85            1212    SDKENEK|YQ  0.069    .
+85            1218    KYQHDVK|SR  0.069    .
+85            1220    QHDVKSR|KW  0.117    .
+85            1221    HDVKSRK|WD  0.106    .
+85            1224    KSRKWDR|EI  0.145    .
+85            1780    IEIEGDR|GR  0.083    .
+85            1782    IEGDRGR|ER  0.095    .
+85            1784    GDRGRER|ER  0.090    .
+85            1786    RGRERER|EG  0.085    .
+85            1796    HLLGELK|NE  0.058    .
+85            1805    EMNESYK|IL  0.069    .
+85            1822    NPIEACK|DD  0.059    .
+85            1828    KDDLFDK|LK  0.059    .
+85            1830    DLFDKLK|KE  0.057    .
+85            1831    LFDKLKK|EA  0.083    .
+85            1842    IDVAVPK|DR  0.078    .
+85            1844    VAVPKDR|SV  0.322    .
+85            1849    DRSVSDR|EM  0.170    .
+85            1855    REMEMIK|KY  0.060    .
+85            1856    EMEMIKK|YQ  0.092    .
+85            1862    KYQELQR|ER  0.093    .
+85            1864    QELQRER|SH  0.114    .
+85            1875    LGEVIPR|LE  0.070    .
+85            1878    VIPRLEK|YH  0.090    .
+85            1882    LEKYHSR|YW  0.107    .
+85            1890    WAVNMGR|QL  0.092    .
+85            1894    MGRQLQK|SV  0.106    .
+85            1905    NSMNTLR|KV  0.145    .
+85            1906    SMNTLRK|VL  0.116    .
+85            1938    ICTDYGK|DI  0.086    .
+85            1952    FDGYYVR|PV  0.093    .
+85            1956    YVRPVPK|NC  0.064    .
+85            1959    PVPKNCR|FQ  0.097    .
+85            1963    NCRFQHR|GN  0.119    .
+85            1971    NWSPQFR|IQ  0.143    .
+85            1980    EGQPQCR|GG  0.093    .
+85            1984    QCRGGWR|KM  0.071    .
+85            1985    CRGGWRK|MV  0.207    .
+85            1995    DSVTNTR|LI  0.106    .
+85            2004    SGQPNDR|EE  0.079    .
+85            2016    VENNVMR|HN  0.107    .
+85            2030    GTVCNSR|GQ  0.087    .
+85            2048    ASGEDMR|KI  0.107    .
+85            2049    SGEDMRK|IQ  0.070    .
+85            2053    MRKIQQK|LN  0.082    .
+85            2057    QQKLNAR|MH  0.076    .
+85            2091    PSPALPR|GK  0.124    .
+85            2093    PALPRGK|ED  0.060    .
+85            2096    PRGKEDR|LR  0.148    .
+85            2098    GKEDRLR|GP  0.108    .
+85            2112    NQNSLFR|LR  0.097    .
+85            2114    NSLFRLR|DW  0.141    .
+85            2123    GQYFLIR|SV  0.163    .
+85            2133    AFYLGYK|CC  0.062    .
+85            2147    GVVGSNK|IQ  0.064    .
+85            2156    EGQPQCR|GG  0.093    .
+85            2160    QCRGGWR|KW  0.083    .
+85            2161    CRGGWRK|WK  0.105    .
+85            2163    GGWRKWK|NK  0.179    .
+85            2165    WRKWKNK|CY  0.084    .
+85            2170    NKCYFER|GE  0.115    .
+85            2180    NWQDGER|FC  0.116    .
+85            2195    IWQPNDR|EE  0.088    .
+85            2207    VENNVMR|HN  0.107    .
+85            2221    GTVCNSR|GQ  0.087    .
+85            2239    ASGEDMR|KI  0.107    .
+85            2240    SGEDMRK|IQ  0.070    .
+85            2244    MRKIQQK|LN  0.082    .
+85            2248    QQKLNAR|MH  0.076    .
+85            2267    PCMMSHR|HN  0.100    .
+85            2273    RHNNSWR|WQ  0.154    .
+85            2285    QHCHEGR|RI  0.106    .
+85            2286    HCHEGRR|IV  0.246    .
+85            2297    APTGPTK|GG  0.067    .
+85            3292    IEIEIER|EK  0.073    .
+85            3294    IEIEREK|TL  0.065    .
+85            3305    AATPSER|IC  0.085    .
+85            3315    SNGCNFK|TT  0.062    .
+____________________________^_________________
+
+
+
+

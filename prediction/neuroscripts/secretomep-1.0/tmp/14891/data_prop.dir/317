@@ -1,0 +1,355 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1997 317         
+MTALSLLKNSKKKVQELGITNEDLVSSIDDLEKALIKESAVSKRYQRKIADLTAEVEAIKNDRPTRRQLEDAQFELEEVC      80
+MKLETSKEKIAEMEKVLVGSLNKHEKLVKELNKTIDDQNQQIEELKRKNFYPKLMDDLKKENVKLKEEVHKLSSLVKDSP     160
+SRKVGGLKNKFEEQAKTPPVEEKKKPKDDLQEKFEKMEAYYREEMNHLRSKMTIVEKKLNNSVAENSRLNQELSEAIEQL     240
+DENSFTYENVIQDLHSKLSKSVLEEPLPTSNNELESLKQTLEEEKKKNKELETLLVGKQDVELDFPPPPPSPPPSNEILP     320
+PPLDSSLPQPILTSSPKPVKRAPPPAVSPKPNSVKILTDKLAESKAQTEQAESALASAEKEIRDLLDAMTKLQQEIKVKD     400
+DEISKLTAQVNQGFTVSVTAHPDIEELEQNLEDSLQDQKHLEETIGVLSSEHEAQVAALTSQITELQKELDAAQKGSANK     480
+SLLDHLDEERKIRTGLEEKVEELEFALAEKNAAKDCSEESLNNLQQNLDEAERMCEELMQDEDKGDLSKIVKDKDAQIRS     560
+LEKENTGLRSEVDNLHKELADISMEIADADSQYLQRMQNLQQQLAATEDEHKGVIKNLEEEVEMLQEMLEEDKNEDIIAR     640
+LELENTDLTNECKVLTDRLANDILKSLSPTDEGAGALSALKGHFEKANTRLKTDIELKEQKIQDQQDELKRNEKNFTRKI     720
+AAIKEAQSIAEQKFNLKHEEESLTRDSLEKELDQIKKINARFEENMEDKKQEFNEVVTKLLNLENLIEIQQDNLLAKDEQ     800
+ISTINRQLGNLKAELDIAQQRHDILKEESMTLDVLETSLNEASEQEHALQTRLALVENKLWRSIEDKAAADKELAKSKAK     880
+TSQLQAKLDEISAQDDGKKDTKQLRKQIEDLEIQIEDLQDEEERLNKEVATLKERNEQLERQARSASDHSVAELQSAIAH     960
+KDKVIEDSRNELNNLLNKQDKTKQELVTKNIDLQKKYDALADNYSDLEKENCGLLDDVDANFKNHTDAVKRFEKEIKILK    1040
+DKIAENEESLMKKDEYLNKAEAENLADSKIAFDNRRNLENQITVLKTRLMEFEGGDAIMKRSSSIHSVWLEDTTSLNHVI    1120
+GEKDRQIRDLRDSLKRSSQAGSRKGSCMDLTFQSGSLSNLPPPPNIDNFEESMMTTEEYKRQLDNLQALLDKKDSEYNKL    1200
+YDRYKEDLEKQNTDNTVYNSHIKRMQGMVVLFENRAQDLTKLNQKLIEKSAKGITDANDSLNNLTDELNVENQRTNEVLG    1280
+ELDLLKTELEDIQQSMANESNPHFQNVIDRVVSLEDNVHMTVEEHQCSLDHYLLLLQTTQQEMDIISGEMKEHTVPELPA    1360
+VKDELLDILQEKATLLSDKLTETQDEVKSSSFRTNQNGRSERENEAVIDHAQVKVQKYENEIEFIRNMLSSCNDLPADSQ    1440
+EFSKVTEDLEALTGDMRDLKDLLSLKRDAVSPSSPRSPRGHKIHGIEGTEYNDEHDTSAGSALEKPVSLQEIDGLELITH    1520
+DLRHQLRESVKECERLRQENKEMAEGMRELQQNYGSMLNQKTEQLDTLNDTIATERNVMETRLSQLSDVIDYKEKNQDQL    1600
+KKSLSFEQGRVHQLKEDLDSTYEKTFEHIKVYEGRVSTITERLNLQQHQIKARLEAYEEEITELRSQIRAMRTSLREKDN    1680
+LMEEMETTHRKELRGRQRNLKKAQEESVVYKKELDELKDALSQNQGSLEEQLSQYGDVMTKFKTEISEEKEAFQTSLIRL    1760
+NYLVEDRTAKIKEYKIIVADLQKNLTEAQTSLREKDQVLSETLQIKGKERADTGNYKSRAAKAEHQVKKLKQTVEDVKYR    1840
+YESQLSNKVNVIRPSAEKDRTRCSVTLSVSLSLSLYLSSFSCLCFCFCISISIYNRTEKSLCLSLSLCLSLSMSLSISLS    1920
+IFLSLSLFLSLFLSPFLSLSLSLSLSLSLSLSPVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSEFHCGHVFANFLL       2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+...............................................................P................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.............................................................................       2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+317              8    TALSLLK|NS  0.057    .
+317             11    SLLKNSK|KK  0.064    .
+317             12    LLKNSKK|KV  0.145    .
+317             13    LKNSKKK|VQ  0.139    .
+317             33    SIDDLEK|AL  0.062    .
+317             37    LEKALIK|ES  0.058    .
+317             43    KESAVSK|RY  0.071    .
+317             44    ESAVSKR|YQ  0.315    .
+317             47    VSKRYQR|KI  0.241    .
+317             48    SKRYQRK|IA  0.116    .
+317             60    AEVEAIK|ND  0.059    .
+317             63    EAIKNDR|PT  0.102    .
+317             66    KNDRPTR|RQ  0.145    .
+317             67    NDRPTRR|QL  0.294    .
+317             82    LEEVCMK|LE  0.061    .
+317             87    MKLETSK|EK  0.066    .
+317             89    LETSKEK|IA  0.072    .
+317             95    KIAEMEK|VL  0.059    .
+317            103    LVGSLNK|HE  0.053    .
+317            106    SLNKHEK|LV  0.099    .
+317            109    KHEKLVK|EL  0.066    .
+317            113    LVKELNK|TI  0.079    .
+317            126    QQIEELK|RK  0.058    .
+317            127    QIEELKR|KN  0.112    .
+317            128    IEELKRK|NF  0.095    .
+317            133    RKNFYPK|LM  0.074    .
+317            139    KLMDDLK|KE  0.061    .
+317            140    LMDDLKK|EN  0.085    .
+317            144    LKKENVK|LK  0.064    .
+317            146    KENVKLK|EE  0.075    .
+317            151    LKEEVHK|LS  0.074    .
+317            157    KLSSLVK|DS  0.072    .
+317            162    VKDSPSR|KV  0.113    .
+317            163    KDSPSRK|VG  0.097    .
+317            168    RKVGGLK|NK  0.062    .
+317            170    VGGLKNK|FE  0.076    .
+317            176    KFEEQAK|TP  0.061    .
+317            183    TPPVEEK|KK  0.068    .
+317            184    PPVEEKK|KP  0.087    .
+317            185    PVEEKKK|PK  0.114    .
+317            187    EEKKKPK|DD  0.082    .
+317            193    KDDLQEK|FE  0.057    .
+317            196    LQEKFEK|ME  0.062    .
+317            202    KMEAYYR|EE  0.079    .
+317            209    EEMNHLR|SK  0.137    .
+317            211    MNHLRSK|MT  0.072    .
+317            217    KMTIVEK|KL  0.062    .
+317            218    MTIVEKK|LN  0.095    .
+317            228    SVAENSR|LN  0.073    .
+317            257    IQDLHSK|LS  0.061    .
+317            260    LHSKLSK|SV  0.110    .
+317            278    NELESLK|QT  0.061    .
+317            285    QTLEEEK|KK  0.062    .
+317            286    TLEEEKK|KN  0.092    .
+317            287    LEEEKKK|NK  0.095    .
+317            289    EEKKKNK|EL  0.076    .
+317            298    ETLLVGK|QD  0.055    .
+317            337    ILTSSPK|PV  0.078    .
+317            340    SSPKPVK|RA  0.061    .
+317            341    SPKPVKR|AP  0.213    .
+317            350    PPAVSPK|PN  0.097    .
+317            355    PKPNSVK|IL  0.076    .
+317            360    VKILTDK|LA  0.071    .
+317            365    DKLAESK|AQ  0.060    .
+317            380    ALASAEK|EI  0.078    .
+317            383    SAEKEIR|DL  0.112    .
+317            391    LLDAMTK|LQ  0.056    .
+317            397    KLQQEIK|VK  0.067    .
+317            399    QQEIKVK|DD  0.083    .
+317            405    KDDEISK|LT  0.061    .
+317            439    DSLQDQK|HL  0.062    .
+317            468    QITELQK|EL  0.069    .
+317            475    ELDAAQK|GS  0.056    .
+317            480    QKGSANK|SL  0.094    .
+317            490    DHLDEER|KI  0.088    .
+317            491    HLDEERK|IR  0.070    .
+317            493    DEERKIR|TG  0.169    .
+317            499    RTGLEEK|VE  0.054    .
+317            510    EFALAEK|NA  0.060    .
+317            514    AEKNAAK|DC  0.074    .
+317            533    NLDEAER|MC  0.080    .
+317            544    LMQDEDK|GD  0.062    .
+317            549    DKGDLSK|IV  0.078    .
+317            552    DLSKIVK|DK  0.103    .
+317            554    SKIVKDK|DA  0.084    .
+317            559    DKDAQIR|SL  0.187    .
+317            563    QIRSLEK|EN  0.058    .
+317            569    KENTGLR|SE  0.106    .
+317            577    EVDNLHK|EL  0.059    .
+317            596    DSQYLQR|MQ  0.082    .
+317            612    ATEDEHK|GV  0.081    .
+317            616    EHKGVIK|NL  0.080    .
+317            633    EMLEEDK|NE  0.056    .
+317            640    NEDIIAR|LE  0.069    .
+317            653    DLTNECK|VL  0.060    .
+317            658    CKVLTDR|LA  0.107    .
+317            665    LANDILK|SL  0.089    .
+317            681    GALSALK|GH  0.058    .
+317            686    LKGHFEK|AN  0.069    .
+317            690    FEKANTR|LK  0.083    .
+317            692    KANTRLK|TD  0.060    .
+317            698    KTDIELK|EQ  0.056    .
+317            701    IELKEQK|IQ  0.064    .
+317            710    DQQDELK|RN  0.063    .
+317            711    QQDELKR|NE  0.103    .
+317            714    ELKRNEK|NF  0.116    .
+317            718    NEKNFTR|KI  0.101    .
+317            719    EKNFTRK|IA  0.143    .
+317            724    RKIAAIK|EA  0.072    .
+317            733    QSIAEQK|FN  0.077    .
+317            737    EQKFNLK|HE  0.063    .
+317            745    EEESLTR|DS  0.088    .
+317            750    TRDSLEK|EL  0.074    .
+317            756    KELDQIK|KI  0.060    .
+317            757    ELDQIKK|IN  0.096    .
+317            761    IKKINAR|FE  0.121    .
+317            769    EENMEDK|KQ  0.068    .
+317            770    ENMEDKK|QE  0.087    .
+317            779    FNEVVTK|LL  0.063    .
+317            797    QDNLLAK|DE  0.073    .
+317            806    QISTINR|QL  0.103    .
+317            812    RQLGNLK|AE  0.058    .
+317            821    LDIAQQR|HD  0.098    .
+317            826    QRHDILK|EE  0.074    .
+317            852    EHALQTR|LA  0.092    .
+317            859    LALVENK|LW  0.065    .
+317            862    VENKLWR|SI  0.238    .
+317            867    WRSIEDK|AA  0.111    .
+317            872    DKAAADK|EL  0.063    .
+317            876    ADKELAK|SK  0.071    .
+317            878    KELAKSK|AK  0.072    .
+317            880    LAKSKAK|TS  0.063    .
+317            887    TSQLQAK|LD  0.084    .
+317            898    SAQDDGK|KD  0.072    .
+317            899    AQDDGKK|DT  0.124    .
+317            902    DGKKDTK|QL  0.073    .
+317            905    KDTKQLR|KQ  0.085    .
+317            906    DTKQLRK|QI  0.113    .
+317            924    LQDEEER|LN  0.074    .
+317            927    EEERLNK|EV  0.119    .
+317            933    KEVATLK|ER  0.059    .
+317            935    VATLKER|NE  0.067    .
+317            941    RNEQLER|QA  0.092    .
+317            944    QLERQAR|SA  0.623 *ProP*
+317            961    QSAIAHK|DK  0.074    .
+317            963    AIAHKDK|VI  0.091    .
+317            969    KVIEDSR|NE  0.064    .
+317            978    LNNLLNK|QD  0.066    .
+317            981    LLNKQDK|TK  0.065    .
+317            983    NKQDKTK|QE  0.064    .
+317            989    KQELVTK|NI  0.065    .
+317            995    KNIDLQK|KY  0.065    .
+317            996    NIDLQKK|YD  0.087    .
+317           1009    NYSDLEK|EN  0.068    .
+317           1023    DVDANFK|NH  0.057    .
+317           1030    NHTDAVK|RF  0.063    .
+317           1031    HTDAVKR|FE  0.148    .
+317           1034    AVKRFEK|EI  0.114    .
+317           1037    RFEKEIK|IL  0.070    .
+317           1040    KEIKILK|DK  0.067    .
+317           1042    IKILKDK|IA  0.085    .
+317           1052    NEESLMK|KD  0.058    .
+317           1053    EESLMKK|DE  0.107    .
+317           1059    KDEYLNK|AE  0.063    .
+317           1069    ENLADSK|IA  0.069    .
+317           1075    KIAFDNR|RN  0.084    .
+317           1076    IAFDNRR|NL  0.166    .
+317           1086    NQITVLK|TR  0.056    .
+317           1088    ITVLKTR|LM  0.093    .
+317           1100    GGDAIMK|RS  0.060    .
+317           1101    GDAIMKR|SS  0.417    .
+317           1123    NHVIGEK|DR  0.056    .
+317           1125    VIGEKDR|QI  0.116    .
+317           1128    EKDRQIR|DL  0.455    .
+317           1131    RQIRDLR|DS  0.207    .
+317           1135    DLRDSLK|RS  0.074    .
+317           1136    LRDSLKR|SS  0.309    .
+317           1143    SSQAGSR|KG  0.086    .
+317           1144    SQAGSRK|GS  0.111    .
+317           1180    MTTEEYK|RQ  0.058    .
+317           1181    TTEEYKR|QL  0.163    .
+317           1192    LQALLDK|KD  0.062    .
+317           1193    QALLDKK|DS  0.088    .
+317           1199    KDSEYNK|LY  0.069    .
+317           1203    YNKLYDR|YK  0.105    .
+317           1205    KLYDRYK|ED  0.065    .
+317           1210    YKEDLEK|QN  0.061    .
+317           1223    VYNSHIK|RM  0.061    .
+317           1224    YNSHIKR|MQ  0.339    .
+317           1235    VVLFENR|AQ  0.065    .
+317           1241    RAQDLTK|LN  0.066    .
+317           1245    LTKLNQK|LI  0.067    .
+317           1249    NQKLIEK|SA  0.082    .
+317           1252    LIEKSAK|GI  0.102    .
+317           1274    LNVENQR|TN  0.078    .
+317           1286    GELDLLK|TE  0.054    .
+317           1310    FQNVIDR|VV  0.133    .
+317           1351    IISGEMK|EH  0.064    .
+317           1362    PELPAVK|DE  0.054    .
+317           1372    LDILQEK|AT  0.061    .
+317           1379    ATLLSDK|LT  0.070    .
+317           1388    ETQDEVK|SS  0.073    .
+317           1393    VKSSSFR|TN  0.114    .
+317           1399    RTNQNGR|SE  0.152    .
+317           1402    QNGRSER|EN  0.446    .
+317           1414    IDHAQVK|VQ  0.063    .
+317           1417    AQVKVQK|YE  0.073    .
+317           1426    NEIEFIR|NM  0.068    .
+317           1444    DSQEFSK|VT  0.075    .
+317           1457    ALTGDMR|DL  0.088    .
+317           1460    GDMRDLK|DL  0.120    .
+317           1466    KDLLSLK|RD  0.055    .
+317           1467    DLLSLKR|DA  0.111    .
+317           1476    VSPSSPR|SP  0.108    .
+317           1479    SSPRSPR|GH  0.351    .
+317           1482    RSPRGHK|IH  0.143    .
+317           1505    AGSALEK|PV  0.099    .
+317           1523    LITHDLR|HQ  0.065    .
+317           1527    DLRHQLR|ES  0.086    .
+317           1531    QLRESVK|EC  0.067    .
+317           1535    SVKECER|LR  0.067    .
+317           1537    KECERLR|QE  0.082    .
+317           1541    RLRQENK|EM  0.070    .
+317           1548    EMAEGMR|EL  0.098    .
+317           1561    GSMLNQK|TE  0.054    .
+317           1576    DTIATER|NV  0.095    .
+317           1582    RNVMETR|LS  0.074    .
+317           1593    SDVIDYK|EK  0.062    .
+317           1595    VIDYKEK|NQ  0.062    .
+317           1601    KNQDQLK|KS  0.061    .
+317           1602    NQDQLKK|SL  0.199    .
+317           1610    LSFEQGR|VH  0.080    .
+317           1615    GRVHQLK|ED  0.073    .
+317           1624    LDSTYEK|TF  0.080    .
+317           1630    KTFEHIK|VY  0.063    .
+317           1635    IKVYEGR|VS  0.099    .
+317           1642    VSTITER|LN  0.072    .
+317           1651    LQQHQIK|AR  0.066    .
+317           1653    QHQIKAR|LE  0.101    .
+317           1665    EEITELR|SQ  0.109    .
+317           1669    ELRSQIR|AM  0.107    .
+317           1672    SQIRAMR|TS  0.183    .
+317           1676    AMRTSLR|EK  0.095    .
+317           1678    RTSLREK|DN  0.083    .
+317           1690    EMETTHR|KE  0.065    .
+317           1691    METTHRK|EL  0.092    .
+317           1694    THRKELR|GR  0.111    .
+317           1696    RKELRGR|QR  0.089    .
+317           1698    ELRGRQR|NL  0.113    .
+317           1701    GRQRNLK|KA  0.153    .
+317           1702    RQRNLKK|AQ  0.125    .
+317           1711    EESVVYK|KE  0.076    .
+317           1712    ESVVYKK|EL  0.101    .
+317           1718    KELDELK|DA  0.069    .
+317           1741    YGDVMTK|FK  0.061    .
+317           1743    DVMTKFK|TE  0.066    .
+317           1750    TEISEEK|EA  0.066    .
+317           1759    FQTSLIR|LN  0.076    .
+317           1767    NYLVEDR|TA  0.083    .
+317           1770    VEDRTAK|IK  0.121    .
+317           1772    DRTAKIK|EY  0.068    .
+317           1775    AKIKEYK|II  0.069    .
+317           1783    IVADLQK|NL  0.065    .
+317           1793    EAQTSLR|EK  0.110    .
+317           1795    QTSLREK|DQ  0.073    .
+317           1806    SETLQIK|GK  0.071    .
+317           1808    TLQIKGK|ER  0.070    .
+317           1810    QIKGKER|AD  0.095    .
+317           1817    ADTGNYK|SR  0.072    .
+317           1819    TGNYKSR|AA  0.173    .
+317           1822    YKSRAAK|AE  0.259    .
+317           1828    KAEHQVK|KL  0.069    .
+317           1829    AEHQVKK|LK  0.151    .
+317           1831    HQVKKLK|QT  0.066    .
+317           1838    QTVEDVK|YR  0.061    .
+317           1840    VEDVKYR|YE  0.099    .
+317           1848    ESQLSNK|VN  0.058    .
+317           1853    NKVNVIR|PS  0.096    .
+317           1858    IRPSAEK|DR  0.063    .
+317           1860    PSAEKDR|TR  0.094    .
+317           1862    AEKDRTR|CS  0.081    .
+317           1896    SISIYNR|TE  0.073    .
+317           1899    IYNRTEK|SL  0.227    .
+____________________________^_________________
+
+
+
+

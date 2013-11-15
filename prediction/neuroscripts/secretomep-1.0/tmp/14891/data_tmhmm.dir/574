@@ -1,0 +1,53 @@
+# 574 Length: 1528
+# 574 Number of predicted TMHs:  23
+# 574 Exp number of AAs in TMHs: 494.024050000001
+# 574 Exp number, first 60 AAs:  18.85397
+# 574 Total prob of N-in:        0.91529
+# 574 POSSIBLE N-term signal sequence
+574	TMHMM2.0	inside	     1     6
+574	TMHMM2.0	TMhelix	     7    24
+574	TMHMM2.0	outside	    25   353
+574	TMHMM2.0	TMhelix	   354   376
+574	TMHMM2.0	inside	   377   388
+574	TMHMM2.0	TMhelix	   389   408
+574	TMHMM2.0	outside	   409   439
+574	TMHMM2.0	TMhelix	   440   462
+574	TMHMM2.0	inside	   463   477
+574	TMHMM2.0	TMhelix	   478   495
+574	TMHMM2.0	outside	   496   504
+574	TMHMM2.0	TMhelix	   505   527
+574	TMHMM2.0	inside	   528   549
+574	TMHMM2.0	TMhelix	   550   572
+574	TMHMM2.0	outside	   573   581
+574	TMHMM2.0	TMhelix	   582   604
+574	TMHMM2.0	inside	   605   610
+574	TMHMM2.0	TMhelix	   611   633
+574	TMHMM2.0	outside	   634   661
+574	TMHMM2.0	TMhelix	   662   681
+574	TMHMM2.0	inside	   682   731
+574	TMHMM2.0	TMhelix	   732   754
+574	TMHMM2.0	outside	   755   773
+574	TMHMM2.0	TMhelix	   774   796
+574	TMHMM2.0	inside	   797  1006
+574	TMHMM2.0	TMhelix	  1007  1029
+574	TMHMM2.0	outside	  1030  1060
+574	TMHMM2.0	TMhelix	  1061  1083
+574	TMHMM2.0	inside	  1084  1098
+574	TMHMM2.0	TMhelix	  1099  1116
+574	TMHMM2.0	outside	  1117  1125
+574	TMHMM2.0	TMhelix	  1126  1148
+574	TMHMM2.0	inside	  1149  1170
+574	TMHMM2.0	TMhelix	  1171  1193
+574	TMHMM2.0	outside	  1194  1202
+574	TMHMM2.0	TMhelix	  1203  1225
+574	TMHMM2.0	inside	  1226  1231
+574	TMHMM2.0	TMhelix	  1232  1254
+574	TMHMM2.0	outside	  1255  1282
+574	TMHMM2.0	TMhelix	  1283  1302
+574	TMHMM2.0	inside	  1303  1375
+574	TMHMM2.0	TMhelix	  1376  1395
+574	TMHMM2.0	outside	  1396  1449
+574	TMHMM2.0	TMhelix	  1450  1472
+574	TMHMM2.0	inside	  1473  1492
+574	TMHMM2.0	TMhelix	  1493  1515
+574	TMHMM2.0	outside	  1516  1528

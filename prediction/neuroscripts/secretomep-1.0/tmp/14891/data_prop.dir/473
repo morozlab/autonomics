@@ -1,0 +1,226 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1675 473         
+MIANRAYDRGVNVFSPEGRIFQVEYAIEAIKLGSTAIGVQTKEGVCLAVERRITSSLMIPSSIEKIVEVDEHIGCAMSGL      80
+IADSRILIDHARVEAQNHWFTFNEKMSVESVTQSVSNLALSFGETDRNSMSRPFGVAILMAGVDENGESVLLHMDPSGTY     160
+LKYGAKAIGAGSEGAQATLEEQYHKSMTLDEGIKLCLTVLKQVMEEKMSSTNIESWYSVDGTDACFLWEEKGMKPAGTGT     240
+VERVFIFPNFLTCSNLCLYKSRIAATMYAIAASLLITIGIYIFIGIYYLGTHRWPSSYSNKRVLFITAHPDDESMFFGPT     320
+IRYFTSVAEGKVFLLCLSNGNYDGLGEARAAELKVAARKLGIPTENVQCVDRADLQDGSQWSPGAVAEEVEKHVKEVNPE     400
+LIITFDEEGVSGHHNHISVSQGVRKAVVGDHVLVYQLESVPLLRKYSSFFDCFWSSTGTVYSMCSIKDLITVQAAMKCHG     480
+TQLTWFRKLYTMFSRPTVLCDCLQSQMSDPNQTKPIAGGMDYFQNDDIFSGLSKEEIEQLNSELCDDLLPAADRVKYHID     560
+KKGQNTIDKAALSKWMEEAAIASQIGQDYVPYVKETRVRQFSYSTEFIVCRSWQCTNRFLYSVIMIGQFSGMDYFQNDDI     640
+FSGLSKEEIEQLNSELCDDLLPAADRVKYHIDKKGQNTIDKAALSKWMEEAAIASQIGQDYVPYVKETRGKLFVGTHPSF     720
+KHFRLLFFLFCFYDDEFEKLLMEAEKQGGASVDDEDIDALAEILGASSLLGSVDISSCSRPGKETGLKSPIADARAEKVQ     800
+AEVDMTETNDIEIEEALGQIKNNDSSLATCCFNNVQMDAETVDSITSAMVRNTSVTKLEMCNCGVTDSAIEGFITLLQSN     880
+TTLQSLSLETNKIAGKFLVKLIQSLDTNESLKELRIANQYPPQFVDPSLTPQYPPQFVEMILLLLGALLVVFLMAPTLAL     960
+FLLFISLTFICLHMRMKCLGERINKPTLAFFHPYCNAGGGGERVLWQSVLALAEHFPRATLYVYTGDTDTNPEGIISHAE    1040
+ECFGLQLPRDKIKFVFLKTRFLTEARCYPVFTLLGQSVGSMVMGFEALWRFQPAYFVDSMGYAFTYLLAEWCGCDVISYV    1120
+HYPTISTDMLAKVASGEATYNNRGSVARNPVLSRVKLIYYRAFAALYSWMGRRSRLVFVNSSWTMGHTKELWSIPERTFL    1200
+LYPPCNTTSFLKIDNPNRSNRIVSVSQFRPEKNQSLQFLMAPTLALFLLFISLTFICLHMRMKCLGERINKPTLAFFHPY    1280
+CNAGGGGERVLWQSVLALAEHFPRATLYVYTGDTDTNPEGIISHAEECFGLQLPRDKIKFVFLKTRFLTEARCYPVFTLL    1360
+GQSVGSMVMGFEALWRFQPAYFVDSMGYAFTYLLAEWCGCDVISYIHYPTISTDMLAKVASGEATYNNRGIVARNPVLSR    1440
+VKLIYYRAFAALYSWMGRRSRLVFVNSSWTMGHTKELWSIPERTFLLYPPCNTTSFLKIDNPNRSNRIVSVSQFRPEKNQ    1520
+SLQLDAFKCFIDRTGRRDVKLTLVGGVRNEGDKQRVEDLKTKSKQLGISDMVEFKLGIPFTELHSILADSLIGLHTMWNE    1600
+HFGIGVVEFMAGGLVTLAHKSGGPKMDIVIEGTGFLAETAEEYSEQMERIFGMGESEVIEMREKGREHGIEPEKA         1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+....................P...........................................................    1280
+................................................................................    1360
+................................................................................    1440
+..................................................................P.............    1520
+................................................................................    1600
+...........................................................................         1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+473              5    --MIANR|AY  0.117    .
+473              9    ANRAYDR|GV  0.114    .
+473             19    VFSPEGR|IF  0.103    .
+473             31    YAIEAIK|LG  0.067    .
+473             42    AIGVQTK|EG  0.056    .
+473             51    VCLAVER|RI  0.086    .
+473             52    CLAVERR|IT  0.143    .
+473             65    IPSSIEK|IV  0.103    .
+473             85    GLIADSR|IL  0.095    .
+473             92    ILIDHAR|VE  0.084    .
+473            105    WFTFNEK|MS  0.060    .
+473            127    SFGETDR|NS  0.077    .
+473            132    DRNSMSR|PF  0.154    .
+473            162    PSGTYLK|YG  0.067    .
+473            166    YLKYGAK|AI  0.083    .
+473            185    LEEQYHK|SM  0.072    .
+473            194    TLDEGIK|LC  0.061    .
+473            201    LCLTVLK|QV  0.080    .
+473            207    KQVMEEK|MS  0.074    .
+473            231    CFLWEEK|GM  0.061    .
+473            234    WEEKGMK|PA  0.081    .
+473            243    GTGTVER|VF  0.072    .
+473            260    SNLCLYK|SR  0.074    .
+473            262    LCLYKSR|IA  0.107    .
+473            293    YYLGTHR|WP  0.064    .
+473            301    PSSYSNK|RV  0.089    .
+473            302    SSYSNKR|VL  0.155    .
+473            322    FFGPTIR|YF  0.087    .
+473            331    TSVAEGK|VF  0.061    .
+473            349    DGLGEAR|AA  0.107    .
+473            354    ARAAELK|VA  0.072    .
+473            358    ELKVAAR|KL  0.104    .
+473            359    LKVAARK|LG  0.082    .
+473            372    NVQCVDR|AD  0.087    .
+473            392    VAEEVEK|HV  0.074    .
+473            395    EVEKHVK|EV  0.079    .
+473            424    SVSQGVR|KA  0.107    .
+473            425    VSQGVRK|AV  0.115    .
+473            444    ESVPLLR|KY  0.090    .
+473            445    SVPLLRK|YS  0.073    .
+473            467    YSMCSIK|DL  0.099    .
+473            477    TVQAAMK|CH  0.085    .
+473            487    TQLTWFR|KL  0.097    .
+473            488    QLTWFRK|LY  0.069    .
+473            495    LYTMFSR|PT  0.072    .
+473            514    SDPNQTK|PI  0.078    .
+473            534    IFSGLSK|EE  0.069    .
+473            554    LLPAADR|VK  0.084    .
+473            556    PAADRVK|YH  0.073    .
+473            561    VKYHIDK|KG  0.059    .
+473            562    KYHIDKK|GQ  0.105    .
+473            569    GQNTIDK|AA  0.072    .
+473            574    DKAALSK|WM  0.068    .
+473            594    DYVPYVK|ET  0.056    .
+473            597    PYVKETR|VR  0.068    .
+473            599    VKETRVR|QF  0.100    .
+473            611    TEFIVCR|SW  0.127    .
+473            618    SWQCTNR|FL  0.124    .
+473            646    IFSGLSK|EE  0.069    .
+473            666    LLPAADR|VK  0.084    .
+473            668    PAADRVK|YH  0.073    .
+473            673    VKYHIDK|KG  0.059    .
+473            674    KYHIDKK|GQ  0.105    .
+473            681    GQNTIDK|AA  0.072    .
+473            686    DKAALSK|WM  0.068    .
+473            706    DYVPYVK|ET  0.059    .
+473            709    PYVKETR|GK  0.082    .
+473            711    VKETRGK|LF  0.062    .
+473            721    GTHPSFK|HF  0.065    .
+473            724    PSFKHFR|LL  0.096    .
+473            739    YDDEFEK|LL  0.068    .
+473            746    LLMEAEK|QG  0.084    .
+473            780    DISSCSR|PG  0.074    .
+473            783    SCSRPGK|ET  0.208    .
+473            788    GKETGLK|SP  0.069    .
+473            795    SPIADAR|AE  0.098    .
+473            798    ADARAEK|VQ  0.123    .
+473            821    EALGQIK|NN  0.064    .
+473            851    ITSAMVR|NT  0.099    .
+473            857    RNTSVTK|LE  0.055    .
+473            892    LSLETNK|IA  0.074    .
+473            896    TNKIAGK|FL  0.072    .
+473            900    AGKFLVK|LI  0.059    .
+473            912    DTNESLK|EL  0.065    .
+473            915    ESLKELR|IA  0.115    .
+473            975    FICLHMR|MK  0.094    .
+473            977    CLHMRMK|CL  0.077    .
+473            982    MKCLGER|IN  0.080    .
+473            985    LGERINK|PT  0.108    .
+473           1003    AGGGGER|VL  0.080    .
+473           1018    LAEHFPR|AT  0.097    .
+473           1049    FGLQLPR|DK  0.088    .
+473           1051    LQLPRDK|IK  0.064    .
+473           1053    LPRDKIK|FV  0.108    .
+473           1058    IKFVFLK|TR  0.061    .
+473           1060    FVFLKTR|FL  0.113    .
+473           1066    RFLTEAR|CY  0.069    .
+473           1090    GFEALWR|FQ  0.101    .
+473           1132    STDMLAK|VA  0.070    .
+473           1143    EATYNNR|GS  0.076    .
+473           1148    NRGSVAR|NP  0.091    .
+473           1154    RNPVLSR|VK  0.075    .
+473           1156    PVLSRVK|LI  0.055    .
+473           1161    VKLIYYR|AF  0.079    .
+473           1172    LYSWMGR|RS  0.090    .
+473           1173    YSWMGRR|SR  0.147    .
+473           1175    WMGRRSR|LV  0.281    .
+473           1189    WTMGHTK|EL  0.069    .
+473           1197    LWSIPER|TF  0.080    .
+473           1212    NTTSFLK|ID  0.058    .
+473           1218    KIDNPNR|SN  0.124    .
+473           1221    NPNRSNR|IV  0.694 *ProP*
+473           1229    VSVSQFR|PE  0.077    .
+473           1232    SQFRPEK|NQ  0.126    .
+473           1261    FICLHMR|MK  0.094    .
+473           1263    CLHMRMK|CL  0.077    .
+473           1268    MKCLGER|IN  0.080    .
+473           1271    LGERINK|PT  0.108    .
+473           1289    AGGGGER|VL  0.080    .
+473           1304    LAEHFPR|AT  0.097    .
+473           1335    FGLQLPR|DK  0.088    .
+473           1337    LQLPRDK|IK  0.064    .
+473           1339    LPRDKIK|FV  0.108    .
+473           1344    IKFVFLK|TR  0.061    .
+473           1346    FVFLKTR|FL  0.113    .
+473           1352    RFLTEAR|CY  0.069    .
+473           1376    GFEALWR|FQ  0.101    .
+473           1418    STDMLAK|VA  0.070    .
+473           1429    EATYNNR|GI  0.084    .
+473           1434    NRGIVAR|NP  0.096    .
+473           1440    RNPVLSR|VK  0.073    .
+473           1442    PVLSRVK|LI  0.055    .
+473           1447    VKLIYYR|AF  0.079    .
+473           1458    LYSWMGR|RS  0.090    .
+473           1459    YSWMGRR|SR  0.147    .
+473           1461    WMGRRSR|LV  0.281    .
+473           1475    WTMGHTK|EL  0.069    .
+473           1483    LWSIPER|TF  0.080    .
+473           1498    NTTSFLK|ID  0.058    .
+473           1504    KIDNPNR|SN  0.124    .
+473           1507    NPNRSNR|IV  0.694 *ProP*
+473           1515    VSVSQFR|PE  0.075    .
+473           1518    SQFRPEK|NQ  0.141    .
+473           1528    LQLDAFK|CF  0.059    .
+473           1533    FKCFIDR|TG  0.071    .
+473           1536    FIDRTGR|RD  0.122    .
+473           1537    IDRTGRR|DV  0.242    .
+473           1540    TGRRDVK|LT  0.118    .
+473           1548    TLVGGVR|NE  0.099    .
+473           1553    VRNEGDK|QR  0.064    .
+473           1555    NEGDKQR|VE  0.089    .
+473           1560    QRVEDLK|TK  0.080    .
+473           1562    VEDLKTK|SK  0.077    .
+473           1564    DLKTKSK|QL  0.080    .
+473           1575    SDMVEFK|LG  0.062    .
+473           1620    LVTLAHK|SG  0.081    .
+473           1625    HKSGGPK|MD  0.085    .
+473           1649    YSEQMER|IF  0.123    .
+473           1662    SEVIEMR|EK  0.099    .
+473           1664    VIEMREK|GR  0.066    .
+473           1666    EMREKGR|EH  0.113    .
+473           1674    HGIEPEK|A-  0.063    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,282 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3011 119         
+MVTTNRKLIKLYRDVVAATQRQIPCEAVPVNGTTHVPPSDPARRIYTCISNEFELVGASEARCNPFANKLDIRRLPVCVE      80
+RSPRTTHITQTHTLNEDCGQTVLKDLEKRVLGHIAELVCTTGRCDFKALHSSCIDISQAELRSIFEVSNQAARDEVDYHM     160
+TWRRRRQKRSAFDDLTPDDSDTQDCPDGQGLTSDGEGCVACPIPSASTNSAFTVDNVAISDGSSVATGTSVTLACDSGYT     240
+YQDASSYSESCASASTVLKSACYAVELETTAANNTEYLEAGGSSTFTCKVDTTTNPDSFSTAVTNSGSSNGAATKGGSQV     320
+FSNDVAMQVFSFTSSAGGSSVVTCKVTIYSGETAEKSSDTLTFNFFSGEVGDKTASVGDSVTLTAKVTYSSSATVDFHWT     400
+GPDDNAITTNLDETEDSSYFYSKLSLSSTTASSNGTYSVRMEVKDLTSKSKLNITDGGDLIVSGFTTNPSTSGGADSVTL     480
+GSGSELNVTCSYLYSGDTAPEVVWSTSNTGTDDVAGTTGLTMLTAIDSDSTVTRVMTIGNDATSSVDGQYYCKTIVDGSF     560
+GVASDDFNLTISSKSVTVTSEKCVEAGNDVSLTCTASYPDSLSTAPTIEWFYANSSNQLSSARATKRGLNRVHLSQSLLL     640
+PPPLSLLLSHTLYLSLFLSLSLTLSFSWRDGSDYVTSSTKSGTTQVSVLLIKDTTAADATDNYFCKAAYIDPNYFEVESG     720
+MSTLSVIGFTSITEQFALVGATGITFSTTLSGTVPTAQAWQYNGNDLGSPYSDNAAATATSDGATYTITLPTLATDTIYE     800
+YQAWAMLSSPCSSDVSSGYTTTATVHILSLNMTTSATQISGSDYYVWSGDSFTLTCKFSNPSSLSSDPTISWSAVNGTSD     880
+DISVSPDTSASAISPSGTETVEISTASSEYSGTYNCSATYPDSIGSVEESLDIKVLGVEPTSTTYAVEGSDTSISCIFFG     960
+LTGTVAWSKDGSSVSGNTESVSGTTTTSTLPLTSVDDGDDGEYSCTMTFTGVSTTKSSQIRVNVLTVNNTITSGTIDVGS    1040
+STTLSCVVPFQSSLPFSTNVTWTKDVSGTVTTMTSWADSFTATISSASVSDMGVYTCTVGFSQYGSRTAAVGTTLYVRSG    1120
+PTITVSGSDVNGTYAVYETTVTLSCVISGDGIDDAETKWYLDANPLVSADNFTISSTVESDYGAVSVLTIASADEDMMFT    1200
+CSMEYEADDTVKTVTTEIKVMGVTDMSPSFRTINNGGDFNFTCNYENPGSLDVADVVWLFNGTDGGCSESDGDTAATIQC    1280
+TNIDVALNGDVTCEVTFENNLVSTGEGLLWVRNSSWDIVTSSSGGVDLVQGKAYTVTLMVYGDGMTSGYPKWTLDGTELT    1360
+SSTTNVTITETSPSTGLLVSVFELAYIPNEWNDTEFKVAVQYAADSVTSELSTTVSIADISLTGETILEVGDDISLTCTI    1440
+ASASGTTTWLIDGVLQEGDGEVLEIVDVETTDTAEYTCRIALSTGTYEDSVDVVVNGITGAKLDGVIGNNTDVGETITIK    1520
+INATLSDTSDTPTVTKGSSTSVTLSNSPSWTKVGDYMYTTTLEWTATASSNSDNTDSYTIEFESDDFNLTTSLNITVLET    1600
+CTLPSSSSVTGLDGQTIVSGTTVTMSCSTGLLSGGSKATCTDGVTTYSAVNSQPYCDLDLTNETRPSPEGAVKSGSDATC    1680
+TLPSSSSVTGLDGQTIVSGTTVTMSCSTGLLSGGSKATCTDGVTTYSADLDLTNETRPSPEGAVKSGSDLFAENPESSVV    1760
+EYGEDVTLSCSSNEISVTLAAITWYKTDGTMMKNDTVMTTSGSTVFSSSLVIAGTLDNHDTSYYCQFLLDNGQTLMSANG    1840
+TVYLTGFISTAAHYPGTYFESDGVSGAYSESAYILAYFGQGEDAFDLTVTYTKTSDDTTQTLTMSNSGSSNSTVAVYNAT    1920
+IPESMKHTGTYSFVLAYTSADVGNNSYTTSLTLAVYGFISTAAHYPGDYFESDGVAGAYSESAYILAYFGQGEDAFDLTV    2000
+TYTKTSDDTTQTLTMSNSGSSNSTVAVYNATIPESMKHTGTYSFVLAYTSADVGNSSYTTSLTLAVYEFCKTSSLPSVDN    2080
+GEWLPAQKTNFLEYATLTCSTNYFAVGSSTARCLAGGDFDADSTVTCESSSDMSCGDLTSISNGDVVYKNSTAAYYSCDA    2160
+GYYLVDAEDMYTCDTSTSVWSLTSSSNPDGTTPSCTAAEDADSRNASVTITLSGITGCASQESAISTALQTALENEGYLT    2240
+CTTSLFCTFDDFSCSGSTASFVLTQTAEMDDPTILSDDTDSMESGAAITFSITTSKKRATTEITTDTATSTTATSCASGY    2320
+VTSDGYCYQCPAGYEANSGATECVQCSLGHYSLGSGGSCVSCSGSKTTMNTGSDSASDCIDASQVCTVATLSADSTYSPP    2400
+SGSRVSPSTFITITCSDGHSVPYGASSAVRCDSDSYPSCKNTCSLSKYTKAVLDDLNIHSNIELEYLKHDQTITATCNSG    2480
+FEVTEDVPEAVYTCNDGYLAEFAACNGYMQQRRDIELNNKVEDASGNVVIENPGYPAGTDDNNENRENSEARSRTGSIPP    2560
+NNRDRLDTDLILIGTDRAESPPKRETPRREVTPEVAPAAENVYDDGLPRDRLETDLVYANTSTPRSDRADKGDKKKRDKE    2640
+RRPKGDRSSRKPKDEMTEEEREKRRKKREERKRRQEAENDYANTQLEQEPTETSKQRIRTSYLDHVTGYHPIRDEYFLIR    2720
+SVPDVQILVNRPPLSCRVSGPRKMFVGPIENPVAMEEGGVKMTKVSLKLQESEKKAPLMSRPVHISDFSKYYDLLTRNDD    2800
+KELKQEFTTFDSFDDNNTCYNGSIPENDAKNRYKNIIPFDHSRVKLTMNVNDPYSDYINASFIHGYHKPRAFIATQAPKY    2880
+ETADDYWRMIWEQKSTMITNLTKIEENGKLKSIVYWPGAGERSKQYGDIVVCRINEQETDSFTIYTFEIRSTQEKLNIVI    2960
+YNFFHSDKGKRIMESGWRAAGIIDALKSPRSDSVPFSQILVIIFAKKIILN                                 3040
+................................................................................      80
+................................................................................     160
+.....P..P.......................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+...........................P....................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+...................................................                                 3040
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+119              6    -MVTTNR|KL  0.080    .
+119              7    MVTTNRK|LI  0.068    .
+119             10    TNRKLIK|LY  0.088    .
+119             13    KLIKLYR|DV  0.181    .
+119             21    VVAATQR|QI  0.080    .
+119             43    PPSDPAR|RI  0.147    .
+119             44    PSDPARR|IY  0.123    .
+119             62    VGASEAR|CN  0.088    .
+119             69    CNPFANK|LD  0.059    .
+119             73    ANKLDIR|RL  0.076    .
+119             74    NKLDIRR|LP  0.100    .
+119             81    LPVCVER|SP  0.126    .
+119             84    CVERSPR|TT  0.314    .
+119            104    CGQTVLK|DL  0.083    .
+119            108    VLKDLEK|RV  0.066    .
+119            109    LKDLEKR|VL  0.209    .
+119            123    LVCTTGR|CD  0.105    .
+119            127    TGRCDFK|AL  0.072    .
+119            142    ISQAELR|SI  0.187    .
+119            153    VSNQAAR|DE  0.118    .
+119            163    DYHMTWR|RR  0.093    .
+119            164    YHMTWRR|RR  0.086    .
+119            165    HMTWRRR|RQ  0.101    .
+119            166    MTWRRRR|QK  0.515 *ProP*
+119            168    WRRRRQK|RS  0.121    .
+119            169    RRRRQKR|SA  0.896 *ProP*
+119            259    SASTVLK|SA  0.120    .
+119            289    SSTFTCK|VD  0.062    .
+119            315    SNGAATK|GG  0.081    .
+119            345    SSVVTCK|VT  0.074    .
+119            356    SGETAEK|SS  0.083    .
+119            373    SGEVGDK|TA  0.071    .
+119            386    SVTLTAK|VT  0.060    .
+119            423    SSYFYSK|LS  0.064    .
+119            440    NGTYSVR|ME  0.080    .
+119            444    SVRMEVK|DL  0.073    .
+119            449    VKDLTSK|SK  0.067    .
+119            451    DLTSKSK|LN  0.066    .
+119            534    SDSTVTR|VM  0.129    .
+119            553    DGQYYCK|TI  0.065    .
+119            574    NLTISSK|SV  0.081    .
+119            582    VTVTSEK|CV  0.086    .
+119            623    NQLSSAR|AT  0.107    .
+119            626    SSARATK|RG  0.102    .
+119            627    SARATKR|GL  0.254    .
+119            631    TKRGLNR|VH  0.074    .
+119            669    TLSFSWR|DG  0.229    .
+119            680    YVTSSTK|SG  0.073    .
+119            692    VSVLLIK|DT  0.073    .
+119            706    TDNYFCK|AA  0.087    .
+119            857    SFTLTCK|FS  0.061    .
+119            934    EESLDIK|VL  0.072    .
+119            969    GTVAWSK|DG  0.069    .
+119           1016    TGVSTTK|SS  0.078    .
+119           1021    TKSSQIR|VN  0.092    .
+119           1064    TNVTWTK|DV  0.137    .
+119           1107    FSQYGSR|TA  0.096    .
+119           1118    GTTLYVR|SG  0.095    .
+119           1158    IDDAETK|WY  0.066    .
+119           1212    EADDTVK|TV  0.082    .
+119           1219    TVTTEIK|VM  0.065    .
+119           1231    DMSPSFR|TI  0.141    .
+119           1312    EGLLWVR|NS  0.077    .
+119           1332    VDLVQGK|AY  0.065    .
+119           1351    MTSGYPK|WT  0.085    .
+119           1397    WNDTEFK|VA  0.062    .
+119           1479    TAEYTCR|IA  0.098    .
+119           1502    NGITGAK|LD  0.067    .
+119           1520    GETITIK|IN  0.058    .
+119           1536    DTPTVTK|GS  0.069    .
+119           1552    NSPSWTK|VG  0.058    .
+119           1637    LLSGGSK|AT  0.075    .
+119           1665    DLTNETR|PS  0.074    .
+119           1673    SPEGAVK|SG  0.105    .
+119           1716    LLSGGSK|AT  0.075    .
+119           1737    DLTNETR|PS  0.072    .
+119           1745    SPEGAVK|SG  0.089    .
+119           1786    AAITWYK|TD  0.068    .
+119           1793    TDGTMMK|ND  0.068    .
+119           1893    LTVTYTK|TS  0.063    .
+119           1926    TIPESMK|HT  0.079    .
+119           2004    LTVTYTK|TS  0.063    .
+119           2037    TIPESMK|HT  0.079    .
+119           2071    AVYEFCK|TS  0.055    .
+119           2088    EWLPAQK|TN  0.057    .
+119           2112    VGSSTAR|CL  0.120    .
+119           2149    NGDVVYK|NS  0.066    .
+119           2204    AEDADSR|NA  0.092    .
+119           2296    FSITTSK|KR  0.061    .
+119           2297    SITTSKK|RA  0.120    .
+119           2298    ITTSKKR|AT  0.218    .
+119           2366    VSCSGSK|TT  0.059    .
+119           2404    SPPSGSR|VS  0.069    .
+119           2430    GASSAVR|CD  0.146    .
+119           2440    DSYPSCK|NT  0.064    .
+119           2447    NTCSLSK|YT  0.077    .
+119           2450    SLSKYTK|AV  0.101    .
+119           2468    IELEYLK|HD  0.058    .
+119           2512    NGYMQQR|RD  0.079    .
+119           2513    GYMQQRR|DI  0.233    .
+119           2520    DIELNNK|VE  0.058    .
+119           2546    DDNNENR|EN  0.105    .
+119           2552    RENSEAR|SR  0.183    .
+119           2554    NSEARSR|TG  0.076    .
+119           2563    SIPPNNR|DR  0.075    .
+119           2565    PPNNRDR|LD  0.097    .
+119           2577    ILIGTDR|AE  0.081    .
+119           2583    RAESPPK|RE  0.060    .
+119           2584    AESPPKR|ET  0.237    .
+119           2588    PKRETPR|RE  0.085    .
+119           2589    KRETPRR|EV  0.330    .
+119           2609    YDDGLPR|DR  0.070    .
+119           2611    DGLPRDR|LE  0.067    .
+119           2625    ANTSTPR|SD  0.114    .
+119           2628    STPRSDR|AD  0.185    .
+119           2631    RSDRADK|GD  0.169    .
+119           2634    RADKGDK|KK  0.061    .
+119           2635    ADKGDKK|KR  0.089    .
+119           2636    DKGDKKK|RD  0.089    .
+119           2637    KGDKKKR|DK  0.289    .
+119           2639    DKKKRDK|ER  0.067    .
+119           2641    KKRDKER|RP  0.101    .
+119           2642    KRDKERR|PK  0.186    .
+119           2644    DKERRPK|GD  0.132    .
+119           2647    RRPKGDR|SS  0.125    .
+119           2650    KGDRSSR|KP  0.214    .
+119           2651    GDRSSRK|PK  0.116    .
+119           2653    RSSRKPK|DE  0.486    .
+119           2661    EMTEEER|EK  0.070    .
+119           2663    TEEEREK|RR  0.059    .
+119           2664    EEEREKR|RK  0.434    .
+119           2665    EEREKRR|KK  0.152    .
+119           2666    EREKRRK|KR  0.084    .
+119           2667    REKRRKK|RE  0.378    .
+119           2668    EKRRKKR|EE  0.685 *ProP*
+119           2671    RKKREER|KR  0.226    .
+119           2672    KKREERK|RR  0.090    .
+119           2673    KREERKR|RQ  0.218    .
+119           2674    REERKRR|QE  0.377    .
+119           2695    EPTETSK|QR  0.056    .
+119           2697    TETSKQR|IR  0.120    .
+119           2699    TSKQRIR|TS  0.082    .
+119           2713    TGYHPIR|DE  0.117    .
+119           2720    DEYFLIR|SV  0.189    .
+119           2731    VQILVNR|PP  0.077    .
+119           2737    RPPLSCR|VS  0.103    .
+119           2742    CRVSGPR|KM  0.088    .
+119           2743    RVSGPRK|MF  0.083    .
+119           2761    MEEGGVK|MT  0.063    .
+119           2764    GGVKMTK|VS  0.062    .
+119           2768    MTKVSLK|LQ  0.067    .
+119           2774    KLQESEK|KA  0.060    .
+119           2775    LQESEKK|AP  0.086    .
+119           2781    KAPLMSR|PV  0.138    .
+119           2790    HISDFSK|YY  0.074    .
+119           2797    YYDLLTR|ND  0.089    .
+119           2801    LTRNDDK|EL  0.074    .
+119           2804    NDDKELK|QE  0.062    .
+119           2830    IPENDAK|NR  0.065    .
+119           2832    ENDAKNR|YK  0.118    .
+119           2834    DAKNRYK|NI  0.076    .
+119           2843    IPFDHSR|VK  0.079    .
+119           2845    FDHSRVK|LT  0.064    .
+119           2868    FIHGYHK|PR  0.060    .
+119           2870    HGYHKPR|AF  0.114    .
+119           2879    IATQAPK|YE  0.062    .
+119           2888    TADDYWR|MI  0.109    .
+119           2894    RMIWEQK|ST  0.085    .
+119           2903    MITNLTK|IE  0.061    .
+119           2909    KIEENGK|LK  0.061    .
+119           2911    EENGKLK|SI  0.082    .
+119           2922    WPGAGER|SK  0.120    .
+119           2924    GAGERSK|QY  0.088    .
+119           2933    GDIVVCR|IN  0.151    .
+119           2950    IYTFEIR|ST  0.121    .
+119           2955    IRSTQEK|LN  0.080    .
+119           2968    NFFHSDK|GK  0.072    .
+119           2970    FHSDKGK|RI  0.084    .
+119           2971    HSDKGKR|IM  0.198    .
+119           2978    IMESGWR|AA  0.101    .
+119           2987    GIIDALK|SP  0.061    .
+119           2990    DALKSPR|SD  0.131    .
+119           3006    LVIIFAK|KI  0.065    .
+119           3007    VIIFAKK|II  0.091    .
+____________________________^_________________
+
+
+
+

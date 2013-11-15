@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+543	
+
+ psg: 0.71  gvh: 0.35  alm: 0.10  top: 0.70  tms: 0.25  mit: 0.29  mip: 0.14
+ nuc: 0.14  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.67  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 0.00  tyr: 0.00  leu: 0.00  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 1.00  m_ : 0.00  ncn: 0.03  lps: 0.00  len: 0.38 
+
+	 33.3 %: vacuolar
+	 22.2 %: endoplasmic reticulum
+	 11.1 %: cytoplasmic
+	 11.1 %: vesicles of secretory system
+	 11.1 %: Golgi
+	 11.1 %: nuclear
+
+>> prediction for 543 is vac (k=9)
+

@@ -1,0 +1,505 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3307 86          
+MALLYVPTIFDNYNLLINIDGERINLSLWDTAGQEDYDTLRPLSYPDTDIFLICYAINQEASLENVEVQWNPEVSHHRPN      80
+SPKILVATKSDYRKEPNYTQPLLSVEQGKAVAKKIKAVDHIETSALTGDNLQAVFTTACQLCSMLDWFERLFAIKESFKD     160
+VQSDLKCEKVENLFYITGANNKKYCAGRFEFVTVGELRERPTVHSGPSSFGVVTGDVAKYIANSENNGAVFQVASQFNCL     240
+EFIGSSITPERGVTGYERDHTQGPACSIACGPATVYRNYFLTMPDGKMGQEAHRHLNGMEGVFKKMEVVTGDKVQDLVKN     320
+GYLTAKDDDLIGFNKTYDKIEDKEELWNNMKVGIHHDAEVTSTGFGKKLTNSPEQRVTQRLRSRCGKNKLWENLAKGILN     400
+ASYVGLFHAAATNPSSNKLFLTFIGGGVFGNPIGWICDAILSAGKHYKNAGLEARPKSLISKCQFYENDPFYLYLQHLFY     480
+RDIPPSTERLVVVNDCKPLTVGQRVYNVACWETVVGEEYARLRPHSYYDALCLLLVVDISDVEMGDAKFWADEFWNYSPD     560
+VPVILVGSKVDLRDENSVSFEQGRQMAERIRAACYMECSALTGEGVNEVFVQGVELGSICFKNLKVDKIPKTFYLIFSVY     640
+FPLPYPIILLFGLAIFKNTFFWHESDRSGVVKRWKSNMAEDEPNPKWPSLKFVVVGNGGMGKTCLLFRYFENEFPEIYVP     720
+TVFDHRMKHVEYDGKMYNMTCWDTAGGEDYPRLRPLSYPHTDAFLLVHAVNEKRTFEDIEETWWPELKHHCPDVPVILVG     800
+SKIDLRDENSFNVDHGTQMAHGWIKAACYMECSSKDNIGVTEVFQDAIRLGAEYQKTAKKKRKKKYTAGGEDYPRLRPLS     880
+YPHTHAFLLVHAVNEKANLEDIETYWWPELKHHCPEVPVILVGSKVDLRDDNSVSFEEGRQMAERIGAACYMECSALTGE     960
+GVNEVFVQGVELGNQLESIETYWWPELKHHCPEVPVILVGSKVDLRDDNSVSFEEGRQMAERIGAACYMECSALTGEGVN    1040
+ETSPSHVPNLVSSHTANKITESHVLYPISSHSAKLEFQNQAMANPKWPCLKFVAVGYGGMGKTSMLIRYYRKEFPGIYIP    1120
+TVFDAETKSVEYDGQMYNVGCFDTGGGEDYDRLRPAAAAAAAAAANYKRDFESIKTYWGPELKLHCPDVPVILVGSKMAK    1200
+KIKAACYMECSSKEDIGVTEVFLEAIRLGSEYLANKTNKKNKKKRCIVITGELVPYNTCNSCQDLEILGGKLIFRQMEKS    1280
+REKTEGTKVISVLALVGVGAQITVFGHMAIATLEWFREFSRVPFSSLSRCSCYFGGFKGGCMRDENCLSFEEGCQMAKKI    1360
+KAACYMECSSKEDIGVTEVFLEAIRLGSEYLANKTNKKNKKKRASVSFEEGRQMAERIGAACYMECSALTGQGVNEILNH    1440
+AIEIRNIPQNTNREAINSRCGKTSLLYRLYGAPFPPAGTPTIFDVSSRIWTGKDGQKVSWAAWDTSGSAGNDRLRPLCYP    1520
+ETTVFLIVVNVCEPKELSIAKSRWRNELKHHCPDIPVILVGSKVDLRDENSVSFEEGRQMAERIGAVCYMETSGLGERER    1600
+EDVRDTLRERRKAERAWEKNKTGRTKARYRELQRQFERVDKDARMEYVRKKLEDVKDDPAGLQKMLARLLGKKETLLPGG    1680
+LSDKKLADNFAQSVHPIELFKSTLKTRLFLEAFPPASGDSRCGLCDQLYLFSTSSIRSEFFPKCVRIYKDLFSVRYTALK    1760
+LVTMVNHHDDDVWNPDWPALKFVTVGSGAMGKTCLLIRYFRKEFPEKYIPTVYDNYNTHVAGCNGKMYNMMCLDTGGGED    1840
+YHVLRPLSYPDTHAFLLLNSVEYKDQLESIETYWWPELKHHCPDVPVILVGSKIDLRDEKSSSFEEGRQMAKKIKAACYM    1920
+ECSSKENIGVTEVFTEAIRLGAEYQATKKNKKKNACKVDVFIVLGMNSRILKTMDEDPPLNPDWPVNPKWPTLKFVAVGR    2000
+GAMGKTCMLIRYFKNKFPEIYVPTVYDNTIKHAECDGQMYNVTCWDTGGGEDYDRLRPLSYHDTSAFLLLNAVHYKEDFE    2080
+SIETYWWPELKLHCPGVPVILVGSMVDLRDENSVSFEEGCQMAKKIKAACYMECSSKEDIGVTEVFLEAIRLGSEYLANK    2160
+TNKNKRFGRYAMGKTCMLIRYFKNEFPEIYIPTVFENNLKHVECNGGMYNIALWDTGGGEDYDRLRPLSYPYTDVFLLLN    2240
+SVECLYKDQLESIETYWWPELKHHCPDVPVILVGSKVDLRDENSVRFEEGRQMAERIGAACYMECSSKENIGVTEIFREA    2320
+IRLGTEYQATKKKNKKKLKFSGMSSEPQDTTRLCILGSRHTGKTTLCLTLANESPPNPEYLPAVFSNSPVFVKDRPFEFV    2400
+EVNALHWDQIAEERPILLPFVFDKARLAVITFSVADTLSYRSDVKRWVDAVRTHKPRERIPIVLVATKTDLRGKDHDTVS    2480
+EMQGRSLRRKVGARGYFEVSVVDGGVPGVQHLFEQIAEILEGSNSDRFPTEYIPTIFDTYTKILSMNEEGIGIVNLNLWD    2560
+TAVVVVVVLRFGLCRAYRLKRSKESNSRPNQVKLGNSLYMNLELGYLEFSLVWIKSLTFTISVWRRRPDLSALSRIKWGI    2640
+APPYSTISTYLMDDWYRDVVDDEMRVYPVEIKMKENDQTQIMGMQDCSATRIAETRPSPIDSSVVTGRSCVLEMGTLERQ    2720
+VYVTRNSKKNNRNWNYHLHNHSALHRGTCSHSLSLSLTLSLSLSHSLTLSLFLSLSLSPSITLYTKCKPSKLNFKRCFDT    2800
+FVLLAAIDILECPALTGEWVNDVFQRTAEDTTRLCILGSRHTGKTTLCLTLANEAPPNPEYLPAVFSTNNPVIVKDRPFE    2880
+FIEVNALHWDQIAEERPILLPFVFDKARVVVITFSITDTLSYRSDVKRWVNAVRTHKPRERIPIVLVATKTDLRDKDHDT    2960
+VSEIQGRSLSRKVGARGYFEVSVVDGGVPGVQHLFEQIAELCRMANLKCVCVGDGAVGKTCLLISYAQDRFPTEYIPTIF    3040
+DTYTKILSMDEEGIGIVNLNLWDTAGELITITMISYTGQEEFSTQRSYAYPGTDVILICFAVNSRASYNNVKSQWEKEGC    3120
+TMAERQVKCVVVGDGNVGKTCMLISYCTDAFPGEYRPTIFDNYTTTVKFQGANVKLDLWDTAGQAEYDRLRPLSYPESDV    3200
+FLIIYSYSSVRSILLQADFTLYLKLLATTVHDFEPEQCTHNMIFHPTTQVAHHCPGVPVILVAAKKDLRNSNPECISTRD    3280
+GQDLAKEFGPVRFGLQIRLPSSVHIVS                                                         3360
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................P...............     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+........P.......................................................................    2240
+................................................................................    2320
+................................................................................    2400
+.............................................P..................................    2480
+................................................................................    2560
+....................P...........................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+...............................................P................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+...........................                                                         3360
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+86              23    INIDGER|IN  0.070    .
+86              41    EDYDTLR|PL  0.081    .
+86              78    PEVSHHR|PN  0.109    .
+86              83    HRPNSPK|IL  0.072    .
+86              89    KILVATK|SD  0.084    .
+86              93    ATKSDYR|KE  0.061    .
+86              94    TKSDYRK|EP  0.092    .
+86             109    LSVEQGK|AV  0.108    .
+86             113    QGKAVAK|KI  0.081    .
+86             114    GKAVAKK|IK  0.104    .
+86             116    AVAKKIK|AV  0.152    .
+86             150    MLDWFER|LF  0.089    .
+86             155    ERLFAIK|ES  0.063    .
+86             159    AIKESFK|DV  0.087    .
+86             166    DVQSDLK|CE  0.054    .
+86             169    SDLKCEK|VE  0.054    .
+86             182    ITGANNK|KY  0.069    .
+86             183    TGANNKK|YC  0.105    .
+86             188    KKYCAGR|FE  0.102    .
+86             198    VTVGELR|ER  0.073    .
+86             200    VGELRER|PT  0.086    .
+86             219    VTGDVAK|YI  0.080    .
+86             251    SSITPER|GV  0.212    .
+86             258    GVTGYER|DH  0.107    .
+86             277    GPATVYR|NY  0.108    .
+86             287    LTMPDGK|MG  0.067    .
+86             294    MGQEAHR|HL  0.114    .
+86             304    GMEGVFK|KM  0.068    .
+86             305    MEGVFKK|ME  0.102    .
+86             313    EVVTGDK|VQ  0.053    .
+86             319    KVQDLVK|NG  0.053    .
+86             326    NGYLTAK|DD  0.079    .
+86             335    DLIGFNK|TY  0.072    .
+86             339    FNKTYDK|IE  0.064    .
+86             343    YDKIEDK|EE  0.055    .
+86             351    ELWNNMK|VG  0.057    .
+86             367    TSTGFGK|KL  0.074    .
+86             368    STGFGKK|LT  0.093    .
+86             376    TNSPEQR|VT  0.106    .
+86             380    EQRVTQR|LR  0.096    .
+86             382    RVTQRLR|SR  0.106    .
+86             384    TQRLRSR|CG  0.092    .
+86             387    LRSRCGK|NK  0.161    .
+86             389    SRCGKNK|LW  0.080    .
+86             396    LWENLAK|GI  0.069    .
+86             418    TNPSSNK|LF  0.063    .
+86             445    AILSAGK|HY  0.058    .
+86             448    SAGKHYK|NA  0.088    .
+86             455    NAGLEAR|PK  0.092    .
+86             457    GLEARPK|SL  0.080    .
+86             462    PKSLISK|CQ  0.072    .
+86             481    LQHLFYR|DI  0.154    .
+86             489    IPPSTER|LV  0.083    .
+86             497    VVVNDCK|PL  0.065    .
+86             504    PLTVGQR|VY  0.073    .
+86             521    VGEEYAR|LR  0.067    .
+86             523    EEYARLR|PH  0.081    .
+86             548    VEMGDAK|FW  0.074    .
+86             569    VILVGSK|VD  0.054    .
+86             573    GSKVDLR|DE  0.085    .
+86             584    VSFEQGR|QM  0.087    .
+86             589    GRQMAER|IR  0.104    .
+86             591    QMAERIR|AA  0.123    .
+86             622    LGSICFK|NL  0.061    .
+86             625    ICFKNLK|VD  0.052    .
+86             628    KNLKVDK|IP  0.059    .
+86             631    KVDKIPK|TF  0.060    .
+86             657    FGLAIFK|NT  0.055    .
+86             667    FWHESDR|SG  0.122    .
+86             672    DRSGVVK|RW  0.076    .
+86             673    RSGVVKR|WK  0.325    .
+86             675    GVVKRWK|SN  0.085    .
+86             686    EDEPNPK|WP  0.061    .
+86             691    PKWPSLK|FV  0.107    .
+86             702    GNGGMGK|TC  0.056    .
+86             708    KTCLLFR|YF  0.114    .
+86             726    PTVFDHR|MK  0.082    .
+86             728    VFDHRMK|HV  0.090    .
+86             735    HVEYDGK|MY  0.060    .
+86             752    GGEDYPR|LR  0.069    .
+86             754    EDYPRLR|PL  0.084    .
+86             773    VHAVNEK|RT  0.063    .
+86             774    HAVNEKR|TF  0.268    .
+86             788    TWWPELK|HH  0.066    .
+86             802    VILVGSK|ID  0.056    .
+86             806    GSKIDLR|DE  0.080    .
+86             825    MAHGWIK|AA  0.092    .
+86             835    YMECSSK|DN  0.075    .
+86             849    VFQDAIR|LG  0.072    .
+86             856    LGAEYQK|TA  0.067    .
+86             859    EYQKTAK|KK  0.069    .
+86             860    YQKTAKK|KR  0.085    .
+86             861    QKTAKKK|RK  0.130    .
+86             862    KTAKKKR|KK  0.226    .
+86             863    TAKKKRK|KK  0.127    .
+86             864    AKKKRKK|KY  0.156    .
+86             865    KKKRKKK|YT  0.685 *ProP*
+86             875    GGEDYPR|LR  0.069    .
+86             877    EDYPRLR|PL  0.086    .
+86             896    VHAVNEK|AN  0.062    .
+86             911    YWWPELK|HH  0.067    .
+86             925    VILVGSK|VD  0.052    .
+86             929    GSKVDLR|DD  0.088    .
+86             940    VSFEEGR|QM  0.082    .
+86             945    GRQMAER|IG  0.101    .
+86             988    YWWPELK|HH  0.067    .
+86            1002    VILVGSK|VD  0.052    .
+86            1006    GSKVDLR|DD  0.088    .
+86            1017    VSFEEGR|QM  0.082    .
+86            1022    GRQMAER|IG  0.101    .
+86            1058    SSHTANK|IT  0.070    .
+86            1074    ISSHSAK|LE  0.099    .
+86            1086    QAMANPK|WP  0.065    .
+86            1091    PKWPCLK|FV  0.104    .
+86            1102    GYGGMGK|TS  0.058    .
+86            1108    KTSMLIR|YY  0.162    .
+86            1111    MLIRYYR|KE  0.256    .
+86            1112    LIRYYRK|EF  0.076    .
+86            1128    VFDAETK|SV  0.106    .
+86            1152    GGEDYDR|LR  0.070    .
+86            1154    EDYDRLR|PA  0.095    .
+86            1168    AAAANYK|RD  0.068    .
+86            1169    AAANYKR|DF  0.281    .
+86            1175    RDFESIK|TY  0.063    .
+86            1183    YWGPELK|LH  0.057    .
+86            1197    VILVGSK|MA  0.062    .
+86            1200    VGSKMAK|KI  0.086    .
+86            1201    GSKMAKK|IK  0.096    .
+86            1203    KMAKKIK|AA  0.107    .
+86            1213    YMECSSK|ED  0.063    .
+86            1227    VFLEAIR|LG  0.067    .
+86            1236    SEYLANK|TN  0.055    .
+86            1239    LANKTNK|KN  0.077    .
+86            1240    ANKTNKK|NK  0.079    .
+86            1242    KTNKKNK|KK  0.082    .
+86            1243    TNKKNKK|KR  0.140    .
+86            1244    NKKNKKK|RC  0.115    .
+86            1245    KKNKKKR|CI  0.395    .
+86            1271    LEILGGK|LI  0.065    .
+86            1275    GGKLIFR|QM  0.100    .
+86            1279    IFRQMEK|SR  0.092    .
+86            1281    RQMEKSR|EK  0.115    .
+86            1283    MEKSREK|TE  0.067    .
+86            1288    EKTEGTK|VI  0.058    .
+86            1317    ATLEWFR|EF  0.090    .
+86            1321    WFREFSR|VP  0.075    .
+86            1329    PFSSLSR|CS  0.083    .
+86            1338    CYFGGFK|GG  0.054    .
+86            1343    FKGGCMR|DE  0.082    .
+86            1358    EGCQMAK|KI  0.066    .
+86            1359    GCQMAKK|IK  0.104    .
+86            1361    QMAKKIK|AA  0.097    .
+86            1371    YMECSSK|ED  0.063    .
+86            1385    VFLEAIR|LG  0.067    .
+86            1394    SEYLANK|TN  0.055    .
+86            1397    LANKTNK|KN  0.083    .
+86            1398    ANKTNKK|NK  0.081    .
+86            1400    KTNKKNK|KK  0.083    .
+86            1401    TNKKNKK|KR  0.098    .
+86            1402    NKKNKKK|RA  0.164    .
+86            1403    KKNKKKR|AS  0.381    .
+86            1412    VSFEEGR|QM  0.083    .
+86            1417    GRQMAER|IG  0.101    .
+86            1445    NHAIEIR|NI  0.098    .
+86            1453    IPQNTNR|EA  0.137    .
+86            1459    REAINSR|CG  0.089    .
+86            1462    INSRCGK|TS  0.135    .
+86            1468    KTSLLYR|LY  0.107    .
+86            1488    IFDVSSR|IW  0.104    .
+86            1493    SRIWTGK|DG  0.089    .
+86            1497    TGKDGQK|VS  0.065    .
+86            1513    GSAGNDR|LR  0.072    .
+86            1515    AGNDRLR|PL  0.104    .
+86            1535    VNVCEPK|EL  0.069    .
+86            1541    KELSIAK|SR  0.077    .
+86            1543    LSIAKSR|WR  0.094    .
+86            1545    IAKSRWR|NE  0.071    .
+86            1549    RWRNELK|HH  0.072    .
+86            1563    VILVGSK|VD  0.054    .
+86            1567    GSKVDLR|DE  0.085    .
+86            1578    VSFEEGR|QM  0.084    .
+86            1583    GRQMAER|IG  0.095    .
+86            1598    TSGLGER|ER  0.103    .
+86            1600    GLGERER|ED  0.071    .
+86            1604    REREDVR|DT  0.095    .
+86            1608    DVRDTLR|ER  0.085    .
+86            1610    RDTLRER|RK  0.064    .
+86            1611    DTLRERR|KA  0.383    .
+86            1612    TLRERRK|AE  0.105    .
+86            1615    ERRKAER|AW  0.143    .
+86            1619    AERAWEK|NK  0.061    .
+86            1621    RAWEKNK|TG  0.064    .
+86            1624    EKNKTGR|TK  0.105    .
+86            1626    NKTGRTK|AR  0.068    .
+86            1628    TGRTKAR|YR  0.161    .
+86            1630    RTKARYR|EL  0.102    .
+86            1634    RYRELQR|QF  0.097    .
+86            1638    LQRQFER|VD  0.092    .
+86            1641    QFERVDK|DA  0.175    .
+86            1644    RVDKDAR|ME  0.072    .
+86            1649    ARMEYVR|KK  0.076    .
+86            1650    RMEYVRK|KL  0.105    .
+86            1651    MEYVRKK|LE  0.101    .
+86            1656    KKLEDVK|DD  0.069    .
+86            1664    DPAGLQK|ML  0.066    .
+86            1668    LQKMLAR|LL  0.154    .
+86            1672    LARLLGK|KE  0.058    .
+86            1673    ARLLGKK|ET  0.071    .
+86            1684    PGGLSDK|KL  0.064    .
+86            1685    GGLSDKK|LA  0.084    .
+86            1701    HPIELFK|ST  0.079    .
+86            1705    LFKSTLK|TR  0.051    .
+86            1707    KSTLKTR|LF  0.086    .
+86            1721    PASGDSR|CG  0.075    .
+86            1737    FSTSSIR|SE  0.079    .
+86            1743    RSEFFPK|CV  0.088    .
+86            1746    FFPKCVR|IY  0.067    .
+86            1749    KCVRIYK|DL  0.181    .
+86            1755    KDLFSVR|YT  0.107    .
+86            1760    VRYTALK|LV  0.079    .
+86            1781    PDWPALK|FV  0.081    .
+86            1792    GSGAMGK|TC  0.058    .
+86            1798    KTCLLIR|YF  0.102    .
+86            1801    LLIRYFR|KE  0.170    .
+86            1802    LIRYFRK|EF  0.082    .
+86            1807    RKEFPEK|YI  0.081    .
+86            1826    VAGCNGK|MY  0.061    .
+86            1845    EDYHVLR|PL  0.097    .
+86            1864    LNSVEYK|DQ  0.087    .
+86            1879    YWWPELK|HH  0.063    .
+86            1893    VILVGSK|ID  0.055    .
+86            1897    GSKIDLR|DE  0.078    .
+86            1900    IDLRDEK|SS  0.208    .
+86            1908    SSFEEGR|QM  0.102    .
+86            1912    EGRQMAK|KI  0.070    .
+86            1913    GRQMAKK|IK  0.133    .
+86            1915    QMAKKIK|AA  0.098    .
+86            1925    YMECSSK|EN  0.065    .
+86            1939    VFTEAIR|LG  0.064    .
+86            1948    AEYQATK|KN  0.058    .
+86            1949    EYQATKK|NK  0.076    .
+86            1951    QATKKNK|KK  0.072    .
+86            1952    ATKKNKK|KN  0.092    .
+86            1953    TKKNKKK|NA  0.209    .
+86            1957    KKKNACK|VD  0.062    .
+86            1969    VLGMNSR|IL  0.079    .
+86            1972    MNSRILK|TM  0.140    .
+86            1989    DWPVNPK|WP  0.059    .
+86            1994    PKWPTLK|FV  0.102    .
+86            2000    KFVAVGR|GA  0.141    .
+86            2005    GRGAMGK|TC  0.069    .
+86            2011    KTCMLIR|YF  0.106    .
+86            2014    MLIRYFK|NK  0.130    .
+86            2016    IRYFKNK|FP  0.116    .
+86            2031    VYDNTIK|HA  0.074    .
+86            2055    GGEDYDR|LR  0.067    .
+86            2057    EDYDRLR|PL  0.092    .
+86            2076    LNAVHYK|ED  0.081    .
+86            2091    YWWPELK|LH  0.065    .
+86            2109    GSMVDLR|DE  0.088    .
+86            2124    EGCQMAK|KI  0.066    .
+86            2125    GCQMAKK|IK  0.104    .
+86            2127    QMAKKIK|AA  0.097    .
+86            2137    YMECSSK|ED  0.063    .
+86            2151    VFLEAIR|LG  0.067    .
+86            2160    SEYLANK|TN  0.058    .
+86            2163    LANKTNK|NK  0.078    .
+86            2165    NKTNKNK|RF  0.070    .
+86            2166    KTNKNKR|FG  0.223    .
+86            2169    KNKRFGR|YA  0.631 *ProP*
+86            2174    GRYAMGK|TC  0.069    .
+86            2180    KTCMLIR|YF  0.103    .
+86            2183    MLIRYFK|NE  0.117    .
+86            2200    VFENNLK|HV  0.082    .
+86            2224    GGEDYDR|LR  0.066    .
+86            2226    EDYDRLR|PL  0.086    .
+86            2247    SVECLYK|DQ  0.066    .
+86            2262    YWWPELK|HH  0.063    .
+86            2276    VILVGSK|VD  0.054    .
+86            2280    GSKVDLR|DE  0.096    .
+86            2286    RDENSVR|FE  0.112    .
+86            2291    VRFEEGR|QM  0.092    .
+86            2296    GRQMAER|IG  0.101    .
+86            2308    YMECSSK|EN  0.065    .
+86            2318    GVTEIFR|EA  0.082    .
+86            2322    IFREAIR|LG  0.077    .
+86            2331    TEYQATK|KK  0.060    .
+86            2332    EYQATKK|KN  0.093    .
+86            2333    YQATKKK|NK  0.107    .
+86            2335    ATKKKNK|KK  0.063    .
+86            2336    TKKKNKK|KL  0.126    .
+86            2337    KKKNKKK|LK  0.154    .
+86            2339    KNKKKLK|FS  0.088    .
+86            2352    EPQDTTR|LC  0.088    .
+86            2359    LCILGSR|HT  0.090    .
+86            2363    GSRHTGK|TT  0.069    .
+86            2393    NSPVFVK|DR  0.065    .
+86            2395    PVFVKDR|PF  0.118    .
+86            2414    DQIAEER|PI  0.071    .
+86            2424    LPFVFDK|AR  0.070    .
+86            2426    FVFDKAR|LA  0.093    .
+86            2441    ADTLSYR|SD  0.088    .
+86            2445    SYRSDVK|RW  0.065    .
+86            2446    YRSDVKR|WV  0.701 *ProP*
+86            2452    RWVDAVR|TH  0.086    .
+86            2455    DAVRTHK|PR  0.103    .
+86            2457    VRTHKPR|ER  0.106    .
+86            2459    THKPRER|IP  0.091    .
+86            2468    IVLVATK|TD  0.057    .
+86            2472    ATKTDLR|GK  0.078    .
+86            2474    KTDLRGK|DH  0.074    .
+86            2485    VSEMQGR|SL  0.151    .
+86            2488    MQGRSLR|RK  0.242    .
+86            2489    QGRSLRR|KV  0.241    .
+86            2490    GRSLRRK|VG  0.113    .
+86            2494    RRKVGAR|GY  0.130    .
+86            2527    EGSNSDR|FP  0.139    .
+86            2542    IFDTYTK|IL  0.068    .
+86            2570    VVVVVLR|FG  0.065    .
+86            2575    LRFGLCR|AY  0.090    .
+86            2578    GLCRAYR|LK  0.251    .
+86            2580    CRAYRLK|RS  0.063    .
+86            2581    RAYRLKR|SK  0.677 *ProP*
+86            2583    YRLKRSK|ES  0.064    .
+86            2588    SKESNSR|PN  0.088    .
+86            2593    SRPNQVK|LG  0.065    .
+86            2615    FSLVWIK|SL  0.067    .
+86            2625    FTISVWR|RR  0.062    .
+86            2626    TISVWRR|RP  0.163    .
+86            2627    ISVWRRR|PD  0.122    .
+86            2635    DLSALSR|IK  0.093    .
+86            2637    SALSRIK|WG  0.058    .
+86            2657    LMDDWYR|DV  0.150    .
+86            2665    VVDDEMR|VY  0.075    .
+86            2672    VYPVEIK|MK  0.062    .
+86            2674    PVEIKMK|EN  0.075    .
+86            2691    QDCSATR|IA  0.091    .
+86            2696    TRIAETR|PS  0.087    .
+86            2708    SSVVTGR|SC  0.150    .
+86            2719    EMGTLER|QV  0.113    .
+86            2725    RQVYVTR|NS  0.085    .
+86            2728    YVTRNSK|KN  0.081    .
+86            2729    VTRNSKK|NN  0.101    .
+86            2732    NSKKNNR|NW  0.109    .
+86            2746    NHSALHR|GT  0.103    .
+86            2786    SITLYTK|CK  0.058    .
+86            2788    TLYTKCK|PS  0.067    .
+86            2791    TKCKPSK|LN  0.069    .
+86            2795    PSKLNFK|RC  0.061    .
+86            2796    SKLNFKR|CF  0.219    .
+86            2826    VNDVFQR|TA  0.136    .
+86            2833    TAEDTTR|LC  0.082    .
+86            2840    LCILGSR|HT  0.090    .
+86            2844    GSRHTGK|TT  0.069    .
+86            2875    NNPVIVK|DR  0.059    .
+86            2877    PVIVKDR|PF  0.115    .
+86            2896    DQIAEER|PI  0.071    .
+86            2906    LPFVFDK|AR  0.068    .
+86            2908    FVFDKAR|VV  0.109    .
+86            2923    TDTLSYR|SD  0.097    .
+86            2927    SYRSDVK|RW  0.061    .
+86            2928    YRSDVKR|WV  0.620 *ProP*
+86            2934    RWVNAVR|TH  0.090    .
+86            2937    NAVRTHK|PR  0.108    .
+86            2939    VRTHKPR|ER  0.108    .
+86            2941    THKPRER|IP  0.091    .
+86            2950    IVLVATK|TD  0.054    .
+86            2954    ATKTDLR|DK  0.087    .
+86            2956    KTDLRDK|DH  0.068    .
+86            2967    VSEIQGR|SL  0.166    .
+86            2971    QGRSLSR|KV  0.137    .
+86            2972    GRSLSRK|VG  0.127    .
+86            2976    SRKVGAR|GY  0.140    .
+86            3003    QIAELCR|MA  0.083    .
+86            3008    CRMANLK|CV  0.101    .
+86            3019    GDGAVGK|TC  0.058    .
+86            3030    ISYAQDR|FP  0.129    .
+86            3045    IFDTYTK|IL  0.066    .
+86            3086    EEFSTQR|SY  0.095    .
+86            3105    CFAVNSR|AS  0.080    .
+86            3112    ASYNNVK|SQ  0.090    .
+86            3117    VKSQWEK|EG  0.069    .
+86            3125    GCTMAER|QV  0.097    .
+86            3128    MAERQVK|CV  0.209    .
+86            3139    GDGNVGK|TC  0.062    .
+86            3156    AFPGEYR|PT  0.078    .
+86            3168    NYTTTVK|FQ  0.064    .
+86            3175    FQGANVK|LD  0.057    .
+86            3189    GQAEYDR|LR  0.068    .
+86            3191    AEYDRLR|PL  0.094    .
+86            3211    YSYSSVR|SI  0.114    .
+86            3224    DFTLYLK|LL  0.054    .
+86            3265    VILVAAK|KD  0.054    .
+86            3266    ILVAAKK|DL  0.125    .
+86            3269    AAKKDLR|NS  0.074    .
+86            3279    PECISTR|DG  0.099    .
+86            3286    DGQDLAK|EF  0.081    .
+86            3292    KEFGPVR|FG  0.079    .
+86            3298    RFGLQIR|LP  0.083    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,344 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2209 264         
+MVFPKESSLSLRYRLTNDHHFDDVHLQLIIEMNRATDHFALPRHTATRACSICQRSCQTLKCFLMLVRSACNISVISSSY      80
+FSLCRCVTHRYSSTMSSFWSTLSEHAPKPSDPDKFAEFYAARCTENPIKALQIKDYEGRRSKREGHVRFVVISDSHNRKN     160
+ITVSIPARNVIKGNGVYSDSQTTFINAALCDVSYRPNQPAYVFDLPIKEQCVTHRYSSTMSSFWSTLSEHAPKPSDPDKF     240
+AEFYAARCTENPIKALQIKDYEGRRSKREGHVRFVVISDSHNRKNITRRNYPFYFAYAFGQESFEEFWTKKTPQWSKSPT     320
+KFVENILSVSQEVTRLDSHSLHEEKGWNKKTTVRFVCTSDTHNQTERYNFQIPPGDVLIHAGDFSQVGDITEVYHFADWL     400
+DTLPHPIKIVIPGNHELTFDPACMRGGGGGGSDHREKMIERLSQSCTLLEDSTAIVHGIKIFGSPWQPEFGGWAYNLIRG     480
+DECQAKWLEIPTDTDFLITHGPPAGHGDLCRNKIRAGCVDLLQEIQTRIQPQYHIFGHIHEDPGVTTDGQTKFVNASMCD     560
+IRYHANQYPIIIDMPRVSEEMVLKSCPAEWRPEIDPRTRGHASDSEMDFFRGNGSPIPGLRSSPSSSNVAPDPSSETDQE     640
+QNIIQNKFSYYFMHRTGKLMDSTVEEQTKKFIFWVKRLDAPIEKKASEVQKFYAFMSKRLHNFPGFDGWSNEMVEDIVTG     720
+MERFVMVNIHDSVFNPAEDRERNQLLDARIRSLIWILPKHLDFTLPSDSEQADRQLAIAQSHLLQETTDRRNRTPHDKIR     800
+GMVQCCNALHDLFKIAHEAAAGADELLPMLIYTIIVAAPPDLYATIQYIDRFLPSDTLASGETAYHFTNMCCAQQFLESL     880
+SHDKLSLSEEEFTHFMEGHSSHLEEALTTKFASEMDFFRGNGSPIPGLRSSPSSSNVAPDPSSETDQEQNIIQNKFSYYF     960
+MHRTGKLMDSTVEEQTKKFIFWVKRLDAPIEKKASEVQKFYAFMSKRLHNFPGFDGWSNEMVEDIVTGMERFVMVNIHDS    1040
+VFNPAEDRERNQLLDARIRSLIWILPKHLDFTLPSDSEQADRQLAIAQSHLLQETTDRRNRTPHDKIRGMVQCCNALHDL    1120
+FKIAHEAAAGADELLPMLIYTIIVAAPPDLYATIQYIDRFLPSDTLASGETAYHFTNMCCAQQFLESLSHDKLSLSEEEF    1200
+THFMEGHSSHLEEALTTKFASGLLDNLTRVKECEERLKRLRGFHSKLGGNMEQLRGDVRSHRKKVEEEVTEMMGLFNSLQ    1280
+TEMGVHYKNSTEVSSSDWLFTCTVLLLLKIEMQTAVRLARVCRSTKCCRHCKLSVLSDYTFDRSVQFRTTDHPFLRERYE    1360
+TGYDEKLKVLFGKEHPQPNKDEIKFSDFKSLRPSLQAQLGVLGFDKPMPVQHETLKATLQGRDAVIKSVTGSGKTLAFVL    1440
+PLLNKIGAQRKGIGGQRPQAIITAPTRQLCRQISNVVESFIGEERLIRMWAGMGERVRGQAKHARAEGRDIVIATPGRTM    1520
+QLVSMNIIRYIVAPRFTGMLGGIERVLPGKSGPADLRFLVLDEADELLHDVFYKQMKWVLDNSNKDKQMIMTTATVPRNV    1600
+QFVMDRYMNHHIMIDMGDSQADVPASVKHKAVLVDGKLGFMAMKWILKMDHKGCTMVFVRRILSESRVNSNMEDFRSGKV    1680
+DVLVGTDMLARGTDIPQCSLVVHNNPELDATKYLHRSGRTGRAGNAGTSVVMVANENTEHMEFLSELTQLAPFEYYLFSR    1760
+TDQCRLTVKNENNVSLVSPELPQGNRTSRHEASYSHPYIPKGQPNCQVGVEGQTQKPSKTSKQPIRTRYLGLVTGYQPIR    1840
+DQYFLIRSVPGGRANLFHLLFELKQKRAQLVSKMGDLLADPKTTPVIDDYLTLIRGFVQSAEGRASPLQDLLKFRWTQSL    1920
+GTREPEVQKCAIYEVANVCVNVGLWYMKRAAKVASTNNYVEADAKEVHTCLRTAAGVFEYVLEKVAPNLDGSQLEDWHDC    2000
+SVPVLQAYKLECTAEAQEVTVARAIELKHKPDLISALAHETSKLFSDADVALRESNTEYVTKWRRYLQSKIKFYSAYARS    2080
+FQGEYLLTQDKCGESIKTLQEAQKLYKEAQVLCKQYENASGNAVGEVRPAKHPFFQKLGPIIDLRLQKSERENGFIYYQK    2160
+VPEELPELELKATFGLVAPLPFEVPPVHAIFTEEAYKDFTIQQTPGPKI                                   2240
+................................................................................      80
+..............................................................P.................     160
+................................................................................     240
+...........................P....................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+..........................................P.....................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+.................................................                                   2240
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+264              5    --MVFPK|ES  0.074    .
+264             12    ESSLSLR|YR  0.128    .
+264             14    SLSLRYR|LT  0.133    .
+264             34    LIIEMNR|AT  0.079    .
+264             43    DHFALPR|HT  0.085    .
+264             48    PRHTATR|AC  0.153    .
+264             55    ACSICQR|SC  0.122    .
+264             61    RSCQTLK|CF  0.059    .
+264             68    CFLMLVR|SA  0.103    .
+264             85    SYFSLCR|CV  0.095    .
+264             90    CRCVTHR|YS  0.125    .
+264            108    LSEHAPK|PS  0.073    .
+264            114    KPSDPDK|FA  0.103    .
+264            122    AEFYAAR|CT  0.099    .
+264            129    CTENPIK|AL  0.064    .
+264            134    IKALQIK|DY  0.086    .
+264            139    IKDYEGR|RS  0.085    .
+264            140    KDYEGRR|SK  0.198    .
+264            142    YEGRRSK|RE  0.146    .
+264            143    EGRRSKR|EG  0.522 *ProP*
+264            148    KREGHVR|FV  0.179    .
+264            158    ISDSHNR|KN  0.079    .
+264            159    SDSHNRK|NI  0.131    .
+264            168    TVSIPAR|NV  0.236    .
+264            172    PARNVIK|GN  0.081    .
+264            195    LCDVSYR|PN  0.088    .
+264            208    VFDLPIK|EQ  0.055    .
+264            215    EQCVTHR|YS  0.112    .
+264            233    LSEHAPK|PS  0.073    .
+264            239    KPSDPDK|FA  0.103    .
+264            247    AEFYAAR|CT  0.099    .
+264            254    CTENPIK|AL  0.064    .
+264            259    IKALQIK|DY  0.086    .
+264            264    IKDYEGR|RS  0.085    .
+264            265    KDYEGRR|SK  0.198    .
+264            267    YEGRRSK|RE  0.146    .
+264            268    EGRRSKR|EG  0.522 *ProP*
+264            273    KREGHVR|FV  0.179    .
+264            283    ISDSHNR|KN  0.083    .
+264            284    SDSHNRK|NI  0.097    .
+264            288    NRKNITR|RN  0.092    .
+264            289    RKNITRR|NY  0.161    .
+264            310    FEEFWTK|KT  0.065    .
+264            311    EEFWTKK|TP  0.080    .
+264            317    KTPQWSK|SP  0.072    .
+264            321    WSKSPTK|FV  0.121    .
+264            335    VSQEVTR|LD  0.106    .
+264            345    HSLHEEK|GW  0.070    .
+264            349    EEKGWNK|KT  0.059    .
+264            350    EKGWNKK|TT  0.097    .
+264            354    NKKTTVR|FV  0.172    .
+264            367    THNQTER|YN  0.147    .
+264            408    TLPHPIK|IV  0.095    .
+264            425    FDPACMR|GG  0.109    .
+264            435    GGGSDHR|EK  0.085    .
+264            437    GSDHREK|MI  0.071    .
+264            441    REKMIER|LS  0.072    .
+264            460    AIVHGIK|IF  0.058    .
+264            479    WAYNLIR|GD  0.102    .
+264            486    GDECQAK|WL  0.080    .
+264            511    GHGDLCR|NK  0.092    .
+264            513    GDLCRNK|IR  0.058    .
+264            515    LCRNKIR|AG  0.104    .
+264            528    LQEIQTR|IQ  0.077    .
+264            552    TTDGQTK|FV  0.091    .
+264            562    ASMCDIR|YH  0.097    .
+264            576    IIIDMPR|VS  0.085    .
+264            584    SEEMVLK|SC  0.075    .
+264            591    SCPAEWR|PE  0.081    .
+264            597    RPEIDPR|TR  0.130    .
+264            599    EIDPRTR|GH  0.071    .
+264            611    SEMDFFR|GN  0.137    .
+264            621    SPIPGLR|SS  0.103    .
+264            647    QNIIQNK|FS  0.068    .
+264            655    SYYFMHR|TG  0.074    .
+264            658    FMHRTGK|LM  0.122    .
+264            669    TVEEQTK|KF  0.061    .
+264            670    VEEQTKK|FI  0.109    .
+264            676    KFIFWVK|RL  0.064    .
+264            677    FIFWVKR|LD  0.166    .
+264            684    LDAPIEK|KA  0.075    .
+264            685    DAPIEKK|AS  0.097    .
+264            691    KASEVQK|FY  0.079    .
+264            698    FYAFMSK|RL  0.060    .
+264            699    YAFMSKR|LH  0.128    .
+264            723    IVTGMER|FV  0.130    .
+264            740    FNPAEDR|ER  0.076    .
+264            742    PAEDRER|NQ  0.062    .
+264            749    NQLLDAR|IR  0.071    .
+264            751    LLDARIR|SL  0.141    .
+264            759    LIWILPK|HL  0.070    .
+264            774    DSEQADR|QL  0.101    .
+264            790    LQETTDR|RN  0.072    .
+264            791    QETTDRR|NR  0.089    .
+264            793    TTDRRNR|TP  0.283    .
+264            798    NRTPHDK|IR  0.075    .
+264            800    TPHDKIR|GM  0.151    .
+264            814    ALHDLFK|IA  0.082    .
+264            851    TIQYIDR|FL  0.083    .
+264            884    ESLSHDK|LS  0.059    .
+264            910    EEALTTK|FA  0.078    .
+264            919    SEMDFFR|GN  0.124    .
+264            929    SPIPGLR|SS  0.103    .
+264            955    QNIIQNK|FS  0.068    .
+264            963    SYYFMHR|TG  0.074    .
+264            966    FMHRTGK|LM  0.122    .
+264            977    TVEEQTK|KF  0.061    .
+264            978    VEEQTKK|FI  0.109    .
+264            984    KFIFWVK|RL  0.064    .
+264            985    FIFWVKR|LD  0.166    .
+264            992    LDAPIEK|KA  0.075    .
+264            993    DAPIEKK|AS  0.097    .
+264            999    KASEVQK|FY  0.079    .
+264           1006    FYAFMSK|RL  0.060    .
+264           1007    YAFMSKR|LH  0.128    .
+264           1031    IVTGMER|FV  0.130    .
+264           1048    FNPAEDR|ER  0.076    .
+264           1050    PAEDRER|NQ  0.062    .
+264           1057    NQLLDAR|IR  0.071    .
+264           1059    LLDARIR|SL  0.141    .
+264           1067    LIWILPK|HL  0.070    .
+264           1082    DSEQADR|QL  0.101    .
+264           1098    LQETTDR|RN  0.072    .
+264           1099    QETTDRR|NR  0.089    .
+264           1101    TTDRRNR|TP  0.283    .
+264           1106    NRTPHDK|IR  0.075    .
+264           1108    TPHDKIR|GM  0.151    .
+264           1122    ALHDLFK|IA  0.082    .
+264           1159    TIQYIDR|FL  0.083    .
+264           1192    ESLSHDK|LS  0.059    .
+264           1218    EEALTTK|FA  0.089    .
+264           1229    LLDNLTR|VK  0.089    .
+264           1231    DNLTRVK|EC  0.059    .
+264           1236    VKECEER|LK  0.073    .
+264           1238    ECEERLK|RL  0.056    .
+264           1239    CEERLKR|LR  0.297    .
+264           1241    ERLKRLR|GF  0.109    .
+264           1246    LRGFHSK|LG  0.079    .
+264           1255    GNMEQLR|GD  0.085    .
+264           1259    QLRGDVR|SH  0.120    .
+264           1262    GDVRSHR|KK  0.288    .
+264           1263    DVRSHRK|KV  0.131    .
+264           1264    VRSHRKK|VE  0.180    .
+264           1288    EMGVHYK|NS  0.066    .
+264           1309    TVLLLLK|IE  0.051    .
+264           1317    EMQTAVR|LA  0.086    .
+264           1320    TAVRLAR|VC  0.187    .
+264           1323    RLARVCR|ST  0.609 *ProP*
+264           1326    RVCRSTK|CC  0.112    .
+264           1329    RSTKCCR|HC  0.079    .
+264           1332    KCCRHCK|LS  0.107    .
+264           1343    SDYTFDR|SV  0.184    .
+264           1348    DRSVQFR|TT  0.170    .
+264           1356    TDHPFLR|ER  0.098    .
+264           1358    HPFLRER|YE  0.087    .
+264           1366    ETGYDEK|LK  0.055    .
+264           1368    GYDEKLK|VL  0.071    .
+264           1373    LKVLFGK|EH  0.067    .
+264           1380    EHPQPNK|DE  0.060    .
+264           1384    PNKDEIK|FS  0.065    .
+264           1389    IKFSDFK|SL  0.089    .
+264           1392    SDFKSLR|PS  0.099    .
+264           1406    GVLGFDK|PM  0.059    .
+264           1416    VQHETLK|AT  0.075    .
+264           1422    KATLQGR|DA  0.115    .
+264           1427    GRDAVIK|SV  0.181    .
+264           1434    SVTGSGK|TL  0.068    .
+264           1445    VLPLLNK|IG  0.053    .
+264           1450    NKIGAQR|KG  0.084    .
+264           1451    KIGAQRK|GI  0.189    .
+264           1457    KGIGGQR|PQ  0.074    .
+264           1467    IITAPTR|QL  0.093    .
+264           1471    PTRQLCR|QI  0.127    .
+264           1485    SFIGEER|LI  0.081    .
+264           1488    GEERLIR|MW  0.244    .
+264           1496    WAGMGER|VR  0.091    .
+264           1498    GMGERVR|GQ  0.093    .
+264           1502    RVRGQAK|HA  0.102    .
+264           1505    GQAKHAR|AE  0.138    .
+264           1509    HARAEGR|DI  0.176    .
+264           1518    VIATPGR|TM  0.073    .
+264           1529    VSMNIIR|YI  0.116    .
+264           1535    RYIVAPR|FT  0.131    .
+264           1545    MLGGIER|VL  0.072    .
+264           1550    ERVLPGK|SG  0.080    .
+264           1557    SGPADLR|FL  0.083    .
+264           1574    LHDVFYK|QM  0.076    .
+264           1577    VFYKQMK|WV  0.073    .
+264           1585    VLDNSNK|DK  0.075    .
+264           1587    DNSNKDK|QM  0.079    .
+264           1598    TTATVPR|NV  0.156    .
+264           1606    VQFVMDR|YM  0.094    .
+264           1628    DVPASVK|HK  0.057    .
+264           1630    PASVKHK|AV  0.094    .
+264           1637    AVLVDGK|LG  0.065    .
+264           1644    LGFMAMK|WI  0.068    .
+264           1648    AMKWILK|MD  0.068    .
+264           1652    ILKMDHK|GC  0.066    .
+264           1660    CTMVFVR|RI  0.076    .
+264           1661    TMVFVRR|IL  0.188    .
+264           1667    RILSESR|VN  0.080    .
+264           1676    SNMEDFR|SG  0.103    .
+264           1679    EDFRSGK|VD  0.102    .
+264           1691    GTDMLAR|GT  0.102    .
+264           1712    PELDATK|YL  0.070    .
+264           1716    ATKYLHR|SG  0.124    .
+264           1719    YLHRSGR|TG  0.398    .
+264           1722    RSGRTGR|AG  0.394    .
+264           1760    EYYLFSR|TD  0.075    .
+264           1765    SRTDQCR|LT  0.117    .
+264           1769    QCRLTVK|NE  0.059    .
+264           1786    ELPQGNR|TS  0.069    .
+264           1789    QGNRTSR|HE  0.182    .
+264           1801    SHPYIPK|GQ  0.066    .
+264           1816    VEGQTQK|PS  0.061    .
+264           1819    QTQKPSK|TS  0.071    .
+264           1822    KPSKTSK|QP  0.075    .
+264           1826    TSKQPIR|TR  0.114    .
+264           1828    KQPIRTR|YL  0.114    .
+264           1840    TGYQPIR|DQ  0.101    .
+264           1847    DQYFLIR|SV  0.196    .
+264           1853    RSVPGGR|AN  0.076    .
+264           1864    HLLFELK|QK  0.067    .
+264           1866    LFELKQK|RA  0.065    .
+264           1867    FELKQKR|AQ  0.124    .
+264           1873    RAQLVSK|MG  0.063    .
+264           1882    DLLADPK|TT  0.060    .
+264           1895    DYLTLIR|GF  0.071    .
+264           1904    VQSAEGR|AS  0.085    .
+264           1913    PLQDLLK|FR  0.064    .
+264           1915    QDLLKFR|WT  0.095    .
+264           1923    TQSLGTR|EP  0.101    .
+264           1929    REPEVQK|CA  0.068    .
+264           1948    VGLWYMK|RA  0.063    .
+264           1949    GLWYMKR|AA  0.185    .
+264           1952    YMKRAAK|VA  0.191    .
+264           1965    YVEADAK|EV  0.087    .
+264           1972    EVHTCLR|TA  0.104    .
+264           1984    FEYVLEK|VA  0.057    .
+264           2009    PVLQAYK|LE  0.062    .
+264           2023    QEVTVAR|AI  0.111    .
+264           2028    ARAIELK|HK  0.071    .
+264           2030    AIELKHK|PD  0.060    .
+264           2043    LAHETSK|LF  0.070    .
+264           2053    DADVALR|ES  0.075    .
+264           2062    NTEYVTK|WR  0.064    .
+264           2064    EYVTKWR|RY  0.075    .
+264           2065    YVTKWRR|YL  0.126    .
+264           2070    RRYLQSK|IK  0.067    .
+264           2072    YLQSKIK|FY  0.088    .
+264           2079    FYSAYAR|SF  0.162    .
+264           2091    YLLTQDK|CG  0.059    .
+264           2097    KCGESIK|TL  0.067    .
+264           2104    TLQEAQK|LY  0.066    .
+264           2107    EAQKLYK|EA  0.069    .
+264           2114    EAQVLCK|QY  0.070    .
+264           2128    NAVGEVR|PA  0.095    .
+264           2131    GEVRPAK|HP  0.132    .
+264           2137    KHPFFQK|LG  0.057    .
+264           2145    GPIIDLR|LQ  0.076    .
+264           2148    IDLRLQK|SE  0.161    .
+264           2151    RLQKSER|EN  0.114    .
+264           2160    GFIYYQK|VP  0.059    .
+264           2171    LPELELK|AT  0.065    .
+264           2197    FTEEAYK|DF  0.068    .
+264           2208    QQTPGPK|I-  0.059    .
+____________________________^_________________
+
+
+
+

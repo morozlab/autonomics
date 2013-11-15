@@ -1,0 +1,41 @@
+# 641 Length: 1459
+# 641 Number of predicted TMHs:  17
+# 641 Exp number of AAs in TMHs: 369.900239999999
+# 641 Exp number, first 60 AAs:  16.51961
+# 641 Total prob of N-in:        0.72717
+# 641 POSSIBLE N-term signal sequence
+641	TMHMM2.0	inside	     1    31
+641	TMHMM2.0	TMhelix	    32    54
+641	TMHMM2.0	outside	    55   113
+641	TMHMM2.0	TMhelix	   114   133
+641	TMHMM2.0	inside	   134   238
+641	TMHMM2.0	TMhelix	   239   256
+641	TMHMM2.0	outside	   257   270
+641	TMHMM2.0	TMhelix	   271   293
+641	TMHMM2.0	inside	   294   428
+641	TMHMM2.0	TMhelix	   429   451
+641	TMHMM2.0	outside	   452   500
+641	TMHMM2.0	TMhelix	   501   523
+641	TMHMM2.0	inside	   524   538
+641	TMHMM2.0	TMhelix	   539   558
+641	TMHMM2.0	outside	   559   572
+641	TMHMM2.0	TMhelix	   573   595
+641	TMHMM2.0	inside	   596   771
+641	TMHMM2.0	TMhelix	   772   794
+641	TMHMM2.0	outside	   795   803
+641	TMHMM2.0	TMhelix	   804   826
+641	TMHMM2.0	inside	   827   857
+641	TMHMM2.0	TMhelix	   858   880
+641	TMHMM2.0	outside	   881   967
+641	TMHMM2.0	TMhelix	   968   990
+641	TMHMM2.0	inside	   991  1052
+641	TMHMM2.0	TMhelix	  1053  1070
+641	TMHMM2.0	outside	  1071  1082
+641	TMHMM2.0	TMhelix	  1083  1105
+641	TMHMM2.0	inside	  1106  1113
+641	TMHMM2.0	TMhelix	  1114  1136
+641	TMHMM2.0	outside	  1137  1182
+641	TMHMM2.0	TMhelix	  1183  1205
+641	TMHMM2.0	inside	  1206  1271
+641	TMHMM2.0	TMhelix	  1272  1294
+641	TMHMM2.0	outside	  1295  1459

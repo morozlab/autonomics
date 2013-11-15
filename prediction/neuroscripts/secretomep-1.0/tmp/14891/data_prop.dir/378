@@ -1,0 +1,265 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1836 378         
+MVIPYLRHCSRPAHSVFKSQCRRRFSVPASSAGPGLGKIIAPIVLAGAGAGGYYYYKYVGLTEQAEPAPVRPYPELPSFT      80
+VQPIVEKAATIAAVEEETPDIEPTVVVEQVVEHVAPAVVVEEAAPDVVGECPPDQEPTISPPPDEPVVVLFEEEPPAEEF     160
+VVVEVPVETLPVVAGQEEVEEVTSDVVREAVEELNTLLDEISLPITHAEITENVEEEAAFDDRILEALQSSDYEPVLSDS     240
+ILEILVGKAANREKAVVATISRPAAAARALLSKSKQDYFSSCQTAQEHHIDHALLAHYQQSVANRRKVLDRELEVLREHF     320
+PTRHDTLNQTFEHAGTTSARVEELNTLITYLSSKVSRLEGELESQQTSELQKLRDVAQAQKEEDDRVMEERLKAQAEQLK     400
+YQHEIAVHTEVENAVAAAREEAARHSERQAELLKQEMKVNTEREIRNLTSFWSDEAALREATVEVEYQGRLEKSKVVLEK     480
+VRENIQAQNGSYDRILIARRLLNLTTDIYETANAATGPDNTKLKETVDCLRSEFSTDSLVDAVTSSMTTSLSAPLASFGA     560
+LSAQLKDLEPQCRRVALVTGSDCGFGSRVASLAMTTLTLRDDEYNTKPEDGGCATFYHLSKAQAEMSANNLDLAARHVNQ     640
+MEGEPRSLVTDWLRDARALLELQQSAKLRAVYRAMRLTPDVIEEAAQFVNPLKERELDLRDRKIPVVENLAVTLDQFDCI     720
+DFSDNELRKLDGFPLLSRLSMLICNNNKITKIAEDLYAAIPNIETLVLTGNTLEELGDLKGLSKLTKLKYLSLMRNPVAA     800
+KNHYRSYVIYTCPSIRVLDYKRVKQQERVAARKMFAGKKKTAIEANKTFTPGEPVKQTPADKEAIKAAIAKASSLDEIRR     880
+LEMMLNSDSIFLLRIIIFYFLPPFICRFALHMERIGRDSLLLLLLLRVPGLAYGKPTRDAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1120
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLSLYPGP    1200
+AAAARALLSKSKQDYFSSCQTAQEHHIDHALLAHYQQSVANRRKVLDRELEVLREHFPTRHDTLNQTFEHAGTTSARVEE    1280
+LNTLITYLSSKVSRLEGELESQQTSELQKLRDVAQAQKEEDDRVMEERLKAQAEQLKYQHEIAVHTEVENAVAAAREEAA    1360
+RHSERQAELLKQEMKVNTEREIRNLTSFWSDEAALREATVEVEYQGRLEKSKVVLEKVRENIQAQNGSYDRILIARRLLN    1440
+LTTDIYETANAATGPDNTKLKETVDCLRSEFSTDSLVDAVTSSMTSSLSAPLASFGALSAQLNDLEPQCRRVALVTGSDC    1520
+GFGSRVASLAMATLTLRDDEYDTKPEDGGCATFYHLTKAQAEMSANNLDLAARHVNQMEGEPRSLVTDWLRDARALLELQ    1600
+QSAKYVFLEKLRAVYRAMRLTPDVIEEAAQFVNPLKERELDLRDRKIPVVENLAVTLDQFDCIDFSDNELRKLDGFPLLS    1680
+RLSMLICNNNKITKIAEDLYAAIPNIETLVLTGNTLEELGDLKGLSKLTKLKYLSLMRNPVAAKNHYRSYVIYTCPSIRV    1760
+LDYKRVKQQERVAARKMFAGKKKAAIEATKTFTPGEPVKQTPADKEAIKAAIAKASSLDEIRRLEMMLNSGTIPGF        1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+............................................................................        1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+378              7    MVIPYLR|HC  0.084    .
+378             11    YLRHCSR|PA  0.138    .
+378             18    PAHSVFK|SQ  0.090    .
+378             22    VFKSQCR|RR  0.079    .
+378             23    FKSQCRR|RF  0.129    .
+378             24    KSQCRRR|FS  0.199    .
+378             38    AGPGLGK|II  0.066    .
+378             57    GGYYYYK|YV  0.095    .
+378             71    AEPAPVR|PY  0.076    .
+378             87    VQPIVEK|AA  0.066    .
+378            188    VTSDVVR|EA  0.136    .
+378            223    EAAFDDR|IL  0.109    .
+378            248    LEILVGK|AA  0.069    .
+378            252    VGKAANR|EK  0.075    .
+378            254    KAANREK|AV  0.087    .
+378            262    VVATISR|PA  0.090    .
+378            268    RPAAAAR|AL  0.109    .
+378            273    ARALLSK|SK  0.098    .
+378            275    ALLSKSK|QD  0.061    .
+378            305    QQSVANR|RK  0.082    .
+378            306    QSVANRR|KV  0.176    .
+378            307    SVANRRK|VL  0.105    .
+378            311    RRKVLDR|EL  0.137    .
+378            317    RELEVLR|EH  0.079    .
+378            323    REHFPTR|HD  0.104    .
+378            340    AGTTSAR|VE  0.077    .
+378            354    ITYLSSK|VS  0.058    .
+378            357    LSSKVSR|LE  0.157    .
+378            372    QTSELQK|LR  0.073    .
+378            374    SELQKLR|DV  0.208    .
+378            381    DVAQAQK|EE  0.058    .
+378            386    QKEEDDR|VM  0.083    .
+378            391    DRVMEER|LK  0.110    .
+378            393    VMEERLK|AQ  0.059    .
+378            400    AQAEQLK|YQ  0.072    .
+378            419    NAVAAAR|EE  0.074    .
+378            424    AREEAAR|HS  0.120    .
+378            428    AARHSER|QA  0.119    .
+378            434    RQAELLK|QE  0.062    .
+378            438    LLKQEMK|VN  0.060    .
+378            443    MKVNTER|EI  0.087    .
+378            446    NTEREIR|NL  0.162    .
+378            459    SDEAALR|EA  0.090    .
+378            470    EVEYQGR|LE  0.071    .
+378            473    YQGRLEK|SK  0.154    .
+378            475    GRLEKSK|VV  0.078    .
+378            480    SKVVLEK|VR  0.079    .
+378            482    VVLEKVR|EN  0.095    .
+378            494    QNGSYDR|IL  0.078    .
+378            499    DRILIAR|RL  0.082    .
+378            500    RILIARR|LL  0.087    .
+378            522    TGPDNTK|LK  0.062    .
+378            524    PDNTKLK|ET  0.089    .
+378            531    ETVDCLR|SE  0.083    .
+378            566    ALSAQLK|DL  0.099    .
+378            573    DLEPQCR|RV  0.101    .
+378            574    LEPQCRR|VA  0.099    .
+378            588    DCGFGSR|VA  0.094    .
+378            600    MTTLTLR|DD  0.081    .
+378            607    DDEYNTK|PE  0.064    .
+378            621    TFYHLSK|AQ  0.060    .
+378            636    NLDLAAR|HV  0.151    .
+378            646    QMEGEPR|SL  0.100    .
+378            654    LVTDWLR|DA  0.109    .
+378            657    DWLRDAR|AL  0.191    .
+378            667    ELQQSAK|LR  0.063    .
+378            669    QQSAKLR|AV  0.201    .
+378            673    KLRAVYR|AM  0.094    .
+378            676    AVYRAMR|LT  0.206    .
+378            693    QFVNPLK|ER  0.060    .
+378            695    VNPLKER|EL  0.078    .
+378            700    ERELDLR|DR  0.079    .
+378            702    ELDLRDR|KI  0.088    .
+378            703    LDLRDRK|IP  0.119    .
+378            728    FSDNELR|KL  0.083    .
+378            729    SDNELRK|LD  0.085    .
+378            738    GFPLLSR|LS  0.064    .
+378            748    LICNNNK|IT  0.066    .
+378            751    NNNKITK|IA  0.088    .
+378            780    EELGDLK|GL  0.060    .
+378            784    DLKGLSK|LT  0.056    .
+378            787    GLSKLTK|LK  0.070    .
+378            789    SKLTKLK|YL  0.072    .
+378            795    KYLSLMR|NP  0.069    .
+378            801    RNPVAAK|NH  0.061    .
+378            805    AAKNHYR|SY  0.136    .
+378            816    YTCPSIR|VL  0.087    .
+378            821    IRVLDYK|RV  0.110    .
+378            822    RVLDYKR|VK  0.124    .
+378            824    LDYKRVK|QQ  0.065    .
+378            828    RVKQQER|VA  0.098    .
+378            832    QERVAAR|KM  0.117    .
+378            833    ERVAARK|MF  0.099    .
+378            838    RKMFAGK|KK  0.080    .
+378            839    KMFAGKK|KT  0.084    .
+378            840    MFAGKKK|TA  0.188    .
+378            847    TAIEANK|TF  0.075    .
+378            856    TPGEPVK|QT  0.072    .
+378            862    KQTPADK|EA  0.065    .
+378            866    ADKEAIK|AA  0.074    .
+378            871    IKAAIAK|AS  0.075    .
+378            879    SSLDEIR|RL  0.092    .
+378            880    SLDEIRR|LE  0.094    .
+378            894    DSIFLLR|II  0.080    .
+378            907    LPPFICR|FA  0.123    .
+378            914    FALHMER|IG  0.075    .
+378            917    HMERIGR|DS  0.199    .
+378            927    LLLLLLR|VP  0.067    .
+378            935    PGLAYGK|PT  0.060    .
+378            938    AYGKPTR|DA  0.134    .
+378           1205    GPAAAAR|AL  0.105    .
+378           1210    ARALLSK|SK  0.098    .
+378           1212    ALLSKSK|QD  0.061    .
+378           1242    QQSVANR|RK  0.082    .
+378           1243    QSVANRR|KV  0.176    .
+378           1244    SVANRRK|VL  0.105    .
+378           1248    RRKVLDR|EL  0.137    .
+378           1254    RELEVLR|EH  0.079    .
+378           1260    REHFPTR|HD  0.104    .
+378           1277    AGTTSAR|VE  0.077    .
+378           1291    ITYLSSK|VS  0.058    .
+378           1294    LSSKVSR|LE  0.157    .
+378           1309    QTSELQK|LR  0.073    .
+378           1311    SELQKLR|DV  0.208    .
+378           1318    DVAQAQK|EE  0.058    .
+378           1323    QKEEDDR|VM  0.083    .
+378           1328    DRVMEER|LK  0.110    .
+378           1330    VMEERLK|AQ  0.059    .
+378           1337    AQAEQLK|YQ  0.072    .
+378           1356    NAVAAAR|EE  0.074    .
+378           1361    AREEAAR|HS  0.120    .
+378           1365    AARHSER|QA  0.119    .
+378           1371    RQAELLK|QE  0.062    .
+378           1375    LLKQEMK|VN  0.060    .
+378           1380    MKVNTER|EI  0.087    .
+378           1383    NTEREIR|NL  0.162    .
+378           1396    SDEAALR|EA  0.090    .
+378           1407    EVEYQGR|LE  0.071    .
+378           1410    YQGRLEK|SK  0.154    .
+378           1412    GRLEKSK|VV  0.078    .
+378           1417    SKVVLEK|VR  0.079    .
+378           1419    VVLEKVR|EN  0.095    .
+378           1431    QNGSYDR|IL  0.078    .
+378           1436    DRILIAR|RL  0.082    .
+378           1437    RILIARR|LL  0.087    .
+378           1459    TGPDNTK|LK  0.062    .
+378           1461    PDNTKLK|ET  0.089    .
+378           1468    ETVDCLR|SE  0.083    .
+378           1510    DLEPQCR|RV  0.094    .
+378           1511    LEPQCRR|VA  0.103    .
+378           1525    DCGFGSR|VA  0.092    .
+378           1537    MATLTLR|DD  0.079    .
+378           1544    DDEYDTK|PE  0.064    .
+378           1558    TFYHLTK|AQ  0.061    .
+378           1573    NLDLAAR|HV  0.151    .
+378           1583    QMEGEPR|SL  0.100    .
+378           1591    LVTDWLR|DA  0.109    .
+378           1594    DWLRDAR|AL  0.191    .
+378           1604    ELQQSAK|YV  0.084    .
+378           1610    KYVFLEK|LR  0.056    .
+378           1612    VFLEKLR|AV  0.099    .
+378           1616    KLRAVYR|AM  0.086    .
+378           1619    AVYRAMR|LT  0.206    .
+378           1636    QFVNPLK|ER  0.060    .
+378           1638    VNPLKER|EL  0.078    .
+378           1643    ERELDLR|DR  0.079    .
+378           1645    ELDLRDR|KI  0.088    .
+378           1646    LDLRDRK|IP  0.119    .
+378           1671    FSDNELR|KL  0.083    .
+378           1672    SDNELRK|LD  0.085    .
+378           1681    GFPLLSR|LS  0.064    .
+378           1691    LICNNNK|IT  0.066    .
+378           1694    NNNKITK|IA  0.088    .
+378           1723    EELGDLK|GL  0.060    .
+378           1727    DLKGLSK|LT  0.056    .
+378           1730    GLSKLTK|LK  0.070    .
+378           1732    SKLTKLK|YL  0.072    .
+378           1738    KYLSLMR|NP  0.069    .
+378           1744    RNPVAAK|NH  0.061    .
+378           1748    AAKNHYR|SY  0.136    .
+378           1759    YTCPSIR|VL  0.087    .
+378           1764    IRVLDYK|RV  0.110    .
+378           1765    RVLDYKR|VK  0.124    .
+378           1767    LDYKRVK|QQ  0.065    .
+378           1771    RVKQQER|VA  0.098    .
+378           1775    QERVAAR|KM  0.116    .
+378           1776    ERVAARK|MF  0.093    .
+378           1781    RKMFAGK|KK  0.083    .
+378           1782    KMFAGKK|KA  0.091    .
+378           1783    MFAGKKK|AA  0.217    .
+378           1790    AAIEATK|TF  0.071    .
+378           1799    TPGEPVK|QT  0.072    .
+378           1805    KQTPADK|EA  0.065    .
+378           1809    ADKEAIK|AA  0.074    .
+378           1814    IKAAIAK|AS  0.075    .
+378           1822    SSLDEIR|RL  0.095    .
+378           1823    SLDEIRR|LE  0.095    .
+____________________________^_________________
+
+
+
+

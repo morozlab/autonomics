@@ -1,0 +1,324 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1990 319         
+MFTEAFACWLSPLGLYASHYQPGPLSLRLAAHIGTNLSVDTISLIVLLLAPIMMVMGPGETTCPLQRYVIGRYHCTSLVN      80
+NQSELVIGHVTGYQPIRDQCPVFPLNSSTNRINTIFNRRSLVINQLQKMTMSVKYNVILFGLVWFGSLIWDCKQSHSQVS     160
+PNRRDSIVPDHGLYNRFIICFALHLFHDKSMQDNGEHSIHVKKLCIMDIHQHNFKMCNEEQMVLVYVWIGYVCGLILATT     240
+VVAYKTRRLPTNFNEARNRPDPEILVPDWLITSIIYGHKMYVIYVIPEENTPCDTNIALKEFIKRDSERQQQNASYSCLL     320
+IPRSNTTDNNHHSRSFVTNSAPGRPKSVPAATGDSERQQQNASYSCLLIPRSNTTDNNHHSRSFVTNSAPGRPKSVPAAT     400
+GVLPSQSHQAAPLMGAFDSAFSHSASAFSLFSLFLSESQFRVSLSLSFCFLSGFSLSQFLLSLKLISLLLDLEPLLCFLN     480
+SMRRPQDSLSSIEDFARYMVHQLVTGTSFSSFKRLAPAAKSLTGANRPNQETLVPDWLITSHLTYNNDLLCEGSVDQLVK     560
+YGLSVDGVLPILYRNALLSRSDLLTPPPHRIDIVNDHGSAIDELKEIKKKNEEIAKTKKRVDIPSIVAGTKKSEIDIPHR     640
+RTKASELHGEILKRSKYNNKEEVEPVPSSTTSSTGTDPIPTPMVCTRVATETSKQPIRSRYIGHVTGYSSYVNEIIDAIR     720
+KKATDPQPPAPSDNSTSDPPSSRPSRERRRPPPPIRVEQRKAPETASAAPKAARSPTRETRRSRPTTPLTPDLLTPPPHR     800
+IDIVNDHGSAIDELKEIKKKNEEIAKTKKRVDIPSISGTKKSEIDIPHRRTKASELHGEILKRSKYNNKEEVEPVPNRTT     880
+SSTGTDPIPTPMVESSIPPNNPPSLPGRAKTPDYHYRIRRDSEGSVEVGFIEEHSVETEWQAIRSRRTTSSSTEAPRAAP     960
+AGSSLPRGSSFLGGPRRKIIVDRCADCEGGDSPPEIEIRICKKGRCPKHEPETDLSLYSTNVYNTDKPALMCGNPNPPRR    1040
+SSSLNRIPPEPPRNKTKSAVDTPSTLPHYRARSPAAMELERVTRTLNMLKAEVDSILTIWGCWAYQGYLKYAILALNSNS    1120
+YFCYSPSKSEKRGPEIAQKYEFELRAKIAYLRSPWYAQQPHMYKTSTSNYNSGTLPAQKHSHYLSTTPDIIRSLSPLIER    1200
+STGSSSPLDPRIRSPRSPTNSGTYNWNDSPLVVRASPRRSDPSTPRSSEGSTRRSSSSDGRRSPGEWNNSTLHRRSQSPT    1280
+DRRSQSPGAGRPDSPAGGSVGSGRRSPIAFRNSGSILVPEVWQSTERLNFLSPPPIRRSPSPTPSLKSSSTTSSKSSKSS    1360
+SEDLVGLRKPTKVYSKSASETTATDAHPLYARRNDIRYTISKPSVHTAPTITLYRDGVVSPFQPISLTDTRLIVSSPREG    1440
+NYEITDSPRPYSPYHPDKTPYYRARYHSEPQSPTGQNDATTSTTDILNPRSSKPFTPKEAPIKETKRSKPLTLSTHTLEV    1520
+PNDDLSTPLFTLEMETETLSDASPTVSNSRMAPVQNLAPVQNRFYDMDHYESECDLGAGVSSFHMNVNQGPGLPKREEQL    1600
+LTPPPLPPREGEEEEGEEGQEGVNGITLKGENLFDPFHIGTTYVILSRQNHGRFKFSTTPDPNRSLPGSPRGARSARSVP    1680
+SPDLMPPGSPASSFRGRSPNSTLPRGVGSPNSTLPRGTPGGSPARELSPGPGPVIRPIQAATTRATPINGDILHSPVAVM    1760
+PPKRELYKPRSLAGSLASLNLSKTDLNKNGGRPGSSFSPPLIPPRTRDQSVPRSPEQQLRKFNRPVKEPAFREVAVDVPN    1840
+APPPVINTRKPSIQEVEMEKKNPAARQYHLQNLSSPNSSFRSSSPSNNKGNSLRRKIPEVRMLGGEWKELAQRLGYDNSH    1920
+IASFSVDYPNPGQALLDHWSKQRDANLDELLYHMKDLGLWKTADTLDKTFDDIAVNRPIRTRYLGHVTGY              2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+............................P...................................................     800
+................................................................................     880
+.......................................P..........................P.............     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+...............P................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.........................................................................P..P...    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+......................................................................              2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+319             28    PGPLSLR|LA  0.084    .
+319             67    TTCPLQR|YV  0.132    .
+319             72    QRYVIGR|YH  0.158    .
+319             97    TGYQPIR|DQ  0.139    .
+319            111    LNSSTNR|IN  0.096    .
+319            118    INTIFNR|RS  0.074    .
+319            119    NTIFNRR|SL  0.189    .
+319            128    VINQLQK|MT  0.065    .
+319            134    KMTMSVK|YN  0.062    .
+319            153    SLIWDCK|QS  0.067    .
+319            163    SQVSPNR|RD  0.105    .
+319            164    QVSPNRR|DS  0.204    .
+319            176    DHGLYNR|FI  0.085    .
+319            189    LHLFHDK|SM  0.087    .
+319            202    EHSIHVK|KL  0.076    .
+319            203    HSIHVKK|LC  0.113    .
+319            215    IHQHNFK|MC  0.071    .
+319            245    TTVVAYK|TR  0.053    .
+319            247    VVAYKTR|RL  0.092    .
+319            248    VAYKTRR|LP  0.099    .
+319            257    TNFNEAR|NR  0.096    .
+319            259    FNEARNR|PD  0.082    .
+319            279    SIIYGHK|MY  0.058    .
+319            300    DTNIALK|EF  0.058    .
+319            304    ALKEFIK|RD  0.062    .
+319            305    LKEFIKR|DS  0.345    .
+319            309    IKRDSER|QQ  0.099    .
+319            323    SCLLIPR|SN  0.108    .
+319            334    DNNHHSR|SF  0.146    .
+319            344    TNSAPGR|PK  0.121    .
+319            346    SAPGRPK|SV  0.119    .
+319            357    ATGDSER|QQ  0.078    .
+319            371    SCLLIPR|SN  0.108    .
+319            382    DNNHHSR|SF  0.146    .
+319            392    TNSAPGR|PK  0.121    .
+319            394    SAPGRPK|SV  0.116    .
+319            441    LSESQFR|VS  0.069    .
+319            464    QFLLSLK|LI  0.059    .
+319            483    CFLNSMR|RP  0.082    .
+319            484    FLNSMRR|PQ  0.101    .
+319            497    SIEDFAR|YM  0.124    .
+319            513    TSFSSFK|RL  0.071    .
+319            514    SFSSFKR|LA  0.236    .
+319            520    RLAPAAK|SL  0.102    .
+319            527    SLTGANR|PN  0.085    .
+319            560    SVDQLVK|YG  0.063    .
+319            574    VLPILYR|NA  0.075    .
+319            580    RNALLSR|SD  0.092    .
+319            590    LTPPPHR|ID  0.076    .
+319            605    SAIDELK|EI  0.069    .
+319            608    DELKEIK|KK  0.057    .
+319            609    ELKEIKK|KN  0.103    .
+319            610    LKEIKKK|NE  0.102    .
+319            616    KNEEIAK|TK  0.061    .
+319            618    EEIAKTK|KR  0.063    .
+319            619    EIAKTKK|RV  0.118    .
+319            620    IAKTKKR|VD  0.220    .
+319            631    SIVAGTK|KS  0.065    .
+319            632    IVAGTKK|SE  0.184    .
+319            640    EIDIPHR|RT  0.087    .
+319            641    IDIPHRR|TK  0.153    .
+319            643    IPHRRTK|AS  0.226    .
+319            653    LHGEILK|RS  0.055    .
+319            654    HGEILKR|SK  0.229    .
+319            656    EILKRSK|YN  0.069    .
+319            660    RSKYNNK|EE  0.060    .
+319            687    TPMVCTR|VA  0.126    .
+319            694    VATETSK|QP  0.058    .
+319            698    TSKQPIR|SR  0.153    .
+319            700    KQPIRSR|YI  0.151    .
+319            720    EIIDAIR|KK  0.069    .
+319            721    IIDAIRK|KA  0.079    .
+319            722    IDAIRKK|AT  0.209    .
+319            743    SDPPSSR|PS  0.080    .
+319            746    PSSRPSR|ER  0.227    .
+319            748    SRPSRER|RR  0.077    .
+319            749    RPSRERR|RP  0.503 *ProP*
+319            750    PSRERRR|PP  0.131    .
+319            756    RPPPPIR|VE  0.078    .
+319            760    PIRVEQR|KA  0.107    .
+319            761    IRVEQRK|AP  0.115    .
+319            771    TASAAPK|AA  0.085    .
+319            774    AAPKAAR|SP  0.127    .
+319            778    AARSPTR|ET  0.141    .
+319            781    SPTRETR|RS  0.229    .
+319            782    PTRETRR|SR  0.169    .
+319            784    RETRRSR|PT  0.260    .
+319            800    LTPPPHR|ID  0.079    .
+319            815    SAIDELK|EI  0.069    .
+319            818    DELKEIK|KK  0.057    .
+319            819    ELKEIKK|KN  0.103    .
+319            820    LKEIKKK|NE  0.102    .
+319            826    KNEEIAK|TK  0.061    .
+319            828    EEIAKTK|KR  0.062    .
+319            829    EIAKTKK|RV  0.122    .
+319            830    IAKTKKR|VD  0.223    .
+319            840    PSISGTK|KS  0.059    .
+319            841    SISGTKK|SE  0.223    .
+319            849    EIDIPHR|RT  0.087    .
+319            850    IDIPHRR|TK  0.153    .
+319            852    IPHRRTK|AS  0.226    .
+319            862    LHGEILK|RS  0.055    .
+319            863    HGEILKR|SK  0.229    .
+319            865    EILKRSK|YN  0.069    .
+319            869    RSKYNNK|EE  0.058    .
+319            878    VEPVPNR|TT  0.092    .
+319            908    PPSLPGR|AK  0.119    .
+319            910    SLPGRAK|TP  0.064    .
+319            917    TPDYHYR|IR  0.166    .
+319            919    DYHYRIR|RD  0.087    .
+319            920    YHYRIRR|DS  0.677 *ProP*
+319            944    TEWQAIR|SR  0.094    .
+319            946    WQAIRSR|RT  0.081    .
+319            947    QAIRSRR|TT  0.632 *ProP*
+319            957    SSTEAPR|AA  0.105    .
+319            967    AGSSLPR|GS  0.114    .
+319            976    SFLGGPR|RK  0.072    .
+319            977    FLGGPRR|KI  0.124    .
+319            978    LGGPRRK|II  0.079    .
+319            983    RKIIVDR|CA  0.174    .
+319            999    PPEIEIR|IC  0.094    .
+319           1002    IEIRICK|KG  0.089    .
+319           1003    EIRICKK|GR  0.106    .
+319           1005    RICKKGR|CP  0.109    .
+319           1008    KKGRCPK|HE  0.112    .
+319           1027    NVYNTDK|PA  0.064    .
+319           1039    GNPNPPR|RS  0.082    .
+319           1040    NPNPPRR|SS  0.348    .
+319           1046    RSSSLNR|IP  0.091    .
+319           1053    IPPEPPR|NK  0.095    .
+319           1055    PEPPRNK|TK  0.064    .
+319           1057    PPRNKTK|SA  0.155    .
+319           1070    STLPHYR|AR  0.111    .
+319           1072    LPHYRAR|SP  0.220    .
+319           1081    AAMELER|VT  0.078    .
+319           1084    ELERVTR|TL  0.178    .
+319           1090    RTLNMLK|AE  0.059    .
+319           1110    AYQGYLK|YA  0.070    .
+319           1128    FCYSPSK|SE  0.070    .
+319           1131    SPSKSEK|RG  0.070    .
+319           1132    PSKSEKR|GP  0.237    .
+319           1139    GPEIAQK|YE  0.064    .
+319           1145    KYEFELR|AK  0.098    .
+319           1147    EFELRAK|IA  0.060    .
+319           1152    AKIAYLR|SP  0.103    .
+319           1164    QQPHMYK|TS  0.061    .
+319           1179    GTLPAQK|HS  0.058    .
+319           1192    TTPDIIR|SL  0.128    .
+319           1200    LSPLIER|ST  0.118    .
+319           1211    SSPLDPR|IR  0.082    .
+319           1213    PLDPRIR|SP  0.095    .
+319           1216    PRIRSPR|SP  0.562 *ProP*
+319           1234    DSPLVVR|AS  0.069    .
+319           1238    VVRASPR|RS  0.114    .
+319           1239    VRASPRR|SD  0.208    .
+319           1246    SDPSTPR|SS  0.164    .
+319           1253    SSEGSTR|RS  0.096    .
+319           1254    SEGSTRR|SS  0.260    .
+319           1261    SSSSDGR|RS  0.095    .
+319           1262    SSSDGRR|SP  0.339    .
+319           1274    NNSTLHR|RS  0.089    .
+319           1275    NSTLHRR|SQ  0.237    .
+319           1282    SQSPTDR|RS  0.088    .
+319           1283    QSPTDRR|SQ  0.246    .
+319           1291    QSPGAGR|PD  0.114    .
+319           1304    GSVGSGR|RS  0.106    .
+319           1305    SVGSGRR|SP  0.180    .
+319           1311    RSPIAFR|NS  0.103    .
+319           1327    VWQSTER|LN  0.075    .
+319           1337    LSPPPIR|RS  0.072    .
+319           1338    SPPPIRR|SP  0.235    .
+319           1347    SPTPSLK|SS  0.083    .
+319           1355    SSTTSSK|SS  0.074    .
+319           1358    TSSKSSK|SS  0.161    .
+319           1368    EDLVGLR|KP  0.068    .
+319           1369    DLVGLRK|PT  0.069    .
+319           1372    GLRKPTK|VY  0.071    .
+319           1376    PTKVYSK|SA  0.100    .
+319           1392    AHPLYAR|RN  0.074    .
+319           1393    HPLYARR|ND  0.108    .
+319           1397    ARRNDIR|YT  0.125    .
+319           1402    IRYTISK|PS  0.065    .
+319           1415    PTITLYR|DG  0.085    .
+319           1431    ISLTDTR|LI  0.075    .
+319           1438    LIVSSPR|EG  0.082    .
+319           1449    EITDSPR|PY  0.103    .
+319           1458    SPYHPDK|TP  0.064    .
+319           1463    DKTPYYR|AR  0.107    .
+319           1465    TPYYRAR|YH  0.153    .
+319           1490    TDILNPR|SS  0.125    .
+319           1493    LNPRSSK|PF  0.145    .
+319           1498    SKPFTPK|EA  0.079    .
+319           1503    PKEAPIK|ET  0.065    .
+319           1506    APIKETK|RS  0.061    .
+319           1507    PIKETKR|SK  0.214    .
+319           1509    KETKRSK|PL  0.069    .
+319           1550    PTVSNSR|MA  0.088    .
+319           1563    LAPVQNR|FY  0.097    .
+319           1595    QGPGLPK|RE  0.062    .
+319           1596    GPGLPKR|EE  0.139    .
+319           1609    PPPLPPR|EG  0.097    .
+319           1629    VNGITLK|GE  0.062    .
+319           1648    TYVILSR|QN  0.082    .
+319           1653    SRQNHGR|FK  0.159    .
+319           1655    QNHGRFK|FS  0.074    .
+319           1664    TTPDPNR|SL  0.131    .
+319           1671    SLPGSPR|GA  0.129    .
+319           1674    GSPRGAR|SA  0.504 *ProP*
+319           1677    RGARSAR|SV  0.663 *ProP*
+319           1695    SPASSFR|GR  0.138    .
+319           1697    ASSFRGR|SP  0.182    .
+319           1705    PNSTLPR|GV  0.212    .
+319           1716    PNSTLPR|GT  0.127    .
+319           1725    PGGSPAR|EL  0.114    .
+319           1736    GPGPVIR|PI  0.131    .
+319           1744    IQAATTR|AT  0.105    .
+319           1763    VAVMPPK|RE  0.058    .
+319           1764    AVMPPKR|EL  0.170    .
+319           1768    PKRELYK|PR  0.069    .
+319           1770    RELYKPR|SL  0.226    .
+319           1783    ASLNLSK|TD  0.056    .
+319           1788    SKTDLNK|NG  0.067    .
+319           1792    LNKNGGR|PG  0.078    .
+319           1805    PPLIPPR|TR  0.094    .
+319           1807    LIPPRTR|DQ  0.099    .
+319           1813    RDQSVPR|SP  0.244    .
+319           1820    SPEQQLR|KF  0.091    .
+319           1821    PEQQLRK|FN  0.093    .
+319           1824    QLRKFNR|PV  0.154    .
+319           1827    KFNRPVK|EP  0.110    .
+319           1832    VKEPAFR|EV  0.105    .
+319           1849    PPVINTR|KP  0.112    .
+319           1850    PVINTRK|PS  0.100    .
+319           1860    QEVEMEK|KN  0.061    .
+319           1861    EVEMEKK|NP  0.081    .
+319           1866    KKNPAAR|QY  0.126    .
+319           1881    SPNSSFR|SS  0.294    .
+319           1889    SSPSNNK|GN  0.062    .
+319           1894    NKGNSLR|RK  0.106    .
+319           1895    KGNSLRR|KI  0.156    .
+319           1896    GNSLRRK|IP  0.105    .
+319           1901    RKIPEVR|ML  0.120    .
+319           1908    MLGGEWK|EL  0.068    .
+319           1913    WKELAQR|LG  0.073    .
+319           1941    LLDHWSK|QR  0.073    .
+319           1943    DHWSKQR|DA  0.109    .
+319           1955    ELLYHMK|DL  0.073    .
+319           1961    KDLGLWK|TA  0.071    .
+319           1968    TADTLDK|TF  0.066    .
+319           1977    DDIAVNR|PI  0.090    .
+319           1980    AVNRPIR|TR  0.190    .
+319           1982    NRPIRTR|YL  0.147    .
+____________________________^_________________
+
+
+
+

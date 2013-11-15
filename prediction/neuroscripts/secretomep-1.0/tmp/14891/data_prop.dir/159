@@ -1,0 +1,483 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2705 159         
+MMKTAPNRCDKNWKIYLSTLLYWPDSLLNNVQMWQHVSKTQEPTETSKQPIRTCHSRHVTDYQPIRDRYFLIRSVPIYHP      80
+LPMATRSSAATRFSNVSPTSFSKWRCSIKRFPAVLSSRRPGRGGVVIQSDPDLVTFSALGGKGFGYSIGGRGLDHDLVDE     160
+TLSTEGATKSGSDCIILTCCFALINLYYKLEMNVVEVVVRSAAHPMGALVYKMYKILYGIGYKGEIQICTCILLHLSCCL     240
+ALLPQALFGNVHLGPGELLLAGSRLQKITDYANVFKPANEQLLIALPNVAQGLPDKMIHSSLGPCDLRCPFCLAYKWRAE     320
+KESCCEKGVKSLPTTISSNFARRASGPTSGYYGNMVNSRGYMVTMDNVDIRLYTNVKQPGTSTTSSRPLVPSPPISNPSH     400
+HPSPPTEISARRENVVPPTTTPSSSSVLSNFSLARNYLSNEHDESQIEAPDHMTVAKIKMHDFGSRDLIPAPTPTNARTL     480
+HNLGHLIFFSTRLLRWFLGFGERAQTERCQRERERERERERERESERERERERERERERKRERERERERESERERERERE     560
+HERERERENERERERDREREENSPLEMLRFLVLSCVALVVAVHAAEKAYCTAGQKNVEMPREAQTKKRERFPWLLHTPVT     640
+RYDYSSHNNITRNMANWRPQHRIRKPLEACPREWKQFKGACYWDGRRQHGHKSYRHAEEECNKRNAHIFMPNRKEEWDWV     720
+TQNMISHRNDEYWVGIFFAQRRTDKFAQMYTKTREDMRIIGPRLQQFIEQNSDIDEHNVPTSAFHMSRKQGRLESGQNQN     800
+WTSFLEVVEITDYPSHLKSHSTSTLTLGVTTVTVVECLEDVHGEGVPYILSVGWRAGELSRKNGDSCVKTNYGSVLAAAA     880
+AAAAAAAAAAAAAAAAAAAANFSLARNYLSNEHDESQIEAPDHMTVAKIKMHDFGSRDLIPAPTPTNARTLHAAAAAAAA     960
+AAAAAAAAAAAERERERERERERERESEREKESASERGRERMREREREIEKERKICVALVVAVHAAEKAYCTAGQKNVEA    1040
+GAGGDFGGYYKRPLPGFGNPLALALEIGNNSRVPVTGTVDVNMDTRIIDKLRRNATGVMLIRTPERTCELLDQNCSSLPD    1120
+NMASLMNIIKRERGRERERERERIEITALASAKVTTTSPQPRVPESSNMFLSTVVQKGKSLSLLVLEIQHRAKSNKCPGS    1200
+MYLCIYILHITQDSILDLSPFEMLRFLVLSCVALVVAVHAAEKAYCTAGQKNVEAASGDFGGYYQRPLPGNCRGQHGSIG    1280
+GWKPQHKIQNAHSACPPQWKKYKSACYWDGRRQHGHKEYRHAEQECNKRNTHIFMPNRKEEWDWVTQNMLSHRNDNYWLG    1360
+IFCAERETEDFSQMYTNTREDMRIIGPRLKRFARVDSAETGGYGAMDTTEDTHGSVRLPWAKWNMLIHWSIPMICCLKHI    1440
+KFAIRNNSLFSRALTNSRLEGPVFPDSVLYDCKVPIRGSRVQCTHVGNEVTPLLRHCRALQKYPCRIARALHPGTALPST    1520
+HAQFHFSSACSAIVLCTKKSKQPIRTHYLGLVTGYQPIRDQYFLIQSCTIGIAKVRHVLACPQCRGNCVTKHTRPVPFYR    1600
+RFDKPIVLCTKKSKQPIRTHYLGLVTGYQPIRDQYFLIQSCTIGIAKVRHVLACPQCRGNCVTKHTRPVPFYRRFDKPIV    1680
+LCTKKSKQPIRTHYLGLVTGYQPIRDQYFLIQSCTIGIAKVRHVLACPQCRGNCVTKHTRPVPFYRRFDKPIVLCTKKSK    1760
+QPIRTHYLGLVTGYQPIRDQYFLIQSCTIGIAKVRHVLACPQCRGNCVTKHTRPVPFYRRFDKPIVLCTKKSKQPIRTHY    1840
+LGLVTGYQPIRDQYFIVVCAIVSLRCYYEPLQVVVCLLARDTIQEYHLQRGTLFACEFVNLAHSLRSCTKETSNTPCGRA    1920
+KGNLKTLPASPFEMLRFLVLSCVALVVAVHAAEKAYCTAGQKNVEAGAGGDFGGYYKRPLPGNCRGQHGPMSNWKPQHKI    2000
+QNPKRRVRLGDTEYAITPKRRILGWQFSVLSVIPKTSPKCTQTPERTCVLLDQDCSSLPGCMAILTNTMVSHCLCVTCDF    2080
+GRTFGYKIAAPSLTNHQINRLKVKNTCSRNPTRVHVLKNSQMQSCSDHITSLKRVVGNSLAVILVPEFFISYFHIAVVLE    2160
+REREREREREREKIYRSNLTNSNQYALLSRERERERERERQDIESVLDLSTFVMLRFLVLSCVALVVAVHAAEKAYCTAG    2240
+QKNVEAGSGGDFGGYYKRPLPGNCRGRAGHMSNWKPQHKIQKPLSSCPRQWKQFGGACYWEGRRHHGRKVYRHAEEECNR    2320
+RKAHIWIPNRREEWDFVTKNLLTHEEDYWLGIYCADQGTTDLRRMYTNTREDMRIIAPRLLQFVKQHGHVNEHNEPTTSF    2400
+RMTRQQGRHWIPRNGNEGDHEWVNKTMSSFSSSGKKQGSGVCIEVARCTVRHRFMVFDFVHAEAKSVKAFQRAGHSVSTC    2480
+FIVSSSNPHAAQVVFSIFFHGVVQVVVPCDPNHVHMFGMFDGSGFNLLPEGCIGCHFLNWYEGAVPRTILYANRQALNIS    2560
+PRQWKQFGGACYWEGRRHHGRKVYRHAEEECNRRKAHIWIPNRREEWDFVTKNLLTHEEDYWLGIYCADQGTTDLRRMYT    2640
+NTREDMRIIAPRLLQFVKQHGHVNEHNEPTTSFRMTRQQGRHWIPRNGNEGDHEWVLCSRFFFMG                   2720
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................................................................P...........    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+.................................................................                   2720
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+159              3    ----MMK|TA  0.059    .
+159              8    MKTAPNR|CD  0.075    .
+159             11    APNRCDK|NW  0.193    .
+159             14    RCDKNWK|IY  0.059    .
+159             39    MWQHVSK|TQ  0.087    .
+159             48    EPTETSK|QP  0.058    .
+159             52    TSKQPIR|TC  0.088    .
+159             57    IRTCHSR|HV  0.218    .
+159             66    TDYQPIR|DR  0.106    .
+159             68    YQPIRDR|YF  0.067    .
+159             73    DRYFLIR|SV  0.198    .
+159             86    PLPMATR|SS  0.106    .
+159             92    RSSAATR|FS  0.175    .
+159            103    SPTSFSK|WR  0.062    .
+159            105    TSFSKWR|CS  0.130    .
+159            109    KWRCSIK|RF  0.072    .
+159            110    WRCSIKR|FP  0.144    .
+159            118    PAVLSSR|RP  0.091    .
+159            119    AVLSSRR|PG  0.105    .
+159            122    SSRRPGR|GG  0.366    .
+159            142    FSALGGK|GF  0.074    .
+159            151    GYSIGGR|GL  0.124    .
+159            169    STEGATK|SG  0.082    .
+159            189    LINLYYK|LE  0.064    .
+159            200    VVEVVVR|SA  0.124    .
+159            212    MGALVYK|MY  0.070    .
+159            215    LVYKMYK|IL  0.066    .
+159            223    LYGIGYK|GE  0.061    .
+159            264    LLLAGSR|LQ  0.059    .
+159            267    AGSRLQK|IT  0.150    .
+159            276    DYANVFK|PA  0.079    .
+159            296    AQGLPDK|MI  0.070    .
+159            308    LGPCDLR|CP  0.062    .
+159            316    PFCLAYK|WR  0.058    .
+159            318    CLAYKWR|AE  0.111    .
+159            321    YKWRAEK|ES  0.113    .
+159            327    KESCCEK|GV  0.087    .
+159            330    CCEKGVK|SL  0.074    .
+159            342    ISSNFAR|RA  0.185    .
+159            343    SSNFARR|AS  0.220    .
+159            359    GNMVNSR|GY  0.115    .
+159            371    MDNVDIR|LY  0.095    .
+159            377    RLYTNVK|QP  0.069    .
+159            387    TSTTSSR|PL  0.112    .
+159            411    PTEISAR|RE  0.095    .
+159            412    TEISARR|EN  0.120    .
+159            435    SNFSLAR|NY  0.103    .
+159            457    DHMTVAK|IK  0.072    .
+159            459    MTVAKIK|MH  0.074    .
+159            466    MHDFGSR|DL  0.111    .
+159            478    PTPTNAR|TL  0.092    .
+159            492    LIFFSTR|LL  0.086    .
+159            495    FSTRLLR|WF  0.162    .
+159            503    FLGFGER|AQ  0.068    .
+159            508    ERAQTER|CQ  0.100    .
+159            511    QTERCQR|ER  0.193    .
+159            513    ERCQRER|ER  0.097    .
+159            515    CQRERER|ER  0.092    .
+159            517    RERERER|ER  0.095    .
+159            519    RERERER|ER  0.082    .
+159            521    RERERER|ER  0.088    .
+159            523    RERERER|ES  0.102    .
+159            527    RERESER|ER  0.094    .
+159            529    RESERER|ER  0.101    .
+159            531    SERERER|ER  0.087    .
+159            533    RERERER|ER  0.092    .
+159            535    RERERER|ER  0.091    .
+159            537    RERERER|ER  0.081    .
+159            539    RERERER|KR  0.088    .
+159            540    ERERERK|RE  0.197    .
+159            541    RERERKR|ER  0.197    .
+159            543    RERKRER|ER  0.104    .
+159            545    RKRERER|ER  0.089    .
+159            547    RERERER|ER  0.097    .
+159            549    RERERER|ES  0.099    .
+159            553    RERESER|ER  0.102    .
+159            555    RESERER|ER  0.096    .
+159            557    SERERER|ER  0.094    .
+159            559    RERERER|EH  0.093    .
+159            563    REREHER|ER  0.095    .
+159            565    REHERER|ER  0.089    .
+159            567    HERERER|EN  0.090    .
+159            571    RERENER|ER  0.077    .
+159            573    RENERER|ER  0.090    .
+159            575    NERERER|DR  0.123    .
+159            577    RERERDR|ER  0.084    .
+159            579    RERDRER|EE  0.085    .
+159            589    SPLEMLR|FL  0.084    .
+159            607    AVHAAEK|AY  0.066    .
+159            615    YCTAGQK|NV  0.062    .
+159            621    KNVEMPR|EA  0.105    .
+159            626    PREAQTK|KR  0.070    .
+159            627    REAQTKK|RE  0.072    .
+159            628    EAQTKKR|ER  0.221    .
+159            630    QTKKRER|FP  0.081    .
+159            641    LHTPVTR|YD  0.089    .
+159            652    SHNNITR|NM  0.112    .
+159            658    RNMANWR|PQ  0.102    .
+159            662    NWRPQHR|IR  0.095    .
+159            664    RPQHRIR|KP  0.094    .
+159            665    PQHRIRK|PL  0.302    .
+159            672    PLEACPR|EW  0.088    .
+159            675    ACPREWK|QF  0.105    .
+159            678    REWKQFK|GA  0.082    .
+159            686    ACYWDGR|RQ  0.074    .
+159            687    CYWDGRR|QH  0.098    .
+159            692    RRQHGHK|SY  0.120    .
+159            695    HGHKSYR|HA  0.187    .
+159            703    AEEECNK|RN  0.059    .
+159            704    EEECNKR|NA  0.178    .
+159            713    HIFMPNR|KE  0.085    .
+159            714    IFMPNRK|EE  0.085    .
+159            728    QNMISHR|ND  0.105    .
+159            741    GIFFAQR|RT  0.092    .
+159            742    IFFAQRR|TD  0.117    .
+159            745    AQRRTDK|FA  0.192    .
+159            752    FAQMYTK|TR  0.066    .
+159            754    QMYTKTR|ED  0.089    .
+159            758    KTREDMR|II  0.148    .
+159            763    MRIIGPR|LQ  0.105    .
+159            788    SAFHMSR|KQ  0.117    .
+159            789    AFHMSRK|QG  0.082    .
+159            792    MSRKQGR|LE  0.137    .
+159            818    DYPSHLK|SH  0.075    .
+159            855    ILSVGWR|AG  0.122    .
+159            861    RAGELSR|KN  0.092    .
+159            862    AGELSRK|NG  0.077    .
+159            869    NGDSCVK|TN  0.058    .
+159            906    ANFSLAR|NY  0.093    .
+159            928    DHMTVAK|IK  0.072    .
+159            930    MTVAKIK|MH  0.074    .
+159            937    MHDFGSR|DL  0.111    .
+159            949    PTPTNAR|TL  0.097    .
+159            973    AAAAAER|ER  0.086    .
+159            975    AAAERER|ER  0.088    .
+159            977    AERERER|ER  0.088    .
+159            979    RERERER|ER  0.097    .
+159            981    RERERER|ER  0.082    .
+159            983    RERERER|ER  0.088    .
+159            985    RERERER|ES  0.095    .
+159            989    RERESER|EK  0.091    .
+159            991    RESEREK|ES  0.069    .
+159            997    KESASER|GR  0.118    .
+159            999    SASERGR|ER  0.102    .
+159           1001    SERGRER|MR  0.102    .
+159           1003    RGRERMR|ER  0.097    .
+159           1005    RERMRER|ER  0.093    .
+159           1007    RMRERER|EI  0.123    .
+159           1011    REREIEK|ER  0.058    .
+159           1013    REIEKER|KI  0.107    .
+159           1014    EIEKERK|IC  0.077    .
+159           1028    AVHAAEK|AY  0.066    .
+159           1036    YCTAGQK|NV  0.069    .
+159           1051    DFGGYYK|RP  0.057    .
+159           1052    FGGYYKR|PL  0.140    .
+159           1072    EIGNNSR|VP  0.074    .
+159           1086    DVNMDTR|II  0.104    .
+159           1090    DTRIIDK|LR  0.058    .
+159           1092    RIIDKLR|RN  0.096    .
+159           1093    IIDKLRR|NA  0.158    .
+159           1102    TGVMLIR|TP  0.076    .
+159           1106    LIRTPER|TC  0.079    .
+159           1130    SLMNIIK|RE  0.061    .
+159           1131    LMNIIKR|ER  0.228    .
+159           1133    NIIKRER|GR  0.087    .
+159           1135    IKRERGR|ER  0.105    .
+159           1137    RERGRER|ER  0.096    .
+159           1139    RGRERER|ER  0.100    .
+159           1141    RERERER|ER  0.086    .
+159           1143    RERERER|IE  0.100    .
+159           1153    TALASAK|VT  0.069    .
+159           1162    TTSPQPR|VP  0.120    .
+159           1177    LSTVVQK|GK  0.072    .
+159           1179    TVVQKGK|SL  0.086    .
+159           1191    VLEIQHR|AK  0.092    .
+159           1193    EIQHRAK|SN  0.089    .
+159           1196    HRAKSNK|CP  0.092    .
+159           1225    SPFEMLR|FL  0.084    .
+159           1243    AVHAAEK|AY  0.066    .
+159           1251    YCTAGQK|NV  0.067    .
+159           1266    FGGYYQR|PL  0.076    .
+159           1273    PLPGNCR|GQ  0.093    .
+159           1283    GSIGGWK|PQ  0.075    .
+159           1287    GWKPQHK|IQ  0.065    .
+159           1300    ACPPQWK|KY  0.060    .
+159           1301    CPPQWKK|YK  0.124    .
+159           1303    PQWKKYK|SA  0.109    .
+159           1311    ACYWDGR|RQ  0.076    .
+159           1312    CYWDGRR|QH  0.124    .
+159           1317    RRQHGHK|EY  0.082    .
+159           1320    HGHKEYR|HA  0.193    .
+159           1328    AEQECNK|RN  0.061    .
+159           1329    EQECNKR|NT  0.153    .
+159           1338    HIFMPNR|KE  0.089    .
+159           1339    IFMPNRK|EE  0.082    .
+159           1353    QNMLSHR|ND  0.093    .
+159           1366    GIFCAER|ET  0.090    .
+159           1379    QMYTNTR|ED  0.080    .
+159           1383    NTREDMR|II  0.130    .
+159           1388    MRIIGPR|LK  0.101    .
+159           1390    IIGPRLK|RF  0.058    .
+159           1391    IGPRLKR|FA  0.479    .
+159           1394    RLKRFAR|VD  0.396    .
+159           1417    DTHGSVR|LP  0.084    .
+159           1422    VRLPWAK|WN  0.067    .
+159           1438    PMICCLK|HI  0.060    .
+159           1441    CCLKHIK|FA  0.068    .
+159           1445    HIKFAIR|NN  0.082    .
+159           1452    NNSLFSR|AL  0.128    .
+159           1458    RALTNSR|LE  0.090    .
+159           1473    SVLYDCK|VP  0.056    .
+159           1477    DCKVPIR|GS  0.095    .
+159           1480    VPIRGSR|VQ  0.201    .
+159           1495    EVTPLLR|HC  0.072    .
+159           1498    PLLRHCR|AL  0.265    .
+159           1502    HCRALQK|YP  0.066    .
+159           1506    LQKYPCR|IA  0.113    .
+159           1509    YPCRIAR|AL  0.528 *ProP*
+159           1538    AIVLCTK|KS  0.061    .
+159           1539    IVLCTKK|SK  0.136    .
+159           1541    LCTKKSK|QP  0.059    .
+159           1545    KSKQPIR|TH  0.116    .
+159           1559    TGYQPIR|DQ  0.096    .
+159           1574    CTIGIAK|VR  0.055    .
+159           1576    IGIAKVR|HV  0.124    .
+159           1585    LACPQCR|GN  0.110    .
+159           1591    RGNCVTK|HT  0.086    .
+159           1594    CVTKHTR|PV  0.095    .
+159           1600    RPVPFYR|RF  0.105    .
+159           1601    PVPFYRR|FD  0.119    .
+159           1604    FYRRFDK|PI  0.120    .
+159           1611    PIVLCTK|KS  0.060    .
+159           1612    IVLCTKK|SK  0.136    .
+159           1614    LCTKKSK|QP  0.060    .
+159           1618    KSKQPIR|TH  0.116    .
+159           1632    TGYQPIR|DQ  0.096    .
+159           1647    CTIGIAK|VR  0.055    .
+159           1649    IGIAKVR|HV  0.124    .
+159           1658    LACPQCR|GN  0.110    .
+159           1664    RGNCVTK|HT  0.086    .
+159           1667    CVTKHTR|PV  0.095    .
+159           1673    RPVPFYR|RF  0.105    .
+159           1674    PVPFYRR|FD  0.119    .
+159           1677    FYRRFDK|PI  0.120    .
+159           1684    PIVLCTK|KS  0.060    .
+159           1685    IVLCTKK|SK  0.136    .
+159           1687    LCTKKSK|QP  0.060    .
+159           1691    KSKQPIR|TH  0.116    .
+159           1705    TGYQPIR|DQ  0.096    .
+159           1720    CTIGIAK|VR  0.055    .
+159           1722    IGIAKVR|HV  0.124    .
+159           1731    LACPQCR|GN  0.110    .
+159           1737    RGNCVTK|HT  0.086    .
+159           1740    CVTKHTR|PV  0.095    .
+159           1746    RPVPFYR|RF  0.105    .
+159           1747    PVPFYRR|FD  0.119    .
+159           1750    FYRRFDK|PI  0.120    .
+159           1757    PIVLCTK|KS  0.060    .
+159           1758    IVLCTKK|SK  0.136    .
+159           1760    LCTKKSK|QP  0.060    .
+159           1764    KSKQPIR|TH  0.116    .
+159           1778    TGYQPIR|DQ  0.096    .
+159           1793    CTIGIAK|VR  0.055    .
+159           1795    IGIAKVR|HV  0.124    .
+159           1804    LACPQCR|GN  0.110    .
+159           1810    RGNCVTK|HT  0.086    .
+159           1813    CVTKHTR|PV  0.095    .
+159           1819    RPVPFYR|RF  0.105    .
+159           1820    PVPFYRR|FD  0.119    .
+159           1823    FYRRFDK|PI  0.120    .
+159           1830    PIVLCTK|KS  0.060    .
+159           1831    IVLCTKK|SK  0.136    .
+159           1833    LCTKKSK|QP  0.060    .
+159           1837    KSKQPIR|TH  0.116    .
+159           1851    TGYQPIR|DQ  0.100    .
+159           1865    CAIVSLR|CY  0.081    .
+159           1880    VVCLLAR|DT  0.110    .
+159           1890    QEYHLQR|GT  0.091    .
+159           1906    NLAHSLR|SC  0.166    .
+159           1910    SLRSCTK|ET  0.072    .
+159           1919    SNTPCGR|AK  0.100    .
+159           1921    TPCGRAK|GN  0.090    .
+159           1925    RAKGNLK|TL  0.063    .
+159           1936    SPFEMLR|FL  0.087    .
+159           1954    AVHAAEK|AY  0.066    .
+159           1962    YCTAGQK|NV  0.069    .
+159           1977    DFGGYYK|RP  0.054    .
+159           1978    FGGYYKR|PL  0.146    .
+159           1985    PLPGNCR|GQ  0.076    .
+159           1995    GPMSNWK|PQ  0.077    .
+159           1999    NWKPQHK|IQ  0.068    .
+159           2004    HKIQNPK|RR  0.063    .
+159           2005    KIQNPKR|RV  0.278    .
+159           2006    IQNPKRR|VR  0.140    .
+159           2008    NPKRRVR|LG  0.283    .
+159           2019    EYAITPK|RR  0.056    .
+159           2020    YAITPKR|RI  0.165    .
+159           2021    AITPKRR|IL  0.249    .
+159           2035    VLSVIPK|TS  0.073    .
+159           2039    IPKTSPK|CT  0.080    .
+159           2046    CTQTPER|TC  0.069    .
+159           2082    VTCDFGR|TF  0.101    .
+159           2087    GRTFGYK|IA  0.085    .
+159           2100    TNHQINR|LK  0.093    .
+159           2102    HQINRLK|VK  0.059    .
+159           2104    INRLKVK|NT  0.076    .
+159           2109    VKNTCSR|NP  0.084    .
+159           2113    CSRNPTR|VH  0.084    .
+159           2118    TRVHVLK|NS  0.072    .
+159           2133    DHITSLK|RV  0.061    .
+159           2134    HITSLKR|VV  0.286    .
+159           2161    IAVVLER|ER  0.084    .
+159           2163    VVLERER|ER  0.067    .
+159           2165    LERERER|ER  0.086    .
+159           2167    RERERER|ER  0.076    .
+159           2169    RERERER|ER  0.101    .
+159           2171    RERERER|EK  0.073    .
+159           2173    REREREK|IY  0.067    .
+159           2176    EREKIYR|SN  0.140    .
+159           2190    QYALLSR|ER  0.079    .
+159           2192    ALLSRER|ER  0.074    .
+159           2194    LSRERER|ER  0.102    .
+159           2196    RERERER|ER  0.085    .
+159           2198    RERERER|ER  0.093    .
+159           2200    RERERER|QD  0.089    .
+159           2216    STFVMLR|FL  0.081    .
+159           2234    AVHAAEK|AY  0.066    .
+159           2242    YCTAGQK|NV  0.067    .
+159           2257    DFGGYYK|RP  0.053    .
+159           2258    FGGYYKR|PL  0.140    .
+159           2265    PLPGNCR|GR  0.072    .
+159           2267    PGNCRGR|AG  0.102    .
+159           2275    GHMSNWK|PQ  0.068    .
+159           2279    NWKPQHK|IQ  0.059    .
+159           2282    PQHKIQK|PL  0.083    .
+159           2289    PLSSCPR|QW  0.125    .
+159           2292    SCPRQWK|QF  0.189    .
+159           2303    ACYWEGR|RH  0.073    .
+159           2304    CYWEGRR|HH  0.102    .
+159           2308    GRRHHGR|KV  0.224    .
+159           2309    RRHHGRK|VY  0.139    .
+159           2312    HGRKVYR|HA  0.173    .
+159           2320    AEEECNR|RK  0.066    .
+159           2321    EEECNRR|KA  0.149    .
+159           2322    EECNRRK|AH  0.080    .
+159           2330    HIWIPNR|RE  0.081    .
+159           2331    IWIPNRR|EE  0.114    .
+159           2339    EWDFVTK|NL  0.063    .
+159           2363    QGTTDLR|RM  0.069    .
+159           2364    GTTDLRR|MY  0.118    .
+159           2370    RMYTNTR|ED  0.077    .
+159           2374    NTREDMR|II  0.104    .
+159           2379    MRIIAPR|LL  0.109    .
+159           2385    RLLQFVK|QH  0.073    .
+159           2401    EPTTSFR|MT  0.163    .
+159           2404    TSFRMTR|QQ  0.284    .
+159           2408    MTRQQGR|HW  0.111    .
+159           2413    GRHWIPR|NG  0.139    .
+159           2425    DHEWVNK|TM  0.062    .
+159           2435    SFSSSGK|KQ  0.083    .
+159           2436    FSSSGKK|QG  0.122    .
+159           2447    VCIEVAR|CT  0.104    .
+159           2451    VARCTVR|HR  0.097    .
+159           2453    RCTVRHR|FM  0.080    .
+159           2465    FVHAEAK|SV  0.138    .
+159           2468    AEAKSVK|AF  0.082    .
+159           2472    SVKAFQR|AG  0.105    .
+159           2547    YEGAVPR|TI  0.099    .
+159           2554    TILYANR|QA  0.088    .
+159           2562    ALNISPR|QW  0.138    .
+159           2565    ISPRQWK|QF  0.208    .
+159           2576    ACYWEGR|RH  0.073    .
+159           2577    CYWEGRR|HH  0.102    .
+159           2581    GRRHHGR|KV  0.224    .
+159           2582    RRHHGRK|VY  0.139    .
+159           2585    HGRKVYR|HA  0.173    .
+159           2593    AEEECNR|RK  0.066    .
+159           2594    EEECNRR|KA  0.149    .
+159           2595    EECNRRK|AH  0.080    .
+159           2603    HIWIPNR|RE  0.081    .
+159           2604    IWIPNRR|EE  0.114    .
+159           2612    EWDFVTK|NL  0.063    .
+159           2636    QGTTDLR|RM  0.069    .
+159           2637    GTTDLRR|MY  0.118    .
+159           2643    RMYTNTR|ED  0.077    .
+159           2647    NTREDMR|II  0.104    .
+159           2652    MRIIAPR|LL  0.109    .
+159           2658    RLLQFVK|QH  0.073    .
+159           2674    EPTTSFR|MT  0.163    .
+159           2677    TSFRMTR|QQ  0.284    .
+159           2681    MTRQQGR|HW  0.111    .
+159           2686    GRHWIPR|NG  0.139    .
+159           2700    EWVLCSR|FF  0.096    .
+____________________________^_________________
+
+
+
+

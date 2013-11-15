@@ -1,0 +1,289 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1558 557         
+MPNCTQTSPTPEIAPSRSQTPEQPYKQRPAAPEQSYDHRPAVPEQPYNHRPAASEQPYNQKPAAPLEQPYNQRPAAAPYN      80
+DPKQSVTAGRQLTEGTSSVLQKTTTTTDSTSKTTTDSTSNDTTSESLSYLSVTPSIPVVLSNNRISPINTWPTLTDPTQL     160
+HRYSSAVTRSGTERTSPLPIIRMIQYRPKQPAEDTAAGSVIVKFNVPPANPEPGLVVVTELNRHITALANQAPTNQVPTN     240
+QAHSSNQESAPNQAPAPVANEVGDANYPASKRRLFNVNQHQGSLNGNNPSCWFNCNIGSLMQPTIQLEVNPLELMMRDVV     320
+CSKPQLPTHPQFGVNTTATSPHPSATLTARATSPTPHPATLTTRATSPTPHPATLTARVTSPRPATATSQTTHAMPIYGQ     400
+LQVDKTRPCSPSARLTSTRPRSPTIELTDPNSGTPRAIAALSTQPLHPRFPTLGLDKSTSIDKNLATSQTTHPTPIYGQL     480
+QVDKTRPCSPSARLTSTRPRSPTIELTDPNIGTPRAIAALSTQPLNPRFPTLGLDKSTSIDKNLGIKHASCSTNDYLTGA     560
+ERVRRLSCGRSATTLAKSLTSVVVTRKSSPFPMTGGFGNIEDAQPLSKSEGQLDFTSLKLTMKKRSSGSSRRQLIRAKSD     640
+SLHPHHQCSPGSVCTCTDTSCHTSMTSVSGCSESYTLLNTSDQDLVNRPGTECSCVDETISVEDQGSYSGFTSHLPEPHG     720
+QQHHTLFTPVTVLKLVPETSEYSTSPDIPAEKRRGQSEESSPESKIGTSSGFSGSCTSARSSEETTTSSFQAAVSKIKTP     800
+VYSADTLRYNNISTIQKVRECREPFAPPRPRKGKGDKKGVPGSDKDIRKGVTGSDKDIRKRVTGFEEQEDGLLSAPPPIV     880
+WETVPKQAMISPDQTPISAIGTKQRLGTFCPDASAGDSLRDQSSDYPVTFFEQQQQPTADLQLVMTQSEQLDAVSLTSTD     960
+ASSLIVERVHVTVGNDQITETYTMLNDQYGSLNNFISRKFGLPTPQTTVKECGDNDSDYELMRNKAGSDLNLVFKTVKES    1040
+PYQLLSNPRSICLDFSVRSVSPHALVRAPSFMLRGLKDKSYERLPSIVSEVTSVTTRKTGTALQSMITDNDPVVEEEGRK    1120
+KSVKQAIKSFVKKFSLGRRRRKSSNRTDPASMTTDSLTPVIRKEASTESTTTYQTSYSSSCESCSMSGCSSSSGTSGSRS    1200
+SPDRDDDNDDDDDDDDDDDDDDDDDDDDDDTITEKAPSAAHYCEYREREKERKREGVRQRERQRETERERERERSERERE    1280
+RERERERETERERERERERETDTERERQRETERERQRKTERETERETERETERETERETERETERETERETERETERETE    1360
+RETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETE    1440
+RETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETERETE    1520
+RERERERERETERETEREGEGERQSKRQSKRQSKRRAK                                              1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................P...............     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+......................................                                              1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+557             17    PEIAPSR|SQ  0.138    .
+557             26    TPEQPYK|QR  0.073    .
+557             28    EQPYKQR|PA  0.113    .
+557             39    EQSYDHR|PA  0.131    .
+557             50    EQPYNHR|PA  0.091    .
+557             61    EQPYNQK|PA  0.068    .
+557             73    EQPYNQR|PA  0.087    .
+557             83    APYNDPK|QS  0.080    .
+557             90    QSVTAGR|QL  0.134    .
+557            102    TSSVLQK|TT  0.098    .
+557            112    TTDSTSK|TT  0.063    .
+557            144    VVLSNNR|IS  0.061    .
+557            162    DPTQLHR|YS  0.107    .
+557            169    YSSAVTR|SG  0.139    .
+557            174    TRSGTER|TS  0.092    .
+557            182    SPLPIIR|MI  0.097    .
+557            187    IRMIQYR|PK  0.172    .
+557            189    MIQYRPK|QP  0.065    .
+557            203    AGSVIVK|FN  0.066    .
+557            223    VVTELNR|HI  0.076    .
+557            271    ANYPASK|RR  0.056    .
+557            272    NYPASKR|RL  0.140    .
+557            273    YPASKRR|LF  0.209    .
+557            317    PLELMMR|DV  0.136    .
+557            323    RDVVCSK|PQ  0.060    .
+557            350    SATLTAR|AT  0.123    .
+557            364    PATLTTR|AT  0.101    .
+557            378    PATLTAR|VT  0.101    .
+557            383    ARVTSPR|PA  0.133    .
+557            405    GQLQVDK|TR  0.056    .
+557            407    LQVDKTR|PC  0.102    .
+557            414    PCSPSAR|LT  0.138    .
+557            419    ARLTSTR|PR  0.103    .
+557            421    LTSTRPR|SP  0.182    .
+557            436    PNSGTPR|AI  0.130    .
+557            449    TQPLHPR|FP  0.104    .
+557            457    PTLGLDK|ST  0.071    .
+557            463    KSTSIDK|NL  0.065    .
+557            484    GQLQVDK|TR  0.056    .
+557            486    LQVDKTR|PC  0.102    .
+557            493    PCSPSAR|LT  0.138    .
+557            498    ARLTSTR|PR  0.103    .
+557            500    LTSTRPR|SP  0.182    .
+557            515    PNIGTPR|AI  0.101    .
+557            528    TQPLNPR|FP  0.091    .
+557            536    PTLGLDK|ST  0.072    .
+557            542    KSTSIDK|NL  0.065    .
+557            547    DKNLGIK|HA  0.075    .
+557            562    YLTGAER|VR  0.061    .
+557            564    TGAERVR|RL  0.114    .
+557            565    GAERVRR|LS  0.374    .
+557            570    RRLSCGR|SA  0.157    .
+557            577    SATTLAK|SL  0.089    .
+557            586    TSVVVTR|KS  0.130    .
+557            587    SVVVTRK|SS  0.090    .
+557            608    DAQPLSK|SE  0.087    .
+557            619    LDFTSLK|LT  0.065    .
+557            623    SLKLTMK|KR  0.061    .
+557            624    LKLTMKK|RS  0.086    .
+557            625    KLTMKKR|SS  0.524 *ProP*
+557            631    RSSGSSR|RQ  0.092    .
+557            632    SSGSSRR|QL  0.173    .
+557            636    SRRQLIR|AK  0.189    .
+557            638    RQLIRAK|SD  0.088    .
+557            688    DQDLVNR|PG  0.069    .
+557            734    TPVTVLK|LV  0.068    .
+557            752    PDIPAEK|RR  0.069    .
+557            753    DIPAEKR|RG  0.120    .
+557            754    IPAEKRR|GQ  0.241    .
+557            765    ESSPESK|IG  0.072    .
+557            780    GSCTSAR|SS  0.234    .
+557            796    FQAAVSK|IK  0.070    .
+557            798    AAVSKIK|TP  0.059    .
+557            808    YSADTLR|YN  0.108    .
+557            817    NISTIQK|VR  0.061    .
+557            819    STIQKVR|EC  0.083    .
+557            822    QKVRECR|EP  0.178    .
+557            829    EPFAPPR|PR  0.089    .
+557            831    FAPPRPR|KG  0.077    .
+557            832    APPRPRK|GK  0.433    .
+557            834    PRPRKGK|GD  0.299    .
+557            837    RKGKGDK|KG  0.061    .
+557            838    KGKGDKK|GV  0.149    .
+557            845    GVPGSDK|DI  0.088    .
+557            848    GSDKDIR|KG  0.077    .
+557            849    SDKDIRK|GV  0.164    .
+557            856    GVTGSDK|DI  0.077    .
+557            859    GSDKDIR|KR  0.086    .
+557            860    SDKDIRK|RV  0.128    .
+557            861    DKDIRKR|VT  0.201    .
+557            886    VWETVPK|QA  0.083    .
+557            903    ISAIGTK|QR  0.057    .
+557            905    AIGTKQR|LG  0.089    .
+557            920    SAGDSLR|DQ  0.104    .
+557            968    SSLIVER|VH  0.081    .
+557            998    LNNFISR|KF  0.103    .
+557            999    NNFISRK|FG  0.085    .
+557           1010    TPQTTVK|EC  0.083    .
+557           1023    SDYELMR|NK  0.084    .
+557           1025    YELMRNK|AG  0.060    .
+557           1035    DLNLVFK|TV  0.083    .
+557           1038    LVFKTVK|ES  0.060    .
+557           1049    QLLSNPR|SI  0.109    .
+557           1058    CLDFSVR|SV  0.184    .
+557           1067    SPHALVR|AP  0.117    .
+557           1074    APSFMLR|GL  0.114    .
+557           1077    FMLRGLK|DK  0.114    .
+557           1079    LRGLKDK|SY  0.102    .
+557           1083    KDKSYER|LP  0.072    .
+557           1097    VTSVTTR|KT  0.165    .
+557           1098    TSVTTRK|TG  0.095    .
+557           1119    VVEEEGR|KK  0.082    .
+557           1120    VEEEGRK|KS  0.064    .
+557           1121    EEEGRKK|SV  0.287    .
+557           1124    GRKKSVK|QA  0.106    .
+557           1128    SVKQAIK|SF  0.076    .
+557           1132    AIKSFVK|KF  0.061    .
+557           1133    IKSFVKK|FS  0.161    .
+557           1138    KKFSLGR|RR  0.070    .
+557           1139    KFSLGRR|RR  0.110    .
+557           1140    FSLGRRR|RK  0.119    .
+557           1141    SLGRRRR|KS  0.475    .
+557           1142    LGRRRRK|SS  0.372    .
+557           1146    RRKSSNR|TD  0.112    .
+557           1162    SLTPVIR|KE  0.089    .
+557           1163    LTPVIRK|EA  0.099    .
+557           1199    SGTSGSR|SS  0.086    .
+557           1204    SRSSPDR|DD  0.163    .
+557           1235    DDTITEK|AP  0.061    .
+557           1246    AHYCEYR|ER  0.096    .
+557           1248    YCEYRER|EK  0.098    .
+557           1250    EYREREK|ER  0.056    .
+557           1252    REREKER|KR  0.137    .
+557           1253    EREKERK|RE  0.087    .
+557           1254    REKERKR|EG  0.140    .
+557           1258    RKREGVR|QR  0.104    .
+557           1260    REGVRQR|ER  0.091    .
+557           1262    GVRQRER|QR  0.099    .
+557           1264    RQRERQR|ET  0.112    .
+557           1268    RQRETER|ER  0.086    .
+557           1270    RETERER|ER  0.085    .
+557           1272    TERERER|ER  0.098    .
+557           1274    RERERER|SE  0.118    .
+557           1277    ERERSER|ER  0.290    .
+557           1279    ERSERER|ER  0.120    .
+557           1281    SERERER|ER  0.111    .
+557           1283    RERERER|ER  0.083    .
+557           1285    RERERER|ER  0.097    .
+557           1287    RERERER|ET  0.109    .
+557           1291    RERETER|ER  0.087    .
+557           1293    RETERER|ER  0.077    .
+557           1295    TERERER|ER  0.105    .
+557           1297    RERERER|ER  0.086    .
+557           1299    RERERER|ET  0.122    .
+557           1305    RETDTER|ER  0.070    .
+557           1307    TDTERER|QR  0.086    .
+557           1309    TERERQR|ET  0.125    .
+557           1313    RQRETER|ER  0.080    .
+557           1315    RETERER|QR  0.085    .
+557           1317    TERERQR|KT  0.113    .
+557           1318    ERERQRK|TE  0.268    .
+557           1321    RQRKTER|ET  0.115    .
+557           1325    TERETER|ET  0.118    .
+557           1329    TERETER|ET  0.105    .
+557           1333    TERETER|ET  0.105    .
+557           1337    TERETER|ET  0.105    .
+557           1341    TERETER|ET  0.105    .
+557           1345    TERETER|ET  0.105    .
+557           1349    TERETER|ET  0.105    .
+557           1353    TERETER|ET  0.105    .
+557           1357    TERETER|ET  0.105    .
+557           1361    TERETER|ET  0.105    .
+557           1365    TERETER|ET  0.105    .
+557           1369    TERETER|ET  0.105    .
+557           1373    TERETER|ET  0.105    .
+557           1377    TERETER|ET  0.105    .
+557           1381    TERETER|ET  0.105    .
+557           1385    TERETER|ET  0.105    .
+557           1389    TERETER|ET  0.105    .
+557           1393    TERETER|ET  0.105    .
+557           1397    TERETER|ET  0.105    .
+557           1401    TERETER|ET  0.105    .
+557           1405    TERETER|ET  0.105    .
+557           1409    TERETER|ET  0.105    .
+557           1413    TERETER|ET  0.105    .
+557           1417    TERETER|ET  0.105    .
+557           1421    TERETER|ET  0.105    .
+557           1425    TERETER|ET  0.105    .
+557           1429    TERETER|ET  0.105    .
+557           1433    TERETER|ET  0.105    .
+557           1437    TERETER|ET  0.105    .
+557           1441    TERETER|ET  0.105    .
+557           1445    TERETER|ET  0.105    .
+557           1449    TERETER|ET  0.105    .
+557           1453    TERETER|ET  0.105    .
+557           1457    TERETER|ET  0.105    .
+557           1461    TERETER|ET  0.105    .
+557           1465    TERETER|ET  0.105    .
+557           1469    TERETER|ET  0.105    .
+557           1473    TERETER|ET  0.105    .
+557           1477    TERETER|ET  0.105    .
+557           1481    TERETER|ET  0.105    .
+557           1485    TERETER|ET  0.105    .
+557           1489    TERETER|ET  0.105    .
+557           1493    TERETER|ET  0.105    .
+557           1497    TERETER|ET  0.105    .
+557           1501    TERETER|ET  0.105    .
+557           1505    TERETER|ET  0.105    .
+557           1509    TERETER|ET  0.105    .
+557           1513    TERETER|ET  0.105    .
+557           1517    TERETER|ET  0.108    .
+557           1521    TERETER|ER  0.090    .
+557           1523    RETERER|ER  0.082    .
+557           1525    TERERER|ER  0.090    .
+557           1527    RERERER|ER  0.108    .
+557           1529    RERERER|ET  0.107    .
+557           1533    RERETER|ET  0.119    .
+557           1537    TERETER|EG  0.100    .
+557           1543    REGEGER|QS  0.073    .
+557           1546    EGERQSK|RQ  0.114    .
+557           1547    GERQSKR|QS  0.210    .
+557           1550    QSKRQSK|RQ  0.158    .
+557           1551    SKRQSKR|QS  0.227    .
+557           1554    QSKRQSK|RR  0.113    .
+557           1555    SKRQSKR|RA  0.303    .
+557           1556    KRQSKRR|AK  0.267    .
+557           1558    QSKRRAK|--  0.182    .
+____________________________^_________________
+
+
+
+

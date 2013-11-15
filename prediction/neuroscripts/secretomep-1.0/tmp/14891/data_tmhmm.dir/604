@@ -1,0 +1,22 @@
+# 604 Length: 1501
+# 604 Number of predicted TMHs:  8
+# 604 Exp number of AAs in TMHs: 184.81043
+# 604 Exp number, first 60 AAs:  0.41573
+# 604 Total prob of N-in:        0.06561
+604	TMHMM2.0	outside	     1   947
+604	TMHMM2.0	TMhelix	   948   965
+604	TMHMM2.0	inside	   966   984
+604	TMHMM2.0	TMhelix	   985  1007
+604	TMHMM2.0	outside	  1008  1029
+604	TMHMM2.0	TMhelix	  1030  1052
+604	TMHMM2.0	inside	  1053  1074
+604	TMHMM2.0	TMhelix	  1075  1097
+604	TMHMM2.0	outside	  1098  1198
+604	TMHMM2.0	TMhelix	  1199  1221
+604	TMHMM2.0	inside	  1222  1293
+604	TMHMM2.0	TMhelix	  1294  1316
+604	TMHMM2.0	outside	  1317  1405
+604	TMHMM2.0	TMhelix	  1406  1423
+604	TMHMM2.0	inside	  1424  1443
+604	TMHMM2.0	TMhelix	  1444  1466
+604	TMHMM2.0	outside	  1467  1501

@@ -1,0 +1,465 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3306 87          
+MVDRGANMEQLVGDLQRDLLDQGLEVYYRDWIGILQCYSTKYHSQVVAGATRSTRGIYFCSLTSSYLCYGFSFVWFNDTR      80
+LRVDHSREGNMSEPVKFSFKRKSEQPRNLNIVPEEKDDAQYITNTQEITEVRPKKRKQRVIPHKKNLWQPGVGVVDDLTA     160
+QAIQELQSDPNSIKEESNREIAMSESENNKSSLKFPGVTPQIESTLEEYDDVPVTDFGAALLRGMGWEKGKGVGRSRKVC     240
+DVIDFTVKKRTLGVTIHEEENAEAQKMMAEFRLGDYIEIMSGPEKGKSGKILSLSLETSRCIVRLPSEEMADLAVLCIGK     320
+GNKEEYLRQRDSYVDDAPDVFAVPKPSTKKEPKREPKSNGESTNNSSVGKKKAWLHRDLKVRVVSQEFRKGKYYCKKVDI     400
+VDIVDPTTCTCRSESGKLLENVPQDILETVIPRNPGSLVMLLDKEHRWQVAELADKDSKKECIVAVTLIEKEAVTVSFSE     480
+ACQYVGSTLFQCISKSLTSVPVSPPVLSHDPTSNPSSQSLPVSLLRSMTQLTTPLPFRKMNQQQQQFGMYGIQPPAQLTP     560
+EQMTAMQKQQQMFLKQQQQYLAQQQQLQKQMQREEQRNRLRNMNVRSMGTPTYNQATPGPRVQGGYHGYPQPGSLPQQQQ     640
+PSPFVQQQQFVQQGGGFVQQQPAASAPYQPYQAPGFPPQQQGFQQGFNNSTFSPSQPQFTSPTASFPSNNMQPSSQPNQT     720
+SFSQSKQPPFSQSSSFSQPNQPSPFPQGTPLNNSHGTFAQQQSFQSPPFSQPSSQPFFNSGSTVSQPNSTSQPQISQPGS     800
+FSSTLLTPSQPNQMTSPSQPLNNSTPIAFPNGSLTTPSTQHPFPPISSQPLAPISSQPLIPVKPVKCEATSDLIGGFVTP     880
+AAAPEPSSTTGGGVTSLFAPQPASLGEEDDDFGDFAAPVPSGMNEPYSAFNNTQSSLPDITIPQTQPKFTSPSVPPPTND     960
+DEDDFGDFAGPATETPFPQLTSPPAAAAPSPSPSLQSSSGAEYIPGTLVDENADVIHSVEMFAKPTTTQNNQTKSEFDKL    1040
+IEKSLSGKATKSDPKELFRPVSKPAIPSMKSDVKVSANAANWASLDLGGVFGTEEKTEEDDFGDFLASETKGPMTSLPSD    1120
+SNSNDIFSIFGTTEPPKTSVAPAFSFLDEPITKPQPAAAPILDIFSSNNAPPSKTPDLLDGLFSAPKPKTISESSDQAWS    1200
+DFTSTAPVQPIASGPAMPLPLIPPAAPGKIPDLYQQIVQFCETPSGIIDVSKVYEVMLTDSFQVIALQPLMGQCNMSERP    1280
+RAADLIDLIGLVALKQKGFPAPVKADINYQKLILPSVNSKVLKSVKLKSDKPTLLSFVEPEKKEPKFKPVFDFGGSGTID    1360
+FANAPFAGTDTKSANAEDDEWGDFGTVDDVTKKTGFDTLFGESQPIDLFSSAPIIPPSSSTIAPKIGGPMAPKSRKPPPK    1440
+WGIDHDELDQAAVNNIATKNRWGDVKQVAAAGDRDCIDVEDDDDGTCSRFFKDDDDDIPVVMATPASDAPVVMATSASNV    1520
+PVAMATSTSNVSVAMGTNDIVATETSNVEKVRKDFDSVLTLDEHPSGNLFTPGEMEMKANFSTITTESSPFKSDFTVPPP    1600
+PIQSESKPKRDLDRLASLDTEENNFDPFSSSAKTSAAFDPFEDPSNDLDRLASTEDHTEEVGESFNPFADFQETAEEITE    1680
+PEEAADGEEDDFGDFSEFQGGSEEISEAATESSKTDSMALKNLPSKDLDGFWNDMVDSLGPKVVEKQVEPEPAFDFATFS    1760
+EDPQTPVPEQQQVSYDAFKDTPAPAADEDRLGAWSKCLSLVLATLITCQSSLSSPSPEVLREVVESEKGQTYLTAVTEVF    1840
+KVACRVSQSGSHEDGVVEIFKEIKHTWTLVSEALDGIIDLPTPREFNIPGGSNEVEWDRNCGICLLDTKGEGEKSVLQYN    1920
+RVMYHVTCANFWLNSIDDMLPNLNRKLDQPLLMEISPSILCRDVLELLDPESEFPDRYFYFQPSYHINNITVRDLQAMVQ    2000
+YSSDADASCGFVTLDNYEEVQDDDLRAPPHHPAPTPLLPTPGSRKTLLPTPLLSQDISKYSPANKDYAVRLLQLAHGYIT    2080
+DSGHISEEDPTMEDLLEKMDQYLAIPLAQRTGDLSWYQAGKFTEYRGRLKMKIEFLEMNIDTSKQSYQECVRKKKIMEEL    2160
+GVNKFNYVNEKVVDEIYERRNRMREFKNNLKKNLDVTKVDTSKLTAHQRILLFKRHIKSKQDKIDNTKPIKQQTAGQFNY    2240
+AIRKRKNPFVYSTTAAPVADCRFYIATGKCKFGTKCIRKHDPTKLPAKLKQQYARRMPKSAFKVNNNNNPVPSTSSAAVP    2320
+STTSGVEKYQQVKQPTRADFRFISNSTLGPKKVARNKKAVDRALKWKRRTVQQKQKVDCMFYIRRGTCLFGDQCRKKHDP    2400
+EKVALCRRFIFYGKCPIVGCLFQHRCVPEKMPLCLYFYSGKCTKEDCQFLHVKLSTDVQVCDRFLAGHCDRGSKCTRRHT    2480
+RDCEIYFETGSCPNRFECKLAHDRELKKTVEEVLDQPYFEGDDFIPVGGEKEMTTDDSWMDLSGFTQPPRDSDQISMISM    2560
+SIDQEDRERMGISPFVNRKRLPSEDDRPGPSNRTTDNKPGPSSGVGPYLSLSLSLPIIACMGKATNTTTSRRSTRLAKRA    2640
+SSSAKSSDEDADGPPKPPPLIPINSSSSDDEAPGPSDITGGDESNKDRDCSICLMDAVQPVRTPCGHIFCFLCIKGVLQS    2720
+TGTGTCALCRAAIPRDFLTRPEMVDLSNSSQSDGEDEWTWFYEGRSGGWWQYDARTSADIEKAFQDDADKDIELLIAGFI    2800
+YVIDLSAMVQQRKCAPHIQRRIKRDKNIPDKKGVAGITKKHRNRRTNKPPPAATNNANDSGDGTPVIMASVQDPVVSETI    2880
+NPTNEINPVDNTAEEAGSNEVLLTTQSDNPGEEISTNQKEILTEPSNTVDTVEKPQQPCEGPAPSSKQLSDNTAPIQSET    2960
+NNKRPLDNEQSQDKEESSPSRKRPLVRSPEVVAPPSCYPAGLTRMREIIEKYAITTSPTGARADLTKPLCNIFLRGWRLS    3040
+AQFPKVCSSQGKATILEVLRKVVEGLWDERLLQVPGLRGDINVVEMVVEEIRRDNTRLFSQTPPTLTVLLTEKLFDRYYR    3120
+AARLSHKPVNLGSSTQQWEKLKTELGVNTNSELASLLIHCYKSWESVGCGRCRRHMQVGMEGVTGRALQNSICIVSCSCG    3200
+KDTSGGFMIACDNCTKWQHGVCVNVTPDTVPLQYYCPRCTAAKKRAAVKDQDGGGSESGESVTSCGNNELYSTDDTSFSQ    3280
+THYFIRIMVSIHTTEIVSEGLVMVFV                                                          3360
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+.....................................P..........................................    2400
+................................................................................    2480
+P...............................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+.......................P....................P...................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+.....................................................P..........................    3200
+................................................................................    3280
+..........................                                                          3360
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+87               4    ---MVDR|GA  0.122    .
+87              17    LVGDLQR|DL  0.126    .
+87              29    GLEVYYR|DW  0.143    .
+87              41    LQCYSTK|YH  0.080    .
+87              52    VVAGATR|ST  0.129    .
+87              55    GATRSTR|GI  0.236    .
+87              80    VWFNDTR|LR  0.067    .
+87              82    FNDTRLR|VD  0.075    .
+87              87    LRVDHSR|EG  0.111    .
+87              96    NMSEPVK|FS  0.074    .
+87             100    PVKFSFK|RK  0.066    .
+87             101    VKFSFKR|KS  0.211    .
+87             102    KFSFKRK|SE  0.144    .
+87             107    RKSEQPR|NL  0.146    .
+87             116    NIVPEEK|DD  0.067    .
+87             132    QEITEVR|PK  0.084    .
+87             134    ITEVRPK|KR  0.057    .
+87             135    TEVRPKK|RK  0.349    .
+87             136    EVRPKKR|KQ  0.202    .
+87             137    VRPKKRK|QR  0.073    .
+87             139    PKKRKQR|VI  0.319    .
+87             144    QRVIPHK|KN  0.072    .
+87             145    RVIPHKK|NL  0.117    .
+87             174    SDPNSIK|EE  0.067    .
+87             179    IKEESNR|EI  0.114    .
+87             190    SESENNK|SS  0.081    .
+87             194    NNKSSLK|FP  0.068    .
+87             223    FGAALLR|GM  0.095    .
+87             229    RGMGWEK|GK  0.076    .
+87             231    MGWEKGK|GV  0.117    .
+87             235    KGKGVGR|SR  0.100    .
+87             237    KGVGRSR|KV  0.138    .
+87             238    GVGRSRK|VC  0.319    .
+87             248    VIDFTVK|KR  0.056    .
+87             249    IDFTVKK|RT  0.099    .
+87             250    DFTVKKR|TL  0.212    .
+87             266    ENAEAQK|MM  0.061    .
+87             272    KMMAEFR|LG  0.113    .
+87             285    IMSGPEK|GK  0.083    .
+87             287    SGPEKGK|SG  0.070    .
+87             290    EKGKSGK|IL  0.085    .
+87             300    LSLETSR|CI  0.074    .
+87             304    TSRCIVR|LP  0.092    .
+87             320    AVLCIGK|GN  0.056    .
+87             323    CIGKGNK|EE  0.055    .
+87             328    NKEEYLR|QR  0.085    .
+87             330    EEYLRQR|DS  0.084    .
+87             345    DVFAVPK|PS  0.071    .
+87             349    VPKPSTK|KE  0.061    .
+87             350    PKPSTKK|EP  0.080    .
+87             353    STKKEPK|RE  0.062    .
+87             354    TKKEPKR|EP  0.193    .
+87             357    EPKREPK|SN  0.393    .
+87             370    NNSSVGK|KK  0.070    .
+87             371    NSSVGKK|KA  0.130    .
+87             372    SSVGKKK|AW  0.110    .
+87             377    KKAWLHR|DL  0.127    .
+87             380    WLHRDLK|VR  0.086    .
+87             382    HRDLKVR|VV  0.197    .
+87             389    VVSQEFR|KG  0.076    .
+87             390    VSQEFRK|GK  0.088    .
+87             392    QEFRKGK|YY  0.252    .
+87             396    KGKYYCK|KV  0.077    .
+87             397    GKYYCKK|VD  0.096    .
+87             412    PTTCTCR|SE  0.114    .
+87             417    CRSESGK|LL  0.093    .
+87             433    LETVIPR|NP  0.081    .
+87             444    LVMLLDK|EH  0.059    .
+87             447    LLDKEHR|WQ  0.089    .
+87             456    VAELADK|DS  0.060    .
+87             459    LADKDSK|KE  0.059    .
+87             460    ADKDSKK|EC  0.111    .
+87             471    AVTLIEK|EA  0.058    .
+87             495    LFQCISK|SL  0.082    .
+87             526    LPVSLLR|SM  0.109    .
+87             538    TTPLPFR|KM  0.105    .
+87             539    TPLPFRK|MN  0.118    .
+87             568    QMTAMQK|QQ  0.062    .
+87             575    QQQMFLK|QQ  0.084    .
+87             589    QQQQLQK|QM  0.063    .
+87             593    LQKQMQR|EE  0.073    .
+87             597    MQREEQR|NR  0.076    .
+87             599    REEQRNR|LR  0.083    .
+87             601    EQRNRLR|NM  0.076    .
+87             606    LRNMNVR|SM  0.190    .
+87             621    QATPGPR|VQ  0.082    .
+87             726    TSFSQSK|QP  0.067    .
+87             863    QPLIPVK|PV  0.071    .
+87             866    IPVKPVK|CE  0.066    .
+87             948    IPQTQPK|FT  0.109    .
+87            1024    SVEMFAK|PT  0.086    .
+87            1034    TQNNQTK|SE  0.125    .
+87            1039    TKSEFDK|LI  0.113    .
+87            1043    FDKLIEK|SL  0.074    .
+87            1048    EKSLSGK|AT  0.072    .
+87            1051    LSGKATK|SD  0.089    .
+87            1055    ATKSDPK|EL  0.059    .
+87            1059    DPKELFR|PV  0.109    .
+87            1063    LFRPVSK|PA  0.076    .
+87            1070    PAIPSMK|SD  0.078    .
+87            1074    SMKSDVK|VS  0.060    .
+87            1096    VFGTEEK|TE  0.059    .
+87            1111    FLASETK|GP  0.070    .
+87            1137    GTTEPPK|TS  0.058    .
+87            1153    LDEPITK|PQ  0.061    .
+87            1174    NNAPPSK|TP  0.060    .
+87            1187    GLFSAPK|PK  0.067    .
+87            1189    FSAPKPK|TI  0.088    .
+87            1229    PPAAPGK|IP  0.066    .
+87            1252    GIIDVSK|VY  0.075    .
+87            1279    QCNMSER|PR  0.089    .
+87            1281    NMSERPR|AA  0.132    .
+87            1295    IGLVALK|QK  0.056    .
+87            1297    LVALKQK|GF  0.066    .
+87            1304    GFPAPVK|AD  0.063    .
+87            1311    ADINYQK|LI  0.069    .
+87            1320    LPSVNSK|VL  0.068    .
+87            1323    VNSKVLK|SV  0.120    .
+87            1326    KVLKSVK|LK  0.064    .
+87            1328    LKSVKLK|SD  0.114    .
+87            1331    VKLKSDK|PT  0.060    .
+87            1342    SFVEPEK|KE  0.056    .
+87            1343    FVEPEKK|EP  0.067    .
+87            1346    PEKKEPK|FK  0.065    .
+87            1348    KKEPKFK|PV  0.125    .
+87            1372    FAGTDTK|SA  0.096    .
+87            1392    TVDDVTK|KT  0.065    .
+87            1393    VDDVTKK|TG  0.092    .
+87            1425    SSTIAPK|IG  0.075    .
+87            1433    GGPMAPK|SR  0.068    .
+87            1435    PMAPKSR|KP  0.082    .
+87            1436    MAPKSRK|PP  0.083    .
+87            1440    SRKPPPK|WG  0.086    .
+87            1459    VNNIATK|NR  0.066    .
+87            1461    NIATKNR|WG  0.117    .
+87            1466    NRWGDVK|QV  0.095    .
+87            1474    VAAAGDR|DC  0.123    .
+87            1489    DDGTCSR|FF  0.090    .
+87            1492    TCSRFFK|DD  0.362    .
+87            1550    ETSNVEK|VR  0.062    .
+87            1552    SNVEKVR|KD  0.130    .
+87            1553    NVEKVRK|DF  0.121    .
+87            1578    PGEMEMK|AN  0.068    .
+87            1592    TESSPFK|SD  0.112    .
+87            1607    PIQSESK|PK  0.064    .
+87            1609    QSESKPK|RD  0.070    .
+87            1610    SESKPKR|DL  0.427    .
+87            1614    PKRDLDR|LA  0.100    .
+87            1633    PFSSSAK|TS  0.070    .
+87            1650    PSNDLDR|LA  0.183    .
+87            1714    AATESSK|TD  0.065    .
+87            1721    TDSMALK|NL  0.070    .
+87            1726    LKNLPSK|DL  0.090    .
+87            1742    VDSLGPK|VV  0.087    .
+87            1746    GPKVVEK|QV  0.114    .
+87            1779    VSYDAFK|DT  0.071    .
+87            1790    PAADEDR|LG  0.076    .
+87            1796    RLGAWSK|CL  0.086    .
+87            1821    PSPEVLR|EV  0.122    .
+87            1828    EVVESEK|GQ  0.056    .
+87            1841    AVTEVFK|VA  0.062    .
+87            1845    VFKVACR|VS  0.073    .
+87            1861    GVVEIFK|EI  0.061    .
+87            1864    EIFKEIK|HT  0.066    .
+87            1884    IDLPTPR|EF  0.078    .
+87            1899    NEVEWDR|NC  0.091    .
+87            1909    ICLLDTK|GE  0.059    .
+87            1914    TKGEGEK|SV  0.103    .
+87            1921    SVLQYNR|VM  0.079    .
+87            1945    MLPNLNR|KL  0.098    .
+87            1946    LPNLNRK|LD  0.084    .
+87            1962    SPSILCR|DV  0.257    .
+87            1977    ESEFPDR|YF  0.093    .
+87            1993    INNITVR|DL  0.136    .
+87            2026    VQDDDLR|AP  0.066    .
+87            2044    LPTPGSR|KT  0.069    .
+87            2045    PTPGSRK|TL  0.066    .
+87            2059    LSQDISK|YS  0.070    .
+87            2065    KYSPANK|DY  0.081    .
+87            2070    NKDYAVR|LL  0.075    .
+87            2098    MEDLLEK|MD  0.054    .
+87            2110    AIPLAQR|TG  0.066    .
+87            2121    SWYQAGK|FT  0.075    .
+87            2126    GKFTEYR|GR  0.084    .
+87            2128    FTEYRGR|LK  0.102    .
+87            2130    EYRGRLK|MK  0.064    .
+87            2132    RGRLKMK|IE  0.073    .
+87            2144    MNIDTSK|QS  0.065    .
+87            2152    SYQECVR|KK  0.078    .
+87            2153    YQECVRK|KK  0.088    .
+87            2154    QECVRKK|KI  0.136    .
+87            2155    ECVRKKK|IM  0.295    .
+87            2164    EELGVNK|FN  0.066    .
+87            2171    FNYVNEK|VV  0.077    .
+87            2179    VDEIYER|RN  0.067    .
+87            2180    DEIYERR|NR  0.102    .
+87            2182    IYERRNR|MR  0.173    .
+87            2184    ERRNRMR|EF  0.116    .
+87            2187    NRMREFK|NN  0.158    .
+87            2191    EFKNNLK|KN  0.056    .
+87            2192    FKNNLKK|NL  0.113    .
+87            2198    KNLDVTK|VD  0.066    .
+87            2203    TKVDTSK|LT  0.066    .
+87            2209    KLTAHQR|IL  0.091    .
+87            2214    QRILLFK|RH  0.066    .
+87            2215    RILLFKR|HI  0.206    .
+87            2218    LFKRHIK|SK  0.234    .
+87            2220    KRHIKSK|QD  0.075    .
+87            2223    IKSKQDK|ID  0.079    .
+87            2228    DKIDNTK|PI  0.069    .
+87            2231    DNTKPIK|QQ  0.066    .
+87            2243    QFNYAIR|KR  0.076    .
+87            2244    FNYAIRK|RK  0.071    .
+87            2245    NYAIRKR|KN  0.157    .
+87            2246    YAIRKRK|NP  0.202    .
+87            2262    APVADCR|FY  0.106    .
+87            2269    FYIATGK|CK  0.057    .
+87            2271    IATGKCK|FG  0.069    .
+87            2275    KCKFGTK|CI  0.071    .
+87            2278    FGTKCIR|KH  0.073    .
+87            2279    GTKCIRK|HD  0.089    .
+87            2284    RKHDPTK|LP  0.066    .
+87            2288    PTKLPAK|LK  0.064    .
+87            2290    KLPAKLK|QQ  0.066    .
+87            2295    LKQQYAR|RM  0.099    .
+87            2296    KQQYARR|MP  0.128    .
+87            2299    YARRMPK|SA  0.389    .
+87            2303    MPKSAFK|VN  0.063    .
+87            2328    TTSGVEK|YQ  0.096    .
+87            2333    EKYQQVK|QP  0.063    .
+87            2337    QVKQPTR|AD  0.084    .
+87            2341    PTRADFR|FI  0.122    .
+87            2351    NSTLGPK|KV  0.066    .
+87            2352    STLGPKK|VA  0.087    .
+87            2355    GPKKVAR|NK  0.164    .
+87            2357    KKVARNK|KA  0.061    .
+87            2358    KVARNKK|AV  0.710 *ProP*
+87            2362    NKKAVDR|AL  0.127    .
+87            2365    AVDRALK|WK  0.097    .
+87            2367    DRALKWK|RR  0.077    .
+87            2368    RALKWKR|RT  0.172    .
+87            2369    ALKWKRR|TV  0.310    .
+87            2374    RRTVQQK|QK  0.080    .
+87            2376    TVQQKQK|VD  0.059    .
+87            2384    DCMFYIR|RG  0.068    .
+87            2385    CMFYIRR|GT  0.134    .
+87            2395    LFGDQCR|KK  0.095    .
+87            2396    FGDQCRK|KH  0.072    .
+87            2397    GDQCRKK|HD  0.103    .
+87            2402    KKHDPEK|VA  0.068    .
+87            2407    EKVALCR|RF  0.083    .
+87            2408    KVALCRR|FI  0.175    .
+87            2414    RFIFYGK|CP  0.057    .
+87            2425    GCLFQHR|CV  0.112    .
+87            2430    HRCVPEK|MP  0.062    .
+87            2441    LYFYSGK|CT  0.060    .
+87            2444    YSGKCTK|ED  0.069    .
+87            2453    CQFLHVK|LS  0.067    .
+87            2463    DVQVCDR|FL  0.086    .
+87            2471    LAGHCDR|GS  0.099    .
+87            2474    HCDRGSK|CT  0.105    .
+87            2477    RGSKCTR|RH  0.081    .
+87            2478    GSKCTRR|HT  0.231    .
+87            2481    CTRRHTR|DC  0.557 *ProP*
+87            2495    TGSCPNR|FE  0.118    .
+87            2499    PNRFECK|LA  0.077    .
+87            2504    CKLAHDR|EL  0.080    .
+87            2507    AHDRELK|KT  0.099    .
+87            2508    HDRELKK|TV  0.205    .
+87            2531    IPVGGEK|EM  0.060    .
+87            2550    GFTQPPR|DS  0.126    .
+87            2567    SIDQEDR|ER  0.071    .
+87            2569    DQEDRER|MG  0.069    .
+87            2578    ISPFVNR|KR  0.088    .
+87            2579    SPFVNRK|RL  0.079    .
+87            2580    PFVNRKR|LP  0.129    .
+87            2587    LPSEDDR|PG  0.086    .
+87            2593    RPGPSNR|TT  0.133    .
+87            2598    NRTTDNK|PG  0.064    .
+87            2623    IIACMGK|AT  0.067    .
+87            2631    TNTTTSR|RS  0.070    .
+87            2632    NTTTSRR|ST  0.184    .
+87            2635    TSRRSTR|LA  0.386    .
+87            2638    RSTRLAK|RA  0.174    .
+87            2639    STRLAKR|AS  0.191    .
+87            2645    RASSSAK|SS  0.149    .
+87            2656    DADGPPK|PP  0.054    .
+87            2686    GGDESNK|DR  0.069    .
+87            2688    DESNKDR|DC  0.194    .
+87            2702    DAVQPVR|TP  0.078    .
+87            2715    FCFLCIK|GV  0.075    .
+87            2730    GTCALCR|AA  0.092    .
+87            2735    CRAAIPR|DF  0.139    .
+87            2740    PRDFLTR|PE  0.091    .
+87            2765    TWFYEGR|SG  0.186    .
+87            2775    WWQYDAR|TS  0.119    .
+87            2782    TSADIEK|AF  0.067    .
+87            2790    FQDDADK|DI  0.068    .
+87            2812    SAMVQQR|KC  0.102    .
+87            2813    AMVQQRK|CA  0.100    .
+87            2820    CAPHIQR|RI  0.079    .
+87            2821    APHIQRR|IK  0.189    .
+87            2823    HIQRRIK|RD  0.124    .
+87            2824    IQRRIKR|DK  0.623 *ProP*
+87            2826    RRIKRDK|NI  0.080    .
+87            2831    DKNIPDK|KG  0.066    .
+87            2832    KNIPDKK|GV  0.168    .
+87            2839    GVAGITK|KH  0.060    .
+87            2840    VAGITKK|HR  0.079    .
+87            2842    GITKKHR|NR  0.084    .
+87            2844    TKKHRNR|RT  0.106    .
+87            2845    KKHRNRR|TN  0.518 *ProP*
+87            2848    RNRRTNK|PP  0.146    .
+87            2919    EISTNQK|EI  0.065    .
+87            2934    TVDTVEK|PQ  0.065    .
+87            2947    GPAPSSK|QL  0.087    .
+87            2963    QSETNNK|RP  0.060    .
+87            2964    SETNNKR|PL  0.211    .
+87            2974    NEQSQDK|EE  0.056    .
+87            2981    EESSPSR|KR  0.079    .
+87            2982    ESSPSRK|RP  0.071    .
+87            2983    SSPSRKR|PL  0.176    .
+87            2987    RKRPLVR|SP  0.168    .
+87            3004    YPAGLTR|MR  0.113    .
+87            3006    AGLTRMR|EI  0.089    .
+87            3011    MREIIEK|YA  0.080    .
+87            3022    TSPTGAR|AD  0.084    .
+87            3027    ARADLTK|PL  0.077    .
+87            3035    LCNIFLR|GW  0.097    .
+87            3038    IFLRGWR|LS  0.134    .
+87            3045    LSAQFPK|VC  0.082    .
+87            3052    VCSSQGK|AT  0.074    .
+87            3060    TILEVLR|KV  0.108    .
+87            3061    ILEVLRK|VV  0.107    .
+87            3070    EGLWDER|LL  0.065    .
+87            3078    LQVPGLR|GD  0.090    .
+87            3092    MVVEEIR|RD  0.075    .
+87            3093    VVEEIRR|DN  0.135    .
+87            3097    IRRDNTR|LF  0.144    .
+87            3113    TVLLTEK|LF  0.058    .
+87            3117    TEKLFDR|YY  0.116    .
+87            3120    LFDRYYR|AA  0.255    .
+87            3123    RYYRAAR|LS  0.224    .
+87            3127    AARLSHK|PV  0.080    .
+87            3140    STQQWEK|LK  0.061    .
+87            3142    QQWEKLK|TE  0.061    .
+87            3162    LLIHCYK|SW  0.107    .
+87            3171    ESVGCGR|CR  0.089    .
+87            3173    VGCGRCR|RH  0.096    .
+87            3174    GCGRCRR|HM  0.501 *ProP*
+87            3186    MEGVTGR|AL  0.120    .
+87            3201    VSCSCGK|DT  0.088    .
+87            3216    ACDNCTK|WQ  0.059    .
+87            3238    LQYYCPR|CT  0.106    .
+87            3243    PRCTAAK|KR  0.070    .
+87            3244    RCTAAKK|RA  0.092    .
+87            3245    CTAAKKR|AA  0.359    .
+87            3249    KKRAAVK|DQ  0.099    .
+87            3286    QTHYFIR|IM  0.096    .
+____________________________^_________________
+
+
+
+

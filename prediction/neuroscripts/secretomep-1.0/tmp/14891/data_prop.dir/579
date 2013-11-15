@@ -1,0 +1,207 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1521 579         
+MSTVAKVMVCDELREGLCDDNLDILCVDVTSTCTIHKHQICDGTWDCSSGQDELECIGLITRGCHRKMDPTISSPIPISW      80
+LGDGVVDCIGGEDEILDLWPVCGTGIFQRFSENGQQQCKDVYICKFGPKTTIPSQLLCDGVDTCGNENKVCRRLLSEVAT     160
+KAVGVGTWNKFIGYCLPGLEGLELLKQGECFHFNYSVFRDSTILGITQETQVTAPEMDCQYTFGEIFLLLACSGLCSEQC     240
+PVSKSPPKIDACPHQFKRKIFTIADEKQLTFVTRKEDFFGQEIFQCRNNKCLPFEKVCNLINDCGDGSDEEKCSNHFKCK     320
+QSAEGNIGGHLIPLYKVCDSIPDCADLSDECNERCGKQILQGLHLKIGAFLLGLLAIGLNLWTIGTVGWELQTVSNQTFL     400
+NNRLLVATISLGDTLTGIYLLGIAVYDTLKGDRYCENQNYWLASKHCDHLGTVSTMGSVLSLVSMTSLSLLRVKGVTGGI     480
+RSPNTEVVFKLPIAMSLVIILLSVSFAIFPVIFIKEFEDVFGNGQVWDSDLKFFVGRNGKAAHWEVIDVIESYYGRIQGD     560
+QLAQEPWDKIALLIKGMYTSDYGNLDGLNSLVGFYGNEGVCLFKFFVVPQDPQFTFSLIYQILTSVCLATICTCYMVIEG     640
+ASRRSLAKLNMNNDLENNPGLLERLKQQQKTQRKVTLIIVTDLICWLPILVTSFCHMTELVDATPYYGIFSVIVLPINSV     720
+LNPLLYSNHIYDSIQKSFGADIVGALRSCTCKNRAAPVVPQDPQFTFSLIYQILTSVCLATICTCYMVIEGTSRRSLAKL     800
+NMNNDLEMNPGLLERLKQQQKTQRKVTLIIVTDLICWLPILVTSFCHMTELVDATPYYGIFSVIILPINSVLNPLLYSNH     880
+IYDSIQKVTGWLEKQFASLALLCTSYWSPMIVEGQHPEDIEMRNLGSNPGPEAADKNWCRASARIWLLWLHLQEMIGQRQ     960
+NPRVRARLGLGLGLGLGLDISYQINFELAKTIEWFCGTRVNCNEASLTWPDGVNDRAEPGIHSKFQSIGWKRLEISRDII    1040
+LHVCGGESVHLVEEKGINRVCVRLINRETDPKLSQYTQLERRVTVMVCTITRVTIYSRWGLTITLTHLASANKSWCCTAR    1120
+NPPAPIPCLTSRTARISAEFLLPTSHGVSVTSHGNSPATIVLEYVPSLRRIQLMPFERYLEHLSTASNCRHLNTPYFDSF    1200
+SRPTTYGLGYGHRRTPFTSRDLETFRTSNRKPLYDFRGFKKCEERHALSYFHFHFKSLVTLHLLLDTLLSLSLDSGYTMH    1280
+TLIIISLLLSLCCCTTRCLSITLYFSELTVLNTKYLLLLLLRMSGVNPKELSRLSSMRFFRHCVSAREWLLGNKPLGGTL    1360
+MGRTHESCERKRRQPRLVPVRVGLNHLPLSAGVAVLVRIRRGSGVKASTAEVGPQLSGRDPLVSCPGLWFSSIFSDSSLF    1440
+SLLSVAFVVLFSSLCTAFFYRECSLFSDFGVASVPIMRLYCVASIKMRLYCCYNASMLRLQCYLRNCVYIACVYNASIMR    1520
+L                                                                                   1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+........................................P.......................................    1440
+................................................................................    1520
+.                                                                                   1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+579              6    -MSTVAK|VM  0.064    .
+579             14    MVCDELR|EG  0.062    .
+579             37    STCTIHK|HQ  0.064    .
+579             62    CIGLITR|GC  0.081    .
+579             66    ITRGCHR|KM  0.091    .
+579             67    TRGCHRK|MD  0.104    .
+579            109    GTGIFQR|FS  0.170    .
+579            119    NGQQQCK|DV  0.093    .
+579            125    KDVYICK|FG  0.060    .
+579            129    ICKFGPK|TT  0.066    .
+579            149    TCGNENK|VC  0.066    .
+579            152    NENKVCR|RL  0.099    .
+579            153    ENKVCRR|LL  0.148    .
+579            161    LSEVATK|AV  0.100    .
+579            170    GVGTWNK|FI  0.094    .
+579            186    EGLELLK|QG  0.053    .
+579            199    FNYSVFR|DS  0.124    .
+579            244    EQCPVSK|SP  0.076    .
+579            248    VSKSPPK|ID  0.056    .
+579            257    ACPHQFK|RK  0.061    .
+579            258    CPHQFKR|KI  0.326    .
+579            259    PHQFKRK|IF  0.099    .
+579            267    FTIADEK|QL  0.057    .
+579            274    QLTFVTR|KE  0.090    .
+579            275    LTFVTRK|ED  0.083    .
+579            287    QEIFQCR|NN  0.080    .
+579            290    FQCRNNK|CL  0.103    .
+579            296    KCLPFEK|VC  0.057    .
+579            312    DGSDEEK|CS  0.064    .
+579            318    KCSNHFK|CK  0.091    .
+579            320    SNHFKCK|QS  0.086    .
+579            336    HLIPLYK|VC  0.063    .
+579            354    SDECNER|CG  0.091    .
+579            357    CNERCGK|QI  0.167    .
+579            366    LQGLHLK|IG  0.058    .
+579            403    QTFLNNR|LL  0.071    .
+579            430    AVYDTLK|GD  0.064    .
+579            433    DTLKGDR|YC  0.084    .
+579            445    NYWLASK|HC  0.062    .
+579            472    TSLSLLR|VK  0.080    .
+579            474    LSLLRVK|GV  0.093    .
+579            481    GVTGGIR|SP  0.093    .
+579            490    NTEVVFK|LP  0.059    .
+579            515    FPVIFIK|EF  0.080    .
+579            532    VWDSDLK|FF  0.052    .
+579            537    LKFFVGR|NG  0.097    .
+579            540    FVGRNGK|AA  0.184    .
+579            556    IESYYGR|IQ  0.160    .
+579            569    AQEPWDK|IA  0.065    .
+579            575    KIALLIK|GM  0.066    .
+579            604    EGVCLFK|FF  0.059    .
+579            643    VIEGASR|RS  0.076    .
+579            644    IEGASRR|SL  0.244    .
+579            648    SRRSLAK|LN  0.068    .
+579            664    NPGLLER|LK  0.096    .
+579            666    GLLERLK|QQ  0.059    .
+579            670    RLKQQQK|TQ  0.061    .
+579            673    QQQKTQR|KV  0.147    .
+579            674    QQKTQRK|VT  0.083    .
+579            736    IYDSIQK|SF  0.079    .
+579            747    DIVGALR|SC  0.085    .
+579            752    LRSCTCK|NR  0.067    .
+579            754    SCTCKNR|AA  0.107    .
+579            794    VIEGTSR|RS  0.077    .
+579            795    IEGTSRR|SL  0.246    .
+579            799    SRRSLAK|LN  0.072    .
+579            815    NPGLLER|LK  0.095    .
+579            817    GLLERLK|QQ  0.061    .
+579            821    RLKQQQK|TQ  0.061    .
+579            824    QQQKTQR|KV  0.147    .
+579            825    QQKTQRK|VT  0.083    .
+579            887    IYDSIQK|VT  0.068    .
+579            894    VTGWLEK|QF  0.055    .
+579            923    PEDIEMR|NL  0.095    .
+579            936    GPEAADK|NW  0.065    .
+579            940    ADKNWCR|AS  0.090    .
+579            944    WCRASAR|IW  0.098    .
+579            959    QEMIGQR|QN  0.083    .
+579            963    GQRQNPR|VR  0.077    .
+579            965    RQNPRVR|AR  0.085    .
+579            967    NPRVRAR|LG  0.100    .
+579            990    INFELAK|TI  0.070    .
+579            999    EWFCGTR|VN  0.067    .
+579           1016    PDGVNDR|AE  0.078    .
+579           1024    EPGIHSK|FQ  0.081    .
+579           1031    FQSIGWK|RL  0.076    .
+579           1032    QSIGWKR|LE  0.105    .
+579           1037    KRLEISR|DI  0.100    .
+579           1055    VHLVEEK|GI  0.069    .
+579           1059    EEKGINR|VC  0.063    .
+579           1063    INRVCVR|LI  0.096    .
+579           1067    CVRLINR|ET  0.103    .
+579           1072    NRETDPK|LS  0.059    .
+579           1081    QYTQLER|RV  0.087    .
+579           1082    YTQLERR|VT  0.105    .
+579           1092    MVCTITR|VT  0.081    .
+579           1098    RVTIYSR|WG  0.080    .
+579           1113    HLASANK|SW  0.077    .
+579           1120    SWCCTAR|NP  0.103    .
+579           1132    IPCLTSR|TA  0.111    .
+579           1135    LTSRTAR|IS  0.328    .
+579           1169    EYVPSLR|RI  0.070    .
+579           1170    YVPSLRR|IQ  0.067    .
+579           1178    QLMPFER|YL  0.105    .
+579           1190    STASNCR|HL  0.095    .
+579           1202    YFDSFSR|PT  0.091    .
+579           1213    GLGYGHR|RT  0.071    .
+579           1214    LGYGHRR|TP  0.138    .
+579           1220    RTPFTSR|DL  0.132    .
+579           1226    RDLETFR|TS  0.073    .
+579           1230    TFRTSNR|KP  0.077    .
+579           1231    FRTSNRK|PL  0.087    .
+579           1237    KPLYDFR|GF  0.105    .
+579           1240    YDFRGFK|KC  0.103    .
+579           1241    DFRGFKK|CE  0.093    .
+579           1245    FKKCEER|HA  0.102    .
+579           1256    YFHFHFK|SL  0.082    .
+579           1297    LCCCTTR|CL  0.093    .
+579           1314    LTVLNTK|YL  0.056    .
+579           1322    LLLLLLR|MS  0.080    .
+579           1329    MSGVNPK|EL  0.072    .
+579           1333    NPKELSR|LS  0.079    .
+579           1338    SRLSSMR|FF  0.134    .
+579           1341    SSMRFFR|HC  0.394    .
+579           1347    RHCVSAR|EW  0.101    .
+579           1354    EWLLGNK|PL  0.065    .
+579           1363    GGTLMGR|TH  0.082    .
+579           1370    THESCER|KR  0.071    .
+579           1371    HESCERK|RR  0.083    .
+579           1372    ESCERKR|RQ  0.116    .
+579           1373    SCERKRR|QP  0.382    .
+579           1376    RKRRQPR|LV  0.362    .
+579           1381    PRLVPVR|VG  0.077    .
+579           1398    GVAVLVR|IR  0.081    .
+579           1400    AVLVRIR|RG  0.074    .
+579           1401    VLVRIRR|GS  0.524 *ProP*
+579           1406    RRGSGVK|AS  0.069    .
+579           1419    GPQLSGR|DP  0.120    .
+579           1461    CTAFFYR|EC  0.081    .
+579           1478    ASVPIMR|LY  0.074    .
+579           1486    YCVASIK|MR  0.054    .
+579           1488    VASIKMR|LY  0.111    .
+579           1499    YNASMLR|LQ  0.072    .
+579           1505    RLQCYLR|NC  0.070    .
+579           1520    YNASIMR|L-  0.084    .
+____________________________^_________________
+
+
+
+

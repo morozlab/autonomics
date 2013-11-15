@@ -1,0 +1,311 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2229 260         
+MRGHVEKVKELYTRASISIPVRSFLAEYIESRPWKNYNVDDPSHFVTMQNEFMNFQEAAKRKIKEMKESGDVDMIVRTSV      80
+LLEEDCMTIFKSFNGKAPEFVGHIQNLLDEELKIVHGESEMKPIVNSNGAVSLLNDLEGSFFALTVREIQQIIQNIDKLA     160
+IKVGDQYDYQRLTQEDLHRKTNQFRNRAANTSEAECQQFEVMRTNCNQTLQMLHNQILKLLSDIMSLLEAGKRYIQDAFD     240
+CVVKEIDEWKDNQRYCMISGRPPASLDIIERNTSTLIDILISNCGYYIRLQDQVNDKPEFKARLHTWYNEHTTLIGTIIS     320
+KCFIVDQQPPQVMKKDTRFSASVRIIAGERWGLALKQPTIKVCLINADQAHRVLYALNKANDISQIHRCGEVSNGEKMME     400
+YSSMTKTVSLNFKNLVLRKLNRTTDRRACELVTEEKFAVYFQCTVAMPYKDTYQLGEVVKTLHAISLPVTVIVHGSQSPA     480
+AEATIFWDNCFAPPNREAFNHPGAHPWGQLKDRINDLFHKMTERPLKPEALAYLGTKVLNVDDTKDIDNHLVTWQAFAKD     560
+TLKKPSERSFTFWDWMYSCIDLIKKHFLPMWKDDLILGFISKARTEALLKAPTTQPNNFLLRFSDSTQGLYGGAIPHLGH     640
+GARQTKRERILDPPVYKFLYPNIAKETKFQKYYRQVQEEVPGYERDLIKAHVQLEQQQYESPTTPQHYDMISSSEFNDSF     720
+LMETMDYDMSNLLPAFDQRPNSNGGGGPVVSQQQVQQPMQHQHQQQHPQQQQRPQQQVVVGAADRAARGMHHQAVRSLAW     800
+PNSRFSERARSRTACGQSIGLTAQKGLRRQTENLLERENGREFLSLPLCVCCYIGSNKTQIAFLRISSKYNAIRMNHTDQ     880
+ITSSFRLFWTCLENLIFRKALVSFVPCVHNQTVFLCSLVIRVIWLLSHTGVKIKIKILILTFFNDFRFCNALTTNVCRFV     960
+GERERERVFKSATVCVCCYIGSNKTQIAFLRISSKYNAIRMNHTDQITSSFRLFWTCLENLIFRKALVSFVPCVHNQTIM    1040
+TVGFFLPRYWKQTSRRLSHTTPSPQFASPQPYQSAENGKKVLNCVLVHQNKNKCIMFHNAMFPRQNQMTYPNPLERIGRL    1120
+KFLGIISTYNTDSPNFSMFPALILCFLILHARGDYLPHSAVPLEPATLGETAELRCSKIVHRFQYDYGETADCVPSEMNN    1200
+CRYRWSKDGVPIDDAATTRYKIKNFYSYEYCAVTPNSEVMAAKLGLVSSPQNTGNQNEDRYAMSCYNTVLTITGVRTEDL    1280
+GVYNCSLSNPGDQKDRYAPDDYWTQNITLYDRNDLSVKYPKAIEYYETITPWNGDRYVVIQCVTTGAPVIWKARVPDSSC    1360
+QSWQTDKSDPCEERTWFDLDDLKKRDMYLCFDYNYVSSAHPTDLYGESIIMVSDISCSYSQSVIVYCMEDEKDYKPSSWG    1440
+NGTGTSIEKYSGSYNDWGDWYWRRTDRITIAIICVPVFLACAFIAALIVISIRGKCCQPSQQRVIFSPVTTFQPLATQYN    1520
+QVHGSVMVQQPPPQQVVRPMAWPNQPAAVGIPPYQPPATIDAQFCPSLEVRETALAHFLSVSKRSNKMTENETVCATRNE    1600
+DRYAMSCYNTVLTITGVRTEDLGVYNCSLSNPGDQKDRYAPDDYWTQNITLYDRNDLSVKYPKAIEYYETITPWNGDRYV    1680
+VIQCVTTGAPVIWKARVPDSSCQSWQTDKSDPCEERTWFDLDDLKKRDMYLCFDYNYVSSAHPTDLYGESIIMVSDISCS    1760
+YSQSVIVYCMEDEKDYKPSSWGNGTGTSIEKYSGSYNDWGDWYWRRTDRITIAIICVPVFLACAFIAALIVISIRGKCCQ    1840
+PSQQRVIFSPVTTFQPLATQYNQVHGSVMVQQPPPQQVVRPMAWPNQPAAVGIPPYQPPATIDAQFCPSHQHVSIATLPN    1920
+PTSPNSPHPIAVTTPLYPHGTGRPRFDSPPPMFQTHSKDVWRCDRESDLGVYNCTLSDTEKGMQDIWPDDKMSENITLYD    2000
+VADETVVYPKEVTYFQSVRPSTAYTFVQCVTTGSAEVTWKVRFVTSSCPYSHRNKVDPAMIRYCARQIATTVSRSVAVGA    2080
+GVQSPVAIQKRTLSSIQTINVPSGVDLPGEIWESTIDWDMQWFDGRDKIHVKVAAKPGDTVWRGVGFYSKDQMSNVFPSL    2160
+SLSSPRLSVPLSIFTFDPNLYLSLTLSLSFSISLSLSLSLSSLSLTLSLSLSLSLVYLMWSLIEYRQKL               2240
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+...............................................................P................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+.....................................................................               2240
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+260              2    -----MR|GH  0.092    .
+260              7    MRGHVEK|VK  0.073    .
+260              9    GHVEKVK|EL  0.066    .
+260             14    VKELYTR|AS  0.089    .
+260             22    SISIPVR|SF  0.142    .
+260             32    AEYIESR|PW  0.079    .
+260             35    IESRPWK|NY  0.184    .
+260             60    NFQEAAK|RK  0.064    .
+260             61    FQEAAKR|KI  0.145    .
+260             62    QEAAKRK|IK  0.135    .
+260             64    AAKRKIK|EM  0.137    .
+260             67    RKIKEMK|ES  0.106    .
+260             77    DVDMIVR|TS  0.064    .
+260             91    DCMTIFK|SF  0.078    .
+260             96    FKSFNGK|AP  0.085    .
+260            113    LLDEELK|IV  0.070    .
+260            122    HGESEMK|PI  0.063    .
+260            147    FFALTVR|EI  0.094    .
+260            158    IIQNIDK|LA  0.080    .
+260            162    IDKLAIK|VG  0.059    .
+260            171    DQYDYQR|LT  0.083    .
+260            179    TQEDLHR|KT  0.096    .
+260            180    QEDLHRK|TN  0.066    .
+260            185    RKTNQFR|NR  0.085    .
+260            187    TNQFRNR|AA  0.213    .
+260            203    QQFEVMR|TN  0.101    .
+260            219    LHNQILK|LL  0.072    .
+260            232    SLLEAGK|RY  0.058    .
+260            233    LLEAGKR|YI  0.235    .
+260            244    AFDCVVK|EI  0.063    .
+260            250    KEIDEWK|DN  0.070    .
+260            254    EWKDNQR|YC  0.095    .
+260            261    YCMISGR|PP  0.075    .
+260            271    SLDIIER|NT  0.101    .
+260            289    NCGYYIR|LQ  0.088    .
+260            297    QDQVNDK|PE  0.068    .
+260            301    NDKPEFK|AR  0.056    .
+260            303    KPEFKAR|LH  0.121    .
+260            321    IGTIISK|CF  0.056    .
+260            334    QPPQVMK|KD  0.061    .
+260            335    PPQVMKK|DT  0.160    .
+260            338    VMKKDTR|FS  0.093    .
+260            344    RFSASVR|II  0.125    .
+260            350    RIIAGER|WG  0.065    .
+260            356    RWGLALK|QP  0.058    .
+260            361    LKQPTIK|VC  0.059    .
+260            372    NADQAHR|VL  0.073    .
+260            379    VLYALNK|AN  0.070    .
+260            388    DISQIHR|CG  0.098    .
+260            397    EVSNGEK|MM  0.065    .
+260            406    EYSSMTK|TV  0.077    .
+260            413    TVSLNFK|NL  0.061    .
+260            418    FKNLVLR|KL  0.084    .
+260            419    KNLVLRK|LN  0.072    .
+260            422    VLRKLNR|TT  0.088    .
+260            426    LNRTTDR|RA  0.108    .
+260            427    NRTTDRR|AC  0.135    .
+260            436    ELVTEEK|FA  0.066    .
+260            450    TVAMPYK|DT  0.093    .
+260            460    QLGEVVK|TL  0.069    .
+260            496    CFAPPNR|EA  0.103    .
+260            511    HPWGQLK|DR  0.071    .
+260            513    WGQLKDR|IN  0.102    .
+260            520    INDLFHK|MT  0.068    .
+260            524    FHKMTER|PL  0.084    .
+260            527    MTERPLK|PE  0.114    .
+260            537    LAYLGTK|VL  0.057    .
+260            545    LNVDDTK|DI  0.083    .
+260            559    TWQAFAK|DT  0.090    .
+260            563    FAKDTLK|KP  0.057    .
+260            564    AKDTLKK|PS  0.120    .
+260            568    LKKPSER|SF  0.131    .
+260            584    SCIDLIK|KH  0.055    .
+260            585    CIDLIKK|HF  0.075    .
+260            592    HFLPMWK|DD  0.060    .
+260            602    ILGFISK|AR  0.062    .
+260            604    GFISKAR|TE  0.071    .
+260            610    RTEALLK|AP  0.061    .
+260            622    PNNFLLR|FS  0.108    .
+260            643    HLGHGAR|QT  0.106    .
+260            646    HGARQTK|RE  0.107    .
+260            647    GARQTKR|ER  0.131    .
+260            649    RQTKRER|IL  0.082    .
+260            657    LDPPVYK|FL  0.076    .
+260            665    LYPNIAK|ET  0.057    .
+260            668    NIAKETK|FQ  0.066    .
+260            671    KETKFQK|YY  0.080    .
+260            674    KFQKYYR|QV  0.165    .
+260            685    EVPGYER|DL  0.089    .
+260            689    YERDLIK|AH  0.071    .
+260            739    LPAFDQR|PN  0.137    .
+260            773    HPQQQQR|PQ  0.126    .
+260            785    VVGAADR|AA  0.107    .
+260            788    AADRAAR|GM  0.364    .
+260            796    MHHQAVR|SL  0.124    .
+260            804    LAWPNSR|FS  0.102    .
+260            808    NSRFSER|AR  0.114    .
+260            810    RFSERAR|SR  0.199    .
+260            812    SERARSR|TA  0.125    .
+260            825    IGLTAQK|GL  0.064    .
+260            828    TAQKGLR|RQ  0.081    .
+260            829    AQKGLRR|QT  0.139    .
+260            837    TENLLER|EN  0.113    .
+260            841    LERENGR|EF  0.074    .
+260            858    CYIGSNK|TQ  0.061    .
+260            865    TQIAFLR|IS  0.113    .
+260            869    FLRISSK|YN  0.075    .
+260            874    SKYNAIR|MN  0.124    .
+260            886    QITSSFR|LF  0.085    .
+260            898    LENLIFR|KA  0.086    .
+260            899    ENLIFRK|AL  0.077    .
+260            921    LCSLVIR|VI  0.096    .
+260            932    LSHTGVK|IK  0.066    .
+260            934    HTGVKIK|IK  0.070    .
+260            936    GVKIKIK|IL  0.065    .
+260            947    TFFNDFR|FC  0.097    .
+260            958    LTTNVCR|FV  0.173    .
+260            963    CRFVGER|ER  0.097    .
+260            965    FVGERER|ER  0.062    .
+260            967    GERERER|VF  0.081    .
+260            970    ERERVFK|SA  0.356    .
+260            984    CYIGSNK|TQ  0.061    .
+260            991    TQIAFLR|IS  0.113    .
+260            995    FLRISSK|YN  0.075    .
+260           1000    SKYNAIR|MN  0.124    .
+260           1012    QITSSFR|LF  0.085    .
+260           1024    LENLIFR|KA  0.086    .
+260           1025    ENLIFRK|AL  0.077    .
+260           1048    VGFFLPR|YW  0.083    .
+260           1051    FLPRYWK|QT  0.136    .
+260           1055    YWKQTSR|RL  0.094    .
+260           1056    WKQTSRR|LS  0.175    .
+260           1079    QSAENGK|KV  0.076    .
+260           1080    SAENGKK|VL  0.107    .
+260           1091    VLVHQNK|NK  0.066    .
+260           1093    VHQNKNK|CI  0.081    .
+260           1104    HNAMFPR|QN  0.118    .
+260           1116    YPNPLER|IG  0.087    .
+260           1119    PLERIGR|LK  0.202    .
+260           1121    ERIGRLK|FL  0.085    .
+260           1152    FLILHAR|GD  0.075    .
+260           1175    GETAELR|CS  0.076    .
+260           1178    AELRCSK|IV  0.152    .
+260           1182    CSKIVHR|FQ  0.124    .
+260           1202    SEMNNCR|YR  0.100    .
+260           1204    MNNCRYR|WS  0.148    .
+260           1207    CRYRWSK|DG  0.202    .
+260           1219    DDAATTR|YK  0.109    .
+260           1221    AATTRYK|IK  0.053    .
+260           1223    TTRYKIK|NF  0.080    .
+260           1243    SEVMAAK|LG  0.062    .
+260           1260    GNQNEDR|YA  0.154    .
+260           1276    LTITGVR|TE  0.067    .
+260           1294    SNPGDQK|DR  0.064    .
+260           1296    PGDQKDR|YA  0.107    .
+260           1312    NITLYDR|ND  0.061    .
+260           1318    RNDLSVK|YP  0.068    .
+260           1321    LSVKYPK|AI  0.086    .
+260           1336    TPWNGDR|YV  0.153    .
+260           1352    GAPVIWK|AR  0.055    .
+260           1354    PVIWKAR|VP  0.089    .
+260           1367    QSWQTDK|SD  0.084    .
+260           1374    SDPCEER|TW  0.093    .
+260           1383    FDLDDLK|KR  0.053    .
+260           1384    DLDDLKK|RD  0.068    .
+260           1385    LDDLKKR|DM  0.177    .
+260           1432    YCMEDEK|DY  0.063    .
+260           1435    EDEKDYK|PS  0.073    .
+260           1449    TGTSIEK|YS  0.071    .
+260           1463    WGDWYWR|RT  0.085    .
+260           1464    GDWYWRR|TD  0.122    .
+260           1467    YWRRTDR|IT  0.356    .
+260           1493    LIVISIR|GK  0.100    .
+260           1495    VISIRGK|CC  0.073    .
+260           1503    CQPSQQR|VI  0.080    .
+260           1538    PPQQVVR|PM  0.085    .
+260           1571    CPSLEVR|ET  0.096    .
+260           1583    HFLSVSK|RS  0.055    .
+260           1584    FLSVSKR|SN  0.511 *ProP*
+260           1587    VSKRSNK|MT  0.182    .
+260           1598    ETVCATR|NE  0.081    .
+260           1602    ATRNEDR|YA  0.129    .
+260           1618    LTITGVR|TE  0.067    .
+260           1636    SNPGDQK|DR  0.064    .
+260           1638    PGDQKDR|YA  0.107    .
+260           1654    NITLYDR|ND  0.061    .
+260           1660    RNDLSVK|YP  0.068    .
+260           1663    LSVKYPK|AI  0.086    .
+260           1678    TPWNGDR|YV  0.153    .
+260           1694    GAPVIWK|AR  0.055    .
+260           1696    PVIWKAR|VP  0.089    .
+260           1709    QSWQTDK|SD  0.084    .
+260           1716    SDPCEER|TW  0.093    .
+260           1725    FDLDDLK|KR  0.053    .
+260           1726    DLDDLKK|RD  0.068    .
+260           1727    LDDLKKR|DM  0.177    .
+260           1774    YCMEDEK|DY  0.063    .
+260           1777    EDEKDYK|PS  0.073    .
+260           1791    TGTSIEK|YS  0.071    .
+260           1805    WGDWYWR|RT  0.085    .
+260           1806    GDWYWRR|TD  0.122    .
+260           1809    YWRRTDR|IT  0.356    .
+260           1835    LIVISIR|GK  0.100    .
+260           1837    VISIRGK|CC  0.073    .
+260           1845    CQPSQQR|VI  0.080    .
+260           1880    PPQQVVR|PM  0.085    .
+260           1943    YPHGTGR|PR  0.125    .
+260           1945    HGTGRPR|FD  0.095    .
+260           1958    MFQTHSK|DV  0.116    .
+260           1962    HSKDVWR|CD  0.107    .
+260           1965    DVWRCDR|ES  0.193    .
+260           1981    TLSDTEK|GM  0.081    .
+260           1991    DIWPDDK|MS  0.060    .
+260           2010    ETVVYPK|EV  0.073    .
+260           2019    TYFQSVR|PS  0.095    .
+260           2040    SAEVTWK|VR  0.058    .
+260           2042    EVTWKVR|FV  0.123    .
+260           2053    SCPYSHR|NK  0.075    .
+260           2055    PYSHRNK|VD  0.062    .
+260           2062    VDPAMIR|YC  0.095    .
+260           2066    MIRYCAR|QI  0.113    .
+260           2074    IATTVSR|SV  0.177    .
+260           2090    SPVAIQK|RT  0.068    .
+260           2091    PVAIQKR|TL  0.242    .
+260           2126    MQWFDGR|DK  0.112    .
+260           2128    WFDGRDK|IH  0.053    .
+260           2132    RDKIHVK|VA  0.075    .
+260           2136    HVKVAAK|PG  0.071    .
+260           2143    PGDTVWR|GV  0.148    .
+260           2150    GVGFYSK|DQ  0.064    .
+260           2166    LSLSSPR|LS  0.072    .
+260           2226    WSLIEYR|QK  0.074    .
+260           2228    LIEYRQK|L-  0.065    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,225 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1487 615         
+MFLLESTLLSFSFRIRLDNKIVFSPDNRTVRAMIARHQMETGRKIRGHVRGFSSSSIFGRQDPKQQLRKVTAFSSGIDYR      80
+NNEVCTTHYRWYNFLPLNLYKQFHRLANWFFVGMLILNWVPQLNAVGKYFSISPLLIVLASDAIKDLYEDIRRGRQDDQL     160
+NDRETHFYNRKKQNWVKKKWRELQVGDVLKVYCKEEIPADLLIIDTTDECGFAFADTSTLDGETNLKSKAVARVPNYEET     240
+GIRGLQAEIHVDQPNNDLSKLNGYMVDEHCTKMSLCLDNFILRGSQLRNCDHIIGLVIYAGHDTKAMKNSRGVRRKTSKI     320
+ERTLNGIVLFVICIMFAMCAVCAFGQWLWLRTYDNLFPRDFTAGGVNGTYAKSPPYIGEKKGNWAYVSFLSFFTFAIVYN     400
+QLIPMSLYIVLEITKVIQIWFIQQDLDLFGKSPILCRSISIAEDLGQVQYVFSDKTGTLTENRMVFKAVSVCNKLFGSLE     480
+MGDLPETDSGEGGGEDEGAADRPPVDPELMSCLEDTSPEWDHVRDLLVAMTICNTVMVTTAGRRGTSFSQYLPRDFKTIV     560
+YEAESPDELSLVNAAREYGFILLRRTPESCVVRHQSTIMRYKVLCTLPFDSKRKCMSTIVVHPRTSKMVMFTKGADNAMF     640
+GRLRKAVDKDEIHHRATTLEHINTFAKKGMRTLAIGYKELDPAEYQQFIMRFRQASTKMEGREEAVSKVCSSIEQHLILL     720
+GATGVEDRLQEGVPEVLTSLRTAGIVVWLLTGDKQETAVSIGYSSKLYTRDTHLIKIKTTTYEATKAKLTSYMALTPTGQ     800
+VHKQALVISGNAIEFLLHKSLLSDFMALCQTCQTVICCRTTPLQKSMIVATIREQLQVLTLAIGDGANDVGMLRQADIGI     880
+GIAGREGTQAVMASDFAIEKFKMLQKLVLVHGQWTYHRISDFVFYFFYKNIFFTMLILLYQFFNGFSGSYPLEEFIFVTF     960
+NTFWAQPGTLVCFSLNQYGGSANKLLADPTSYGTGRRSEKFTMFHNFLHMLEALYHGALVFSIASMDAWDSPMGQMEFAG    1040
+VVAILAITTMNINFLVREFLLDKLKAVVLVINHNYNLMFPIAMTYICVKIILFKTQWTYHRISDFVFYFFYKNIFFTMLI    1120
+LLYQFFNGFSGSYPLEEFIFVTFNTFWAQPGTLVCFSLNQYGGSANKLLADPTSYGTGRRSEKFTMFHNFLHMLEALYHG    1200
+ALVFSIASMDAWDSPMGQMEFAGVVAILAITTMNINFLVRRNSFCFWIWFQTFQHYFKQINLRFRSTTPRYSSESSAQSI    1280
+SFLKTRQDRMSGVAPQYGNGMIRTKKDFEGELLVTSFSDRCKGSTVMKSLEEGRMTPPDGPTREHLWRTIVMCYNMLPDT    1360
+SRCATPSSESGVSFSCDDLKDSFSKLKQDLIDSLPGLVAPKVSEILKVSQEENESRRVDHMAKKPSPSTPVKRYVNIKDT    1440
+SDEGVTPMCEEKWTTVVRSKVEKALKNIPVLDTAAAAAAAAAACLHL                                     1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+....P...........................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+.........................P......................................................    1360
+................................................................................    1440
+...............................................                                     1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+615             14    LLSFSFR|IR  0.099    .
+615             16    SFSFRIR|LD  0.116    .
+615             20    RIRLDNK|IV  0.068    .
+615             28    VFSPDNR|TV  0.116    .
+615             31    PDNRTVR|AM  0.264    .
+615             36    VRAMIAR|HQ  0.122    .
+615             43    HQMETGR|KI  0.111    .
+615             44    QMETGRK|IR  0.087    .
+615             46    ETGRKIR|GH  0.321    .
+615             50    KIRGHVR|GF  0.100    .
+615             60    SSSIFGR|QD  0.166    .
+615             64    FGRQDPK|QQ  0.062    .
+615             68    DPKQQLR|KV  0.120    .
+615             69    PKQQLRK|VT  0.071    .
+615             80    SSGIDYR|NN  0.115    .
+615             90    VCTTHYR|WY  0.073    .
+615            101    LPLNLYK|QF  0.067    .
+615            105    LYKQFHR|LA  0.097    .
+615            128    QLNAVGK|YF  0.089    .
+615            145    LASDAIK|DL  0.079    .
+615            152    DLYEDIR|RG  0.070    .
+615            153    LYEDIRR|GR  0.096    .
+615            155    EDIRRGR|QD  0.274    .
+615            163    DDQLNDR|ET  0.079    .
+615            170    ETHFYNR|KK  0.074    .
+615            171    THFYNRK|KQ  0.076    .
+615            172    HFYNRKK|QN  0.117    .
+615            177    KKQNWVK|KK  0.071    .
+615            178    KQNWVKK|KW  0.159    .
+615            179    QNWVKKK|WR  0.137    .
+615            181    WVKKKWR|EL  0.110    .
+615            190    QVGDVLK|VY  0.067    .
+615            194    VLKVYCK|EE  0.060    .
+615            227    DGETNLK|SK  0.064    .
+615            229    ETNLKSK|AV  0.088    .
+615            233    KSKAVAR|VP  0.118    .
+615            243    YEETGIR|GL  0.094    .
+615            260    PNNDLSK|LN  0.073    .
+615            272    VDEHCTK|MS  0.057    .
+615            283    LDNFILR|GS  0.076    .
+615            288    LRGSQLR|NC  0.114    .
+615            305    YAGHDTK|AM  0.061    .
+615            308    HDTKAMK|NS  0.067    .
+615            311    KAMKNSR|GV  0.149    .
+615            314    KNSRGVR|RK  0.253    .
+615            315    NSRGVRR|KT  0.360    .
+615            316    SRGVRRK|TS  0.121    .
+615            319    VRRKTSK|IE  0.070    .
+615            322    KTSKIER|TL  0.103    .
+615            351    GQWLWLR|TY  0.086    .
+615            359    YDNLFPR|DF  0.186    .
+615            372    VNGTYAK|SP  0.075    .
+615            380    PPYIGEK|KG  0.061    .
+615            381    PYIGEKK|GN  0.099    .
+615            415    IVLEITK|VI  0.057    .
+615            431    DLDLFGK|SP  0.066    .
+615            437    KSPILCR|SI  0.208    .
+615            455    QYVFSDK|TG  0.059    .
+615            463    GTLTENR|MV  0.117    .
+615            467    ENRMVFK|AV  0.101    .
+615            474    AVSVCNK|LF  0.078    .
+615            502    DEGAADR|PP  0.073    .
+615            524    PEWDHVR|DL  0.109    .
+615            543    MVTTAGR|RG  0.063    .
+615            544    VTTAGRR|GT  0.119    .
+615            554    FSQYLPR|DF  0.130    .
+615            557    YLPRDFK|TI  0.102    .
+615            576    SLVNAAR|EY  0.123    .
+615            584    YGFILLR|RT  0.064    .
+615            585    GFILLRR|TP  0.108    .
+615            593    PESCVVR|HQ  0.135    .
+615            600    HQSTIMR|YK  0.091    .
+615            602    STIMRYK|VL  0.067    .
+615            612    TLPFDSK|RK  0.056    .
+615            613    LPFDSKR|KC  0.166    .
+615            614    PFDSKRK|CM  0.098    .
+615            624    TIVVHPR|TS  0.124    .
+615            627    VHPRTSK|MV  0.130    .
+615            633    KMVMFTK|GA  0.090    .
+615            642    DNAMFGR|LR  0.091    .
+615            644    AMFGRLR|KA  0.086    .
+615            645    MFGRLRK|AV  0.516 *ProP*
+615            649    LRKAVDK|DE  0.084    .
+615            655    KDEIHHR|AT  0.096    .
+615            667    HINTFAK|KG  0.067    .
+615            668    INTFAKK|GM  0.099    .
+615            671    FAKKGMR|TL  0.085    .
+615            678    TLAIGYK|EL  0.086    .
+615            691    YQQFIMR|FR  0.108    .
+615            693    QFIMRFR|QA  0.137    .
+615            698    FRQASTK|ME  0.087    .
+615            702    STKMEGR|EE  0.080    .
+615            708    REEAVSK|VC  0.095    .
+615            728    ATGVEDR|LQ  0.087    .
+615            741    EVLTSLR|TA  0.101    .
+615            754    WLLTGDK|QE  0.055    .
+615            766    SIGYSSK|LY  0.064    .
+615            770    SSKLYTR|DT  0.100    .
+615            776    RDTHLIK|IK  0.060    .
+615            778    THLIKIK|TT  0.065    .
+615            786    TTYEATK|AK  0.062    .
+615            788    YEATKAK|LT  0.078    .
+615            803    PTGQVHK|QA  0.065    .
+615            819    IEFLLHK|SL  0.069    .
+615            839    QTVICCR|TT  0.076    .
+615            845    RTTPLQK|SM  0.067    .
+615            853    MIVATIR|EQ  0.087    .
+615            874    NDVGMLR|QA  0.104    .
+615            885    GIGIAGR|EG  0.097    .
+615            900    SDFAIEK|FK  0.059    .
+615            902    FAIEKFK|ML  0.070    .
+615            906    KFKMLQK|LV  0.070    .
+615            918    GQWTYHR|IS  0.095    .
+615            929    VFYFFYK|NI  0.063    .
+615            984    YGGSANK|LL  0.054    .
+615            996    TSYGTGR|RS  0.113    .
+615            997    SYGTGRR|SE  0.155    .
+615           1000    TGRRSEK|FT  0.189    .
+615           1057    NINFLVR|EF  0.066    .
+615           1063    REFLLDK|LK  0.057    .
+615           1065    FLLDKLK|AV  0.069    .
+615           1089    MTYICVK|II  0.064    .
+615           1094    VKIILFK|TQ  0.063    .
+615           1101    TQWTYHR|IS  0.096    .
+615           1112    VFYFFYK|NI  0.063    .
+615           1167    YGGSANK|LL  0.054    .
+615           1179    TSYGTGR|RS  0.113    .
+615           1180    SYGTGRR|SE  0.155    .
+615           1183    TGRRSEK|FT  0.189    .
+615           1240    NINFLVR|RN  0.090    .
+615           1241    INFLVRR|NS  0.117    .
+615           1258    TFQHYFK|QI  0.069    .
+615           1263    FKQINLR|FR  0.107    .
+615           1265    QINLRFR|ST  0.161    .
+615           1270    FRSTTPR|YS  0.173    .
+615           1284    QSISFLK|TR  0.060    .
+615           1286    ISFLKTR|QD  0.111    .
+615           1289    LKTRQDR|MS  0.359    .
+615           1303    YGNGMIR|TK  0.102    .
+615           1305    NGMIRTK|KD  0.069    .
+615           1306    GMIRTKK|DF  0.526 *ProP*
+615           1320    VTSFSDR|CK  0.116    .
+615           1322    SFSDRCK|GS  0.074    .
+615           1328    KGSTVMK|SL  0.167    .
+615           1334    KSLEEGR|MT  0.097    .
+615           1343    PPDGPTR|EH  0.069    .
+615           1348    TREHLWR|TI  0.127    .
+615           1362    MLPDTSR|CA  0.103    .
+615           1380    FSCDDLK|DS  0.076    .
+615           1385    LKDSFSK|LK  0.064    .
+615           1387    DSFSKLK|QD  0.056    .
+615           1401    PGLVAPK|VS  0.059    .
+615           1407    KVSEILK|VS  0.061    .
+615           1416    QEENESR|RV  0.111    .
+615           1417    EENESRR|VD  0.133    .
+615           1423    RVDHMAK|KP  0.068    .
+615           1424    VDHMAKK|PS  0.081    .
+615           1432    SPSTPVK|RY  0.076    .
+615           1433    PSTPVKR|YV  0.355    .
+615           1438    KRYVNIK|DT  0.140    .
+615           1452    TPMCEEK|WT  0.077    .
+615           1458    KWTTVVR|SK  0.102    .
+615           1460    TTVVRSK|VE  0.058    .
+615           1463    VRSKVEK|AL  0.084    .
+615           1466    KVEKALK|NI  0.058    .
+____________________________^_________________
+
+
+
+

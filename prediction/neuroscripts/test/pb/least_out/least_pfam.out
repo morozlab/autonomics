@@ -1,0 +1,75 @@
+# pfam_scan.pl,  run at Mon Aug  8 21:13:51 2011
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk), 
+#          Rob Finn (rdf@sanger.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /home/girardo/pbs/leastSpecific.fasta
+#        searching against: /srv/data/pfam/Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+C4296337_gene_17899Marineland                                                         32    134     32    134 PF00188.20  CAP               Domain     1    96   124     28.7   1.2e-06   1 No_clan  
+C4336812_gene_24065Marineland                                                         29     82     28    132 PF00754.19  F5_F8_type_C      Domain     2    58   129     28.9   6.7e-07   1 CL0202   
+C4340292_gene_24797Marineland                                                         97    191     97    191 PF07679.10  I-set             Domain     1    90    90     36.1   3.4e-09   1 CL0011   
+C4340292_gene_24797Marineland                                                        224    257    224    266 PF07648.9   Kazal_2           Domain     1    32    42     27.2   2.2e-06   1 CL0005   
+C4349024_gene_27047Marineland                                                         34    144     28    163 PF00754.19  F5_F8_type_C      Domain     6   113   129     35.3   7.1e-09   1 CL0202   
+C4349884_gene_27329Marineland                                                         39    211     39    211 PF00106.19  adh_short         Domain     1   167   167     81.5     5e-23   1 CL0063   
+C4355064_gene_29161Marineland                                                         31    148     29    153 PF00337.16  Gal-bind_lectin   Domain     3   123   133     60.4     9e-17   1 CL0004   
+C4355568_gene_29366Marineland                                                         38     74     37     74 PF00057.12  Ldl_recept_a      Repeat     2    37    37     36.5   2.6e-09   1 No_clan  
+scaffold00267_gene_466Gainesville                                                     33    101     19    104 PF04051.10  TRAPP             Family    80   150   152     53.6   1.4e-14   1 No_clan  
+scaffold00320_gene_566Gainesville                                                     73    133     66    134 PF08806.5   Sep15_SelM        Domain    18    77    78     59.3   1.8e-16   1 No_clan  
+scaffold04059_gene_6934Gainesville                                                    29     83     25     93 PF00754.19  F5_F8_type_C      Domain     6    60   129     24.6   1.4e-05   1 CL0202   
+scaffold05090_gene_8567Gainesville                                                   131    209    129    214 PF00059.15  Lectin_C          Domain     3    74   108     28.9     9e-07   1 CL0056   
+scaffold1062_1_size29421_gene_9529Barcelona                                           68    168     66    168 PF00630.13  Filamin           Domain     3   101   101     48.2     1e-12   1 CL0159   
+scaffold1205_1_size26783_gene_10491Barcelona                                          53     92     35     93 PF08246.6   Inhibitor_I29     Domain    17    57    58     32.9   4.7e-08   1 No_clan  
+scaffold1382_1_size23388_gene_11685Barcelona                                          18    148     18    157 PF03265.9   DNase_II          Family     1   141   322    123.9   5.5e-36   1 No_clan  
+scaffold1403_1_size23126_gene_11762Barcelona                                          55    108     48    111 PF00085.14  Thioredoxin       Domain     9    63   104     25.1   8.2e-06   1 CL0172   
+scaffold1417_1_size22966_gene_11853Barcelona                                         343    406    330    416 PF00553.13  CBM_2             Domain    27    87   101     28.4     1e-06   1 CL0203   
+scaffold1442_1_size22675_gene_11998Barcelona                                          17     96     17    109 PF01105.18  EMP24_GP25L       Domain     1    83   182     53.4     2e-14   1 No_clan  
+scaffold2167_1_size15330_gene_15603Barcelona                                          39    173     26    174 PF00080.14  Sod_Cu            Domain    14   141   142     99.8   1.1e-28   1 No_clan  
+scaffold2454_1_size13754_gene_16790Barcelona                                          25    114     24    166 PF00685.21  Sulfotransfer_1   Domain    13   123   257     44.9   7.4e-12   1 CL0023   
+scaffold245_1_size73317_gene_2586Barcelona                                            44     73     43     78 PF05375.7   Pacifastin_I      Family     4    33    40     31.7   6.2e-08   1 No_clan  
+scaffold2498_1_size13509_gene_16938Barcelona                                         177    217    160    217 PF00084.14  Sushi             Domain    17    56    56     34.3   1.8e-08   1 No_clan  
+scaffold3124_1_size10680_gene_19290Barcelona                                          69    171     67    178 PF00112.17  Peptidase_C1      Domain     3   104   220    100.4   1.1e-28   1 CL0125   
+scaffold3357_1_size10036_gene_19979Barcelona                                          34     88     26    102 PF00754.19  F5_F8_type_C      Domain     7    62   129     28.4   9.2e-07   1 CL0202   
+scaffold3520_1_size9719_gene_20469Barcelona                                           40    100     39    102 PF00026.17  Asp               Family     2    65   314     40.0   2.2e-10   1 CL0129   
+scaffold3707_1_size9329_gene_21006Barcelona                                          469    581    464    582 PF00754.19  F5_F8_type_C      Domain     6   128   129     33.9   1.8e-08   1 CL0202   
+scaffold4052_1_size8392_gene_22000Barcelona                                           27    148     24    162 PF00754.19  F5_F8_type_C      Domain     2   116   129     30.2   2.7e-07   1 CL0202   
+scaffold425_1_size53703_gene_4413Barcelona                                            46    367     30    374 PF00144.18  Beta-lactamase    Domain    19   306   329    129.6   1.1e-37   1 CL0013   
+scaffold4339_1_size7545_gene_22795Barcelona                                          184    223    168    223 PF00084.14  Sushi             Domain    17    56    56     24.6   1.9e-05   1 No_clan  
+scaffold4339_1_size7545_gene_22795Barcelona                                          414    452    398    452 PF00084.14  Sushi             Domain    18    56    56     23.1   5.6e-05   1 No_clan  
+scaffold5284_1_size5922_gene_25150Barcelona                                          320    362    304    362 PF00084.14  Sushi             Domain    16    56    56     29.5   5.5e-07   1 No_clan  
+scaffold5284_1_size5922_gene_25150Barcelona                                          321    358    306    365 PF02793.16  HRM               Family    13    55    66     21.0    0.0002   1 No_clan  
+scaffold5998_1_size5271_gene_26650Barcelona                                           20     70     20     70 PF01607.18  CBM_14            Domain     1    53    53     45.6   3.9e-12   1 CL0155   
+scaffold5998_1_size5271_gene_26650Barcelona                                          154    204    154    204 PF01607.18  CBM_14            Domain     1    53    53     40.1   2.1e-10   1 CL0155   
+scaffold5998_1_size5271_gene_26650Barcelona                                          255    593    254    593 PF00704.22  Glyco_hydro_18    Domain     2   343   343    291.3   9.3e-87   1 CL0058   
+scaffold6510_1_size4898_gene_27617Barcelona                                           21     57     20     57 PF01549.18  ShK               Domain     2    38    38     30.9     2e-07   1 CL0213   
+scaffold6510_1_size4898_gene_27617Barcelona                                           62     98     62     98 PF01549.18  ShK               Domain     1    38    38     22.2   0.00011   1 CL0213   
+scaffold6786_1_size4715_gene_28092Barcelona                                          188    225    172    225 PF00084.14  Sushi             Domain    19    56    56     28.8   9.5e-07   1 No_clan  
+scaffold680_1_size41559_gene_6673Barcelona                                            50     98     50     98 PF07699.7   GCC2_GCC3         Family     1    48    48     31.6   7.1e-08   1 No_clan  
+scaffold708_1_size40350_gene_6915Barcelona                                           118    156    117    162 PF00112.17  Peptidase_C1      Domain     2    43   220     39.7   3.9e-10   1 CL0125   
+scaffold7295_1_size4205_gene_28981Barcelona                                           30    199     30    200 PF08547.6   CIA30             Family     1   161   162     65.3   4.5e-18   1 CL0202   
+scaffold7482_1_size3972_gene_29357Barcelona                                           28     83     26     96 PF00754.19  F5_F8_type_C      Domain     2    60   129     35.3   6.9e-09   1 CL0202   
+scaffold755_1_size38457_gene_7358Barcelona                                            27     82     23     91 PF00754.19  F5_F8_type_C      Domain     2    58   129     29.4   4.6e-07   1 CL0202   
+scaffold7644_1_size3767_gene_29646Barcelona                                          140    166    139    166 PF00112.17  Peptidase_C1      Domain     2    29   220     39.1   5.8e-10   1 CL0125   
+scaffold775_1_size37670_gene_7415Barcelona                                             7    240      2    240 PF03224.8   V-ATPase_H_N      Family    73   312   312    170.1   5.1e-50   1 CL0020   
+scaffold775_1_size37670_gene_7415Barcelona                                           246    363    245    363 PF11698.2   V-ATPase_H_C      Family     2   119   119    138.1   9.8e-41   1 CL0020   
+scaffold7938_1_size3472_gene_30139Barcelona                                           24    454     24    454 PF00884.17  Sulfatase         Family     1   379   379    189.1   9.6e-56   1 CL0088   

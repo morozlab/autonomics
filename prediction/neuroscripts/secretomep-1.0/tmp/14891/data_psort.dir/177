@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------
+177	
+
+ psg: 0.71  gvh: 0.36  alm: 0.34  top: 0.60  tms: 0.08  mit: 0.16  mip: 0.00
+ nuc: 0.18  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.08  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 1.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.79  lps: 0.03  len: 0.64 
+
+	 69.6 %: nuclear
+	 13.0 %: cytoplasmic
+	  8.7 %: vesicles of secretory system
+	  4.3 %: vacuolar
+	  4.3 %: plasma membrane
+
+>> prediction for 177 is nuc (k=23)
+

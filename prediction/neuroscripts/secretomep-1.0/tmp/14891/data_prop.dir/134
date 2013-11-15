@@ -1,0 +1,370 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2865 134         
+MGIFSYYFMEGCVCAAAAAAAALAFQDESNATGIFFLSYREGSVHSPSFLVIFATRANQRPEFRNPALLLAHAAKNEKND      80
+QQRSGNNGENRRLSLQQQSPSYHQHHADHQDRQAAGVDLGKLKQLLEETQRHLHEEKNCNYLSPPLPLSLFPSLSLSLSL     160
+SLSLAAAAAALSHSLSLSLTHSPSSSRGKESWEIGAHAERDREREIERGEREKRYSKIALSQSAEMYNRENQALKKKLDD     240
+YKKQRSDALDEVSRIQLESGDKLARLSLEIEGESEGRVEMERKVKDMRTDELEETIARRNTNPTQTPEYKTLQTDVYERN     320
+KELEMLRTAHTRVKKQLSEKSGELEHCQKRLDVIEEEVYTLRKRVEELKKELTTREDEVRDCLATRLIQSERTVENQIGT     400
+ARQTRPVHRMQQRLDTEQICYDLLDDVVSGDHQTPALSDTLANLTDSTIGATDCPALDTSNLESFFGSLNSDHSSSTFDT     480
+WADESLDLDLMCNFSSFNNTLSAAANPSPHIDGTKQESVFLNDPIKMEPFSISSQQQPSLDHCDLAPQEPTQLITPTDLH     560
+HINDENLFMVSQHLQYNPQQQAMPIVQPESSSPPPLKHEDFVSPVQHAWNLTTEQQAYFNSPNNNPQMLGYGSGAWNAQK     640
+NYGLEELVAQAEMKEQKKRTIGHHGPSPAAKKKKDISHSTPTPPVCPGEKPYYCPIEGCIRRFSRSDELTRHMRTHTGQK     720
+PFQCRICMRYFSRSDHLTTHIRTHTGEKPFSSNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     880
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAVLFLLARTCKVAARHPDYNRALQLANAAGPFTSLRARAHEGRERERERERDRQRERK    1120
+TDRENDRMGEIPQFCSGTRQKFCRGVPLKSRYKENLYILTVLIWSECPPKPVMYYTVCGSGNFSQLQQLTTSPRSRNQHH    1200
+QAEERGRMKLREGLGRLFIFIGDTTQIDPRVTAIRIESISRSYPLNCSSFCHICPLSNHPETLRDISSRSPVIINAGGEN    1280
+MCVRALNAHYYYLNFIVYVNVCLSLFSPLREIVISRGALARADFRVDILNICDGSNGSQGCISTHTRHIGTRVRICSWPS    1360
+VYYTMCGSGNFSQVCGGQGVGDLFQQLPQDIFSRWGIGSTRYLKLFFNRILLITYRKPLNPTNFDTLNHVSNFSNPSRIG    1440
+KLKVAVRLGQDFGHGQSVRSTRRCAGKRPVLANCSTRQKILKKCLKFLKKSKVRLKKSFRYLKRFQNQYSRTPIYRDARG    1520
+KDFCPVQSTYIGVPGISGSKTVNFLNRGNFILPVNRGSGHGPTKNEEYLNLYSLKSHSLNSDLSHTSTTLNLPWNILFQH    1600
+SLLRFYAPRRWKAPCFTRLFYPTKNSEKMLKIPEKSKYIIRLTKSFRYLAKNYLAPDSEADRTKAAKHSGFWGCGIATTV    1680
+EFNSNDSFPQLQRASSINSFTLYLHIVCRRVEKHSGFWGCGIATTVEFNSNDSFPQLQRASSINSFTLAALVMQSKSAIA    1760
+KQALEKQALEEQEERTIDDIINTVGARPNFLMVAIATWAMSLSMVGALCAYMIQFTGFTPWEPVTCLTQNCSNILNETRY    1840
+LTDISKICKEGLVYGEDYTWRISRTSLTLEWNLICDKDKVSLLESLYFIGGSISLIIGSYIFDKIGRRKACLIGAATALL    1920
+GVFLGTVCNSYNFLVFRNYYNSYSMLVWCVGYPTIVGVSYFIHTWQYIHAGSGIVFILCFVPLTFYPDSPRYLLAIGKEE    2000
+EAKVVLEKYGRITNVQINLSNTRLIGSALNKETKSVSFKSKMQEYCNHPGMALELVIQGYMWLTCCLLYYGVNYGWSSFG    2080
+TTPYVSYLFAGTMPCYFLEIIFGAFYQLATYLVRLTRPKEKFFNHIFRSDPSDRHVESYSFKLVYFSGLSEAIAYVLLAI    2160
+FITFFGRKLTLSISLLVTSACFLLSLIPWKWTEVWSLERLLALIIVVWISIAFAQLFLYAGELAPTYLRGYAMSTCSLIA    2240
+RAAAFCGPYLAKSSGTGKLLGTAAMAGVGGLLVFLLPVHFFSTVHPKTEISRNLKFVWCTLYKRGICRYLRKLQMSARDD    2320
+SNRTFPSVCPSIEMRRKTRMFSCRHAAARGQVNGFARAKLFRSYLWFLIGKLADKVGFFEVVTPLLSRGVVFARDSPHLL    2400
+LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2480
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2560
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2640
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2720
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    2800
+AAAPRDKRGVTTSKNPTLAWTGQWVRGRSSGTIVEELKTRARDLQRMSKNQKRFLKTKEKKEDRK                   2880
+................................................................................      80
+................................................................................     160
+.....................................................P..........................     240
+................................................................................     320
+................................................................................     400
+....P...........................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................P...............     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+.......P.........................................................                   2880
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+134             40    IFFLSYR|EG  0.085    .
+134             56    LVIFATR|AN  0.081    .
+134             60    ATRANQR|PE  0.080    .
+134             64    NQRPEFR|NP  0.079    .
+134             75    LLAHAAK|NE  0.064    .
+134             78    HAAKNEK|ND  0.059    .
+134             83    EKNDQQR|SG  0.173    .
+134             91    GNNGENR|RL  0.132    .
+134             92    NNGENRR|LS  0.133    .
+134            112    HADHQDR|QA  0.120    .
+134            121    AGVDLGK|LK  0.059    .
+134            123    VDLGKLK|QL  0.061    .
+134            131    LLEETQR|HL  0.088    .
+134            137    RHLHEEK|NC  0.055    .
+134            187    HSPSSSR|GK  0.103    .
+134            189    PSSSRGK|ES  0.090    .
+134            200    IGAHAER|DR  0.106    .
+134            202    AHAERDR|ER  0.094    .
+134            204    AERDRER|EI  0.161    .
+134            208    REREIER|GE  0.091    .
+134            211    EIERGER|EK  0.148    .
+134            213    ERGEREK|RY  0.073    .
+134            214    RGEREKR|YS  0.642 *ProP*
+134            217    REKRYSK|IA  0.112    .
+134            229    SAEMYNR|EN  0.079    .
+134            235    RENQALK|KK  0.063    .
+134            236    ENQALKK|KL  0.121    .
+134            237    NQALKKK|LD  0.095    .
+134            242    KKLDDYK|KQ  0.059    .
+134            243    KLDDYKK|QR  0.133    .
+134            245    DDYKKQR|SD  0.132    .
+134            254    ALDEVSR|IQ  0.074    .
+134            262    QLESGDK|LA  0.060    .
+134            265    SGDKLAR|LS  0.087    .
+134            277    EGESEGR|VE  0.062    .
+134            282    GRVEMER|KV  0.139    .
+134            283    RVEMERK|VK  0.079    .
+134            285    EMERKVK|DM  0.165    .
+134            288    RKVKDMR|TD  0.097    .
+134            298    LEETIAR|RN  0.071    .
+134            299    EETIARR|NT  0.117    .
+134            310    TQTPEYK|TL  0.063    .
+134            319    QTDVYER|NK  0.072    .
+134            321    DVYERNK|EL  0.063    .
+134            327    KELEMLR|TA  0.080    .
+134            332    LRTAHTR|VK  0.085    .
+134            334    TAHTRVK|KQ  0.063    .
+134            335    AHTRVKK|QL  0.316    .
+134            340    KKQLSEK|SG  0.082    .
+134            349    ELEHCQK|RL  0.072    .
+134            350    LEHCQKR|LD  0.169    .
+134            362    EEVYTLR|KR  0.070    .
+134            363    EVYTLRK|RV  0.087    .
+134            364    VYTLRKR|VE  0.095    .
+134            369    KRVEELK|KE  0.059    .
+134            370    RVEELKK|EL  0.106    .
+134            375    KKELTTR|ED  0.085    .
+134            380    TREDEVR|DC  0.112    .
+134            386    RDCLATR|LI  0.091    .
+134            392    RLIQSER|TV  0.173    .
+134            402    NQIGTAR|QT  0.116    .
+134            405    GTARQTR|PV  0.529 *ProP*
+134            409    QTRPVHR|MQ  0.092    .
+134            413    VHRMQQR|LD  0.095    .
+134            515    PHIDGTK|QE  0.068    .
+134            526    FLNDPIK|ME  0.062    .
+134            597    SSPPPLK|HE  0.068    .
+134            640    GAWNAQK|NY  0.069    .
+134            654    VAQAEMK|EQ  0.063    .
+134            657    AEMKEQK|KR  0.070    .
+134            658    EMKEQKK|RT  0.089    .
+134            659    MKEQKKR|TI  0.443    .
+134            671    GPSPAAK|KK  0.103    .
+134            672    PSPAAKK|KK  0.107    .
+134            673    SPAAKKK|KD  0.114    .
+134            674    PAAKKKK|DI  0.381    .
+134            690    PVCPGEK|PY  0.057    .
+134            701    PIEGCIR|RF  0.072    .
+134            702    IEGCIRR|FS  0.163    .
+134            705    CIRRFSR|SD  0.510 *ProP*
+134            711    RSDELTR|HM  0.089    .
+134            714    ELTRHMR|TH  0.216    .
+134            720    RTHTGQK|PF  0.060    .
+134            725    QKPFQCR|IC  0.101    .
+134            729    QCRICMR|YF  0.135    .
+134            733    CMRYFSR|SD  0.124    .
+134            742    HLTTHIR|TH  0.080    .
+134            748    RTHTGEK|PF  0.062    .
+134           1070    VLFLLAR|TC  0.080    .
+134           1073    LLARTCK|VA  0.132    .
+134           1077    TCKVAAR|HP  0.108    .
+134           1083    RHPDYNR|AL  0.079    .
+134           1098    GPFTSLR|AR  0.092    .
+134           1100    FTSLRAR|AH  0.123    .
+134           1105    ARAHEGR|ER  0.117    .
+134           1107    AHEGRER|ER  0.083    .
+134           1109    EGRERER|ER  0.081    .
+134           1111    RERERER|ER  0.102    .
+134           1113    RERERER|DR  0.103    .
+134           1115    RERERDR|QR  0.107    .
+134           1117    RERDRQR|ER  0.080    .
+134           1119    RDRQRER|KT  0.123    .
+134           1120    DRQRERK|TD  0.274    .
+134           1123    RERKTDR|EN  0.116    .
+134           1127    TDRENDR|MG  0.109    .
+134           1139    QFCSGTR|QK  0.074    .
+134           1141    CSGTRQK|FC  0.072    .
+134           1144    TRQKFCR|GV  0.195    .
+134           1149    CRGVPLK|SR  0.086    .
+134           1151    GVPLKSR|YK  0.082    .
+134           1153    PLKSRYK|EN  0.059    .
+134           1170    WSECPPK|PV  0.077    .
+134           1194    QLTTSPR|SR  0.119    .
+134           1196    TTSPRSR|NQ  0.119    .
+134           1205    HHQAEER|GR  0.101    .
+134           1207    QAEERGR|MK  0.096    .
+134           1209    EERGRMK|LR  0.064    .
+134           1211    RGRMKLR|EG  0.106    .
+134           1216    LREGLGR|LF  0.114    .
+134           1230    TTQIDPR|VT  0.089    .
+134           1235    PRVTAIR|IE  0.100    .
+134           1241    RIESISR|SY  0.089    .
+134           1264    NHPETLR|DI  0.088    .
+134           1269    LRDISSR|SP  0.145    .
+134           1284    GENMCVR|AL  0.107    .
+134           1310    SLFSPLR|EI  0.095    .
+134           1316    REIVISR|GA  0.095    .
+134           1321    SRGALAR|AD  0.117    .
+134           1325    LARADFR|VD  0.072    .
+134           1347    CISTHTR|HI  0.162    .
+134           1352    TRHIGTR|VR  0.107    .
+134           1354    HIGTRVR|IC  0.075    .
+134           1394    PQDIFSR|WG  0.084    .
+134           1401    WGIGSTR|YL  0.084    .
+134           1404    GSTRYLK|LF  0.086    .
+134           1409    LKLFFNR|IL  0.077    .
+134           1416    ILLITYR|KP  0.063    .
+134           1417    LLITYRK|PL  0.077    .
+134           1438    NFSNPSR|IG  0.082    .
+134           1441    NPSRIGK|LK  0.175    .
+134           1443    SRIGKLK|VA  0.080    .
+134           1447    KLKVAVR|LG  0.088    .
+134           1459    GHGQSVR|ST  0.136    .
+134           1462    QSVRSTR|RC  0.318    .
+134           1463    SVRSTRR|CA  0.224    .
+134           1467    TRRCAGK|RP  0.067    .
+134           1468    RRCAGKR|PV  0.270    .
+134           1477    LANCSTR|QK  0.090    .
+134           1479    NCSTRQK|IL  0.071    .
+134           1482    TRQKILK|KC  0.072    .
+134           1483    RQKILKK|CL  0.092    .
+134           1486    ILKKCLK|FL  0.070    .
+134           1489    KCLKFLK|KS  0.057    .
+134           1490    CLKFLKK|SK  0.120    .
+134           1492    KFLKKSK|VR  0.053    .
+134           1494    LKKSKVR|LK  0.076    .
+134           1496    KSKVRLK|KS  0.070    .
+134           1497    SKVRLKK|SF  0.417    .
+134           1500    RLKKSFR|YL  0.120    .
+134           1503    KSFRYLK|RF  0.098    .
+134           1504    SFRYLKR|FQ  0.241    .
+134           1511    FQNQYSR|TP  0.067    .
+134           1516    SRTPIYR|DA  0.185    .
+134           1519    PIYRDAR|GK  0.277    .
+134           1521    YRDARGK|DF  0.102    .
+134           1540    PGISGSK|TV  0.057    .
+134           1547    TVNFLNR|GN  0.119    .
+134           1556    FILPVNR|GS  0.107    .
+134           1564    SGHGPTK|NE  0.065    .
+134           1575    LNLYSLK|SH  0.074    .
+134           1604    FQHSLLR|FY  0.085    .
+134           1609    LRFYAPR|RW  0.094    .
+134           1610    RFYAPRR|WK  0.126    .
+134           1612    YAPRRWK|AP  0.095    .
+134           1618    KAPCFTR|LF  0.086    .
+134           1624    RLFYPTK|NS  0.078    .
+134           1628    PTKNSEK|ML  0.065    .
+134           1631    NSEKMLK|IP  0.066    .
+134           1635    MLKIPEK|SK  0.103    .
+134           1637    KIPEKSK|YI  0.071    .
+134           1641    KSKYIIR|LT  0.077    .
+134           1644    YIIRLTK|SF  0.142    .
+134           1647    RLTKSFR|YL  0.111    .
+134           1651    SFRYLAK|NY  0.064    .
+134           1662    PDSEADR|TK  0.091    .
+134           1664    SEADRTK|AA  0.099    .
+134           1667    DRTKAAK|HS  0.085    .
+134           1693    SFPQLQR|AS  0.087    .
+134           1709    YLHIVCR|RV  0.147    .
+134           1710    LHIVCRR|VE  0.118    .
+134           1713    VCRRVEK|HS  0.183    .
+134           1739    SFPQLQR|AS  0.087    .
+134           1756    ALVMQSK|SA  0.100    .
+134           1761    SKSAIAK|QA  0.094    .
+134           1766    AKQALEK|QA  0.070    .
+134           1775    LEEQEER|TI  0.131    .
+134           1787    INTVGAR|PN  0.079    .
+134           1839    NILNETR|YL  0.089    .
+134           1846    YLTDISK|IC  0.059    .
+134           1849    DISKICK|EG  0.062    .
+134           1861    GEDYTWR|IS  0.098    .
+134           1864    YTWRISR|TS  0.208    .
+134           1877    WNLICDK|DK  0.060    .
+134           1879    LICDKDK|VS  0.059    .
+134           1904    GSYIFDK|IG  0.062    .
+134           1907    IFDKIGR|RK  0.072    .
+134           1908    FDKIGRR|KA  0.126    .
+134           1909    DKIGRRK|AC  0.087    .
+134           1937    YNFLVFR|NY  0.096    .
+134           1991    FYPDSPR|YL  0.096    .
+134           1998    YLLAIGK|EE  0.060    .
+134           2003    GKEEEAK|VV  0.074    .
+134           2008    AKVVLEK|YG  0.067    .
+134           2011    VLEKYGR|IT  0.088    .
+134           2023    INLSNTR|LI  0.097    .
+134           2031    IGSALNK|ET  0.064    .
+134           2034    ALNKETK|SV  0.135    .
+134           2039    TKSVSFK|SK  0.184    .
+134           2041    SVSFKSK|MQ  0.093    .
+134           2114    LATYLVR|LT  0.091    .
+134           2117    YLVRLTR|PK  0.269    .
+134           2119    VRLTRPK|EK  0.060    .
+134           2121    LTRPKEK|FF  0.089    .
+134           2128    FFNHIFR|SD  0.136    .
+134           2134    RSDPSDR|HV  0.141    .
+134           2142    VESYSFK|LV  0.092    .
+134           2167    FITFFGR|KL  0.080    .
+134           2168    ITFFGRK|LT  0.066    .
+134           2190    LSLIPWK|WT  0.064    .
+134           2199    EVWSLER|LL  0.069    .
+134           2229    LAPTYLR|GY  0.074    .
+134           2241    TCSLIAR|AA  0.136    .
+134           2252    CGPYLAK|SS  0.096    .
+134           2258    KSSGTGK|LL  0.092    .
+134           2287    FSTVHPK|TE  0.060    .
+134           2292    PKTEISR|NL  0.080    .
+134           2295    EISRNLK|FV  0.199    .
+134           2303    VWCTLYK|RG  0.051    .
+134           2304    WCTLYKR|GI  0.160    .
+134           2308    YKRGICR|YL  0.133    .
+134           2311    GICRYLR|KL  0.174    .
+134           2312    ICRYLRK|LQ  0.091    .
+134           2318    KLQMSAR|DD  0.131    .
+134           2323    ARDDSNR|TF  0.094    .
+134           2335    CPSIEMR|RK  0.104    .
+134           2336    PSIEMRR|KT  0.100    .
+134           2337    SIEMRRK|TR  0.073    .
+134           2339    EMRRKTR|MF  0.308    .
+134           2344    TRMFSCR|HA  0.179    .
+134           2349    CRHAAAR|GQ  0.138    .
+134           2357    QVNGFAR|AK  0.078    .
+134           2359    NGFARAK|LF  0.064    .
+134           2362    ARAKLFR|SY  0.169    .
+134           2371    LWFLIGK|LA  0.073    .
+134           2375    IGKLADK|VG  0.056    .
+134           2388    VTPLLSR|GV  0.097    .
+134           2394    RGVVFAR|DS  0.124    .
+134           2805    AAAAAPR|DK  0.141    .
+134           2807    AAAPRDK|RG  0.056    .
+134           2808    AAPRDKR|GV  0.705 *ProP*
+134           2814    RGVTTSK|NP  0.058    .
+134           2826    WTGQWVR|GR  0.088    .
+134           2828    GQWVRGR|SS  0.238    .
+134           2838    TIVEELK|TR  0.057    .
+134           2840    VEELKTR|AR  0.089    .
+134           2842    ELKTRAR|DL  0.101    .
+134           2846    RARDLQR|MS  0.092    .
+134           2849    DLQRMSK|NQ  0.108    .
+134           2852    RMSKNQK|RF  0.060    .
+134           2853    MSKNQKR|FL  0.386    .
+134           2856    NQKRFLK|TK  0.200    .
+134           2858    KRFLKTK|EK  0.071    .
+134           2860    FLKTKEK|KE  0.063    .
+134           2861    LKTKEKK|ED  0.109    .
+134           2864    KEKKEDR|K-  0.089    .
+134           2865    EKKEDRK|--  0.087    .
+____________________________^_________________
+
+
+
+

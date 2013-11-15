@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+420	
+
+ psg: 0.83  gvh: 0.48  alm: 0.39  top: 0.67  tms: 0.08  mit: 0.54  mip: 0.02
+ nuc: 0.00  erl: 0.00  erm: 0.20  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.10  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 2.00  m1a: 0.00  m1b: 1.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 1.00  lps: 0.00  len: 0.43 
+
+	 69.6 %: nuclear
+	 13.0 %: mitochondrial
+	  4.3 %: cytoplasmic
+	  4.3 %: vesicles of secretory system
+	  4.3 %: plasma membrane
+	  4.3 %: endoplasmic reticulum
+
+>> prediction for 420 is nuc (k=23)
+

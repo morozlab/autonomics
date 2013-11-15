@@ -1,0 +1,43 @@
+# 644 Length: 1455
+# 644 Number of predicted TMHs:  18
+# 644 Exp number of AAs in TMHs: 410.756579999999
+# 644 Exp number, first 60 AAs:  20.71934
+# 644 Total prob of N-in:        0.84631
+# 644 POSSIBLE N-term signal sequence
+644	TMHMM2.0	inside	     1     6
+644	TMHMM2.0	TMhelix	     7    29
+644	TMHMM2.0	outside	    30   143
+644	TMHMM2.0	TMhelix	   144   166
+644	TMHMM2.0	inside	   167   172
+644	TMHMM2.0	TMhelix	   173   195
+644	TMHMM2.0	outside	   196   204
+644	TMHMM2.0	TMhelix	   205   227
+644	TMHMM2.0	inside	   228   233
+644	TMHMM2.0	TMhelix	   234   256
+644	TMHMM2.0	outside	   257   265
+644	TMHMM2.0	TMhelix	   266   288
+644	TMHMM2.0	inside	   289   294
+644	TMHMM2.0	TMhelix	   295   317
+644	TMHMM2.0	outside	   318   326
+644	TMHMM2.0	TMhelix	   327   349
+644	TMHMM2.0	inside	   350   355
+644	TMHMM2.0	TMhelix	   356   378
+644	TMHMM2.0	outside	   379   382
+644	TMHMM2.0	TMhelix	   383   405
+644	TMHMM2.0	inside	   406   411
+644	TMHMM2.0	TMhelix	   412   434
+644	TMHMM2.0	outside	   435   443
+644	TMHMM2.0	TMhelix	   444   466
+644	TMHMM2.0	inside	   467   472
+644	TMHMM2.0	TMhelix	   473   495
+644	TMHMM2.0	outside	   496   504
+644	TMHMM2.0	TMhelix	   505   527
+644	TMHMM2.0	inside	   528   533
+644	TMHMM2.0	TMhelix	   534   556
+644	TMHMM2.0	outside	   557   565
+644	TMHMM2.0	TMhelix	   566   588
+644	TMHMM2.0	inside	   589   594
+644	TMHMM2.0	TMhelix	   595   617
+644	TMHMM2.0	outside	   618  1351
+644	TMHMM2.0	TMhelix	  1352  1374
+644	TMHMM2.0	inside	  1375  1455

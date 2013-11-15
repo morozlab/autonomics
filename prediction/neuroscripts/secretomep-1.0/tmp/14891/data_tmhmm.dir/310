@@ -1,0 +1,10 @@
+# 310 Length: 2028
+# 310 Number of predicted TMHs:  2
+# 310 Exp number of AAs in TMHs: 44.6310100000003
+# 310 Exp number, first 60 AAs:  0.00059
+# 310 Total prob of N-in:        0.11221
+310	TMHMM2.0	outside	     1   358
+310	TMHMM2.0	TMhelix	   359   376
+310	TMHMM2.0	inside	   377   695
+310	TMHMM2.0	TMhelix	   696   718
+310	TMHMM2.0	outside	   719  2028

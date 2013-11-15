@@ -1,0 +1,45 @@
+PSORT II: a program to predict protein subcellular localization sites
+          from their amino acid sequences
+
+copyright: Kenta Nakai and Paul Horton, 1996-2001
+Questions and comments should be sent to nakai@ims.u-tokyo.ac.jp
+
+This package includes these files:
+	README:		this file
+	psort:		main program
+	sub1.pl:	subroutines 1
+	sub2.pl:	subroutines 2
+	sub3.pl:	subroutines 3
+	all.seq:	sample training data
+	helpwww2.html:	documentation in HTML
+	attribute.dir:	DBM created from the training data
+	attribute.pag:	DBM created from the training data
+	locat.dir:	DBM created from the training data
+	locat.pag:	DBM created from the training data
+	range.dir:	DBM created from the training data
+	range.pag:	DBM created from the training data
+
+A basic description of the program is written as comments in
+the "psort" file while biological aspects are described in
+"helpwww2.html".
+
+To run this program, perl version 5 is needed.  You might have
+to modify its path information in the first line of the "psort" 
+file.  In addition, it is safer to reconstruct 3 DBM files by
+the command "psort -t all.seq".
+
+Please refer the following reference when you cite PSORT II:
+
+Nakai, K. and Horton, P.,
+PSORT: a program for detecting the sorting signals of proteins and 
+predicting their subcellular localization,
+trends Biochem. Sci., 24(1), 34-35 (1999).
+
+More biological aspects are found in:
+
+Nakai, K.,
+Protein sorting signals and prediction of subcellular localization,
+Adv. Protein Chem., 54, 277-344 (2000).
+
+Enjoy
+

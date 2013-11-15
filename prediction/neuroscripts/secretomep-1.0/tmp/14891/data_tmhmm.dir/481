@@ -1,0 +1,17 @@
+# 481 Length: 1664
+# 481 Number of predicted TMHs:  5
+# 481 Exp number of AAs in TMHs: 188.02564
+# 481 Exp number, first 60 AAs:  30.5387
+# 481 Total prob of N-in:        0.99533
+# 481 POSSIBLE N-term signal sequence
+481	TMHMM2.0	inside	     1     6
+481	TMHMM2.0	TMhelix	     7    29
+481	TMHMM2.0	outside	    30    52
+481	TMHMM2.0	TMhelix	    53    71
+481	TMHMM2.0	inside	    72    82
+481	TMHMM2.0	TMhelix	    83   105
+481	TMHMM2.0	outside	   106   139
+481	TMHMM2.0	TMhelix	   140   162
+481	TMHMM2.0	inside	   163   220
+481	TMHMM2.0	TMhelix	   221   243
+481	TMHMM2.0	outside	   244  1664

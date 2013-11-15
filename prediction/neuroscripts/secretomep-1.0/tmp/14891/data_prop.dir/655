@@ -1,0 +1,217 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1445 655         
+MTRLAARYVLQLKMFPVKKDLFLATQLSDLMTTYLSHYQLGLNIAQEVEKKRVEVSNKFVEVKTAGEEATANMKEEMRAV      80
+LSGAERAQTAKLLNLQLYDLQLQDEASKTAAKLNDYSVKATTPEAEKSPEKMAGYLWVGKKTNVFAQRWIHAWISITNHC     160
+LVVQVKAENPPFAPDRVFCFSILTPDRNVFFQATSSQEKEGWIMAIHKCIATSLTEKRQYSISEPKVSNVAPVRRGDVIP     240
+LSVLRELHEIPGNMVCADCQKKKPTWASLNLGVLICIECSGIHRGLGVHYSQSDFLKLSPPFVARRLSVASDNVTSSNKN     320
+ANKNSRATQGGDNFKKSDFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     400
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     480
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     560
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSDFLKLSPPWVAREFLFAFLLDEVTLSDATETCFGSHAFFSWPI     640
+WSNQMGAVTRKYDSRATQGGDNFKKSDFTLTFLIYRSDIGNDRANKVYCSENLAPKSSSLTHDERKEFIKQKYTELEFTE     720
+ESLKETLLESRNGGCQRTSSVLQLLSSQEDDDNIKKEEDDNVKKEEEEEEEWGELVKTEERKTGDIASLSEGKKERKRKR     800
+LSFKKRKSTGNLGSLASLASSVTSVETVLSADDERQDNQVLETVHIPSGKPPPLTPRTTSITSKTKFYEQKSLLLDFKRE     880
+FGEDGDDETPTNSPLPPPPPADPTEEVDSSISDLPLPPPIAGRSYTVTVALPGSICDNAQSPQLRSYLAGQVARALAIFN     960
+VDEVVIFNDKPGVKVKGSMFEGVTKKTNANIVLARILQYLETPQYLRKALFPHHPDLKFAGLLNPLDCPHHMRATEIAPF    1040
+REGVVVKRPVKKGKGSFVDCGIDKEVRIDKELEPGTRLTVRMSPQEVSPDTPRTELGTYWGYRVRLAESFSSVFTECSYK    1120
+DGYDLTIGTSDKGDLVEKTTFRHFRHVIIFLGGLQGLEPVIEADESLQEADPRTMFDYYLNTCPNQGSRTIRTEVSKTWG    1200
+LGTGEWRGLKMMVLEPGQESSSTLPDSTEELTAYIQRHISTRASFSCAKRASCKGDCVTKLNSPFRQYLPLTYFTTHESM    1280
+MAPSGKSSVGKVLQEEGVVVICCDTAAKQVVEQGCPGYEKVVKKFGKEILLPNGEIDRQKLGSVVFSNRENREILNRCIH    1360
+PEIAKVVRRRLIWEFFKGTQLVVLDIPLLFESCRLMKLFFNHHPWPKFPNPNPLSSTSLLLLSQYARTAEGAYARTAEGA    1440
+VNGPQ                                                                               1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+........................P.......................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+.....                                                                               1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+655              3    ----MTR|LA  0.091    .
+655              7    MTRLAAR|YV  0.137    .
+655             13    RYVLQLK|MF  0.059    .
+655             18    LKMFPVK|KD  0.059    .
+655             19    KMFPVKK|DL  0.121    .
+655             50    IAQEVEK|KR  0.059    .
+655             51    AQEVEKK|RV  0.129    .
+655             52    QEVEKKR|VE  0.121    .
+655             58    RVEVSNK|FV  0.114    .
+655             63    NKFVEVK|TA  0.083    .
+655             74    EATANMK|EE  0.057    .
+655             78    NMKEEMR|AV  0.101    .
+655             86    VLSGAER|AQ  0.103    .
+655             91    ERAQTAK|LL  0.074    .
+655            108    LQDEASK|TA  0.060    .
+655            112    ASKTAAK|LN  0.067    .
+655            119    LNDYSVK|AT  0.074    .
+655            127    TTPEAEK|SP  0.069    .
+655            131    AEKSPEK|MA  0.071    .
+655            140    GYLWVGK|KT  0.058    .
+655            141    YLWVGKK|TN  0.094    .
+655            148    TNVFAQR|WI  0.140    .
+655            166    CLVVQVK|AE  0.060    .
+655            176    PPFAPDR|VF  0.098    .
+655            187    SILTPDR|NV  0.106    .
+655            199    ATSSQEK|EG  0.063    .
+655            208    WIMAIHK|CI  0.075    .
+655            217    ATSLTEK|RQ  0.057    .
+655            218    TSLTEKR|QY  0.293    .
+655            226    YSISEPK|VS  0.059    .
+655            234    SNVAPVR|RG  0.085    .
+655            235    NVAPVRR|GD  0.143    .
+655            245    IPLSVLR|EL  0.094    .
+655            261    VCADCQK|KK  0.056    .
+655            262    CADCQKK|KP  0.077    .
+655            263    ADCQKKK|PT  0.154    .
+655            284    ECSGIHR|GL  0.127    .
+655            297    SQSDFLK|LS  0.066    .
+655            305    SPPFVAR|RL  0.113    .
+655            306    PPFVARR|LS  0.130    .
+655            319    NVTSSNK|NA  0.059    .
+655            323    SNKNANK|NS  0.070    .
+655            326    NANKNSR|AT  0.125    .
+655            335    QGGDNFK|KS  0.061    .
+655            336    GGDNFKK|SD  0.163    .
+655            596    AAAAAAK|SD  0.084    .
+655            601    AKSDFLK|LS  0.068    .
+655            609    SPPWVAR|EF  0.095    .
+655            650    QMGAVTR|KY  0.092    .
+655            651    MGAVTRK|YD  0.120    .
+655            655    TRKYDSR|AT  0.135    .
+655            664    QGGDNFK|KS  0.062    .
+655            665    GGDNFKK|SD  0.142    .
+655            676    LTFLIYR|SD  0.095    .
+655            683    SDIGNDR|AN  0.075    .
+655            686    GNDRANK|VY  0.100    .
+655            696    SENLAPK|SS  0.080    .
+655            705    SLTHDER|KE  0.081    .
+655            706    LTHDERK|EF  0.106    .
+655            710    ERKEFIK|QK  0.080    .
+655            712    KEFIKQK|YT  0.090    .
+655            724    FTEESLK|ET  0.053    .
+655            731    ETLLESR|NG  0.079    .
+655            737    RNGGCQR|TS  0.095    .
+655            755    EDDDNIK|KE  0.057    .
+655            756    DDDNIKK|EE  0.081    .
+655            763    EEDDNVK|KE  0.059    .
+655            764    EDDNVKK|EE  0.104    .
+655            777    EWGELVK|TE  0.062    .
+655            781    LVKTEER|KT  0.093    .
+655            782    VKTEERK|TG  0.077    .
+655            793    ASLSEGK|KE  0.055    .
+655            794    SLSEGKK|ER  0.100    .
+655            796    SEGKKER|KR  0.077    .
+655            797    EGKKERK|RK  0.071    .
+655            798    GKKERKR|KR  0.105    .
+655            799    KKERKRK|RL  0.322    .
+655            800    KERKRKR|LS  0.304    .
+655            804    RKRLSFK|KR  0.067    .
+655            805    KRLSFKK|RK  0.118    .
+655            806    RLSFKKR|KS  0.417    .
+655            807    LSFKKRK|ST  0.195    .
+655            835    LSADDER|QD  0.116    .
+655            850    VHIPSGK|PP  0.061    .
+655            857    PPPLTPR|TT  0.093    .
+655            864    TTSITSK|TK  0.080    .
+655            866    SITSKTK|FY  0.072    .
+655            871    TKFYEQK|SL  0.082    .
+655            878    SLLLDFK|RE  0.058    .
+655            879    LLLDFKR|EF  0.195    .
+655            923    PPPIAGR|SY  0.122    .
+655            945    AQSPQLR|SY  0.198    .
+655            954    LAGQVAR|AL  0.105    .
+655            970    VVIFNDK|PG  0.056    .
+655            974    NDKPGVK|VK  0.064    .
+655            976    KPGVKVK|GS  0.093    .
+655            985    MFEGVTK|KT  0.066    .
+655            986    FEGVTKK|TN  0.090    .
+655            995    ANIVLAR|IL  0.099    .
+655           1007    ETPQYLR|KA  0.061    .
+655           1008    TPQYLRK|AL  0.113    .
+655           1018    PHHPDLK|FA  0.076    .
+655           1033    DCPHHMR|AT  0.128    .
+655           1041    TEIAPFR|EG  0.080    .
+655           1047    REGVVVK|RP  0.069    .
+655           1048    EGVVVKR|PV  0.340    .
+655           1051    VVKRPVK|KG  0.091    .
+655           1052    VKRPVKK|GK  0.168    .
+655           1054    RPVKKGK|GS  0.081    .
+655           1064    VDCGIDK|EV  0.069    .
+655           1067    GIDKEVR|ID  0.085    .
+655           1070    KEVRIDK|EL  0.170    .
+655           1077    ELEPGTR|LT  0.074    .
+655           1081    GTRLTVR|MS  0.093    .
+655           1093    VSPDTPR|TE  0.068    .
+655           1103    GTYWGYR|VR  0.073    .
+655           1105    YWGYRVR|LA  0.085    .
+655           1120    FTECSYK|DG  0.065    .
+655           1132    TIGTSDK|GD  0.066    .
+655           1138    KGDLVEK|TT  0.066    .
+655           1142    VEKTTFR|HF  0.092    .
+655           1145    TTFRHFR|HV  0.581 *ProP*
+655           1173    LQEADPR|TM  0.089    .
+655           1189    CPNQGSR|TI  0.098    .
+655           1192    QGSRTIR|TE  0.277    .
+655           1197    IRTEVSK|TW  0.077    .
+655           1207    LGTGEWR|GL  0.082    .
+655           1210    GEWRGLK|MM  0.091    .
+655           1237    LTAYIQR|HI  0.105    .
+655           1242    QRHISTR|AS  0.118    .
+655           1249    ASFSCAK|RA  0.075    .
+655           1250    SFSCAKR|AS  0.320    .
+655           1254    AKRASCK|GD  0.071    .
+655           1260    KGDCVTK|LN  0.064    .
+655           1266    KLNSPFR|QY  0.096    .
+655           1286    MMAPSGK|SS  0.109    .
+655           1291    GKSSVGK|VL  0.091    .
+655           1308    CCDTAAK|QV  0.071    .
+655           1320    GCPGYEK|VV  0.069    .
+655           1323    GYEKVVK|KF  0.075    .
+655           1324    YEKVVKK|FG  0.130    .
+655           1327    VVKKFGK|EI  0.062    .
+655           1338    PNGEIDR|QK  0.075    .
+655           1340    GEIDRQK|LG  0.068    .
+655           1349    SVVFSNR|EN  0.096    .
+655           1352    FSNRENR|EI  0.219    .
+655           1357    NREILNR|CI  0.117    .
+655           1365    IHPEIAK|VV  0.069    .
+655           1368    EIAKVVR|RR  0.080    .
+655           1369    IAKVVRR|RL  0.165    .
+655           1370    AKVVRRR|LI  0.189    .
+655           1377    LIWEFFK|GT  0.068    .
+655           1394    LLFESCR|LM  0.081    .
+655           1397    ESCRLMK|LF  0.117    .
+655           1407    NHHPWPK|FP  0.072    .
+655           1427    LLSQYAR|TA  0.152    .
+655           1435    AEGAYAR|TA  0.151    .
+____________________________^_________________
+
+
+
+

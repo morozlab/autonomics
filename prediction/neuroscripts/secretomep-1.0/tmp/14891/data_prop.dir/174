@@ -1,0 +1,383 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2625 174         
+MMVPDYTLIAEVILYSEGFEDSLTLAHKMTRMYALCSEQLSQQDHYDFGMRAVKSVLVMAGSLKRSNPDKREDVVLLRAL      80
+RDSNLPKFLHEDTILFQAILQDLFPGLEIPEHDYGVFKTTIEGCTVAKKLQPKDCVTKKVIQLFETMEVRHGVMLVGPTG     160
+GGKTSAYQILQDSLTKLHAEGTTKELESEFPAVVRFYHLFLLFTFFSVCPPTIQYFTGYGKKVADYRPVRTKILNPKAVT     240
+MGELYGEFNLLTMEWKDGLLATAVREAVQVLYPSKPNPLSSPGPSVECWFVCWFAGLFVITGGLPATEIGKDTTEDHKWI     320
+VNDGPVDALWIENMNTVLDDNKMLCLANSERIKLNNTIHMLFEVQDLAVASPATVSRCGMVFIDASELGWRPVIETWIDS     400
+ESFTWKQETKDYVWNLFNSYIDPCLKYVKKNLIEAMPQVSVSKAQTVAMLFESLVFGPGGPDLQSDPLRLHSFLATIFAW     480
+CLAWGVGGNLDESCNDKFDSHIKDVLSECPDVKFWGNMCVCGYSLTPGAPTPSTNLKIGFIIIPYFDLMVPTIDTTRFGY     560
+LMDKLLALNRPILFTGSTGVGKSVIAKQRLYELSEQQNYVPAFMNFSAQTNSFRTQEIIENKLEKKRKNILGAPKDKRVV     640
+ILVDDLNMPKLEQYGAQPPIELLRQFQDFRGFYDRDKLFWKEVQDVILAAACAPPGGGRNPVTPRFIRHFSMFSIPSAAD     720
+FTLKTIFLSITKGFLQEFPPIVKEMAGSIVNAAVEIYARMSTDLLPTPAKAHYIFNLRDLSKLVQGILQADVGYIREAPI     800
+MFRLFCHESLRVFHDRLIDNTDKRFFCDILSQMSSKHFNQDYAAETFEKKPIIFGDFMKVGAEAKDRLYEDIKDMDKLQR     880
+ILNDYLDDYNMSCPKEMKLVFFLDAIQHISRIARMVRQPRGNALLVGVGGCGKQSLTRLACHMSGYKCIQIELTRGYNYD     960
+SFHEDLKGLYHSAGVEGNNTVFLFTDTQIVVEEFLEDINNILNSGEISNLFPPEEFEAIINAVRPKAKEAGVLESDRDGI    1040
+YDHFISRVRDNLHIVLCMSPVGDSFRTRCRMFPSIVNCCTIDWFTQWPKEALLSVSNTFFADVDIGVSDEVKSALFFSEL    1120
+RRHVYTTPTSYLELINLYLSMLNDKRKQLCAARDRVDNGLKKLLETNDLVANMEVELTALGPELKRKSEDTDILMVKLEK    1200
+DQVEADKVRAVVSEEEAIAKEKADETEAIAEDAQRDLDEALPLLYAANKALDSLDKSDIAEVRVFANPPEMVMVVMEAVC    1280
+ILLGSKPDWASAKGLLGDSTFLSRLTNYDKDNIPDKILRTLKKYIDNPKFVPEIVEKTSKACRSLCLWVRAIDSYAHVFR    1360
+TVEPKRQKLEGAQAELAVVQEELAKKQASLKEVEDKIKELQDSFEASVREKETLQRNIALTAARLKRAGKLVTALGDEQV    1440
+RWAETVEAFQREIDNVAGNVFIASACVAYYGPFTSKYREMLVTEWVERCQELGIPVSQDFSLVSTLADPFEIRQWNLEGL    1520
+PRDNVSTENAVLVTKGRRWPLMIDPQDQANRWIVGRERKNGLKVVKLTDKNLLRTLENAIRIGLPVLIEEVGETLDPALE    1600
+PILLKQTFVQGGRLLIRLGDSDVDYDKNFRFYMTSKMSNPHYMPEIFIKVTIINFTVTRLGLEDQLLADVVRLERPDLEE    1680
+QRNALIMKINADKQKLKDIEDKILKMLFHSEGNILDDEELIETLNDSKVMSKEINKRLKEAEETEEMISKARAKYLPVAT    1760
+RGSVIYFVTADLSEIDPMYQYSLKYFTSLFVRVIETAEKASDLEKRLNILMDGITLTMYNNIGRGLFERHKVCFSFMLCV    1840
+EIMKQAETLTMEEWNFFIRGLPPLDKERPKKPVMCTFMDDATWDLLVDVEEAMPMYSGITNDIRLTPVKVNVGSYVMELN    1920
+PAKFDGYIDNVPEPPEDLSTEEIPPGAPKGHWQKRLTKFQQLTLVKYFKPEALSECLNTFVVENLGKAFVENPPQHLGAL    2000
+YDDMSKAVPLIFVLSSGSDPMAAFLRFAREREYEERVHSISLGQGQGPVAEKLIFAALKTGDWVFLQNCHLAKSWMLSME    2080
+EIIKNFSIPDADIHDDFRLFLSSMPAPFFPVSVLQNGIKVTSEPPKGLRSNLRRAFGELTKGDFEDHILKADWCKIVFGI    2160
+CFFHAVVLERRKFGPLAFNIPYEFADSDRECAIDNFKLFTADGELPWDALQFITAEITYGGRVTDAWDQRVLKVVLERFF    2240
+QPSSLEPGYLYCSSDLYHPLETISLENYKDYIEELPIIDPPEIFDMYQNANISFQKKESMFMVNTILEVQPRLVVASGGK    2320
+SSDEIVFELADLMLSKLPEKLDIDTALAEMFEPDEKGRINSLSTVLSQEVSRFNKLLSVIISSLLNIKKAIKGLAVMSES    2400
+LEAIFNSMLGNQVPEEWANAAYPSLKPLGSWVKDLELRLQFIMRWMEYGQPKSYWMSGFFFPQGFITGALQNFARKYDVP    2480
+IDALKFRFNVLPGPHYREQADVAAAEQADQAFDDSAYEMPEDGVLIHGLYLDSASWDDEKNLLGDARFGVMNPPMPIMHL    2560
+LPDPDYVEESEGQYDYPLYKTGERAGTLSTTGHSTNFVIKCFLPTDMTREHWIGKGTALLCQLNQ                   2640
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+.................................P..............................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+..................................................................P.............    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+.................................................................                   2640
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+174             28    SLTLAHK|MT  0.062    .
+174             31    LAHKMTR|MY  0.088    .
+174             51    HYDFGMR|AV  0.131    .
+174             54    FGMRAVK|SV  0.222    .
+174             64    VMAGSLK|RS  0.059    .
+174             65    MAGSLKR|SN  0.308    .
+174             70    KRSNPDK|RE  0.085    .
+174             71    RSNPDKR|ED  0.188    .
+174             78    EDVVLLR|AL  0.081    .
+174             81    VLLRALR|DS  0.129    .
+174             87    RDSNLPK|FL  0.085    .
+174            118    HDYGVFK|TT  0.070    .
+174            128    EGCTVAK|KL  0.070    .
+174            129    GCTVAKK|LQ  0.074    .
+174            133    AKKLQPK|DC  0.076    .
+174            138    PKDCVTK|KV  0.088    .
+174            139    KDCVTKK|VI  0.120    .
+174            150    FETMEVR|HG  0.066    .
+174            163    GPTGGGK|TS  0.059    .
+174            176    LQDSLTK|LH  0.057    .
+174            184    HAEGTTK|EL  0.072    .
+174            195    EFPAVVR|FY  0.085    .
+174            221    YFTGYGK|KV  0.068    .
+174            222    FTGYGKK|VA  0.085    .
+174            227    KKVADYR|PV  0.137    .
+174            230    ADYRPVR|TK  0.159    .
+174            232    YRPVRTK|IL  0.078    .
+174            237    TKILNPK|AV  0.105    .
+174            256    LLTMEWK|DG  0.062    .
+174            265    LLATAVR|EA  0.105    .
+174            275    QVLYPSK|PN  0.058    .
+174            311    PATEIGK|DT  0.066    .
+174            318    DTTEDHK|WI  0.059    .
+174            342    TVLDDNK|ML  0.059    .
+174            351    CLANSER|IK  0.078    .
+174            353    ANSERIK|LN  0.072    .
+174            377    SPATVSR|CG  0.107    .
+174            391    ASELGWR|PV  0.094    .
+174            406    SESFTWK|QE  0.072    .
+174            410    TWKQETK|DY  0.081    .
+174            426    YIDPCLK|YV  0.070    .
+174            429    PCLKYVK|KN  0.053    .
+174            430    CLKYVKK|NL  0.129    .
+174            443    PQVSVSK|AQ  0.064    .
+174            469    LQSDPLR|LH  0.098    .
+174            497    DESCNDK|FD  0.080    .
+174            503    KFDSHIK|DV  0.082    .
+174            513    SECPDVK|FW  0.075    .
+174            537    TPSTNLK|IG  0.092    .
+174            557    PTIDTTR|FG  0.071    .
+174            564    FGYLMDK|LL  0.057    .
+174            570    KLLALNR|PI  0.080    .
+174            582    GSTGVGK|SV  0.133    .
+174            587    GKSVIAK|QR  0.074    .
+174            589    SVIAKQR|LY  0.130    .
+174            614    AQTNSFR|TQ  0.101    .
+174            622    QEIIENK|LE  0.055    .
+174            625    IENKLEK|KR  0.069    .
+174            626    ENKLEKK|RK  0.079    .
+174            627    NKLEKKR|KN  0.133    .
+174            628    KLEKKRK|NI  0.115    .
+174            635    NILGAPK|DK  0.066    .
+174            637    LGAPKDK|RV  0.075    .
+174            638    GAPKDKR|VV  0.196    .
+174            650    DDLNMPK|LE  0.054    .
+174            664    PPIELLR|QF  0.089    .
+174            670    RQFQDFR|GF  0.086    .
+174            675    FRGFYDR|DK  0.091    .
+174            677    GFYDRDK|LF  0.063    .
+174            681    RDKLFWK|EV  0.090    .
+174            699    APPGGGR|NP  0.066    .
+174            705    RNPVTPR|FI  0.112    .
+174            708    VTPRFIR|HF  0.177    .
+174            724    AADFTLK|TI  0.062    .
+174            732    IFLSITK|GF  0.057    .
+174            743    EFPPIVK|EM  0.053    .
+174            759    AVEIYAR|MS  0.105    .
+174            770    LLPTPAK|AH  0.058    .
+174            778    HYIFNLR|DL  0.106    .
+174            782    NLRDLSK|LV  0.083    .
+174            796    ADVGYIR|EA  0.082    .
+174            803    EAPIMFR|LF  0.072    .
+174            811    FCHESLR|VF  0.088    .
+174            816    LRVFHDR|LI  0.136    .
+174            823    LIDNTDK|RF  0.056    .
+174            824    IDNTDKR|FF  0.351    .
+174            836    LSQMSSK|HF  0.073    .
+174            849    AAETFEK|KP  0.061    .
+174            850    AETFEKK|PI  0.106    .
+174            859    IFGDFMK|VG  0.060    .
+174            865    KVGAEAK|DR  0.061    .
+174            867    GAEAKDR|LY  0.133    .
+174            873    RLYEDIK|DM  0.074    .
+174            877    DIKDMDK|LQ  0.054    .
+174            880    DMDKLQR|IL  0.104    .
+174            895    YNMSCPK|EM  0.058    .
+174            898    SCPKEMK|LV  0.069    .
+174            911    AIQHISR|IA  0.099    .
+174            914    HISRIAR|MV  0.640 *ProP*
+174            917    RIARMVR|QP  0.215    .
+174            920    RMVRQPR|GN  0.208    .
+174            933    GVGGCGK|QS  0.058    .
+174            938    GKQSLTR|LA  0.091    .
+174            947    CHMSGYK|CI  0.064    .
+174            955    IQIELTR|GY  0.076    .
+174            967    SFHEDLK|GL  0.067    .
+174           1024    AIINAVR|PK  0.075    .
+174           1026    INAVRPK|AK  0.099    .
+174           1028    AVRPKAK|EA  0.108    .
+174           1037    GVLESDR|DG  0.078    .
+174           1047    YDHFISR|VR  0.070    .
+174           1049    HFISRVR|DN  0.091    .
+174           1066    PVGDSFR|TR  0.089    .
+174           1068    GDSFRTR|CR  0.080    .
+174           1070    SFRTRCR|MF  0.093    .
+174           1089    WFTQWPK|EA  0.060    .
+174           1112    GVSDEVK|SA  0.072    .
+174           1121    LFFSELR|RH  0.062    .
+174           1122    FFSELRR|HV  0.223    .
+174           1145    LSMLNDK|RK  0.054    .
+174           1146    SMLNDKR|KQ  0.101    .
+174           1147    MLNDKRK|QL  0.148    .
+174           1153    KQLCAAR|DR  0.086    .
+174           1155    LCAARDR|VD  0.074    .
+174           1161    RVDNGLK|KL  0.053    .
+174           1162    VDNGLKK|LL  0.098    .
+174           1185    ALGPELK|RK  0.060    .
+174           1186    LGPELKR|KS  0.123    .
+174           1187    GPELKRK|SE  0.161    .
+174           1197    TDILMVK|LE  0.062    .
+174           1200    LMVKLEK|DQ  0.062    .
+174           1207    DQVEADK|VR  0.056    .
+174           1209    VEADKVR|AV  0.151    .
+174           1220    EEEAIAK|EK  0.065    .
+174           1222    EAIAKEK|AD  0.069    .
+174           1235    IAEDAQR|DL  0.148    .
+174           1249    LLYAANK|AL  0.065    .
+174           1256    ALDSLDK|SD  0.078    .
+174           1263    SDIAEVR|VF  0.082    .
+174           1286    CILLGSK|PD  0.055    .
+174           1293    PDWASAK|GL  0.068    .
+174           1304    DSTFLSR|LT  0.073    .
+174           1310    RLTNYDK|DN  0.064    .
+174           1316    KDNIPDK|IL  0.069    .
+174           1319    IPDKILR|TL  0.093    .
+174           1322    KILRTLK|KY  0.107    .
+174           1323    ILRTLKK|YI  0.144    .
+174           1329    KYIDNPK|FV  0.079    .
+174           1337    VPEIVEK|TS  0.062    .
+174           1340    IVEKTSK|AC  0.058    .
+174           1343    KTSKACR|SL  0.165    .
+174           1350    SLCLWVR|AI  0.106    .
+174           1360    SYAHVFR|TV  0.239    .
+174           1365    FRTVEPK|RQ  0.064    .
+174           1366    RTVEPKR|QK  0.170    .
+174           1368    VEPKRQK|LE  0.062    .
+174           1385    VQEELAK|KQ  0.057    .
+174           1386    QEELAKK|QA  0.117    .
+174           1391    KKQASLK|EV  0.105    .
+174           1396    LKEVEDK|IK  0.068    .
+174           1398    EVEDKIK|EL  0.071    .
+174           1409    SFEASVR|EK  0.096    .
+174           1411    EASVREK|ET  0.068    .
+174           1416    EKETLQR|NI  0.070    .
+174           1424    IALTAAR|LK  0.084    .
+174           1426    LTAARLK|RA  0.075    .
+174           1427    TAARLKR|AG  0.520 *ProP*
+174           1430    RLKRAGK|LV  0.205    .
+174           1441    LGDEQVR|WA  0.122    .
+174           1451    TVEAFQR|EI  0.108    .
+174           1476    YGPFTSK|YR  0.062    .
+174           1478    PFTSKYR|EM  0.074    .
+174           1488    VTEWVER|CQ  0.089    .
+174           1513    ADPFEIR|QW  0.078    .
+174           1522    NLEGLPR|DN  0.099    .
+174           1535    NAVLVTK|GR  0.060    .
+174           1537    VLVTKGR|RW  0.077    .
+174           1538    LVTKGRR|WP  0.095    .
+174           1551    PQDQANR|WI  0.085    .
+174           1556    NRWIVGR|ER  0.109    .
+174           1558    WIVGRER|KN  0.081    .
+174           1559    IVGRERK|NG  0.184    .
+174           1563    ERKNGLK|VV  0.062    .
+174           1566    NGLKVVK|LT  0.067    .
+174           1570    VVKLTDK|NL  0.058    .
+174           1574    TDKNLLR|TL  0.106    .
+174           1581    TLENAIR|IG  0.083    .
+174           1605    LEPILLK|QT  0.065    .
+174           1613    TFVQGGR|LL  0.077    .
+174           1617    GGRLLIR|LG  0.077    .
+174           1627    SDVDYDK|NF  0.059    .
+174           1630    DYDKNFR|FY  0.087    .
+174           1636    RFYMTSK|MS  0.067    .
+174           1649    MPEIFIK|VT  0.075    .
+174           1659    INFTVTR|LG  0.069    .
+174           1672    LLADVVR|LE  0.085    .
+174           1675    DVVRLER|PD  0.129    .
+174           1682    PDLEEQR|NA  0.077    .
+174           1688    RNALIMK|IN  0.074    .
+174           1693    MKINADK|QK  0.063    .
+174           1695    INADKQK|LK  0.076    .
+174           1697    ADKQKLK|DI  0.113    .
+174           1702    LKDIEDK|IL  0.069    .
+174           1705    IEDKILK|ML  0.067    .
+174           1728    ETLNDSK|VM  0.056    .
+174           1732    DSKVMSK|EI  0.069    .
+174           1736    MSKEINK|RL  0.067    .
+174           1737    SKEINKR|LK  0.252    .
+174           1739    EINKRLK|EA  0.099    .
+174           1750    TEEMISK|AR  0.069    .
+174           1752    EMISKAR|AK  0.082    .
+174           1754    ISKARAK|YL  0.089    .
+174           1761    YLPVATR|GS  0.092    .
+174           1784    MYQYSLK|YF  0.066    .
+174           1792    FTSLFVR|VI  0.138    .
+174           1799    VIETAEK|AS  0.056    .
+174           1805    KASDLEK|RL  0.070    .
+174           1806    ASDLEKR|LN  0.141    .
+174           1824    MYNNIGR|GL  0.097    .
+174           1829    GRGLFER|HK  0.091    .
+174           1831    GLFERHK|VC  0.058    .
+174           1844    LCVEIMK|QA  0.071    .
+174           1859    EWNFFIR|GL  0.096    .
+174           1866    GLPPLDK|ER  0.057    .
+174           1868    PPLDKER|PK  0.099    .
+174           1870    LDKERPK|KP  0.061    .
+174           1871    DKERPKK|PV  0.473    .
+174           1904    GITNDIR|LT  0.080    .
+174           1909    IRLTPVK|VN  0.063    .
+174           1923    MELNPAK|FD  0.074    .
+174           1949    IPPGAPK|GH  0.073    .
+174           1954    PKGHWQK|RL  0.067    .
+174           1955    KGHWQKR|LT  0.321    .
+174           1958    WQKRLTK|FQ  0.104    .
+174           1966    QQLTLVK|YF  0.060    .
+174           1969    TLVKYFK|PE  0.063    .
+174           1987    VVENLGK|AF  0.063    .
+174           2006    LYDDMSK|AV  0.060    .
+174           2026    PMAAFLR|FA  0.134    .
+174           2029    AFLRFAR|ER  0.251    .
+174           2031    LRFARER|EY  0.133    .
+174           2036    EREYEER|VH  0.117    .
+174           2052    QGPVAEK|LI  0.076    .
+174           2059    LIFAALK|TG  0.066    .
+174           2073    QNCHLAK|SW  0.096    .
+174           2084    SMEEIIK|NF  0.059    .
+174           2098    DIHDDFR|LF  0.076    .
+174           2119    VLQNGIK|VT  0.065    .
+174           2126    VTSEPPK|GL  0.083    .
+174           2129    EPPKGLR|SN  0.089    .
+174           2133    GLRSNLR|RA  0.123    .
+174           2134    LRSNLRR|AF  0.295    .
+174           2141    AFGELTK|GD  0.057    .
+174           2150    FEDHILK|AD  0.056    .
+174           2155    LKADWCK|IV  0.091    .
+174           2170    HAVVLER|RK  0.079    .
+174           2171    AVVLERR|KF  0.123    .
+174           2172    VVLERRK|FG  0.067    .
+174           2189    EFADSDR|EC  0.076    .
+174           2197    CAIDNFK|LF  0.059    .
+174           2222    EITYGGR|VT  0.072    .
+174           2230    TDAWDQR|VL  0.103    .
+174           2233    WDQRVLK|VV  0.154    .
+174           2238    LKVVLER|FF  0.090    .
+174           2269    ISLENYK|DY  0.078    .
+174           2296    ANISFQK|KE  0.063    .
+174           2297    NISFQKK|ES  0.141    .
+174           2312    ILEVQPR|LV  0.144    .
+174           2320    VVASGGK|SS  0.079    .
+174           2336    ADLMLSK|LP  0.059    .
+174           2340    LSKLPEK|LD  0.057    .
+174           2356    MFEPDEK|GR  0.062    .
+174           2358    EPDEKGR|IN  0.094    .
+174           2372    LSQEVSR|FN  0.082    .
+174           2375    EVSRFNK|LL  0.190    .
+174           2388    SSLLNIK|KA  0.071    .
+174           2389    SLLNIKK|AI  0.103    .
+174           2392    NIKKAIK|GL  0.062    .
+174           2426    AAYPSLK|PL  0.076    .
+174           2433    PLGSWVK|DL  0.069    .
+174           2438    VKDLELR|LQ  0.081    .
+174           2444    RLQFIMR|WM  0.136    .
+174           2452    MEYGQPK|SY  0.107    .
+174           2475    ALQNFAR|KY  0.112    .
+174           2476    LQNFARK|YD  0.087    .
+174           2485    VPIDALK|FR  0.069    .
+174           2487    IDALKFR|FN  0.107    .
+174           2497    LPGPHYR|EQ  0.110    .
+174           2540    ASWDDEK|NL  0.056    .
+174           2547    NLLGDAR|FG  0.091    .
+174           2580    YDYPLYK|TG  0.066    .
+174           2584    LYKTGER|AG  0.070    .
+174           2600    STNFVIK|CF  0.071    .
+174           2609    LPTDMTR|EH  0.095    .
+174           2615    REHWIGK|GT  0.062    .
+____________________________^_________________
+
+
+
+

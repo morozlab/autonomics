@@ -1,0 +1,435 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2763 146         
+MMEGSGTVTSIKVDPSTGDLYYTTPNSIGSATQNKVLFSTLDNPRNFQIQGRTITFTDGSGKNIAVKSADKDSRTEPESV      80
+VQYPSVQDTDKSVMFSPQTRKYYFLRGSSLLEFDPRTKKEKVMRSPVIGAAMDRQGNLVFITSTRVVYRMSPRTGDVERI     160
+MKSPIYATTFVGLDLPTMELPAEPTEGEKEDEEQGTEEIGRDEGPEEMDKPDPVPDPEQITDIPEERRMLMYYLSGDSVV     240
+MVTPEGREAPKRIMGATFPVLSSDQATLYYIYNRNYIMKQPIGPTGQITDQPSYLFKSPTPLTSLTRTPRKGSLVFTTED     320
+GQVVSLDPITKEQTPLLSGRNVPTLARLSPEGVLTWVEDGTRVYQQTPTSAEPTQVAMAPEGITSVAPTPRRVYYVTGDQ     400
+QIKSVDPRNPSEVKDHPTTHPVESILPTPNGIIYAAKERLVLLPPRGREIIFRRFEKPISSIIPSQAVMQRPERRQVVYY     480
+TTGGRLFKQVEDKDPEDISRKTASLYTPSTVDPDTVFYTVMNRNVVKEDIPSEEKKTVLTGAGNIQSLVLSPDARKLYYT     560
+DSVLGEIGVVDVTEREPEKTVLYTRTSPSQISLTPHGKLLWIEGSGRERMLVSGSPDRDPVAQILSYPAIRGTESSVMYL     640
+PSTKRYYIVRDSQLLEVDPETQETNVIAPENVSAAKTVGQSYIAYATDSEIILRDIKTGSERVISTTKFPAETISLIDLP     720
+EAIESEKEMGSDDMGKNGDERKPQFRYIVSKSGEVVRVDKFGNRETISVPRGGSLPVVDPTDDTLYYVLVEKNIMKVQPA     800
+VDGQQALVMRGGSQINAIKIHPKTRRLYYSDQGRGVVGYVNLNTLESTIIYEGLSNPTIVSVDPKAMVVKESDSRGRETV     880
+STISTNEDQPRKESAPTELVGADEAATTRPGEFVYLKNGMLYSVVQGRRPQLIARDVTSFVVRRGKIVYAKRPSYSSTTE     960
+IPSTGETRVVEETEEEVADMTTFVITDPTADSMDKGDDMDKEDDMDKEDDMEKEDDKDKEDDKDKEDDMDKEDGTNREDS    1040
+SVTPQYRYIVTGNGEVVRLDKSGNRETISVPRGGSLPVVDPTDNTLYYVLVGRNIMKVRPSIDGQQALVMRGGSQINAIK    1120
+IHPKTRRLYYSDQGRGVVGYVDLDTLESTIIYEGLSNPTIVSVDPKAMVVKESDSRGQETVSTISTNEDQPRKESAPTEL    1200
+VGADEAATTRPGEFVYLKNGMLYSVVQGIRPQLISRDVTSFVVRRGKDLEKQGLFRKRRKRRLYYSDQGRGVVGYVNLDT    1280
+LESTIIYEGLSNPTIVSVDPKAMVVKESDSRGQETVSTISTNEDQPRKESAPTELVGADEAATTRPGEFVYLKNGMLYSV    1360
+VQGRRPQLISRDVTSFVVRRGVFVYAKRPSYSTTTEIVMYRPSTGETRVVQECLLLQPDMTTFVITDPTEDSMDKGDDME    1440
+KENDMDKGDNTDREDEMEKEDEMDKEDNSDREDDMEKEDDMDKQDNMDREDSSKMPQYRYIVTGNGEVVRVDKSGNRETI    1520
+SVPRGGSLPVVDPTDDTLYYVLVGRNIMKVRPSIDGQQALVMRGGRQINAIKIHPKTRRLYYSDQGRGVVGYGDDMDKED    1600
+DMDKEDDMDKGDDMEKEDDMEKEDDMEKEDDKDKEDDKDKEDDMDKEDGTNREDSSVTPQYRYIVTGNGEVVRLDKSGNR    1680
+ETISVPRGGSLPVVDPTDDTLYYVLVEKNIMKVQPAVDGQQALVMRGGSQINAIKIHPPTRRLYYSDQGRGVVGYVNLDT    1760
+LESTIIYEGLSNPTIVSVDPKAMVVKESDSRGQETVSTISTNEDQPRKEYAPTELVGADEAATTRPGEFVYLKNGMLYSV    1840
+VQGRRPQLISRDVTSFVVRRGVILYAKRPSYSSTTEIVMYQPSTGETRVVQETEEDVADMTTFVITDPTEDSMDKGDEMD    1920
+KGEDMDKGDDWDKGDVEEIKDDTDKEDDMDTSDDTDKIPDQKFQGFGRYIIFSKGGSLVIRDTITMTTETFSRVGAKGYV    2000
+YDPSEDTFYYLTTAALVKEPRGREPEYVYRGMSRDLIHDKSTNSLYFALMYTGGVVRYDMKTGEIEKTASAVVQNLNLYA    2080
+PGSLLWSEGRGEATQMITSNGNTLIGDGLDGSEKAFVYLPSKNVVFYLKPNGDLIKYQDGERQTFKRGVQAVSNRGDRIL    2160
+ILYTDGSLYSVDVESGEETRQPVTLEEGVDDISGLGTIGDAAPTVVFYIDSNRYFQRSDKEGASRGRLYYTATSPKGVLY    2240
+SVSWDKTTVVMTDVDEYNPENIITGRGEISDLVVRGDMDQGDKIYYCDKKEGTLYLFIFPETGLAERVLYENLEEPTVIK    2320
+KALLKAHPMGFIELILNIFFRELIWIQGSERTAKVMLGSAFGATHYSPIAAYPTVTGTETSILLHPIIESGFIILRDGVL    2400
+IEFDPVNRKETTLAQRVTAVSKSKDGKIYFADEQGQVFELDFKTGAHRFVTSLPAGVLDFQIFMVKLKDTDEGSTEMIGT    2480
+DEDSNEEEESMNKGDDRNTEDVRDNGDKTDSENDMDKGDDMDKEDETDREESSATPQYRYIVTGNGEVVRVDKSGNRETI    2560
+SVPRGGSLPVVDPTDDTLYYVLVGRNIMKGRRPQLISRDVTSFVVRRGVILYAKRPSYSSTTEIVMYQPSTGETRVVQET    2640
+EEEVADMTTFVITDPTADSMDKGDDMDKEDDMDKEDDMEKEDDTDREDDMDKEDEMNKGDETDKEDDMDKGDDMDKEDKT    2720
+DIEESSAMPQYRYIVTGNGEVVRVDREEVCLWLILQTIPCTTF                                         2800
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+............................................................PP..................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+...........................................                                         2800
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+146             12    GTVTSIK|VD  0.056    .
+146             35    GSATQNK|VL  0.070    .
+146             45    STLDNPR|NF  0.093    .
+146             52    NFQIQGR|TI  0.096    .
+146             62    FTDGSGK|NI  0.059    .
+146             67    GKNIAVK|SA  0.119    .
+146             71    AVKSADK|DS  0.067    .
+146             74    SADKDSR|TE  0.086    .
+146             91    SVQDTDK|SV  0.121    .
+146            100    MFSPQTR|KY  0.099    .
+146            101    FSPQTRK|YY  0.077    .
+146            106    RKYYFLR|GS  0.127    .
+146            116    LLEFDPR|TK  0.090    .
+146            118    EFDPRTK|KE  0.053    .
+146            119    FDPRTKK|EK  0.141    .
+146            121    PRTKKEK|VM  0.062    .
+146            124    KKEKVMR|SP  0.162    .
+146            134    IGAAMDR|QG  0.087    .
+146            145    VFITSTR|VV  0.089    .
+146            149    STRVVYR|MS  0.117    .
+146            153    VYRMSPR|TG  0.099    .
+146            159    RTGDVER|IM  0.078    .
+146            162    DVERIMK|SP  0.136    .
+146            189    EPTEGEK|ED  0.063    .
+146            201    GTEEIGR|DE  0.163    .
+146            210    GPEEMDK|PD  0.057    .
+146            227    TDIPEER|RM  0.072    .
+146            228    DIPEERR|ML  0.125    .
+146            247    MVTPEGR|EA  0.088    .
+146            251    EGREAPK|RI  0.070    .
+146            252    GREAPKR|IM  0.324    .
+146            274    LYYIYNR|NY  0.090    .
+146            279    NRNYIMK|QP  0.079    .
+146            297    QPSYLFK|SP  0.095    .
+146            307    PLTSLTR|TP  0.071    .
+146            310    SLTRTPR|KG  0.247    .
+146            311    LTRTPRK|GS  0.079    .
+146            331    SLDPITK|EQ  0.062    .
+146            340    TPLLSGR|NV  0.118    .
+146            347    NVPTLAR|LS  0.074    .
+146            362    WVEDGTR|VY  0.070    .
+146            391    SVAPTPR|RV  0.145    .
+146            392    VAPTPRR|VY  0.111    .
+146            403    TGDQQIK|SV  0.123    .
+146            408    IKSVDPR|NP  0.141    .
+146            414    RNPSEVK|DH  0.063    .
+146            437    GIIYAAK|ER  0.061    .
+146            439    IYAAKER|LV  0.085    .
+146            446    LVLLPPR|GR  0.095    .
+146            448    LLPPRGR|EI  0.075    .
+146            453    GREIIFR|RF  0.126    .
+146            454    REIIFRR|FE  0.150    .
+146            457    IFRRFEK|PI  0.224    .
+146            471    SQAVMQR|PE  0.102    .
+146            474    VMQRPER|RQ  0.152    .
+146            475    MQRPERR|QV  0.258    .
+146            485    YYTTGGR|LF  0.073    .
+146            488    TGGRLFK|QV  0.299    .
+146            493    FKQVEDK|DP  0.080    .
+146            500    DPEDISR|KT  0.075    .
+146            501    PEDISRK|TA  0.090    .
+146            523    FYTVMNR|NV  0.082    .
+146            527    MNRNVVK|ED  0.079    .
+146            535    DIPSEEK|KT  0.051    .
+146            536    IPSEEKK|TV  0.241    .
+146            555    VLSPDAR|KL  0.095    .
+146            556    LSPDARK|LY  0.066    .
+146            575    VVDVTER|EP  0.074    .
+146            579    TEREPEK|TV  0.072    .
+146            585    KTVLYTR|TS  0.072    .
+146            598    SLTPHGK|LL  0.069    .
+146            607    WIEGSGR|ER  0.072    .
+146            609    EGSGRER|ML  0.091    .
+146            618    VSGSPDR|DP  0.099    .
+146            631    LSYPAIR|GT  0.116    .
+146            644    MYLPSTK|RY  0.061    .
+146            645    YLPSTKR|YY  0.136    .
+146            650    KRYYIVR|DS  0.120    .
+146            676    ENVSAAK|TV  0.098    .
+146            694    DSEIILR|DI  0.102    .
+146            697    IILRDIK|TG  0.084    .
+146            702    IKTGSER|VI  0.088    .
+146            708    RVISTTK|FP  0.058    .
+146            727    EAIESEK|EM  0.064    .
+146            736    GSDDMGK|NG  0.068    .
+146            741    GKNGDER|KP  0.070    .
+146            742    KNGDERK|PQ  0.088    .
+146            746    ERKPQFR|YI  0.115    .
+146            751    FRYIVSK|SG  0.110    .
+146            757    KSGEVVR|VD  0.086    .
+146            760    EVVRVDK|FG  0.115    .
+146            764    VDKFGNR|ET  0.085    .
+146            771    ETISVPR|GG  0.082    .
+146            792    YYVLVEK|NI  0.069    .
+146            796    VEKNIMK|VQ  0.063    .
+146            810    QQALVMR|GG  0.123    .
+146            819    SQINAIK|IH  0.058    .
+146            823    AIKIHPK|TR  0.062    .
+146            825    KIHPKTR|RL  0.104    .
+146            826    IHPKTRR|LY  0.119    .
+146            834    YYSDQGR|GV  0.152    .
+146            865    IVSVDPK|AM  0.078    .
+146            870    PKAMVVK|ES  0.073    .
+146            875    VKESDSR|GR  0.082    .
+146            877    ESDSRGR|ET  0.085    .
+146            891    TNEDQPR|KE  0.103    .
+146            892    NEDQPRK|ES  0.072    .
+146            909    DEAATTR|PG  0.076    .
+146            917    GEFVYLK|NG  0.054    .
+146            928    YSVVQGR|RP  0.079    .
+146            929    SVVQGRR|PQ  0.102    .
+146            935    RPQLIAR|DV  0.190    .
+146            943    VTSFVVR|RG  0.082    .
+146            944    TSFVVRR|GK  0.169    .
+146            946    FVVRRGK|IV  0.212    .
+146            951    GKIVYAK|RP  0.068    .
+146            952    KIVYAKR|PS  0.157    .
+146            968    PSTGETR|VV  0.132    .
+146            995    TADSMDK|GD  0.061    .
+146           1001    KGDDMDK|ED  0.056    .
+146           1007    KEDDMDK|ED  0.058    .
+146           1013    KEDDMEK|ED  0.057    .
+146           1017    MEKEDDK|DK  0.070    .
+146           1019    KEDDKDK|ED  0.060    .
+146           1023    KDKEDDK|DK  0.074    .
+146           1025    KEDDKDK|ED  0.061    .
+146           1031    KEDDMDK|ED  0.065    .
+146           1037    KEDGTNR|ED  0.096    .
+146           1047    SVTPQYR|YI  0.118    .
+146           1058    GNGEVVR|LD  0.086    .
+146           1061    EVVRLDK|SG  0.139    .
+146           1065    LDKSGNR|ET  0.084    .
+146           1072    ETISVPR|GG  0.082    .
+146           1093    YYVLVGR|NI  0.110    .
+146           1097    VGRNIMK|VR  0.062    .
+146           1099    RNIMKVR|PS  0.147    .
+146           1111    QQALVMR|GG  0.120    .
+146           1120    SQINAIK|IH  0.058    .
+146           1124    AIKIHPK|TR  0.062    .
+146           1126    KIHPKTR|RL  0.104    .
+146           1127    IHPKTRR|LY  0.119    .
+146           1135    YYSDQGR|GV  0.152    .
+146           1166    IVSVDPK|AM  0.078    .
+146           1171    PKAMVVK|ES  0.072    .
+146           1176    VKESDSR|GQ  0.085    .
+146           1192    TNEDQPR|KE  0.103    .
+146           1193    NEDQPRK|ES  0.072    .
+146           1210    DEAATTR|PG  0.076    .
+146           1218    GEFVYLK|NG  0.054    .
+146           1230    SVVQGIR|PQ  0.074    .
+146           1236    RPQLISR|DV  0.139    .
+146           1244    VTSFVVR|RG  0.103    .
+146           1245    TSFVVRR|GK  0.192    .
+146           1247    FVVRRGK|DL  0.243    .
+146           1251    RGKDLEK|QG  0.053    .
+146           1256    EKQGLFR|KR  0.077    .
+146           1257    KQGLFRK|RR  0.066    .
+146           1258    QGLFRKR|RK  0.133    .
+146           1259    GLFRKRR|KR  0.343    .
+146           1260    LFRKRRK|RR  0.070    .
+146           1261    FRKRRKR|RL  0.584 *ProP*
+146           1262    RKRRKRR|LY  0.553 *ProP*
+146           1270    YYSDQGR|GV  0.152    .
+146           1301    IVSVDPK|AM  0.078    .
+146           1306    PKAMVVK|ES  0.072    .
+146           1311    VKESDSR|GQ  0.085    .
+146           1327    TNEDQPR|KE  0.103    .
+146           1328    NEDQPRK|ES  0.072    .
+146           1345    DEAATTR|PG  0.076    .
+146           1353    GEFVYLK|NG  0.054    .
+146           1364    YSVVQGR|RP  0.076    .
+146           1365    SVVQGRR|PQ  0.100    .
+146           1371    RPQLISR|DV  0.143    .
+146           1379    VTSFVVR|RG  0.074    .
+146           1380    TSFVVRR|GV  0.295    .
+146           1387    GVFVYAK|RP  0.064    .
+146           1388    VFVYAKR|PS  0.115    .
+146           1401    TEIVMYR|PS  0.103    .
+146           1408    PSTGETR|VV  0.096    .
+146           1435    TEDSMDK|GD  0.062    .
+146           1441    KGDDMEK|EN  0.058    .
+146           1447    KENDMDK|GD  0.067    .
+146           1453    KGDNTDR|ED  0.083    .
+146           1459    REDEMEK|ED  0.057    .
+146           1465    KEDEMDK|ED  0.054    .
+146           1471    KEDNSDR|ED  0.083    .
+146           1477    REDDMEK|ED  0.056    .
+146           1483    KEDDMDK|QD  0.057    .
+146           1489    KQDNMDR|ED  0.095    .
+146           1494    DREDSSK|MP  0.060    .
+146           1499    SKMPQYR|YI  0.182    .
+146           1510    GNGEVVR|VD  0.086    .
+146           1513    EVVRVDK|SG  0.155    .
+146           1517    VDKSGNR|ET  0.080    .
+146           1524    ETISVPR|GG  0.082    .
+146           1545    YYVLVGR|NI  0.109    .
+146           1549    VGRNIMK|VR  0.062    .
+146           1551    RNIMKVR|PS  0.147    .
+146           1563    QQALVMR|GG  0.108    .
+146           1566    LVMRGGR|QI  0.271    .
+146           1572    RQINAIK|IH  0.057    .
+146           1576    AIKIHPK|TR  0.062    .
+146           1578    KIHPKTR|RL  0.104    .
+146           1579    IHPKTRR|LY  0.119    .
+146           1587    YYSDQGR|GV  0.184    .
+146           1598    YGDDMDK|ED  0.056    .
+146           1604    KEDDMDK|ED  0.056    .
+146           1610    KEDDMDK|GD  0.061    .
+146           1616    KGDDMEK|ED  0.058    .
+146           1622    KEDDMEK|ED  0.056    .
+146           1628    KEDDMEK|ED  0.056    .
+146           1632    MEKEDDK|DK  0.070    .
+146           1634    KEDDKDK|ED  0.060    .
+146           1638    KDKEDDK|DK  0.074    .
+146           1640    KEDDKDK|ED  0.061    .
+146           1646    KEDDMDK|ED  0.065    .
+146           1652    KEDGTNR|ED  0.096    .
+146           1662    SVTPQYR|YI  0.118    .
+146           1673    GNGEVVR|LD  0.086    .
+146           1676    EVVRLDK|SG  0.139    .
+146           1680    LDKSGNR|ET  0.084    .
+146           1687    ETISVPR|GG  0.082    .
+146           1708    YYVLVEK|NI  0.069    .
+146           1712    VEKNIMK|VQ  0.063    .
+146           1726    QQALVMR|GG  0.123    .
+146           1735    SQINAIK|IH  0.058    .
+146           1741    KIHPPTR|RL  0.092    .
+146           1742    IHPPTRR|LY  0.110    .
+146           1750    YYSDQGR|GV  0.152    .
+146           1781    IVSVDPK|AM  0.078    .
+146           1786    PKAMVVK|ES  0.072    .
+146           1791    VKESDSR|GQ  0.085    .
+146           1807    TNEDQPR|KE  0.092    .
+146           1808    NEDQPRK|EY  0.073    .
+146           1825    DEAATTR|PG  0.076    .
+146           1833    GEFVYLK|NG  0.054    .
+146           1844    YSVVQGR|RP  0.076    .
+146           1845    SVVQGRR|PQ  0.100    .
+146           1851    RPQLISR|DV  0.143    .
+146           1859    VTSFVVR|RG  0.071    .
+146           1860    TSFVVRR|GV  0.251    .
+146           1867    GVILYAK|RP  0.059    .
+146           1868    VILYAKR|PS  0.118    .
+146           1888    PSTGETR|VV  0.108    .
+146           1915    TEDSMDK|GD  0.060    .
+146           1921    KGDEMDK|GE  0.057    .
+146           1927    KGEDMDK|GD  0.063    .
+146           1933    KGDDWDK|GD  0.059    .
+146           1940    GDVEEIK|DD  0.089    .
+146           1945    IKDDTDK|ED  0.060    .
+146           1957    TSDDTDK|IP  0.074    .
+146           1962    DKIPDQK|FQ  0.072    .
+146           1968    KFQGFGR|YI  0.118    .
+146           1974    RYIIFSK|GG  0.071    .
+146           1981    GGSLVIR|DT  0.170    .
+146           1993    TTETFSR|VG  0.076    .
+146           1997    FSRVGAK|GY  0.068    .
+146           2018    TTAALVK|EP  0.066    .
+146           2021    ALVKEPR|GR  0.099    .
+146           2023    VKEPRGR|EP  0.101    .
+146           2030    EPEYVYR|GM  0.104    .
+146           2034    VYRGMSR|DL  0.105    .
+146           2040    RDLIHDK|ST  0.080    .
+146           2057    YTGGVVR|YD  0.094    .
+146           2061    VVRYDMK|TG  0.064    .
+146           2067    KTGEIEK|TA  0.071    .
+146           2090    LLWSEGR|GE  0.093    .
+146           2114    GLDGSEK|AF  0.054    .
+146           2122    FVYLPSK|NV  0.060    .
+146           2129    NVVFYLK|PN  0.070    .
+146           2136    PNGDLIK|YQ  0.077    .
+146           2142    KYQDGER|QT  0.086    .
+146           2146    GERQTFK|RG  0.064    .
+146           2147    ERQTFKR|GV  0.475    .
+146           2155    VQAVSNR|GD  0.103    .
+146           2158    VSNRGDR|IL  0.227    .
+146           2180    ESGEETR|QP  0.083    .
+146           2213    FYIDSNR|YF  0.082    .
+146           2217    SNRYFQR|SD  0.195    .
+146           2220    YFQRSDK|EG  0.092    .
+146           2225    DKEGASR|GR  0.081    .
+146           2227    EGASRGR|LY  0.085    .
+146           2236    YTATSPK|GV  0.086    .
+146           2246    YSVSWDK|TT  0.060    .
+146           2266    ENIITGR|GE  0.085    .
+146           2275    ISDLVVR|GD  0.097    .
+146           2283    DMDQGDK|IY  0.052    .
+146           2289    KIYYCDK|KE  0.062    .
+146           2290    IYYCDKK|EG  0.087    .
+146           2307    ETGLAER|VL  0.074    .
+146           2320    EEPTVIK|KA  0.057    .
+146           2321    EPTVIKK|AL  0.102    .
+146           2325    IKKALLK|AH  0.061    .
+146           2341    ILNIFFR|EL  0.157    .
+146           2351    WIQGSER|TA  0.098    .
+146           2354    GSERTAK|VM  0.136    .
+146           2396    SGFIILR|DG  0.083    .
+146           2408    EFDPVNR|KE  0.064    .
+146           2409    FDPVNRK|ET  0.074    .
+146           2416    ETTLAQR|VT  0.066    .
+146           2422    RVTAVSK|SK  0.081    .
+146           2424    TAVSKSK|DG  0.080    .
+146           2427    SKSKDGK|IY  0.093    .
+146           2443    VFELDFK|TG  0.054    .
+146           2448    FKTGAHR|FV  0.110    .
+146           2466    FQIFMVK|LK  0.063    .
+146           2468    IFMVKLK|DT  0.096    .
+146           2493    EEESMNK|GD  0.059    .
+146           2497    MNKGDDR|NT  0.146    .
+146           2503    RNTEDVR|DN  0.143    .
+146           2508    VRDNGDK|TD  0.066    .
+146           2517    SENDMDK|GD  0.069    .
+146           2523    KGDDMDK|ED  0.060    .
+146           2529    KEDETDR|EE  0.083    .
+146           2539    SATPQYR|YI  0.147    .
+146           2550    GNGEVVR|VD  0.086    .
+146           2553    EVVRVDK|SG  0.155    .
+146           2557    VDKSGNR|ET  0.080    .
+146           2564    ETISVPR|GG  0.082    .
+146           2585    YYVLVGR|NI  0.098    .
+146           2589    VGRNIMK|GR  0.074    .
+146           2591    RNIMKGR|RP  0.087    .
+146           2592    NIMKGRR|PQ  0.108    .
+146           2598    RPQLISR|DV  0.141    .
+146           2606    VTSFVVR|RG  0.071    .
+146           2607    TSFVVRR|GV  0.251    .
+146           2614    GVILYAK|RP  0.059    .
+146           2615    VILYAKR|PS  0.118    .
+146           2635    PSTGETR|VV  0.106    .
+146           2662    TADSMDK|GD  0.061    .
+146           2668    KGDDMDK|ED  0.056    .
+146           2674    KEDDMDK|ED  0.058    .
+146           2680    KEDDMEK|ED  0.058    .
+146           2686    KEDDTDR|ED  0.071    .
+146           2692    REDDMDK|ED  0.060    .
+146           2698    KEDEMNK|GD  0.060    .
+146           2704    KGDETDK|ED  0.057    .
+146           2710    KEDDMDK|GD  0.060    .
+146           2716    KGDDMDK|ED  0.056    .
+146           2719    DMDKEDK|TD  0.056    .
+146           2732    SAMPQYR|YI  0.186    .
+146           2743    GNGEVVR|VD  0.086    .
+146           2746    EVVRVDR|EE  0.127    .
+____________________________^_________________
+
+
+
+

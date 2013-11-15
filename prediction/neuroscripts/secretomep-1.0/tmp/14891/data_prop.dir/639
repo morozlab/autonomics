@@ -1,0 +1,162 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1460 639         
+MNQTNQLYKNDMLIRSFLGDFLNRLIFKTVITLDMTTNYNLKCGDMFKMSRQHYVPNGVFIERREGCLKRQTKLKTVITF      80
+VMTIRFLCPSFNTRFTTRPTDSQSFMVIALKLWPPSCTQKGRTIKVKTPELPSLSISLSLYLSISLYLSKRVRERERERE     160
+REREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     240
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     320
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     400
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     480
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     560
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     640
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     720
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     880
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVFDPDIPGTPIYRAKPFPPSIPVNRGPTVVER    1040
+HRSSFHVLPRLILVSSSIVDGSIWTTETMILLQEINHTTVSFQTFQHYFKQINLSLMMSMFDETVDADHFSALGFVSTPF    1120
+LSGYSHIANKRFNIQFCSNSRGTGKEGRTRQEKSSIRLDLPDNTIDIDTLLTHYTALYFIPVIRDGREINHDNTGTDRPI    1200
+RTRYLGHVTGYQPIRDQYFLIGRFLKITLFILLIIIMASEKERASEREIERERERETERESERELIVLRGQKNKYACSRA    1280
+PKILQVGRDYLLKRSRHRSVNVSSERKRNQMKDAKHAIYRSILQESTETSKQSIRTRYLGHVTGYQPIRDQYFGRKDIIR    1360
+GINDNFCPNRRKICLISGWAWYLYFQPEAKTISKLKIGKFARFLFARSNFALASSPGNLTSSQGCFATALTERRIQNMLF    1440
+IDLYCRNRPKQVKNQSELVI                                                                1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................                                                                1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+639              9    QTNQLYK|ND  0.066    .
+639             15    KNDMLIR|SF  0.105    .
+639             24    LGDFLNR|LI  0.090    .
+639             28    LNRLIFK|TV  0.085    .
+639             42    TTNYNLK|CG  0.062    .
+639             48    KCGDMFK|MS  0.066    .
+639             51    DMFKMSR|QH  0.074    .
+639             63    NGVFIER|RE  0.082    .
+639             64    GVFIERR|EG  0.121    .
+639             69    RREGCLK|RQ  0.059    .
+639             70    REGCLKR|QT  0.181    .
+639             73    CLKRQTK|LK  0.145    .
+639             75    KRQTKLK|TV  0.114    .
+639             85    TFVMTIR|FL  0.132    .
+639             94    CPSFNTR|FT  0.122    .
+639             98    NTRFTTR|PT  0.117    .
+639            111    FMVIALK|LW  0.058    .
+639            120    PPSCTQK|GR  0.082    .
+639            122    SCTQKGR|TI  0.118    .
+639            125    QKGRTIK|VK  0.167    .
+639            127    GRTIKVK|TP  0.065    .
+639            150    ISLYLSK|RV  0.070    .
+639            151    SLYLSKR|VR  0.155    .
+639            153    YLSKRVR|ER  0.105    .
+639            155    SKRVRER|ER  0.110    .
+639            157    RVRERER|ER  0.090    .
+639            159    RERERER|ER  0.088    .
+639            161    RERERER|ER  0.088    .
+639            163    RERERER|ER  0.090    .
+639            165    RERERER|ER  0.089    .
+639            167    RERERER|ER  0.084    .
+639            169    RERERER|ER  0.092    .
+639            171    RERERER|EA  0.104    .
+639           1021    PGTPIYR|AK  0.062    .
+639           1023    TPIYRAK|PF  0.087    .
+639           1033    PSIPVNR|GP  0.121    .
+639           1040    GPTVVER|HR  0.087    .
+639           1042    TVVERHR|SS  0.146    .
+639           1050    SFHVLPR|LI  0.092    .
+639           1090    TFQHYFK|QI  0.080    .
+639           1130    YSHIANK|RF  0.065    .
+639           1131    SHIANKR|FN  0.188    .
+639           1141    QFCSNSR|GT  0.121    .
+639           1145    NSRGTGK|EG  0.065    .
+639           1148    GTGKEGR|TR  0.076    .
+639           1150    GKEGRTR|QE  0.081    .
+639           1153    GRTRQEK|SS  0.170    .
+639           1157    QEKSSIR|LD  0.068    .
+639           1184    YFIPVIR|DG  0.104    .
+639           1187    PVIRDGR|EI  0.178    .
+639           1198    DNTGTDR|PI  0.081    .
+639           1201    GTDRPIR|TR  0.180    .
+639           1203    DRPIRTR|YL  0.137    .
+639           1215    TGYQPIR|DQ  0.107    .
+639           1223    QYFLIGR|FL  0.084    .
+639           1226    LIGRFLK|IT  0.124    .
+639           1241    IIMASEK|ER  0.058    .
+639           1243    MASEKER|AS  0.148    .
+639           1247    KERASER|EI  0.118    .
+639           1251    SEREIER|ER  0.082    .
+639           1253    REIERER|ER  0.089    .
+639           1255    IERERER|ET  0.091    .
+639           1259    RERETER|ES  0.099    .
+639           1263    TERESER|EL  0.100    .
+639           1269    RELIVLR|GQ  0.079    .
+639           1272    IVLRGQK|NK  0.087    .
+639           1274    LRGQKNK|YA  0.087    .
+639           1279    NKYACSR|AP  0.090    .
+639           1282    ACSRAPK|IL  0.202    .
+639           1288    KILQVGR|DY  0.089    .
+639           1293    GRDYLLK|RS  0.057    .
+639           1294    RDYLLKR|SR  0.291    .
+639           1296    YLLKRSR|HR  0.087    .
+639           1298    LKRSRHR|SV  0.196    .
+639           1306    VNVSSER|KR  0.080    .
+639           1307    NVSSERK|RN  0.074    .
+639           1308    VSSERKR|NQ  0.212    .
+639           1312    RKRNQMK|DA  0.118    .
+639           1315    NQMKDAK|HA  0.068    .
+639           1320    AKHAIYR|SI  0.176    .
+639           1331    ESTETSK|QS  0.057    .
+639           1335    TSKQSIR|TR  0.087    .
+639           1337    KQSIRTR|YL  0.210    .
+639           1349    TGYQPIR|DQ  0.131    .
+639           1355    RDQYFGR|KD  0.097    .
+639           1356    DQYFGRK|DI  0.110    .
+639           1360    GRKDIIR|GI  0.128    .
+639           1370    DNFCPNR|RK  0.078    .
+639           1371    NFCPNRR|KI  0.110    .
+639           1372    FCPNRRK|IC  0.071    .
+639           1390    YFQPEAK|TI  0.070    .
+639           1394    EAKTISK|LK  0.059    .
+639           1396    KTISKLK|IG  0.064    .
+639           1399    SKLKIGK|FA  0.072    .
+639           1402    KIGKFAR|FL  0.138    .
+639           1407    ARFLFAR|SN  0.192    .
+639           1433    ATALTER|RI  0.085    .
+639           1434    TALTERR|IQ  0.102    .
+639           1446    FIDLYCR|NR  0.065    .
+639           1448    DLYCRNR|PK  0.079    .
+639           1450    YCRNRPK|QV  0.078    .
+639           1453    NRPKQVK|NQ  0.070    .
+____________________________^_________________
+
+
+
+

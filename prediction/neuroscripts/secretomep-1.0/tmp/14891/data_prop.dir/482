@@ -1,0 +1,220 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1664 482         
+MDNNSLRMLTPGRRPGVRADRQGTFTGSPSDALDPPTAPVPRPARQVPRPIQCFIEEVGGYLKEQCGYDPTYGKIYKCPS      80
+SQQLYTSSDFERAEYTSYNELCPNDPGFYQVCGHAGSTAFRRVDGVTSPLLCGRYICGKHSGKDIETHSKCQKGRCANTN     160
+VNEFMCNDREDNVPCDGRCVTQECLDEMECNGVSYGMFCTKEFMTPSHIPPRSLCDGKILTLSPLLLYPTILNMSRIQTC     240
+LRSDIERTIGVPEGARCAPWYRTETICKNGEDQINCTDPDRVTMSCLNQGHNTTISFLGHCRGFSKTPDQKGMELAMPLA     320
+WVMDGHVDCIDGSDEMKTSWTICGSGAYSRYSEKGQGHICTDVLICGGEDGFVELDKLCDKISSCPVEVDLCNAMRNNQV     400
+VDTSVTLNQEVYLQHCFPIPSSSLELQLGKCHTVTQPSFTLPTVLNVIKSVHVNLPLQSFDCRYMYGENYVYSACSRLCY     480
+NADCPLNKTVPLETCWNMPDKRVYALADTYPPELVVEKFRRFLGPRMLVAYKGCDNQKCVFYRDVCNLKDDCGDGSDEVN     560
+CVNNFQCTTSGTRIPLSSVCDGQVDCVDLSDECNEKCPVTKKHILANDGLRAVCYIVGPLASLLNLMVLIVTIRKPIKRR     640
+TFELLANKLAIILICLGDLLVGVYLLSISVFDFMFRRSGGYCRDRFTWFTSTQCQILGVVSTTGSQLSIFAMTSLSVVRV     720
+FSVGKLIHTDGEDQINCTDPDRVTMSCLNQGHNTTISFLGHCRGYDLCDDGYNNVCFEPETGCTVHKNQLCDAVRDCQNG     800
+GDETADLCSRVTQSFVCERRFSKTPDQKGRELAMPLVWVMDGHVDCMNGSDEMETSWTICGSGAYSRYSEKGQGHICTDV     880
+LICGGNHGFVELDKLCDKISSCSIEVDLCNAMRNNQVVDTSVTLNQEVFLQHCFPIPSSSLEIQLGKCHTVIQPSFTLPT     960
+VLNVIRSVHVNLPLNSVDCRYLYGENYVYSACNGLCDNAECPLNKTVPLETCWNMPDKRVYALSDTYPPELVVLFKASKD    1040
+PGSYDHRIFPCDNRKCVFYRDVCNLKDDCGDGSDEVNCVNNFQCTTSGTRIPLSSVCDGHVDCVDLSDECNEKCPVTNKH    1120
+ILANDGLRAVCYIVGPLASLLNLLVLIVTIRKPIKRRTFELLANKLAIILICLGDLLVGIYLLSISVFDFMFRRSGSYCR    1200
+DRFTWFTSTQCQILGVVSTTGSQLSIFAMTSLSVVRVFSVGKLIHTDAGSILSVIKLVILTIIPIIGSVIIAVIPILTVF    1280
+EDYFVNGLYYNGSSLFRGSVTKTKHLELFSRYYSRISVVKSADSMISWRVIREMTRNMFTSQYGGIHNSTVHFYGNDGVC    1360
+VFKDVCNLKDDCGDGSDEVNCVNNFQCTTSGTRIPLSSVCDGQVDCVDLSDECNEKCPVTKKHILANDGLRAVCYIVGPL    1440
+ASLLNLMVLIVTIRKPIKRRTFELLANKLAIILICLGDLLVGVYLLSISVFDFMFRRSGGYCRDRFTWFTSTQCQILGVV    1520
+STTGSQLSIFAMTSLSVVRVFSVGKLIHTDAGSIFSIIKLGILTFISIIGSVIIAVIPVLPVFEDYFVNGLYYNGSSLFR    1600
+GSVTKTKHLELFSRYYSRISVVRSADSMISWRVIREMTRNMFTSQYGDNMPPQPLLGPGHLPVL                    1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................                    1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+482              7    MDNNSLR|ML  0.140    .
+482             13    RMLTPGR|RP  0.073    .
+482             14    MLTPGRR|PG  0.091    .
+482             18    GRRPGVR|AD  0.153    .
+482             21    PGVRADR|QG  0.141    .
+482             42    PTAPVPR|PA  0.154    .
+482             45    PVPRPAR|QV  0.300    .
+482             49    PARQVPR|PI  0.114    .
+482             63    EVGGYLK|EQ  0.056    .
+482             74    YDPTYGK|IY  0.052    .
+482             77    TYGKIYK|CP  0.070    .
+482             92    TSSDFER|AE  0.130    .
+482            121    AGSTAFR|RV  0.165    .
+482            122    GSTAFRR|VD  0.132    .
+482            134    SPLLCGR|YI  0.112    .
+482            139    GRYICGK|HS  0.089    .
+482            143    CGKHSGK|DI  0.088    .
+482            150    DIETHSK|CQ  0.055    .
+482            153    THSKCQK|GR  0.081    .
+482            155    SKCQKGR|CA  0.181    .
+482            169    EFMCNDR|ED  0.068    .
+482            178    NVPCDGR|CV  0.114    .
+482            201    YGMFCTK|EF  0.061    .
+482            212    PSHIPPR|SL  0.238    .
+482            218    RSLCDGK|IL  0.060    .
+482            236    TILNMSR|IQ  0.075    .
+482            242    RIQTCLR|SD  0.098    .
+482            247    LRSDIER|TI  0.154    .
+482            256    GVPEGAR|CA  0.084    .
+482            262    RCAPWYR|TE  0.083    .
+482            268    RTETICK|NG  0.068    .
+482            281    NCTDPDR|VT  0.083    .
+482            302    SFLGHCR|GF  0.111    .
+482            306    HCRGFSK|TP  0.074    .
+482            311    SKTPDQK|GM  0.068    .
+482            337    DGSDEMK|TS  0.072    .
+482            350    GSGAYSR|YS  0.187    .
+482            354    YSRYSEK|GQ  0.086    .
+482            377    GFVELDK|LC  0.064    .
+482            381    LDKLCDK|IS  0.056    .
+482            396    DLCNAMR|NN  0.091    .
+482            430    LELQLGK|CH  0.060    .
+482            449    TVLNVIK|SV  0.121    .
+482            463    LQSFDCR|YM  0.107    .
+482            477    VYSACSR|LC  0.079    .
+482            488    ADCPLNK|TV  0.069    .
+482            501    CWNMPDK|RV  0.088    .
+482            502    WNMPDKR|VY  0.139    .
+482            518    PELVVEK|FR  0.061    .
+482            520    LVVEKFR|RF  0.079    .
+482            521    VVEKFRR|FL  0.208    .
+482            526    RRFLGPR|ML  0.096    .
+482            532    RMLVAYK|GC  0.068    .
+482            538    KGCDNQK|CV  0.072    .
+482            543    QKCVFYR|DV  0.226    .
+482            549    RDVCNLK|DD  0.067    .
+482            573    CTTSGTR|IP  0.060    .
+482            596    SDECNEK|CP  0.058    .
+482            601    EKCPVTK|KH  0.067    .
+482            602    KCPVTKK|HI  0.096    .
+482            611    LANDGLR|AV  0.118    .
+482            634    VLIVTIR|KP  0.073    .
+482            635    LIVTIRK|PI  0.069    .
+482            638    TIRKPIK|RR  0.063    .
+482            639    IRKPIKR|RT  0.215    .
+482            640    RKPIKRR|TF  0.128    .
+482            648    FELLANK|LA  0.055    .
+482            676    VFDFMFR|RS  0.078    .
+482            677    FDFMFRR|SG  0.243    .
+482            683    RSGGYCR|DR  0.119    .
+482            685    GGYCRDR|FT  0.095    .
+482            719    TSLSVVR|VF  0.092    .
+482            725    RVFSVGK|LI  0.068    .
+482            742    NCTDPDR|VT  0.083    .
+482            763    SFLGHCR|GY  0.090    .
+482            787    TGCTVHK|NQ  0.055    .
+482            795    QLCDAVR|DC  0.114    .
+482            810    TADLCSR|VT  0.069    .
+482            819    QSFVCER|RF  0.099    .
+482            820    SFVCERR|FS  0.117    .
+482            823    CERRFSK|TP  0.171    .
+482            828    SKTPDQK|GR  0.067    .
+482            830    TPDQKGR|EL  0.121    .
+482            867    GSGAYSR|YS  0.187    .
+482            871    YSRYSEK|GQ  0.086    .
+482            894    GFVELDK|LC  0.062    .
+482            898    LDKLCDK|IS  0.061    .
+482            913    DLCNAMR|NN  0.089    .
+482            947    LEIQLGK|CH  0.069    .
+482            966    TVLNVIR|SV  0.209    .
+482            980    LNSVDCR|YL  0.134    .
+482           1005    AECPLNK|TV  0.068    .
+482           1018    CWNMPDK|RV  0.084    .
+482           1019    WNMPDKR|VY  0.130    .
+482           1036    ELVVLFK|AS  0.064    .
+482           1039    VLFKASK|DP  0.069    .
+482           1047    PGSYDHR|IF  0.075    .
+482           1054    IFPCDNR|KC  0.067    .
+482           1055    FPCDNRK|CV  0.095    .
+482           1060    RKCVFYR|DV  0.240    .
+482           1066    RDVCNLK|DD  0.067    .
+482           1090    CTTSGTR|IP  0.060    .
+482           1113    SDECNEK|CP  0.057    .
+482           1119    KCPVTNK|HI  0.061    .
+482           1128    LANDGLR|AV  0.118    .
+482           1151    VLIVTIR|KP  0.075    .
+482           1152    LIVTIRK|PI  0.068    .
+482           1155    TIRKPIK|RR  0.063    .
+482           1156    IRKPIKR|RT  0.215    .
+482           1157    RKPIKRR|TF  0.128    .
+482           1165    FELLANK|LA  0.055    .
+482           1193    VFDFMFR|RS  0.075    .
+482           1194    FDFMFRR|SG  0.209    .
+482           1200    RSGSYCR|DR  0.117    .
+482           1202    GSYCRDR|FT  0.105    .
+482           1236    TSLSVVR|VF  0.092    .
+482           1242    RVFSVGK|LI  0.065    .
+482           1256    SILSVIK|LV  0.064    .
+482           1297    NGSSLFR|GS  0.109    .
+482           1302    FRGSVTK|TK  0.073    .
+482           1304    GSVTKTK|HL  0.069    .
+482           1311    HLELFSR|YY  0.105    .
+482           1315    FSRYYSR|IS  0.083    .
+482           1320    SRISVVK|SA  0.128    .
+482           1329    DSMISWR|VI  0.104    .
+482           1332    ISWRVIR|EM  0.276    .
+482           1336    VIREMTR|NM  0.088    .
+482           1363    DGVCVFK|DV  0.086    .
+482           1369    KDVCNLK|DD  0.071    .
+482           1393    CTTSGTR|IP  0.060    .
+482           1416    SDECNEK|CP  0.058    .
+482           1421    EKCPVTK|KH  0.067    .
+482           1422    KCPVTKK|HI  0.096    .
+482           1431    LANDGLR|AV  0.118    .
+482           1454    VLIVTIR|KP  0.073    .
+482           1455    LIVTIRK|PI  0.069    .
+482           1458    TIRKPIK|RR  0.063    .
+482           1459    IRKPIKR|RT  0.215    .
+482           1460    RKPIKRR|TF  0.128    .
+482           1468    FELLANK|LA  0.055    .
+482           1496    VFDFMFR|RS  0.078    .
+482           1497    FDFMFRR|SG  0.243    .
+482           1503    RSGGYCR|DR  0.119    .
+482           1505    GGYCRDR|FT  0.095    .
+482           1539    TSLSVVR|VF  0.092    .
+482           1545    RVFSVGK|LI  0.065    .
+482           1559    SIFSIIK|LG  0.056    .
+482           1600    NGSSLFR|GS  0.109    .
+482           1605    FRGSVTK|TK  0.073    .
+482           1607    GSVTKTK|HL  0.069    .
+482           1614    HLELFSR|YY  0.102    .
+482           1618    FSRYYSR|IS  0.076    .
+482           1623    SRISVVR|SA  0.241    .
+482           1632    DSMISWR|VI  0.102    .
+482           1635    ISWRVIR|EM  0.276    .
+482           1639    VIREMTR|NM  0.086    .
+____________________________^_________________
+
+
+
+

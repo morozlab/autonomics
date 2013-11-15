@@ -1,0 +1,296 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1909 349         
+MCFPCRIRKLHTFVAEGQHVQPFLLFLATEPQQQQLLLTAQLLRTKSDDFYKLGYTIKKNVVECSSASGSQYSPLHLVDS      80
+ASLQNNKAIIKYGDVKKVISKTLKHLYYNENGEQEPTETSKQPIRARYLGHVTGYYPIRDKYFLIRSVSSKATNRATYRV     160
+THKVTNRVTHRVTNRVAHRVTNRVTNRVTNRVTNRVTNRATNRVTNRATYRVKTHNTIMSFREWLESNLATRESKKDDPY     240
+DPALGEWTEIRLFVSSTFLDTHGERDLLVKNVIPEINRILAPQFIRFNPVDLRWGVLSNESNSFENIQKTCLNQIDNSRL     320
+VKEQRPWFLGLRTLRYGWVQDELVPSNEFERAVYFDWIDRMKEEDFKVSITALETCHAINNQPKDAPFPNVLIYERNFPD     400
+EVREKILNRNQWWVFDFDYIQSLEEYKDRPESQVQYRCTDRANGFRNDRDDLTRYLASRKDVIFNKYYPDKGSAIITHVN     480
+DRTGRKSGIGKVEGIEKFGEMVKHDLLEAVKMNFFATKSGDLDKFELERLSHENAMKAKADSFVGRSTMIATAQDFLNGT     560
+GSPNTLIVHGEPGCGKSGLVAAITEQALKRREESGDFVFVHAVDCCPGSSFLDNLMRRLNIELRKYRRSKGENRVSEDPP     640
+EILADLQSEHHEMIYAAANLNPDSKIIIIVDAVNQFTHAVRAWSMWWLVSDCPPNIRFIISTLNTENGTFENAKSACPDA     720
+MLLEVTDMDKGELAEMVRGILAKYNKKLSEDSNDKMLGNQMEALLSKNTSPLYLKAASEALRKYGRFDEITTQIGKFPDT     800
+IAGLFDSLIDEWCVDYGELFTKDVCCFIAASKDGLLENQINDLLKFKEETVMGENGGLLYDASFARIYDSISCFLAAGGG     880
+GYLRFFHDQLKFTVDRKLLSPERKIETHQWLVDFFLSVISPRLTDGWNTEDESGRKSSTVTNGGSLILITSNRLRSTRTD     960
+PNPRDDLTRYLASRKDVIFNKYYPDKGSAIITHVNDTTGRKSGIGKVEGIEKFGEMVKHDLLEAVKMNFFATKSGDLDKF    1040
+ELERLSHENAMKAKADSFVGRSAMIATAQDFLNGTGSPNTLIVHGEPGCGKSGLVAAITEQALKRREESSDFVFVHAVDC    1120
+CPGSSFLDNLMRRLNIELRKYRRSKGENRVSEDPPELLADLQSEHHEMIYAAANLNPDSKIIIIVDAVNQFTHAVRAWSM    1200
+WWLVSDCPPNIRFIISTLNTENGTFENAKSACPDAMLLEVTDMDKGELAEMVRGILAKYNKKLSEDSNDKMLGNQMEALL    1280
+SKNTSPLYLKAASEALRKYGRFDEITTQIGKFPDTIAGLFDSLIDEWCVDYGELFTKDVCCFIAASKDGLLENQINDLLK    1360
+FKEETVMGENGGLLYDASFARIYDSISCFLAAGGGGYLRFFHDQLKFTVDRKLLSPEQNIETHQWLVDFFLSVISPRLTD    1440
+GWNTEDDTPVVSVYYAHCLDQIVTHQLNIIQEMASSQSRVDMSLLKTTLRNVFFVRERILNGQEDLLNEEFIWATELADE    1520
+IGASQEEKDAMAQWEKFSQLYTRYIRQNPKYVHSAAMNHPPSSFVYQDTCEVSTQVVQENYPLRWTNIPVAQDPMIAKYE    1600
+NGGGMKCVASSKQGDVFAVARAGSGTTIYDLSSGRVLHEVPVEGFSVLLSLDEKHLFVGTEQGGVSCIDIETGQVLYQTD    1680
+KSLSGPIVYLGWGVEGGEDILIAGTGYHNKTITWDSHSTNGMIGVYVPGTLVRVRDWSVEDPAYEYTYNTATGWVFSTHK    1760
+GFVKGWSLGGEQVVEDHNDGSRCIYTCDSHPTKPYIITGNNEDEVKEWSISPTNGSLQELRSVTLPPISGWAFGGVWSCC    1840
+YDNKGERIFATEPQSETVYAYDQNGEQVGKLKGHTSCVNNISRIPGGGRTRTPYQLALKLSMKRSMKRP               1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.....................................................................               1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+349              6    -MCFPCR|IR  0.070    .
+349              8    CFPCRIR|KL  0.076    .
+349              9    FPCRIRK|LH  0.161    .
+349             44    LTAQLLR|TK  0.080    .
+349             46    AQLLRTK|SD  0.066    .
+349             52    KSDDFYK|LG  0.065    .
+349             58    KLGYTIK|KN  0.062    .
+349             59    LGYTIKK|NV  0.103    .
+349             87    ASLQNNK|AI  0.068    .
+349             91    NNKAIIK|YG  0.064    .
+349             96    IKYGDVK|KV  0.071    .
+349             97    KYGDVKK|VI  0.140    .
+349            101    VKKVISK|TL  0.060    .
+349            104    VISKTLK|HL  0.081    .
+349            121    EPTETSK|QP  0.064    .
+349            125    TSKQPIR|AR  0.096    .
+349            127    KQPIRAR|YL  0.159    .
+349            139    TGYYPIR|DK  0.119    .
+349            141    YYPIRDK|YF  0.053    .
+349            146    DKYFLIR|SV  0.207    .
+349            151    IRSVSSK|AT  0.098    .
+349            155    SSKATNR|AT  0.111    .
+349            159    TNRATYR|VT  0.134    .
+349            163    TYRVTHK|VT  0.072    .
+349            167    THKVTNR|VT  0.108    .
+349            171    TNRVTHR|VT  0.112    .
+349            175    THRVTNR|VA  0.141    .
+349            179    TNRVAHR|VT  0.111    .
+349            183    AHRVTNR|VT  0.097    .
+349            187    TNRVTNR|VT  0.114    .
+349            191    TNRVTNR|VT  0.113    .
+349            195    TNRVTNR|VT  0.112    .
+349            199    TNRVTNR|AT  0.132    .
+349            203    TNRATNR|VT  0.100    .
+349            207    TNRVTNR|AT  0.135    .
+349            211    TNRATYR|VK  0.106    .
+349            213    RATYRVK|TH  0.062    .
+349            222    NTIMSFR|EW  0.090    .
+349            232    ESNLATR|ES  0.083    .
+349            235    LATRESK|KD  0.124    .
+349            236    ATRESKK|DD  0.095    .
+349            251    GEWTEIR|LF  0.073    .
+349            265    LDTHGER|DL  0.083    .
+349            270    ERDLLVK|NV  0.081    .
+349            278    VIPEINR|IL  0.074    .
+349            286    LAPQFIR|FN  0.088    .
+349            293    FNPVDLR|WG  0.066    .
+349            309    SFENIQK|TC  0.061    .
+349            319    NQIDNSR|LV  0.117    .
+349            322    DNSRLVK|EQ  0.135    .
+349            325    RLVKEQR|PW  0.123    .
+349            332    PWFLGLR|TL  0.073    .
+349            335    LGLRTLR|YG  0.174    .
+349            351    PSNEFER|AV  0.108    .
+349            360    YFDWIDR|MK  0.076    .
+349            362    DWIDRMK|EE  0.060    .
+349            367    MKEEDFK|VS  0.068    .
+349            384    AINNQPK|DA  0.078    .
+349            396    NVLIYER|NF  0.070    .
+349            403    NFPDEVR|EK  0.074    .
+349            405    PDEVREK|IL  0.068    .
+349            409    REKILNR|NQ  0.093    .
+349            427    QSLEEYK|DR  0.064    .
+349            429    LEEYKDR|PE  0.112    .
+349            437    ESQVQYR|CT  0.137    .
+349            441    QYRCTDR|AN  0.085    .
+349            446    DRANGFR|ND  0.104    .
+349            449    NGFRNDR|DD  0.161    .
+349            454    DRDDLTR|YL  0.087    .
+349            459    TRYLASR|KD  0.080    .
+349            460    RYLASRK|DV  0.100    .
+349            466    KDVIFNK|YY  0.075    .
+349            471    NKYYPDK|GS  0.075    .
+349            482    ITHVNDR|TG  0.101    .
+349            485    VNDRTGR|KS  0.312    .
+349            486    NDRTGRK|SG  0.113    .
+349            491    RKSGIGK|VE  0.080    .
+349            497    KVEGIEK|FG  0.068    .
+349            503    KFGEMVK|HD  0.054    .
+349            511    DLLEAVK|MN  0.059    .
+349            518    MNFFATK|SG  0.077    .
+349            524    KSGDLDK|FE  0.067    .
+349            529    DKFELER|LS  0.073    .
+349            537    SHENAMK|AK  0.072    .
+349            539    ENAMKAK|AD  0.098    .
+349            546    ADSFVGR|ST  0.276    .
+349            576    GEPGCGK|SG  0.069    .
+349            589    ITEQALK|RR  0.058    .
+349            590    TEQALKR|RE  0.193    .
+349            591    EQALKRR|EE  0.146    .
+349            617    FLDNLMR|RL  0.085    .
+349            618    LDNLMRR|LN  0.115    .
+349            624    RLNIELR|KY  0.087    .
+349            625    LNIELRK|YR  0.082    .
+349            627    IELRKYR|RS  0.218    .
+349            628    ELRKYRR|SK  0.360    .
+349            630    RKYRRSK|GE  0.144    .
+349            634    RSKGENR|VS  0.088    .
+349            665    NLNPDSK|II  0.068    .
+349            681    QFTHAVR|AW  0.094    .
+349            697    DCPPNIR|FI  0.098    .
+349            714    GTFENAK|SA  0.096    .
+349            730    EVTDMDK|GE  0.056    .
+349            738    ELAEMVR|GI  0.088    .
+349            743    VRGILAK|YN  0.076    .
+349            746    ILAKYNK|KL  0.065    .
+349            747    LAKYNKK|LS  0.100    .
+349            755    SEDSNDK|ML  0.070    .
+349            767    MEALLSK|NT  0.065    .
+349            775    TSPLYLK|AA  0.080    .
+349            782    AASEALR|KY  0.100    .
+349            783    ASEALRK|YG  0.078    .
+349            786    ALRKYGR|FD  0.106    .
+349            796    ITTQIGK|FP  0.063    .
+349            822    YGELFTK|DV  0.086    .
+349            832    CFIAASK|DG  0.055    .
+349            845    QINDLLK|FK  0.085    .
+349            847    NDLLKFK|EE  0.061    .
+349            866    YDASFAR|IY  0.106    .
+349            884    GGGGYLR|FF  0.120    .
+349            891    FFHDQLK|FT  0.062    .
+349            896    LKFTVDR|KL  0.080    .
+349            897    KFTVDRK|LL  0.087    .
+349            903    KLLSPER|KI  0.090    .
+349            904    LLSPERK|IE  0.093    .
+349            922    LSVISPR|LT  0.102    .
+349            935    TEDESGR|KS  0.134    .
+349            936    EDESGRK|SS  0.086    .
+349            953    ILITSNR|LR  0.078    .
+349            955    ITSNRLR|ST  0.147    .
+349            958    NRLRSTR|TD  0.184    .
+349            964    RTDPNPR|DD  0.077    .
+349            969    PRDDLTR|YL  0.098    .
+349            974    TRYLASR|KD  0.080    .
+349            975    RYLASRK|DV  0.100    .
+349            981    KDVIFNK|YY  0.075    .
+349            986    NKYYPDK|GS  0.075    .
+349           1000    VNDTTGR|KS  0.099    .
+349           1001    NDTTGRK|SG  0.091    .
+349           1006    RKSGIGK|VE  0.083    .
+349           1012    KVEGIEK|FG  0.068    .
+349           1018    KFGEMVK|HD  0.054    .
+349           1026    DLLEAVK|MN  0.059    .
+349           1033    MNFFATK|SG  0.077    .
+349           1039    KSGDLDK|FE  0.067    .
+349           1044    DKFELER|LS  0.073    .
+349           1052    SHENAMK|AK  0.072    .
+349           1054    ENAMKAK|AD  0.097    .
+349           1061    ADSFVGR|SA  0.330    .
+349           1091    GEPGCGK|SG  0.069    .
+349           1104    ITEQALK|RR  0.055    .
+349           1105    TEQALKR|RE  0.171    .
+349           1106    EQALKRR|EE  0.132    .
+349           1132    FLDNLMR|RL  0.085    .
+349           1133    LDNLMRR|LN  0.115    .
+349           1139    RLNIELR|KY  0.087    .
+349           1140    LNIELRK|YR  0.082    .
+349           1142    IELRKYR|RS  0.218    .
+349           1143    ELRKYRR|SK  0.360    .
+349           1145    RKYRRSK|GE  0.144    .
+349           1149    RSKGENR|VS  0.086    .
+349           1180    NLNPDSK|II  0.068    .
+349           1196    QFTHAVR|AW  0.094    .
+349           1212    DCPPNIR|FI  0.098    .
+349           1229    GTFENAK|SA  0.096    .
+349           1245    EVTDMDK|GE  0.056    .
+349           1253    ELAEMVR|GI  0.088    .
+349           1258    VRGILAK|YN  0.076    .
+349           1261    ILAKYNK|KL  0.065    .
+349           1262    LAKYNKK|LS  0.100    .
+349           1270    SEDSNDK|ML  0.070    .
+349           1282    MEALLSK|NT  0.065    .
+349           1290    TSPLYLK|AA  0.080    .
+349           1297    AASEALR|KY  0.100    .
+349           1298    ASEALRK|YG  0.078    .
+349           1301    ALRKYGR|FD  0.106    .
+349           1311    ITTQIGK|FP  0.063    .
+349           1337    YGELFTK|DV  0.086    .
+349           1347    CFIAASK|DG  0.055    .
+349           1360    QINDLLK|FK  0.085    .
+349           1362    NDLLKFK|EE  0.061    .
+349           1381    YDASFAR|IY  0.106    .
+349           1399    GGGGYLR|FF  0.120    .
+349           1406    FFHDQLK|FT  0.062    .
+349           1411    LKFTVDR|KL  0.081    .
+349           1412    KFTVDRK|LL  0.089    .
+349           1437    LSVISPR|LT  0.102    .
+349           1479    MASSQSR|VD  0.098    .
+349           1486    VDMSLLK|TT  0.057    .
+349           1490    LLKTTLR|NV  0.106    .
+349           1496    RNVFFVR|ER  0.081    .
+349           1498    VFFVRER|IL  0.093    .
+349           1528    GASQEEK|DA  0.121    .
+349           1536    AMAQWEK|FS  0.063    .
+349           1543    FSQLYTR|YI  0.130    .
+349           1546    LYTRYIR|QN  0.182    .
+349           1550    YIRQNPK|YV  0.093    .
+349           1584    QENYPLR|WT  0.103    .
+349           1598    QDPMIAK|YE  0.071    .
+349           1606    ENGGGMK|CV  0.071    .
+349           1612    KCVASSK|QG  0.060    .
+349           1621    DVFAVAR|AG  0.086    .
+349           1635    YDLSSGR|VL  0.082    .
+349           1654    LLSLDEK|HL  0.076    .
+349           1681    VLYQTDK|SL  0.079    .
+349           1710    GTGYHNK|TI  0.068    .
+349           1733    VPGTLVR|VR  0.087    .
+349           1735    GTLVRVR|DW  0.129    .
+349           1760    WVFSTHK|GF  0.061    .
+349           1764    THKGFVK|GW  0.094    .
+349           1782    DHNDGSR|CI  0.091    .
+349           1793    CDSHPTK|PY  0.076    .
+349           1806    NNEDEVK|EW  0.069    .
+349           1821    GSLQELR|SV  0.133    .
+349           1844    SCCYDNK|GE  0.062    .
+349           1847    YDNKGER|IF  0.087    .
+349           1870    NGEQVGK|LK  0.062    .
+349           1872    EQVGKLK|GH  0.068    .
+349           1883    CVNNISR|IP  0.108    .
+349           1889    RIPGGGR|TR  0.075    .
+349           1891    PGGGRTR|TP  0.070    .
+349           1899    PYQLALK|LS  0.052    .
+349           1903    ALKLSMK|RS  0.059    .
+349           1904    LKLSMKR|SM  0.163    .
+349           1907    SMKRSMK|RP  0.114    .
+349           1908    MKRSMKR|P-  0.215    .
+____________________________^_________________
+
+
+
+

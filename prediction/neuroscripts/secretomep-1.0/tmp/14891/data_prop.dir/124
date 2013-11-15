@@ -1,0 +1,432 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2978 124         
+MITHTNESSSSGDEEMSTSDGGNSDTETNILPPVPAMEVTQIEFEAYPPADEDWDGVRALLDGLVKGLTLDVGNFSQTLI      80
+DNYKVGTVIKGADIEEGEDDPVFAVASILPLSLFPDSAKLKQLTTSLLSKCDADTSSDVDKILSSPDTAFLLNAKFNNLP     160
+LQITAQLYKALKMELITERRENKSYNARNLVMLAKSYQEPEQGRKVKRSKHVTPSVQYEGADLFMLSEIATHSFSWKYVF     240
+FHSFIPTSHCSMLSSVVGFDLGFSSCYIAIARGGGVEIIDNEYSKRDNPTYVAYGACNDGRKMALSAKTQTSSNIKSTVM     320
+KFKPLIGRKFDDPWIQDDMRGMVSPPPDQTHFQITSLGMITHTNESSSSGDEEMSTSDGGNSDTETNILPPVPAMEVTQI     400
+EFEAYPPADEDWDGVRALLDGLVKGLTLDVGNFSQTLIDNYKVGTVIKGADIEEGEDDPVFAVASILPLSLFPDSAKLKQ     480
+LTTSLLSKCDADTSSDVDKILSCPDTAFLLNAKFNNLPLQITAQLYKALKMELITERRENKSYNVRNLVMLAKSFQEPEQ     560
+GRKVKRSKHVTPSVQYEGADLSMLSEIATHSFSWKYVLPPHLSPLRFPSMLSSVVGFDLGFSSCYIAIARGGGVEIIDNE     640
+YSKRDNPTYVAYGACNDGRKMALSAKTQTSSNIKSTVMKFKPLIGRKFDDPWIQDDMRGMFNDIKKNEDGSIGFHVQYEE     720
+NTIVMTPEHCTTSLFNYLKGVAELKLGNEYSKRDNPTYVAYGACNDGRKMALSAKTQTSSNIKSTVMKFKPLIGRKFDDP     800
+WIQDDMRGMFNDIKKNEDGSIGFHVQYEENTIVMTPEHCTTSLFNYLKGVAELKLGFSVNDCVISVPLYYTDYQRRAMIF     880
+AAKAAGLNILRLINDTTATALAYGIYKQLPPSRTFQLPLASLQDLPNEKDKPKLVVFVDIGDNDTQISAVGFNKGKLEVK     960
+KAIADPQLGGRYFSQRIINYFKTEFNNKYKLDIDSRAKTVLRLETECEKIKKTMSANSTYVPLNIECFMNDKDVSGRMNR    1040
+AEFEDLSADLFDRLKSLLSSLFVDAPFTVADIDSVEIVGGATRIPKAKAIIEEILQKPCSTTLNADECVARGCALQCAIL    1120
+SPAFKVREFAINDQVPAGIKLVWYDPNGTVGGDMEVFKNGHVFPFSKMLTFYRKDNLVLEASYITPLPHTQTVIGRFEIG    1200
+PIKPAEDGQSVKVKVKVKVDIHGIMVVESAHIVTRLTLNSFSMCKAVLNMYSPCRTPCIVRIVCIYRFLFARPLKLPVTR    1280
+ITNRLSHLARTIIYPEEKKEEKMETDTNGVGPSEPTENQAEETAEKIEKSDSEMKEGDGEVIDEKPKTKTKTIQTPLTVT    1360
+SAKEGFSDKELHAAQERENAMIATDKLIRDRQMAKNSVEEYVYSIRDKLYGKLEKFMKEQEKEAYMAELTKTEDWLYDEG    1440
+ENCQKQVYIDKLASLRKPGDAAEVRYMEAEARPGALNQLAHSLVHVKKAIDMIEQKDEKYDHLTEEDKATLVAKTTEIDQ    1520
+VYNVYCTKLTGVDLTSPPPVTVSQINDKKKLDIDSRAKTVLRLETECEKIKKTMSANSTYVPLNIECFMNDKDVSGRMNR    1600
+AEFEDLSADLFDRLKSLLSSLFVDAPFTVADIDSVEIVGGATRIPKAKAIIEEILQKPCSTTLNADECVARGCALQCAIL    1680
+SPAFKVREFAINDQVPAGIKLVWYDPNGTVGGDMEVFKNGHVFPFSKMLTFYRKDNLVLEASYITPLPHTQTVIGRFEIG    1760
+PIKPAEDGQSVKVKVKVKVDIHGIMVVESAHIVTRIQVPVEEEKKEEKKEEKKEEKMETDTNGVGPSEPTENQAEETAEK    1840
+IEKSDSEMKEGDGEVIDEKPKTKTKTIQTPLTVTSAKEGFSDKELHAAQERENAMIATDKLIRDRQMAKNSVEEYVYSIR    1920
+DKLYGKLEKFMKEQEKEAYMAELTKTEDWLYDEGENCQKQVYIDKLASLRKPGDAAEVRYMEAEARPGALNQLAHSLVHV    2000
+KKAIDMIEQKDEKYDHLTEEDKATLIAKTTEIDQVYNVYCTKLTGVDLTSPPPVTVSQINDKKKELEDKCNPILNKPKPK    2080
+VEPPPAPAAEETPKDGADAAPAADSPMDSTPDTKSEEKPDPASMDHAQIGTGTTTCTTTLHYTGGLALTLSLTLSLSHSL    2160
+SLTLSLSLSLSLFLFLSPSISLCLPFSLCVLCGVVQDDSNTCLDKYAKDRWRNIGKCIIMVSSVASEFQKLEVTRRELEK    2240
+QQDQFKNFLEFRDSEPNLDRNRVVFDPSIYRRPKDGMYLPRELEEAARNRSLRSATQARSLRLKLRECSSFASYPGYTLS    2320
+SGEIVMTRFNKELRQEETVQILNRGDIFGDTEVLDGCRRTATVTSALDIVLWSVDGEDFKGSMTRSLEFAARRDGGEEEG    2400
+AAGDGAAMTASTAIQSFLNSLTWFDGIPTEKFGNDPRSATLVYFRNNKCVVKSSKDNDILCFVKSGKCDVITKLSMATET    2480
+RPSSGVSCFDTGMRYWKRDEGCGVKPLTGIIPDTKQALQAPEKTTKTRLRPITAPITRPKIVITKPSRPGTGVHSRTPPS    2560
+VGGSTMILTQDRPVTSSKRSRPTTQSRLITSCSTTSPSRPITANISTRPCTAVKPPKSESESESESESESESESESESES    2640
+ESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESES    2720
+ESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESES    2800
+ESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESES    2880
+ESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESESES    2960
+ESDCKAVAHTFGTFSGVC                                                                  3040
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+....................................................P...........................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+..................                                                                  3040
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+124             58    EDWDGVR|AL  0.090    .
+124             66    LLDGLVK|GL  0.059    .
+124             84    TLIDNYK|VG  0.060    .
+124             90    KVGTVIK|GA  0.097    .
+124            119    LFPDSAK|LK  0.056    .
+124            121    PDSAKLK|QL  0.087    .
+124            130    TTSLLSK|CD  0.064    .
+124            141    TSSDVDK|IL  0.091    .
+124            155    AFLLNAK|FN  0.058    .
+124            169    ITAQLYK|AL  0.071    .
+124            172    QLYKALK|ME  0.058    .
+124            179    MELITER|RE  0.074    .
+124            180    ELITERR|EN  0.090    .
+124            183    TERRENK|SY  0.210    .
+124            188    NKSYNAR|NL  0.102    .
+124            195    NLVMLAK|SY  0.087    .
+124            204    QEPEQGR|KV  0.112    .
+124            205    EPEQGRK|VK  0.068    .
+124            207    EQGRKVK|RS  0.195    .
+124            208    QGRKVKR|SK  0.409    .
+124            210    RKVKRSK|HV  0.104    .
+124            237    THSFSWK|YV  0.113    .
+124            272    CYIAIAR|GG  0.097    .
+124            285    IDNEYSK|RD  0.060    .
+124            286    DNEYSKR|DN  0.221    .
+124            301    GACNDGR|KM  0.085    .
+124            302    ACNDGRK|MA  0.090    .
+124            308    KMALSAK|TQ  0.066    .
+124            316    QTSSNIK|ST  0.084    .
+124            321    IKSTVMK|FK  0.095    .
+124            323    STVMKFK|PL  0.073    .
+124            328    FKPLIGR|KF  0.077    .
+124            329    KPLIGRK|FD  0.089    .
+124            340    WIQDDMR|GM  0.078    .
+124            416    EDWDGVR|AL  0.090    .
+124            424    LLDGLVK|GL  0.059    .
+124            442    TLIDNYK|VG  0.060    .
+124            448    KVGTVIK|GA  0.097    .
+124            477    LFPDSAK|LK  0.056    .
+124            479    PDSAKLK|QL  0.087    .
+124            488    TTSLLSK|CD  0.064    .
+124            499    TSSDVDK|IL  0.092    .
+124            513    AFLLNAK|FN  0.058    .
+124            527    ITAQLYK|AL  0.071    .
+124            530    QLYKALK|ME  0.058    .
+124            537    MELITER|RE  0.072    .
+124            538    ELITERR|EN  0.090    .
+124            541    TERRENK|SY  0.188    .
+124            546    NKSYNVR|NL  0.088    .
+124            553    NLVMLAK|SF  0.084    .
+124            562    QEPEQGR|KV  0.112    .
+124            563    EPEQGRK|VK  0.068    .
+124            565    EQGRKVK|RS  0.195    .
+124            566    QGRKVKR|SK  0.409    .
+124            568    RKVKRSK|HV  0.104    .
+124            595    THSFSWK|YV  0.106    .
+124            606    PHLSPLR|FP  0.070    .
+124            630    CYIAIAR|GG  0.097    .
+124            643    IDNEYSK|RD  0.060    .
+124            644    DNEYSKR|DN  0.221    .
+124            659    GACNDGR|KM  0.085    .
+124            660    ACNDGRK|MA  0.090    .
+124            666    KMALSAK|TQ  0.066    .
+124            674    QTSSNIK|ST  0.084    .
+124            679    IKSTVMK|FK  0.095    .
+124            681    STVMKFK|PL  0.073    .
+124            686    FKPLIGR|KF  0.077    .
+124            687    KPLIGRK|FD  0.089    .
+124            698    WIQDDMR|GM  0.084    .
+124            705    GMFNDIK|KN  0.067    .
+124            706    MFNDIKK|NE  0.119    .
+124            739    SLFNYLK|GV  0.073    .
+124            745    KGVAELK|LG  0.054    .
+124            752    LGNEYSK|RD  0.060    .
+124            753    GNEYSKR|DN  0.243    .
+124            768    GACNDGR|KM  0.085    .
+124            769    ACNDGRK|MA  0.090    .
+124            775    KMALSAK|TQ  0.066    .
+124            783    QTSSNIK|ST  0.084    .
+124            788    IKSTVMK|FK  0.095    .
+124            790    STVMKFK|PL  0.073    .
+124            795    FKPLIGR|KF  0.077    .
+124            796    KPLIGRK|FD  0.089    .
+124            807    WIQDDMR|GM  0.084    .
+124            814    GMFNDIK|KN  0.067    .
+124            815    MFNDIKK|NE  0.119    .
+124            848    SLFNYLK|GV  0.075    .
+124            854    KGVAELK|LG  0.060    .
+124            875    YYTDYQR|RA  0.068    .
+124            876    YTDYQRR|AM  0.112    .
+124            883    AMIFAAK|AA  0.076    .
+124            891    AGLNILR|LI  0.076    .
+124            907    LAYGIYK|QL  0.066    .
+124            913    KQLPPSR|TF  0.077    .
+124            929    QDLPNEK|DK  0.059    .
+124            931    LPNEKDK|PK  0.078    .
+124            933    NEKDKPK|LV  0.073    .
+124            954    SAVGFNK|GK  0.068    .
+124            956    VGFNKGK|LE  0.056    .
+124            960    KGKLEVK|KA  0.065    .
+124            961    GKLEVKK|AI  0.126    .
+124            971    DPQLGGR|YF  0.100    .
+124            976    GRYFSQR|II  0.122    .
+124            982    RIINYFK|TE  0.056    .
+124            988    KTEFNNK|YK  0.062    .
+124            990    EFNNKYK|LD  0.069    .
+124            996    KLDIDSR|AK  0.074    .
+124            998    DIDSRAK|TV  0.066    .
+124           1002    RAKTVLR|LE  0.084    .
+124           1009    LETECEK|IK  0.054    .
+124           1011    TECEKIK|KT  0.070    .
+124           1012    ECEKIKK|TM  0.094    .
+124           1032    ECFMNDK|DV  0.080    .
+124           1037    DKDVSGR|MN  0.113    .
+124           1040    VSGRMNR|AE  0.213    .
+124           1053    SADLFDR|LK  0.071    .
+124           1055    DLFDRLK|SL  0.068    .
+124           1083    IVGGATR|IP  0.070    .
+124           1086    GATRIPK|AK  0.144    .
+124           1088    TRIPKAK|AI  0.114    .
+124           1097    IEEILQK|PC  0.069    .
+124           1111    ADECVAR|GC  0.089    .
+124           1125    ILSPAFK|VR  0.072    .
+124           1127    SPAFKVR|EF  0.118    .
+124           1140    QVPAGIK|LV  0.061    .
+124           1158    GDMEVFK|NG  0.067    .
+124           1167    HVFPFSK|ML  0.065    .
+124           1173    KMLTFYR|KD  0.085    .
+124           1174    MLTFYRK|DN  0.092    .
+124           1196    TQTVIGR|FE  0.092    .
+124           1203    FEIGPIK|PA  0.080    .
+124           1212    EDGQSVK|VK  0.060    .
+124           1214    GQSVKVK|VK  0.086    .
+124           1216    SVKVKVK|VK  0.065    .
+124           1218    KVKVKVK|VD  0.071    .
+124           1235    SAHIVTR|LT  0.108    .
+124           1245    NSFSMCK|AV  0.064    .
+124           1255    NMYSPCR|TP  0.082    .
+124           1261    RTPCIVR|IV  0.110    .
+124           1267    RIVCIYR|FL  0.095    .
+124           1272    YRFLFAR|PL  0.086    .
+124           1275    LFARPLK|LP  0.089    .
+124           1280    LKLPVTR|IT  0.085    .
+124           1284    VTRITNR|LS  0.085    .
+124           1290    RLSHLAR|TI  0.139    .
+124           1298    IIYPEEK|KE  0.069    .
+124           1299    IYPEEKK|EE  0.072    .
+124           1302    EEKKEEK|ME  0.061    .
+124           1326    AEETAEK|IE  0.053    .
+124           1329    TAEKIEK|SD  0.088    .
+124           1335    KSDSEMK|EG  0.062    .
+124           1345    GEVIDEK|PK  0.058    .
+124           1347    VIDEKPK|TK  0.061    .
+124           1349    DEKPKTK|TK  0.067    .
+124           1351    KPKTKTK|TI  0.073    .
+124           1363    LTVTSAK|EG  0.063    .
+124           1369    KEGFSDK|EL  0.077    .
+124           1377    LHAAQER|EN  0.084    .
+124           1386    AMIATDK|LI  0.069    .
+124           1389    ATDKLIR|DR  0.084    .
+124           1391    DKLIRDR|QM  0.074    .
+124           1395    RDRQMAK|NS  0.066    .
+124           1406    EYVYSIR|DK  0.080    .
+124           1408    VYSIRDK|LY  0.087    .
+124           1412    RDKLYGK|LE  0.056    .
+124           1415    LYGKLEK|FM  0.070    .
+124           1418    KLEKFMK|EQ  0.072    .
+124           1422    FMKEQEK|EA  0.080    .
+124           1431    YMAELTK|TE  0.061    .
+124           1445    EGENCQK|QV  0.068    .
+124           1451    KQVYIDK|LA  0.065    .
+124           1456    DKLASLR|KP  0.083    .
+124           1457    KLASLRK|PG  0.102    .
+124           1465    GDAAEVR|YM  0.114    .
+124           1472    YMEAEAR|PG  0.076    .
+124           1487    HSLVHVK|KA  0.079    .
+124           1488    SLVHVKK|AI  0.200    .
+124           1496    IDMIEQK|DE  0.062    .
+124           1499    IEQKDEK|YD  0.065    .
+124           1508    HLTEEDK|AT  0.064    .
+124           1514    KATLVAK|TT  0.073    .
+124           1528    YNVYCTK|LT  0.072    .
+124           1548    VSQINDK|KK  0.060    .
+124           1549    SQINDKK|KL  0.090    .
+124           1550    QINDKKK|LD  0.128    .
+124           1556    KLDIDSR|AK  0.076    .
+124           1558    DIDSRAK|TV  0.066    .
+124           1562    RAKTVLR|LE  0.084    .
+124           1569    LETECEK|IK  0.054    .
+124           1571    TECEKIK|KT  0.070    .
+124           1572    ECEKIKK|TM  0.094    .
+124           1592    ECFMNDK|DV  0.080    .
+124           1597    DKDVSGR|MN  0.113    .
+124           1600    VSGRMNR|AE  0.213    .
+124           1613    SADLFDR|LK  0.071    .
+124           1615    DLFDRLK|SL  0.068    .
+124           1643    IVGGATR|IP  0.070    .
+124           1646    GATRIPK|AK  0.144    .
+124           1648    TRIPKAK|AI  0.114    .
+124           1657    IEEILQK|PC  0.069    .
+124           1671    ADECVAR|GC  0.089    .
+124           1685    ILSPAFK|VR  0.072    .
+124           1687    SPAFKVR|EF  0.118    .
+124           1700    QVPAGIK|LV  0.061    .
+124           1718    GDMEVFK|NG  0.067    .
+124           1727    HVFPFSK|ML  0.065    .
+124           1733    KMLTFYR|KD  0.085    .
+124           1734    MLTFYRK|DN  0.092    .
+124           1756    TQTVIGR|FE  0.092    .
+124           1763    FEIGPIK|PA  0.080    .
+124           1772    EDGQSVK|VK  0.060    .
+124           1774    GQSVKVK|VK  0.086    .
+124           1776    SVKVKVK|VK  0.065    .
+124           1778    KVKVKVK|VD  0.071    .
+124           1795    SAHIVTR|IQ  0.117    .
+124           1804    VPVEEEK|KE  0.066    .
+124           1805    PVEEEKK|EE  0.082    .
+124           1808    EEKKEEK|KE  0.066    .
+124           1809    EKKEEKK|EE  0.120    .
+124           1812    EEKKEEK|KE  0.070    .
+124           1813    EKKEEKK|EE  0.085    .
+124           1816    EEKKEEK|ME  0.062    .
+124           1840    AEETAEK|IE  0.053    .
+124           1843    TAEKIEK|SD  0.088    .
+124           1849    KSDSEMK|EG  0.062    .
+124           1859    GEVIDEK|PK  0.058    .
+124           1861    VIDEKPK|TK  0.061    .
+124           1863    DEKPKTK|TK  0.067    .
+124           1865    KPKTKTK|TI  0.073    .
+124           1877    LTVTSAK|EG  0.063    .
+124           1883    KEGFSDK|EL  0.077    .
+124           1891    LHAAQER|EN  0.084    .
+124           1900    AMIATDK|LI  0.069    .
+124           1903    ATDKLIR|DR  0.084    .
+124           1905    DKLIRDR|QM  0.074    .
+124           1909    RDRQMAK|NS  0.066    .
+124           1920    EYVYSIR|DK  0.080    .
+124           1922    VYSIRDK|LY  0.087    .
+124           1926    RDKLYGK|LE  0.056    .
+124           1929    LYGKLEK|FM  0.070    .
+124           1932    KLEKFMK|EQ  0.072    .
+124           1936    FMKEQEK|EA  0.080    .
+124           1945    YMAELTK|TE  0.061    .
+124           1959    EGENCQK|QV  0.068    .
+124           1965    KQVYIDK|LA  0.065    .
+124           1970    DKLASLR|KP  0.083    .
+124           1971    KLASLRK|PG  0.102    .
+124           1979    GDAAEVR|YM  0.114    .
+124           1986    YMEAEAR|PG  0.076    .
+124           2001    HSLVHVK|KA  0.079    .
+124           2002    SLVHVKK|AI  0.200    .
+124           2010    IDMIEQK|DE  0.062    .
+124           2013    IEQKDEK|YD  0.065    .
+124           2022    HLTEEDK|AT  0.064    .
+124           2028    KATLIAK|TT  0.068    .
+124           2042    YNVYCTK|LT  0.072    .
+124           2062    VSQINDK|KK  0.062    .
+124           2063    SQINDKK|KE  0.071    .
+124           2064    QINDKKK|EL  0.170    .
+124           2069    KKELEDK|CN  0.059    .
+124           2076    CNPILNK|PK  0.065    .
+124           2078    PILNKPK|PK  0.060    .
+124           2080    LNKPKPK|VE  0.062    .
+124           2094    AAEETPK|DG  0.077    .
+124           2114    DSTPDTK|SE  0.075    .
+124           2118    DTKSEEK|PD  0.060    .
+124           2205    SNTCLDK|YA  0.071    .
+124           2208    CLDKYAK|DR  0.064    .
+124           2210    DKYAKDR|WR  0.099    .
+124           2212    YAKDRWR|NI  0.145    .
+124           2216    RWRNIGK|CI  0.072    .
+124           2230    VASEFQK|LE  0.061    .
+124           2235    QKLEVTR|RE  0.081    .
+124           2236    KLEVTRR|EL  0.293    .
+124           2240    TRRELEK|QQ  0.083    .
+124           2246    KQQDQFK|NF  0.063    .
+124           2252    KNFLEFR|DS  0.144    .
+124           2260    SEPNLDR|NR  0.071    .
+124           2262    PNLDRNR|VV  0.079    .
+124           2271    FDPSIYR|RP  0.067    .
+124           2272    DPSIYRR|PK  0.192    .
+124           2274    SIYRRPK|DG  0.154    .
+124           2281    DGMYLPR|EL  0.108    .
+124           2288    ELEEAAR|NR  0.072    .
+124           2290    EEAARNR|SL  0.155    .
+124           2293    ARNRSLR|SA  0.774 *ProP*
+124           2299    RSATQAR|SL  0.217    .
+124           2302    TQARSLR|LK  0.198    .
+124           2304    ARSLRLK|LR  0.068    .
+124           2306    SLRLKLR|EC  0.099    .
+124           2328    GEIVMTR|FN  0.096    .
+124           2331    VMTRFNK|EL  0.172    .
+124           2334    RFNKELR|QE  0.106    .
+124           2344    TVQILNR|GD  0.104    .
+124           2358    EVLDGCR|RT  0.069    .
+124           2359    VLDGCRR|TA  0.094    .
+124           2380    VDGEDFK|GS  0.061    .
+124           2385    FKGSMTR|SL  0.145    .
+124           2392    SLEFAAR|RD  0.126    .
+124           2393    LEFAARR|DG  0.217    .
+124           2431    DGIPTEK|FG  0.061    .
+124           2437    KFGNDPR|SA  0.140    .
+124           2445    ATLVYFR|NN  0.081    .
+124           2448    VYFRNNK|CV  0.138    .
+124           2452    NNKCVVK|SS  0.079    .
+124           2455    CVVKSSK|DN  0.072    .
+124           2464    DILCFVK|SG  0.062    .
+124           2467    CFVKSGK|CD  0.058    .
+124           2473    KCDVITK|LS  0.061    .
+124           2481    SMATETR|PS  0.095    .
+124           2494    CFDTGMR|YW  0.086    .
+124           2497    TGMRYWK|RD  0.138    .
+124           2498    GMRYWKR|DE  0.354    .
+124           2505    DEGCGVK|PL  0.063    .
+124           2515    GIIPDTK|QA  0.068    .
+124           2523    ALQAPEK|TT  0.065    .
+124           2526    APEKTTK|TR  0.057    .
+124           2528    EKTTKTR|LR  0.077    .
+124           2530    TTKTRLR|PI  0.116    .
+124           2538    ITAPITR|PK  0.086    .
+124           2540    APITRPK|IV  0.088    .
+124           2545    PKIVITK|PS  0.069    .
+124           2548    VITKPSR|PG  0.073    .
+124           2556    GTGVHSR|TP  0.096    .
+124           2572    MILTQDR|PV  0.106    .
+124           2578    RPVTSSK|RS  0.064    .
+124           2579    PVTSSKR|SR  0.169    .
+124           2581    TSSKRSR|PT  0.193    .
+124           2587    RPTTQSR|LI  0.091    .
+124           2599    STTSPSR|PI  0.093    .
+124           2608    TANISTR|PC  0.129    .
+124           2614    RPCTAVK|PP  0.059    .
+124           2617    TAVKPPK|SE  0.129    .
+124           2965    ESESDCK|AV  0.086    .
+____________________________^_________________
+
+
+
+

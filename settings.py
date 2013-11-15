@@ -14,6 +14,8 @@ import platform
 import os
 import re
 
+debug_pipe = 0
+
 hname = os.environ['HOST'] 
 print hname
 
@@ -120,14 +122,18 @@ if machine == 'oem':
 if machine == 'hpc':
     INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
 if machine == 'pb':
-    INSTALL_DIR = "/home/morozgroup/python_software/autonomics/"
+    INSTALL_DIR = "/home/morozgroup/autonomics/"
 if machine == 'ap':
-    INSTALL_DIR = "/home/morozgroup/python_software/autonomics/"
+    INSTALL_DIR = "/home/morozgroup/autonomics/"
 
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 
 # these paths are on the machine running the autonomics pipeline (acis in our case)
-proj_dir = "/srv/data2/pipeline/"  # where your project folders will be created
+# proj_dir = "/srv/data2/pipeline/"  # (pipeline_dir) where your project folders will be created
+if machine == 'acis':
+   proj_dir = "/srv/data2/pipeline/"   # (pipeline_dir) where your project folders will be created
+if machine == 'ap':
+   proj_dir = "/data/pipeline/"  # (pipeline_dir) where your project folders will be created
 pfam_exec_path = "/srv/data/pfam/PfamScan/"
 khmer_path = "/srv/data2/software/Khmer/scripts/"
 trinity_path = "/srv/data2/software/Trinity/"
@@ -152,6 +158,7 @@ QSUB_OK = 'moab'
 
 # MYSQL SERVER INFORMATION (for autonomics pipeline database)
 ZC_DB_NAME = "zero_click"
+
 # next 3 only needed if using data_gremlin
 ZC_HOST = "128.227.70.246"
 ZC_USER = "zeroclick"
@@ -168,6 +175,7 @@ CRED_PATH = INSTALL_DIR + "credentials/"
 
 # SYSTEM CREDENTIALS: 
 # set next to name of file in credentials dir with login info for pipeline mysql database
+
 db_cred = Credentials(from_file=CRED_PATH + "autonomics_pipe_db");
 
 # set to name of file in credentials dir with your email info (for error reports from the HPC)

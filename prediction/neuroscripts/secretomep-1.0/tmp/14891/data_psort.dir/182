@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+182	
+
+ psg: 0.71  gvh: 0.50  alm: 0.37  top: 0.70  tms: 0.08  mit: 0.18  mip: 0.00
+ nuc: 0.07  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.40  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 1.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.00  lps: 0.13  len: 0.63 
+
+	 43.5 %: nuclear
+	 21.7 %: cytoplasmic
+	  8.7 %: Golgi
+	  8.7 %: endoplasmic reticulum
+	  8.7 %: mitochondrial
+	  4.3 %: vesicles of secretory system
+	  4.3 %: peroxisomal
+
+>> prediction for 182 is nuc (k=23)
+

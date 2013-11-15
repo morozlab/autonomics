@@ -1,0 +1,395 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2494 202         
+MSQSNQLTCRRTSQQEHLPRSRLLQRERHTQRKYRDVAHLIHPANNPSRPKLILTCPATIHEMYGAKVTSIEDSYNKIQI      80
+RYKVAAKAVRDQVALVNMYGQRLDDTTGRVVSLLSELQDRIPFQPSTEEINTNIAAFKAATVDYKNLCADVRSIQSDSIV     160
+VPFFTADLKNVKDRLTALEDFNKETLEVLFSGSEQVFEFTELMKKTRAFIQEISGEVAATVTPYMTSDNAHSLQSALNSI     240
+SELRHVISTKGHLIEDIETNLKGFSRFFTTDTLKAEYEAVCADWFALLHDLEEKQGHVSGNLANRTFFTEELGKVRSQLA     320
+ELQAILKGVEEVRTEEELVAALKVLEDKRKRKRKRKRKRKRKRYVVTLPLQVALVNMYGQRLDDTTGRVVSLLSELQDRI     400
+PFQPSTEEINTNIAAFKAATVDYKNLCADVRSIQSDSIVVPFFTADLKNVKDRLTALEDFNKETLEVLFSGSEQVFEFTE     480
+LMKKTRAFIQEISGEVAATVTPYMTSDNAHSLQSALNSISELRHVISTKGHLIEDIETNLKGFSRFFTTDTLKAEYEAVC     560
+ADWFALLHDLEEKQGHVSGNLANRTFFTEELGKVRSQLAELQAILKGVEEVRTEEELVAALKVLEDLVRRDKTIEEAVLR     640
+VMAEGKNIIRSVESVSDMRQIQADTQNLQSTYRVFQNGVNMKQKKYTAILGQLEEFRTLISSHKVFIDTASHVIPGLSEE     720
+LDNGVIEYNRGQLTSFENAVLDNRVEHDKIVNLVETITRCLTGETALKESVAEVKTQWNRVHCALNEASTAIENNSKTLK     800
+GLYSSVAMLQRETVEKTKCVVKREDISSDITTLRQQHRQMKMTMKELDNFTATVTRVRLSVESTLDKCSASVRRDLTGRL     880
+AEFTHLWESTRSAAEEGRREFLFYLSHVSRWCFSIYLIFIQPRPQPIPPPGFREIDSRLGGVRRYHEQLSEESCWYISAE     960
+DRFTSLKQSGCDVTQFSTLISEVTRHTATVIDLRENVVKLRLDAAVVEECVALIRNFDELKTRVERHVSEHEAENSKTFK    1040
+MLSNIDQVQHQVYERGRALASHQAVSSHLETVRFQSEQLEQFRGSLRSLESDVEGLLHPGNMMQSHPAEVGLMWDVLWDV    1120
+LGSSRVELKLKHISETWDELQKNIVNRDQRVRQMIQLLLQFEESYNDLSSWTDEKAPIISNSLPFDMDGVWSHKELLLSI    1200
+KSTMTTKNHLVQKVGETLISLSSAADVEHIQIKLHKIKQSCSKLESNLSVALERCREAIEGLENFQTESNFVMRQLEQFE    1280
+RADFHSASSTILRGVPDVKTQLQSHLSELDVSFERVDSLQKMVRLMEDNIWLGENPVLNNIILDLITRYKKVRVKLRGNQ    1360
+EHIIQSSLLAEQFLGTIEGVATWIVDMTAKISGPIPNDQEQLLERMSQFHSLHREVIAKESSIDTLIEKGAVLLAEGDVD    1440
+MTHGSLIESRLSTVRDSYDEVVLLYTSHKSKLDAAVSTSTRYQNKIDSVMGKLARFDTIYLGADKPRCDLADIRDQVSRL    1520
+EEAKTELTAIQALITDLEASQVTDRSDVTFDRRKLQLRTKFDTVQAECESKIKSLLVQESKLNLIDADLLKLETWISVSC    1600
+ETLSSNLGENTALLDAVNNLSTEMNLEKEHFQVIKRNLEVFFKECKPLKQGAIIDRLQSVEESLVDIEDIVVERKMKCQD    1680
+EMTQVNGFQEKMNKMFDWIHSKEQELASQSTNTLRHEEAVTQLADHETMQVDISNKQTTVDNINQTTNINRTTNVTNTTS    1760
+TNNTTNISNNTSNNTSNNTFSNTFNTTSNSTSNKTSNNVTSNNTTNITSNNTSNITSTTTTTSGGGDGGGVGAPDPSWEI    1840
+PAYLTAGMTAAEYDLQQRVVQSKQVCEQRTQEMIQEKLAEMGVEEGHPEFESIKNKVTVESRKEVESLGVNPKTGGNAFK    1920
+MQDVDRPISPVDRPLPPVEEQPEEEERQEEEKEDHSDCPKCRLEALCRISPIPRVRAEEEELAARLASLHHTHPVPRICT    2000
+CNDPNCSYRTRYGTTSRDHSSTLLREHSINQLITTRDHQEQQRLLTTRDHQEQRLRYSSPSKSPTPERFPTPERTLYLPA    2080
+PVTTNIRKEDLLYKTGRDLEMINRRLSQIELESSRISPARFEPPSSYQTPPSSYQVPSTSYQLPPRSYKSPSFGLSRDTS    2160
+HSVGQSSYRGSSGQHRSSLVSMGSGGNMGSSGMSRYTSSIGGRGSPHSPVTRHMMDTRYSPVGGGSPHSGYNQQSNMTPG    2240
+GMAGGHLVGGNMGSGSPRSGHNNSHQQSMGGGNIGHAGGADTRYGMTHHLTLSDSRSGSRSGSGEPTPRSTLPLWMTYQD    2320
+GTPSGGVDVERFQQVENPAVYTEESDLDRLSDVSSASSFARRNRRRGGLTKASPPKDLSRDSPRMKDFEELKKQWRDREK    2400
+EGVTSPNLGVKLSRALQDHFGPTGSLTPTTSDRIRTNFRDLKVYSSRSSRSSCSPASTISRPPSSLASTTPSNRGGSLCP    2480
+RHREESKDYKHHSK                                                                      2560
+..................................P.............................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+..........................................P.....................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.................................................................P..............    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+.................................................P..............................    2480
+..............                                                                      2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+202             10    SNQLTCR|RT  0.164    .
+202             11    NQLTCRR|TS  0.097    .
+202             20    QQEHLPR|SR  0.105    .
+202             22    EHLPRSR|LL  0.086    .
+202             26    RSRLLQR|ER  0.103    .
+202             28    RLLQRER|HT  0.098    .
+202             32    RERHTQR|KY  0.112    .
+202             33    ERHTQRK|YR  0.121    .
+202             35    HTQRKYR|DV  0.658 *ProP*
+202             49    PANNPSR|PK  0.082    .
+202             51    NNPSRPK|LI  0.064    .
+202             67    HEMYGAK|VT  0.067    .
+202             77    IEDSYNK|IQ  0.054    .
+202             81    YNKIQIR|YK  0.097    .
+202             83    KIQIRYK|VA  0.074    .
+202             87    RYKVAAK|AV  0.096    .
+202             90    VAAKAVR|DQ  0.110    .
+202            102    VNMYGQR|LD  0.086    .
+202            109    LDDTTGR|VV  0.086    .
+202            120    LSELQDR|IP  0.075    .
+202            138    TNIAAFK|AA  0.076    .
+202            145    AATVDYK|NL  0.067    .
+202            152    NLCADVR|SI  0.096    .
+202            169    FFTADLK|NV  0.066    .
+202            172    ADLKNVK|DR  0.066    .
+202            174    LKNVKDR|LT  0.116    .
+202            183    ALEDFNK|ET  0.066    .
+202            204    EFTELMK|KT  0.062    .
+202            205    FTELMKK|TR  0.071    .
+202            207    ELMKKTR|AF  0.139    .
+202            244    NSISELR|HV  0.110    .
+202            250    RHVISTK|GH  0.065    .
+202            262    DIETNLK|GF  0.060    .
+202            266    NLKGFSR|FF  0.093    .
+202            274    FTTDTLK|AE  0.056    .
+202            294    LHDLEEK|QG  0.062    .
+202            305    SGNLANR|TF  0.111    .
+202            314    FTEELGK|VR  0.056    .
+202            316    EELGKVR|SQ  0.108    .
+202            327    ELQAILK|GV  0.087    .
+202            333    KGVEEVR|TE  0.082    .
+202            343    ELVAALK|VL  0.065    .
+202            348    LKVLEDK|RK  0.056    .
+202            349    KVLEDKR|KR  0.102    .
+202            350    VLEDKRK|RK  0.072    .
+202            351    LEDKRKR|KR  0.120    .
+202            352    EDKRKRK|RK  0.185    .
+202            353    DKRKRKR|KR  0.161    .
+202            354    KRKRKRK|RK  0.308    .
+202            355    RKRKRKR|KR  0.242    .
+202            356    KRKRKRK|RK  0.285    .
+202            357    RKRKRKR|KR  0.240    .
+202            358    KRKRKRK|RK  0.286    .
+202            359    RKRKRKR|KR  0.239    .
+202            360    KRKRKRK|RK  0.318    .
+202            361    RKRKRKR|KR  0.214    .
+202            362    KRKRKRK|RY  0.274    .
+202            363    RKRKRKR|YV  0.515 *ProP*
+202            381    VNMYGQR|LD  0.086    .
+202            388    LDDTTGR|VV  0.086    .
+202            399    LSELQDR|IP  0.075    .
+202            417    TNIAAFK|AA  0.076    .
+202            424    AATVDYK|NL  0.067    .
+202            431    NLCADVR|SI  0.096    .
+202            448    FFTADLK|NV  0.066    .
+202            451    ADLKNVK|DR  0.066    .
+202            453    LKNVKDR|LT  0.116    .
+202            462    ALEDFNK|ET  0.066    .
+202            483    EFTELMK|KT  0.062    .
+202            484    FTELMKK|TR  0.071    .
+202            486    ELMKKTR|AF  0.139    .
+202            523    NSISELR|HV  0.110    .
+202            529    RHVISTK|GH  0.065    .
+202            541    DIETNLK|GF  0.060    .
+202            545    NLKGFSR|FF  0.093    .
+202            553    FTTDTLK|AE  0.056    .
+202            573    LHDLEEK|QG  0.062    .
+202            584    SGNLANR|TF  0.111    .
+202            593    FTEELGK|VR  0.056    .
+202            595    EELGKVR|SQ  0.108    .
+202            606    ELQAILK|GV  0.087    .
+202            612    KGVEEVR|TE  0.082    .
+202            622    ELVAALK|VL  0.060    .
+202            629    VLEDLVR|RD  0.082    .
+202            630    LEDLVRR|DK  0.166    .
+202            632    DLVRRDK|TI  0.119    .
+202            640    IEEAVLR|VM  0.076    .
+202            646    RVMAEGK|NI  0.072    .
+202            650    EGKNIIR|SV  0.170    .
+202            659    ESVSDMR|QI  0.083    .
+202            673    NLQSTYR|VF  0.093    .
+202            682    QNGVNMK|QK  0.060    .
+202            684    GVNMKQK|KY  0.099    .
+202            685    VNMKQKK|YT  0.144    .
+202            697    GQLEEFR|TL  0.081    .
+202            704    TLISSHK|VF  0.063    .
+202            730    GVIEYNR|GQ  0.080    .
+202            744    NAVLDNR|VE  0.071    .
+202            749    NRVEHDK|IV  0.091    .
+202            759    LVETITR|CL  0.079    .
+202            768    TGETALK|ES  0.060    .
+202            775    ESVAEVK|TQ  0.061    .
+202            780    VKTQWNR|VH  0.073    .
+202            797    AIENNSK|TL  0.058    .
+202            800    NNSKTLK|GL  0.084    .
+202            811    SVAMLQR|ET  0.093    .
+202            816    QRETVEK|TK  0.067    .
+202            818    ETVEKTK|CV  0.077    .
+202            822    KTKCVVK|RE  0.059    .
+202            823    TKCVVKR|ED  0.279    .
+202            834    SDITTLR|QQ  0.105    .
+202            838    TLRQQHR|QM  0.103    .
+202            841    QQHRQMK|MT  0.288    .
+202            845    QMKMTMK|EL  0.073    .
+202            856    FTATVTR|VR  0.081    .
+202            858    ATVTRVR|LS  0.068    .
+202            867    VESTLDK|CS  0.066    .
+202            873    KCSASVR|RD  0.098    .
+202            874    CSASVRR|DL  0.267    .
+202            879    RRDLTGR|LA  0.099    .
+202            891    HLWESTR|SA  0.164    .
+202            898    SAAEEGR|RE  0.074    .
+202            899    AAEEGRR|EF  0.101    .
+202            910    YLSHVSR|WC  0.119    .
+202            923    LIFIQPR|PQ  0.086    .
+202            933    IPPPGFR|EI  0.106    .
+202            938    FREIDSR|LG  0.102    .
+202            943    SRLGGVR|RY  0.102    .
+202            944    RLGGVRR|YH  0.177    .
+202            962    YISAEDR|FT  0.137    .
+202            967    DRFTSLK|QS  0.074    .
+202            985    LISEVTR|HT  0.130    .
+202            994    ATVIDLR|EN  0.072    .
+202            999    LRENVVK|LR  0.066    .
+202           1001    ENVVKLR|LD  0.087    .
+202           1015    ECVALIR|NF  0.072    .
+202           1021    RNFDELK|TR  0.053    .
+202           1023    FDELKTR|VE  0.080    .
+202           1026    LKTRVER|HV  0.514 *ProP*
+202           1037    HEAENSK|TF  0.054    .
+202           1040    ENSKTFK|ML  0.097    .
+202           1055    QHQVYER|GR  0.082    .
+202           1057    QVYERGR|AL  0.092    .
+202           1073    SHLETVR|FQ  0.121    .
+202           1083    EQLEQFR|GS  0.084    .
+202           1087    QFRGSLR|SL  0.126    .
+202           1125    DVLGSSR|VE  0.062    .
+202           1129    SSRVELK|LK  0.081    .
+202           1131    RVELKLK|HI  0.077    .
+202           1142    TWDELQK|NI  0.054    .
+202           1147    QKNIVNR|DQ  0.147    .
+202           1150    IVNRDQR|VR  0.181    .
+202           1152    NRDQRVR|QM  0.105    .
+202           1175    SSWTDEK|AP  0.061    .
+202           1194    DGVWSHK|EL  0.059    .
+202           1201    ELLLSIK|ST  0.081    .
+202           1207    KSTMTTK|NH  0.059    .
+202           1213    KNHLVQK|VG  0.070    .
+202           1233    VEHIQIK|LH  0.066    .
+202           1236    IQIKLHK|IK  0.061    .
+202           1238    IKLHKIK|QS  0.078    .
+202           1243    IKQSCSK|LE  0.061    .
+202           1254    LSVALER|CR  0.116    .
+202           1256    VALERCR|EA  0.100    .
+202           1274    ESNFVMR|QL  0.179    .
+202           1281    QLEQFER|AD  0.086    .
+202           1293    ASSTILR|GV  0.203    .
+202           1299    RGVPDVK|TQ  0.058    .
+202           1315    LDVSFER|VD  0.072    .
+202           1321    RVDSLQK|MV  0.067    .
+202           1324    SLQKMVR|LM  0.105    .
+202           1348    ILDLITR|YK  0.069    .
+202           1350    DLITRYK|KV  0.077    .
+202           1351    LITRYKK|VR  0.143    .
+202           1353    TRYKKVR|VK  0.110    .
+202           1355    YKKVRVK|LR  0.075    .
+202           1357    KVRVKLR|GN  0.129    .
+202           1390    IVDMTAK|IS  0.078    .
+202           1405    QEQLLER|MS  0.072    .
+202           1414    QFHSLHR|EV  0.167    .
+202           1419    HREVIAK|ES  0.076    .
+202           1429    IDTLIEK|GA  0.057    .
+202           1450    GSLIESR|LS  0.072    .
+202           1455    SRLSTVR|DS  0.110    .
+202           1469    LLYTSHK|SK  0.083    .
+202           1471    YTSHKSK|LD  0.070    .
+202           1481    AVSTSTR|YQ  0.113    .
+202           1485    STRYQNK|ID  0.075    .
+202           1492    IDSVMGK|LA  0.074    .
+202           1495    VMGKLAR|FD  0.117    .
+202           1505    IYLGADK|PR  0.052    .
+202           1507    LGADKPR|CD  0.101    .
+202           1514    CDLADIR|DQ  0.075    .
+202           1519    IRDQVSR|LE  0.100    .
+202           1524    SRLEEAK|TE  0.066    .
+202           1545    ASQVTDR|SD  0.109    .
+202           1552    SDVTFDR|RK  0.078    .
+202           1553    DVTFDRR|KL  0.080    .
+202           1554    VTFDRRK|LQ  0.061    .
+202           1558    RRKLQLR|TK  0.104    .
+202           1560    KLQLRTK|FD  0.069    .
+202           1571    QAECESK|IK  0.060    .
+202           1573    ECESKIK|SL  0.079    .
+202           1581    LLVQESK|LN  0.056    .
+202           1591    IDADLLK|LE  0.058    .
+202           1628    TEMNLEK|EH  0.069    .
+202           1635    EHFQVIK|RN  0.064    .
+202           1636    HFQVIKR|NL  0.176    .
+202           1643    NLEVFFK|EC  0.060    .
+202           1646    VFFKECK|PL  0.061    .
+202           1649    KECKPLK|QG  0.062    .
+202           1656    QGAIIDR|LQ  0.096    .
+202           1674    EDIVVER|KM  0.082    .
+202           1675    DIVVERK|MK  0.097    .
+202           1677    VVERKMK|CQ  0.134    .
+202           1691    VNGFQEK|MN  0.066    .
+202           1694    FQEKMNK|MF  0.066    .
+202           1702    FDWIHSK|EQ  0.061    .
+202           1715    QSTNTLR|HE  0.098    .
+202           1736    QVDISNK|QT  0.060    .
+202           1751    QTTNINR|TT  0.083    .
+202           1794    SNSTSNK|TS  0.076    .
+202           1858    EYDLQQR|VV  0.090    .
+202           1863    QRVVQSK|QV  0.130    .
+202           1869    KQVCEQR|TQ  0.095    .
+202           1877    QEMIQEK|LA  0.082    .
+202           1894    PEFESIK|NK  0.061    .
+202           1896    FESIKNK|VT  0.075    .
+202           1902    KVTVESR|KE  0.071    .
+202           1903    VTVESRK|EV  0.111    .
+202           1913    SLGVNPK|TG  0.080    .
+202           1920    TGGNAFK|MQ  0.078    .
+202           1926    KMQDVDR|PI  0.132    .
+202           1933    PISPVDR|PL  0.131    .
+202           1947    QPEEEER|QE  0.122    .
+202           1952    ERQEEEK|ED  0.064    .
+202           1960    DHSDCPK|CR  0.066    .
+202           1962    SDCPKCR|LE  0.085    .
+202           1968    RLEALCR|IS  0.070    .
+202           1974    RISPIPR|VR  0.091    .
+202           1976    SPIPRVR|AE  0.121    .
+202           1985    EEELAAR|LA  0.087    .
+202           1997    HTHPVPR|IC  0.102    .
+202           2009    DPNCSYR|TR  0.089    .
+202           2011    NCSYRTR|YG  0.136    .
+202           2017    RYGTTSR|DH  0.098    .
+202           2025    HSSTLLR|EH  0.109    .
+202           2036    NQLITTR|DH  0.090    .
+202           2043    DHQEQQR|LL  0.094    .
+202           2048    QRLLTTR|DH  0.111    .
+202           2054    RDHQEQR|LR  0.080    .
+202           2056    HQEQRLR|YS  0.098    .
+202           2062    RYSSPSK|SP  0.088    .
+202           2068    KSPTPER|FP  0.103    .
+202           2074    RFPTPER|TL  0.067    .
+202           2087    PVTTNIR|KE  0.065    .
+202           2088    VTTNIRK|ED  0.063    .
+202           2094    KEDLLYK|TG  0.060    .
+202           2097    LLYKTGR|DL  0.157    .
+202           2104    DLEMINR|RL  0.095    .
+202           2105    LEMINRR|LS  0.137    .
+202           2115    IELESSR|IS  0.069    .
+202           2120    SRISPAR|FE  0.130    .
+202           2146    SYQLPPR|SY  0.102    .
+202           2149    LPPRSYK|SP  0.273    .
+202           2157    PSFGLSR|DT  0.141    .
+202           2169    VGQSSYR|GS  0.134    .
+202           2176    GSSGQHR|SS  0.185    .
+202           2195    GSSGMSR|YT  0.185    .
+202           2203    TSSIGGR|GS  0.132    .
+202           2212    PHSPVTR|HM  0.122    .
+202           2218    RHMMDTR|YS  0.118    .
+202           2258    MGSGSPR|SG  0.193    .
+202           2283    AGGADTR|YG  0.085    .
+202           2296    LTLSDSR|SG  0.114    .
+202           2300    DSRSGSR|SG  0.111    .
+202           2309    SGEPTPR|ST  0.135    .
+202           2331    GGVDVER|FQ  0.110    .
+202           2349    EESDLDR|LS  0.087    .
+202           2361    SASSFAR|RN  0.119    .
+202           2362    ASSFARR|NR  0.194    .
+202           2364    SFARRNR|RR  0.281    .
+202           2365    FARRNRR|RG  0.324    .
+202           2366    ARRNRRR|GG  0.166    .
+202           2371    RRGGLTK|AS  0.068    .
+202           2376    TKASPPK|DL  0.090    .
+202           2380    PPKDLSR|DS  0.100    .
+202           2384    LSRDSPR|MK  0.142    .
+202           2386    RDSPRMK|DF  0.099    .
+202           2392    KDFEELK|KQ  0.057    .
+202           2393    DFEELKK|QW  0.096    .
+202           2396    ELKKQWR|DR  0.147    .
+202           2398    KKQWRDR|EK  0.140    .
+202           2400    QWRDREK|EG  0.062    .
+202           2411    SPNLGVK|LS  0.072    .
+202           2414    LGVKLSR|AL  0.100    .
+202           2433    TPTTSDR|IR  0.084    .
+202           2435    TTSDRIR|TN  0.109    .
+202           2439    RIRTNFR|DL  0.103    .
+202           2442    TNFRDLK|VY  0.093    .
+202           2447    LKVYSSR|SS  0.126    .
+202           2450    YSSRSSR|SS  0.558 *ProP*
+202           2461    PASTISR|PP  0.092    .
+202           2474    STTPSNR|GG  0.081    .
+202           2481    GGSLCPR|HR  0.104    .
+202           2483    SLCPRHR|EE  0.095    .
+202           2487    RHREESK|DY  0.075    .
+202           2490    EESKDYK|HH  0.082    .
+202           2494    DYKHHSK|--  0.071    .
+____________________________^_________________
+
+
+
+

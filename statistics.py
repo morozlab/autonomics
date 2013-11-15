@@ -16,16 +16,10 @@ from files.sequences import Utils
 from multiprocessing import Process
 from sqlalchemy.sql import select, and_, or_
 import datetime
-import hashlib
-import imaplib
 import os
-import pickle
-import redis
 import shutil
 import ssl
-import subprocess
 import sys
-import threading
 import time
 from Bio import SeqIO
 from autonomics import settings, utility, netutils

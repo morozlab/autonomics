@@ -1,0 +1,197 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1942 337         
+MIFIIFFGIDRLPMGENSRTELNSARHTSTFCLSLSVSVSLSLCLCLSLSLSLSLSFSLTLSLFLSIFNPAIVESTISTH      80
+IIYWNVQLVSASQANALTTVLTTVLTTVLATGVKPNHDPVRWLQLIAEIALVTKNRPNLEILVPDWLITSHNTQDFTYEL     160
+AETGKQKIRTLYLGHMTGYQPIRDQYFQIRSVPDFTSREQLNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     240
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     320
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     400
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     480
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     560
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     640
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     720
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     800
+QNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCGQNCG     880
+QNCGQNCEEVSDIIMITWHTLTSPETCFYTSLSFQTKPTTFHHFGDVLIGKINSTQTKWLTLVHNLQKVTKELFQHVPIV     960
+CFCTSITVSAVRLVPHAHNLWATSALKFLSPTLKETISRTILPVALDDKILTRRQTDILEAILAILGFNCANVNYDLSNN    1040
+GRDGVIPGVWNSPNPPPLSLSLSLSLSLSLLSLSLSLSIYLSIYLSLIIFIPHLSLLQSLCFPYTKLCPTTPYGELSGHS    1120
+TKISPRCTLKLVGTTYTHCTEVSIDIAVCGATLLEFAPMLYVVPPNHQTRLSFDSIAAYSRIDLSRARRRSHLGIHVANK    1200
+QSSYLSSVQCDCFPPHEQQACENYRGYRRVLRRLLCEAKASYFLRKFNLNIENSRKCWSLIRELCGRDKGKLQLDSLSIG    1280
+GHTIMSKREMANHLNNHFCSHIEQFGRYFSSRVPNSLNSGTSRGLGAGAPSAVGEVGLQLGAAAVLAFSRVGSDIQNKLF    1360
+QIGIVKRFGNNALISNLVVTDEGIIAETTAAAPSCNPTSPTADGAPSPFRLVQLHQTGIIVTTSFEVLPLHQALHQALSN    1440
+FKQKTSAPIGCASSKDFLITHPVSPGGSFRHFHFYEGAVQYDRPLQMVFGIACLLLSFLASIGNLASLVYVKLNWNVSNK    1520
+KRPSYTHQMTMVLVTNIALTDLLNGMFSASFNAANFFRQLNCPIQEILVPDWLITRQETYIKVRFKRLDLRFLEFGILRV    1600
+YLLRRDPQFPGFCGGPLHISITRATSVQAAFISNGKPPRMDRLLPWTDCVAWQPNKTQAHLCFVKFPTVITPPPENFKSL    1680
+FHQGWSNDREKFHETQVRAIVALLKRASKGECVERPSKNSSGAALKSTRLQINSNSNSTLNGVFVQSSAVSITNHYQMSE    1760
+LNTPILCVFGANRTSKDGDTGLCQGSFSCFISGKVLKGSQHQINSMLGDIELTAAQTSRVSLRCARDRVRSSRLKRTLHI    1840
+TSITCISFAMIFFTLLILARLGKLHHKMKHGKGPCILYVRKRQASPRPTRSSYPCTYPCTNRGQIVQGPPQNLLYVLCMK    1920
+NIPRKFQYQEPTKSGKNWSLIG                                                              2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+....................................................................P...........    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+...........................................................................P....    1840
+................................................................................    1920
+......................                                                              2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+337             11    IFFGIDR|LP  0.064    .
+337             19    PMGENSR|TE  0.067    .
+337             26    TELNSAR|HT  0.114    .
+337            114    VLATGVK|PN  0.062    .
+337            121    PNHDPVR|WL  0.102    .
+337            134    EIALVTK|NR  0.058    .
+337            136    ALVTKNR|PN  0.092    .
+337            165    ELAETGK|QK  0.064    .
+337            167    AETGKQK|IR  0.067    .
+337            169    TGKQKIR|TL  0.109    .
+337            183    TGYQPIR|DQ  0.133    .
+337            190    DQYFQIR|SV  0.175    .
+337            198    VPDFTSR|EQ  0.074    .
+337            917    SLSFQTK|PT  0.078    .
+337            931    GDVLIGK|IN  0.075    .
+337            938    INSTQTK|WL  0.079    .
+337            948    LVHNLQK|VT  0.062    .
+337            951    NLQKVTK|EL  0.084    .
+337            972    ITVSAVR|LV  0.093    .
+337            987    WATSALK|FL  0.068    .
+337            994    FLSPTLK|ET  0.063    .
+337            999    LKETISR|TI  0.085    .
+337           1009    PVALDDK|IL  0.059    .
+337           1013    DDKILTR|RQ  0.096    .
+337           1014    DKILTRR|QT  0.164    .
+337           1042    DLSNNGR|DG  0.101    .
+337           1106    LCFPYTK|LC  0.058    .
+337           1122    LSGHSTK|IS  0.063    .
+337           1126    STKISPR|CT  0.106    .
+337           1130    SPRCTLK|LV  0.096    .
+337           1170    PPNHQTR|LS  0.138    .
+337           1181    SIAAYSR|ID  0.065    .
+337           1186    SRIDLSR|AR  0.102    .
+337           1188    IDLSRAR|RR  0.081    .
+337           1189    DLSRARR|RS  0.524 *ProP*
+337           1190    LSRARRR|SH  0.238    .
+337           1200    GIHVANK|QS  0.066    .
+337           1225    QACENYR|GY  0.112    .
+337           1228    ENYRGYR|RV  0.233    .
+337           1229    NYRGYRR|VL  0.105    .
+337           1232    GYRRVLR|RL  0.188    .
+337           1233    YRRVLRR|LL  0.199    .
+337           1239    RLLCEAK|AS  0.060    .
+337           1245    KASYFLR|KF  0.108    .
+337           1246    ASYFLRK|FN  0.130    .
+337           1255    LNIENSR|KC  0.076    .
+337           1256    NIENSRK|CW  0.088    .
+337           1262    KCWSLIR|EL  0.077    .
+337           1267    IRELCGR|DK  0.148    .
+337           1269    ELCGRDK|GK  0.060    .
+337           1271    CGRDKGK|LQ  0.072    .
+337           1287    GHTIMSK|RE  0.054    .
+337           1288    HTIMSKR|EM  0.172    .
+337           1307    HIEQFGR|YF  0.105    .
+337           1312    GRYFSSR|VP  0.094    .
+337           1323    LNSGTSR|GL  0.230    .
+337           1350    AVLAFSR|VG  0.087    .
+337           1358    GSDIQNK|LF  0.061    .
+337           1366    FQIGIVK|RF  0.057    .
+337           1367    QIGIVKR|FG  0.202    .
+337           1410    GAPSPFR|LV  0.114    .
+337           1442    QALSNFK|QK  0.059    .
+337           1444    LSNFKQK|TS  0.092    .
+337           1455    IGCASSK|DF  0.070    .
+337           1470    SPGGSFR|HF  0.175    .
+337           1483    GAVQYDR|PL  0.086    .
+337           1512    ASLVYVK|LN  0.057    .
+337           1520    NWNVSNK|KR  0.066    .
+337           1521    WNVSNKK|RP  0.080    .
+337           1522    NVSNKKR|PS  0.381    .
+337           1558    NAANFFR|QL  0.103    .
+337           1576    PDWLITR|QE  0.068    .
+337           1582    RQETYIK|VR  0.057    .
+337           1584    ETYIKVR|FK  0.090    .
+337           1586    YIKVRFK|RL  0.065    .
+337           1587    IKVRFKR|LD  0.468    .
+337           1591    FKRLDLR|FL  0.112    .
+337           1599    LEFGILR|VY  0.062    .
+337           1604    LRVYLLR|RD  0.074    .
+337           1605    RVYLLRR|DP  0.117    .
+337           1623    LHISITR|AT  0.096    .
+337           1636    AFISNGK|PP  0.054    .
+337           1639    SNGKPPR|MD  0.108    .
+337           1642    KPPRMDR|LL  0.176    .
+337           1656    VAWQPNK|TQ  0.053    .
+337           1665    AHLCFVK|FP  0.064    .
+337           1678    PPPENFK|SL  0.093    .
+337           1689    QGWSNDR|EK  0.075    .
+337           1691    WSNDREK|FH  0.090    .
+337           1698    FHETQVR|AI  0.102    .
+337           1705    AIVALLK|RA  0.081    .
+337           1706    IVALLKR|AS  0.146    .
+337           1709    LLKRASK|GE  0.130    .
+337           1715    KGECVER|PS  0.082    .
+337           1718    CVERPSK|NS  0.105    .
+337           1726    SSGAALK|ST  0.088    .
+337           1729    AALKSTR|LQ  0.076    .
+337           1773    CVFGANR|TS  0.083    .
+337           1776    GANRTSK|DG  0.376    .
+337           1794    SCFISGK|VL  0.075    .
+337           1797    ISGKVLK|GS  0.086    .
+337           1819    TAAQTSR|VS  0.081    .
+337           1823    TSRVSLR|CA  0.171    .
+337           1826    VSLRCAR|DR  0.190    .
+337           1828    LRCARDR|VR  0.093    .
+337           1830    CARDRVR|SS  0.113    .
+337           1833    DRVRSSR|LK  0.256    .
+337           1835    VRSSRLK|RT  0.068    .
+337           1836    RSSRLKR|TL  0.692 *ProP*
+337           1860    TLLILAR|LG  0.073    .
+337           1863    ILARLGK|LH  0.134    .
+337           1867    LGKLHHK|MK  0.076    .
+337           1869    KLHHKMK|HG  0.065    .
+337           1872    HKMKHGK|GP  0.076    .
+337           1880    PCILYVR|KR  0.067    .
+337           1881    CILYVRK|RQ  0.065    .
+337           1882    ILYVRKR|QA  0.316    .
+337           1887    KRQASPR|PT  0.154    .
+337           1890    ASPRPTR|SS  0.372    .
+337           1902    TYPCTNR|GQ  0.095    .
+337           1920    LYVLCMK|NI  0.060    .
+337           1924    CMKNIPR|KF  0.112    .
+337           1925    MKNIPRK|FQ  0.118    .
+337           1933    QYQEPTK|SG  0.064    .
+337           1936    EPTKSGK|NW  0.075    .
+____________________________^_________________
+
+
+
+

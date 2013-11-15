@@ -1,0 +1,42 @@
+# 309 Length: 2030
+# 309 Number of predicted TMHs:  18
+# 309 Exp number of AAs in TMHs: 404.576479999999
+# 309 Exp number, first 60 AAs:  1.7698
+# 309 Total prob of N-in:        0.05449
+309	TMHMM2.0	outside	     1   322
+309	TMHMM2.0	TMhelix	   323   345
+309	TMHMM2.0	inside	   346   351
+309	TMHMM2.0	TMhelix	   352   374
+309	TMHMM2.0	outside	   375   383
+309	TMHMM2.0	TMhelix	   384   406
+309	TMHMM2.0	inside	   407   412
+309	TMHMM2.0	TMhelix	   413   435
+309	TMHMM2.0	outside	   436   444
+309	TMHMM2.0	TMhelix	   445   467
+309	TMHMM2.0	inside	   468   473
+309	TMHMM2.0	TMhelix	   474   496
+309	TMHMM2.0	outside	   497   505
+309	TMHMM2.0	TMhelix	   506   528
+309	TMHMM2.0	inside	   529   534
+309	TMHMM2.0	TMhelix	   535   557
+309	TMHMM2.0	outside	   558   561
+309	TMHMM2.0	TMhelix	   562   584
+309	TMHMM2.0	inside	   585   590
+309	TMHMM2.0	TMhelix	   591   613
+309	TMHMM2.0	outside	   614   617
+309	TMHMM2.0	TMhelix	   618   640
+309	TMHMM2.0	inside	   641   646
+309	TMHMM2.0	TMhelix	   647   669
+309	TMHMM2.0	outside	   670   673
+309	TMHMM2.0	TMhelix	   674   696
+309	TMHMM2.0	inside	   697   702
+309	TMHMM2.0	TMhelix	   703   725
+309	TMHMM2.0	outside	   726   728
+309	TMHMM2.0	TMhelix	   729   751
+309	TMHMM2.0	inside	   752   757
+309	TMHMM2.0	TMhelix	   758   780
+309	TMHMM2.0	outside	   781   783
+309	TMHMM2.0	TMhelix	   784   806
+309	TMHMM2.0	inside	   807   812
+309	TMHMM2.0	TMhelix	   813   835
+309	TMHMM2.0	outside	   836  2030

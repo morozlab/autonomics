@@ -1,0 +1,296 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1895 353         
+MDDRRHLSSNFIFNKDKNLSLTAQRQKLPIFTYRNHILHLVEQNAVTIVIGETGSGKSTQIPQYLAESNWACEGRRIAVT      80
+QPRRNSTVTLATRVADEMNSHIGNDVGYQIRFERNTSDHTKIVYMTDGSLLREIMQDPLLDRYSIIVIDEVHERNINTDL     160
+LIALLRKILKQRPDLRLILTSATTDAENIKRFFCTKVTGDADKTLNCAILSVEGRSYPVNVNYAVSPVPDYLKARQLDRY     240
+SYVLVFGYPLHLVFLTSQEEVVEAIKSAKERVRKLVKPKQNIRVFPLYGSLPNEEQIKVFDTREVGSNTRRVIFSTNLAE     320
+SSVTIPRIVYVIDCGLGRYKTYNAQSGLEIIVKSKISKASAVQRAGRAGRIGQGEVFRLYTENTFNNFSLETPPEMTRSN     400
+LFSTILQLKAIGISNIVKFHFLTAPPSSHLCKTLETELCNLSPHGARSKTSMVNSRRGQKTWFRCGAAWQRLATACGGAI     480
+VTCHRVVCVAPRCRAIGTTCVWVRAPRGDKLHNSLRKTTVTSHNFIRDPYTSIFQFVQCVGLECATIPSCQQRAMFWKPG     560
+GAAPSSKQREYISAVDRSNFIFNKDKNLSLTAQRQKLPIFTYRNHILHLVEQNAVTIVIGETGSGKSTQIPQYLAKSNWA     640
+CEGRRIAVTQPRRNSTVTLATRVADEMNSHIGNDVGYQIRFERNTSDHTKIVYMTDGSLLREIMQDPLLDRYSIIVIDEV     720
+HERNINTDLLIALLRKILKQRPDLRLILTSATTDAENIKRFFCTKVTGDADKTLNCAILSVEGRSYPVNVNYAVSPVPDY     800
+LKAAVDLAMSIHEHKPMGDVLVFLTSQEEVVEAIKSAKERVRKLVKPKQNIRVFPLYGSLPNEEQIKVFDTREVGSNTRR     880
+VIFSTNLAESSVTIPRIVYVIDCGLGRYKTYNAQSGLEIIVKSKISKASAVQRAGRAGRIGQGEVFRLYTENTFNNFSLE     960
+TPPEMTRSNLFSTILQLKAIGISNIVKFHFLTAPPSSHLCKTLETLHALGGIDDECNLTRRGFIMVEFPVDPMLTVALLE    1040
+SERFGCTEEILTIIAMLQVKSVFMRPMGNKTRATACKFKFAAREGDTISLLNAYQFFIRNRKSKQVCKDNFLNYHVLNQA    1120
+ENIKTKLTHLYKRYHPDEKEITSTGAEECIRECLAQGMYLNSAYYHHTGVYKTFRDNFDLAIHPGSVMVSERPNIRSAKP    1200
+LFIVTAMPGTAKFEKILYRPQPYPDNHTDTELFLSSLRRNKNLRLYTLGECSYQGQFPLQQLCCTASFILLHLLNPTVSD    1280
+GVLLVMTGVTIVSYLAVVGFSLHQLKTVTLLSGFLFGMAPIIESLTRTISDDTIYAMVTVGLLVNFAIQNYTPLPADYMS    1360
+TCVSLNAAIFSAVCLASRLDNVNSVLLTMIVAILFYGILPIIRDRFRDRALPLTGLLVLSTVCLAGLVSAVFILPLCAVV    1440
+LVCLVLVPLVFVRLQRHKDNIFGPWDEAALKDIGSTTATMTGMLPPCVIDNGTGYTKMGLAGNSEPQFIIPSAIAVRESA    1520
+GIGDGPRRGTRGVDDLDFYIGNEALSQPNYSVKYPIRHGMVEDWDLMEKYWEQCIFKYLRAEPEDHYFLLTEPPLNLPEN    1600
+REYTAEIMFESFNVPGIYIAVQAVLAIAASWTTREIGQRTLTGCVVDSGDGVTHVIPVVDGYVIGSCIKHIPIAGRDITY    1680
+FIQTLLRDREKGIPPEQSLETAKAIKEKYCYVCPDIVAEFKKYDTDPDKFKTYEGINDITKQKFNIDVGYERFLGPEIFF    1760
+HPEFCNPDYRTTISEVVDDVISGCPIDTRRGLYKNIVLSGGSTMFKDFNKKLGRDIKKRVNLRLQESERLSGGKLKPKPI    1840
+ETNVVSHHMQRYAVWFGGSLLASTPEFYEVCHTKAQYDEYGPSICRHNAVFGAMT                             1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+..........P.....................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.......................................................                             1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+353              4    ---MDDR|RH  0.067    .
+353              5    --MDDRR|HL  0.147    .
+353             15    SNFIFNK|DK  0.081    .
+353             17    FIFNKDK|NL  0.062    .
+353             25    LSLTAQR|QK  0.087    .
+353             27    LTAQRQK|LP  0.057    .
+353             34    LPIFTYR|NH  0.092    .
+353             57    GETGSGK|ST  0.073    .
+353             75    NWACEGR|RI  0.102    .
+353             76    WACEGRR|IA  0.136    .
+353             83    IAVTQPR|RN  0.105    .
+353             84    AVTQPRR|NS  0.102    .
+353             93    TVTLATR|VA  0.090    .
+353            111    DVGYQIR|FE  0.079    .
+353            114    YQIRFER|NT  0.336    .
+353            121    NTSDHTK|IV  0.094    .
+353            132    TDGSLLR|EI  0.082    .
+353            142    QDPLLDR|YS  0.100    .
+353            154    IDEVHER|NI  0.095    .
+353            166    LLIALLR|KI  0.094    .
+353            167    LIALLRK|IL  0.073    .
+353            170    LLRKILK|QR  0.059    .
+353            172    RKILKQR|PD  0.088    .
+353            176    KQRPDLR|LI  0.089    .
+353            190    TDAENIK|RF  0.065    .
+353            191    DAENIKR|FF  0.198    .
+353            196    KRFFCTK|VT  0.092    .
+353            203    VTGDADK|TL  0.066    .
+353            215    ILSVEGR|SY  0.157    .
+353            233    PVPDYLK|AR  0.052    .
+353            235    PDYLKAR|QL  0.106    .
+353            239    KARQLDR|YS  0.097    .
+353            266    EVVEAIK|SA  0.066    .
+353            269    EAIKSAK|ER  0.063    .
+353            271    IKSAKER|VR  0.098    .
+353            273    SAKERVR|KL  0.085    .
+353            274    AKERVRK|LV  0.408    .
+353            277    RVRKLVK|PK  0.063    .
+353            279    RKLVKPK|QN  0.079    .
+353            283    KPKQNIR|VF  0.071    .
+353            298    PNEEQIK|VF  0.067    .
+353            303    IKVFDTR|EV  0.156    .
+353            310    EVGSNTR|RV  0.086    .
+353            311    VGSNTRR|VI  0.131    .
+353            327    SSVTIPR|IV  0.123    .
+353            338    IDCGLGR|YK  0.083    .
+353            340    CGLGRYK|TY  0.058    .
+353            353    GLEIIVK|SK  0.073    .
+353            355    EIIVKSK|IS  0.065    .
+353            358    VKSKISK|AS  0.079    .
+353            364    KASAVQR|AG  0.151    .
+353            367    AVQRAGR|AG  0.291    .
+353            370    RAGRAGR|IG  0.258    .
+353            378    GQGEVFR|LY  0.089    .
+353            398    TPPEMTR|SN  0.095    .
+353            409    STILQLK|AI  0.073    .
+353            418    GISNIVK|FH  0.067    .
+353            432    PSSHLCK|TL  0.109    .
+353            447    LSPHGAR|SK  0.127    .
+353            449    PHGARSK|TS  0.058    .
+353            456    TSMVNSR|RG  0.082    .
+353            457    SMVNSRR|GQ  0.156    .
+353            460    NSRRGQK|TW  0.134    .
+353            464    GQKTWFR|CG  0.084    .
+353            471    CGAAWQR|LA  0.107    .
+353            485    AIVTCHR|VV  0.099    .
+353            492    VVCVAPR|CR  0.090    .
+353            494    CVAPRCR|AI  0.120    .
+353            504    TTCVWVR|AP  0.086    .
+353            507    VWVRAPR|GD  0.155    .
+353            510    RAPRGDK|LH  0.086    .
+353            516    KLHNSLR|KT  0.095    .
+353            517    LHNSLRK|TT  0.093    .
+353            527    TSHNFIR|DP  0.194    .
+353            553    IPSCQQR|AM  0.166    .
+353            558    QRAMFWK|PG  0.104    .
+353            567    GAAPSSK|QR  0.068    .
+353            569    APSSKQR|EY  0.128    .
+353            577    YISAVDR|SN  0.143    .
+353            584    SNFIFNK|DK  0.079    .
+353            586    FIFNKDK|NL  0.062    .
+353            594    LSLTAQR|QK  0.087    .
+353            596    LTAQRQK|LP  0.057    .
+353            603    LPIFTYR|NH  0.092    .
+353            626    GETGSGK|ST  0.073    .
+353            636    IPQYLAK|SN  0.120    .
+353            644    NWACEGR|RI  0.091    .
+353            645    WACEGRR|IA  0.133    .
+353            652    IAVTQPR|RN  0.105    .
+353            653    AVTQPRR|NS  0.102    .
+353            662    TVTLATR|VA  0.090    .
+353            680    DVGYQIR|FE  0.079    .
+353            683    YQIRFER|NT  0.336    .
+353            690    NTSDHTK|IV  0.094    .
+353            701    TDGSLLR|EI  0.082    .
+353            711    QDPLLDR|YS  0.100    .
+353            723    IDEVHER|NI  0.095    .
+353            735    LLIALLR|KI  0.094    .
+353            736    LIALLRK|IL  0.073    .
+353            739    LLRKILK|QR  0.059    .
+353            741    RKILKQR|PD  0.088    .
+353            745    KQRPDLR|LI  0.089    .
+353            759    TDAENIK|RF  0.065    .
+353            760    DAENIKR|FF  0.198    .
+353            765    KRFFCTK|VT  0.092    .
+353            772    VTGDADK|TL  0.066    .
+353            784    ILSVEGR|SY  0.157    .
+353            802    PVPDYLK|AA  0.060    .
+353            815    MSIHEHK|PM  0.085    .
+353            835    EVVEAIK|SA  0.066    .
+353            838    EAIKSAK|ER  0.063    .
+353            840    IKSAKER|VR  0.098    .
+353            842    SAKERVR|KL  0.085    .
+353            843    AKERVRK|LV  0.408    .
+353            846    RVRKLVK|PK  0.063    .
+353            848    RKLVKPK|QN  0.079    .
+353            852    KPKQNIR|VF  0.071    .
+353            867    PNEEQIK|VF  0.067    .
+353            872    IKVFDTR|EV  0.156    .
+353            879    EVGSNTR|RV  0.086    .
+353            880    VGSNTRR|VI  0.131    .
+353            896    SSVTIPR|IV  0.123    .
+353            907    IDCGLGR|YK  0.083    .
+353            909    CGLGRYK|TY  0.058    .
+353            922    GLEIIVK|SK  0.073    .
+353            924    EIIVKSK|IS  0.065    .
+353            927    VKSKISK|AS  0.079    .
+353            933    KASAVQR|AG  0.151    .
+353            936    AVQRAGR|AG  0.291    .
+353            939    RAGRAGR|IG  0.258    .
+353            947    GQGEVFR|LY  0.089    .
+353            967    TPPEMTR|SN  0.095    .
+353            978    STILQLK|AI  0.073    .
+353            987    GISNIVK|FH  0.067    .
+353           1001    PSSHLCK|TL  0.083    .
+353           1020    DECNLTR|RG  0.077    .
+353           1021    ECNLTRR|GF  0.170    .
+353           1043    ALLESER|FG  0.084    .
+353           1060    IAMLQVK|SV  0.100    .
+353           1065    VKSVFMR|PM  0.165    .
+353           1070    MRPMGNK|TR  0.059    .
+353           1072    PMGNKTR|AT  0.105    .
+353           1077    TRATACK|FK  0.108    .
+353           1079    ATACKFK|FA  0.102    .
+353           1083    KFKFAAR|EG  0.086    .
+353           1099    AYQFFIR|NR  0.077    .
+353           1101    QFFIRNR|KS  0.086    .
+353           1102    FFIRNRK|SK  0.233    .
+353           1104    IRNRKSK|QV  0.400    .
+353           1108    KSKQVCK|DN  0.077    .
+353           1124    NQAENIK|TK  0.059    .
+353           1126    AENIKTK|LT  0.070    .
+353           1132    KLTHLYK|RY  0.067    .
+353           1133    LTHLYKR|YH  0.183    .
+353           1139    RYHPDEK|EI  0.065    .
+353           1151    GAEECIR|EC  0.085    .
+353           1172    HHTGVYK|TF  0.066    .
+353           1175    GVYKTFR|DN  0.123    .
+353           1192    SVMVSER|PN  0.098    .
+353           1196    SERPNIR|SA  0.157    .
+353           1199    PNIRSAK|PL  0.219    .
+353           1212    AMPGTAK|FE  0.058    .
+353           1215    GTAKFEK|IL  0.070    .
+353           1219    FEKILYR|PQ  0.077    .
+353           1238    LFLSSLR|RN  0.060    .
+353           1239    FLSSLRR|NK  0.133    .
+353           1241    SSLRRNK|NL  0.108    .
+353           1244    RRNKNLR|LY  0.129    .
+353           1306    FSLHQLK|TV  0.063    .
+353           1327    IIESLTR|TI  0.097    .
+353           1378    AVCLASR|LD  0.064    .
+353           1403    GILPIIR|DR  0.076    .
+353           1405    LPIIRDR|FR  0.107    .
+353           1407    IIRDRFR|DR  0.091    .
+353           1409    RDRFRDR|AL  0.090    .
+353           1453    VPLVFVR|LQ  0.082    .
+353           1456    VFVRLQR|HK  0.236    .
+353           1458    VRLQRHK|DN  0.075    .
+353           1471    WDEAALK|DI  0.081    .
+353           1497    NGTGYTK|MG  0.057    .
+353           1517    PSAIAVR|ES  0.100    .
+353           1527    GIGDGPR|RG  0.081    .
+353           1528    IGDGPRR|GT  0.152    .
+353           1531    GPRRGTR|GV  0.580 *ProP*
+353           1553    QPNYSVK|YP  0.084    .
+353           1557    SVKYPIR|HG  0.090    .
+353           1569    DWDLMEK|YW  0.068    .
+353           1577    WEQCIFK|YL  0.079    .
+353           1580    CIFKYLR|AE  0.065    .
+353           1601    LNLPENR|EY  0.104    .
+353           1634    AASWTTR|EI  0.155    .
+353           1639    TREIGQR|TL  0.103    .
+353           1669    VIGSCIK|HI  0.065    .
+353           1676    HIPIAGR|DI  0.133    .
+353           1687    FIQTLLR|DR  0.111    .
+353           1689    QTLLRDR|EK  0.075    .
+353           1691    LLRDREK|GI  0.076    .
+353           1703    QSLETAK|AI  0.073    .
+353           1706    ETAKAIK|EK  0.058    .
+353           1708    AKAIKEK|YC  0.084    .
+353           1721    DIVAEFK|KY  0.064    .
+353           1722    IVAEFKK|YD  0.113    .
+353           1729    YDTDPDK|FK  0.062    .
+353           1731    TDPDKFK|TY  0.079    .
+353           1741    GINDITK|QK  0.068    .
+353           1743    NDITKQK|FN  0.078    .
+353           1752    IDVGYER|FL  0.127    .
+353           1770    FCNPDYR|TT  0.088    .
+353           1789    GCPIDTR|RG  0.065    .
+353           1790    CPIDTRR|GL  0.184    .
+353           1794    TRRGLYK|NI  0.087    .
+353           1806    GGSTMFK|DF  0.088    .
+353           1810    MFKDFNK|KL  0.069    .
+353           1811    FKDFNKK|LG  0.083    .
+353           1814    FNKKLGR|DI  0.113    .
+353           1817    KLGRDIK|KR  0.101    .
+353           1818    LGRDIKK|RV  0.113    .
+353           1819    GRDIKKR|VN  0.199    .
+353           1823    KKRVNLR|LQ  0.090    .
+353           1829    RLQESER|LS  0.107    .
+353           1834    ERLSGGK|LK  0.059    .
+353           1836    LSGGKLK|PK  0.069    .
+353           1838    GGKLKPK|PI  0.083    .
+353           1851    VSHHMQR|YA  0.135    .
+353           1874    YEVCHTK|AQ  0.071    .
+353           1886    YGPSICR|HN  0.072    .
+____________________________^_________________
+
+
+
+

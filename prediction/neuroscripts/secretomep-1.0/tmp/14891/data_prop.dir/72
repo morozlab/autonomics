@@ -1,0 +1,517 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3412 72          
+MGYGAAIHLQDWAQKKKKSWLVGMRCNPLMRATPHLEGPAAYAKLAGLASFQTFQHYFKQINLIHFFRLFRHRVLLDFRL      80
+IWTLYLNLNLDIESTVDLECSTRVRSPEGGLKNQDPGGKGVEAGPRREGCRSRTQMADDYAAEFKNLCLALNMDEQTKMD     160
+ALKKYGFCCIDSLELNIIGHNILTVVKLTFEDFIQKYLYLWQVTANNTEDFRKHVDNLRRKPGRARAGPDDILGIDLACT     240
+VREKIEVNFCPNINVNLSNCQRSGIETIKTILKTVNCVLSVTIFDWSLMEAASVPEILRSTQSTSIVDRLCQEFIKMDST     320
+ETKRIRDYHLKPLIKQYFIQSILKAGLENDKGIFEGSVFDTNVKSVTNEYDTHILKLGEYDNRLFLEGTVKDVRTPGDRT     400
+PSKQSTVPRTPSELSNKAKKNLFKVESTSLALVPPPTPYSNRKYLPAEEEKLLRTPISEQADIMNRLNNLILSYGNRPNP     480
+ELEKILNRFEPQVKTNLITLEKSLSEKFVRSYCNGEPRAEDFARLRLDHGVRLFYRLFECIIKSEATRCGNIALKNVICN     560
+VDFISATFAMSLEIVLNSYGTSDRKFPWILGALNLHAFFVSKVIETIIMHDTGLSRTIIKHLNSIEETMLESMVWGKDSP     640
+LYDQLSECNPPKPPKYEQVKPTNKGMNTPNPHRIQRVDRKRGLTPLTSNASPFEHLDKQHCTAPPTSGISGIRVLPNLPS     720
+HLPEPSVPREGGAQTPVSALVSTITNMGVMSPPPRPPVKKSLQMFFRKVYNLASLRINNLCERLRFGEDTMQKIWTGCEY     800
+TLTHHVHLFYQRHMDQIMMSACYLIVKADNLNHVTFKQIIECYREQPQVNDKVYIYRSVLLRTDPLPSTLQCVCPQNKSG     880
+SEHGDVIKFYNSVFIPHVSSFVKETSLGTLNLSAPLSPMPTLFSQKFSPRRIEGYNISVSPRRASSVPPYVFGESPTKQM     960
+DLINSEVRNNSGGGGSSAVFFKDNPQWSSKTVKSSAKILRYDSANMAEFLASIFGTEKDRVNCPFYFKTGEIVTLTRERE    1040
+GLKQVRFVKLTMSTGASRIAPIISSPQLLFPSSGFHAGITLWRFWPFDYPSLSLSPIERGGGTTIFVVGLALRLLTIHDN    1120
+QHTEIECSRRQSHASLILFRLHVLPTHVSVSVNSDCLSDVIVITGRYPVLLPRMKGSRTSPNTFHSSATLPDLKLKSYTF    1200
+QNPFISEVKSVTRNMAEFLASIFGTEKDRVNCPFYFKTGACTHGDRCSRQHNRPTYSQTVLLNHMYRSPINLTVNPEMQR    1280
+QGGVPEEQIQSHFDDFFEDIYVEMVDKYGPIEELNICENLGDHLVGNIYIMFKKEEDAQKAVEALNNRWYNSMPIYAELS    1360
+PVTDFREACCRQYETSECTRGGYCNFLHVKAASKEVRHKLGVDTFGKGRHLWPGFVCQSIGLTHSQELWSEQGALTGVRG    1440
+KVYTVGWLPEAGVYLGGNPRSQVRHVFLKSCRCSIPLFLVMSCHGVGMLQKPTDTDLLEKGNNTNTHTSIKCTLNEDPSL    1520
+RPIVMDSRGKSDITLMGEGFLARAVRLRNFVIAAVFCFIVGSVTLSSCWDVMGAAAVGLGKHGGNETHVGVNVPCGLAGD    1600
+VRGFGLLTQGILLTKSQQTKPSHMLGKAARHNYIHFNHVTADPLQYKTTSGKLLVTGGNSRGNMAARTVWRRRPHLSALL    1680
+RIKWGMAPPYRRRKRGGGDKFILSCLTLLPSLKYKYTTTVRYPGLINIGKQCTSIEVNVPCGLAGDVRGFGLLTQGILLT    1760
+KSQQTKPSHMLGKAARHNYIHFNHVTADPLQYKTTSGKLLVTGGNSRGNMAARTVWRRQPHLSALLRIKWGMAPPYRRRR    1840
+RDGGDKPIFEGVYGCIWLLRGEAGSNKASIWDLNASNMVASYSGLKIGLVTVCHRFFLYKAAAGAMSELIAREAILPAGE    1920
+GFHYPSPTQKCPRKTLEPAAWLYLILFFHNHPVKVNIGCSNTRDVTSAPLFIQGRGRLCPSILDGTAFKTSQRPPLSAEG    2000
+AAVEGQSLPPTLERLDHARAKIVRHTKFRLLSLLCFASNHKMTLKFSVALDKIFRKLEATHNTYNTLFPPPYFMLYAFIF    2080
+PETMRFLVLLAASLALVSGCADTIDDCAYYKDAGYCTDFKDQLLEMCPKTCGFCSGGGGGGDSGSGGDPGTATDPRAARE    2160
+PESPELCRDTCSTKDCEWYKSQGHCEQFSAVMVMNCASSCGWCGAPLCSPPDFENGWTDFEMMMIPSGATVNVYCYEGFT    2240
+NWGADTLTCQSGSLSGEPRCEKVDESNQESSYKTDCQKAAEAALEPSYKDGKYVVPQESTHYVPKCDYSGGFESVQYDAA    2320
+KGQTFCVDYSGNEVEGTRYSGRMEYVDCTMNSATEYYKRLAEEAAYAAAQAASPNTYSEDTYDNGADTYDYGADTYDYNS    2400
+GGDTSYDTYDYGADTYDYGGDSSSNTDYANTDDYYGGDDSYYYEGGDSAAGGDDSYYGGDDSYYGGDDSYYGGDDSYYGG    2480
+DDSFSGDYYYEGDSAYGGDSYETSYETSGDSGYGGDTYYYEGDASYGGDSSSSDEYYYEARYYSDEGDATEEGDSIAEGA    2560
+VVASIEDVIVEKVAEPDAYAEVDAQMGEARRGRRRMRGMKTKRDAEAADQLDHVCNARIKSLILTPFQFFRKGGVSPTQP    2640
+RYNRAFDISFLPRRNPLRKAVSPFQNDSFSMFSRVPILFSEGLCMDRVRPDLCRVYQKRIWCSTEPRYMQFYCAETCGMC    2720
+RKLGLVTYARLQERKREEAERVEEERMRADRERGRGGSQRGEAERRRQEAQRREMEARRRKQEEQERTAELEKEKQRKEE    2800
+EEALREMLEREKEMLSCSTEIEEEDCASDIEVKEIVQTAAEAESGIDSFVYTGVLPPEIQEIWDTYNPELDAECSDHQYQ    2880
+QTCDTHVANGQCQNKPFYMLQNCRKTCEMCSPFMCQVPSDIDNGYTDPGMPVPPGFKIFISCEDGYYLLGRGTLTCQKDG    2960
+YYSPGGECVKMTDSLLYRMTQCQREKYRKSQPIHLPEEPHYISAPYEYEKRPADKYFPEERSKGRLYGRSDGDDDIFDNY    3040
+SRIKATKRTKRATSDLVEFEYPNMEESLFAQLFEMDFFRCTDTNLFCRAFARQGKCLSEAPFMAQFCPRTCGTCPLLSTT    3120
+SKCTDRREGCNRYLAAGYCSFFKNFMIDNCAKTCGYCGSATGCELPDIDNGTFYPNERSVVPGTLLEVSCDPGFERSGAG    3200
+VLRCRRDGTLSRSPAQCVQALYGTDCEVLRDRVSDRVFNTQYDGFTTGYDAWMPRCNEKGQFHEKCQGLTQPYFSPNPKN    3280
+RLRFVGTHEIPRRARLKSGCLEAPMEGTQILTFFRFDRQKRQILAVRHLDICYMSFKEELKTRALGICSSCQSDRKTLKS    3360
+GHPDYNRAQSDTLTYATRPSDHNLIGEGVELLFYGVPRHDFAEYANTKDNEE                                3440
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+..............P.................................................................    1760
+................................................................................    1840
+P...............................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+..........P.....................................................................    3120
+................................................................................    3200
+................................................................................    3280
+........................................P.......................................    3360
+....................................................                                3440
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+72              15    LQDWAQK|KK  0.062    .
+72              16    QDWAQKK|KK  0.123    .
+72              17    DWAQKKK|KS  0.104    .
+72              18    WAQKKKK|SW  0.241    .
+72              25    SWLVGMR|CN  0.079    .
+72              31    RCNPLMR|AT  0.102    .
+72              44    GPAAYAK|LA  0.083    .
+72              59    TFQHYFK|QI  0.067    .
+72              68    NLIHFFR|LF  0.078    .
+72              71    HFFRLFR|HR  0.112    .
+72              73    FRLFRHR|VL  0.086    .
+72              79    RVLLDFR|LI  0.072    .
+72             103    DLECSTR|VR  0.082    .
+72             105    ECSTRVR|SP  0.185    .
+72             112    SPEGGLK|NQ  0.071    .
+72             119    NQDPGGK|GV  0.092    .
+72             126    GVEAGPR|RE  0.075    .
+72             127    VEAGPRR|EG  0.148    .
+72             131    PRREGCR|SR  0.149    .
+72             133    REGCRSR|TQ  0.085    .
+72             145    DYAAEFK|NL  0.070    .
+72             158    NMDEQTK|MD  0.058    .
+72             163    TKMDALK|KY  0.072    .
+72             164    KMDALKK|YG  0.109    .
+72             187    NILTVVK|LT  0.059    .
+72             196    FEDFIQK|YL  0.060    .
+72             212    NNTEDFR|KH  0.071    .
+72             213    NTEDFRK|HV  0.120    .
+72             219    KHVDNLR|RK  0.065    .
+72             220    HVDNLRR|KP  0.139    .
+72             221    VDNLRRK|PG  0.072    .
+72             224    LRRKPGR|AR  0.108    .
+72             226    RKPGRAR|AG  0.088    .
+72             242    DLACTVR|EK  0.086    .
+72             244    ACTVREK|IE  0.053    .
+72             262    NLSNCQR|SG  0.140    .
+72             269    SGIETIK|TI  0.064    .
+72             273    TIKTILK|TV  0.074    .
+72             299    SVPEILR|ST  0.080    .
+72             309    STSIVDR|LC  0.104    .
+72             316    LCQEFIK|MD  0.070    .
+72             323    MDSTETK|RI  0.076    .
+72             324    DSTETKR|IR  0.119    .
+72             326    TETKRIR|DY  0.110    .
+72             331    IRDYHLK|PL  0.075    .
+72             335    HLKPLIK|QY  0.061    .
+72             344    FIQSILK|AG  0.055    .
+72             351    AGLENDK|GI  0.061    .
+72             364    VFDTNVK|SV  0.084    .
+72             376    YDTHILK|LG  0.054    .
+72             383    LGEYDNR|LF  0.070    .
+72             391    FLEGTVK|DV  0.079    .
+72             394    GTVKDVR|TP  0.083    .
+72             399    VRTPGDR|TP  0.079    .
+72             403    GDRTPSK|QS  0.066    .
+72             409    KQSTVPR|TP  0.110    .
+72             417    PSELSNK|AK  0.062    .
+72             419    ELSNKAK|KN  0.083    .
+72             420    LSNKAKK|NL  0.203    .
+72             424    AKKNLFK|VE  0.071    .
+72             442    PTPYSNR|KY  0.093    .
+72             443    TPYSNRK|YL  0.129    .
+72             451    LPAEEEK|LL  0.065    .
+72             454    EEEKLLR|TP  0.073    .
+72             466    QADIMNR|LN  0.073    .
+72             477    ILSYGNR|PN  0.100    .
+72             484    PNPELEK|IL  0.067    .
+72             488    LEKILNR|FE  0.092    .
+72             494    RFEPQVK|TN  0.058    .
+72             502    NLITLEK|SL  0.083    .
+72             507    EKSLSEK|FV  0.098    .
+72             510    LSEKFVR|SY  0.220    .
+72             518    YCNGEPR|AE  0.094    .
+72             524    RAEDFAR|LR  0.097    .
+72             526    EDFARLR|LD  0.076    .
+72             532    RLDHGVR|LF  0.075    .
+72             536    GVRLFYR|LF  0.119    .
+72             543    LFECIIK|SE  0.061    .
+72             548    IKSEATR|CG  0.116    .
+72             555    CGNIALK|NV  0.071    .
+72             584    SYGTSDR|KF  0.090    .
+72             585    YGTSDRK|FP  0.070    .
+72             602    HAFFVSK|VI  0.082    .
+72             616    HDTGLSR|TI  0.099    .
+72             620    LSRTIIK|HL  0.089    .
+72             637    ESMVWGK|DS  0.067    .
+72             652    SECNPPK|PP  0.065    .
+72             655    NPPKPPK|YE  0.070    .
+72             660    PKYEQVK|PT  0.086    .
+72             664    QVKPTNK|GM  0.060    .
+72             673    NTPNPHR|IQ  0.070    .
+72             676    NPHRIQR|VD  0.317    .
+72             679    RIQRVDR|KR  0.258    .
+72             680    IQRVDRK|RG  0.076    .
+72             681    QRVDRKR|GL  0.248    .
+72             698    PFEHLDK|QH  0.072    .
+72             713    SGISGIR|VL  0.076    .
+72             729    PEPSVPR|EG  0.112    .
+72             755    VMSPPPR|PP  0.091    .
+72             759    PPRPPVK|KS  0.073    .
+72             760    PRPPVKK|SL  0.201    .
+72             767    SLQMFFR|KV  0.140    .
+72             768    LQMFFRK|VY  0.073    .
+72             776    YNLASLR|IN  0.072    .
+72             783    INNLCER|LR  0.081    .
+72             785    NLCERLR|FG  0.092    .
+72             793    GEDTMQK|IW  0.068    .
+72             812    VHLFYQR|HM  0.108    .
+72             827    ACYLIVK|AD  0.058    .
+72             837    LNHVTFK|QI  0.085    .
+72             844    QIIECYR|EQ  0.084    .
+72             852    QPQVNDK|VY  0.058    .
+72             857    DKVYIYR|SV  0.126    .
+72             862    YRSVLLR|TD  0.071    .
+72             878    CVCPQNK|SG  0.083    .
+72             888    EHGDVIK|FY  0.070    .
+72             903    HVSSFVK|ET  0.079    .
+72             926    PTLFSQK|FS  0.061    .
+72             930    SQKFSPR|RI  0.126    .
+72             931    QKFSPRR|IE  0.134    .
+72             942    NISVSPR|RA  0.167    .
+72             943    ISVSPRR|AS  0.145    .
+72             958    FGESPTK|QM  0.061    .
+72             968    LINSEVR|NN  0.124    .
+72             982    SSAVFFK|DN  0.088    .
+72             990    NPQWSSK|TV  0.084    .
+72             993    WSSKTVK|SS  0.130    .
+72             997    TVKSSAK|IL  0.066    .
+72            1000    SSAKILR|YD  0.151    .
+72            1018    SIFGTEK|DR  0.059    .
+72            1020    FGTEKDR|VN  0.073    .
+72            1028    NCPFYFK|TG  0.059    .
+72            1037    EIVTLTR|ER  0.070    .
+72            1039    VTLTRER|EG  0.069    .
+72            1043    REREGLK|QV  0.073    .
+72            1046    EGLKQVR|FV  0.121    .
+72            1049    KQVRFVK|LT  0.124    .
+72            1058    MSTGASR|IA  0.078    .
+72            1083    AGITLWR|FW  0.087    .
+72            1099    SLSPIER|GG  0.136    .
+72            1113    VVGLALR|LL  0.076    .
+72            1129    TEIECSR|RQ  0.084    .
+72            1130    EIECSRR|QS  0.190    .
+72            1140    ASLILFR|LH  0.066    .
+72            1166    VIVITGR|YP  0.072    .
+72            1173    YPVLLPR|MK  0.082    .
+72            1175    VLLPRMK|GS  0.069    .
+72            1178    PRMKGSR|TS  0.090    .
+72            1194    ATLPDLK|LK  0.055    .
+72            1196    LPDLKLK|SY  0.085    .
+72            1209    PFISEVK|SV  0.088    .
+72            1213    EVKSVTR|NM  0.082    .
+72            1227    SIFGTEK|DR  0.059    .
+72            1229    FGTEKDR|VN  0.073    .
+72            1237    NCPFYFK|TG  0.051    .
+72            1246    ACTHGDR|CS  0.078    .
+72            1249    HGDRCSR|QH  0.145    .
+72            1253    CSRQHNR|PT  0.113    .
+72            1267    LLNHMYR|SP  0.126    .
+72            1280    VNPEMQR|QG  0.086    .
+72            1307    YVEMVDK|YG  0.063    .
+72            1333    NIYIMFK|KE  0.070    .
+72            1334    IYIMFKK|EE  0.108    .
+72            1340    KEEDAQK|AV  0.085    .
+72            1348    VEALNNR|WY  0.073    .
+72            1366    SPVTDFR|EA  0.117    .
+72            1371    FREACCR|QY  0.135    .
+72            1380    ETSECTR|GG  0.089    .
+72            1390    CNFLHVK|AA  0.086    .
+72            1394    HVKAASK|EV  0.074    .
+72            1397    AASKEVR|HK  0.117    .
+72            1399    SKEVRHK|LG  0.062    .
+72            1407    GVDTFGK|GR  0.057    .
+72            1409    DTFGKGR|HL  0.108    .
+72            1439    GALTGVR|GK  0.075    .
+72            1441    LTGVRGK|VY  0.062    .
+72            1460    YLGGNPR|SQ  0.095    .
+72            1464    NPRSQVR|HV  0.114    .
+72            1469    VRHVFLK|SC  0.120    .
+72            1472    VFLKSCR|CS  0.083    .
+72            1491    GVGMLQK|PT  0.070    .
+72            1500    DTDLLEK|GN  0.064    .
+72            1511    NTHTSIK|CT  0.068    .
+72            1521    NEDPSLR|PI  0.072    .
+72            1528    PIVMDSR|GK  0.099    .
+72            1530    VMDSRGK|SD  0.070    .
+72            1543    GEGFLAR|AV  0.112    .
+72            1546    FLARAVR|LR  0.205    .
+72            1548    ARAVRLR|NF  0.097    .
+72            1581    AAVGLGK|HG  0.070    .
+72            1602    GLAGDVR|GF  0.102    .
+72            1615    QGILLTK|SQ  0.073    .
+72            1620    TKSQQTK|PS  0.086    .
+72            1627    PSHMLGK|AA  0.091    .
+72            1630    MLGKAAR|HN  0.138    .
+72            1647    ADPLQYK|TT  0.073    .
+72            1652    YKTTSGK|LL  0.068    .
+72            1661    VTGGNSR|GN  0.093    .
+72            1667    RGNMAAR|TV  0.176    .
+72            1671    AARTVWR|RR  0.071    .
+72            1672    ARTVWRR|RP  0.108    .
+72            1673    RTVWRRR|PH  0.116    .
+72            1681    HLSALLR|IK  0.093    .
+72            1683    SALLRIK|WG  0.057    .
+72            1691    GMAPPYR|RR  0.092    .
+72            1692    MAPPYRR|RK  0.143    .
+72            1693    APPYRRR|KR  0.167    .
+72            1694    PPYRRRK|RG  0.208    .
+72            1695    PYRRRKR|GG  0.739 *ProP*
+72            1700    KRGGGDK|FI  0.071    .
+72            1713    TLLPSLK|YK  0.061    .
+72            1715    LPSLKYK|YT  0.109    .
+72            1721    KYTTTVR|YP  0.080    .
+72            1730    GLINIGK|QC  0.071    .
+72            1748    GLAGDVR|GF  0.102    .
+72            1761    QGILLTK|SQ  0.073    .
+72            1766    TKSQQTK|PS  0.086    .
+72            1773    PSHMLGK|AA  0.091    .
+72            1776    MLGKAAR|HN  0.138    .
+72            1793    ADPLQYK|TT  0.073    .
+72            1798    YKTTSGK|LL  0.068    .
+72            1807    VTGGNSR|GN  0.093    .
+72            1813    RGNMAAR|TV  0.186    .
+72            1817    AARTVWR|RQ  0.074    .
+72            1818    ARTVWRR|QP  0.127    .
+72            1827    HLSALLR|IK  0.095    .
+72            1829    SALLRIK|WG  0.057    .
+72            1837    GMAPPYR|RR  0.081    .
+72            1838    MAPPYRR|RR  0.129    .
+72            1839    APPYRRR|RR  0.126    .
+72            1840    PPYRRRR|RD  0.471    .
+72            1841    PYRRRRR|DG  0.704 *ProP*
+72            1846    RRDGGDK|PI  0.072    .
+72            1860    GCIWLLR|GE  0.089    .
+72            1867    GEAGSNK|AS  0.069    .
+72            1886    ASYSGLK|IG  0.052    .
+72            1895    LVTVCHR|FF  0.076    .
+72            1900    HRFFLYK|AA  0.086    .
+72            1912    MSELIAR|EA  0.080    .
+72            1930    YPSPTQK|CP  0.073    .
+72            1933    PTQKCPR|KT  0.086    .
+72            1934    TQKCPRK|TL  0.105    .
+72            1954    FHNHPVK|VN  0.064    .
+72            1963    IGCSNTR|DV  0.126    .
+72            1975    PLFIQGR|GR  0.063    .
+72            1977    FIQGRGR|LC  0.091    .
+72            1989    LDGTAFK|TS  0.057    .
+72            1993    AFKTSQR|PP  0.079    .
+72            2014    LPPTLER|LD  0.076    .
+72            2019    ERLDHAR|AK  0.097    .
+72            2021    LDHARAK|IV  0.095    .
+72            2024    ARAKIVR|HT  0.109    .
+72            2027    KIVRHTK|FR  0.118    .
+72            2029    VRHTKFR|LL  0.111    .
+72            2041    CFASNHK|MT  0.056    .
+72            2045    NHKMTLK|FS  0.066    .
+72            2052    FSVALDK|IF  0.070    .
+72            2055    ALDKIFR|KL  0.093    .
+72            2056    LDKIFRK|LE  0.073    .
+72            2085    IFPETMR|FL  0.076    .
+72            2111    DDCAYYK|DA  0.085    .
+72            2120    GYCTDFK|DQ  0.057    .
+72            2129    LLEMCPK|TC  0.065    .
+72            2156    GTATDPR|AA  0.120    .
+72            2159    TDPRAAR|EP  0.235    .
+72            2168    ESPELCR|DT  0.102    .
+72            2174    RDTCSTK|DC  0.074    .
+72            2180    KDCEWYK|SQ  0.112    .
+72            2259    SLSGEPR|CE  0.107    .
+72            2262    GEPRCEK|VD  0.099    .
+72            2273    NQESSYK|TD  0.066    .
+72            2278    YKTDCQK|AA  0.082    .
+72            2289    ALEPSYK|DG  0.083    .
+72            2292    PSYKDGK|YV  0.107    .
+72            2305    STHYVPK|CD  0.084    .
+72            2321    VQYDAAK|GQ  0.069    .
+72            2338    NEVEGTR|YS  0.093    .
+72            2342    GTRYSGR|ME  0.092    .
+72            2358    SATEYYK|RL  0.059    .
+72            2359    ATEYYKR|LA  0.193    .
+72            2541    EYYYEAR|YY  0.137    .
+72            2572    EDVIVEK|VA  0.066    .
+72            2590    AQMGEAR|RG  0.088    .
+72            2591    QMGEARR|GR  0.126    .
+72            2593    GEARRGR|RR  0.303    .
+72            2594    EARRGRR|RM  0.306    .
+72            2595    ARRGRRR|MR  0.214    .
+72            2597    RGRRRMR|GM  0.453    .
+72            2600    RRMRGMK|TK  0.190    .
+72            2602    MRGMKTK|RD  0.080    .
+72            2603    RGMKTKR|DA  0.446    .
+72            2618    DHVCNAR|IK  0.092    .
+72            2620    VCNARIK|SL  0.083    .
+72            2631    TPFQFFR|KG  0.137    .
+72            2632    PFQFFRK|GG  0.067    .
+72            2641    VSPTQPR|YN  0.099    .
+72            2644    TQPRYNR|AF  0.297    .
+72            2653    DISFLPR|RN  0.075    .
+72            2654    ISFLPRR|NP  0.098    .
+72            2658    PRRNPLR|KA  0.098    .
+72            2659    RRNPLRK|AV  0.272    .
+72            2674    SFSMFSR|VP  0.082    .
+72            2687    EGLCMDR|VR  0.060    .
+72            2689    LCMDRVR|PD  0.078    .
+72            2694    VRPDLCR|VY  0.082    .
+72            2698    LCRVYQK|RI  0.064    .
+72            2699    CRVYQKR|IW  0.283    .
+72            2707    WCSTEPR|YM  0.094    .
+72            2721    ETCGMCR|KL  0.086    .
+72            2722    TCGMCRK|LG  0.066    .
+72            2730    GLVTYAR|LQ  0.086    .
+72            2734    YARLQER|KR  0.104    .
+72            2735    ARLQERK|RE  0.087    .
+72            2736    RLQERKR|EE  0.129    .
+72            2741    KREEAER|VE  0.089    .
+72            2746    ERVEEER|MR  0.101    .
+72            2748    VEEERMR|AD  0.088    .
+72            2751    ERMRADR|ER  0.427    .
+72            2753    MRADRER|GR  0.206    .
+72            2755    ADRERGR|GG  0.113    .
+72            2760    GRGGSQR|GE  0.130    .
+72            2765    QRGEAER|RR  0.088    .
+72            2766    RGEAERR|RQ  0.153    .
+72            2767    GEAERRR|QE  0.145    .
+72            2772    RRQEAQR|RE  0.102    .
+72            2773    RQEAQRR|EM  0.142    .
+72            2778    RREMEAR|RR  0.123    .
+72            2779    REMEARR|RK  0.118    .
+72            2780    EMEARRR|KQ  0.167    .
+72            2781    MEARRRK|QE  0.378    .
+72            2787    KQEEQER|TA  0.087    .
+72            2793    RTAELEK|EK  0.064    .
+72            2795    AELEKEK|QR  0.063    .
+72            2797    LEKEKQR|KE  0.086    .
+72            2798    EKEKQRK|EE  0.115    .
+72            2805    EEEEALR|EM  0.075    .
+72            2810    LREMLER|EK  0.092    .
+72            2812    EMLEREK|EM  0.052    .
+72            2833    ASDIEVK|EI  0.058    .
+72            2895    NGQCQNK|PF  0.066    .
+72            2904    YMLQNCR|KT  0.074    .
+72            2905    MLQNCRK|TC  0.087    .
+72            2937    PVPPGFK|IF  0.057    .
+72            2951    GYYLLGR|GT  0.121    .
+72            2958    GTLTCQK|DG  0.060    .
+72            2970    PGGECVK|MT  0.064    .
+72            2978    TDSLLYR|MT  0.121    .
+72            2984    RMTQCQR|EK  0.068    .
+72            2986    TQCQREK|YR  0.064    .
+72            2988    CQREKYR|KS  0.106    .
+72            2989    QREKYRK|SQ  0.135    .
+72            3010    APYEYEK|RP  0.059    .
+72            3011    PYEYEKR|PA  0.234    .
+72            3015    EKRPADK|YF  0.074    .
+72            3021    KYFPEER|SK  0.124    .
+72            3023    FPEERSK|GR  0.061    .
+72            3025    EERSKGR|LY  0.112    .
+72            3029    KGRLYGR|SD  0.132    .
+72            3042    IFDNYSR|IK  0.071    .
+72            3044    DNYSRIK|AT  0.064    .
+72            3047    SRIKATK|RT  0.074    .
+72            3048    RIKATKR|TK  0.143    .
+72            3050    KATKRTK|RA  0.065    .
+72            3051    ATKRTKR|AT  0.667 *ProP*
+72            3079    FEMDFFR|CT  0.136    .
+72            3088    DTNLFCR|AF  0.102    .
+72            3092    FCRAFAR|QG  0.084    .
+72            3095    AFARQGK|CL  0.208    .
+72            3109    MAQFCPR|TC  0.124    .
+72            3122    LLSTTSK|CT  0.083    .
+72            3126    TSKCTDR|RE  0.087    .
+72            3127    SKCTDRR|EG  0.104    .
+72            3132    RREGCNR|YL  0.153    .
+72            3143    GYCSFFK|NF  0.059    .
+72            3152    MIDNCAK|TC  0.071    .
+72            3178    TFYPNER|SV  0.193    .
+72            3196    CDPGFER|SG  0.124    .
+72            3203    SGAGVLR|CR  0.110    .
+72            3205    AGVLRCR|RD  0.078    .
+72            3206    GVLRCRR|DG  0.317    .
+72            3212    RDGTLSR|SP  0.112    .
+72            3230    TDCEVLR|DR  0.081    .
+72            3232    CEVLRDR|VS  0.093    .
+72            3236    RDRVSDR|VF  0.136    .
+72            3255    YDAWMPR|CN  0.176    .
+72            3259    MPRCNEK|GQ  0.081    .
+72            3265    KGQFHEK|CQ  0.075    .
+72            3279    YFSPNPK|NR  0.062    .
+72            3281    SPNPKNR|LR  0.147    .
+72            3283    NPKNRLR|FV  0.227    .
+72            3292    GTHEIPR|RA  0.084    .
+72            3293    THEIPRR|AR  0.140    .
+72            3295    EIPRRAR|LK  0.294    .
+72            3297    PRRARLK|SG  0.095    .
+72            3315    QILTFFR|FD  0.097    .
+72            3318    TFFRFDR|QK  0.334    .
+72            3320    FRFDRQK|RQ  0.064    .
+72            3321    RFDRQKR|QI  0.608 *ProP*
+72            3327    RQILAVR|HL  0.111    .
+72            3337    ICYMSFK|EE  0.058    .
+72            3341    SFKEELK|TR  0.057    .
+72            3343    KEELKTR|AL  0.113    .
+72            3355    SSCQSDR|KT  0.109    .
+72            3356    SCQSDRK|TL  0.084    .
+72            3359    SDRKTLK|SG  0.086    .
+72            3367    GHPDYNR|AQ  0.093    .
+72            3378    TLTYATR|PS  0.113    .
+72            3398    LFYGVPR|HD  0.103    .
+72            3408    AEYANTK|DN  0.076    .
+____________________________^_________________
+
+
+
+

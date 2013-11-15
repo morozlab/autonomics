@@ -1,0 +1,18 @@
+# 312 Length: 2022
+# 312 Number of predicted TMHs:  6
+# 312 Exp number of AAs in TMHs: 133.45925
+# 312 Exp number, first 60 AAs:  1.29198
+# 312 Total prob of N-in:        0.06771
+312	TMHMM2.0	outside	     1  1255
+312	TMHMM2.0	TMhelix	  1256  1278
+312	TMHMM2.0	inside	  1279  1284
+312	TMHMM2.0	TMhelix	  1285  1307
+312	TMHMM2.0	outside	  1308  1311
+312	TMHMM2.0	TMhelix	  1312  1334
+312	TMHMM2.0	inside	  1335  1338
+312	TMHMM2.0	TMhelix	  1339  1361
+312	TMHMM2.0	outside	  1362  1364
+312	TMHMM2.0	TMhelix	  1365  1387
+312	TMHMM2.0	inside	  1388  1391
+312	TMHMM2.0	TMhelix	  1392  1414
+312	TMHMM2.0	outside	  1415  2022

@@ -1,0 +1,220 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1491 611         
+MFVPLSKIKVPLSKRKIPYPKERSPYPKERSTYSRERSPYPKERSPNQRERSPFQREKSPYPKERSSYPKERSSYPRERS      80
+PYQRERSPYQRERSPYSKVRSPYQRERSPYLKERSPYPRERSPYLKERSPYPNGCQVMTTVCVPHHNNKIEELVESIRTL     160
+TSSDFSESSHMLKYDNGGTHTAYFRSEKFLERHKSPYKINAVAGMAMAQMTIQLLGGTCRVNPQNHNKPPVAVVLVSSGD     240
+GGKVALTAALHLSQHSVSVQVLVLDKPQGCDGMLNVLSKHLVQSVSCLPAVVDIIIDGIQDRNTLLRWPGWFDSVIDWTE     320
+ESAAPLLAIDPQHPNKLPRTPPVAKWSCALGAPLLSQGNVGRLFLMDIGLFPSAFQDQDIAYTSPFFDKFPKNSDNTSKE     400
+INFSLSPLQMFPLFTTSTLMLYLLFSLHGKMKVKKHHVLFSLKSEEVSVLIDSTNSSSPSPPLLSSRKPVSIMKRQSPPP     480
+PPVERHDGRKKGSAFSVPVSRIDTDFDFASSNKLFQKDEIFDEWRAQEGGNVSHHNPEKIKPSEMVLRRSPVRTFTFSGE     560
+FQTDEKIPVVGLSLSRRIAVFKNAINSGLSYSHVVSVAGMAMAQMTIQLLGGTCRVNPQNHNKPPVAVVLVSSGDGGKVA     640
+LTAALHLSQHSVSVQVLVLDKPQGCDGMLNILSNHLVQSVSCLPAVVDIIIDGIQDRNTLLRWPGWFDSVIDWTEESAAP     720
+LLAIDPQHPNKLPRTPPVAKWSCALGAPLLSQGNVGRLFLMDIGLFPSAFQDQDIAYTSPFFDKFGAGTNQNSVFRSRDW     800
+LSANQPISDQYFLVRLAQVMNCMAAPCTPFDSQRQCPQMGSRHQTANIGSREKEGVCPYKPPFPGKQLDVTWKFSLEYTS     880
+PLYEGYIPYKLALESDSHGDMVETIETRYMLSRPRLRVLEEIITRFNWDFLVILKQDTVVDVGSLLNQLPASSTPFYGGY     960
+LDKFKDGTVYAKEELTVISRITLANILSGLRFVVREQKNDPVTVGRIAAKLRIHPTQITGGYNNTVGRAPSRVAGPGPSS    1040
+CLCFLVVLSVMEALCVLYNYTRSKDSEREREERERGRDRERQHQQEGPRLQAQGGSSLCRTLSSWTVPVPCLWISHCRDP    1120
+PELPLKIQFRELWRESGVEEDIPQISRDHKQPQGGSSLCRTLSSWTVPVPCLWISHCRDPPELPLKIQFRELWRESGVEE    1200
+DIPQISRDHKQLPIRLEYSLEYSPTAVPIKLEYSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDFLQNMKFLFKSSFFIHELFARSLMNSN    1440
+LPRVSHFVWVEFGFPMSTFRIKLEHQVKWQLRKCTCMILALPATFSQLYHG                                 1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...................................................                                 1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+611              7    MFVPLSK|IK  0.053    .
+611              9    VPLSKIK|VP  0.056    .
+611             14    IKVPLSK|RK  0.062    .
+611             15    KVPLSKR|KI  0.101    .
+611             16    VPLSKRK|IP  0.099    .
+611             21    RKIPYPK|ER  0.070    .
+611             23    IPYPKER|SP  0.244    .
+611             28    ERSPYPK|ER  0.084    .
+611             30    SPYPKER|ST  0.241    .
+611             35    ERSTYSR|ER  0.136    .
+611             37    STYSRER|SP  0.169    .
+611             42    ERSPYPK|ER  0.084    .
+611             44    SPYPKER|SP  0.233    .
+611             49    ERSPNQR|ER  0.147    .
+611             51    SPNQRER|SP  0.238    .
+611             56    ERSPFQR|EK  0.159    .
+611             58    SPFQREK|SP  0.112    .
+611             63    EKSPYPK|ER  0.070    .
+611             65    SPYPKER|SS  0.337    .
+611             70    ERSSYPK|ER  0.080    .
+611             72    SSYPKER|SS  0.245    .
+611             77    ERSSYPR|ER  0.157    .
+611             79    SSYPRER|SP  0.194    .
+611             84    ERSPYQR|ER  0.143    .
+611             86    SPYQRER|SP  0.191    .
+611             91    ERSPYQR|ER  0.107    .
+611             93    SPYQRER|SP  0.152    .
+611             98    ERSPYSK|VR  0.077    .
+611            100    SPYSKVR|SP  0.209    .
+611            105    VRSPYQR|ER  0.143    .
+611            107    SPYQRER|SP  0.159    .
+611            112    ERSPYLK|ER  0.073    .
+611            114    SPYLKER|SP  0.197    .
+611            119    ERSPYPR|ER  0.146    .
+611            121    SPYPRER|SP  0.184    .
+611            126    ERSPYLK|ER  0.081    .
+611            128    SPYLKER|SP  0.189    .
+611            149    VPHHNNK|IE  0.073    .
+611            158    ELVESIR|TL  0.082    .
+611            173    ESSHMLK|YD  0.090    .
+611            185    THTAYFR|SE  0.111    .
+611            188    AYFRSEK|FL  0.139    .
+611            192    SEKFLER|HK  0.093    .
+611            194    KFLERHK|SP  0.066    .
+611            198    RHKSPYK|IN  0.068    .
+611            220    LLGGTCR|VN  0.080    .
+611            228    NPQNHNK|PP  0.071    .
+611            243    SSGDGGK|VA  0.064    .
+611            266    QVLVLDK|PQ  0.059    .
+611            279    MLNVLSK|HL  0.081    .
+611            302    IDGIQDR|NT  0.077    .
+611            307    DRNTLLR|WP  0.110    .
+611            336    DPQHPNK|LP  0.062    .
+611            339    HPNKLPR|TP  0.114    .
+611            345    RTPPVAK|WS  0.071    .
+611            362    SQGNVGR|LF  0.085    .
+611            389    TSPFFDK|FP  0.076    .
+611            392    FFDKFPK|NS  0.059    .
+611            399    NSDNTSK|EI  0.071    .
+611            430    LFSLHGK|MK  0.072    .
+611            432    SLHGKMK|VK  0.069    .
+611            434    HGKMKVK|KH  0.070    .
+611            435    GKMKVKK|HH  0.086    .
+611            443    HVLFSLK|SE  0.071    .
+611            467    PPLLSSR|KP  0.073    .
+611            468    PLLSSRK|PV  0.115    .
+611            474    KPVSIMK|RQ  0.060    .
+611            475    PVSIMKR|QS  0.187    .
+611            485    PPPPVER|HD  0.115    .
+611            489    VERHDGR|KK  0.128    .
+611            490    ERHDGRK|KG  0.086    .
+611            491    RHDGRKK|GS  0.098    .
+611            501    FSVPVSR|ID  0.087    .
+611            513    DFASSNK|LF  0.059    .
+611            517    SNKLFQK|DE  0.074    .
+611            525    EIFDEWR|AQ  0.098    .
+611            539    SHHNPEK|IK  0.064    .
+611            541    HNPEKIK|PS  0.078    .
+611            548    PSEMVLR|RS  0.086    .
+611            549    SEMVLRR|SP  0.189    .
+611            553    LRRSPVR|TF  0.099    .
+611            566    EFQTDEK|IP  0.057    .
+611            576    VGLSLSR|RI  0.067    .
+611            577    GLSLSRR|IA  0.186    .
+611            582    RRIAVFK|NA  0.089    .
+611            615    LLGGTCR|VN  0.080    .
+611            623    NPQNHNK|PP  0.071    .
+611            638    SSGDGGK|VA  0.064    .
+611            661    QVLVLDK|PQ  0.059    .
+611            697    IDGIQDR|NT  0.077    .
+611            702    DRNTLLR|WP  0.110    .
+611            731    DPQHPNK|LP  0.062    .
+611            734    HPNKLPR|TP  0.114    .
+611            740    RTPPVAK|WS  0.071    .
+611            757    SQGNVGR|LF  0.085    .
+611            784    TSPFFDK|FG  0.068    .
+611            796    NQNSVFR|SR  0.123    .
+611            798    NSVFRSR|DW  0.101    .
+611            815    DQYFLVR|LA  0.096    .
+611            834    TPFDSQR|QC  0.116    .
+611            842    CPQMGSR|HQ  0.100    .
+611            851    TANIGSR|EK  0.118    .
+611            853    NIGSREK|EG  0.050    .
+611            860    EGVCPYK|PP  0.068    .
+611            866    KPPFPGK|QL  0.077    .
+611            873    QLDVTWK|FS  0.063    .
+611            890    EGYIPYK|LA  0.065    .
+611            908    VETIETR|YM  0.067    .
+611            913    TRYMLSR|PR  0.105    .
+611            915    YMLSRPR|LR  0.064    .
+611            917    LSRPRLR|VL  0.118    .
+611            925    LEEIITR|FN  0.092    .
+611            935    DFLVILK|QD  0.057    .
+611            963    YGGYLDK|FK  0.068    .
+611            965    GYLDKFK|DG  0.067    .
+611            972    DGTVYAK|EE  0.060    .
+611            980    ELTVISR|IT  0.073    .
+611            991    NILSGLR|FV  0.081    .
+611            995    GLRFVVR|EQ  0.089    .
+611            998    FVVREQK|ND  0.082    .
+611           1006    DPVTVGR|IA  0.111    .
+611           1010    VGRIAAK|LR  0.061    .
+611           1012    RIAAKLR|IH  0.108    .
+611           1028    YNNTVGR|AP  0.110    .
+611           1032    VGRAPSR|VA  0.141    .
+611           1062    VLYNYTR|SK  0.112    .
+611           1064    YNYTRSK|DS  0.080    .
+611           1068    RSKDSER|ER  0.099    .
+611           1070    KDSERER|EE  0.095    .
+611           1073    EREREER|ER  0.218    .
+611           1075    EREERER|GR  0.109    .
+611           1077    EERERGR|DR  0.131    .
+611           1079    RERGRDR|ER  0.100    .
+611           1081    RGRDRER|QH  0.105    .
+611           1089    HQQEGPR|LQ  0.097    .
+611           1100    GGSSLCR|TL  0.108    .
+611           1118    LWISHCR|DP  0.085    .
+611           1126    PPELPLK|IQ  0.064    .
+611           1130    PLKIQFR|EL  0.100    .
+611           1134    QFRELWR|ES  0.110    .
+611           1147    DIPQISR|DH  0.083    .
+611           1150    QISRDHK|QP  0.134    .
+611           1160    GGSSLCR|TL  0.112    .
+611           1178    LWISHCR|DP  0.085    .
+611           1186    PPELPLK|IQ  0.064    .
+611           1190    PLKIQFR|EL  0.100    .
+611           1194    QFRELWR|ES  0.110    .
+611           1207    DIPQISR|DH  0.074    .
+611           1210    QISRDHK|QL  0.158    .
+611           1215    HKQLPIR|LE  0.088    .
+611           1230    PTAVPIK|LE  0.060    .
+611           1419    DFLQNMK|FL  0.062    .
+611           1423    NMKFLFK|SS  0.074    .
+611           1434    IHELFAR|SL  0.143    .
+611           1443    MNSNLPR|VS  0.114    .
+611           1460    FPMSTFR|IK  0.081    .
+611           1462    MSTFRIK|LE  0.072    .
+611           1468    KLEHQVK|WQ  0.062    .
+611           1472    QVKWQLR|KC  0.090    .
+611           1473    VKWQLRK|CT  0.101    .
+____________________________^_________________
+
+
+
+

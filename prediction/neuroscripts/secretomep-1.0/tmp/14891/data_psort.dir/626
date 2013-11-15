@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------
+626	
+
+ psg: 0.71  gvh: 0.59  alm: 0.17  top: 0.67  tms: 1.33  mit: 0.24  mip: 0.00
+ nuc: 0.10  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.50  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 0.00  tyr: 0.00  leu: 0.00  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 1.00  m_ : 0.00  ncn: 0.00  lps: 0.00  len: 0.36 
+
+	 77.8 %: endoplasmic reticulum
+	 11.1 %: vesicles of secretory system
+	 11.1 %: mitochondrial
+
+>> prediction for 626 is end (k=9)
+

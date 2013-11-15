@@ -1,0 +1,305 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1793 400         
+MLHYYCLSSDAELAKKKKDEEEFQRREAERLAAEAAAEEEAAMQADRKAKEVAEAVAAEQAEQRAQIEEENRKLKEELNT      80
+AESVRKAKEELEAANEALKTSLLSLKAESHKTETELRKELLKLQENYKRELDRIRGENDKLKYLVKNSTVKTTTVKVTTL     160
+YALGNEVTPCQRARRSPGVGHGEMMTRSPVQVTLGEGNRHTAQFNDSDRVYDLSSESELVQLRSEVEGRMKAAVKGGETI     240
+SAETISMTVKGPGLHRMVLVDLPGIISTETAGMRPRTKEALHEMCSSFMRNPNAIILCVQDGSIDAERSNITNLVQVSPP     320
+QKSIIDMYADVLDTLSDNDNSYSVHDHLPRIVVVGDQIVNTELPRLTTSCTNNSHRGHGEMMTRSPVQVTLGEGNRHTAQ     400
+FNDSDRVYDLSSESELVQLRSEVEGRMKAAVKGGETISAETISMTVKGPGLHRMVLVDLPGIISTETAGMRPRTKEALHE     480
+MCSSFMRNPNAIILCVQDGSIDAERSNITNLVQAHDPKGKRTIFVLTKVDLAEKNMANPTRVKKILEGKLFPMKALGYFA     560
+VVTGRGPNEDSIDTIRSYEEDFFSRSKLFRSGAMRASQMSTNNLSLAVSDCFWKMVSDSVEQQSDVFKATRYNLEAEWRN     640
+TFPGIREMDRNDLFEKAKDEILDKIAALHKLTPLEWETLIQEALWSGIQHKVVDEIYLEAAECNSVSHFNTKVDIALKDW     720
+TDDTLPRISVDVGWQTLFSQLSSILMSKNSEGREFGDLFHPLKQNILETVKEQHHWQHNALARLSVIQKNALEDTAVTNK     800
+MQWDNSILFMERILKERIDQAQEDLKQCIGPGWRERWTGWRSRSPLEVQCVAAKNELQKLLLADDQHGKHLENDELTTVR     880
+RNLQTQGVDVPYESICKVWEKLYKLTFLNRALTSAQQCRKAFYHRNIACNAVECNDVVLFWRANKMLEMTSNALRLQIMN     960
+TEAQRLEKEVKQYLEDLSHDEDKKKSLIKGKRVELAEELRKVRGIQDKLVPLRPYLLFPPFLTARPTQSVIQKNALEDTA    1040
+VTNKMQWDNSILFMERILKERIDQAQEDLKQCIGPGWRERWTGWRSRSPLEVQCVAAKNELQKLLLADDQHGKHLENDEL    1120
+TTVRRNLQTQGVDVPYESICKVWEKLYKLTFLNRALTSAQQCRKAFYHRNIACNAVECNDVVLFWRANKMLEMTSNALRL    1200
+QIMNTEAQRLEKEVKQYLEDLSHDEDKKKSLIKGKRVELAEELRKVRGIQDKLDAHSTKSAKFLRINCNIWCALYLDERA    1280
+AHTLSNIGAPQSFFGPFFQIENSLLSVLTVLKLKSAALSHIIIWASSVCQVLKDLRSPDHFKSWNPQIGPVLSIRRGNGN    1360
+RNNSTNNQDSLRSHHFNDDFTGNCKSVSYYLSSIERHLEPKIELKGKPKKKNLRALVNLKHLLLTLIRDLENNSMGLWFN    1440
+ELVCDQQRGHEVLVKLLLSLVSSCHFYKSRYTFLLSSLIVVNHFQTKLCFQLSTPERTVSKIRIREGCEQELCARCLVLV    1520
+STNRLGLNCLSTYEHGMFVLVQALGTGRQSTIKHVCVIMLLVCKHSQGAYTKLVSHLECYKRKSSGYAQYQSRFSVIINL    1600
+IKDQCIEDTTYTAAVLRLLTAVIHSSPVLSMRIFYQLEVSMRKSVIETMRYECMLFFLPVLPIIFSLFLSLLSLSLSLSL    1680
+SLSLYLSLSLSISISLSPSLSLPFFIIIIALCFIMLCFPANEYSKRAAAAAAAAAAAAAAAAAAAAAAAAAAAAMHGKLL    1760
+TFNQIYRVKLNPSERYSIAYTVTRELLFQIRDF                                                   1840
+................................................................................      80
+................................................................................     160
+..............P.................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+.................................                                                   1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+400             15    SDAELAK|KK  0.075    .
+400             16    DAELAKK|KK  0.098    .
+400             17    AELAKKK|KD  0.098    .
+400             18    ELAKKKK|DE  0.167    .
+400             25    DEEEFQR|RE  0.072    .
+400             26    EEEFQRR|EA  0.149    .
+400             30    QRREAER|LA  0.131    .
+400             47    AAMQADR|KA  0.105    .
+400             48    AMQADRK|AK  0.104    .
+400             50    QADRKAK|EV  0.273    .
+400             64    AEQAEQR|AQ  0.102    .
+400             72    QIEEENR|KL  0.092    .
+400             73    IEEENRK|LK  0.073    .
+400             75    EENRKLK|EE  0.114    .
+400             85    NTAESVR|KA  0.121    .
+400             86    TAESVRK|AK  0.104    .
+400             88    ESVRKAK|EE  0.130    .
+400             99    AANEALK|TS  0.058    .
+400            106    TSLLSLK|AE  0.073    .
+400            111    LKAESHK|TE  0.065    .
+400            117    KTETELR|KE  0.067    .
+400            118    TETELRK|EL  0.079    .
+400            122    LRKELLK|LQ  0.063    .
+400            128    KLQENYK|RE  0.058    .
+400            129    LQENYKR|EL  0.193    .
+400            133    YKRELDR|IR  0.114    .
+400            135    RELDRIR|GE  0.099    .
+400            140    IRGENDK|LK  0.062    .
+400            142    GENDKLK|YL  0.074    .
+400            146    KLKYLVK|NS  0.066    .
+400            151    VKNSTVK|TT  0.072    .
+400            156    VKTTTVK|VT  0.056    .
+400            172    EVTPCQR|AR  0.066    .
+400            174    TPCQRAR|RS  0.144    .
+400            175    PCQRARR|SP  0.723 *ProP*
+400            187    HGEMMTR|SP  0.123    .
+400            199    TLGEGNR|HT  0.090    .
+400            209    QFNDSDR|VY  0.084    .
+400            223    SELVQLR|SE  0.102    .
+400            229    RSEVEGR|MK  0.114    .
+400            231    EVEGRMK|AA  0.078    .
+400            235    RMKAAVK|GG  0.071    .
+400            250    TISMTVK|GP  0.083    .
+400            256    KGPGLHR|MV  0.107    .
+400            274    TETAGMR|PR  0.079    .
+400            276    TAGMRPR|TK  0.119    .
+400            278    GMRPRTK|EA  0.078    .
+400            290    MCSSFMR|NP  0.111    .
+400            308    GSIDAER|SN  0.155    .
+400            322    QVSPPQK|SI  0.106    .
+400            350    VHDHLPR|IV  0.105    .
+400            365    VNTELPR|LT  0.077    .
+400            376    CTNNSHR|GH  0.131    .
+400            384    HGEMMTR|SP  0.116    .
+400            396    TLGEGNR|HT  0.090    .
+400            406    QFNDSDR|VY  0.084    .
+400            420    SELVQLR|SE  0.102    .
+400            426    RSEVEGR|MK  0.114    .
+400            428    EVEGRMK|AA  0.078    .
+400            432    RMKAAVK|GG  0.071    .
+400            447    TISMTVK|GP  0.083    .
+400            453    KGPGLHR|MV  0.107    .
+400            471    TETAGMR|PR  0.079    .
+400            473    TAGMRPR|TK  0.119    .
+400            475    GMRPRTK|EA  0.078    .
+400            487    MCSSFMR|NP  0.111    .
+400            505    GSIDAER|SN  0.148    .
+400            518    VQAHDPK|GK  0.076    .
+400            520    AHDPKGK|RT  0.069    .
+400            521    HDPKGKR|TI  0.142    .
+400            528    TIFVLTK|VD  0.061    .
+400            534    KVDLAEK|NM  0.050    .
+400            541    NMANPTR|VK  0.101    .
+400            543    ANPTRVK|KI  0.058    .
+400            544    NPTRVKK|IL  0.466    .
+400            549    KKILEGK|LF  0.060    .
+400            554    GKLFPMK|AL  0.068    .
+400            565    FAVVTGR|GP  0.075    .
+400            576    DSIDTIR|SY  0.133    .
+400            585    EEDFFSR|SK  0.083    .
+400            587    DFFSRSK|LF  0.057    .
+400            590    SRSKLFR|SG  0.198    .
+400            595    FRSGAMR|AS  0.127    .
+400            614    VSDCFWK|MV  0.102    .
+400            628    QQSDVFK|AT  0.089    .
+400            631    DVFKATR|YN  0.088    .
+400            639    NLEAEWR|NT  0.118    .
+400            646    NTFPGIR|EM  0.070    .
+400            650    GIREMDR|ND  0.068    .
+400            656    RNDLFEK|AK  0.073    .
+400            658    DLFEKAK|DE  0.066    .
+400            664    KDEILDK|IA  0.060    .
+400            670    KIAALHK|LT  0.059    .
+400            691    WSGIQHK|VV  0.089    .
+400            712    VSHFNTK|VD  0.068    .
+400            718    KVDIALK|DW  0.060    .
+400            727    TDDTLPR|IS  0.105    .
+400            748    SSILMSK|NS  0.068    .
+400            753    SKNSEGR|EF  0.140    .
+400            763    DLFHPLK|QN  0.060    .
+400            771    NILETVK|EQ  0.058    .
+400            783    QHNALAR|LS  0.102    .
+400            789    RLSVIQK|NA  0.067    .
+400            800    DTAVTNK|MQ  0.060    .
+400            812    SILFMER|IL  0.082    .
+400            815    FMERILK|ER  0.088    .
+400            817    ERILKER|ID  0.112    .
+400            826    QAQEDLK|QC  0.059    .
+400            834    CIGPGWR|ER  0.077    .
+400            836    GPGWRER|WT  0.126    .
+400            841    ERWTGWR|SR  0.165    .
+400            843    WTGWRSR|SP  0.121    .
+400            854    VQCVAAK|NE  0.060    .
+400            859    AKNELQK|LL  0.069    .
+400            869    ADDQHGK|HL  0.073    .
+400            880    DELTTVR|RN  0.068    .
+400            881    ELTTVRR|NL  0.151    .
+400            897    PYESICK|VW  0.055    .
+400            901    ICKVWEK|LY  0.057    .
+400            904    VWEKLYK|LT  0.061    .
+400            910    KLTFLNR|AL  0.090    .
+400            919    TSAQQCR|KA  0.153    .
+400            920    SAQQCRK|AF  0.080    .
+400            925    RKAFYHR|NI  0.092    .
+400            942    DVVLFWR|AN  0.091    .
+400            945    LFWRANK|ML  0.113    .
+400            955    MTSNALR|LQ  0.083    .
+400            965    MNTEAQR|LE  0.070    .
+400            968    EAQRLEK|EV  0.222    .
+400            971    RLEKEVK|QY  0.066    .
+400            983    LSHDEDK|KK  0.068    .
+400            984    SHDEDKK|KS  0.080    .
+400            985    HDEDKKK|SL  0.221    .
+400            989    KKKSLIK|GK  0.074    .
+400            991    KSLIKGK|RV  0.093    .
+400            992    SLIKGKR|VE  0.143    .
+400           1000    ELAEELR|KV  0.113    .
+400           1001    LAEELRK|VR  0.075    .
+400           1003    EELRKVR|GI  0.278    .
+400           1008    VRGIQDK|LV  0.070    .
+400           1013    DKLVPLR|PY  0.073    .
+400           1025    PPFLTAR|PT  0.095    .
+400           1033    TQSVIQK|NA  0.076    .
+400           1044    DTAVTNK|MQ  0.060    .
+400           1056    SILFMER|IL  0.082    .
+400           1059    FMERILK|ER  0.088    .
+400           1061    ERILKER|ID  0.112    .
+400           1070    QAQEDLK|QC  0.059    .
+400           1078    CIGPGWR|ER  0.077    .
+400           1080    GPGWRER|WT  0.126    .
+400           1085    ERWTGWR|SR  0.165    .
+400           1087    WTGWRSR|SP  0.121    .
+400           1098    VQCVAAK|NE  0.060    .
+400           1103    AKNELQK|LL  0.069    .
+400           1113    ADDQHGK|HL  0.073    .
+400           1124    DELTTVR|RN  0.068    .
+400           1125    ELTTVRR|NL  0.151    .
+400           1141    PYESICK|VW  0.055    .
+400           1145    ICKVWEK|LY  0.057    .
+400           1148    VWEKLYK|LT  0.061    .
+400           1154    KLTFLNR|AL  0.090    .
+400           1163    TSAQQCR|KA  0.153    .
+400           1164    SAQQCRK|AF  0.080    .
+400           1169    RKAFYHR|NI  0.092    .
+400           1186    DVVLFWR|AN  0.091    .
+400           1189    LFWRANK|ML  0.113    .
+400           1199    MTSNALR|LQ  0.083    .
+400           1209    MNTEAQR|LE  0.070    .
+400           1212    EAQRLEK|EV  0.222    .
+400           1215    RLEKEVK|QY  0.066    .
+400           1227    LSHDEDK|KK  0.068    .
+400           1228    SHDEDKK|KS  0.080    .
+400           1229    HDEDKKK|SL  0.221    .
+400           1233    KKKSLIK|GK  0.074    .
+400           1235    KSLIKGK|RV  0.093    .
+400           1236    SLIKGKR|VE  0.143    .
+400           1244    ELAEELR|KV  0.113    .
+400           1245    LAEELRK|VR  0.072    .
+400           1247    EELRKVR|GI  0.328    .
+400           1252    VRGIQDK|LD  0.070    .
+400           1259    LDAHSTK|SA  0.103    .
+400           1262    HSTKSAK|FL  0.079    .
+400           1265    KSAKFLR|IN  0.113    .
+400           1279    ALYLDER|AA  0.083    .
+400           1312    SVLTVLK|LK  0.066    .
+400           1314    LTVLKLK|SA  0.072    .
+400           1333    SVCQVLK|DL  0.070    .
+400           1336    QVLKDLR|SP  0.088    .
+400           1342    RSPDHFK|SW  0.106    .
+400           1355    GPVLSIR|RG  0.084    .
+400           1356    PVLSIRR|GN  0.118    .
+400           1361    RRGNGNR|NN  0.109    .
+400           1372    NNQDSLR|SH  0.122    .
+400           1385    DFTGNCK|SV  0.098    .
+400           1396    YLSSIER|HL  0.117    .
+400           1401    ERHLEPK|IE  0.067    .
+400           1405    EPKIELK|GK  0.065    .
+400           1407    KIELKGK|PK  0.075    .
+400           1409    ELKGKPK|KK  0.057    .
+400           1410    LKGKPKK|KN  0.107    .
+400           1411    KGKPKKK|NL  0.137    .
+400           1414    PKKKNLR|AL  0.089    .
+400           1420    RALVNLK|HL  0.055    .
+400           1428    LLLTLIR|DL  0.093    .
+400           1448    LVCDQQR|GH  0.089    .
+400           1455    GHEVLVK|LL  0.059    .
+400           1468    SSCHFYK|SR  0.097    .
+400           1470    CHFYKSR|YT  0.088    .
+400           1487    VNHFQTK|LC  0.065    .
+400           1497    QLSTPER|TV  0.199    .
+400           1501    PERTVSK|IR  0.064    .
+400           1503    RTVSKIR|IR  0.106    .
+400           1505    VSKIRIR|EG  0.098    .
+400           1515    EQELCAR|CL  0.070    .
+400           1524    VLVSTNR|LG  0.071    .
+400           1548    QALGTGR|QS  0.077    .
+400           1553    GRQSTIK|HV  0.095    .
+400           1564    IMLLVCK|HS  0.062    .
+400           1572    SQGAYTK|LV  0.090    .
+400           1581    SHLECYK|RK  0.061    .
+400           1582    HLECYKR|KS  0.172    .
+400           1583    LECYKRK|SS  0.210    .
+400           1593    YAQYQSR|FS  0.100    .
+400           1602    VIINLIK|DQ  0.068    .
+400           1617    YTAAVLR|LL  0.113    .
+400           1632    SPVLSMR|IF  0.136    .
+400           1642    QLEVSMR|KS  0.086    .
+400           1643    LEVSMRK|SV  0.135    .
+400           1650    SVIETMR|YE  0.090    .
+400           1725    PANEYSK|RA  0.066    .
+400           1726    ANEYSKR|AA  0.274    .
+400           1758    AAAMHGK|LL  0.068    .
+400           1767    TFNQIYR|VK  0.065    .
+400           1769    NQIYRVK|LN  0.060    .
+400           1775    KLNPSER|YS  0.129    .
+400           1784    IAYTVTR|EL  0.093    .
+400           1791    ELLFQIR|DF  0.097    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,28 @@
+# 324 Length: 1968
+# 324 Number of predicted TMHs:  11
+# 324 Exp number of AAs in TMHs: 265.20621
+# 324 Exp number, first 60 AAs:  0.08027
+# 324 Total prob of N-in:        0.03040
+324	TMHMM2.0	outside	     1   617
+324	TMHMM2.0	TMhelix	   618   640
+324	TMHMM2.0	inside	   641   646
+324	TMHMM2.0	TMhelix	   647   669
+324	TMHMM2.0	outside	   670   673
+324	TMHMM2.0	TMhelix	   674   696
+324	TMHMM2.0	inside	   697   702
+324	TMHMM2.0	TMhelix	   703   725
+324	TMHMM2.0	outside	   726   734
+324	TMHMM2.0	TMhelix	   735   752
+324	TMHMM2.0	inside	   753   838
+324	TMHMM2.0	TMhelix	   839   861
+324	TMHMM2.0	outside	   862  1790
+324	TMHMM2.0	TMhelix	  1791  1813
+324	TMHMM2.0	inside	  1814  1819
+324	TMHMM2.0	TMhelix	  1820  1842
+324	TMHMM2.0	outside	  1843  1856
+324	TMHMM2.0	TMhelix	  1857  1879
+324	TMHMM2.0	inside	  1880  1885
+324	TMHMM2.0	TMhelix	  1886  1908
+324	TMHMM2.0	outside	  1909  1922
+324	TMHMM2.0	TMhelix	  1923  1945
+324	TMHMM2.0	inside	  1946  1968

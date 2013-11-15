@@ -1,0 +1,343 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2448 212         
+MGQRGVPGSTGMKGDRGELGNDGPPGPAGDRGLTGPAGPTGEPGDAGMTGYAGRDGVDGVPGTPGVDGCNGTKGELGLPG      80
+NDGRPGAPGLKGAAGLAGTPGTIGEPGLNGAKGNPGRDGNDGRDGMNGAKGEQGRPGSRGSAGERGENGRDGGKGNTGGP     160
+GSNGRPGAPGQKGNQGQPGRPGNDGSAGLNGVKGSPGQNGNRGAPGLPGKEGMNGAKGSSGRLGEPGTPGKDGTPGFAGA     240
+KGDTGAPGMPGNQGRPGAPGIGEKGDRGSPGVAVTLSGLPGEKGDRGNPGRNGLPGMSGAKGDREPSESLGEQGRPGSRG     320
+SAGERGENGRDGGKGNTGGPGSNGRPGAPGQKGNQGQPGRPGNDGSAGLNGVKGSPGQNGNRGAPGLPGKEGMNGGKGSS     400
+GRPGEPGTPGKDGTPGFAGAKGDTGAPGMPGNQGRPGAPGIGEKGDRGSPGVAVTLSGLPGEKGDRGNPGRNGLPGMSGA     480
+KGDRGTDGRAGAKGDAGKDGLNGRNGKDGLNGAPGLDGGKGDAGRPGSKGDRGTPGFGGSPGEPGAPGSPGAKGESLPGM     560
+PGAKGDSGTPGTPGRNGEKGDSGEGGRDGSPGLLGMKGDRGTPGSPGSPGYGTPGSKGDSGRPGVPGRKGENGLGGRPGT     640
+PGLPGSKGDAGNAGSPGMPGSKGDTGRGGSDGAPGNRGEPGNPGTPGKSGLRGDKGEPGLPGNMGTPGERGMPGAPGAKG     720
+NGGLPGRSGNDGARGENGANGTPGTPGAKGDTGNNGRDATGMDGAKGDAGRPGLNGAKGNAGMPGRPGINGERGNDGTPG     800
+MNGEKGNAGLPGSNGMPGAKGDAGRTIPGRPGEMGNAGKDGMPGMPGAKGDSGLNGSPGANGKDGLPGRPGNDVKHTIAE     880
+SPCTEFKKLRETEVTLETLVPPELPVWSEKREIEETQGESLPGMPGAKGDSGTPGTPGRNGEKGDSGEGGRDGSPGLLGM     960
+KGDRGTPGSPGSPGYGTPGSKGDSGRPGVPGRKGENGLGGRPGTPGLPGSKGDAGNAGSPGMPGSKGDTGRGGSDGAPGN    1040
+RGEPGNPGTPGKSGLRGDKGEPGLPGNMGTPGERGMPGAPGAKGNGGLPGRSGNDGARGENGANGTPGTPGAKGDTGNNG    1120
+RDATGMDGAKGDAGRPGLNGAKGNAGMPGRPGINGERGNDGTPGMNGEKGNAGLPGSNGMPGAKGDAGRTIPGRPGEMGN    1200
+AGKDGMPGMPGAKGDTGLNGSPGANGKDGLPGRPGNDGRNGLNGQKGDRGNAGNPGTPGTPGMVGEKGDRGNPGLNGADG    1280
+RPGNNGLPGTKGNPGMPGASQAGIKGDMGLQGLPGSAGRPGERGNSGKDGMNGNPGMPGEKGDAGAAGEPGKDGAPGMPG    1360
+MKGDSPVVNGPPGPRGPPGESGNGMPGAKGEPGTPGRNGMPGAKGETINNYGQPGGPGNAGNDGAVGEKGDRGNNGNPGM    1440
+PGAKGESGFGNPGTPGMPGAKGDSGTPGENGMNGAKGESGMPGRPGTSINGMKGEAGLPGNPGTPGTPGEKGNAATAGMN    1520
+GEPGLQGRPGNPGNAGPPGPAGKNGDPGAAGTKGEPGRATPGRDGMPGAKGDRGRDGNPGRDGNPGNSGTPGTPGEKGDA    1600
+GLNGNPGVGIAGEPGRPGLPGAAGMKGDMGRAGNPGNAGPPGANGDIGPQGRQGQAGMKGDRGNPGNPGSPGNDGAAGNP    1680
+GSAGSPGGPGMRGPPGPSGSNGNPGTPGTAGEKGNTGPAGNPGRDGSAGSPGMPGRQGDRSQDHPDPPELMESRERWERE    1760
+EPLVPGVLLVSREFLDLLELPEPESWEPRERREALERISILTPPLPQGNPGNSGTPGTPGEKGDAGLNGNPGVGIAGEPG    1840
+RPGLPGAAGMKGDMGRAGNPGNAGPPGPAGKNGDPGAAGTKGEPGRATPGRDGMPGAKGDRGRDGNPGRDGNPGNSGTPG    1920
+TPGEKGDAGLNGNPGVGIAGEPGRPGLPGAAGMKGDMGRAGNPGNAGPPGPAGKNGDPGAAGTKGEPGRATPGRDGMPGA    2000
+KGDRGRDGNPGRDGNPGNSGTPGTPGEKGDAGLNGNPGVGIAGEPGRPGLPGAAGMKGDMGRAGNPGNAGPPGANGDIGP    2080
+QGRQGQAGMKGDRGNPGNPGSPGNDGAAGNPGSAGSPGGPGMRGPPGPSGSNGNPGTPGTAGEKGNTGPAGNPGRDGSAG    2160
+SPGMPGRQGDRGSDGTTITGPPGPSGTDGVKGELGERGATGARGIAGIKGIAGPAGIAGTGVMGAKGEKGSAGKTGPPGE    2240
+AAQSIQLNPYIVAFHSQKNVAPKCFDGMTELWTGYSFMFVDVTKSITAQTTSEPGSCWREFYMNPLQLCNTASCQISKNE    2320
+YTFWMPTADIPDDVDVGEHYPQALRYTEDNRDEILKYISRCVVCVSDYRLMAVHSYRNQNPDTSYLQQNGWVELYQGYSY    2400
+LFQSGAKEGSGNQLGEHGSCMQYYSPVSVVQAIGQEVRWISNSGFSHT                                    2480
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................                                    2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+212              4    ---MGQR|GV  0.134    .
+212             13    PGSTGMK|GD  0.068    .
+212             16    TGMKGDR|GE  0.078    .
+212             31    PGPAGDR|GL  0.069    .
+212             54    MTGYAGR|DG  0.136    .
+212             73    DGCNGTK|GE  0.055    .
+212             84    LPGNDGR|PG  0.110    .
+212             91    PGAPGLK|GA  0.065    .
+212            112    PGLNGAK|GN  0.055    .
+212            117    AKGNPGR|DG  0.177    .
+212            123    RDGNDGR|DG  0.145    .
+212            130    DGMNGAK|GE  0.061    .
+212            135    AKGEQGR|PG  0.116    .
+212            139    QGRPGSR|GS  0.084    .
+212            145    RGSAGER|GE  0.090    .
+212            150    ERGENGR|DG  0.194    .
+212            154    NGRDGGK|GN  0.067    .
+212            165    GPGSNGR|PG  0.106    .
+212            172    PGAPGQK|GN  0.064    .
+212            180    NQGQPGR|PG  0.094    .
+212            193    AGLNGVK|GS  0.057    .
+212            202    PGQNGNR|GA  0.096    .
+212            210    APGLPGK|EG  0.069    .
+212            217    EGMNGAK|GS  0.075    .
+212            222    AKGSSGR|LG  0.127    .
+212            231    EPGTPGK|DG  0.083    .
+212            241    PGFAGAK|GD  0.068    .
+212            255    MPGNQGR|PG  0.141    .
+212            264    APGIGEK|GD  0.070    .
+212            267    IGEKGDR|GS  0.092    .
+212            283    SGLPGEK|GD  0.057    .
+212            286    PGEKGDR|GN  0.071    .
+212            291    DRGNPGR|NG  0.103    .
+212            301    PGMSGAK|GD  0.058    .
+212            304    SGAKGDR|EP  0.104    .
+212            315    SLGEQGR|PG  0.105    .
+212            319    QGRPGSR|GS  0.082    .
+212            325    RGSAGER|GE  0.090    .
+212            330    ERGENGR|DG  0.194    .
+212            334    NGRDGGK|GN  0.067    .
+212            345    GPGSNGR|PG  0.106    .
+212            352    PGAPGQK|GN  0.064    .
+212            360    NQGQPGR|PG  0.094    .
+212            373    AGLNGVK|GS  0.057    .
+212            382    PGQNGNR|GA  0.096    .
+212            390    APGLPGK|EG  0.074    .
+212            397    EGMNGGK|GS  0.067    .
+212            402    GKGSSGR|PG  0.156    .
+212            411    EPGTPGK|DG  0.090    .
+212            421    PGFAGAK|GD  0.068    .
+212            435    MPGNQGR|PG  0.141    .
+212            444    APGIGEK|GD  0.070    .
+212            447    IGEKGDR|GS  0.092    .
+212            463    SGLPGEK|GD  0.057    .
+212            466    PGEKGDR|GN  0.071    .
+212            471    DRGNPGR|NG  0.103    .
+212            481    PGMSGAK|GD  0.060    .
+212            484    SGAKGDR|GT  0.105    .
+212            489    DRGTDGR|AG  0.103    .
+212            493    DGRAGAK|GD  0.062    .
+212            498    AKGDAGK|DG  0.077    .
+212            504    KDGLNGR|NG  0.104    .
+212            507    LNGRNGK|DG  0.168    .
+212            520    PGLDGGK|GD  0.054    .
+212            525    GKGDAGR|PG  0.127    .
+212            529    AGRPGSK|GD  0.060    .
+212            532    PGSKGDR|GT  0.104    .
+212            553    PGSPGAK|GE  0.065    .
+212            564    PGMPGAK|GD  0.073    .
+212            575    TPGTPGR|NG  0.140    .
+212            579    PGRNGEK|GD  0.068    .
+212            587    DSGEGGR|DG  0.144    .
+212            597    PGLLGMK|GD  0.057    .
+212            600    LGMKGDR|GT  0.098    .
+212            617    YGTPGSK|GD  0.059    .
+212            622    SKGDSGR|PG  0.133    .
+212            628    RPGVPGR|KG  0.140    .
+212            629    PGVPGRK|GE  0.068    .
+212            637    ENGLGGR|PG  0.092    .
+212            647    PGLPGSK|GD  0.054    .
+212            662    PGMPGSK|GD  0.061    .
+212            667    SKGDTGR|GG  0.179    .
+212            677    DGAPGNR|GE  0.082    .
+212            688    NPGTPGK|SG  0.095    .
+212            692    PGKSGLR|GD  0.071    .
+212            695    SGLRGDK|GE  0.095    .
+212            710    MGTPGER|GM  0.077    .
+212            719    PGAPGAK|GN  0.074    .
+212            727    NGGLPGR|SG  0.137    .
+212            734    SGNDGAR|GE  0.115    .
+212            749    PGTPGAK|GD  0.058    .
+212            757    DTGNNGR|DA  0.127    .
+212            766    TGMDGAK|GD  0.061    .
+212            771    AKGDAGR|PG  0.090    .
+212            778    PGLNGAK|GN  0.059    .
+212            786    NAGMPGR|PG  0.107    .
+212            793    PGINGER|GN  0.088    .
+212            805    PGMNGEK|GN  0.060    .
+212            820    NGMPGAK|GD  0.059    .
+212            825    AKGDAGR|TI  0.106    .
+212            830    GRTIPGR|PG  0.114    .
+212            839    EMGNAGK|DG  0.084    .
+212            849    PGMPGAK|GD  0.067    .
+212            863    SPGANGK|DG  0.084    .
+212            869    KDGLPGR|PG  0.116    .
+212            875    RPGNDVK|HT  0.078    .
+212            887    SPCTEFK|KL  0.078    .
+212            888    PCTEFKK|LR  0.097    .
+212            890    TEFKKLR|ET  0.146    .
+212            910    LPVWSEK|RE  0.066    .
+212            911    PVWSEKR|EI  0.218    .
+212            928    PGMPGAK|GD  0.073    .
+212            939    TPGTPGR|NG  0.140    .
+212            943    PGRNGEK|GD  0.068    .
+212            951    DSGEGGR|DG  0.144    .
+212            961    PGLLGMK|GD  0.057    .
+212            964    LGMKGDR|GT  0.098    .
+212            981    YGTPGSK|GD  0.059    .
+212            986    SKGDSGR|PG  0.133    .
+212            992    RPGVPGR|KG  0.140    .
+212            993    PGVPGRK|GE  0.068    .
+212           1001    ENGLGGR|PG  0.092    .
+212           1011    PGLPGSK|GD  0.054    .
+212           1026    PGMPGSK|GD  0.061    .
+212           1031    SKGDTGR|GG  0.179    .
+212           1041    DGAPGNR|GE  0.082    .
+212           1052    NPGTPGK|SG  0.095    .
+212           1056    PGKSGLR|GD  0.071    .
+212           1059    SGLRGDK|GE  0.095    .
+212           1074    MGTPGER|GM  0.077    .
+212           1083    PGAPGAK|GN  0.074    .
+212           1091    NGGLPGR|SG  0.137    .
+212           1098    SGNDGAR|GE  0.115    .
+212           1113    PGTPGAK|GD  0.058    .
+212           1121    DTGNNGR|DA  0.127    .
+212           1130    TGMDGAK|GD  0.061    .
+212           1135    AKGDAGR|PG  0.090    .
+212           1142    PGLNGAK|GN  0.059    .
+212           1150    NAGMPGR|PG  0.107    .
+212           1157    PGINGER|GN  0.088    .
+212           1169    PGMNGEK|GN  0.060    .
+212           1184    NGMPGAK|GD  0.059    .
+212           1189    AKGDAGR|TI  0.106    .
+212           1194    GRTIPGR|PG  0.114    .
+212           1203    EMGNAGK|DG  0.084    .
+212           1213    PGMPGAK|GD  0.063    .
+212           1227    SPGANGK|DG  0.084    .
+212           1233    KDGLPGR|PG  0.113    .
+212           1239    RPGNDGR|NG  0.100    .
+212           1246    NGLNGQK|GD  0.056    .
+212           1249    NGQKGDR|GN  0.095    .
+212           1267    PGMVGEK|GD  0.059    .
+212           1270    VGEKGDR|GN  0.072    .
+212           1281    LNGADGR|PG  0.114    .
+212           1291    NGLPGTK|GN  0.058    .
+212           1305    ASQAGIK|GD  0.071    .
+212           1319    LPGSAGR|PG  0.102    .
+212           1323    AGRPGER|GN  0.107    .
+212           1328    ERGNSGK|DG  0.105    .
+212           1341    PGMPGEK|GD  0.058    .
+212           1352    AAGEPGK|DG  0.090    .
+212           1362    PGMPGMK|GD  0.070    .
+212           1375    NGPPGPR|GP  0.069    .
+212           1389    NGMPGAK|GE  0.058    .
+212           1397    EPGTPGR|NG  0.108    .
+212           1404    NGMPGAK|GE  0.062    .
+212           1429    DGAVGEK|GD  0.063    .
+212           1432    VGEKGDR|GN  0.081    .
+212           1444    PGMPGAK|GE  0.066    .
+212           1461    PGMPGAK|GD  0.066    .
+212           1476    NGMNGAK|GE  0.065    .
+212           1484    ESGMPGR|PG  0.097    .
+212           1493    TSINGMK|GE  0.069    .
+212           1511    PGTPGEK|GN  0.057    .
+212           1528    EPGLQGR|PG  0.106    .
+212           1543    PPGPAGK|NG  0.074    .
+212           1553    PGAAGTK|GE  0.055    .
+212           1558    TKGEPGR|AT  0.119    .
+212           1563    GRATPGR|DG  0.225    .
+212           1570    DGMPGAK|GD  0.060    .
+212           1573    PGAKGDR|GR  0.084    .
+212           1575    AKGDRGR|DG  0.173    .
+212           1581    RDGNPGR|DG  0.136    .
+212           1597    PGTPGEK|GD  0.054    .
+212           1616    IAGEPGR|PG  0.098    .
+212           1626    PGAAGMK|GD  0.060    .
+212           1631    MKGDMGR|AG  0.119    .
+212           1652    DIGPQGR|QG  0.102    .
+212           1659    QGQAGMK|GD  0.064    .
+212           1662    AGMKGDR|GN  0.085    .
+212           1692    PGGPGMR|GP  0.069    .
+212           1713    PGTAGEK|GN  0.054    .
+212           1724    PAGNPGR|DG  0.156    .
+212           1736    SPGMPGR|QG  0.166    .
+212           1740    PGRQGDR|SQ  0.102    .
+212           1754    PELMESR|ER  0.072    .
+212           1756    LMESRER|WE  0.074    .
+212           1759    SRERWER|EE  0.173    .
+212           1772    GVLLVSR|EF  0.075    .
+212           1789    PESWEPR|ER  0.110    .
+212           1791    SWEPRER|RE  0.073    .
+212           1792    WEPRERR|EA  0.407    .
+212           1797    RREALER|IS  0.081    .
+212           1822    PGTPGEK|GD  0.054    .
+212           1841    IAGEPGR|PG  0.098    .
+212           1851    PGAAGMK|GD  0.060    .
+212           1856    MKGDMGR|AG  0.119    .
+212           1871    PPGPAGK|NG  0.074    .
+212           1881    PGAAGTK|GE  0.055    .
+212           1886    TKGEPGR|AT  0.119    .
+212           1891    GRATPGR|DG  0.225    .
+212           1898    DGMPGAK|GD  0.060    .
+212           1901    PGAKGDR|GR  0.084    .
+212           1903    AKGDRGR|DG  0.173    .
+212           1909    RDGNPGR|DG  0.136    .
+212           1925    PGTPGEK|GD  0.054    .
+212           1944    IAGEPGR|PG  0.098    .
+212           1954    PGAAGMK|GD  0.060    .
+212           1959    MKGDMGR|AG  0.119    .
+212           1974    PPGPAGK|NG  0.074    .
+212           1984    PGAAGTK|GE  0.055    .
+212           1989    TKGEPGR|AT  0.119    .
+212           1994    GRATPGR|DG  0.225    .
+212           2001    DGMPGAK|GD  0.060    .
+212           2004    PGAKGDR|GR  0.084    .
+212           2006    AKGDRGR|DG  0.173    .
+212           2012    RDGNPGR|DG  0.136    .
+212           2028    PGTPGEK|GD  0.054    .
+212           2047    IAGEPGR|PG  0.098    .
+212           2057    PGAAGMK|GD  0.060    .
+212           2062    MKGDMGR|AG  0.119    .
+212           2083    DIGPQGR|QG  0.102    .
+212           2090    QGQAGMK|GD  0.064    .
+212           2093    AGMKGDR|GN  0.085    .
+212           2123    PGGPGMR|GP  0.069    .
+212           2144    PGTAGEK|GN  0.054    .
+212           2155    PAGNPGR|DG  0.156    .
+212           2167    SPGMPGR|QG  0.136    .
+212           2171    PGRQGDR|GS  0.089    .
+212           2191    SGTDGVK|GE  0.058    .
+212           2197    KGELGER|GA  0.090    .
+212           2203    RGATGAR|GI  0.101    .
+212           2209    RGIAGIK|GI  0.059    .
+212           2226    TGVMGAK|GE  0.064    .
+212           2229    MGAKGEK|GS  0.062    .
+212           2234    EKGSAGK|TG  0.067    .
+212           2258    VAFHSQK|NV  0.075    .
+212           2263    QKNVAPK|CF  0.090    .
+212           2284    MFVDVTK|SI  0.106    .
+212           2299    EPGSCWR|EF  0.089    .
+212           2318    ASCQISK|NE  0.059    .
+212           2345    HYPQALR|YT  0.093    .
+212           2351    RYTEDNR|DE  0.073    .
+212           2356    NRDEILK|YI  0.081    .
+212           2360    ILKYISR|CV  0.089    .
+212           2369    VCVSDYR|LM  0.061    .
+212           2377    MAVHSYR|NQ  0.091    .
+212           2407    LFQSGAK|EG  0.064    .
+212           2438    AIGQEVR|WI  0.131    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,449 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2484 205         
+MIFLTSEFQIFILSGTGDMRALQRATPSFELPRHPFIKGPVAYAKSIWIWFPLWSVERIENRLQSLHQLHDDALLEIFRY      80
+LPLATVAKCGEVCKRWNNLSKMAFRPPLSVHHLGINTDGSITTECPKAVPFEAFCDETCTYSDSPPAKLSLPFGDFKCLT     160
+SLILTRVEISTKFASTFSNNSPPLLETLEFNSCGSLTERRLKLILFDLPQLKELHCLSCENFIGSSIVESLHDNPLRAVS     240
+LYQCKKVKQSVVTQIINTYQTTLEWLAVSPCSGDCGFSTSIPGKLPTLLPKLTELILAEKYFLYSGKDIYLEGVNKMLNL     320
+TPNLLKLSIRQPYAFPKVMGCVVKYCPRLTHLDVSGIERNSFGNTAPTSAWALISRLKHLQVLRAPFEEPEDPIFHQYDY     400
+LPLDYLWLSKCKTLRNIDLIFHDIFDNDVEGLIKSNPDLELKELHCLSCGNFIGSSIVESLQDNPLRAVSLYRCKKVKQS     480
+VVTQIINTYQTCDLTNRHRGTRPLTPKSTSIPGKLPTLLPKLTELILAEKYFLYSGDIYLEGVKKMLNLTPNLIKLSIRN     560
+PYAFPKVMTCVVKYCPRLTHLDVSGIDRNSFGNTTPTSTWALISRLKHLQVLKAPFHRYDYPPLDYLWLSKCKTLRNIDL     640
+SFRDIFDNDMEGLIKSNPDLEVLKLVGLHLLMLPEVYELQHLGVLLPEEAKSVIKTRTDFEYKMRRRISKKLDFVKFIEY     720
+ELKIETLKQARIKKLGVGEVSEHTKYRSLQRIHFIFQKCLRKYKSDVPLWIKYIKYCKKVSSSRALGFAFVEALKHNPTA     800
+VEIWIMSAKNEMETNKNITSARSIFLRALKFNDSSPDLWVEYFRLEVLHVEKMLKRQELMAACDKTLDTNTKAEFLEYKT     880
+AKIVFTSALKSITMGGELLRRFVGEKLFRERRHTRDASVWCCLAGHVAEKDIDKAVSLLRRSLTLIPTAECLLAVIQLLH     960
+SIESRLPQDLSKVVATFLPDSPFPAKTADTVISLGLALEMVGLDDSFPPILSQALSQFPDSKPLWLARLSSGAGVNDYEL    1040
+AVSALPEDCDIWREYLTFLSNSDPEKCTEKWREVMKQGFSGSLSALYLQSVFTREGLKGVRDAFKELKSWNSVPECGYQA    1120
+MLSFEKEKSSPEQVFQMYTELVTSYNSLSNWREFLNFCREQLPEKISDVMWKAFKDCKIVEIENRKDCAAIQDYCAKIAG    1200
+SRSVPKAMLCQPQLVPVTPTSLTGYLTLSTGTEYFISLDHSTSPPSFTPDATLQSALQPLQTQLKTLLNESTTKESFVGE    1280
+LVALLEQHTTPSPPSQCHDQILSVIRQVADLPSESVRRVDINSVTLVHSLLRLALVQHCELKGGPIISCDLPIQPNPSTS    1360
+CRDILDQVSTIVEQHQALWDVLDDIDSKCWVVEPEKGTRKHSHRRIVVTPDVSIIINLDPQQPTSLPRCRFLGSPSAVVE    1440
+YQDRLDEFSEDWDCGTGIVDNLGSILDVELPSGPTGGEESRCECGVCYCHEMEGKTPEISSTVVYHAVFLCFSPALFFRK    1520
+TSKKKEESLVFNCTSCAQPQLLVQGKRNILCHPFLQVGVCRECLIFSHSDLIPKDNDGYDIYCMWCSELGNLTCCDECRA    1600
+PICQECITRNVSADYFESLGDQDVWKCFACEPSPIEEIRTITKAALDFQNFGEPSELLFEMCTAVFQGETDLNDSDRDDF    1680
+VKERIRLRRENYKRGVSNMQKEEKREEMEGDSESEEKESDSESEKKKKKLSLKKRPKKEEKEEMESEEEKPKKKMKLTLK    1760
+KKYKEEEKVTPVKKAKKKLEEVSDDSSDGKEEKKKKEEEEERMGDSSADEMLEKKVDLGEESGVESDAPVSEEKEESLSD    1840
+TLANPLLLCTVSPLRSLVGCVVYSSLHTSQCLVAALHRFTPEVPSGSCEKKFPYTFVVHQMVRQKNTKSGRNKKAKTSKK    1920
+KEESLVFNCTSCAQPQLLVQGKRNILCHPFLQVGVCRECLIFSHSDLIPKDNDGYDIYCMWCSELGNLTCCDECRAPICQ    2000
+ECITRNVSADYFESLGDQDVWKCFACEPSPIEEIRTITKAALDFQNFGEPSELLFEMCTAVFQGETDLNDSDRDDFVKER    2080
+IRLRRENYKRGVSNMQKEEKREEMEGDSESEEKESDSESEKKKKKLSLKKRPKKEEKEEVESEEEKPKKKMKLTLKKKYK    2160
+EEEKVTPVKKAKKKLEEVSDDSSDGKEEKKKKEEEEERMGDSSADEMLEKKVDLGEESGVESDAPVSEEKEESLSDSEST    2240
+EKKKNSDSSDFEIPSPSGKKKRRSKKREEKESDSESEKKKKKLSLKKRPKKEEKEEMESEEEKPKKKMKLTLKKKYKEEE    2320
+KVTPVKKAKKKLEEVSDDSSDEKEEKKKEEEEERMGDSSADEMLEKKVDLGEESGVESDAPVTLANPLTMSGEDETKPAG    2400
+GDSDHINLRVIGQNNSEVHFRIKKTTQMKKLKAAFCERQGIPINSVRFLFEGARINDEQAPKDLEMEDNDTIEVYQEQTG    2480
+GSSC                                                                                2560
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+..................................P.............................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+....                                                                                2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+205             20    SGTGDMR|AL  0.096    .
+205             24    DMRALQR|AT  0.083    .
+205             33    PSFELPR|HP  0.095    .
+205             38    PRHPFIK|GP  0.085    .
+205             45    GPVAYAK|SI  0.120    .
+205             58    PLWSVER|IE  0.075    .
+205             62    VERIENR|LQ  0.083    .
+205             79    ALLEIFR|YL  0.073    .
+205             88    PLATVAK|CG  0.073    .
+205             94    KCGEVCK|RW  0.062    .
+205             95    CGEVCKR|WN  0.157    .
+205            101    RWNNLSK|MA  0.081    .
+205            105    LSKMAFR|PP  0.082    .
+205            127    ITTECPK|AV  0.064    .
+205            148    SDSPPAK|LS  0.081    .
+205            157    LPFGDFK|CL  0.066    .
+205            166    TSLILTR|VE  0.072    .
+205            172    RVEISTK|FA  0.074    .
+205            199    CGSLTER|RL  0.089    .
+205            200    GSLTERR|LK  0.094    .
+205            202    LTERRLK|LI  0.113    .
+205            212    FDLPQLK|EL  0.054    .
+205            237    LHDNPLR|AV  0.131    .
+205            245    VSLYQCK|KV  0.080    .
+205            246    SLYQCKK|VK  0.095    .
+205            248    YQCKKVK|QS  0.064    .
+205            284    STSIPGK|LP  0.064    .
+205            291    LPTLLPK|LT  0.070    .
+205            300    ELILAEK|YF  0.059    .
+205            307    YFLYSGK|DI  0.076    .
+205            316    YLEGVNK|ML  0.058    .
+205            326    LTPNLLK|LS  0.058    .
+205            330    LLKLSIR|QP  0.091    .
+205            337    QPYAFPK|VM  0.079    .
+205            344    VMGCVVK|YC  0.065    .
+205            348    VVKYCPR|LT  0.076    .
+205            359    DVSGIER|NS  0.083    .
+205            376    AWALISR|LK  0.077    .
+205            378    ALISRLK|HL  0.061    .
+205            384    KHLQVLR|AP  0.081    .
+205            410    DYLWLSK|CK  0.051    .
+205            412    LWLSKCK|TL  0.063    .
+205            415    SKCKTLR|NI  0.132    .
+205            434    DVEGLIK|SN  0.067    .
+205            442    NPDLELK|EL  0.056    .
+205            467    LQDNPLR|AV  0.127    .
+205            473    RAVSLYR|CK  0.090    .
+205            475    VSLYRCK|KV  0.076    .
+205            476    SLYRCKK|VK  0.254    .
+205            478    YRCKKVK|QS  0.072    .
+205            497    TCDLTNR|HR  0.087    .
+205            499    DLTNRHR|GT  0.088    .
+205            502    NRHRGTR|PL  0.339    .
+205            507    TRPLTPK|ST  0.108    .
+205            514    STSIPGK|LP  0.067    .
+205            521    LPTLLPK|LT  0.070    .
+205            530    ELILAEK|YF  0.058    .
+205            544    IYLEGVK|KM  0.050    .
+205            545    YLEGVKK|ML  0.086    .
+205            555    LTPNLIK|LS  0.058    .
+205            559    LIKLSIR|NP  0.083    .
+205            566    NPYAFPK|VM  0.069    .
+205            573    VMTCVVK|YC  0.061    .
+205            577    VVKYCPR|LT  0.078    .
+205            588    DVSGIDR|NS  0.085    .
+205            605    TWALISR|LK  0.084    .
+205            607    ALISRLK|HL  0.059    .
+205            613    KHLQVLK|AP  0.058    .
+205            618    LKAPFHR|YD  0.112    .
+205            631    DYLWLSK|CK  0.052    .
+205            633    LWLSKCK|TL  0.064    .
+205            636    SKCKTLR|NI  0.123    .
+205            643    NIDLSFR|DI  0.108    .
+205            655    DMEGLIK|SN  0.070    .
+205            664    PDLEVLK|LV  0.075    .
+205            691    LLPEEAK|SV  0.106    .
+205            695    EAKSVIK|TR  0.060    .
+205            697    KSVIKTR|TD  0.104    .
+205            703    RTDFEYK|MR  0.058    .
+205            705    DFEYKMR|RR  0.076    .
+205            706    FEYKMRR|RI  0.191    .
+205            707    EYKMRRR|IS  0.115    .
+205            710    MRRRISK|KL  0.220    .
+205            711    RRRISKK|LD  0.127    .
+205            716    KKLDFVK|FI  0.086    .
+205            723    FIEYELK|IE  0.056    .
+205            728    LKIETLK|QA  0.068    .
+205            731    ETLKQAR|IK  0.079    .
+205            733    LKQARIK|KL  0.104    .
+205            734    KQARIKK|LG  0.239    .
+205            745    EVSEHTK|YR  0.084    .
+205            747    SEHTKYR|SL  0.256    .
+205            751    KYRSLQR|IH  0.089    .
+205            758    IHFIFQK|CL  0.069    .
+205            761    IFQKCLR|KY  0.079    .
+205            762    FQKCLRK|YK  0.099    .
+205            764    KCLRKYK|SD  0.144    .
+205            772    DVPLWIK|YI  0.058    .
+205            775    LWIKYIK|YC  0.067    .
+205            778    KYIKYCK|KV  0.076    .
+205            779    YIKYCKK|VS  0.092    .
+205            784    KKVSSSR|AL  0.114    .
+205            795    AFVEALK|HN  0.059    .
+205            809    IWIMSAK|NE  0.064    .
+205            816    NEMETNK|NI  0.070    .
+205            822    KNITSAR|SI  0.141    .
+205            827    ARSIFLR|AL  0.127    .
+205            830    IFLRALK|FN  0.111    .
+205            844    LWVEYFR|LE  0.068    .
+205            852    EVLHVEK|ML  0.066    .
+205            855    HVEKMLK|RQ  0.055    .
+205            856    VEKMLKR|QE  0.118    .
+205            865    LMAACDK|TL  0.069    .
+205            872    TLDTNTK|AE  0.064    .
+205            879    AEFLEYK|TA  0.072    .
+205            882    LEYKTAK|IV  0.093    .
+205            890    VFTSALK|SI  0.069    .
+205            900    MGGELLR|RF  0.067    .
+205            901    GGELLRR|FV  0.300    .
+205            906    RRFVGEK|LF  0.067    .
+205            909    VGEKLFR|ER  0.076    .
+205            911    EKLFRER|RH  0.068    .
+205            912    KLFRERR|HT  0.471    .
+205            915    RERRHTR|DA  0.506 *ProP*
+205            930    AGHVAEK|DI  0.096    .
+205            934    AEKDIDK|AV  0.077    .
+205            940    KAVSLLR|RS  0.076    .
+205            941    AVSLLRR|SL  0.234    .
+205            965    LHSIESR|LP  0.082    .
+205            972    LPQDLSK|VV  0.082    .
+205            986    DSPFPAK|TA  0.080    .
+205           1022    SQFPDSK|PL  0.068    .
+205           1028    KPLWLAR|LS  0.110    .
+205           1053    EDCDIWR|EY  0.080    .
+205           1066    SNSDPEK|CT  0.092    .
+205           1070    PEKCTEK|WR  0.063    .
+205           1072    KCTEKWR|EV  0.197    .
+205           1076    KWREVMK|QG  0.072    .
+205           1094    LQSVFTR|EG  0.115    .
+205           1098    FTREGLK|GV  0.080    .
+205           1101    EGLKGVR|DA  0.119    .
+205           1105    GVRDAFK|EL  0.063    .
+205           1108    DAFKELK|SW  0.082    .
+205           1126    AMLSFEK|EK  0.059    .
+205           1128    LSFEKEK|SS  0.101    .
+205           1152    NSLSNWR|EF  0.064    .
+205           1159    EFLNFCR|EQ  0.070    .
+205           1165    REQLPEK|IS  0.064    .
+205           1172    ISDVMWK|AF  0.072    .
+205           1175    VMWKAFK|DC  0.072    .
+205           1178    KAFKDCK|IV  0.079    .
+205           1185    IVEIENR|KD  0.090    .
+205           1186    VEIENRK|DC  0.091    .
+205           1197    IQDYCAK|IA  0.069    .
+205           1202    AKIAGSR|SV  0.155    .
+205           1206    GSRSVPK|AM  0.069    .
+205           1265    PLQTQLK|TL  0.060    .
+205           1274    LNESTTK|ES  0.068    .
+205           1306    QILSVIR|QV  0.113    .
+205           1317    LPSESVR|RV  0.184    .
+205           1318    PSESVRR|VD  0.113    .
+205           1332    LVHSLLR|LA  0.078    .
+205           1342    VQHCELK|GG  0.062    .
+205           1362    NPSTSCR|DI  0.255    .
+205           1388    LDDIDSK|CW  0.057    .
+205           1396    WVVEPEK|GT  0.061    .
+205           1399    EPEKGTR|KH  0.079    .
+205           1400    PEKGTRK|HS  0.078    .
+205           1404    TRKHSHR|RI  0.118    .
+205           1405    RKHSHRR|IV  0.256    .
+205           1428    QPTSLPR|CR  0.083    .
+205           1430    TSLPRCR|FL  0.113    .
+205           1444    VVEYQDR|LD  0.086    .
+205           1481    TGGEESR|CE  0.085    .
+205           1495    CHEMEGK|TP  0.061    .
+205           1519    SPALFFR|KT  0.160    .
+205           1520    PALFFRK|TS  0.092    .
+205           1523    FFRKTSK|KK  0.070    .
+205           1524    FRKTSKK|KE  0.104    .
+205           1525    RKTSKKK|EE  0.113    .
+205           1546    QLLVQGK|RN  0.060    .
+205           1547    LLVQGKR|NI  0.149    .
+205           1561    LQVGVCR|EC  0.082    .
+205           1574    HSDLIPK|DN  0.069    .
+205           1599    TCCDECR|AP  0.102    .
+205           1609    CQECITR|NV  0.114    .
+205           1626    GDQDVWK|CF  0.068    .
+205           1639    SPIEEIR|TI  0.128    .
+205           1643    EIRTITK|AA  0.068    .
+205           1677    DLNDSDR|DD  0.144    .
+205           1682    DRDDFVK|ER  0.062    .
+205           1684    DDFVKER|IR  0.075    .
+205           1686    FVKERIR|LR  0.064    .
+205           1688    KERIRLR|RE  0.077    .
+205           1689    ERIRLRR|EN  0.484    .
+205           1693    LRRENYK|RG  0.063    .
+205           1694    RRENYKR|GV  0.476    .
+205           1701    GVSNMQK|EE  0.068    .
+205           1704    NMQKEEK|RE  0.069    .
+205           1705    MQKEEKR|EE  0.167    .
+205           1717    DSESEEK|ES  0.061    .
+205           1725    SDSESEK|KK  0.061    .
+205           1726    DSESEKK|KK  0.084    .
+205           1727    SESEKKK|KK  0.103    .
+205           1728    ESEKKKK|KL  0.111    .
+205           1729    SEKKKKK|LS  0.114    .
+205           1733    KKKLSLK|KR  0.064    .
+205           1734    KKLSLKK|RP  0.092    .
+205           1735    KLSLKKR|PK  0.278    .
+205           1737    SLKKRPK|KE  0.082    .
+205           1738    LKKRPKK|EE  0.289    .
+205           1741    RPKKEEK|EE  0.073    .
+205           1750    MESEEEK|PK  0.070    .
+205           1752    SEEEKPK|KK  0.062    .
+205           1753    EEEKPKK|KM  0.088    .
+205           1754    EEKPKKK|MK  0.091    .
+205           1756    KPKKKMK|LT  0.077    .
+205           1760    KMKLTLK|KK  0.064    .
+205           1761    MKLTLKK|KY  0.105    .
+205           1762    KLTLKKK|YK  0.124    .
+205           1764    TLKKKYK|EE  0.090    .
+205           1768    KYKEEEK|VT  0.056    .
+205           1773    EKVTPVK|KA  0.073    .
+205           1774    KVTPVKK|AK  0.109    .
+205           1776    TPVKKAK|KK  0.075    .
+205           1777    PVKKAKK|KL  0.106    .
+205           1778    VKKAKKK|LE  0.121    .
+205           1790    DDSSDGK|EE  0.065    .
+205           1793    SDGKEEK|KK  0.070    .
+205           1794    DGKEEKK|KK  0.104    .
+205           1795    GKEEKKK|KE  0.165    .
+205           1796    KEEKKKK|EE  0.131    .
+205           1802    KEEEEER|MG  0.085    .
+205           1814    ADEMLEK|KV  0.085    .
+205           1815    DEMLEKK|VD  0.081    .
+205           1834    APVSEEK|EE  0.059    .
+205           1855    CTVSPLR|SL  0.089    .
+205           1878    LVAALHR|FT  0.099    .
+205           1890    PSGSCEK|KF  0.057    .
+205           1891    SGSCEKK|FP  0.147    .
+205           1903    VVHQMVR|QK  0.078    .
+205           1905    HQMVRQK|NT  0.070    .
+205           1908    VRQKNTK|SG  0.085    .
+205           1911    KNTKSGR|NK  0.099    .
+205           1913    TKSGRNK|KA  0.092    .
+205           1914    KSGRNKK|AK  0.353    .
+205           1916    GRNKKAK|TS  0.145    .
+205           1919    KKAKTSK|KK  0.082    .
+205           1920    KAKTSKK|KE  0.102    .
+205           1921    AKTSKKK|EE  0.117    .
+205           1942    QLLVQGK|RN  0.060    .
+205           1943    LLVQGKR|NI  0.149    .
+205           1957    LQVGVCR|EC  0.082    .
+205           1970    HSDLIPK|DN  0.069    .
+205           1995    TCCDECR|AP  0.102    .
+205           2005    CQECITR|NV  0.114    .
+205           2022    GDQDVWK|CF  0.068    .
+205           2035    SPIEEIR|TI  0.128    .
+205           2039    EIRTITK|AA  0.068    .
+205           2073    DLNDSDR|DD  0.144    .
+205           2078    DRDDFVK|ER  0.062    .
+205           2080    DDFVKER|IR  0.075    .
+205           2082    FVKERIR|LR  0.064    .
+205           2084    KERIRLR|RE  0.077    .
+205           2085    ERIRLRR|EN  0.484    .
+205           2089    LRRENYK|RG  0.063    .
+205           2090    RRENYKR|GV  0.476    .
+205           2097    GVSNMQK|EE  0.068    .
+205           2100    NMQKEEK|RE  0.069    .
+205           2101    MQKEEKR|EE  0.167    .
+205           2113    DSESEEK|ES  0.061    .
+205           2121    SDSESEK|KK  0.061    .
+205           2122    DSESEKK|KK  0.084    .
+205           2123    SESEKKK|KK  0.103    .
+205           2124    ESEKKKK|KL  0.111    .
+205           2125    SEKKKKK|LS  0.114    .
+205           2129    KKKLSLK|KR  0.064    .
+205           2130    KKLSLKK|RP  0.092    .
+205           2131    KLSLKKR|PK  0.268    .
+205           2133    SLKKRPK|KE  0.081    .
+205           2134    LKKRPKK|EE  0.285    .
+205           2137    RPKKEEK|EE  0.068    .
+205           2146    VESEEEK|PK  0.066    .
+205           2148    SEEEKPK|KK  0.064    .
+205           2149    EEEKPKK|KM  0.084    .
+205           2150    EEKPKKK|MK  0.091    .
+205           2152    KPKKKMK|LT  0.077    .
+205           2156    KMKLTLK|KK  0.064    .
+205           2157    MKLTLKK|KY  0.105    .
+205           2158    KLTLKKK|YK  0.124    .
+205           2160    TLKKKYK|EE  0.090    .
+205           2164    KYKEEEK|VT  0.056    .
+205           2169    EKVTPVK|KA  0.073    .
+205           2170    KVTPVKK|AK  0.109    .
+205           2172    TPVKKAK|KK  0.075    .
+205           2173    PVKKAKK|KL  0.106    .
+205           2174    VKKAKKK|LE  0.121    .
+205           2186    DDSSDGK|EE  0.065    .
+205           2189    SDGKEEK|KK  0.070    .
+205           2190    DGKEEKK|KK  0.104    .
+205           2191    GKEEKKK|KE  0.165    .
+205           2192    KEEKKKK|EE  0.131    .
+205           2198    KEEEEER|MG  0.085    .
+205           2210    ADEMLEK|KV  0.085    .
+205           2211    DEMLEKK|VD  0.081    .
+205           2230    APVSEEK|EE  0.059    .
+205           2242    DSESTEK|KK  0.056    .
+205           2243    SESTEKK|KN  0.140    .
+205           2244    ESTEKKK|NS  0.104    .
+205           2259    IPSPSGK|KK  0.077    .
+205           2260    PSPSGKK|KR  0.073    .
+205           2261    SPSGKKK|RR  0.220    .
+205           2262    PSGKKKR|RS  0.293    .
+205           2263    SGKKKRR|SK  0.410    .
+205           2265    KKKRRSK|KR  0.184    .
+205           2266    KKRRSKK|RE  0.464    .
+205           2267    KRRSKKR|EE  0.290    .
+205           2270    SKKREEK|ES  0.133    .
+205           2278    SDSESEK|KK  0.061    .
+205           2279    DSESEKK|KK  0.084    .
+205           2280    SESEKKK|KK  0.103    .
+205           2281    ESEKKKK|KL  0.111    .
+205           2282    SEKKKKK|LS  0.114    .
+205           2286    KKKLSLK|KR  0.064    .
+205           2287    KKLSLKK|RP  0.092    .
+205           2288    KLSLKKR|PK  0.278    .
+205           2290    SLKKRPK|KE  0.082    .
+205           2291    LKKRPKK|EE  0.289    .
+205           2294    RPKKEEK|EE  0.073    .
+205           2303    MESEEEK|PK  0.070    .
+205           2305    SEEEKPK|KK  0.062    .
+205           2306    EEEKPKK|KM  0.088    .
+205           2307    EEKPKKK|MK  0.091    .
+205           2309    KPKKKMK|LT  0.077    .
+205           2313    KMKLTLK|KK  0.064    .
+205           2314    MKLTLKK|KY  0.105    .
+205           2315    KLTLKKK|YK  0.124    .
+205           2317    TLKKKYK|EE  0.090    .
+205           2321    KYKEEEK|VT  0.056    .
+205           2326    EKVTPVK|KA  0.073    .
+205           2327    KVTPVKK|AK  0.109    .
+205           2329    TPVKKAK|KK  0.075    .
+205           2330    PVKKAKK|KL  0.106    .
+205           2331    VKKAKKK|LE  0.121    .
+205           2343    DDSSDEK|EE  0.067    .
+205           2346    SDEKEEK|KK  0.073    .
+205           2347    DEKEEKK|KE  0.108    .
+205           2348    EKEEKKK|EE  0.117    .
+205           2354    KEEEEER|MG  0.088    .
+205           2366    ADEMLEK|KV  0.085    .
+205           2367    DEMLEKK|VD  0.081    .
+205           2397    SGEDETK|PA  0.076    .
+205           2409    SDHINLR|VI  0.124    .
+205           2421    NSEVHFR|IK  0.113    .
+205           2423    EVHFRIK|KT  0.069    .
+205           2424    VHFRIKK|TT  0.180    .
+205           2429    KKTTQMK|KL  0.068    .
+205           2430    KTTQMKK|LK  0.074    .
+205           2432    TQMKKLK|AA  0.095    .
+205           2438    KAAFCER|QG  0.089    .
+205           2447    IPINSVR|FL  0.131    .
+205           2454    FLFEGAR|IN  0.081    .
+205           2462    NDEQAPK|DL  0.079    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------
+641	
+
+ psg: 0.64  gvh: 0.63  alm: 0.17  top: 0.33  tms: 1.58  mit: 0.37  mip: 0.06
+ nuc: 0.07  erl: 0.00  erm: 0.20  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 0.00  tyr: 0.00  leu: 0.00  gpi: 0.00  myr: 0.50
+ dna: 0.00  rib: 0.00  bac: 1.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 0.00
+ m3a: 1.00  m3b: 0.00  m_ : 0.00  ncn: 0.00  lps: 0.00  len: 0.35 
+
+	 88.9 %: endoplasmic reticulum
+	 11.1 %: vacuolar
+
+>> prediction for 641 is end (k=9)
+

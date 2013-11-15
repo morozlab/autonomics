@@ -1,0 +1,352 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1804 393         
+MSDSYDQELDRLSKLVAEAADPVETAIKTEPKLSPEPEKRDEVVEVKSQEGSSKGTSRDGSDSGEESEPEYRKARRLGAL      80
+RVTRKATGSLPPESKTLLQETTEVVDEEGTKVKPRAKPGHTFALVPDCASCGSDVVLRPYKRLMLLHPYLKTAMCRSCHD     160
+FYHSDVFAHDEEGSLVYCIWCGEGGELIYCEKCEKPYCSDCIKRNFGRKKRDEILAESNWECFICVPGPLDEAQKVGELI     240
+VKYQNCCIKDPLLVEKYEHEVPKSETKRTDYETAVSNRIRSRNTTKLLTPSQQEEESKKSSSSSEEEEEMEVTEVKSEEE     320
+EEKSSESGSEFDVHEERASSKPAKKKKNGEVSSDNDDSDDDAFLENLRKKTTDRTERTTTNGVKGGKGGEKKKDALKDDS     400
+DDSLFDTGNPNIKPTKVRGMLEDSDAAPYESDDADNETVQKYRNKLATFKPVDSPEEKESEHSNFSDDSMTSQEPGEDDP     480
+DSEGPSSESSGMLSEEDGEKEKEKENGEEKDGEKAESKKKTDVEKVDKKVEENGKDKPKKRGRPRKKKNGTDGEEVEEGE     560
+EKKQNGKTKKRKRRKRKATTATETDSEDENADGKKRKRRKQQKGKRKKIRKILGQNQLTSETQKAQEAEDERRQKLKEKL     640
+LPSEQGKILNFILEDMRTDKTRGKEPSLEDEEKGRVIEVHKHLKKRLKPHQLDGIQFMYDCCIESKEKVQNGSEGSGCIL     720
+AHCMGLGKTFQVITFVTTILNYHYIFGFKRALVVCPLNTVRNWSAEFDKWLKDMDDAPSVFILTDNIVNNDKRAEVIEDW     800
+YETSGVLIIGYSMFRLLSMGTNQRKKHLKETFRKCLLDPGPDIVICDEGHMIKNEKTGIAKALHSLKTKRRIILTGTPLQ     880
+NNLLEYHCMVNFVKPNLLGTVKEFRNMYDNPIVNGQCVDASEFDIKLMKERSHILFEHLSGCVQRRDYIVLKEFLPEKYE     960
+YVLSIKLSDLQVKLYQKFLDQAKNGKAPMTRLFECYQVLKKVWTHPWLLEIDALKNEKDSIEDFITDRETSEESWEPSSE    1040
+DSDFGARKKKKKKGKKEEDEVKEEKKDEDEIQIISDIPAAQADAAAAAPTLDANWFKGEMNEKDEKMLEHSGKLLVTLEI    1120
+LDKASQKGDKVLLFSQSLLALDFLETSINRVGWTKGQDYYRMDGSTKTAHRSMFCKKFNDKSNKRCRLFLISTKAGGLGI    1200
+NLVSANRIILFDMSWNPSDDTQSLFRAYRYGQAKNVYVYRLVARGTMEEKIYDRQVYKESLSSRVVDEKQINRYFTANDL    1280
+QELFRFDPDAQTCTTSVLANHNPPADDVLASILVDLDPPLVLEYHEHDSLLEHRPEQQLTEEERKAAWENFKRDKERKHV    1360
+VHAPMGASTSVFQRLKAHTQAYQGPIITPLYSNEQELILGGFTPDQIVSIQAQLQPVVQAGKLQVKPLGDGKLHILGLAP    1440
+DQQQVFINSIKEQQAQQIHQAQLARMLPTQHLLSQVPELLVRDVRIISDRNSRRCKGIAYIEFFDEDAVQPALKLSGTKI    1520
+MGIPIQVQHTQAEKNRAAMLASMAKEQGPTRLYVGGLHCNITEQMLKAIFDPFGYIDSLQLMIDPETNRSRGYGFVQYRD    1600
+PESARRAKEQLNGFELAGKPIKVGEVTEKLDNSLSMQTSVLDDEDTDRGGIEMNANARVQLMQKLASDSDNPYLNPISAT    1680
+FDEFVRGVIAGFVPGSNHWKPAAEYCTPCGMNYAYIIKSEEYTCEFDHFLRAIGHKSEDRVDKRVNFNPVRAPKDRTDVY    1760
+KFYASVSDDLLDSLYNYSKSDCEIFQYDCKELIETMKLQKQSQT                                        1840
+................................................................................      80
+................................................................................     160
+..................................................P.............................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+...................................................................P............     560
+.............P.PP.....................P.........................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+............................................                                        1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+393             11    YDQELDR|LS  0.070    .
+393             14    ELDRLSK|LV  0.127    .
+393             28    PVETAIK|TE  0.052    .
+393             32    AIKTEPK|LS  0.059    .
+393             39    LSPEPEK|RD  0.070    .
+393             40    SPEPEKR|DE  0.223    .
+393             47    DEVVEVK|SQ  0.075    .
+393             54    SQEGSSK|GT  0.086    .
+393             58    SSKGTSR|DG  0.177    .
+393             72    ESEPEYR|KA  0.086    .
+393             73    SEPEYRK|AR  0.067    .
+393             75    PEYRKAR|RL  0.419    .
+393             76    EYRKARR|LG  0.092    .
+393             81    RRLGALR|VT  0.088    .
+393             84    GALRVTR|KA  0.348    .
+393             85    ALRVTRK|AT  0.112    .
+393             95    SLPPESK|TL  0.065    .
+393            111    VDEEGTK|VK  0.058    .
+393            113    EEGTKVK|PR  0.070    .
+393            115    GTKVKPR|AK  0.119    .
+393            117    KVKPRAK|PG  0.062    .
+393            138    GSDVVLR|PY  0.080    .
+393            141    VVLRPYK|RL  0.084    .
+393            142    VLRPYKR|LM  0.095    .
+393            151    LLHPYLK|TA  0.057    .
+393            156    LKTAMCR|SC  0.156    .
+393            192    ELIYCEK|CE  0.056    .
+393            195    YCEKCEK|PY  0.054    .
+393            203    YCSDCIK|RN  0.060    .
+393            204    CSDCIKR|NF  0.223    .
+393            208    IKRNFGR|KK  0.121    .
+393            209    KRNFGRK|KR  0.108    .
+393            210    RNFGRKK|RD  0.103    .
+393            211    NFGRKKR|DE  0.663 *ProP*
+393            235    PLDEAQK|VG  0.057    .
+393            242    VGELIVK|YQ  0.061    .
+393            249    YQNCCIK|DP  0.073    .
+393            256    DPLLVEK|YE  0.072    .
+393            263    YEHEVPK|SE  0.097    .
+393            267    VPKSETK|RT  0.066    .
+393            268    PKSETKR|TD  0.184    .
+393            278    ETAVSNR|IR  0.090    .
+393            280    AVSNRIR|SR  0.122    .
+393            282    SNRIRSR|NT  0.119    .
+393            286    RSRNTTK|LL  0.078    .
+393            298    QQEEESK|KS  0.064    .
+393            299    QEEESKK|SS  0.216    .
+393            316    MEVTEVK|SE  0.098    .
+393            323    SEEEEEK|SS  0.079    .
+393            337    FDVHEER|AS  0.087    .
+393            341    EERASSK|PA  0.083    .
+393            344    ASSKPAK|KK  0.107    .
+393            345    SSKPAKK|KK  0.105    .
+393            346    SKPAKKK|KN  0.143    .
+393            347    KPAKKKK|NG  0.164    .
+393            368    AFLENLR|KK  0.064    .
+393            369    FLENLRK|KT  0.071    .
+393            370    LENLRKK|TT  0.163    .
+393            374    RKKTTDR|TE  0.087    .
+393            377    TTDRTER|TT  0.264    .
+393            384    TTTNGVK|GG  0.067    .
+393            387    NGVKGGK|GG  0.067    .
+393            391    GGKGGEK|KK  0.063    .
+393            392    GKGGEKK|KD  0.088    .
+393            393    KGGEKKK|DA  0.142    .
+393            397    KKKDALK|DD  0.065    .
+393            413    TGNPNIK|PT  0.069    .
+393            416    PNIKPTK|VR  0.069    .
+393            418    IKPTKVR|GM  0.088    .
+393            441    DNETVQK|YR  0.059    .
+393            443    ETVQKYR|NK  0.085    .
+393            445    VQKYRNK|LA  0.068    .
+393            450    NKLATFK|PV  0.075    .
+393            458    VDSPEEK|ES  0.073    .
+393            500    SEEDGEK|EK  0.061    .
+393            502    EDGEKEK|EK  0.069    .
+393            504    GEKEKEK|EN  0.091    .
+393            510    KENGEEK|DG  0.083    .
+393            514    EEKDGEK|AE  0.062    .
+393            518    GEKAESK|KK  0.071    .
+393            519    EKAESKK|KT  0.132    .
+393            520    KAESKKK|TD  0.086    .
+393            525    KKTDVEK|VD  0.070    .
+393            528    DVEKVDK|KV  0.080    .
+393            529    VEKVDKK|VE  0.087    .
+393            535    KVEENGK|DK  0.065    .
+393            537    EENGKDK|PK  0.070    .
+393            539    NGKDKPK|KR  0.068    .
+393            540    GKDKPKK|RG  0.090    .
+393            541    KDKPKKR|GR  0.205    .
+393            543    KPKKRGR|PR  0.113    .
+393            545    KKRGRPR|KK  0.127    .
+393            546    KRGRPRK|KK  0.339    .
+393            547    RGRPRKK|KN  0.153    .
+393            548    GRPRKKK|NG  0.564 *ProP*
+393            562    VEEGEEK|KQ  0.056    .
+393            563    EEGEEKK|QN  0.114    .
+393            567    EKKQNGK|TK  0.059    .
+393            569    KQNGKTK|KR  0.069    .
+393            570    QNGKTKK|RK  0.119    .
+393            571    NGKTKKR|KR  0.158    .
+393            572    GKTKKRK|RR  0.089    .
+393            573    KTKKRKR|RK  0.227    .
+393            574    TKKRKRR|KR  0.584 *ProP*
+393            575    KKRKRRK|RK  0.090    .
+393            576    KRKRRKR|KA  0.806 *ProP*
+393            577    RKRRKRK|AT  0.603 *ProP*
+393            594    DENADGK|KR  0.056    .
+393            595    ENADGKK|RK  0.092    .
+393            596    NADGKKR|KR  0.189    .
+393            597    ADGKKRK|RR  0.097    .
+393            598    DGKKRKR|RK  0.172    .
+393            599    GKKRKRR|KQ  0.613 *ProP*
+393            600    KKRKRRK|QQ  0.114    .
+393            603    KRRKQQK|GK  0.099    .
+393            605    RKQQKGK|RK  0.061    .
+393            606    KQQKGKR|KK  0.170    .
+393            607    QQKGKRK|KI  0.143    .
+393            608    QKGKRKK|IR  0.099    .
+393            610    GKRKKIR|KI  0.155    .
+393            611    KRKKIRK|IL  0.180    .
+393            624    LTSETQK|AQ  0.075    .
+393            632    QEAEDER|RQ  0.071    .
+393            633    EAEDERR|QK  0.105    .
+393            635    EDERRQK|LK  0.170    .
+393            637    ERRQKLK|EK  0.065    .
+393            639    RQKLKEK|LL  0.068    .
+393            647    LPSEQGK|IL  0.092    .
+393            657    FILEDMR|TD  0.065    .
+393            660    EDMRTDK|TR  0.141    .
+393            662    MRTDKTR|GK  0.198    .
+393            664    TDKTRGK|EP  0.063    .
+393            673    SLEDEEK|GR  0.066    .
+393            675    EDEEKGR|VI  0.102    .
+393            681    RVIEVHK|HL  0.067    .
+393            684    EVHKHLK|KR  0.054    .
+393            685    VHKHLKK|RL  0.094    .
+393            686    HKHLKKR|LK  0.330    .
+393            688    HLKKRLK|PH  0.068    .
+393            706    DCCIESK|EK  0.059    .
+393            708    CIESKEK|VQ  0.061    .
+393            728    HCMGLGK|TF  0.060    .
+393            749    HYIFGFK|RA  0.059    .
+393            750    YIFGFKR|AL  0.141    .
+393            761    CPLNTVR|NW  0.098    .
+393            769    WSAEFDK|WL  0.077    .
+393            772    EFDKWLK|DM  0.067    .
+393            792    NIVNNDK|RA  0.076    .
+393            793    IVNNDKR|AE  0.145    .
+393            815    IGYSMFR|LL  0.093    .
+393            824    SMGTNQR|KK  0.088    .
+393            825    MGTNQRK|KH  0.071    .
+393            826    GTNQRKK|HL  0.118    .
+393            829    QRKKHLK|ET  0.075    .
+393            833    HLKETFR|KC  0.068    .
+393            834    LKETFRK|CL  0.093    .
+393            853    DEGHMIK|NE  0.059    .
+393            856    HMIKNEK|TG  0.063    .
+393            861    EKTGIAK|AL  0.064    .
+393            867    KALHSLK|TK  0.065    .
+393            869    LHSLKTK|RR  0.066    .
+393            870    HSLKTKR|RI  0.158    .
+393            871    SLKTKRR|II  0.204    .
+393            894    CMVNFVK|PN  0.059    .
+393            902    NLLGTVK|EF  0.057    .
+393            905    GTVKEFR|NM  0.085    .
+393            926    ASEFDIK|LM  0.059    .
+393            929    FDIKLMK|ER  0.074    .
+393            931    IKLMKER|SH  0.132    .
+393            945    LSGCVQR|RD  0.118    .
+393            946    SGCVQRR|DY  0.196    .
+393            952    RDYIVLK|EF  0.061    .
+393            958    KEFLPEK|YE  0.056    .
+393            966    EYVLSIK|LS  0.057    .
+393            973    LSDLQVK|LY  0.069    .
+393            977    QVKLYQK|FL  0.072    .
+393            983    KFLDQAK|NG  0.056    .
+393            986    DQAKNGK|AP  0.065    .
+393            991    GKAPMTR|LF  0.103    .
+393           1000    ECYQVLK|KV  0.071    .
+393           1001    CYQVLKK|VW  0.074    .
+393           1015    LEIDALK|NE  0.060    .
+393           1018    DALKNEK|DS  0.062    .
+393           1028    EDFITDR|ET  0.082    .
+393           1047    DSDFGAR|KK  0.072    .
+393           1048    SDFGARK|KK  0.086    .
+393           1049    DFGARKK|KK  0.097    .
+393           1050    FGARKKK|KK  0.323    .
+393           1051    GARKKKK|KK  0.266    .
+393           1052    ARKKKKK|KG  0.176    .
+393           1053    RKKKKKK|GK  0.146    .
+393           1055    KKKKKGK|KE  0.093    .
+393           1056    KKKKGKK|EE  0.109    .
+393           1062    KEEDEVK|EE  0.061    .
+393           1065    DEVKEEK|KD  0.066    .
+393           1066    EVKEEKK|DE  0.128    .
+393           1097    LDANWFK|GE  0.071    .
+393           1103    KGEMNEK|DE  0.072    .
+393           1106    MNEKDEK|ML  0.073    .
+393           1113    MLEHSGK|LL  0.072    .
+393           1123    TLEILDK|AS  0.067    .
+393           1127    LDKASQK|GD  0.070    .
+393           1130    ASQKGDK|VL  0.059    .
+393           1150    LETSINR|VG  0.069    .
+393           1155    NRVGWTK|GQ  0.074    .
+393           1161    KGQDYYR|MD  0.100    .
+393           1167    RMDGSTK|TA  0.072    .
+393           1171    STKTAHR|SM  0.115    .
+393           1176    HRSMFCK|KF  0.085    .
+393           1177    RSMFCKK|FN  0.178    .
+393           1181    CKKFNDK|SN  0.072    .
+393           1184    FNDKSNK|RC  0.060    .
+393           1185    NDKSNKR|CR  0.112    .
+393           1187    KSNKRCR|LF  0.110    .
+393           1194    LFLISTK|AG  0.065    .
+393           1207    NLVSANR|II  0.067    .
+393           1226    DTQSLFR|AY  0.089    .
+393           1229    SLFRAYR|YG  0.254    .
+393           1234    YRYGQAK|NV  0.094    .
+393           1240    KNVYVYR|LV  0.149    .
+393           1244    VYRLVAR|GT  0.111    .
+393           1250    RGTMEEK|IY  0.061    .
+393           1254    EEKIYDR|QV  0.103    .
+393           1258    YDRQVYK|ES  0.063    .
+393           1264    KESLSSR|VV  0.207    .
+393           1269    SRVVDEK|QI  0.080    .
+393           1273    DEKQINR|YF  0.088    .
+393           1285    DLQELFR|FD  0.104    .
+393           1334    DSLLEHR|PE  0.076    .
+393           1344    QLTEEER|KA  0.085    .
+393           1345    LTEEERK|AA  0.089    .
+393           1352    AAWENFK|RD  0.057    .
+393           1353    AWENFKR|DK  0.257    .
+393           1355    ENFKRDK|ER  0.066    .
+393           1357    FKRDKER|KH  0.106    .
+393           1358    KRDKERK|HV  0.168    .
+393           1374    STSVFQR|LK  0.106    .
+393           1376    SVFQRLK|AH  0.064    .
+393           1422    PVVQAGK|LQ  0.054    .
+393           1426    AGKLQVK|PL  0.081    .
+393           1432    KPLGDGK|LH  0.057    .
+393           1451    VFINSIK|EQ  0.065    .
+393           1465    HQAQLAR|ML  0.109    .
+393           1482    VPELLVR|DV  0.115    .
+393           1485    LLVRDVR|II  0.223    .
+393           1490    VRIISDR|NS  0.091    .
+393           1493    ISDRNSR|RC  0.168    .
+393           1494    SDRNSRR|CK  0.248    .
+393           1496    RNSRRCK|GI  0.297    .
+393           1514    AVQPALK|LS  0.084    .
+393           1519    LKLSGTK|IM  0.061    .
+393           1534    QHTQAEK|NR  0.058    .
+393           1536    TQAEKNR|AA  0.133    .
+393           1545    MLASMAK|EQ  0.075    .
+393           1551    KEQGPTR|LY  0.100    .
+393           1567    ITEQMLK|AI  0.065    .
+393           1589    IDPETNR|SR  0.137    .
+393           1591    PETNRSR|GY  0.103    .
+393           1599    YGFVQYR|DP  0.119    .
+393           1605    RDPESAR|RA  0.131    .
+393           1606    DPESARR|AK  0.138    .
+393           1608    ESARRAK|EQ  0.148    .
+393           1619    GFELAGK|PI  0.077    .
+393           1622    LAGKPIK|VG  0.063    .
+393           1629    VGEVTEK|LD  0.060    .
+393           1648    DDEDTDR|GG  0.078    .
+393           1658    EMNANAR|VQ  0.076    .
+393           1664    RVQLMQK|LA  0.069    .
+393           1686    TFDEFVR|GV  0.137    .
+393           1700    PGSNHWK|PA  0.076    .
+393           1718    NYAYIIK|SE  0.067    .
+393           1731    EFDHFLR|AI  0.099    .
+393           1736    LRAIGHK|SE  0.097    .
+393           1740    GHKSEDR|VD  0.075    .
+393           1743    SEDRVDK|RV  0.160    .
+393           1744    EDRVDKR|VN  0.139    .
+393           1751    VNFNPVR|AP  0.078    .
+393           1754    NPVRAPK|DR  0.184    .
+393           1756    VRAPKDR|TD  0.110    .
+393           1761    DRTDVYK|FY  0.080    .
+393           1779    SLYNYSK|SD  0.079    .
+393           1790    IFQYDCK|EL  0.061    .
+393           1797    ELIETMK|LQ  0.065    .
+393           1800    ETMKLQK|QS  0.063    .
+____________________________^_________________
+
+
+
+

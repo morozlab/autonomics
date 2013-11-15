@@ -1,0 +1,324 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1928 342         
+MRMGSPAGPGMMCSAAVSADNSNRCSADNTTSSTHSLGNSQCRYLPVKLKNRSQVGIEYRVIQPSSPSYPWRASTPEWAS      80
+AEQRFRNTVSPIESLGSGGSREGVFRQSGQDQWPTKDVISNEASQAVPPRQAYDFMKEQHTSRYSFMKEQQTFQSVPSAQ     160
+ELPKTPTTVSNHQFRLDLPGNEKVPSPVLFPPKPVFIKEHRMPKQGFMKEQLVPDHRRQKTRYELAMEREDELRRQGLKP     240
+QSWRSSEPTGIRSLTLTPVQQEPMTPVSTRPSLTPELGKTGTRPSLTPEVGKTGTRPSLTPDLEKAGTHTSLTPELGKTS     320
+SPDVHSSLTPEPSRGSIELELGHNTTWERIQSSPTQSEPANTTGGFGENFRFLTEEQTEKEEVKAEPVRYPVELTFQITP     400
+DPAAAPSSPKPVVESSPSPSRSIRDTIKEQQKARLKAINAARSESSPEKTISPGAGDSEDGLTESEKVFYEKLRRTQVVK     480
+ASLTGAEITRMLRDRKMSRMSNITEQDESSQMSMLEDDADFLCEELCDDDETPSKPSPTQLGGGPSLPVPHYNFISYNAV     560
+GVGPPPPQPRSDSADSFVKNEAKMKEEESQRRQETLRALNERLETIREEFVVPNTIKQPPQKTGTDSEKQDFRLDARVKD     640
+RGKEVLKRIGLGDNRGGEINQQRKRGENLRAAQLAKLKQLQAEDGFDLFERFEHRYPQLEEQLAMLNTMWENTCRKCVDL     720
+QRILEDSISSLDDFWSHYNELRGWLRASSEVLEDEVDPALTLQEQRNRAEAHLSELESRVPDVQQLKNLAGKIPSTVLAE     800
+IEETEAPLAAELEETESLLQDHLDTARGRLNRLQEGCQAISGYSGEVDDLVGWLREFEPRVNPGELLSSCDPKEIKSAQG     880
+KLRVLVKALSDKQQQYDMLTARGQDLLDKCRESEQQGVNAVLLVLAEAWDGAEGALEEKRMKLEDGFQHAHQFDKQHRDL     960
+AIWIRDAEAQITEPMDDTDLQQRVERQQVLVSGLKEHEPLYDHIFVLGEGLVSLCSPTAGVPINDKLETIQEQWEELKIH    1040
+CVQEQESLKGTVDNMVEIKSKIDFYQEWMDDVTKECGQLNTELPSDLGKIRKLVDKFYGFLDQLKSQAPFLNDLLGQCQQ    1120
+WENEGTLASDLAGDVDELREGWGGICQFLDERFTEIRVKQLELAKQPAPKPAREPKTDAEKVDLEVQNKVASCCCKNKFK    1200
+CEMISAGKYKFGELAKKHLVRILRTNIVIRVGGGWETLETFLNLHDPCRVTGKGNMESIIASLPKPGEALGLMTAAITTN    1280
+RTVLGHTSSTVTRTRSVSGEEVVRTETDTDFAHAKGPQRFMTLAGVTVYAIELTKTTQSRKTMSTQKTTTRTTPTRDRGH    1360
+TPSSRSVSSHSKSLTPDRGMPLKRSQSYGMGEKTPPSARRSRTASGSGRTLTDRFASNTPQKGVKRSESDKGGRRSLLPT    1440
+PTRPSGIPIAKSRSGTFKKSASGTSLNNESQTVSVTRTNAFRPLARQESGRRSGWHPTLTRQSVSGEEVVRTETDTDFAH    1520
+AKGPQRFMTLAGVTVYAIELTKTTQSRKTMSTQKTTTRTTPTRDRGHTPSSRSVSSHSKSLTPDRGMSLLPTPTRPSGIP    1600
+IAKSRSGTFKKSASGTSLNNESQTVSVTRTNAFRPLARQESGRRSGIPKKMSVSPEVASKCLVIPDKSGYDTNMFNIPVK    1680
+YASFLEKILIPNGLVKDRTHKLAVDILSSLPSECKGLVVLCVLKGGYKFCSELVDAMEKFICSSEINMSIKVEFIRLKSY    1760
+HVIITWQVLCAQCSNSIFPLVTKSPLLLHIASIAQRGNFITNAFNGFSISHTMFRYSFLILLAVIVTLVSAYKHHQQYYP    1840
+GDIMSSSVVPTSYSVTAILVGLAATVLQFVHVLIVEDIVDTGMTMTKALKLINEYTPASVQCASLLLKRTDKSCGYIPEF    1920
+CFSQTVSL                                                                            2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+.......................P........................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+.........................................P......................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+........                                                                            2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+342              2    -----MR|MG  0.145    .
+342             24    SADNSNR|CS  0.099    .
+342             43    LGNSQCR|YL  0.121    .
+342             48    CRYLPVK|LK  0.068    .
+342             50    YLPVKLK|NR  0.068    .
+342             52    PVKLKNR|SQ  0.122    .
+342             60    QVGIEYR|VI  0.095    .
+342             72    SPSYPWR|AS  0.195    .
+342             84    WASAEQR|FR  0.119    .
+342             86    SAEQRFR|NT  0.084    .
+342            101    LGSGGSR|EG  0.077    .
+342            106    SREGVFR|QS  0.147    .
+342            116    QDQWPTK|DV  0.121    .
+342            130    SQAVPPR|QA  0.161    .
+342            137    QAYDFMK|EQ  0.078    .
+342            143    KEQHTSR|YS  0.136    .
+342            148    SRYSFMK|EQ  0.078    .
+342            164    SAQELPK|TP  0.068    .
+342            175    VSNHQFR|LD  0.107    .
+342            183    DLPGNEK|VP  0.059    .
+342            193    PVLFPPK|PV  0.096    .
+342            198    PKPVFIK|EH  0.059    .
+342            201    VFIKEHR|MP  0.098    .
+342            204    KEHRMPK|QG  0.172    .
+342            209    PKQGFMK|EQ  0.059    .
+342            217    QLVPDHR|RQ  0.068    .
+342            218    LVPDHRR|QK  0.155    .
+342            220    PDHRRQK|TR  0.103    .
+342            222    HRRQKTR|YE  0.181    .
+342            229    YELAMER|ED  0.069    .
+342            234    EREDELR|RQ  0.089    .
+342            235    REDELRR|QG  0.089    .
+342            239    LRRQGLK|PQ  0.062    .
+342            244    LKPQSWR|SS  0.177    .
+342            252    SEPTGIR|SL  0.103    .
+342            270    MTPVSTR|PS  0.099    .
+342            279    LTPELGK|TG  0.053    .
+342            283    LGKTGTR|PS  0.077    .
+342            292    LTPEVGK|TG  0.056    .
+342            296    VGKTGTR|PS  0.064    .
+342            305    LTPDLEK|AG  0.056    .
+342            318    LTPELGK|TS  0.067    .
+342            334    LTPEPSR|GS  0.087    .
+342            349    HNTTWER|IQ  0.077    .
+342            371    GFGENFR|FL  0.115    .
+342            380    TEEQTEK|EE  0.062    .
+342            384    TEKEEVK|AE  0.063    .
+342            389    VKAEPVR|YP  0.088    .
+342            410    AAPSSPK|PV  0.073    .
+342            421    SSPSPSR|SI  0.151    .
+342            424    SPSRSIR|DT  0.711 *ProP*
+342            428    SIRDTIK|EQ  0.066    .
+342            432    TIKEQQK|AR  0.067    .
+342            434    KEQQKAR|LK  0.091    .
+342            436    QQKARLK|AI  0.069    .
+342            442    KAINAAR|SE  0.172    .
+342            449    SESSPEK|TI  0.095    .
+342            467    GLTESEK|VF  0.064    .
+342            472    EKVFYEK|LR  0.062    .
+342            474    VFYEKLR|RT  0.094    .
+342            475    FYEKLRR|TQ  0.080    .
+342            480    RRTQVVK|AS  0.070    .
+342            490    TGAEITR|ML  0.107    .
+342            493    EITRMLR|DR  0.183    .
+342            495    TRMLRDR|KM  0.111    .
+342            496    RMLRDRK|MS  0.203    .
+342            499    RDRKMSR|MS  0.110    .
+342            535    DDETPSK|PS  0.065    .
+342            570    PPPPQPR|SD  0.148    .
+342            579    SADSFVK|NE  0.058    .
+342            583    FVKNEAK|MK  0.065    .
+342            585    KNEAKMK|EE  0.078    .
+342            591    KEEESQR|RQ  0.075    .
+342            592    EEESQRR|QE  0.087    .
+342            597    RRQETLR|AL  0.122    .
+342            602    LRALNER|LE  0.092    .
+342            607    ERLETIR|EE  0.088    .
+342            617    VVPNTIK|QP  0.061    .
+342            622    IKQPPQK|TG  0.082    .
+342            629    TGTDSEK|QD  0.064    .
+342            633    SEKQDFR|LD  0.079    .
+342            637    DFRLDAR|VK  0.086    .
+342            639    RLDARVK|DR  0.072    .
+342            641    DARVKDR|GK  0.118    .
+342            643    RVKDRGK|EV  0.067    .
+342            647    RGKEVLK|RI  0.068    .
+342            648    GKEVLKR|IG  0.141    .
+342            655    IGLGDNR|GG  0.076    .
+342            663    GEINQQR|KR  0.113    .
+342            664    EINQQRK|RG  0.079    .
+342            665    INQQRKR|GE  0.142    .
+342            670    KRGENLR|AA  0.096    .
+342            676    RAAQLAK|LK  0.064    .
+342            678    AQLAKLK|QL  0.064    .
+342            691    GFDLFER|FE  0.089    .
+342            695    FERFEHR|YP  0.089    .
+342            715    MWENTCR|KC  0.089    .
+342            716    WENTCRK|CV  0.130    .
+342            722    KCVDLQR|IL  0.113    .
+342            742    SHYNELR|GW  0.087    .
+342            746    ELRGWLR|AS  0.128    .
+342            766    LTLQEQR|NR  0.071    .
+342            768    LQEQRNR|AE  0.070    .
+342            779    LSELESR|VP  0.081    .
+342            787    PDVQQLK|NL  0.065    .
+342            792    LKNLAGK|IP  0.083    .
+342            827    DHLDTAR|GR  0.072    .
+342            829    LDTARGR|LN  0.087    .
+342            832    ARGRLNR|LQ  0.313    .
+342            855    DLVGWLR|EF  0.079    .
+342            860    LREFEPR|VN  0.101    .
+342            873    LSSCDPK|EI  0.086    .
+342            876    CDPKEIK|SA  0.095    .
+342            881    IKSAQGK|LR  0.063    .
+342            883    SAQGKLR|VL  0.129    .
+342            887    KLRVLVK|AL  0.103    .
+342            892    VKALSDK|QQ  0.065    .
+342            902    YDMLTAR|GQ  0.089    .
+342            909    GQDLLDK|CR  0.063    .
+342            911    DLLDKCR|ES  0.104    .
+342            939    EGALEEK|RM  0.053    .
+342            940    GALEEKR|MK  0.150    .
+342            942    LEEKRMK|LE  0.065    .
+342            955    HAHQFDK|QH  0.070    .
+342            958    QFDKQHR|DL  0.117    .
+342            965    DLAIWIR|DA  0.205    .
+342            983    DTDLQQR|VE  0.073    .
+342            986    LQQRVER|QQ  0.164    .
+342            995    VLVSGLK|EH  0.057    .
+342           1026    GVPINDK|LE  0.059    .
+342           1038    EQWEELK|IH  0.062    .
+342           1049    QEQESLK|GT  0.069    .
+342           1059    DNMVEIK|SK  0.080    .
+342           1061    MVEIKSK|ID  0.072    .
+342           1074    WMDDVTK|EC  0.068    .
+342           1089    LPSDLGK|IR  0.065    .
+342           1091    SDLGKIR|KL  0.102    .
+342           1092    DLGKIRK|LV  0.120    .
+342           1096    IRKLVDK|FY  0.081    .
+342           1105    GFLDQLK|SQ  0.072    .
+342           1139    GDVDELR|EG  0.089    .
+342           1152    CQFLDER|FT  0.089    .
+342           1157    ERFTEIR|VK  0.076    .
+342           1159    FTEIRVK|QL  0.064    .
+342           1165    KQLELAK|QP  0.058    .
+342           1170    AKQPAPK|PA  0.075    .
+342           1173    PAPKPAR|EP  0.074    .
+342           1176    KPAREPK|TD  0.189    .
+342           1181    PKTDAEK|VD  0.055    .
+342           1189    DLEVQNK|VA  0.063    .
+342           1196    VASCCCK|NK  0.082    .
+342           1198    SCCCKNK|FK  0.080    .
+342           1200    CCKNKFK|CE  0.062    .
+342           1208    EMISAGK|YK  0.063    .
+342           1210    ISAGKYK|FG  0.093    .
+342           1216    KFGELAK|KH  0.055    .
+342           1217    FGELAKK|HL  0.106    .
+342           1221    AKKHLVR|IL  0.107    .
+342           1224    HLVRILR|TN  0.204    .
+342           1230    RTNIVIR|VG  0.118    .
+342           1249    NLHDPCR|VT  0.139    .
+342           1253    PCRVTGK|GN  0.078    .
+342           1265    IIASLPK|PG  0.076    .
+342           1281    AAITTNR|TV  0.098    .
+342           1293    TSSTVTR|TR  0.137    .
+342           1295    STVTRTR|SV  0.305    .
+342           1304    SGEEVVR|TE  0.076    .
+342           1315    TDFAHAK|GP  0.073    .
+342           1319    HAKGPQR|FM  0.102    .
+342           1335    YAIELTK|TT  0.059    .
+342           1340    TKTTQSR|KT  0.114    .
+342           1341    KTTQSRK|TM  0.092    .
+342           1347    KTMSTQK|TT  0.064    .
+342           1351    TQKTTTR|TT  0.090    .
+342           1356    TRTTPTR|DR  0.137    .
+342           1358    TTPTRDR|GH  0.089    .
+342           1365    GHTPSSR|SV  0.183    .
+342           1372    SVSSHSK|SL  0.111    .
+342           1378    KSLTPDR|GM  0.087    .
+342           1383    DRGMPLK|RS  0.069    .
+342           1384    RGMPLKR|SQ  0.416    .
+342           1393    SYGMGEK|TP  0.056    .
+342           1399    KTPPSAR|RS  0.088    .
+342           1400    TPPSARR|SR  0.308    .
+342           1402    PSARRSR|TA  0.573 *ProP*
+342           1409    TASGSGR|TL  0.131    .
+342           1414    GRTLTDR|FA  0.116    .
+342           1422    ASNTPQK|GV  0.120    .
+342           1425    TPQKGVK|RS  0.067    .
+342           1426    PQKGVKR|SE  0.347    .
+342           1431    KRSESDK|GG  0.085    .
+342           1434    ESDKGGR|RS  0.065    .
+342           1435    SDKGGRR|SL  0.160    .
+342           1443    LLPTPTR|PS  0.084    .
+342           1451    SGIPIAK|SR  0.086    .
+342           1453    IPIAKSR|SG  0.143    .
+342           1458    SRSGTFK|KS  0.088    .
+342           1459    RSGTFKK|SA  0.259    .
+342           1477    QTVSVTR|TN  0.076    .
+342           1482    TRTNAFR|PL  0.126    .
+342           1486    AFRPLAR|QE  0.105    .
+342           1491    ARQESGR|RS  0.133    .
+342           1492    RQESGRR|SG  0.127    .
+342           1501    WHPTLTR|QS  0.084    .
+342           1511    SGEEVVR|TE  0.079    .
+342           1522    TDFAHAK|GP  0.073    .
+342           1526    HAKGPQR|FM  0.102    .
+342           1542    YAIELTK|TT  0.059    .
+342           1547    TKTTQSR|KT  0.114    .
+342           1548    KTTQSRK|TM  0.092    .
+342           1554    KTMSTQK|TT  0.064    .
+342           1558    TQKTTTR|TT  0.090    .
+342           1563    TRTTPTR|DR  0.137    .
+342           1565    TTPTRDR|GH  0.089    .
+342           1572    GHTPSSR|SV  0.183    .
+342           1579    SVSSHSK|SL  0.112    .
+342           1585    KSLTPDR|GM  0.084    .
+342           1595    LLPTPTR|PS  0.087    .
+342           1603    SGIPIAK|SR  0.086    .
+342           1605    IPIAKSR|SG  0.143    .
+342           1610    SRSGTFK|KS  0.088    .
+342           1611    RSGTFKK|SA  0.259    .
+342           1629    QTVSVTR|TN  0.076    .
+342           1634    TRTNAFR|PL  0.126    .
+342           1638    AFRPLAR|QE  0.107    .
+342           1643    ARQESGR|RS  0.123    .
+342           1644    RQESGRR|SG  0.157    .
+342           1649    RRSGIPK|KM  0.091    .
+342           1650    RSGIPKK|MS  0.104    .
+342           1660    SPEVASK|CL  0.064    .
+342           1667    CLVIPDK|SG  0.075    .
+342           1680    MFNIPVK|YA  0.094    .
+342           1687    YASFLEK|IL  0.078    .
+342           1696    IPNGLVK|DR  0.080    .
+342           1698    NGLVKDR|TH  0.079    .
+342           1701    VKDRTHK|LA  0.152    .
+342           1715    SLPSECK|GL  0.058    .
+342           1724    VVLCVLK|GG  0.055    .
+342           1728    VLKGGYK|FC  0.064    .
+342           1739    LVDAMEK|FI  0.067    .
+342           1751    EINMSIK|VE  0.067    .
+342           1756    IKVEFIR|LK  0.088    .
+342           1758    VEFIRLK|SY  0.091    .
+342           1783    IFPLVTK|SP  0.060    .
+342           1796    IASIAQR|GN  0.101    .
+342           1815    ISHTMFR|YS  0.123    .
+342           1833    TLVSAYK|HH  0.068    .
+342           1887    TGMTMTK|AL  0.065    .
+342           1890    TMTKALK|LI  0.062    .
+342           1908    CASLLLK|RT  0.066    .
+342           1909    ASLLLKR|TD  0.106    .
+342           1912    LLKRTDK|SC  0.233    .
+____________________________^_________________
+
+
+
+

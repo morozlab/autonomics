@@ -1,0 +1,9 @@
+# 598 Length: 1506
+# 598 Number of predicted TMHs:  1
+# 598 Exp number of AAs in TMHs: 22.48191
+# 598 Exp number, first 60 AAs:  22.14185
+# 598 Total prob of N-in:        0.97069
+# 598 POSSIBLE N-term signal sequence
+598	TMHMM2.0	inside	     1    11
+598	TMHMM2.0	TMhelix	    12    34
+598	TMHMM2.0	outside	    35  1506

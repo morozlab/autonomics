@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+611	
+
+ psg: 0.45  gvh: 0.12  alm: 0.27  top: 0.40  tms: 0.08  mit: 0.37  mip: 0.04
+ nuc: 0.03  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.15  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 1.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.79  lps: 0.00  len: 0.36 
+
+	 39.1 %: nuclear
+	 30.4 %: mitochondrial
+	  8.7 %: cytoplasmic
+	  4.3 %: vesicles of secretory system
+	  4.3 %: extracellular, including cell wall
+	  4.3 %: Golgi
+	  4.3 %: peroxisomal
+	  4.3 %: plasma membrane
+
+>> prediction for 611 is nuc (k=23)
+

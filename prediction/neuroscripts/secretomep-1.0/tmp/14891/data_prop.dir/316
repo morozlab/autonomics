@@ -1,0 +1,333 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2008 316         
+MSRTNWRSLRWNPSSSPNSRDIPEYQESGWDPYGLFRYISDMAYEAGVSMNDFKCLTEVDDARLVELLESTDLSLTDQLG      80
+QSVMHLAAQYLTDRQVDKIRNAGCDVEAMDVNEYTPFFYAVMSDNVNNMRKLKELNANYTYVHERSGRSAIHIAALYGNS     160
+NALKELLDWGMNMNLQDGFGLTSVVISSFYGNSEMTAYLIERGAKADTIDTDGIMEEDLYKGERSYHLDKVLGNNSNVNT     240
+SFYHYVTWIGAMGILDHSTVEQTIEAKWAVFAESMFRMELIFMMLLMTFWSVFYLTPYPNYKIYDPILDSFFVANTVIAS     320
+FMHVYRVIKNCIMLKHRWRYMGFLDKVCAATYGRETMCLHYKQAKNYQEILKSKFGQPARTFIKDVLDSPLVMLDFIVDV     400
+LLTVFLGIKIYVFAFDFDEMVLEELLEHNYTRDSVNETVYDEFYHETIHHLTIYLNLFGSIVICTMWASGFAKLSVTENG     480
+SFVIYMSTIGTDLAKVGTIFIFVTIPAFTALWKTIYEPHSDKSWYEVIFMVIRMVIVDYDYDGGKDAVHMYPIWWMILSL     560
+LWIFMGSIVVLNILIAVMSESYSDIMEKTGPLMARMERARAIARYERGMGAERLEQQYEVITTKCSPVIVKFDPVTDRET     640
+IDIVKEDVVQLRHKLNQMDEKIDQKFKEIETAISNLNETVNLYTSNKTLVSYAQDNDADDRRIQQYHFSQAPSGHSARYS     720
+RTKPNSSNNIFSFQCRCYSDAVSINMNQFVETYNRLYDKNVELVPEEKHVIKNEQVKEDSVEEESGGDEDHVVEALKRKM     800
+KPRRRRREPHVCTEGCMWECARVRMRMKRRDKRRKPRRLRMRRAKRKEARGLIKKALAYVIDMEEDDDETSQSSRSVRMG     880
+TMVRIPYPTPKPTPNHTTFLANWRERTLVDLGRSCINKGPSGELFQMARKIQDMWNGVFSDFPSESKKQDLEENKGEENG     960
+GHNVQSPMHHLYYKLKMNVEVLVLHNFKAAAAAAAAAAAAAAAAAAAAAALWLIDSMSHSCMSHSCSYAQDNDADDRRIQ    1040
+QYHFSQAPSGHSARYSRTKPNSSNNIFSFQCQCYSDAVSINMNQFVETYNRLYDKNVELVPEEKHVIKNEQVKEESVEEE    1120
+SGGDEDHVVEALKRKMKPRRRRREPHVCTEGCMWECARVRMRMKRRDKRRKPRRLRMRRAKRKEARGLIKKALAYVIDME    1200
+EEETSPSQSSRSVRIGTTMVRIPYPTPKPTPNHTTFLATWRERTLVDLGRSCINKEPSGELFQMARKLQDMWNGVFSDFP    1280
+SENNKQDSEEKKEDSEENIGHNVQSPVRQSWQLPMHHLYYKLKMNVEEPAETNKQPIRTRYLGHVTGYQPIRGQYFRIRS    1360
+VPGVISHLSHVKSNTCLTCNHTLVLTVYNQSGSNQIRNVIRILDNQEISYTVKTFVDLFSRWGTRALSVNHNLMACFTLE    1440
+AIGSPQIFTPDIDHPSFQQSPIKPQPQRRLAPKKRPQEREFLYCLRQEQLSQMRQHELCNIPTVEQLELCKKEAYLQKVR    1520
+SNSRPTFGSRGPVMKQSRVRSIHEAKRQPSTKSRTVYNQSGSNQIRNVIRILDNQEISYTVKTFVDLFSRWGTRALSVNH    1600
+NLMACFTIEAIGSPQIFTPDVDHPPFQQSPIKPQRRLAPKNRPQEREFLYCLRQEQLSQMRQHELCNIPTVEQLELCSNT    1680
+VTTVNPRLETGPLEVTTQQLGGVQSDSLGLPVRGGGRPDRLGGEHSLTNQEGTNLGGRHSDTLTNQRTTGTHMEGDHPFP    1760
+FSDRLGQTNQDSTTLGPTFTNQERKTAMKLMAPQLVMMDHPKTNPFPFPHMVARYGLSVCGEMPPVRVINTPFRHPQRRT    1840
+RDIQPGQVPRPTKVEHQSQPINIEPVRVGESSGSGILDIRSGLVVNNSEVGVNNGNSGDVPGEREVGIRNKGVGIEDTSR    1920
+AGKGLLRYQTRAHILQLYLWLVSLKSSFPRYPRPSLKLILTQGIFWKKASESLEFLSLEIQITWREREREVILFFVVFMA    2000
+CMAAPYPI                                                                            2080
+................................................................................      80
+...................................................................P............     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+......P...................................P..P..................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+......................P...................................P..P..................    1200
+..........P.....................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+P...............................................................................    1920
+................................................................................    2000
+........                                                                            2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 9
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+316              3    ----MSR|TN  0.092    .
+316              7    MSRTNWR|SL  0.173    .
+316             10    TNWRSLR|WN  0.231    .
+316             20    SSSPNSR|DI  0.192    .
+316             37    DPYGLFR|YI  0.117    .
+316             54    VSMNDFK|CL  0.073    .
+316             63    TEVDDAR|LV  0.152    .
+316             94    AQYLTDR|QV  0.142    .
+316             98    TDRQVDK|IR  0.075    .
+316            100    RQVDKIR|NA  0.130    .
+316            130    DNVNNMR|KL  0.079    .
+316            131    NVNNMRK|LK  0.076    .
+316            133    NNMRKLK|EL  0.167    .
+316            145    YTYVHER|SG  0.140    .
+316            148    VHERSGR|SA  0.534 *ProP*
+316            164    GNSNALK|EL  0.079    .
+316            202    TAYLIER|GA  0.106    .
+316            205    LIERGAK|AD  0.119    .
+316            221    MEEDLYK|GE  0.058    .
+316            224    DLYKGER|SY  0.095    .
+316            230    RSYHLDK|VL  0.066    .
+316            267    EQTIEAK|WA  0.074    .
+316            277    FAESMFR|ME  0.068    .
+316            302    TPYPNYK|IY  0.093    .
+316            326    SFMHVYR|VI  0.106    .
+316            329    HVYRVIK|NC  0.106    .
+316            335    KNCIMLK|HR  0.061    .
+316            337    CIMLKHR|WR  0.091    .
+316            339    MLKHRWR|YM  0.109    .
+316            346    YMGFLDK|VC  0.055    .
+316            354    CAATYGR|ET  0.074    .
+316            362    TMCLHYK|QA  0.079    .
+316            365    LHYKQAK|NY  0.079    .
+316            372    NYQEILK|SK  0.077    .
+316            374    QEILKSK|FG  0.074    .
+316            380    KFGQPAR|TF  0.089    .
+316            384    PARTFIK|DV  0.097    .
+316            409    TVFLGIK|IY  0.055    .
+316            432    LEHNYTR|DS  0.105    .
+316            473    WASGFAK|LS  0.083    .
+316            495    IGTDLAK|VG  0.058    .
+316            513    AFTALWK|TI  0.058    .
+316            522    YEPHSDK|SW  0.099    .
+316            533    VIFMVIR|MV  0.094    .
+316            545    YDYDGGK|DA  0.071    .
+316            588    YSDIMEK|TG  0.057    .
+316            595    TGPLMAR|ME  0.090    .
+316            598    LMARMER|AR  0.192    .
+316            600    ARMERAR|AI  0.168    .
+316            604    RARAIAR|YE  0.102    .
+316            607    AIARYER|GM  0.378    .
+316            613    RGMGAER|LE  0.077    .
+316            624    YEVITTK|CS  0.061    .
+316            631    CSPVIVK|FD  0.059    .
+316            638    FDPVTDR|ET  0.096    .
+316            645    ETIDIVK|ED  0.058    .
+316            652    EDVVQLR|HK  0.090    .
+316            654    VVQLRHK|LN  0.062    .
+316            661    LNQMDEK|ID  0.065    .
+316            665    DEKIDQK|FK  0.067    .
+316            667    KIDQKFK|EI  0.082    .
+316            687    NLYTSNK|TL  0.058    .
+316            701    DNDADDR|RI  0.084    .
+316            702    NDADDRR|IQ  0.128    .
+316            718    PSGHSAR|YS  0.171    .
+316            721    HSARYSR|TK  0.223    .
+316            723    ARYSRTK|PN  0.076    .
+316            736    IFSFQCR|CY  0.149    .
+316            755    FVETYNR|LY  0.077    .
+316            759    YNRLYDK|NV  0.083    .
+316            768    ELVPEEK|HV  0.079    .
+316            772    EEKHVIK|NE  0.071    .
+316            777    IKNEQVK|ED  0.085    .
+316            797    HVVEALK|RK  0.054    .
+316            798    VVEALKR|KM  0.109    .
+316            799    VEALKRK|MK  0.081    .
+316            801    ALKRKMK|PR  0.114    .
+316            803    KRKMKPR|RR  0.135    .
+316            804    RKMKPRR|RR  0.122    .
+316            805    KMKPRRR|RR  0.133    .
+316            806    MKPRRRR|RE  0.373    .
+316            807    KPRRRRR|EP  0.549 *ProP*
+316            822    CMWECAR|VR  0.071    .
+316            824    WECARVR|MR  0.079    .
+316            826    CARVRMR|MK  0.090    .
+316            828    RVRMRMK|RR  0.062    .
+316            829    VRMRMKR|RD  0.457    .
+316            830    RMRMKRR|DK  0.278    .
+316            832    RMKRRDK|RR  0.094    .
+316            833    MKRRDKR|RK  0.492    .
+316            834    KRRDKRR|KP  0.190    .
+316            835    RRDKRRK|PR  0.079    .
+316            837    DKRRKPR|RL  0.277    .
+316            838    KRRKPRR|LR  0.142    .
+316            840    RKPRRLR|MR  0.242    .
+316            842    PRRLRMR|RA  0.147    .
+316            843    RRLRMRR|AK  0.572 *ProP*
+316            845    LRMRRAK|RK  0.204    .
+316            846    RMRRAKR|KE  0.524 *ProP*
+316            847    MRRAKRK|EA  0.153    .
+316            850    AKRKEAR|GL  0.170    .
+316            854    EARGLIK|KA  0.071    .
+316            855    ARGLIKK|AL  0.127    .
+316            875    ETSQSSR|SV  0.330    .
+316            878    QSSRSVR|MG  0.422    .
+316            884    RMGTMVR|IP  0.072    .
+316            891    IPYPTPK|PT  0.072    .
+316            904    TFLANWR|ER  0.071    .
+316            906    LANWRER|TL  0.112    .
+316            913    TLVDLGR|SC  0.169    .
+316            918    GRSCINK|GP  0.116    .
+316            929    ELFQMAR|KI  0.101    .
+316            930    LFQMARK|IQ  0.074    .
+316            947    DFPSESK|KQ  0.055    .
+316            948    FPSESKK|QD  0.130    .
+316            955    QDLEENK|GE  0.072    .
+316            974    MHHLYYK|LK  0.072    .
+316            976    HLYYKLK|MN  0.076    .
+316            988    LVLHNFK|AA  0.067    .
+316           1037    DNDADDR|RI  0.084    .
+316           1038    NDADDRR|IQ  0.128    .
+316           1054    PSGHSAR|YS  0.171    .
+316           1057    HSARYSR|TK  0.223    .
+316           1059    ARYSRTK|PN  0.076    .
+316           1091    FVETYNR|LY  0.077    .
+316           1095    YNRLYDK|NV  0.083    .
+316           1104    ELVPEEK|HV  0.079    .
+316           1108    EEKHVIK|NE  0.069    .
+316           1113    IKNEQVK|EE  0.082    .
+316           1133    HVVEALK|RK  0.054    .
+316           1134    VVEALKR|KM  0.109    .
+316           1135    VEALKRK|MK  0.081    .
+316           1137    ALKRKMK|PR  0.114    .
+316           1139    KRKMKPR|RR  0.135    .
+316           1140    RKMKPRR|RR  0.122    .
+316           1141    KMKPRRR|RR  0.133    .
+316           1142    MKPRRRR|RE  0.373    .
+316           1143    KPRRRRR|EP  0.549 *ProP*
+316           1158    CMWECAR|VR  0.071    .
+316           1160    WECARVR|MR  0.079    .
+316           1162    CARVRMR|MK  0.090    .
+316           1164    RVRMRMK|RR  0.062    .
+316           1165    VRMRMKR|RD  0.457    .
+316           1166    RMRMKRR|DK  0.278    .
+316           1168    RMKRRDK|RR  0.094    .
+316           1169    MKRRDKR|RK  0.492    .
+316           1170    KRRDKRR|KP  0.190    .
+316           1171    RRDKRRK|PR  0.079    .
+316           1173    DKRRKPR|RL  0.277    .
+316           1174    KRRKPRR|LR  0.142    .
+316           1176    RKPRRLR|MR  0.242    .
+316           1178    PRRLRMR|RA  0.147    .
+316           1179    RRLRMRR|AK  0.572 *ProP*
+316           1181    LRMRRAK|RK  0.204    .
+316           1182    RMRRAKR|KE  0.524 *ProP*
+316           1183    MRRAKRK|EA  0.153    .
+316           1186    AKRKEAR|GL  0.170    .
+316           1190    EARGLIK|KA  0.071    .
+316           1191    ARGLIKK|AL  0.127    .
+316           1211    SPSQSSR|SV  0.577 *ProP*
+316           1214    QSSRSVR|IG  0.400    .
+316           1221    IGTTMVR|IP  0.069    .
+316           1228    IPYPTPK|PT  0.072    .
+316           1241    TFLATWR|ER  0.073    .
+316           1243    LATWRER|TL  0.087    .
+316           1250    TLVDLGR|SC  0.192    .
+316           1255    GRSCINK|EP  0.103    .
+316           1266    ELFQMAR|KL  0.095    .
+316           1267    LFQMARK|LQ  0.071    .
+316           1285    FPSENNK|QD  0.071    .
+316           1291    KQDSEEK|KE  0.061    .
+316           1292    QDSEEKK|ED  0.143    .
+316           1308    NVQSPVR|QS  0.088    .
+316           1321    MHHLYYK|LK  0.069    .
+316           1323    HLYYKLK|MN  0.071    .
+316           1334    EPAETNK|QP  0.061    .
+316           1338    TNKQPIR|TR  0.090    .
+316           1340    KQPIRTR|YL  0.141    .
+316           1352    TGYQPIR|GQ  0.103    .
+316           1357    IRGQYFR|IR  0.100    .
+316           1359    GQYFRIR|SV  0.257    .
+316           1372    SHLSHVK|SN  0.072    .
+316           1397    SGSNQIR|NV  0.218    .
+316           1401    QIRNVIR|IL  0.140    .
+316           1413    EISYTVK|TF  0.064    .
+316           1421    FVDLFSR|WG  0.073    .
+316           1425    FSRWGTR|AL  0.102    .
+316           1463    FQQSPIK|PQ  0.062    .
+316           1468    IKPQPQR|RL  0.087    .
+316           1469    KPQPQRR|LA  0.315    .
+316           1473    QRRLAPK|KR  0.075    .
+316           1474    RRLAPKK|RP  0.101    .
+316           1475    RLAPKKR|PQ  0.270    .
+316           1479    KKRPQER|EF  0.123    .
+316           1486    EFLYCLR|QE  0.069    .
+316           1494    EQLSQMR|QH  0.072    .
+316           1511    EQLELCK|KE  0.052    .
+316           1512    QLELCKK|EA  0.084    .
+316           1518    KEAYLQK|VR  0.074    .
+316           1520    AYLQKVR|SN  0.106    .
+316           1524    KVRSNSR|PT  0.091    .
+316           1530    RPTFGSR|GP  0.081    .
+316           1535    SRGPVMK|QS  0.074    .
+316           1538    PVMKQSR|VR  0.089    .
+316           1540    MKQSRVR|SI  0.229    .
+316           1546    RSIHEAK|RQ  0.058    .
+316           1547    SIHEAKR|QP  0.220    .
+316           1552    KRQPSTK|SR  0.103    .
+316           1554    QPSTKSR|TV  0.194    .
+316           1566    SGSNQIR|NV  0.218    .
+316           1570    QIRNVIR|IL  0.140    .
+316           1582    EISYTVK|TF  0.064    .
+316           1590    FVDLFSR|WG  0.073    .
+316           1594    FSRWGTR|AL  0.102    .
+316           1632    FQQSPIK|PQ  0.060    .
+316           1635    SPIKPQR|RL  0.101    .
+316           1636    PIKPQRR|LA  0.198    .
+316           1640    QRRLAPK|NR  0.070    .
+316           1642    RLAPKNR|PQ  0.117    .
+316           1646    KNRPQER|EF  0.120    .
+316           1653    EFLYCLR|QE  0.069    .
+316           1661    EQLSQMR|QH  0.072    .
+316           1687    VTTVNPR|LE  0.070    .
+316           1713    SLGLPVR|GG  0.091    .
+316           1717    PVRGGGR|PD  0.085    .
+316           1720    GGGRPDR|LG  0.222    .
+316           1738    GTNLGGR|HS  0.104    .
+316           1747    DTLTNQR|TT  0.089    .
+316           1764    PFPFSDR|LG  0.080    .
+316           1784    TFTNQER|KT  0.094    .
+316           1785    FTNQERK|TA  0.102    .
+316           1789    ERKTAMK|LM  0.075    .
+316           1802    VMMDHPK|TN  0.064    .
+316           1814    FPHMVAR|YG  0.125    .
+316           1827    GEMPPVR|VI  0.098    .
+316           1834    VINTPFR|HP  0.087    .
+316           1838    PFRHPQR|RT  0.127    .
+316           1839    FRHPQRR|TR  0.285    .
+316           1841    HPQRRTR|DI  0.588 *ProP*
+316           1850    QPGQVPR|PT  0.112    .
+316           1853    QVPRPTK|VE  0.139    .
+316           1867    INIEPVR|VG  0.090    .
+316           1880    SGILDIR|SG  0.098    .
+316           1904    GDVPGER|EV  0.127    .
+316           1909    EREVGIR|NK  0.126    .
+316           1911    EVGIRNK|GV  0.104    .
+316           1920    GIEDTSR|AG  0.075    .
+316           1923    DTSRAGK|GL  0.173    .
+316           1927    AGKGLLR|YQ  0.075    .
+316           1931    LLRYQTR|AH  0.097    .
+316           1945    LWLVSLK|SS  0.073    .
+316           1950    LKSSFPR|YP  0.163    .
+316           1953    SFPRYPR|PS  0.187    .
+316           1957    YPRPSLK|LI  0.073    .
+316           1967    TQGIFWK|KA  0.098    .
+316           1968    QGIFWKK|AS  0.104    .
+316           1985    EIQITWR|ER  0.084    .
+316           1987    QITWRER|ER  0.089    .
+316           1989    TWRERER|EV  0.113    .
+____________________________^_________________
+
+
+
+

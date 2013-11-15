@@ -1,0 +1,607 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3491 67          
+MPFFCVRIQMAEHSERGGKRRKLWIAAGCVGCVAASLALAGPFITPALRKHVLPYVPATETTIDLIFKELRPTATSRLID      80
+LGSGDGRVVIEAAKKGFPRADGIELNIWLVLYSRWKSLVSGTNSRTSFKRADLWKYDLSPYDTIVVFGGEGMIEDIRGWC     160
+TAADTAPSSQDSSWLYEGATKPPEGDETKSSLDANATEFVSKFGNGVDSGASESEEESDDDIEITIGEINKKAPGPYGMS     240
+FPQQSVNQPKVVSVITALPPTIPQVSAPVTVTSSKRTIDVNAVGNINGVPIYDYDIDTMCEEKPWRLPGADLTDYFNYGF     320
+NEDSWKSYCDKQKSVRGIAAEKNREFAVLGRLPALPELPKAPGLGGSIGVIGAKKEMPTQVMSSLSAVRAMMSTPMGMFA     400
+PTSFLPIPPQLAPPGLAPLEMMREVKQEDGAKPVAFQHPLSMAGPLPPPTMFPPPGMPSMLPPPGGAIAPPLLLPPPAFG     480
+EDSNGGGGSSDEDGRRRPRRRSREHSSRREGSSRRRTADRSTEHRSRSRRSPTRKSEKKSSRKSSRGDESSRRESSRSGH     560
+RDEERGKRSKRKKDSEGDGKENGIIIFCLFNNTNPLFHSTIQTTSSHHLLYISSGGTMPKKFGGENSKAVEARARKNAIA     640
+EEKKAVASAAAEDERWEDDDKQANKKQQRKKAEEAKRLAALERKKQNADMLAEEEQQLQESTKAKVPPKKITQAELVRRQ     720
+EAQAEQEAKEAAAAEEEPIHENLNRVMTDTEVAQNVEQAIAALDIDMGTFTPQTCLELVSLLSQQQVDREYLYFGGTIEL     800
+SLEDKRYKIREYLTMLVKPGGLDNRADDNDDMDLSTDRCIFLFRPALPELPKAPGLGGSIGVIGAKKEMPTQVMSSLSAV     880
+RAMMSTPMGMFAPTSFLPIPPQLAPPGLAPLEMMREVKQEDGAKPVAFQHPLSMAGPLPPPTMFPPPGMPSMLPPPGGAI     960
+APPLLLPPPAFGEDSNGGGGSSDEDGRRRPRRRSREHSSRREGSSRRRTADRSTEHRSRSRRSPTRKSEKKSSRKSSRGD    1040
+ESSRRESSRSGHRDEERGKRKRDTYVNSVSYGGTMPKKFVGENSKAVEARARKNAIAEEKKAVASAAAEDERWEDDDKQA    1120
+NKKQQRKKAEEAKRLAALERKKQNADMLAEEEQQLQESTKAKVPPKKITQAELVRRQEAQAEQEAKEAAAAEEEPIHENL    1200
+NRVMTDTEVAQNVEQAIAALDIGGDGTDMHPEKRMKAAWTAFEEGRISQLRAENPSLRLLKKEKREICYMGTFTPQTCLE    1280
+LVSLLSQQQVDREYLYFGGTIELSLEDKRYKIREYLTMLVKPGGLDNRADDNDDMDLSTDSVEQPASKRTQPTSRPAEDS    1360
+WAQIPAPTAQYRSTTAQSRQEPARYPSRSEQPALRPRLGPPRPPGSNDPLPSLRPPRSNDPLPSSRPRSNDLPSSRPPRS    1440
+NDLPPSSRPPPAPSSRGPPPRRGGSGRGGSSRGEFGVRGWGNKEDIPHNLKPVNWGGVVLKEIFKELYKESPATSDRGET    1520
+EIIAYRDHHSMTVTEDSPRPVLDIEEISFPQCLKTVFRKKGYDNPTPIQSQVWPIALSGKDLIGIAQTGSGKTLGYLLPA    1600
+LLHITAQPPAKEGPIALCLCPTRELAQQVMSVSEEFASAVRIRALALTGGASKNQQLRSLADGAELVIATPGRLIELLDT    1680
+KQCSLRDCSYVILDEADRLLDMGFEQQITAILSQIRPDRQTLMLSATWPVEVQDLAGKFLQNPLQITLGSEGLVANHAIK    1760
+QVVMVLEGFEKFEKLKEPARYPSRSEQPALRPRLGPPRPPGSNDPPPSSRPARSNDLPPPSRAPRSNDLPPSRPPRSNDQ    1840
+PPTSRPPPAPSSRGPPPRRGGSGRGGSSRGEFGVRGWGNKEDIPHNLKPVNWGGVVLKEIFKELYKESPATSDRGETEII    1920
+AYRDHHSMTVTEDSPRPVLDIEEISFPQCLKTVFRRKGYDNPTPIQSQVWPIALSGKDLIGIAQTGSGKTLGYLLPALLH    2000
+ITAQPPAKEGPIALCLCPTRELAQQVMSVSEEFASAVRIRALALTGPRRFLVVEASDRLPRLEVIATPGRLIELLDTKQC    2080
+SLRDCSYVILDEADRLLDMGFEQQITAILSQIRPDRQTLMLSATWPVEVQDLAGKFLQNPLQITLGSEGLVANHAIKQVV    2160
+MVLEGFEKFEKLKILLKQIREEGEANKTLVFTDTKKMTDDLAEDLKRERWPVEAMHGDKRQSDREHILERFKRGSIKILI    2240
+ATDVASRGIDISDITNVINYDYPNTTEDYIHRIGRTARAARSGTAYTFITPNDSRNINDLINVLQEADQEVPHALLMMRE    2320
+CFGGTKQVKKVWLPKALKRKLASEEEVKKTLTPAEEREARFVPETEDDWKSLYGFKRGSIKILIATDVASRGIDISDITN    2400
+VINYDYPNTTEDYIHRIGRTARAARSGTAYTFITPNDSRNINDLINVLQEADQEVPHALLMMRECFGGTKQVKKVWLPKG    2480
+LKRKLASEEEVKKTLTPAEEREARFVPETEDDWKSLYVYGLKCVSNHLTRDSWKFRISLSKYNTQCSNFQESYPSPQHGK    2560
+YRSEAEEGSCCQGEHSLDRELAAELGRCYLGRGLVTQFPLHCGHAKTCLTFAMPYSYQGRGVVMRFHNFTENDEPSGNIL    2640
+PSLYEHNEGVLTSHPLPADGPPCRRFLCRQVSDGLVHKNIKSIIESVLFLLPFCQHCRLAGLDQSGVDVMMIRGEDVFTR    2720
+HHVLIDQVPSFLFLLQSKAKLLFLVKAENTGKKGVAILDTFFTSVGVNDFFGIPAHSMVNTDPKPRKAAAVRDSIPSIES    2800
+WRLNLVDVTWGALRGLVMQFPLHCGHAKTCLTFAMPYSYQGRGVVMQLHEILVSVISAEDMELVHEVQNKFADDLQHAAN    2880
+TYEVEINEEDEERIINVESVFTCYREILYLRHTDGNVEDMDKTLKEIMSLCPILRLKYNTIDADSLNEANVMDDITMAFH    2960
+RQLCLAFVPFHRKIGPSLVLTEEGRIEEQVVEEQSKENDSDIENSPPPAPKPAKKRKTRGAKEPAKSDTKVVVVGLVSPK    3040
+QSPKPDKKRANKSRQKLTETDEEDSVSESPVQITNRSRRMSRRSAGDASINDSVRSGIRIKWTDEEAKCLIDGVKKHGYS    3120
+NWADILADKSFSFAPGRTNVNLKDNVPIHGCNPALSKRCLAMINVYRDHLPLNIPTLLKFRLELHEILVSVISAEDMELV    3200
+HEVQNKFADDLQHAANTYEVEINEEDEERIINVESVFTCYREILYLRHTDGNVEDMDKTLKEIMSLCPILRLKYNTIDAD    3280
+SLNEDNVMDDITMAFHRQLCLAFVPFHRKIGRSLVLTEEGRIEEQVVEEQSKENDSDIENSPPPAPKPAKKRKTRGAKEP    3360
+AKSDTKVVVVGLVSPKQSPKPDKKRANKSRQKLTETDEEDSVSESPVQITNRSRRMSRRSAGDASINDSVRSGIRIKWTD    3440
+EEAKCLIDGVKKHGYSNWADILADKSFSFAPGRTNVNLKDNVPIKCSRIKR                                 3520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+...................P.............................P..............................     560
+.......P..P.....................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+...............................P.............................P..................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+..............................................................................P.    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+....................................................P...........P..........P....    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+........................................................................P.......    2240
+.....................................P..P.......................................    2320
+.......................................P........................................    2400
+.....................P..P.......................................................    2480
+.......................P........................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+......................................P...P.....................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+......................................................P...P.....................    3440
+..................................................P                                 3520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 22
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+67               7    MPFFCVR|IQ  0.085    .
+67              16    MAEHSER|GG  0.084    .
+67              19    HSERGGK|RR  0.090    .
+67              20    SERGGKR|RK  0.166    .
+67              21    ERGGKRR|KL  0.243    .
+67              22    RGGKRRK|LW  0.100    .
+67              49    FITPALR|KH  0.054    .
+67              50    ITPALRK|HV  0.116    .
+67              68    TIDLIFK|EL  0.063    .
+67              71    LIFKELR|PT  0.087    .
+67              77    RPTATSR|LI  0.097    .
+67              87    LGSGDGR|VV  0.121    .
+67              94    VVIEAAK|KG  0.058    .
+67              95    VIEAAKK|GF  0.092    .
+67              99    AKKGFPR|AD  0.152    .
+67             114    WLVLYSR|WK  0.076    .
+67             116    VLYSRWK|SL  0.079    .
+67             125    VSGTNSR|TS  0.075    .
+67             129    NSRTSFK|RA  0.069    .
+67             130    SRTSFKR|AD  0.206    .
+67             135    KRADLWK|YD  0.071    .
+67             157    GMIEDIR|GW  0.100    .
+67             181    LYEGATK|PP  0.061    .
+67             189    PEGDETK|SS  0.084    .
+67             202    ATEFVSK|FG  0.072    .
+67             231    TIGEINK|KA  0.065    .
+67             232    IGEINKK|AP  0.138    .
+67             250    QSVNQPK|VV  0.100    .
+67             275    VTVTSSK|RT  0.065    .
+67             276    TVTSSKR|TI  0.193    .
+67             303    DTMCEEK|PW  0.057    .
+67             306    CEEKPWR|LP  0.093    .
+67             326    FNEDSWK|SY  0.106    .
+67             331    WKSYCDK|QK  0.078    .
+67             333    SYCDKQK|SV  0.138    .
+67             336    DKQKSVR|GI  0.127    .
+67             342    RGIAAEK|NR  0.058    .
+67             344    IAAEKNR|EF  0.097    .
+67             351    EFAVLGR|LP  0.067    .
+67             360    ALPELPK|AP  0.065    .
+67             374    IGVIGAK|KE  0.064    .
+67             375    GVIGAKK|EM  0.093    .
+67             389    SSLSAVR|AM  0.083    .
+67             423    APLEMMR|EV  0.114    .
+67             426    EMMREVK|QE  0.138    .
+67             432    KQEDGAK|PV  0.074    .
+67             495    SSDEDGR|RR  0.066    .
+67             496    SDEDGRR|RP  0.083    .
+67             497    DEDGRRR|PR  0.109    .
+67             499    DGRRRPR|RR  0.191    .
+67             500    GRRRPRR|RS  0.561 *ProP*
+67             501    RRRPRRR|SR  0.421    .
+67             503    RPRRRSR|EH  0.334    .
+67             508    SREHSSR|RE  0.116    .
+67             509    REHSSRR|EG  0.160    .
+67             514    RREGSSR|RR  0.099    .
+67             515    REGSSRR|RT  0.113    .
+67             516    EGSSRRR|TA  0.232    .
+67             520    RRRTADR|ST  0.205    .
+67             525    DRSTEHR|SR  0.152    .
+67             527    STEHRSR|SR  0.095    .
+67             529    EHRSRSR|RS  0.070    .
+67             530    HRSRSRR|SP  0.738 *ProP*
+67             534    SRRSPTR|KS  0.117    .
+67             535    RRSPTRK|SE  0.201    .
+67             538    PTRKSEK|KS  0.065    .
+67             539    TRKSEKK|SS  0.232    .
+67             542    SEKKSSR|KS  0.127    .
+67             543    EKKSSRK|SS  0.141    .
+67             546    SSRKSSR|GD  0.174    .
+67             552    RGDESSR|RE  0.070    .
+67             553    GDESSRR|ES  0.169    .
+67             557    SRRESSR|SG  0.226    .
+67             561    SSRSGHR|DE  0.120    .
+67             565    GHRDEER|GK  0.097    .
+67             567    RDEERGK|RS  0.063    .
+67             568    DEERGKR|SK  0.661 *ProP*
+67             570    ERGKRSK|RK  0.073    .
+67             571    RGKRSKR|KK  0.698 *ProP*
+67             572    GKRSKRK|KD  0.144    .
+67             573    KRSKRKK|DS  0.366    .
+67             580    DSEGDGK|EN  0.074    .
+67             620    SGGTMPK|KF  0.074    .
+67             621    GGTMPKK|FG  0.108    .
+67             628    FGGENSK|AV  0.073    .
+67             633    SKAVEAR|AR  0.148    .
+67             635    AVEARAR|KN  0.096    .
+67             636    VEARARK|NA  0.323    .
+67             643    NAIAEEK|KA  0.068    .
+67             644    AIAEEKK|AV  0.117    .
+67             655    AAAEDER|WE  0.087    .
+67             661    RWEDDDK|QA  0.069    .
+67             665    DDKQANK|KQ  0.058    .
+67             666    DKQANKK|QQ  0.102    .
+67             669    ANKKQQR|KK  0.089    .
+67             670    NKKQQRK|KA  0.119    .
+67             671    KKQQRKK|AE  0.157    .
+67             676    KKAEEAK|RL  0.076    .
+67             677    KAEEAKR|LA  0.157    .
+67             683    RLAALER|KK  0.089    .
+67             684    LAALERK|KQ  0.077    .
+67             685    AALERKK|QN  0.097    .
+67             703    QLQESTK|AK  0.066    .
+67             705    QESTKAK|VP  0.085    .
+67             709    KAKVPPK|KI  0.085    .
+67             710    AKVPPKK|IT  0.125    .
+67             718    TQAELVR|RQ  0.094    .
+67             719    QAELVRR|QE  0.149    .
+67             729    QAEQEAK|EA  0.089    .
+67             745    IHENLNR|VM  0.105    .
+67             789    SQQQVDR|EY  0.095    .
+67             805    ELSLEDK|RY  0.060    .
+67             806    LSLEDKR|YK  0.162    .
+67             808    LEDKRYK|IR  0.060    .
+67             810    DKRYKIR|EY  0.096    .
+67             818    YLTMLVK|PG  0.057    .
+67             825    PGGLDNR|AD  0.080    .
+67             838    MDLSTDR|CI  0.080    .
+67             844    RCIFLFR|PA  0.105    .
+67             852    ALPELPK|AP  0.067    .
+67             866    IGVIGAK|KE  0.064    .
+67             867    GVIGAKK|EM  0.093    .
+67             881    SSLSAVR|AM  0.083    .
+67             915    APLEMMR|EV  0.114    .
+67             918    EMMREVK|QE  0.138    .
+67             924    KQEDGAK|PV  0.074    .
+67             987    SSDEDGR|RR  0.066    .
+67             988    SDEDGRR|RP  0.083    .
+67             989    DEDGRRR|PR  0.109    .
+67             991    DGRRRPR|RR  0.191    .
+67             992    GRRRPRR|RS  0.561 *ProP*
+67             993    RRRPRRR|SR  0.421    .
+67             995    RPRRRSR|EH  0.334    .
+67            1000    SREHSSR|RE  0.116    .
+67            1001    REHSSRR|EG  0.160    .
+67            1006    RREGSSR|RR  0.099    .
+67            1007    REGSSRR|RT  0.113    .
+67            1008    EGSSRRR|TA  0.232    .
+67            1012    RRRTADR|ST  0.205    .
+67            1017    DRSTEHR|SR  0.152    .
+67            1019    STEHRSR|SR  0.095    .
+67            1021    EHRSRSR|RS  0.070    .
+67            1022    HRSRSRR|SP  0.738 *ProP*
+67            1026    SRRSPTR|KS  0.117    .
+67            1027    RRSPTRK|SE  0.201    .
+67            1030    PTRKSEK|KS  0.065    .
+67            1031    TRKSEKK|SS  0.232    .
+67            1034    SEKKSSR|KS  0.127    .
+67            1035    EKKSSRK|SS  0.141    .
+67            1038    SSRKSSR|GD  0.174    .
+67            1044    RGDESSR|RE  0.070    .
+67            1045    GDESSRR|ES  0.169    .
+67            1049    SRRESSR|SG  0.226    .
+67            1053    SSRSGHR|DE  0.106    .
+67            1057    GHRDEER|GK  0.098    .
+67            1059    RDEERGK|RK  0.060    .
+67            1060    DEERGKR|KR  0.447    .
+67            1061    EERGKRK|RD  0.085    .
+67            1062    ERGKRKR|DT  0.330    .
+67            1077    YGGTMPK|KF  0.059    .
+67            1078    GGTMPKK|FV  0.185    .
+67            1085    FVGENSK|AV  0.070    .
+67            1090    SKAVEAR|AR  0.148    .
+67            1092    AVEARAR|KN  0.096    .
+67            1093    VEARARK|NA  0.323    .
+67            1100    NAIAEEK|KA  0.068    .
+67            1101    AIAEEKK|AV  0.117    .
+67            1112    AAAEDER|WE  0.087    .
+67            1118    RWEDDDK|QA  0.069    .
+67            1122    DDKQANK|KQ  0.058    .
+67            1123    DKQANKK|QQ  0.102    .
+67            1126    ANKKQQR|KK  0.089    .
+67            1127    NKKQQRK|KA  0.119    .
+67            1128    KKQQRKK|AE  0.157    .
+67            1133    KKAEEAK|RL  0.076    .
+67            1134    KAEEAKR|LA  0.157    .
+67            1140    RLAALER|KK  0.089    .
+67            1141    LAALERK|KQ  0.077    .
+67            1142    AALERKK|QN  0.097    .
+67            1160    QLQESTK|AK  0.066    .
+67            1162    QESTKAK|VP  0.085    .
+67            1166    KAKVPPK|KI  0.085    .
+67            1167    AKVPPKK|IT  0.125    .
+67            1175    TQAELVR|RQ  0.094    .
+67            1176    QAELVRR|QE  0.149    .
+67            1186    QAEQEAK|EA  0.089    .
+67            1202    IHENLNR|VM  0.105    .
+67            1233    TDMHPEK|RM  0.072    .
+67            1234    DMHPEKR|MK  0.181    .
+67            1236    HPEKRMK|AA  0.092    .
+67            1246    TAFEEGR|IS  0.077    .
+67            1251    GRISQLR|AE  0.114    .
+67            1258    AENPSLR|LL  0.092    .
+67            1261    PSLRLLK|KE  0.116    .
+67            1262    SLRLLKK|EK  0.112    .
+67            1264    RLLKKEK|RE  0.064    .
+67            1265    LLKKEKR|EI  0.205    .
+67            1292    SQQQVDR|EY  0.095    .
+67            1308    ELSLEDK|RY  0.060    .
+67            1309    LSLEDKR|YK  0.162    .
+67            1311    LEDKRYK|IR  0.060    .
+67            1313    DKRYKIR|EY  0.096    .
+67            1321    YLTMLVK|PG  0.057    .
+67            1328    PGGLDNR|AD  0.080    .
+67            1348    VEQPASK|RT  0.058    .
+67            1349    EQPASKR|TQ  0.142    .
+67            1355    RTQPTSR|PA  0.160    .
+67            1372    APTAQYR|ST  0.213    .
+67            1379    STTAQSR|QE  0.075    .
+67            1384    SRQEPAR|YP  0.191    .
+67            1388    PARYPSR|SE  0.122    .
+67            1395    SEQPALR|PR  0.068    .
+67            1397    QPALRPR|LG  0.082    .
+67            1402    PRLGPPR|PP  0.094    .
+67            1414    DPLPSLR|PP  0.073    .
+67            1417    PSLRPPR|SN  0.464    .
+67            1426    DPLPSSR|PR  0.088    .
+67            1428    LPSSRPR|SN  0.149    .
+67            1436    NDLPSSR|PP  0.069    .
+67            1439    PSSRPPR|SN  0.521 *ProP*
+67            1448    DLPPSSR|PP  0.063    .
+67            1456    PPAPSSR|GP  0.103    .
+67            1461    SRGPPPR|RG  0.176    .
+67            1462    RGPPPRR|GG  0.160    .
+67            1467    RRGGSGR|GG  0.147    .
+67            1472    GRGGSSR|GE  0.149    .
+67            1478    RGEFGVR|GW  0.130    .
+67            1483    VRGWGNK|ED  0.063    .
+67            1491    DIPHNLK|PV  0.069    .
+67            1501    WGGVVLK|EI  0.078    .
+67            1505    VLKEIFK|EL  0.063    .
+67            1509    IFKELYK|ES  0.053    .
+67            1517    SPATSDR|GE  0.111    .
+67            1526    TEIIAYR|DH  0.103    .
+67            1539    VTEDSPR|PV  0.129    .
+67            1554    SFPQCLK|TV  0.066    .
+67            1558    CLKTVFR|KK  0.108    .
+67            1559    LKTVFRK|KG  0.083    .
+67            1560    KTVFRKK|GY  0.113    .
+67            1580    PIALSGK|DL  0.087    .
+67            1592    AQTGSGK|TL  0.068    .
+67            1611    TAQPPAK|EG  0.070    .
+67            1623    LCLCPTR|EL  0.093    .
+67            1641    EFASAVR|IR  0.070    .
+67            1643    ASAVRIR|AL  0.120    .
+67            1653    LTGGASK|NQ  0.050    .
+67            1658    SKNQQLR|SL  0.204    .
+67            1673    VIATPGR|LI  0.087    .
+67            1681    IELLDTK|QC  0.056    .
+67            1686    TKQCSLR|DC  0.155    .
+67            1698    ILDEADR|LL  0.088    .
+67            1716    AILSQIR|PD  0.082    .
+67            1719    SQIRPDR|QT  0.204    .
+67            1738    VQDLAGK|FL  0.060    .
+67            1760    VANHAIK|QV  0.095    .
+67            1771    VLEGFEK|FE  0.062    .
+67            1774    GFEKFEK|LK  0.062    .
+67            1776    EKFEKLK|EP  0.059    .
+67            1780    KLKEPAR|YP  0.112    .
+67            1784    PARYPSR|SE  0.118    .
+67            1791    SEQPALR|PR  0.068    .
+67            1793    QPALRPR|LG  0.082    .
+67            1798    PRLGPPR|PP  0.092    .
+67            1810    DPPPSSR|PA  0.090    .
+67            1813    PSSRPAR|SN  0.636 *ProP*
+67            1822    DLPPPSR|AP  0.066    .
+67            1825    PPSRAPR|SN  0.511 *ProP*
+67            1833    NDLPPSR|PP  0.069    .
+67            1836    PPSRPPR|SN  0.690 *ProP*
+67            1845    DQPPTSR|PP  0.062    .
+67            1853    PPAPSSR|GP  0.103    .
+67            1858    SRGPPPR|RG  0.176    .
+67            1859    RGPPPRR|GG  0.160    .
+67            1864    RRGGSGR|GG  0.147    .
+67            1869    GRGGSSR|GE  0.149    .
+67            1875    RGEFGVR|GW  0.130    .
+67            1880    VRGWGNK|ED  0.063    .
+67            1888    DIPHNLK|PV  0.069    .
+67            1898    WGGVVLK|EI  0.078    .
+67            1902    VLKEIFK|EL  0.063    .
+67            1906    IFKELYK|ES  0.053    .
+67            1914    SPATSDR|GE  0.111    .
+67            1923    TEIIAYR|DH  0.103    .
+67            1936    VTEDSPR|PV  0.129    .
+67            1951    SFPQCLK|TV  0.062    .
+67            1955    CLKTVFR|RK  0.102    .
+67            1956    LKTVFRR|KG  0.132    .
+67            1957    KTVFRRK|GY  0.090    .
+67            1977    PIALSGK|DL  0.087    .
+67            1989    AQTGSGK|TL  0.068    .
+67            2008    TAQPPAK|EG  0.070    .
+67            2020    LCLCPTR|EL  0.093    .
+67            2038    EFASAVR|IR  0.070    .
+67            2040    ASAVRIR|AL  0.113    .
+67            2048    LALTGPR|RF  0.070    .
+67            2049    ALTGPRR|FL  0.118    .
+67            2058    VVEASDR|LP  0.067    .
+67            2061    ASDRLPR|LE  0.173    .
+67            2070    VIATPGR|LI  0.076    .
+67            2078    IELLDTK|QC  0.056    .
+67            2083    TKQCSLR|DC  0.155    .
+67            2095    ILDEADR|LL  0.088    .
+67            2113    AILSQIR|PD  0.082    .
+67            2116    SQIRPDR|QT  0.204    .
+67            2135    VQDLAGK|FL  0.060    .
+67            2157    VANHAIK|QV  0.095    .
+67            2168    VLEGFEK|FE  0.056    .
+67            2171    GFEKFEK|LK  0.052    .
+67            2173    EKFEKLK|IL  0.070    .
+67            2177    KLKILLK|QI  0.066    .
+67            2180    ILLKQIR|EE  0.106    .
+67            2187    EEGEANK|TL  0.054    .
+67            2195    LVFTDTK|KM  0.057    .
+67            2196    VFTDTKK|MT  0.092    .
+67            2206    DLAEDLK|RE  0.056    .
+67            2207    LAEDLKR|ER  0.208    .
+67            2209    EDLKRER|WP  0.075    .
+67            2219    EAMHGDK|RQ  0.069    .
+67            2220    AMHGDKR|QS  0.210    .
+67            2224    DKRQSDR|EH  0.090    .
+67            2230    REHILER|FK  0.119    .
+67            2232    HILERFK|RG  0.057    .
+67            2233    ILERFKR|GS  0.744 *ProP*
+67            2237    FKRGSIK|IL  0.073    .
+67            2247    ATDVASR|GI  0.092    .
+67            2272    TEDYIHR|IG  0.087    .
+67            2275    YIHRIGR|TA  0.461    .
+67            2278    RIGRTAR|AA  0.521 *ProP*
+67            2281    RTARAAR|SG  0.568 *ProP*
+67            2295    ITPNDSR|NI  0.090    .
+67            2319    HALLMMR|EC  0.099    .
+67            2326    ECFGGTK|QV  0.064    .
+67            2329    GGTKQVK|KV  0.065    .
+67            2330    GTKQVKK|VW  0.091    .
+67            2335    KKVWLPK|AL  0.079    .
+67            2338    WLPKALK|RK  0.057    .
+67            2339    LPKALKR|KL  0.199    .
+67            2340    PKALKRK|LA  0.141    .
+67            2348    ASEEEVK|KT  0.055    .
+67            2349    SEEEVKK|TL  0.113    .
+67            2357    LTPAEER|EA  0.091    .
+67            2360    AEEREAR|FV  0.500 *ProP*
+67            2370    ETEDDWK|SL  0.075    .
+67            2376    KSLYGFK|RG  0.059    .
+67            2377    SLYGFKR|GS  0.311    .
+67            2381    FKRGSIK|IL  0.069    .
+67            2391    ATDVASR|GI  0.092    .
+67            2416    TEDYIHR|IG  0.087    .
+67            2419    YIHRIGR|TA  0.461    .
+67            2422    RIGRTAR|AA  0.521 *ProP*
+67            2425    RTARAAR|SG  0.568 *ProP*
+67            2439    ITPNDSR|NI  0.090    .
+67            2463    HALLMMR|EC  0.099    .
+67            2470    ECFGGTK|QV  0.064    .
+67            2473    GGTKQVK|KV  0.066    .
+67            2474    GTKQVKK|VW  0.099    .
+67            2479    KKVWLPK|GL  0.081    .
+67            2482    WLPKGLK|RK  0.055    .
+67            2483    LPKGLKR|KL  0.192    .
+67            2484    PKGLKRK|LA  0.132    .
+67            2492    ASEEEVK|KT  0.055    .
+67            2493    SEEEVKK|TL  0.113    .
+67            2501    LTPAEER|EA  0.091    .
+67            2504    AEEREAR|FV  0.500 *ProP*
+67            2514    ETEDDWK|SL  0.073    .
+67            2522    LYVYGLK|CV  0.069    .
+67            2530    VSNHLTR|DS  0.131    .
+67            2534    LTRDSWK|FR  0.064    .
+67            2536    RDSWKFR|IS  0.134    .
+67            2541    FRISLSK|YN  0.070    .
+67            2560    PSPQHGK|YR  0.098    .
+67            2562    PQHGKYR|SE  0.183    .
+67            2579    GEHSLDR|EL  0.103    .
+67            2587    LAAELGR|CY  0.076    .
+67            2592    GRCYLGR|GL  0.160    .
+67            2606    LHCGHAK|TC  0.065    .
+67            2620    PYSYQGR|GV  0.164    .
+67            2625    GRGVVMR|FH  0.151    .
+67            2664    ADGPPCR|RF  0.074    .
+67            2665    DGPPCRR|FL  0.146    .
+67            2669    CRRFLCR|QV  0.371    .
+67            2678    SDGLVHK|NI  0.070    .
+67            2681    LVHKNIK|SI  0.090    .
+67            2698    PFCQHCR|LA  0.099    .
+67            2713    VDVMMIR|GE  0.088    .
+67            2720    GEDVFTR|HH  0.081    .
+67            2738    LFLLQSK|AK  0.054    .
+67            2740    LLQSKAK|LL  0.070    .
+67            2746    KLLFLVK|AE  0.061    .
+67            2752    KAENTGK|KG  0.068    .
+67            2753    AENTGKK|GV  0.145    .
+67            2784    MVNTDPK|PR  0.064    .
+67            2786    NTDPKPR|KA  0.120    .
+67            2787    TDPKPRK|AA  0.094    .
+67            2792    RKAAAVR|DS  0.158    .
+67            2802    PSIESWR|LN  0.076    .
+67            2814    VTWGALR|GL  0.081    .
+67            2828    LHCGHAK|TC  0.065    .
+67            2842    PYSYQGR|GV  0.214    .
+67            2870    VHEVQNK|FA  0.118    .
+67            2893    NEEDEER|II  0.078    .
+67            2905    SVFTCYR|EI  0.082    .
+67            2911    REILYLR|HT  0.101    .
+67            2922    NVEDMDK|TL  0.057    .
+67            2925    DMDKTLK|EI  0.056    .
+67            2935    SLCPILR|LK  0.077    .
+67            2937    CPILRLK|YN  0.064    .
+67            2961    ITMAFHR|QL  0.101    .
+67            2972    AFVPFHR|KI  0.122    .
+67            2973    FVPFHRK|IG  0.065    .
+67            2985    VLTEEGR|IE  0.085    .
+67            2996    VVEEQSK|EN  0.062    .
+67            3011    SPPPAPK|PA  0.072    .
+67            3014    PAPKPAK|KR  0.061    .
+67            3015    APKPAKK|RK  0.113    .
+67            3016    PKPAKKR|KT  0.226    .
+67            3017    KPAKKRK|TR  0.239    .
+67            3019    AKKRKTR|GA  0.411    .
+67            3022    RKTRGAK|EP  0.118    .
+67            3026    GAKEPAK|SD  0.097    .
+67            3030    PAKSDTK|VV  0.068    .
+67            3040    VGLVSPK|QS  0.057    .
+67            3044    SPKQSPK|PD  0.064    .
+67            3047    QSPKPDK|KR  0.061    .
+67            3048    SPKPDKK|RA  0.134    .
+67            3049    PKPDKKR|AN  0.175    .
+67            3052    DKKRANK|SR  0.175    .
+67            3054    KRANKSR|QK  0.157    .
+67            3056    ANKSRQK|LT  0.070    .
+67            3076    PVQITNR|SR  0.143    .
+67            3078    QITNRSR|RM  0.071    .
+67            3079    ITNRSRR|MS  0.643 *ProP*
+67            3082    RSRRMSR|RS  0.207    .
+67            3083    SRRMSRR|SA  0.607 *ProP*
+67            3095    SINDSVR|SG  0.141    .
+67            3099    SVRSGIR|IK  0.087    .
+67            3101    RSGIRIK|WT  0.079    .
+67            3108    WTDEEAK|CL  0.075    .
+67            3115    CLIDGVK|KH  0.062    .
+67            3116    LIDGVKK|HG  0.080    .
+67            3129    ADILADK|SF  0.077    .
+67            3137    FSFAPGR|TN  0.075    .
+67            3143    RTNVNLK|DN  0.079    .
+67            3157    CNPALSK|RC  0.059    .
+67            3158    NPALSKR|CL  0.218    .
+67            3167    AMINVYR|DH  0.086    .
+67            3179    NIPTLLK|FR  0.052    .
+67            3181    PTLLKFR|LE  0.067    .
+67            3206    VHEVQNK|FA  0.118    .
+67            3229    NEEDEER|II  0.078    .
+67            3241    SVFTCYR|EI  0.082    .
+67            3247    REILYLR|HT  0.101    .
+67            3258    NVEDMDK|TL  0.057    .
+67            3261    DMDKTLK|EI  0.056    .
+67            3271    SLCPILR|LK  0.077    .
+67            3273    CPILRLK|YN  0.064    .
+67            3297    ITMAFHR|QL  0.101    .
+67            3308    AFVPFHR|KI  0.113    .
+67            3309    FVPFHRK|IG  0.068    .
+67            3312    FHRKIGR|SL  0.136    .
+67            3321    VLTEEGR|IE  0.082    .
+67            3332    VVEEQSK|EN  0.062    .
+67            3347    SPPPAPK|PA  0.072    .
+67            3350    PAPKPAK|KR  0.061    .
+67            3351    APKPAKK|RK  0.113    .
+67            3352    PKPAKKR|KT  0.226    .
+67            3353    KPAKKRK|TR  0.239    .
+67            3355    AKKRKTR|GA  0.411    .
+67            3358    RKTRGAK|EP  0.118    .
+67            3362    GAKEPAK|SD  0.097    .
+67            3366    PAKSDTK|VV  0.068    .
+67            3376    VGLVSPK|QS  0.057    .
+67            3380    SPKQSPK|PD  0.064    .
+67            3383    QSPKPDK|KR  0.061    .
+67            3384    SPKPDKK|RA  0.134    .
+67            3385    PKPDKKR|AN  0.175    .
+67            3388    DKKRANK|SR  0.175    .
+67            3390    KRANKSR|QK  0.157    .
+67            3392    ANKSRQK|LT  0.070    .
+67            3412    PVQITNR|SR  0.143    .
+67            3414    QITNRSR|RM  0.071    .
+67            3415    ITNRSRR|MS  0.643 *ProP*
+67            3418    RSRRMSR|RS  0.207    .
+67            3419    SRRMSRR|SA  0.607 *ProP*
+67            3431    SINDSVR|SG  0.141    .
+67            3435    SVRSGIR|IK  0.087    .
+67            3437    RSGIRIK|WT  0.079    .
+67            3444    WTDEEAK|CL  0.075    .
+67            3451    CLIDGVK|KH  0.062    .
+67            3452    LIDGVKK|HG  0.080    .
+67            3465    ADILADK|SF  0.077    .
+67            3473    FSFAPGR|TN  0.075    .
+67            3479    RTNVNLK|DN  0.079    .
+67            3485    KDNVPIK|CS  0.076    .
+67            3488    VPIKCSR|IK  0.087    .
+67            3490    IKCSRIK|R-  0.067    .
+67            3491    KCSRIKR|--  0.720 *ProP*
+____________________________^_________________
+
+
+
+

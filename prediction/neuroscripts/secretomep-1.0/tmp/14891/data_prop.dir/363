@@ -1,0 +1,306 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1866 363         
+MDSVLEEAPSGGDSFAEFATYEDFLNSQITAMDLYYLEDEELARQLVELGYRGSGEVLKREEFEARKQLAEASRLSKRSQ      80
+KKSLAGAGKDLNSMPFLEALAKREEANKTGKMTSIIFIRDKNARGQEISGYIDYAHRLKTEDFEPYFNGKKRLLPKLSDL     160
+SFYNWETQKSTSNATPNYQVIADNASGLLFKNKRDRKIVNVDPKASRPGDNSTRVPIASSGQYTQVVIYDHITRRKTGDT     240
+LNIIPWDVFTSEQIQSLLSLTPPDALSKLCELIPAADTHINLRNSITADTYLFLLHFANQNKLNETKTGALITLFKHLLS     320
+MIKDGKSLIDIVMESSQLLTCQKDFHPKMKFDFFSKDEVLAVTEYLKSTVFQQFKLYRFTLLQEQEETIISLEKIVNTCP     400
+PMGSFDPPPLAEAISEHDIEVYLNAPPPESEKEEEEGEGEEGVGEEGAVEDNGEGAAPPAPVISMKNVQTVLDTVGGEML     480
+DKLAKDMSNKCAEKESQYMNRLNKKSVVKAGRIPIIQAEHSKAKWPAGNPTDIKHAHEEEYFEQARNESHYASKEVERLQ     560
+DDIRSGEVPKSDIIERITESRHQRHKQALEDLHEELGHLNKTIDPQVYHHLEACGEQTGWILSELQILFSSIQHDPILYS     640
+YPLKQLEAMWDDMVKLLQKRNLFKYYSDQFHNIAYLSTDEINVLMDKEVYAANRLLLCNYKRYAEIISQLQLENVTRLRQ     720
+MRGKWEERLATWRDLHITNTRDKFVAFMETPAITECPDIQDIVQRMEKEKECLMERGETKMKGVLKLQPPNINTQKVLAW     800
+YEDVCQLGLKIENTHRQYMAQLEGKGNWIVADCIGVADEMLATLQTEGVSSAEEVATLKETELLPLIEQWRENHLASILE     880
+CEKEFTESLADFNANLHVLYEFHQKSAEIWMEYTAQMTAKEGDLVGLMKECRSKHDEINQGLESALDMEMDKMRQDTNEA     960
+ELARNLEKSVESLKEIAAAYNAFKDELGEVIERYPDMISVELDRYSINIRRHLGQVIEEEVTPVEKGEEVVTEKESPEEE    1040
+MGITDPKTEEKVDETPAEGDTTFLTEVPAPPAIPTYSDPRFSAIQEELVTILLDHLALLKDQVMEDARQGVEEKLSELKS    1120
+EIELRHHIHAPRPMRMKLDIYNVRLNELKGHDERVKQHSAGVALEIATLKGQFKDKGAEHAALSSKFKKMVEKCENVLPT    1200
+LEKSAQLSSLQQKVASACEEHITLIKTELASFRNSMEEKLNDLRESNQHFGLAFKPFSEGGNFGPEEIEKYRKKLEKCNL    1280
+KIDNCETFILTELDGMETKCLEGAAEISASFEARLKMYILDVAFHEKINSWMSNCQVKIKTEVAACNMMSKNLKHRIEKL    1360
+KTLIDSCARPHPDKPVVRPVEVIAVIPEIYDLFQKRINYLDCSKTGNTATAAASTSVKIAPEQTSAVTATGSEIIQPEYD    1440
+FHSVVNLTKNIMNLTKIAREWTEHCEVGGTGGAVERKKAAPAEPLYDWFVARQERERVAVAPTKRGKSRGDTAERKTRLG    1520
+SGSSRSSLMSSVQTDVHSFMPLIKKILQETQGALFLSSETYYSQCTGGPPQRPDIADTIELCMEGLNKRLNGYYIQADDY    1600
+FNKCIQDLRALLTEFLSLHLEIPQLLFSEILEGHLTRVSQATSLIKHEFERNKAKIHEQRECNKTSLKPILGHPNNEVDL    1680
+NNLCMREEDRALYSSDTLKQYLNEMTNTETDIAKSFVNSVNTQTTELLDLFDKLMTTDDVIKGKTAEKKLPTTVLLKQEL    1760
+RTGAITGAADARLTKDGRSIRCLKLSDITTGRNSTDSGATVTTKFTPAHSAAVKARDVVVKEFSNRYCHVMEELDLISSR    1840
+WVGDEDKWSKQWETSIVHVRNLYKPA                                                          1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+..........................                                                          1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+363             44    EDEELAR|QL  0.077    .
+363             52    LVELGYR|GS  0.105    .
+363             59    GSGEVLK|RE  0.060    .
+363             60    SGEVLKR|EE  0.194    .
+363             66    REEFEAR|KQ  0.082    .
+363             67    EEFEARK|QL  0.071    .
+363             74    QLAEASR|LS  0.087    .
+363             77    EASRLSK|RS  0.113    .
+363             78    ASRLSKR|SQ  0.452    .
+363             81    LSKRSQK|KS  0.143    .
+363             82    SKRSQKK|SL  0.254    .
+363             89    SLAGAGK|DL  0.080    .
+363            102    FLEALAK|RE  0.062    .
+363            103    LEALAKR|EE  0.153    .
+363            108    KREEANK|TG  0.055    .
+363            111    EANKTGK|MT  0.080    .
+363            119    TSIIFIR|DK  0.128    .
+363            121    IIFIRDK|NA  0.080    .
+363            124    IRDKNAR|GQ  0.156    .
+363            137    YIDYAHR|LK  0.066    .
+363            139    DYAHRLK|TE  0.056    .
+363            150    EPYFNGK|KR  0.054    .
+363            151    PYFNGKK|RL  0.075    .
+363            152    YFNGKKR|LL  0.182    .
+363            156    KKRLLPK|LS  0.069    .
+363            169    YNWETQK|ST  0.092    .
+363            191    ASGLLFK|NK  0.058    .
+363            193    GLLFKNK|RD  0.068    .
+363            194    LLFKNKR|DR  0.188    .
+363            196    FKNKRDR|KI  0.103    .
+363            197    KNKRDRK|IV  0.278    .
+363            204    IVNVDPK|AS  0.083    .
+363            207    VDPKASR|PG  0.079    .
+363            214    PGDNSTR|VP  0.078    .
+363            234    IYDHITR|RK  0.068    .
+363            235    YDHITRR|KT  0.241    .
+363            236    DHITRRK|TG  0.074    .
+363            268    PPDALSK|LC  0.059    .
+363            283    DTHINLR|NS  0.084    .
+363            302    HFANQNK|LN  0.073    .
+363            307    NKLNETK|TG  0.056    .
+363            316    ALITLFK|HL  0.066    .
+363            323    HLLSMIK|DG  0.060    .
+363            326    SMIKDGK|SL  0.095    .
+363            343    QLLTCQK|DF  0.071    .
+363            348    QKDFHPK|MK  0.070    .
+363            350    DFHPKMK|FD  0.081    .
+363            356    KFDFFSK|DE  0.059    .
+363            367    AVTEYLK|ST  0.064    .
+363            375    TVFQQFK|LY  0.065    .
+363            378    QQFKLYR|FT  0.110    .
+363            394    TIISLEK|IV  0.087    .
+363            432    PPPESEK|EE  0.069    .
+363            466    APVISMK|NV  0.128    .
+363            482    GGEMLDK|LA  0.062    .
+363            485    MLDKLAK|DM  0.072    .
+363            490    AKDMSNK|CA  0.081    .
+363            494    SNKCAEK|ES  0.059    .
+363            501    ESQYMNR|LN  0.098    .
+363            504    YMNRLNK|KS  0.115    .
+363            505    MNRLNKK|SV  0.344    .
+363            509    NKKSVVK|AG  0.065    .
+363            512    SVVKAGR|IP  0.088    .
+363            522    IQAEHSK|AK  0.076    .
+363            524    AEHSKAK|WP  0.074    .
+363            534    GNPTDIK|HA  0.076    .
+363            546    EYFEQAR|NE  0.082    .
+363            554    ESHYASK|EV  0.097    .
+363            558    ASKEVER|LQ  0.114    .
+363            564    RLQDDIR|SG  0.103    .
+363            570    RSGEVPK|SD  0.099    .
+363            576    KSDIIER|IT  0.085    .
+363            581    ERITESR|HQ  0.100    .
+363            584    TESRHQR|HK  0.497    .
+363            586    SRHQRHK|QA  0.090    .
+363            601    ELGHLNK|TI  0.079    .
+363            644    LYSYPLK|QL  0.087    .
+363            655    MWDDMVK|LL  0.058    .
+363            659    MVKLLQK|RN  0.052    .
+363            660    VKLLQKR|NL  0.153    .
+363            664    QKRNLFK|YY  0.108    .
+363            687    INVLMDK|EV  0.073    .
+363            694    EVYAANR|LL  0.069    .
+363            701    LLLCNYK|RY  0.060    .
+363            702    LLCNYKR|YA  0.234    .
+363            717    QLENVTR|LR  0.082    .
+363            719    ENVTRLR|QM  0.079    .
+363            722    TRLRQMR|GK  0.395    .
+363            724    LRQMRGK|WE  0.077    .
+363            728    RGKWEER|LA  0.085    .
+363            733    ERLATWR|DL  0.113    .
+363            741    LHITNTR|DK  0.106    .
+363            743    ITNTRDK|FV  0.088    .
+363            765    IQDIVQR|ME  0.108    .
+363            768    IVQRMEK|EK  0.108    .
+363            770    QRMEKEK|EC  0.072    .
+363            776    KECLMER|GE  0.077    .
+363            780    MERGETK|MK  0.075    .
+363            782    RGETKMK|GV  0.081    .
+363            786    KMKGVLK|LQ  0.066    .
+363            796    PNINTQK|VL  0.069    .
+363            810    VCQLGLK|IE  0.058    .
+363            816    KIENTHR|QY  0.109    .
+363            825    MAQLEGK|GN  0.075    .
+363            859    EEVATLK|ET  0.057    .
+363            871    PLIEQWR|EN  0.077    .
+363            883    SILECEK|EF  0.058    .
+363            905    LYEFHQK|SA  0.099    .
+363            920    TAQMTAK|EG  0.088    .
+363            929    DLVGLMK|EC  0.062    .
+363            932    GLMKECR|SK  0.214    .
+363            934    MKECRSK|HD  0.072    .
+363            952    LDMEMDK|MR  0.061    .
+363            954    MEMDKMR|QD  0.099    .
+363            964    NEAELAR|NL  0.127    .
+363            968    LARNLEK|SV  0.105    .
+363            974    KSVESLK|EI  0.068    .
+363            984    AAYNAFK|DE  0.063    .
+363            993    LGEVIER|YP  0.077    .
+363           1004    ISVELDR|YS  0.114    .
+363           1010    RYSINIR|RH  0.079    .
+363           1011    YSINIRR|HL  0.237    .
+363           1026    EVTPVEK|GE  0.062    .
+363           1034    EEVVTEK|ES  0.065    .
+363           1047    MGITDPK|TE  0.070    .
+363           1051    DPKTEEK|VD  0.059    .
+363           1080    PTYSDPR|FS  0.101    .
+363           1100    DHLALLK|DQ  0.054    .
+363           1108    QVMEDAR|QG  0.076    .
+363           1114    RQGVEEK|LS  0.061    .
+363           1119    EKLSELK|SE  0.068    .
+363           1125    KSEIELR|HH  0.098    .
+363           1132    HHIHAPR|PM  0.098    .
+363           1135    HAPRPMR|MK  0.264    .
+363           1137    PRPMRMK|LD  0.061    .
+363           1144    LDIYNVR|LN  0.091    .
+363           1149    VRLNELK|GH  0.067    .
+363           1154    LKGHDER|VK  0.081    .
+363           1156    GHDERVK|QH  0.071    .
+363           1170    LEIATLK|GQ  0.064    .
+363           1174    TLKGQFK|DK  0.102    .
+363           1176    KGQFKDK|GA  0.100    .
+363           1186    HAALSSK|FK  0.080    .
+363           1188    ALSSKFK|KM  0.072    .
+363           1189    LSSKFKK|MV  0.481    .
+363           1193    FKKMVEK|CE  0.064    .
+363           1203    VLPTLEK|SA  0.073    .
+363           1213    LSSLQQK|VA  0.113    .
+363           1226    EHITLIK|TE  0.056    .
+363           1233    TELASFR|NS  0.085    .
+363           1239    RNSMEEK|LN  0.074    .
+363           1244    EKLNDLR|ES  0.073    .
+363           1255    HFGLAFK|PF  0.070    .
+363           1270    GPEEIEK|YR  0.067    .
+363           1272    EEIEKYR|KK  0.075    .
+363           1273    EIEKYRK|KL  0.081    .
+363           1274    IEKYRKK|LE  0.087    .
+363           1277    YRKKLEK|CN  0.076    .
+363           1281    LEKCNLK|ID  0.057    .
+363           1299    LDGMETK|CL  0.072    .
+363           1314    SASFEAR|LK  0.154    .
+363           1316    SFEARLK|MY  0.056    .
+363           1327    DVAFHEK|IN  0.068    .
+363           1338    MSNCQVK|IK  0.075    .
+363           1340    NCQVKIK|TE  0.069    .
+363           1351    ACNMMSK|NL  0.065    .
+363           1354    MMSKNLK|HR  0.080    .
+363           1356    SKNLKHR|IE  0.089    .
+363           1359    LKHRIEK|LK  0.108    .
+363           1361    HRIEKLK|TL  0.075    .
+363           1369    LIDSCAR|PH  0.071    .
+363           1374    ARPHPDK|PV  0.073    .
+363           1378    PDKPVVR|PV  0.147    .
+363           1395    IYDLFQK|RI  0.056    .
+363           1396    YDLFQKR|IN  0.108    .
+363           1404    NYLDCSK|TG  0.054    .
+363           1418    AASTSVK|IA  0.081    .
+363           1449    SVVNLTK|NI  0.063    .
+363           1456    NIMNLTK|IA  0.070    .
+363           1459    NLTKIAR|EW  0.089    .
+363           1476    TGGAVER|KK  0.077    .
+363           1477    GGAVERK|KA  0.130    .
+363           1478    GAVERKK|AA  0.119    .
+363           1492    YDWFVAR|QE  0.097    .
+363           1495    FVARQER|ER  0.233    .
+363           1497    ARQERER|VA  0.090    .
+363           1504    VAVAPTK|RG  0.060    .
+363           1505    AVAPTKR|GK  0.264    .
+363           1507    APTKRGK|SR  0.089    .
+363           1509    TKRGKSR|GD  0.188    .
+363           1515    RGDTAER|KT  0.074    .
+363           1516    GDTAERK|TR  0.070    .
+363           1518    TAERKTR|LG  0.269    .
+363           1525    LGSGSSR|SS  0.139    .
+363           1544    SFMPLIK|KI  0.068    .
+363           1545    FMPLIKK|IL  0.084    .
+363           1572    TGGPPQR|PD  0.085    .
+363           1588    CMEGLNK|RL  0.059    .
+363           1589    MEGLNKR|LN  0.160    .
+363           1603    ADDYFNK|CI  0.068    .
+363           1609    KCIQDLR|AL  0.083    .
+363           1637    LEGHLTR|VS  0.075    .
+363           1646    QATSLIK|HE  0.058    .
+363           1651    IKHEFER|NK  0.112    .
+363           1653    HEFERNK|AK  0.067    .
+363           1655    FERNKAK|IH  0.087    .
+363           1660    AKIHEQR|EC  0.083    .
+363           1664    EQRECNK|TS  0.061    .
+363           1668    CNKTSLK|PI  0.063    .
+363           1686    LNNLCMR|EE  0.110    .
+363           1690    CMREEDR|AL  0.087    .
+363           1699    YSSDTLK|QY  0.069    .
+363           1714    TETDIAK|SF  0.086    .
+363           1733    LLDLFDK|LM  0.056    .
+363           1742    TTDDVIK|GK  0.066    .
+363           1744    DDVIKGK|TA  0.106    .
+363           1748    KGKTAEK|KL  0.057    .
+363           1749    GKTAEKK|LP  0.100    .
+363           1757    PTTVLLK|QE  0.053    .
+363           1761    LLKQELR|TG  0.069    .
+363           1772    TGAADAR|LT  0.124    .
+363           1775    ADARLTK|DG  0.133    .
+363           1778    RLTKDGR|SI  0.111    .
+363           1781    KDGRSIR|CL  0.271    .
+363           1784    RSIRCLK|LS  0.113    .
+363           1792    SDITTGR|NS  0.113    .
+363           1804    GATVTTK|FT  0.069    .
+363           1814    AHSAAVK|AR  0.079    .
+363           1816    SAAVKAR|DV  0.436    .
+363           1821    ARDVVVK|EF  0.078    .
+363           1826    VKEFSNR|YC  0.110    .
+363           1840    LDLISSR|WV  0.183    .
+363           1847    WVGDEDK|WS  0.067    .
+363           1850    DEDKWSK|QW  0.073    .
+363           1860    TSIVHVR|NL  0.099    .
+363           1864    HVRNLYK|PA  0.076    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,34 @@
+# 609 Length: 1492
+# 609 Number of predicted TMHs:  14
+# 609 Exp number of AAs in TMHs: 325.601549999999
+# 609 Exp number, first 60 AAs:  0.91822
+# 609 Total prob of N-in:        0.37779
+609	TMHMM2.0	outside	     1   646
+609	TMHMM2.0	TMhelix	   647   669
+609	TMHMM2.0	inside	   670   675
+609	TMHMM2.0	TMhelix	   676   698
+609	TMHMM2.0	outside	   699   707
+609	TMHMM2.0	TMhelix	   708   730
+609	TMHMM2.0	inside	   731   736
+609	TMHMM2.0	TMhelix	   737   759
+609	TMHMM2.0	outside	   760   768
+609	TMHMM2.0	TMhelix	   769   791
+609	TMHMM2.0	inside	   792   797
+609	TMHMM2.0	TMhelix	   798   820
+609	TMHMM2.0	outside	   821   829
+609	TMHMM2.0	TMhelix	   830   852
+609	TMHMM2.0	inside	   853   858
+609	TMHMM2.0	TMhelix	   859   881
+609	TMHMM2.0	outside	   882   890
+609	TMHMM2.0	TMhelix	   891   913
+609	TMHMM2.0	inside	   914   919
+609	TMHMM2.0	TMhelix	   920   942
+609	TMHMM2.0	outside	   943   946
+609	TMHMM2.0	TMhelix	   947   969
+609	TMHMM2.0	inside	   970   975
+609	TMHMM2.0	TMhelix	   976   998
+609	TMHMM2.0	outside	   999  1001
+609	TMHMM2.0	TMhelix	  1002  1024
+609	TMHMM2.0	inside	  1025  1030
+609	TMHMM2.0	TMhelix	  1031  1053
+609	TMHMM2.0	outside	  1054  1492

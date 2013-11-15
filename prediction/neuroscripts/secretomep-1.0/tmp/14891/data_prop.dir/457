@@ -1,0 +1,279 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1692 457         
+MLTKIRELYRSTCLRLALFLVRFLLAMGFGSSEILGEVVQTVIKPLESRIEELTLKIEGLERALIGRSPSPGRPPILLTP      80
+DVIRRDSIRSSLEEGEIIEEPSEISSCQSPSKSPVPYDGYLERASPTLPQTCPNMSQSSSTDGHQCNMSSTAYDGYQELD     160
+RASTLSDHASYDSAMDSRYDSAEDSKSRGSSPLKLLAPTLDPLQEASSSPLFPAPTPIPNLSLSDYVSLFEQEPSRACQV     240
+WVESVDSGEYLTDPQVSIDLTPSEAGDLVSWSPVPVVAETDPLQADQPSSDLQPDRTPSPAKPPPQFVTPPPPPLVAEKP     320
+PKSPRQKPPLHRGKTMMERSPSVEELVSKFETFEHIPLKSETANSKRAILARRRKNRSPEKQESFQETVTSSSLERVTND     400
+IDSLSPFPSALWDELGSGEKGADSFDIPGGSLEVVDHHEDNLEVVDHDTELPVIQAELVGTDYQVHDQGPEYRAHEGPDP     480
+GMFSTSPQPDSLPPSPDPHPLPTNSSRYSLHRDSNLSSELEEAENKRSRKKTRRFSVSNIIKRFDSGSDSDAWPRSKNSP     560
+SPIGGLFKKLKGKKSRPESCPPMPTSPSNESLGSATYRDIISSPRSEVVRSELNSADRTAHKPPSGFVKKMKRRLSRSQS     640
+ISKMAPLSSSETDVSAPPAPSKSRRFSVQTFIRQMKSPSKKDYTSLIEPDHHRPIEISAPIVQSTAMFAPIVPGPALFEQ     720
+GELIESEGEQVAEDWAKFEEAFNNRSHENSPILGSTRPRRGSVTSTSSNKPPLPPPSPSTAKRRTSRPSSEGRLPPYAPC     800
+MMPERVPRIPAQDQRALHRAPSIEQIISKFENSYLDSHVCQIAAEMRDNHQFQKAILDIIVEEGYGMVRQRQGPNESPTL     880
+VRRGAPISHLVTEAREVSQLDLDYLSTVSEHDVIPDSVLVEGLRGLVEGYHGERKLFLCSFISHITTSLENSEPINAATI     960
+RQAYRATISHFKSTSDAIDALSAAPARVATVNNTQNRIVQTLIDALMSVSFHALWEKGREERYTRNVVRELLRKDFKERI    1040
+QRYRRVRFIASVQIKKGLNDYFRDYLALQPPRNKFKPPSISRSISPEKLVTRNTSPVTQQSLATPQRESLTTSPAVPTTR    1120
+QSSPVPTTQIPGKPPRPQVFTRRGTKVFKNKAKRIEEFKTSSTIKLCLSNMFLGMLEQYRQRKATRDFHFREICSAVISS    1200
+IATQSQFDELVSLVLQDLIAGYLFGRLAQIRKIPEGVVQSSVPCLGKLETFYSRKERGTEVVERVCYSRSSGYDSAAEMC    1280
+SITADYGVSEVTMTTSPTQQFYKEYTTSTTQIVPGDFDPTPTQSLTSLLTEFASTQTDITETHPPPPHIVENNTRQEAVS    1360
+NEQDRNCIRQEQETIRKRFRRRRNLVARSRSFDSAIGDDSVVSSECQSVVSAARVSSECHSVVSTARISSEHKPTQTAAL    1440
+NRTAVTPPSDIHIAKSPFNVSVKTPFNPSSVLATGPGLMHGIVGKISLFEVDCRSAGNGPLDIAVEDDDHNLVPVKVRET    1520
+QPNCYDVSFIPKTPIPHFVNIKWNDFNIKGSPFKVMVMPRPEKDINLGGEGKIRVYYSTTTSSEKIRHNCRFLQSLLERK    1600
+KVHLREDFEPWIPIDIGMDREERNRIFEKAGVRKTPMLFIDDQYVGDFDDVVELDETGELDRLLSYCALKYRNLQTVEEA    1680
+RRVDQVARMQQS                                                                        1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+........................................................P.......................     400
+................................................................................     480
+................................................................................     560
+............................................................................P...     640
+................................................................................     720
+.......................................P........................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+........................................................P.......................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+............                                                                        1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+457              4    ---MLTK|IR  0.060    .
+457              6    -MLTKIR|EL  0.078    .
+457             10    KIRELYR|ST  0.127    .
+457             15    YRSTCLR|LA  0.098    .
+457             22    LALFLVR|FL  0.097    .
+457             44    VVQTVIK|PL  0.062    .
+457             49    IKPLESR|IE  0.077    .
+457             56    IEELTLK|IE  0.058    .
+457             62    KIEGLER|AL  0.079    .
+457             67    ERALIGR|SP  0.214    .
+457             73    RSPSPGR|PP  0.077    .
+457             84    LTPDVIR|RD  0.071    .
+457             85    TPDVIRR|DS  0.198    .
+457             89    IRRDSIR|SS  0.191    .
+457            112    SCQSPSK|SP  0.075    .
+457            123    YDGYLER|AS  0.086    .
+457            161    GYQELDR|AS  0.082    .
+457            178    DSAMDSR|YD  0.106    .
+457            186    DSAEDSK|SR  0.078    .
+457            188    AEDSKSR|GS  0.089    .
+457            194    RGSSPLK|LL  0.069    .
+457            236    FEQEPSR|AC  0.083    .
+457            296    SDLQPDR|TP  0.093    .
+457            302    RTPSPAK|PP  0.061    .
+457            319    PPLVAEK|PP  0.056    .
+457            322    VAEKPPK|SP  0.094    .
+457            325    KPPKSPR|QK  0.105    .
+457            327    PKSPRQK|PP  0.079    .
+457            332    QKPPLHR|GK  0.117    .
+457            334    PPLHRGK|TM  0.062    .
+457            339    GKTMMER|SP  0.140    .
+457            349    VEELVSK|FE  0.058    .
+457            359    FEHIPLK|SE  0.074    .
+457            366    SETANSK|RA  0.061    .
+457            367    ETANSKR|AI  0.183    .
+457            372    KRAILAR|RR  0.088    .
+457            373    RAILARR|RK  0.105    .
+457            374    AILARRR|KN  0.104    .
+457            375    ILARRRK|NR  0.245    .
+457            377    ARRRKNR|SP  0.779 *ProP*
+457            381    KNRSPEK|QE  0.075    .
+457            396    TSSSLER|VT  0.117    .
+457            420    ELGSGEK|GA  0.060    .
+457            473    DQGPEYR|AH  0.104    .
+457            507    LPTNSSR|YS  0.098    .
+457            512    SRYSLHR|DS  0.106    .
+457            526    LEEAENK|RS  0.060    .
+457            527    EEAENKR|SR  0.245    .
+457            529    AENKRSR|KK  0.090    .
+457            530    ENKRSRK|KT  0.221    .
+457            531    NKRSRKK|TR  0.092    .
+457            533    RSRKKTR|RF  0.143    .
+457            534    SRKKTRR|FS  0.203    .
+457            542    SVSNIIK|RF  0.068    .
+457            543    VSNIIKR|FD  0.263    .
+457            555    DSDAWPR|SK  0.091    .
+457            557    DAWPRSK|NS  0.056    .
+457            568    PIGGLFK|KL  0.060    .
+457            569    IGGLFKK|LK  0.114    .
+457            571    GLFKKLK|GK  0.068    .
+457            573    FKKLKGK|KS  0.067    .
+457            574    KKLKGKK|SR  0.108    .
+457            576    LKGKKSR|PE  0.103    .
+457            598    LGSATYR|DI  0.187    .
+457            605    DIISSPR|SE  0.080    .
+457            610    PRSEVVR|SE  0.142    .
+457            618    ELNSADR|TA  0.103    .
+457            622    ADRTAHK|PP  0.067    .
+457            629    PPSGFVK|KM  0.074    .
+457            630    PSGFVKK|MK  0.108    .
+457            632    GFVKKMK|RR  0.059    .
+457            633    FVKKMKR|RL  0.195    .
+457            634    VKKMKRR|LS  0.159    .
+457            637    MKRRLSR|SQ  0.556 *ProP*
+457            643    RSQSISK|MA  0.062    .
+457            662    APPAPSK|SR  0.082    .
+457            664    PAPSKSR|RF  0.093    .
+457            665    APSKSRR|FS  0.387    .
+457            673    SVQTFIR|QM  0.071    .
+457            676    TFIRQMK|SP  0.295    .
+457            680    QMKSPSK|KD  0.063    .
+457            681    MKSPSKK|DY  0.183    .
+457            693    IEPDHHR|PI  0.111    .
+457            737    VAEDWAK|FE  0.074    .
+457            745    EEAFNNR|SH  0.134    .
+457            757    PILGSTR|PR  0.083    .
+457            759    LGSTRPR|RG  0.093    .
+457            760    GSTRPRR|GS  0.573 *ProP*
+457            770    TSTSSNK|PP  0.056    .
+457            782    PSPSTAK|RR  0.057    .
+457            783    SPSTAKR|RT  0.269    .
+457            784    PSTAKRR|TS  0.158    .
+457            787    AKRRTSR|PS  0.418    .
+457            793    RPSSEGR|LP  0.105    .
+457            805    PCMMPER|VP  0.067    .
+457            808    MPERVPR|IP  0.298    .
+457            815    IPAQDQR|AL  0.129    .
+457            819    DQRALHR|AP  0.104    .
+457            829    IEQIISK|FE  0.075    .
+457            847    QIAAEMR|DN  0.150    .
+457            854    DNHQFQK|AI  0.080    .
+457            869    EGYGMVR|QR  0.069    .
+457            871    YGMVRQR|QG  0.092    .
+457            882    ESPTLVR|RG  0.079    .
+457            883    SPTLVRR|GA  0.206    .
+457            895    HLVTEAR|EV  0.152    .
+457            924    VLVEGLR|GL  0.084    .
+457            934    EGYHGER|KL  0.069    .
+457            935    GYHGERK|LF  0.073    .
+457            961    INAATIR|QA  0.141    .
+457            965    TIRQAYR|AT  0.123    .
+457            972    ATISHFK|ST  0.127    .
+457            987    LSAAPAR|VA  0.124    .
+457            997    VNNTQNR|IV  0.161    .
+457           1017    FHALWEK|GR  0.060    .
+457           1019    ALWEKGR|EE  0.083    .
+457           1022    EKGREER|YT  0.338    .
+457           1025    REERYTR|NV  0.303    .
+457           1029    YTRNVVR|EL  0.094    .
+457           1033    VVRELLR|KD  0.079    .
+457           1034    VRELLRK|DF  0.084    .
+457           1037    LLRKDFK|ER  0.063    .
+457           1039    RKDFKER|IQ  0.084    .
+457           1042    FKERIQR|YR  0.170    .
+457           1044    ERIQRYR|RV  0.119    .
+457           1045    RIQRYRR|VR  0.306    .
+457           1047    QRYRRVR|FI  0.392    .
+457           1055    IASVQIK|KG  0.060    .
+457           1056    ASVQIKK|GL  0.117    .
+457           1063    GLNDYFR|DY  0.119    .
+457           1072    LALQPPR|NK  0.077    .
+457           1074    LQPPRNK|FK  0.061    .
+457           1076    PPRNKFK|PP  0.085    .
+457           1082    KPPSISR|SI  0.150    .
+457           1088    RSISPEK|LV  0.072    .
+457           1092    PEKLVTR|NT  0.119    .
+457           1107    SLATPQR|ES  0.085    .
+457           1120    PAVPTTR|QS  0.123    .
+457           1133    TTQIPGK|PP  0.079    .
+457           1136    IPGKPPR|PQ  0.097    .
+457           1142    RPQVFTR|RG  0.139    .
+457           1143    PQVFTRR|GT  0.133    .
+457           1146    FTRRGTK|VF  0.100    .
+457           1149    RGTKVFK|NK  0.063    .
+457           1151    TKVFKNK|AK  0.086    .
+457           1153    VFKNKAK|RI  0.080    .
+457           1154    FKNKAKR|IE  0.200    .
+457           1159    KRIEEFK|TS  0.074    .
+457           1165    KTSSTIK|LC  0.063    .
+457           1180    GMLEQYR|QR  0.081    .
+457           1182    LEQYRQR|KA  0.099    .
+457           1183    EQYRQRK|AT  0.251    .
+457           1186    RQRKATR|DF  0.137    .
+457           1191    TRDFHFR|EI  0.132    .
+457           1226    AGYLFGR|LA  0.077    .
+457           1231    GRLAQIR|KI  0.120    .
+457           1232    RLAQIRK|IP  0.092    .
+457           1247    SVPCLGK|LE  0.053    .
+457           1254    LETFYSR|KE  0.074    .
+457           1255    ETFYSRK|ER  0.089    .
+457           1257    FYSRKER|GT  0.580 *ProP*
+457           1264    GTEVVER|VC  0.074    .
+457           1269    ERVCYSR|SS  0.131    .
+457           1303    PTQQFYK|EY  0.074    .
+457           1355    IVENNTR|QE  0.087    .
+457           1365    VSNEQDR|NC  0.126    .
+457           1369    QDRNCIR|QE  0.079    .
+457           1376    QEQETIR|KR  0.080    .
+457           1377    EQETIRK|RF  0.065    .
+457           1378    QETIRKR|FR  0.112    .
+457           1380    TIRKRFR|RR  0.081    .
+457           1381    IRKRFRR|RR  0.456    .
+457           1382    RKRFRRR|RN  0.142    .
+457           1383    KRFRRRR|NL  0.494    .
+457           1388    RRNLVAR|SR  0.161    .
+457           1390    NLVARSR|SF  0.126    .
+457           1414    SVVSAAR|VS  0.084    .
+457           1427    SVVSTAR|IS  0.109    .
+457           1433    RISSEHK|PT  0.073    .
+457           1442    QTAALNR|TA  0.092    .
+457           1455    SDIHIAK|SP  0.087    .
+457           1463    PFNVSVK|TP  0.058    .
+457           1485    MHGIVGK|IS  0.063    .
+457           1494    LFEVDCR|SA  0.190    .
+457           1516    HNLVPVK|VR  0.063    .
+457           1518    LVPVKVR|ET  0.092    .
+457           1532    DVSFIPK|TP  0.067    .
+457           1542    PHFVNIK|WN  0.067    .
+457           1549    WNDFNIK|GS  0.068    .
+457           1554    IKGSPFK|VM  0.058    .
+457           1560    KVMVMPR|PE  0.099    .
+457           1563    VMPRPEK|DI  0.154    .
+457           1572    NLGGEGK|IR  0.055    .
+457           1574    GGEGKIR|VY  0.087    .
+457           1585    TTTSSEK|IR  0.058    .
+457           1587    TSSEKIR|HN  0.162    .
+457           1591    KIRHNCR|FL  0.103    .
+457           1599    LQSLLER|KK  0.089    .
+457           1600    QSLLERK|KV  0.091    .
+457           1601    SLLERKK|VH  0.070    .
+457           1605    RKKVHLR|ED  0.076    .
+457           1620    IDIGMDR|EE  0.074    .
+457           1623    GMDREER|NR  0.137    .
+457           1625    DREERNR|IF  0.104    .
+457           1629    RNRIFEK|AG  0.073    .
+457           1633    FEKAGVR|KT  0.066    .
+457           1634    EKAGVRK|TP  0.080    .
+457           1662    ETGELDR|LL  0.072    .
+457           1670    LSYCALK|YR  0.060    .
+457           1672    YCALKYR|NL  0.119    .
+457           1681    QTVEEAR|RV  0.153    .
+457           1682    TVEEARR|VD  0.107    .
+457           1688    RVDQVAR|MQ  0.090    .
+____________________________^_________________
+
+
+
+

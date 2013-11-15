@@ -1,0 +1,289 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1859 368         
+MVRRRERERERHRQRERQINITLQGVEVKSGTPATLTCTVSNLESDVTITWEKDSVVMESGASGVTMTTDIKQSGGSQQS      80
+VLVVDAPVTDAVYTCKVVEGSGYMTADVNVYDVTVSDFEVVSGSTISLTCDVTDHSGGMKITWKDSSGTQLGTNTAQPSL     160
+VTVVTPSGSGTYTCETESTWKSSSPVCSTTANVDTYTVSSTSAQVAVGERAVLSCEIKGVKEEGVQVTWSANGNTIGSGT     240
+DQGSVLNSDQISTFTKDVAPETTGQVTYTCTVKSKALPNSPSYEETLNLWTYDVSLQHREVIVGSTVTLMVSVSGVPSTQ     320
+PIKVAWTGQSENDVTVANGNGDTVISKLTVGEASAMDVGVTVESVNHPASTVYTGNVKLETFRTKKEVNYTASTSSSLLN     400
+GSSNKIPGLDVATREHILGKLTSALQENIKSSGMATCLCKCPRETAIALEGELFEGCTVVSIYKSRALTKWGCWAYQGDL     480
+KYAILALNSNSYFCYSPSKDKLRLRIYKVAHGLLVTVSEVGRQNGDSCENKNYGSTLDQFLGNFFHNFFPKNQKLFFHSS     560
+IHFLFIYDWKILIFHHCAIFLWLYRDYLLLNLFKNLGEHWRSKDLCSQEKSRSKLKVHFQFLGVHSNHSGTKIPKLMESS     640
+LKDAGRAKIMHVHFLNCHKASTLLSTTTSSALNNTTSIASNGFQRASTLLPSSSTTSNGFQKASTVLAKTSTPSITSYLT     720
+RKANSAATALPSRTTKDCVLSKTGSELIHEPISPDEELNNNTSKGERLNGPPVIPRFKKPLIGSKPEHTAPPSAARFKNR     800
+KQSSSFQNPVIKIEGDKKPRSYQDILPCTPASPSDSVLPNLADEKIHAAIDISIAKRTTGIVKKGQFNDPKHPQFSSRKR     880
+TRTTSPTIETTNGVSLKVPPETKRQRTPPGRKQERAPDPVIKTIKPEQNRQRSGGRNSSSSSSTHSRSWTPGDEISLDQT     960
+KRLEEKTMSSDEDAGKGKKQPTEPMSKDCLVKCVVGQLQFYYNTKRITTKSSFKKIAKALSERIHWLGACDGRDIVGVIK    1040
+VLSEEFGDVWEEGEVMKRIRSGLAPPTPSERTENQMGYGAALQNIKFTVGEGRMLERCPSRYRCSATFPMWLNGEHPTSN    1120
+EIEDREKGIGENDSPSSLARCRARENVREDSAGGREVEGISYPKSQGTALVVKKPTKDQLPDICAGGTFKLYEDSTDRGE    1200
+LKTGVPPAYNDPISQEQELSNDLCQSSDVISCNNNENESVYVVEKRIWDPGRGEEGMRSEKEDAIREEEVGEVIHGKGED    1280
+ASRSGLEGGGNPGEKVSPLEVDSRNFIGSVDGRLKSVKGSLFQSFRMIYVRRHQLELGSRFGRSRFDEDASRSGLEGGGN    1360
+PGEKVSPLEVDSRNFITFCAIYHILYPMWLGDGGYPEKEGEPVWRMGYIADSESLICQPQYYNPVAIVKCGDKYYHQFTR    1440
+TRSNTGFCVEEDVSDLCNNAVELLEEWRGTTVDKDRDHCDTNGLNSFDTWYRMGIFQKKMPDHCVAPNRCGGDTGYYVGG    1520
+GLGHPKPSEGIVGRLLKYSSATNCQASSLNAWILNCGDEKKDDFIYKFNKPSGCDRTFCIEENPCSSTVYTKLSDEGRAG    1600
+REASHDKIDDSKLDHGWYRFMGGEGIMTRSPILPGHSGATYPGWYDGEYPEDEGQEKTGRACFVYNSATCNKQRDVTVRN    1680
+CGQFFVYHLQRTDSANGYTYEQDVCKVETNKLDQAYRAQFDYDALAVGDQALVSGWYEVTTGKKMLATEPGIKLVTLALV    1760
+DPMTIICKGVKLLVPATTTLSVSRNSRSIRFPVLTNIISPQVPTNPGSSPAGSHPTEDEGIVMRKVYFSTSNTNFMGSSK    1840
+DIYHKGFTPVTPHGPGHPN                                                                 1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+..............................................................P.................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+...................                                                                 1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+368              3    ----MVR|RR  0.079    .
+368              4    ---MVRR|RE  0.126    .
+368              5    --MVRRR|ER  0.171    .
+368              7    MVRRRER|ER  0.251    .
+368              9    RRRERER|ER  0.111    .
+368             11    RERERER|HR  0.084    .
+368             13    RERERHR|QR  0.100    .
+368             15    RERHRQR|ER  0.096    .
+368             17    RHRQRER|QI  0.122    .
+368             29    LQGVEVK|SG  0.087    .
+368             53    VTITWEK|DS  0.065    .
+368             72    TMTTDIK|QS  0.068    .
+368             96    DAVYTCK|VV  0.088    .
+368            140    DHSGGMK|IT  0.066    .
+368            144    GMKITWK|DS  0.085    .
+368            181    ETESTWK|SS  0.082    .
+368            210    QVAVGER|AV  0.100    .
+368            218    VLSCEIK|GV  0.102    .
+368            221    CEIKGVK|EE  0.065    .
+368            256    QISTFTK|DV  0.137    .
+368            273    TYTCTVK|SK  0.061    .
+368            275    TCTVKSK|AL  0.069    .
+368            299    DVSLQHR|EV  0.133    .
+368            323    PSTQPIK|VA  0.066    .
+368            347    GDTVISK|LT  0.059    .
+368            378    VYTGNVK|LE  0.050    .
+368            383    VKLETFR|TK  0.076    .
+368            385    LETFRTK|KE  0.058    .
+368            386    ETFRTKK|EV  0.314    .
+368            405    LNGSSNK|IP  0.065    .
+368            414    GLDVATR|EH  0.084    .
+368            420    REHILGK|LT  0.081    .
+368            430    ALQENIK|SS  0.084    .
+368            440    MATCLCK|CP  0.056    .
+368            443    CLCKCPR|ET  0.116    .
+368            464    TVVSIYK|SR  0.060    .
+368            466    VSIYKSR|AL  0.125    .
+368            470    KSRALTK|WG  0.072    .
+368            481    AYQGDLK|YA  0.070    .
+368            499    FCYSPSK|DK  0.059    .
+368            501    YSPSKDK|LR  0.057    .
+368            503    PSKDKLR|LR  0.091    .
+368            505    KDKLRLR|IY  0.085    .
+368            508    LRLRIYK|VA  0.205    .
+368            522    TVSEVGR|QN  0.143    .
+368            531    GDSCENK|NY  0.097    .
+368            551    FHNFFPK|NQ  0.070    .
+368            554    FFPKNQK|LF  0.058    .
+368            570    LFIYDWK|IL  0.060    .
+368            585    IFLWLYR|DY  0.067    .
+368            594    LLLNLFK|NL  0.066    .
+368            601    NLGEHWR|SK  0.120    .
+368            603    GEHWRSK|DL  0.108    .
+368            610    DLCSQEK|SR  0.080    .
+368            612    CSQEKSR|SK  0.176    .
+368            614    QEKSRSK|LK  0.057    .
+368            616    KSRSKLK|VH  0.071    .
+368            632    SNHSGTK|IP  0.066    .
+368            635    SGTKIPK|LM  0.069    .
+368            642    LMESSLK|DA  0.098    .
+368            646    SLKDAGR|AK  0.107    .
+368            648    KDAGRAK|IM  0.075    .
+368            659    HFLNCHK|AS  0.057    .
+368            685    ASNGFQR|AS  0.096    .
+368            702    TSNGFQK|AS  0.078    .
+368            709    ASTVLAK|TS  0.073    .
+368            721    ITSYLTR|KA  0.123    .
+368            722    TSYLTRK|AN  0.108    .
+368            733    ATALPSR|TT  0.085    .
+368            736    LPSRTTK|DC  0.199    .
+368            742    KDCVLSK|TG  0.066    .
+368            764    LNNNTSK|GE  0.070    .
+368            767    NTSKGER|LN  0.088    .
+368            776    GPPVIPR|FK  0.110    .
+368            778    PVIPRFK|KP  0.054    .
+368            779    VIPRFKK|PL  0.344    .
+368            785    KPLIGSK|PE  0.065    .
+368            796    APPSAAR|FK  0.117    .
+368            798    PSAARFK|NR  0.064    .
+368            800    AARFKNR|KQ  0.144    .
+368            801    ARFKNRK|QS  0.101    .
+368            812    FQNPVIK|IE  0.078    .
+368            817    IKIEGDK|KP  0.058    .
+368            818    KIEGDKK|PR  0.082    .
+368            820    EGDKKPR|SY  0.174    .
+368            845    PNLADEK|IH  0.057    .
+368            856    IDISIAK|RT  0.065    .
+368            857    DISIAKR|TT  0.279    .
+368            863    RTTGIVK|KG  0.055    .
+368            864    TTGIVKK|GQ  0.112    .
+368            871    GQFNDPK|HP  0.060    .
+368            878    HPQFSSR|KR  0.100    .
+368            879    PQFSSRK|RT  0.079    .
+368            880    QFSSRKR|TR  0.219    .
+368            882    SSRKRTR|TT  0.182    .
+368            897    TNGVSLK|VP  0.063    .
+368            903    KVPPETK|RQ  0.053    .
+368            904    VPPETKR|QR  0.129    .
+368            906    PETKRQR|TP  0.067    .
+368            911    QRTPPGR|KQ  0.101    .
+368            912    RTPPGRK|QE  0.066    .
+368            915    PGRKQER|AP  0.139    .
+368            922    APDPVIK|TI  0.076    .
+368            925    PVIKTIK|PE  0.061    .
+368            930    IKPEQNR|QR  0.109    .
+368            932    PEQNRQR|SG  0.145    .
+368            936    RQRSGGR|NS  0.096    .
+368            947    SSSTHSR|SW  0.326    .
+368            961    ISLDQTK|RL  0.067    .
+368            962    SLDQTKR|LE  0.172    .
+368            966    TKRLEEK|TM  0.074    .
+368            976    SDEDAGK|GK  0.064    .
+368            978    EDAGKGK|KQ  0.069    .
+368            979    DAGKGKK|QP  0.072    .
+368            987    PTEPMSK|DC  0.058    .
+368            992    SKDCLVK|CV  0.082    .
+368           1005    QFYYNTK|RI  0.061    .
+368           1006    FYYNTKR|IT  0.145    .
+368           1010    TKRITTK|SS  0.115    .
+368           1014    TTKSSFK|KI  0.072    .
+368           1015    TKSSFKK|IA  0.165    .
+368           1018    SFKKIAK|AL  0.084    .
+368           1023    AKALSER|IH  0.081    .
+368           1033    LGACDGR|DI  0.134    .
+368           1040    DIVGVIK|VL  0.065    .
+368           1057    EEGEVMK|RI  0.070    .
+368           1058    EGEVMKR|IR  0.121    .
+368           1060    EVMKRIR|SG  0.103    .
+368           1071    PPTPSER|TE  0.083    .
+368           1086    AALQNIK|FT  0.069    .
+368           1093    FTVGEGR|ML  0.094    .
+368           1097    EGRMLER|CP  0.095    .
+368           1101    LERCPSR|YR  0.102    .
+368           1103    RCPSRYR|CS  0.086    .
+368           1125    SNEIEDR|EK  0.159    .
+368           1127    EIEDREK|GI  0.070    .
+368           1140    SPSSLAR|CR  0.108    .
+368           1142    SSLARCR|AR  0.105    .
+368           1144    LARCRAR|EN  0.102    .
+368           1148    RARENVR|ED  0.116    .
+368           1155    EDSAGGR|EV  0.133    .
+368           1164    EGISYPK|SQ  0.091    .
+368           1173    GTALVVK|KP  0.059    .
+368           1174    TALVVKK|PT  0.163    .
+368           1177    VVKKPTK|DQ  0.067    .
+368           1190    CAGGTFK|LY  0.066    .
+368           1198    YEDSTDR|GE  0.066    .
+368           1202    TDRGELK|TG  0.057    .
+368           1245    SVYVVEK|RI  0.071    .
+368           1246    VYVVEKR|IW  0.298    .
+368           1252    RIWDPGR|GE  0.118    .
+368           1258    RGEEGMR|SE  0.086    .
+368           1261    EGMRSEK|ED  0.099    .
+368           1266    EKEDAIR|EE  0.102    .
+368           1277    GEVIHGK|GE  0.085    .
+368           1283    KGEDASR|SG  0.114    .
+368           1295    GGNPGEK|VS  0.059    .
+368           1304    PLEVDSR|NF  0.087    .
+368           1313    IGSVDGR|LK  0.115    .
+368           1315    SVDGRLK|SV  0.126    .
+368           1318    GRLKSVK|GS  0.066    .
+368           1326    SLFQSFR|MI  0.117    .
+368           1331    FRMIYVR|RH  0.084    .
+368           1332    RMIYVRR|HQ  0.129    .
+368           1340    QLELGSR|FG  0.071    .
+368           1343    LGSRFGR|SR  0.523 *ProP*
+368           1345    SRFGRSR|FD  0.140    .
+368           1352    FDEDASR|SG  0.099    .
+368           1364    GGNPGEK|VS  0.059    .
+368           1373    PLEVDSR|NF  0.074    .
+368           1398    DGGYPEK|EG  0.068    .
+368           1405    EGEPVWR|MG  0.098    .
+368           1429    NPVAIVK|CG  0.070    .
+368           1433    IVKCGDK|YY  0.066    .
+368           1440    YYHQFTR|TR  0.096    .
+368           1442    HQFTRTR|SN  0.114    .
+368           1468    ELLEEWR|GT  0.078    .
+368           1474    RGTTVDK|DR  0.079    .
+368           1476    TTVDKDR|DH  0.116    .
+368           1492    SFDTWYR|MG  0.081    .
+368           1498    RMGIFQK|KM  0.062    .
+368           1499    MGIFQKK|MP  0.100    .
+368           1509    HCVAPNR|CG  0.110    .
+368           1526    GGLGHPK|PS  0.074    .
+368           1534    SEGIVGR|LL  0.093    .
+368           1537    IVGRLLK|YS  0.165    .
+368           1560    LNCGDEK|KD  0.059    .
+368           1561    NCGDEKK|DD  0.113    .
+368           1567    KDDFIYK|FN  0.077    .
+368           1570    FIYKFNK|PS  0.067    .
+368           1576    KPSGCDR|TF  0.123    .
+368           1592    SSTVYTK|LS  0.072    .
+368           1598    KLSDEGR|AG  0.105    .
+368           1601    DEGRAGR|EA  0.249    .
+368           1607    REASHDK|ID  0.078    .
+368           1612    DKIDDSK|LD  0.060    .
+368           1619    LDHGWYR|FM  0.185    .
+368           1629    GEGIMTR|SP  0.108    .
+368           1657    EDEGQEK|TG  0.060    .
+368           1660    GQEKTGR|AC  0.092    .
+368           1672    NSATCNK|QR  0.063    .
+368           1674    ATCNKQR|DV  0.160    .
+368           1679    QRDVTVR|NC  0.140    .
+368           1691    FVYHLQR|TD  0.100    .
+368           1706    YEQDVCK|VE  0.066    .
+368           1711    CKVETNK|LD  0.062    .
+368           1717    KLDQAYR|AQ  0.091    .
+368           1743    YEVTTGK|KM  0.060    .
+368           1744    EVTTGKK|ML  0.083    .
+368           1753    ATEPGIK|LV  0.065    .
+368           1768    PMTIICK|GV  0.067    .
+368           1771    IICKGVK|LL  0.062    .
+368           1784    TTLSVSR|NS  0.084    .
+368           1787    SVSRNSR|SI  0.436    .
+368           1790    RNSRSIR|FP  0.276    .
+368           1824    DEGIVMR|KV  0.113    .
+368           1825    EGIVMRK|VY  0.074    .
+368           1840    NFMGSSK|DI  0.088    .
+368           1845    SKDIYHK|GF  0.077    .
+____________________________^_________________
+
+
+
+

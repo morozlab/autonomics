@@ -1,0 +1,702 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3847 49          
+MLFGLHVLCFDARDERMVWVEVMYNIELGKMKLEISDSKGTPPSISLIVKPRSVSFNFTDCSPGFVVGLSNKVLDIVLIS      80
+KEEEVVPEWQTLFKSAKSPLNRYAVQVVHRGKELCGLLMVTQRNVTVRIATNSAYGTYSGNVISSAVTGVVEDLLQIEFT     160
+VGPVKIATSRLLELYQHLLIAFTPNTTSGSLRLTGYDPDHIAGPSSPNLPTKTRSTSSDHLTPTNSKGVRAPLPLPKPVR     240
+NRLDAKTKREECLDPAVTEPCYSVVNRERVRRAESVRRSCIDDDSPPPIPKKNAALMEELRMDYVNLWDCLKSMSRRLRS     320
+QWKVHPLKDDISDSVLAQAQLIVFIGPREKFTKTEFDAINNFISRGGSVLLSLGDGGEGKYDLTATSKQPIRTRYLGHVT     400
+GYQPIRDQHFLIRSVSARMNSLPTTVSYASLKSMSRRLRSQWKVHPLKDDISDSVLAQAQLIVFIGPREKFTKTEFDAIN     480
+NFISRGGSVLLSLGDGGEGKYDLTATSKQPIRTRYLGHVTGYQPIRDQHFLIRSVSARMNSLPTTPLPNLDLPNPHRAPQ     560
+RRVICTYNPLLIPQEAYIANGVLNREINKGGGKHVGGDFDNENPVGQNLTFVYPYGATLHVVKPSVPVLSSGSTSLPINR     640
+PICAFHQGTGSSGKLCVVGSSHMFSDQFIDKEENGKLFDVIIDYLTSDKIQLNAIDAEDPEVTDYHFLPDTPKLAERLKA     720
+CLQEGDDIPRDFGKMFEHNVYKLDNALVPKIVRSYQELDMKHEPLTLIQPNFETPLPPLQPAVFPPVFKELPGPSLDLFD     800
+LDEQFASSKTKLAQITNKCTDEDMEYYVRECGNILGITGDLAGAKDAKHILEHVFFQLVEYKKINQELMTGQFPWDKKGG     880
+SQASFPWNTPAPPAPSYPWENTYQTYQPQKQQQYGQQFQPSYQTNYQTPQYQTPSYQTPSYQTPNYQTGSSAGGGSYQSF     960
+QPSYNTPSYSSYQQQQQQYPQKWQSSGSSGTWDSNINPFYQSQKAPEAPSNLFVFGKDQPKKESSYGSFLKEMQQQKEQQ    1040
+KQEPVQEKKTSSYSSFLKEMNKQKEETEPQKQPGGESIKKEGKSRALFPWEKKKEEEKIGVDNGGDLEAKLAEEDGKARK    1120
+KEEDKKSGDVEKEEKSTAKEETAASKSPKSPKKKSPRPKTASKVKSKKADSGISEMKVEISQAASPTKDDKLEKATTEKS    1200
+DPEKKSDPEKKSEKEGEAKKVEDETTTQKAEKKAESSPQKEEPTRPITSPAKGASISRSSSVTKLAGGKPRAKSAPTTPA    1280
+VPRHINKKSEMLAQKYMSAYAKPKIPPKKPDKEEKEESRPAPNYRREISMSEWVYPSPPEPVDWKARYRSPPPPLALTPF    1360
+LPPTTAEDPAAPAAGEDGRSTATLVSTSLREAAFQKWIAKKKENKTLKKSDLEVTVIPDTIEAPSADQIRQEQFEQWYRE    1440
+RAVGLDKKGRQKQKEREEKEKEKAEAAALKKKNEEIARRLWEEKDKERKRTIREKKAEEAKAAAEKEREVNEKKTAAAKT    1520
+YSNWKSKKDPLVVEKKKKEIAERKKREQEEREEKEMKEMESQKSFMAWKENKEEADRQKRAQLEEDRREKQRKEQQEKRA    1600
+HEAARARALEQWNAQKLEQQKSASLVKPDHVSPWKNGPGKAPVSQDQFLLANIKHNKTTKTRPSSAKPRDDSDFHGIGII    1680
+CRIVAPRFSGILGGKGFVHQIGVPVNRGPLNRVVADLHQLPMIAIILASVLALSQGVTLYEDTGSMSKDEQASFECYKTR    1760
+SMNYRCNNIEVCRKRIRGLDRLTYIDPGGNVNGVNSFLCLMSGHMFTNRSKGSDISRTTLIYFRKHMPTHQAQERINAIH    1840
+IAAGIDIPTPKKKKVRRKPHKGSNKAGKKKDLTKEEKEKIAEQEKKKLAEKEKISEKVIKEKENEEIGELLPSIDEKKEV    1920
+EEAEEAEEELDEDEWTEVLEEVNIIDETYDPYNSAVLDDPGNGTYLQTANPYFIQELKNVTITEGETLVLNCVAYGKPPP    2000
+RVAISTLRLYQKLRYFNSRTRIIPEFRITFSYTHSPTPELTNLPNVCVHKHFSKHDSHCHATLSVCSALSTKPKARDRNV    2080
+NEDEMGYRDITSEFKIYAVTERNSGMYRPNPPSLHQFPGQHLDLEELHPWFGVLKEGLDDEGQPGDYEADWREMRHRERE    2160
+RERERDRERERDRDRERGQHLDLEELHPWFGVLKEGLDDEGQPGDYEYSMNSSEIEKSGGKKNLGGEGPPIWGESVGMCS    2240
+RQPPTNPPPLPRCAAANPNGYIISDAYVTVKPNPCLRTTCPDNMICVNNDDEAVCTCPSAEDCDSEMADPVCGSDCVTYM    2320
+DHCHLKVAACKSGRNITVAHTGWCPKFQSPSVSIHRNDIKVQSGSTLRLTCGATGTPKPEVMWYRDSPNQRGQKQFITSN    2400
+DILEIPMVDMDVSGDYTCVASSCQAAADKISVRSAKINVDVIDVQSSGRKVCHVFGDPHVTTFDGTLYSFVGDCDYVLAM    2480
+DCSKRPTWFVYGRVRGCGQESSCLQSITVIKGSSIVQFNQGWAINSGGSREIVAPGGQIDVGDINIAYDQDGLIYTITLG    2560
+DTGIKVTWDGYSSATVIADSPLDSCGLCGSYDRNRDNDVTKAWFAGDSCGKDSKWAYCEFMESVKQHCEQETEMPAAATC    2640
+LALTRPTAFVLTILTILRYIRVSAQLRLNNPPCNVGPVSQGRKSQCRVPTRQAAANCGRGGPQRSDQGYSRTANKRKKFS    2720
+NFDFGNGMAWLTNQWIMDIIFWNALQSPLLHCRATPITRESGILITLGDTGIKVTWDGYSSATVIADSPLDSCGLCGSYD    2800
+RNRDNDVTKAWFAGYYNNVVVKKGTFSELVGSWKLDPYRKQCPKTVAEEGAPYTDTCATQTLHDIVEEECRTVLAGEIFS    2880
+HCIQNDEQLEFYTRACIRDSCGKDSKWAYCEFMESVKQHCEQETEMPVYLSLHQCSSKQERKYELIRHLLFFLVWNALQS    2960
+PRLRRRATPVAYANFLKGLLIQKKGLLIQKKGLLIQKKGLLIQKKGLLIQKKGLLIQKKGLLIQKKGLLIQKKGLLIQKK    3040
+GLLIQKKGLLIQKKGLLIQEKGPLIQKKGPLIQKKGPLSQKKGPLMQKKGSPYPKERSPYPKEKSPYPKERSLIQKKGPL    3120
+IQKKGPLYPKERLFSMSFQDLSICGTPTPRTTSRTGRPGSSSARGSVVTKDQLDIVRKLTFYEAEVEKARKDRGGRPPSA    3200
+PKQPKIAPKSTVPVPKLRLQQLKRSNNGSSDFHVTRGVETSRSVLSWGDGESCRQMPDEITKLDIVSRPSTRAEEQRVDA    3280
+IKPRVERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPYPKERSPY    3360
+PKERSPYPKERSPYPKERSPYPKERSPYPKERSHYPRERTTSRTGRPGSSSARGSVVTKDQLDIVRKLTFYETEVEKARK    3440
+DRGGRPPSAPKQPKIAPKSTVPVPKLRLQQLKRSNNGSSDFHVTRGVETSRSVLSWGDGESCRQMPDEITKLDIVSRPST    3520
+RAEKQRVDANKPRDDQELPPTNRDGDCDLDPVIDMGVFAFETEEDKLKRAREQSAVDDQMEHDLTLPQTEPSTLRTPWAT    3600
+TDRSDFYALKEYGADSAPHPRRRNSDSTREEMVEEFLGNFTSGPLDQRITYMEFLHYHAYLSVEEPEDQIFLTYMRHCWG    3680
+VERGTESQLLYGGAIPHLILKLGARQCSQIGSAAPDRSIASENMLHVTVIYIRECFISSRESHVTVLTTPEEDPPMVFII    3760
+CQSIGLTRFSLLSARENCGQSIGLTEYHGDIMTLAQRSNNMADIEVEELEVEDLELEDFSCEVGDSDNDEAATEEIAMSR    3840
+EKVRGSS                                                                             3920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+..............................................................................P.     320
+................................................................................     400
+......................................P.........................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.........................P......................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+................................................................................    3840
+.......                                                                             3920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+49              13    VLCFDAR|DE  0.097    .
+49              16    FDARDER|MV  0.343    .
+49              30    YNIELGK|MK  0.061    .
+49              32    IELGKMK|LE  0.059    .
+49              39    LEISDSK|GT  0.065    .
+49              50    SISLIVK|PR  0.075    .
+49              52    SLIVKPR|SV  0.367    .
+49              72    VVGLSNK|VL  0.066    .
+49              81    DIVLISK|EE  0.061    .
+49              94    EWQTLFK|SA  0.083    .
+49              97    TLFKSAK|SP  0.077    .
+49             102    AKSPLNR|YA  0.181    .
+49             110    AVQVVHR|GK  0.106    .
+49             112    QVVHRGK|EL  0.070    .
+49             123    LLMVTQR|NV  0.129    .
+49             128    QRNVTVR|IA  0.160    .
+49             165    FTVGPVK|IA  0.061    .
+49             170    VKIATSR|LL  0.091    .
+49             192    TTSGSLR|LT  0.147    .
+49             212    SPNLPTK|TR  0.084    .
+49             214    NLPTKTR|ST  0.142    .
+49             227    LTPTNSK|GV  0.072    .
+49             230    TNSKGVR|AP  0.096    .
+49             237    APLPLPK|PV  0.080    .
+49             240    PLPKPVR|NR  0.076    .
+49             242    PKPVRNR|LD  0.084    .
+49             246    RNRLDAK|TK  0.067    .
+49             248    RLDAKTK|RE  0.065    .
+49             249    LDAKTKR|EE  0.144    .
+49             267    CYSVVNR|ER  0.088    .
+49             269    SVVNRER|VR  0.073    .
+49             271    VNRERVR|RA  0.110    .
+49             272    NRERVRR|AE  0.495    .
+49             277    RRAESVR|RS  0.101    .
+49             278    RAESVRR|SC  0.175    .
+49             291    SPPPIPK|KN  0.065    .
+49             292    PPPIPKK|NA  0.107    .
+49             301    ALMEELR|MD  0.081    .
+49             312    NLWDCLK|SM  0.073    .
+49             316    CLKSMSR|RL  0.076    .
+49             317    LKSMSRR|LR  0.201    .
+49             319    SMSRRLR|SQ  0.606 *ProP*
+49             323    RLRSQWK|VH  0.062    .
+49             328    WKVHPLK|DD  0.063    .
+49             348    IVFIGPR|EK  0.078    .
+49             350    FIGPREK|FT  0.075    .
+49             353    PREKFTK|TE  0.084    .
+49             365    INNFISR|GG  0.103    .
+49             380    GDGGEGK|YD  0.064    .
+49             388    DLTATSK|QP  0.056    .
+49             392    TSKQPIR|TR  0.087    .
+49             394    KQPIRTR|YL  0.135    .
+49             406    TGYQPIR|DQ  0.122    .
+49             413    DQHFLIR|SV  0.243    .
+49             418    IRSVSAR|MN  0.173    .
+49             432    VSYASLK|SM  0.092    .
+49             436    SLKSMSR|RL  0.078    .
+49             437    LKSMSRR|LR  0.225    .
+49             439    SMSRRLR|SQ  0.578 *ProP*
+49             443    RLRSQWK|VH  0.062    .
+49             448    WKVHPLK|DD  0.063    .
+49             468    IVFIGPR|EK  0.078    .
+49             470    FIGPREK|FT  0.075    .
+49             473    PREKFTK|TE  0.084    .
+49             485    INNFISR|GG  0.103    .
+49             500    GDGGEGK|YD  0.064    .
+49             508    DLTATSK|QP  0.056    .
+49             512    TSKQPIR|TR  0.087    .
+49             514    KQPIRTR|YL  0.135    .
+49             526    TGYQPIR|DQ  0.122    .
+49             533    DQHFLIR|SV  0.243    .
+49             538    IRSVSAR|MN  0.166    .
+49             557    DLPNPHR|AP  0.074    .
+49             561    PHRAPQR|RV  0.106    .
+49             562    HRAPQRR|VI  0.309    .
+49             585    ANGVLNR|EI  0.123    .
+49             589    LNREINK|GG  0.075    .
+49             593    INKGGGK|HV  0.089    .
+49             623    ATLHVVK|PS  0.066    .
+49             640    TSLPINR|PI  0.095    .
+49             654    GTGSSGK|LC  0.064    .
+49             671    SDQFIDK|EE  0.069    .
+49             676    DKEENGK|LF  0.069    .
+49             689    DYLTSDK|IQ  0.055    .
+49             713    FLPDTPK|LA  0.064    .
+49             717    TPKLAER|LK  0.084    .
+49             719    KLAERLK|AC  0.070    .
+49             730    EGDDIPR|DF  0.121    .
+49             734    IPRDFGK|MF  0.087    .
+49             742    FEHNVYK|LD  0.065    .
+49             750    DNALVPK|IV  0.085    .
+49             753    LVPKIVR|SY  0.091    .
+49             761    YQELDMK|HE  0.058    .
+49             789    VFPPVFK|EL  0.054    .
+49             809    EQFASSK|TK  0.061    .
+49             811    FASSKTK|LA  0.082    .
+49             818    LAQITNK|CT  0.072    .
+49             829    DMEYYVR|EC  0.088    .
+49             845    GDLAGAK|DA  0.096    .
+49             848    AGAKDAK|HI  0.071    .
+49             862    FQLVEYK|KI  0.076    .
+49             863    QLVEYKK|IN  0.086    .
+49             877    GQFPWDK|KG  0.062    .
+49             878    QFPWDKK|GG  0.111    .
+49             910    QTYQPQK|QQ  0.066    .
+49             982    QQQYPQK|WQ  0.075    .
+49            1004    PFYQSQK|AP  0.062    .
+49            1017    NLFVFGK|DQ  0.090    .
+49            1021    FGKDQPK|KE  0.062    .
+49            1022    GKDQPKK|ES  0.114    .
+49            1031    SYGSFLK|EM  0.072    .
+49            1037    KEMQQQK|EQ  0.075    .
+49            1041    QQKEQQK|QE  0.065    .
+49            1048    QEPVQEK|KT  0.066    .
+49            1049    EPVQEKK|TS  0.095    .
+49            1058    SYSSFLK|EM  0.071    .
+49            1062    FLKEMNK|QK  0.070    .
+49            1064    KEMNKQK|EE  0.069    .
+49            1071    EETEPQK|QP  0.061    .
+49            1079    PGGESIK|KE  0.067    .
+49            1080    GGESIKK|EG  0.070    .
+49            1083    SIKKEGK|SR  0.066    .
+49            1085    KKEGKSR|AL  0.128    .
+49            1092    ALFPWEK|KK  0.061    .
+49            1093    LFPWEKK|KE  0.084    .
+49            1094    FPWEKKK|EE  0.139    .
+49            1098    KKKEEEK|IG  0.062    .
+49            1110    GGDLEAK|LA  0.069    .
+49            1117    LAEEDGK|AR  0.068    .
+49            1119    EEDGKAR|KK  0.088    .
+49            1120    EDGKARK|KE  0.084    .
+49            1121    DGKARKK|EE  0.097    .
+49            1125    RKKEEDK|KS  0.089    .
+49            1126    KKEEDKK|SG  0.134    .
+49            1132    KSGDVEK|EE  0.061    .
+49            1135    DVEKEEK|ST  0.086    .
+49            1139    EEKSTAK|EE  0.068    .
+49            1146    EETAASK|SP  0.061    .
+49            1149    AASKSPK|SP  0.115    .
+49            1152    KSPKSPK|KK  0.080    .
+49            1153    SPKSPKK|KS  0.092    .
+49            1154    PKSPKKK|SP  0.279    .
+49            1157    PKKKSPR|PK  0.127    .
+49            1159    KKSPRPK|TA  0.128    .
+49            1163    RPKTASK|VK  0.074    .
+49            1165    KTASKVK|SK  0.082    .
+49            1167    ASKVKSK|KA  0.100    .
+49            1168    SKVKSKK|AD  0.147    .
+49            1177    SGISEMK|VE  0.059    .
+49            1188    QAASPTK|DD  0.071    .
+49            1191    SPTKDDK|LE  0.058    .
+49            1194    KDDKLEK|AT  0.064    .
+49            1199    EKATTEK|SD  0.074    .
+49            1204    EKSDPEK|KS  0.082    .
+49            1205    KSDPEKK|SD  0.122    .
+49            1210    KKSDPEK|KS  0.089    .
+49            1211    KSDPEKK|SE  0.243    .
+49            1214    PEKKSEK|EG  0.066    .
+49            1219    EKEGEAK|KV  0.105    .
+49            1220    KEGEAKK|VE  0.085    .
+49            1229    DETTTQK|AE  0.060    .
+49            1232    TTQKAEK|KA  0.080    .
+49            1233    TQKAEKK|AE  0.114    .
+49            1240    AESSPQK|EE  0.064    .
+49            1245    QKEEPTR|PI  0.089    .
+49            1252    PITSPAK|GA  0.084    .
+49            1258    KGASISR|SS  0.121    .
+49            1264    RSSSVTK|LA  0.111    .
+49            1269    TKLAGGK|PR  0.061    .
+49            1271    LAGGKPR|AK  0.122    .
+49            1273    GGKPRAK|SA  0.094    .
+49            1283    TTPAVPR|HI  0.126    .
+49            1287    VPRHINK|KS  0.067    .
+49            1288    PRHINKK|SE  0.196    .
+49            1295    SEMLAQK|YM  0.071    .
+49            1302    YMSAYAK|PK  0.067    .
+49            1304    SAYAKPK|IP  0.070    .
+49            1308    KPKIPPK|KP  0.080    .
+49            1309    PKIPPKK|PD  0.104    .
+49            1312    PPKKPDK|EE  0.058    .
+49            1315    KPDKEEK|EE  0.070    .
+49            1319    EEKEESR|PA  0.091    .
+49            1325    RPAPNYR|RE  0.089    .
+49            1326    PAPNYRR|EI  0.174    .
+49            1345    PEPVDWK|AR  0.059    .
+49            1347    PVDWKAR|YR  0.110    .
+49            1349    DWKARYR|SP  0.105    .
+49            1379    AAGEDGR|ST  0.142    .
+49            1390    LVSTSLR|EA  0.107    .
+49            1396    REAAFQK|WI  0.077    .
+49            1400    FQKWIAK|KK  0.064    .
+49            1401    QKWIAKK|KE  0.101    .
+49            1402    KWIAKKK|EN  0.104    .
+49            1405    AKKKENK|TL  0.067    .
+49            1408    KENKTLK|KS  0.070    .
+49            1409    ENKTLKK|SD  0.125    .
+49            1430    PSADQIR|QE  0.094    .
+49            1439    QFEQWYR|ER  0.079    .
+49            1441    EQWYRER|AV  0.118    .
+49            1447    RAVGLDK|KG  0.061    .
+49            1448    AVGLDKK|GR  0.089    .
+49            1450    GLDKKGR|QK  0.112    .
+49            1452    DKKGRQK|QK  0.073    .
+49            1454    KGRQKQK|ER  0.084    .
+49            1456    RQKQKER|EE  0.106    .
+49            1459    QKEREEK|EK  0.205    .
+49            1461    EREEKEK|EK  0.068    .
+49            1463    EEKEKEK|AE  0.070    .
+49            1470    AEAAALK|KK  0.063    .
+49            1471    EAAALKK|KN  0.098    .
+49            1472    AAALKKK|NE  0.118    .
+49            1478    KNEEIAR|RL  0.088    .
+49            1479    NEEIARR|LW  0.128    .
+49            1484    RRLWEEK|DK  0.083    .
+49            1486    LWEEKDK|ER  0.061    .
+49            1488    EEKDKER|KR  0.078    .
+49            1489    EKDKERK|RT  0.079    .
+49            1490    KDKERKR|TI  0.209    .
+49            1493    ERKRTIR|EK  0.359    .
+49            1495    KRTIREK|KA  0.088    .
+49            1496    RTIREKK|AE  0.398    .
+49            1501    KKAEEAK|AA  0.095    .
+49            1506    AKAAAEK|ER  0.068    .
+49            1508    AAAEKER|EV  0.166    .
+49            1513    EREVNEK|KT  0.077    .
+49            1514    REVNEKK|TA  0.108    .
+49            1519    KKTAAAK|TY  0.063    .
+49            1525    KTYSNWK|SK  0.075    .
+49            1527    YSNWKSK|KD  0.066    .
+49            1528    SNWKSKK|DP  0.159    .
+49            1535    DPLVVEK|KK  0.059    .
+49            1536    PLVVEKK|KK  0.112    .
+49            1537    LVVEKKK|KE  0.094    .
+49            1538    VVEKKKK|EI  0.104    .
+49            1543    KKEIAER|KK  0.100    .
+49            1544    KEIAERK|KR  0.102    .
+49            1545    EIAERKK|RE  0.084    .
+49            1546    IAERKKR|EQ  0.592 *ProP*
+49            1551    KREQEER|EE  0.102    .
+49            1554    QEEREEK|EM  0.117    .
+49            1557    REEKEMK|EM  0.069    .
+49            1563    KEMESQK|SF  0.089    .
+49            1569    KSFMAWK|EN  0.064    .
+49            1572    MAWKENK|EE  0.062    .
+49            1577    NKEEADR|QK  0.088    .
+49            1579    EEADRQK|RA  0.070    .
+49            1580    EADRQKR|AQ  0.396    .
+49            1587    AQLEEDR|RE  0.066    .
+49            1588    QLEEDRR|EK  0.125    .
+49            1590    EEDRREK|QR  0.097    .
+49            1592    DRREKQR|KE  0.118    .
+49            1593    RREKQRK|EQ  0.130    .
+49            1598    RKEQQEK|RA  0.072    .
+49            1599    KEQQEKR|AH  0.245    .
+49            1605    RAHEAAR|AR  0.107    .
+49            1607    HEAARAR|AL  0.160    .
+49            1616    EQWNAQK|LE  0.058    .
+49            1621    QKLEQQK|SA  0.098    .
+49            1627    KSASLVK|PD  0.065    .
+49            1635    DHVSPWK|NG  0.057    .
+49            1640    WKNGPGK|AP  0.068    .
+49            1654    FLLANIK|HN  0.055    .
+49            1657    ANIKHNK|TT  0.066    .
+49            1660    KHNKTTK|TR  0.061    .
+49            1662    NKTTKTR|PS  0.111    .
+49            1667    TRPSSAK|PR  0.090    .
+49            1669    PSSAKPR|DD  0.211    .
+49            1682    GIGIICR|IV  0.115    .
+49            1687    CRIVAPR|FS  0.156    .
+49            1695    SGILGGK|GF  0.064    .
+49            1707    IGVPVNR|GP  0.078    .
+49            1712    NRGPLNR|VV  0.136    .
+49            1748    DTGSMSK|DE  0.062    .
+49            1758    ASFECYK|TR  0.064    .
+49            1760    FECYKTR|SM  0.121    .
+49            1765    TRSMNYR|CN  0.160    .
+49            1773    NNIEVCR|KR  0.088    .
+49            1774    NIEVCRK|RI  0.072    .
+49            1775    IEVCRKR|IR  0.157    .
+49            1777    VCRKRIR|GL  0.100    .
+49            1781    RIRGLDR|LT  0.096    .
+49            1809    GHMFTNR|SK  0.148    .
+49            1811    MFTNRSK|GS  0.072    .
+49            1817    KGSDISR|TT  0.097    .
+49            1824    TTLIYFR|KH  0.072    .
+49            1825    TLIYFRK|HM  0.102    .
+49            1835    THQAQER|IN  0.107    .
+49            1851    IDIPTPK|KK  0.060    .
+49            1852    DIPTPKK|KK  0.069    .
+49            1853    IPTPKKK|KV  0.190    .
+49            1854    PTPKKKK|VR  0.080    .
+49            1856    PKKKKVR|RK  0.102    .
+49            1857    KKKKVRR|KP  0.246    .
+49            1858    KKKVRRK|PH  0.112    .
+49            1861    VRRKPHK|GS  0.096    .
+49            1865    PHKGSNK|AG  0.064    .
+49            1868    GSNKAGK|KK  0.073    .
+49            1869    SNKAGKK|KD  0.091    .
+49            1870    NKAGKKK|DL  0.277    .
+49            1874    KKKDLTK|EE  0.064    .
+49            1877    DLTKEEK|EK  0.062    .
+49            1879    TKEEKEK|IA  0.088    .
+49            1885    KIAEQEK|KK  0.059    .
+49            1886    IAEQEKK|KL  0.135    .
+49            1887    AEQEKKK|LA  0.148    .
+49            1891    KKKLAEK|EK  0.060    .
+49            1893    KLAEKEK|IS  0.087    .
+49            1897    KEKISEK|VI  0.069    .
+49            1900    ISEKVIK|EK  0.091    .
+49            1902    EKVIKEK|EN  0.079    .
+49            1917    LPSIDEK|KE  0.065    .
+49            1918    PSIDEKK|EV  0.202    .
+49            1978    YFIQELK|NV  0.072    .
+49            1997    NCVAYGK|PP  0.058    .
+49            2001    YGKPPPR|VA  0.092    .
+49            2008    VAISTLR|LY  0.073    .
+49            2012    TLRLYQK|LR  0.060    .
+49            2014    RLYQKLR|YF  0.097    .
+49            2019    LRYFNSR|TR  0.097    .
+49            2021    YFNSRTR|II  0.087    .
+49            2027    RIIPEFR|IT  0.100    .
+49            2050    PNVCVHK|HF  0.078    .
+49            2054    VHKHFSK|HD  0.073    .
+49            2072    CSALSTK|PK  0.061    .
+49            2074    ALSTKPK|AR  0.082    .
+49            2076    STKPKAR|DR  0.159    .
+49            2078    KPKARDR|NV  0.160    .
+49            2088    EDEMGYR|DI  0.108    .
+49            2095    DITSEFK|IY  0.058    .
+49            2102    IYAVTER|NS  0.117    .
+49            2108    RNSGMYR|PN  0.143    .
+49            2135    PWFGVLK|EG  0.061    .
+49            2152    DYEADWR|EM  0.077    .
+49            2155    ADWREMR|HR  0.236    .
+49            2157    WREMRHR|ER  0.106    .
+49            2159    EMRHRER|ER  0.097    .
+49            2161    RHRERER|ER  0.089    .
+49            2163    RERERER|ER  0.092    .
+49            2165    RERERER|DR  0.106    .
+49            2167    RERERDR|ER  0.088    .
+49            2169    RERDRER|ER  0.083    .
+49            2171    RDRERER|DR  0.132    .
+49            2173    RERERDR|DR  0.144    .
+49            2175    RERDRDR|ER  0.123    .
+49            2177    RDRDRER|GQ  0.092    .
+49            2194    PWFGVLK|EG  0.061    .
+49            2217    NSSEIEK|SG  0.101    .
+49            2221    IEKSGGK|KN  0.057    .
+49            2222    EKSGGKK|NL  0.168    .
+49            2241    SVGMCSR|QP  0.072    .
+49            2252    NPPPLPR|CA  0.121    .
+49            2271    DAYVTVK|PN  0.064    .
+49            2277    KPNPCLR|TT  0.098    .
+49            2326    MDHCHLK|VA  0.067    .
+49            2331    LKVAACK|SG  0.080    .
+49            2334    AACKSGR|NI  0.109    .
+49            2346    HTGWCPK|FQ  0.079    .
+49            2356    PSVSIHR|ND  0.098    .
+49            2360    IHRNDIK|VQ  0.065    .
+49            2368    QSGSTLR|LT  0.093    .
+49            2378    GATGTPK|PE  0.056    .
+49            2385    PEVMWYR|DS  0.128    .
+49            2391    RDSPNQR|GQ  0.138    .
+49            2394    PNQRGQK|QF  0.134    .
+49            2429    CQAAADK|IS  0.059    .
+49            2433    ADKISVR|SA  0.167    .
+49            2436    ISVRSAK|IN  0.205    .
+49            2449    DVQSSGR|KV  0.137    .
+49            2450    VQSSGRK|VC  0.079    .
+49            2484    LAMDCSK|RP  0.057    .
+49            2485    AMDCSKR|PT  0.164    .
+49            2493    TWFVYGR|VR  0.117    .
+49            2495    FVYGRVR|GC  0.104    .
+49            2511    QSITVIK|GS  0.084    .
+49            2530    INSGGSR|EI  0.106    .
+49            2565    LGDTGIK|VT  0.060    .
+49            2593    LCGSYDR|NR  0.068    .
+49            2595    GSYDRNR|DN  0.122    .
+49            2601    RDNDVTK|AW  0.092    .
+49            2611    AGDSCGK|DS  0.070    .
+49            2614    SCGKDSK|WA  0.075    .
+49            2625    EFMESVK|QH  0.066    .
+49            2645    TCLALTR|PT  0.093    .
+49            2658    TILTILR|YI  0.083    .
+49            2661    TILRYIR|VS  0.156    .
+49            2667    RVSAQLR|LN  0.080    .
+49            2682    GPVSQGR|KS  0.091    .
+49            2683    PVSQGRK|SQ  0.118    .
+49            2687    GRKSQCR|VP  0.098    .
+49            2691    QCRVPTR|QA  0.110    .
+49            2699    AAANCGR|GG  0.087    .
+49            2704    GRGGPQR|SD  0.165    .
+49            2711    SDQGYSR|TA  0.095    .
+49            2715    YSRTANK|RK  0.062    .
+49            2716    SRTANKR|KK  0.174    .
+49            2717    RTANKRK|KF  0.103    .
+49            2718    TANKRKK|FS  0.142    .
+49            2753    SPLLHCR|AT  0.095    .
+49            2759    RATPITR|ES  0.087    .
+49            2773    LGDTGIK|VT  0.060    .
+49            2801    LCGSYDR|NR  0.068    .
+49            2803    GSYDRNR|DN  0.122    .
+49            2809    RDNDVTK|AW  0.088    .
+49            2822    YNNVVVK|KG  0.071    .
+49            2823    NNVVVKK|GT  0.156    .
+49            2834    ELVGSWK|LD  0.055    .
+49            2839    WKLDPYR|KQ  0.085    .
+49            2840    KLDPYRK|QC  0.075    .
+49            2844    YRKQCPK|TV  0.083    .
+49            2871    IVEEECR|TV  0.116    .
+49            2894    QLEFYTR|AC  0.074    .
+49            2898    YTRACIR|DS  0.108    .
+49            2903    IRDSCGK|DS  0.076    .
+49            2906    SCGKDSK|WA  0.074    .
+49            2917    EFMESVK|QH  0.066    .
+49            2938    LHQCSSK|QE  0.069    .
+49            2941    CSSKQER|KY  0.142    .
+49            2942    SSKQERK|YE  0.072    .
+49            2947    RKYELIR|HL  0.087    .
+49            2962    NALQSPR|LR  0.076    .
+49            2964    LQSPRLR|RR  0.074    .
+49            2965    QSPRLRR|RA  0.493    .
+49            2966    SPRLRRR|AT  0.183    .
+49            2977    AYANFLK|GL  0.069    .
+49            2983    KGLLIQK|KG  0.052    .
+49            2984    GLLIQKK|GL  0.108    .
+49            2990    KGLLIQK|KG  0.053    .
+49            2991    GLLIQKK|GL  0.115    .
+49            2997    KGLLIQK|KG  0.053    .
+49            2998    GLLIQKK|GL  0.115    .
+49            3004    KGLLIQK|KG  0.053    .
+49            3005    GLLIQKK|GL  0.115    .
+49            3011    KGLLIQK|KG  0.053    .
+49            3012    GLLIQKK|GL  0.115    .
+49            3018    KGLLIQK|KG  0.053    .
+49            3019    GLLIQKK|GL  0.115    .
+49            3025    KGLLIQK|KG  0.053    .
+49            3026    GLLIQKK|GL  0.115    .
+49            3032    KGLLIQK|KG  0.053    .
+49            3033    GLLIQKK|GL  0.115    .
+49            3039    KGLLIQK|KG  0.053    .
+49            3040    GLLIQKK|GL  0.115    .
+49            3046    KGLLIQK|KG  0.053    .
+49            3047    GLLIQKK|GL  0.115    .
+49            3053    KGLLIQK|KG  0.052    .
+49            3054    GLLIQKK|GL  0.141    .
+49            3061    GLLIQEK|GP  0.062    .
+49            3067    KGPLIQK|KG  0.051    .
+49            3068    GPLIQKK|GP  0.125    .
+49            3074    KGPLIQK|KG  0.053    .
+49            3075    GPLIQKK|GP  0.104    .
+49            3081    KGPLSQK|KG  0.055    .
+49            3082    GPLSQKK|GP  0.101    .
+49            3088    KGPLMQK|KG  0.060    .
+49            3089    GPLMQKK|GS  0.094    .
+49            3095    KGSPYPK|ER  0.083    .
+49            3097    SPYPKER|SP  0.239    .
+49            3102    ERSPYPK|EK  0.099    .
+49            3104    SPYPKEK|SP  0.145    .
+49            3109    EKSPYPK|ER  0.082    .
+49            3111    SPYPKER|SL  0.260    .
+49            3116    ERSLIQK|KG  0.069    .
+49            3117    RSLIQKK|GP  0.096    .
+49            3123    KGPLIQK|KG  0.052    .
+49            3124    GPLIQKK|GP  0.083    .
+49            3130    KGPLYPK|ER  0.053    .
+49            3132    PLYPKER|LF  0.109    .
+49            3150    CGTPTPR|TT  0.082    .
+49            3154    TPRTTSR|TG  0.111    .
+49            3157    TTSRTGR|PG  0.413    .
+49            3164    PGSSSAR|GS  0.113    .
+49            3170    RGSVVTK|DQ  0.090    .
+49            3177    DQLDIVR|KL  0.079    .
+49            3178    QLDIVRK|LT  0.081    .
+49            3188    YEAEVEK|AR  0.060    .
+49            3190    AEVEKAR|KD  0.102    .
+49            3191    EVEKARK|DR  0.099    .
+49            3193    EKARKDR|GG  0.273    .
+49            3196    RKDRGGR|PP  0.167    .
+49            3202    RPPSAPK|QP  0.062    .
+49            3205    SAPKQPK|IA  0.084    .
+49            3209    QPKIAPK|ST  0.108    .
+49            3216    STVPVPK|LR  0.071    .
+49            3218    VPVPKLR|LQ  0.078    .
+49            3223    LRLQQLK|RS  0.067    .
+49            3224    RLQQLKR|SN  0.287    .
+49            3236    SDFHVTR|GV  0.236    .
+49            3242    RGVETSR|SV  0.156    .
+49            3254    GDGESCR|QM  0.102    .
+49            3262    MPDEITK|LD  0.066    .
+49            3268    KLDIVSR|PS  0.106    .
+49            3272    VSRPSTR|AE  0.107    .
+49            3277    TRAEEQR|VD  0.115    .
+49            3282    QRVDAIK|PR  0.059    .
+49            3284    VDAIKPR|VE  0.080    .
+49            3287    IKPRVER|SP  0.498    .
+49            3292    ERSPYPK|ER  0.082    .
+49            3294    SPYPKER|SP  0.268    .
+49            3299    ERSPYPK|ER  0.091    .
+49            3301    SPYPKER|SP  0.268    .
+49            3306    ERSPYPK|ER  0.091    .
+49            3308    SPYPKER|SP  0.268    .
+49            3313    ERSPYPK|ER  0.091    .
+49            3315    SPYPKER|SP  0.268    .
+49            3320    ERSPYPK|ER  0.091    .
+49            3322    SPYPKER|SP  0.268    .
+49            3327    ERSPYPK|ER  0.091    .
+49            3329    SPYPKER|SP  0.268    .
+49            3334    ERSPYPK|ER  0.091    .
+49            3336    SPYPKER|SP  0.268    .
+49            3341    ERSPYPK|ER  0.091    .
+49            3343    SPYPKER|SP  0.268    .
+49            3348    ERSPYPK|ER  0.091    .
+49            3350    SPYPKER|SP  0.268    .
+49            3355    ERSPYPK|ER  0.091    .
+49            3357    SPYPKER|SP  0.268    .
+49            3362    ERSPYPK|ER  0.091    .
+49            3364    SPYPKER|SP  0.268    .
+49            3369    ERSPYPK|ER  0.091    .
+49            3371    SPYPKER|SP  0.268    .
+49            3376    ERSPYPK|ER  0.091    .
+49            3378    SPYPKER|SP  0.268    .
+49            3383    ERSPYPK|ER  0.091    .
+49            3385    SPYPKER|SP  0.272    .
+49            3390    ERSPYPK|ER  0.091    .
+49            3392    SPYPKER|SH  0.248    .
+49            3397    ERSHYPR|ER  0.171    .
+49            3399    SHYPRER|TT  0.113    .
+49            3403    RERTTSR|TG  0.090    .
+49            3406    TTSRTGR|PG  0.405    .
+49            3413    PGSSSAR|GS  0.113    .
+49            3419    RGSVVTK|DQ  0.090    .
+49            3426    DQLDIVR|KL  0.080    .
+49            3427    QLDIVRK|LT  0.083    .
+49            3437    YETEVEK|AR  0.055    .
+49            3439    TEVEKAR|KD  0.112    .
+49            3440    EVEKARK|DR  0.102    .
+49            3442    EKARKDR|GG  0.271    .
+49            3445    RKDRGGR|PP  0.167    .
+49            3451    RPPSAPK|QP  0.062    .
+49            3454    SAPKQPK|IA  0.084    .
+49            3458    QPKIAPK|ST  0.108    .
+49            3465    STVPVPK|LR  0.071    .
+49            3467    VPVPKLR|LQ  0.078    .
+49            3472    LRLQQLK|RS  0.067    .
+49            3473    RLQQLKR|SN  0.287    .
+49            3485    SDFHVTR|GV  0.236    .
+49            3491    RGVETSR|SV  0.156    .
+49            3503    GDGESCR|QM  0.102    .
+49            3511    MPDEITK|LD  0.066    .
+49            3517    KLDIVSR|PS  0.107    .
+49            3521    VSRPSTR|AE  0.089    .
+49            3524    PSTRAEK|QR  0.091    .
+49            3526    TRAEKQR|VD  0.131    .
+49            3531    QRVDANK|PR  0.083    .
+49            3533    VDANKPR|DD  0.147    .
+49            3543    ELPPTNR|DG  0.087    .
+49            3566    FETEEDK|LK  0.056    .
+49            3568    TEEDKLK|RA  0.064    .
+49            3569    EEDKLKR|AR  0.181    .
+49            3571    DKLKRAR|EQ  0.128    .
+49            3595    TEPSTLR|TP  0.075    .
+49            3603    PWATTDR|SD  0.132    .
+49            3610    SDFYALK|EY  0.064    .
+49            3621    DSAPHPR|RR  0.073    .
+49            3622    SAPHPRR|RN  0.203    .
+49            3623    APHPRRR|NS  0.232    .
+49            3629    RNSDSTR|EE  0.130    .
+49            3648    SGPLDQR|IT  0.078    .
+49            3676    IFLTYMR|HC  0.096    .
+49            3683    HCWGVER|GT  0.113    .
+49            3701    IPHLILK|LG  0.059    .
+49            3705    ILKLGAR|QC  0.123    .
+49            3717    GSAAPDR|SI  0.152    .
+49            3733    VTVIYIR|EC  0.072    .
+49            3740    ECFISSR|ES  0.085    .
+49            3768    QSIGLTR|FS  0.076    .
+49            3775    FSLLSAR|EN  0.094    .
+49            3797    IMTLAQR|SN  0.091    .
+49            3840    EEIAMSR|EK  0.072    .
+49            3842    IAMSREK|VR  0.063    .
+49            3844    MSREKVR|GS  0.163    .
+____________________________^_________________
+
+
+
+

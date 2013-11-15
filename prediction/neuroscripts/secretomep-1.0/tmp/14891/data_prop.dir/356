@@ -1,0 +1,304 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1889 356         
+MPMTIQSFLDSNAHTSIKDDNKVGIDASWKELEEIRVDIFESRIPDKCAWFDLSGNSLKYDSFAKEAPVPGTVNSRQETP      80
+GHVPNMWDNFKVLEELVFGRACSDESTCKRGNSLRYIPDSVFNCRTLRILSFSSNNMQDIPTEISKLVNLEELYLDDNQL     160
+LDFQPFIMNLPKLRLLDMDYNSIEHVEITTLPRSLTCLRLKGNNISSFSLKTCKNSLRQLDLSSNNISELNNVSFKCLTR     240
+LKLLDLSSNVLESLPPTFGKTENLRHLYLDDNMFENLPTSVCLLQKLRILNISQNSLTSLPRDAGNMVMLRELHVENNKL     320
+ETLPDELRNVCRLLTLSASGNRLTKIPPVVGTLQFLNDLLLFNNKIRSIDMGVLGGCQSLIVLGLSNNRLKEIPAGISSL     400
+QHIRIIQLDGNSLTGLPEELFNVNSLKYLSLNHNRLEVLPDSISKLENLVGLLVDGNSITEIPESIGGLQNLRVLSVKQN     480
+YIETCGFGAVTSYEIILALVMHHSMAGCCWKKTAERDSHSMGHNTTLLDYSHGYNKSLAFLEEDFARFDVHMAVLTIIMT     560
+LFGLLFNIVIFYVFWGMRKSPNALIFLNLAAVDVVLACLVMPFSVTILISRAVGVDAPPHYLLCAGSGIVFEMSVLCTVG     640
+FIFLASADRFLGVFHPVFHRKHFNRANLLKMITGVWVVSPVVIIIFVSSWLIASSSSNHIFTNLDLFTVCMGEYWLRHDE     720
+HSLLNIPSYVTVVFLSLLMTVIVIVNLAVLKQLFRSRPKARHSIASGPAAADVKKRRRNNTTMVAPPILINSESPSTRSA     800
+KKHNALKRMSMAEQDVKESERIFHTDSNGDVTGINISAILNLYVKSTRCQPKVKTRKPSIAMQMSRHNSDPSITVERGEG     880
+PLTESSLITDRGITPNSLRHSIVVEEEEEEEEDVFTDEDDEELVEIATVNSCVGSPRATLPRGGRSSLDMADFERSISVS     960
+TIDNATCTDCDEDDDDDDDDDDDDDDDDDFDLDDEEFPESETIWKVVKFVAALKRNSRKRQLWQENSRANLQSRSLCPDF    1040
+AEIPEIRSSSFNKRSSKMELVRSSSDSDLTMLRDTAELDLAIHNGNHDNTHEVKSPRTRRVLEKKASRKFSEVTMGSGGR    1120
+GGPAEEIRKAPYQQYSFDRQQMMSPTMEEIDEMVNGGELSPLVHRAKYPDMDTLVKMITNIKKKSLDAKTNVGSFPDLID    1200
+NILSNFFRRASRISVILSPNIRALRKSGENRKSKSPKEPEKVEEEAVMSWGTLAVFGRMKMKLIKLRPFNFPVAKTKSLD    1280
+MADFERSISVSTIDNATCTDCDDDDDDDDDFDLDDEEFPESETIWKVVKFVAALKRNSRKRQLWQENSRANLQSRSLCPD    1360
+FAEIPEIRSSSFNKRSSKMELVRSSSDSDLTMLRDTAELDLAIHNGNHDNTHEVKSPRTRRVLEKKASRKFSEVTMGSGG    1440
+RGGPAEEIRKAPYQQYSFDRQQMMSPTMEEIDEMVNGGELSPLVHRAKYPDMDTLVKMITNIKKKSLDAKTNVGRRASRI    1520
+SVILSPNIRALRKSGENRKSKSPKEPEKVEEEAVMSWGTLAVFGRMKMKFREQRSRVVEAPQEPTDSETLSLSSDIVEEI    1600
+LTHTFVRPPPLVQQDSFETRQQLLNTITEEEDSPTKPFPVPRLSAGTAPHLQVPSPGGSSAGDSSRHTTPADQTRKSFTR    1680
+TRSLECCRDSISPAAMKQPIRRRGGVFINQEELASPSPSGLGAVDAFRSPIGSMSSGSGGPVTLKQRVRQSSVYRMGMRN    1760
+SMNITSITQMVYNFNKNSRKKKKEIRAAKTIIILVFYYIVTLLAFVISFYWVTMLKESEKSNIPYIFTFYAYIIYCNAVF    1840
+NPVIHFWRNARNTYFIVIVTLVGYEVTPNIAYRGDNTACRKMAIFKTFS                                   1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+.............P.............................................P....................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+..............P.............................................P...................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.................................................                                   1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+356             18    NAHTSIK|DD  0.087    .
+356             22    SIKDDNK|VG  0.058    .
+356             30    GIDASWK|EL  0.071    .
+356             36    KELEEIR|VD  0.065    .
+356             43    VDIFESR|IP  0.078    .
+356             47    ESRIPDK|CA  0.074    .
+356             59    LSGNSLK|YD  0.072    .
+356             65    KYDSFAK|EA  0.063    .
+356             76    PGTVNSR|QE  0.077    .
+356             91    NMWDNFK|VL  0.063    .
+356            100    EELVFGR|AC  0.096    .
+356            109    SDESTCK|RG  0.057    .
+356            110    DESTCKR|GN  0.148    .
+356            115    KRGNSLR|YI  0.156    .
+356            125    DSVFNCR|TL  0.083    .
+356            128    FNCRTLR|IL  0.211    .
+356            146    IPTEISK|LV  0.071    .
+356            172    FIMNLPK|LR  0.055    .
+356            174    MNLPKLR|LL  0.091    .
+356            193    EITTLPR|SL  0.095    .
+356            199    RSLTCLR|LK  0.087    .
+356            201    LTCLRLK|GN  0.064    .
+356            211    ISSFSLK|TC  0.087    .
+356            214    FSLKTCK|NS  0.061    .
+356            218    TCKNSLR|QL  0.097    .
+356            236    LNNVSFK|CL  0.073    .
+356            240    SFKCLTR|LK  0.069    .
+356            242    KCLTRLK|LL  0.056    .
+356            260    LPPTFGK|TE  0.057    .
+356            265    GKTENLR|HL  0.084    .
+356            286    SVCLLQK|LR  0.058    .
+356            288    CLLQKLR|IL  0.089    .
+356            302    SLTSLPR|DA  0.137    .
+356            311    GNMVMLR|EL  0.099    .
+356            319    LHVENNK|LE  0.051    .
+356            328    TLPDELR|NV  0.099    .
+356            332    ELRNVCR|LL  0.091    .
+356            342    LSASGNR|LT  0.071    .
+356            345    SGNRLTK|IP  0.118    .
+356            365    LLLFNNK|IR  0.058    .
+356            367    LFNNKIR|SI  0.236    .
+356            389    LGLSNNR|LK  0.064    .
+356            391    LSNNRLK|EI  0.082    .
+356            404    SSLQHIR|II  0.089    .
+356            427    FNVNSLK|YL  0.072    .
+356            435    LSLNHNR|LE  0.064    .
+356            445    LPDSISK|LE  0.057    .
+356            473    GGLQNLR|VL  0.081    .
+356            478    LRVLSVK|QN  0.076    .
+356            511    MAGCCWK|KT  0.067    .
+356            512    AGCCWKK|TA  0.108    .
+356            516    WKKTAER|DS  0.120    .
+356            536    YSHGYNK|SL  0.084    .
+356            547    LEEDFAR|FD  0.092    .
+356            578    YVFWGMR|KS  0.073    .
+356            579    VFWGMRK|SP  0.087    .
+356            611    VTILISR|AV  0.102    .
+356            649    FLASADR|FL  0.108    .
+356            660    FHPVFHR|KH  0.070    .
+356            661    HPVFHRK|HF  0.103    .
+356            665    HRKHFNR|AN  0.127    .
+356            670    NRANLLK|MI  0.086    .
+356            717    MGEYWLR|HD  0.098    .
+356            751    VNLAVLK|QL  0.064    .
+356            755    VLKQLFR|SR  0.111    .
+356            757    KQLFRSR|PK  0.075    .
+356            759    LFRSRPK|AR  0.064    .
+356            761    RSRPKAR|HS  0.219    .
+356            774    PAAADVK|KR  0.061    .
+356            775    AAADVKK|RR  0.095    .
+356            776    AADVKKR|RR  0.152    .
+356            777    ADVKKRR|RN  0.141    .
+356            778    DVKKRRR|NN  0.127    .
+356            798    SESPSTR|SA  0.262    .
+356            801    PSTRSAK|KH  0.148    .
+356            802    STRSAKK|HN  0.123    .
+356            807    KKHNALK|RM  0.075    .
+356            808    KHNALKR|MS  0.348    .
+356            817    MAEQDVK|ES  0.069    .
+356            821    DVKESER|IF  0.081    .
+356            845    ILNLYVK|ST  0.081    .
+356            848    LYVKSTR|CQ  0.081    .
+356            852    STRCQPK|VK  0.072    .
+356            854    RCQPKVK|TR  0.070    .
+356            856    QPKVKTR|KP  0.135    .
+356            857    PKVKTRK|PS  0.099    .
+356            866    IAMQMSR|HN  0.104    .
+356            877    PSITVER|GE  0.111    .
+356            891    SSLITDR|GI  0.087    .
+356            899    ITPNSLR|HS  0.098    .
+356            937    SCVGSPR|AT  0.099    .
+356            942    PRATLPR|GG  0.133    .
+356            945    TLPRGGR|SS  0.359    .
+356            955    DMADFER|SI  0.173    .
+356           1005    ESETIWK|VV  0.063    .
+356           1008    TIWKVVK|FV  0.090    .
+356           1014    KFVAALK|RN  0.060    .
+356           1015    FVAALKR|NS  0.170    .
+356           1018    ALKRNSR|KR  0.133    .
+356           1019    LKRNSRK|RQ  0.101    .
+356           1020    KRNSRKR|QL  0.367    .
+356           1028    LWQENSR|AN  0.085    .
+356           1034    RANLQSR|SL  0.184    .
+356           1047    AEIPEIR|SS  0.127    .
+356           1053    RSSSFNK|RS  0.098    .
+356           1054    SSSFNKR|SS  0.525 *ProP*
+356           1057    FNKRSSK|ME  0.090    .
+356           1062    SKMELVR|SS  0.198    .
+356           1073    SDLTMLR|DT  0.083    .
+356           1094    DNTHEVK|SP  0.073    .
+356           1097    HEVKSPR|TR  0.094    .
+356           1099    VKSPRTR|RV  0.129    .
+356           1100    KSPRTRR|VL  0.590 *ProP*
+356           1104    TRRVLEK|KA  0.113    .
+356           1105    RRVLEKK|AS  0.112    .
+356           1108    LEKKASR|KF  0.102    .
+356           1109    EKKASRK|FS  0.116    .
+356           1120    TMGSGGR|GG  0.090    .
+356           1128    GPAEEIR|KA  0.132    .
+356           1129    PAEEIRK|AP  0.073    .
+356           1139    QQYSFDR|QQ  0.112    .
+356           1165    LSPLVHR|AK  0.090    .
+356           1167    PLVHRAK|YP  0.068    .
+356           1176    DMDTLVK|MI  0.061    .
+356           1182    KMITNIK|KK  0.057    .
+356           1183    MITNIKK|KS  0.092    .
+356           1184    ITNIKKK|SL  0.338    .
+356           1189    KKSLDAK|TN  0.084    .
+356           1208    ILSNFFR|RA  0.133    .
+356           1209    LSNFFRR|AS  0.222    .
+356           1212    FFRRASR|IS  0.159    .
+356           1222    ILSPNIR|AL  0.123    .
+356           1225    PNIRALR|KS  0.256    .
+356           1226    NIRALRK|SG  0.094    .
+356           1231    RKSGENR|KS  0.088    .
+356           1232    KSGENRK|SK  0.197    .
+356           1234    GENRKSK|SP  0.277    .
+356           1237    RKSKSPK|EP  0.141    .
+356           1241    SPKEPEK|VE  0.073    .
+356           1258    TLAVFGR|MK  0.139    .
+356           1260    AVFGRMK|MK  0.062    .
+356           1262    FGRMKMK|LI  0.068    .
+356           1265    MKMKLIK|LR  0.058    .
+356           1267    MKLIKLR|PF  0.081    .
+356           1275    FNFPVAK|TK  0.067    .
+356           1277    FPVAKTK|SL  0.107    .
+356           1286    DMADFER|SI  0.173    .
+356           1326    ESETIWK|VV  0.063    .
+356           1329    TIWKVVK|FV  0.090    .
+356           1335    KFVAALK|RN  0.060    .
+356           1336    FVAALKR|NS  0.170    .
+356           1339    ALKRNSR|KR  0.133    .
+356           1340    LKRNSRK|RQ  0.101    .
+356           1341    KRNSRKR|QL  0.367    .
+356           1349    LWQENSR|AN  0.085    .
+356           1355    RANLQSR|SL  0.184    .
+356           1368    AEIPEIR|SS  0.127    .
+356           1374    RSSSFNK|RS  0.098    .
+356           1375    SSSFNKR|SS  0.525 *ProP*
+356           1378    FNKRSSK|ME  0.090    .
+356           1383    SKMELVR|SS  0.198    .
+356           1394    SDLTMLR|DT  0.083    .
+356           1415    DNTHEVK|SP  0.073    .
+356           1418    HEVKSPR|TR  0.094    .
+356           1420    VKSPRTR|RV  0.129    .
+356           1421    KSPRTRR|VL  0.590 *ProP*
+356           1425    TRRVLEK|KA  0.113    .
+356           1426    RRVLEKK|AS  0.112    .
+356           1429    LEKKASR|KF  0.102    .
+356           1430    EKKASRK|FS  0.116    .
+356           1441    TMGSGGR|GG  0.090    .
+356           1449    GPAEEIR|KA  0.132    .
+356           1450    PAEEIRK|AP  0.073    .
+356           1460    QQYSFDR|QQ  0.112    .
+356           1486    LSPLVHR|AK  0.090    .
+356           1488    PLVHRAK|YP  0.068    .
+356           1497    DMDTLVK|MI  0.061    .
+356           1503    KMITNIK|KK  0.057    .
+356           1504    MITNIKK|KS  0.092    .
+356           1505    ITNIKKK|SL  0.338    .
+356           1510    KKSLDAK|TN  0.073    .
+356           1515    AKTNVGR|RA  0.098    .
+356           1516    KTNVGRR|AS  0.166    .
+356           1519    VGRRASR|IS  0.166    .
+356           1529    ILSPNIR|AL  0.123    .
+356           1532    PNIRALR|KS  0.256    .
+356           1533    NIRALRK|SG  0.094    .
+356           1538    RKSGENR|KS  0.088    .
+356           1539    KSGENRK|SK  0.197    .
+356           1541    GENRKSK|SP  0.277    .
+356           1544    RKSKSPK|EP  0.141    .
+356           1548    SPKEPEK|VE  0.073    .
+356           1565    TLAVFGR|MK  0.158    .
+356           1567    AVFGRMK|MK  0.067    .
+356           1569    FGRMKMK|FR  0.079    .
+356           1571    RMKMKFR|EQ  0.086    .
+356           1574    MKFREQR|SR  0.378    .
+356           1576    FREQRSR|VV  0.134    .
+356           1607    LTHTFVR|PP  0.088    .
+356           1620    QDSFETR|QQ  0.092    .
+356           1636    EEDSPTK|PF  0.053    .
+356           1642    KPFPVPR|LS  0.103    .
+356           1666    SAGDSSR|HT  0.126    .
+356           1675    TPADQTR|KS  0.120    .
+356           1676    PADQTRK|SF  0.097    .
+356           1680    TRKSFTR|TR  0.089    .
+356           1682    KSFTRTR|SL  0.193    .
+356           1688    RSLECCR|DS  0.085    .
+356           1697    ISPAAMK|QP  0.061    .
+356           1701    AMKQPIR|RR  0.092    .
+356           1702    MKQPIRR|RG  0.172    .
+356           1703    KQPIRRR|GG  0.111    .
+356           1728    GAVDAFR|SP  0.124    .
+356           1745    GGPVTLK|QR  0.055    .
+356           1747    PVTLKQR|VR  0.065    .
+356           1749    TLKQRVR|QS  0.154    .
+356           1755    RQSSVYR|MG  0.114    .
+356           1759    VYRMGMR|NS  0.084    .
+356           1776    MVYNFNK|NS  0.065    .
+356           1779    NFNKNSR|KK  0.100    .
+356           1780    FNKNSRK|KK  0.087    .
+356           1781    NKNSRKK|KK  0.105    .
+356           1782    KNSRKKK|KE  0.488    .
+356           1783    NSRKKKK|EI  0.209    .
+356           1786    KKKKEIR|AA  0.134    .
+356           1789    KEIRAAK|TI  0.141    .
+356           1816    YWVTMLK|ES  0.058    .
+356           1820    MLKESEK|SN  0.099    .
+356           1848    PVIHFWR|NA  0.097    .
+356           1851    HFWRNAR|NT  0.214    .
+356           1873    TPNIAYR|GD  0.141    .
+356           1880    GDNTACR|KM  0.080    .
+356           1881    DNTACRK|MA  0.085    .
+356           1886    RKMAIFK|TF  0.074    .
+____________________________^_________________
+
+
+
+

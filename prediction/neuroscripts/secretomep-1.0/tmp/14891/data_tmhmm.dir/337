@@ -1,0 +1,12 @@
+# 337 Length: 1942
+# 337 Number of predicted TMHs:  3
+# 337 Exp number of AAs in TMHs: 100.66296
+# 337 Exp number, first 60 AAs:  8.74647
+# 337 Total prob of N-in:        0.32420
+337	TMHMM2.0	outside	     1  1488
+337	TMHMM2.0	TMhelix	  1489  1511
+337	TMHMM2.0	inside	  1512  1531
+337	TMHMM2.0	TMhelix	  1532  1554
+337	TMHMM2.0	outside	  1555  1836
+337	TMHMM2.0	TMhelix	  1837  1859
+337	TMHMM2.0	inside	  1860  1942

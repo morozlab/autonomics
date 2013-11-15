@@ -1,0 +1,633 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3440 70          
+MKLSDKLISLGNDLEAKGLLTYILKGTNKPPADNPSRAALLKLLKQAYKLSKELVEVHTDASSNAPSTVAGDNTITCRNK      80
+SCSKMLDDDRMCALINQNEGLAWFCPTCNNNDDDEPSPLTQRILDDKLATFEKSMLGKFEEQIAAVITSTVSTQVAKQIG     160
+PIAAADGQTNVPLAWAMHDWNKKDGSVQYWFRNAEDMDKAVKKVASQNVKVDMEKFVHEPKLSIRGADVSFIAKHITDRD     240
+ETDTMILDSIYELNPRVAELLDRGEKMSVVSFQRYSRNENEATIGLKVSKPVGDLILSSGFIHVGNYNCYVEERVFVKQC     320
+FNCQSFGHYAIDCKAKDPTCFRCSEKHSARECHNKKNWSAFKCSNCTKSRNPSIQSFAHTHNAADPQCPIRLQYLNKAID     400
+ILELAVDEDLDIFALTETWMKKDDGALCALFKEAGFNIVSHPRVGRGGGVALVTRRRTKTSKYCHKFKQFECLEVLLKEP     480
+TNTRIVVVYRPGTSGQFTAFLDEREDLFLKLAERKERCLICGDFNIHVEDNLDPQTRKFNDLLNQFGWRNKVTGPTHIKG     560
+GTLDLILTQDTAPISDTSGAPFCSNKLDEINEEHIPLLFHGMPDGIDVTEIDSYPVPPAPDHYLVTCTAGIPLKKKDDEV     640
+LMKCRNFKEVDPENLRELIGNSKLAETLPTDPEECVRLYNTTLQSITDKVAPEEEKRIKHPDQPQWIRTPACQNARRIRR     720
+GAERRWRRARLKKTNPKKLAPKYHCWKSTSKFASKVLGNAKASFVSKKLEREKGNPKSTHRVVNSLLGKEKRPSTLPSKK     800
+EATPLATKFNEFFKAKVTKIYSVIEAEDVPTPTTQPEPITCKSSFTKFRPVTDEELAKTIRDMNKKHCSLDPMPSSMVND     880
+ALPELIPVLSRIVNDSLTKGVFPKDFKEAIIRPSFKGKDLDSEELNSYRPISNLSFISKVVEKCASLQLIEYLEANKLLP     960
+TKQSAYRKYHSCETATLKIFNDILLLTDSKSKVILLLAVPYSEAHLGNARLVISGEAEEINNANGVMAKIPTEYKRNKKD    1040
+GSVQYWFRNAEDMDKAVTKVASQNVNVDMKKFVHEPKLSIRGADVSFIAKHITDRDETDTMILDSIYELNPRVAELLDRG    1120
+EKMSVVSFQRYSRNENEATIGLKVSKPVGDLILSSGTIHVGNYNCYVEERVFVKQCFQCQSFGHYAIDCKAKDPTCFRCS    1200
+EKHSARECHNKKNWSAFKCSNCTKSRNPSIQSFAHTHNAADPQCPIRLQYLNKAIDILELAVDEDLDIFALTETWMKKDD    1280
+GALCALFKEAGFNIVSHPRVGRGGGVALVTRRRTKTSKYCHKFKQFECLEVLLKEPTNTRIVVVYRPGTSGQFTAFLDER    1360
+EDLFLKLAERKERCLICGDFNIHVEDNLDPQTRKFNDLLNQFGWRNKVTGPTHIKGGTLDLILTQDTAPISDTSGAPFCS    1440
+NKLDEINEEHIPLLFHGMPDGIDVTEIDSYPVPPAPDHYLVTCTAGIPLKKKDDEVLMKCRNFKEVDPENLRELIGNSKL    1520
+AETLPTDPEECVRLYNTTLQSITDKVAPEEEKRIKHPDQPQWIRTPACQNARRIRRGAERRWRRARLKKTNPKKLAPKYH    1600
+CWKSTSKFASKVLGNAKASFVSKKLEREKGNPKSTHRVVNSLLGKEKRPSTLPSKKEATPLATKFNEFFKAKVTKIYSVI    1680
+EAEDVPTPTTQPEPITCKSSFTKFRPVTDEELAKTIRDMNKKHCSLDPMPSSMVNDALPELIPVLSRIVNDSLTKGVFPK    1760
+DFKEAIIRPSFKGKDLDSEELNSYRPISNLSFISKVVEKCASLQLIEYLEANKLLPTKQSAYRKYHSCETATLKIFNDIL    1840
+LLTDSKSKVILLLLDLSAAFDTVKHTTLLDKLYNYYGIKQTALEWFKSYLTGRTSSVCIGDEISPSIEIEIGVPQGSILG    1920
+PILFIMYTREIQDIAGIYGLHVHMYADDTQLYISFDPANKDILFEKIQDCLQHIKWWMKANYLKLNADKTEIVVINNKAD    2000
+KSPNPTSIFLQKSDKTPTEPSTEARNLGVWFDQTFSMSSHVSRVIQSCWSQLANLWRIRKGLSVQLKTQLVHQLVHSRLD    2080
+FGNGLLVGLPKRDLQRLQKVQNSATRFIYGSKGRRGVTEMRRKLHFLPVEQRIVFKICLLVYKCIHGLVPEYLSEMIVRR    2160
+QPKTRKVRLDDDLTLVEKRHDTKYLNTQKAFSVCGPKIWNKLPKSLREVSSLETFKQMLKTHLFAIAYPDSSSVSAIMRL    2240
+IVRRRIQHASVVLRSTQPENAITRKIGLPLNVLIVLNHVTHPFNHLLILTTQLIHNAPSVSSTCQKTNRVQKAEDDGALC    2320
+ALFKEAGFNIVSHPRVGRGGGVALVTRRRTKTSKYCHKFKQFECLEVLLKEPTNTRIVVVYRPGTSGQFTAFLAELEDLF    2400
+LKLAERKERCLICGDFNIHVEDNLDPQTRKFNDLLNQFGWSNKITGPTHIKGGTLDLILTQDTAPISDTIGAPFCSNKLD    2480
+EINEEHIPLLFHGMPDGIDVTEIDSYPVPPAPDHYLVTCTAGIPLKKKDDEVLMKCRNFKEVDPENLRELIGNSKLAETL    2560
+PTDPEECVRLYNTTLQSITDKVAPEEEKRIKHPDQPQWIRTPACQNARRIRRGAERRWRRARLKKTNPKKLAPKYHCWKS    2640
+TSKFASKVLGNAKASFVSKKLEREKGNPKSTHRVVNSLLGKEKRPSTLPSKKEATPLATKFNEFFKDKVTKIYSVIEAED    2720
+VPAPTTQPEPITCKSSFTKFRPVTDEELAKTIRDMNKKHCSLDPMPSSMVNDALPELIPVLSRIVNDSLTKGVFPKDFKE    2800
+AIIRPSFKGKDLDSEVLNSYRPISNLSFISKVVEKCASLQLIEYLEANKLLPTKQSAYRNYHSCETATLKIFNDILLLMD    2880
+SKSKVVLLLLDLSAAFDTVKHATLLDKLYNYYGIKLTALEWFKSYLTGRTSSVCIGDEISPSIESEIGVPQGSIGGPILF    2960
+IMYTREIQDIAGIYGLHVHMYADDTQLYISFDPANKDIIFEKIQDCLQHIKWWMKANYLKLNADKTEIVVINNKADKSPN    3040
+PTSIFLQKSDKTPTEPSTEARNLGVWFDQTFSMSSHVSRVIQSCWSQLANLWRIRKGLSVQLKTQLVHQLVHSRLDFGNG    3120
+LLVGLPKRDLQRLQKVQNSATRFIYGSKGRRGVTEMRRKLHFLPVEQRIVFKICLWVYKCMEARHCVETRTIATRIATRI    3200
+FVLRHAFWFCDAHLSLRRAHARRKTKMRVAMRVAMYHGVFPLGLDHHQDELFWSSAVCVLSFLRDTQAQVHVWRPDTVLR    3280
+RAPLRRALRRAFWFCDAHLSLRRAHARRKTKMRVAMRVAMVRVSLLVYKCIHGLVPEYLSEMIVRRQPKTRKVRLDDDLT    3360
+LVEKRHDTKYLTTQKAFSVCGPKIWNKLPKSLREVSSLETFKQMLKTHLFTIAYPDSNSGTNTVTQPRKAKAKILNPSCP    3440
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+...............................................................................P     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.......................................................P........................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+...................................................P............................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+70               2    -----MK|LS  0.065    .
+70               6    -MKLSDK|LI  0.066    .
+70              17    GNDLEAK|GL  0.065    .
+70              25    LLTYILK|GT  0.060    .
+70              29    ILKGTNK|PP  0.059    .
+70              37    PADNPSR|AA  0.083    .
+70              42    SRAALLK|LL  0.076    .
+70              45    ALLKLLK|QA  0.059    .
+70              49    LLKQAYK|LS  0.059    .
+70              52    QAYKLSK|EL  0.065    .
+70              78    DNTITCR|NK  0.082    .
+70              80    TITCRNK|SC  0.103    .
+70              84    RNKSCSK|ML  0.070    .
+70              90    KMLDDDR|MC  0.070    .
+70             122    PSPLTQR|IL  0.112    .
+70             127    QRILDDK|LA  0.068    .
+70             133    KLATFEK|SM  0.082    .
+70             138    EKSMLGK|FE  0.098    .
+70             157    VSTQVAK|QI  0.085    .
+70             182    AMHDWNK|KD  0.078    .
+70             183    MHDWNKK|DG  0.120    .
+70             192    SVQYWFR|NA  0.142    .
+70             199    NAEDMDK|AV  0.074    .
+70             202    DMDKAVK|KV  0.064    .
+70             203    MDKAVKK|VA  0.177    .
+70             210    VASQNVK|VD  0.066    .
+70             215    VKVDMEK|FV  0.078    .
+70             221    KFVHEPK|LS  0.066    .
+70             225    EPKLSIR|GA  0.160    .
+70             234    DVSFIAK|HI  0.076    .
+70             239    AKHITDR|DE  0.107    .
+70             256    IYELNPR|VA  0.079    .
+70             263    VAELLDR|GE  0.080    .
+70             266    LLDRGEK|MS  0.090    .
+70             274    SVVSFQR|YS  0.090    .
+70             277    SFQRYSR|NE  0.182    .
+70             287    EATIGLK|VS  0.059    .
+70             290    IGLKVSK|PV  0.100    .
+70             314    NCYVEER|VF  0.082    .
+70             318    EERVFVK|QC  0.069    .
+70             334    HYAIDCK|AK  0.061    .
+70             336    AIDCKAK|DP  0.076    .
+70             342    KDPTCFR|CS  0.087    .
+70             346    CFRCSEK|HS  0.065    .
+70             350    SEKHSAR|EC  0.127    .
+70             355    ARECHNK|KN  0.082    .
+70             356    RECHNKK|NW  0.111    .
+70             362    KNWSAFK|CS  0.058    .
+70             368    KCSNCTK|SR  0.104    .
+70             370    SNCTKSR|NP  0.102    .
+70             391    DPQCPIR|LQ  0.075    .
+70             397    RLQYLNK|AI  0.085    .
+70             421    LTETWMK|KD  0.064    .
+70             422    TETWMKK|DD  0.137    .
+70             432    ALCALFK|EA  0.076    .
+70             443    NIVSHPR|VG  0.090    .
+70             446    SHPRVGR|GG  0.393    .
+70             455    GVALVTR|RR  0.070    .
+70             456    VALVTRR|RT  0.109    .
+70             457    ALVTRRR|TK  0.114    .
+70             459    VTRRRTK|TS  0.109    .
+70             462    RRTKTSK|YC  0.076    .
+70             466    TSKYCHK|FK  0.071    .
+70             468    KYCHKFK|QF  0.081    .
+70             478    CLEVLLK|EP  0.053    .
+70             484    KEPTNTR|IV  0.099    .
+70             490    RIVVVYR|PG  0.109    .
+70             504    TAFLDER|ED  0.068    .
+70             510    REDLFLK|LA  0.068    .
+70             514    FLKLAER|KE  0.065    .
+70             515    LKLAERK|ER  0.070    .
+70             517    LAERKER|CL  0.319    .
+70             537    NLDPQTR|KF  0.122    .
+70             538    LDPQTRK|FN  0.078    .
+70             549    LNQFGWR|NK  0.096    .
+70             551    QFGWRNK|VT  0.064    .
+70             559    TGPTHIK|GG  0.059    .
+70             586    APFCSNK|LD  0.074    .
+70             634    TAGIPLK|KK  0.073    .
+70             635    AGIPLKK|KD  0.099    .
+70             636    GIPLKKK|DD  0.124    .
+70             643    DDEVLMK|CR  0.062    .
+70             645    EVLMKCR|NF  0.081    .
+70             648    MKCRNFK|EV  0.294    .
+70             656    VDPENLR|EL  0.065    .
+70             663    ELIGNSK|LA  0.064    .
+70             677    DPEECVR|LY  0.085    .
+70             689    LQSITDK|VA  0.078    .
+70             696    VAPEEEK|RI  0.054    .
+70             697    APEEEKR|IK  0.193    .
+70             699    EEEKRIK|HP  0.066    .
+70             708    DQPQWIR|TP  0.067    .
+70             716    PACQNAR|RI  0.089    .
+70             717    ACQNARR|IR  0.140    .
+70             719    QNARRIR|RG  0.185    .
+70             720    NARRIRR|GA  0.584 *ProP*
+70             724    IRRGAER|RW  0.099    .
+70             725    RRGAERR|WR  0.159    .
+70             727    GAERRWR|RA  0.228    .
+70             728    AERRWRR|AR  0.424    .
+70             730    RRWRRAR|LK  0.386    .
+70             732    WRRARLK|KT  0.075    .
+70             733    RRARLKK|TN  0.453    .
+70             737    LKKTNPK|KL  0.071    .
+70             738    KKTNPKK|LA  0.114    .
+70             742    PKKLAPK|YH  0.068    .
+70             747    PKYHCWK|ST  0.091    .
+70             751    CWKSTSK|FA  0.093    .
+70             755    TSKFASK|VL  0.080    .
+70             761    KVLGNAK|AS  0.064    .
+70             767    KASFVSK|KL  0.084    .
+70             768    ASFVSKK|LE  0.109    .
+70             771    VSKKLER|EK  0.095    .
+70             773    KKLEREK|GN  0.066    .
+70             777    REKGNPK|ST  0.093    .
+70             781    NPKSTHR|VV  0.107    .
+70             789    VNSLLGK|EK  0.066    .
+70             791    SLLGKEK|RP  0.061    .
+70             792    LLGKEKR|PS  0.125    .
+70             799    PSTLPSK|KE  0.057    .
+70             800    STLPSKK|EA  0.107    .
+70             808    ATPLATK|FN  0.056    .
+70             814    KFNEFFK|AK  0.072    .
+70             816    NEFFKAK|VT  0.065    .
+70             819    FKAKVTK|IY  0.097    .
+70             842    PEPITCK|SS  0.080    .
+70             847    CKSSFTK|FR  0.071    .
+70             849    SSFTKFR|PV  0.252    .
+70             858    TDEELAK|TI  0.073    .
+70             861    ELAKTIR|DM  0.116    .
+70             865    TIRDMNK|KH  0.070    .
+70             866    IRDMNKK|HC  0.100    .
+70             891    LIPVLSR|IV  0.118    .
+70             899    VNDSLTK|GV  0.073    .
+70             904    TKGVFPK|DF  0.098    .
+70             907    VFPKDFK|EA  0.057    .
+70             912    FKEAIIR|PS  0.088    .
+70             916    IIRPSFK|GK  0.068    .
+70             918    RPSFKGK|DL  0.177    .
+70             929    EELNSYR|PI  0.083    .
+70             939    NLSFISK|VV  0.089    .
+70             943    ISKVVEK|CA  0.085    .
+70             957    EYLEANK|LL  0.054    .
+70             962    NKLLPTK|QS  0.058    .
+70             967    TKQSAYR|KY  0.117    .
+70             968    KQSAYRK|YH  0.136    .
+70             978    CETATLK|IF  0.064    .
+70             990    LLLTDSK|SK  0.063    .
+70             992    LTDSKSK|VI  0.052    .
+70            1010    AHLGNAR|LV  0.110    .
+70            1029    ANGVMAK|IP  0.067    .
+70            1035    KIPTEYK|RN  0.056    .
+70            1036    IPTEYKR|NK  0.198    .
+70            1038    TEYKRNK|KD  0.087    .
+70            1039    EYKRNKK|DG  0.336    .
+70            1048    SVQYWFR|NA  0.142    .
+70            1055    NAEDMDK|AV  0.078    .
+70            1059    MDKAVTK|VA  0.089    .
+70            1070    NVNVDMK|KF  0.064    .
+70            1071    VNVDMKK|FV  0.142    .
+70            1077    KFVHEPK|LS  0.069    .
+70            1081    EPKLSIR|GA  0.160    .
+70            1090    DVSFIAK|HI  0.076    .
+70            1095    AKHITDR|DE  0.107    .
+70            1112    IYELNPR|VA  0.079    .
+70            1119    VAELLDR|GE  0.080    .
+70            1122    LLDRGEK|MS  0.090    .
+70            1130    SVVSFQR|YS  0.090    .
+70            1133    SFQRYSR|NE  0.182    .
+70            1143    EATIGLK|VS  0.059    .
+70            1146    IGLKVSK|PV  0.100    .
+70            1170    NCYVEER|VF  0.089    .
+70            1174    EERVFVK|QC  0.074    .
+70            1190    HYAIDCK|AK  0.061    .
+70            1192    AIDCKAK|DP  0.076    .
+70            1198    KDPTCFR|CS  0.087    .
+70            1202    CFRCSEK|HS  0.065    .
+70            1206    SEKHSAR|EC  0.127    .
+70            1211    ARECHNK|KN  0.082    .
+70            1212    RECHNKK|NW  0.111    .
+70            1218    KNWSAFK|CS  0.058    .
+70            1224    KCSNCTK|SR  0.104    .
+70            1226    SNCTKSR|NP  0.102    .
+70            1247    DPQCPIR|LQ  0.075    .
+70            1253    RLQYLNK|AI  0.085    .
+70            1277    LTETWMK|KD  0.064    .
+70            1278    TETWMKK|DD  0.137    .
+70            1288    ALCALFK|EA  0.076    .
+70            1299    NIVSHPR|VG  0.090    .
+70            1302    SHPRVGR|GG  0.393    .
+70            1311    GVALVTR|RR  0.070    .
+70            1312    VALVTRR|RT  0.109    .
+70            1313    ALVTRRR|TK  0.114    .
+70            1315    VTRRRTK|TS  0.109    .
+70            1318    RRTKTSK|YC  0.076    .
+70            1322    TSKYCHK|FK  0.071    .
+70            1324    KYCHKFK|QF  0.081    .
+70            1334    CLEVLLK|EP  0.053    .
+70            1340    KEPTNTR|IV  0.099    .
+70            1346    RIVVVYR|PG  0.109    .
+70            1360    TAFLDER|ED  0.068    .
+70            1366    REDLFLK|LA  0.068    .
+70            1370    FLKLAER|KE  0.065    .
+70            1371    LKLAERK|ER  0.070    .
+70            1373    LAERKER|CL  0.319    .
+70            1393    NLDPQTR|KF  0.122    .
+70            1394    LDPQTRK|FN  0.078    .
+70            1405    LNQFGWR|NK  0.096    .
+70            1407    QFGWRNK|VT  0.064    .
+70            1415    TGPTHIK|GG  0.059    .
+70            1442    APFCSNK|LD  0.074    .
+70            1490    TAGIPLK|KK  0.073    .
+70            1491    AGIPLKK|KD  0.099    .
+70            1492    GIPLKKK|DD  0.124    .
+70            1499    DDEVLMK|CR  0.062    .
+70            1501    EVLMKCR|NF  0.081    .
+70            1504    MKCRNFK|EV  0.294    .
+70            1512    VDPENLR|EL  0.065    .
+70            1519    ELIGNSK|LA  0.064    .
+70            1533    DPEECVR|LY  0.085    .
+70            1545    LQSITDK|VA  0.078    .
+70            1552    VAPEEEK|RI  0.054    .
+70            1553    APEEEKR|IK  0.193    .
+70            1555    EEEKRIK|HP  0.066    .
+70            1564    DQPQWIR|TP  0.067    .
+70            1572    PACQNAR|RI  0.089    .
+70            1573    ACQNARR|IR  0.140    .
+70            1575    QNARRIR|RG  0.185    .
+70            1576    NARRIRR|GA  0.584 *ProP*
+70            1580    IRRGAER|RW  0.099    .
+70            1581    RRGAERR|WR  0.159    .
+70            1583    GAERRWR|RA  0.228    .
+70            1584    AERRWRR|AR  0.424    .
+70            1586    RRWRRAR|LK  0.386    .
+70            1588    WRRARLK|KT  0.075    .
+70            1589    RRARLKK|TN  0.453    .
+70            1593    LKKTNPK|KL  0.071    .
+70            1594    KKTNPKK|LA  0.114    .
+70            1598    PKKLAPK|YH  0.068    .
+70            1603    PKYHCWK|ST  0.091    .
+70            1607    CWKSTSK|FA  0.093    .
+70            1611    TSKFASK|VL  0.080    .
+70            1617    KVLGNAK|AS  0.064    .
+70            1623    KASFVSK|KL  0.084    .
+70            1624    ASFVSKK|LE  0.109    .
+70            1627    VSKKLER|EK  0.095    .
+70            1629    KKLEREK|GN  0.066    .
+70            1633    REKGNPK|ST  0.093    .
+70            1637    NPKSTHR|VV  0.107    .
+70            1645    VNSLLGK|EK  0.066    .
+70            1647    SLLGKEK|RP  0.061    .
+70            1648    LLGKEKR|PS  0.125    .
+70            1655    PSTLPSK|KE  0.057    .
+70            1656    STLPSKK|EA  0.107    .
+70            1664    ATPLATK|FN  0.056    .
+70            1670    KFNEFFK|AK  0.072    .
+70            1672    NEFFKAK|VT  0.065    .
+70            1675    FKAKVTK|IY  0.097    .
+70            1698    PEPITCK|SS  0.080    .
+70            1703    CKSSFTK|FR  0.071    .
+70            1705    SSFTKFR|PV  0.252    .
+70            1714    TDEELAK|TI  0.073    .
+70            1717    ELAKTIR|DM  0.116    .
+70            1721    TIRDMNK|KH  0.070    .
+70            1722    IRDMNKK|HC  0.100    .
+70            1747    LIPVLSR|IV  0.118    .
+70            1755    VNDSLTK|GV  0.073    .
+70            1760    TKGVFPK|DF  0.098    .
+70            1763    VFPKDFK|EA  0.057    .
+70            1768    FKEAIIR|PS  0.088    .
+70            1772    IIRPSFK|GK  0.068    .
+70            1774    RPSFKGK|DL  0.177    .
+70            1785    EELNSYR|PI  0.083    .
+70            1795    NLSFISK|VV  0.089    .
+70            1799    ISKVVEK|CA  0.085    .
+70            1813    EYLEANK|LL  0.054    .
+70            1818    NKLLPTK|QS  0.058    .
+70            1823    TKQSAYR|KY  0.117    .
+70            1824    KQSAYRK|YH  0.136    .
+70            1834    CETATLK|IF  0.064    .
+70            1846    LLLTDSK|SK  0.060    .
+70            1848    LTDSKSK|VI  0.056    .
+70            1864    AAFDTVK|HT  0.061    .
+70            1871    HTTLLDK|LY  0.058    .
+70            1879    YNYYGIK|QT  0.058    .
+70            1887    TALEWFK|SY  0.082    .
+70            1893    KSYLTGR|TS  0.118    .
+70            1929    LFIMYTR|EI  0.095    .
+70            1960    SFDPANK|DI  0.059    .
+70            1966    KDILFEK|IQ  0.066    .
+70            1975    DCLQHIK|WW  0.063    .
+70            1979    HIKWWMK|AN  0.068    .
+70            1984    MKANYLK|LN  0.068    .
+70            1989    LKLNADK|TE  0.062    .
+70            1998    IVVINNK|AD  0.055    .
+70            2001    INNKADK|SP  0.075    .
+70            2012    TSIFLQK|SD  0.081    .
+70            2015    FLQKSDK|TP  0.057    .
+70            2025    EPSTEAR|NL  0.205    .
+70            2043    MSSHVSR|VI  0.132    .
+70            2057    QLANLWR|IR  0.083    .
+70            2059    ANLWRIR|KG  0.071    .
+70            2060    NLWRIRK|GL  0.339    .
+70            2067    GLSVQLK|TQ  0.070    .
+70            2078    HQLVHSR|LD  0.080    .
+70            2091    LLVGLPK|RD  0.059    .
+70            2092    LVGLPKR|DL  0.197    .
+70            2096    PKRDLQR|LQ  0.083    .
+70            2099    DLQRLQK|VQ  0.100    .
+70            2106    VQNSATR|FI  0.113    .
+70            2112    RFIYGSK|GR  0.064    .
+70            2114    IYGSKGR|RG  0.079    .
+70            2115    YGSKGRR|GV  0.291    .
+70            2121    RGVTEMR|RK  0.079    .
+70            2122    GVTEMRR|KL  0.100    .
+70            2123    VTEMRRK|LH  0.066    .
+70            2132    FLPVEQR|IV  0.106    .
+70            2136    EQRIVFK|IC  0.064    .
+70            2143    ICLLVYK|CI  0.068    .
+70            2159    LSEMIVR|RQ  0.079    .
+70            2160    SEMIVRR|QP  0.119    .
+70            2163    IVRRQPK|TR  0.125    .
+70            2165    RRQPKTR|KV  0.144    .
+70            2166    RQPKTRK|VR  0.067    .
+70            2168    PKTRKVR|LD  0.235    .
+70            2178    DLTLVEK|RH  0.057    .
+70            2179    LTLVEKR|HD  0.198    .
+70            2183    EKRHDTK|YL  0.078    .
+70            2189    KYLNTQK|AF  0.064    .
+70            2197    FSVCGPK|IW  0.061    .
+70            2201    GPKIWNK|LP  0.058    .
+70            2204    IWNKLPK|SL  0.118    .
+70            2207    KLPKSLR|EV  0.150    .
+70            2216    SSLETFK|QM  0.057    .
+70            2220    TFKQMLK|TH  0.053    .
+70            2239    SVSAIMR|LI  0.099    .
+70            2243    IMRLIVR|RR  0.071    .
+70            2244    MRLIVRR|RI  0.142    .
+70            2245    RLIVRRR|IQ  0.166    .
+70            2254    HASVVLR|ST  0.211    .
+70            2264    PENAITR|KI  0.103    .
+70            2265    ENAITRK|IG  0.075    .
+70            2306    VSSTCQK|TN  0.071    .
+70            2309    TCQKTNR|VQ  0.097    .
+70            2312    KTNRVQK|AE  0.218    .
+70            2324    ALCALFK|EA  0.076    .
+70            2335    NIVSHPR|VG  0.090    .
+70            2338    SHPRVGR|GG  0.393    .
+70            2347    GVALVTR|RR  0.070    .
+70            2348    VALVTRR|RT  0.109    .
+70            2349    ALVTRRR|TK  0.114    .
+70            2351    VTRRRTK|TS  0.109    .
+70            2354    RRTKTSK|YC  0.076    .
+70            2358    TSKYCHK|FK  0.071    .
+70            2360    KYCHKFK|QF  0.081    .
+70            2370    CLEVLLK|EP  0.053    .
+70            2376    KEPTNTR|IV  0.099    .
+70            2382    RIVVVYR|PG  0.109    .
+70            2402    LEDLFLK|LA  0.069    .
+70            2406    FLKLAER|KE  0.065    .
+70            2407    LKLAERK|ER  0.070    .
+70            2409    LAERKER|CL  0.319    .
+70            2429    NLDPQTR|KF  0.122    .
+70            2430    LDPQTRK|FN  0.078    .
+70            2443    QFGWSNK|IT  0.069    .
+70            2451    TGPTHIK|GG  0.059    .
+70            2478    APFCSNK|LD  0.075    .
+70            2526    TAGIPLK|KK  0.073    .
+70            2527    AGIPLKK|KD  0.099    .
+70            2528    GIPLKKK|DD  0.124    .
+70            2535    DDEVLMK|CR  0.062    .
+70            2537    EVLMKCR|NF  0.081    .
+70            2540    MKCRNFK|EV  0.294    .
+70            2548    VDPENLR|EL  0.065    .
+70            2555    ELIGNSK|LA  0.064    .
+70            2569    DPEECVR|LY  0.085    .
+70            2581    LQSITDK|VA  0.078    .
+70            2588    VAPEEEK|RI  0.054    .
+70            2589    APEEEKR|IK  0.193    .
+70            2591    EEEKRIK|HP  0.066    .
+70            2600    DQPQWIR|TP  0.067    .
+70            2608    PACQNAR|RI  0.089    .
+70            2609    ACQNARR|IR  0.140    .
+70            2611    QNARRIR|RG  0.185    .
+70            2612    NARRIRR|GA  0.584 *ProP*
+70            2616    IRRGAER|RW  0.099    .
+70            2617    RRGAERR|WR  0.159    .
+70            2619    GAERRWR|RA  0.228    .
+70            2620    AERRWRR|AR  0.424    .
+70            2622    RRWRRAR|LK  0.386    .
+70            2624    WRRARLK|KT  0.075    .
+70            2625    RRARLKK|TN  0.453    .
+70            2629    LKKTNPK|KL  0.071    .
+70            2630    KKTNPKK|LA  0.114    .
+70            2634    PKKLAPK|YH  0.068    .
+70            2639    PKYHCWK|ST  0.091    .
+70            2643    CWKSTSK|FA  0.093    .
+70            2647    TSKFASK|VL  0.080    .
+70            2653    KVLGNAK|AS  0.064    .
+70            2659    KASFVSK|KL  0.084    .
+70            2660    ASFVSKK|LE  0.109    .
+70            2663    VSKKLER|EK  0.095    .
+70            2665    KKLEREK|GN  0.066    .
+70            2669    REKGNPK|ST  0.093    .
+70            2673    NPKSTHR|VV  0.107    .
+70            2681    VNSLLGK|EK  0.066    .
+70            2683    SLLGKEK|RP  0.061    .
+70            2684    LLGKEKR|PS  0.125    .
+70            2691    PSTLPSK|KE  0.057    .
+70            2692    STLPSKK|EA  0.107    .
+70            2700    ATPLATK|FN  0.057    .
+70            2706    KFNEFFK|DK  0.081    .
+70            2708    NEFFKDK|VT  0.061    .
+70            2711    FKDKVTK|IY  0.085    .
+70            2734    PEPITCK|SS  0.080    .
+70            2739    CKSSFTK|FR  0.071    .
+70            2741    SSFTKFR|PV  0.252    .
+70            2750    TDEELAK|TI  0.073    .
+70            2753    ELAKTIR|DM  0.116    .
+70            2757    TIRDMNK|KH  0.070    .
+70            2758    IRDMNKK|HC  0.100    .
+70            2783    LIPVLSR|IV  0.118    .
+70            2791    VNDSLTK|GV  0.073    .
+70            2796    TKGVFPK|DF  0.098    .
+70            2799    VFPKDFK|EA  0.057    .
+70            2804    FKEAIIR|PS  0.088    .
+70            2808    IIRPSFK|GK  0.069    .
+70            2810    RPSFKGK|DL  0.150    .
+70            2821    EVLNSYR|PI  0.080    .
+70            2831    NLSFISK|VV  0.089    .
+70            2835    ISKVVEK|CA  0.085    .
+70            2849    EYLEANK|LL  0.054    .
+70            2854    NKLLPTK|QS  0.058    .
+70            2859    TKQSAYR|NY  0.119    .
+70            2870    CETATLK|IF  0.065    .
+70            2882    LLLMDSK|SK  0.062    .
+70            2884    LMDSKSK|VV  0.062    .
+70            2900    AAFDTVK|HA  0.064    .
+70            2907    HATLLDK|LY  0.059    .
+70            2915    YNYYGIK|LT  0.056    .
+70            2923    TALEWFK|SY  0.081    .
+70            2929    KSYLTGR|TS  0.118    .
+70            2965    LFIMYTR|EI  0.095    .
+70            2996    SFDPANK|DI  0.062    .
+70            3002    KDIIFEK|IQ  0.068    .
+70            3011    DCLQHIK|WW  0.063    .
+70            3015    HIKWWMK|AN  0.068    .
+70            3020    MKANYLK|LN  0.068    .
+70            3025    LKLNADK|TE  0.062    .
+70            3034    IVVINNK|AD  0.055    .
+70            3037    INNKADK|SP  0.075    .
+70            3048    TSIFLQK|SD  0.081    .
+70            3051    FLQKSDK|TP  0.057    .
+70            3061    EPSTEAR|NL  0.205    .
+70            3079    MSSHVSR|VI  0.132    .
+70            3093    QLANLWR|IR  0.083    .
+70            3095    ANLWRIR|KG  0.071    .
+70            3096    NLWRIRK|GL  0.339    .
+70            3103    GLSVQLK|TQ  0.070    .
+70            3114    HQLVHSR|LD  0.080    .
+70            3127    LLVGLPK|RD  0.059    .
+70            3128    LVGLPKR|DL  0.197    .
+70            3132    PKRDLQR|LQ  0.083    .
+70            3135    DLQRLQK|VQ  0.100    .
+70            3142    VQNSATR|FI  0.113    .
+70            3148    RFIYGSK|GR  0.064    .
+70            3150    IYGSKGR|RG  0.079    .
+70            3151    YGSKGRR|GV  0.291    .
+70            3157    RGVTEMR|RK  0.079    .
+70            3158    GVTEMRR|KL  0.100    .
+70            3159    VTEMRRK|LH  0.066    .
+70            3168    FLPVEQR|IV  0.115    .
+70            3172    EQRIVFK|IC  0.069    .
+70            3179    ICLWVYK|CM  0.066    .
+70            3184    YKCMEAR|HC  0.093    .
+70            3190    RHCVETR|TI  0.112    .
+70            3195    TRTIATR|IA  0.116    .
+70            3199    ATRIATR|IF  0.066    .
+70            3204    TRIFVLR|HA  0.143    .
+70            3217    DAHLSLR|RA  0.105    .
+70            3218    AHLSLRR|AH  0.082    .
+70            3222    LRRAHAR|RK  0.147    .
+70            3223    RRAHARR|KT  0.193    .
+70            3224    RAHARRK|TK  0.092    .
+70            3226    HARRKTK|MR  0.165    .
+70            3228    RRKTKMR|VA  0.176    .
+70            3232    KMRVAMR|VA  0.108    .
+70            3264    CVLSFLR|DT  0.099    .
+70            3274    AQVHVWR|PD  0.094    .
+70            3280    RPDTVLR|RA  0.076    .
+70            3281    PDTVLRR|AP  0.077    .
+70            3285    LRRAPLR|RA  0.099    .
+70            3286    RRAPLRR|AL  0.239    .
+70            3289    PLRRALR|RA  0.215    .
+70            3290    LRRALRR|AF  0.188    .
+70            3302    DAHLSLR|RA  0.105    .
+70            3303    AHLSLRR|AH  0.082    .
+70            3307    LRRAHAR|RK  0.147    .
+70            3308    RRAHARR|KT  0.193    .
+70            3309    RAHARRK|TK  0.092    .
+70            3311    HARRKTK|MR  0.165    .
+70            3313    RRKTKMR|VA  0.164    .
+70            3317    KMRVAMR|VA  0.094    .
+70            3322    MRVAMVR|VS  0.079    .
+70            3329    VSLLVYK|CI  0.070    .
+70            3345    LSEMIVR|RQ  0.079    .
+70            3346    SEMIVRR|QP  0.119    .
+70            3349    IVRRQPK|TR  0.125    .
+70            3351    RRQPKTR|KV  0.144    .
+70            3352    RQPKTRK|VR  0.067    .
+70            3354    PKTRKVR|LD  0.235    .
+70            3364    DLTLVEK|RH  0.058    .
+70            3365    LTLVEKR|HD  0.199    .
+70            3369    EKRHDTK|YL  0.080    .
+70            3375    KYLTTQK|AF  0.062    .
+70            3383    FSVCGPK|IW  0.061    .
+70            3387    GPKIWNK|LP  0.058    .
+70            3390    IWNKLPK|SL  0.118    .
+70            3393    KLPKSLR|EV  0.150    .
+70            3402    SSLETFK|QM  0.057    .
+70            3406    TFKQMLK|TH  0.051    .
+70            3428    NTVTQPR|KA  0.104    .
+70            3429    TVTQPRK|AK  0.093    .
+70            3431    TQPRKAK|AK  0.146    .
+70            3433    PRKAKAK|IL  0.095    .
+____________________________^_________________
+
+
+
+

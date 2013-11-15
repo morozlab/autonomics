@@ -1,0 +1,278 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1459 640         
+MYSSVYTTDPDLPGYSQERALPGKYRGLPATSWSAMSAGRGARSAGRSARSSILLSLLLATVLSKTIVEEYYDAVHRFSN      80
+DGGTLQSSSPSSLKAHFLAFKDYKNTVDEINSDPGCPYKAEINKFSIMTEGERSVFGAHNNNFTESVPWELQQPDQEPVL     160
+TSSDAPAFVNWATRGAVGPVKDQNDKKCRSAWATASTAEIEAQYFMTTGEFVSFSDQEILECALIKTTYGCRRGTMIHAS     240
+KWLRQTNHLASAEELPYKGSVGGVNCQYVSSMYPNAFTKARINGLQEVKGDDKVLNSLAQGPLSAVVKTPKSFYAYKEGL     320
+FSDMHKCSWESGGHPVMLVGYGMKGNTPYWRIQNSWGTDWGQDGFMLMSRSDPNNCGITSYTHTSTMSCKSGSDCKPPTF     400
+DEEQQETEEGDGSDDGGDNENDGVCKDKYEKCNYIHNVHGEKYCKSTDPLTGWKRTVKTRVEDANRKKRQMGNAKIKNNM     480
+HGLYATCTKESIAGKKAINSKKGDGGKREEGEGPVKDQNDKKCRSAWATASTAEIESQYFMTTGEFVSFSDQEILECALI     560
+KTTYGCKRGTMVHASKWLRQTNHLASAEELPYKGSIGGVNCQYVSSMYPNAFTKATINGLTEVKGDDKVLTALAQGPLSA     640
+VVKTPKSFYAYKEGLFSDMHKCSWESGGHPVMLVGYGMKGSTPYWRIQNSWGTDWGQDGFMLMSRSDPNNCGITSYTHTS     720
+TMSCKAGSDCKPPTFYEEQTEPEEGDGSDDGSSDNENDGVCKDKYEKCNYIHNVHGDKYCKSTDPLVKNWMEKNCKDTCG     800
+GCKQEEETDGECKDKEQYAWTLCHMYKRKHCRKESNKFQWMMTNCKATCGFCEENWEEKNEQKRKEMEEKERKEKEEKER     880
+KKMEIQCVDRKSAHKCETFKSIGDCRKGHKYYEWMNKNCKKTCGWCPGDEGNEEEEKKKRKRKKKRKKKRKKKLSSVPIK     960
+IKVVQSINRTARRIASKFYSFMTKNCKATCGWARVRLGLGLGFGLGLGLDMVYPINFELAKTVGWFGGKSRFSESTFLED    1040
+RIFNKRPPDQNLLSKAHPLMVYFEKSLERCVVSFYTHSINPFLSTYCLSGFSLLNLFRDSRPKRLSGSAVRAVLVNQLFW    1120
+QRACVNTNRPPNAQIVTAPRFFRVRAKSRFSELTFLEACICKQATNHPDRNGARNRDPKKSSVVTQRLHSPHTVFTQSLH    1200
+PERMRHSASVKIWVVAPMLKKPKRLSGSAVRAVLVNQLFWKRASVNRPPTTQIVTAPAPLWVKLFSPRRSVLSIVQHRIQ    1280
+YFLEKSPALGCVSNDLTRDSWKLEHCVLYLLREILNFQESQVKSFETHFLSAKYNMQCSNFQESQVKSFETAPLRSGCLV    1360
+ACLHMRAAKKVDSLKLYRLFIFISSFLNPPRNLSLLISPVPDKIKTRSKVHRKEEIFIFPTLLISSLYLIRNRNLHAQIR    1440
+RSAWCAESFCALILNNCRF                                                                 1520
+..........................................P.....................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+....................................................................P...........     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+...............................................................P................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...................                                                                 1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+640             19    PGYSQER|AL  0.088    .
+640             24    ERALPGK|YR  0.071    .
+640             26    ALPGKYR|GL  0.100    .
+640             40    SAMSAGR|GA  0.137    .
+640             43    SAGRGAR|SA  0.698 *ProP*
+640             47    GARSAGR|SA  0.161    .
+640             50    SAGRSAR|SS  0.451    .
+640             65    LATVLSK|TI  0.057    .
+640             77    YYDAVHR|FS  0.108    .
+640             94    SSPSSLK|AH  0.062    .
+640            101    AHFLAFK|DY  0.065    .
+640            104    LAFKDYK|NT  0.071    .
+640            119    DPGCPYK|AE  0.068    .
+640            124    YKAEINK|FS  0.071    .
+640            133    IMTEGER|SV  0.135    .
+640            174    FVNWATR|GA  0.105    .
+640            181    GAVGPVK|DQ  0.070    .
+640            186    VKDQNDK|KC  0.058    .
+640            187    KDQNDKK|CR  0.116    .
+640            189    QNDKKCR|SA  0.236    .
+640            226    LECALIK|TT  0.072    .
+640            232    KTTYGCR|RG  0.066    .
+640            233    TTYGCRR|GT  0.153    .
+640            241    TMIHASK|WL  0.071    .
+640            244    HASKWLR|QT  0.107    .
+640            258    AEELPYK|GS  0.067    .
+640            279    YPNAFTK|AR  0.077    .
+640            281    NAFTKAR|IN  0.134    .
+640            289    NGLQEVK|GD  0.068    .
+640            293    EVKGDDK|VL  0.054    .
+640            308    PLSAVVK|TP  0.062    .
+640            311    AVVKTPK|SF  0.086    .
+640            317    KSFYAYK|EG  0.061    .
+640            326    LFSDMHK|CS  0.081    .
+640            344    LVGYGMK|GN  0.065    .
+640            351    GNTPYWR|IQ  0.088    .
+640            370    GFMLMSR|SD  0.092    .
+640            390    TSTMSCK|SG  0.098    .
+640            396    KSGSDCK|PP  0.063    .
+640            426    ENDGVCK|DK  0.071    .
+640            428    DGVCKDK|YE  0.064    .
+640            431    CKDKYEK|CN  0.060    .
+640            442    HNVHGEK|YC  0.059    .
+640            445    HGEKYCK|ST  0.090    .
+640            454    DPLTGWK|RT  0.054    .
+640            455    PLTGWKR|TV  0.180    .
+640            458    GWKRTVK|TR  0.086    .
+640            460    KRTVKTR|VE  0.115    .
+640            466    RVEDANR|KK  0.083    .
+640            467    VEDANRK|KR  0.065    .
+640            468    EDANRKK|RQ  0.086    .
+640            469    DANRKKR|QM  0.659 *ProP*
+640            475    RQMGNAK|IK  0.064    .
+640            477    MGNAKIK|NN  0.088    .
+640            489    LYATCTK|ES  0.069    .
+640            495    KESIAGK|KA  0.077    .
+640            496    ESIAGKK|AI  0.111    .
+640            501    KKAINSK|KG  0.072    .
+640            502    KAINSKK|GD  0.167    .
+640            507    KKGDGGK|RE  0.068    .
+640            508    KGDGGKR|EE  0.157    .
+640            516    EGEGPVK|DQ  0.063    .
+640            521    VKDQNDK|KC  0.058    .
+640            522    KDQNDKK|CR  0.116    .
+640            524    QNDKKCR|SA  0.236    .
+640            561    LECALIK|TT  0.069    .
+640            567    KTTYGCK|RG  0.054    .
+640            568    TTYGCKR|GT  0.191    .
+640            576    TMVHASK|WL  0.072    .
+640            579    HASKWLR|QT  0.106    .
+640            593    AEELPYK|GS  0.072    .
+640            614    YPNAFTK|AT  0.091    .
+640            624    NGLTEVK|GD  0.067    .
+640            628    EVKGDDK|VL  0.057    .
+640            643    PLSAVVK|TP  0.062    .
+640            646    AVVKTPK|SF  0.086    .
+640            652    KSFYAYK|EG  0.061    .
+640            661    LFSDMHK|CS  0.081    .
+640            679    LVGYGMK|GS  0.065    .
+640            686    GSTPYWR|IQ  0.090    .
+640            705    GFMLMSR|SD  0.092    .
+640            725    TSTMSCK|AG  0.076    .
+640            731    KAGSDCK|PP  0.063    .
+640            762    ENDGVCK|DK  0.069    .
+640            764    DGVCKDK|YE  0.064    .
+640            767    CKDKYEK|CN  0.060    .
+640            778    HNVHGDK|YC  0.060    .
+640            781    HGDKYCK|ST  0.085    .
+640            788    STDPLVK|NW  0.059    .
+640            793    VKNWMEK|NC  0.066    .
+640            796    WMEKNCK|DT  0.083    .
+640            803    DTCGGCK|QE  0.059    .
+640            813    ETDGECK|DK  0.075    .
+640            815    DGECKDK|EQ  0.065    .
+640            827    TLCHMYK|RK  0.064    .
+640            828    LCHMYKR|KH  0.216    .
+640            829    CHMYKRK|HC  0.103    .
+640            832    YKRKHCR|KE  0.164    .
+640            833    KRKHCRK|ES  0.121    .
+640            837    CRKESNK|FQ  0.073    .
+640            846    WMMTNCK|AT  0.062    .
+640            859    EENWEEK|NE  0.060    .
+640            863    EEKNEQK|RK  0.066    .
+640            864    EKNEQKR|KE  0.168    .
+640            865    KNEQKRK|EM  0.129    .
+640            870    RKEMEEK|ER  0.068    .
+640            872    EMEEKER|KE  0.073    .
+640            873    MEEKERK|EK  0.094    .
+640            875    EKERKEK|EE  0.115    .
+640            878    RKEKEEK|ER  0.064    .
+640            880    EKEEKER|KK  0.103    .
+640            881    KEEKERK|KM  0.082    .
+640            882    EEKERKK|ME  0.115    .
+640            890    EIQCVDR|KS  0.084    .
+640            891    IQCVDRK|SA  0.202    .
+640            895    DRKSAHK|CE  0.059    .
+640            900    HKCETFK|SI  0.132    .
+640            906    KSIGDCR|KG  0.096    .
+640            907    SIGDCRK|GH  0.095    .
+640            910    DCRKGHK|YY  0.071    .
+640            917    YYEWMNK|NC  0.059    .
+640            920    WMNKNCK|KT  0.067    .
+640            921    MNKNCKK|TC  0.154    .
+640            937    GNEEEEK|KK  0.056    .
+640            938    NEEEEKK|KR  0.079    .
+640            939    EEEEKKK|RK  0.090    .
+640            940    EEEKKKR|KR  0.168    .
+640            941    EEKKKRK|RK  0.075    .
+640            942    EKKKRKR|KK  0.180    .
+640            943    KKKRKRK|KK  0.364    .
+640            944    KKRKRKK|KR  0.156    .
+640            945    KRKRKKK|RK  0.397    .
+640            946    RKRKKKR|KK  0.288    .
+640            947    KRKKKRK|KK  0.137    .
+640            948    RKKKRKK|KR  0.139    .
+640            949    KKKRKKK|RK  0.298    .
+640            950    KKRKKKR|KK  0.236    .
+640            951    KRKKKRK|KK  0.115    .
+640            952    RKKKRKK|KL  0.142    .
+640            953    KKKRKKK|LS  0.377    .
+640            960    LSSVPIK|IK  0.069    .
+640            962    SVPIKIK|VV  0.077    .
+640            969    VVQSINR|TA  0.087    .
+640            972    SINRTAR|RI  0.381    .
+640            973    INRTARR|IA  0.234    .
+640            977    ARRIASK|FY  0.088    .
+640            984    FYSFMTK|NC  0.065    .
+640            987    FMTKNCK|AT  0.061    .
+640            994    ATCGWAR|VR  0.079    .
+640            996    CGWARVR|LG  0.072    .
+640           1021    INFELAK|TV  0.092    .
+640           1029    VGWFGGK|SR  0.065    .
+640           1031    WFGGKSR|FS  0.104    .
+640           1041    STFLEDR|IF  0.076    .
+640           1045    EDRIFNK|RP  0.061    .
+640           1046    DRIFNKR|PP  0.200    .
+640           1055    DQNLLSK|AH  0.059    .
+640           1065    LMVYFEK|SL  0.102    .
+640           1069    FEKSLER|CV  0.091    .
+640           1098    SLLNLFR|DS  0.111    .
+640           1101    NLFRDSR|PK  0.164    .
+640           1103    FRDSRPK|RL  0.066    .
+640           1104    RDSRPKR|LS  0.755 *ProP*
+640           1111    LSGSAVR|AV  0.104    .
+640           1122    NQLFWQR|AC  0.066    .
+640           1129    ACVNTNR|PP  0.094    .
+640           1140    QIVTAPR|FF  0.084    .
+640           1143    TAPRFFR|VR  0.285    .
+640           1145    PRFFRVR|AK  0.091    .
+640           1147    FFRVRAK|SR  0.094    .
+640           1149    RVRAKSR|FS  0.107    .
+640           1162    LEACICK|QA  0.072    .
+640           1170    ATNHPDR|NG  0.091    .
+640           1174    PDRNGAR|NR  0.103    .
+640           1176    RNGARNR|DP  0.121    .
+640           1179    ARNRDPK|KS  0.214    .
+640           1180    RNRDPKK|SS  0.162    .
+640           1187    SSVVTQR|LH  0.103    .
+640           1203    QSLHPER|MR  0.076    .
+640           1205    LHPERMR|HS  0.085    .
+640           1211    RHSASVK|IW  0.074    .
+640           1220    VVAPMLK|KP  0.053    .
+640           1221    VAPMLKK|PK  0.081    .
+640           1223    PMLKKPK|RL  0.066    .
+640           1224    MLKKPKR|LS  0.274    .
+640           1231    LSGSAVR|AV  0.104    .
+640           1241    VNQLFWK|RA  0.076    .
+640           1242    NQLFWKR|AS  0.120    .
+640           1247    KRASVNR|PP  0.142    .
+640           1263    PAPLWVK|LF  0.058    .
+640           1268    VKLFSPR|RS  0.078    .
+640           1269    KLFSPRR|SV  0.278    .
+640           1278    LSIVQHR|IQ  0.093    .
+640           1285    IQYFLEK|SP  0.073    .
+640           1298    VSNDLTR|DS  0.141    .
+640           1302    LTRDSWK|LE  0.066    .
+640           1312    CVLYLLR|EI  0.074    .
+640           1323    FQESQVK|SF  0.081    .
+640           1333    THFLSAK|YN  0.074    .
+640           1347    FQESQVK|SF  0.087    .
+640           1355    FETAPLR|SG  0.081    .
+640           1366    VACLHMR|AA  0.116    .
+640           1369    LHMRAAK|KV  0.208    .
+640           1370    HMRAAKK|VD  0.096    .
+640           1375    KKVDSLK|LY  0.059    .
+640           1378    DSLKLYR|LF  0.067    .
+640           1391    SFLNPPR|NL  0.089    .
+640           1403    ISPVPDK|IK  0.061    .
+640           1405    PVPDKIK|TR  0.063    .
+640           1407    PDKIKTR|SK  0.117    .
+640           1409    KIKTRSK|VH  0.064    .
+640           1412    TRSKVHR|KE  0.175    .
+640           1413    RSKVHRK|EE  0.104    .
+640           1431    SSLYLIR|NR  0.066    .
+640           1433    LYLIRNR|NL  0.089    .
+640           1440    NLHAQIR|RS  0.087    .
+640           1441    LHAQIRR|SA  0.368    .
+640           1458    LILNNCR|F-  0.083    .
+____________________________^_________________
+
+
+
+

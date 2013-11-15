@@ -1,0 +1,493 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3377 78          
+MASSRLSVVLLVTVLVVALQGRSFRDKIKGAVQTVRDRDQSDSISQIIEDVVENWTSDDDNSTSSDNSGIIGFWSVRSIA      80
+SLHKRAKSPTLLVDHRVYSNSTVVDDDDGSSNSTTTDIDMEDDEEDDNSSNSTVVDDMSSGNSTSVDDEDDEDEEESVDS     160
+SAGNSTVVDDSDNMTSGNSTVIDEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD     240
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD     320
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD     400
+DDDDDDDDDDDDDDDGIIGFWSVRSIASLHKRAKSPTLLVDHRVYSNSTVVDDDDGSSNSTTTDIDMEDDEEDDNSSNST     480
+VVDDMSSGNSTSVDDEDDEDEEESVDSSAGNSTVVDDSDNMTSGNSTVIDEDDDDDDDDDDDDEMDSSNLGLKGAGWGED     560
+DIRERERERERERERERGGGQIGDTGVRCFIDSGSSISLICKQIVERLGHMSQILPTSRRVFDFSGNHIPLHGTIDLKIS     640
+VGTRTMKQCFVVCSSMDTEVLLGHDFLSINRCCLDYGEELFHLEGGKSVPFVPRLENVKKSHLIRGLSGQVIPADSVAYI     720
+QGRLPKVNFGTHPYHCGKPRRPLEGLLVASAVSEGRDQKVTLKVVNISSLPITISKRQILGRYGPIPDYVPISGANWGET     800
+SSVNMVSSVMTERWTREELFERLGLADRQGPQMTEEEEGQLREILWKYRNVFSYDDYDIGCSNMYTADIRLKEGAQPRWT     880
+APMPTPYKLREEMDRNIQKMMEVGVVEELQQPSDWNSPIFLVKKKTAGSWRLVADLRCVNQECVGDSYPLPNLNHVLDSI     960
+GGDSIFSNFDLSKGFWQVPYSEESKKVTAFLYRGRQLCFARVIMGHKASSSKFTRMMEKLLGTLPIDQVIYFVDDVFLSS    1040
+KTVSEHLTRLEKLLNRFQTANLKISPGKTELLKKEVEFVGIAISGDGVTITDDRVKALTSTTAFTLSGGFGERKYPSMPP    1120
+KRKTSESSISPRRSKRLIMLNGDASNVGPVATEESVDEEEMSLGFQTGTSNSESNSTSVSSSIPVVVSTRVTETAQCGSQ    1200
+PWEFSFLTSSCSSSTNQQCTSESLSSSLSRSIPSVVTASSVKPRQSVTEIDCSALGRCLPHVQRPLLDHRVASPIYTPVS    1280
+RGIFLGEDDMQRRPIKKPRRVGIKKEVRIEEPFPFPTRTVKEPEKFVVQRETIPVPLRTAENSEEEEEYWFGFVDSRGNY    1360
+RPMSKEQEQLYRRSLTRQRVVPTQNEEIPRPAIPQPAIVDNRREEPVQRTPHSGRTHNPRQLEWDTNGRQPAQTEPYHPW    1440
+YGRRRPKMPIFKPGDCFDMFLDKFESYLHRGDEEWEDLGEKLLEGIEHTVTYKRVKRLKLSAEEKRDPTLMIDTVRSAIV    1520
+HRVIDEEAERRKLMQMKQDVEESVEEFADRIREVAEHAFPMETDRVINQRMIETLQDGLADTRVSELVCDLRIDNLDFEK    1600
+VVILAARRSKRNRMFRGDIYRDPSSTTAERDNVFRLTNRSPENNAPTVQQTPENVPATRPMCSKDILLINVRGSDSRTAV    1680
+LRGLWIPDNKDQEEIVVALVVAETKSGQHTYDEYNGQTSGSSPYRGRSGKRWSDRRLPSNNRSPVDNSTRGQSSAVSNSR    1760
+SFATVVSEDVPSLPESGSQTDQEVERVKKVNSEEQKVSQVVIEGQIGDTGVRCFIDSGSSISLICKQIVQRMGHMSQILP    1840
+TSRRVFDFSGNHIPLHGTIDLKISVGTRTMKQCFVVCSSMDTEVLLGHDFLSINRCCLDYGEELFHLEGGKSVPFVPRLE    1920
+NVKKSHLIRGLSGQVIPADSVAYIQGRLPKDLKPCVGMVTPFGAAGEEGLLVASAVSEGRDQKVTLKVVNISSLPITISK    2000
+RQILGRYGPIPDYVPISGANWGETSSVNMVSSVMTERWTREELFERLGLADRQGPQMTEEEEGQLREILWKYRNVFSYDD    2080
+YDIGCSNMYTADIRLKEGAQPRWTAPMPTPYKLREEMDRNIQKMMEVGVVEELQQPSDWNSPIFLVKKKTAGSWRLVADL    2160
+RCVNQECVGDSYPLPNLNHVLDSIGGDSIFSNFDLSKGFWQVPYSEESKKVTAFLYRGRQLCFARVIMGHKASSSKFTRM    2240
+MEKLLGTLPIDQVIYFVDDVFLSSKTVSEHLTRLEKLLNRFQTANLKISPGKTELLKKEVEFVGIAISGDGVTITDDRVK    2320
+ALTSLPIPKSRKEVSEVLGAFNYIRKWVPGFSAITKPLHNILSGPKNRQFVWSDECNRAYEHLKELVSNRTTLSIPDPND    2400
+PFQSYEVTVDASMDGYGATLSQEIERDGVRERRIIAFYSKSVPCYKRARGQTRLEFDAMVAALEHWKVYLMNTKFTVVTD    2480
+CKSLLSAEDSLFAKSNPTIIRKVQLLANYDFDIRHIAGETNTLADFLSRFPFRRTKTDAGTQTGEQCDAVCNHLKLDREG    2560
+FQRALVSIGANPTHFMSTGEQCDAVCHHLKLEREGSQRAFVSIGANPTHFMSLTTPSTAVQPMSGSRNEVVSPVNSSLVS    2640
+GYNDLLPENLKMVGCDAEQTSVPESDGISRKYISHSDHWVRVEGDAEVEENKGVEGVSEWCGEDHPTRGQPEEQSELDSE    2720
+QCSLHGESDDSESEGADEVNLDLDEPLSTGDIPVFLGDQTGSSIGDADTERDGAFDTDHFGFEWLYSCDHGEVHHRTIHH    2800
+VEPSCWCPTRPASTIPEVLEVNAIMEVPEGGGQLLDWREWEAAQKEDDIFLVVRNWVIQSRRDVVQANRTPTELMSLWRQ    2880
+FNLLRVEDGVLQRRWNDTSTGEDRWLILVPAEKRELVMNRTHGELCGHAGVGNTLLCLRRWYYWPGMENDLKDFVAACIN    2960
+CGANKQPRAYGRAPMAKMMFHQFNDAIILDHIVPTSRGNTSRGNSAILTISDAWSNYVVAVPVGSQSSDENRKTVLESWI    3040
+YRMGWPREIICDNHGGFRGASFRRFFELHGVKLTYGTAYKAASTARAEMNNKRTNTVLRATLHQTSPQNWDIHLAKVSFV    3120
+LNCLKNRRTGFTANRLVYGRELNVPEILILDRDKHTEQNREQNIPAEVYRSAKELRDISRRVRKNMETDWGYAKKSYDKK    3200
+CYDPGYSVGDQVFVKVNCPAHKFSARWFGPVAVKRVINPYLYLIKMSEKEDKVINISKLKMFRKTEIAEQNQAREIVIIE    3280
+PDTLPVDPATVTASTSDTGEIEPIPVSLPVPDVSHEITSFPAVEPERGGSLWAGRLRRRIAKVISRVTRAGRRAHARIGT    3360
+DMQQHLRRLAGGDQRTE                                                                   3440
+........................P.......................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+...............P................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..........P.....................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+.................                                                                   3440
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+78               5    --MASSR|LS  0.083    .
+78              22    VVALQGR|SF  0.162    .
+78              25    LQGRSFR|DK  0.551 *ProP*
+78              27    GRSFRDK|IK  0.118    .
+78              29    SFRDKIK|GA  0.083    .
+78              36    GAVQTVR|DR  0.119    .
+78              38    VQTVRDR|DQ  0.119    .
+78              77    IGFWSVR|SI  0.107    .
+78              84    SIASLHK|RA  0.058    .
+78              85    IASLHKR|AK  0.325    .
+78              87    SLHKRAK|SP  0.096    .
+78              96    TLLVDHR|VY  0.084    .
+78             424    IGFWSVR|SI  0.108    .
+78             431    SIASLHK|RA  0.058    .
+78             432    IASLHKR|AK  0.325    .
+78             434    SLHKRAK|SP  0.096    .
+78             443    TLLVDHR|VY  0.084    .
+78             553    SSNLGLK|GA  0.119    .
+78             563    WGEDDIR|ER  0.081    .
+78             565    EDDIRER|ER  0.079    .
+78             567    DIRERER|ER  0.091    .
+78             569    RERERER|ER  0.085    .
+78             571    RERERER|ER  0.090    .
+78             573    RERERER|ER  0.110    .
+78             575    RERERER|ER  0.110    .
+78             577    RERERER|GG  0.173    .
+78             588    IGDTGVR|CF  0.083    .
+78             602    SISLICK|QI  0.074    .
+78             607    CKQIVER|LG  0.086    .
+78             619    QILPTSR|RV  0.089    .
+78             620    ILPTSRR|VF  0.156    .
+78             638    HGTIDLK|IS  0.057    .
+78             644    KISVGTR|TM  0.094    .
+78             647    VGTRTMK|QC  0.118    .
+78             671    DFLSINR|CC  0.066    .
+78             687    FHLEGGK|SV  0.079    .
+78             694    SVPFVPR|LE  0.086    .
+78             699    PRLENVK|KS  0.060    .
+78             700    RLENVKK|SH  0.137    .
+78             705    KKSHLIR|GL  0.181    .
+78             723    VAYIQGR|LP  0.088    .
+78             726    IQGRLPK|VN  0.128    .
+78             738    HPYHCGK|PR  0.072    .
+78             740    YHCGKPR|RP  0.094    .
+78             741    HCGKPRR|PL  0.246    .
+78             756    SAVSEGR|DQ  0.097    .
+78             759    SEGRDQK|VT  0.131    .
+78             763    DQKVTLK|VV  0.065    .
+78             776    LPITISK|RQ  0.059    .
+78             777    PITISKR|QI  0.126    .
+78             782    KRQILGR|YG  0.092    .
+78             813    SSVMTER|WT  0.110    .
+78             816    MTERWTR|EE  0.148    .
+78             822    REELFER|LG  0.070    .
+78             828    RLGLADR|QG  0.080    .
+78             842    EEEGQLR|EI  0.083    .
+78             847    LREILWK|YR  0.062    .
+78             849    EILWKYR|NV  0.102    .
+78             870    MYTADIR|LK  0.088    .
+78             872    TADIRLK|EG  0.060    .
+78             878    KEGAQPR|WT  0.111    .
+78             888    PMPTPYK|LR  0.058    .
+78             890    PTPYKLR|EE  0.084    .
+78             895    LREEMDR|NI  0.111    .
+78             899    MDRNIQK|MM  0.079    .
+78             923    SPIFLVK|KK  0.066    .
+78             924    PIFLVKK|KT  0.090    .
+78             925    IFLVKKK|TA  0.129    .
+78             931    KTAGSWR|LV  0.142    .
+78             937    RLVADLR|CV  0.111    .
+78             973    SNFDLSK|GF  0.078    .
+78             985    PYSEESK|KV  0.077    .
+78             986    YSEESKK|VT  0.094    .
+78             993    VTAFLYR|GR  0.079    .
+78             995    AFLYRGR|QL  0.088    .
+78            1001    RQLCFAR|VI  0.103    .
+78            1007    RVIMGHK|AS  0.069    .
+78            1012    HKASSSK|FT  0.085    .
+78            1015    SSSKFTR|MM  0.222    .
+78            1019    FTRMMEK|LL  0.069    .
+78            1041    DVFLSSK|TV  0.075    .
+78            1049    VSEHLTR|LE  0.066    .
+78            1052    HLTRLEK|LL  0.096    .
+78            1056    LEKLLNR|FQ  0.092    .
+78            1063    FQTANLK|IS  0.054    .
+78            1068    LKISPGK|TE  0.060    .
+78            1073    GKTELLK|KE  0.054    .
+78            1074    KTELLKK|EV  0.163    .
+78            1094    VTITDDR|VK  0.060    .
+78            1096    ITDDRVK|AL  0.059    .
+78            1113    SGGFGER|KY  0.074    .
+78            1114    GGFGERK|YP  0.076    .
+78            1121    YPSMPPK|RK  0.073    .
+78            1122    PSMPPKR|KT  0.224    .
+78            1123    SMPPKRK|TS  0.090    .
+78            1132    ESSISPR|RS  0.102    .
+78            1133    SSISPRR|SK  0.186    .
+78            1135    ISPRRSK|RL  0.109    .
+78            1136    SPRRSKR|LI  0.735 *ProP*
+78            1190    PVVVSTR|VT  0.103    .
+78            1230    LSSSLSR|SI  0.195    .
+78            1242    VTASSVK|PR  0.059    .
+78            1244    ASSVKPR|QS  0.202    .
+78            1257    DCSALGR|CL  0.113    .
+78            1264    CLPHVQR|PL  0.087    .
+78            1270    RPLLDHR|VA  0.101    .
+78            1281    IYTPVSR|GI  0.121    .
+78            1292    GEDDMQR|RP  0.070    .
+78            1293    EDDMQRR|PI  0.131    .
+78            1296    MQRRPIK|KP  0.128    .
+78            1297    QRRPIKK|PR  0.126    .
+78            1299    RPIKKPR|RV  0.241    .
+78            1300    PIKKPRR|VG  0.141    .
+78            1304    PRRVGIK|KE  0.067    .
+78            1305    RRVGIKK|EV  0.215    .
+78            1308    GIKKEVR|IE  0.081    .
+78            1318    PFPFPTR|TV  0.103    .
+78            1321    FPTRTVK|EP  0.121    .
+78            1325    TVKEPEK|FV  0.089    .
+78            1330    EKFVVQR|ET  0.120    .
+78            1338    TIPVPLR|TA  0.122    .
+78            1357    FGFVDSR|GN  0.075    .
+78            1361    DSRGNYR|PM  0.117    .
+78            1365    NYRPMSK|EQ  0.062    .
+78            1372    EQEQLYR|RS  0.087    .
+78            1373    QEQLYRR|SL  0.240    .
+78            1377    YRRSLTR|QR  0.081    .
+78            1379    RSLTRQR|VV  0.102    .
+78            1390    QNEEIPR|PA  0.121    .
+78            1402    PAIVDNR|RE  0.113    .
+78            1403    AIVDNRR|EE  0.102    .
+78            1409    REEPVQR|TP  0.095    .
+78            1415    RTPHSGR|TH  0.088    .
+78            1420    GRTHNPR|QL  0.138    .
+78            1429    EWDTNGR|QP  0.081    .
+78            1443    YHPWYGR|RR  0.069    .
+78            1444    HPWYGRR|RP  0.102    .
+78            1445    PWYGRRR|PK  0.151    .
+78            1447    YGRRRPK|MP  0.146    .
+78            1452    PKMPIFK|PG  0.061    .
+78            1463    FDMFLDK|FE  0.062    .
+78            1470    FESYLHR|GD  0.132    .
+78            1481    WEDLGEK|LL  0.071    .
+78            1493    EHTVTYK|RV  0.064    .
+78            1494    HTVTYKR|VK  0.129    .
+78            1496    VTYKRVK|RL  0.057    .
+78            1497    TYKRVKR|LK  0.473    .
+78            1499    KRVKRLK|LS  0.067    .
+78            1505    KLSAEEK|RD  0.062    .
+78            1506    LSAEEKR|DP  0.228    .
+78            1516    LMIDTVR|SA  0.143    .
+78            1522    RSAIVHR|VI  0.121    .
+78            1530    IDEEAER|RK  0.068    .
+78            1531    DEEAERR|KL  0.118    .
+78            1532    EEAERRK|LM  0.079    .
+78            1537    RKLMQMK|QD  0.065    .
+78            1550    VEEFADR|IR  0.116    .
+78            1552    EFADRIR|EV  0.096    .
+78            1565    FPMETDR|VI  0.091    .
+78            1570    DRVINQR|MI  0.152    .
+78            1583    DGLADTR|VS  0.066    .
+78            1592    ELVCDLR|ID  0.066    .
+78            1600    DNLDFEK|VV  0.062    .
+78            1607    VVILAAR|RS  0.076    .
+78            1608    VILAARR|SK  0.115    .
+78            1610    LAARRSK|RN  0.114    .
+78            1611    AARRSKR|NR  0.503 *ProP*
+78            1613    RRSKRNR|MF  0.151    .
+78            1616    KRNRMFR|GD  0.374    .
+78            1621    FRGDIYR|DP  0.108    .
+78            1630    SSTTAER|DN  0.083    .
+78            1635    ERDNVFR|LT  0.097    .
+78            1639    VFRLTNR|SP  0.115    .
+78            1659    ENVPATR|PM  0.078    .
+78            1664    TRPMCSK|DI  0.075    .
+78            1672    ILLINVR|GS  0.073    .
+78            1677    VRGSDSR|TA  0.083    .
+78            1682    SRTAVLR|GL  0.098    .
+78            1690    LWIPDNK|DQ  0.074    .
+78            1705    LVVAETK|SG  0.068    .
+78            1725    SGSSPYR|GR  0.146    .
+78            1727    SSPYRGR|SG  0.104    .
+78            1730    YRGRSGK|RW  0.210    .
+78            1731    RGRSGKR|WS  0.221    .
+78            1735    GKRWSDR|RL  0.105    .
+78            1736    KRWSDRR|LP  0.126    .
+78            1742    RLPSNNR|SP  0.081    .
+78            1750    PVDNSTR|GQ  0.096    .
+78            1760    SAVSNSR|SF  0.121    .
+78            1786    TDQEVER|VK  0.079    .
+78            1788    QEVERVK|KV  0.075    .
+78            1789    EVERVKK|VN  0.291    .
+78            1796    VNSEEQK|VS  0.073    .
+78            1812    IGDTGVR|CF  0.083    .
+78            1826    SISLICK|QI  0.076    .
+78            1831    CKQIVQR|MG  0.106    .
+78            1843    QILPTSR|RV  0.089    .
+78            1844    ILPTSRR|VF  0.156    .
+78            1862    HGTIDLK|IS  0.057    .
+78            1868    KISVGTR|TM  0.094    .
+78            1871    VGTRTMK|QC  0.118    .
+78            1895    DFLSINR|CC  0.066    .
+78            1911    FHLEGGK|SV  0.079    .
+78            1918    SVPFVPR|LE  0.086    .
+78            1923    PRLENVK|KS  0.060    .
+78            1924    RLENVKK|SH  0.137    .
+78            1929    KKSHLIR|GL  0.181    .
+78            1947    VAYIQGR|LP  0.085    .
+78            1950    IQGRLPK|DL  0.240    .
+78            1953    RLPKDLK|PC  0.057    .
+78            1980    SAVSEGR|DQ  0.097    .
+78            1983    SEGRDQK|VT  0.131    .
+78            1987    DQKVTLK|VV  0.065    .
+78            2000    LPITISK|RQ  0.059    .
+78            2001    PITISKR|QI  0.126    .
+78            2006    KRQILGR|YG  0.092    .
+78            2037    SSVMTER|WT  0.110    .
+78            2040    MTERWTR|EE  0.148    .
+78            2046    REELFER|LG  0.070    .
+78            2052    RLGLADR|QG  0.080    .
+78            2066    EEEGQLR|EI  0.083    .
+78            2071    LREILWK|YR  0.062    .
+78            2073    EILWKYR|NV  0.102    .
+78            2094    MYTADIR|LK  0.088    .
+78            2096    TADIRLK|EG  0.060    .
+78            2102    KEGAQPR|WT  0.111    .
+78            2112    PMPTPYK|LR  0.058    .
+78            2114    PTPYKLR|EE  0.084    .
+78            2119    LREEMDR|NI  0.111    .
+78            2123    MDRNIQK|MM  0.079    .
+78            2147    SPIFLVK|KK  0.066    .
+78            2148    PIFLVKK|KT  0.090    .
+78            2149    IFLVKKK|TA  0.129    .
+78            2155    KTAGSWR|LV  0.142    .
+78            2161    RLVADLR|CV  0.111    .
+78            2197    SNFDLSK|GF  0.078    .
+78            2209    PYSEESK|KV  0.077    .
+78            2210    YSEESKK|VT  0.094    .
+78            2217    VTAFLYR|GR  0.079    .
+78            2219    AFLYRGR|QL  0.088    .
+78            2225    RQLCFAR|VI  0.103    .
+78            2231    RVIMGHK|AS  0.069    .
+78            2236    HKASSSK|FT  0.085    .
+78            2239    SSSKFTR|MM  0.222    .
+78            2243    FTRMMEK|LL  0.069    .
+78            2265    DVFLSSK|TV  0.075    .
+78            2273    VSEHLTR|LE  0.066    .
+78            2276    HLTRLEK|LL  0.096    .
+78            2280    LEKLLNR|FQ  0.092    .
+78            2287    FQTANLK|IS  0.054    .
+78            2292    LKISPGK|TE  0.060    .
+78            2297    GKTELLK|KE  0.054    .
+78            2298    KTELLKK|EV  0.163    .
+78            2318    VTITDDR|VK  0.057    .
+78            2320    ITDDRVK|AL  0.059    .
+78            2329    TSLPIPK|SR  0.073    .
+78            2331    LPIPKSR|KE  0.085    .
+78            2332    PIPKSRK|EV  0.161    .
+78            2345    GAFNYIR|KW  0.105    .
+78            2346    AFNYIRK|WV  0.089    .
+78            2356    GFSAITK|PL  0.086    .
+78            2366    NILSGPK|NR  0.053    .
+78            2368    LSGPKNR|QF  0.103    .
+78            2378    WSDECNR|AY  0.080    .
+78            2384    RAYEHLK|EL  0.068    .
+78            2390    KELVSNR|TT  0.081    .
+78            2426    LSQEIER|DG  0.098    .
+78            2430    IERDGVR|ER  0.073    .
+78            2432    RDGVRER|RI  0.091    .
+78            2433    DGVRERR|II  0.310    .
+78            2440    IIAFYSK|SV  0.092    .
+78            2446    KSVPCYK|RA  0.071    .
+78            2447    SVPCYKR|AR  0.194    .
+78            2449    PCYKRAR|GQ  0.108    .
+78            2453    RARGQTR|LE  0.118    .
+78            2467    AALEHWK|VY  0.055    .
+78            2474    VYLMNTK|FT  0.057    .
+78            2482    TVVTDCK|SL  0.083    .
+78            2494    EDSLFAK|SN  0.107    .
+78            2501    SNPTIIR|KV  0.096    .
+78            2502    NPTIIRK|VQ  0.064    .
+78            2514    NYDFDIR|HI  0.081    .
+78            2529    LADFLSR|FP  0.084    .
+78            2533    LSRFPFR|RT  0.108    .
+78            2534    SRFPFRR|TK  0.257    .
+78            2536    FPFRRTK|TD  0.120    .
+78            2555    AVCNHLK|LD  0.064    .
+78            2558    NHLKLDR|EG  0.069    .
+78            2563    DREGFQR|AL  0.101    .
+78            2590    AVCHHLK|LE  0.059    .
+78            2593    HHLKLER|EG  0.077    .
+78            2598    EREGSQR|AF  0.095    .
+78            2627    QPMSGSR|NE  0.073    .
+78            2651    LLPENLK|MV  0.072    .
+78            2670    ESDGISR|KY  0.074    .
+78            2671    SDGISRK|YI  0.173    .
+78            2681    HSDHWVR|VE  0.125    .
+78            2692    AEVEENK|GV  0.083    .
+78            2708    GEDHPTR|GQ  0.094    .
+78            2771    GDADTER|DG  0.091    .
+78            2796    HGEVHHR|TI  0.166    .
+78            2810    SCWCPTR|PA  0.150    .
+78            2838    GQLLDWR|EW  0.093    .
+78            2845    EWEAAQK|ED  0.059    .
+78            2854    DIFLVVR|NW  0.075    .
+78            2861    NWVIQSR|RD  0.072    .
+78            2862    WVIQSRR|DV  0.351    .
+78            2869    DVVQANR|TP  0.065    .
+78            2879    ELMSLWR|QF  0.077    .
+78            2885    RQFNLLR|VE  0.081    .
+78            2893    EDGVLQR|RW  0.079    .
+78            2894    DGVLQRR|WN  0.136    .
+78            2904    TSTGEDR|WL  0.093    .
+78            2913    ILVPAEK|RE  0.055    .
+78            2914    LVPAEKR|EL  0.122    .
+78            2920    RELVMNR|TH  0.096    .
+78            2939    NTLLCLR|RW  0.071    .
+78            2940    TLLCLRR|WY  0.114    .
+78            2952    GMENDLK|DF  0.064    .
+78            2965    INCGANK|QP  0.068    .
+78            2968    GANKQPR|AY  0.182    .
+78            2972    QPRAYGR|AP  0.136    .
+78            2977    GRAPMAK|MM  0.104    .
+78            2997    HIVPTSR|GN  0.087    .
+78            3002    SRGNTSR|GN  0.212    .
+78            3032    QSSDENR|KT  0.087    .
+78            3033    SSDENRK|TV  0.084    .
+78            3042    LESWIYR|MG  0.103    .
+78            3047    YRMGWPR|EI  0.110    .
+78            3058    DNHGGFR|GA  0.109    .
+78            3063    FRGASFR|RF  0.095    .
+78            3064    RGASFRR|FF  0.185    .
+78            3072    FELHGVK|LT  0.052    .
+78            3080    TYGTAYK|AA  0.087    .
+78            3086    KAASTAR|AE  0.112    .
+78            3092    RAEMNNK|RT  0.068    .
+78            3093    AEMNNKR|TN  0.169    .
+78            3099    RTNTVLR|AT  0.112    .
+78            3116    WDIHLAK|VS  0.064    .
+78            3125    FVLNCLK|NR  0.057    .
+78            3127    LNCLKNR|RT  0.090    .
+78            3128    NCLKNRR|TG  0.104    .
+78            3135    TGFTANR|LV  0.108    .
+78            3140    NRLVYGR|EL  0.086    .
+78            3152    EILILDR|DK  0.100    .
+78            3154    LILDRDK|HT  0.077    .
+78            3160    KHTEQNR|EQ  0.070    .
+78            3170    IPAEVYR|SA  0.263    .
+78            3173    EVYRSAK|EL  0.156    .
+78            3176    RSAKELR|DI  0.155    .
+78            3180    ELRDISR|RV  0.129    .
+78            3181    LRDISRR|VR  0.130    .
+78            3183    DISRRVR|KN  0.229    .
+78            3184    ISRRVRK|NM  0.312    .
+78            3194    TDWGYAK|KS  0.063    .
+78            3195    DWGYAKK|SY  0.203    .
+78            3199    AKKSYDK|KC  0.059    .
+78            3200    KKSYDKK|CY  0.213    .
+78            3215    GDQVFVK|VN  0.070    .
+78            3222    VNCPAHK|FS  0.067    .
+78            3226    AHKFSAR|WF  0.153    .
+78            3234    FGPVAVK|RV  0.058    .
+78            3235    GPVAVKR|VI  0.245    .
+78            3245    PYLYLIK|MS  0.063    .
+78            3249    LIKMSEK|ED  0.061    .
+78            3252    MSEKEDK|VI  0.069    .
+78            3258    KVINISK|LK  0.056    .
+78            3260    INISKLK|MF  0.070    .
+78            3263    SKLKMFR|KT  0.121    .
+78            3264    KLKMFRK|TE  0.105    .
+78            3274    AEQNQAR|EI  0.158    .
+78            3327    PAVEPER|GG  0.075    .
+78            3335    GSLWAGR|LR  0.082    .
+78            3337    LWAGRLR|RR  0.081    .
+78            3338    WAGRLRR|RI  0.487    .
+78            3339    AGRLRRR|IA  0.144    .
+78            3342    LRRRIAK|VI  0.256    .
+78            3346    IAKVISR|VT  0.108    .
+78            3349    VISRVTR|AG  0.296    .
+78            3352    RVTRAGR|RA  0.260    .
+78            3353    VTRAGRR|AH  0.119    .
+78            3357    GRRAHAR|IG  0.174    .
+78            3367    DMQQHLR|RL  0.080    .
+78            3368    MQQHLRR|LA  0.288    .
+78            3375    LAGGDQR|TE  0.076    .
+____________________________^_________________
+
+
+
+

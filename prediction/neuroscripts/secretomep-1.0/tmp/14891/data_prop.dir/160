@@ -1,0 +1,371 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2691 160         
+MSYRLAILCFGHPRKGTDRNKLKAIPNSLFRSRDWLSANQGPVFRDSVGIGPLSSLSLALSLSLSLSLSLSLFSLSLSLS      80
+LALSFFHDWIKTDFKAGARRVKYHGRICQRVARRVVASLPQGEIIRLLLELATIDKTYSIIGTIATSISLALGVNDTNFR     160
+LVAKANSHSPGIDEKVVRVALRLWVDITTEHNDHCTMNFVELIYPLLDCVNTSPANMKFVCNSLSKALHNVSCSSETDEE     240
+TGRIIMDSALRVRIWARRAPHVRAPVSPYSDCPLRGQAKSFPNFKAFKKFSITKFDMRCRSLARAFSTAYLVMADTVGKP     320
+IKCRAAVAWEPKKPLSIEEIEVAPPRAGEVRIKITHTGVCHTDAYTLGGHDSEGIFPCVLGHEGAGIVESVGEGVTSVAP     400
+GDHVIPCYIPQCYNCEFCARKDTNVCSKIRLTQGKGQMPDGTTRFTCKGQSLAHFMGTSTFSEYVVVAEISCAKINPSAA     480
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQWDLVMADTVGKPIKCRAAVAWE     560
+PKKPLSIEEIEVAPPRAGEVRIKITHTGVCHTDAYTLGGHDSEGIFPCVLGHEGAGIVESVGEGVTSVAPGDHVIPCYIP     640
+QCYNCEFCARKDTNVCSKIRLTQGKGQMPDGTTRFTCKGQSLAHFMGTSTFSEYVVVAEISCAKINPSAALESVCLLGCG     720
+VSTGYGAALNTAKVDAGSTCAVWGLGAVGLAVIMGCKTAGAKNIIAIDLNPAKFDIAKDFGATHFINPKDLGEKSIVAHL     800
+QEEFNGGPCYTFECVGNVHVMRAALESAHKGWGKSVIVGVAAAGQEISTRPFQLVTGRTWMGTAFGGWKSRDDVPKLVDS     880
+YMAGTMKVDEFITQRLPLTEINEAFDLMHAGKSLRPVINYSLCFGCPDSRGGLEHNNTSRSCYRVRDTALNISHLSATSP     960
+VQSSCVLTQLQLPPLRPIYYIPILTSRIPIFQFKLTTPLPVLHSEKMVVEEATYVFDAIVTHILGLEQFWVCPANNQEDR    1040
+KKLLQIEEILMSNPKHLGDLAPKMHDYVAVLLQNGGCKRARLVSDVQNGIAHVQFIDSGRDERVPQSALCILPPELGLDG    1120
+LTEQAIPCCLAGSKTVNPQAKDMFHSLVMGRPVTVSSFSISQTAPQLLVDISTPDIASVRQNLVLQQFCMPLPIPCAKRT    1200
+KNPGMVGFKWGPTEKIPVVVSQVVELSEFYIQYKHTLKDVSTLMTAMKSMYPNVHSPAFPVNIGTLCAVQTGADWFRGEI    1280
+KQVLSTGAILVWLRDFGNEQTVTLKQIYPLEGTLADQPFYAVRCGLNNVAPCNARPLGKFPKKLVAWFAKYVDNGTLTAQ    1360
+FLRQADDRYYVELFAGTLNLDSFYLPPFTIVARAHDGFVIRIESECNDNSADGVTDLMVKNNCAQRTPSYSGYQGMQNQL    1440
+EQMAIMGLKHGKKKKAKATTNASQKSSTQSTKKLEEFLGESQLPTSGPGEMKKDLNELWREYLSAGIRHFEKEEQLRLEV    1520
+RRHHEFERRNWGKLWSHLGRYSLESEKLAVLSTGAILVWLRDFGNEQTVTLKQIYPLEGTLADQPFYAVRCGLNNVAPCN    1600
+ARPLGKFPKKLVAWFAKYVDNGTLTAQFLRQADDRYYVELFAGTLNLDLFYLPPFTIVARAHDVFVIRIESECNDNSADG    1680
+VTDLMVKNNCAQRTPSYSGYQGMQNQLEQMAIMGLKHGKKKKAKATTNASQKSSTQSTKKLEEFLGESQLPTSGPGEMKK    1760
+DLNELWREYLSAGIRHFEKEEQLRLEVRRHHEFERRNWGKLWSHLGRYSLESEKLAQQPANLVATSLPLVSEILVPDWLI    1840
+TSHVKYITSSYYIGGLLVQCHGITMGSYTGSAAAQYNPSPSNTGLGYTISGGGGSGGGYASSAQSGYPSQTAGGGGYSAS    1920
+SQSASAAAYNTAATTAATGGYDSAAGPQFGAGTASYGSTSGGGSTAASTAAAAGVAGYPQHLQMQMLQMQMLQMQQQQQQ    2000
+QVTTTSSKSSSRGGGGGSDRKDVYEKGYIPARVEIHLSNPPPSQDVEAVLVESIVDPSNIACLLKKYFTEVDKINVDLAK    2080
+LIRSQSYRIPAGYEIFQSMACVAPTRYLGHVTGYQSRTSISPVFPDSADFNHIFQQVVTSDDLKTDVFFVDYGNYESIKT    2160
+TDLHFLPTACSNLPETYIKCQMADIEAPNGAAYTREERKKCEEYIKSKDFFCAIRSHNRKNGTYTVDLYTDISMTNNVRD    2240
+KLISAKVAVGASGGSSGGGGGRGRSRRGGTNREDEVQRRRSPSPVVARSRGRDPSGRGSSARSSSPASSAAATELIRSGF    2320
+KPPKVKTGEMVDIKICHVATPGRFSVQLLNDREGMRRLDQEMERQYGDGDGDPLDEILPFTPCAVFVDKWKRGYVLSTNH    2400
+HGSQVMLVDTQTIVAVEADNMQVLKPVFTKLPAQGLTCTLGGIKTPKWRTEAVKFFKDNFLDVDTVAEFKGESNGLTSII    2480
+LRYQDENVNARMVAKKWATATDPLIIKEAEELTTKSTTFGDYPVTIGKNYTVSPSHVESLGEFYLQLYACEKDIDNLSTS    2560
+LFDYYDSNTTDRLPGFQVDSYCAALWDEAWFRGRIVSVSRDSCNIYYVDYGNTDSVSRDDIRSLVKKFKQQPMYAIKCVL    2640
+EGITEDMYEPMKDIFMALLYQSLVSGAGGASPQAITNGHGSRQIVSLVILG                                 2720
+................................................................................      80
+................................P...............................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+..........................P.....................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+...................................................                                 2720
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+160              4    ---MSYR|LA  0.099    .
+160             14    LCFGHPR|KG  0.082    .
+160             15    CFGHPRK|GT  0.094    .
+160             19    PRKGTDR|NK  0.100    .
+160             21    KGTDRNK|LK  0.055    .
+160             23    TDRNKLK|AI  0.085    .
+160             31    IPNSLFR|SR  0.123    .
+160             33    NSLFRSR|DW  0.108    .
+160             45    NQGPVFR|DS  0.128    .
+160             91    FFHDWIK|TD  0.062    .
+160             95    WIKTDFK|AG  0.060    .
+160             99    DFKAGAR|RV  0.088    .
+160            100    FKAGARR|VK  0.159    .
+160            102    AGARRVK|YH  0.168    .
+160            106    RVKYHGR|IC  0.099    .
+160            110    HGRICQR|VA  0.110    .
+160            113    ICQRVAR|RV  0.541 *ProP*
+160            114    CQRVARR|VV  0.165    .
+160            126    PQGEIIR|LL  0.067    .
+160            136    ELATIDK|TY  0.066    .
+160            160    VNDTNFR|LV  0.100    .
+160            164    NFRLVAK|AN  0.076    .
+160            175    SPGIDEK|VV  0.085    .
+160            178    IDEKVVR|VA  0.088    .
+160            182    VVRVALR|LW  0.099    .
+160            218    TSPANMK|FV  0.101    .
+160            226    VCNSLSK|AL  0.067    .
+160            243    TDEETGR|II  0.093    .
+160            251    IMDSALR|VR  0.067    .
+160            253    DSALRVR|IW  0.082    .
+160            257    RVRIWAR|RA  0.115    .
+160            258    VRIWARR|AP  0.130    .
+160            263    RRAPHVR|AP  0.088    .
+160            275    YSDCPLR|GQ  0.100    .
+160            279    PLRGQAK|SF  0.076    .
+160            285    KSFPNFK|AF  0.061    .
+160            288    PNFKAFK|KF  0.066    .
+160            289    NFKAFKK|FS  0.139    .
+160            294    KKFSITK|FD  0.068    .
+160            298    ITKFDMR|CR  0.085    .
+160            300    KFDMRCR|SL  0.140    .
+160            304    RCRSLAR|AF  0.128    .
+160            319    MADTVGK|PI  0.058    .
+160            322    TVGKPIK|CR  0.067    .
+160            324    GKPIKCR|AA  0.141    .
+160            332    AVAWEPK|KP  0.064    .
+160            333    VAWEPKK|PL  0.114    .
+160            346    IEVAPPR|AG  0.091    .
+160            351    PRAGEVR|IK  0.112    .
+160            353    AGEVRIK|IT  0.081    .
+160            420    NCEFCAR|KD  0.080    .
+160            421    CEFCARK|DT  0.087    .
+160            428    DTNVCSK|IR  0.066    .
+160            430    NVCSKIR|LT  0.098    .
+160            435    IRLTQGK|GQ  0.084    .
+160            444    MPDGTTR|FT  0.147    .
+160            448    TTRFTCK|GQ  0.086    .
+160            474    AEISCAK|IN  0.058    .
+160            549    MADTVGK|PI  0.058    .
+160            552    TVGKPIK|CR  0.067    .
+160            554    GKPIKCR|AA  0.141    .
+160            562    AVAWEPK|KP  0.064    .
+160            563    VAWEPKK|PL  0.114    .
+160            576    IEVAPPR|AG  0.091    .
+160            581    PRAGEVR|IK  0.112    .
+160            583    AGEVRIK|IT  0.081    .
+160            650    NCEFCAR|KD  0.080    .
+160            651    CEFCARK|DT  0.087    .
+160            658    DTNVCSK|IR  0.066    .
+160            660    NVCSKIR|LT  0.098    .
+160            665    IRLTQGK|GQ  0.084    .
+160            674    MPDGTTR|FT  0.147    .
+160            678    TTRFTCK|GQ  0.086    .
+160            704    AEISCAK|IN  0.058    .
+160            733    AALNTAK|VD  0.059    .
+160            757    AVIMGCK|TA  0.068    .
+160            762    CKTAGAK|NI  0.065    .
+160            773    IDLNPAK|FD  0.070    .
+160            778    AKFDIAK|DF  0.091    .
+160            789    THFINPK|DL  0.080    .
+160            794    PKDLGEK|SI  0.077    .
+160            822    GNVHVMR|AA  0.125    .
+160            830    ALESAHK|GW  0.075    .
+160            834    AHKGWGK|SV  0.131    .
+160            850    GQEISTR|PF  0.088    .
+160            858    FQLVTGR|TW  0.083    .
+160            869    TAFGGWK|SR  0.084    .
+160            871    FGGWKSR|DD  0.124    .
+160            876    SRDDVPK|LV  0.108    .
+160            887    YMAGTMK|VD  0.061    .
+160            895    DEFITQR|LP  0.070    .
+160            912    DLMHAGK|SL  0.110    .
+160            915    HAGKSLR|PV  0.116    .
+160            930    FGCPDSR|GG  0.073    .
+160            940    EHNNTSR|SC  0.166    .
+160            944    TSRSCYR|VR  0.125    .
+160            946    RSCYRVR|DT  0.125    .
+160            976    LQLPPLR|PI  0.080    .
+160            987    IPILTSR|IP  0.080    .
+160            994    IPIFQFK|LT  0.070    .
+160           1006    PVLHSEK|MV  0.070    .
+160           1040    ANNQEDR|KK  0.085    .
+160           1041    NNQEDRK|KL  0.100    .
+160           1042    NQEDRKK|LL  0.106    .
+160           1055    ILMSNPK|HL  0.077    .
+160           1063    LGDLAPK|MH  0.060    .
+160           1078    LQNGGCK|RA  0.066    .
+160           1079    QNGGCKR|AR  0.135    .
+160           1081    GGCKRAR|LV  0.244    .
+160           1100    QFIDSGR|DE  0.092    .
+160           1103    DSGRDER|VP  0.158    .
+160           1134    CCLAGSK|TV  0.067    .
+160           1141    TVNPQAK|DM  0.126    .
+160           1151    HSLVMGR|PV  0.119    .
+160           1180    PDIASVR|QN  0.076    .
+160           1198    LPIPCAK|RT  0.068    .
+160           1199    PIPCAKR|TK  0.184    .
+160           1201    PCAKRTK|NP  0.074    .
+160           1209    PGMVGFK|WG  0.058    .
+160           1215    KWGPTEK|IP  0.057    .
+160           1234    EFYIQYK|HT  0.068    .
+160           1238    QYKHTLK|DV  0.097    .
+160           1248    TLMTAMK|SM  0.103    .
+160           1277    TGADWFR|GE  0.122    .
+160           1281    WFRGEIK|QV  0.075    .
+160           1294    AILVWLR|DF  0.112    .
+160           1305    EQTVTLK|QI  0.071    .
+160           1323    QPFYAVR|CG  0.071    .
+160           1335    VAPCNAR|PL  0.101    .
+160           1339    NARPLGK|FP  0.074    .
+160           1342    PLGKFPK|KL  0.071    .
+160           1343    LGKFPKK|LV  0.123    .
+160           1350    LVAWFAK|YV  0.155    .
+160           1363    LTAQFLR|QA  0.108    .
+160           1368    LRQADDR|YY  0.112    .
+160           1393    PFTIVAR|AH  0.084    .
+160           1401    HDGFVIR|IE  0.102    .
+160           1420    VTDLMVK|NN  0.058    .
+160           1426    KNNCAQR|TP  0.104    .
+160           1449    MAIMGLK|HG  0.058    .
+160           1452    MGLKHGK|KK  0.068    .
+160           1453    GLKHGKK|KK  0.102    .
+160           1454    LKHGKKK|KA  0.180    .
+160           1455    KHGKKKK|AK  0.133    .
+160           1457    GKKKKAK|AT  0.089    .
+160           1465    TTNASQK|SS  0.112    .
+160           1472    SSTQSTK|KL  0.076    .
+160           1473    STQSTKK|LE  0.094    .
+160           1492    SGPGEMK|KD  0.060    .
+160           1493    GPGEMKK|DL  0.141    .
+160           1500    DLNELWR|EY  0.086    .
+160           1508    YLSAGIR|HF  0.115    .
+160           1512    GIRHFEK|EE  0.061    .
+160           1517    EKEEQLR|LE  0.072    .
+160           1521    QLRLEVR|RH  0.085    .
+160           1522    LRLEVRR|HH  0.178    .
+160           1528    RHHEFER|RN  0.110    .
+160           1529    HHEFERR|NW  0.186    .
+160           1533    ERRNWGK|LW  0.096    .
+160           1540    LWSHLGR|YS  0.157    .
+160           1547    YSLESEK|LA  0.057    .
+160           1561    AILVWLR|DF  0.112    .
+160           1572    EQTVTLK|QI  0.071    .
+160           1590    QPFYAVR|CG  0.071    .
+160           1602    VAPCNAR|PL  0.101    .
+160           1606    NARPLGK|FP  0.074    .
+160           1609    PLGKFPK|KL  0.071    .
+160           1610    LGKFPKK|LV  0.123    .
+160           1617    LVAWFAK|YV  0.155    .
+160           1630    LTAQFLR|QA  0.108    .
+160           1635    LRQADDR|YY  0.112    .
+160           1660    PFTIVAR|AH  0.082    .
+160           1668    HDVFVIR|IE  0.098    .
+160           1687    VTDLMVK|NN  0.058    .
+160           1693    KNNCAQR|TP  0.104    .
+160           1716    MAIMGLK|HG  0.058    .
+160           1719    MGLKHGK|KK  0.068    .
+160           1720    GLKHGKK|KK  0.102    .
+160           1721    LKHGKKK|KA  0.180    .
+160           1722    KHGKKKK|AK  0.133    .
+160           1724    GKKKKAK|AT  0.089    .
+160           1732    TTNASQK|SS  0.112    .
+160           1739    SSTQSTK|KL  0.076    .
+160           1740    STQSTKK|LE  0.094    .
+160           1759    SGPGEMK|KD  0.060    .
+160           1760    GPGEMKK|DL  0.141    .
+160           1767    DLNELWR|EY  0.086    .
+160           1775    YLSAGIR|HF  0.115    .
+160           1779    GIRHFEK|EE  0.061    .
+160           1784    EKEEQLR|LE  0.072    .
+160           1788    QLRLEVR|RH  0.085    .
+160           1789    LRLEVRR|HH  0.178    .
+160           1795    RHHEFER|RN  0.110    .
+160           1796    HHEFERR|NW  0.186    .
+160           1800    ERRNWGK|LW  0.096    .
+160           1807    LWSHLGR|YS  0.157    .
+160           1814    YSLESEK|LA  0.058    .
+160           1845    LITSHVK|YI  0.066    .
+160           2008    VTTTSSK|SS  0.096    .
+160           2012    SSKSSSR|GG  0.128    .
+160           2020    GGGGSDR|KD  0.075    .
+160           2021    GGGSDRK|DV  0.139    .
+160           2026    RKDVYEK|GY  0.073    .
+160           2032    KGYIPAR|VE  0.071    .
+160           2065    NIACLLK|KY  0.066    .
+160           2066    IACLLKK|YF  0.110    .
+160           2073    YFTEVDK|IN  0.055    .
+160           2080    INVDLAK|LI  0.066    .
+160           2083    DLAKLIR|SQ  0.127    .
+160           2088    IRSQSYR|IP  0.139    .
+160           2106    ACVAPTR|YL  0.127    .
+160           2117    VTGYQSR|TS  0.070    .
+160           2144    VTSDDLK|TD  0.056    .
+160           2159    GNYESIK|TT  0.067    .
+160           2179    LPETYIK|CQ  0.067    .
+160           2195    NGAAYTR|EE  0.085    .
+160           2198    AYTREER|KK  0.139    .
+160           2199    YTREERK|KC  0.093    .
+160           2200    TREERKK|CE  0.119    .
+160           2206    KCEEYIK|SK  0.067    .
+160           2208    EEYIKSK|DF  0.086    .
+160           2215    DFFCAIR|SH  0.105    .
+160           2219    AIRSHNR|KN  0.111    .
+160           2220    IRSHNRK|NG  0.100    .
+160           2239    SMTNNVR|DK  0.080    .
+160           2241    TNNVRDK|LI  0.093    .
+160           2246    DKLISAK|VA  0.070    .
+160           2262    SGGGGGR|GR  0.099    .
+160           2264    GGGGRGR|SR  0.144    .
+160           2266    GGRGRSR|RG  0.108    .
+160           2267    GRGRSRR|GG  0.690 *ProP*
+160           2272    RRGGTNR|ED  0.141    .
+160           2278    REDEVQR|RR  0.085    .
+160           2279    EDEVQRR|RS  0.093    .
+160           2280    DEVQRRR|SP  0.197    .
+160           2288    PSPVVAR|SR  0.159    .
+160           2290    PVVARSR|GR  0.107    .
+160           2292    VARSRGR|DP  0.119    .
+160           2297    GRDPSGR|GS  0.118    .
+160           2302    GRGSSAR|SS  0.309    .
+160           2317    AATELIR|SG  0.086    .
+160           2321    LIRSGFK|PP  0.059    .
+160           2324    SGFKPPK|VK  0.067    .
+160           2326    FKPPKVK|TG  0.062    .
+160           2334    GEMVDIK|IC  0.068    .
+160           2343    HVATPGR|FS  0.106    .
+160           2352    VQLLNDR|EG  0.070    .
+160           2356    NDREGMR|RL  0.094    .
+160           2357    DREGMRR|LD  0.131    .
+160           2364    LDQEMER|QY  0.127    .
+160           2389    CAVFVDK|WK  0.066    .
+160           2391    VFVDKWK|RG  0.057    .
+160           2392    FVDKWKR|GY  0.150    .
+160           2425    DNMQVLK|PV  0.099    .
+160           2430    LKPVFTK|LP  0.072    .
+160           2444    CTLGGIK|TP  0.050    .
+160           2447    GGIKTPK|WR  0.071    .
+160           2449    IKTPKWR|TE  0.082    .
+160           2454    WRTEAVK|FF  0.076    .
+160           2457    EAVKFFK|DN  0.076    .
+160           2470    DTVAEFK|GE  0.070    .
+160           2482    LTSIILR|YQ  0.106    .
+160           2491    DENVNAR|MV  0.186    .
+160           2495    NARMVAK|KW  0.080    .
+160           2496    ARMVAKK|WA  0.186    .
+160           2507    TDPLIIK|EA  0.064    .
+160           2515    AEELTTK|ST  0.068    .
+160           2528    YPVTIGK|NY  0.064    .
+160           2552    QLYACEK|DI  0.070    .
+160           2572    DSNTTDR|LP  0.100    .
+160           2592    WDEAWFR|GR  0.085    .
+160           2594    EAWFRGR|IV  0.158    .
+160           2600    RIVSVSR|DS  0.101    .
+160           2618    NTDSVSR|DD  0.088    .
+160           2622    VSRDDIR|SL  0.159    .
+160           2626    DIRSLVK|KF  0.061    .
+160           2627    IRSLVKK|FK  0.173    .
+160           2629    SLVKKFK|QQ  0.063    .
+160           2637    QPMYAIK|CV  0.085    .
+160           2652    DMYEPMK|DI  0.076    .
+160           2682    TNGHGSR|QI  0.089    .
+____________________________^_________________
+
+
+
+

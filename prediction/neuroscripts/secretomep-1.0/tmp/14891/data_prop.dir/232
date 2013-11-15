@@ -1,0 +1,326 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2356 232         
+MAAAASKLCEKGNAEQAKEFILRMYLSLNPQPEQGDAKTIYSHYTQATDTENIRFVFAAVKDTILQLNLKEYNLRERYRA      80
+GARGPLLPRVYIDPLPRITMNRPNQEILVTDWLITRLNNESPTSPPPLRCVFVSISCSVIFHPYLHFLPCFTGFLRVPSP     160
+HYGSPRKRENGLGLHLSWCDILCFILREHSPSHSSFVFTISHTMMSPSPPLQWWGDVEGFGAGRVGRVRVSHSFSPFSLL     240
+HPVPSFRLHLFTSSTHERCVREWYSCVRFYFYHADIIYIYIYINNIYIWILYTSIWIYIIYIAHPGVVCCCEFDGKKVDM     320
+VYMWVGWPGCLQDPQTGWIVPPGVCTPYSVPCSWGFPPPCWHSPPPLLESCPRPSPTLRVPRVITGLGPLALLKVVTLVT     400
+SYTHVMVTMVTSYTMVTMVTSHYGYHGNRIQSKLGRSYRSQRGLFSYFFPLSLSLSFSLSLSLSMSLAVLLRLSVTSLSL     480
+PDAICLALVIPTNHVVALTDHVVTLTDHVVTVTDHVVTPTIGCHISVKFALDIISADQLAISNLIDNFPSIPRPSPPIIS     560
+PIPLTPPEISADQLAGEKDLLHQTGLMPEYQKLCNGKLGESSLLDFLCPAEGQIDIKTTNEADGLIGLLNKPPTIQRDLQ     640
+PLSSEQFSGFRLKPGKLEDRRNPLFTGHKKKKKKRDGDSEESSTMNMAKRPPPAMPPDKGSFPLDHFAECKTAMETFMNC     720
+LKENNYNQRVCREESSIMQPGTSDVSAFGEPALVSAAVTVVTKALEDAGGAIANCLQRAIKASIKEGLEVLMKEHPDIKA     800
+ILMAFGRAVYCLSKIGEDIYFEGESNGLAVRTVSQSRSAYGSFLFHTSFFSKFSLQTQNSGELRCKVSSRSCLSIFKSLA     880
+TLEKTVDTFSIELKYTEGELIFVHRLKTAITVSLKAIALCIPNSLSIPIFFLSDPVLVTSSGERVLVTKSGWLLNRGQIQ     960
+LHNFLYRGKFILSLNRGVTKSGVTKSGSDCTYLSLSSLSPLSRSLSIPLPRVKKQYVLAFQECEGLNAIFDKTNNFVQLA    1040
+TNSRFLSECVVHFPSNVSEVVLSVTPTHALMKNYVEEADQAGKLKKNSRVFVMINNISSADYTMMKTVCEKVTPGKIYLS    1120
+TLLYSKISRDNNSLFTMLSPIIVHTTNTPLYLYLSLSFCLSLTLSLSLSLSLYLSLSLSLSLSLSLSLSHSLHVPYQPVI    1200
+ISMDGDGQWECDFVLATISDTNLDTSTQNSSQAVRRVESARLPTQPPKPTTRLPTPQQPPSQHDTPMVATPISISPPVSP    1280
+PEVKMIDFSPVPPSPPPEEEDADDYSPPPPANPRTNSLELDQPIRTRYLGHVTSYQPIRDQYFLIRSVPEGKPRNKLISQ    1360
+YQTKILCQKDQPIRTRYLGHVTSYQPIRDQYFLIRSVPEGKPRNKLISQYQTKILCQKVYLFPTLSLFHSLYLSLSISLS    1440
+LSFSLSISHYLSLSLSLSLSLSLISLSISFSLSSLSLSISLSLISLYLSLSSFLQIKQNTINIKIGAEIEFGRSGKLYIM    1520
+CKIKVAFSNLSVPTQILCQNIRVIEIKILGEKKANVPLVFFGPRGMWRPNAVVQAVSDNAEILLPSFLTDLATSTNNTTK    1600
+LPKHSPDYYPPLTGDIRGAKLKPNPDRRNLLQNMTVVFLGQKEMDERGGVARAMGATEVVFWDGQGEDLIREATSIVVGG    1680
+KKETERSRRAGEIMSSSRSLLPAKETSLIMALLYNDRNKLIRKVRGGGGGGSMTQPSQAPPPIIDTQTTNRSGNESQFET    1760
+LMVGETQNTMTIMTCTAAVAGRVNGRSDSFVEPSANLIPLDKSISPAASSKDGKSFIEPTMQPPRLDKTLNTPVSSKEST    1840
+SFIEPTVQPPRLDKTIITQASSKMGTSFIEPTMQPPRLDKTINSPASSKIGTSFIEPTVQPPRLDKTINSPANSKMGTSF    1920
+IEPTVQPPRLDKTLDTPNRTKSFIEPTVQPPRLDKTLITPGKQEPPSPITPANMSSASLFSTTTTSRISTTPAAVTPKSS    2000
+FTSRVPSGSAPQNSGSVSHSRAPSGSASLFSGTTSSSRLPKSGNSRLPKRVYPEDSDDDDYNPFAATLRPLNIPSFQETL    2080
+DSAMAAKRARMNEPEDEPPEPIEPVEHVVLPVVPEPVQPVEPVKEEVKQEEVEEEVILVQSGYPTSTEPSTPRVKRELEP    2160
+LPVSSGISPSGKRAKLEQSIDGKQAKLEQSIGMIKILSINESSSNSQWIRNVRKTQTSVNGDDTKSCVAISPNLLVRSMV    2240
+GPSKTTTQDVSRSTTQNSSGLVNYKGFKRKHIPTRSINITLSVGSFGETDGGHSRLLASDDEREIERDRERDRWREIEID    2320
+RERERETARDLVFSVQYNFLVPWSPPEMAPSTSPLP                                                2400
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+......................................P.........................................     480
+................................................................................     560
+................................................................................     640
+..................................P.............................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+............................................P...................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+...........................................................................P....    2160
+................................................................................    2240
+................................................................................    2320
+....................................                                                2400
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+232              7    MAAAASK|LC  0.069    .
+232             11    ASKLCEK|GN  0.065    .
+232             18    GNAEQAK|EF  0.074    .
+232             23    AKEFILR|MY  0.091    .
+232             38    PEQGDAK|TI  0.071    .
+232             54    TDTENIR|FV  0.138    .
+232             61    FVFAAVK|DT  0.066    .
+232             70    ILQLNLK|EY  0.057    .
+232             75    LKEYNLR|ER  0.079    .
+232             77    EYNLRER|YR  0.084    .
+232             79    NLRERYR|AG  0.095    .
+232             83    RYRAGAR|GP  0.069    .
+232             89    RGPLLPR|VY  0.075    .
+232             97    YIDPLPR|IT  0.084    .
+232            102    PRITMNR|PN  0.121    .
+232            116    TDWLITR|LN  0.081    .
+232            129    TSPPPLR|CV  0.146    .
+232            156    CFTGFLR|VP  0.072    .
+232            166    PHYGSPR|KR  0.116    .
+232            167    HYGSPRK|RE  0.072    .
+232            168    YGSPRKR|EN  0.357    .
+232            187    ILCFILR|EH  0.097    .
+232            224    EGFGAGR|VG  0.068    .
+232            227    GAGRVGR|VR  0.188    .
+232            229    GRVGRVR|VS  0.080    .
+232            247    HPVPSFR|LH  0.074    .
+232            258    TSSTHER|CV  0.202    .
+232            261    THERCVR|EW  0.199    .
+232            268    EWYSCVR|FY  0.090    .
+232            316    CCEFDGK|KV  0.080    .
+232            317    CEFDGKK|VD  0.070    .
+232            373    LLESCPR|PS  0.078    .
+232            379    RPSPTLR|VP  0.098    .
+232            382    PTLRVPR|VI  0.272    .
+232            394    GPLALLK|VV  0.065    .
+232            429    YGYHGNR|IQ  0.097    .
+232            433    GNRIQSK|LG  0.069    .
+232            436    IQSKLGR|SY  0.228    .
+232            439    KLGRSYR|SQ  0.527 *ProP*
+232            442    RSYRSQR|GL  0.376    .
+232            472    SLAVLLR|LS  0.087    .
+232            528    GCHISVK|FA  0.089    .
+232            553    NFPSIPR|PS  0.073    .
+232            578    DQLAGEK|DL  0.058    .
+232            592    LMPEYQK|LC  0.061    .
+232            597    QKLCNGK|LG  0.067    .
+232            617    EGQIDIK|TT  0.065    .
+232            631    LIGLLNK|PP  0.059    .
+232            637    KPPTIQR|DL  0.094    .
+232            651    EQFSGFR|LK  0.070    .
+232            653    FSGFRLK|PG  0.059    .
+232            656    FRLKPGK|LE  0.063    .
+232            660    PGKLEDR|RN  0.067    .
+232            661    GKLEDRR|NP  0.084    .
+232            669    PLFTGHK|KK  0.057    .
+232            670    LFTGHKK|KK  0.082    .
+232            671    FTGHKKK|KK  0.121    .
+232            672    TGHKKKK|KK  0.184    .
+232            673    GHKKKKK|KR  0.101    .
+232            674    HKKKKKK|RD  0.237    .
+232            675    KKKKKKR|DG  0.507 *ProP*
+232            689    STMNMAK|RP  0.068    .
+232            690    TMNMAKR|PP  0.205    .
+232            699    PAMPPDK|GS  0.072    .
+232            711    DHFAECK|TA  0.068    .
+232            722    TFMNCLK|EN  0.059    .
+232            729    ENNYNQR|VC  0.088    .
+232            732    YNQRVCR|EE  0.294    .
+232            763    AVTVVTK|AL  0.078    .
+232            778    IANCLQR|AI  0.123    .
+232            781    CLQRAIK|AS  0.151    .
+232            785    AIKASIK|EG  0.061    .
+232            793    GLEVLMK|EH  0.060    .
+232            799    KEHPDIK|AI  0.065    .
+232            807    ILMAFGR|AV  0.114    .
+232            814    AVYCLSK|IG  0.062    .
+232            831    SNGLAVR|TV  0.170    .
+232            837    RTVSQSR|SA  0.155    .
+232            852    HTSFFSK|FS  0.083    .
+232            864    QNSGELR|CK  0.097    .
+232            866    SGELRCK|VS  0.064    .
+232            870    RCKVSSR|SC  0.158    .
+232            877    SCLSIFK|SL  0.079    .
+232            884    SLATLEK|TV  0.075    .
+232            894    TFSIELK|YT  0.098    .
+232            905    ELIFVHR|LK  0.102    .
+232            907    IFVHRLK|TA  0.066    .
+232            915    AITVSLK|AI  0.061    .
+232            944    VTSSGER|VL  0.076    .
+232            949    ERVLVTK|SG  0.076    .
+232            956    SGWLLNR|GQ  0.089    .
+232            967    LHNFLYR|GK  0.092    .
+232            969    NFLYRGK|FI  0.062    .
+232            976    FILSLNR|GV  0.128    .
+232            980    LNRGVTK|SG  0.080    .
+232            985    TKSGVTK|SG  0.111    .
+232           1003    SLSPLSR|SL  0.200    .
+232           1011    LSIPLPR|VK  0.091    .
+232           1013    IPLPRVK|KQ  0.059    .
+232           1014    PLPRVKK|QY  0.209    .
+232           1032    LNAIFDK|TN  0.075    .
+232           1044    QLATNSR|FL  0.119    .
+232           1072    PTHALMK|NY  0.064    .
+232           1083    EADQAGK|LK  0.055    .
+232           1085    DQAGKLK|KN  0.084    .
+232           1086    QAGKLKK|NS  0.101    .
+232           1089    KLKKNSR|VF  0.083    .
+232           1106    ADYTMMK|TV  0.075    .
+232           1111    MKTVCEK|VT  0.061    .
+232           1116    EKVTPGK|IY  0.060    .
+232           1126    STLLYSK|IS  0.055    .
+232           1129    LYSKISR|DN  0.122    .
+232           1235    NSSQAVR|RV  0.140    .
+232           1236    SSQAVRR|VE  0.216    .
+232           1241    RRVESAR|LP  0.098    .
+232           1248    LPTQPPK|PT  0.067    .
+232           1252    PPKPTTR|LP  0.098    .
+232           1284    VSPPEVK|MI  0.066    .
+232           1314    PPPANPR|TN  0.103    .
+232           1325    ELDQPIR|TR  0.073    .
+232           1327    DQPIRTR|YL  0.118    .
+232           1339    TSYQPIR|DQ  0.131    .
+232           1346    DQYFLIR|SV  0.170    .
+232           1352    RSVPEGK|PR  0.064    .
+232           1354    VPEGKPR|NK  0.107    .
+232           1356    EGKPRNK|LI  0.076    .
+232           1364    ISQYQTK|IL  0.078    .
+232           1369    TKILCQK|DQ  0.067    .
+232           1374    QKDQPIR|TR  0.074    .
+232           1376    DQPIRTR|YL  0.129    .
+232           1388    TSYQPIR|DQ  0.131    .
+232           1395    DQYFLIR|SV  0.170    .
+232           1401    RSVPEGK|PR  0.064    .
+232           1403    VPEGKPR|NK  0.107    .
+232           1405    EGKPRNK|LI  0.076    .
+232           1413    ISQYQTK|IL  0.081    .
+232           1418    TKILCQK|VY  0.054    .
+232           1497    SSFLQIK|QN  0.068    .
+232           1504    QNTINIK|IG  0.068    .
+232           1513    AEIEFGR|SG  0.111    .
+232           1516    EFGRSGK|LY  0.105    .
+232           1522    KLYIMCK|IK  0.058    .
+232           1524    YIMCKIK|VA  0.071    .
+232           1542    ILCQNIR|VI  0.102    .
+232           1547    IRVIEIK|IL  0.088    .
+232           1552    IKILGEK|KA  0.061    .
+232           1553    KILGEKK|AN  0.082    .
+232           1564    LVFFGPR|GM  0.078    .
+232           1568    GPRGMWR|PN  0.113    .
+232           1600    STNNTTK|LP  0.067    .
+232           1603    NTTKLPK|HS  0.062    .
+232           1617    PLTGDIR|GA  0.077    .
+232           1620    GDIRGAK|LK  0.086    .
+232           1622    IRGAKLK|PN  0.074    .
+232           1627    LKPNPDR|RN  0.090    .
+232           1628    KPNPDRR|NL  0.182    .
+232           1642    VVFLGQK|EM  0.054    .
+232           1647    QKEMDER|GG  0.078    .
+232           1652    ERGGVAR|AM  0.216    .
+232           1671    QGEDLIR|EA  0.092    .
+232           1681    SIVVGGK|KE  0.055    .
+232           1682    IVVGGKK|ET  0.104    .
+232           1686    GKKETER|SR  0.184    .
+232           1688    KETERSR|RA  0.116    .
+232           1689    ETERSRR|AG  0.390    .
+232           1698    EIMSSSR|SL  0.131    .
+232           1704    RSLLPAK|ET  0.070    .
+232           1717    ALLYNDR|NK  0.061    .
+232           1719    LYNDRNK|LI  0.081    .
+232           1722    DRNKLIR|KV  0.217    .
+232           1723    RNKLIRK|VR  0.101    .
+232           1725    KLIRKVR|GG  0.530 *ProP*
+232           1751    DTQTTNR|SG  0.116    .
+232           1782    TAAVAGR|VN  0.116    .
+232           1786    AGRVNGR|SD  0.198    .
+232           1802    NLIPLDK|SI  0.099    .
+232           1811    SPAASSK|DG  0.072    .
+232           1814    ASSKDGK|SF  0.107    .
+232           1825    PTMQPPR|LD  0.074    .
+232           1828    QPPRLDK|TL  0.116    .
+232           1837    NTPVSSK|ES  0.057    .
+232           1851    PTVQPPR|LD  0.088    .
+232           1854    QPPRLDK|TI  0.151    .
+232           1863    ITQASSK|MG  0.060    .
+232           1877    PTMQPPR|LD  0.078    .
+232           1880    QPPRLDK|TI  0.107    .
+232           1889    NSPASSK|IG  0.057    .
+232           1903    PTVQPPR|LD  0.074    .
+232           1906    QPPRLDK|TI  0.111    .
+232           1915    NSPANSK|MG  0.056    .
+232           1929    PTVQPPR|LD  0.068    .
+232           1932    QPPRLDK|TL  0.148    .
+232           1939    TLDTPNR|TK  0.139    .
+232           1941    DTPNRTK|SF  0.071    .
+232           1952    PTVQPPR|LD  0.072    .
+232           1955    QPPRLDK|TL  0.144    .
+232           1962    TLITPGK|QE  0.067    .
+232           1987    STTTTSR|IS  0.069    .
+232           1998    PAAVTPK|SS  0.111    .
+232           2004    KSSFTSR|VP  0.135    .
+232           2021    GSVSHSR|AP  0.110    .
+232           2038    GTTSSSR|LP  0.068    .
+232           2041    SSSRLPK|SG  0.274    .
+232           2046    PKSGNSR|LP  0.084    .
+232           2049    GNSRLPK|RV  0.281    .
+232           2050    NSRLPKR|VY  0.126    .
+232           2069    PFAATLR|PL  0.076    .
+232           2087    DSAMAAK|RA  0.082    .
+232           2088    SAMAAKR|AR  0.186    .
+232           2090    MAAKRAR|MN  0.155    .
+232           2124    QPVEPVK|EE  0.067    .
+232           2128    PVKEEVK|QE  0.063    .
+232           2153    TEPSTPR|VK  0.092    .
+232           2155    PSTPRVK|RE  0.053    .
+232           2156    STPRVKR|EL  0.680 *ProP*
+232           2172    GISPSGK|RA  0.074    .
+232           2173    ISPSGKR|AK  0.118    .
+232           2175    PSGKRAK|LE  0.066    .
+232           2183    EQSIDGK|QA  0.072    .
+232           2186    IDGKQAK|LE  0.073    .
+232           2195    QSIGMIK|IL  0.071    .
+232           2210    SNSQWIR|NV  0.239    .
+232           2213    QWIRNVR|KT  0.232    .
+232           2214    WIRNVRK|TQ  0.086    .
+232           2225    VNGDDTK|SC  0.077    .
+232           2237    SPNLLVR|SM  0.122    .
+232           2244    SMVGPSK|TT  0.064    .
+232           2252    TTQDVSR|ST  0.167    .
+232           2265    SGLVNYK|GF  0.061    .
+232           2268    VNYKGFK|RK  0.058    .
+232           2269    NYKGFKR|KH  0.135    .
+232           2270    YKGFKRK|HI  0.099    .
+232           2275    RKHIPTR|SI  0.220    .
+232           2295    TDGGHSR|LL  0.078    .
+232           2303    LASDDER|EI  0.099    .
+232           2307    DEREIER|DR  0.087    .
+232           2309    REIERDR|ER  0.079    .
+232           2311    IERDRER|DR  0.098    .
+232           2313    RDRERDR|WR  0.114    .
+232           2315    RERDRWR|EI  0.120    .
+232           2321    REIEIDR|ER  0.074    .
+232           2323    IEIDRER|ER  0.085    .
+232           2325    IDRERER|ET  0.087    .
+232           2329    RERETAR|DL  0.116    .
+____________________________^_________________
+
+
+
+

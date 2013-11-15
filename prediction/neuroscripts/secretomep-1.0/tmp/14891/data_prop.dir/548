@@ -1,0 +1,269 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1571 548         
+MLSTYFRCFEREQTKSVCYSICIRSPIVIWADNIQSRHAINVLGEGEREGEREGEREGEREGEREGEREGEREGEREGER      80
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     160
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     240
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     320
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     400
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     480
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGER     560
+EGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREGEREREREREREGEREREKIMGA     640
+SSRPLGGGMRERDRGIERDGERERDREREKEREKERERERERKREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAA     720
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     880
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1120
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1200
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERDRDREIQ    1280
+LENGCWVRDIVVMPDVLPDASDQNFLYELICSQLENDGFFKSAKCLQVELKSLELTEPGDRLEKLVGMCVQIKKHLDDHF    1360
+NKRPEAGITGKPEDHTKIETMECGDQTTRERSEGGSTPIADSTSKVDIVKTEPVDLVTALSPPSSIPSNGSDVMNEVAAL    1440
+SEMLTAESSNNLISQQMVQQHYILQQLQLHQQQLQHNLRGSNNSLDEQVRNRTNVSTVESVSRSPPLWWFTGGYTPGSDP    1520
+SPNSSLATSLPQLLQLSGAGKLEASSTTNAVTSPTSVFSLFFLAPVRNLSV                                 1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+...................................................                                 1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+548              7    MLSTYFR|CF  0.135    .
+548             11    YFRCFER|EQ  0.087    .
+548             15    FEREQTK|SV  0.110    .
+548             24    CYSICIR|SP  0.103    .
+548             37    ADNIQSR|HA  0.159    .
+548             48    VLGEGER|EG  0.077    .
+548             52    GEREGER|EG  0.077    .
+548             56    GEREGER|EG  0.084    .
+548             60    GEREGER|EG  0.084    .
+548             64    GEREGER|EG  0.084    .
+548             68    GEREGER|EG  0.084    .
+548             72    GEREGER|EG  0.084    .
+548             76    GEREGER|EG  0.084    .
+548             80    GEREGER|EG  0.084    .
+548             84    GEREGER|EG  0.084    .
+548             88    GEREGER|EG  0.084    .
+548             92    GEREGER|EG  0.084    .
+548             96    GEREGER|EG  0.084    .
+548            100    GEREGER|EG  0.084    .
+548            104    GEREGER|EG  0.084    .
+548            108    GEREGER|EG  0.084    .
+548            112    GEREGER|EG  0.084    .
+548            116    GEREGER|EG  0.084    .
+548            120    GEREGER|EG  0.084    .
+548            124    GEREGER|EG  0.084    .
+548            128    GEREGER|EG  0.084    .
+548            132    GEREGER|EG  0.084    .
+548            136    GEREGER|EG  0.084    .
+548            140    GEREGER|EG  0.084    .
+548            144    GEREGER|EG  0.084    .
+548            148    GEREGER|EG  0.084    .
+548            152    GEREGER|EG  0.084    .
+548            156    GEREGER|EG  0.084    .
+548            160    GEREGER|EG  0.084    .
+548            164    GEREGER|EG  0.084    .
+548            168    GEREGER|EG  0.084    .
+548            172    GEREGER|EG  0.084    .
+548            176    GEREGER|EG  0.084    .
+548            180    GEREGER|EG  0.084    .
+548            184    GEREGER|EG  0.084    .
+548            188    GEREGER|EG  0.084    .
+548            192    GEREGER|EG  0.084    .
+548            196    GEREGER|EG  0.084    .
+548            200    GEREGER|EG  0.084    .
+548            204    GEREGER|EG  0.084    .
+548            208    GEREGER|EG  0.084    .
+548            212    GEREGER|EG  0.084    .
+548            216    GEREGER|EG  0.084    .
+548            220    GEREGER|EG  0.084    .
+548            224    GEREGER|EG  0.084    .
+548            228    GEREGER|EG  0.084    .
+548            232    GEREGER|EG  0.084    .
+548            236    GEREGER|EG  0.084    .
+548            240    GEREGER|EG  0.084    .
+548            244    GEREGER|EG  0.084    .
+548            248    GEREGER|EG  0.084    .
+548            252    GEREGER|EG  0.084    .
+548            256    GEREGER|EG  0.084    .
+548            260    GEREGER|EG  0.084    .
+548            264    GEREGER|EG  0.084    .
+548            268    GEREGER|EG  0.084    .
+548            272    GEREGER|EG  0.084    .
+548            276    GEREGER|EG  0.084    .
+548            280    GEREGER|EG  0.084    .
+548            284    GEREGER|EG  0.084    .
+548            288    GEREGER|EG  0.084    .
+548            292    GEREGER|EG  0.084    .
+548            296    GEREGER|EG  0.084    .
+548            300    GEREGER|EG  0.084    .
+548            304    GEREGER|EG  0.084    .
+548            308    GEREGER|EG  0.084    .
+548            312    GEREGER|EG  0.084    .
+548            316    GEREGER|EG  0.084    .
+548            320    GEREGER|EG  0.084    .
+548            324    GEREGER|EG  0.084    .
+548            328    GEREGER|EG  0.084    .
+548            332    GEREGER|EG  0.084    .
+548            336    GEREGER|EG  0.084    .
+548            340    GEREGER|EG  0.084    .
+548            344    GEREGER|EG  0.084    .
+548            348    GEREGER|EG  0.084    .
+548            352    GEREGER|EG  0.084    .
+548            356    GEREGER|EG  0.084    .
+548            360    GEREGER|EG  0.084    .
+548            364    GEREGER|EG  0.084    .
+548            368    GEREGER|EG  0.084    .
+548            372    GEREGER|EG  0.084    .
+548            376    GEREGER|EG  0.084    .
+548            380    GEREGER|EG  0.084    .
+548            384    GEREGER|EG  0.084    .
+548            388    GEREGER|EG  0.084    .
+548            392    GEREGER|EG  0.084    .
+548            396    GEREGER|EG  0.084    .
+548            400    GEREGER|EG  0.084    .
+548            404    GEREGER|EG  0.084    .
+548            408    GEREGER|EG  0.084    .
+548            412    GEREGER|EG  0.084    .
+548            416    GEREGER|EG  0.084    .
+548            420    GEREGER|EG  0.084    .
+548            424    GEREGER|EG  0.084    .
+548            428    GEREGER|EG  0.084    .
+548            432    GEREGER|EG  0.084    .
+548            436    GEREGER|EG  0.084    .
+548            440    GEREGER|EG  0.084    .
+548            444    GEREGER|EG  0.084    .
+548            448    GEREGER|EG  0.084    .
+548            452    GEREGER|EG  0.084    .
+548            456    GEREGER|EG  0.084    .
+548            460    GEREGER|EG  0.084    .
+548            464    GEREGER|EG  0.084    .
+548            468    GEREGER|EG  0.084    .
+548            472    GEREGER|EG  0.084    .
+548            476    GEREGER|EG  0.084    .
+548            480    GEREGER|EG  0.084    .
+548            484    GEREGER|EG  0.084    .
+548            488    GEREGER|EG  0.084    .
+548            492    GEREGER|EG  0.084    .
+548            496    GEREGER|EG  0.084    .
+548            500    GEREGER|EG  0.084    .
+548            504    GEREGER|EG  0.084    .
+548            508    GEREGER|EG  0.084    .
+548            512    GEREGER|EG  0.084    .
+548            516    GEREGER|EG  0.084    .
+548            520    GEREGER|EG  0.084    .
+548            524    GEREGER|EG  0.084    .
+548            528    GEREGER|EG  0.084    .
+548            532    GEREGER|EG  0.084    .
+548            536    GEREGER|EG  0.084    .
+548            540    GEREGER|EG  0.084    .
+548            544    GEREGER|EG  0.084    .
+548            548    GEREGER|EG  0.084    .
+548            552    GEREGER|EG  0.084    .
+548            556    GEREGER|EG  0.084    .
+548            560    GEREGER|EG  0.084    .
+548            564    GEREGER|EG  0.084    .
+548            568    GEREGER|EG  0.084    .
+548            572    GEREGER|EG  0.084    .
+548            576    GEREGER|EG  0.084    .
+548            580    GEREGER|EG  0.084    .
+548            584    GEREGER|EG  0.084    .
+548            588    GEREGER|EG  0.084    .
+548            592    GEREGER|EG  0.084    .
+548            596    GEREGER|EG  0.084    .
+548            600    GEREGER|EG  0.084    .
+548            604    GEREGER|EG  0.084    .
+548            608    GEREGER|EG  0.084    .
+548            612    GEREGER|EG  0.084    .
+548            616    GEREGER|EG  0.081    .
+548            620    GEREGER|ER  0.080    .
+548            622    REGERER|ER  0.086    .
+548            624    GERERER|ER  0.093    .
+548            626    RERERER|ER  0.089    .
+548            628    RERERER|EG  0.091    .
+548            632    REREGER|ER  0.092    .
+548            634    REGERER|EK  0.084    .
+548            636    GEREREK|IM  0.070    .
+548            643    IMGASSR|PL  0.159    .
+548            650    PLGGGMR|ER  0.079    .
+548            652    GGGMRER|DR  0.154    .
+548            654    GMRERDR|GI  0.114    .
+548            658    RDRGIER|DG  0.120    .
+548            662    IERDGER|ER  0.079    .
+548            664    RDGERER|DR  0.101    .
+548            666    GERERDR|ER  0.105    .
+548            668    RERDRER|EK  0.088    .
+548            670    RDREREK|ER  0.068    .
+548            672    REREKER|EK  0.120    .
+548            674    REKEREK|ER  0.060    .
+548            676    KEREKER|ER  0.102    .
+548            678    REKERER|ER  0.081    .
+548            680    KERERER|ER  0.079    .
+548            682    RERERER|KR  0.086    .
+548            683    ERERERK|RE  0.201    .
+548            684    RERERKR|ER  0.197    .
+548            686    RERKRER|ER  0.098    .
+548            688    RKRERER|ER  0.092    .
+548            690    RERERER|ER  0.103    .
+548            692    RERERER|EA  0.101    .
+548           1265    AAAAAER|ER  0.083    .
+548           1267    AAAERER|ER  0.087    .
+548           1269    AERERER|ER  0.084    .
+548           1271    RERERER|ER  0.084    .
+548           1273    RERERER|DR  0.120    .
+548           1275    RERERDR|DR  0.135    .
+548           1277    RERDRDR|EI  0.092    .
+548           1288    ENGCWVR|DI  0.106    .
+548           1321    ENDGFFK|SA  0.090    .
+548           1324    GFFKSAK|CL  0.081    .
+548           1331    CLQVELK|SL  0.103    .
+548           1341    LTEPGDR|LE  0.066    .
+548           1344    PGDRLEK|LV  0.135    .
+548           1353    GMCVQIK|KH  0.058    .
+548           1354    MCVQIKK|HL  0.120    .
+548           1362    LDDHFNK|RP  0.072    .
+548           1363    DDHFNKR|PE  0.160    .
+548           1371    EAGITGK|PE  0.062    .
+548           1377    KPEDHTK|IE  0.065    .
+548           1389    CGDQTTR|ER  0.086    .
+548           1391    DQTTRER|SE  0.124    .
+548           1405    IADSTSK|VD  0.055    .
+548           1410    SKVDIVK|TE  0.062    .
+548           1479    QLQHNLR|GS  0.106    .
+548           1490    SLDEQVR|NR  0.075    .
+548           1492    DEQVRNR|TN  0.080    .
+548           1503    TVESVSR|SP  0.099    .
+548           1541    QLSGAGK|LE  0.063    .
+548           1567    FFLAPVR|NL  0.081    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,214 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1442 656         
+MRLEWRLNPDLASKVNVFAALAPVARITHIEGLVKVLNLLEPEIENLFKLFGVHDFAPSNWEMKLLASLVCPLEKEVICR      80
+NVIFLLCGYDTSNLNNTRIPVYVSHTPAGTSVQNMIHWAQLLREQRLQGYDYGKKGNMAHYNSTTPPQYDPSKVDIPTAL     160
+LAGGNDFLADPRDVAWLEGQLNPEILVLNRFWDKLNHMDFVWGLNAKDVVYGDVLDLIAKYNPNRPAVSSVTNENWEQRI     240
+VGQCVLDKVCPVPSLSFLSLSLSLSLSLSLSFSLFLSFKGERGHTNDCGPASGPCHVMSITSGWLKKETLGAIKRFERRW     320
+VVIKGITLSYYKKDDASSAPLGEIELPGKRITQPPSAEGVYKFDLIDRDDTSHFMCETKSEREKFIDAISSVCYAPFGGG     400
+MFGTLIEVSVRRERVHGGGTVPRVISQCIGFLDTPARIVENGIFRLPGNERTVKQLKMDFQEGLEPNLELRCDTHTVASL     480
+LKLYLRVLPDSIIPSSLYEDFVAIILTYEINPLFQNEGLNEMQHLLKRIPPTNFNTLRMLCMFLYKVQTYSASNLMDLNN     560
+LAIVFSPTILKNTSADHSLEKEMEDIQKLKKVTEMFLTVNQTEMILLINTHFDSVLRSSSIYGIVVFGNYAPFGGGMFGT     640
+LIEVSVRRERVHGGGTVPRVISQCIGFLDTPARIVENGIFRLPGNERTVSTRAVMDIGFYCVCGLVQNINQVINDPTPSA     720
+ITVVYFYSTPPLTNTRIVHTAYFLLCSNPLLQMLKYSSPARRVNCSHNLATFFWVLPDSIIPSSLYEDFVAIILTYEINP     800
+LFQNEGLNEMQHLLKRIPPTNFNTLRMLCMFLYKVQTYSASNLMDLNNLAIVFSPTILKNTSADHSLEKEMEDIQKLKKV     880
+TEIMIINCGKLFPSDRDLEDENELDLSTIDTDELKVKQLKMDFQEGLEPNLELRCDTHPVASLLKLYLRVLPDSIIPSSL     960
+YEDFVAIILTYEINPLFQNEGLNEMQHLLKRIPPTNFNTLRMLCMFLYKVQTYSASNLMDLNNLAIVFSPTILKNTSADH    1040
+SLEKEMEDIQKLKKVTEIMIINCGKLFPSDRDLEDENELDLSTIDTDELKNMYQIKAIKLQVQSRELQAKEKELEGLRAQ    1120
+IAQLTATVTEQGTVIKLSKNKIDSLEGYIERLENYWDRNGIDRPDIPPLPPSKPTVKQQPPTPPPKPDGLILAPIPPPKP    1200
+LGLNLAPIPPPKPPGLRSSLFTRAASQEACKAVHNAAATHQTHPTCPVWEQLTREVWCTVLFTKSGWPLNRGQKTVNFLY    1280
+RGKFTLSLNRGVTKSGGTKSGLVVIIIVFCCFKDDIQGITIKPRLSCRLREGIRGGEIGSSAGKSVILAKSKTGHGAIIV    1360
+RHNVTIQWEDFERYPKYYFTCLITRIIALCIHNAVTRPVAMVTEAVAMVTEAVAMVTNKGRRPQRRPLRTDGRTLLVNYT    1440
+IC                                                                                  1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..                                                                                  1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+656              2    -----MR|LE  0.079    .
+656              6    -MRLEWR|LN  0.072    .
+656             14    NPDLASK|VN  0.053    .
+656             26    ALAPVAR|IT  0.134    .
+656             35    HIEGLVK|VL  0.061    .
+656             49    EIENLFK|LF  0.069    .
+656             64    PSNWEMK|LL  0.063    .
+656             75    LVCPLEK|EV  0.066    .
+656             80    EKEVICR|NV  0.123    .
+656             98    SNLNNTR|IP  0.080    .
+656            123    HWAQLLR|EQ  0.077    .
+656            126    QLLREQR|LQ  0.153    .
+656            134    QGYDYGK|KG  0.060    .
+656            135    GYDYGKK|GN  0.090    .
+656            153    PQYDPSK|VD  0.057    .
+656            172    DFLADPR|DV  0.124    .
+656            190    EILVLNR|FW  0.109    .
+656            194    LNRFWDK|LN  0.066    .
+656            207    VWGLNAK|DV  0.088    .
+656            220    VLDLIAK|YN  0.057    .
+656            225    AKYNPNR|PA  0.099    .
+656            239    NENWEQR|IV  0.196    .
+656            248    GQCVLDK|VC  0.054    .
+656            279    SLFLSFK|GE  0.066    .
+656            282    LSFKGER|GH  0.072    .
+656            306    ITSGWLK|KE  0.058    .
+656            307    TSGWLKK|ET  0.153    .
+656            314    ETLGAIK|RF  0.053    .
+656            315    TLGAIKR|FE  0.161    .
+656            318    AIKRFER|RW  0.183    .
+656            319    IKRFERR|WV  0.300    .
+656            324    RRWVVIK|GI  0.077    .
+656            332    ITLSYYK|KD  0.054    .
+656            333    TLSYYKK|DD  0.133    .
+656            349    EIELPGK|RI  0.060    .
+656            350    IELPGKR|IT  0.093    .
+656            362    SAEGVYK|FD  0.072    .
+656            368    KFDLIDR|DD  0.088    .
+656            379    HFMCETK|SE  0.080    .
+656            382    CETKSER|EK  0.073    .
+656            384    TKSEREK|FI  0.106    .
+656            411    LIEVSVR|RE  0.079    .
+656            412    IEVSVRR|ER  0.141    .
+656            414    VSVRRER|VH  0.251    .
+656            423    GGGTVPR|VI  0.140    .
+656            437    FLDTPAR|IV  0.169    .
+656            445    VENGIFR|LP  0.088    .
+656            451    RLPGNER|TV  0.104    .
+656            454    GNERTVK|QL  0.121    .
+656            457    RTVKQLK|MD  0.069    .
+656            471    EPNLELR|CD  0.088    .
+656            482    TVASLLK|LY  0.066    .
+656            486    LLKLYLR|VL  0.074    .
+656            527    EMQHLLK|RI  0.061    .
+656            528    MQHLLKR|IP  0.166    .
+656            538    TNFNTLR|ML  0.105    .
+656            546    LCMFLYK|VQ  0.057    .
+656            571    FSPTILK|NT  0.058    .
+656            581    ADHSLEK|EM  0.072    .
+656            588    EMEDIQK|LK  0.061    .
+656            590    EDIQKLK|KV  0.087    .
+656            591    DIQKLKK|VT  0.095    .
+656            617    HFDSVLR|SS  0.119    .
+656            647    LIEVSVR|RE  0.079    .
+656            648    IEVSVRR|ER  0.141    .
+656            650    VSVRRER|VH  0.251    .
+656            659    GGGTVPR|VI  0.140    .
+656            673    FLDTPAR|IV  0.169    .
+656            681    VENGIFR|LP  0.089    .
+656            687    RLPGNER|TV  0.106    .
+656            692    ERTVSTR|AV  0.207    .
+656            736    PPLTNTR|IV  0.114    .
+656            755    PLLQMLK|YS  0.075    .
+656            761    KYSSPAR|RV  0.144    .
+656            762    YSSPARR|VN  0.153    .
+656            815    EMQHLLK|RI  0.061    .
+656            816    MQHLLKR|IP  0.166    .
+656            826    TNFNTLR|ML  0.105    .
+656            834    LCMFLYK|VQ  0.057    .
+656            859    FSPTILK|NT  0.058    .
+656            869    ADHSLEK|EM  0.072    .
+656            876    EMEDIQK|LK  0.063    .
+656            878    EDIQKLK|KV  0.080    .
+656            879    DIQKLKK|VT  0.095    .
+656            890    MIINCGK|LF  0.061    .
+656            896    KLFPSDR|DL  0.137    .
+656            915    IDTDELK|VK  0.055    .
+656            917    TDELKVK|QL  0.069    .
+656            920    LKVKQLK|MD  0.072    .
+656            934    EPNLELR|CD  0.083    .
+656            945    PVASLLK|LY  0.060    .
+656            949    LLKLYLR|VL  0.074    .
+656            990    EMQHLLK|RI  0.061    .
+656            991    MQHLLKR|IP  0.166    .
+656           1001    TNFNTLR|ML  0.105    .
+656           1009    LCMFLYK|VQ  0.057    .
+656           1034    FSPTILK|NT  0.058    .
+656           1044    ADHSLEK|EM  0.072    .
+656           1051    EMEDIQK|LK  0.063    .
+656           1053    EDIQKLK|KV  0.080    .
+656           1054    DIQKLKK|VT  0.095    .
+656           1065    MIINCGK|LF  0.061    .
+656           1071    KLFPSDR|DL  0.137    .
+656           1090    IDTDELK|NM  0.058    .
+656           1096    KNMYQIK|AI  0.082    .
+656           1099    YQIKAIK|LQ  0.058    .
+656           1105    KLQVQSR|EL  0.137    .
+656           1110    SRELQAK|EK  0.078    .
+656           1112    ELQAKEK|EL  0.079    .
+656           1118    KELEGLR|AQ  0.074    .
+656           1136    EQGTVIK|LS  0.065    .
+656           1139    TVIKLSK|NK  0.072    .
+656           1141    IKLSKNK|ID  0.064    .
+656           1151    LEGYIER|LE  0.069    .
+656           1158    LENYWDR|NG  0.092    .
+656           1163    DRNGIDR|PD  0.098    .
+656           1173    PPLPPSK|PT  0.065    .
+656           1177    PSKPTVK|QQ  0.060    .
+656           1186    PPTPPPK|PD  0.072    .
+656           1199    APIPPPK|PL  0.077    .
+656           1212    APIPPPK|PP  0.064    .
+656           1217    PKPPGLR|SS  0.093    .
+656           1223    RSSLFTR|AA  0.196    .
+656           1231    ASQEACK|AV  0.089    .
+656           1254    VWEQLTR|EV  0.091    .
+656           1264    CTVLFTK|SG  0.075    .
+656           1271    SGWPLNR|GQ  0.096    .
+656           1274    PLNRGQK|TV  0.142    .
+656           1281    TVNFLYR|GK  0.103    .
+656           1283    NFLYRGK|FT  0.061    .
+656           1290    FTLSLNR|GV  0.132    .
+656           1294    LNRGVTK|SG  0.102    .
+656           1299    TKSGGTK|SG  0.081    .
+656           1313    IVFCCFK|DD  0.073    .
+656           1322    IQGITIK|PR  0.057    .
+656           1324    GITIKPR|LS  0.093    .
+656           1328    KPRLSCR|LR  0.117    .
+656           1330    RLSCRLR|EG  0.107    .
+656           1334    RLREGIR|GG  0.088    .
+656           1344    IGSSAGK|SV  0.097    .
+656           1350    KSVILAK|SK  0.100    .
+656           1352    VILAKSK|TG  0.060    .
+656           1361    HGAIIVR|HN  0.095    .
+656           1373    QWEDFER|YP  0.085    .
+656           1376    DFERYPK|YY  0.137    .
+656           1385    FTCLITR|II  0.079    .
+656           1397    IHNAVTR|PV  0.146    .
+656           1419    VAMVTNK|GR  0.072    .
+656           1421    MVTNKGR|RP  0.071    .
+656           1422    VTNKGRR|PQ  0.127    .
+656           1425    KGRRPQR|RP  0.157    .
+656           1426    GRRPQRR|PL  0.299    .
+656           1429    PQRRPLR|TD  0.233    .
+656           1433    PLRTDGR|TL  0.081    .
+____________________________^_________________
+
+
+
+

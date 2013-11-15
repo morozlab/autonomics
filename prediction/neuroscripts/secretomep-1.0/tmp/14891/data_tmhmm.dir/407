@@ -1,0 +1,12 @@
+# 407 Length: 1782
+# 407 Number of predicted TMHs:  3
+# 407 Exp number of AAs in TMHs: 63.5866300000004
+# 407 Exp number, first 60 AAs:  8e-05
+# 407 Total prob of N-in:        0.92732
+407	TMHMM2.0	inside	     1   244
+407	TMHMM2.0	TMhelix	   245   267
+407	TMHMM2.0	outside	   268   327
+407	TMHMM2.0	TMhelix	   328   350
+407	TMHMM2.0	inside	   351   580
+407	TMHMM2.0	TMhelix	   581   603
+407	TMHMM2.0	outside	   604  1782

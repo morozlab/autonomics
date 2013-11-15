@@ -1,0 +1,253 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1647 492         
+MSVEQIVPLITAALSADKGEQTAAQEQLEAVKPLPDYATSLLTILFRQDAPLAARQMAGVLLKQFVENAWSECPHTAAKD      80
+LVKANILPGLADSISKIRSSTAAIISEIAVLDFPENWPGLFEQLMGMIGSGDANQIHGVMKVLDELSNDITDNQVYSIAP     160
+VLFPQLVQLFQTEALGASTRARALSIFGVFTTLISHMDSVETGVNEKLLFPILPGLVDTSLNLLQAAPSAREDYKLLTEC     240
+VNFLTKLVGTFPKQMSEKISASLPVLWGVLTKNAGSHITEVVNNPDYADEEGNDSDGGEMGFGTLVQAVFEFIQSLTERK     320
+KFKAMIRKVLPDVVYYLITYLSIPEYQIEYWDADPEKYVEDDDEDSMNYTVRTGAMELLIDLSTELKTSYVEALMSAITR     400
+HISEAGPISEGYTWKLYEACATALNISGGAVEECIESKKVDFNFAAFYNGVVVPGLQTARPYLLGRLMWLSASYIKMLPS     480
+EEALNALFECTCNSLKVGTPAPVMVGAMKAVYTMATELEDEEEQKVLHKPMEVIIPALFELASHMDGDLLMLCLDTLRVS     560
+VNVRQDIVATEADKVNKFLVELFVKHASDPFVVSQVSVGSYNNFGRGGMGMERELFVKHASDPFVVSQVNDLLITLADID     640
+ACRGSIQENVVPVIMQMLQTPLSNSPKKQSDEDKEDMRVEILELMTVFIRKTPAPLPPLYVNDVFPVIMGITIGCAKEST     720
+AILQSGGECVRAFFAQGFPQITAVNYNGVTAMDYTLQLIGKVLDPDMSEFGALYAGRLVSSLIKHAGTALNINDILQAVL     800
+NKLTNCEAPMIKQSLLVVFIKLFNHDLEGSMNFLQTLSTPTGENGLVYVMKSWCDIQELFSGEYETKVAVIALTKFMPFL     880
+LNSNSPLANITVSDDEMSIEGGRLTRSSKTVAAGVQIPITIKIFKILVQEFKNILEEKEAERAGDEDSEDDDVEEEEYEE     960
+ETQIMTLAQMAQFLGDDDDEDEDNKDDPLNDVDLHDHLSQFLTQLSTHGSYSQLCQALNDNEQKVLGSMLVSATLAMPPK    1040
+KKKGKKKGKKGEGGEMSVKDKYSKTLQEMDCLKHELETRTELARRNDARASDLKQQVTDWEKVVAEEQEEKLDISADMIR    1120
+QYKTMQSTMALRIHLLESNLSHLQVQLDSTQKKLETTEKGKSDLQKKYDDTVERMEREMIDMEQRYENILVEAMDAVAGK    1200
+LEQAQSKWNKACELLSGAAIPSNLSALSGVWRGMNEQKVLGSMLVSATLAMPPKKKKGKKKGKKGEGGEMSVKDKYSKTL    1280
+QEMDCLKHELETRTELARRNDARASDLKQQVTDWEKVVAEEQEEKLDISADMIRQYKTMQSTMALRIHLLESNLSHLQVQ    1360
+LDSTQKKLETTEKGKSDLQKKYDDTVERMEREMIDMEQRYENILVEAYLRHRPFNLVRVSFTLLACELKKKGKKKGKKGE    1440
+GGEMSVKDKYSKTLQEMDCLKHELETRTELARRNDARASDLKQQVTDWEKVVAEEQEEKLDISADMIRQYKTMQSTMALR    1520
+IHLLESNLSHLQVQLDSTQKKLETTEKGKSDLQKKYDDTVERMEREMIDMEQRYENILVEAMDAVAGKLEQAQSKWNKAC    1600
+ELVQLDNITKLREFDPVLILKTTVPSERVLGRPGRCLLTAVWRRHPI                                     1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+...............................................                                     1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+492             18    AALSADK|GE  0.058    .
+492             32    EQLEAVK|PL  0.059    .
+492             47    LLTILFR|QD  0.073    .
+492             55    DAPLAAR|QM  0.079    .
+492             63    MAGVLLK|QF  0.062    .
+492             79    CPHTAAK|DL  0.088    .
+492             83    AAKDLVK|AN  0.059    .
+492             96    LADSISK|IR  0.054    .
+492             98    DSISKIR|SS  0.152    .
+492            141    QIHGVMK|VL  0.072    .
+492            180    ALGASTR|AR  0.086    .
+492            182    GASTRAR|AL  0.172    .
+492            207    ETGVNEK|LL  0.069    .
+492            231    QAAPSAR|ED  0.121    .
+492            235    SAREDYK|LL  0.071    .
+492            246    CVNFLTK|LV  0.090    .
+492            253    LVGTFPK|QM  0.077    .
+492            258    PKQMSEK|IS  0.064    .
+492            272    LWGVLTK|NA  0.083    .
+492            319    IQSLTER|KK  0.106    .
+492            320    QSLTERK|KF  0.078    .
+492            321    SLTERKK|FK  0.109    .
+492            323    TERKKFK|AM  0.077    .
+492            327    KFKAMIR|KV  0.097    .
+492            328    FKAMIRK|VL  0.090    .
+492            357    WDADPEK|YV  0.103    .
+492            372    SMNYTVR|TG  0.094    .
+492            387    DLSTELK|TS  0.062    .
+492            400    LMSAITR|HI  0.176    .
+492            415    SEGYTWK|LY  0.075    .
+492            438    EECIESK|KV  0.075    .
+492            439    ECIESKK|VD  0.072    .
+492            460    PGLQTAR|PY  0.078    .
+492            466    RPYLLGR|LM  0.078    .
+492            476    LSASYIK|ML  0.065    .
+492            496    CTCNSLK|VG  0.059    .
+492            509    VMVGAMK|AV  0.079    .
+492            525    EDEEEQK|VL  0.062    .
+492            529    EQKVLHK|PM  0.074    .
+492            558    LCLDTLR|VS  0.065    .
+492            564    RVSVNVR|QD  0.100    .
+492            574    VATEADK|VN  0.052    .
+492            577    EADKVNK|FL  0.066    .
+492            585    LVELFVK|HA  0.071    .
+492            606    SYNNFGR|GG  0.144    .
+492            613    GGMGMER|EL  0.084    .
+492            618    ERELFVK|HA  0.081    .
+492            643    ADIDACR|GS  0.095    .
+492            667    PLSNSPK|KQ  0.080    .
+492            668    LSNSPKK|QS  0.150    .
+492            674    KQSDEDK|ED  0.085    .
+492            678    EDKEDMR|VE  0.080    .
+492            690    LMTVFIR|KT  0.077    .
+492            691    MTVFIRK|TP  0.074    .
+492            717    ITIGCAK|ES  0.070    .
+492            731    SGGECVR|AF  0.098    .
+492            761    TLQLIGK|VL  0.070    .
+492            777    GALYAGR|LV  0.128    .
+492            784    LVSSLIK|HA  0.095    .
+492            802    LQAVLNK|LT  0.067    .
+492            812    CEAPMIK|QS  0.058    .
+492            821    LLVVFIK|LF  0.069    .
+492            851    GLVYVMK|SW  0.150    .
+492            867    SGEYETK|VA  0.069    .
+492            875    AVIALTK|FM  0.057    .
+492            903    MSIEGGR|LT  0.077    .
+492            906    EGGRLTR|SS  0.425    .
+492            909    RLTRSSK|TV  0.220    .
+492            922    QIPITIK|IF  0.056    .
+492            925    ITIKIFK|IL  0.070    .
+492            932    ILVQEFK|NI  0.063    .
+492            938    KNILEEK|EA  0.084    .
+492            942    EEKEAER|AG  0.070    .
+492            985    DEDEDNK|DD  0.054    .
+492           1024    LNDNEQK|VL  0.072    .
+492           1040    TLAMPPK|KK  0.070    .
+492           1041    LAMPPKK|KK  0.128    .
+492           1042    AMPPKKK|KG  0.100    .
+492           1043    MPPKKKK|GK  0.183    .
+492           1045    PKKKKGK|KK  0.105    .
+492           1046    KKKKGKK|KG  0.163    .
+492           1047    KKKGKKK|GK  0.218    .
+492           1049    KGKKKGK|KG  0.098    .
+492           1050    GKKKGKK|GE  0.150    .
+492           1059    GGEMSVK|DK  0.069    .
+492           1061    EMSVKDK|YS  0.090    .
+492           1064    VKDKYSK|TL  0.060    .
+492           1073    QEMDCLK|HE  0.056    .
+492           1079    KHELETR|TE  0.071    .
+492           1084    TRTELAR|RN  0.091    .
+492           1085    RTELARR|ND  0.095    .
+492           1089    ARRNDAR|AS  0.156    .
+492           1094    ARASDLK|QQ  0.059    .
+492           1102    QVTDWEK|VV  0.062    .
+492           1111    AEEQEEK|LD  0.058    .
+492           1120    ISADMIR|QY  0.113    .
+492           1123    DMIRQYK|TM  0.091    .
+492           1132    QSTMALR|IH  0.063    .
+492           1152    QLDSTQK|KL  0.067    .
+492           1153    LDSTQKK|LE  0.121    .
+492           1159    KLETTEK|GK  0.073    .
+492           1161    ETTEKGK|SD  0.069    .
+492           1166    GKSDLQK|KY  0.101    .
+492           1167    KSDLQKK|YD  0.213    .
+492           1174    YDDTVER|ME  0.096    .
+492           1177    TVERMER|EM  0.238    .
+492           1185    MIDMEQR|YE  0.082    .
+492           1200    MDAVAGK|LE  0.068    .
+492           1207    LEQAQSK|WN  0.075    .
+492           1210    AQSKWNK|AC  0.072    .
+492           1232    ALSGVWR|GM  0.122    .
+492           1238    RGMNEQK|VL  0.079    .
+492           1254    TLAMPPK|KK  0.070    .
+492           1255    LAMPPKK|KK  0.128    .
+492           1256    AMPPKKK|KG  0.100    .
+492           1257    MPPKKKK|GK  0.183    .
+492           1259    PKKKKGK|KK  0.105    .
+492           1260    KKKKGKK|KG  0.163    .
+492           1261    KKKGKKK|GK  0.218    .
+492           1263    KGKKKGK|KG  0.098    .
+492           1264    GKKKGKK|GE  0.150    .
+492           1273    GGEMSVK|DK  0.069    .
+492           1275    EMSVKDK|YS  0.090    .
+492           1278    VKDKYSK|TL  0.060    .
+492           1287    QEMDCLK|HE  0.056    .
+492           1293    KHELETR|TE  0.071    .
+492           1298    TRTELAR|RN  0.091    .
+492           1299    RTELARR|ND  0.095    .
+492           1303    ARRNDAR|AS  0.156    .
+492           1308    ARASDLK|QQ  0.059    .
+492           1316    QVTDWEK|VV  0.062    .
+492           1325    AEEQEEK|LD  0.058    .
+492           1334    ISADMIR|QY  0.113    .
+492           1337    DMIRQYK|TM  0.091    .
+492           1346    QSTMALR|IH  0.063    .
+492           1366    QLDSTQK|KL  0.067    .
+492           1367    LDSTQKK|LE  0.121    .
+492           1373    KLETTEK|GK  0.073    .
+492           1375    ETTEKGK|SD  0.069    .
+492           1380    GKSDLQK|KY  0.101    .
+492           1381    KSDLQKK|YD  0.213    .
+492           1388    YDDTVER|ME  0.096    .
+492           1391    TVERMER|EM  0.238    .
+492           1399    MIDMEQR|YE  0.080    .
+492           1410    LVEAYLR|HR  0.065    .
+492           1412    EAYLRHR|PF  0.081    .
+492           1418    RPFNLVR|VS  0.092    .
+492           1429    LLACELK|KK  0.068    .
+492           1430    LACELKK|KG  0.087    .
+492           1431    ACELKKK|GK  0.117    .
+492           1433    ELKKKGK|KK  0.090    .
+492           1434    LKKKGKK|KG  0.118    .
+492           1435    KKKGKKK|GK  0.204    .
+492           1437    KGKKKGK|KG  0.097    .
+492           1438    GKKKGKK|GE  0.150    .
+492           1447    GGEMSVK|DK  0.069    .
+492           1449    EMSVKDK|YS  0.090    .
+492           1452    VKDKYSK|TL  0.060    .
+492           1461    QEMDCLK|HE  0.056    .
+492           1467    KHELETR|TE  0.071    .
+492           1472    TRTELAR|RN  0.091    .
+492           1473    RTELARR|ND  0.095    .
+492           1477    ARRNDAR|AS  0.156    .
+492           1482    ARASDLK|QQ  0.059    .
+492           1490    QVTDWEK|VV  0.062    .
+492           1499    AEEQEEK|LD  0.058    .
+492           1508    ISADMIR|QY  0.113    .
+492           1511    DMIRQYK|TM  0.091    .
+492           1520    QSTMALR|IH  0.063    .
+492           1540    QLDSTQK|KL  0.067    .
+492           1541    LDSTQKK|LE  0.121    .
+492           1547    KLETTEK|GK  0.073    .
+492           1549    ETTEKGK|SD  0.069    .
+492           1554    GKSDLQK|KY  0.101    .
+492           1555    KSDLQKK|YD  0.213    .
+492           1562    YDDTVER|ME  0.096    .
+492           1565    TVERMER|EM  0.238    .
+492           1573    MIDMEQR|YE  0.082    .
+492           1588    MDAVAGK|LE  0.068    .
+492           1595    LEQAQSK|WN  0.075    .
+492           1598    AQSKWNK|AC  0.084    .
+492           1610    QLDNITK|LR  0.055    .
+492           1612    DNITKLR|EF  0.108    .
+492           1621    DPVLILK|TT  0.066    .
+492           1628    TTVPSER|VL  0.100    .
+492           1632    SERVLGR|PG  0.104    .
+492           1635    VLGRPGR|CL  0.271    .
+492           1643    LLTAVWR|RH  0.074    .
+492           1644    LTAVWRR|HP  0.148    .
+____________________________^_________________
+
+
+
+

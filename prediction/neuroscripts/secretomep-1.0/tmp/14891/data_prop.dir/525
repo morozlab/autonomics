@@ -1,0 +1,349 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1613 525         
+MVLFKKPFIFSSSSSKSKKSRSRSRSGSGSGGVKLEFGFGGKKSGSDSDKKKKKKKKKKRKKSKSRSRSGSGSGGIKIGG      80
+DFGLGGKKSGSDSDSKKKSRSRSGSGEFKAGLGGGIGGGIDLGSGADLGGGADLSGGGDASLDLSGPKIGFGFGGKKSKS     160
+KSGSSSSSSSSDDSKKKKKKGGFGFDADLSGGGDASLDLSGPKIGFGGKKSKSKSKSGSSSDDSKKKKKKKGGFGFDADL     240
+SGGGDASLDLSGPKIGFGGKKSKSKSKSGSSSDDSKKKKKKGEFGFDADLSGGGDASLDLSGPKIGFGGKKSKSKSKSGS     320
+SSDDSKKKKKKGGFGFDADLSGGGDASLDLSGPKIGFGGKKSKSKSGSSSDDSKKKKKKGEFGFGMGGDVDVDMKAGSPD     400
+LSLSADVPSIEGKVKTKPPSIDGDASIGGDASLDLSGPKIGFGFGGKKSKSKSSSSSSSDDSKKKKKAGFGFGLGGDVDV     480
+DLGVKGDADIGFSAADVTAPSAEIDLGDIGVVVPEDPGIDIGGGLDGPEIDIGGGLKGPDIDIGGGLKGPDIDLGGGIDM     560
+DMNGGPDAGFGVDLSGPEVDLGGDLGGDLGGDLDMDIPEIDVGVKAEVNAGVPDLSGGIGGGFKAPDVDVGGDVDVEAPE     640
+VDIDIPKPSGGFGFGGGIKGPEVDLGGDLGGDVDLKGPGVDIDIPKPSGGFGFGGDVKGPEEVSVLGLAERRRIPVPVLG     720
+FGFGFGRKKKDSSSSSDDEKKKKKGGFGFSMPKVDLGFKADKPDVDLDVDVPTFDAKVKADAPDIGGGFGGDIKGPKVDL     800
+GGDVDVKGPKVDLGGDIGGDLDIKGPKVDLGGDIGGDLDIKGPKVDLGGDVGGDVDLKGPEVDVDLPKGSGGFGFGFGRK     880
+KKDSSSSSDDEKKKKKGGFGFGLPKVDLGFKADKPEADLDVDVPTFDPKVKADAPDIGGGFGGNLGGDIGGDLDIKGPKV     960
+DLGGGIGGEVDLKGPKVDLGGDIGGDLDIKGPKVDLGGDVDLKGPQVDVDLPKGSGGFGFGFGRKKKDSSSSSDDEKKKK    1040
+KGGFGFSMPKVDLGFKADKPEVDADLDLKGPKVDLGGDIGGDVDITGPKVDIGGDLGGDVDLKGPKVDLGGDVDLKGPDV    1120
+DVKGPKGGFGFGFGGKKKDSSSDDEKKKKKKGGFGFHMPKVDFPSFGGHAEGPDVDLDLKADVPDLDVKVKAEAPKVDIG    1200
+GDVDLKGPKVDLGGDIGGDLDIKGPKVDLGGDVGGDVDLKGPDVDVKGPKGGFGFGFGGKKKDSSSDDEKKKKKKGGFGF    1280
+HMPKVDFPSFGGHAEGPDVDLDLKADVPDLDVKVKAEAPKADLDVKGPKGRKEGSDLGSVKKGDSSDDDKKKKRRSFGLK    1360
+FGGKGKGKADLPTPEADIDAKVKTPSIGGDASIGGDASLDLSGPKIGFGFGGKKSKSGSSSSSSSSDDSKKKKKKGGFGF    1440
+GFGGGGDVDVDVKVKTPSIGYPDSRSYFEILTNCFFSEGDADVKVKAPKVKADADVKVKGPKVKKPKGPKVKGDADVKVK    1520
+GPKVKGPKVKGDIDVKGPDADLSVGGDASLDLSGPKFGFGFGGKKSKSGSSSSSSSSDDSKKKKKKGGFGFGFGGGGDVD    1600
+VDLKVKTPSIGYY                                                                       1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+.........P......................................................................     800
+................................................................................     880
+.P..............................................................................     960
+..................................................................P.............    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.............                                                                       1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+525              5    --MVLFK|KP  0.058    .
+525              6    -MVLFKK|PF  0.082    .
+525             16    FSSSSSK|SK  0.078    .
+525             18    SSSSKSK|KS  0.070    .
+525             19    SSSKSKK|SR  0.386    .
+525             21    SKSKKSR|SR  0.332    .
+525             23    SKKSRSR|SR  0.186    .
+525             25    KSRSRSR|SG  0.210    .
+525             34    SGSGGVK|LE  0.062    .
+525             42    EFGFGGK|KS  0.057    .
+525             43    FGFGGKK|SG  0.102    .
+525             50    SGSDSDK|KK  0.072    .
+525             51    GSDSDKK|KK  0.080    .
+525             52    SDSDKKK|KK  0.151    .
+525             53    DSDKKKK|KK  0.100    .
+525             54    SDKKKKK|KK  0.145    .
+525             55    DKKKKKK|KK  0.113    .
+525             56    KKKKKKK|KK  0.119    .
+525             57    KKKKKKK|KK  0.151    .
+525             58    KKKKKKK|KR  0.130    .
+525             59    KKKKKKK|RK  0.113    .
+525             60    KKKKKKR|KK  0.427    .
+525             61    KKKKKRK|KS  0.091    .
+525             62    KKKKRKK|SK  0.308    .
+525             64    KKRKKSK|SR  0.143    .
+525             66    RKKSKSR|SR  0.211    .
+525             68    KSKSRSR|SG  0.184    .
+525             77    SGSGGIK|IG  0.074    .
+525             87    DFGLGGK|KS  0.057    .
+525             88    FGLGGKK|SG  0.100    .
+525             96    GSDSDSK|KK  0.064    .
+525             97    SDSDSKK|KS  0.111    .
+525             98    DSDSKKK|SR  0.172    .
+525            100    DSKKKSR|SR  0.186    .
+525            102    KKKSRSR|SG  0.164    .
+525            109    SGSGEFK|AG  0.073    .
+525            148    LDLSGPK|IG  0.057    .
+525            156    GFGFGGK|KS  0.056    .
+525            157    FGFGGKK|SK  0.160    .
+525            159    FGGKKSK|SK  0.099    .
+525            161    GKKSKSK|SG  0.092    .
+525            175    SSSDDSK|KK  0.075    .
+525            176    SSDDSKK|KK  0.145    .
+525            177    SDDSKKK|KK  0.112    .
+525            178    DDSKKKK|KK  0.199    .
+525            179    DSKKKKK|KG  0.148    .
+525            180    SKKKKKK|GG  0.144    .
+525            203    LDLSGPK|IG  0.060    .
+525            209    KIGFGGK|KS  0.057    .
+525            210    IGFGGKK|SK  0.180    .
+525            212    FGGKKSK|SK  0.127    .
+525            214    GKKSKSK|SK  0.099    .
+525            216    KSKSKSK|SG  0.104    .
+525            225    SSSDDSK|KK  0.076    .
+525            226    SSDDSKK|KK  0.110    .
+525            227    SDDSKKK|KK  0.152    .
+525            228    DDSKKKK|KK  0.169    .
+525            229    DSKKKKK|KK  0.160    .
+525            230    SKKKKKK|KG  0.178    .
+525            231    KKKKKKK|GG  0.143    .
+525            254    LDLSGPK|IG  0.060    .
+525            260    KIGFGGK|KS  0.057    .
+525            261    IGFGGKK|SK  0.180    .
+525            263    FGGKKSK|SK  0.127    .
+525            265    GKKSKSK|SK  0.099    .
+525            267    KSKSKSK|SG  0.104    .
+525            276    SSSDDSK|KK  0.075    .
+525            277    SSDDSKK|KK  0.153    .
+525            278    SDDSKKK|KK  0.106    .
+525            279    DDSKKKK|KK  0.188    .
+525            280    DSKKKKK|KG  0.133    .
+525            281    SKKKKKK|GE  0.145    .
+525            304    LDLSGPK|IG  0.060    .
+525            310    KIGFGGK|KS  0.057    .
+525            311    IGFGGKK|SK  0.180    .
+525            313    FGGKKSK|SK  0.127    .
+525            315    GKKSKSK|SK  0.099    .
+525            317    KSKSKSK|SG  0.104    .
+525            326    SSSDDSK|KK  0.075    .
+525            327    SSDDSKK|KK  0.138    .
+525            328    SDDSKKK|KK  0.116    .
+525            329    DDSKKKK|KK  0.199    .
+525            330    DSKKKKK|KG  0.148    .
+525            331    SKKKKKK|GG  0.144    .
+525            354    LDLSGPK|IG  0.060    .
+525            360    KIGFGGK|KS  0.057    .
+525            361    IGFGGKK|SK  0.214    .
+525            363    FGGKKSK|SK  0.095    .
+525            365    GKKSKSK|SG  0.105    .
+525            374    SSSDDSK|KK  0.075    .
+525            375    SSDDSKK|KK  0.153    .
+525            376    SDDSKKK|KK  0.111    .
+525            377    DDSKKKK|KK  0.209    .
+525            378    DSKKKKK|KG  0.147    .
+525            379    SKKKKKK|GE  0.167    .
+525            395    DVDVDMK|AG  0.062    .
+525            413    VPSIEGK|VK  0.067    .
+525            415    SIEGKVK|TK  0.068    .
+525            417    EGKVKTK|PP  0.073    .
+525            439    LDLSGPK|IG  0.057    .
+525            447    GFGFGGK|KS  0.055    .
+525            448    FGFGGKK|SK  0.129    .
+525            450    FGGKKSK|SK  0.091    .
+525            452    GKKSKSK|SS  0.094    .
+525            463    SSSDDSK|KK  0.087    .
+525            464    SSDDSKK|KK  0.121    .
+525            465    SDDSKKK|KK  0.105    .
+525            466    DDSKKKK|KA  0.276    .
+525            467    DSKKKKK|AG  0.122    .
+525            485    DVDLGVK|GD  0.057    .
+525            537    DIGGGLK|GP  0.061    .
+525            548    DIGGGLK|GP  0.059    .
+525            605    EIDVGVK|AE  0.054    .
+525            624    GIGGGFK|AP  0.059    .
+525            647    VDIDIPK|PS  0.072    .
+525            659    GFGGGIK|GP  0.064    .
+525            676    GGDVDLK|GP  0.065    .
+525            686    VDIDIPK|PS  0.076    .
+525            698    GFGGDVK|GP  0.061    .
+525            711    VLGLAER|RR  0.072    .
+525            712    LGLAERR|RI  0.087    .
+525            713    GLAERRR|IP  0.145    .
+525            727    FGFGFGR|KK  0.080    .
+525            728    GFGFGRK|KK  0.071    .
+525            729    FGFGRKK|KD  0.080    .
+525            730    GFGRKKK|DS  0.574 *ProP*
+525            740    SSSDDEK|KK  0.087    .
+525            741    SSDDEKK|KK  0.110    .
+525            742    SDDEKKK|KK  0.145    .
+525            743    DDEKKKK|KG  0.137    .
+525            744    DEKKKKK|GG  0.102    .
+525            753    FGFSMPK|VD  0.052    .
+525            759    KVDLGFK|AD  0.054    .
+525            762    LGFKADK|PD  0.059    .
+525            777    VPTFDAK|VK  0.065    .
+525            779    TFDAKVK|AD  0.071    .
+525            794    GFGGDIK|GP  0.059    .
+525            797    GDIKGPK|VD  0.059    .
+525            807    GGDVDVK|GP  0.059    .
+525            810    VDVKGPK|VD  0.057    .
+525            824    GGDLDIK|GP  0.057    .
+525            827    LDIKGPK|VD  0.058    .
+525            841    GGDLDIK|GP  0.057    .
+525            844    LDIKGPK|VD  0.058    .
+525            858    GGDVDLK|GP  0.059    .
+525            868    VDVDLPK|GS  0.083    .
+525            879    FGFGFGR|KK  0.080    .
+525            880    GFGFGRK|KK  0.072    .
+525            881    FGFGRKK|KD  0.080    .
+525            882    GFGRKKK|DS  0.574 *ProP*
+525            892    SSSDDEK|KK  0.087    .
+525            893    SSDDEKK|KK  0.110    .
+525            894    SDDEKKK|KK  0.137    .
+525            895    DDEKKKK|KG  0.124    .
+525            896    DEKKKKK|GG  0.109    .
+525            905    FGFGLPK|VD  0.052    .
+525            911    KVDLGFK|AD  0.054    .
+525            914    LGFKADK|PE  0.059    .
+525            929    VPTFDPK|VK  0.063    .
+525            931    TFDPKVK|AD  0.071    .
+525            956    GGDLDIK|GP  0.059    .
+525            959    LDIKGPK|VD  0.060    .
+525            973    GGEVDLK|GP  0.059    .
+525            976    VDLKGPK|VD  0.053    .
+525            990    GGDLDIK|GP  0.057    .
+525            993    LDIKGPK|VD  0.058    .
+525           1003    GGDVDLK|GP  0.057    .
+525           1013    VDVDLPK|GS  0.085    .
+525           1024    FGFGFGR|KK  0.080    .
+525           1025    GFGFGRK|KK  0.072    .
+525           1026    FGFGRKK|KD  0.080    .
+525           1027    GFGRKKK|DS  0.574 *ProP*
+525           1037    SSSDDEK|KK  0.087    .
+525           1038    SSDDEKK|KK  0.110    .
+525           1039    SDDEKKK|KK  0.145    .
+525           1040    DDEKKKK|KG  0.137    .
+525           1041    DEKKKKK|GG  0.102    .
+525           1050    FGFSMPK|VD  0.052    .
+525           1056    KVDLGFK|AD  0.056    .
+525           1059    LGFKADK|PE  0.060    .
+525           1069    DADLDLK|GP  0.057    .
+525           1072    LDLKGPK|VD  0.057    .
+525           1089    VDITGPK|VD  0.058    .
+525           1103    GGDVDLK|GP  0.059    .
+525           1106    VDLKGPK|VD  0.054    .
+525           1116    GGDVDLK|GP  0.060    .
+525           1123    GPDVDVK|GP  0.069    .
+525           1126    VDVKGPK|GG  0.068    .
+525           1136    GFGFGGK|KK  0.060    .
+525           1137    FGFGGKK|KD  0.079    .
+525           1138    GFGGKKK|DS  0.127    .
+525           1146    SSSDDEK|KK  0.071    .
+525           1147    SSDDEKK|KK  0.131    .
+525           1148    SDDEKKK|KK  0.121    .
+525           1149    DDEKKKK|KK  0.150    .
+525           1150    DEKKKKK|KG  0.160    .
+525           1151    EKKKKKK|GG  0.121    .
+525           1160    FGFHMPK|VD  0.065    .
+525           1180    DVDLDLK|AD  0.054    .
+525           1189    VPDLDVK|VK  0.056    .
+525           1191    DLDVKVK|AE  0.067    .
+525           1196    VKAEAPK|VD  0.069    .
+525           1206    GGDVDLK|GP  0.057    .
+525           1209    VDLKGPK|VD  0.054    .
+525           1223    GGDLDIK|GP  0.057    .
+525           1226    LDIKGPK|VD  0.058    .
+525           1240    GGDVDLK|GP  0.060    .
+525           1247    GPDVDVK|GP  0.069    .
+525           1250    VDVKGPK|GG  0.068    .
+525           1260    GFGFGGK|KK  0.060    .
+525           1261    FGFGGKK|KD  0.079    .
+525           1262    GFGGKKK|DS  0.127    .
+525           1270    SSSDDEK|KK  0.071    .
+525           1271    SSDDEKK|KK  0.131    .
+525           1272    SDDEKKK|KK  0.121    .
+525           1273    DDEKKKK|KK  0.150    .
+525           1274    DEKKKKK|KG  0.160    .
+525           1275    EKKKKKK|GG  0.121    .
+525           1284    FGFHMPK|VD  0.065    .
+525           1304    DVDLDLK|AD  0.054    .
+525           1313    VPDLDVK|VK  0.056    .
+525           1315    DLDVKVK|AE  0.062    .
+525           1320    VKAEAPK|AD  0.068    .
+525           1326    KADLDVK|GP  0.058    .
+525           1329    LDVKGPK|GR  0.062    .
+525           1331    VKGPKGR|KE  0.113    .
+525           1332    KGPKGRK|EG  0.073    .
+525           1341    SDLGSVK|KG  0.064    .
+525           1342    DLGSVKK|GD  0.095    .
+525           1350    DSSDDDK|KK  0.061    .
+525           1351    SSDDDKK|KK  0.091    .
+525           1352    SDDDKKK|KR  0.089    .
+525           1353    DDDKKKK|RR  0.107    .
+525           1354    DDKKKKR|RS  0.190    .
+525           1355    DKKKKRR|SF  0.411    .
+525           1360    RRSFGLK|FG  0.102    .
+525           1364    GLKFGGK|GK  0.072    .
+525           1366    KFGGKGK|GK  0.068    .
+525           1368    GGKGKGK|AD  0.064    .
+525           1381    EADIDAK|VK  0.063    .
+525           1383    DIDAKVK|TP  0.073    .
+525           1405    LDLSGPK|IG  0.057    .
+525           1413    GFGFGGK|KS  0.057    .
+525           1414    FGFGGKK|SK  0.122    .
+525           1416    FGGKKSK|SG  0.086    .
+525           1430    SSSDDSK|KK  0.075    .
+525           1431    SSDDSKK|KK  0.145    .
+525           1432    SDDSKKK|KK  0.117    .
+525           1433    DDSKKKK|KK  0.221    .
+525           1434    DSKKKKK|KG  0.146    .
+525           1435    SKKKKKK|GG  0.166    .
+525           1453    DVDVDVK|VK  0.055    .
+525           1455    DVDVKVK|TP  0.065    .
+525           1465    IGYPDSR|SY  0.160    .
+525           1484    EGDADVK|VK  0.055    .
+525           1486    DADVKVK|AP  0.063    .
+525           1489    VKVKAPK|VK  0.065    .
+525           1491    VKAPKVK|AD  0.077    .
+525           1497    KADADVK|VK  0.062    .
+525           1499    DADVKVK|GP  0.060    .
+525           1502    VKVKGPK|VK  0.064    .
+525           1504    VKGPKVK|KP  0.060    .
+525           1505    KGPKVKK|PK  0.126    .
+525           1507    PKVKKPK|GP  0.078    .
+525           1510    KKPKGPK|VK  0.068    .
+525           1512    PKGPKVK|GD  0.075    .
+525           1518    KGDADVK|VK  0.063    .
+525           1520    DADVKVK|GP  0.065    .
+525           1523    VKVKGPK|VK  0.072    .
+525           1525    VKGPKVK|GP  0.075    .
+525           1528    PKVKGPK|VK  0.068    .
+525           1530    VKGPKVK|GD  0.085    .
+525           1536    KGDIDVK|GP  0.062    .
+525           1556    LDLSGPK|FG  0.061    .
+525           1564    GFGFGGK|KS  0.058    .
+525           1565    FGFGGKK|SK  0.117    .
+525           1567    FGGKKSK|SG  0.086    .
+525           1581    SSSDDSK|KK  0.075    .
+525           1582    SSDDSKK|KK  0.145    .
+525           1583    SDDSKKK|KK  0.117    .
+525           1584    DDSKKKK|KK  0.221    .
+525           1585    DSKKKKK|KG  0.146    .
+525           1586    SKKKKKK|GG  0.166    .
+525           1604    DVDVDLK|VK  0.054    .
+525           1606    DVDLKVK|TP  0.059    .
+____________________________^_________________
+
+
+
+

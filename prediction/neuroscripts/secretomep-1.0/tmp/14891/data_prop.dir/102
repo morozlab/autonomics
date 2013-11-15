@@ -1,0 +1,460 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3177 102         
+MLQGNYPTKTYDPVNKEWVSFDGSSSAVNYGNDRQNTGSYHGNNRQNTGSYHSNNRQNGNGGGRFGGNRGVNTGNQNKYG      80
+RDGGNSGGIDGGVRLNDNNLNSAGKMDAFGSRVISIEGCDSRGNKPNGYWSRGNRNGNQGNTNGNQGGSTGLTIIPSNGY     160
+PTPSGSSLYSTAAVQPATQVQNSGGGLPNNSISFRPASQKSQPRYQPANQRQPRYQPANQRQGRYQPANQRQSRYQPANQ     240
+RQGRYQPANQRQGTYQPANQRQPRYQPANQRQGRYQPANQRQSRYQPANQRQGRYQPANQRQGTYQPANQRQPRYQPVNK     320
+RQLRGRRSRRPAARGPIPNGSSLVRCDTPSSSSSSDDSKPSNHDNHDDTTKPDNEDAPNGDDAPTNDGDTSSPVVAPQMV     400
+QGIQGLNLASPAPAPAPAPIRRIIRKKKSKKPKKKRPAPLPVPSSSSSSSSESSYMTTDDSEINQDAPDFKEPLSGRALE     480
+RVAQSVIVHYVEQKPKIKKKKPKKVKKPKKVAPPPPPSSSSSSSSSEEEIEEIIMPPAPAPAPAPQPIILAAPQQSMPPI     560
+PRQRIVHKKSYIKVPIMTAHVVEDEPLQWNQSQNNNWQMIMLPNQQTQVQQTASYPQMQTYPQTVTQTVYQGTTSSSSSS     640
+SSDSDSPVTRTTVTKFNSPGSPRLPGGLSYSPPVITNTSTTTHHGAIVPEIYQLDPELTQATLEVVEVEQPQEFHTGEDL     720
+LLLWNIGFLPGGMEIGIACLPAGTNPGEKEPRRGRVDHLTHEVHLKAEDNRLKNTGGTDFLCNSCIAETWGLDYQPDPKF     800
+EKLTGENVEQDAAGDIRVYQDAYRSEPICTRCLRDTFHPTGGSGTGPRFEKLFGEPMQAHFNSPGSPRLPGGLSYSPPVI     880
+TNTSTTTHHGAIVPGMTTFTSKSPRSPSGKPALGVMATRPIPIGTTRTRKPSGEIVNETTYVTKIPRSPANPAVALATAI     960
+TNRPKSPTQVTAFRPVSPGGGGARTDQLVTVVGKPTYTKPSGFNYDSYNGRGGGSDEIIEEVVEETVVTTTSSSKGSKSR    1040
+PAVSGGNYGKGLITKGSSGKQTSKSNRHILFLFLPKIQTQTTQIQTIQNRHTHRPCRLSKTNLVYIHSGRDTGEPPTHTP    1120
+ALSVLSVIPAAPLEELRSTSKYLTRDTMSSTSKYLTRDTISSKYLTRDTISSPEVVEVVGNEIITLDITPEGGVSVISRT    1200
+KTKKKKKLVKREKEKGKKKKKGEKIECQKKKKGEKIECDGKEQSWVEKLREYEQKNVLNDDFTRNDVTNPLSRRSKRGKK    1280
+RSPGFAGSLFNCMTVRCLSPKVTSPESCHSLTHKLTDGQKTTNKLTNIQTGTFTTNTPLDGPKSVKTFKPVKTVQPIFSK    1360
+PSAKSVKTAKPVKNKTERRLSSHAPEVSVPVAAPPVGRKVTESNRSLLTKMKEPEPETSKLSANCTTSVSPIPSLPLVQS    1440
+GKPIESAIQSGQIEKSADQSGQREKSADQSIVETSSIARKEGTDTQLPSVNEEMLQSTPSSLLPKLGSPGDAPCSPGDAS    1520
+CSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSP    1600
+GDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDA    1680
+SCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPGDASCSPCDTSCSPGDASCS    1760
+PGIGNASCSIRKSAGSSYIPFQGGRESAEQESGILSQGLIESSSLFENSQTMSERSLVSEEYQRQNTGDFSSQLQRQNTG    1840
+DFLMTTEEEEKKAEDSSFDQSDAPHHHYGDVKDEKRDSALFDSSAPDSEPPARPAHLNLGTTSSSGQSTTTFSTTSGDQK    1920
+DLWGKDHKIFEICEEMTSSPPVSPTPLRRSPSAMRRSPSPLVGGSTRALSPIWTTETRINETGEEEIVTIEGHSSSLSEE    2000
+VQPYRGAGGMSMRTIYRTAFITEDTSEISITTGENNFATSGVFSESEEVVVMGTHQERHSETSGFVESATTTSYDRGLES    2080
+TELAEMSPLSTFDQEISSLDRPASPIPRSTVSDPSSESAPGSTGHNVSELPIQNSPPSNMSFSDQSPNTGSNSNSTDSKN    2160
+DQNESIQNKNVASIQRKSPSPPTRSSPSPPRTSDSTSESPAKTSSKVSQSEVTKNSNTETRTSSSPVQTSPVHNRTRSPS    2240
+LQRHQTSPTPDRSPTPNFKRSLSSSRTPDPLVPMETISPPPSKDHKERSRISSFTEIARVASPDGGVISVNFCLSPTVGR    2320
+ERMASSISLEEFSLLEKELTDPDLMIQIEEVVEKISLGEKADFVEIKTEENNMTFPDIASPTIIITDDLQNDVTLPVVEG    2400
+KELEVIEELGSEEDHEVAAVEATNKTHEILETKETTLEVENSSETVVLETTTQPEIPPKKESSKKKTNVNSRNISAIKTK    2480
+AKSKIDTGSKIPTSKRAKPEEIKSKTDESKEILSKKETPKSSVQATKSKTKLVKKPTKILTQKPKQDSKTPVNSQKPGQK    2560
+SPAVISKKPASKSTATVAKKPAVSSKLSGTGLKKSASGAGIAALKKSPSTTSLKKSGSSTNLASVKSKIDTGIRGNRSLG    2640
+SKETAPSSSFQNSPKPLTKSGSTHSLNKSGSTSSLAGIKPKVDTGMIKRIKTHNSSQRETSNELHQKQQEVSVKAKVDSL    2720
+RKTTLIRTQSSSISSLLSTTTNINSRQIAKIKSTAKSKIDTGRRTPLKATPAASPAFSESLLSMSPAGHSDAPSSPFSSD    2800
+VFTSPHPPSPGGGSRFAPSPVYSFDDMIATDSLFSYGDGKESPTLLESEITMREGSPIEFRPGSVASTGEMRTEVVITEF    2880
+AVEELKIDVLGELETEELEELGTEMLEESEVLGDFEVVRDSEVAEDSENDDDIDDADNDEDEDDVPLPEPRKEELPSDFR    2960
+PPSSSTQHHDITMTSSTHDVTRRGSPVIFTSPCPSPVGRPGSPGLIMGRGHGKPLMGLVVNDGLGAMRGSSEETEDRHTD    3040
+TQTATEDEQTDVQTEGGGSVRYSTGTKMGSSGGSSKVSGGGRSSPSGGYSKGVSYSSGGGFGNGSSGFSSSKGGSSGGFS    3120
+GSASGGFSGSASGGFSSHGGSASSGGFSKGGSASGGFSKGRQQQPQNGIHEALDDVS                           3200
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+......P..P......................................................................     400
+...........................P....................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+............................................................................P...    1280
+P...............................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+............................................................................P...    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+.........................................................                           3200
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+102              9    QGNYPTK|TY  0.077    .
+102             16    TYDPVNK|EW  0.061    .
+102             34    VNYGNDR|QN  0.087    .
+102             45    SYHGNNR|QN  0.113    .
+102             56    SYHSNNR|QN  0.129    .
+102             64    NGNGGGR|FG  0.098    .
+102             69    GRFGGNR|GV  0.163    .
+102             78    NTGNQNK|YG  0.076    .
+102             81    NQNKYGR|DG  0.160    .
+102             94    GIDGGVR|LN  0.077    .
+102            105    NLNSAGK|MD  0.065    .
+102            112    MDAFGSR|VI  0.115    .
+102            122    IEGCDSR|GN  0.098    .
+102            125    CDSRGNK|PN  0.150    .
+102            132    PNGYWSR|GN  0.117    .
+102            135    YWSRGNR|NG  0.322    .
+102            195    NNSISFR|PA  0.180    .
+102            200    FRPASQK|SQ  0.085    .
+102            204    SQKSQPR|YQ  0.122    .
+102            211    YQPANQR|QP  0.079    .
+102            214    ANQRQPR|YQ  0.412    .
+102            221    YQPANQR|QG  0.078    .
+102            224    ANQRQGR|YQ  0.400    .
+102            231    YQPANQR|QS  0.076    .
+102            234    ANQRQSR|YQ  0.363    .
+102            241    YQPANQR|QG  0.074    .
+102            244    ANQRQGR|YQ  0.397    .
+102            251    YQPANQR|QG  0.073    .
+102            261    YQPANQR|QP  0.074    .
+102            264    ANQRQPR|YQ  0.412    .
+102            271    YQPANQR|QG  0.078    .
+102            274    ANQRQGR|YQ  0.400    .
+102            281    YQPANQR|QS  0.076    .
+102            284    ANQRQSR|YQ  0.363    .
+102            291    YQPANQR|QG  0.074    .
+102            294    ANQRQGR|YQ  0.397    .
+102            301    YQPANQR|QG  0.073    .
+102            311    YQPANQR|QP  0.073    .
+102            314    ANQRQPR|YQ  0.311    .
+102            320    RYQPVNK|RQ  0.062    .
+102            321    YQPVNKR|QL  0.161    .
+102            324    VNKRQLR|GR  0.217    .
+102            326    KRQLRGR|RS  0.088    .
+102            327    RQLRGRR|SR  0.519 *ProP*
+102            329    LRGRRSR|RP  0.241    .
+102            330    RGRRSRR|PA  0.597 *ProP*
+102            334    SRRPAAR|GP  0.161    .
+102            345    NGSSLVR|CD  0.093    .
+102            359    SSSDDSK|PS  0.073    .
+102            371    NHDDTTK|PD  0.061    .
+102            421    PAPAPIR|RI  0.090    .
+102            422    APAPIRR|II  0.225    .
+102            425    PIRRIIR|KK  0.184    .
+102            426    IRRIIRK|KK  0.129    .
+102            427    RRIIRKK|KS  0.102    .
+102            428    RIIRKKK|SK  0.606 *ProP*
+102            430    IRKKKSK|KP  0.080    .
+102            431    RKKKSKK|PK  0.109    .
+102            433    KKSKKPK|KK  0.101    .
+102            434    KSKKPKK|KR  0.102    .
+102            435    SKKPKKK|RP  0.102    .
+102            436    KKPKKKR|PA  0.221    .
+102            471    QDAPDFK|EP  0.062    .
+102            477    KEPLSGR|AL  0.109    .
+102            481    SGRALER|VA  0.119    .
+102            494    VHYVEQK|PK  0.062    .
+102            496    YVEQKPK|IK  0.066    .
+102            498    EQKPKIK|KK  0.060    .
+102            499    QKPKIKK|KK  0.090    .
+102            500    KPKIKKK|KP  0.133    .
+102            501    PKIKKKK|PK  0.126    .
+102            503    IKKKKPK|KV  0.109    .
+102            504    KKKKPKK|VK  0.105    .
+102            506    KKPKKVK|KP  0.067    .
+102            507    KPKKVKK|PK  0.135    .
+102            509    KKVKKPK|KV  0.093    .
+102            510    KVKKPKK|VA  0.134    .
+102            562    SMPPIPR|QR  0.082    .
+102            564    PPIPRQR|IV  0.144    .
+102            568    RQRIVHK|KS  0.083    .
+102            569    QRIVHKK|SY  0.322    .
+102            573    HKKSYIK|VP  0.055    .
+102            650    SDSPVTR|TT  0.144    .
+102            655    TRTTVTK|FN  0.096    .
+102            663    NSPGSPR|LP  0.084    .
+102            749    GTNPGEK|EP  0.064    .
+102            752    PGEKEPR|RG  0.076    .
+102            753    GEKEPRR|GR  0.169    .
+102            755    KEPRRGR|VD  0.153    .
+102            766    THEVHLK|AE  0.074    .
+102            771    LKAEDNR|LK  0.117    .
+102            773    AEDNRLK|NT  0.064    .
+102            799    DYQPDPK|FE  0.057    .
+102            802    PDPKFEK|LT  0.071    .
+102            817    DAAGDIR|VY  0.094    .
+102            824    VYQDAYR|SE  0.093    .
+102            831    SEPICTR|CL  0.088    .
+102            834    ICTRCLR|DT  0.269    .
+102            848    GSGTGPR|FE  0.087    .
+102            851    TGPRFEK|LF  0.139    .
+102            868    NSPGSPR|LP  0.090    .
+102            902    MTTFTSK|SP  0.063    .
+102            905    FTSKSPR|SP  0.234    .
+102            910    PRSPSGK|PA  0.105    .
+102            919    LGVMATR|PI  0.092    .
+102            927    IPIGTTR|TR  0.094    .
+102            929    IGTTRTR|KP  0.091    .
+102            930    GTTRTRK|PS  0.274    .
+102            944    ETTYVTK|IP  0.055    .
+102            947    YVTKIPR|SP  0.084    .
+102            963    ATAITNR|PK  0.118    .
+102            965    AITNRPK|SP  0.080    .
+102            974    TQVTAFR|PV  0.216    .
+102            984    PGGGGAR|TD  0.077    .
+102            994    LVTVVGK|PT  0.071    .
+102            999    GKPTYTK|PS  0.069    .
+102           1011    YDSYNGR|GG  0.126    .
+102           1035    TTTSSSK|GS  0.058    .
+102           1038    SSSKGSK|SR  0.088    .
+102           1040    SKGSKSR|PA  0.143    .
+102           1050    SGGNYGK|GL  0.081    .
+102           1055    GKGLITK|GS  0.088    .
+102           1060    TKGSSGK|QT  0.098    .
+102           1064    SGKQTSK|SN  0.090    .
+102           1067    QTSKSNR|HI  0.106    .
+102           1076    LFLFLPK|IQ  0.057    .
+102           1090    IQTIQNR|HT  0.084    .
+102           1094    QNRHTHR|PC  0.096    .
+102           1097    HTHRPCR|LS  0.339    .
+102           1100    RPCRLSK|TN  0.151    .
+102           1110    VYIHSGR|DT  0.135    .
+102           1137    APLEELR|ST  0.148    .
+102           1141    ELRSTSK|YL  0.068    .
+102           1145    TSKYLTR|DT  0.126    .
+102           1153    TMSSTSK|YL  0.077    .
+102           1157    TSKYLTR|DT  0.120    .
+102           1163    RDTISSK|YL  0.066    .
+102           1167    SSKYLTR|DT  0.120    .
+102           1199    GVSVISR|TK  0.113    .
+102           1201    SVISRTK|TK  0.056    .
+102           1203    ISRTKTK|KK  0.069    .
+102           1204    SRTKTKK|KK  0.099    .
+102           1205    RTKTKKK|KK  0.105    .
+102           1206    TKTKKKK|KL  0.131    .
+102           1207    KTKKKKK|LV  0.145    .
+102           1210    KKKKLVK|RE  0.062    .
+102           1211    KKKLVKR|EK  0.305    .
+102           1213    KLVKREK|EK  0.072    .
+102           1215    VKREKEK|GK  0.073    .
+102           1217    REKEKGK|KK  0.085    .
+102           1218    EKEKGKK|KK  0.079    .
+102           1219    KEKGKKK|KK  0.139    .
+102           1220    EKGKKKK|KG  0.226    .
+102           1221    KGKKKKK|GE  0.103    .
+102           1224    KKKKGEK|IE  0.064    .
+102           1229    EKIECQK|KK  0.057    .
+102           1230    KIECQKK|KK  0.108    .
+102           1231    IECQKKK|KG  0.196    .
+102           1232    ECQKKKK|GE  0.114    .
+102           1235    KKKKGEK|IE  0.071    .
+102           1241    KIECDGK|EQ  0.064    .
+102           1248    EQSWVEK|LR  0.074    .
+102           1250    SWVEKLR|EY  0.118    .
+102           1255    LREYEQK|NV  0.089    .
+102           1264    LNDDFTR|ND  0.076    .
+102           1273    VTNPLSR|RS  0.078    .
+102           1274    TNPLSRR|SK  0.266    .
+102           1276    PLSRRSK|RG  0.136    .
+102           1277    LSRRSKR|GK  0.750 *ProP*
+102           1279    RRSKRGK|KR  0.121    .
+102           1280    RSKRGKK|RS  0.209    .
+102           1281    SKRGKKR|SP  0.522 *ProP*
+102           1296    FNCMTVR|CL  0.117    .
+102           1301    VRCLSPK|VT  0.082    .
+102           1314    CHSLTHK|LT  0.085    .
+102           1320    KLTDGQK|TT  0.058    .
+102           1324    GQKTTNK|LT  0.071    .
+102           1343    TPLDGPK|SV  0.101    .
+102           1346    DGPKSVK|TF  0.062    .
+102           1349    KSVKTFK|PV  0.110    .
+102           1352    KTFKPVK|TV  0.076    .
+102           1360    VQPIFSK|PS  0.063    .
+102           1364    FSKPSAK|SV  0.164    .
+102           1367    PSAKSVK|TA  0.083    .
+102           1370    KSVKTAK|PV  0.086    .
+102           1373    KTAKPVK|NK  0.062    .
+102           1375    AKPVKNK|TE  0.060    .
+102           1378    VKNKTER|RL  0.105    .
+102           1379    KNKTERR|LS  0.174    .
+102           1398    AAPPVGR|KV  0.136    .
+102           1399    APPVGRK|VT  0.080    .
+102           1405    KVTESNR|SL  0.107    .
+102           1410    NRSLLTK|MK  0.107    .
+102           1412    SLLTKMK|EP  0.067    .
+102           1420    PEPETSK|LS  0.056    .
+102           1442    PLVQSGK|PI  0.079    .
+102           1455    QSGQIEK|SA  0.129    .
+102           1463    ADQSGQR|EK  0.089    .
+102           1465    QSGQREK|SA  0.145    .
+102           1479    ETSSIAR|KE  0.097    .
+102           1480    TSSIARK|EG  0.099    .
+102           1505    PSSLLPK|LG  0.075    .
+102           1771    NASCSIR|KS  0.098    .
+102           1772    ASCSIRK|SA  0.156    .
+102           1785    IPFQGGR|ES  0.102    .
+102           1815    SQTMSER|SL  0.156    .
+102           1824    VSEEYQR|QN  0.079    .
+102           1836    FSSQLQR|QN  0.106    .
+102           1851    TTEEEEK|KA  0.068    .
+102           1852    TEEEEKK|AE  0.110    .
+102           1872    HHYGDVK|DE  0.061    .
+102           1875    GDVKDEK|RD  0.069    .
+102           1876    DVKDEKR|DS  0.133    .
+102           1893    DSEPPAR|PA  0.138    .
+102           1920    TTSGDQK|DL  0.091    .
+102           1925    QKDLWGK|DH  0.067    .
+102           1928    LWGKDHK|IF  0.077    .
+102           1948    VSPTPLR|RS  0.073    .
+102           1949    SPTPLRR|SP  0.324    .
+102           1955    RSPSAMR|RS  0.072    .
+102           1956    SPSAMRR|SP  0.383    .
+102           1967    LVGGSTR|AL  0.140    .
+102           1978    IWTTETR|IN  0.111    .
+102           2005    EEVQPYR|GA  0.114    .
+102           2013    AGGMSMR|TI  0.093    .
+102           2017    SMRTIYR|TA  0.132    .
+102           2058    MGTHQER|HS  0.124    .
+102           2076    TTTSYDR|GL  0.093    .
+102           2101    EISSLDR|PA  0.136    .
+102           2108    PASPIPR|ST  0.135    .
+102           2159    SNSTDSK|ND  0.065    .
+102           2169    NESIQNK|NV  0.091    .
+102           2176    NVASIQR|KS  0.068    .
+102           2177    VASIQRK|SP  0.156    .
+102           2184    SPSPPTR|SS  0.196    .
+102           2191    SSPSPPR|TS  0.085    .
+102           2202    TSESPAK|TS  0.079    .
+102           2206    PAKTSSK|VS  0.061    .
+102           2214    SQSEVTK|NS  0.079    .
+102           2221    NSNTETR|TS  0.112    .
+102           2235    TSPVHNR|TR  0.135    .
+102           2237    PVHNRTR|SP  0.185    .
+102           2243    RSPSLQR|HQ  0.075    .
+102           2252    TSPTPDR|SP  0.138    .
+102           2259    SPTPNFK|RS  0.058    .
+102           2260    PTPNFKR|SL  0.351    .
+102           2266    RSLSSSR|TP  0.096    .
+102           2283    ISPPPSK|DH  0.066    .
+102           2286    PPSKDHK|ER  0.070    .
+102           2288    SKDHKER|SR  0.199    .
+102           2290    DHKERSR|IS  0.089    .
+102           2299    SFTEIAR|VA  0.101    .
+102           2320    LSPTVGR|ER  0.081    .
+102           2322    PTVGRER|MA  0.094    .
+102           2337    EFSLLEK|EL  0.059    .
+102           2354    IEEVVEK|IS  0.064    .
+102           2360    KISLGEK|AD  0.068    .
+102           2367    ADFVEIK|TE  0.068    .
+102           2401    LPVVEGK|EL  0.085    .
+102           2425    AVEATNK|TH  0.060    .
+102           2433    HEILETK|ET  0.061    .
+102           2459    QPEIPPK|KE  0.071    .
+102           2460    PEIPPKK|ES  0.118    .
+102           2464    PKKESSK|KK  0.065    .
+102           2465    KKESSKK|KT  0.106    .
+102           2466    KESSKKK|TN  0.164    .
+102           2472    KTNVNSR|NI  0.126    .
+102           2478    RNISAIK|TK  0.060    .
+102           2480    ISAIKTK|AK  0.102    .
+102           2482    AIKTKAK|SK  0.101    .
+102           2484    KTKAKSK|ID  0.064    .
+102           2490    KIDTGSK|IP  0.052    .
+102           2495    SKIPTSK|RA  0.074    .
+102           2496    KIPTSKR|AK  0.171    .
+102           2498    PTSKRAK|PE  0.075    .
+102           2503    AKPEEIK|SK  0.073    .
+102           2505    PEEIKSK|TD  0.071    .
+102           2510    SKTDESK|EI  0.068    .
+102           2515    SKEILSK|KE  0.058    .
+102           2516    KEILSKK|ET  0.109    .
+102           2520    SKKETPK|SS  0.103    .
+102           2527    SSVQATK|SK  0.089    .
+102           2529    VQATKSK|TK  0.066    .
+102           2531    ATKSKTK|LV  0.071    .
+102           2534    SKTKLVK|KP  0.077    .
+102           2535    KTKLVKK|PT  0.090    .
+102           2538    LVKKPTK|IL  0.077    .
+102           2543    TKILTQK|PK  0.068    .
+102           2545    ILTQKPK|QD  0.076    .
+102           2549    KPKQDSK|TP  0.058    .
+102           2556    TPVNSQK|PG  0.075    .
+102           2560    SQKPGQK|SP  0.070    .
+102           2567    SPAVISK|KP  0.067    .
+102           2568    PAVISKK|PA  0.174    .
+102           2572    SKKPASK|ST  0.093    .
+102           2579    STATVAK|KP  0.068    .
+102           2580    TATVAKK|PA  0.101    .
+102           2586    KPAVSSK|LS  0.116    .
+102           2593    LSGTGLK|KS  0.058    .
+102           2594    SGTGLKK|SA  0.199    .
+102           2605    AGIAALK|KS  0.053    .
+102           2606    GIAALKK|SP  0.115    .
+102           2614    PSTTSLK|KS  0.063    .
+102           2615    STTSLKK|SG  0.109    .
+102           2626    TNLASVK|SK  0.084    .
+102           2628    LASVKSK|ID  0.087    .
+102           2634    KIDTGIR|GN  0.074    .
+102           2637    TGIRGNR|SL  0.581 *ProP*
+102           2642    NRSLGSK|ET  0.069    .
+102           2655    SFQNSPK|PL  0.094    .
+102           2659    SPKPLTK|SG  0.086    .
+102           2668    STHSLNK|SG  0.083    .
+102           2679    SSLAGIK|PK  0.061    .
+102           2681    LAGIKPK|VD  0.071    .
+102           2688    VDTGMIK|RI  0.063    .
+102           2689    DTGMIKR|IK  0.136    .
+102           2691    GMIKRIK|TH  0.062    .
+102           2698    THNSSQR|ET  0.191    .
+102           2707    SNELHQK|QQ  0.079    .
+102           2714    QQEVSVK|AK  0.071    .
+102           2716    EVSVKAK|VD  0.075    .
+102           2721    AKVDSLR|KT  0.105    .
+102           2722    KVDSLRK|TT  0.061    .
+102           2727    RKTTLIR|TQ  0.090    .
+102           2746    TTNINSR|QI  0.124    .
+102           2750    NSRQIAK|IK  0.075    .
+102           2752    RQIAKIK|ST  0.098    .
+102           2756    KIKSTAK|SK  0.087    .
+102           2758    KSTAKSK|ID  0.061    .
+102           2763    SKIDTGR|RT  0.084    .
+102           2764    KIDTGRR|TP  0.093    .
+102           2768    GRRTPLK|AT  0.081    .
+102           2815    SPGGGSR|FA  0.117    .
+102           2840    FSYGDGK|ES  0.062    .
+102           2853    ESEITMR|EG  0.105    .
+102           2861    GSPIEFR|PG  0.104    .
+102           2872    ASTGEMR|TE  0.072    .
+102           2886    FAVEELK|ID  0.054    .
+102           2919    GDFEVVR|DS  0.161    .
+102           2951    VPLPEPR|KE  0.067    .
+102           2952    PLPEPRK|EE  0.063    .
+102           2960    ELPSDFR|PP  0.072    .
+102           2982    STHDVTR|RG  0.140    .
+102           2983    THDVTRR|GS  0.170    .
+102           2999    CPSPVGR|PG  0.198    .
+102           3009    PGLIMGR|GH  0.098    .
+102           3013    MGRGHGK|PL  0.072    .
+102           3028    DGLGAMR|GS  0.089    .
+102           3037    SEETEDR|HT  0.123    .
+102           3061    EGGGSVR|YS  0.094    .
+102           3067    RYSTGTK|MG  0.074    .
+102           3076    SSGGSSK|VS  0.086    .
+102           3082    KVSGGGR|SS  0.158    .
+102           3091    PSGGYSK|GV  0.084    .
+102           3112    SGFSSSK|GG  0.075    .
+102           3149    SSGGFSK|GG  0.085    .
+102           3159    ASGGFSK|GR  0.074    .
+102           3161    GGFSKGR|QQ  0.106    .
+____________________________^_________________
+
+
+
+

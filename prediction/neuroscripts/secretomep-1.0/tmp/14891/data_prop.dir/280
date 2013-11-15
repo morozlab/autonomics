@@ -1,0 +1,361 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2140 280         
+MSLNRGPTVVESLDIATETGRSIHIRANAARQPNVLFILADDLGYEDLGFQGSDILTPNIDKLAREGVILENHYVMPQCA      80
+PTRASLLTGRHAIRTGFWNGNMSPFSEWGLDESEITMADMFREYGYKTHIIGKWHLGMSRWSQTPTMRGFDTFLGQYQGS     160
+GDYFTHIIQGAYDLREDEVEDGYLKDTIRYDLKGNYSTNIYTERAVELIRGASKHQHPWFMYLAYTAPHLKYQAPRGKQH     240
+QFSQHMVISSKRRRLYASMISILDEGVGRVMGVLDEVGARENTVVVFASDNGAPIVDGAGSNYPFKGGKKSFYEGGVRSV     320
+SFVNSPLLHKTGYVNRNIHHVIDWFPTFEYLASGGMDSQRDVDGVNIWPSISEGKAVRSHTLINMALFGANDVSVPDLIQ     400
+DALSREEKLIHIFPETNFNFLHSNGHFVYRWFSWKLILGQVGSEDCSASKRLVSNTNGTEKEWTYVKISSIITRVQLYNL     480
+HTDPSESDNVALDNPSVVQMVATKMLDYVDKVKHIGQRTYSTKGKGLSGRDGLGLPRDRKTMLILYKTLIRSKLEYCCAL     560
+WDSPKISDIQALENVQRKYTRKIQGLKEFTYWERLEKLHLQSLQRRRERYSIILMWKMANDEAPNNIGIRFYSSDRLGIR     640
+AEVPTSPTRAQTSIATKQYNSFAGRATRLWNTLPKTVNSAKRLENFKVLLGEWMKRFPDRPPISGYSRQNNNSILEWSRG     720
+TVFTKLQSLLKSAMWLRGYSRLKKVGLMYGMNDENIRPRSHNMEKHSLSNHLKKKARSNFVKVEESVESEEDGSPSGAVM     800
+VERKRKLTANTPKDSKSKSSKWQPPEEGCCHFCYTKDKTRELGELRELNDDLAAHHSCLLFASGLVQAGENDEGLWGFLE     880
+PHIKKEFSRGKRLRCAFCNKFGALVGCHKAKCPHSYHLTCAFKNSCLMQFDDKYRSYCSTHRPVQYCEKGTMGNTTECPI     960
+CREGITVDSIISPLDILLTECCNNTPIHRECLQNQADSSGYFFRCPMCNNEKNTMTERETDPLVRYKKYVETHNIKGILK    1040
+DCVSTLCLHSPDNPYQFFADYFTKLNELVLPASRQTSPTTSSSSLDALSLSISLSLLSLSLSLSLSLSSRSLSLSLSLSL    1120
+SPMGDIVDKYLTNYPTHPRSITLLVLSLFDMGERMVGFILRAVYGTLVVPSLAKKWKEGEDGLCKLCGDAPGSIRHILTG    1200
+CKVALGQGRDRWRHDKVLRQISEQVKFHCEVRANAASRSTRGSRSIEFVAEGKKGKKKGKKKVSGCGILSGAKDGVVLSD    1280
+IGSQLKFPAEIAQTRLRPDLVVFSREVKTVIWWELTCPAEERIGDAHTRKIERYTDLEREGESNGWRCFNMAVEVGARGQ    1360
+VADSLVSAASRLGFRGRGLRKLVKDTGKEAAHCSMWIYFLSAKKEWEYRNVETTVAKVPGQYLQVQFKHKCLPTVLRIIP    1440
+PPPHTIFVIPGEPKDYKTTQALLKAIDKNALMCHLDDNDKSDMFEAMVLRRFNPGENIITQGDEGDNFYVINHGEVEILV    1520
+DNQLQCTQGEGGTFGELALIHDCPRAATVRAKTDVRVWAIDGHTYRKILRSNTMRKRRLYDSFLKNVQILESLDTWERYI    1600
+VADALESISFKDQEIVVKQGDPGDHFYIIVEGRASVTKNSDETEVQVSVLNKYSYFGEITLLLNRPRAATVRAIGSLDCV    1680
+KLDRARFERVLGPCIEILKRNMEHYNSLISQAILYGGAILHLILGWGRGARQGRILCKDHIDTLNWRSLDNTHGLSIHNP    1760
+YHNITQHNSLLNRTPPTSLNKDSRVVGWCRLYVLSTLLDWPLHCSRGMRGCRVALTRRGQQTQQAVQSHTEIGGGLVLGN    1840
+EITPPRECPTARVPHRASAPPRECPTARVPHRASAPPRECPTARVPHRASAPPRECPTARVPHRASAPPRECPTARVPHR    1920
+ASAPVGVTSFLPESDETKQRKKYLQLYTLNATLHLHPHTPLLLPMWFSEISKKIGLQGIVWKSGGKVYMVGSSSAVSNNL    2000
+NSSKQSFRSRFLFAGFMSSSSSASSYGWGHNSVDPVTLSKMALSNIETSGRSVKLVLQLGIGVFIEGAAVIWVICLTKDC    2080
+PEAVPSLNRTLRHVIRQWEILAQISLFRIPTGAGLGFRQNSTRAVIFIRYYHLVRTETSK                        2160
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+...................................................................P............    1040
+................................................................................    1120
+................................................................................    1200
+........................................P.......................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.........................................................P......................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+...........P................................................                        2160
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+280              5    --MSLNR|GP  0.089    .
+280             21    IATETGR|SI  0.118    .
+280             26    GRSIHIR|AN  0.202    .
+280             31    IRANAAR|QP  0.112    .
+280             62    LTPNIDK|LA  0.061    .
+280             65    NIDKLAR|EG  0.085    .
+280             83    PQCAPTR|AS  0.081    .
+280             90    ASLLTGR|HA  0.097    .
+280             94    TGRHAIR|TG  0.105    .
+280            122    TMADMFR|EY  0.133    .
+280            127    FREYGYK|TH  0.064    .
+280            133    KTHIIGK|WH  0.061    .
+280            140    WHLGMSR|WS  0.072    .
+280            148    SQTPTMR|GF  0.119    .
+280            175    QGAYDLR|ED  0.083    .
+280            185    VEDGYLK|DT  0.057    .
+280            189    YLKDTIR|YD  0.089    .
+280            193    TIRYDLK|GN  0.063    .
+280            204    TNIYTER|AV  0.168    .
+280            210    RAVELIR|GA  0.129    .
+280            214    LIRGASK|HQ  0.070    .
+280            231    YTAPHLK|YQ  0.066    .
+280            236    LKYQAPR|GK  0.142    .
+280            238    YQAPRGK|QH  0.074    .
+280            251    HMVISSK|RR  0.056    .
+280            252    MVISSKR|RR  0.108    .
+280            253    VISSKRR|RL  0.201    .
+280            254    ISSKRRR|LY  0.166    .
+280            269    LDEGVGR|VM  0.085    .
+280            280    LDEVGAR|EN  0.091    .
+280            306    GSNYPFK|GG  0.077    .
+280            309    YPFKGGK|KS  0.066    .
+280            310    PFKGGKK|SF  0.133    .
+280            318    FYEGGVR|SV  0.125    .
+280            330    NSPLLHK|TG  0.056    .
+280            336    KTGYVNR|NI  0.143    .
+280            360    GGMDSQR|DV  0.266    .
+280            375    PSISEGK|AV  0.074    .
+280            378    SEGKAVR|SH  0.117    .
+280            405    IQDALSR|EE  0.064    .
+280            408    ALSREEK|LI  0.164    .
+280            430    NGHFVYR|WF  0.141    .
+280            435    YRWFSWK|LI  0.075    .
+280            450    EDCSASK|RL  0.057    .
+280            451    DCSASKR|LV  0.344    .
+280            461    NTNGTEK|EW  0.069    .
+280            467    KEWTYVK|IS  0.068    .
+280            474    ISSIITR|VQ  0.108    .
+280            504    VQMVATK|ML  0.072    .
+280            511    MLDYVDK|VK  0.076    .
+280            513    DYVDKVK|HI  0.075    .
+280            518    VKHIGQR|TY  0.122    .
+280            523    QRTYSTK|GK  0.088    .
+280            525    TYSTKGK|GL  0.098    .
+280            530    GKGLSGR|DG  0.108    .
+280            537    DGLGLPR|DR  0.076    .
+280            539    LGLPRDR|KT  0.075    .
+280            540    GLPRDRK|TM  0.131    .
+280            547    TMLILYK|TL  0.062    .
+280            551    LYKTLIR|SK  0.085    .
+280            553    KTLIRSK|LE  0.053    .
+280            565    ALWDSPK|IS  0.068    .
+280            577    ALENVQR|KY  0.098    .
+280            578    LENVQRK|YT  0.146    .
+280            581    VQRKYTR|KI  0.094    .
+280            582    QRKYTRK|IQ  0.127    .
+280            587    RKIQGLK|EF  0.060    .
+280            594    EFTYWER|LE  0.069    .
+280            597    YWERLEK|LH  0.095    .
+280            605    HLQSLQR|RR  0.072    .
+280            606    LQSLQRR|RE  0.127    .
+280            607    QSLQRRR|ER  0.119    .
+280            609    LQRRRER|YS  0.275    .
+280            617    SIILMWK|MA  0.073    .
+280            630    PNNIGIR|FY  0.112    .
+280            636    RFYSSDR|LG  0.075    .
+280            640    SDRLGIR|AE  0.079    .
+280            649    VPTSPTR|AQ  0.075    .
+280            657    QTSIATK|QY  0.064    .
+280            665    YNSFAGR|AT  0.100    .
+280            668    FAGRATR|LW  0.235    .
+280            675    LWNTLPK|TV  0.083    .
+280            681    KTVNSAK|RL  0.067    .
+280            682    TVNSAKR|LE  0.148    .
+280            687    KRLENFK|VL  0.057    .
+280            695    LLGEWMK|RF  0.059    .
+280            696    LGEWMKR|FP  0.153    .
+280            700    MKRFPDR|PP  0.119    .
+280            708    PISGYSR|QN  0.094    .
+280            719    SILEWSR|GT  0.074    .
+280            725    RGTVFTK|LQ  0.062    .
+280            731    KLQSLLK|SA  0.085    .
+280            737    KSAMWLR|GY  0.109    .
+280            741    WLRGYSR|LK  0.094    .
+280            743    RGYSRLK|KV  0.081    .
+280            744    GYSRLKK|VG  0.234    .
+280            757    MNDENIR|PR  0.086    .
+280            759    DENIRPR|SH  0.144    .
+280            765    RSHNMEK|HS  0.062    .
+280            773    SLSNHLK|KK  0.073    .
+280            774    LSNHLKK|KA  0.151    .
+280            775    SNHLKKK|AR  0.140    .
+280            777    HLKKKAR|SN  0.205    .
+280            782    ARSNFVK|VE  0.094    .
+280            803    GAVMVER|KR  0.080    .
+280            804    AVMVERK|RK  0.074    .
+280            805    VMVERKR|KL  0.140    .
+280            806    MVERKRK|LT  0.221    .
+280            813    LTANTPK|DS  0.072    .
+280            816    NTPKDSK|SK  0.067    .
+280            818    PKDSKSK|SS  0.090    .
+280            821    SKSKSSK|WQ  0.095    .
+280            836    CHFCYTK|DK  0.068    .
+280            838    FCYTKDK|TR  0.069    .
+280            840    YTKDKTR|EL  0.102    .
+280            846    RELGELR|EL  0.082    .
+280            884    FLEPHIK|KE  0.059    .
+280            885    LEPHIKK|EF  0.098    .
+280            889    IKKEFSR|GK  0.086    .
+280            891    KEFSRGK|RL  0.064    .
+280            892    EFSRGKR|LR  0.406    .
+280            894    SRGKRLR|CA  0.171    .
+280            900    RCAFCNK|FG  0.067    .
+280            909    ALVGCHK|AK  0.062    .
+280            911    VGCHKAK|CP  0.075    .
+280            923    HLTCAFK|NS  0.058    .
+280            933    LMQFDDK|YR  0.065    .
+280            935    QFDDKYR|SY  0.110    .
+280            942    SYCSTHR|PV  0.118    .
+280            949    PVQYCEK|GT  0.066    .
+280            962    TECPICR|EG  0.088    .
+280            989    NNTPIHR|EC  0.077    .
+280           1004    SSGYFFR|CP  0.101    .
+280           1012    PMCNNEK|NT  0.064    .
+280           1018    KNTMTER|ET  0.094    .
+280           1025    ETDPLVR|YK  0.095    .
+280           1027    DPLVRYK|KY  0.060    .
+280           1028    PLVRYKK|YV  0.516 *ProP*
+280           1036    VETHNIK|GI  0.059    .
+280           1040    NIKGILK|DC  0.060    .
+280           1064    FADYFTK|LN  0.071    .
+280           1074    LVLPASR|QT  0.082    .
+280           1110    SLSLSSR|SL  0.206    .
+280           1129    MGDIVDK|YL  0.071    .
+280           1139    NYPTHPR|SI  0.108    .
+280           1154    LFDMGER|MV  0.124    .
+280           1161    MVGFILR|AV  0.135    .
+280           1174    VVPSLAK|KW  0.066    .
+280           1175    VPSLAKK|WK  0.125    .
+280           1177    SLAKKWK|EG  0.102    .
+280           1185    GEDGLCK|LC  0.068    .
+280           1195    DAPGSIR|HI  0.085    .
+280           1202    HILTGCK|VA  0.058    .
+280           1209    VALGQGR|DR  0.091    .
+280           1211    LGQGRDR|WR  0.089    .
+280           1213    QGRDRWR|HD  0.088    .
+280           1216    DRWRHDK|VL  0.174    .
+280           1219    RHDKVLR|QI  0.127    .
+280           1226    QISEQVK|FH  0.077    .
+280           1232    KFHCEVR|AN  0.114    .
+280           1238    RANAASR|ST  0.212    .
+280           1241    AASRSTR|GS  0.505 *ProP*
+280           1244    RSTRGSR|SI  0.478    .
+280           1253    EFVAEGK|KG  0.057    .
+280           1254    FVAEGKK|GK  0.090    .
+280           1256    AEGKKGK|KK  0.084    .
+280           1257    EGKKGKK|KG  0.080    .
+280           1258    GKKGKKK|GK  0.149    .
+280           1260    KGKKKGK|KK  0.069    .
+280           1261    GKKKGKK|KV  0.190    .
+280           1262    KKKGKKK|VS  0.172    .
+280           1273    GILSGAK|DG  0.054    .
+280           1286    DIGSQLK|FP  0.060    .
+280           1295    AEIAQTR|LR  0.074    .
+280           1297    IAQTRLR|PD  0.082    .
+280           1305    DLVVFSR|EV  0.144    .
+280           1308    VFSREVK|TV  0.208    .
+280           1322    TCPAEER|IG  0.087    .
+280           1329    IGDAHTR|KI  0.113    .
+280           1330    GDAHTRK|IE  0.076    .
+280           1333    HTRKIER|YT  0.121    .
+280           1339    RYTDLER|EG  0.069    .
+280           1347    GESNGWR|CF  0.106    .
+280           1358    AVEVGAR|GQ  0.070    .
+280           1371    LVSAASR|LG  0.091    .
+280           1375    ASRLGFR|GR  0.077    .
+280           1377    RLGFRGR|GL  0.131    .
+280           1380    FRGRGLR|KL  0.189    .
+280           1381    RGRGLRK|LV  0.107    .
+280           1384    GLRKLVK|DT  0.098    .
+280           1388    LVKDTGK|EA  0.069    .
+280           1403    IYFLSAK|KE  0.060    .
+280           1404    YFLSAKK|EW  0.074    .
+280           1409    KKEWEYR|NV  0.143    .
+280           1417    VETTVAK|VP  0.072    .
+280           1428    YLQVQFK|HK  0.061    .
+280           1430    QVQFKHK|CL  0.081    .
+280           1437    CLPTVLR|II  0.098    .
+280           1454    VIPGEPK|DY  0.065    .
+280           1457    GEPKDYK|TT  0.069    .
+280           1464    TTQALLK|AI  0.076    .
+280           1468    LLKAIDK|NA  0.058    .
+280           1480    HLDDNDK|SD  0.064    .
+280           1490    FEAMVLR|RF  0.103    .
+280           1491    EAMVLRR|FN  0.143    .
+280           1545    LIHDCPR|AA  0.104    .
+280           1550    PRAATVR|AK  0.137    .
+280           1552    AATVRAK|TD  0.061    .
+280           1556    RAKTDVR|VW  0.085    .
+280           1566    IDGHTYR|KI  0.100    .
+280           1567    DGHTYRK|IL  0.079    .
+280           1570    TYRKILR|SN  0.110    .
+280           1575    LRSNTMR|KR  0.092    .
+280           1576    RSNTMRK|RR  0.065    .
+280           1577    SNTMRKR|RL  0.175    .
+280           1578    NTMRKRR|LY  0.554 *ProP*
+280           1585    LYDSFLK|NV  0.066    .
+280           1598    SLDTWER|YI  0.075    .
+280           1611    LESISFK|DQ  0.104    .
+280           1618    DQEIVVK|QG  0.070    .
+280           1633    YIIVEGR|AS  0.096    .
+280           1638    GRASVTK|NS  0.087    .
+280           1652    QVSVLNK|YS  0.093    .
+280           1665    ITLLLNR|PR  0.064    .
+280           1667    LLLNRPR|AA  0.093    .
+280           1672    PRAATVR|AI  0.130    .
+280           1681    GSLDCVK|LD  0.056    .
+280           1684    DCVKLDR|AR  0.074    .
+280           1686    VKLDRAR|FE  0.093    .
+280           1689    DRARFER|VL  0.435    .
+280           1699    PCIEILK|RN  0.055    .
+280           1700    CIEILKR|NM  0.136    .
+280           1728    LILGWGR|GA  0.114    .
+280           1731    GWGRGAR|QG  0.222    .
+280           1734    RGARQGR|IL  0.357    .
+280           1738    QGRILCK|DH  0.085    .
+280           1747    IDTLNWR|SL  0.109    .
+280           1773    HNSLLNR|TP  0.091    .
+280           1781    PPTSLNK|DS  0.069    .
+280           1784    SLNKDSR|VV  0.186    .
+280           1790    RVVGWCR|LY  0.066    .
+280           1806    WPLHCSR|GM  0.090    .
+280           1809    HCSRGMR|GC  0.358    .
+280           1812    RGMRGCR|VA  0.232    .
+280           1817    CRVALTR|RG  0.091    .
+280           1818    RVALTRR|GQ  0.176    .
+280           1846    NEITPPR|EC  0.081    .
+280           1852    RECPTAR|VP  0.087    .
+280           1856    TARVPHR|AS  0.118    .
+280           1862    RASAPPR|EC  0.131    .
+280           1868    RECPTAR|VP  0.087    .
+280           1872    TARVPHR|AS  0.118    .
+280           1878    RASAPPR|EC  0.131    .
+280           1884    RECPTAR|VP  0.087    .
+280           1888    TARVPHR|AS  0.118    .
+280           1894    RASAPPR|EC  0.131    .
+280           1900    RECPTAR|VP  0.087    .
+280           1904    TARVPHR|AS  0.118    .
+280           1910    RASAPPR|EC  0.131    .
+280           1916    RECPTAR|VP  0.088    .
+280           1920    TARVPHR|AS  0.163    .
+280           1938    PESDETK|QR  0.066    .
+280           1940    SDETKQR|KK  0.102    .
+280           1941    DETKQRK|KY  0.077    .
+280           1942    ETKQRKK|YL  0.091    .
+280           1972    WFSEISK|KI  0.074    .
+280           1973    FSEISKK|IG  0.123    .
+280           1982    LQGIVWK|SG  0.117    .
+280           1986    VWKSGGK|VY  0.056    .
+280           2004    NNLNSSK|QS  0.068    .
+280           2008    SSKQSFR|SR  0.113    .
+280           2010    KQSFRSR|FL  0.225    .
+280           2040    DPVTLSK|MA  0.066    .
+280           2051    NIETSGR|SV  0.177    .
+280           2054    TSGRSVK|LV  0.241    .
+280           2078    WVICLTK|DC  0.069    .
+280           2089    AVPSLNR|TL  0.092    .
+280           2092    SLNRTLR|HV  0.535 *ProP*
+280           2096    TLRHVIR|QW  0.133    .
+280           2108    AQISLFR|IP  0.089    .
+280           2118    GAGLGFR|QN  0.091    .
+280           2123    FRQNSTR|AV  0.168    .
+280           2129    RAVIFIR|YY  0.110    .
+280           2135    RYYHLVR|TE  0.073    .
+280           2140    VRTETSK|--  0.068    .
+____________________________^_________________
+
+
+
+

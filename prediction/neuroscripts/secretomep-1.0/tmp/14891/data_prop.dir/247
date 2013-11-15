@@ -1,0 +1,241 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2301 247         
+MFYGWWHKSSTLHIPHISPGSPGSPDFHTEHRRNVNEIEWEYVKYTSGLVMKLPLREINNRGDFGDGSGDHWGTSTIVSR      80
+VLSWRSPSGPHSHHYDAADGETSPLRLAQQVTSVTKHVTCHATQSICSVPSAKLDNHKRHSVMFLKVKHAISLINVLYLR     160
+ITSQAIGTHTSLAASSEISVRIKIDIVEQPCKVTALHHIGNYGGVGGTFFLPQTHGEVKYKSSFLLEVLVSHHEKRTSQK     240
+EEINNMPLYPTEEVGVTSHMACVTLRNMTLCLLRLSNLADLGHISSEISVRIKIDSRATLQSYSTPPYRELWWFRGVIFF     320
+AADVLLAERARTVRPCATVDYLFPSVYVSVAHSLSLSLSLSLSLSLSLSLSLSLYLSLSLSLSLSISLSLSLSLSLSLSL     400
+SLSLSLYLSLSLSLSLSISLSLSLSLSLSLSLSLFLSLSLSLSLSLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     480
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     560
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     640
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     720
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     880
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1120
+LSLSLSLSLSLSLSLSLSLSLSPLEPEESSNGGGEMRALLQMKNLLLFLVEELLPIETASSPSLAALLNINTSPSSPKSP    1200
+STASLSAPLLQHFLIPTCLSHVTKTITTKLKDVPSVNVVLTHQDNGGGGSLLCASTVYYFSEDWVLQNHLLSVSHHPSIT    1280
+AAYTALLDTITRFGLEGKVARVVIREAHPDSNVSLLSPSTAEPVKSTNTEVLPASTERLDCLVDSVTQIAALNSIPTPSS    1360
+EVPYGKDFPRWTYELSTTTDPNHSTLEPFSELTTIVTKGELISVAIPSLLSLGRILKDGAMAEKAREQIKVFTDSPIYRV    1440
+ATFLDPRFKLVWCTDKVQEDEVVEEVKRLVGLKITPSTNGVSDRVPASVKSELFDASSDQLEPDSKRLKLRLLSYFFDYD    1520
+QNPASSLERELREYMAAPPAPETTQPAEYWRWSPLSQLATLAKRAQINLFKVVLKSLRIHYIDGGLRAKRGKGRREIRVR    1600
+EKETVKRESSASWKKGEGESNTCTKHMIICQSIGENCGQSIGENCGQSIGLTDDHLIKMKTNLIHMCGIGHTGCCLVMET    1680
+TNQNSLFKSRVWLSANQGPVFTHTSSIGPVTDPPTPLSVWSRRSCTKLEGTKPVVPLSSPLKKPSDIVSPSFWRRRWRCY    1760
+FEHFRLLGWPGEADGHLDTLLLVRTHCHYTDIREGVGTHLLQDYLPAVWTKHYQLLRTGHIDLTGRRMLSEHWPDPILAS    1840
+LKRAIILTNCSVFKELDFRISNGTVYVQHHTHLIPGHHDTLIPSVHQKRGFPCQAHTGVRQHGVLLGALPNKVGGDKSEP    1920
+AIQLSRIVPVLERERVRNKLLQSWRQPIRTRYLSHVSGYQPIRDQYSHIPRPLDQIIVRAVRGGVICVKCNHELGAHIHT    2000
+SHALTHTLTWIRRGRVNKICCCQSIGLTRFSLLSSARELWSEHWPDRFILSNNRSRDWLSANQRIRPAHECNISRSRCII    2080
+ERSETAVAVLLKLEEELLASSIVLRAFFTSSSISAVVEGCLSTVRVAGGGGVGDVAWWISSSRFTANVPAGRGGLLLQPS    2160
+NQSALVSQLGLVTIDCHPQDPNLVFVCLQLFLFLVQSLITRLLLIGYGIREMIRRSDSVSAANGVMVWDTRDDSAKGGVA    2240
+VGPCPAHKSIPVSGESGVTFGVVLSVVLAAPVLVPVLNVFSLEKHIDDFFEMAFTNYYGTR                       2320
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.....................................................................P..........    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+.............................................................                       2320
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+247              8    FYGWWHK|SS  0.077    .
+247             32    DFHTEHR|RN  0.083    .
+247             33    FHTEHRR|NV  0.229    .
+247             44    IEWEYVK|YT  0.066    .
+247             52    TSGLVMK|LP  0.063    .
+247             56    VMKLPLR|EI  0.075    .
+247             61    LREINNR|GD  0.102    .
+247             80    TSTIVSR|VL  0.098    .
+247             85    SRVLSWR|SP  0.164    .
+247            106    GETSPLR|LA  0.092    .
+247            116    QVTSVTK|HV  0.075    .
+247            133    CSVPSAK|LD  0.072    .
+247            138    AKLDNHK|RH  0.060    .
+247            139    KLDNHKR|HS  0.184    .
+247            146    HSVMFLK|VK  0.063    .
+247            148    VMFLKVK|HA  0.072    .
+247            160    INVLYLR|IT  0.117    .
+247            181    SSEISVR|IK  0.114    .
+247            183    EISVRIK|ID  0.074    .
+247            192    IVEQPCK|VT  0.057    .
+247            219    QTHGEVK|YK  0.071    .
+247            221    HGEVKYK|SS  0.093    .
+247            235    LVSHHEK|RT  0.107    .
+247            236    VSHHEKR|TS  0.322    .
+247            240    EKRTSQK|EE  0.068    .
+247            266    MACVTLR|NM  0.080    .
+247            274    MTLCLLR|LS  0.069    .
+247            291    SSEISVR|IK  0.123    .
+247            293    EISVRIK|ID  0.075    .
+247            297    RIKIDSR|AT  0.089    .
+247            309    YSTPPYR|EL  0.091    .
+247            315    RELWWFR|GV  0.120    .
+247            329    DVLLAER|AR  0.061    .
+247            331    LLAERAR|TV  0.133    .
+247            334    ERARTVR|PC  0.264    .
+247           1157    NGGGEMR|AL  0.092    .
+247           1163    RALLQMK|NL  0.061    .
+247           1198    TSPSSPK|SP  0.095    .
+247           1224    CLSHVTK|TI  0.106    .
+247           1229    TKTITTK|LK  0.060    .
+247           1231    TITTKLK|DV  0.091    .
+247           1292    LLDTITR|FG  0.074    .
+247           1298    RFGLEGK|VA  0.069    .
+247           1301    LEGKVAR|VV  0.151    .
+247           1305    VARVVIR|EA  0.122    .
+247           1325    STAEPVK|ST  0.086    .
+247           1338    LPASTER|LD  0.084    .
+247           1366    SEVPYGK|DF  0.067    .
+247           1370    YGKDFPR|WT  0.102    .
+247           1398    LTTIVTK|GE  0.058    .
+247           1414    SLLSLGR|IL  0.101    .
+247           1417    SLGRILK|DG  0.149    .
+247           1424    DGAMAEK|AR  0.066    .
+247           1426    AMAEKAR|EQ  0.132    .
+247           1430    KAREQIK|VF  0.067    .
+247           1439    TDSPIYR|VA  0.119    .
+247           1447    ATFLDPR|FK  0.070    .
+247           1449    FLDPRFK|LV  0.066    .
+247           1456    LVWCTDK|VQ  0.062    .
+247           1467    EVVEEVK|RL  0.056    .
+247           1468    VVEEVKR|LV  0.201    .
+247           1473    KRLVGLK|IT  0.060    .
+247           1484    TNGVSDR|VP  0.098    .
+247           1490    RVPASVK|SE  0.058    .
+247           1506    QLEPDSK|RL  0.056    .
+247           1507    LEPDSKR|LK  0.115    .
+247           1509    PDSKRLK|LR  0.054    .
+247           1511    SKRLKLR|LL  0.136    .
+247           1529    PASSLER|EL  0.099    .
+247           1532    SLERELR|EY  0.298    .
+247           1551    QPAEYWR|WS  0.095    .
+247           1563    QLATLAK|RA  0.073    .
+247           1564    LATLAKR|AQ  0.121    .
+247           1571    AQINLFK|VV  0.074    .
+247           1575    LFKVVLK|SL  0.083    .
+247           1578    VVLKSLR|IH  0.074    .
+247           1587    YIDGGLR|AK  0.072    .
+247           1589    DGGLRAK|RG  0.054    .
+247           1590    GGLRAKR|GK  0.575 *ProP*
+247           1592    LRAKRGK|GR  0.084    .
+247           1594    AKRGKGR|RE  0.101    .
+247           1595    KRGKGRR|EI  0.220    .
+247           1598    KGRREIR|VR  0.243    .
+247           1600    RREIRVR|EK  0.122    .
+247           1602    EIRVREK|ET  0.068    .
+247           1606    REKETVK|RE  0.056    .
+247           1607    EKETVKR|ES  0.215    .
+247           1614    ESSASWK|KG  0.078    .
+247           1615    SSASWKK|GE  0.144    .
+247           1625    ESNTCTK|HM  0.075    .
+247           1658    TDDHLIK|MK  0.072    .
+247           1660    DHLIKMK|TN  0.063    .
+247           1688    NQNSLFK|SR  0.067    .
+247           1690    NSLFKSR|VW  0.087    .
+247           1722    PLSVWSR|RS  0.142    .
+247           1723    LSVWSRR|SC  0.417    .
+247           1727    SRRSCTK|LE  0.078    .
+247           1732    TKLEGTK|PV  0.062    .
+247           1742    PLSSPLK|KP  0.071    .
+247           1743    LSSPLKK|PS  0.192    .
+247           1754    VSPSFWR|RR  0.069    .
+247           1755    SPSFWRR|RW  0.265    .
+247           1756    PSFWRRR|WR  0.149    .
+247           1758    FWRRRWR|CY  0.367    .
+247           1765    CYFEHFR|LL  0.087    .
+247           1784    DTLLLVR|TH  0.066    .
+247           1793    CHYTDIR|EG  0.063    .
+247           1811    LPAVWTK|HY  0.073    .
+247           1817    KHYQLLR|TG  0.081    .
+247           1826    HIDLTGR|RM  0.062    .
+247           1827    IDLTGRR|ML  0.128    .
+247           1842    PILASLK|RA  0.060    .
+247           1843    ILASLKR|AI  0.175    .
+247           1854    TNCSVFK|EL  0.071    .
+247           1859    FKELDFR|IS  0.075    .
+247           1888    IPSVHQK|RG  0.087    .
+247           1889    PSVHQKR|GF  0.240    .
+247           1900    QAHTGVR|QH  0.111    .
+247           1912    LGALPNK|VG  0.064    .
+247           1917    NKVGGDK|SE  0.072    .
+247           1926    PAIQLSR|IV  0.091    .
+247           1933    IVPVLER|ER  0.059    .
+247           1935    PVLERER|VR  0.065    .
+247           1937    LERERVR|NK  0.070    .
+247           1939    RERVRNK|LL  0.063    .
+247           1945    KLLQSWR|QP  0.076    .
+247           1949    SWRQPIR|TR  0.081    .
+247           1951    RQPIRTR|YL  0.123    .
+247           1963    SGYQPIR|DQ  0.105    .
+247           1971    QYSHIPR|PL  0.149    .
+247           1979    LDQIIVR|AV  0.156    .
+247           1982    IIVRAVR|GG  0.154    .
+247           1989    GGVICVK|CN  0.066    .
+247           2012    HTLTWIR|RG  0.064    .
+247           2013    TLTWIRR|GR  0.114    .
+247           2015    TWIRRGR|VN  0.224    .
+247           2018    RRGRVNK|IC  0.197    .
+247           2029    QSIGLTR|FS  0.076    .
+247           2037    SLLSSAR|EL  0.088    .
+247           2047    SEHWPDR|FI  0.111    .
+247           2054    FILSNNR|SR  0.076    .
+247           2056    LSNNRSR|DW  0.116    .
+247           2064    WLSANQR|IR  0.097    .
+247           2066    SANQRIR|PA  0.147    .
+247           2075    HECNISR|SR  0.156    .
+247           2077    CNISRSR|CI  0.083    .
+247           2082    SRCIIER|SE  0.143    .
+247           2092    AVAVLLK|LE  0.065    .
+247           2105    ASSIVLR|AF  0.115    .
+247           2125    GCLSTVR|VA  0.105    .
+247           2143    WWISSSR|FT  0.100    .
+247           2152    ANVPAGR|GG  0.075    .
+247           2201    VQSLITR|LL  0.082    .
+247           2210    LIGYGIR|EM  0.069    .
+247           2214    GIREMIR|RS  0.078    .
+247           2215    IREMIRR|SD  0.301    .
+247           2231    VMVWDTR|DD  0.118    .
+247           2236    TRDDSAK|GG  0.093    .
+247           2248    GPCPAHK|SI  0.099    .
+247           2284    NVFSLEK|HI  0.072    .
+247           2301    TNYYGTR|--  0.112    .
+____________________________^_________________
+
+
+
+

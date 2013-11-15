@@ -1,0 +1,462 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2317 244         
+MRKTNQKLILKTQPLTTPNSTPASPSAAALHGNLPNSVDDLFSNPFGFRSVAAKRTIKQNNVWSRISEDLARHAATKNHI      80
+AAAVDFKEFLKNTDESEPGTIHNMNAENIVEHNLEVEKNRSYLKMMFEVAIKLGILASPFRGYDEGAEIIYNLIVISIIL     160
+NLFSKKQSMEKLDVTTLALCAASALFGAAVSYFMVSRSNAVIINTDHEKEKPKCRHGDAAAANKDRVRCIMAYTSKPCQA     240
+LSNTCEEDAVIPDELDGVKEPADKGTPDEINKEPADEGSSDELDEDNVSSADESEESDYYYGIPDANWSQDSLAAMVRMH     320
+TPGKGIAQSALPYKRSVPNWQKLTGDEVKEMIYKLSKKGLTPSQIGVILRDSHGVNQVRHVTGTKILRILRAKGLASKIP     400
+EDLYHLIKKAVAIRKHLEKNRQDKDSKYRLILIESRIHKLARYYKTKSVLPPNWKYESATASALFVFTQLSPFLRDSSPT     480
+DTQNIWDTFPQIITLLQYYSTPPPLSQWQKLTGDEVKEMIYKLSKKGLTPSQIGVILRDSHGVNQVRHVTGTKILRILRA     560
+KGLASKIPEDLYHLIKKAVAIRKHLEKNRQDKDSKYRLILIESRIHKLARYYKTKSVLPPNWKYETVLVMVATENKKVRI     640
+KNEEQIRIKKRKRPDSAATLKKKAKLTELTEKQESVKKQDKETESQWSAIDIEHQKEFMAMGLASLEVMDESEFNISRPG     720
+KRKKTEAPKSTTKMVSGEGENPISDHPAAERKGKCKKEMSEEKREKIRQKRKEKMAKAKLKRQQEPDTEKEAERKSKLKE     800
+KRKAKRALKMAEKKASEELAKFYETDKEKPSAMEVDLSVANAAPEVSPAEKPGEEIATDKSVKETTTDQPGEEAPTDQPV     880
+VETTETTTEVETPDNEELTAAPEVEEEKGSKGRVVEEVVLSEEEKEKGKQWLAMDVCDAIVKGLVELGFTSPTPIQQACI     960
+PAGLLKYKYGTGNKLFRLTSLELLRRDRAKLDSAATLKKKAKLTELTEKQESVKKQDKETESQWSAIDIEHQKEFMAMGL    1040
+ASLEVMDESEFNISRPGKRKKTEAPKSTTKMVSGEGENPISDHPAAERKGKCKKEMSEEKREKIRQKRKEKMAKAKLKRQ    1120
+QEPDTEKEAERKSKLKEKRKAKRALKMAEKKASEELAKFYETEKPSAMDLGVATAAPEESPAEKPQTPSDQTVVETPTDQ    1200
+PGEDTATEIETPVVETTETPDNEELTATPEVEKGSKGRVVEEVVLSEEEKEKGKQWLAMDVCDAIVKGLVELGFTSPTPI    1280
+QQACIPAGLLKYKDVIGAAETGSGKTLAFGIPLIQRVMKMSGSGLRGLVLCPTRELATQVTDHLKAAAKYTGVLIVPILG    1360
+GIAPQKQERLLSYTPPIVVATPGRLWQLMEDQACPHLNDLTSIKFLVIDEVDRMVEDGHFEEVTRIIERLPGPASRNVFL    1440
+FSATLTFTIARLDEKAKKKKKTKAEKKAEKKGNAGLEQLVKNIGVKEKVEKVDFTRKKGTAANLKETYFMCNVEDKDLHL    1520
+YYLLANHPGKTLVFVNAIDGVMNLELNVNVYPLHSALQQRQRFKFLERFKEQSNAAMICTDVAARGLDIPSVDTVIHYQL    1600
+PKTLESYIHRSGRTARAQNEGLSIAIESGSNTVNFLYRGKFILPVNRGSGISGPGKSGSDCMFKAMVQIAEMVEDGHFEE    1680
+VTRIIERLPGPASRNVFLFSATLTFTIARLDEKAKKKKKSKAEKKAEKKGNAGLEQLVKNIGVKEKVEKVDFTRKKGTAE    1760
+NLKETYFMCNVEDKDLHLYYLLANHPGKTLVFVNAIDGVMNLELNVNVYPLHSALQQRQRFKFLERFKEQSNAAMICTDV    1840
+AARGLDIPSVDTVIHYQLPKTLESYIHRSGRTARAQNEGLSIAIVGPKCSEGEEKGTDYWKYRHCRDEAQGYKDQTQSKE    1920
+LNVNVYPLHSALQQRQRFKFLERFKEQSNAAMICTDVAARGLDIPSVDTVIHYQLPKTLESYIHRSGRTARAQNEGLSIA    2000
+IVGPKDFSAYKKVARQMTEFPIEQSRLRILRPVVALSRQIFKLERLSTRPAQKEAKLTALAREAGLGGDDSEGEGKVEAG    2080
+ATQRKTPFTNVGRVNCSHNLANTIRVAKCIRRGVKDVAKAIRKGEKGFVIIAGDISPIDVISHLPVLCEENKIPYCYVPA    2160
+RLDLGQAIGSNTPCSTILITKNDEYKDKYKECVKSIKELPIYKTIVIGMKDLFWDVPQCSCQSIGLTRFSLLSNKGLTQD    2240
+PRPGDSPGPTPFQNCQCQRIGLTHSRFSRSVRELWSEHRLDWDTTLELRNARCPVSLLKGGATGKLSVTSERVRESV       2320
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+............P...................................................................    1680
+................................................................................    1760
+................................................................................    1840
+..............................P.................................................    1920
+...................................................................P............    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+............................P................................................       2320
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+244              2    -----MR|KT  0.107    .
+244              3    ----MRK|TN  0.078    .
+244              7    MRKTNQK|LI  0.068    .
+244             11    NQKLILK|TQ  0.051    .
+244             49    SNPFGFR|SV  0.226    .
+244             54    FRSVAAK|RT  0.103    .
+244             55    RSVAAKR|TI  0.214    .
+244             58    AAKRTIK|QN  0.098    .
+244             65    QNNVWSR|IS  0.139    .
+244             72    ISEDLAR|HA  0.120    .
+244             77    ARHAATK|NH  0.074    .
+244             87    AAAVDFK|EF  0.064    .
+244             91    DFKEFLK|NT  0.070    .
+244            118    HNLEVEK|NR  0.060    .
+244            120    LEVEKNR|SY  0.166    .
+244            124    KNRSYLK|MM  0.062    .
+244            132    MFEVAIK|LG  0.054    .
+244            141    ILASPFR|GY  0.124    .
+244            165    ILNLFSK|KQ  0.065    .
+244            166    LNLFSKK|QS  0.126    .
+244            171    KKQSMEK|LD  0.059    .
+244            197    SYFMVSR|SN  0.140    .
+244            209    INTDHEK|EK  0.064    .
+244            211    TDHEKEK|PK  0.082    .
+244            213    HEKEKPK|CR  0.068    .
+244            215    KEKPKCR|HG  0.120    .
+244            224    DAAAANK|DR  0.066    .
+244            226    AAANKDR|VR  0.088    .
+244            228    ANKDRVR|CI  0.104    .
+244            236    IMAYTSK|PC  0.065    .
+244            259    DELDGVK|EP  0.054    .
+244            264    VKEPADK|GT  0.070    .
+244            272    TPDEINK|EP  0.063    .
+244            318    SLAAMVR|MH  0.108    .
+244            324    RMHTPGK|GI  0.076    .
+244            334    QSALPYK|RS  0.062    .
+244            335    SALPYKR|SV  0.359    .
+244            342    SVPNWQK|LT  0.073    .
+244            349    LTGDEVK|EM  0.062    .
+244            354    VKEMIYK|LS  0.065    .
+244            357    MIYKLSK|KG  0.053    .
+244            358    IYKLSKK|GL  0.138    .
+244            370    QIGVILR|DS  0.130    .
+244            379    HGVNQVR|HV  0.119    .
+244            385    RHVTGTK|IL  0.058    .
+244            388    TGTKILR|IL  0.094    .
+244            391    KILRILR|AK  0.158    .
+244            393    LRILRAK|GL  0.077    .
+244            398    AKGLASK|IP  0.061    .
+244            408    DLYHLIK|KA  0.072    .
+244            409    LYHLIKK|AV  0.135    .
+244            414    KKAVAIR|KH  0.084    .
+244            415    KAVAIRK|HL  0.110    .
+244            419    IRKHLEK|NR  0.065    .
+244            421    KHLEKNR|QD  0.085    .
+244            424    EKNRQDK|DS  0.190    .
+244            427    RQDKDSK|YR  0.058    .
+244            429    DKDSKYR|LI  0.084    .
+244            436    LILIESR|IH  0.065    .
+244            439    IESRIHK|LA  0.149    .
+244            442    RIHKLAR|YY  0.131    .
+244            445    KLARYYK|TK  0.146    .
+244            447    ARYYKTK|SV  0.115    .
+244            455    VLPPNWK|YE  0.060    .
+244            475    QLSPFLR|DS  0.159    .
+244            510    PLSQWQK|LT  0.112    .
+244            517    LTGDEVK|EM  0.062    .
+244            522    VKEMIYK|LS  0.065    .
+244            525    MIYKLSK|KG  0.053    .
+244            526    IYKLSKK|GL  0.138    .
+244            538    QIGVILR|DS  0.130    .
+244            547    HGVNQVR|HV  0.119    .
+244            553    RHVTGTK|IL  0.058    .
+244            556    TGTKILR|IL  0.094    .
+244            559    KILRILR|AK  0.158    .
+244            561    LRILRAK|GL  0.077    .
+244            566    AKGLASK|IP  0.061    .
+244            576    DLYHLIK|KA  0.072    .
+244            577    LYHLIKK|AV  0.135    .
+244            582    KKAVAIR|KH  0.084    .
+244            583    KAVAIRK|HL  0.110    .
+244            587    IRKHLEK|NR  0.065    .
+244            589    KHLEKNR|QD  0.085    .
+244            592    EKNRQDK|DS  0.190    .
+244            595    RQDKDSK|YR  0.058    .
+244            597    DKDSKYR|LI  0.084    .
+244            604    LILIESR|IH  0.065    .
+244            607    IESRIHK|LA  0.149    .
+244            610    RIHKLAR|YY  0.131    .
+244            613    KLARYYK|TK  0.146    .
+244            615    ARYYKTK|SV  0.115    .
+244            623    VLPPNWK|YE  0.058    .
+244            636    MVATENK|KV  0.074    .
+244            637    VATENKK|VR  0.080    .
+244            639    TENKKVR|IK  0.133    .
+244            641    NKKVRIK|NE  0.068    .
+244            647    KNEEQIR|IK  0.091    .
+244            649    EEQIRIK|KR  0.054    .
+244            650    EQIRIKK|RK  0.151    .
+244            651    QIRIKKR|KR  0.221    .
+244            652    IRIKKRK|RP  0.112    .
+244            653    RIKKRKR|PD  0.225    .
+244            661    DSAATLK|KK  0.060    .
+244            662    SAATLKK|KA  0.142    .
+244            663    AATLKKK|AK  0.110    .
+244            665    TLKKKAK|LT  0.097    .
+244            672    LTELTEK|QE  0.065    .
+244            677    EKQESVK|KQ  0.071    .
+244            678    KQESVKK|QD  0.102    .
+244            681    SVKKQDK|ET  0.073    .
+244            696    IDIEHQK|EF  0.068    .
+244            718    SEFNISR|PG  0.073    .
+244            721    NISRPGK|RK  0.168    .
+244            722    ISRPGKR|KK  0.202    .
+244            723    SRPGKRK|KT  0.125    .
+244            724    RPGKRKK|TE  0.121    .
+244            729    KKTEAPK|ST  0.092    .
+244            733    APKSTTK|MV  0.095    .
+244            751    DHPAAER|KG  0.070    .
+244            752    HPAAERK|GK  0.175    .
+244            754    AAERKGK|CK  0.151    .
+244            756    ERKGKCK|KE  0.076    .
+244            757    RKGKCKK|EM  0.125    .
+244            763    KEMSEEK|RE  0.055    .
+244            764    EMSEEKR|EK  0.210    .
+244            766    SEEKREK|IR  0.059    .
+244            768    EKREKIR|QK  0.117    .
+244            770    REKIRQK|RK  0.075    .
+244            771    EKIRQKR|KE  0.447    .
+244            772    KIRQKRK|EK  0.103    .
+244            774    RQKRKEK|MA  0.240    .
+244            777    RKEKMAK|AK  0.071    .
+244            779    EKMAKAK|LK  0.103    .
+244            781    MAKAKLK|RQ  0.065    .
+244            782    AKAKLKR|QQ  0.216    .
+244            790    QEPDTEK|EA  0.063    .
+244            794    TEKEAER|KS  0.084    .
+244            795    EKEAERK|SK  0.100    .
+244            797    EAERKSK|LK  0.137    .
+244            799    ERKSKLK|EK  0.076    .
+244            801    KSKLKEK|RK  0.062    .
+244            802    SKLKEKR|KA  0.294    .
+244            803    KLKEKRK|AK  0.099    .
+244            805    KEKRKAK|RA  0.160    .
+244            806    EKRKAKR|AL  0.291    .
+244            809    KAKRALK|MA  0.198    .
+244            813    ALKMAEK|KA  0.073    .
+244            814    LKMAEKK|AS  0.114    .
+244            821    ASEELAK|FY  0.074    .
+244            827    KFYETDK|EK  0.057    .
+244            829    YETDKEK|PS  0.062    .
+244            851    EVSPAEK|PG  0.071    .
+244            860    EEIATDK|SV  0.096    .
+244            863    ATDKSVK|ET  0.071    .
+244            908    PEVEEEK|GS  0.058    .
+244            911    EEEKGSK|GR  0.060    .
+244            913    EKGSKGR|VV  0.188    .
+244            925    VLSEEEK|EK  0.081    .
+244            927    SEEEKEK|GK  0.068    .
+244            929    EEKEKGK|QW  0.063    .
+244            942    VCDAIVK|GL  0.060    .
+244            966    IPAGLLK|YK  0.070    .
+244            968    AGLLKYK|YG  0.063    .
+244            974    KYGTGNK|LF  0.050    .
+244            977    TGNKLFR|LT  0.110    .
+244            985    TSLELLR|RD  0.087    .
+244            986    SLELLRR|DR  0.115    .
+244            988    ELLRRDR|AK  0.192    .
+244            990    LRRDRAK|LD  0.087    .
+244            998    DSAATLK|KK  0.059    .
+244            999    SAATLKK|KA  0.120    .
+244           1000    AATLKKK|AK  0.102    .
+244           1002    TLKKKAK|LT  0.097    .
+244           1009    LTELTEK|QE  0.065    .
+244           1014    EKQESVK|KQ  0.071    .
+244           1015    KQESVKK|QD  0.102    .
+244           1018    SVKKQDK|ET  0.073    .
+244           1033    IDIEHQK|EF  0.068    .
+244           1055    SEFNISR|PG  0.073    .
+244           1058    NISRPGK|RK  0.168    .
+244           1059    ISRPGKR|KK  0.202    .
+244           1060    SRPGKRK|KT  0.125    .
+244           1061    RPGKRKK|TE  0.121    .
+244           1066    KKTEAPK|ST  0.092    .
+244           1070    APKSTTK|MV  0.095    .
+244           1088    DHPAAER|KG  0.070    .
+244           1089    HPAAERK|GK  0.175    .
+244           1091    AAERKGK|CK  0.151    .
+244           1093    ERKGKCK|KE  0.076    .
+244           1094    RKGKCKK|EM  0.125    .
+244           1100    KEMSEEK|RE  0.055    .
+244           1101    EMSEEKR|EK  0.210    .
+244           1103    SEEKREK|IR  0.059    .
+244           1105    EKREKIR|QK  0.117    .
+244           1107    REKIRQK|RK  0.075    .
+244           1108    EKIRQKR|KE  0.447    .
+244           1109    KIRQKRK|EK  0.103    .
+244           1111    RQKRKEK|MA  0.240    .
+244           1114    RKEKMAK|AK  0.071    .
+244           1116    EKMAKAK|LK  0.103    .
+244           1118    MAKAKLK|RQ  0.065    .
+244           1119    AKAKLKR|QQ  0.216    .
+244           1127    QEPDTEK|EA  0.063    .
+244           1131    TEKEAER|KS  0.084    .
+244           1132    EKEAERK|SK  0.100    .
+244           1134    EAERKSK|LK  0.137    .
+244           1136    ERKSKLK|EK  0.076    .
+244           1138    KSKLKEK|RK  0.062    .
+244           1139    SKLKEKR|KA  0.294    .
+244           1140    KLKEKRK|AK  0.099    .
+244           1142    KEKRKAK|RA  0.160    .
+244           1143    EKRKAKR|AL  0.291    .
+244           1146    KAKRALK|MA  0.198    .
+244           1150    ALKMAEK|KA  0.073    .
+244           1151    LKMAEKK|AS  0.114    .
+244           1158    ASEELAK|FY  0.089    .
+244           1164    KFYETEK|PS  0.058    .
+244           1184    EESPAEK|PQ  0.073    .
+244           1233    ATPEVEK|GS  0.058    .
+244           1236    EVEKGSK|GR  0.058    .
+244           1238    EKGSKGR|VV  0.199    .
+244           1250    VLSEEEK|EK  0.081    .
+244           1252    SEEEKEK|GK  0.068    .
+244           1254    EEKEKGK|QW  0.063    .
+244           1267    VCDAIVK|GL  0.060    .
+244           1291    IPAGLLK|YK  0.081    .
+244           1293    AGLLKYK|DV  0.108    .
+244           1305    AETGSGK|TL  0.060    .
+244           1316    GIPLIQR|VM  0.073    .
+244           1319    LIQRVMK|MS  0.321    .
+244           1326    MSGSGLR|GL  0.079    .
+244           1334    LVLCPTR|EL  0.082    .
+244           1345    QVTDHLK|AA  0.068    .
+244           1349    HLKAAAK|YT  0.083    .
+244           1366    GGIAPQK|QE  0.058    .
+244           1369    APQKQER|LL  0.110    .
+244           1384    VVATPGR|LW  0.095    .
+244           1404    NDLTSIK|FL  0.066    .
+244           1413    VIDEVDR|MV  0.142    .
+244           1425    HFEEVTR|II  0.089    .
+244           1429    VTRIIER|LP  0.088    .
+244           1436    LPGPASR|NV  0.110    .
+244           1451    LTFTIAR|LD  0.087    .
+244           1455    IARLDEK|AK  0.060    .
+244           1457    RLDEKAK|KK  0.062    .
+244           1458    LDEKAKK|KK  0.089    .
+244           1459    DEKAKKK|KK  0.122    .
+244           1460    EKAKKKK|KT  0.160    .
+244           1461    KAKKKKK|TK  0.105    .
+244           1463    KKKKKTK|AE  0.082    .
+244           1466    KKTKAEK|KA  0.086    .
+244           1467    KTKAEKK|AE  0.113    .
+244           1470    AEKKAEK|KG  0.072    .
+244           1471    EKKAEKK|GN  0.108    .
+244           1481    GLEQLVK|NI  0.087    .
+244           1486    VKNIGVK|EK  0.061    .
+244           1488    NIGVKEK|VE  0.060    .
+244           1491    VKEKVEK|VD  0.063    .
+244           1496    EKVDFTR|KK  0.105    .
+244           1497    KVDFTRK|KG  0.070    .
+244           1498    VDFTRKK|GT  0.136    .
+244           1505    GTAANLK|ET  0.060    .
+244           1516    MCNVEDK|DL  0.077    .
+244           1530    LANHPGK|TL  0.066    .
+244           1560    HSALQQR|QR  0.117    .
+244           1562    ALQQRQR|FK  0.101    .
+244           1564    QQRQRFK|FL  0.086    .
+244           1568    RFKFLER|FK  0.123    .
+244           1570    KFLERFK|EQ  0.062    .
+244           1585    CTDVAAR|GL  0.085    .
+244           1602    IHYQLPK|TL  0.070    .
+244           1610    LESYIHR|SG  0.159    .
+244           1613    YIHRSGR|TA  0.541 *ProP*
+244           1616    RSGRTAR|AQ  0.472    .
+244           1638    TVNFLYR|GK  0.107    .
+244           1640    NFLYRGK|FI  0.069    .
+244           1647    FILPVNR|GS  0.118    .
+244           1656    GISGPGK|SG  0.103    .
+244           1664    GSDCMFK|AM  0.071    .
+244           1683    HFEEVTR|II  0.089    .
+244           1687    VTRIIER|LP  0.088    .
+244           1694    LPGPASR|NV  0.110    .
+244           1709    LTFTIAR|LD  0.087    .
+244           1713    IARLDEK|AK  0.059    .
+244           1715    RLDEKAK|KK  0.066    .
+244           1716    LDEKAKK|KK  0.081    .
+244           1717    DEKAKKK|KK  0.138    .
+244           1718    EKAKKKK|KS  0.152    .
+244           1719    KAKKKKK|SK  0.178    .
+244           1721    KKKKKSK|AE  0.081    .
+244           1724    KKSKAEK|KA  0.119    .
+244           1725    KSKAEKK|AE  0.131    .
+244           1728    AEKKAEK|KG  0.072    .
+244           1729    EKKAEKK|GN  0.107    .
+244           1739    GLEQLVK|NI  0.087    .
+244           1744    VKNIGVK|EK  0.061    .
+244           1746    NIGVKEK|VE  0.060    .
+244           1749    VKEKVEK|VD  0.063    .
+244           1754    EKVDFTR|KK  0.118    .
+244           1755    KVDFTRK|KG  0.070    .
+244           1756    VDFTRKK|GT  0.130    .
+244           1763    GTAENLK|ET  0.059    .
+244           1774    MCNVEDK|DL  0.077    .
+244           1788    LANHPGK|TL  0.066    .
+244           1818    HSALQQR|QR  0.117    .
+244           1820    ALQQRQR|FK  0.101    .
+244           1822    QQRQRFK|FL  0.086    .
+244           1826    RFKFLER|FK  0.123    .
+244           1828    KFLERFK|EQ  0.062    .
+244           1843    CTDVAAR|GL  0.085    .
+244           1860    IHYQLPK|TL  0.070    .
+244           1868    LESYIHR|SG  0.159    .
+244           1871    YIHRSGR|TA  0.541 *ProP*
+244           1874    RSGRTAR|AQ  0.472    .
+244           1888    IAIVGPK|CS  0.076    .
+244           1895    CSEGEEK|GT  0.069    .
+244           1901    KGTDYWK|YR  0.058    .
+244           1903    TDYWKYR|HC  0.143    .
+244           1906    WKYRHCR|DE  0.485    .
+244           1913    DEAQGYK|DQ  0.067    .
+244           1919    KDQTQSK|EL  0.066    .
+244           1935    HSALQQR|QR  0.117    .
+244           1937    ALQQRQR|FK  0.101    .
+244           1939    QQRQRFK|FL  0.086    .
+244           1943    RFKFLER|FK  0.123    .
+244           1945    KFLERFK|EQ  0.062    .
+244           1960    CTDVAAR|GL  0.085    .
+244           1977    IHYQLPK|TL  0.070    .
+244           1985    LESYIHR|SG  0.159    .
+244           1988    YIHRSGR|TA  0.541 *ProP*
+244           1991    RSGRTAR|AQ  0.472    .
+244           2005    IAIVGPK|DF  0.080    .
+244           2011    KDFSAYK|KV  0.075    .
+244           2012    DFSAYKK|VA  0.142    .
+244           2015    AYKKVAR|QM  0.098    .
+244           2026    FPIEQSR|LR  0.067    .
+244           2028    IEQSRLR|IL  0.097    .
+244           2031    SRLRILR|PV  0.331    .
+244           2038    PVVALSR|QI  0.089    .
+244           2042    LSRQIFK|LE  0.059    .
+244           2045    QIFKLER|LS  0.066    .
+244           2049    LERLSTR|PA  0.111    .
+244           2053    STRPAQK|EA  0.060    .
+244           2056    PAQKEAK|LT  0.069    .
+244           2062    KLTALAR|EA  0.145    .
+244           2076    DSEGEGK|VE  0.056    .
+244           2084    EAGATQR|KT  0.073    .
+244           2085    AGATQRK|TP  0.083    .
+244           2093    PFTNVGR|VN  0.072    .
+244           2105    NLANTIR|VA  0.116    .
+244           2108    NTIRVAK|CI  0.203    .
+244           2111    RVAKCIR|RG  0.069    .
+244           2112    VAKCIRR|GV  0.252    .
+244           2115    CIRRGVK|DV  0.283    .
+244           2119    GVKDVAK|AI  0.102    .
+244           2122    DVAKAIR|KG  0.109    .
+244           2123    VAKAIRK|GE  0.070    .
+244           2126    AIRKGEK|GF  0.069    .
+244           2152    VLCEENK|IP  0.057    .
+244           2161    YCYVPAR|LD  0.085    .
+244           2181    STILITK|ND  0.060    .
+244           2186    TKNDEYK|DK  0.083    .
+244           2188    NDEYKDK|YK  0.077    .
+244           2190    EYKDKYK|EC  0.065    .
+244           2194    KYKECVK|SI  0.067    .
+244           2197    ECVKSIK|EL  0.063    .
+244           2203    KELPIYK|TI  0.062    .
+244           2210    TIVIGMK|DL  0.080    .
+244           2228    QSIGLTR|FS  0.089    .
+244           2235    FSLLSNK|GL  0.062    .
+244           2242    GLTQDPR|PG  0.089    .
+244           2259    QNCQCQR|IG  0.077    .
+244           2266    IGLTHSR|FS  0.094    .
+244           2269    THSRFSR|SV  0.689 *ProP*
+244           2272    RFSRSVR|EL  0.348    .
+244           2279    ELWSEHR|LD  0.071    .
+244           2289    DTTLELR|NA  0.067    .
+244           2292    LELRNAR|CP  0.162    .
+244           2299    CPVSLLK|GG  0.062    .
+244           2305    KGGATGK|LS  0.065    .
+244           2312    LSVTSER|VR  0.087    .
+244           2314    VTSERVR|ES  0.083    .
+____________________________^_________________
+
+
+
+

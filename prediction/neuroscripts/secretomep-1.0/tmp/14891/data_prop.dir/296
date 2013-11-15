@@ -1,0 +1,329 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2061 296         
+MVQEGADITLTCMATTKTDSTADVEVKWIKDETKNVKSETFSKTLKGYPNPRVHHHSDSHYPHITLTCTVAGLSQALDSA      80
+SWDGQTTTELGTFSGGSQEVYLKLSNVTSVHSYTGSVTSGGIIRTLQVSLDVFGKYFNPTKTHNNQPIRDQYFLIRSFPD     160
+SPPQHLQSWKQLIDGCCRVLTSRMVQEGADITLTCMATTKTDSTADVEVKWIKDETKNVKSETFSKTLKVKSELELKNVT     240
+LNSTAGDYKCTASYPDSTIITSKSVPVDTHSSLTINPTRAILIQGSTITLAATILTSTTVQNVQWYPTTGVNNSTIKTVN     320
+GGVNKYEMKTTLESATETVEMSVHIKARDKLITANADIVVIEKMMDRLKLERTIVRGDESLKCDFQREPIHPVITWTSSN     400
+GIAIEGDEYAKDGLLVSTVKPTLSGSYTCTAEYQTIGNISYTHKITFLRSTITLTATILTSTTVQNVQWSPTTGVNNSTI     480
+KTVNGGVNKYEMKTTLESATETVEMSVHIKARDKLITANADIVVIEKLMDTLKLERTIVRGDESLKCDFQREPIHPVITW     560
+TSSNGNAIEGDEYAKDVLLVSTVKPTLSGSYTCTAEYQTIGNISYTHKITFLDPICRLFCSKEGRTRQFLCCPTKGSHVS     640
+ELCFSMFIYFSHFLSLSLSLSLSLSLSLSLSLSLSFSLSLSIYLSLSPSPSRDSPRHYTLATSFCSLAKMERVKNMTKKL     720
+MEQTREAKERMESVQKSIEEMKLKLEEEQNEKERLIELCDEKDEELEAVTAENEEDQKQINTLELEMENNMRVIDSNKNE     800
+LHNLEQEKKHKDNKHAELQKKMDVFIQECMEMSEALCTLYHCTGKRKGDHPLPQPRVPESSNMFLQFLAKNGIFDLNSCP     880
+TDLKLGQHLYLVGWKGDHFCCQTDTFARPGLRISSMGKPGSLRRKKGRKKERAAAAAAAFHYHDVITSRRHAMTKYQKYT     960
+QLCQKLTEISWLERPKYVRFATKQGFEEPVIKLLSEKWKLGKPNFVFNIFEDFRFMASNLSRTILPGGDVHPKSHGRTKA    1040
+LLELCDEVNAWTFLNPDYVDEHLIHLKSRKKKKTSRAMASNIVVVKPWESLSDEQKEALTPTTKKTLHKGSPKLNFKVMS    1120
+LVQQSRAVLFPELPPGIPSFITFTKSLAKHFDNGKMNKNYLHYVSIMLYFPANVADIRSGILQFQGAGHHCVRGCTVTLA    1200
+TKVTPKRFLYQLVSIPKCRFRILTLLCLFAKQKGIRVDAFGIHPGREKITITADQIEGVTLHVCPIVNFVLAKSGGGIPQ    1280
+EVLDAEVPTVVLTDDENLTIDKAHFKVVTEPEITVLQLKELLRDHLTENRKLGITDPQEQKLFRRPEYLKFHLNLQLGLK    1360
+HSGKDNCEDVIAATKGAGVQQKLGSLIHFYRHYDLLDFCLKSGFDESLVLHPSLPGDLERIEYILSRAHTPFTEELCGRM    1440
+RKWMAKNEKQKNYLSKLSDELNEMLGHGTCDYAMSLEDAVYIFNCFNYDWDLVKVIRQHSPNRLLKCYLALGALVKIRER    1520
+SSGGKVDCNEVDEIISEISDEVLEIAVWVDKETDYDIGPMIFLEHKNFSWNSIMAMVKETKCYSLLSMKSNVYNCIKNKW    1600
+NGAIDIHTSYWQIIFGILTLGLLTPRMIKFVTKNSVKKELDVFLSTTTEKKGYFEKWKAFWTSCRTKCFVLMITYLVFLL    1680
+LMTLVVLDNTRIRSDHYEDIDGPDMTSWEADRDRLMALIGICAIMCVSFLLGELDIQQNSFFRSRYWLSTNRDQYFLIRS    1760
+VPADNEFLLHPMPKKSSIPGALEVIKRPYINMFGELDLDNFEAGKKRKLTARITPVANNALHSSTITTLLPKSLISKCQF    1840
+YENDPFDDDSHFFGVVGVLFYQIKDFVTKRHSESYLCFFIRFTLFLQMFEVIGPKIITIKKMNSFFRSRYWLSTNRDQYF    1920
+LIRSVPADNGLVLQFLLHPMPKKSSIPRALEVIKRPYINMFGELDLDNFEAGVEEGVCQYESALQSLAPSYGLQIGAPSI    2000
+KSEEEKIDCSNYTCSKQCIAFNKTYETDYDESQQLWQIQCYKVQIHRAETDRIRKFWSLIG                       2080
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+...............................P................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+.............................................................                       2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+296             17    TCMATTK|TD  0.070    .
+296             27    TADVEVK|WI  0.076    .
+296             30    VEVKWIK|DE  0.072    .
+296             34    WIKDETK|NV  0.076    .
+296             37    DETKNVK|SE  0.067    .
+296             43    KSETFSK|TL  0.061    .
+296             46    TFSKTLK|GY  0.068    .
+296             52    KGYPNPR|VH  0.090    .
+296            103    SQEVYLK|LS  0.056    .
+296            124    TSGGIIR|TL  0.104    .
+296            135    SLDVFGK|YF  0.070    .
+296            141    KYFNPTK|TH  0.057    .
+296            149    HNNQPIR|DQ  0.123    .
+296            156    DQYFLIR|SF  0.151    .
+296            170    QHLQSWK|QL  0.072    .
+296            178    LIDGCCR|VL  0.071    .
+296            183    CRVLTSR|MV  0.132    .
+296            200    TCMATTK|TD  0.070    .
+296            210    TADVEVK|WI  0.076    .
+296            213    VEVKWIK|DE  0.072    .
+296            217    WIKDETK|NV  0.076    .
+296            220    DETKNVK|SE  0.067    .
+296            226    KSETFSK|TL  0.061    .
+296            229    TFSKTLK|VK  0.067    .
+296            231    SKTLKVK|SE  0.073    .
+296            237    KSELELK|NV  0.060    .
+296            249    STAGDYK|CT  0.067    .
+296            263    STIITSK|SV  0.107    .
+296            279    LTINPTR|AI  0.112    .
+296            317    VNNSTIK|TV  0.086    .
+296            325    VNGGVNK|YE  0.063    .
+296            329    VNKYEMK|TT  0.063    .
+296            346    EMSVHIK|AR  0.077    .
+296            348    SVHIKAR|DK  0.147    .
+296            350    HIKARDK|LI  0.066    .
+296            363    DIVVIEK|MM  0.058    .
+296            367    IEKMMDR|LK  0.064    .
+296            369    KMMDRLK|LE  0.061    .
+296            372    DRLKLER|TI  0.086    .
+296            376    LERTIVR|GD  0.089    .
+296            382    RGDESLK|CD  0.065    .
+296            387    LKCDFQR|EP  0.095    .
+296            411    EGDEYAK|DG  0.057    .
+296            420    LLVSTVK|PT  0.059    .
+296            444    NISYTHK|IT  0.067    .
+296            449    HKITFLR|ST  0.155    .
+296            481    VNNSTIK|TV  0.086    .
+296            489    VNGGVNK|YE  0.063    .
+296            493    VNKYEMK|TT  0.063    .
+296            510    EMSVHIK|AR  0.077    .
+296            512    SVHIKAR|DK  0.147    .
+296            514    HIKARDK|LI  0.066    .
+296            527    DIVVIEK|LM  0.056    .
+296            533    KLMDTLK|LE  0.062    .
+296            536    DTLKLER|TI  0.071    .
+296            540    LERTIVR|GD  0.090    .
+296            546    RGDESLK|CD  0.065    .
+296            551    LKCDFQR|EP  0.095    .
+296            575    EGDEYAK|DV  0.069    .
+296            584    LLVSTVK|PT  0.059    .
+296            608    NISYTHK|IT  0.068    .
+296            617    FLDPICR|LF  0.079    .
+296            622    CRLFCSK|EG  0.060    .
+296            625    FCSKEGR|TR  0.076    .
+296            627    SKEGRTR|QF  0.079    .
+296            635    FLCCPTK|GS  0.074    .
+296            692    LSPSPSR|DS  0.084    .
+296            696    PSRDSPR|HY  0.113    .
+296            709    SFCSLAK|ME  0.068    .
+296            712    SLAKMER|VK  0.077    .
+296            714    AKMERVK|NM  0.072    .
+296            718    RVKNMTK|KL  0.064    .
+296            719    VKNMTKK|LM  0.146    .
+296            725    KLMEQTR|EA  0.121    .
+296            728    EQTREAK|ER  0.099    .
+296            730    TREAKER|ME  0.167    .
+296            736    RMESVQK|SI  0.081    .
+296            742    KSIEEMK|LK  0.065    .
+296            744    IEEMKLK|LE  0.065    .
+296            752    EEEQNEK|ER  0.053    .
+296            754    EQNEKER|LI  0.091    .
+296            762    IELCDEK|DE  0.060    .
+296            778    ENEEDQK|QI  0.066    .
+296            792    EMENNMR|VI  0.086    .
+296            798    RVIDSNK|NE  0.061    .
+296            808    HNLEQEK|KH  0.065    .
+296            809    NLEQEKK|HK  0.104    .
+296            811    EQEKKHK|DN  0.090    .
+296            814    KKHKDNK|HA  0.095    .
+296            820    KHAELQK|KM  0.062    .
+296            821    HAELQKK|MD  0.110    .
+296            845    LYHCTGK|RK  0.068    .
+296            846    YHCTGKR|KG  0.150    .
+296            847    HCTGKRK|GD  0.089    .
+296            856    HPLPQPR|VP  0.090    .
+296            870    FLQFLAK|NG  0.061    .
+296            884    SCPTDLK|LG  0.053    .
+296            895    LYLVGWK|GD  0.057    .
+296            908    QTDTFAR|PG  0.075    .
+296            912    FARPGLR|IS  0.097    .
+296            918    RISSMGK|PG  0.066    .
+296            923    GKPGSLR|RK  0.068    .
+296            924    KPGSLRR|KK  0.160    .
+296            925    PGSLRRK|KG  0.105    .
+296            926    GSLRRKK|GR  0.356    .
+296            928    LRRKKGR|KK  0.164    .
+296            929    RRKKGRK|KE  0.095    .
+296            930    RKKGRKK|ER  0.094    .
+296            932    KGRKKER|AA  0.155    .
+296            949    HDVITSR|RH  0.075    .
+296            950    DVITSRR|HA  0.186    .
+296            955    RRHAMTK|YQ  0.075    .
+296            958    AMTKYQK|YT  0.062    .
+296            965    YTQLCQK|LT  0.061    .
+296            974    EISWLER|PK  0.087    .
+296            976    SWLERPK|YV  0.088    .
+296            979    ERPKYVR|FA  0.187    .
+296            983    YVRFATK|QG  0.067    .
+296            992    FEEPVIK|LL  0.066    .
+296            997    IKLLSEK|WK  0.060    .
+296            999    LLSEKWK|LG  0.075    .
+296           1002    EKWKLGK|PN  0.065    .
+296           1014    NIFEDFR|FM  0.079    .
+296           1022    MASNLSR|TI  0.153    .
+296           1033    GGDVHPK|SH  0.087    .
+296           1037    HPKSHGR|TK  0.085    .
+296           1039    KSHGRTK|AL  0.071    .
+296           1067    EHLIHLK|SR  0.069    .
+296           1069    LIHLKSR|KK  0.099    .
+296           1070    IHLKSRK|KK  0.095    .
+296           1071    HLKSRKK|KK  0.080    .
+296           1072    LKSRKKK|KT  0.634 *ProP*
+296           1073    KSRKKKK|TS  0.166    .
+296           1076    KKKKTSR|AM  0.094    .
+296           1086    SNIVVVK|PW  0.069    .
+296           1096    SLSDEQK|EA  0.069    .
+296           1104    ALTPTTK|KT  0.059    .
+296           1105    LTPTTKK|TL  0.105    .
+296           1109    TKKTLHK|GS  0.069    .
+296           1113    LHKGSPK|LN  0.071    .
+296           1117    SPKLNFK|VM  0.066    .
+296           1126    SLVQQSR|AV  0.104    .
+296           1145    SFITFTK|SL  0.099    .
+296           1149    FTKSLAK|HF  0.069    .
+296           1155    KHFDNGK|MN  0.063    .
+296           1158    DNGKMNK|NY  0.063    .
+296           1178    ANVADIR|SG  0.106    .
+296           1193    AGHHCVR|GC  0.111    .
+296           1202    TVTLATK|VT  0.053    .
+296           1206    ATKVTPK|RF  0.062    .
+296           1207    TKVTPKR|FL  0.238    .
+296           1217    QLVSIPK|CR  0.064    .
+296           1219    VSIPKCR|FR  0.091    .
+296           1221    IPKCRFR|IL  0.086    .
+296           1231    LLCLFAK|QK  0.075    .
+296           1233    CLFAKQK|GI  0.070    .
+296           1236    AKQKGIR|VD  0.086    .
+296           1246    FGIHPGR|EK  0.091    .
+296           1248    IHPGREK|IT  0.065    .
+296           1273    VNFVLAK|SG  0.109    .
+296           1302    ENLTIDK|AH  0.060    .
+296           1306    IDKAHFK|VV  0.084    .
+296           1319    ITVLQLK|EL  0.057    .
+296           1323    QLKELLR|DH  0.083    .
+296           1330    DHLTENR|KL  0.088    .
+296           1331    HLTENRK|LG  0.065    .
+296           1341    TDPQEQK|LF  0.057    .
+296           1344    QEQKLFR|RP  0.086    .
+296           1345    EQKLFRR|PE  0.114    .
+296           1350    RRPEYLK|FH  0.059    .
+296           1360    NLQLGLK|HS  0.062    .
+296           1364    GLKHSGK|DN  0.079    .
+296           1375    DVIAATK|GA  0.076    .
+296           1382    GAGVQQK|LG  0.068    .
+296           1391    SLIHFYR|HY  0.102    .
+296           1401    LLDFCLK|SG  0.067    .
+296           1420    LPGDLER|IE  0.081    .
+296           1427    IEYILSR|AH  0.086    .
+296           1439    TEELCGR|MR  0.088    .
+296           1441    ELCGRMR|KW  0.089    .
+296           1442    LCGRMRK|WM  0.297    .
+296           1446    MRKWMAK|NE  0.073    .
+296           1449    WMAKNEK|QK  0.061    .
+296           1451    AKNEKQK|NY  0.075    .
+296           1456    QKNYLSK|LS  0.084    .
+296           1494    YDWDLVK|VI  0.062    .
+296           1497    DLVKVIR|QH  0.093    .
+296           1503    RQHSPNR|LL  0.092    .
+296           1506    SPNRLLK|CY  0.151    .
+296           1516    ALGALVK|IR  0.060    .
+296           1518    GALVKIR|ER  0.107    .
+296           1520    LVKIRER|SS  0.144    .
+296           1525    ERSSGGK|VD  0.069    .
+296           1551    IAVWVDK|ET  0.066    .
+296           1566    MIFLEHK|NF  0.062    .
+296           1578    SIMAMVK|ET  0.058    .
+296           1581    AMVKETK|CY  0.060    .
+296           1589    YSLLSMK|SN  0.061    .
+296           1597    NVYNCIK|NK  0.060    .
+296           1599    YNCIKNK|WN  0.086    .
+296           1626    LGLLTPR|MI  0.080    .
+296           1629    LTPRMIK|FV  0.153    .
+296           1633    MIKFVTK|NS  0.073    .
+296           1637    VTKNSVK|KE  0.059    .
+296           1638    TKNSVKK|EL  0.164    .
+296           1650    LSTTTEK|KG  0.056    .
+296           1651    STTTEKK|GY  0.104    .
+296           1656    KKGYFEK|WK  0.063    .
+296           1658    GYFEKWK|AF  0.075    .
+296           1665    AFWTSCR|TK  0.092    .
+296           1667    WTSCRTK|CF  0.068    .
+296           1691    VVLDNTR|IR  0.074    .
+296           1693    LDNTRIR|SD  0.134    .
+296           1712    TSWEADR|DR  0.102    .
+296           1714    WEADRDR|LM  0.080    .
+296           1743    QQNSFFR|SR  0.107    .
+296           1745    NSFFRSR|YW  0.088    .
+296           1752    YWLSTNR|DQ  0.078    .
+296           1759    DQYFLIR|SV  0.136    .
+296           1774    LLHPMPK|KS  0.073    .
+296           1775    LHPMPKK|SS  0.156    .
+296           1786    GALEVIK|RP  0.060    .
+296           1787    ALEVIKR|PY  0.181    .
+296           1805    DNFEAGK|KR  0.051    .
+296           1806    NFEAGKK|RK  0.073    .
+296           1807    FEAGKKR|KL  0.204    .
+296           1808    EAGKKRK|LT  0.101    .
+296           1812    KRKLTAR|IT  0.122    .
+296           1832    ITTLLPK|SL  0.068    .
+296           1837    PKSLISK|CQ  0.067    .
+296           1864    VLFYQIK|DF  0.079    .
+296           1869    IKDFVTK|RH  0.065    .
+296           1870    KDFVTKR|HS  0.247    .
+296           1881    YLCFFIR|FT  0.104    .
+296           1895    FEVIGPK|II  0.062    .
+296           1900    PKIITIK|KM  0.062    .
+296           1901    KIITIKK|MN  0.089    .
+296           1907    KMNSFFR|SR  0.130    .
+296           1909    NSFFRSR|YW  0.085    .
+296           1916    YWLSTNR|DQ  0.078    .
+296           1923    DQYFLIR|SV  0.141    .
+296           1942    LLHPMPK|KS  0.068    .
+296           1943    LHPMPKK|SS  0.118    .
+296           1948    KKSSIPR|AL  0.141    .
+296           1954    RALEVIK|RP  0.061    .
+296           1955    ALEVIKR|PY  0.171    .
+296           2001    IGAPSIK|SE  0.097    .
+296           2006    IKSEEEK|ID  0.072    .
+296           2016    SNYTCSK|QC  0.065    .
+296           2023    QCIAFNK|TY  0.071    .
+296           2042    WQIQCYK|VQ  0.057    .
+296           2047    YKVQIHR|AE  0.080    .
+296           2052    HRAETDR|IR  0.075    .
+296           2054    AETDRIR|KF  0.077    .
+296           2055    ETDRIRK|FW  0.216    .
+____________________________^_________________
+
+
+
+

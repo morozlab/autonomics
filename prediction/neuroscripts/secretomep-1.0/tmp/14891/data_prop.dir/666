@@ -1,0 +1,318 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1437 666         
+MGRKGYGLGLSILLPLMVQSPIKHLANTPETNPDSTIRGHLEINTAEKKDTLKSPPPAILLVGAQSSEQYYRTGNVHSSS      80
+AGRGGKSGAMKDWDQSGYSADRRDRSGDRRDRSGDRSGDRKGDRSGDRSGDRRDRSDRSGDRSGDRKDRSKERRRDGEER     160
+RDGEEPRRGDQSSHYIDGALHYLKGHQNYHHGLDPHQPDVQVEDKERKVAQKSPRSEASLEADLNWNLDRTHVKTSKSAR     240
+NSKSGSAFFEAMGREDGADDSPFLPPITPKQQKKQPTSKSFVVSKEIATQITADALVPQQPLGDFWVNKDTVLNRPSDPY     320
+ADIALRAPVSQQRFYQEEDRPATFRSTFTAATETQETMRMPKFEQLSDNEDGDDGMPDVYSRLTDSKAYKQSGLAVDVWA     400
+QRTEERLRFGFEHTIAVDGAKSDKASRQHSRDQSRQHDQRSSRDQHRREEGHGGGRYDNQPRQSSEQYYRTGNVQSSSAG     480
+RDGKSGAMKDWDQSGYAGDRRDRSGDRSGDRRDRSGDRSGDRKDRSGDRSGDRKDRSGDRRDRSGDRSGDRKDRSGDRSG     560
+DRKDRSDRSGDRKGDRRGRSEERRRDSEERRDGEEPRRRDQSSHYIDGALHYLKGHQNYHHGLDPHQPDAQVEDKERKVA     640
+QKSPRSEASLEADLNWNLDRTHVKTSKSTRNSKSGSAFFEAMGREDGADDSPFLPPITPKQQKKQPTSKSFVVSKEIATQ     720
+ITADALVPQQPLGDFWVNKDTVLNRPSDPYADIALRAPVSQQRFYQEEDRPATFRSTFTAATETQETMRMPKFEQLSDNE     800
+DGDDGMPDVYSRLTDSKAYKQSGLAVDVWAQRTAPPTPLTSTPSPQTRPKFEQLSDNEDGDDGMPDVYSRLTDSKAYKQS     880
+GLAVDVWAQRTDISFTVLLYLKKNIGINWKRAGQYLGVSRERLRRIEDVGIANPKSGIEKMAQDMLFEWAEKDPQPTVAK     960
+LCTALEAADLSKLSQGVYERVNKEKQPRRKKGAKKGRKKVDDPVKVPISEETIPYRVMVYLKDNLGESWKDVAVCLKVPS    1040
+PRIKSIEADAWQVEKMAYDMLHEWRQREKEYATVDRLIEALERAQCKKLVKGVQARLNLRVLNYRCLKWTVGAKQQQASI    1120
+LKMAFTPKRNHEYSLCQRKPSHIPGEATRHHTHLNHITAGLNHHSQIFQIHYLNMEPDNMMLVVVVVVLRFGLCRAYRLK    1200
+RSKESNSRPNQAYKQSGLAVDVWAQRTDISFTVLLYLKKNIGINWKRAGQYLGVSRERLRRIEDVGIANPKSGIEKMAQD    1280
+MLFEWAEKDPQPTVAKLCTALEAADLSKLSQGVYERVNKEKQPRRKKGAKKGRKKVDDPVKVPISEETIPYRVMVYLKDN    1360
+LGESWKDVAVCLKVPSPRIKSIEADAWQVEKMAYDMLHEWRQREKEYATVDRLIEALERAEGSPGSMSTVKLKHDMQ       1440
+................................................................................      80
+.........................................................P......................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+............................................P............................P......     560
+.......P........................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+............................................P...................................     960
+..............................P.................................................    1040
+................................................................................    1120
+................................................................................    1200
+P...........................................................P...................    1280
+..............................................P.................................    1360
+.............................................................................       1440
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 9
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+666              3    ----MGR|KG  0.081    .
+666              4    ---MGRK|GY  0.101    .
+666             23    MVQSPIK|HL  0.068    .
+666             38    NPDSTIR|GH  0.093    .
+666             48    EINTAEK|KD  0.056    .
+666             49    INTAEKK|DT  0.110    .
+666             53    EKKDTLK|SP  0.072    .
+666             72    SSEQYYR|TG  0.080    .
+666             83    HSSSAGR|GG  0.108    .
+666             86    SAGRGGK|SG  0.170    .
+666             91    GKSGAMK|DW  0.157    .
+666            102    SGYSADR|RD  0.073    .
+666            103    GYSADRR|DR  0.203    .
+666            105    SADRRDR|SG  0.338    .
+666            109    RDRSGDR|RD  0.078    .
+666            110    DRSGDRR|DR  0.236    .
+666            112    SGDRRDR|SG  0.425    .
+666            116    RDRSGDR|SG  0.146    .
+666            120    GDRSGDR|KG  0.088    .
+666            121    DRSGDRK|GD  0.118    .
+666            124    GDRKGDR|SG  0.164    .
+666            128    GDRSGDR|SG  0.112    .
+666            132    GDRSGDR|RD  0.073    .
+666            133    DRSGDRR|DR  0.205    .
+666            135    SGDRRDR|SD  0.378    .
+666            138    RRDRSDR|SG  0.579 *ProP*
+666            142    SDRSGDR|SG  0.121    .
+666            146    GDRSGDR|KD  0.084    .
+666            147    DRSGDRK|DR  0.147    .
+666            149    SGDRKDR|SK  0.486    .
+666            151    DRKDRSK|ER  0.064    .
+666            153    KDRSKER|RR  0.106    .
+666            154    DRSKERR|RD  0.316    .
+666            155    RSKERRR|DG  0.206    .
+666            160    RRDGEER|RD  0.105    .
+666            161    RDGEERR|DG  0.174    .
+666            167    RDGEEPR|RG  0.102    .
+666            168    DGEEPRR|GD  0.098    .
+666            184    GALHYLK|GH  0.063    .
+666            205    DVQVEDK|ER  0.062    .
+666            207    QVEDKER|KV  0.108    .
+666            208    VEDKERK|VA  0.096    .
+666            212    ERKVAQK|SP  0.086    .
+666            215    VAQKSPR|SE  0.159    .
+666            230    LNWNLDR|TH  0.075    .
+666            234    LDRTHVK|TS  0.076    .
+666            237    THVKTSK|SA  0.104    .
+666            240    KTSKSAR|NS  0.157    .
+666            243    KSARNSK|SG  0.292    .
+666            254    FFEAMGR|ED  0.077    .
+666            270    LPPITPK|QQ  0.073    .
+666            273    ITPKQQK|KQ  0.060    .
+666            274    TPKQQKK|QP  0.117    .
+666            279    KKQPTSK|SF  0.085    .
+666            285    KSFVVSK|EI  0.082    .
+666            309    GDFWVNK|DT  0.078    .
+666            315    KDTVLNR|PS  0.099    .
+666            326    YADIALR|AP  0.068    .
+666            333    APVSQQR|FY  0.098    .
+666            340    FYQEEDR|PA  0.074    .
+666            345    DRPATFR|ST  0.175    .
+666            359    ETQETMR|MP  0.081    .
+666            362    ETMRMPK|FE  0.109    .
+666            382    MPDVYSR|LT  0.089    .
+666            387    SRLTDSK|AY  0.073    .
+666            390    TDSKAYK|QS  0.097    .
+666            402    VDVWAQR|TE  0.078    .
+666            406    AQRTEER|LR  0.107    .
+666            408    RTEERLR|FG  0.084    .
+666            421    IAVDGAK|SD  0.087    .
+666            424    DGAKSDK|AS  0.072    .
+666            427    KSDKASR|QH  0.085    .
+666            431    ASRQHSR|DQ  0.188    .
+666            435    HSRDQSR|QH  0.096    .
+666            440    SRQHDQR|SS  0.257    .
+666            443    HDQRSSR|DQ  0.430    .
+666            447    SSRDQHR|RE  0.119    .
+666            448    SRDQHRR|EE  0.284    .
+666            456    EGHGGGR|YD  0.085    .
+666            462    RYDNQPR|QS  0.102    .
+666            470    SSEQYYR|TG  0.080    .
+666            481    QSSSAGR|DG  0.129    .
+666            484    SAGRDGK|SG  0.193    .
+666            489    GKSGAMK|DW  0.152    .
+666            500    SGYAGDR|RD  0.079    .
+666            501    GYAGDRR|DR  0.162    .
+666            503    AGDRRDR|SG  0.382    .
+666            507    RDRSGDR|SG  0.111    .
+666            511    GDRSGDR|RD  0.082    .
+666            512    DRSGDRR|DR  0.237    .
+666            514    SGDRRDR|SG  0.445    .
+666            518    RDRSGDR|SG  0.130    .
+666            522    GDRSGDR|KD  0.085    .
+666            523    DRSGDRK|DR  0.125    .
+666            525    SGDRKDR|SG  0.510 *ProP*
+666            529    KDRSGDR|SG  0.127    .
+666            533    GDRSGDR|KD  0.078    .
+666            534    DRSGDRK|DR  0.127    .
+666            536    SGDRKDR|SG  0.384    .
+666            540    KDRSGDR|RD  0.079    .
+666            541    DRSGDRR|DR  0.254    .
+666            543    SGDRRDR|SG  0.434    .
+666            547    RDRSGDR|SG  0.130    .
+666            551    GDRSGDR|KD  0.085    .
+666            552    DRSGDRK|DR  0.125    .
+666            554    SGDRKDR|SG  0.510 *ProP*
+666            558    KDRSGDR|SG  0.121    .
+666            562    GDRSGDR|KD  0.075    .
+666            563    DRSGDRK|DR  0.115    .
+666            565    SGDRKDR|SD  0.410    .
+666            568    RKDRSDR|SG  0.514 *ProP*
+666            572    SDRSGDR|KG  0.082    .
+666            573    DRSGDRK|GD  0.129    .
+666            576    GDRKGDR|RG  0.085    .
+666            577    DRKGDRR|GR  0.156    .
+666            579    KGDRRGR|SE  0.391    .
+666            583    RGRSEER|RR  0.083    .
+666            584    GRSEERR|RD  0.245    .
+666            585    RSEERRR|DS  0.243    .
+666            590    RRDSEER|RD  0.100    .
+666            591    RDSEERR|DG  0.213    .
+666            597    RDGEEPR|RR  0.099    .
+666            598    DGEEPRR|RD  0.083    .
+666            599    GEEPRRR|DQ  0.167    .
+666            614    GALHYLK|GH  0.063    .
+666            635    DAQVEDK|ER  0.065    .
+666            637    QVEDKER|KV  0.108    .
+666            638    VEDKERK|VA  0.099    .
+666            642    ERKVAQK|SP  0.086    .
+666            645    VAQKSPR|SE  0.159    .
+666            660    LNWNLDR|TH  0.075    .
+666            664    LDRTHVK|TS  0.069    .
+666            667    THVKTSK|ST  0.091    .
+666            670    KTSKSTR|NS  0.121    .
+666            673    KSTRNSK|SG  0.221    .
+666            684    FFEAMGR|ED  0.077    .
+666            700    LPPITPK|QQ  0.073    .
+666            703    ITPKQQK|KQ  0.060    .
+666            704    TPKQQKK|QP  0.117    .
+666            709    KKQPTSK|SF  0.085    .
+666            715    KSFVVSK|EI  0.082    .
+666            739    GDFWVNK|DT  0.078    .
+666            745    KDTVLNR|PS  0.099    .
+666            756    YADIALR|AP  0.068    .
+666            763    APVSQQR|FY  0.098    .
+666            770    FYQEEDR|PA  0.074    .
+666            775    DRPATFR|ST  0.175    .
+666            789    ETQETMR|MP  0.081    .
+666            792    ETMRMPK|FE  0.109    .
+666            812    MPDVYSR|LT  0.089    .
+666            817    SRLTDSK|AY  0.073    .
+666            820    TDSKAYK|QS  0.097    .
+666            832    VDVWAQR|TA  0.083    .
+666            848    TPSPQTR|PK  0.177    .
+666            850    SPQTRPK|FE  0.072    .
+666            870    MPDVYSR|LT  0.089    .
+666            875    SRLTDSK|AY  0.073    .
+666            878    TDSKAYK|QS  0.097    .
+666            890    VDVWAQR|TD  0.068    .
+666            902    TVLLYLK|KN  0.054    .
+666            903    VLLYLKK|NI  0.091    .
+666            910    NIGINWK|RA  0.082    .
+666            911    IGINWKR|AG  0.135    .
+666            920    QYLGVSR|ER  0.066    .
+666            922    LGVSRER|LR  0.074    .
+666            924    VSRERLR|RI  0.114    .
+666            925    SRERLRR|IE  0.539 *ProP*
+666            935    VGIANPK|SG  0.079    .
+666            940    PKSGIEK|MA  0.093    .
+666            952    LFEWAEK|DP  0.060    .
+666            960    PQPTVAK|LC  0.066    .
+666            972    EAADLSK|LS  0.061    .
+666            980    SQGVYER|VN  0.089    .
+666            983    VYERVNK|EK  0.098    .
+666            985    ERVNKEK|QP  0.077    .
+666            988    NKEKQPR|RK  0.094    .
+666            989    KEKQPRR|KK  0.171    .
+666            990    EKQPRRK|KG  0.090    .
+666            991    KQPRRKK|GA  0.545 *ProP*
+666            994    RRKKGAK|KG  0.079    .
+666            995    RKKGAKK|GR  0.123    .
+666            997    KGAKKGR|KK  0.105    .
+666            998    GAKKGRK|KV  0.119    .
+666            999    AKKGRKK|VD  0.102    .
+666           1005    KVDDPVK|VP  0.059    .
+666           1016    EETIPYR|VM  0.068    .
+666           1022    RVMVYLK|DN  0.061    .
+666           1030    NLGESWK|DV  0.094    .
+666           1037    DVAVCLK|VP  0.061    .
+666           1042    LKVPSPR|IK  0.115    .
+666           1044    VPSPRIK|SI  0.140    .
+666           1055    DAWQVEK|MA  0.084    .
+666           1065    DMLHEWR|QR  0.101    .
+666           1067    LHEWRQR|EK  0.087    .
+666           1069    EWRQREK|EY  0.069    .
+666           1076    EYATVDR|LI  0.132    .
+666           1083    LIEALER|AQ  0.082    .
+666           1087    LERAQCK|KL  0.075    .
+666           1088    ERAQCKK|LV  0.199    .
+666           1091    QCKKLVK|GV  0.079    .
+666           1096    VKGVQAR|LN  0.102    .
+666           1100    QARLNLR|VL  0.064    .
+666           1105    LRVLNYR|CL  0.091    .
+666           1108    LNYRCLK|WT  0.123    .
+666           1114    KWTVGAK|QQ  0.063    .
+666           1122    QQASILK|MA  0.066    .
+666           1128    KMAFTPK|RN  0.066    .
+666           1129    MAFTPKR|NH  0.201    .
+666           1138    EYSLCQR|KP  0.090    .
+666           1139    YSLCQRK|PS  0.081    .
+666           1149    IPGEATR|HH  0.095    .
+666           1190    VVVVVLR|FG  0.063    .
+666           1195    LRFGLCR|AY  0.090    .
+666           1198    GLCRAYR|LK  0.251    .
+666           1200    CRAYRLK|RS  0.063    .
+666           1201    RAYRLKR|SK  0.677 *ProP*
+666           1203    YRLKRSK|ES  0.064    .
+666           1208    SKESNSR|PN  0.086    .
+666           1214    RPNQAYK|QS  0.093    .
+666           1226    VDVWAQR|TD  0.068    .
+666           1238    TVLLYLK|KN  0.054    .
+666           1239    VLLYLKK|NI  0.091    .
+666           1246    NIGINWK|RA  0.082    .
+666           1247    IGINWKR|AG  0.135    .
+666           1256    QYLGVSR|ER  0.066    .
+666           1258    LGVSRER|LR  0.074    .
+666           1260    VSRERLR|RI  0.114    .
+666           1261    SRERLRR|IE  0.539 *ProP*
+666           1271    VGIANPK|SG  0.079    .
+666           1276    PKSGIEK|MA  0.093    .
+666           1288    LFEWAEK|DP  0.060    .
+666           1296    PQPTVAK|LC  0.066    .
+666           1308    EAADLSK|LS  0.061    .
+666           1316    SQGVYER|VN  0.089    .
+666           1319    VYERVNK|EK  0.098    .
+666           1321    ERVNKEK|QP  0.077    .
+666           1324    NKEKQPR|RK  0.094    .
+666           1325    KEKQPRR|KK  0.171    .
+666           1326    EKQPRRK|KG  0.090    .
+666           1327    KQPRRKK|GA  0.545 *ProP*
+666           1330    RRKKGAK|KG  0.079    .
+666           1331    RKKGAKK|GR  0.123    .
+666           1333    KGAKKGR|KK  0.105    .
+666           1334    GAKKGRK|KV  0.119    .
+666           1335    AKKGRKK|VD  0.102    .
+666           1341    KVDDPVK|VP  0.059    .
+666           1352    EETIPYR|VM  0.068    .
+666           1358    RVMVYLK|DN  0.061    .
+666           1366    NLGESWK|DV  0.094    .
+666           1373    DVAVCLK|VP  0.061    .
+666           1378    LKVPSPR|IK  0.115    .
+666           1380    VPSPRIK|SI  0.140    .
+666           1391    DAWQVEK|MA  0.084    .
+666           1401    DMLHEWR|QR  0.101    .
+666           1403    LHEWRQR|EK  0.087    .
+666           1405    EWRQREK|EY  0.069    .
+666           1412    EYATVDR|LI  0.134    .
+666           1419    LIEALER|AE  0.084    .
+666           1431    GSMSTVK|LK  0.070    .
+666           1433    MSTVKLK|HD  0.076    .
+____________________________^_________________
+
+
+
+

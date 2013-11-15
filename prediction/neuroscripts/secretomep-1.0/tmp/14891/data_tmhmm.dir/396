@@ -1,0 +1,14 @@
+# 396 Length: 1800
+# 396 Number of predicted TMHs:  4
+# 396 Exp number of AAs in TMHs: 119.02947
+# 396 Exp number, first 60 AAs:  0.91429
+# 396 Total prob of N-in:        0.05757
+396	TMHMM2.0	outside	     1  1328
+396	TMHMM2.0	TMhelix	  1329  1347
+396	TMHMM2.0	inside	  1348  1359
+396	TMHMM2.0	TMhelix	  1360  1382
+396	TMHMM2.0	outside	  1383  1673
+396	TMHMM2.0	TMhelix	  1674  1692
+396	TMHMM2.0	inside	  1693  1704
+396	TMHMM2.0	TMhelix	  1705  1727
+396	TMHMM2.0	outside	  1728  1800

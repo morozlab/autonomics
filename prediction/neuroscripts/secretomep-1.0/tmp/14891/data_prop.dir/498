@@ -1,0 +1,271 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1640 498         
+MNFLISDRRRARLCSIKHSHIFALDPLHPNMYVRSISVAARPRSNSGFHVAKSSRSENRLQLSQTHHTNDAKRYHCVKCL      80
+YHEKFPLAIPAELVFRSRDWLSTNQGLVFPDSVGSVNYLKFKIVDMFLVCQLSHRAEGPVKFPYARERFRIQKKSPLIQE     160
+KGPLSKRKVPYPKERSPYPKKRSLIQEKGPLIQEEGSLIQNKGFFSKRKVPYPKERSLIQKKGTLIQKKGSTNDDLLRRP     240
+KPVIPRGASQPPPKRKNGYNFSTITPIDLKFCMPTNLVIIYHLVSKFKFKIPDPTSHNRPYYWIRELFFLDKGHFFLDQG     320
+TLVVGYEVTPSAEGEFHNQFRDLIGNEATPPLPAREAHQTKRPQQSVRCLRYQGILLRERERERDRQRERQTDRQTETEG     400
+EGEGEIEIAHPLGAPQVCVFDNPPGFAEWFFSPISTTITRLSWQLNCSKRALSRRYRLTNDFDDVHLQLIIEIQFNSEEG     480
+IKALGIDECRIRPYSVECTRSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGDFLGHFGDSD     560
+SMNLSVRISQFYHVTGSRGTLLVVELFHIRKGHLHVTRGVLGDGREVRESISSHSFMRVYRGTCNFKKEKGIKALGIDEC     640
+RIRPYSVECTRSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFGDSDSMNLSVRIS     720
+QFCEELLLLQQNWPPTRDSWRTGGWEGGPRIHQQFQTFQHYFKQINLSIYRETCNLKKEEGIKALGIDECRIRPYSVECT     800
+RSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFGDSDSLNLSVRISQFCEELLLLQ     880
+QNWPPTRDSWRTGGWEGGPRLHQQFQTFQHYFKQINLSIYRETCNLKKEEGIKALGIDECRIRPYSVECTRSRSISEVKQ     960
+PQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFGDSDSLNLSVRISQFCEELLLLQQNWPPTRDSW    1040
+RTGGWEGGPRLHQQFQTFQHYFKQINLSYPSVEGIAKVRHVLACPQCRGNCVTKPGLGIDECRIRPYSVECTRSRSISEV    1120
+KQPQAGLVLGWVTAWESPVHMNLQLESLCENLTVLPPTRDSWRTGGWEGGPRLHQQFQTFQHYFKQINLSIYRETCNLKK    1200
+EEGIKALGIDECRIRPYSVECTRSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFG    1280
+DSDSLNLSVRISQFCEELLLLQQNWPPTRDSWRTGGWEGGPRLHQQFQTFQHYFKQINLSIYRETCNLKKEEGIKALGID    1360
+ECRIRPYSVECTRSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFGDSDSLNLSVR    1440
+ISQFCEELLLLQQNWPPTRDSWRTGGWEGGPRLHQQFQTFQHYFKQINLSIYRETCNLKKEEGIKALGIDECRIRPYSVE    1520
+CTRSRSISEVKQPQAGLVLGWVTAWESPVQYPFFNFFGKLINKVTHIFGDFLGEFLGHFGDSDSLNLSVRISQFCEELLL    1600
+LQQNWPPTRDSWRTGGWEGGPRLHQQFQTFQHYFKQINLR                                            1680
+................................................................................      80
+................................................................................     160
+.....................P..........................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+........................................                                            1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+498              8    NFLISDR|RR  0.059    .
+498              9    FLISDRR|RA  0.086    .
+498             10    LISDRRR|AR  0.160    .
+498             12    SDRRRAR|LC  0.365    .
+498             17    ARLCSIK|HS  0.065    .
+498             34    HPNMYVR|SI  0.224    .
+498             41    SISVAAR|PR  0.152    .
+498             43    SVAARPR|SN  0.166    .
+498             52    SGFHVAK|SS  0.095    .
+498             55    HVAKSSR|SE  0.144    .
+498             59    SSRSENR|LQ  0.103    .
+498             72    HHTNDAK|RY  0.063    .
+498             73    HTNDAKR|YH  0.201    .
+498             78    KRYHCVK|CL  0.074    .
+498             84    KCLYHEK|FP  0.062    .
+498             96    PAELVFR|SR  0.100    .
+498             98    ELVFRSR|DW  0.090    .
+498            120    GSVNYLK|FK  0.063    .
+498            122    VNYLKFK|IV  0.088    .
+498            135    VCQLSHR|AE  0.099    .
+498            141    RAEGPVK|FP  0.067    .
+498            146    VKFPYAR|ER  0.089    .
+498            148    FPYARER|FR  0.104    .
+498            150    YARERFR|IQ  0.088    .
+498            153    ERFRIQK|KS  0.111    .
+498            154    RFRIQKK|SP  0.189    .
+498            161    SPLIQEK|GP  0.065    .
+498            166    EKGPLSK|RK  0.058    .
+498            167    KGPLSKR|KV  0.138    .
+498            168    GPLSKRK|VP  0.116    .
+498            173    RKVPYPK|ER  0.068    .
+498            175    VPYPKER|SP  0.166    .
+498            180    ERSPYPK|KR  0.086    .
+498            181    RSPYPKK|RS  0.114    .
+498            182    SPYPKKR|SL  0.549 *ProP*
+498            188    RSLIQEK|GP  0.071    .
+498            202    GSLIQNK|GF  0.074    .
+498            207    NKGFFSK|RK  0.062    .
+498            208    KGFFSKR|KV  0.174    .
+498            209    GFFSKRK|VP  0.099    .
+498            214    RKVPYPK|ER  0.070    .
+498            216    VPYPKER|SL  0.233    .
+498            221    ERSLIQK|KG  0.072    .
+498            222    RSLIQKK|GT  0.117    .
+498            228    KGTLIQK|KG  0.059    .
+498            229    GTLIQKK|GS  0.085    .
+498            238    TNDDLLR|RP  0.081    .
+498            239    NDDLLRR|PK  0.102    .
+498            241    DLLRRPK|PV  0.170    .
+498            246    PKPVIPR|GA  0.128    .
+498            254    ASQPPPK|RK  0.069    .
+498            255    SQPPPKR|KN  0.198    .
+498            256    QPPPKRK|NG  0.080    .
+498            270    ITPIDLK|FC  0.057    .
+498            286    IYHLVSK|FK  0.074    .
+498            288    HLVSKFK|FK  0.076    .
+498            290    VSKFKFK|IP  0.070    .
+498            299    DPTSHNR|PY  0.102    .
+498            305    RPYYWIR|EL  0.101    .
+498            312    ELFFLDK|GH  0.060    .
+498            341    EFHNQFR|DL  0.204    .
+498            355    TPPLPAR|EA  0.154    .
+498            361    REAHQTK|RP  0.072    .
+498            362    EAHQTKR|PQ  0.166    .
+498            368    RPQQSVR|CL  0.143    .
+498            371    QSVRCLR|YQ  0.302    .
+498            378    YQGILLR|ER  0.080    .
+498            380    GILLRER|ER  0.068    .
+498            382    LLRERER|ER  0.088    .
+498            384    RERERER|DR  0.097    .
+498            386    RERERDR|QR  0.097    .
+498            388    RERDRQR|ER  0.090    .
+498            390    RDRQRER|QT  0.151    .
+498            394    RERQTDR|QT  0.156    .
+498            440    ISTTITR|LS  0.077    .
+498            449    WQLNCSK|RA  0.055    .
+498            450    QLNCSKR|AL  0.259    .
+498            454    SKRALSR|RY  0.078    .
+498            455    KRALSRR|YR  0.187    .
+498            457    ALSRRYR|LT  0.324    .
+498            482    NSEEGIK|AL  0.069    .
+498            490    LGIDECR|IR  0.069    .
+498            492    IDECRIR|PY  0.089    .
+498            500    YSVECTR|SR  0.125    .
+498            502    VECTRSR|SI  0.142    .
+498            508    RSISEVK|QP  0.070    .
+498            536    FFNFFGK|LI  0.086    .
+498            540    FGKLINK|VT  0.060    .
+498            567    SMNLSVR|IS  0.091    .
+498            578    YHVTGSR|GT  0.076    .
+498            590    VELFHIR|KG  0.067    .
+498            591    ELFHIRK|GH  0.080    .
+498            598    GHLHVTR|GV  0.136    .
+498            605    GVLGDGR|EV  0.106    .
+498            608    GDGREVR|ES  0.260    .
+498            618    SSHSFMR|VY  0.100    .
+498            621    SFMRVYR|GT  0.351    .
+498            627    RGTCNFK|KE  0.055    .
+498            628    GTCNFKK|EK  0.122    .
+498            630    CNFKKEK|GI  0.078    .
+498            633    KKEKGIK|AL  0.081    .
+498            641    LGIDECR|IR  0.069    .
+498            643    IDECRIR|PY  0.089    .
+498            651    YSVECTR|SR  0.125    .
+498            653    VECTRSR|SI  0.142    .
+498            659    RSISEVK|QP  0.070    .
+498            687    FFNFFGK|LI  0.086    .
+498            691    FGKLINK|VT  0.060    .
+498            718    SMNLSVR|IS  0.096    .
+498            737    QNWPPTR|DS  0.115    .
+498            741    PTRDSWR|TG  0.112    .
+498            750    GWEGGPR|IH  0.081    .
+498            763    TFQHYFK|QI  0.069    .
+498            771    INLSIYR|ET  0.075    .
+498            777    RETCNLK|KE  0.057    .
+498            778    ETCNLKK|EE  0.090    .
+498            783    KKEEGIK|AL  0.074    .
+498            791    LGIDECR|IR  0.069    .
+498            793    IDECRIR|PY  0.089    .
+498            801    YSVECTR|SR  0.125    .
+498            803    VECTRSR|SI  0.142    .
+498            809    RSISEVK|QP  0.070    .
+498            837    FFNFFGK|LI  0.086    .
+498            841    FGKLINK|VT  0.060    .
+498            868    SLNLSVR|IS  0.097    .
+498            887    QNWPPTR|DS  0.115    .
+498            891    PTRDSWR|TG  0.112    .
+498            900    GWEGGPR|LH  0.077    .
+498            913    TFQHYFK|QI  0.069    .
+498            921    INLSIYR|ET  0.075    .
+498            927    RETCNLK|KE  0.057    .
+498            928    ETCNLKK|EE  0.090    .
+498            933    KKEEGIK|AL  0.074    .
+498            941    LGIDECR|IR  0.069    .
+498            943    IDECRIR|PY  0.089    .
+498            951    YSVECTR|SR  0.125    .
+498            953    VECTRSR|SI  0.142    .
+498            959    RSISEVK|QP  0.070    .
+498            987    FFNFFGK|LI  0.086    .
+498            991    FGKLINK|VT  0.060    .
+498           1018    SLNLSVR|IS  0.097    .
+498           1037    QNWPPTR|DS  0.115    .
+498           1041    PTRDSWR|TG  0.112    .
+498           1050    GWEGGPR|LH  0.077    .
+498           1063    TFQHYFK|QI  0.074    .
+498           1077    SVEGIAK|VR  0.055    .
+498           1079    EGIAKVR|HV  0.113    .
+498           1088    LACPQCR|GN  0.103    .
+498           1094    RGNCVTK|PG  0.067    .
+498           1103    LGIDECR|IR  0.077    .
+498           1105    IDECRIR|PY  0.091    .
+498           1113    YSVECTR|SR  0.125    .
+498           1115    VECTRSR|SI  0.142    .
+498           1121    RSISEVK|QP  0.070    .
+498           1159    TVLPPTR|DS  0.109    .
+498           1163    PTRDSWR|TG  0.106    .
+498           1172    GWEGGPR|LH  0.077    .
+498           1185    TFQHYFK|QI  0.069    .
+498           1193    INLSIYR|ET  0.075    .
+498           1199    RETCNLK|KE  0.057    .
+498           1200    ETCNLKK|EE  0.090    .
+498           1205    KKEEGIK|AL  0.074    .
+498           1213    LGIDECR|IR  0.069    .
+498           1215    IDECRIR|PY  0.089    .
+498           1223    YSVECTR|SR  0.125    .
+498           1225    VECTRSR|SI  0.142    .
+498           1231    RSISEVK|QP  0.070    .
+498           1259    FFNFFGK|LI  0.086    .
+498           1263    FGKLINK|VT  0.060    .
+498           1290    SLNLSVR|IS  0.097    .
+498           1309    QNWPPTR|DS  0.115    .
+498           1313    PTRDSWR|TG  0.112    .
+498           1322    GWEGGPR|LH  0.077    .
+498           1335    TFQHYFK|QI  0.069    .
+498           1343    INLSIYR|ET  0.075    .
+498           1349    RETCNLK|KE  0.057    .
+498           1350    ETCNLKK|EE  0.090    .
+498           1355    KKEEGIK|AL  0.074    .
+498           1363    LGIDECR|IR  0.069    .
+498           1365    IDECRIR|PY  0.089    .
+498           1373    YSVECTR|SR  0.125    .
+498           1375    VECTRSR|SI  0.142    .
+498           1381    RSISEVK|QP  0.070    .
+498           1409    FFNFFGK|LI  0.086    .
+498           1413    FGKLINK|VT  0.060    .
+498           1440    SLNLSVR|IS  0.097    .
+498           1459    QNWPPTR|DS  0.115    .
+498           1463    PTRDSWR|TG  0.112    .
+498           1472    GWEGGPR|LH  0.077    .
+498           1485    TFQHYFK|QI  0.069    .
+498           1493    INLSIYR|ET  0.075    .
+498           1499    RETCNLK|KE  0.057    .
+498           1500    ETCNLKK|EE  0.090    .
+498           1505    KKEEGIK|AL  0.074    .
+498           1513    LGIDECR|IR  0.069    .
+498           1515    IDECRIR|PY  0.089    .
+498           1523    YSVECTR|SR  0.125    .
+498           1525    VECTRSR|SI  0.142    .
+498           1531    RSISEVK|QP  0.070    .
+498           1559    FFNFFGK|LI  0.086    .
+498           1563    FGKLINK|VT  0.060    .
+498           1590    SLNLSVR|IS  0.097    .
+498           1609    QNWPPTR|DS  0.115    .
+498           1613    PTRDSWR|TG  0.112    .
+498           1622    GWEGGPR|LH  0.077    .
+498           1635    TFQHYFK|QI  0.067    .
+498           1640    FKQINLR|--  0.098    .
+____________________________^_________________
+
+
+
+

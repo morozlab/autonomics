@@ -1,0 +1,42 @@
+# pfam_scan.pl,  run at Mon Aug  8 19:49:26 2011
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jm14@sanger.ac.uk), John Tate (jt6@sanger.ac.uk), 
+#          Rob Finn (rdf@sanger.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /home/girardo/pbs/mostSpecific.fasta
+#        searching against: /srv/data/pfam/Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+scaffold00673_gene_1174Gainesville               21     78     21    100 PF00021.15  UPAR_LY6          Domain     1    52    77     20.1   0.00051   1 CL0117   
+scaffold1605_1_size20601_gene_12933Barcelona     17     79     17     79 PF00226.25  DnaJ              Domain     1    64    64     86.9   4.2e-25   1 CL0392   
+scaffold1806_1_size18368_gene_13929Barcelona     42    152     41    152 PF00059.15  Lectin_C          Domain     2   108   108     85.4   2.4e-24   1 CL0056   
+scaffold194_1_size82518_gene_2054Barcelona       42    254     41    254 PF07722.7   Peptidase_C26     Domain     2   217   217     91.1   5.2e-26   1 CL0014   
+scaffold2479_1_size13623_gene_16871Barcelona     28     81     26     81 PF00090.13  TSP_1             Family     3    49    49     15.0     0.016   1 No_clan  
+scaffold2479_1_size13623_gene_16871Barcelona    270    322    269    322 PF00090.13  TSP_1             Family     2    49    49     14.9     0.017   1 No_clan  
+scaffold428_1_size53673_gene_4494Barcelona      166    429    166    430 PF00149.22  Metallophos       Domain     1   197   198     80.8   6.9e-23   1 CL0163   
+scaffold541_1_size47384_gene_5513Barcelona      111    317    110    317 PF00112.17  Peptidase_C1      Domain     2   220   220    185.3   1.1e-54   1 CL0125   
+scaffold5613_1_size5565_gene_25839Barcelona      66    463     29    481 PF00067.16  p450              Domain    31   440   463    264.1   1.5e-78   1 No_clan  
+scaffold5852_1_size5373_gene_26332Barcelona      20    105     20    113 PF00553.13  CBM_2             Domain     1    86   101     22.3   8.4e-05   1 CL0203   
+scaffold5852_1_size5373_gene_26332Barcelona     233    617    231    623 PF00759.1   Glyco_hydro_9     Domain     3   404   444    380.0  1.3e-113   1 CL0059   
+scaffold5852_1_size5373_gene_26332Barcelona     654    699    639    699 PF00759.1   Glyco_hydro_9     Domain   401   444   444     40.7   1.1e-10   1 CL0059   
+scaffold721_1_size39808_gene_6970Barcelona      177    223    164    223 PF00084.14  Sushi             Domain    12    56    56     28.0   1.6e-06   1 No_clan  
+scaffold7583_1_size3843_gene_29608Barcelona      25    208     18    212 PF00354.11  Pentaxin          Domain     7   182   195    119.2   1.2e-34   1 CL0004   

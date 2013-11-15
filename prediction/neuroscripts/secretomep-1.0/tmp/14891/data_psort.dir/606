@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+606	
+
+ psg: 0.61  gvh: 0.41  alm: 0.45  top: 0.57  tms: 0.08  mit: 0.50  mip: 0.05
+ nuc: 0.08  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.12  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 1.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.79  lps: 0.00  len: 0.36 
+
+	 65.2 %: nuclear
+	 13.0 %: mitochondrial
+	  8.7 %: cytoplasmic
+	  4.3 %: vacuolar
+	  4.3 %: vesicles of secretory system
+	  4.3 %: plasma membrane
+
+>> prediction for 606 is nuc (k=23)
+

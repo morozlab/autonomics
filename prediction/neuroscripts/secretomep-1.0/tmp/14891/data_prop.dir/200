@@ -1,0 +1,434 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2496 200         
+MGISIERYRLAIGRFAGGRAGSNRQKRTRTERDDKPYTENSLSHCYGLDIIILIFYIVIMFIFAGSMFRYKTPVLAISSP      80
+ERLCEGGMLYPKLYLWYADCILLLIIFKHFFKPVRVLISGLENVLSLVLYVCAMAKSLIVRVQPSIVNPGPGPTDSLNKL     160
+KIVYCNVNGLIHMQSMKGDQPQFQIAKIKELRGYLSTYLPDIVLLNETWLNEHVQDGEGVSDKYYSIFRKDRTKVDMEKY     240
+GKCGGGGVLILAKNDLGVEVQQIDSKTELPIVSVLLKPKNTTPICLSTLYRYDYSGGDVFKGVEVYYTNLMKKYKNLTIF     320
+GDLNLSTVKDWDLPVSNSSIHEDYIHLFNSLGLKSMINEQTHKDGNILDLLLTSNENLFSKVSVVESGLIKSDHFTIHCH     400
+LSIRKIRPKYTTTKKFAFKKANWEALDEELLSENWLSRFEGMSAEACWQIFKSRLDIILRKHVPLVSVKLGSQPPWYDDE     480
+LRSLKKDLDRARAEAIKHPDNEYMVRYHIETEDLYRTQSLEKERSYYDMPFINENENNSSAEVSKKFFKHVKSQKSSSRI     560
+PDTVFYGKKFRTESMEKAEIFNTFFSDQFTEASSYQELIDVTRNHENDFNDEAFHVDEVLEILRKLDPSKATGPDNIPGI     640
+LLKKCSRSIADPLTLIFNRSYREGKLPQEWKNANVVPIHKKGDKANIENYRPISLTCLTMKVLEKLVRERLYRQLEHSKL     720
+NLTFPSLISKCAGSAQNVTKMCWQAHCYIANNFDLGVCWGYKTPVLAISSPERLCEGGMLYPKLYLWYADAPQFQIAKIK     800
+ELRGYLSTYLPDIVLLNETWLNEHVQDGEVVSDKYYSIFRKDRTKVDMEKYGKCGGGGVLILAKNDLGVEVQQIDSKTEL     880
+PIVSVLLNLNPKIQHQYAFPHCTDLNLSTVKDWDLPVSNSSIHEDYIHLFNSLGLKSMINEPTHNDGNILDLLLTSNENL     960
+FSKVSVVESGLIKSDHFTIHCHLSIRKIRPKYTTTKKFAFKKANWEALDEELLSENWLSRFEGMSAEACWQIFKSRLDII    1040
+LRKHVPLVSVKLGSQPPWYDDELRSLKKDLDRARADAIKHPDNEYMVRYHIETEDLYRTQSLEKERSYYDMPFINENENN    1120
+SSAEVSKKFFKHVKSQKSSSRIPDTVFYGKKFRTESMEKAEIFNTFFSDQFTEASSYQELIDVTRNHENDFNDEAFHVDE    1200
+VLEILRKLDPSKATGPDNIPGILLKKCSRSIADPLTLIFNRSYREGKLPQEWKNANVVPIHKKGDKANIENYRPRALTCL    1280
+TMKVLEKLVRERLYRVCLPKITPFQHGFVPLKSCSTQLIDFNCDLALNLNKGLQTDIVFFDFKKAFDSVSHDVILSKLKV    1360
+EYNINGRMLQFIKEYLSDRRQRVVLDGKISSWTTVRSGVPQGSILGPFLFVLFINDIVDQVGGDTSIRLYADDMKRWRII    1440
+KSSGDTDNIIKVNFLAKIMTKIWLKRLKNDLHLIQISIEAKGSTKSFTTLSLRALFNASIMPAAFQPLSMIRFPLIFFGH    1520
+ILNYRFTNFQLIRKIRPKYTTTKKFAFKKANWEALDEELLSENWLSRFEGMSAEACWQIFKSRLDIILRKHVPLVSVKLG    1600
+SQPPWYDDELRSLKKDLDRARADAIKHPDNEYMVRYHIETEDLYRTQSLEKERSYYDMPFINENNSSAEVSKKFFKHVKS    1680
+QKSSSRIPDTVFYGKKFRTESMEKAEIFNTFFSDQFTEASSYQELIDVTRNHENDFNDEAFHVDEVLEILRKLDPSKATG    1760
+PDNIPGILLKKCSRSIADPLTLIFNRSYREGKLPQEWKNANVVPIHKKGDKANIENYRPRALTCLTMKVLEKLVRERLYR    1840
+VCLPKITPFQHGFVPLKSCSTQLIDFNCDLALNLNKGLQTDIVFFDFKKAFDSVSHDVILSKLKVEYNINGRMLQFIKEY    1920
+LSDRRQRVVLDGKISSWTTVRSGVPQGSILGPFLFVLFINDIVDQVGGDTSIRLYADDMKSWRIIKSSGDTDNIIKVNFL    2000
+AKIMTKIWLKRLKNDLHLIQISIEAKGSTKSFTTLSLRALFNASIMPAAFQPLSMIRFPLIFFGHILNYRFTNFQLISDQ    2080
+FTEASSYQELIDVTRNHDNDFNDEAFHVDEVLEILRKLDPSKATGPDNIPGLQTDIVFFDFTKAFDSVSHDVILRKLKVE    2160
+YNINGRMLQFIKEYLSDRRQRVVLDGKISSWTTVRSGVPQGSILGPFLFVLFINDIVDQVGGDTSIRLYADDMKIWRIIK    2240
+SSGDSLQPDIDRLMIWSENNKIHFHPDKCTLLRCSLKQNTVHFTYHLGSIQIGPSQTATDLGVLTTNKLSSTHHQNKLLS    2320
+KSSQRLGLVRRTCSDLVQSQSKRKTLFISLVRSLYEHCSEVWRPISASSIEKFEKMQKRAVKWVLNESECSYSNDEYVTR    2400
+LMELKILPMSSKFLYNDLKMFHKILYKLIPMELPPYMRRFDPTTDNDRPRTRQQINKDATYVVCDERPRIDVFKESFFYR    2480
+TYIEWNSLIFVALVTV                                                                    2560
+..........................P.....................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................                                                                    2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+200              7    MGISIER|YR  0.078    .
+200              9    ISIERYR|LA  0.102    .
+200             14    YRLAIGR|FA  0.145    .
+200             19    GRFAGGR|AG  0.094    .
+200             24    GRAGSNR|QK  0.120    .
+200             26    AGSNRQK|RT  0.077    .
+200             27    GSNRQKR|TR  0.560 *ProP*
+200             29    NRQKRTR|TE  0.109    .
+200             32    KRTRTER|DD  0.395    .
+200             35    RTERDDK|PY  0.099    .
+200             69    FAGSMFR|YK  0.105    .
+200             71    GSMFRYK|TP  0.061    .
+200             82    AISSPER|LC  0.106    .
+200             92    GGMLYPK|LY  0.058    .
+200            108    LLLIIFK|HF  0.059    .
+200            112    IFKHFFK|PV  0.080    .
+200            115    HFFKPVR|VL  0.097    .
+200            136    YVCAMAK|SL  0.074    .
+200            141    AKSLIVR|VQ  0.085    .
+200            159    PTDSLNK|LK  0.054    .
+200            161    DSLNKLK|IV  0.082    .
+200            177    IHMQSMK|GD  0.076    .
+200            187    PQFQIAK|IK  0.059    .
+200            189    FQIAKIK|EL  0.083    .
+200            192    AKIKELR|GY  0.073    .
+200            223    GEGVSDK|YY  0.081    .
+200            229    KYYSIFR|KD  0.085    .
+200            230    YYSIFRK|DR  0.126    .
+200            232    SIFRKDR|TK  0.308    .
+200            234    FRKDRTK|VD  0.061    .
+200            239    TKVDMEK|YG  0.071    .
+200            242    DMEKYGK|CG  0.067    .
+200            253    GVLILAK|ND  0.064    .
+200            266    VQQIDSK|TE  0.058    .
+200            277    IVSVLLK|PK  0.065    .
+200            279    SVLLKPK|NT  0.066    .
+200            291    CLSTLYR|YD  0.147    .
+200            301    SGGDVFK|GV  0.105    .
+200            312    YYTNLMK|KY  0.054    .
+200            313    YTNLMKK|YK  0.100    .
+200            315    NLMKKYK|NL  0.074    .
+200            329    LNLSTVK|DW  0.061    .
+200            354    FNSLGLK|SM  0.082    .
+200            363    INEQTHK|DG  0.063    .
+200            381    NENLFSK|VS  0.058    .
+200            391    VESGLIK|SD  0.081    .
+200            404    HCHLSIR|KI  0.115    .
+200            405    CHLSIRK|IR  0.066    .
+200            407    LSIRKIR|PK  0.312    .
+200            409    IRKIRPK|YT  0.095    .
+200            414    PKYTTTK|KF  0.060    .
+200            415    KYTTTKK|FA  0.137    .
+200            419    TKKFAFK|KA  0.077    .
+200            420    KKFAFKK|AN  0.150    .
+200            438    SENWLSR|FE  0.119    .
+200            452    ACWQIFK|SR  0.066    .
+200            454    WQIFKSR|LD  0.095    .
+200            460    RLDIILR|KH  0.066    .
+200            461    LDIILRK|HV  0.083    .
+200            469    VPLVSVK|LG  0.059    .
+200            482    WYDDELR|SL  0.115    .
+200            485    DELRSLK|KD  0.079    .
+200            486    ELRSLKK|DL  0.152    .
+200            490    LKKDLDR|AR  0.097    .
+200            492    KDLDRAR|AE  0.088    .
+200            497    ARAEAIK|HP  0.069    .
+200            506    DNEYMVR|YH  0.094    .
+200            516    ETEDLYR|TQ  0.073    .
+200            522    RTQSLEK|ER  0.059    .
+200            524    QSLEKER|SY  0.139    .
+200            545    SSAEVSK|KF  0.079    .
+200            546    SAEVSKK|FF  0.155    .
+200            549    VSKKFFK|HV  0.098    .
+200            552    KFFKHVK|SQ  0.074    .
+200            555    KHVKSQK|SS  0.116    .
+200            559    SQKSSSR|IP  0.113    .
+200            568    DTVFYGK|KF  0.060    .
+200            569    TVFYGKK|FR  0.097    .
+200            571    FYGKKFR|TE  0.090    .
+200            577    RTESMEK|AE  0.055    .
+200            603    ELIDVTR|NH  0.084    .
+200            624    EVLEILR|KL  0.076    .
+200            625    VLEILRK|LD  0.063    .
+200            630    RKLDPSK|AT  0.072    .
+200            643    IPGILLK|KC  0.070    .
+200            644    PGILLKK|CS  0.079    .
+200            647    LLKKCSR|SI  0.127    .
+200            659    LTLIFNR|SY  0.115    .
+200            662    IFNRSYR|EG  0.205    .
+200            665    RSYREGK|LP  0.103    .
+200            671    KLPQEWK|NA  0.072    .
+200            680    NVVPIHK|KG  0.057    .
+200            681    VVPIHKK|GD  0.100    .
+200            684    IHKKGDK|AN  0.062    .
+200            691    ANIENYR|PI  0.097    .
+200            701    LTCLTMK|VL  0.067    .
+200            705    TMKVLEK|LV  0.074    .
+200            708    VLEKLVR|ER  0.066    .
+200            710    EKLVRER|LY  0.107    .
+200            713    VRERLYR|QL  0.326    .
+200            719    RQLEHSK|LN  0.057    .
+200            730    FPSLISK|CA  0.097    .
+200            740    SAQNVTK|MC  0.087    .
+200            762    GVCWGYK|TP  0.054    .
+200            773    AISSPER|LC  0.106    .
+200            783    GGMLYPK|LY  0.056    .
+200            798    PQFQIAK|IK  0.058    .
+200            800    FQIAKIK|EL  0.082    .
+200            803    AKIKELR|GY  0.073    .
+200            834    GEVVSDK|YY  0.078    .
+200            840    KYYSIFR|KD  0.085    .
+200            841    YYSIFRK|DR  0.126    .
+200            843    SIFRKDR|TK  0.308    .
+200            845    FRKDRTK|VD  0.061    .
+200            850    TKVDMEK|YG  0.071    .
+200            853    DMEKYGK|CG  0.067    .
+200            864    GVLILAK|ND  0.064    .
+200            877    VQQIDSK|TE  0.058    .
+200            892    LLNLNPK|IQ  0.066    .
+200            911    LNLSTVK|DW  0.064    .
+200            936    FNSLGLK|SM  0.077    .
+200            963    NENLFSK|VS  0.058    .
+200            973    VESGLIK|SD  0.081    .
+200            986    HCHLSIR|KI  0.115    .
+200            987    CHLSIRK|IR  0.066    .
+200            989    LSIRKIR|PK  0.312    .
+200            991    IRKIRPK|YT  0.095    .
+200            996    PKYTTTK|KF  0.060    .
+200            997    KYTTTKK|FA  0.137    .
+200           1001    TKKFAFK|KA  0.077    .
+200           1002    KKFAFKK|AN  0.150    .
+200           1020    SENWLSR|FE  0.119    .
+200           1034    ACWQIFK|SR  0.066    .
+200           1036    WQIFKSR|LD  0.095    .
+200           1042    RLDIILR|KH  0.066    .
+200           1043    LDIILRK|HV  0.083    .
+200           1051    VPLVSVK|LG  0.059    .
+200           1064    WYDDELR|SL  0.115    .
+200           1067    DELRSLK|KD  0.076    .
+200           1068    ELRSLKK|DL  0.158    .
+200           1072    LKKDLDR|AR  0.105    .
+200           1074    KDLDRAR|AD  0.091    .
+200           1079    ARADAIK|HP  0.070    .
+200           1088    DNEYMVR|YH  0.094    .
+200           1098    ETEDLYR|TQ  0.073    .
+200           1104    RTQSLEK|ER  0.059    .
+200           1106    QSLEKER|SY  0.139    .
+200           1127    SSAEVSK|KF  0.079    .
+200           1128    SAEVSKK|FF  0.155    .
+200           1131    VSKKFFK|HV  0.098    .
+200           1134    KFFKHVK|SQ  0.074    .
+200           1137    KHVKSQK|SS  0.116    .
+200           1141    SQKSSSR|IP  0.113    .
+200           1150    DTVFYGK|KF  0.060    .
+200           1151    TVFYGKK|FR  0.097    .
+200           1153    FYGKKFR|TE  0.090    .
+200           1159    RTESMEK|AE  0.055    .
+200           1185    ELIDVTR|NH  0.084    .
+200           1206    EVLEILR|KL  0.076    .
+200           1207    VLEILRK|LD  0.063    .
+200           1212    RKLDPSK|AT  0.072    .
+200           1225    IPGILLK|KC  0.070    .
+200           1226    PGILLKK|CS  0.079    .
+200           1229    LLKKCSR|SI  0.127    .
+200           1241    LTLIFNR|SY  0.115    .
+200           1244    IFNRSYR|EG  0.205    .
+200           1247    RSYREGK|LP  0.103    .
+200           1253    KLPQEWK|NA  0.072    .
+200           1262    NVVPIHK|KG  0.057    .
+200           1263    VVPIHKK|GD  0.100    .
+200           1266    IHKKGDK|AN  0.061    .
+200           1273    ANIENYR|PR  0.072    .
+200           1275    IENYRPR|AL  0.113    .
+200           1283    LTCLTMK|VL  0.064    .
+200           1287    TMKVLEK|LV  0.074    .
+200           1290    VLEKLVR|ER  0.064    .
+200           1292    EKLVRER|LY  0.084    .
+200           1295    VRERLYR|VC  0.232    .
+200           1300    YRVCLPK|IT  0.067    .
+200           1312    HGFVPLK|SC  0.102    .
+200           1331    LALNLNK|GL  0.064    .
+200           1343    IVFFDFK|KA  0.074    .
+200           1344    VFFDFKK|AF  0.096    .
+200           1357    HDVILSK|LK  0.057    .
+200           1359    VILSKLK|VE  0.056    .
+200           1367    EYNINGR|ML  0.080    .
+200           1373    RMLQFIK|EY  0.058    .
+200           1379    KEYLSDR|RQ  0.087    .
+200           1380    EYLSDRR|QR  0.075    .
+200           1382    LSDRRQR|VV  0.411    .
+200           1388    RVVLDGK|IS  0.060    .
+200           1396    SSWTTVR|SG  0.136    .
+200           1428    GGDTSIR|LY  0.075    .
+200           1435    LYADDMK|RW  0.064    .
+200           1436    YADDMKR|WR  0.112    .
+200           1438    DDMKRWR|II  0.111    .
+200           1441    KRWRIIK|SS  0.328    .
+200           1451    DTDNIIK|VN  0.057    .
+200           1457    KVNFLAK|IM  0.065    .
+200           1461    LAKIMTK|IW  0.062    .
+200           1465    MTKIWLK|RL  0.059    .
+200           1466    TKIWLKR|LK  0.166    .
+200           1468    IWLKRLK|ND  0.057    .
+200           1481    QISIEAK|GS  0.096    .
+200           1485    EAKGSTK|SF  0.073    .
+200           1493    FTTLSLR|AL  0.076    .
+200           1512    QPLSMIR|FP  0.086    .
+200           1525    GHILNYR|FT  0.094    .
+200           1533    TNFQLIR|KI  0.119    .
+200           1534    NFQLIRK|IR  0.067    .
+200           1536    QLIRKIR|PK  0.275    .
+200           1538    IRKIRPK|YT  0.096    .
+200           1543    PKYTTTK|KF  0.060    .
+200           1544    KYTTTKK|FA  0.137    .
+200           1548    TKKFAFK|KA  0.077    .
+200           1549    KKFAFKK|AN  0.150    .
+200           1567    SENWLSR|FE  0.119    .
+200           1581    ACWQIFK|SR  0.066    .
+200           1583    WQIFKSR|LD  0.095    .
+200           1589    RLDIILR|KH  0.066    .
+200           1590    LDIILRK|HV  0.083    .
+200           1598    VPLVSVK|LG  0.059    .
+200           1611    WYDDELR|SL  0.115    .
+200           1614    DELRSLK|KD  0.076    .
+200           1615    ELRSLKK|DL  0.158    .
+200           1619    LKKDLDR|AR  0.105    .
+200           1621    KDLDRAR|AD  0.091    .
+200           1626    ARADAIK|HP  0.070    .
+200           1635    DNEYMVR|YH  0.094    .
+200           1645    ETEDLYR|TQ  0.073    .
+200           1651    RTQSLEK|ER  0.059    .
+200           1653    QSLEKER|SY  0.139    .
+200           1672    SSAEVSK|KF  0.079    .
+200           1673    SAEVSKK|FF  0.155    .
+200           1676    VSKKFFK|HV  0.098    .
+200           1679    KFFKHVK|SQ  0.074    .
+200           1682    KHVKSQK|SS  0.116    .
+200           1686    SQKSSSR|IP  0.113    .
+200           1695    DTVFYGK|KF  0.060    .
+200           1696    TVFYGKK|FR  0.097    .
+200           1698    FYGKKFR|TE  0.090    .
+200           1704    RTESMEK|AE  0.055    .
+200           1730    ELIDVTR|NH  0.084    .
+200           1751    EVLEILR|KL  0.076    .
+200           1752    VLEILRK|LD  0.063    .
+200           1757    RKLDPSK|AT  0.072    .
+200           1770    IPGILLK|KC  0.070    .
+200           1771    PGILLKK|CS  0.079    .
+200           1774    LLKKCSR|SI  0.127    .
+200           1786    LTLIFNR|SY  0.115    .
+200           1789    IFNRSYR|EG  0.205    .
+200           1792    RSYREGK|LP  0.103    .
+200           1798    KLPQEWK|NA  0.072    .
+200           1807    NVVPIHK|KG  0.057    .
+200           1808    VVPIHKK|GD  0.100    .
+200           1811    IHKKGDK|AN  0.061    .
+200           1818    ANIENYR|PR  0.072    .
+200           1820    IENYRPR|AL  0.113    .
+200           1828    LTCLTMK|VL  0.064    .
+200           1832    TMKVLEK|LV  0.074    .
+200           1835    VLEKLVR|ER  0.064    .
+200           1837    EKLVRER|LY  0.084    .
+200           1840    VRERLYR|VC  0.232    .
+200           1845    YRVCLPK|IT  0.067    .
+200           1857    HGFVPLK|SC  0.102    .
+200           1876    LALNLNK|GL  0.064    .
+200           1888    IVFFDFK|KA  0.074    .
+200           1889    VFFDFKK|AF  0.096    .
+200           1902    HDVILSK|LK  0.057    .
+200           1904    VILSKLK|VE  0.056    .
+200           1912    EYNINGR|ML  0.080    .
+200           1918    RMLQFIK|EY  0.058    .
+200           1924    KEYLSDR|RQ  0.087    .
+200           1925    EYLSDRR|QR  0.075    .
+200           1927    LSDRRQR|VV  0.411    .
+200           1933    RVVLDGK|IS  0.060    .
+200           1941    SSWTTVR|SG  0.136    .
+200           1973    GGDTSIR|LY  0.081    .
+200           1980    LYADDMK|SW  0.086    .
+200           1983    DDMKSWR|II  0.118    .
+200           1986    KSWRIIK|SS  0.272    .
+200           1996    DTDNIIK|VN  0.057    .
+200           2002    KVNFLAK|IM  0.065    .
+200           2006    LAKIMTK|IW  0.062    .
+200           2010    MTKIWLK|RL  0.059    .
+200           2011    TKIWLKR|LK  0.166    .
+200           2013    IWLKRLK|ND  0.057    .
+200           2026    QISIEAK|GS  0.096    .
+200           2030    EAKGSTK|SF  0.073    .
+200           2038    FTTLSLR|AL  0.076    .
+200           2057    QPLSMIR|FP  0.086    .
+200           2070    GHILNYR|FT  0.098    .
+200           2095    ELIDVTR|NH  0.082    .
+200           2116    EVLEILR|KL  0.076    .
+200           2117    VLEILRK|LD  0.063    .
+200           2122    RKLDPSK|AT  0.072    .
+200           2143    VFFDFTK|AF  0.064    .
+200           2155    SHDVILR|KL  0.074    .
+200           2156    HDVILRK|LK  0.069    .
+200           2158    VILRKLK|VE  0.096    .
+200           2166    EYNINGR|ML  0.080    .
+200           2172    RMLQFIK|EY  0.058    .
+200           2178    KEYLSDR|RQ  0.087    .
+200           2179    EYLSDRR|QR  0.075    .
+200           2181    LSDRRQR|VV  0.411    .
+200           2187    RVVLDGK|IS  0.060    .
+200           2195    SSWTTVR|SG  0.136    .
+200           2227    GGDTSIR|LY  0.077    .
+200           2234    LYADDMK|IW  0.067    .
+200           2237    DDMKIWR|II  0.101    .
+200           2240    KIWRIIK|SS  0.287    .
+200           2252    LQPDIDR|LM  0.082    .
+200           2261    IWSENNK|IH  0.061    .
+200           2268    IHFHPDK|CT  0.058    .
+200           2273    DKCTLLR|CS  0.088    .
+200           2277    LLRCSLK|QN  0.071    .
+200           2308    GVLTTNK|LS  0.058    .
+200           2317    STHHQNK|LL  0.077    .
+200           2321    QNKLLSK|SS  0.074    .
+200           2325    LSKSSQR|LG  0.071    .
+200           2330    QRLGLVR|RT  0.090    .
+200           2331    RLGLVRR|TC  0.166    .
+200           2342    LVQSQSK|RK  0.057    .
+200           2343    VQSQSKR|KT  0.147    .
+200           2344    QSQSKRK|TL  0.106    .
+200           2352    LFISLVR|SL  0.091    .
+200           2363    HCSEVWR|PI  0.129    .
+200           2372    SASSIEK|FE  0.070    .
+200           2375    SIEKFEK|MQ  0.071    .
+200           2378    KFEKMQK|RA  0.059    .
+200           2379    FEKMQKR|AV  0.417    .
+200           2382    MQKRAVK|WV  0.175    .
+200           2400    NDEYVTR|LM  0.081    .
+200           2405    TRLMELK|IL  0.061    .
+200           2412    ILPMSSK|FL  0.079    .
+200           2419    FLYNDLK|MF  0.069    .
+200           2423    DLKMFHK|IL  0.073    .
+200           2427    FHKILYK|LI  0.061    .
+200           2438    ELPPYMR|RF  0.077    .
+200           2439    LPPYMRR|FD  0.122    .
+200           2448    PTTDNDR|PR  0.070    .
+200           2450    TDNDRPR|TR  0.122    .
+200           2452    NDRPRTR|QQ  0.102    .
+200           2457    TRQQINK|DA  0.118    .
+200           2467    YVVCDER|PR  0.080    .
+200           2469    VCDERPR|ID  0.071    .
+200           2474    PRIDVFK|ES  0.074    .
+200           2480    KESFFYR|TY  0.116    .
+____________________________^_________________
+
+
+
+

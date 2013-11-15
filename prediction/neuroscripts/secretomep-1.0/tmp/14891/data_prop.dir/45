@@ -1,0 +1,604 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3987 45          
+MLRILVDCDPQTVYKTCDTVRRNVGKDMMMFYYNGHGAASCRSHVVDGEQYLWVVKKEVMVYDPIPLSQLMEHVKTPALY      80
+IWDCDYAGHIVNSFTHLARAKKASCDGYYAEPMFEEHSMHLAACGADETLPQNPELPADLYTCCLTTTLRTALTYWFHQQ     160
+KVTGFHIVDCIEYMDQIPGELNDKKTMKGELEWILVAVLDTLAWQMPLSVHEFYRLFRNCRPVASCFRGHILADRIMRSY     240
+NVRPLSVPELPSMAQHPLWKSWDLALDSVMTELSSRKIRMSFPALHRQISTFFFDQLAEFKVALEQQRDRVDCTKFPILF     320
+QMLLGYQFQGEALRIISSLLDRSPLVVEKLLNVGILPGIVYLMTTPQRGFNNLLALISAKVLAVDRRNATIEMLIRHPEN     400
+RQFFLRTMNDPNMGLDTRALSCFCLSVLVRFSARNQEQLLNDHLIRELDDCLEELHNSGNPHDPGTIKLQNCAVLCLAHL     480
+WENNEQAVGMAARANTMENYVVKLLEHPNPETRTAAVYALGTFLSTQRSESQHGESMEHKIAKDLLLASRDGCVHVRKEA     560
+VVALSRYVLQYQHKFVVIAQNSTKEDGGDENHSTNGIRKQQAKSLKTANKFMDVWRCLEMLEADPDPSVQCLAGRVTGHI     640
+EGEAQRRRNSTRSNSTESTINSMREGSEPLNIIYSDFNPKDKVNEDERPPSHGDSKFVEQIVSTEFIEWSDAAFSKPQLA     720
+DPAEEEKHFLQFEMEKRHSENSRKAMANLQKRAHERLDAQIFGIKHDCKPHRVGFHPYAPMIYIVDDRHCNLVEYEPKPK     800
+QYHRFKCSLGRGSTKDVILLNELKRPFLCVINSDAEVYIWRNFENPHRCSLASTFKASSEVNRRVGILMHYVEFSSTLLI     880
+FSQVKRIVSWNLVRETRCPDIQTHTEHPVTAFASSTADDLLVSGFQDGTCRLPVASCFRGHILADRIMRSYNVRPLSVPE     960
+LPSMAQHPLWKSWDLALDSVMTELSSRKIRMSFPALHRQISTFFFDQLAEFKVALEQQRDRFQGEALRIISSLLDRSPLV    1040
+VEKLLNVGILPGIVYLMTTPQRGFNNLLALISAKVLAVDRRNATIEMLIRHPENRQFFLRTMNDPNMGLDTRALSCFCLS    1120
+VLVRFSARNQEQLLNDHLIRELDDCLEELHNSGNPHDPGTIKLQNCAVLCLAHLWENNEQAVGMAARANTMENYVVKLLE    1200
+HPNPETRTAAVYALGTFLSTQRSESQHGESMEHKIAKDLLLASRDGCVHVRKEAVVALSRYVLQYQHKFVVIAQNSTKED    1280
+GGDENHSTNGIRKQQAKSLKTANKFMDVWRCLEMLEADPDPSVQCLAGRVTGHIEGEAQRRRNSTRSNSTESTINSMREG    1360
+SEPLNIIYSDFNPKDKVNEDERPPSHGDSPFVEQIVSTEFIEWSDAAFSKPQLADPAEEEKHFLQFEMEKRHSENSRKAM    1440
+ANLQKRAHERLDAQIFGIKHDCKPHRVGFHPYAPMIYIVDDRHCNLVEYEPKPKQYHRFKCSLGRGSTKDVILLNELKRP    1520
+FLCVINSDAEVYIWRNFENPHRCSLASTFKASSEVNRRVGILMHYVEFSSTLLIFSQVKRIVSWNLVRETRCPDIQTHTE    1600
+HPVTAFASSTADDLLVSGFQDGTCRLFDLRTPSHNQVVQKFGGHGRSSGCPVVKVHIKSNNDNRIIYVASQSGDISLWDL    1680
+RQSKTDIVAEYTPKQNRRPPGLCHRSDLQVFSGGNMRTVAFHNYAPVMACGSHDQGIKIWNTWGDKLNDIKFHEGFMGQK    1760
+VGPSVSLQFHPFEYKLVSRPVLLTQCQMPFQRWTPASCTWMDLDDSEIKKIRVLFNDPIHKDEIQGNHETITQELEHQPR    1840
+SMGAVLVIIAMLQYPPPPEKQKISPCALTETWVDPSKMEYKKAQEAIKENLKRQFSDLFPQTSKKPVRSYEKDRGTIRVE    1920
+MDCSPNYLDNIPGSLTTKSTMLGELEWILVAVHDTLAWQMDLGQTMFIKLFRNCRPVASCFRGHILADRIMRSYNVRPLS    2000
+VPELPSMAQHPLWKSWDLALDSVMSELSFRKIRITRPAPHRQISTFFFDQLTEFKVYLSQHQRNDKIDCRQLPVLFHMLM    2080
+GSQYREECLSLIGKFLDRGPYAGQKFLDIGFLPYLRQMLKIPTGDYKYIMVLIWAKILATDRRMTTIDPILTDAAYRDTH    2160
+YPYPPNNPLSFPLPAIKKIRVLFNDPIHKDEIQGNHETITQELEHQPRSMGAVLVIIAMLQYPPPPEKQKISPCALTETW    2240
+VDPSKMEYKKAQEAIKENLKRQFSDLFPQTSKKPVRSYEKDRGTIRVEMDCSPSKVYGHCDSVRKQINNNRMIFYYNGHG    2320
+TLSCTHETAANNQGIWVLNSQVKHYTVLPLGSLMEKVQTPAIYIWDCDNAGHIVNTFNNVARAKKQAWKDSRDRYYVEPM    2400
+FEEKSLHLAACGADETLPQNPELPADLYTCCLTTALATALRFWFHQQKVTGIHILDCIDYLDNIPGSLTTKSTMLGELEW    2480
+ILVAVHDTLAWQMDLGQTMFIKLFRNCRPVARCFRGHILADRIMRSYNVRPLSVPELPSMAQHPLWKSWDLALDSVMSEL    2560
+SFRKIRITRPAPHRQISTFFFDQLTEFKVYLSQHQRNDKIDCRQLPVLFHMLMGSQYREECLSLIGKFLDRGPYAVQKFL    2640
+DIGFLPYLRQMLKIPPGDYKYIMVLIWAKILATDRRMTTIDPILTDAAYRKFFINILNDTDMILQTRAMACFCLSILVRF    2720
+SQKNSLLLGENLVNELNDCLEDMPLRSTKLQNCAVLCLAYLWDGNEKAMWTAVRANTIEGYVVKLIDHPNPETRTAAVYA    2800
+LGTFLNTRRSDSQHGETIEHKIAKDLLLASRDGCVHVRREAVVALSRYIQQYEPKFITVAASVAEDLATRMQKTSICEDD    2880
+ESCSSPSLFASRKISSSTKSLIAPPSRIIGNKFVDAWRTIKGLERDPDAEVRRLVSEVIKFIEKKMPRHTRRKTSETSYT    2960
+DSSPDSNIQPIYQAYAHANPKRDVFGEGRVVEKDEDERPPIVSDQQSTQIIRTKFADWTDASFSQPLLVMRDEESDPNSE    3040
+AFALNVLRDTKYSEKKSKARATLEKRAHEKLDAQVYGIKHNIRPHKVDFHPFDPLIYILDDSFCSLVEYDCKPRVQHQFA    3120
+CCEMRGTAKDSIMLNEHKRPFLCVINSDAEVYIWRNFESPEQCSLASTFKAYTEASRRGRVLLNYAEFSSNLLISGQVKR    3200
+IVSWNLVRETRYSDIQTHSELPVTAFTTFDRPLGPEQESLLLAGFQDGVCRLYDLRTPSHNQVVQKFGDLPRSNKTSPVV    3280
+SVHVRPNNDNKIIYTASYSGEMCFWDLRKTKSDVEEADYLNMPRYQTLGPDPPNTREVVSSMLRTVAFHNYAPVMACGSH    3360
+DQGIKIWNTWGDKLNDIKFHEGFMGQKVGPSVSLQFHPFEYKLVSAGQDNCVTVYGKATDPKMVTVIPDVKVKINELILQ    3440
+WLSDDKVLDQLNSDLSLILKGKVPEIVPTSRAHLSRSLSPPHHKHPVSSPRSSPRVSSSASQKSLRRSAASAAASAVAVA    3520
+ARTPSPAHSTTLTRQPSTTTTAPKEEIPPFYFPFGKPTSSAPESPNASANTSVLEKVKGLFAECPNGCIQKKDFGSVTKA    3600
+VGFPLYWKCPFFEACSTTDTCSLEQFTKVWDDLKSRCHDEASQFVRLLSKGERDYLVEGDFKNLIQDVIDTHPGMTFLDD    3680
+APEFHARYIETVTARIFYSTSRSWRLQIGRGDLREGSFLKTMAVLEDEPDINQVSDYFSYEHFYVIYCKFWEIDIDHNLE    3760
+VSLEDMKKHADGTVNPRAIERLFQGTVTQKTTDILTYSDFIRFLLAEEDKAHPTAIEYWFRVMDLDGDGYISLYELEYFY    3840
+QAQLEKMRLLGVEECSILDCICQALDLVRPKDEIKITLSDVKKCKQPSQFFNIFLNIQKFLDHEMRDPFSNKEGETPMTD    3920
+WEKYAAREYDDLIADEEYNKGYDYEDDFEEEEEEDKMILGNLAKSAVETYTNWELGVVFVKTGFLKI                 4000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+......................................P.........................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.............................P..................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+.....................P..........................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+................................................................................    3840
+................................................................................    3920
+...................................................................                 4000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+45               3    ----MLR|IL  0.089    .
+45              15    DPQTVYK|TC  0.080    .
+45              21    KTCDTVR|RN  0.085    .
+45              22    TCDTVRR|NV  0.311    .
+45              26    VRRNVGK|DM  0.089    .
+45              42    HGAASCR|SH  0.135    .
+45              56    QYLWVVK|KE  0.053    .
+45              57    YLWVVKK|EV  0.179    .
+45              75    QLMEHVK|TP  0.060    .
+45              99    SFTHLAR|AK  0.095    .
+45             101    THLARAK|KA  0.075    .
+45             102    HLARAKK|AS  0.492    .
+45             150    CLTTTLR|TA  0.075    .
+45             161    YWFHQQK|VT  0.071    .
+45             184    PGELNDK|KT  0.063    .
+45             185    GELNDKK|TM  0.103    .
+45             188    NDKKTMK|GE  0.065    .
+45             215    SVHEFYR|LF  0.112    .
+45             218    EFYRLFR|NC  0.223    .
+45             221    RLFRNCR|PV  0.332    .
+45             228    PVASCFR|GH  0.078    .
+45             235    GHILADR|IM  0.072    .
+45             238    LADRIMR|SY  0.290    .
+45             243    MRSYNVR|PL  0.132    .
+45             260    AQHPLWK|SW  0.116    .
+45             276    MTELSSR|KI  0.093    .
+45             277    TELSSRK|IR  0.066    .
+45             279    LSSRKIR|MS  0.593 *ProP*
+45             287    SFPALHR|QI  0.103    .
+45             301    DQLAEFK|VA  0.060    .
+45             308    VALEQQR|DR  0.084    .
+45             310    LEQQRDR|VD  0.090    .
+45             315    DRVDCTK|FP  0.065    .
+45             334    FQGEALR|II  0.090    .
+45             342    ISSLLDR|SP  0.141    .
+45             349    SPLVVEK|LL  0.067    .
+45             368    LMTTPQR|GF  0.084    .
+45             380    LALISAK|VL  0.062    .
+45             386    KVLAVDR|RN  0.080    .
+45             387    VLAVDRR|NA  0.194    .
+45             396    TIEMLIR|HP  0.088    .
+45             401    IRHPENR|QF  0.104    .
+45             406    NRQFFLR|TM  0.106    .
+45             418    NMGLDTR|AL  0.082    .
+45             430    CLSVLVR|FS  0.121    .
+45             434    LVRFSAR|NQ  0.124    .
+45             446    LNDHLIR|EL  0.116    .
+45             468    HDPGTIK|LQ  0.060    .
+45             493    AVGMAAR|AN  0.100    .
+45             503    MENYVVK|LL  0.075    .
+45             513    HPNPETR|TA  0.103    .
+45             528    TFLSTQR|SE  0.134    .
+45             540    GESMEHK|IA  0.092    .
+45             543    MEHKIAK|DL  0.084    .
+45             550    DLLLASR|DG  0.080    .
+45             557    DGCVHVR|KE  0.079    .
+45             558    GCVHVRK|EA  0.102    .
+45             566    AVVALSR|YV  0.117    .
+45             574    VLQYQHK|FV  0.104    .
+45             584    IAQNSTK|ED  0.082    .
+45             598    HSTNGIR|KQ  0.073    .
+45             599    STNGIRK|QQ  0.114    .
+45             603    IRKQQAK|SL  0.140    .
+45             606    QQAKSLK|TA  0.080    .
+45             610    SLKTANK|FM  0.073    .
+45             616    KFMDVWR|CL  0.129    .
+45             635    VQCLAGR|VT  0.120    .
+45             646    IEGEAQR|RR  0.068    .
+45             647    EGEAQRR|RN  0.114    .
+45             648    GEAQRRR|NS  0.160    .
+45             652    RRRNSTR|SN  0.268    .
+45             664    STINSMR|EG  0.094    .
+45             680    YSDFNPK|DK  0.063    .
+45             682    DFNPKDK|VN  0.073    .
+45             688    KVNEDER|PP  0.092    .
+45             696    PSHGDSK|FV  0.141    .
+45             716    SDAAFSK|PQ  0.067    .
+45             727    DPAEEEK|HF  0.067    .
+45             736    LQFEMEK|RH  0.058    .
+45             737    QFEMEKR|HS  0.208    .
+45             743    RHSENSR|KA  0.153    .
+45             744    HSENSRK|AM  0.082    .
+45             751    AMANLQK|RA  0.076    .
+45             752    MANLQKR|AH  0.221    .
+45             756    QKRAHER|LD  0.119    .
+45             765    AQIFGIK|HD  0.057    .
+45             769    GIKHDCK|PH  0.069    .
+45             772    HDCKPHR|VG  0.084    .
+45             788    IYIVDDR|HC  0.087    .
+45             798    LVEYEPK|PK  0.061    .
+45             800    EYEPKPK|QY  0.064    .
+45             804    KPKQYHR|FK  0.128    .
+45             806    KQYHRFK|CS  0.069    .
+45             811    FKCSLGR|GS  0.089    .
+45             815    LGRGSTK|DV  0.086    .
+45             824    ILLNELK|RP  0.054    .
+45             825    LLNELKR|PF  0.171    .
+45             841    AEVYIWR|NF  0.080    .
+45             848    NFENPHR|CS  0.075    .
+45             856    SLASTFK|AS  0.075    .
+45             863    ASSEVNR|RV  0.205    .
+45             864    SSEVNRR|VG  0.091    .
+45             885    LIFSQVK|RI  0.055    .
+45             886    IFSQVKR|IV  0.439    .
+45             894    VSWNLVR|ET  0.076    .
+45             897    NLVRETR|CP  0.312    .
+45             931    FQDGTCR|LP  0.066    .
+45             939    PVASCFR|GH  0.081    .
+45             946    GHILADR|IM  0.072    .
+45             949    LADRIMR|SY  0.290    .
+45             954    MRSYNVR|PL  0.132    .
+45             971    AQHPLWK|SW  0.116    .
+45             987    MTELSSR|KI  0.093    .
+45             988    TELSSRK|IR  0.066    .
+45             990    LSSRKIR|MS  0.593 *ProP*
+45             998    SFPALHR|QI  0.103    .
+45            1012    DQLAEFK|VA  0.060    .
+45            1019    VALEQQR|DR  0.113    .
+45            1021    LEQQRDR|FQ  0.143    .
+45            1028    FQGEALR|II  0.084    .
+45            1036    ISSLLDR|SP  0.141    .
+45            1043    SPLVVEK|LL  0.067    .
+45            1062    LMTTPQR|GF  0.084    .
+45            1074    LALISAK|VL  0.062    .
+45            1080    KVLAVDR|RN  0.080    .
+45            1081    VLAVDRR|NA  0.194    .
+45            1090    TIEMLIR|HP  0.088    .
+45            1095    IRHPENR|QF  0.104    .
+45            1100    NRQFFLR|TM  0.106    .
+45            1112    NMGLDTR|AL  0.082    .
+45            1124    CLSVLVR|FS  0.121    .
+45            1128    LVRFSAR|NQ  0.124    .
+45            1140    LNDHLIR|EL  0.116    .
+45            1162    HDPGTIK|LQ  0.060    .
+45            1187    AVGMAAR|AN  0.100    .
+45            1197    MENYVVK|LL  0.075    .
+45            1207    HPNPETR|TA  0.103    .
+45            1222    TFLSTQR|SE  0.134    .
+45            1234    GESMEHK|IA  0.092    .
+45            1237    MEHKIAK|DL  0.084    .
+45            1244    DLLLASR|DG  0.080    .
+45            1251    DGCVHVR|KE  0.079    .
+45            1252    GCVHVRK|EA  0.102    .
+45            1260    AVVALSR|YV  0.117    .
+45            1268    VLQYQHK|FV  0.104    .
+45            1278    IAQNSTK|ED  0.082    .
+45            1292    HSTNGIR|KQ  0.073    .
+45            1293    STNGIRK|QQ  0.114    .
+45            1297    IRKQQAK|SL  0.140    .
+45            1300    QQAKSLK|TA  0.080    .
+45            1304    SLKTANK|FM  0.073    .
+45            1310    KFMDVWR|CL  0.129    .
+45            1329    VQCLAGR|VT  0.120    .
+45            1340    IEGEAQR|RR  0.068    .
+45            1341    EGEAQRR|RN  0.114    .
+45            1342    GEAQRRR|NS  0.160    .
+45            1346    RRRNSTR|SN  0.268    .
+45            1358    STINSMR|EG  0.094    .
+45            1374    YSDFNPK|DK  0.063    .
+45            1376    DFNPKDK|VN  0.073    .
+45            1382    KVNEDER|PP  0.091    .
+45            1410    SDAAFSK|PQ  0.067    .
+45            1421    DPAEEEK|HF  0.067    .
+45            1430    LQFEMEK|RH  0.058    .
+45            1431    QFEMEKR|HS  0.208    .
+45            1437    RHSENSR|KA  0.153    .
+45            1438    HSENSRK|AM  0.082    .
+45            1445    AMANLQK|RA  0.076    .
+45            1446    MANLQKR|AH  0.221    .
+45            1450    QKRAHER|LD  0.119    .
+45            1459    AQIFGIK|HD  0.057    .
+45            1463    GIKHDCK|PH  0.069    .
+45            1466    HDCKPHR|VG  0.084    .
+45            1482    IYIVDDR|HC  0.087    .
+45            1492    LVEYEPK|PK  0.061    .
+45            1494    EYEPKPK|QY  0.064    .
+45            1498    KPKQYHR|FK  0.128    .
+45            1500    KQYHRFK|CS  0.069    .
+45            1505    FKCSLGR|GS  0.089    .
+45            1509    LGRGSTK|DV  0.086    .
+45            1518    ILLNELK|RP  0.054    .
+45            1519    LLNELKR|PF  0.171    .
+45            1535    AEVYIWR|NF  0.080    .
+45            1542    NFENPHR|CS  0.075    .
+45            1550    SLASTFK|AS  0.075    .
+45            1557    ASSEVNR|RV  0.205    .
+45            1558    SSEVNRR|VG  0.091    .
+45            1579    LIFSQVK|RI  0.055    .
+45            1580    IFSQVKR|IV  0.439    .
+45            1588    VSWNLVR|ET  0.076    .
+45            1591    NLVRETR|CP  0.312    .
+45            1625    FQDGTCR|LF  0.073    .
+45            1630    CRLFDLR|TP  0.080    .
+45            1640    HNQVVQK|FG  0.121    .
+45            1646    KFGGHGR|SS  0.153    .
+45            1654    SGCPVVK|VH  0.065    .
+45            1658    VVKVHIK|SN  0.088    .
+45            1664    KSNNDNR|II  0.110    .
+45            1681    ISLWDLR|QS  0.075    .
+45            1684    WDLRQSK|TD  0.117    .
+45            1694    VAEYTPK|QN  0.060    .
+45            1697    YTPKQNR|RP  0.065    .
+45            1698    TPKQNRR|PP  0.173    .
+45            1705    PPGLCHR|SD  0.135    .
+45            1717    FSGGNMR|TV  0.093    .
+45            1738    SHDQGIK|IW  0.062    .
+45            1746    WNTWGDK|LN  0.060    .
+45            1751    DKLNDIK|FH  0.069    .
+45            1760    EGFMGQK|VG  0.054    .
+45            1775    FHPFEYK|LV  0.065    .
+45            1779    EYKLVSR|PV  0.099    .
+45            1792    CQMPFQR|WT  0.111    .
+45            1809    LDDSEIK|KI  0.061    .
+45            1810    DDSEIKK|IR  0.075    .
+45            1812    SEIKKIR|VL  0.096    .
+45            1821    FNDPIHK|DE  0.071    .
+45            1840    ELEHQPR|SM  0.218    .
+45            1860    YPPPPEK|QK  0.055    .
+45            1862    PPPEKQK|IS  0.070    .
+45            1877    TWVDPSK|ME  0.062    .
+45            1881    PSKMEYK|KA  0.076    .
+45            1882    SKMEYKK|AQ  0.134    .
+45            1888    KAQEAIK|EN  0.062    .
+45            1892    AIKENLK|RQ  0.054    .
+45            1893    IKENLKR|QF  0.325    .
+45            1904    LFPQTSK|KP  0.051    .
+45            1905    FPQTSKK|PV  0.199    .
+45            1908    TSKKPVR|SY  0.271    .
+45            1912    PVRSYEK|DR  0.080    .
+45            1914    RSYEKDR|GT  0.174    .
+45            1918    KDRGTIR|VE  0.077    .
+45            1938    PGSLTTK|ST  0.096    .
+45            1969    GQTMFIK|LF  0.065    .
+45            1972    MFIKLFR|NC  0.096    .
+45            1975    KLFRNCR|PV  0.312    .
+45            1982    PVASCFR|GH  0.078    .
+45            1989    GHILADR|IM  0.072    .
+45            1992    LADRIMR|SY  0.290    .
+45            1997    MRSYNVR|PL  0.132    .
+45            2014    AQHPLWK|SW  0.116    .
+45            2030    MSELSFR|KI  0.101    .
+45            2031    SELSFRK|IR  0.067    .
+45            2033    LSFRKIR|IT  0.361    .
+45            2036    RKIRITR|PA  0.265    .
+45            2041    TRPAPHR|QI  0.147    .
+45            2055    DQLTEFK|VY  0.052    .
+45            2063    YLSQHQR|ND  0.087    .
+45            2066    QHQRNDK|ID  0.139    .
+45            2070    NDKIDCR|QL  0.092    .
+45            2085    LMGSQYR|EE  0.085    .
+45            2094    CLSLIGK|FL  0.083    .
+45            2098    IGKFLDR|GP  0.097    .
+45            2105    GPYAGQK|FL  0.076    .
+45            2116    GFLPYLR|QM  0.068    .
+45            2120    YLRQMLK|IP  0.058    .
+45            2127    IPTGDYK|YI  0.073    .
+45            2136    MVLIWAK|IL  0.064    .
+45            2142    KILATDR|RM  0.072    .
+45            2143    ILATDRR|MT  0.148    .
+45            2157    LTDAAYR|DT  0.089    .
+45            2177    FPLPAIK|KI  0.061    .
+45            2178    PLPAIKK|IR  0.062    .
+45            2180    PAIKKIR|VL  0.102    .
+45            2189    FNDPIHK|DE  0.071    .
+45            2208    ELEHQPR|SM  0.218    .
+45            2228    YPPPPEK|QK  0.055    .
+45            2230    PPPEKQK|IS  0.070    .
+45            2245    TWVDPSK|ME  0.062    .
+45            2249    PSKMEYK|KA  0.076    .
+45            2250    SKMEYKK|AQ  0.134    .
+45            2256    KAQEAIK|EN  0.062    .
+45            2260    AIKENLK|RQ  0.054    .
+45            2261    IKENLKR|QF  0.325    .
+45            2272    LFPQTSK|KP  0.051    .
+45            2273    FPQTSKK|PV  0.199    .
+45            2276    TSKKPVR|SY  0.271    .
+45            2280    PVRSYEK|DR  0.080    .
+45            2282    RSYEKDR|GT  0.174    .
+45            2286    KDRGTIR|VE  0.081    .
+45            2295    MDCSPSK|VY  0.065    .
+45            2304    GHCDSVR|KQ  0.091    .
+45            2305    HCDSVRK|QI  0.087    .
+45            2311    KQINNNR|MI  0.105    .
+45            2343    VLNSQVK|HY  0.069    .
+45            2356    LGSLMEK|VQ  0.064    .
+45            2382    TFNNVAR|AK  0.152    .
+45            2384    NNVARAK|KQ  0.062    .
+45            2385    NVARAKK|QA  0.326    .
+45            2389    AKKQAWK|DS  0.074    .
+45            2392    QAWKDSR|DR  0.138    .
+45            2394    WKDSRDR|YY  0.080    .
+45            2404    EPMFEEK|SL  0.085    .
+45            2441    ALATALR|FW  0.116    .
+45            2448    FWFHQQK|VT  0.073    .
+45            2471    PGSLTTK|ST  0.096    .
+45            2502    GQTMFIK|LF  0.065    .
+45            2505    MFIKLFR|NC  0.098    .
+45            2508    KLFRNCR|PV  0.330    .
+45            2512    NCRPVAR|CF  0.123    .
+45            2515    PVARCFR|GH  0.203    .
+45            2522    GHILADR|IM  0.072    .
+45            2525    LADRIMR|SY  0.290    .
+45            2530    MRSYNVR|PL  0.132    .
+45            2547    AQHPLWK|SW  0.116    .
+45            2563    MSELSFR|KI  0.101    .
+45            2564    SELSFRK|IR  0.067    .
+45            2566    LSFRKIR|IT  0.361    .
+45            2569    RKIRITR|PA  0.265    .
+45            2574    TRPAPHR|QI  0.147    .
+45            2588    DQLTEFK|VY  0.052    .
+45            2596    YLSQHQR|ND  0.087    .
+45            2599    QHQRNDK|ID  0.139    .
+45            2603    NDKIDCR|QL  0.092    .
+45            2618    LMGSQYR|EE  0.085    .
+45            2627    CLSLIGK|FL  0.085    .
+45            2631    IGKFLDR|GP  0.094    .
+45            2638    GPYAVQK|FL  0.090    .
+45            2649    GFLPYLR|QM  0.070    .
+45            2653    YLRQMLK|IP  0.057    .
+45            2660    IPPGDYK|YI  0.073    .
+45            2669    MVLIWAK|IL  0.064    .
+45            2675    KILATDR|RM  0.072    .
+45            2676    ILATDRR|MT  0.148    .
+45            2690    LTDAAYR|KF  0.075    .
+45            2691    TDAAYRK|FF  0.127    .
+45            2707    DMILQTR|AM  0.069    .
+45            2719    CLSILVR|FS  0.094    .
+45            2723    LVRFSQK|NS  0.058    .
+45            2746    LEDMPLR|ST  0.099    .
+45            2749    MPLRSTK|LQ  0.121    .
+45            2767    LWDGNEK|AM  0.062    .
+45            2774    AMWTAVR|AN  0.096    .
+45            2784    IEGYVVK|LI  0.069    .
+45            2794    HPNPETR|TA  0.118    .
+45            2808    GTFLNTR|RS  0.077    .
+45            2809    TFLNTRR|SD  0.269    .
+45            2821    GETIEHK|IA  0.070    .
+45            2824    IEHKIAK|DL  0.080    .
+45            2831    DLLLASR|DG  0.080    .
+45            2838    DGCVHVR|RE  0.075    .
+45            2839    GCVHVRR|EA  0.179    .
+45            2847    AVVALSR|YI  0.108    .
+45            2855    IQQYEPK|FI  0.082    .
+45            2870    AEDLATR|MQ  0.073    .
+45            2873    LATRMQK|TS  0.120    .
+45            2892    PSLFASR|KI  0.101    .
+45            2893    SLFASRK|IS  0.082    .
+45            2899    KISSSTK|SL  0.093    .
+45            2907    LIAPPSR|II  0.122    .
+45            2912    SRIIGNK|FV  0.134    .
+45            2918    KFVDAWR|TI  0.090    .
+45            2921    DAWRTIK|GL  0.127    .
+45            2925    TIKGLER|DP  0.107    .
+45            2932    DPDAEVR|RL  0.073    .
+45            2933    PDAEVRR|LV  0.283    .
+45            2940    LVSEVIK|FI  0.100    .
+45            2944    VIKFIEK|KM  0.053    .
+45            2945    IKFIEKK|MP  0.099    .
+45            2948    IEKKMPR|HT  0.106    .
+45            2951    KMPRHTR|RK  0.224    .
+45            2952    MPRHTRR|KT  0.226    .
+45            2953    PRHTRRK|TS  0.139    .
+45            2981    YAHANPK|RD  0.062    .
+45            2982    AHANPKR|DV  0.561 *ProP*
+45            2989    DVFGEGR|VV  0.114    .
+45            2993    EGRVVEK|DE  0.075    .
+45            2998    EKDEDER|PP  0.072    .
+45            3012    QSTQIIR|TK  0.074    .
+45            3014    TQIIRTK|FA  0.095    .
+45            3031    QPLLVMR|DE  0.102    .
+45            3048    FALNVLR|DT  0.104    .
+45            3051    NVLRDTK|YS  0.112    .
+45            3055    DTKYSEK|KS  0.056    .
+45            3056    TKYSEKK|SK  0.151    .
+45            3058    YSEKKSK|AR  0.072    .
+45            3060    EKKSKAR|AT  0.129    .
+45            3065    ARATLEK|RA  0.090    .
+45            3066    RATLEKR|AH  0.159    .
+45            3070    EKRAHEK|LD  0.071    .
+45            3079    AQVYGIK|HN  0.057    .
+45            3083    GIKHNIR|PH  0.086    .
+45            3086    HNIRPHK|VD  0.129    .
+45            3112    LVEYDCK|PR  0.059    .
+45            3114    EYDCKPR|VQ  0.077    .
+45            3125    FACCEMR|GT  0.098    .
+45            3129    EMRGTAK|DS  0.075    .
+45            3138    IMLNEHK|RP  0.057    .
+45            3139    MLNEHKR|PF  0.216    .
+45            3155    AEVYIWR|NF  0.087    .
+45            3170    SLASTFK|AY  0.067    .
+45            3177    AYTEASR|RG  0.067    .
+45            3178    YTEASRR|GR  0.084    .
+45            3180    EASRRGR|VL  0.262    .
+45            3199    LISGQVK|RI  0.062    .
+45            3200    ISGQVKR|IV  0.435    .
+45            3208    VSWNLVR|ET  0.084    .
+45            3211    NLVRETR|YS  0.418    .
+45            3231    AFTTFDR|PL  0.112    .
+45            3251    FQDGVCR|LY  0.080    .
+45            3256    CRLYDLR|TP  0.077    .
+45            3266    HNQVVQK|FG  0.077    .
+45            3272    KFGDLPR|SN  0.136    .
+45            3275    DLPRSNK|TS  0.098    .
+45            3285    VVSVHVR|PN  0.105    .
+45            3291    RPNNDNK|II  0.078    .
+45            3308    MCFWDLR|KT  0.070    .
+45            3309    CFWDLRK|TK  0.100    .
+45            3311    WDLRKTK|SD  0.178    .
+45            3324    DYLNMPR|YQ  0.077    .
+45            3336    PDPPNTR|EV  0.085    .
+45            3344    VVSSMLR|TV  0.087    .
+45            3365    SHDQGIK|IW  0.062    .
+45            3373    WNTWGDK|LN  0.060    .
+45            3378    DKLNDIK|FH  0.069    .
+45            3387    EGFMGQK|VG  0.054    .
+45            3402    FHPFEYK|LV  0.086    .
+45            3417    CVTVYGK|AT  0.076    .
+45            3422    GKATDPK|MV  0.103    .
+45            3431    TVIPDVK|VK  0.056    .
+45            3433    IPDVKVK|IN  0.078    .
+45            3446    QWLSDDK|VL  0.058    .
+45            3460    DLSLILK|GK  0.064    .
+45            3462    SLILKGK|VP  0.070    .
+45            3471    EIVPTSR|AH  0.065    .
+45            3476    SRAHLSR|SL  0.277    .
+45            3484    LSPPHHK|HP  0.064    .
+45            3491    HPVSSPR|SS  0.156    .
+45            3495    SPRSSPR|VS  0.119    .
+45            3503    SSSASQK|SL  0.126    .
+45            3506    ASQKSLR|RS  0.096    .
+45            3507    SQKSLRR|SA  0.217    .
+45            3522    AVAVAAR|TP  0.118    .
+45            3534    HSTTLTR|QP  0.091    .
+45            3544    TTTTAPK|EE  0.059    .
+45            3556    FYFPFGK|PT  0.074    .
+45            3576    NTSVLEK|VK  0.063    .
+45            3578    SVLEKVK|GL  0.073    .
+45            3591    PNGCIQK|KD  0.064    .
+45            3592    NGCIQKK|DF  0.177    .
+45            3599    DFGSVTK|AV  0.085    .
+45            3608    GFPLYWK|CP  0.054    .
+45            3628    SLEQFTK|VW  0.064    .
+45            3634    KVWDDLK|SR  0.070    .
+45            3636    WDDLKSR|CH  0.084    .
+45            3646    EASQFVR|LL  0.205    .
+45            3650    FVRLLSK|GE  0.064    .
+45            3653    LLSKGER|DY  0.114    .
+45            3662    LVEGDFK|NL  0.059    .
+45            3687    APEFHAR|YI  0.193    .
+45            3695    IETVTAR|IF  0.082    .
+45            3702    IFYSTSR|SW  0.118    .
+45            3705    STSRSWR|LQ  0.294    .
+45            3710    WRLQIGR|GD  0.085    .
+45            3714    IGRGDLR|EG  0.076    .
+45            3720    REGSFLK|TM  0.060    .
+45            3749    FYVIYCK|FW  0.075    .
+45            3767    VSLEDMK|KH  0.057    .
+45            3768    SLEDMKK|HA  0.123    .
+45            3777    DGTVNPR|AI  0.099    .
+45            3781    NPRAIER|LF  0.090    .
+45            3790    QGTVTQK|TT  0.062    .
+45            3802    TYSDFIR|FL  0.148    .
+45            3810    LLAEEDK|AH  0.065    .
+45            3821    AIEYWFR|VM  0.082    .
+45            3846    YQAQLEK|MR  0.057    .
+45            3848    AQLEKMR|LL  0.115    .
+45            3869    QALDLVR|PK  0.086    .
+45            3871    LDLVRPK|DE  0.071    .
+45            3875    RPKDEIK|IT  0.060    .
+45            3882    ITLSDVK|KC  0.052    .
+45            3883    TLSDVKK|CK  0.159    .
+45            3885    SDVKKCK|QP  0.084    .
+45            3899    IFLNIQK|FL  0.069    .
+45            3906    FLDHEMR|DP  0.098    .
+45            3912    RDPFSNK|EG  0.066    .
+45            3923    PMTDWEK|YA  0.072    .
+45            3927    WEKYAAR|EY  0.121    .
+45            3940    ADEEYNK|GY  0.064    .
+45            3956    EEEEEDK|MI  0.059    .
+45            3964    ILGNLAK|SA  0.087    .
+45            3981    LGVVFVK|TG  0.060    .
+45            3986    VKTGFLK|I-  0.063    .
+____________________________^_________________
+
+
+
+

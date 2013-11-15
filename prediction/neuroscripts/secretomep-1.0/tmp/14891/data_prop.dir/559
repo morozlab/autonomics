@@ -1,0 +1,286 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1555 559         
+MAAVSPCVVPSADSIVSLLVPSHRNNGMKRREQPSRKCKDPPSANILQSEDQGDAVFSPRPFIKTEQIFCPPVKTEPADN      80
+EMYSGGIKCEPDIYYKVEPIVLTLKTEPIDPEHLGILPDSDNLEPIDCSSSIPDSSNQNGKISVVASSEDIHPSPADSQT     160
+EPPAGPSKVNLASGVKPPFQCGDCGNVFSLRSNLRRHSLIHTGERPYKCKECGKGFSQSTTLRAHMMIHSGERPYKCKDC     240
+GKVFPHRSNLNEHILIHTGEKPHKCDDCGQLFSLRSNFKRHRLIHTEKKPYTCEECGKGFTRSDLFKSHKLIHTGEIPYK     320
+CKECGKGFSLSSHLKSHMMIHTGEWPHKCKECGKGFSQSSHLITHMMLHSGKRPYKCKDCGKRFIRSVQLKSHMMIHDGD     400
+NPLKNPADGEIGCEELLGFSRIASSVKKVAVIATVFGERVEYVSLQASQNGRFLKSNPAMPFCKTKRHPGREKIRLYPFP     480
+NTLSSVPSLAKWNLEDQDAAFSPRPFIKTEEIFVNSCPPVKTEPADNEMYSGGIKCEPDVEPILLTLKTEPVDPEDLGIL     560
+PDSDNLEPIDCSSSVPDFQNVYRIFYSFLPSIFLPPPSIPFLSGERSVVASGKDANSSITGTRIKPLNGTGEVNLVSGFE     640
+RPFQCGKCGKCFISSADLKIHNTIHTGNKPHKCKECGKGFIQSRSLNSHMFIHTGEWPYRCYDCGKGFFRSDHLKAHMII     720
+HSKERPYKSENGRTNVKSVEKGLPIPCGKDFTQFGSLRYHMMIHTGERPHKCKECGKGFSRSSHLKEHMLIHTGERPHKC     800
+KECGKGFCLSGTLKVHMVTHSGERPYKCKECGKGETKRNCLRCGMYENENVMMKAAHEESKREMSKEIEFLREQLEKLKN     880
+SVDVLNHFADGLKHSMGVKELENSILRKEINRLKSLLEENVPLSDLKKEAVEWNKNCILKPSSKGLKDPVKTEPANSDSE     960
+GIKCEPDVNFIVEPIVLTLKTEPVDPEHLGILPDFDNLEPEKGPTNVRSVEKGSINLQTLRVIETKRNCLRCGMYENENV    1040
+MMKAAHEESKREMSKEIEFLREQLEKLKNSVDVLNHFADGLKHSMGVKELENSILRKEINRLKSLLEENVPMSDLKKEAV    1120
+EWNKNCILKPSSKGLKDPVKTEPANSDSEGIKCEPDVNFIVEPIVLTLKTEPVDPEHLGILPDSDNLETFERSSPVPGPS    1200
+SFGTPQNSKSTSSIAIMISSIRMERREQPLRKCRDPPSADILQWEDQNIAVFSPRPFIMEQIFVNPPVKTEPADNGSEGI    1280
+KCEPGVDYKVEPILLTLKTEPVDPKHLGILPDCDNLETIEYSSPVPDSSNPSSLSLPQNDDSQTELLPGPSKVNLVSGDK    1360
+TPFQCGDCGKRFAYRGILKRHRLVHSGERPYKCEECGKEFSQPSHLNTHMLIHTGERPHKCKECGKGFTRSDMLKRHMVT    1440
+HTGERPYKCKECGKGFTNSSSLKYHTMIHTGDRPYKCKECGKMMIHTGERPYKCKECGKTFNQPSNLKAHVLIHTGERPY    1520
+KCKDCGKGFTQSSTLKERLDHLPPKVARHPFCALS                                                 1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+.................................................................P..............     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+...................................                                                 1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+559             24    LLVPSHR|NN  0.110    .
+559             29    HRNNGMK|RR  0.069    .
+559             30    RNNGMKR|RE  0.212    .
+559             31    NNGMKRR|EQ  0.110    .
+559             36    RREQPSR|KC  0.098    .
+559             37    REQPSRK|CK  0.094    .
+559             39    QPSRKCK|DP  0.222    .
+559             60    DAVFSPR|PF  0.107    .
+559             64    SPRPFIK|TE  0.067    .
+559             74    IFCPPVK|TE  0.061    .
+559             88    MYSGGIK|CE  0.059    .
+559             96    EPDIYYK|VE  0.056    .
+559            105    PIVLTLK|TE  0.053    .
+559            141    SSNQNGK|IS  0.064    .
+559            168    PPAGPSK|VN  0.063    .
+559            176    NLASGVK|PP  0.062    .
+559            191    GNVFSLR|SN  0.099    .
+559            195    SLRSNLR|RH  0.089    .
+559            196    LRSNLRR|HS  0.199    .
+559            205    LIHTGER|PY  0.091    .
+559            208    TGERPYK|CK  0.171    .
+559            210    ERPYKCK|EC  0.107    .
+559            214    KCKECGK|GF  0.075    .
+559            223    SQSTTLR|AH  0.107    .
+559            233    MIHSGER|PY  0.081    .
+559            236    SGERPYK|CK  0.178    .
+559            238    ERPYKCK|DC  0.133    .
+559            242    KCKDCGK|VF  0.056    .
+559            247    GKVFPHR|SN  0.109    .
+559            261    LIHTGEK|PH  0.056    .
+559            264    TGEKPHK|CD  0.074    .
+559            275    GQLFSLR|SN  0.103    .
+559            279    SLRSNFK|RH  0.059    .
+559            280    LRSNFKR|HR  0.244    .
+559            282    SNFKRHR|LI  0.109    .
+559            288    RLIHTEK|KP  0.069    .
+559            289    LIHTEKK|PY  0.122    .
+559            298    TCEECGK|GF  0.066    .
+559            302    CGKGFTR|SD  0.096    .
+559            307    TRSDLFK|SH  0.111    .
+559            310    DLFKSHK|LI  0.079    .
+559            320    TGEIPYK|CK  0.073    .
+559            322    EIPYKCK|EC  0.079    .
+559            326    KCKECGK|GF  0.066    .
+559            335    SLSSHLK|SH  0.103    .
+559            348    TGEWPHK|CK  0.076    .
+559            350    EWPHKCK|EC  0.096    .
+559            354    KCKECGK|GF  0.077    .
+559            372    MMLHSGK|RP  0.061    .
+559            373    MLHSGKR|PY  0.173    .
+559            376    SGKRPYK|CK  0.188    .
+559            378    KRPYKCK|DC  0.106    .
+559            382    KCKDCGK|RF  0.061    .
+559            383    CKDCGKR|FI  0.204    .
+559            386    CGKRFIR|SV  0.561 *ProP*
+559            391    IRSVQLK|SH  0.128    .
+559            404    DGDNPLK|NP  0.066    .
+559            421    ELLGFSR|IA  0.089    .
+559            427    RIASSVK|KV  0.080    .
+559            428    IASSVKK|VA  0.133    .
+559            439    ATVFGER|VE  0.072    .
+559            452    QASQNGR|FL  0.125    .
+559            455    QNGRFLK|SN  0.251    .
+559            464    PAMPFCK|TK  0.064    .
+559            466    MPFCKTK|RH  0.068    .
+559            467    PFCKTKR|HP  0.176    .
+559            471    TKRHPGR|EK  0.123    .
+559            473    RHPGREK|IR  0.056    .
+559            475    PGREKIR|LY  0.076    .
+559            491    SVPSLAK|WN  0.060    .
+559            504    DAAFSPR|PF  0.120    .
+559            508    SPRPFIK|TE  0.084    .
+559            521    NSCPPVK|TE  0.058    .
+559            535    MYSGGIK|CE  0.068    .
+559            548    PILLTLK|TE  0.050    .
+559            583    DFQNVYR|IF  0.098    .
+559            606    PFLSGER|SV  0.115    .
+559            613    SVVASGK|DA  0.096    .
+559            623    SSITGTR|IK  0.082    .
+559            625    ITGTRIK|PL  0.066    .
+559            641    LVSGFER|PF  0.106    .
+559            647    RPFQCGK|CG  0.060    .
+559            650    QCGKCGK|CF  0.066    .
+559            659    ISSADLK|IH  0.070    .
+559            669    TIHTGNK|PH  0.067    .
+559            672    TGNKPHK|CK  0.087    .
+559            674    NKPHKCK|EC  0.104    .
+559            678    KCKECGK|GF  0.072    .
+559            684    KGFIQSR|SL  0.132    .
+559            700    TGEWPYR|CY  0.122    .
+559            706    RCYDCGK|GF  0.072    .
+559            710    CGKGFFR|SD  0.140    .
+559            715    FRSDHLK|AH  0.079    .
+559            723    HMIIHSK|ER  0.055    .
+559            725    IIHSKER|PY  0.094    .
+559            728    SKERPYK|SE  0.205    .
+559            733    YKSENGR|TN  0.104    .
+559            737    NGRTNVK|SV  0.149    .
+559            741    NVKSVEK|GL  0.057    .
+559            749    LPIPCGK|DF  0.078    .
+559            758    TQFGSLR|YH  0.102    .
+559            768    MIHTGER|PH  0.090    .
+559            771    TGERPHK|CK  0.178    .
+559            773    ERPHKCK|EC  0.104    .
+559            777    KCKECGK|GF  0.069    .
+559            781    CGKGFSR|SS  0.154    .
+559            786    SRSSHLK|EH  0.080    .
+559            796    LIHTGER|PH  0.085    .
+559            799    TGERPHK|CK  0.153    .
+559            801    ERPHKCK|EC  0.105    .
+559            805    KCKECGK|GF  0.066    .
+559            814    CLSGTLK|VH  0.059    .
+559            824    VTHSGER|PY  0.082    .
+559            827    SGERPYK|CK  0.162    .
+559            829    ERPYKCK|EC  0.102    .
+559            833    KCKECGK|GE  0.060    .
+559            837    CGKGETK|RN  0.055    .
+559            838    GKGETKR|NC  0.194    .
+559            842    TKRNCLR|CG  0.089    .
+559            854    NENVMMK|AA  0.082    .
+559            861    AAHEESK|RE  0.066    .
+559            862    AHEESKR|EM  0.208    .
+559            866    SKREMSK|EI  0.078    .
+559            872    KEIEFLR|EQ  0.083    .
+559            877    LREQLEK|LK  0.064    .
+559            879    EQLEKLK|NS  0.065    .
+559            893    HFADGLK|HS  0.060    .
+559            899    KHSMGVK|EL  0.072    .
+559            907    LENSILR|KE  0.072    .
+559            908    ENSILRK|EI  0.096    .
+559            912    LRKEINR|LK  0.089    .
+559            914    KEINRLK|SL  0.068    .
+559            927    VPLSDLK|KE  0.053    .
+559            928    PLSDLKK|EA  0.110    .
+559            935    EAVEWNK|NC  0.057    .
+559            940    NKNCILK|PS  0.098    .
+559            944    ILKPSSK|GL  0.072    .
+559            947    PSSKGLK|DP  0.080    .
+559            951    GLKDPVK|TE  0.061    .
+559            963    SDSEGIK|CE  0.070    .
+559            980    PIVLTLK|TE  0.052    .
+559           1002    DNLEPEK|GP  0.061    .
+559           1008    KGPTNVR|SV  0.208    .
+559           1012    NVRSVEK|GS  0.066    .
+559           1021    INLQTLR|VI  0.093    .
+559           1026    LRVIETK|RN  0.062    .
+559           1027    RVIETKR|NC  0.139    .
+559           1031    TKRNCLR|CG  0.096    .
+559           1043    NENVMMK|AA  0.082    .
+559           1050    AAHEESK|RE  0.066    .
+559           1051    AHEESKR|EM  0.208    .
+559           1055    SKREMSK|EI  0.078    .
+559           1061    KEIEFLR|EQ  0.083    .
+559           1066    LREQLEK|LK  0.064    .
+559           1068    EQLEKLK|NS  0.065    .
+559           1082    HFADGLK|HS  0.060    .
+559           1088    KHSMGVK|EL  0.072    .
+559           1096    LENSILR|KE  0.072    .
+559           1097    ENSILRK|EI  0.096    .
+559           1101    LRKEINR|LK  0.089    .
+559           1103    KEINRLK|SL  0.070    .
+559           1116    VPMSDLK|KE  0.057    .
+559           1117    PMSDLKK|EA  0.108    .
+559           1124    EAVEWNK|NC  0.057    .
+559           1129    NKNCILK|PS  0.098    .
+559           1133    ILKPSSK|GL  0.072    .
+559           1136    PSSKGLK|DP  0.080    .
+559           1140    GLKDPVK|TE  0.061    .
+559           1152    SDSEGIK|CE  0.070    .
+559           1169    PIVLTLK|TE  0.052    .
+559           1192    NLETFER|SS  0.106    .
+559           1209    GTPQNSK|ST  0.085    .
+559           1222    IMISSIR|ME  0.083    .
+559           1225    SSIRMER|RE  0.163    .
+559           1226    SIRMERR|EQ  0.098    .
+559           1231    RREQPLR|KC  0.083    .
+559           1232    REQPLRK|CR  0.083    .
+559           1234    QPLRKCR|DP  0.243    .
+559           1255    IAVFSPR|PF  0.100    .
+559           1269    FVNPPVK|TE  0.059    .
+559           1281    NGSEGIK|CE  0.060    .
+559           1289    EPGVDYK|VE  0.057    .
+559           1298    PILLTLK|TE  0.051    .
+559           1305    TEPVDPK|HL  0.079    .
+559           1352    LLPGPSK|VN  0.057    .
+559           1360    NLVSGDK|TP  0.058    .
+559           1370    QCGDCGK|RF  0.058    .
+559           1371    CGDCGKR|FA  0.176    .
+559           1375    GKRFAYR|GI  0.127    .
+559           1379    AYRGILK|RH  0.056    .
+559           1380    YRGILKR|HR  0.123    .
+559           1382    GILKRHR|LV  0.136    .
+559           1389    LVHSGER|PY  0.083    .
+559           1392    SGERPYK|CE  0.140    .
+559           1398    KCEECGK|EF  0.061    .
+559           1417    LIHTGER|PH  0.084    .
+559           1420    TGERPHK|CK  0.158    .
+559           1422    ERPHKCK|EC  0.108    .
+559           1426    KCKECGK|GF  0.067    .
+559           1430    CGKGFTR|SD  0.126    .
+559           1435    TRSDMLK|RH  0.071    .
+559           1436    RSDMLKR|HM  0.171    .
+559           1445    VTHTGER|PY  0.083    .
+559           1448    TGERPYK|CK  0.172    .
+559           1450    ERPYKCK|EC  0.103    .
+559           1454    KCKECGK|GF  0.064    .
+559           1463    TNSSSLK|YH  0.079    .
+559           1473    MIHTGDR|PY  0.102    .
+559           1476    TGDRPYK|CK  0.216    .
+559           1478    DRPYKCK|EC  0.087    .
+559           1482    KCKECGK|MM  0.063    .
+559           1490    MIHTGER|PY  0.091    .
+559           1493    TGERPYK|CK  0.188    .
+559           1495    ERPYKCK|EC  0.093    .
+559           1499    KCKECGK|TF  0.058    .
+559           1508    NQPSNLK|AH  0.054    .
+559           1518    LIHTGER|PY  0.079    .
+559           1521    TGERPYK|CK  0.172    .
+559           1523    ERPYKCK|DC  0.148    .
+559           1527    KCKDCGK|GF  0.071    .
+559           1536    TQSSTLK|ER  0.068    .
+559           1538    SSTLKER|LD  0.076    .
+559           1545    LDHLPPK|VA  0.073    .
+559           1548    LPPKVAR|HP  0.122    .
+____________________________^_________________
+
+
+
+

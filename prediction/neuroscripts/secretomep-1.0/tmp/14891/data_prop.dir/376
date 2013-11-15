@@ -1,0 +1,269 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1837 376         
+MHGLIEQYGELKKLINPIMSDLMAYRMDILDAVIMKGTYVTTWNSLLLEEYFREVEKELRVTNLLIKDLNDIFEVRIVTI      80
+WAELQSEQLCEVPCATPWNVTDFAEKVRITCANAGPKMDAMSQRAKEASYDLIKLFQNRLGLTGMDENALSDRVTPTPRS     160
+ETKDANEKKGRVRSAKMNSALKSKALGQSGVFDETLLTEFTMVCQDLINVLHNKTKDMVLKCVKHNLDCIKKRLFQGRQQ     240
+ISYRRVEQKKDDAVPFFFTHIHLEIPTIVLKPSLDTIQHELNSAIQMVIATSGQIQRWHSGYSDEGTLLTTMSVTDHKDV     320
+LKVASALASSIQMSKAGVKAEIERFNKLEYIWTESKQDKMAEFLEKKPIISDFNQEIQHYVRLNNDFNENYEDTIKVDSI     400
+AILTEKCKESIIQEINNWTLAFARTMNDSFKDRMVEVDTRIGELQVHLSRQIKDLDDVRCTMISVSEFKQLEIWLDTEIA     480
+QVEDCYALLNRLNVPIPREEMNMVDTLRYGKEKVASKAQEKQYSLLELQPTLRGELISQVAQFKLDSTAFVDEYNTLGPM     560
+VDGIAPKEASLRLVQFSTRFEAIWARYITYSGGEELFGLPVTDYPDIQRIKKELGLLQKLYGLYNSVINAVQGYYDIVWT     640
+EVDIEAINSEIIDFQNRCRKLPKAMKNWQAFLELKQSIDDFNECCPLLESLANKALIDRHWEQVGDICKCKFDIHNENFL     720
+LRNIMEAPLLQNKEEIEDICIAAVKEKDIEAKLKQVIAEWSVQELSFAEFKNRGELLLKAADIQEVVALMEDSLMVLSSL     800
+MSNRYNAPFKPKIQEWVQNISSSAEIIESWLIVQNLWIYLEAVFVGGDIAKQLPKEAKRFQGIDNSWQKIMQRAHETTNV     880
+IHCCVGDETLGQLLPHLLEQLELCQKSLSGYLEAKRLIFPRFFFVSDPALLEILGQASDSHTIQAHLLNVFDNLATVEFH     960
+EKVYDQILSVASREDEVVQLEKPVMAQGGVELWLGSLMDMVFQSIHGIIRQAWFAINGEDFDILKFISMYPAQISLLGVQ    1040
+LLWTRDAEIALKNARHDKKKMVDTNESFLELLNTLIAQTTQDLAKFERVCYETLITIHMHQDNSWQKIMQRAHETTNVIH    1120
+CCVGDETLGQLLPHLLEQLELCQKSLSGYLEAKRLIFPSGYNTKLVADKFNQTSPRFFFVSDPALLEILGQASDSHTIQA    1200
+HLLNVFDNLATVEFHEKVYDQILSVASREDEVVQLEKPVMAQGGVELWLGSLMDMVFQSIHGIIRQAWFAINGEDFDILK    1280
+FISMYPAQISLLGVQLLWTRDAEIALKNARHDKKKMVDTNESFLELLNTLIAQTTQDLAKFERVCYETLITIHMHQYQNE    1360
+PLGCTDRLVITPLTDRCYITIAQALGMAMGAAPAGPAGTGKTETVKDMGRCLGKYVVVFNCSDQMDYRGLGRIYKGLAQS    1440
+GAFGCFDEFNRIELPVLSVAAQQIHIVLTCKKERKPEFIFSDGDLVSMNPEFGIFLTMNPGYAGRQELPENLKIMFRTVA    1520
+MMVPDRQIIMCVKLAACGFIENLVLSFKFFTLYKLCEEQLTKQVPLHSTNMCKHVHYDFGLRNILSVLRTLGTVKRANPN    1600
+DSESSIVMRVLRDMNLSKLIDEDEPLFLSLIDDLFPGIVLDKAGYPEIEAAILVEVDKRKLVYHPPWVLKLIQLYETQRV    1680
+RHGMMMLGPTGAGKTKAIHSLMDAMAECAMPHREMRMNPKAITAPQMFGILDVATNDWTDGIFSTLWRRTLKAKKGEAVW    1760
+ITLDGPVDAIWIENLNSVLDDNKTLTLANGDRIPMAPSCKVLFEGKTETVKDMGRCLGKYVVVFNCSDQMDYRGLGR       1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+.............................................................................       1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+376             12    EQYGELK|KL  0.058    .
+376             13    QYGELKK|LI  0.098    .
+376             26    SDLMAYR|MD  0.072    .
+376             36    LDAVIMK|GT  0.072    .
+376             53    LLEEYFR|EV  0.138    .
+376             57    YFREVEK|EL  0.061    .
+376             60    EVEKELR|VT  0.070    .
+376             67    VTNLLIK|DL  0.076    .
+376             76    NDIFEVR|IV  0.101    .
+376            106    VTDFAEK|VR  0.055    .
+376            108    DFAEKVR|IT  0.095    .
+376            117    CANAGPK|MD  0.067    .
+376            124    MDAMSQR|AK  0.177    .
+376            126    AMSQRAK|EA  0.084    .
+376            134    ASYDLIK|LF  0.059    .
+376            139    IKLFQNR|LG  0.080    .
+376            153    ENALSDR|VT  0.082    .
+376            159    RVTPTPR|SE  0.099    .
+376            163    TPRSETK|DA  0.104    .
+376            168    TKDANEK|KG  0.054    .
+376            169    KDANEKK|GR  0.121    .
+376            171    ANEKKGR|VR  0.118    .
+376            173    EKKGRVR|SA  0.135    .
+376            176    GRVRSAK|MN  0.241    .
+376            182    KMNSALK|SK  0.078    .
+376            184    NSALKSK|AL  0.096    .
+376            214    INVLHNK|TK  0.073    .
+376            216    VLHNKTK|DM  0.069    .
+376            221    TKDMVLK|CV  0.100    .
+376            224    MVLKCVK|HN  0.058    .
+376            231    HNLDCIK|KR  0.061    .
+376            232    NLDCIKK|RL  0.109    .
+376            233    LDCIKKR|LF  0.198    .
+376            238    KRLFQGR|QQ  0.127    .
+376            244    RQQISYR|RV  0.186    .
+376            245    QQISYRR|VE  0.100    .
+376            249    YRRVEQK|KD  0.090    .
+376            250    RRVEQKK|DD  0.126    .
+376            271    IPTIVLK|PS  0.061    .
+376            297    TSGQIQR|WH  0.103    .
+376            318    MSVTDHK|DV  0.091    .
+376            322    DHKDVLK|VA  0.072    .
+376            335    SSIQMSK|AG  0.063    .
+376            339    MSKAGVK|AE  0.059    .
+376            344    VKAEIER|FN  0.087    .
+376            347    EIERFNK|LE  0.088    .
+376            356    YIWTESK|QD  0.058    .
+376            359    TESKQDK|MA  0.111    .
+376            366    MAEFLEK|KP  0.061    .
+376            367    AEFLEKK|PI  0.095    .
+376            382    EIQHYVR|LN  0.079    .
+376            396    NYEDTIK|VD  0.061    .
+376            406    IAILTEK|CK  0.064    .
+376            408    ILTEKCK|ES  0.068    .
+376            424    WTLAFAR|TM  0.092    .
+376            431    TMNDSFK|DR  0.091    .
+376            433    NDSFKDR|MV  0.198    .
+376            440    MVEVDTR|IG  0.082    .
+376            450    LQVHLSR|QI  0.086    .
+376            453    HLSRQIK|DL  0.468    .
+376            459    KDLDDVR|CT  0.081    .
+376            469    ISVSEFK|QL  0.084    .
+376            491    CYALLNR|LN  0.079    .
+376            498    LNVPIPR|EE  0.089    .
+376            508    NMVDTLR|YG  0.087    .
+376            511    DTLRYGK|EK  0.090    .
+376            513    LRYGKEK|VA  0.097    .
+376            517    KEKVASK|AQ  0.068    .
+376            521    ASKAQEK|QY  0.070    .
+376            533    ELQPTLR|GE  0.084    .
+376            544    SQVAQFK|LD  0.073    .
+376            567    VDGIAPK|EA  0.076    .
+376            572    PKEASLR|LV  0.102    .
+376            579    LVQFSTR|FE  0.082    .
+376            586    FEAIWAR|YI  0.140    .
+376            609    DYPDIQR|IK  0.066    .
+376            611    PDIQRIK|KE  0.055    .
+376            612    DIQRIKK|EL  0.272    .
+376            619    ELGLLQK|LY  0.060    .
+376            657    IIDFQNR|CR  0.065    .
+376            659    DFQNRCR|KL  0.090    .
+376            660    FQNRCRK|LP  0.172    .
+376            663    RCRKLPK|AM  0.069    .
+376            666    KLPKAMK|NW  0.064    .
+376            675    QAFLELK|QS  0.061    .
+376            694    LESLANK|AL  0.073    .
+376            699    NKALIDR|HW  0.137    .
+376            709    QVGDICK|CK  0.062    .
+376            711    GDICKCK|FD  0.084    .
+376            722    NENFLLR|NI  0.104    .
+376            733    APLLQNK|EE  0.055    .
+376            745    ICIAAVK|EK  0.061    .
+376            747    IAAVKEK|DI  0.144    .
+376            752    EKDIEAK|LK  0.068    .
+376            754    DIEAKLK|QV  0.087    .
+376            771    LSFAEFK|NR  0.063    .
+376            773    FAEFKNR|GE  0.075    .
+376            779    RGELLLK|AA  0.073    .
+376            804    SSLMSNR|YN  0.100    .
+376            810    RYNAPFK|PK  0.076    .
+376            812    NAPFKPK|IQ  0.082    .
+376            851    VGGDIAK|QL  0.068    .
+376            855    IAKQLPK|EA  0.065    .
+376            858    QLPKEAK|RF  0.070    .
+376            859    LPKEAKR|FQ  0.217    .
+376            869    IDNSWQK|IM  0.067    .
+376            873    WQKIMQR|AH  0.090    .
+376            906    QLELCQK|SL  0.081    .
+376            915    SGYLEAK|RL  0.061    .
+376            916    GYLEAKR|LI  0.128    .
+376            921    KRLIFPR|FF  0.146    .
+376            962    TVEFHEK|VY  0.075    .
+376            973    ILSVASR|ED  0.117    .
+376            982    EVVQLEK|PV  0.080    .
+376           1010    SIHGIIR|QA  0.120    .
+376           1025    EDFDILK|FI  0.072    .
+376           1045    VQLLWTR|DA  0.115    .
+376           1052    DAEIALK|NA  0.059    .
+376           1055    IALKNAR|HD  0.093    .
+376           1058    KNARHDK|KK  0.148    .
+376           1059    NARHDKK|KM  0.107    .
+376           1060    ARHDKKK|MV  0.454    .
+376           1085    TTQDLAK|FE  0.075    .
+376           1088    DLAKFER|VC  0.096    .
+376           1107    QDNSWQK|IM  0.067    .
+376           1111    WQKIMQR|AH  0.090    .
+376           1144    QLELCQK|SL  0.081    .
+376           1153    SGYLEAK|RL  0.058    .
+376           1154    GYLEAKR|LI  0.133    .
+376           1164    PSGYNTK|LV  0.091    .
+376           1169    TKLVADK|FN  0.077    .
+376           1176    FNQTSPR|FF  0.140    .
+376           1217    TVEFHEK|VY  0.075    .
+376           1228    ILSVASR|ED  0.117    .
+376           1237    EVVQLEK|PV  0.080    .
+376           1265    SIHGIIR|QA  0.120    .
+376           1280    EDFDILK|FI  0.072    .
+376           1300    VQLLWTR|DA  0.115    .
+376           1307    DAEIALK|NA  0.059    .
+376           1310    IALKNAR|HD  0.093    .
+376           1313    KNARHDK|KK  0.148    .
+376           1314    NARHDKK|KM  0.107    .
+376           1315    ARHDKKK|MV  0.454    .
+376           1340    TTQDLAK|FE  0.075    .
+376           1343    DLAKFER|VC  0.096    .
+376           1367    PLGCTDR|LV  0.104    .
+376           1376    ITPLTDR|CY  0.073    .
+376           1401    GPAGTGK|TE  0.070    .
+376           1406    GKTETVK|DM  0.077    .
+376           1410    TVKDMGR|CL  0.124    .
+376           1414    MGRCLGK|YV  0.077    .
+376           1428    SDQMDYR|GL  0.141    .
+376           1432    DYRGLGR|IY  0.076    .
+376           1435    GLGRIYK|GL  0.188    .
+376           1451    CFDEFNR|IE  0.073    .
+376           1471    HIVLTCK|KE  0.060    .
+376           1472    IVLTCKK|ER  0.077    .
+376           1474    LTCKKER|KP  0.098    .
+376           1475    TCKKERK|PE  0.081    .
+376           1505    NPGYAGR|QE  0.080    .
+376           1513    ELPENLK|IM  0.057    .
+376           1517    NLKIMFR|TV  0.108    .
+376           1526    AMMVPDR|QI  0.095    .
+376           1533    QIIMCVK|LA  0.062    .
+376           1548    NLVLSFK|FF  0.061    .
+376           1554    KFFTLYK|LC  0.063    .
+376           1562    CEEQLTK|QV  0.062    .
+376           1573    HSTNMCK|HV  0.084    .
+376           1582    HYDFGLR|NI  0.084    .
+376           1589    NILSVLR|TL  0.087    .
+376           1595    RTLGTVK|RA  0.061    .
+376           1596    TLGTVKR|AN  0.144    .
+376           1609    ESSIVMR|VL  0.123    .
+376           1612    IVMRVLR|DM  0.247    .
+376           1618    RDMNLSK|LI  0.075    .
+376           1642    PGIVLDK|AG  0.063    .
+376           1658    ILVEVDK|RK  0.056    .
+376           1659    LVEVDKR|KL  0.138    .
+376           1660    VEVDKRK|LV  0.096    .
+376           1670    HPPWVLK|LI  0.073    .
+376           1679    QLYETQR|VR  0.075    .
+376           1681    YETQRVR|HG  0.074    .
+376           1694    GPTGAGK|TK  0.059    .
+376           1696    TGAGKTK|AI  0.091    .
+376           1713    ECAMPHR|EM  0.084    .
+376           1716    MPHREMR|MN  0.484    .
+376           1720    EMRMNPK|AI  0.076    .
+376           1748    IFSTLWR|RT  0.104    .
+376           1749    FSTLWRR|TL  0.107    .
+376           1752    LWRRTLK|AK  0.139    .
+376           1754    RRTLKAK|KG  0.082    .
+376           1755    RTLKAKK|GE  0.078    .
+376           1783    SVLDDNK|TL  0.056    .
+376           1792    TLANGDR|IP  0.072    .
+376           1800    PMAPSCK|VL  0.069    .
+376           1806    KVLFEGK|TE  0.057    .
+376           1811    GKTETVK|DM  0.074    .
+376           1815    TVKDMGR|CL  0.124    .
+376           1819    MGRCLGK|YV  0.077    .
+376           1833    SDQMDYR|GL  0.137    .
+376           1837    DYRGLGR|--  0.087    .
+____________________________^_________________
+
+
+
+

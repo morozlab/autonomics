@@ -1,0 +1,25 @@
+# 278 Length: 2152
+# 278 Number of predicted TMHs:  9
+# 278 Exp number of AAs in TMHs: 195.39897
+# 278 Exp number, first 60 AAs:  39.26542
+# 278 Total prob of N-in:        0.84320
+# 278 POSSIBLE N-term signal sequence
+278	TMHMM2.0	inside	     1     6
+278	TMHMM2.0	TMhelix	     7    26
+278	TMHMM2.0	outside	    27    30
+278	TMHMM2.0	TMhelix	    31    53
+278	TMHMM2.0	inside	    54    65
+278	TMHMM2.0	TMhelix	    66    88
+278	TMHMM2.0	outside	    89    97
+278	TMHMM2.0	TMhelix	    98   117
+278	TMHMM2.0	inside	   118   194
+278	TMHMM2.0	TMhelix	   195   217
+278	TMHMM2.0	outside	   218   231
+278	TMHMM2.0	TMhelix	   232   254
+278	TMHMM2.0	inside	   255   260
+278	TMHMM2.0	TMhelix	   261   283
+278	TMHMM2.0	outside	   284   286
+278	TMHMM2.0	TMhelix	   287   309
+278	TMHMM2.0	inside	   310   329
+278	TMHMM2.0	TMhelix	   330   352
+278	TMHMM2.0	outside	   353  2152

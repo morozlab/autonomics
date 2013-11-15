@@ -1,0 +1,340 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2595 182         
+MATIPPMEFLVNLLQFGQDNAYLYMVFEFVPGGELFSLLRSVGRIPEITASFYGAQVMSALAYLHNLDILYRDLKPENIL      80
+FAANGYLKITDFGFAKRCLGRTFTLCGTPEYLAPEIILCQGYHRAVDWWAFGVLIFEMVCGHPPFYSENPMEIYKQPAQE     160
+WLQRRHEMRMIQRGVRFNRSRFYTDENVKSIGISKQASEKIVDEELTSNPTSLPRKLSRALEANLEDGIDGGRRFNAHGK     240
+TLLTTCFLIQAPDRDSFEGYTWLAELYVLYVKRTRTTPGEVIESIVKGCMEESAMLDKLEENCRVLYRWIQSRIECLKRE     320
+VARFDQCGSSDLSVLSSIYKSLTCEESEYSDLRQEALKLHFRIQATRTVQYDPVFNIAKVEEAWVKMLSLEDSVEKRLAG     400
+HLSLRQNRTELRQQWDREVAAITKWMSDWNNFLVKLQGSSAGRSAEDFAHLIKVAKDQFFLESKNKDSLESMALLCSVIS     480
+DNSEDPEEKEVVSCMTKPTPGKKRYQCRAAREMLPRWKLLLDESKRLEKYVHDERMRCRSNTETETSLRENLLLTANKVK     560
+SIMNEVSRVCRSGKAGDMGNLKKELKILAEDRLSDLHNGCGYQDGTNSKEFQSFMVSGCFTFAIIKRFRSNSVSDGEILK     640
+LRECLIDCISTIDLISEDFSFLQENKSGLMDRGAKQFWNLIGSKQLVLPFEELKDRLLNSFIPSLLKNQIASEEELEEEI     720
+CREQEEAESRLERVHAHVKMVDPMFTRVSVAAWAVNMTGAQKPAQQQELSMLLETLAGDKRFIPETVIRQYLGEDLAEFV     800
+ISHMTEFTGSLGPTLQQKRCNGERFLDYHRFVNNAFGHGRKKMADEQGLDDGNVVYEGMVDDHFQYDTCTTEDEDLDFYR     880
+SLYFDFKSYFGNVLCKVANKYLSAGASRVALLVAVLRKGLVERCSYLRSNGEKSLNLFFNKLGVSTQPKDGLSLLDSDPD     960
+AFKKIIHRDFPCYADRFDMQTDGGFGDLRRDALADHLTHFTTISQLTASVNLNSLFWRAGKTTVVSGKHSMANLDHCFRT    1040
+LLQWTYRIETKLTELGKREQMRYDFTVQFYKQSNLVKHWTDHWANEIPDPASCRFNKSEIEVNKKLVKQFNKGLPRMKEV    1120
+CKTMLLMLSTLTETVGEEELRNLVRNHTERKEELNVLEKEVESVQTNLLRFEVIIPDLNSDCITISCEGSMSYQSDDFNH    1200
+NNPGASRVALLVAVLRKGLVERCSYLRSNGEKSLNLFFNKLGVSTQPKDGLSLLDSDPDAFRKIIHRDFPCYADRFDKQT    1280
+EQRKEQSLYHFVHLLYCAEIFRAAQAHKTKPVRGSLGKLEDILTRMKSEEENQRRLGRLSEAYYNLLQSRISEAQTLYME    1360
+ICDPSYKHGSDGGFGDLRRDALADHLTHFTTISQLTASVNLNSLFWRAGKTTVVSGKHSMANLDHCFRTLLQWTYRIETK    1440
+VTELGKREQMRYDFTVQFYKQSNLVKHWTDHWANEIPDPASCRFNKSEIEVNKKLVKQFNKGLPRMKEVCKTMLLMLSTL    1520
+TETVGEDELRNLVRNHTERKEELNVLEKEVESVQTNLQRFEKEADEVEMCLRSQAALLNDVEGELHRFYNYFSLRPAITT    1600
+LNDHDAAVRHLGDATEKLFMTAKDLDLIYSLEEFFASKRSTAHKLENMYTCKSVKSVTLHWENTLQKLRNTEAWLAQQRG    1680
+AVAALQSEDRTALTAELDNISSVLLHHIKKIAQSPGDSPRWLSQCTYLTQWLAALKEEKGGILFELAQPIHSRGVTTPRL    1760
+RSLMECWNHCLLFLELLKVDVALQIKRPSSCSTPSDKGPVLASRVLVAKQDASRHIDPYGRLGKGLMSLLTEGPDCELRD    1840
+ELEHNLAIITDGAPYISESRLQAILGRGNVWKFSQKHLTEYFAYLKLILPTYSCYIPEEVIMNVLVEDDDYVGDDFISEF    1920
+QISIQPGLATHLVEHNTSFTHASSFLHIGYTEVARIQYLLRQSVQIVVAVAMETGTLLPTVAVAMETGTLLPTVAVAMET    2000
+GTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGT    2080
+LLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLL    2160
+PTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPT    2240
+VAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVA    2320
+VAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVA    2400
+METGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAME    2480
+TGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETGTLLPTVAVAMETG    2560
+TLLPTVAVAMETGTLLPTVAVAMETILVHIAVCFV                                                 2640
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+..........P.....................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+...................................                                                 2640
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+182             40    ELFSLLR|SV  0.172    .
+182             44    LLRSVGR|IP  0.086    .
+182             72    NLDILYR|DL  0.096    .
+182             75    ILYRDLK|PE  0.095    .
+182             88    AANGYLK|IT  0.065    .
+182             96    TDFGFAK|RC  0.061    .
+182             97    DFGFAKR|CL  0.193    .
+182            101    AKRCLGR|TF  0.088    .
+182            124    LCQGYHR|AV  0.132    .
+182            155    NPMEIYK|QP  0.064    .
+182            164    AQEWLQR|RH  0.081    .
+182            165    QEWLQRR|HE  0.131    .
+182            169    QRRHEMR|MI  0.182    .
+182            173    EMRMIQR|GV  0.128    .
+182            176    MIQRGVR|FN  0.203    .
+182            179    RGVRFNR|SR  0.321    .
+182            181    VRFNRSR|FY  0.122    .
+182            189    YTDENVK|SI  0.082    .
+182            195    KSIGISK|QA  0.082    .
+182            200    SKQASEK|IV  0.105    .
+182            215    NPTSLPR|KL  0.104    .
+182            216    PTSLPRK|LS  0.092    .
+182            219    LPRKLSR|AL  0.165    .
+182            233    DGIDGGR|RF  0.076    .
+182            234    GIDGGRR|FN  0.132    .
+182            240    RFNAHGK|TL  0.066    .
+182            254    LIQAPDR|DS  0.130    .
+182            272    LYVLYVK|RT  0.055    .
+182            273    YVLYVKR|TR  0.123    .
+182            275    LYVKRTR|TT  0.078    .
+182            287    VIESIVK|GC  0.056    .
+182            298    ESAMLDK|LE  0.062    .
+182            304    KLEENCR|VL  0.077    .
+182            308    NCRVLYR|WI  0.099    .
+182            313    YRWIQSR|IE  0.089    .
+182            318    SRIECLK|RE  0.061    .
+182            319    RIECLKR|EV  0.193    .
+182            323    LKREVAR|FD  0.135    .
+182            340    VLSSIYK|SL  0.096    .
+182            353    SEYSDLR|QE  0.081    .
+182            358    LRQEALK|LH  0.070    .
+182            362    ALKLHFR|IQ  0.080    .
+182            367    FRIQATR|TV  0.097    .
+182            379    PVFNIAK|VE  0.065    .
+182            386    VEEAWVK|ML  0.066    .
+182            396    LEDSVEK|RL  0.059    .
+182            397    EDSVEKR|LA  0.285    .
+182            405    AGHLSLR|QN  0.108    .
+182            408    LSLRQNR|TE  0.195    .
+182            412    QNRTELR|QQ  0.098    .
+182            417    LRQQWDR|EV  0.172    .
+182            424    EVAAITK|WM  0.064    .
+182            435    WNNFLVK|LQ  0.071    .
+182            443    QGSSAGR|SA  0.214    .
+182            453    DFAHLIK|VA  0.067    .
+182            456    HLIKVAK|DQ  0.078    .
+182            464    QFFLESK|NK  0.061    .
+182            466    FLESKNK|DS  0.068    .
+182            489    SEDPEEK|EV  0.064    .
+182            497    VVSCMTK|PT  0.065    .
+182            502    TKPTPGK|KR  0.064    .
+182            503    KPTPGKK|RY  0.073    .
+182            504    PTPGKKR|YQ  0.235    .
+182            508    KKRYQCR|AA  0.202    .
+182            511    YQCRAAR|EM  0.158    .
+182            516    AREMLPR|WK  0.085    .
+182            518    EMLPRWK|LL  0.057    .
+182            525    LLLDESK|RL  0.068    .
+182            526    LLDESKR|LE  0.109    .
+182            529    ESKRLEK|YV  0.256    .
+182            535    KYVHDER|MR  0.072    .
+182            537    VHDERMR|CR  0.083    .
+182            539    DERMRCR|SN  0.172    .
+182            549    ETETSLR|EN  0.063    .
+182            558    LLLTANK|VK  0.061    .
+182            560    LTANKVK|SI  0.098    .
+182            568    IMNEVSR|VC  0.090    .
+182            571    EVSRVCR|SG  0.546 *ProP*
+182            574    RVCRSGK|AG  0.178    .
+182            582    GDMGNLK|KE  0.057    .
+182            583    DMGNLKK|EL  0.085    .
+182            586    NLKKELK|IL  0.060    .
+182            592    KILAEDR|LS  0.075    .
+182            609    QDGTNSK|EF  0.060    .
+182            626    FTFAIIK|RF  0.052    .
+182            627    TFAIIKR|FR  0.235    .
+182            629    AIIKRFR|SN  0.155    .
+182            640    SDGEILK|LR  0.058    .
+182            642    GEILKLR|EC  0.072    .
+182            666    SFLQENK|SG  0.063    .
+182            672    KSGLMDR|GA  0.132    .
+182            675    LMDRGAK|QF  0.117    .
+182            684    WNLIGSK|QL  0.055    .
+182            694    LPFEELK|DR  0.056    .
+182            696    FEELKDR|LL  0.085    .
+182            707    FIPSLLK|NQ  0.057    .
+182            722    LEEEICR|EQ  0.091    .
+182            730    QEEAESR|LE  0.073    .
+182            733    AESRLER|VH  0.237    .
+182            739    RVHAHVK|MV  0.105    .
+182            747    VDPMFTR|VS  0.073    .
+182            762    NMTGAQK|PA  0.072    .
+182            780    ETLAGDK|RF  0.053    .
+182            781    TLAGDKR|FI  0.173    .
+182            789    IPETVIR|QY  0.092    .
+182            818    GPTLQQK|RC  0.061    .
+182            819    PTLQQKR|CN  0.150    .
+182            824    KRCNGER|FL  0.123    .
+182            830    RFLDYHR|FV  0.112    .
+182            840    NAFGHGR|KK  0.104    .
+182            841    AFGHGRK|KM  0.075    .
+182            842    FGHGRKK|MA  0.186    .
+182            880    EDLDFYR|SL  0.118    .
+182            887    SLYFDFK|SY  0.082    .
+182            896    FGNVLCK|VA  0.078    .
+182            900    LCKVANK|YL  0.079    .
+182            908    LSAGASR|VA  0.079    .
+182            917    LLVAVLR|KG  0.073    .
+182            918    LVAVLRK|GL  0.078    .
+182            923    RKGLVER|CS  0.082    .
+182            928    ERCSYLR|SN  0.124    .
+182            933    LRSNGEK|SL  0.097    .
+182            941    LNLFFNK|LG  0.055    .
+182            949    GVSTQPK|DG  0.075    .
+182            963    SDPDAFK|KI  0.059    .
+182            964    DPDAFKK|II  0.122    .
+182            968    FKKIIHR|DF  0.092    .
+182            976    FPCYADR|FD  0.108    .
+182            989    GGFGDLR|RD  0.069    .
+182            990    GFGDLRR|DA  0.177    .
+182           1018    LNSLFWR|AG  0.115    .
+182           1021    LFWRAGK|TT  0.120    .
+182           1028    TTVVSGK|HS  0.089    .
+182           1039    NLDHCFR|TL  0.073    .
+182           1047    LLQWTYR|IE  0.087    .
+182           1051    TYRIETK|LT  0.072    .
+182           1057    KLTELGK|RE  0.056    .
+182           1058    LTELGKR|EQ  0.151    .
+182           1062    GKREQMR|YD  0.175    .
+182           1071    FTVQFYK|QS  0.063    .
+182           1077    KQSNLVK|HW  0.081    .
+182           1094    PDPASCR|FN  0.094    .
+182           1097    ASCRFNK|SE  0.227    .
+182           1104    SEIEVNK|KL  0.069    .
+182           1105    EIEVNKK|LV  0.112    .
+182           1108    VNKKLVK|QF  0.075    .
+182           1112    LVKQFNK|GL  0.064    .
+182           1116    FNKGLPR|MK  0.099    .
+182           1118    KGLPRMK|EV  0.073    .
+182           1122    RMKEVCK|TM  0.062    .
+182           1141    VGEEELR|NL  0.071    .
+182           1145    ELRNLVR|NH  0.078    .
+182           1150    VRNHTER|KE  0.097    .
+182           1151    RNHTERK|EE  0.081    .
+182           1159    ELNVLEK|EV  0.088    .
+182           1170    VQTNLLR|FE  0.080    .
+182           1207    NNPGASR|VA  0.070    .
+182           1216    LLVAVLR|KG  0.073    .
+182           1217    LVAVLRK|GL  0.078    .
+182           1222    RKGLVER|CS  0.082    .
+182           1227    ERCSYLR|SN  0.124    .
+182           1232    LRSNGEK|SL  0.097    .
+182           1240    LNLFFNK|LG  0.055    .
+182           1248    GVSTQPK|DG  0.075    .
+182           1262    SDPDAFR|KI  0.076    .
+182           1263    DPDAFRK|II  0.100    .
+182           1267    FRKIIHR|DF  0.101    .
+182           1275    FPCYADR|FD  0.102    .
+182           1278    YADRFDK|QT  0.158    .
+182           1283    DKQTEQR|KE  0.078    .
+182           1284    KQTEQRK|EQ  0.072    .
+182           1302    YCAEIFR|AA  0.102    .
+182           1308    RAAQAHK|TK  0.060    .
+182           1310    AQAHKTK|PV  0.106    .
+182           1313    HKTKPVR|GS  0.103    .
+182           1318    VRGSLGK|LE  0.065    .
+182           1325    LEDILTR|MK  0.113    .
+182           1327    DILTRMK|SE  0.069    .
+182           1334    SEEENQR|RL  0.081    .
+182           1335    EEENQRR|LG  0.107    .
+182           1338    NQRRLGR|LS  0.327    .
+182           1350    YNLLQSR|IS  0.097    .
+182           1367    ICDPSYK|HG  0.074    .
+182           1378    GGFGDLR|RD  0.069    .
+182           1379    GFGDLRR|DA  0.174    .
+182           1407    LNSLFWR|AG  0.115    .
+182           1410    LFWRAGK|TT  0.120    .
+182           1417    TTVVSGK|HS  0.089    .
+182           1428    NLDHCFR|TL  0.073    .
+182           1436    LLQWTYR|IE  0.096    .
+182           1440    TYRIETK|VT  0.071    .
+182           1446    KVTELGK|RE  0.055    .
+182           1447    VTELGKR|EQ  0.134    .
+182           1451    GKREQMR|YD  0.175    .
+182           1460    FTVQFYK|QS  0.063    .
+182           1466    KQSNLVK|HW  0.081    .
+182           1483    PDPASCR|FN  0.094    .
+182           1486    ASCRFNK|SE  0.227    .
+182           1493    SEIEVNK|KL  0.069    .
+182           1494    EIEVNKK|LV  0.112    .
+182           1497    VNKKLVK|QF  0.075    .
+182           1501    LVKQFNK|GL  0.064    .
+182           1505    FNKGLPR|MK  0.099    .
+182           1507    KGLPRMK|EV  0.073    .
+182           1511    RMKEVCK|TM  0.062    .
+182           1530    VGEDELR|NL  0.072    .
+182           1534    ELRNLVR|NH  0.083    .
+182           1539    VRNHTER|KE  0.097    .
+182           1540    RNHTERK|EE  0.081    .
+182           1548    ELNVLEK|EV  0.088    .
+182           1559    VQTNLQR|FE  0.088    .
+182           1562    NLQRFEK|EA  0.283    .
+182           1572    EVEMCLR|SQ  0.108    .
+182           1587    VEGELHR|FY  0.071    .
+182           1595    YNYFSLR|PA  0.119    .
+182           1609    DHDAAVR|HL  0.099    .
+182           1617    LGDATEK|LF  0.059    .
+182           1623    KLFMTAK|DL  0.080    .
+182           1638    EEFFASK|RS  0.056    .
+182           1639    EFFASKR|ST  0.288    .
+182           1644    KRSTAHK|LE  0.071    .
+182           1652    ENMYTCK|SV  0.113    .
+182           1655    YTCKSVK|SV  0.099    .
+182           1667    WENTLQK|LR  0.059    .
+182           1669    NTLQKLR|NT  0.101    .
+182           1679    AWLAQQR|GA  0.119    .
+182           1690    ALQSEDR|TA  0.098    .
+182           1709    VLLHHIK|KI  0.069    .
+182           1710    LLHHIKK|IA  0.118    .
+182           1720    SPGDSPR|WL  0.166    .
+182           1736    QWLAALK|EE  0.055    .
+182           1739    AALKEEK|GG  0.059    .
+182           1753    AQPIHSR|GV  0.124    .
+182           1759    RGVTTPR|LR  0.089    .
+182           1761    VTTPRLR|SL  0.105    .
+182           1778    LFLELLK|VD  0.050    .
+182           1786    DVALQIK|RP  0.056    .
+182           1787    VALQIKR|PS  0.150    .
+182           1797    CSTPSDK|GP  0.058    .
+182           1804    GPVLASR|VL  0.095    .
+182           1809    SRVLVAK|QD  0.066    .
+182           1814    AKQDASR|HI  0.122    .
+182           1821    HIDPYGR|LG  0.067    .
+182           1824    PYGRLGK|GL  0.136    .
+182           1839    GPDCELR|DE  0.080    .
+182           1860    PYISESR|LQ  0.066    .
+182           1867    LQAILGR|GN  0.103    .
+182           1872    GRGNVWK|FS  0.104    .
+182           1876    VWKFSQK|HL  0.069    .
+182           1886    EYFAYLK|LI  0.053    .
+182           1955    GYTEVAR|IQ  0.076    .
+182           1961    RIQYLLR|QS  0.096    .
+____________________________^_________________
+
+
+
+

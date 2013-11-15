@@ -1,0 +1,7 @@
+#PEST score vector
+# col	ident			avg      	dev      	min      	max       	normal (applied)
+2	                prop	0.0127827	0.00880563	0.000000	1.000000	norm
+3	                prop	0.0122081	0.01068470	0.000000	1.000000	norm
+4	                prop	0.0135380	0.01235030	0.000000	1.000000	norm
+5	                prop	0.0116348	0.00922498	0.000000	1.000000	norm
+6	                prop	0.0139039	0.00982888	0.000000	1.000000	norm

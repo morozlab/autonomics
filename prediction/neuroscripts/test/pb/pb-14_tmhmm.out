@@ -1,0 +1,2636 @@
+# 8659 Length: 244
+# 8659 Number of predicted TMHs:  1
+8659	TMHMM2.0	outside	     1    94
+8659	TMHMM2.0	TMhelix	    95   117
+8659	TMHMM2.0	inside	   118   244
+# 8660 Length: 244
+# 8660 Number of predicted TMHs:  0
+8660	TMHMM2.0	outside	     1   244
+# 8661 Length: 244
+# 8661 Number of predicted TMHs:  5
+8661	TMHMM2.0	inside	     1    28
+8661	TMHMM2.0	TMhelix	    29    51
+8661	TMHMM2.0	outside	    52    65
+8661	TMHMM2.0	TMhelix	    66    88
+8661	TMHMM2.0	inside	    89    92
+8661	TMHMM2.0	TMhelix	    93   110
+8661	TMHMM2.0	outside	   111   113
+8661	TMHMM2.0	TMhelix	   114   136
+8661	TMHMM2.0	inside	   137   179
+8661	TMHMM2.0	TMhelix	   180   202
+8661	TMHMM2.0	outside	   203   244
+# 8662 Length: 244
+# 8662 Number of predicted TMHs:  5
+8662	TMHMM2.0	inside	     1    65
+8662	TMHMM2.0	TMhelix	    66    88
+8662	TMHMM2.0	outside	    89   102
+8662	TMHMM2.0	TMhelix	   103   125
+8662	TMHMM2.0	inside	   126   136
+8662	TMHMM2.0	TMhelix	   137   171
+8662	TMHMM2.0	outside	   172   190
+8662	TMHMM2.0	TMhelix	   191   213
+8662	TMHMM2.0	inside	   214   219
+8662	TMHMM2.0	TMhelix	   220   239
+8662	TMHMM2.0	outside	   240   244
+# 8663 Length: 244
+# 8663 Number of predicted TMHs:  0
+8663	TMHMM2.0	outside	     1   244
+# 8664 Length: 244
+# 8664 Number of predicted TMHs:  0
+8664	TMHMM2.0	outside	     1   244
+# 8665 Length: 244
+# 8665 Number of predicted TMHs:  3
+8665	TMHMM2.0	outside	     1    35
+8665	TMHMM2.0	TMhelix	    36    67
+8665	TMHMM2.0	inside	    68    87
+8665	TMHMM2.0	TMhelix	    88   110
+8665	TMHMM2.0	outside	   111   114
+8665	TMHMM2.0	TMhelix	   115   137
+8665	TMHMM2.0	inside	   138   244
+# 8666 Length: 244
+# 8666 Number of predicted TMHs:  0
+8666	TMHMM2.0	outside	     1   244
+# 8667 Length: 244
+# 8667 Number of predicted TMHs:  0
+8667	TMHMM2.0	outside	     1   244
+# 8668 Length: 244
+# 8668 Number of predicted TMHs:  0
+8668	TMHMM2.0	outside	     1   244
+# 8669 Length: 244
+# 8669 Number of predicted TMHs:  0
+8669	TMHMM2.0	outside	     1   244
+# 8670 Length: 244
+# 8670 Number of predicted TMHs:  0
+8670	TMHMM2.0	outside	     1   244
+# 8671 Length: 244
+# 8671 Number of predicted TMHs:  0
+8671	TMHMM2.0	outside	     1   244
+# 8672 Length: 243
+# 8672 Number of predicted TMHs:  0
+8672	TMHMM2.0	outside	     1   243
+# 8673 Length: 243
+# 8673 Number of predicted TMHs:  0
+8673	TMHMM2.0	outside	     1   243
+# 8674 Length: 243
+# 8674 Number of predicted TMHs:  1
+8674	TMHMM2.0	outside	     1    24
+8674	TMHMM2.0	TMhelix	    25    47
+8674	TMHMM2.0	inside	    48   243
+# 8675 Length: 243
+# 8675 Number of predicted TMHs:  0
+8675	TMHMM2.0	outside	     1   243
+# 8676 Length: 243
+# 8676 Number of predicted TMHs:  3
+8676	TMHMM2.0	outside	     1     3
+8676	TMHMM2.0	TMhelix	     4    21
+8676	TMHMM2.0	inside	    22    27
+8676	TMHMM2.0	TMhelix	    28    50
+8676	TMHMM2.0	outside	    51   107
+8676	TMHMM2.0	TMhelix	   108   130
+8676	TMHMM2.0	inside	   131   243
+# 8677 Length: 243
+# 8677 Number of predicted TMHs:  0
+8677	TMHMM2.0	outside	     1   243
+# 8678 Length: 243
+# 8678 Number of predicted TMHs:  0
+8678	TMHMM2.0	outside	     1   243
+# 8679 Length: 243
+# 8679 Number of predicted TMHs:  0
+8679	TMHMM2.0	outside	     1   243
+# 8680 Length: 243
+# 8680 Number of predicted TMHs:  0
+8680	TMHMM2.0	outside	     1   243
+# 8681 Length: 243
+# 8681 Number of predicted TMHs:  0
+8681	TMHMM2.0	outside	     1   243
+# 8682 Length: 243
+# 8682 Number of predicted TMHs:  0
+8682	TMHMM2.0	outside	     1   243
+# 8683 Length: 243
+# 8683 Number of predicted TMHs:  0
+8683	TMHMM2.0	outside	     1   243
+# 8684 Length: 243
+# 8684 Number of predicted TMHs:  0
+8684	TMHMM2.0	outside	     1   243
+# 8685 Length: 243
+# 8685 Number of predicted TMHs:  0
+8685	TMHMM2.0	outside	     1   243
+# 8686 Length: 243
+# 8686 Number of predicted TMHs:  0
+8686	TMHMM2.0	outside	     1   243
+# 8687 Length: 243
+# 8687 Number of predicted TMHs:  0
+8687	TMHMM2.0	outside	     1   243
+# 8688 Length: 243
+# 8688 Number of predicted TMHs:  0
+8688	TMHMM2.0	outside	     1   243
+# 8689 Length: 243
+# 8689 Number of predicted TMHs:  0
+8689	TMHMM2.0	outside	     1   243
+# 8690 Length: 243
+# 8690 Number of predicted TMHs:  0
+8690	TMHMM2.0	outside	     1   243
+# 8691 Length: 243
+# 8691 Number of predicted TMHs:  0
+8691	TMHMM2.0	outside	     1   243
+# 8692 Length: 243
+# 8692 Number of predicted TMHs:  4
+8692	TMHMM2.0	outside	     1    41
+8692	TMHMM2.0	TMhelix	    42    64
+8692	TMHMM2.0	inside	    65    75
+8692	TMHMM2.0	TMhelix	    76    98
+8692	TMHMM2.0	outside	    99   123
+8692	TMHMM2.0	TMhelix	   124   146
+8692	TMHMM2.0	inside	   147   206
+8692	TMHMM2.0	TMhelix	   207   229
+8692	TMHMM2.0	outside	   230   243
+# 8693 Length: 243
+# 8693 Number of predicted TMHs:  0
+8693	TMHMM2.0	outside	     1   243
+# 8694 Length: 243
+# 8694 Number of predicted TMHs:  0
+8694	TMHMM2.0	outside	     1   243
+# 8695 Length: 243
+# 8695 Number of predicted TMHs:  0
+8695	TMHMM2.0	outside	     1   243
+# 8696 Length: 243
+# 8696 Number of predicted TMHs:  0
+8696	TMHMM2.0	outside	     1   243
+# 8697 Length: 243
+# 8697 Number of predicted TMHs:  0
+8697	TMHMM2.0	outside	     1   243
+# 8698 Length: 243
+# 8698 Number of predicted TMHs:  1
+8698	TMHMM2.0	outside	     1   160
+8698	TMHMM2.0	TMhelix	   161   183
+8698	TMHMM2.0	inside	   184   243
+# 8699 Length: 243
+# 8699 Number of predicted TMHs:  0
+8699	TMHMM2.0	outside	     1   243
+# 8700 Length: 242
+# 8700 Number of predicted TMHs:  0
+8700	TMHMM2.0	outside	     1   242
+# 8701 Length: 242
+# 8701 Number of predicted TMHs:  4
+8701	TMHMM2.0	inside	     1    19
+8701	TMHMM2.0	TMhelix	    20    42
+8701	TMHMM2.0	outside	    43   110
+8701	TMHMM2.0	TMhelix	   111   133
+8701	TMHMM2.0	inside	   134   153
+8701	TMHMM2.0	TMhelix	   154   173
+8701	TMHMM2.0	outside	   174   187
+8701	TMHMM2.0	TMhelix	   188   210
+8701	TMHMM2.0	inside	   211   242
+# 8702 Length: 242
+# 8702 Number of predicted TMHs:  0
+8702	TMHMM2.0	outside	     1   242
+# 8703 Length: 242
+# 8703 Number of predicted TMHs:  0
+8703	TMHMM2.0	outside	     1   242
+# 8704 Length: 242
+# 8704 Number of predicted TMHs:  0
+8704	TMHMM2.0	outside	     1   242
+# 8705 Length: 242
+# 8705 Number of predicted TMHs:  0
+8705	TMHMM2.0	outside	     1   242
+# 8706 Length: 242
+# 8706 Number of predicted TMHs:  0
+8706	TMHMM2.0	outside	     1   242
+# 8707 Length: 242
+# 8707 Number of predicted TMHs:  0
+8707	TMHMM2.0	outside	     1   242
+# 8708 Length: 242
+# 8708 Number of predicted TMHs:  0
+8708	TMHMM2.0	outside	     1   242
+# 8709 Length: 242
+# 8709 Number of predicted TMHs:  0
+8709	TMHMM2.0	outside	     1   242
+# 8710 Length: 242
+# 8710 Number of predicted TMHs:  0
+8710	TMHMM2.0	outside	     1   242
+# 8711 Length: 242
+# 8711 Number of predicted TMHs:  0
+8711	TMHMM2.0	outside	     1   242
+# 8712 Length: 242
+# 8712 Number of predicted TMHs:  6
+8712	TMHMM2.0	inside	     1    19
+8712	TMHMM2.0	TMhelix	    20    42
+8712	TMHMM2.0	outside	    43    56
+8712	TMHMM2.0	TMhelix	    57    79
+8712	TMHMM2.0	inside	    80    85
+8712	TMHMM2.0	TMhelix	    86   108
+8712	TMHMM2.0	outside	   109   112
+8712	TMHMM2.0	TMhelix	   113   135
+8712	TMHMM2.0	inside	   136   147
+8712	TMHMM2.0	TMhelix	   148   170
+8712	TMHMM2.0	outside	   171   184
+8712	TMHMM2.0	TMhelix	   185   204
+8712	TMHMM2.0	inside	   205   242
+# 8713 Length: 242
+# 8713 Number of predicted TMHs:  0
+8713	TMHMM2.0	outside	     1   242
+# 8714 Length: 242
+# 8714 Number of predicted TMHs:  3
+8714	TMHMM2.0	inside	     1    69
+8714	TMHMM2.0	TMhelix	    70    92
+8714	TMHMM2.0	outside	    93   117
+8714	TMHMM2.0	TMhelix	   118   140
+8714	TMHMM2.0	inside	   141   169
+8714	TMHMM2.0	TMhelix	   170   192
+8714	TMHMM2.0	outside	   193   242
+# 8715 Length: 242
+# 8715 Number of predicted TMHs:  1
+8715	TMHMM2.0	outside	     1    85
+8715	TMHMM2.0	TMhelix	    86   108
+8715	TMHMM2.0	inside	   109   242
+# 8716 Length: 242
+# 8716 Number of predicted TMHs:  0
+8716	TMHMM2.0	outside	     1   242
+# 8717 Length: 242
+# 8717 Number of predicted TMHs:  0
+8717	TMHMM2.0	outside	     1   242
+# 8718 Length: 242
+# 8718 Number of predicted TMHs:  0
+8718	TMHMM2.0	outside	     1   242
+# 8719 Length: 242
+# 8719 Number of predicted TMHs:  0
+8719	TMHMM2.0	outside	     1   242
+# 8720 Length: 242
+# 8720 Number of predicted TMHs:  0
+8720	TMHMM2.0	outside	     1   242
+# 8721 Length: 242
+# 8721 Number of predicted TMHs:  0
+8721	TMHMM2.0	outside	     1   242
+# 8722 Length: 242
+# 8722 Number of predicted TMHs:  0
+8722	TMHMM2.0	outside	     1   242
+# 8723 Length: 242
+# 8723 Number of predicted TMHs:  0
+8723	TMHMM2.0	outside	     1   242
+# 8724 Length: 242
+# 8724 Number of predicted TMHs:  0
+8724	TMHMM2.0	outside	     1   242
+# 8725 Length: 242
+# 8725 Number of predicted TMHs:  4
+8725	TMHMM2.0	outside	     1     9
+8725	TMHMM2.0	TMhelix	    10    32
+8725	TMHMM2.0	inside	    33    88
+8725	TMHMM2.0	TMhelix	    89   111
+8725	TMHMM2.0	outside	   112   149
+8725	TMHMM2.0	TMhelix	   150   172
+8725	TMHMM2.0	inside	   173   192
+8725	TMHMM2.0	TMhelix	   193   215
+8725	TMHMM2.0	outside	   216   242
+# 8726 Length: 242
+# 8726 Number of predicted TMHs:  0
+8726	TMHMM2.0	outside	     1   242
+# 8727 Length: 242
+# 8727 Number of predicted TMHs:  0
+8727	TMHMM2.0	outside	     1   242
+# 8728 Length: 242
+# 8728 Number of predicted TMHs:  0
+8728	TMHMM2.0	outside	     1   242
+# 8729 Length: 242
+# 8729 Number of predicted TMHs:  0
+8729	TMHMM2.0	outside	     1   242
+# 8730 Length: 242
+# 8730 Number of predicted TMHs:  0
+8730	TMHMM2.0	outside	     1   242
+# 8731 Length: 242
+# 8731 Number of predicted TMHs:  0
+8731	TMHMM2.0	outside	     1   242
+# 8732 Length: 242
+# 8732 Number of predicted TMHs:  0
+8732	TMHMM2.0	outside	     1   242
+# 8733 Length: 242
+# 8733 Number of predicted TMHs:  0
+8733	TMHMM2.0	outside	     1   242
+# 8734 Length: 242
+# 8734 Number of predicted TMHs:  0
+8734	TMHMM2.0	outside	     1   242
+# 8735 Length: 242
+# 8735 Number of predicted TMHs:  0
+8735	TMHMM2.0	outside	     1   242
+# 8736 Length: 242
+# 8736 Number of predicted TMHs:  0
+8736	TMHMM2.0	outside	     1   242
+# 8737 Length: 242
+# 8737 Number of predicted TMHs:  0
+8737	TMHMM2.0	outside	     1   242
+# 8738 Length: 242
+# 8738 Number of predicted TMHs:  0
+8738	TMHMM2.0	outside	     1   242
+# 8739 Length: 242
+# 8739 Number of predicted TMHs:  0
+8739	TMHMM2.0	outside	     1   242
+# 8740 Length: 242
+# 8740 Number of predicted TMHs:  0
+8740	TMHMM2.0	outside	     1   242
+# 8741 Length: 242
+# 8741 Number of predicted TMHs:  0
+8741	TMHMM2.0	outside	     1   242
+# 8742 Length: 241
+# 8742 Number of predicted TMHs:  5
+8742	TMHMM2.0	outside	     1    14
+8742	TMHMM2.0	TMhelix	    15    37
+8742	TMHMM2.0	inside	    38    49
+8742	TMHMM2.0	TMhelix	    50    72
+8742	TMHMM2.0	outside	    73   111
+8742	TMHMM2.0	TMhelix	   112   134
+8742	TMHMM2.0	inside	   135   154
+8742	TMHMM2.0	TMhelix	   155   177
+8742	TMHMM2.0	outside	   178   191
+8742	TMHMM2.0	TMhelix	   192   214
+8742	TMHMM2.0	inside	   215   241
+# 8743 Length: 241
+# 8743 Number of predicted TMHs:  0
+8743	TMHMM2.0	outside	     1   241
+# 8744 Length: 241
+# 8744 Number of predicted TMHs:  0
+8744	TMHMM2.0	outside	     1   241
+# 8745 Length: 241
+# 8745 Number of predicted TMHs:  1
+8745	TMHMM2.0	inside	     1   125
+8745	TMHMM2.0	TMhelix	   126   148
+8745	TMHMM2.0	outside	   149   241
+# 8746 Length: 241
+# 8746 Number of predicted TMHs:  0
+8746	TMHMM2.0	outside	     1   241
+# 8747 Length: 241
+# 8747 Number of predicted TMHs:  0
+8747	TMHMM2.0	outside	     1   241
+# 8748 Length: 241
+# 8748 Number of predicted TMHs:  0
+8748	TMHMM2.0	outside	     1   241
+# 8749 Length: 241
+# 8749 Number of predicted TMHs:  0
+8749	TMHMM2.0	outside	     1   241
+# 8750 Length: 241
+# 8750 Number of predicted TMHs:  0
+8750	TMHMM2.0	outside	     1   241
+# 8751 Length: 241
+# 8751 Number of predicted TMHs:  0
+8751	TMHMM2.0	outside	     1   241
+# 8752 Length: 241
+# 8752 Number of predicted TMHs:  0
+8752	TMHMM2.0	outside	     1   241
+# 8753 Length: 241
+# 8753 Number of predicted TMHs:  0
+8753	TMHMM2.0	outside	     1   241
+# 8754 Length: 241
+# 8754 Number of predicted TMHs:  0
+8754	TMHMM2.0	outside	     1   241
+# 8755 Length: 241
+# 8755 Number of predicted TMHs:  0
+8755	TMHMM2.0	outside	     1   241
+# 8756 Length: 241
+# 8756 Number of predicted TMHs:  2
+8756	TMHMM2.0	inside	     1    78
+8756	TMHMM2.0	TMhelix	    79    96
+8756	TMHMM2.0	outside	    97   180
+8756	TMHMM2.0	TMhelix	   181   203
+8756	TMHMM2.0	inside	   204   241
+# 8757 Length: 241
+# 8757 Number of predicted TMHs:  0
+8757	TMHMM2.0	outside	     1   241
+# 8758 Length: 241
+# 8758 Number of predicted TMHs:  1
+8758	TMHMM2.0	inside	     1    12
+8758	TMHMM2.0	TMhelix	    13    32
+8758	TMHMM2.0	outside	    33   241
+# 8759 Length: 241
+# 8759 Number of predicted TMHs:  1
+8759	TMHMM2.0	inside	     1    94
+8759	TMHMM2.0	TMhelix	    95   117
+8759	TMHMM2.0	outside	   118   241
+# 8760 Length: 241
+# 8760 Number of predicted TMHs:  0
+8760	TMHMM2.0	outside	     1   241
+# 8761 Length: 241
+# 8761 Number of predicted TMHs:  0
+8761	TMHMM2.0	outside	     1   241
+# 8762 Length: 241
+# 8762 Number of predicted TMHs:  0
+8762	TMHMM2.0	outside	     1   241
+# 8763 Length: 241
+# 8763 Number of predicted TMHs:  0
+8763	TMHMM2.0	outside	     1   241
+# 8764 Length: 241
+# 8764 Number of predicted TMHs:  0
+8764	TMHMM2.0	outside	     1   241
+# 8765 Length: 241
+# 8765 Number of predicted TMHs:  0
+8765	TMHMM2.0	outside	     1   241
+# 8766 Length: 241
+# 8766 Number of predicted TMHs:  0
+8766	TMHMM2.0	outside	     1   241
+# 8767 Length: 241
+# 8767 Number of predicted TMHs:  0
+8767	TMHMM2.0	outside	     1   241
+# 8768 Length: 241
+# 8768 Number of predicted TMHs:  0
+8768	TMHMM2.0	outside	     1   241
+# 8769 Length: 241
+# 8769 Number of predicted TMHs:  1
+8769	TMHMM2.0	inside	     1   138
+8769	TMHMM2.0	TMhelix	   139   158
+8769	TMHMM2.0	outside	   159   241
+# 8770 Length: 241
+# 8770 Number of predicted TMHs:  3
+8770	TMHMM2.0	outside	     1    39
+8770	TMHMM2.0	TMhelix	    40    62
+8770	TMHMM2.0	inside	    63    68
+8770	TMHMM2.0	TMhelix	    69    91
+8770	TMHMM2.0	outside	    92   198
+8770	TMHMM2.0	TMhelix	   199   221
+8770	TMHMM2.0	inside	   222   241
+# 8771 Length: 241
+# 8771 Number of predicted TMHs:  0
+8771	TMHMM2.0	outside	     1   241
+# 8772 Length: 241
+# 8772 Number of predicted TMHs:  0
+8772	TMHMM2.0	outside	     1   241
+# 8773 Length: 241
+# 8773 Number of predicted TMHs:  0
+8773	TMHMM2.0	outside	     1   241
+# 8774 Length: 241
+# 8774 Number of predicted TMHs:  0
+8774	TMHMM2.0	outside	     1   241
+# 8775 Length: 241
+# 8775 Number of predicted TMHs:  0
+8775	TMHMM2.0	outside	     1   241
+# 8776 Length: 241
+# 8776 Number of predicted TMHs:  0
+8776	TMHMM2.0	outside	     1   241
+# 8777 Length: 241
+# 8777 Number of predicted TMHs:  0
+8777	TMHMM2.0	outside	     1   241
+# 8778 Length: 241
+# 8778 Number of predicted TMHs:  0
+8778	TMHMM2.0	outside	     1   241
+# 8779 Length: 241
+# 8779 Number of predicted TMHs:  0
+8779	TMHMM2.0	outside	     1   241
+# 8780 Length: 240
+# 8780 Number of predicted TMHs:  0
+8780	TMHMM2.0	outside	     1   240
+# 8781 Length: 240
+# 8781 Number of predicted TMHs:  0
+8781	TMHMM2.0	outside	     1   240
+# 8782 Length: 240
+# 8782 Number of predicted TMHs:  3
+8782	TMHMM2.0	inside	     1     1
+8782	TMHMM2.0	TMhelix	     2    24
+8782	TMHMM2.0	outside	    25    43
+8782	TMHMM2.0	TMhelix	    44    66
+8782	TMHMM2.0	inside	    67    85
+8782	TMHMM2.0	TMhelix	    86   108
+8782	TMHMM2.0	outside	   109   240
+# 8783 Length: 240
+# 8783 Number of predicted TMHs:  0
+8783	TMHMM2.0	outside	     1   240
+# 8784 Length: 240
+# 8784 Number of predicted TMHs:  0
+8784	TMHMM2.0	outside	     1   240
+# 8785 Length: 240
+# 8785 Number of predicted TMHs:  0
+8785	TMHMM2.0	outside	     1   240
+# 8786 Length: 240
+# 8786 Number of predicted TMHs:  0
+8786	TMHMM2.0	outside	     1   240
+# 8787 Length: 240
+# 8787 Number of predicted TMHs:  0
+8787	TMHMM2.0	inside	     1   240
+# 8788 Length: 240
+# 8788 Number of predicted TMHs:  0
+8788	TMHMM2.0	outside	     1   240
+# 8789 Length: 240
+# 8789 Number of predicted TMHs:  0
+8789	TMHMM2.0	outside	     1   240
+# 8790 Length: 240
+# 8790 Number of predicted TMHs:  0
+8790	TMHMM2.0	outside	     1   240
+# 8791 Length: 240
+# 8791 Number of predicted TMHs:  0
+8791	TMHMM2.0	outside	     1   240
+# 8792 Length: 240
+# 8792 Number of predicted TMHs:  0
+8792	TMHMM2.0	outside	     1   240
+# 8793 Length: 240
+# 8793 Number of predicted TMHs:  0
+8793	TMHMM2.0	outside	     1   240
+# 8794 Length: 240
+# 8794 Number of predicted TMHs:  1
+8794	TMHMM2.0	inside	     1    92
+8794	TMHMM2.0	TMhelix	    93   115
+8794	TMHMM2.0	outside	   116   240
+# 8795 Length: 240
+# 8795 Number of predicted TMHs:  0
+8795	TMHMM2.0	outside	     1   240
+# 8796 Length: 240
+# 8796 Number of predicted TMHs:  0
+8796	TMHMM2.0	outside	     1   240
+# 8797 Length: 240
+# 8797 Number of predicted TMHs:  1
+8797	TMHMM2.0	outside	     1     9
+8797	TMHMM2.0	TMhelix	    10    32
+8797	TMHMM2.0	inside	    33   240
+# 8798 Length: 240
+# 8798 Number of predicted TMHs:  0
+8798	TMHMM2.0	outside	     1   240
+# 8799 Length: 240
+# 8799 Number of predicted TMHs:  0
+8799	TMHMM2.0	outside	     1   240
+# 8800 Length: 240
+# 8800 Number of predicted TMHs:  4
+8800	TMHMM2.0	inside	     1    24
+8800	TMHMM2.0	TMhelix	    25    47
+8800	TMHMM2.0	outside	    48    74
+8800	TMHMM2.0	TMhelix	    75    97
+8800	TMHMM2.0	inside	    98   143
+8800	TMHMM2.0	TMhelix	   144   166
+8800	TMHMM2.0	outside	   167   170
+8800	TMHMM2.0	TMhelix	   171   193
+8800	TMHMM2.0	inside	   194   240
+# 8801 Length: 240
+# 8801 Number of predicted TMHs:  0
+8801	TMHMM2.0	outside	     1   240
+# 8802 Length: 240
+# 8802 Number of predicted TMHs:  0
+8802	TMHMM2.0	outside	     1   240
+# 8803 Length: 240
+# 8803 Number of predicted TMHs:  2
+8803	TMHMM2.0	outside	     1     3
+8803	TMHMM2.0	TMhelix	     4    21
+8803	TMHMM2.0	inside	    22   209
+8803	TMHMM2.0	TMhelix	   210   232
+8803	TMHMM2.0	outside	   233   240
+# 8804 Length: 240
+# 8804 Number of predicted TMHs:  1
+8804	TMHMM2.0	outside	     1   185
+8804	TMHMM2.0	TMhelix	   186   208
+8804	TMHMM2.0	inside	   209   240
+# 8805 Length: 240
+# 8805 Number of predicted TMHs:  0
+8805	TMHMM2.0	outside	     1   240
+# 8806 Length: 240
+# 8806 Number of predicted TMHs:  0
+8806	TMHMM2.0	outside	     1   240
+# 8807 Length: 240
+# 8807 Number of predicted TMHs:  0
+8807	TMHMM2.0	outside	     1   240
+# 8808 Length: 240
+# 8808 Number of predicted TMHs:  0
+8808	TMHMM2.0	outside	     1   240
+# 8809 Length: 240
+# 8809 Number of predicted TMHs:  0
+8809	TMHMM2.0	outside	     1   240
+# 8810 Length: 240
+# 8810 Number of predicted TMHs:  1
+8810	TMHMM2.0	inside	     1    51
+8810	TMHMM2.0	TMhelix	    52    74
+8810	TMHMM2.0	outside	    75   240
+# 8811 Length: 240
+# 8811 Number of predicted TMHs:  0
+8811	TMHMM2.0	outside	     1   240
+# 8812 Length: 240
+# 8812 Number of predicted TMHs:  0
+8812	TMHMM2.0	outside	     1   240
+# 8813 Length: 239
+# 8813 Number of predicted TMHs:  0
+8813	TMHMM2.0	outside	     1   239
+# 8814 Length: 239
+# 8814 Number of predicted TMHs:  0
+8814	TMHMM2.0	outside	     1   239
+# 8815 Length: 239
+# 8815 Number of predicted TMHs:  0
+8815	TMHMM2.0	outside	     1   239
+# 8816 Length: 239
+# 8816 Number of predicted TMHs:  0
+8816	TMHMM2.0	outside	     1   239
+# 8817 Length: 239
+# 8817 Number of predicted TMHs:  2
+8817	TMHMM2.0	outside	     1   152
+8817	TMHMM2.0	TMhelix	   153   175
+8817	TMHMM2.0	inside	   176   199
+8817	TMHMM2.0	TMhelix	   200   222
+8817	TMHMM2.0	outside	   223   239
+# 8818 Length: 239
+# 8818 Number of predicted TMHs:  0
+8818	TMHMM2.0	outside	     1   239
+# 8819 Length: 239
+# 8819 Number of predicted TMHs:  5
+8819	TMHMM2.0	outside	     1    32
+8819	TMHMM2.0	TMhelix	    33    55
+8819	TMHMM2.0	inside	    56    67
+8819	TMHMM2.0	TMhelix	    68    90
+8819	TMHMM2.0	outside	    91    99
+8819	TMHMM2.0	TMhelix	   100   122
+8819	TMHMM2.0	inside	   123   176
+8819	TMHMM2.0	TMhelix	   177   199
+8819	TMHMM2.0	outside	   200   213
+8819	TMHMM2.0	TMhelix	   214   231
+8819	TMHMM2.0	inside	   232   239
+# 8820 Length: 239
+# 8820 Number of predicted TMHs:  2
+8820	TMHMM2.0	outside	     1    14
+8820	TMHMM2.0	TMhelix	    15    37
+8820	TMHMM2.0	inside	    38   157
+8820	TMHMM2.0	TMhelix	   158   180
+8820	TMHMM2.0	outside	   181   239
+# 8821 Length: 239
+# 8821 Number of predicted TMHs:  4
+8821	TMHMM2.0	outside	     1     3
+8821	TMHMM2.0	TMhelix	     4    26
+8821	TMHMM2.0	inside	    27    91
+8821	TMHMM2.0	TMhelix	    92   114
+8821	TMHMM2.0	outside	   115   128
+8821	TMHMM2.0	TMhelix	   129   160
+8821	TMHMM2.0	inside	   161   166
+8821	TMHMM2.0	TMhelix	   167   189
+8821	TMHMM2.0	outside	   190   239
+# 8822 Length: 239
+# 8822 Number of predicted TMHs:  0
+8822	TMHMM2.0	outside	     1   239
+# 8823 Length: 239
+# 8823 Number of predicted TMHs:  0
+8823	TMHMM2.0	outside	     1   239
+# 8824 Length: 239
+# 8824 Number of predicted TMHs:  0
+8824	TMHMM2.0	outside	     1   239
+# 8825 Length: 239
+# 8825 Number of predicted TMHs:  5
+8825	TMHMM2.0	inside	     1    44
+8825	TMHMM2.0	TMhelix	    45    67
+8825	TMHMM2.0	outside	    68    81
+8825	TMHMM2.0	TMhelix	    82   104
+8825	TMHMM2.0	inside	   105   145
+8825	TMHMM2.0	TMhelix	   146   163
+8825	TMHMM2.0	outside	   164   166
+8825	TMHMM2.0	TMhelix	   167   189
+8825	TMHMM2.0	inside	   190   200
+8825	TMHMM2.0	TMhelix	   201   223
+8825	TMHMM2.0	outside	   224   239
+# 8826 Length: 239
+# 8826 Number of predicted TMHs:  0
+8826	TMHMM2.0	outside	     1   239
+# 8827 Length: 239
+# 8827 Number of predicted TMHs:  0
+8827	TMHMM2.0	outside	     1   239
+# 8828 Length: 239
+# 8828 Number of predicted TMHs:  0
+8828	TMHMM2.0	outside	     1   239
+# 8829 Length: 239
+# 8829 Number of predicted TMHs:  0
+8829	TMHMM2.0	outside	     1   239
+# 8830 Length: 239
+# 8830 Number of predicted TMHs:  0
+8830	TMHMM2.0	outside	     1   239
+# 8831 Length: 239
+# 8831 Number of predicted TMHs:  0
+8831	TMHMM2.0	outside	     1   239
+# 8832 Length: 239
+# 8832 Number of predicted TMHs:  0
+8832	TMHMM2.0	outside	     1   239
+# 8833 Length: 239
+# 8833 Number of predicted TMHs:  0
+8833	TMHMM2.0	outside	     1   239
+# 8834 Length: 239
+# 8834 Number of predicted TMHs:  0
+8834	TMHMM2.0	outside	     1   239
+# 8835 Length: 239
+# 8835 Number of predicted TMHs:  1
+8835	TMHMM2.0	inside	     1     6
+8835	TMHMM2.0	TMhelix	     7    29
+8835	TMHMM2.0	outside	    30   239
+# 8836 Length: 239
+# 8836 Number of predicted TMHs:  4
+8836	TMHMM2.0	inside	     1    12
+8836	TMHMM2.0	TMhelix	    13    35
+8836	TMHMM2.0	outside	    36    44
+8836	TMHMM2.0	TMhelix	    45    67
+8836	TMHMM2.0	inside	    68    73
+8836	TMHMM2.0	TMhelix	    74    96
+8836	TMHMM2.0	outside	    97   196
+8836	TMHMM2.0	TMhelix	   197   219
+8836	TMHMM2.0	inside	   220   239
+# 8837 Length: 239
+# 8837 Number of predicted TMHs:  0
+8837	TMHMM2.0	outside	     1   239
+# 8838 Length: 239
+# 8838 Number of predicted TMHs:  0
+8838	TMHMM2.0	outside	     1   239
+# 8839 Length: 239
+# 8839 Number of predicted TMHs:  0
+8839	TMHMM2.0	outside	     1   239
+# 8840 Length: 239
+# 8840 Number of predicted TMHs:  2
+8840	TMHMM2.0	inside	     1    96
+8840	TMHMM2.0	TMhelix	    97   116
+8840	TMHMM2.0	outside	   117   120
+8840	TMHMM2.0	TMhelix	   121   140
+8840	TMHMM2.0	inside	   141   239
+# 8841 Length: 239
+# 8841 Number of predicted TMHs:  0
+8841	TMHMM2.0	outside	     1   239
+# 8842 Length: 239
+# 8842 Number of predicted TMHs:  0
+8842	TMHMM2.0	outside	     1   239
+# 8843 Length: 239
+# 8843 Number of predicted TMHs:  0
+8843	TMHMM2.0	outside	     1   239
+# 8844 Length: 239
+# 8844 Number of predicted TMHs:  1
+8844	TMHMM2.0	outside	     1   186
+8844	TMHMM2.0	TMhelix	   187   206
+8844	TMHMM2.0	inside	   207   239
+# 8845 Length: 239
+# 8845 Number of predicted TMHs:  0
+8845	TMHMM2.0	outside	     1   239
+# 8846 Length: 239
+# 8846 Number of predicted TMHs:  0
+8846	TMHMM2.0	outside	     1   239
+# 8847 Length: 239
+# 8847 Number of predicted TMHs:  0
+8847	TMHMM2.0	outside	     1   239
+# 8848 Length: 239
+# 8848 Number of predicted TMHs:  4
+8848	TMHMM2.0	inside	     1    87
+8848	TMHMM2.0	TMhelix	    88   105
+8848	TMHMM2.0	outside	   106   109
+8848	TMHMM2.0	TMhelix	   110   132
+8848	TMHMM2.0	inside	   133   162
+8848	TMHMM2.0	TMhelix	   163   185
+8848	TMHMM2.0	outside	   186   199
+8848	TMHMM2.0	TMhelix	   200   222
+8848	TMHMM2.0	inside	   223   239
+# 8849 Length: 239
+# 8849 Number of predicted TMHs:  0
+8849	TMHMM2.0	outside	     1   239
+# 8850 Length: 239
+# 8850 Number of predicted TMHs:  0
+8850	TMHMM2.0	outside	     1   239
+# 8851 Length: 238
+# 8851 Number of predicted TMHs:  0
+8851	TMHMM2.0	outside	     1   238
+# 8852 Length: 238
+# 8852 Number of predicted TMHs:  0
+8852	TMHMM2.0	outside	     1   238
+# 8853 Length: 238
+# 8853 Number of predicted TMHs:  0
+8853	TMHMM2.0	outside	     1   238
+# 8854 Length: 238
+# 8854 Number of predicted TMHs:  0
+8854	TMHMM2.0	outside	     1   238
+# 8855 Length: 238
+# 8855 Number of predicted TMHs:  0
+8855	TMHMM2.0	outside	     1   238
+# 8856 Length: 238
+# 8856 Number of predicted TMHs:  0
+8856	TMHMM2.0	outside	     1   238
+# 8857 Length: 238
+# 8857 Number of predicted TMHs:  0
+8857	TMHMM2.0	outside	     1   238
+# 8858 Length: 238
+# 8858 Number of predicted TMHs:  0
+8858	TMHMM2.0	outside	     1   238
+# 8859 Length: 238
+# 8859 Number of predicted TMHs:  0
+8859	TMHMM2.0	outside	     1   238
+# 8860 Length: 238
+# 8860 Number of predicted TMHs:  0
+8860	TMHMM2.0	outside	     1   238
+# 8861 Length: 238
+# 8861 Number of predicted TMHs:  0
+8861	TMHMM2.0	outside	     1   238
+# 8862 Length: 238
+# 8862 Number of predicted TMHs:  0
+8862	TMHMM2.0	outside	     1   238
+# 8863 Length: 238
+# 8863 Number of predicted TMHs:  4
+8863	TMHMM2.0	inside	     1    56
+8863	TMHMM2.0	TMhelix	    57    79
+8863	TMHMM2.0	outside	    80    83
+8863	TMHMM2.0	TMhelix	    84   106
+8863	TMHMM2.0	inside	   107   126
+8863	TMHMM2.0	TMhelix	   127   149
+8863	TMHMM2.0	outside	   150   178
+8863	TMHMM2.0	TMhelix	   179   201
+8863	TMHMM2.0	inside	   202   238
+# 8864 Length: 238
+# 8864 Number of predicted TMHs:  0
+8864	TMHMM2.0	outside	     1   238
+# 8865 Length: 238
+# 8865 Number of predicted TMHs:  0
+8865	TMHMM2.0	outside	     1   238
+# 8866 Length: 238
+# 8866 Number of predicted TMHs:  0
+8866	TMHMM2.0	outside	     1   238
+# 8867 Length: 238
+# 8867 Number of predicted TMHs:  0
+8867	TMHMM2.0	outside	     1   238
+# 8868 Length: 238
+# 8868 Number of predicted TMHs:  0
+8868	TMHMM2.0	outside	     1   238
+# 8869 Length: 238
+# 8869 Number of predicted TMHs:  0
+8869	TMHMM2.0	outside	     1   238
+# 8870 Length: 238
+# 8870 Number of predicted TMHs:  0
+8870	TMHMM2.0	outside	     1   238
+# 8871 Length: 238
+# 8871 Number of predicted TMHs:  0
+8871	TMHMM2.0	outside	     1   238
+# 8872 Length: 238
+# 8872 Number of predicted TMHs:  0
+8872	TMHMM2.0	outside	     1   238
+# 8873 Length: 238
+# 8873 Number of predicted TMHs:  0
+8873	TMHMM2.0	outside	     1   238
+# 8874 Length: 238
+# 8874 Number of predicted TMHs:  0
+8874	TMHMM2.0	outside	     1   238
+# 8875 Length: 238
+# 8875 Number of predicted TMHs:  1
+8875	TMHMM2.0	outside	     1   130
+8875	TMHMM2.0	TMhelix	   131   153
+8875	TMHMM2.0	inside	   154   238
+# 8876 Length: 238
+# 8876 Number of predicted TMHs:  0
+8876	TMHMM2.0	outside	     1   238
+# 8877 Length: 238
+# 8877 Number of predicted TMHs:  0
+8877	TMHMM2.0	outside	     1   238
+# 8878 Length: 238
+# 8878 Number of predicted TMHs:  0
+8878	TMHMM2.0	outside	     1   238
+# 8879 Length: 238
+# 8879 Number of predicted TMHs:  0
+8879	TMHMM2.0	outside	     1   238
+# 8880 Length: 238
+# 8880 Number of predicted TMHs:  0
+8880	TMHMM2.0	outside	     1   238
+# 8881 Length: 238
+# 8881 Number of predicted TMHs:  0
+8881	TMHMM2.0	outside	     1   238
+# 8882 Length: 238
+# 8882 Number of predicted TMHs:  1
+8882	TMHMM2.0	inside	     1     4
+8882	TMHMM2.0	TMhelix	     5    27
+8882	TMHMM2.0	outside	    28   238
+# 8883 Length: 238
+# 8883 Number of predicted TMHs:  1
+8883	TMHMM2.0	inside	     1     8
+8883	TMHMM2.0	TMhelix	     9    31
+8883	TMHMM2.0	outside	    32   238
+# 8884 Length: 238
+# 8884 Number of predicted TMHs:  0
+8884	TMHMM2.0	outside	     1   238
+# 8885 Length: 237
+# 8885 Number of predicted TMHs:  0
+8885	TMHMM2.0	outside	     1   237
+# 8886 Length: 237
+# 8886 Number of predicted TMHs:  0
+8886	TMHMM2.0	outside	     1   237
+# 8887 Length: 237
+# 8887 Number of predicted TMHs:  0
+8887	TMHMM2.0	outside	     1   237
+# 8888 Length: 237
+# 8888 Number of predicted TMHs:  0
+8888	TMHMM2.0	outside	     1   237
+# 8889 Length: 237
+# 8889 Number of predicted TMHs:  0
+8889	TMHMM2.0	outside	     1   237
+# 8890 Length: 237
+# 8890 Number of predicted TMHs:  0
+8890	TMHMM2.0	outside	     1   237
+# 8891 Length: 237
+# 8891 Number of predicted TMHs:  0
+8891	TMHMM2.0	outside	     1   237
+# 8892 Length: 237
+# 8892 Number of predicted TMHs:  0
+8892	TMHMM2.0	outside	     1   237
+# 8893 Length: 237
+# 8893 Number of predicted TMHs:  0
+8893	TMHMM2.0	outside	     1   237
+# 8894 Length: 237
+# 8894 Number of predicted TMHs:  0
+8894	TMHMM2.0	outside	     1   237
+# 8895 Length: 237
+# 8895 Number of predicted TMHs:  0
+8895	TMHMM2.0	outside	     1   237
+# 8896 Length: 237
+# 8896 Number of predicted TMHs:  1
+8896	TMHMM2.0	outside	     1    22
+8896	TMHMM2.0	TMhelix	    23    45
+8896	TMHMM2.0	inside	    46   237
+# 8897 Length: 237
+# 8897 Number of predicted TMHs:  0
+8897	TMHMM2.0	outside	     1   237
+# 8898 Length: 237
+# 8898 Number of predicted TMHs:  1
+8898	TMHMM2.0	inside	     1     4
+8898	TMHMM2.0	TMhelix	     5    24
+8898	TMHMM2.0	outside	    25   237
+# 8899 Length: 237
+# 8899 Number of predicted TMHs:  0
+8899	TMHMM2.0	outside	     1   237
+# 8900 Length: 237
+# 8900 Number of predicted TMHs:  0
+8900	TMHMM2.0	outside	     1   237
+# 8901 Length: 237
+# 8901 Number of predicted TMHs:  0
+8901	TMHMM2.0	outside	     1   237
+# 8902 Length: 237
+# 8902 Number of predicted TMHs:  0
+8902	TMHMM2.0	outside	     1   237
+# 8903 Length: 237
+# 8903 Number of predicted TMHs:  0
+8903	TMHMM2.0	outside	     1   237
+# 8904 Length: 237
+# 8904 Number of predicted TMHs:  2
+8904	TMHMM2.0	inside	     1    78
+8904	TMHMM2.0	TMhelix	    79   101
+8904	TMHMM2.0	outside	   102   115
+8904	TMHMM2.0	TMhelix	   116   135
+8904	TMHMM2.0	inside	   136   237
+# 8905 Length: 237
+# 8905 Number of predicted TMHs:  3
+8905	TMHMM2.0	outside	     1     3
+8905	TMHMM2.0	TMhelix	     4    26
+8905	TMHMM2.0	inside	    27   107
+8905	TMHMM2.0	TMhelix	   108   130
+8905	TMHMM2.0	outside	   131   144
+8905	TMHMM2.0	TMhelix	   145   167
+8905	TMHMM2.0	inside	   168   237
+# 8906 Length: 237
+# 8906 Number of predicted TMHs:  0
+8906	TMHMM2.0	outside	     1   237
+# 8907 Length: 237
+# 8907 Number of predicted TMHs:  5
+8907	TMHMM2.0	outside	     1    12
+8907	TMHMM2.0	TMhelix	    13    35
+8907	TMHMM2.0	inside	    36    55
+8907	TMHMM2.0	TMhelix	    56    78
+8907	TMHMM2.0	outside	    79    92
+8907	TMHMM2.0	TMhelix	    93   115
+8907	TMHMM2.0	inside	   116   119
+8907	TMHMM2.0	TMhelix	   120   142
+8907	TMHMM2.0	outside	   143   206
+8907	TMHMM2.0	TMhelix	   207   229
+8907	TMHMM2.0	inside	   230   237
+# 8908 Length: 237
+# 8908 Number of predicted TMHs:  0
+8908	TMHMM2.0	outside	     1   237
+# 8909 Length: 237
+# 8909 Number of predicted TMHs:  0
+8909	TMHMM2.0	outside	     1   237
+# 8910 Length: 237
+# 8910 Number of predicted TMHs:  1
+8910	TMHMM2.0	inside	     1   180
+8910	TMHMM2.0	TMhelix	   181   203
+8910	TMHMM2.0	outside	   204   237
+# 8911 Length: 237
+# 8911 Number of predicted TMHs:  0
+8911	TMHMM2.0	outside	     1   237
+# 8912 Length: 237
+# 8912 Number of predicted TMHs:  0
+8912	TMHMM2.0	outside	     1   237
+# 8913 Length: 237
+# 8913 Number of predicted TMHs:  0
+8913	TMHMM2.0	outside	     1   237
+# 8914 Length: 237
+# 8914 Number of predicted TMHs:  0
+8914	TMHMM2.0	outside	     1   237
+# 8915 Length: 237
+# 8915 Number of predicted TMHs:  1
+8915	TMHMM2.0	inside	     1    74
+8915	TMHMM2.0	TMhelix	    75    97
+8915	TMHMM2.0	outside	    98   237
+# 8916 Length: 237
+# 8916 Number of predicted TMHs:  0
+8916	TMHMM2.0	outside	     1   237
+# 8917 Length: 237
+# 8917 Number of predicted TMHs:  0
+8917	TMHMM2.0	outside	     1   237
+# 8918 Length: 237
+# 8918 Number of predicted TMHs:  0
+8918	TMHMM2.0	outside	     1   237
+# 8919 Length: 237
+# 8919 Number of predicted TMHs:  0
+8919	TMHMM2.0	outside	     1   237
+# 8920 Length: 237
+# 8920 Number of predicted TMHs:  2
+8920	TMHMM2.0	inside	     1    95
+8920	TMHMM2.0	TMhelix	    96   118
+8920	TMHMM2.0	outside	   119   179
+8920	TMHMM2.0	TMhelix	   180   199
+8920	TMHMM2.0	inside	   200   237
+# 8921 Length: 237
+# 8921 Number of predicted TMHs:  0
+8921	TMHMM2.0	outside	     1   237
+# 8922 Length: 237
+# 8922 Number of predicted TMHs:  0
+8922	TMHMM2.0	outside	     1   237
+# 8923 Length: 236
+# 8923 Number of predicted TMHs:  0
+8923	TMHMM2.0	outside	     1   236
+# 8924 Length: 236
+# 8924 Number of predicted TMHs:  0
+8924	TMHMM2.0	outside	     1   236
+# 8925 Length: 236
+# 8925 Number of predicted TMHs:  0
+8925	TMHMM2.0	outside	     1   236
+# 8926 Length: 236
+# 8926 Number of predicted TMHs:  0
+8926	TMHMM2.0	outside	     1   236
+# 8927 Length: 236
+# 8927 Number of predicted TMHs:  1
+8927	TMHMM2.0	inside	     1    87
+8927	TMHMM2.0	TMhelix	    88   105
+8927	TMHMM2.0	outside	   106   236
+# 8928 Length: 236
+# 8928 Number of predicted TMHs:  0
+8928	TMHMM2.0	outside	     1   236
+# 8929 Length: 236
+# 8929 Number of predicted TMHs:  5
+8929	TMHMM2.0	outside	     1     9
+8929	TMHMM2.0	TMhelix	    10    28
+8929	TMHMM2.0	inside	    29    40
+8929	TMHMM2.0	TMhelix	    41    63
+8929	TMHMM2.0	outside	    64   142
+8929	TMHMM2.0	TMhelix	   143   165
+8929	TMHMM2.0	inside	   166   177
+8929	TMHMM2.0	TMhelix	   178   200
+8929	TMHMM2.0	outside	   201   209
+8929	TMHMM2.0	TMhelix	   210   232
+8929	TMHMM2.0	inside	   233   236
+# 8930 Length: 236
+# 8930 Number of predicted TMHs:  0
+8930	TMHMM2.0	outside	     1   236
+# 8931 Length: 236
+# 8931 Number of predicted TMHs:  0
+8931	TMHMM2.0	outside	     1   236
+# 8932 Length: 236
+# 8932 Number of predicted TMHs:  1
+8932	TMHMM2.0	inside	     1   107
+8932	TMHMM2.0	TMhelix	   108   130
+8932	TMHMM2.0	outside	   131   236
+# 8933 Length: 236
+# 8933 Number of predicted TMHs:  1
+8933	TMHMM2.0	inside	     1   146
+8933	TMHMM2.0	TMhelix	   147   169
+8933	TMHMM2.0	outside	   170   236
+# 8934 Length: 236
+# 8934 Number of predicted TMHs:  0
+8934	TMHMM2.0	outside	     1   236
+# 8935 Length: 236
+# 8935 Number of predicted TMHs:  0
+8935	TMHMM2.0	outside	     1   236
+# 8936 Length: 236
+# 8936 Number of predicted TMHs:  0
+8936	TMHMM2.0	outside	     1   236
+# 8937 Length: 236
+# 8937 Number of predicted TMHs:  0
+8937	TMHMM2.0	outside	     1   236
+# 8938 Length: 236
+# 8938 Number of predicted TMHs:  0
+8938	TMHMM2.0	outside	     1   236
+# 8939 Length: 236
+# 8939 Number of predicted TMHs:  0
+8939	TMHMM2.0	outside	     1   236
+# 8940 Length: 236
+# 8940 Number of predicted TMHs:  4
+8940	TMHMM2.0	inside	     1    41
+8940	TMHMM2.0	TMhelix	    42    64
+8940	TMHMM2.0	outside	    65    93
+8940	TMHMM2.0	TMhelix	    94   116
+8940	TMHMM2.0	inside	   117   127
+8940	TMHMM2.0	TMhelix	   128   146
+8940	TMHMM2.0	outside	   147   160
+8940	TMHMM2.0	TMhelix	   161   183
+8940	TMHMM2.0	inside	   184   236
+# 8941 Length: 236
+# 8941 Number of predicted TMHs:  0
+8941	TMHMM2.0	outside	     1   236
+# 8942 Length: 236
+# 8942 Number of predicted TMHs:  0
+8942	TMHMM2.0	outside	     1   236
+# 8943 Length: 236
+# 8943 Number of predicted TMHs:  4
+8943	TMHMM2.0	inside	     1   102
+8943	TMHMM2.0	TMhelix	   103   125
+8943	TMHMM2.0	outside	   126   139
+8943	TMHMM2.0	TMhelix	   140   162
+8943	TMHMM2.0	inside	   163   174
+8943	TMHMM2.0	TMhelix	   175   197
+8943	TMHMM2.0	outside	   198   211
+8943	TMHMM2.0	TMhelix	   212   234
+8943	TMHMM2.0	inside	   235   236
+# 8944 Length: 236
+# 8944 Number of predicted TMHs:  0
+8944	TMHMM2.0	outside	     1   236
+# 8945 Length: 236
+# 8945 Number of predicted TMHs:  0
+8945	TMHMM2.0	outside	     1   236
+# 8946 Length: 236
+# 8946 Number of predicted TMHs:  0
+8946	TMHMM2.0	outside	     1   236
+# 8947 Length: 236
+# 8947 Number of predicted TMHs:  0
+8947	TMHMM2.0	outside	     1   236
+# 8948 Length: 236
+# 8948 Number of predicted TMHs:  1
+8948	TMHMM2.0	outside	     1   207
+8948	TMHMM2.0	TMhelix	   208   230
+8948	TMHMM2.0	inside	   231   236
+# 8949 Length: 236
+# 8949 Number of predicted TMHs:  0
+8949	TMHMM2.0	outside	     1   236
+# 8950 Length: 236
+# 8950 Number of predicted TMHs:  0
+8950	TMHMM2.0	outside	     1   236
+# 8951 Length: 236
+# 8951 Number of predicted TMHs:  0
+8951	TMHMM2.0	outside	     1   236
+# 8952 Length: 236
+# 8952 Number of predicted TMHs:  0
+8952	TMHMM2.0	outside	     1   236
+# 8953 Length: 236
+# 8953 Number of predicted TMHs:  0
+8953	TMHMM2.0	outside	     1   236
+# 8954 Length: 236
+# 8954 Number of predicted TMHs:  0
+8954	TMHMM2.0	outside	     1   236
+# 8955 Length: 236
+# 8955 Number of predicted TMHs:  0
+8955	TMHMM2.0	outside	     1   236
+# 8956 Length: 236
+# 8956 Number of predicted TMHs:  0
+8956	TMHMM2.0	outside	     1   236
+# 8957 Length: 236
+# 8957 Number of predicted TMHs:  0
+8957	TMHMM2.0	outside	     1   236
+# 8958 Length: 236
+# 8958 Number of predicted TMHs:  0
+8958	TMHMM2.0	outside	     1   236
+# 8959 Length: 236
+# 8959 Number of predicted TMHs:  0
+8959	TMHMM2.0	outside	     1   236
+# 8960 Length: 235
+# 8960 Number of predicted TMHs:  0
+8960	TMHMM2.0	outside	     1   235
+# 8961 Length: 235
+# 8961 Number of predicted TMHs:  0
+8961	TMHMM2.0	outside	     1   235
+# 8962 Length: 235
+# 8962 Number of predicted TMHs:  1
+8962	TMHMM2.0	inside	     1    12
+8962	TMHMM2.0	TMhelix	    13    35
+8962	TMHMM2.0	outside	    36   235
+# 8963 Length: 235
+# 8963 Number of predicted TMHs:  2
+8963	TMHMM2.0	outside	     1     4
+8963	TMHMM2.0	TMhelix	     5    27
+8963	TMHMM2.0	inside	    28   210
+8963	TMHMM2.0	TMhelix	   211   230
+8963	TMHMM2.0	outside	   231   235
+# 8964 Length: 235
+# 8964 Number of predicted TMHs:  0
+8964	TMHMM2.0	outside	     1   235
+# 8965 Length: 235
+# 8965 Number of predicted TMHs:  0
+8965	TMHMM2.0	outside	     1   235
+# 8966 Length: 235
+# 8966 Number of predicted TMHs:  0
+8966	TMHMM2.0	outside	     1   235
+# 8967 Length: 235
+# 8967 Number of predicted TMHs:  0
+8967	TMHMM2.0	outside	     1   235
+# 8968 Length: 235
+# 8968 Number of predicted TMHs:  0
+8968	TMHMM2.0	outside	     1   235
+# 8969 Length: 235
+# 8969 Number of predicted TMHs:  0
+8969	TMHMM2.0	outside	     1   235
+# 8970 Length: 235
+# 8970 Number of predicted TMHs:  4
+8970	TMHMM2.0	inside	     1    73
+8970	TMHMM2.0	TMhelix	    74    93
+8970	TMHMM2.0	outside	    94   154
+8970	TMHMM2.0	TMhelix	   155   177
+8970	TMHMM2.0	inside	   178   183
+8970	TMHMM2.0	TMhelix	   184   206
+8970	TMHMM2.0	outside	   207   210
+8970	TMHMM2.0	TMhelix	   211   233
+8970	TMHMM2.0	inside	   234   235
+# 8971 Length: 235
+# 8971 Number of predicted TMHs:  0
+8971	TMHMM2.0	outside	     1   235
+# 8972 Length: 235
+# 8972 Number of predicted TMHs:  2
+8972	TMHMM2.0	inside	     1    38
+8972	TMHMM2.0	TMhelix	    39    61
+8972	TMHMM2.0	outside	    62   165
+8972	TMHMM2.0	TMhelix	   166   188
+8972	TMHMM2.0	inside	   189   235
+# 8973 Length: 235
+# 8973 Number of predicted TMHs:  4
+8973	TMHMM2.0	inside	     1    45
+8973	TMHMM2.0	TMhelix	    46    68
+8973	TMHMM2.0	outside	    69    87
+8973	TMHMM2.0	TMhelix	    88   110
+8973	TMHMM2.0	inside	   111   122
+8973	TMHMM2.0	TMhelix	   123   145
+8973	TMHMM2.0	outside	   146   164
+8973	TMHMM2.0	TMhelix	   165   187
+8973	TMHMM2.0	inside	   188   235
+# 8974 Length: 235
+# 8974 Number of predicted TMHs:  4
+8974	TMHMM2.0	outside	     1    14
+8974	TMHMM2.0	TMhelix	    15    37
+8974	TMHMM2.0	inside	    38    57
+8974	TMHMM2.0	TMhelix	    58    75
+8974	TMHMM2.0	outside	    76    89
+8974	TMHMM2.0	TMhelix	    90   112
+8974	TMHMM2.0	inside	   113   123
+8974	TMHMM2.0	TMhelix	   124   146
+8974	TMHMM2.0	outside	   147   235
+# 8975 Length: 235
+# 8975 Number of predicted TMHs:  0
+8975	TMHMM2.0	outside	     1   235
+# 8976 Length: 235
+# 8976 Number of predicted TMHs:  0
+8976	TMHMM2.0	outside	     1   235
+# 8977 Length: 235
+# 8977 Number of predicted TMHs:  0
+8977	TMHMM2.0	outside	     1   235
+# 8978 Length: 235
+# 8978 Number of predicted TMHs:  0
+8978	TMHMM2.0	outside	     1   235
+# 8979 Length: 235
+# 8979 Number of predicted TMHs:  0
+8979	TMHMM2.0	outside	     1   235
+# 8980 Length: 235
+# 8980 Number of predicted TMHs:  0
+8980	TMHMM2.0	outside	     1   235
+# 8981 Length: 235
+# 8981 Number of predicted TMHs:  0
+8981	TMHMM2.0	outside	     1   235
+# 8982 Length: 235
+# 8982 Number of predicted TMHs:  0
+8982	TMHMM2.0	outside	     1   235
+# 8983 Length: 235
+# 8983 Number of predicted TMHs:  1
+8983	TMHMM2.0	outside	     1    23
+8983	TMHMM2.0	TMhelix	    24    43
+8983	TMHMM2.0	inside	    44   235
+# 8984 Length: 235
+# 8984 Number of predicted TMHs:  0
+8984	TMHMM2.0	outside	     1   235
+# 8985 Length: 235
+# 8985 Number of predicted TMHs:  0
+8985	TMHMM2.0	outside	     1   235
+# 8986 Length: 235
+# 8986 Number of predicted TMHs:  1
+8986	TMHMM2.0	outside	     1   167
+8986	TMHMM2.0	TMhelix	   168   190
+8986	TMHMM2.0	inside	   191   235
+# 8987 Length: 235
+# 8987 Number of predicted TMHs:  1
+8987	TMHMM2.0	outside	     1   187
+8987	TMHMM2.0	TMhelix	   188   205
+8987	TMHMM2.0	inside	   206   235
+# 8988 Length: 235
+# 8988 Number of predicted TMHs:  0
+8988	TMHMM2.0	outside	     1   235
+# 8989 Length: 235
+# 8989 Number of predicted TMHs:  1
+8989	TMHMM2.0	inside	     1    16
+8989	TMHMM2.0	TMhelix	    17    39
+8989	TMHMM2.0	outside	    40   235
+# 8990 Length: 235
+# 8990 Number of predicted TMHs:  0
+8990	TMHMM2.0	outside	     1   235
+# 8991 Length: 235
+# 8991 Number of predicted TMHs:  0
+8991	TMHMM2.0	outside	     1   235
+# 8992 Length: 235
+# 8992 Number of predicted TMHs:  0
+8992	TMHMM2.0	outside	     1   235
+# 8993 Length: 235
+# 8993 Number of predicted TMHs:  0
+8993	TMHMM2.0	outside	     1   235
+# 8994 Length: 235
+# 8994 Number of predicted TMHs:  0
+8994	TMHMM2.0	outside	     1   235
+# 8995 Length: 235
+# 8995 Number of predicted TMHs:  0
+8995	TMHMM2.0	outside	     1   235
+# 8996 Length: 235
+# 8996 Number of predicted TMHs:  0
+8996	TMHMM2.0	outside	     1   235
+# 8997 Length: 235
+# 8997 Number of predicted TMHs:  0
+8997	TMHMM2.0	outside	     1   235
+# 8998 Length: 235
+# 8998 Number of predicted TMHs:  0
+8998	TMHMM2.0	outside	     1   235
+# 8999 Length: 235
+# 8999 Number of predicted TMHs:  5
+8999	TMHMM2.0	outside	     1    37
+8999	TMHMM2.0	TMhelix	    38    60
+8999	TMHMM2.0	inside	    61    71
+8999	TMHMM2.0	TMhelix	    72    94
+8999	TMHMM2.0	outside	    95   108
+8999	TMHMM2.0	TMhelix	   109   131
+8999	TMHMM2.0	inside	   132   142
+8999	TMHMM2.0	TMhelix	   143   165
+8999	TMHMM2.0	outside	   166   214
+8999	TMHMM2.0	TMhelix	   215   234
+8999	TMHMM2.0	inside	   235   235
+# 9000 Length: 235
+# 9000 Number of predicted TMHs:  0
+9000	TMHMM2.0	outside	     1   235
+# 9001 Length: 235
+# 9001 Number of predicted TMHs:  0
+9001	TMHMM2.0	outside	     1   235
+# 9002 Length: 235
+# 9002 Number of predicted TMHs:  0
+9002	TMHMM2.0	outside	     1   235
+# 9003 Length: 235
+# 9003 Number of predicted TMHs:  0
+9003	TMHMM2.0	outside	     1   235
+# 9004 Length: 234
+# 9004 Number of predicted TMHs:  0
+9004	TMHMM2.0	outside	     1   234
+# 9005 Length: 234
+# 9005 Number of predicted TMHs:  0
+9005	TMHMM2.0	outside	     1   234
+# 9006 Length: 234
+# 9006 Number of predicted TMHs:  0
+9006	TMHMM2.0	outside	     1   234
+# 9007 Length: 234
+# 9007 Number of predicted TMHs:  2
+9007	TMHMM2.0	inside	     1   144
+9007	TMHMM2.0	TMhelix	   145   167
+9007	TMHMM2.0	outside	   168   176
+9007	TMHMM2.0	TMhelix	   177   199
+9007	TMHMM2.0	inside	   200   234
+# 9008 Length: 234
+# 9008 Number of predicted TMHs:  0
+9008	TMHMM2.0	outside	     1   234
+# 9009 Length: 234
+# 9009 Number of predicted TMHs:  0
+9009	TMHMM2.0	outside	     1   234
+# 9010 Length: 234
+# 9010 Number of predicted TMHs:  0
+9010	TMHMM2.0	outside	     1   234
+# 9011 Length: 234
+# 9011 Number of predicted TMHs:  0
+9011	TMHMM2.0	outside	     1   234
+# 9012 Length: 234
+# 9012 Number of predicted TMHs:  0
+9012	TMHMM2.0	outside	     1   234
+# 9013 Length: 234
+# 9013 Number of predicted TMHs:  0
+9013	TMHMM2.0	outside	     1   234
+# 9014 Length: 234
+# 9014 Number of predicted TMHs:  0
+9014	TMHMM2.0	outside	     1   234
+# 9015 Length: 234
+# 9015 Number of predicted TMHs:  0
+9015	TMHMM2.0	outside	     1   234
+# 9016 Length: 234
+# 9016 Number of predicted TMHs:  0
+9016	TMHMM2.0	outside	     1   234
+# 9017 Length: 234
+# 9017 Number of predicted TMHs:  0
+9017	TMHMM2.0	outside	     1   234
+# 9018 Length: 234
+# 9018 Number of predicted TMHs:  3
+9018	TMHMM2.0	inside	     1   103
+9018	TMHMM2.0	TMhelix	   104   126
+9018	TMHMM2.0	outside	   127   130
+9018	TMHMM2.0	TMhelix	   131   153
+9018	TMHMM2.0	inside	   154   161
+9018	TMHMM2.0	TMhelix	   162   180
+9018	TMHMM2.0	outside	   181   234
+# 9019 Length: 234
+# 9019 Number of predicted TMHs:  1
+9019	TMHMM2.0	inside	     1   215
+9019	TMHMM2.0	TMhelix	   216   233
+9019	TMHMM2.0	outside	   234   234
+# 9020 Length: 234
+# 9020 Number of predicted TMHs:  0
+9020	TMHMM2.0	outside	     1   234
+# 9021 Length: 234
+# 9021 Number of predicted TMHs:  0
+9021	TMHMM2.0	outside	     1   234
+# 9022 Length: 234
+# 9022 Number of predicted TMHs:  0
+9022	TMHMM2.0	outside	     1   234
+# 9023 Length: 234
+# 9023 Number of predicted TMHs:  0
+9023	TMHMM2.0	outside	     1   234
+# 9024 Length: 234
+# 9024 Number of predicted TMHs:  0
+9024	TMHMM2.0	outside	     1   234
+# 9025 Length: 234
+# 9025 Number of predicted TMHs:  0
+9025	TMHMM2.0	outside	     1   234
+# 9026 Length: 234
+# 9026 Number of predicted TMHs:  0
+9026	TMHMM2.0	outside	     1   234
+# 9027 Length: 234
+# 9027 Number of predicted TMHs:  4
+9027	TMHMM2.0	outside	     1    57
+9027	TMHMM2.0	TMhelix	    58    80
+9027	TMHMM2.0	inside	    81    92
+9027	TMHMM2.0	TMhelix	    93   115
+9027	TMHMM2.0	outside	   116   145
+9027	TMHMM2.0	TMhelix	   146   168
+9027	TMHMM2.0	inside	   169   174
+9027	TMHMM2.0	TMhelix	   175   197
+9027	TMHMM2.0	outside	   198   234
+# 9028 Length: 234
+# 9028 Number of predicted TMHs:  4
+9028	TMHMM2.0	inside	     1    12
+9028	TMHMM2.0	TMhelix	    13    35
+9028	TMHMM2.0	outside	    36    93
+9028	TMHMM2.0	TMhelix	    94   116
+9028	TMHMM2.0	inside	   117   148
+9028	TMHMM2.0	TMhelix	   149   171
+9028	TMHMM2.0	outside	   172   194
+9028	TMHMM2.0	TMhelix	   195   217
+9028	TMHMM2.0	inside	   218   234
+# 9029 Length: 234
+# 9029 Number of predicted TMHs:  5
+9029	TMHMM2.0	inside	     1    40
+9029	TMHMM2.0	TMhelix	    41    63
+9029	TMHMM2.0	outside	    64    94
+9029	TMHMM2.0	TMhelix	    95   117
+9029	TMHMM2.0	inside	   118   121
+9029	TMHMM2.0	TMhelix	   122   144
+9029	TMHMM2.0	outside	   145   158
+9029	TMHMM2.0	TMhelix	   159   181
+9029	TMHMM2.0	inside	   182   193
+9029	TMHMM2.0	TMhelix	   194   216
+9029	TMHMM2.0	outside	   217   234
+# 9030 Length: 234
+# 9030 Number of predicted TMHs:  1
+9030	TMHMM2.0	outside	     1    58
+9030	TMHMM2.0	TMhelix	    59    81
+9030	TMHMM2.0	inside	    82   234
+# 9031 Length: 234
+# 9031 Number of predicted TMHs:  0
+9031	TMHMM2.0	outside	     1   234
+# 9032 Length: 234
+# 9032 Number of predicted TMHs:  0
+9032	TMHMM2.0	outside	     1   234
+# 9033 Length: 234
+# 9033 Number of predicted TMHs:  0
+9033	TMHMM2.0	outside	     1   234
+# 9034 Length: 233
+# 9034 Number of predicted TMHs:  2
+9034	TMHMM2.0	outside	     1    80
+9034	TMHMM2.0	TMhelix	    81   103
+9034	TMHMM2.0	inside	   104   122
+9034	TMHMM2.0	TMhelix	   123   145
+9034	TMHMM2.0	outside	   146   233
+# 9035 Length: 233
+# 9035 Number of predicted TMHs:  0
+9035	TMHMM2.0	outside	     1   233
+# 9036 Length: 233
+# 9036 Number of predicted TMHs:  0
+9036	TMHMM2.0	outside	     1   233
+# 9037 Length: 233
+# 9037 Number of predicted TMHs:  0
+9037	TMHMM2.0	outside	     1   233
+# 9038 Length: 233
+# 9038 Number of predicted TMHs:  0
+9038	TMHMM2.0	outside	     1   233
+# 9039 Length: 233
+# 9039 Number of predicted TMHs:  0
+9039	TMHMM2.0	outside	     1   233
+# 9040 Length: 233
+# 9040 Number of predicted TMHs:  1
+9040	TMHMM2.0	outside	     1   155
+9040	TMHMM2.0	TMhelix	   156   178
+9040	TMHMM2.0	inside	   179   233
+# 9041 Length: 233
+# 9041 Number of predicted TMHs:  2
+9041	TMHMM2.0	inside	     1    57
+9041	TMHMM2.0	TMhelix	    58    80
+9041	TMHMM2.0	outside	    81    99
+9041	TMHMM2.0	TMhelix	   100   122
+9041	TMHMM2.0	inside	   123   233
+# 9042 Length: 233
+# 9042 Number of predicted TMHs:  6
+9042	TMHMM2.0	outside	     1     3
+9042	TMHMM2.0	TMhelix	     4    23
+9042	TMHMM2.0	inside	    24    35
+9042	TMHMM2.0	TMhelix	    36    58
+9042	TMHMM2.0	outside	    59    72
+9042	TMHMM2.0	TMhelix	    73    95
+9042	TMHMM2.0	inside	    96   111
+9042	TMHMM2.0	TMhelix	   112   131
+9042	TMHMM2.0	outside	   132   150
+9042	TMHMM2.0	TMhelix	   151   173
+9042	TMHMM2.0	inside	   174   192
+9042	TMHMM2.0	TMhelix	   193   215
+9042	TMHMM2.0	outside	   216   233
+# 9043 Length: 233
+# 9043 Number of predicted TMHs:  3
+9043	TMHMM2.0	outside	     1     9
+9043	TMHMM2.0	TMhelix	    10    32
+9043	TMHMM2.0	inside	    33    38
+9043	TMHMM2.0	TMhelix	    39    58
+9043	TMHMM2.0	outside	    59    61
+9043	TMHMM2.0	TMhelix	    62    84
+9043	TMHMM2.0	inside	    85   233
+# 9044 Length: 233
+# 9044 Number of predicted TMHs:  0
+9044	TMHMM2.0	outside	     1   233
+# 9045 Length: 233
+# 9045 Number of predicted TMHs:  0
+9045	TMHMM2.0	outside	     1   233
+# 9046 Length: 233
+# 9046 Number of predicted TMHs:  0
+9046	TMHMM2.0	outside	     1   233
+# 9047 Length: 233
+# 9047 Number of predicted TMHs:  2
+9047	TMHMM2.0	inside	     1   147
+9047	TMHMM2.0	TMhelix	   148   165
+9047	TMHMM2.0	outside	   166   190
+9047	TMHMM2.0	TMhelix	   191   213
+9047	TMHMM2.0	inside	   214   233
+# 9048 Length: 233
+# 9048 Number of predicted TMHs:  0
+9048	TMHMM2.0	outside	     1   233
+# 9049 Length: 233
+# 9049 Number of predicted TMHs:  0
+9049	TMHMM2.0	outside	     1   233
+# 9050 Length: 233
+# 9050 Number of predicted TMHs:  0
+9050	TMHMM2.0	outside	     1   233
+# 9051 Length: 233
+# 9051 Number of predicted TMHs:  2
+9051	TMHMM2.0	inside	     1    96
+9051	TMHMM2.0	TMhelix	    97   119
+9051	TMHMM2.0	outside	   120   128
+9051	TMHMM2.0	TMhelix	   129   146
+9051	TMHMM2.0	inside	   147   233
+# 9052 Length: 233
+# 9052 Number of predicted TMHs:  0
+9052	TMHMM2.0	outside	     1   233
+# 9053 Length: 233
+# 9053 Number of predicted TMHs:  0
+9053	TMHMM2.0	outside	     1   233
+# 9054 Length: 233
+# 9054 Number of predicted TMHs:  0
+9054	TMHMM2.0	outside	     1   233
+# 9055 Length: 233
+# 9055 Number of predicted TMHs:  2
+9055	TMHMM2.0	inside	     1   177
+9055	TMHMM2.0	TMhelix	   178   200
+9055	TMHMM2.0	outside	   201   203
+9055	TMHMM2.0	TMhelix	   204   226
+9055	TMHMM2.0	inside	   227   233
+# 9056 Length: 233
+# 9056 Number of predicted TMHs:  0
+9056	TMHMM2.0	outside	     1   233
+# 9057 Length: 233
+# 9057 Number of predicted TMHs:  0
+9057	TMHMM2.0	outside	     1   233
+# 9058 Length: 233
+# 9058 Number of predicted TMHs:  0
+9058	TMHMM2.0	outside	     1   233
+# 9059 Length: 233
+# 9059 Number of predicted TMHs:  0
+9059	TMHMM2.0	outside	     1   233
+# 9060 Length: 233
+# 9060 Number of predicted TMHs:  0
+9060	TMHMM2.0	outside	     1   233
+# 9061 Length: 233
+# 9061 Number of predicted TMHs:  0
+9061	TMHMM2.0	outside	     1   233
+# 9062 Length: 233
+# 9062 Number of predicted TMHs:  0
+9062	TMHMM2.0	outside	     1   233
+# 9063 Length: 233
+# 9063 Number of predicted TMHs:  5
+9063	TMHMM2.0	inside	     1     4
+9063	TMHMM2.0	TMhelix	     5    27
+9063	TMHMM2.0	outside	    28    41
+9063	TMHMM2.0	TMhelix	    42    64
+9063	TMHMM2.0	inside	    65    76
+9063	TMHMM2.0	TMhelix	    77    99
+9063	TMHMM2.0	outside	   100   118
+9063	TMHMM2.0	TMhelix	   119   141
+9063	TMHMM2.0	inside	   142   153
+9063	TMHMM2.0	TMhelix	   154   176
+9063	TMHMM2.0	outside	   177   233
+# 9064 Length: 233
+# 9064 Number of predicted TMHs:  0
+9064	TMHMM2.0	outside	     1   233
+# 9065 Length: 233
+# 9065 Number of predicted TMHs:  1
+9065	TMHMM2.0	inside	     1   154
+9065	TMHMM2.0	TMhelix	   155   177
+9065	TMHMM2.0	outside	   178   233
+# 9066 Length: 233
+# 9066 Number of predicted TMHs:  0
+9066	TMHMM2.0	outside	     1   233
+# 9067 Length: 233
+# 9067 Number of predicted TMHs:  1
+9067	TMHMM2.0	inside	     1    12
+9067	TMHMM2.0	TMhelix	    13    35
+9067	TMHMM2.0	outside	    36   233
+# 9068 Length: 233
+# 9068 Number of predicted TMHs:  0
+9068	TMHMM2.0	outside	     1   233
+# 9069 Length: 233
+# 9069 Number of predicted TMHs:  0
+9069	TMHMM2.0	outside	     1   233
+# 9070 Length: 233
+# 9070 Number of predicted TMHs:  4
+9070	TMHMM2.0	inside	     1     1
+9070	TMHMM2.0	TMhelix	     2    24
+9070	TMHMM2.0	outside	    25    28
+9070	TMHMM2.0	TMhelix	    29    51
+9070	TMHMM2.0	inside	    52    63
+9070	TMHMM2.0	TMhelix	    64    86
+9070	TMHMM2.0	outside	    87   105
+9070	TMHMM2.0	TMhelix	   106   128
+9070	TMHMM2.0	inside	   129   233
+# 9071 Length: 233
+# 9071 Number of predicted TMHs:  0
+9071	TMHMM2.0	outside	     1   233
+# 9072 Length: 233
+# 9072 Number of predicted TMHs:  0
+9072	TMHMM2.0	outside	     1   233
+# 9073 Length: 233
+# 9073 Number of predicted TMHs:  0
+9073	TMHMM2.0	outside	     1   233
+# 9074 Length: 233
+# 9074 Number of predicted TMHs:  0
+9074	TMHMM2.0	outside	     1   233
+# 9075 Length: 233
+# 9075 Number of predicted TMHs:  0
+9075	TMHMM2.0	outside	     1   233
+# 9076 Length: 233
+# 9076 Number of predicted TMHs:  0
+9076	TMHMM2.0	outside	     1   233
+# 9077 Length: 232
+# 9077 Number of predicted TMHs:  0
+9077	TMHMM2.0	outside	     1   232
+# 9078 Length: 232
+# 9078 Number of predicted TMHs:  1
+9078	TMHMM2.0	inside	     1    39
+9078	TMHMM2.0	TMhelix	    40    62
+9078	TMHMM2.0	outside	    63   232
+# 9079 Length: 232
+# 9079 Number of predicted TMHs:  1
+9079	TMHMM2.0	inside	     1    20
+9079	TMHMM2.0	TMhelix	    21    43
+9079	TMHMM2.0	outside	    44   232
+# 9080 Length: 232
+# 9080 Number of predicted TMHs:  0
+9080	TMHMM2.0	outside	     1   232
+# 9081 Length: 232
+# 9081 Number of predicted TMHs:  1
+9081	TMHMM2.0	inside	     1   196
+9081	TMHMM2.0	TMhelix	   197   219
+9081	TMHMM2.0	outside	   220   232
+# 9082 Length: 232
+# 9082 Number of predicted TMHs:  0
+9082	TMHMM2.0	outside	     1   232
+# 9083 Length: 232
+# 9083 Number of predicted TMHs:  1
+9083	TMHMM2.0	outside	     1   213
+9083	TMHMM2.0	TMhelix	   214   231
+9083	TMHMM2.0	inside	   232   232
+# 9084 Length: 232
+# 9084 Number of predicted TMHs:  0
+9084	TMHMM2.0	outside	     1   232
+# 9085 Length: 232
+# 9085 Number of predicted TMHs:  0
+9085	TMHMM2.0	outside	     1   232
+# 9086 Length: 232
+# 9086 Number of predicted TMHs:  0
+9086	TMHMM2.0	outside	     1   232
+# 9087 Length: 232
+# 9087 Number of predicted TMHs:  2
+9087	TMHMM2.0	inside	     1    20
+9087	TMHMM2.0	TMhelix	    21    43
+9087	TMHMM2.0	outside	    44   162
+9087	TMHMM2.0	TMhelix	   163   185
+9087	TMHMM2.0	inside	   186   232
+# 9088 Length: 232
+# 9088 Number of predicted TMHs:  0
+9088	TMHMM2.0	outside	     1   232
+# 9089 Length: 232
+# 9089 Number of predicted TMHs:  0
+9089	TMHMM2.0	outside	     1   232
+# 9090 Length: 232
+# 9090 Number of predicted TMHs:  0
+9090	TMHMM2.0	outside	     1   232
+# 9091 Length: 232
+# 9091 Number of predicted TMHs:  0
+9091	TMHMM2.0	outside	     1   232
+# 9092 Length: 232
+# 9092 Number of predicted TMHs:  0
+9092	TMHMM2.0	outside	     1   232
+# 9093 Length: 232
+# 9093 Number of predicted TMHs:  0
+9093	TMHMM2.0	outside	     1   232
+# 9094 Length: 232
+# 9094 Number of predicted TMHs:  0
+9094	TMHMM2.0	outside	     1   232
+# 9095 Length: 232
+# 9095 Number of predicted TMHs:  0
+9095	TMHMM2.0	outside	     1   232
+# 9096 Length: 232
+# 9096 Number of predicted TMHs:  1
+9096	TMHMM2.0	outside	     1   194
+9096	TMHMM2.0	TMhelix	   195   217
+9096	TMHMM2.0	inside	   218   232
+# 9097 Length: 232
+# 9097 Number of predicted TMHs:  2
+9097	TMHMM2.0	inside	     1    76
+9097	TMHMM2.0	TMhelix	    77    99
+9097	TMHMM2.0	outside	   100   118
+9097	TMHMM2.0	TMhelix	   119   141
+9097	TMHMM2.0	inside	   142   232
+# 9098 Length: 232
+# 9098 Number of predicted TMHs:  0
+9098	TMHMM2.0	outside	     1   232
+# 9099 Length: 232
+# 9099 Number of predicted TMHs:  0
+9099	TMHMM2.0	outside	     1   232
+# 9100 Length: 232
+# 9100 Number of predicted TMHs:  0
+9100	TMHMM2.0	outside	     1   232
+# 9101 Length: 232
+# 9101 Number of predicted TMHs:  0
+9101	TMHMM2.0	outside	     1   232
+# 9102 Length: 232
+# 9102 Number of predicted TMHs:  0
+9102	TMHMM2.0	outside	     1   232
+# 9103 Length: 232
+# 9103 Number of predicted TMHs:  0
+9103	TMHMM2.0	outside	     1   232
+# 9104 Length: 232
+# 9104 Number of predicted TMHs:  0
+9104	TMHMM2.0	outside	     1   232
+# 9105 Length: 232
+# 9105 Number of predicted TMHs:  0
+9105	TMHMM2.0	outside	     1   232
+# 9106 Length: 232
+# 9106 Number of predicted TMHs:  0
+9106	TMHMM2.0	outside	     1   232
+# 9107 Length: 232
+# 9107 Number of predicted TMHs:  1
+9107	TMHMM2.0	inside	     1    20
+9107	TMHMM2.0	TMhelix	    21    38
+9107	TMHMM2.0	outside	    39   232
+# 9108 Length: 232
+# 9108 Number of predicted TMHs:  0
+9108	TMHMM2.0	outside	     1   232
+# 9109 Length: 232
+# 9109 Number of predicted TMHs:  0
+9109	TMHMM2.0	outside	     1   232
+# 9110 Length: 231
+# 9110 Number of predicted TMHs:  0
+9110	TMHMM2.0	outside	     1   231
+# 9111 Length: 231
+# 9111 Number of predicted TMHs:  0
+9111	TMHMM2.0	outside	     1   231
+# 9112 Length: 231
+# 9112 Number of predicted TMHs:  0
+9112	TMHMM2.0	outside	     1   231
+# 9113 Length: 231
+# 9113 Number of predicted TMHs:  0
+9113	TMHMM2.0	outside	     1   231
+# 9114 Length: 231
+# 9114 Number of predicted TMHs:  1
+9114	TMHMM2.0	outside	     1    21
+9114	TMHMM2.0	TMhelix	    22    44
+9114	TMHMM2.0	inside	    45   231
+# 9115 Length: 231
+# 9115 Number of predicted TMHs:  0
+9115	TMHMM2.0	outside	     1   231
+# 9116 Length: 231
+# 9116 Number of predicted TMHs:  0
+9116	TMHMM2.0	outside	     1   231
+# 9117 Length: 231
+# 9117 Number of predicted TMHs:  0
+9117	TMHMM2.0	outside	     1   231
+# 9118 Length: 231
+# 9118 Number of predicted TMHs:  0
+9118	TMHMM2.0	outside	     1   231
+# 9119 Length: 231
+# 9119 Number of predicted TMHs:  0
+9119	TMHMM2.0	outside	     1   231
+# 9120 Length: 231
+# 9120 Number of predicted TMHs:  0
+9120	TMHMM2.0	outside	     1   231
+# 9121 Length: 231
+# 9121 Number of predicted TMHs:  0
+9121	TMHMM2.0	outside	     1   231
+# 9122 Length: 231
+# 9122 Number of predicted TMHs:  1
+9122	TMHMM2.0	inside	     1    42
+9122	TMHMM2.0	TMhelix	    43    62
+9122	TMHMM2.0	outside	    63   231
+# 9123 Length: 231
+# 9123 Number of predicted TMHs:  0
+9123	TMHMM2.0	outside	     1   231
+# 9124 Length: 231
+# 9124 Number of predicted TMHs:  0
+9124	TMHMM2.0	outside	     1   231
+# 9125 Length: 231
+# 9125 Number of predicted TMHs:  0
+9125	TMHMM2.0	outside	     1   231
+# 9126 Length: 231
+# 9126 Number of predicted TMHs:  0
+9126	TMHMM2.0	outside	     1   231
+# 9127 Length: 231
+# 9127 Number of predicted TMHs:  0
+9127	TMHMM2.0	outside	     1   231
+# 9128 Length: 231
+# 9128 Number of predicted TMHs:  0
+9128	TMHMM2.0	outside	     1   231
+# 9129 Length: 231
+# 9129 Number of predicted TMHs:  0
+9129	TMHMM2.0	outside	     1   231
+# 9130 Length: 231
+# 9130 Number of predicted TMHs:  2
+9130	TMHMM2.0	inside	     1    35
+9130	TMHMM2.0	TMhelix	    36    58
+9130	TMHMM2.0	outside	    59    79
+9130	TMHMM2.0	TMhelix	    80    99
+9130	TMHMM2.0	inside	   100   231
+# 9131 Length: 231
+# 9131 Number of predicted TMHs:  0
+9131	TMHMM2.0	outside	     1   231
+# 9132 Length: 231
+# 9132 Number of predicted TMHs:  0
+9132	TMHMM2.0	outside	     1   231
+# 9133 Length: 231
+# 9133 Number of predicted TMHs:  0
+9133	TMHMM2.0	outside	     1   231
+# 9134 Length: 231
+# 9134 Number of predicted TMHs:  0
+9134	TMHMM2.0	outside	     1   231
+# 9135 Length: 231
+# 9135 Number of predicted TMHs:  4
+9135	TMHMM2.0	inside	     1    20
+9135	TMHMM2.0	TMhelix	    21    43
+9135	TMHMM2.0	outside	    44   129
+9135	TMHMM2.0	TMhelix	   130   152
+9135	TMHMM2.0	inside	   153   164
+9135	TMHMM2.0	TMhelix	   165   187
+9135	TMHMM2.0	outside	   188   191
+9135	TMHMM2.0	TMhelix	   192   214
+9135	TMHMM2.0	inside	   215   231
+# 9136 Length: 231
+# 9136 Number of predicted TMHs:  0
+9136	TMHMM2.0	outside	     1   231
+# 9137 Length: 231
+# 9137 Number of predicted TMHs:  0
+9137	TMHMM2.0	outside	     1   231
+# 9138 Length: 231
+# 9138 Number of predicted TMHs:  0
+9138	TMHMM2.0	outside	     1   231
+# 9139 Length: 231
+# 9139 Number of predicted TMHs:  3
+9139	TMHMM2.0	inside	     1   122
+9139	TMHMM2.0	TMhelix	   123   145
+9139	TMHMM2.0	outside	   146   164
+9139	TMHMM2.0	TMhelix	   165   187
+9139	TMHMM2.0	inside	   188   199
+9139	TMHMM2.0	TMhelix	   200   222
+9139	TMHMM2.0	outside	   223   231
+# 9140 Length: 231
+# 9140 Number of predicted TMHs:  0
+9140	TMHMM2.0	outside	     1   231
+# 9141 Length: 231
+# 9141 Number of predicted TMHs:  0
+9141	TMHMM2.0	outside	     1   231
+# 9142 Length: 231
+# 9142 Number of predicted TMHs:  0
+9142	TMHMM2.0	outside	     1   231
+# 9143 Length: 231
+# 9143 Number of predicted TMHs:  0
+9143	TMHMM2.0	outside	     1   231
+# 9144 Length: 231
+# 9144 Number of predicted TMHs:  0
+9144	TMHMM2.0	outside	     1   231
+# 9145 Length: 230
+# 9145 Number of predicted TMHs:  0
+9145	TMHMM2.0	outside	     1   230
+# 9146 Length: 230
+# 9146 Number of predicted TMHs:  0
+9146	TMHMM2.0	outside	     1   230
+# 9147 Length: 230
+# 9147 Number of predicted TMHs:  4
+9147	TMHMM2.0	inside	     1    64
+9147	TMHMM2.0	TMhelix	    65    87
+9147	TMHMM2.0	outside	    88   101
+9147	TMHMM2.0	TMhelix	   102   124
+9147	TMHMM2.0	inside	   125   144
+9147	TMHMM2.0	TMhelix	   145   167
+9147	TMHMM2.0	outside	   168   181
+9147	TMHMM2.0	TMhelix	   182   201
+9147	TMHMM2.0	inside	   202   230
+# 9148 Length: 230
+# 9148 Number of predicted TMHs:  4
+9148	TMHMM2.0	outside	     1    14
+9148	TMHMM2.0	TMhelix	    15    37
+9148	TMHMM2.0	inside	    38   112
+9148	TMHMM2.0	TMhelix	   113   135
+9148	TMHMM2.0	outside	   136   138
+9148	TMHMM2.0	TMhelix	   139   161
+9148	TMHMM2.0	inside	   162   201
+9148	TMHMM2.0	TMhelix	   202   224
+9148	TMHMM2.0	outside	   225   230
+# 9149 Length: 230
+# 9149 Number of predicted TMHs:  0
+9149	TMHMM2.0	outside	     1   230
+# 9150 Length: 230
+# 9150 Number of predicted TMHs:  0
+9150	TMHMM2.0	outside	     1   230
+# 9151 Length: 230
+# 9151 Number of predicted TMHs:  0
+9151	TMHMM2.0	outside	     1   230
+# 9152 Length: 230
+# 9152 Number of predicted TMHs:  0
+9152	TMHMM2.0	outside	     1   230
+# 9153 Length: 230
+# 9153 Number of predicted TMHs:  0
+9153	TMHMM2.0	outside	     1   230
+# 9154 Length: 230
+# 9154 Number of predicted TMHs:  0
+9154	TMHMM2.0	outside	     1   230
+# 9155 Length: 230
+# 9155 Number of predicted TMHs:  0
+9155	TMHMM2.0	outside	     1   230
+# 9156 Length: 230
+# 9156 Number of predicted TMHs:  0
+9156	TMHMM2.0	outside	     1   230
+# 9157 Length: 230
+# 9157 Number of predicted TMHs:  0
+9157	TMHMM2.0	outside	     1   230
+# 9158 Length: 230
+# 9158 Number of predicted TMHs:  2
+9158	TMHMM2.0	inside	     1    12
+9158	TMHMM2.0	TMhelix	    13    35
+9158	TMHMM2.0	outside	    36    44
+9158	TMHMM2.0	TMhelix	    45    67
+9158	TMHMM2.0	inside	    68   230
+# 9159 Length: 230
+# 9159 Number of predicted TMHs:  0
+9159	TMHMM2.0	outside	     1   230
+# 9160 Length: 230
+# 9160 Number of predicted TMHs:  1
+9160	TMHMM2.0	inside	     1   200
+9160	TMHMM2.0	TMhelix	   201   223
+9160	TMHMM2.0	outside	   224   230
+# 9161 Length: 230
+# 9161 Number of predicted TMHs:  6
+9161	TMHMM2.0	inside	     1    12
+9161	TMHMM2.0	TMhelix	    13    35
+9161	TMHMM2.0	outside	    36    39
+9161	TMHMM2.0	TMhelix	    40    62
+9161	TMHMM2.0	inside	    63    74
+9161	TMHMM2.0	TMhelix	    75    97
+9161	TMHMM2.0	outside	    98   135
+9161	TMHMM2.0	TMhelix	   136   158
+9161	TMHMM2.0	inside	   159   164
+9161	TMHMM2.0	TMhelix	   165   187
+9161	TMHMM2.0	outside	   188   201
+9161	TMHMM2.0	TMhelix	   202   219
+9161	TMHMM2.0	inside	   220   230
+# 9162 Length: 230
+# 9162 Number of predicted TMHs:  0
+9162	TMHMM2.0	outside	     1   230
+# 9163 Length: 230
+# 9163 Number of predicted TMHs:  0
+9163	TMHMM2.0	outside	     1   230
+# 9164 Length: 230
+# 9164 Number of predicted TMHs:  0
+9164	TMHMM2.0	outside	     1   230
+# 9165 Length: 230
+# 9165 Number of predicted TMHs:  0
+9165	TMHMM2.0	outside	     1   230
+# 9166 Length: 230
+# 9166 Number of predicted TMHs:  0
+9166	TMHMM2.0	outside	     1   230
+# 9167 Length: 230
+# 9167 Number of predicted TMHs:  0
+9167	TMHMM2.0	outside	     1   230
+# 9168 Length: 230
+# 9168 Number of predicted TMHs:  0
+9168	TMHMM2.0	outside	     1   230
+# 9169 Length: 230
+# 9169 Number of predicted TMHs:  1
+9169	TMHMM2.0	outside	     1   159
+9169	TMHMM2.0	TMhelix	   160   182
+9169	TMHMM2.0	inside	   183   230
+# 9170 Length: 230
+# 9170 Number of predicted TMHs:  0
+9170	TMHMM2.0	outside	     1   230
+# 9171 Length: 230
+# 9171 Number of predicted TMHs:  0
+9171	TMHMM2.0	outside	     1   230
+# 9172 Length: 230
+# 9172 Number of predicted TMHs:  0
+9172	TMHMM2.0	outside	     1   230
+# 9173 Length: 230
+# 9173 Number of predicted TMHs:  0
+9173	TMHMM2.0	outside	     1   230
+# 9174 Length: 230
+# 9174 Number of predicted TMHs:  1
+9174	TMHMM2.0	inside	     1     6
+9174	TMHMM2.0	TMhelix	     7    25
+9174	TMHMM2.0	outside	    26   230
+# 9175 Length: 230
+# 9175 Number of predicted TMHs:  0
+9175	TMHMM2.0	outside	     1   230
+# 9176 Length: 230
+# 9176 Number of predicted TMHs:  0
+9176	TMHMM2.0	outside	     1   230
+# 9177 Length: 230
+# 9177 Number of predicted TMHs:  0
+9177	TMHMM2.0	outside	     1   230
+# 9178 Length: 230
+# 9178 Number of predicted TMHs:  0
+9178	TMHMM2.0	outside	     1   230
+# 9179 Length: 230
+# 9179 Number of predicted TMHs:  0
+9179	TMHMM2.0	outside	     1   230
+# 9180 Length: 230
+# 9180 Number of predicted TMHs:  0
+9180	TMHMM2.0	outside	     1   230
+# 9181 Length: 229
+# 9181 Number of predicted TMHs:  0
+9181	TMHMM2.0	outside	     1   229
+# 9182 Length: 229
+# 9182 Number of predicted TMHs:  0
+9182	TMHMM2.0	outside	     1   229
+# 9183 Length: 229
+# 9183 Number of predicted TMHs:  0
+9183	TMHMM2.0	outside	     1   229
+# 9184 Length: 229
+# 9184 Number of predicted TMHs:  0
+9184	TMHMM2.0	outside	     1   229
+# 9185 Length: 229
+# 9185 Number of predicted TMHs:  0
+9185	TMHMM2.0	outside	     1   229
+# 9186 Length: 229
+# 9186 Number of predicted TMHs:  0
+9186	TMHMM2.0	outside	     1   229
+# 9187 Length: 229
+# 9187 Number of predicted TMHs:  0
+9187	TMHMM2.0	outside	     1   229
+# 9188 Length: 229
+# 9188 Number of predicted TMHs:  0
+9188	TMHMM2.0	outside	     1   229
+# 9189 Length: 229
+# 9189 Number of predicted TMHs:  0
+9189	TMHMM2.0	outside	     1   229
+# 9190 Length: 229
+# 9190 Number of predicted TMHs:  0
+9190	TMHMM2.0	outside	     1   229
+# 9191 Length: 229
+# 9191 Number of predicted TMHs:  0
+9191	TMHMM2.0	outside	     1   229
+# 9192 Length: 229
+# 9192 Number of predicted TMHs:  0
+9192	TMHMM2.0	outside	     1   229
+# 9193 Length: 229
+# 9193 Number of predicted TMHs:  0
+9193	TMHMM2.0	outside	     1   229
+# 9194 Length: 229
+# 9194 Number of predicted TMHs:  0
+9194	TMHMM2.0	outside	     1   229
+# 9195 Length: 229
+# 9195 Number of predicted TMHs:  0
+9195	TMHMM2.0	outside	     1   229
+# 9196 Length: 229
+# 9196 Number of predicted TMHs:  0
+9196	TMHMM2.0	outside	     1   229
+# 9197 Length: 229
+# 9197 Number of predicted TMHs:  0
+9197	TMHMM2.0	outside	     1   229
+# 9198 Length: 229
+# 9198 Number of predicted TMHs:  0
+9198	TMHMM2.0	outside	     1   229
+# 9199 Length: 229
+# 9199 Number of predicted TMHs:  0
+9199	TMHMM2.0	outside	     1   229
+# 9200 Length: 229
+# 9200 Number of predicted TMHs:  0
+9200	TMHMM2.0	outside	     1   229
+# 9201 Length: 229
+# 9201 Number of predicted TMHs:  0
+9201	TMHMM2.0	outside	     1   229
+# 9202 Length: 229
+# 9202 Number of predicted TMHs:  0
+9202	TMHMM2.0	outside	     1   229
+# 9203 Length: 229
+# 9203 Number of predicted TMHs:  0
+9203	TMHMM2.0	outside	     1   229
+# 9204 Length: 229
+# 9204 Number of predicted TMHs:  0
+9204	TMHMM2.0	outside	     1   229
+# 9205 Length: 229
+# 9205 Number of predicted TMHs:  0
+9205	TMHMM2.0	outside	     1   229
+# 9206 Length: 229
+# 9206 Number of predicted TMHs:  0
+9206	TMHMM2.0	outside	     1   229
+# 9207 Length: 229
+# 9207 Number of predicted TMHs:  0
+9207	TMHMM2.0	outside	     1   229
+# 9208 Length: 229
+# 9208 Number of predicted TMHs:  0
+9208	TMHMM2.0	outside	     1   229
+# 9209 Length: 228
+# 9209 Number of predicted TMHs:  0
+9209	TMHMM2.0	outside	     1   228
+# 9210 Length: 228
+# 9210 Number of predicted TMHs:  0
+9210	TMHMM2.0	outside	     1   228
+# 9211 Length: 228
+# 9211 Number of predicted TMHs:  0
+9211	TMHMM2.0	outside	     1   228
+# 9212 Length: 228
+# 9212 Number of predicted TMHs:  2
+9212	TMHMM2.0	outside	     1    14
+9212	TMHMM2.0	TMhelix	    15    37
+9212	TMHMM2.0	inside	    38    49
+9212	TMHMM2.0	TMhelix	    50    72
+9212	TMHMM2.0	outside	    73   228
+# 9213 Length: 228
+# 9213 Number of predicted TMHs:  0
+9213	TMHMM2.0	outside	     1   228
+# 9214 Length: 228
+# 9214 Number of predicted TMHs:  0
+9214	TMHMM2.0	outside	     1   228
+# 9215 Length: 228
+# 9215 Number of predicted TMHs:  0
+9215	TMHMM2.0	outside	     1   228
+# 9216 Length: 228
+# 9216 Number of predicted TMHs:  0
+9216	TMHMM2.0	outside	     1   228
+# 9217 Length: 228
+# 9217 Number of predicted TMHs:  0
+9217	TMHMM2.0	outside	     1   228
+# 9218 Length: 228
+# 9218 Number of predicted TMHs:  3
+9218	TMHMM2.0	inside	     1    36
+9218	TMHMM2.0	TMhelix	    37    59
+9218	TMHMM2.0	outside	    60    62
+9218	TMHMM2.0	TMhelix	    63    85
+9218	TMHMM2.0	inside	    86   173
+9218	TMHMM2.0	TMhelix	   174   196
+9218	TMHMM2.0	outside	   197   228
+# 9219 Length: 228
+# 9219 Number of predicted TMHs:  0
+9219	TMHMM2.0	outside	     1   228
+# 9220 Length: 228
+# 9220 Number of predicted TMHs:  0
+9220	TMHMM2.0	outside	     1   228
+# 9221 Length: 228
+# 9221 Number of predicted TMHs:  0
+9221	TMHMM2.0	outside	     1   228
+# 9222 Length: 228
+# 9222 Number of predicted TMHs:  0
+9222	TMHMM2.0	outside	     1   228
+# 9223 Length: 228
+# 9223 Number of predicted TMHs:  0
+9223	TMHMM2.0	outside	     1   228
+# 9224 Length: 228
+# 9224 Number of predicted TMHs:  4
+9224	TMHMM2.0	inside	     1    15
+9224	TMHMM2.0	TMhelix	    16    38
+9224	TMHMM2.0	outside	    39    47
+9224	TMHMM2.0	TMhelix	    48    70
+9224	TMHMM2.0	inside	    71   122
+9224	TMHMM2.0	TMhelix	   123   145
+9224	TMHMM2.0	outside	   146   164
+9224	TMHMM2.0	TMhelix	   165   187
+9224	TMHMM2.0	inside	   188   228
+# 9225 Length: 228
+# 9225 Number of predicted TMHs:  1
+9225	TMHMM2.0	inside	     1   174
+9225	TMHMM2.0	TMhelix	   175   197
+9225	TMHMM2.0	outside	   198   228
+# 9226 Length: 228
+# 9226 Number of predicted TMHs:  0
+9226	TMHMM2.0	outside	     1   228
+# 9227 Length: 228
+# 9227 Number of predicted TMHs:  0
+9227	TMHMM2.0	outside	     1   228
+# 9228 Length: 228
+# 9228 Number of predicted TMHs:  0
+9228	TMHMM2.0	outside	     1   228
+# 9229 Length: 228
+# 9229 Number of predicted TMHs:  0
+9229	TMHMM2.0	outside	     1   228
+# 9230 Length: 228
+# 9230 Number of predicted TMHs:  0
+9230	TMHMM2.0	inside	     1   228
+# 9231 Length: 228
+# 9231 Number of predicted TMHs:  1
+9231	TMHMM2.0	inside	     1    42
+9231	TMHMM2.0	TMhelix	    43    60
+9231	TMHMM2.0	outside	    61   228
+# 9232 Length: 228
+# 9232 Number of predicted TMHs:  0
+9232	TMHMM2.0	outside	     1   228
+# 9233 Length: 228
+# 9233 Number of predicted TMHs:  3
+9233	TMHMM2.0	outside	     1    30
+9233	TMHMM2.0	TMhelix	    31    53
+9233	TMHMM2.0	inside	    54    65
+9233	TMHMM2.0	TMhelix	    66    88
+9233	TMHMM2.0	outside	    89   102
+9233	TMHMM2.0	TMhelix	   103   125
+9233	TMHMM2.0	inside	   126   228
+# 9234 Length: 228
+# 9234 Number of predicted TMHs:  0
+9234	TMHMM2.0	outside	     1   228
+# 9235 Length: 228
+# 9235 Number of predicted TMHs:  0
+9235	TMHMM2.0	outside	     1   228
+# 9236 Length: 228
+# 9236 Number of predicted TMHs:  0
+9236	TMHMM2.0	outside	     1   228
+# 9237 Length: 228
+# 9237 Number of predicted TMHs:  0
+9237	TMHMM2.0	outside	     1   228
+# 9238 Length: 228
+# 9238 Number of predicted TMHs:  2
+9238	TMHMM2.0	inside	     1    80
+9238	TMHMM2.0	TMhelix	    81   103
+9238	TMHMM2.0	outside	   104   122
+9238	TMHMM2.0	TMhelix	   123   145
+9238	TMHMM2.0	inside	   146   228
+# 9239 Length: 228
+# 9239 Number of predicted TMHs:  0
+9239	TMHMM2.0	outside	     1   228
+# 9240 Length: 228
+# 9240 Number of predicted TMHs:  0
+9240	TMHMM2.0	outside	     1   228
+# 9241 Length: 228
+# 9241 Number of predicted TMHs:  1
+9241	TMHMM2.0	inside	     1    27
+9241	TMHMM2.0	TMhelix	    28    50
+9241	TMHMM2.0	outside	    51   228
+# 9242 Length: 228
+# 9242 Number of predicted TMHs:  0
+9242	TMHMM2.0	outside	     1   228
+# 9243 Length: 228
+# 9243 Number of predicted TMHs:  0
+9243	TMHMM2.0	outside	     1   228
+# 9244 Length: 228
+# 9244 Number of predicted TMHs:  0
+9244	TMHMM2.0	outside	     1   228
+# 9245 Length: 228
+# 9245 Number of predicted TMHs:  0
+9245	TMHMM2.0	outside	     1   228
+# 9246 Length: 228
+# 9246 Number of predicted TMHs:  0
+9246	TMHMM2.0	outside	     1   228
+# 9247 Length: 228
+# 9247 Number of predicted TMHs:  0
+9247	TMHMM2.0	outside	     1   228
+# 9248 Length: 228
+# 9248 Number of predicted TMHs:  0
+9248	TMHMM2.0	outside	     1   228
+# 9249 Length: 228
+# 9249 Number of predicted TMHs:  0
+9249	TMHMM2.0	outside	     1   228
+# 9250 Length: 228
+# 9250 Number of predicted TMHs:  1
+9250	TMHMM2.0	inside	     1   117
+9250	TMHMM2.0	TMhelix	   118   140
+9250	TMHMM2.0	outside	   141   228
+# 9251 Length: 228
+# 9251 Number of predicted TMHs:  0
+9251	TMHMM2.0	outside	     1   228
+# 9252 Length: 228
+# 9252 Number of predicted TMHs:  0
+9252	TMHMM2.0	outside	     1   228
+# 9253 Length: 228
+# 9253 Number of predicted TMHs:  3
+9253	TMHMM2.0	outside	     1    36
+9253	TMHMM2.0	TMhelix	    37    59
+9253	TMHMM2.0	inside	    60    92
+9253	TMHMM2.0	TMhelix	    93   115
+9253	TMHMM2.0	outside	   116   124
+9253	TMHMM2.0	TMhelix	   125   147
+9253	TMHMM2.0	inside	   148   228
+# 9254 Length: 228
+# 9254 Number of predicted TMHs:  0
+9254	TMHMM2.0	outside	     1   228
+# 9255 Length: 228
+# 9255 Number of predicted TMHs:  0
+9255	TMHMM2.0	outside	     1   228
+# 9256 Length: 227
+# 9256 Number of predicted TMHs:  0
+9256	TMHMM2.0	outside	     1   227
+# 9257 Length: 227
+# 9257 Number of predicted TMHs:  0
+9257	TMHMM2.0	outside	     1   227
+# 9258 Length: 227
+# 9258 Number of predicted TMHs:  0
+9258	TMHMM2.0	outside	     1   227
+# 9259 Length: 227
+# 9259 Number of predicted TMHs:  0
+9259	TMHMM2.0	outside	     1   227
+# 9260 Length: 227
+# 9260 Number of predicted TMHs:  0
+9260	TMHMM2.0	outside	     1   227
+# 9261 Length: 227
+# 9261 Number of predicted TMHs:  0
+9261	TMHMM2.0	outside	     1   227
+# 9262 Length: 227
+# 9262 Number of predicted TMHs:  0
+9262	TMHMM2.0	outside	     1   227
+# 9263 Length: 227
+# 9263 Number of predicted TMHs:  0
+9263	TMHMM2.0	outside	     1   227
+# 9264 Length: 227
+# 9264 Number of predicted TMHs:  0
+9264	TMHMM2.0	outside	     1   227
+# 9265 Length: 227
+# 9265 Number of predicted TMHs:  2
+9265	TMHMM2.0	outside	     1     9
+9265	TMHMM2.0	TMhelix	    10    32
+9265	TMHMM2.0	inside	    33   185
+9265	TMHMM2.0	TMhelix	   186   208
+9265	TMHMM2.0	outside	   209   227
+# 9266 Length: 227
+# 9266 Number of predicted TMHs:  0
+9266	TMHMM2.0	outside	     1   227
+# 9267 Length: 227
+# 9267 Number of predicted TMHs:  0
+9267	TMHMM2.0	outside	     1   227
+# 9268 Length: 227
+# 9268 Number of predicted TMHs:  0
+9268	TMHMM2.0	outside	     1   227
+# 9269 Length: 227
+# 9269 Number of predicted TMHs:  0
+9269	TMHMM2.0	outside	     1   227
+# 9270 Length: 227
+# 9270 Number of predicted TMHs:  0
+9270	TMHMM2.0	outside	     1   227
+# 9271 Length: 227
+# 9271 Number of predicted TMHs:  0
+9271	TMHMM2.0	outside	     1   227
+# 9272 Length: 227
+# 9272 Number of predicted TMHs:  0
+9272	TMHMM2.0	outside	     1   227
+# 9273 Length: 227
+# 9273 Number of predicted TMHs:  0
+9273	TMHMM2.0	outside	     1   227
+# 9274 Length: 227
+# 9274 Number of predicted TMHs:  1
+9274	TMHMM2.0	inside	     1     6
+9274	TMHMM2.0	TMhelix	     7    29
+9274	TMHMM2.0	outside	    30   227
+# 9275 Length: 227
+# 9275 Number of predicted TMHs:  0
+9275	TMHMM2.0	outside	     1   227
+# 9276 Length: 227
+# 9276 Number of predicted TMHs:  0
+9276	TMHMM2.0	outside	     1   227
+# 9277 Length: 227
+# 9277 Number of predicted TMHs:  0
+9277	TMHMM2.0	outside	     1   227
+# 9278 Length: 227
+# 9278 Number of predicted TMHs:  0
+9278	TMHMM2.0	outside	     1   227
+# 9279 Length: 227
+# 9279 Number of predicted TMHs:  0
+9279	TMHMM2.0	outside	     1   227
+# 9280 Length: 227
+# 9280 Number of predicted TMHs:  0
+9280	TMHMM2.0	outside	     1   227
+# 9281 Length: 227
+# 9281 Number of predicted TMHs:  0
+9281	TMHMM2.0	outside	     1   227
+# 9282 Length: 227
+# 9282 Number of predicted TMHs:  0
+9282	TMHMM2.0	outside	     1   227
+# 9283 Length: 227
+# 9283 Number of predicted TMHs:  4
+9283	TMHMM2.0	inside	     1    18
+9283	TMHMM2.0	TMhelix	    19    36
+9283	TMHMM2.0	outside	    37    50
+9283	TMHMM2.0	TMhelix	    51    73
+9283	TMHMM2.0	inside	    74    84
+9283	TMHMM2.0	TMhelix	    85   107
+9283	TMHMM2.0	outside	   108   173
+9283	TMHMM2.0	TMhelix	   174   196
+9283	TMHMM2.0	inside	   197   227
+# 9284 Length: 227
+# 9284 Number of predicted TMHs:  0
+9284	TMHMM2.0	outside	     1   227
+# 9285 Length: 227
+# 9285 Number of predicted TMHs:  0
+9285	TMHMM2.0	outside	     1   227
+# 9286 Length: 227
+# 9286 Number of predicted TMHs:  0
+9286	TMHMM2.0	outside	     1   227
+# 9287 Length: 227
+# 9287 Number of predicted TMHs:  0
+9287	TMHMM2.0	outside	     1   227
+# 9288 Length: 227
+# 9288 Number of predicted TMHs:  0
+9288	TMHMM2.0	outside	     1   227
+# 9289 Length: 227
+# 9289 Number of predicted TMHs:  0
+9289	TMHMM2.0	outside	     1   227
+# 9290 Length: 227
+# 9290 Number of predicted TMHs:  0
+9290	TMHMM2.0	outside	     1   227
+# 9291 Length: 227
+# 9291 Number of predicted TMHs:  5
+9291	TMHMM2.0	inside	     1     6
+9291	TMHMM2.0	TMhelix	     7    25
+9291	TMHMM2.0	outside	    26    29
+9291	TMHMM2.0	TMhelix	    30    52
+9291	TMHMM2.0	inside	    53    64
+9291	TMHMM2.0	TMhelix	    65    87
+9291	TMHMM2.0	outside	    88    91
+9291	TMHMM2.0	TMhelix	    92   114
+9291	TMHMM2.0	inside	   115   175
+9291	TMHMM2.0	TMhelix	   176   198
+9291	TMHMM2.0	outside	   199   227
+# 9292 Length: 227
+# 9292 Number of predicted TMHs:  0
+9292	TMHMM2.0	outside	     1   227
+# 9293 Length: 227
+# 9293 Number of predicted TMHs:  0
+9293	TMHMM2.0	outside	     1   227
+# 9294 Length: 227
+# 9294 Number of predicted TMHs:  0
+9294	TMHMM2.0	outside	     1   227
+# 9295 Length: 227
+# 9295 Number of predicted TMHs:  0
+9295	TMHMM2.0	outside	     1   227
+# 9296 Length: 227
+# 9296 Number of predicted TMHs:  3
+9296	TMHMM2.0	outside	     1    31
+9296	TMHMM2.0	TMhelix	    32    54
+9296	TMHMM2.0	inside	    55    73
+9296	TMHMM2.0	TMhelix	    74    96
+9296	TMHMM2.0	outside	    97   110
+9296	TMHMM2.0	TMhelix	   111   133
+9296	TMHMM2.0	inside	   134   227
+# 9297 Length: 227
+# 9297 Number of predicted TMHs:  3
+9297	TMHMM2.0	outside	     1    14
+9297	TMHMM2.0	TMhelix	    15    34
+9297	TMHMM2.0	inside	    35    38
+9297	TMHMM2.0	TMhelix	    39    58
+9297	TMHMM2.0	outside	    59   135
+9297	TMHMM2.0	TMhelix	   136   158
+9297	TMHMM2.0	inside	   159   227
+# 9298 Length: 227
+# 9298 Number of predicted TMHs:  1
+9298	TMHMM2.0	outside	     1   191
+9298	TMHMM2.0	TMhelix	   192   214
+9298	TMHMM2.0	inside	   215   227
+# 9299 Length: 227
+# 9299 Number of predicted TMHs:  0
+9299	TMHMM2.0	outside	     1   227
+# 9300 Length: 227
+# 9300 Number of predicted TMHs:  0
+9300	TMHMM2.0	outside	     1   227
+# 9301 Length: 227
+# 9301 Number of predicted TMHs:  0
+9301	TMHMM2.0	outside	     1   227
+# 9302 Length: 227
+# 9302 Number of predicted TMHs:  0
+9302	TMHMM2.0	outside	     1   227
+# 9303 Length: 227
+# 9303 Number of predicted TMHs:  0
+9303	TMHMM2.0	outside	     1   227
+# 9304 Length: 227
+# 9304 Number of predicted TMHs:  0
+9304	TMHMM2.0	outside	     1   227
+# 9305 Length: 227
+# 9305 Number of predicted TMHs:  5
+9305	TMHMM2.0	outside	     1    19
+9305	TMHMM2.0	TMhelix	    20    42
+9305	TMHMM2.0	inside	    43    54
+9305	TMHMM2.0	TMhelix	    55    77
+9305	TMHMM2.0	outside	    78    95
+9305	TMHMM2.0	TMhelix	    96   118
+9305	TMHMM2.0	inside	   119   137
+9305	TMHMM2.0	TMhelix	   138   160
+9305	TMHMM2.0	outside	   161   169
+9305	TMHMM2.0	TMhelix	   170   189
+9305	TMHMM2.0	inside	   190   227
+# 9306 Length: 226
+# 9306 Number of predicted TMHs:  0
+9306	TMHMM2.0	outside	     1   226
+# 9307 Length: 226
+# 9307 Number of predicted TMHs:  1
+9307	TMHMM2.0	inside	     1    12
+9307	TMHMM2.0	TMhelix	    13    35
+9307	TMHMM2.0	outside	    36   226
+# 9308 Length: 226
+# 9308 Number of predicted TMHs:  5
+9308	TMHMM2.0	outside	     1    12
+9308	TMHMM2.0	TMhelix	    13    35
+9308	TMHMM2.0	inside	    36    47
+9308	TMHMM2.0	TMhelix	    48    70
+9308	TMHMM2.0	outside	    71    89
+9308	TMHMM2.0	TMhelix	    90   112
+9308	TMHMM2.0	inside	   113   132
+9308	TMHMM2.0	TMhelix	   133   155
+9308	TMHMM2.0	outside	   156   174
+9308	TMHMM2.0	TMhelix	   175   197
+9308	TMHMM2.0	inside	   198   226
+# 9309 Length: 226
+# 9309 Number of predicted TMHs:  0
+9309	TMHMM2.0	outside	     1   226
+# 9310 Length: 226
+# 9310 Number of predicted TMHs:  4
+9310	TMHMM2.0	inside	     1    12
+9310	TMHMM2.0	TMhelix	    13    35
+9310	TMHMM2.0	outside	    36    61
+9310	TMHMM2.0	TMhelix	    62    84
+9310	TMHMM2.0	inside	    85   102
+9310	TMHMM2.0	TMhelix	   103   125
+9310	TMHMM2.0	outside	   126   144
+9310	TMHMM2.0	TMhelix	   145   167
+9310	TMHMM2.0	inside	   168   226
+# 9311 Length: 226
+# 9311 Number of predicted TMHs:  0
+9311	TMHMM2.0	outside	     1   226
+# 9312 Length: 226
+# 9312 Number of predicted TMHs:  0
+9312	TMHMM2.0	outside	     1   226
+# 9313 Length: 226
+# 9313 Number of predicted TMHs:  2
+9313	TMHMM2.0	inside	     1    56
+9313	TMHMM2.0	TMhelix	    57    79
+9313	TMHMM2.0	outside	    80    98
+9313	TMHMM2.0	TMhelix	    99   121
+9313	TMHMM2.0	inside	   122   226
+# 9314 Length: 226
+# 9314 Number of predicted TMHs:  0
+9314	TMHMM2.0	outside	     1   226
+# 9315 Length: 226
+# 9315 Number of predicted TMHs:  1
+9315	TMHMM2.0	inside	     1    20
+9315	TMHMM2.0	TMhelix	    21    43
+9315	TMHMM2.0	outside	    44   226
+# 9316 Length: 226
+# 9316 Number of predicted TMHs:  0
+9316	TMHMM2.0	outside	     1   226
+# 9317 Length: 226
+# 9317 Number of predicted TMHs:  5
+9317	TMHMM2.0	inside	     1    28
+9317	TMHMM2.0	TMhelix	    29    46
+9317	TMHMM2.0	outside	    47    50
+9317	TMHMM2.0	TMhelix	    51    73
+9317	TMHMM2.0	inside	    74    84
+9317	TMHMM2.0	TMhelix	    85   107
+9317	TMHMM2.0	outside	   108   116
+9317	TMHMM2.0	TMhelix	   117   136
+9317	TMHMM2.0	inside	   137   148
+9317	TMHMM2.0	TMhelix	   149   171
+9317	TMHMM2.0	outside	   172   226
+# 9318 Length: 226
+# 9318 Number of predicted TMHs:  0
+9318	TMHMM2.0	outside	     1   226
+# 9319 Length: 226
+# 9319 Number of predicted TMHs:  1
+9319	TMHMM2.0	inside	     1   159
+9319	TMHMM2.0	TMhelix	   160   182
+9319	TMHMM2.0	outside	   183   226
+# 9320 Length: 226
+# 9320 Number of predicted TMHs:  0
+9320	TMHMM2.0	outside	     1   226
+# 9321 Length: 226
+# 9321 Number of predicted TMHs:  0
+9321	TMHMM2.0	outside	     1   226
+# 9322 Length: 226
+# 9322 Number of predicted TMHs:  0
+9322	TMHMM2.0	outside	     1   226
+# 9323 Length: 226
+# 9323 Number of predicted TMHs:  0
+9323	TMHMM2.0	outside	     1   226
+# 9324 Length: 226
+# 9324 Number of predicted TMHs:  0
+9324	TMHMM2.0	outside	     1   226

@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+69	
+
+ psg: 0.79  gvh: 0.41  alm: 0.46  top: 0.27  tms: 0.08  mit: 0.49  mip: 0.06
+ nuc: 0.96  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.07  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 1.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 1.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.91  lps: 0.11  len: 0.85 
+
+	 34.8 %: nuclear
+	 26.1 %: cytoplasmic
+	 13.0 %: Golgi
+	  8.7 %: mitochondrial
+	  8.7 %: endoplasmic reticulum
+	  4.3 %: vesicles of secretory system
+	  4.3 %: peroxisomal
+
+>> prediction for 69 is nuc (k=23)
+

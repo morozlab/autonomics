@@ -1,0 +1,335 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1651 489         
+MLQQRQRLQQHVNQNEVERSNERMSSIHCKLQEEAEKIRKWQTCSEIELKQKVTKLKECELLISKQRSQVLEMQIQNETL      80
+SSQLQKEKMNQSHINLKLKTSRELFIALKNHSENLQSSIMRGEDDRDSLRMLAADNIKQIKEMKQSMQNLVDANEKRVEQ     160
+LKHQLKEKEMALGDVMSTSEKQITAVGNANSALEEDLGKCREDIEALSKQLIQKRDAVCVLEDKVQKLEKSIVDQSGVID     240
+DRDTSVSNLTKQNAELSTNLASATETIETLGKQCEELSSEFGKYKVEAETQIDSLQSELAEVTESLTEISTEYNEMVSKH     320
+DRLLAENKSCKESVDQLVKCVQELNSKQEENEKEMESLNELCSKTKESETELRQLLDEKDTSLESAASAKNELEENLKAV     400
+SEELDRLKVKDTESDSRIHDLAQTNSKQAALISELRAASEDQSKTAQEVSSDLDKKSVELSDLEKKCTSFEKERDGMRCT     480
+LSEKDLELARLTEVNTSLKTQVSEFTEKFDSLKAEHDSLTSNVGTLKETYSSCSESLVKTKKHLVDQQKELLQKTEEMKK     560
+MEKSLEVAYGKHGKDSEQIEYLKKQVGELSKSISEKEKEIDELKKQKSSLETDFESLRETLNSKSDVSEKLSRVHEELSK     640
+KSAAVSELTTECTILKKWKADSVDQFASEKRKLEDDLSSRQADIAALAEEVKRMQQKLVETNKSSTELKQLQGTVQEMKS     720
+KNEDLFKSVDELKEDQQKKESLLKDKEAELKSLKKECKSLSTNKEKTQLQVTKLETKISEILKEQTNSKALAQQLKEKDN     800
+QLLRVKNSLEEIKQEAIKSEKAYQTKIQNLKDEISSLNKSKINAIISTATSRSPFTSPVRSSQHRDQPNPESPKTPVVQR     880
+KKRRVAFGKSPSWHEPSDEEEEEEMESEAIVSSTTQPARVKFSKSFSKSPSNAASTAKSPRLKFTKSPKKVTDIMAAYPS     960
+PMPNSKRGAKLPESYVRRQDSNNKKKQKLKVDSQSWFDSDSAFGFDENPVRSSQHRDQPNPESPKTPVVQRKKRRVAFGK    1040
+SPSWHEPSDEEEEEEMESEAIVSSTTQPARVKFSKSFSKSPSNAASTAKSPRLKFTKSPKKVTDIMAAYPSPMPNSKRGA    1120
+KLPESYVRRQDSNNKKKQKLKVDSQSWFDSDSAFGFDEKHNMGAGASGAGKQQTLEVHYPRQSIAEISRQSKLSFVAVLR    1200
+EWQRWVELGCDEDGNLAVSALRTHYPTDPLMHRVIDSIPALDDQISFTDFCRVLYIWQTMVMEERLQTLFQILNNGDPLT    1280
+TDVVAQIIKAIRPDEDMEQIKLIAAHMPSSLSCLGTSVIDEEDFVAWAKCLPAEELHTKLGTFTIIDERLPGAPESTFTN    1360
+VKGGLEHRIHMASVAYHPYTNERSERKTNAKDPNKPKKKKSAFDVFRAEQMSEFKRLNPETKVDLGVFMTNLSATWGSLS    1440
+DEKKIPYVQESEKDLIRFQAEMANYIPNPEFAKKKKKRVKEPGEPKRATPKLLPDFAVYGHHVLKRLKPPAESRTGFMFF    1520
+SNTNRAEVVRENPDLRVGGIAKIMGERWGKMTIEEKAPYQKMAEDDKERYLREATAWRKAKENGSYYIWDINCKLHKSVY    1600
+IQLVLFLRSIFSYLNITSCNSPSSQNSVPLLILSLYTAENRSFNCQTKIQF                                 1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+..P.............................................................................     960
+.........................................................................P......    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+...................................................                                 1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+489              5    --MLQQR|QR  0.082    .
+489              7    MLQQRQR|LQ  0.087    .
+489             19    NQNEVER|SN  0.136    .
+489             23    VERSNER|MS  0.081    .
+489             30    MSSIHCK|LQ  0.109    .
+489             37    LQEEAEK|IR  0.059    .
+489             39    EEAEKIR|KW  0.089    .
+489             40    EAEKIRK|WQ  0.078    .
+489             50    CSEIELK|QK  0.063    .
+489             52    EIELKQK|VT  0.062    .
+489             55    LKQKVTK|LK  0.075    .
+489             57    QKVTKLK|EC  0.066    .
+489             65    CELLISK|QR  0.062    .
+489             67    LLISKQR|SQ  0.101    .
+489             86    LSSQLQK|EK  0.075    .
+489             88    SQLQKEK|MN  0.066    .
+489             97    QSHINLK|LK  0.061    .
+489             99    HINLKLK|TS  0.067    .
+489            102    LKLKTSR|EL  0.109    .
+489            109    ELFIALK|NH  0.061    .
+489            121    LQSSIMR|GE  0.105    .
+489            126    MRGEDDR|DS  0.109    .
+489            130    DDRDSLR|ML  0.080    .
+489            138    LAADNIK|QI  0.067    .
+489            141    DNIKQIK|EM  0.068    .
+489            144    KQIKEMK|QS  0.075    .
+489            156    LVDANEK|RV  0.077    .
+489            157    VDANEKR|VE  0.121    .
+489            162    KRVEQLK|HQ  0.068    .
+489            166    QLKHQLK|EK  0.076    .
+489            168    KHQLKEK|EM  0.067    .
+489            181    VMSTSEK|QI  0.085    .
+489            199    LEEDLGK|CR  0.070    .
+489            201    EDLGKCR|ED  0.080    .
+489            209    DIEALSK|QL  0.070    .
+489            214    SKQLIQK|RD  0.061    .
+489            215    KQLIQKR|DA  0.287    .
+489            224    VCVLEDK|VQ  0.051    .
+489            227    LEDKVQK|LE  0.061    .
+489            230    KVQKLEK|SI  0.093    .
+489            242    SGVIDDR|DT  0.115    .
+489            251    SVSNLTK|QN  0.065    .
+489            272    TIETLGK|QC  0.062    .
+489            283    LSSEFGK|YK  0.116    .
+489            285    SEFGKYK|VE  0.061    .
+489            319    YNEMVSK|HD  0.058    .
+489            322    MVSKHDR|LL  0.102    .
+489            328    RLLAENK|SC  0.083    .
+489            331    AENKSCK|ES  0.074    .
+489            339    SVDQLVK|CV  0.061    .
+489            347    VQELNSK|QE  0.059    .
+489            353    KQEENEK|EM  0.059    .
+489            364    LNELCSK|TK  0.064    .
+489            366    ELCSKTK|ES  0.079    .
+489            373    ESETELR|QL  0.101    .
+489            379    RQLLDEK|DT  0.066    .
+489            390    ESAASAK|NE  0.062    .
+489            398    ELEENLK|AV  0.080    .
+489            406    VSEELDR|LK  0.064    .
+489            408    EELDRLK|VK  0.058    .
+489            410    LDRLKVK|DT  0.084    .
+489            417    DTESDSR|IH  0.078    .
+489            427    LAQTNSK|QA  0.062    .
+489            436    ALISELR|AA  0.092    .
+489            444    ASEDQSK|TA  0.066    .
+489            455    VSSDLDK|KS  0.060    .
+489            456    SSDLDKK|SV  0.222    .
+489            465    ELSDLEK|KC  0.063    .
+489            466    LSDLEKK|CT  0.090    .
+489            472    KCTSFEK|ER  0.065    .
+489            474    TSFEKER|DG  0.110    .
+489            478    KERDGMR|CT  0.081    .
+489            484    RCTLSEK|DL  0.072    .
+489            490    KDLELAR|LT  0.078    .
+489            499    EVNTSLK|TQ  0.057    .
+489            508    VSEFTEK|FD  0.066    .
+489            513    EKFDSLK|AE  0.072    .
+489            527    SNVGTLK|ET  0.062    .
+489            539    CSESLVK|TK  0.059    .
+489            541    ESLVKTK|KH  0.059    .
+489            542    SLVKTKK|HL  0.141    .
+489            549    HLVDQQK|EL  0.070    .
+489            554    QKELLQK|TE  0.061    .
+489            559    QKTEEMK|KM  0.070    .
+489            560    KTEEMKK|ME  0.079    .
+489            563    EMKKMEK|SL  0.083    .
+489            571    LEVAYGK|HG  0.068    .
+489            574    AYGKHGK|DS  0.110    .
+489            583    EQIEYLK|KQ  0.055    .
+489            584    QIEYLKK|QV  0.134    .
+489            591    QVGELSK|SI  0.107    .
+489            596    SKSISEK|EK  0.090    .
+489            598    SISEKEK|EI  0.089    .
+489            604    KEIDELK|KQ  0.058    .
+489            605    EIDELKK|QK  0.117    .
+489            607    DELKKQK|SS  0.071    .
+489            618    TDFESLR|ET  0.076    .
+489            624    RETLNSK|SD  0.062    .
+489            630    KSDVSEK|LS  0.067    .
+489            633    VSEKLSR|VH  0.071    .
+489            640    VHEELSK|KS  0.057    .
+489            641    HEELSKK|SA  0.205    .
+489            656    TECTILK|KW  0.058    .
+489            657    ECTILKK|WK  0.098    .
+489            659    TILKKWK|AD  0.079    .
+489            670    DQFASEK|RK  0.054    .
+489            671    QFASEKR|KL  0.224    .
+489            672    FASEKRK|LE  0.086    .
+489            680    EDDLSSR|QA  0.094    .
+489            692    ALAEEVK|RM  0.064    .
+489            693    LAEEVKR|MQ  0.165    .
+489            697    VKRMQQK|LV  0.098    .
+489            703    KLVETNK|SS  0.073    .
+489            709    KSSTELK|QL  0.082    .
+489            719    GTVQEMK|SK  0.078    .
+489            721    VQEMKSK|NE  0.058    .
+489            727    KNEDLFK|SV  0.114    .
+489            733    KSVDELK|ED  0.064    .
+489            738    LKEDQQK|KE  0.059    .
+489            739    KEDQQKK|ES  0.083    .
+489            744    KKESLLK|DK  0.085    .
+489            746    ESLLKDK|EA  0.063    .
+489            751    DKEAELK|SL  0.079    .
+489            754    AELKSLK|KE  0.059    .
+489            755    ELKSLKK|EC  0.072    .
+489            758    SLKKECK|SL  0.103    .
+489            764    KSLSTNK|EK  0.067    .
+489            766    LSTNKEK|TQ  0.069    .
+489            773    TQLQVTK|LE  0.066    .
+489            777    VTKLETK|IS  0.061    .
+489            783    KISEILK|EQ  0.062    .
+489            789    KEQTNSK|AL  0.076    .
+489            796    ALAQQLK|EK  0.072    .
+489            798    AQQLKEK|DN  0.069    .
+489            804    KDNQLLR|VK  0.077    .
+489            806    NQLLRVK|NS  0.057    .
+489            813    NSLEEIK|QE  0.056    .
+489            818    IKQEAIK|SE  0.080    .
+489            821    EAIKSEK|AY  0.067    .
+489            826    EKAYQTK|IQ  0.065    .
+489            831    TKIQNLK|DE  0.070    .
+489            839    EISSLNK|SK  0.080    .
+489            841    SSLNKSK|IN  0.070    .
+489            852    ISTATSR|SP  0.113    .
+489            860    PFTSPVR|SS  0.078    .
+489            865    VRSSQHR|DQ  0.128    .
+489            874    PNPESPK|TP  0.058    .
+489            880    KTPVVQR|KK  0.092    .
+489            881    TPVVQRK|KR  0.111    .
+489            882    PVVQRKK|RR  0.075    .
+489            883    VVQRKKR|RV  0.668 *ProP*
+489            884    VQRKKRR|VA  0.261    .
+489            889    RRVAFGK|SP  0.136    .
+489            919    STTQPAR|VK  0.080    .
+489            921    TQPARVK|FS  0.060    .
+489            924    ARVKFSK|SF  0.138    .
+489            928    FSKSFSK|SP  0.089    .
+489            938    NAASTAK|SP  0.084    .
+489            941    STAKSPR|LK  0.111    .
+489            943    AKSPRLK|FT  0.075    .
+489            946    PRLKFTK|SP  0.096    .
+489            949    KFTKSPK|KV  0.093    .
+489            950    FTKSPKK|VT  0.089    .
+489            966    SPMPNSK|RG  0.062    .
+489            967    PMPNSKR|GA  0.221    .
+489            970    NSKRGAK|LP  0.120    .
+489            977    LPESYVR|RQ  0.079    .
+489            978    PESYVRR|QD  0.167    .
+489            984    RQDSNNK|KK  0.057    .
+489            985    QDSNNKK|KQ  0.103    .
+489            986    DSNNKKK|QK  0.153    .
+489            988    NNKKKQK|LK  0.079    .
+489            990    KKKQKLK|VD  0.078    .
+489           1011    FDENPVR|SS  0.092    .
+489           1016    VRSSQHR|DQ  0.133    .
+489           1025    PNPESPK|TP  0.058    .
+489           1031    KTPVVQR|KK  0.092    .
+489           1032    TPVVQRK|KR  0.111    .
+489           1033    PVVQRKK|RR  0.075    .
+489           1034    VVQRKKR|RV  0.668 *ProP*
+489           1035    VQRKKRR|VA  0.261    .
+489           1040    RRVAFGK|SP  0.136    .
+489           1070    STTQPAR|VK  0.080    .
+489           1072    TQPARVK|FS  0.060    .
+489           1075    ARVKFSK|SF  0.138    .
+489           1079    FSKSFSK|SP  0.089    .
+489           1089    NAASTAK|SP  0.084    .
+489           1092    STAKSPR|LK  0.111    .
+489           1094    AKSPRLK|FT  0.075    .
+489           1097    PRLKFTK|SP  0.096    .
+489           1100    KFTKSPK|KV  0.093    .
+489           1101    FTKSPKK|VT  0.089    .
+489           1117    SPMPNSK|RG  0.062    .
+489           1118    PMPNSKR|GA  0.221    .
+489           1121    NSKRGAK|LP  0.120    .
+489           1128    LPESYVR|RQ  0.079    .
+489           1129    PESYVRR|QD  0.167    .
+489           1135    RQDSNNK|KK  0.057    .
+489           1136    QDSNNKK|KQ  0.103    .
+489           1137    DSNNKKK|QK  0.153    .
+489           1139    NNKKKQK|LK  0.079    .
+489           1141    KKKQKLK|VD  0.078    .
+489           1159    AFGFDEK|HN  0.067    .
+489           1171    GASGAGK|QQ  0.071    .
+489           1181    LEVHYPR|QS  0.104    .
+489           1189    SIAEISR|QS  0.084    .
+489           1192    EISRQSK|LS  0.148    .
+489           1200    SFVAVLR|EW  0.081    .
+489           1204    VLREWQR|WV  0.122    .
+489           1222    LAVSALR|TH  0.071    .
+489           1233    TDPLMHR|VI  0.084    .
+489           1252    SFTDFCR|VL  0.089    .
+489           1265    TMVMEER|LQ  0.071    .
+489           1289    VVAQIIK|AI  0.075    .
+489           1292    QIIKAIR|PD  0.106    .
+489           1301    EDMEQIK|LI  0.074    .
+489           1329    DFVAWAK|CL  0.071    .
+489           1339    AEELHTK|LG  0.059    .
+489           1349    FTIIDER|LP  0.082    .
+489           1362    STFTNVK|GG  0.059    .
+489           1368    KGGLEHR|IH  0.086    .
+489           1383    HPYTNER|SE  0.124    .
+489           1386    TNERSER|KT  0.351    .
+489           1387    NERSERK|TN  0.075    .
+489           1391    ERKTNAK|DP  0.073    .
+489           1395    NAKDPNK|PK  0.057    .
+489           1397    KDPNKPK|KK  0.070    .
+489           1398    DPNKPKK|KK  0.141    .
+489           1399    PNKPKKK|KS  0.091    .
+489           1400    NKPKKKK|SA  0.381    .
+489           1407    SAFDVFR|AE  0.101    .
+489           1415    EQMSEFK|RL  0.061    .
+489           1416    QMSEFKR|LN  0.151    .
+489           1422    RLNPETK|VD  0.073    .
+489           1443    GSLSDEK|KI  0.062    .
+489           1444    SLSDEKK|IP  0.140    .
+489           1453    YVQESEK|DL  0.073    .
+489           1457    SEKDLIR|FQ  0.084    .
+489           1473    PNPEFAK|KK  0.060    .
+489           1474    NPEFAKK|KK  0.091    .
+489           1475    PEFAKKK|KK  0.138    .
+489           1476    EFAKKKK|KR  0.108    .
+489           1477    FAKKKKK|RV  0.133    .
+489           1478    AKKKKKR|VK  0.476    .
+489           1480    KKKKRVK|EP  0.075    .
+489           1486    KEPGEPK|RA  0.065    .
+489           1487    EPGEPKR|AT  0.263    .
+489           1491    PKRATPK|LL  0.064    .
+489           1505    YGHHVLK|RL  0.061    .
+489           1506    GHHVLKR|LK  0.244    .
+489           1508    HVLKRLK|PP  0.059    .
+489           1514    KPPAESR|TG  0.080    .
+489           1525    FFSNTNR|AE  0.079    .
+489           1530    NRAEVVR|EN  0.113    .
+489           1536    RENPDLR|VG  0.096    .
+489           1542    RVGGIAK|IM  0.064    .
+489           1547    AKIMGER|WG  0.072    .
+489           1550    MGERWGK|MT  0.125    .
+489           1556    KMTIEEK|AP  0.060    .
+489           1561    EKAPYQK|MA  0.075    .
+489           1567    KMAEDDK|ER  0.058    .
+489           1569    AEDDKER|YL  0.103    .
+489           1572    DKERYLR|EA  0.307    .
+489           1578    REATAWR|KA  0.102    .
+489           1579    EATAWRK|AK  0.075    .
+489           1581    TAWRKAK|EN  0.226    .
+489           1594    IWDINCK|LH  0.056    .
+489           1597    INCKLHK|SV  0.154    .
+489           1608    QLVLFLR|SI  0.126    .
+489           1641    LYTAENR|SF  0.099    .
+489           1648    SFNCQTK|IQ  0.072    .
+____________________________^_________________
+
+
+
+

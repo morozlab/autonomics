@@ -1,0 +1,239 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1451 650         
+MLIEAGADISAFNEFRDNPLLTAIKHNNENVLAVILSCDRWKDAIRVKPVEAMRKISRNVIYLKFLTNYPSFSVFALVET      80
+PPDVTGGSRPHTFLMILGTLAILIAVFRLFLEVLQALRNTANYFSDPLNYFEVFTFIFSIVFVVSSYSDSVPSNFQWEVS     160
+IDFFFYQSTLTQQEPTETDKQPIIRTRYLGHVTGYNQPIRNQNSYSVGSYASKQQIRTRYLGHVTGYQPIRDQYFLIRSV     240
+PCYSVERDIFQGDHILLFFSIMDYFVSLVEQLKFRRYFTHKKKLGEGGFGEISLVVRKQDRRPLVVKRICRKRVNQHVKT     320
+SFGQTIPLEIDCLQRLDHPGIVSLHGYLSTPNHWLLLMDFTDNTMDLFDYVARGRVSEDTTREIMIQVHSALTYCLSQGI     400
+DHRDVKDENVLINTLTMKTTLIDFGSATLYDRDAPYTRGRGTSIFLPPEFYLLGRYYALEGAVWALGCLTFKLLMGRYPF     480
+STRLEIESYEPRIVGLAVDDVSETLRKAKRLRSAGRIDQIFLTEKLRVEYQGKNHPEVGLAVDDVSETLRKAKLLRSAGR     560
+IDQIFLTEKLRVEYQGKNHPEGRIYPNRKKGWFSFWRNYSFTGEAIEEVLSRNRHTVEGLCSLFGACSKHTSSRVLEQTC     640
+AALPLSHVTSTPFHTKYRGRACCRESAELCLPFQAFCLVMWTVASLEPAKSCVMFFVLPILAALGCFRASFFTSGAASCV     720
+LRSTKSREIPISSSTSFTIPLVLAPFRIMVCLSFSIIWGSLASRIFFPFLVLAGLTAFWRALSAVSAAVILLQGIGGVGT     800
+AAQYSLSPSPSLSLSLSLSLSLSLSSLSSLPHSLSLLSPKLSTHVHFRSYLRCWPLMVGWLEQNTALEELAALISRYRSG     880
+GGSQMGDHHFKRNTWRSKSFGYYGNSTPSPARRPNTIVEENDMRPDRSNIPRPRSRLGVKFNKQKSLDEGNMKLCKERKA     960
+DSCKRSWTTVRPPPEPPKRLDLIPPDSTGDDFEDFFDDEELDAAEEAMMRSSVQHTGSGIVPGSSGGSGQVRSSLGSGGG    1040
+LLRSPSRMMNPPGAHPAAGETAAEINGKDGEEGIASPLIIDVGDLKVECVVGEKPGTQTLGVQTEQIPGGLSAETSLELL    1120
+KKLSIPALRRELERKKVRFSKADGKDQLQAKLEAVLKMEICPPHCPLKGAHLRSGKVVIHSEPAELKKKAQAIAVMAHNT    1200
+DTPQVLSEASKQLGHVTQEVNNQNFRSRDWLSLSANQGPVFIDSKEVRVIRQLLEAHVQHIKAVTDHSAAECGCNLMLEN    1280
+LCHSLSHYHVRKLESQLQIPGGLSAETSLELLKKLSIPALRRELERKKVRFSKADGKDQLQAKLEAVLKMEICPPHCPLK    1360
+GVLANPAVLAHLRSGKVVIHSEPAELKKKAQAIAFRQPIRTRNLGYVTGYQPIRDQYLLIRLVLGSEHTRDEGAQNMNQP    1440
+MNQLSLYNFDR                                                                         1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...........                                                                         1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+650             16    SAFNEFR|DN  0.085    .
+650             25    PLLTAIK|HN  0.057    .
+650             40    VILSCDR|WK  0.072    .
+650             42    LSCDRWK|DA  0.092    .
+650             46    RWKDAIR|VK  0.072    .
+650             48    KDAIRVK|PV  0.104    .
+650             54    KPVEAMR|KI  0.096    .
+650             55    PVEAMRK|IS  0.073    .
+650             58    AMRKISR|NV  0.103    .
+650             64    RNVIYLK|FL  0.067    .
+650             89    DVTGGSR|PH  0.066    .
+650            108    ILIAVFR|LF  0.086    .
+650            118    EVLQALR|NT  0.065    .
+650            180    EPTETDK|QP  0.059    .
+650            185    DKQPIIR|TR  0.087    .
+650            187    QPIIRTR|YL  0.161    .
+650            200    GYNQPIR|NQ  0.083    .
+650            213    VGSYASK|QQ  0.063    .
+650            217    ASKQQIR|TR  0.088    .
+650            219    KQQIRTR|YL  0.162    .
+650            231    TGYQPIR|DQ  0.116    .
+650            238    DQYFLIR|SV  0.126    .
+650            247    PCYSVER|DI  0.137    .
+650            273    SLVEQLK|FR  0.060    .
+650            275    VEQLKFR|RY  0.087    .
+650            276    EQLKFRR|YF  0.137    .
+650            281    RRYFTHK|KK  0.070    .
+650            282    RYFTHKK|KL  0.164    .
+650            283    YFTHKKK|LG  0.115    .
+650            297    EISLVVR|KQ  0.085    .
+650            298    ISLVVRK|QD  0.075    .
+650            301    VVRKQDR|RP  0.074    .
+650            302    VRKQDRR|PL  0.123    .
+650            307    RRPLVVK|RI  0.071    .
+650            308    RPLVVKR|IC  0.210    .
+650            311    VVKRICR|KR  0.151    .
+650            312    VKRICRK|RV  0.119    .
+650            313    KRICRKR|VN  0.227    .
+650            319    RVNQHVK|TS  0.074    .
+650            335    EIDCLQR|LD  0.091    .
+650            373    LFDYVAR|GR  0.085    .
+650            375    DYVARGR|VS  0.079    .
+650            382    VSEDTTR|EI  0.103    .
+650            403    SQGIDHR|DV  0.174    .
+650            406    IDHRDVK|DE  0.158    .
+650            418    INTLTMK|TT  0.061    .
+650            432    SATLYDR|DA  0.089    .
+650            438    RDAPYTR|GR  0.118    .
+650            440    APYTRGR|GT  0.141    .
+650            455    EFYLLGR|YY  0.085    .
+650            472    LGCLTFK|LL  0.059    .
+650            477    FKLLMGR|YP  0.075    .
+650            483    RYPFSTR|LE  0.069    .
+650            492    IESYEPR|IV  0.180    .
+650            506    DVSETLR|KA  0.093    .
+650            507    VSETLRK|AK  0.062    .
+650            509    ETLRKAK|RL  0.130    .
+650            510    TLRKAKR|LR  0.262    .
+650            512    RKAKRLR|SA  0.312    .
+650            516    RLRSAGR|ID  0.098    .
+650            525    QIFLTEK|LR  0.053    .
+650            527    FLTEKLR|VE  0.080    .
+650            533    RVEYQGK|NH  0.063    .
+650            550    DVSETLR|KA  0.087    .
+650            551    VSETLRK|AK  0.060    .
+650            553    ETLRKAK|LL  0.134    .
+650            556    RKAKLLR|SA  0.270    .
+650            560    LLRSAGR|ID  0.093    .
+650            569    QIFLTEK|LR  0.053    .
+650            571    FLTEKLR|VE  0.080    .
+650            577    RVEYQGK|NH  0.061    .
+650            583    KNHPEGR|IY  0.093    .
+650            588    GRIYPNR|KK  0.113    .
+650            589    RIYPNRK|KG  0.074    .
+650            590    IYPNRKK|GW  0.089    .
+650            597    GWFSFWR|NY  0.102    .
+650            612    IEEVLSR|NR  0.099    .
+650            614    EVLSRNR|HT  0.081    .
+650            629    LFGACSK|HT  0.064    .
+650            634    SKHTSSR|VL  0.137    .
+650            656    STPFHTK|YR  0.073    .
+650            658    PFHTKYR|GR  0.100    .
+650            660    HTKYRGR|AC  0.096    .
+650            664    RGRACCR|ES  0.075    .
+650            690    ASLEPAK|SC  0.068    .
+650            708    AALGCFR|AS  0.073    .
+650            722    AASCVLR|ST  0.150    .
+650            725    CVLRSTK|SR  0.156    .
+650            727    LRSTKSR|EI  0.146    .
+650            747    LVLAPFR|IM  0.066    .
+650            764    WGSLASR|IF  0.092    .
+650            780    GLTAFWR|AL  0.106    .
+650            840    LSLLSPK|LS  0.066    .
+650            848    STHVHFR|SY  0.171    .
+650            852    HFRSYLR|CW  0.078    .
+650            876    LAALISR|YR  0.122    .
+650            878    ALISRYR|SG  0.152    .
+650            891    MGDHHFK|RN  0.064    .
+650            892    GDHHFKR|NT  0.290    .
+650            896    FKRNTWR|SK  0.203    .
+650            898    RNTWRSK|SF  0.108    .
+650            912    STPSPAR|RP  0.078    .
+650            913    TPSPARR|PN  0.300    .
+650            924    VEENDMR|PD  0.075    .
+650            927    NDMRPDR|SN  0.411    .
+650            932    DRSNIPR|PR  0.128    .
+650            934    SNIPRPR|SR  0.131    .
+650            936    IPRPRSR|LG  0.089    .
+650            940    RSRLGVK|FN  0.073    .
+650            943    LGVKFNK|QK  0.070    .
+650            945    VKFNKQK|SL  0.108    .
+650            953    LDEGNMK|LC  0.057    .
+650            956    GNMKLCK|ER  0.056    .
+650            958    MKLCKER|KA  0.112    .
+650            959    KLCKERK|AD  0.113    .
+650            964    RKADSCK|RS  0.071    .
+650            965    KADSCKR|SW  0.368    .
+650            971    RSWTTVR|PP  0.074    .
+650            978    PPPEPPK|RL  0.066    .
+650            979    PPEPPKR|LD  0.142    .
+650           1010    AEEAMMR|SS  0.113    .
+650           1032    GGSGQVR|SS  0.194    .
+650           1043    SGGGLLR|SP  0.111    .
+650           1047    LLRSPSR|MM  0.095    .
+650           1068    AAEINGK|DG  0.089    .
+650           1086    IDVGDLK|VE  0.056    .
+650           1094    ECVVGEK|PG  0.057    .
+650           1121    TSLELLK|KL  0.056    .
+650           1122    SLELLKK|LS  0.122    .
+650           1129    LSIPALR|RE  0.063    .
+650           1130    SIPALRR|EL  0.127    .
+650           1134    LRRELER|KK  0.076    .
+650           1135    RRELERK|KV  0.122    .
+650           1136    RELERKK|VR  0.076    .
+650           1138    LERKKVR|FS  0.125    .
+650           1141    KKVRFSK|AD  0.218    .
+650           1145    FSKADGK|DQ  0.068    .
+650           1151    KDQLQAK|LE  0.062    .
+650           1157    KLEAVLK|ME  0.058    .
+650           1168    PPHCPLK|GA  0.070    .
+650           1173    LKGAHLR|SG  0.176    .
+650           1176    AHLRSGK|VV  0.224    .
+650           1187    SEPAELK|KK  0.065    .
+650           1188    EPAELKK|KA  0.140    .
+650           1189    PAELKKK|AQ  0.111    .
+650           1211    VLSEASK|QL  0.097    .
+650           1226    VNNQNFR|SR  0.112    .
+650           1228    NQNFRSR|DW  0.100    .
+650           1245    PVFIDSK|EV  0.069    .
+650           1248    IDSKEVR|VI  0.150    .
+650           1251    KEVRVIR|QL  0.252    .
+650           1262    AHVQHIK|AV  0.075    .
+650           1291    LSHYHVR|KL  0.167    .
+650           1292    SHYHVRK|LE  0.094    .
+650           1313    TSLELLK|KL  0.056    .
+650           1314    SLELLKK|LS  0.122    .
+650           1321    LSIPALR|RE  0.063    .
+650           1322    SIPALRR|EL  0.127    .
+650           1326    LRRELER|KK  0.076    .
+650           1327    RRELERK|KV  0.122    .
+650           1328    RELERKK|VR  0.076    .
+650           1330    LERKKVR|FS  0.125    .
+650           1333    KKVRFSK|AD  0.218    .
+650           1337    FSKADGK|DQ  0.068    .
+650           1343    KDQLQAK|LE  0.062    .
+650           1349    KLEAVLK|ME  0.058    .
+650           1360    PPHCPLK|GV  0.087    .
+650           1373    AVLAHLR|SG  0.125    .
+650           1376    AHLRSGK|VV  0.235    .
+650           1387    SEPAELK|KK  0.061    .
+650           1388    EPAELKK|KA  0.129    .
+650           1389    PAELKKK|AQ  0.116    .
+650           1396    AQAIAFR|QP  0.085    .
+650           1400    AFRQPIR|TR  0.085    .
+650           1402    RQPIRTR|NL  0.109    .
+650           1414    TGYQPIR|DQ  0.093    .
+650           1421    DQYLLIR|LV  0.130    .
+650           1430    LGSEHTR|DE  0.168    .
+650           1451    SLYNFDR|--  0.112    .
+____________________________^_________________
+
+
+
+

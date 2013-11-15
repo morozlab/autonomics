@@ -1,0 +1,210 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1492 609         
+MRDRFLNIDQVNIGRNNVKFYLTTKLQVSISSGGGAMSMTVGNFTKPNLSRAIYEIFFYNRALKKHLKRTVVFLFLCFIL      80
+SLDMRCRSLARAFSTPPIRTCSILNGFARAKLFRSYLWFLKVRFKRLYLRFLEIGVLRVIFTKTAPNGELRRGRGQECER     160
+GITEASGQNGRNPLPAWPHPQRVNAAQPAGPTLTSKPASTVHSTYRNIPHPGSTSATTDPNTALSKIVLLNGRSISPAAG     240
+GNTRWKLPFIEAVLLNNPNSPPTVALAITESWLKSYIADAQIKMQGYNTFRSDRPDRKGGGCVLYIREDIPVSFAYSFSD     320
+RECSLVLAFSKAKNMLFSCVYRPPESSDQSFITVMNDLQDKIDLLSNERSPEMFIMGDLNLPLFNWKEESLPSAAANMAA     400
+YQRTVNFIEENFLTQVVDKPTRGNNILDVIMTNSPQYVSTVTTEETRISDHRRVDCTLVINPLIEKGDTIKKWDHMSFRG     480
+LDIQKANFEEMNVDIASVDWDKLQTLCEESGDPVGDKFKELFILTVLQITIKHTPQKIQRRKSSPLEPLRRRRRKLKARI     560
+GAISSVGVNISKTEKLEDELTALEDKIQYAVDESIEKNEHYAIKTIKGNPRYFFSYAKRLSKVKSNIAPLKRDDGTLTTD     640
+NAEKAELAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     720
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     880
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAATFRSDRPDRKGGGCVLYIREDIPVSFAYSFSDRECSLVLAFSKAKNMLFSCVYRPPESSDQSFITVMND    1120
+LQDKIDLLSNERSPEMFIMGDLNLPLFNWKEESLPSAAANMAAYQRTVNFIEENFLTQVVDKPTRGNNILDVIMTNSPQY    1200
+VSTVTTEETRISDHRIVDCTLVINPLMGKGDTTKKWDHMSFRGLDIQKANFEEMNVDIASVDWDELQTLCEESGDPVGDK    1280
+FKELFILTVLQITIKHTPQKIQRRKSSPLEPLRRRRRKLKARIGAISSVGVNISKTEKLEDTALEDKIQHAVDESIEKNE    1360
+HYAIKTIKGNPRYFFSYAKRLSKVKSNIAPLKRDDGTLTTDNTEKAELLQEQYCRAFYSDPDGGDLLKSLSWVEDSNVII    1440
+EDFIFTSEDIKGALSELDPASAGPDGDIPAKILSACKTTLAIPLFLLWERSF                                1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................................................                                1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+609              2    -----MR|DR  0.108    .
+609              4    ---MRDR|FL  0.099    .
+609             15    DQVNIGR|NN  0.073    .
+609             19    IGRNNVK|FY  0.069    .
+609             25    KFYLTTK|LQ  0.056    .
+609             46    TVGNFTK|PN  0.059    .
+609             51    TKPNLSR|AI  0.131    .
+609             61    EIFFYNR|AL  0.094    .
+609             64    FYNRALK|KH  0.095    .
+609             65    YNRALKK|HL  0.099    .
+609             68    ALKKHLK|RT  0.061    .
+609             69    LKKHLKR|TV  0.232    .
+609             85    ILSLDMR|CR  0.095    .
+609             87    SLDMRCR|SL  0.162    .
+609             91    RCRSLAR|AF  0.093    .
+609             99    FSTPPIR|TC  0.078    .
+609            109    ILNGFAR|AK  0.081    .
+609            111    NGFARAK|LF  0.064    .
+609            114    ARAKLFR|SY  0.167    .
+609            121    SYLWFLK|VR  0.054    .
+609            123    LWFLKVR|FK  0.093    .
+609            125    FLKVRFK|RL  0.058    .
+609            126    LKVRFKR|LY  0.471    .
+609            130    FKRLYLR|FL  0.119    .
+609            138    LEIGVLR|VI  0.083    .
+609            143    LRVIFTK|TA  0.076    .
+609            151    APNGELR|RG  0.096    .
+609            152    PNGELRR|GR  0.168    .
+609            154    GELRRGR|GQ  0.318    .
+609            160    RGQECER|GI  0.098    .
+609            171    ASGQNGR|NP  0.080    .
+609            182    AWPHPQR|VN  0.089    .
+609            196    GPTLTSK|PA  0.086    .
+609            206    TVHSTYR|NI  0.114    .
+609            226    PNTALSK|IV  0.066    .
+609            233    IVLLNGR|SI  0.131    .
+609            244    AAGGNTR|WK  0.085    .
+609            246    GGNTRWK|LP  0.064    .
+609            274    ITESWLK|SY  0.064    .
+609            283    IADAQIK|MQ  0.066    .
+609            291    QGYNTFR|SD  0.121    .
+609            294    NTFRSDR|PD  0.320    .
+609            297    RSDRPDR|KG  0.257    .
+609            298    SDRPDRK|GG  0.107    .
+609            307    GCVLYIR|ED  0.074    .
+609            321    AYSFSDR|EC  0.116    .
+609            331    LVLAFSK|AK  0.060    .
+609            333    LAFSKAK|NM  0.056    .
+609            342    LFSCVYR|PP  0.110    .
+609            361    MNDLQDK|ID  0.054    .
+609            369    DLLSNER|SP  0.083    .
+609            387    LPLFNWK|EE  0.055    .
+609            403    NMAAYQR|TV  0.133    .
+609            419    LTQVVDK|PT  0.069    .
+609            422    VVDKPTR|GN  0.082    .
+609            447    VTTEETR|IS  0.073    .
+609            452    TRISDHR|RV  0.147    .
+609            453    RISDHRR|VD  0.190    .
+609            466    INPLIEK|GD  0.058    .
+609            471    EKGDTIK|KW  0.065    .
+609            472    KGDTIKK|WD  0.093    .
+609            479    WDHMSFR|GL  0.190    .
+609            485    RGLDIQK|AN  0.063    .
+609            502    ASVDWDK|LQ  0.059    .
+609            517    GDPVGDK|FK  0.069    .
+609            519    PVGDKFK|EL  0.065    .
+609            532    VLQITIK|HT  0.066    .
+609            537    IKHTPQK|IQ  0.064    .
+609            540    TPQKIQR|RK  0.098    .
+609            541    PQKIQRR|KS  0.183    .
+609            542    QKIQRRK|SS  0.098    .
+609            550    SPLEPLR|RR  0.079    .
+609            551    PLEPLRR|RR  0.091    .
+609            552    LEPLRRR|RR  0.080    .
+609            553    EPLRRRR|RK  0.369    .
+609            554    PLRRRRR|KL  0.449    .
+609            555    LRRRRRK|LK  0.355    .
+609            557    RRRRKLK|AR  0.236    .
+609            559    RRKLKAR|IG  0.109    .
+609            572    VGVNISK|TE  0.053    .
+609            575    NISKTEK|LE  0.061    .
+609            586    LTALEDK|IQ  0.063    .
+609            597    VDESIEK|NE  0.058    .
+609            604    NEHYAIK|TI  0.073    .
+609            607    YAIKTIK|GN  0.071    .
+609            611    TIKGNPR|YF  0.102    .
+609            618    YFFSYAK|RL  0.065    .
+609            619    FFSYAKR|LS  0.162    .
+609            622    YAKRLSK|VK  0.115    .
+609            624    KRLSKVK|SN  0.084    .
+609            631    SNIAPLK|RD  0.074    .
+609            632    NIAPLKR|DD  0.294    .
+609            644    TTDNAEK|AE  0.058    .
+609           1054    AAAATFR|SD  0.145    .
+609           1057    ATFRSDR|PD  0.316    .
+609           1060    RSDRPDR|KG  0.259    .
+609           1061    SDRPDRK|GG  0.107    .
+609           1070    GCVLYIR|ED  0.074    .
+609           1084    AYSFSDR|EC  0.116    .
+609           1094    LVLAFSK|AK  0.060    .
+609           1096    LAFSKAK|NM  0.056    .
+609           1105    LFSCVYR|PP  0.110    .
+609           1124    MNDLQDK|ID  0.054    .
+609           1132    DLLSNER|SP  0.083    .
+609           1150    LPLFNWK|EE  0.055    .
+609           1166    NMAAYQR|TV  0.133    .
+609           1182    LTQVVDK|PT  0.069    .
+609           1185    VVDKPTR|GN  0.082    .
+609           1210    VTTEETR|IS  0.073    .
+609           1215    TRISDHR|IV  0.161    .
+609           1229    INPLMGK|GD  0.062    .
+609           1234    GKGDTTK|KW  0.069    .
+609           1235    KGDTTKK|WD  0.101    .
+609           1242    WDHMSFR|GL  0.193    .
+609           1248    RGLDIQK|AN  0.063    .
+609           1280    GDPVGDK|FK  0.069    .
+609           1282    PVGDKFK|EL  0.065    .
+609           1295    VLQITIK|HT  0.066    .
+609           1300    IKHTPQK|IQ  0.064    .
+609           1303    TPQKIQR|RK  0.098    .
+609           1304    PQKIQRR|KS  0.183    .
+609           1305    QKIQRRK|SS  0.098    .
+609           1313    SPLEPLR|RR  0.079    .
+609           1314    PLEPLRR|RR  0.091    .
+609           1315    LEPLRRR|RR  0.080    .
+609           1316    EPLRRRR|RK  0.369    .
+609           1317    PLRRRRR|KL  0.449    .
+609           1318    LRRRRRK|LK  0.355    .
+609           1320    RRRRKLK|AR  0.236    .
+609           1322    RRKLKAR|IG  0.109    .
+609           1335    VGVNISK|TE  0.054    .
+609           1338    NISKTEK|LE  0.072    .
+609           1347    DTALEDK|IQ  0.062    .
+609           1358    VDESIEK|NE  0.060    .
+609           1365    NEHYAIK|TI  0.073    .
+609           1368    YAIKTIK|GN  0.071    .
+609           1372    TIKGNPR|YF  0.102    .
+609           1379    YFFSYAK|RL  0.065    .
+609           1380    FFSYAKR|LS  0.162    .
+609           1383    YAKRLSK|VK  0.115    .
+609           1385    KRLSKVK|SN  0.084    .
+609           1392    SNIAPLK|RD  0.074    .
+609           1393    NIAPLKR|DD  0.294    .
+609           1405    TTDNTEK|AE  0.060    .
+609           1415    LQEQYCR|AF  0.087    .
+609           1428    DGGDLLK|SL  0.099    .
+609           1451    FTSEDIK|GA  0.069    .
+609           1471    DGDIPAK|IL  0.074    .
+609           1477    KILSACK|TT  0.057    .
+609           1490    LFLLWER|SF  0.101    .
+____________________________^_________________
+
+
+
+

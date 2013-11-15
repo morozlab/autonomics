@@ -1,0 +1,201 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1623 520         
+MLRDSIKSQKHHPAGLYHPRFTNYSQLFAVEPRFTRILGGKGFARLIGVPGISGSSTVNFLYQGKFILPVNRGSSKSGAP      80
+IGCASCKGFLITHPASPRGSFRPFQITRLPWQLYICNYGLWGLSSLQLCVHRVFCEEAVGRLDTAERTTTCTSTTEKRRY     160
+REHEYETFNFLDLDSGALCVSGTFIRSTIICVRRSSGRGKGGRWLGLNILPFKELFLYNDLRLFYQIVYNMIQIDIPESI     240
+KPVNVADLRPTRQNRDIIAGLDRTTLVDTSNSHKCSSTLHDSFFHRVTRSWNLLPYQLRQSDTLPIFLTELKSYLFTVQP     320
+TTSFRSILKDTLGVVLEDIDTYLSNIQGSDNTCYPGEFRNEKGLCKPCLPGTYRTGAIIPIADRWISLSLSLSLYISLSL     400
+SITLSLSLSLSLSLFLSLPVLFSLSCDSMSILPFCRSESTHPSLRYFCRGNSCWINIYQTGYNEIFLYPTQPRSSLYLIR     480
+NRRYERKRLAHANRLAAAAAAAAAAATILFNQTNATSCELCPPGYQNAELNQTSCQPCSAGSYTAKNGSATCTLCEEGSY     560
+TAVLAGNGSATCTLCEEGSYTAVNGSDQCNLCLPGSFAAAKGSSKCMGCLKGSSTSFWGSRLCTPCEPGHFAPNTSSVSC     640
+GKCPRGTFAPGKAAAMCTSCPGRRTHTTYRTGATSPTQCVGPIIIGHARNGSMVGEWYDNMVTVPVDVAMVTVVAGDWMV     720
+SYTNNPGERFTLKQGQQIAVEAREMILAPIITNKFCYVNTSTQGYGQYFSGYQKIDSKGQTCVTPCQNREKSPGGPVCKV     800
+ENGRWSSCGVPACVWDVLCYNSITRTTFRGDQGTGVKNNITFTCQRWDSDWPHPHSYHPNEANARNYGIGHHNKCRNPSP     880
+KTNAKPWCYAADSLMTRYIYCNEIPNYISRTKFAKIAAKILLSITPGGVGKEVPAAAAAAAAAAAAAAAAAAAAAAAAAA     960
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1120
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1200
+AAAAAAAAAAAAAAAASLCRTGSYSAGNGSATCTLCEEGSYTAVNGSDQCNLCLPGSFAAAKGSSKCMGCLKGSSTSFWG    1280
+SRLCTPCEPGHFAPNTSSVSCGKCPRGTFAPGKAAAMCTSCPGRRTHTTYRTGATSPTQCVGPIIIGHARNGSMVGEWYD    1360
+NMVTVPVDVAMVTVVAGDWMVSYTNNPGERFTLKQGQQIAVEAREMILAPIITNKFCYVNTSTQGYGQYFSGYQKVDSKG    1440
+QRCVTPCQNREKSPGGPVCKVENGRWSSCGVPACVWDVLCYNSITRTTFRGDQGTGVKNNITFTCQRWDSDWPHPHSYHP    1520
+NEANARNYGIGHHNKCRNPSPKTNAKPWCYAADSLMTRYIYCNEIPNFHSDIIRDEKVGGHHTPSKLYSLLTLPVTGGRT    1600
+RPLLPIHYSPWTMTKAVRYARYR                                                             1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+..............P.................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.......................                                                             1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+520              3    ----MLR|DS  0.132    .
+520              7    MLRDSIK|SQ  0.090    .
+520             10    DSIKSQK|HH  0.074    .
+520             20    AGLYHPR|FT  0.109    .
+520             33    LFAVEPR|FT  0.120    .
+520             36    VEPRFTR|IL  0.314    .
+520             41    TRILGGK|GF  0.071    .
+520             45    GGKGFAR|LI  0.125    .
+520             65    NFLYQGK|FI  0.070    .
+520             72    FILPVNR|GS  0.105    .
+520             76    VNRGSSK|SG  0.088    .
+520             87    IGCASCK|GF  0.069    .
+520             98    THPASPR|GS  0.091    .
+520            102    SPRGSFR|PF  0.112    .
+520            108    RPFQITR|LP  0.078    .
+520            132    LQLCVHR|VF  0.080    .
+520            141    CEEAVGR|LD  0.095    .
+520            147    RLDTAER|TT  0.079    .
+520            157    CTSTTEK|RR  0.059    .
+520            158    TSTTEKR|RY  0.180    .
+520            159    STTEKRR|YR  0.180    .
+520            161    TEKRRYR|EH  0.329    .
+520            186    VSGTFIR|ST  0.136    .
+520            193    STIICVR|RS  0.088    .
+520            194    TIICVRR|SS  0.382    .
+520            198    VRRSSGR|GK  0.137    .
+520            200    RSSGRGK|GG  0.082    .
+520            203    GRGKGGR|WL  0.127    .
+520            213    LNILPFK|EL  0.061    .
+520            222    FLYNDLR|LF  0.090    .
+520            241    DIPESIK|PV  0.065    .
+520            249    VNVADLR|PT  0.088    .
+520            252    ADLRPTR|QN  0.245    .
+520            255    RPTRQNR|DI  0.619 *ProP*
+520            263    IIAGLDR|TT  0.075    .
+520            274    DTSNSHK|CS  0.080    .
+520            286    HDSFFHR|VT  0.104    .
+520            289    FFHRVTR|SW  0.386    .
+520            299    LLPYQLR|QS  0.086    .
+520            312    IFLTELK|SY  0.057    .
+520            325    QPTTSFR|SI  0.138    .
+520            329    SFRSILK|DT  0.068    .
+520            359    CYPGEFR|NE  0.061    .
+520            362    GEFRNEK|GL  0.117    .
+520            366    NEKGLCK|PC  0.059    .
+520            374    CLPGTYR|TG  0.072    .
+520            384    IIPIADR|WI  0.088    .
+520            436    SILPFCR|SE  0.116    .
+520            445    STHPSLR|YF  0.118    .
+520            449    SLRYFCR|GN  0.150    .
+520            473    LYPTQPR|SS  0.102    .
+520            480    SSLYLIR|NR  0.081    .
+520            482    LYLIRNR|RY  0.077    .
+520            483    YLIRNRR|YE  0.381    .
+520            486    RNRRYER|KR  0.171    .
+520            487    NRRYERK|RL  0.100    .
+520            488    RRYERKR|LA  0.331    .
+520            494    RLAHANR|LA  0.121    .
+520            546    AGSYTAK|NG  0.074    .
+520            601    GSFAAAK|GS  0.092    .
+520            605    AAKGSSK|CM  0.065    .
+520            611    KCMGCLK|GS  0.077    .
+520            621    TSFWGSR|LC  0.110    .
+520            642    SSVSCGK|CP  0.060    .
+520            645    SCGKCPR|GT  0.121    .
+520            652    GTFAPGK|AA  0.074    .
+520            663    CTSCPGR|RT  0.118    .
+520            664    TSCPGRR|TH  0.139    .
+520            670    RTHTTYR|TG  0.095    .
+520            689    IIIGHAR|NG  0.117    .
+520            729    TNNPGER|FT  0.162    .
+520            733    GERFTLK|QG  0.071    .
+520            743    QIAVEAR|EM  0.094    .
+520            754    APIITNK|FC  0.073    .
+520            774    YFSGYQK|ID  0.076    .
+520            778    YQKIDSK|GQ  0.064    .
+520            789    VTPCQNR|EK  0.104    .
+520            791    PCQNREK|SP  0.082    .
+520            799    PGGPVCK|VE  0.057    .
+520            804    CKVENGR|WS  0.114    .
+520            825    CYNSITR|TT  0.091    .
+520            829    ITRTTFR|GD  0.095    .
+520            837    DQGTGVK|NN  0.057    .
+520            846    ITFTCQR|WD  0.095    .
+520            865    PNEANAR|NY  0.129    .
+520            874    GIGHHNK|CR  0.072    .
+520            876    GHHNKCR|NP  0.128    .
+520            881    CRNPSPK|TN  0.074    .
+520            885    SPKTNAK|PW  0.081    .
+520            897    ADSLMTR|YI  0.114    .
+520            910    IPNYISR|TK  0.114    .
+520            912    NYISRTK|FA  0.071    .
+520            915    SRTKFAK|IA  0.106    .
+520            919    FAKIAAK|IL  0.069    .
+520            931    TPGGVGK|EV  0.095    .
+520           1220    AAASLCR|TG  0.083    .
+520           1262    GSFAAAK|GS  0.092    .
+520           1266    AAKGSSK|CM  0.065    .
+520           1272    KCMGCLK|GS  0.077    .
+520           1282    TSFWGSR|LC  0.110    .
+520           1303    SSVSCGK|CP  0.060    .
+520           1306    SCGKCPR|GT  0.121    .
+520           1313    GTFAPGK|AA  0.074    .
+520           1324    CTSCPGR|RT  0.118    .
+520           1325    TSCPGRR|TH  0.139    .
+520           1331    RTHTTYR|TG  0.095    .
+520           1350    IIIGHAR|NG  0.117    .
+520           1390    TNNPGER|FT  0.162    .
+520           1394    GERFTLK|QG  0.071    .
+520           1404    QIAVEAR|EM  0.094    .
+520           1415    APIITNK|FC  0.073    .
+520           1435    YFSGYQK|VD  0.072    .
+520           1439    YQKVDSK|GQ  0.065    .
+520           1442    VDSKGQR|CV  0.178    .
+520           1450    VTPCQNR|EK  0.104    .
+520           1452    PCQNREK|SP  0.082    .
+520           1460    PGGPVCK|VE  0.057    .
+520           1465    CKVENGR|WS  0.114    .
+520           1486    CYNSITR|TT  0.091    .
+520           1490    ITRTTFR|GD  0.095    .
+520           1498    DQGTGVK|NN  0.057    .
+520           1507    ITFTCQR|WD  0.095    .
+520           1526    PNEANAR|NY  0.129    .
+520           1535    GIGHHNK|CR  0.072    .
+520           1537    GHHNKCR|NP  0.128    .
+520           1542    CRNPSPK|TN  0.074    .
+520           1546    SPKTNAK|PW  0.081    .
+520           1558    ADSLMTR|YI  0.114    .
+520           1574    FHSDIIR|DE  0.141    .
+520           1577    DIIRDEK|VG  0.115    .
+520           1586    GHHTPSK|LY  0.063    .
+520           1599    LPVTGGR|TR  0.064    .
+520           1601    VTGGRTR|PL  0.084    .
+520           1615    SPWTMTK|AV  0.089    .
+520           1618    TMTKAVR|YA  0.107    .
+520           1621    KAVRYAR|YR  0.271    .
+520           1623    VRYARYR|--  0.105    .
+____________________________^_________________
+
+
+
+

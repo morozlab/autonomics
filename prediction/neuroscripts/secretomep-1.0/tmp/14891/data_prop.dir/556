@@ -1,0 +1,222 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1558 556         
+MHRLVFHSSLSLMMDTPMNTPASTGPSSAPCTGTVSTDPLEMVAAVGLCQQQDPATPAAVTGEQNKVCVSSCWGKEVVRG      80
+TRLQDGVLLGLSDPYCKVKCGLHRAKTRVCQKNLNPVWDEKFSFTVESLEDTIKLKVKCGLHRAKTRVCQKNLNPVWDEK     160
+FSFTVESLEDTIKLKVMDYDRGFRDDLIGSYEIRLSYFPHDDHQTFTEELRDEQGNENLGTIKFSIQITTELTSSPPLDH     240
+QVQSSMGSLGSSSPPVTPPLAVKKLNRKQTTYDSLVNRLLGNEKSQTISSLSLSLSLSLSPFSLSLTLSFFSLSLTLSHS     320
+FSLTLSLSLSLTLSLSLFLSHSLSLFLSHSFSLTLSHSFSLTLSLSLSLTLSLSLFLSHSLSLFLSHSFSLTLSHSFSLT     400
+LSLSLSLSLSLSLSLSTTSAATVPCMEDRDVQRSTSPMFQEKHLSGILTVTLVEACNLRPMNKDGVSSDPYCKFKLGQQK     480
+YKSKVSGFVVMRRTLDPVWKERFEIRVYSDSSTLMELSVYDHEEFGFSDNFIGSVEVDISEFEEGKNYKRELDLDKEGGK     560
+EGGRIVCIFNLSRIDDNLAETACELTPEDFVSLRKTYVSNELQPPKLPDMFQAMSYNPLNYLTYKWEDDDEEVGVLVVKI     640
+IKCIDLPESDTIIGTCDPFCFIEVENSRVRTHTLYKTQDPTWNKQFKFNVKDIHSTLNITVFDEEKAKYNFIGCVKLPIL     720
+EAHTIHRCLLKDRKLDHLSFGEIFLETQLIYNPARATIKTLLPPEENLMYEEPKFKRNLFMQNFKRVYSLATFVMSIGMA     800
+IQRIYNWENKAKSAFALLLYILIVLSFELYMIPMFLAILIIYQFLARWVGFKSFETWIISADQQDQVVKEPDDPDEGEDF     880
+SLTAKMKMVMGVCQTVQNSLDLVASYCERDMFQAMSYNPLNYLTYKWEDDDEEVGVLVVKIIKCIDLPESDTIIGTCDPF     960
+CFIEVENSRVRTHTLYKTQDPTWNKQFKFNVKDIHSTLNITVFDEEKAKYNFIGCVKLPILEAHTIHRCLLKDRKLDHLS    1040
+FGEIFLETQLIYNPARATIKTLLPPEENLMYEEPKFKRNLFMQNFKRVYSLATFVMSIGMAIQRIYNWENKAKSAFALLL    1120
+YILIVLSFELYMIPMFLAILIIYQFLARWVGFKSFETWIISADQQDQVVKEPDDPDEGEDFSLTAKMKMVMGVCQTVQNS    1200
+LDLVASYCERVKNVFNWTIPFLSFMAATALISGTLLLYFVPLRWIFLIWGINKLTVKLRDPTYEENQELLNFLSRVPSDV    1280
+ELNQMRIITRESSKRKALKSRRNCGTLLLYFVPLRWIFLIWGINKLTVKLRDPTYEENQELLNFLSRVPSDVELTWYNTT    1360
+SFLISCFFVTHPNMFPPITEPDENNHTGKLKTEGPKITPEITLYSAVFLRVIFVFIVSLAGPLHKHSETLINHHITHLCV    1440
+YTLLGICEIGTGLIPPSGALSDGAAPARFDRHRSGRLCQSVVIRFQIQKKERVCEAINPGSAPDLPGMAPPTPSERTVDT    1520
+HRNPSDFQQCAQIGSAPLDSTLSKYYDDFRSVKKSDSP                                              1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+......................................                                              1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+556              3    ----MHR|LV  0.109    .
+556             66    VTGEQNK|VC  0.054    .
+556             75    VSSCWGK|EV  0.092    .
+556             79    WGKEVVR|GT  0.090    .
+556             82    EVVRGTR|LQ  0.180    .
+556             97    LSDPYCK|VK  0.055    .
+556             99    DPYCKVK|CG  0.062    .
+556            104    VKCGLHR|AK  0.085    .
+556            106    CGLHRAK|TR  0.057    .
+556            108    LHRAKTR|VC  0.107    .
+556            112    KTRVCQK|NL  0.069    .
+556            121    NPVWDEK|FS  0.078    .
+556            134    SLEDTIK|LK  0.061    .
+556            136    EDTIKLK|VK  0.057    .
+556            138    TIKLKVK|CG  0.062    .
+556            143    VKCGLHR|AK  0.083    .
+556            145    CGLHRAK|TR  0.057    .
+556            147    LHRAKTR|VC  0.107    .
+556            151    KTRVCQK|NL  0.069    .
+556            160    NPVWDEK|FS  0.078    .
+556            173    SLEDTIK|LK  0.057    .
+556            175    EDTIKLK|VM  0.058    .
+556            181    KVMDYDR|GF  0.093    .
+556            184    DYDRGFR|DD  0.153    .
+556            194    IGSYEIR|LS  0.083    .
+556            211    TFTEELR|DE  0.091    .
+556            223    ENLGTIK|FS  0.069    .
+556            263    TPPLAVK|KL  0.071    .
+556            264    PPLAVKK|LN  0.103    .
+556            267    AVKKLNR|KQ  0.082    .
+556            268    VKKLNRK|QT  0.072    .
+556            278    YDSLVNR|LL  0.130    .
+556            284    RLLGNEK|SQ  0.065    .
+556            429    VPCMEDR|DV  0.187    .
+556            433    EDRDVQR|ST  0.201    .
+556            442    SPMFQEK|HL  0.102    .
+556            459    VEACNLR|PM  0.085    .
+556            463    NLRPMNK|DG  0.066    .
+556            473    SSDPYCK|FK  0.064    .
+556            475    DPYCKFK|LG  0.071    .
+556            480    FKLGQQK|YK  0.073    .
+556            482    LGQQKYK|SK  0.100    .
+556            484    QQKYKSK|VS  0.074    .
+556            492    SGFVVMR|RT  0.079    .
+556            493    GFVVMRR|TL  0.164    .
+556            500    TLDPVWK|ER  0.067    .
+556            502    DPVWKER|FE  0.106    .
+556            506    KERFEIR|VY  0.118    .
+556            546    SEFEEGK|NY  0.061    .
+556            549    EEGKNYK|RE  0.057    .
+556            550    EGKNYKR|EL  0.122    .
+556            556    RELDLDK|EG  0.066    .
+556            560    LDKEGGK|EG  0.067    .
+556            564    GGKEGGR|IV  0.088    .
+556            573    CIFNLSR|ID  0.072    .
+556            594    EDFVSLR|KT  0.087    .
+556            595    DFVSLRK|TY  0.067    .
+556            606    NELQPPK|LP  0.062    .
+556            625    LNYLTYK|WE  0.073    .
+556            639    VGVLVVK|II  0.060    .
+556            642    LVVKIIK|CI  0.061    .
+556            668    IEVENSR|VR  0.067    .
+556            670    VENSRVR|TH  0.073    .
+556            676    RTHTLYK|TQ  0.063    .
+556            684    QDPTWNK|QF  0.058    .
+556            687    TWNKQFK|FN  0.104    .
+556            691    QFKFNVK|DI  0.079    .
+556            706    TVFDEEK|AK  0.062    .
+556            708    FDEEKAK|YN  0.073    .
+556            716    NFIGCVK|LP  0.055    .
+556            727    EAHTIHR|CL  0.086    .
+556            731    IHRCLLK|DR  0.062    .
+556            733    RCLLKDR|KL  0.092    .
+556            734    CLLKDRK|LD  0.068    .
+556            755    LIYNPAR|AT  0.110    .
+556            759    PARATIK|TL  0.064    .
+556            774    LMYEEPK|FK  0.075    .
+556            776    YEEPKFK|RN  0.057    .
+556            777    EEPKFKR|NL  0.181    .
+556            785    LFMQNFK|RV  0.065    .
+556            786    FMQNFKR|VY  0.179    .
+556            803    IGMAIQR|IY  0.088    .
+556            810    IYNWENK|AK  0.066    .
+556            812    NWENKAK|SA  0.127    .
+556            847    IYQFLAR|WV  0.130    .
+556            852    ARWVGFK|SF  0.102    .
+556            869    QQDQVVK|EP  0.062    .
+556            885    DFSLTAK|MK  0.069    .
+556            887    SLTAKMK|MV  0.116    .
+556            909    VASYCER|DM  0.124    .
+556            926    LNYLTYK|WE  0.073    .
+556            940    VGVLVVK|II  0.060    .
+556            943    LVVKIIK|CI  0.061    .
+556            969    IEVENSR|VR  0.067    .
+556            971    VENSRVR|TH  0.073    .
+556            977    RTHTLYK|TQ  0.063    .
+556            985    QDPTWNK|QF  0.058    .
+556            988    TWNKQFK|FN  0.104    .
+556            992    QFKFNVK|DI  0.079    .
+556           1007    TVFDEEK|AK  0.062    .
+556           1009    FDEEKAK|YN  0.073    .
+556           1017    NFIGCVK|LP  0.055    .
+556           1028    EAHTIHR|CL  0.086    .
+556           1032    IHRCLLK|DR  0.062    .
+556           1034    RCLLKDR|KL  0.092    .
+556           1035    CLLKDRK|LD  0.068    .
+556           1056    LIYNPAR|AT  0.110    .
+556           1060    PARATIK|TL  0.064    .
+556           1075    LMYEEPK|FK  0.075    .
+556           1077    YEEPKFK|RN  0.057    .
+556           1078    EEPKFKR|NL  0.181    .
+556           1086    LFMQNFK|RV  0.065    .
+556           1087    FMQNFKR|VY  0.179    .
+556           1104    IGMAIQR|IY  0.088    .
+556           1111    IYNWENK|AK  0.066    .
+556           1113    NWENKAK|SA  0.127    .
+556           1148    IYQFLAR|WV  0.130    .
+556           1153    ARWVGFK|SF  0.102    .
+556           1170    QQDQVVK|EP  0.062    .
+556           1186    DFSLTAK|MK  0.069    .
+556           1188    SLTAKMK|MV  0.116    .
+556           1210    VASYCER|VK  0.083    .
+556           1212    SYCERVK|NV  0.067    .
+556           1243    LYFVPLR|WI  0.081    .
+556           1253    LIWGINK|LT  0.057    .
+556           1257    INKLTVK|LR  0.058    .
+556           1259    KLTVKLR|DP  0.141    .
+556           1275    LLNFLSR|VP  0.113    .
+556           1286    VELNQMR|II  0.079    .
+556           1290    QMRIITR|ES  0.087    .
+556           1294    ITRESSK|RK  0.057    .
+556           1295    TRESSKR|KA  0.314    .
+556           1296    RESSKRK|AL  0.112    .
+556           1299    SKRKALK|SR  0.094    .
+556           1301    RKALKSR|RN  0.105    .
+556           1302    KALKSRR|NC  0.171    .
+556           1315    LYFVPLR|WI  0.081    .
+556           1325    LIWGINK|LT  0.057    .
+556           1329    INKLTVK|LR  0.058    .
+556           1331    KLTVKLR|DP  0.141    .
+556           1347    LLNFLSR|VP  0.126    .
+556           1389    ENNHTGK|LK  0.079    .
+556           1391    NHTGKLK|TE  0.073    .
+556           1396    LKTEGPK|IT  0.062    .
+556           1410    YSAVFLR|VI  0.107    .
+556           1425    LAGPLHK|HS  0.076    .
+556           1468    DGAAPAR|FD  0.090    .
+556           1471    APARFDR|HR  0.354    .
+556           1473    ARFDRHR|SG  0.136    .
+556           1476    DRHRSGR|LC  0.354    .
+556           1484    CQSVVIR|FQ  0.136    .
+556           1489    IRFQIQK|KE  0.064    .
+556           1490    RFQIQKK|ER  0.080    .
+556           1492    QIQKKER|VC  0.130    .
+556           1516    PPTPSER|TV  0.149    .
+556           1522    RTVDTHR|NP  0.087    .
+556           1544    LDSTLSK|YY  0.087    .
+556           1550    KYYDDFR|SV  0.176    .
+556           1553    DDFRSVK|KS  0.105    .
+556           1554    DFRSVKK|SD  0.165    .
+____________________________^_________________
+
+
+
+

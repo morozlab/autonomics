@@ -1,0 +1,301 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2383 228         
+MMRGPPPQQQQPQQQPQQQQQPQQQQHPGMQYQIPPHQFQQMQQQQQRMPAQARYNPHIRGPIAPNQMAQMQGQMAPGQP      80
+GMVGQMLGQMGPGGQPGMQQRNDEMMMQQQQMMMLQQRGGMSVQQQHHMQQQLQHQQQLQHQQQLQHQMQLQQQQQQQRT     160
+GQPQPGGPMGNQVHIPRGGMNRGIVALVTGGASGLGLATVRHVLKMGGKAVIADLPSSAGAELAKEMSNDCRFAPVDVTD     240
+EGSVRDAIQLATTELGPLTAAVNCAGIATGALTYSKRGPHSLEDFKRVIDINLGGTFNVCRLTAEAMAAQEPYNESGERD     320
+AAWRLERLSGNQRKIYFMAFTNLLMNRGIVALVTGGASGLGLATVRHVLKMGGKAVIADLPSSAGAELAKEMSNDCRFAP     400
+VDVTDEGSVRDAIQLATTELGPLTAAVNCAGIATGALTYSKRGPHSLEDFKRVIDINLGGTFNVCRLTAEAMAAQEPYNE     480
+SGERGVFVNTASVAAFEGQRGQAAYAASKGGVRALTIVLARDLAAVGIRTCTIAPGVIETPMMAGMRDDIKAGLAAGVPF     560
+PKRLGAPGPDLAERATSLIALSDTDIAREARELLSRLNPGKRRRRDHHDGQEEEWDDELESVVCEILSEVQSTESVINLP     640
+LSQLKQVAESMSPITTSAATLLKGITSETELDKVEFLAGLVGVSAIATHLDTDAFTSLAVKALRSRMNGLVVLFRSFLMD     720
+QLSTLGRILRVLLDNPDQPTDVLGRLTVKTFNNLATSILFAEFKDSIEETYQTVESVYTSPKFQLQRTQLQYYLPQEPAF     800
+TERFVTYLRQMFGASKLHPRYTMLIISTIGCETPLLEFLSDVLKKSIAERDRYNFTLSLVLCRLFHIMGTKQYTDSYQFY     880
+FGPSSAHLTSTKSVEFVLDEFTRLVPFESGIFLKHHIQLPLRGGVKVKTKLENYLMLAKTRMKDFNLAEIDNLQYVLHLF     960
+RNFSKFFLANQIPTGIVEASIFKKQYYTNHFLPCLIHSDEVSDDTLRQKLVEVLKSAKKIPASVVLEKEEIMEISPVETY    1040
+ENLLSSLLNSTGENSEKVRNLIQSHLVSQHSKGQIERLITVVCVECIHLDSVQFLKPFYSMPTLQPVFIDVLTKLVHNAS    1120
+GKDDTGKLLKLVEFFTTEAAESFLESVLRRNQELYSNIPTTVENDFLHLILLGKLTENCNVLIPAAVWKQLSVEKLCQAL    1200
+SWWSLGDLGEIITTKIFEKVVTCQNPGDVYVTVFKSAISSPSEPFLLPVLKANISLVTGNKLWIYEALAKVLLPYYQTNV    1280
+EKPTALIRQIFGRFFSVVNRLQPSLLWKCERKESLENLISVLESYKIYLTGEDFLLTLPITFAIVRSIHEDQKLLLSLCE    1360
+RSPTLLISCVCYYSTLESWVQGCPTIASIYQFIKNERFAKESYDLDALYRSQRLVWSLCERSPTLLISCVCYYSTLQSWV    1440
+QGCPTIASIYQFIKAFGMRVPVPPKTLSNKHELRSAGVCLFMTQREKPVHADSLSDVPFPLIEGFLSAMFHTYATYWLGG    1520
+ILTSHNLLSLGHGFKLLYVTSTNSLRNAFGMRVTVPPKTLSNKHELRSAGVCLFMTQREKVASSLSICLEGSSNTLCNFK    1600
+RERERVSLYLSISLSLPLLLPPLSFSPGEVGIRCEFYHEQVTRPLIPTATTQFCSYQDLQPKYSVMSTALPMNPKPFLSA    1680
+LTGKPVMVKLKWGMEYKGYLISVDSYMNLNLANTEEYIDGALAGNLGEVLIRCNNVLYIRGVEEEGVTTNHHLSLSLTTT    1760
+NQHLSPSLALSLPTMFSSLARAGARLITTAPKSTLIPRLSRHVASVASPAPEFKCQAVVDGGFKEVALSDYKGKYVCLFF    1840
+YPLDWTFVCPTEITAFSDRAADFEAANCQLLACSVDSHFSHLAWTQQSRKEGGLGEMKIPILADLDKSIAKNYGVLLEPV    1920
+GIALRGLFIIDPAGNVRHITVNDLPIGRSVDETMRTLQAIQFVEENGEVCPANWSPGKATIKPGVDEMPSLASPSMVKLK    2000
+WGMEYKGYLISVDSYMNLNLANTEEYIDGALAGNLGEVLIRCNNVLYIRGVEEEGGDAEVMAYEQSFNRLLFILSRYIFT    2080
+ELSVFLCPPDTSLISCNLPTVTTNHHLSLSLTTTNQHLSPSLALSLPTMFSSLARAGARLITTAPKSTLIPRLSRHVASV    2160
+ASPAPDFKCQAVVDGGFKEVALSDYKGKYVCLFFYPLDWTFVCPTEITAFSDRAADFEAANCQLLACSVDSHFSHLAWTQ    2240
+QSRKEGGLGEMKIPILADLDKSIAKNYGVLLEPVGIALRGLFIIDPAGNVRHITINDLPIGRSVDETMRTLQAIQFVEEN    2320
+GEVCPANWSPGKATIKPGKGATTTTSYVKPIKTTDLICQLEGSYTNAPTIALLDPLLPYIQRS                     2400
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+............................................P...................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+...............................................................                     2400
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+228              3    ----MMR|GP  0.106    .
+228             48    MQQQQQR|MP  0.106    .
+228             54    RMPAQAR|YN  0.111    .
+228             60    RYNPHIR|GP  0.102    .
+228            101    QPGMQQR|ND  0.127    .
+228            118    MMMLQQR|GG  0.117    .
+228            159    QQQQQQR|TG  0.098    .
+228            177    NQVHIPR|GG  0.086    .
+228            182    PRGGMNR|GI  0.124    .
+228            201    LGLATVR|HV  0.099    .
+228            205    TVRHVLK|MG  0.080    .
+228            209    VLKMGGK|AV  0.084    .
+228            225    AGAELAK|EM  0.062    .
+228            232    EMSNDCR|FA  0.127    .
+228            245    TDEGSVR|DA  0.146    .
+228            276    GALTYSK|RG  0.057    .
+228            277    ALTYSKR|GP  0.183    .
+228            286    HSLEDFK|RV  0.070    .
+228            287    SLEDFKR|VI  0.304    .
+228            301    GTFNVCR|LT  0.093    .
+228            319    YNESGER|DA  0.109    .
+228            324    ERDAAWR|LE  0.084    .
+228            327    AAWRLER|LS  0.276    .
+228            333    RLSGNQR|KI  0.092    .
+228            334    LSGNQRK|IY  0.114    .
+228            347    TNLLMNR|GI  0.104    .
+228            366    LGLATVR|HV  0.099    .
+228            370    TVRHVLK|MG  0.080    .
+228            374    VLKMGGK|AV  0.084    .
+228            390    AGAELAK|EM  0.062    .
+228            397    EMSNDCR|FA  0.127    .
+228            410    TDEGSVR|DA  0.146    .
+228            441    GALTYSK|RG  0.057    .
+228            442    ALTYSKR|GP  0.183    .
+228            451    HSLEDFK|RV  0.070    .
+228            452    SLEDFKR|VI  0.304    .
+228            466    GTFNVCR|LT  0.093    .
+228            484    YNESGER|GV  0.123    .
+228            500    AAFEGQR|GQ  0.074    .
+228            509    AAYAASK|GG  0.063    .
+228            513    ASKGGVR|AL  0.088    .
+228            521    LTIVLAR|DL  0.126    .
+228            529    LAAVGIR|TC  0.089    .
+228            547    PMMAGMR|DD  0.115    .
+228            551    GMRDDIK|AG  0.067    .
+228            562    AGVPFPK|RL  0.073    .
+228            563    GVPFPKR|LG  0.141    .
+228            574    GPDLAER|AT  0.099    .
+228            588    SDTDIAR|EA  0.120    .
+228            591    DIAREAR|EL  0.204    .
+228            596    ARELLSR|LN  0.079    .
+228            601    SRLNPGK|RR  0.065    .
+228            602    RLNPGKR|RR  0.154    .
+228            603    LNPGKRR|RR  0.133    .
+228            604    NPGKRRR|RD  0.185    .
+228            605    PGKRRRR|DH  0.675 *ProP*
+228            645    LPLSQLK|QV  0.073    .
+228            663    SAATLLK|GI  0.068    .
+228            673    SETELDK|VE  0.057    .
+228            701    FTSLAVK|AL  0.064    .
+228            704    LAVKALR|SR  0.123    .
+228            706    VKALRSR|MN  0.094    .
+228            715    GLVVLFR|SF  0.111    .
+228            727    QLSTLGR|IL  0.108    .
+228            730    TLGRILR|VL  0.232    .
+228            745    PTDVLGR|LT  0.080    .
+228            749    LGRLTVK|TF  0.059    .
+228            764    ILFAEFK|DS  0.075    .
+228            782    SVYTSPK|FQ  0.062    .
+228            787    PKFQLQR|TQ  0.072    .
+228            803    EPAFTER|FV  0.207    .
+228            809    RFVTYLR|QM  0.073    .
+228            816    QMFGASK|LH  0.054    .
+228            820    ASKLHPR|YT  0.149    .
+228            844    FLSDVLK|KS  0.070    .
+228            845    LSDVLKK|SI  0.158    .
+228            850    KKSIAER|DR  0.114    .
+228            852    SIAERDR|YN  0.092    .
+228            863    LSLVLCR|LF  0.083    .
+228            871    FHIMGTK|QY  0.063    .
+228            892    AHLTSTK|SV  0.125    .
+228            903    VLDEFTR|LV  0.087    .
+228            914    ESGIFLK|HH  0.066    .
+228            922    HIQLPLR|GG  0.079    .
+228            926    PLRGGVK|VK  0.060    .
+228            928    RGGVKVK|TK  0.066    .
+228            930    GVKVKTK|LE  0.060    .
+228            939    NYLMLAK|TR  0.054    .
+228            941    LMLAKTR|MK  0.100    .
+228            943    LAKTRMK|DF  0.071    .
+228            961    YVLHLFR|NF  0.077    .
+228            965    LFRNFSK|FF  0.067    .
+228            983    VEASIFK|KQ  0.056    .
+228            984    EASIFKK|QY  0.139    .
+228           1007    VSDDTLR|QK  0.066    .
+228           1009    DDTLRQK|LV  0.070    .
+228           1015    KLVEVLK|SA  0.100    .
+228           1018    EVLKSAK|KI  0.066    .
+228           1019    VLKSAKK|IP  0.074    .
+228           1028    ASVVLEK|EE  0.062    .
+228           1057    TGENSEK|VR  0.065    .
+228           1059    ENSEKVR|NL  0.130    .
+228           1072    LVSQHSK|GQ  0.086    .
+228           1077    SKGQIER|LI  0.095    .
+228           1096    DSVQFLK|PF  0.061    .
+228           1114    FIDVLTK|LV  0.065    .
+228           1122    VHNASGK|DD  0.080    .
+228           1127    GKDDTGK|LL  0.069    .
+228           1130    DTGKLLK|LV  0.066    .
+228           1149    FLESVLR|RN  0.073    .
+228           1150    LESVLRR|NQ  0.137    .
+228           1174    HLILLGK|LT  0.063    .
+228           1189    IPAAVWK|QL  0.089    .
+228           1195    KQLSVEK|LC  0.058    .
+228           1215    GEIITTK|IF  0.074    .
+228           1219    TTKIFEK|VV  0.081    .
+228           1235    VYVTVFK|SA  0.085    .
+228           1251    FLLPVLK|AN  0.060    .
+228           1261    SLVTGNK|LW  0.056    .
+228           1270    IYEALAK|VL  0.058    .
+228           1282    YQTNVEK|PT  0.067    .
+228           1288    KPTALIR|QI  0.106    .
+228           1293    IRQIFGR|FF  0.179    .
+228           1300    FFSVVNR|LQ  0.076    .
+228           1308    QPSLLWK|CE  0.067    .
+228           1311    LLWKCER|KE  0.080    .
+228           1312    LWKCERK|ES  0.079    .
+228           1326    SVLESYK|IY  0.064    .
+228           1346    ITFAIVR|SI  0.128    .
+228           1353    SIHEDQK|LL  0.056    .
+228           1361    LLSLCER|SP  0.102    .
+228           1394    SIYQFIK|NE  0.062    .
+228           1397    QFIKNER|FA  0.104    .
+228           1400    KNERFAK|ES  0.146    .
+228           1410    DLDALYR|SQ  0.090    .
+228           1413    ALYRSQR|LV  0.252    .
+228           1421    VWSLCER|SP  0.103    .
+228           1454    SIYQFIK|AF  0.073    .
+228           1459    IKAFGMR|VP  0.074    .
+228           1465    RVPVPPK|TL  0.062    .
+228           1470    PKTLSNK|HE  0.058    .
+228           1474    SNKHELR|SA  0.282    .
+228           1485    CLFMTQR|EK  0.072    .
+228           1487    FMTQREK|PV  0.065    .
+228           1535    SLGHGFK|LL  0.061    .
+228           1546    TSTNSLR|NA  0.120    .
+228           1552    RNAFGMR|VT  0.081    .
+228           1558    RVTVPPK|TL  0.062    .
+228           1563    PKTLSNK|HE  0.058    .
+228           1567    SNKHELR|SA  0.282    .
+228           1578    CLFMTQR|EK  0.074    .
+228           1580    FMTQREK|VA  0.056    .
+228           1600    NTLCNFK|RE  0.052    .
+228           1601    TLCNFKR|ER  0.174    .
+228           1603    CNFKRER|ER  0.070    .
+228           1605    FKRERER|VS  0.069    .
+228           1633    PGEVGIR|CE  0.076    .
+228           1643    YHEQVTR|PL  0.111    .
+228           1662    YQDLQPK|YS  0.061    .
+228           1675    ALPMNPK|PF  0.065    .
+228           1684    LSALTGK|PV  0.104    .
+228           1689    GKPVMVK|LK  0.061    .
+228           1691    PVMVKLK|WG  0.065    .
+228           1697    KWGMEYK|GY  0.071    .
+228           1732    LGEVLIR|CN  0.072    .
+228           1740    NNVLYIR|GV  0.151    .
+228           1781    MFSSLAR|AG  0.110    .
+228           1785    LARAGAR|LI  0.114    .
+228           1792    LITTAPK|ST  0.068    .
+228           1798    KSTLIPR|LS  0.083    .
+228           1801    LIPRLSR|HV  0.243    .
+228           1814    SPAPEFK|CQ  0.073    .
+228           1824    VVDGGFK|EV  0.057    .
+228           1832    VALSDYK|GK  0.059    .
+228           1834    LSDYKGK|YV  0.084    .
+228           1859    ITAFSDR|AA  0.128    .
+228           1889    AWTQQSR|KE  0.098    .
+228           1890    WTQQSRK|EG  0.097    .
+228           1898    GGLGEMK|IP  0.054    .
+228           1907    ILADLDK|SI  0.093    .
+228           1911    LDKSIAK|NY  0.074    .
+228           1925    PVGIALR|GL  0.084    .
+228           1937    DPAGNVR|HI  0.097    .
+228           1948    NDLPIGR|SV  0.179    .
+228           1955    SVDETMR|TL  0.087    .
+228           1978    ANWSPGK|AT  0.071    .
+228           1982    PGKATIK|PG  0.065    .
+228           1998    ASPSMVK|LK  0.057    .
+228           2000    PSMVKLK|WG  0.071    .
+228           2006    KWGMEYK|GY  0.071    .
+228           2041    LGEVLIR|CN  0.072    .
+228           2049    NNVLYIR|GV  0.140    .
+228           2069    YEQSFNR|LL  0.075    .
+228           2076    LLFILSR|YI  0.115    .
+228           2135    MFSSLAR|AG  0.110    .
+228           2139    LARAGAR|LI  0.114    .
+228           2146    LITTAPK|ST  0.068    .
+228           2152    KSTLIPR|LS  0.083    .
+228           2155    LIPRLSR|HV  0.243    .
+228           2168    SPAPDFK|CQ  0.070    .
+228           2178    VVDGGFK|EV  0.057    .
+228           2186    VALSDYK|GK  0.059    .
+228           2188    LSDYKGK|YV  0.084    .
+228           2213    ITAFSDR|AA  0.128    .
+228           2243    AWTQQSR|KE  0.098    .
+228           2244    WTQQSRK|EG  0.097    .
+228           2252    GGLGEMK|IP  0.054    .
+228           2261    ILADLDK|SI  0.093    .
+228           2265    LDKSIAK|NY  0.074    .
+228           2279    PVGIALR|GL  0.084    .
+228           2291    DPAGNVR|HI  0.099    .
+228           2302    NDLPIGR|SV  0.177    .
+228           2309    SVDETMR|TL  0.087    .
+228           2332    ANWSPGK|AT  0.072    .
+228           2336    PGKATIK|PG  0.063    .
+228           2339    ATIKPGK|GA  0.079    .
+228           2349    TTTSYVK|PI  0.059    .
+228           2352    SYVKPIK|TT  0.064    .
+228           2382    LLPYIQR|S-  0.113    .
+____________________________^_________________
+
+
+
+

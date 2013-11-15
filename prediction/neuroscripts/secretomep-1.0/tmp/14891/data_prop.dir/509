@@ -1,0 +1,169 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1630 509         
+MIMQVGDQEVKCCLVNAISSTCVEMGLEVLLPITGVTLTYTNSSYVIEPGESVGMRVLLTGGSSIQYSIQIGNISNPATL      80
+GPGGTLRHRFDTAGVFPVRVTVFNGVSSVTQALPSYIYVQNRVRGVVLVSHSETKQEMADQATEEVQLVVGVAGGTNMTV     160
+RCDFGVGDPSSVVTVEALHTPFTETPTDVSLSPCPVFTVEVPISGVTITIPEVVRLGSKTPLTYTRTGGSNVNVAWWING     240
+TMATDEFSATTEGPVNVTLHIWNNYNSVTMVTVVQVETKLLGLSVGNVDYGVVHRLSEPFDVVLVLSPPALYNVVYTIDM     320
+GDGTQYDTHTIAHTFPDIGTYVVKAVASNSLSTVQLTKTVVVQDRIVRVQIRGSFMLVARKLATFVAEVHKESTAQTDAN     400
+LHLTWSLDGVNEAQDAGDISLSLETPGSHSLTLTVSNDMSTQSITETLSVVLNDTCAPPIVTLAGGESITVSAAAEPVQV     480
+EAVIVSIECDRNHRVAWQLLTLSRDVITQFPGVTSRVLEFRPGDFVSPGSYLLRVEVSVEGRGDLYRSEEVLLIVEMVTM     560
+VPVLNQPTFTTTNIRETLLLSMTTSILLNNSLSLDSFSYTWTCNFTHNTEQQSGDTDPCGAQSLTPTIENTVLFSVPGVA     640
+MVTVTVGYDVITVGSVNVVLNVTELVVPEVRVSVEGLHDLETDNRMVSMVSCSIRGVPCKYPQPTWTVKQETIGCDQEEE     720
+GEFIFGSDNTTTVVCHCCVWRMTCPKIRSSLPTVLAGGESITVSAAAEPVQVEAVIVSIECDRNHRVAWQLLTLSRDVIT     800
+QFPGVTSRVLEFKPGDFVSPGSYLLRVEVSVEGRGDLYRSEEVLLIVEMVTMVPVLNQPTFTTTNIRETLLLSMTTSILL     880
+NNSLSLDSFSYTWTCNFTHNTEQQSGDTDPCGAQSFTPTIENTVLFSVPGVAMVTVTVGYDVITVGSVNVVLNVTELVVP     960
+EVRVSVEGLHDLETDNRMVSMVSCSIRGVPCKYPQPTWTVKQETIGCDQEEEGEFIFGSDNTTTVVCHCCVWRMTCPKIR    1040
+SSLPTVECLNWRSRTGKQLQYTITQITSPYPVVLYSGPQERCQVVLPGSGNHTIRVVVGDTSGRTDYGLLSLNISTTTPV    1120
+NTTSLLHSGEYRLTLQEVAREVSDTGETDRWIDTVREVLSGMGNSTDIAKYLTSLGSTVAKFINNSKLVVVVCHCCVWRM    1200
+TCPKIRSSLPTVECLNWRSRTGKQLQYTITQITSPYPVVLYSGPQERCQVVLPGSGNHTIRVVVGDTSGRTDYGLLSLNI    1280
+STTTPVNTTSLLHSGEYRLTLQEVAREVSDTGETDRWIDTVREVLSGMGNSTDIAKYLTSLGSTVAKFINNSKEGLELFV    1360
+QYLRLMLSFLEGVQSGGLPEDSLAVLLDALNHLLELTKQRYDATEAPLEEGYVSLLGTAFSLCEDIMARVLTLQLSNHLP    1440
+DEVDLVEEQKAVSVLGRVFTPGSRGGNFQIGGTAFSLPPSLEHGDGCVQGHLCSRHCNGSEVVVNGTNKDITIVLPIEDT    1520
+DNSATASVFSILTHKRVDNSSINEYKVEQQANIHKISVIGATGALNIQVNCRSTDTKVPLLVLVGVDSVPSRSTNIRSVL    1600
+VEHNSETFVQIPQDELTSLSMSVLERERER                                                      1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..............................                                                      1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+509             11    VGDQEVK|CC  0.052    .
+509             56    GESVGMR|VL  0.136    .
+509             87    GPGGTLR|HR  0.096    .
+509             89    GGTLRHR|FD  0.093    .
+509             99    AGVFPVR|VT  0.075    .
+509            122    YIYVQNR|VR  0.116    .
+509            124    YVQNRVR|GV  0.106    .
+509            135    VSHSETK|QE  0.071    .
+509            161    GTNMTVR|CD  0.116    .
+509            215    TIPEVVR|LG  0.080    .
+509            219    VVRLGSK|TP  0.055    .
+509            226    TPLTYTR|TG  0.095    .
+509            279    VVQVETK|LL  0.071    .
+509            295    DYGVVHR|LS  0.086    .
+509            344    IGTYVVK|AV  0.070    .
+509            358    STVQLTK|TV  0.069    .
+509            365    TVVVQDR|IV  0.167    .
+509            368    VQDRIVR|VQ  0.143    .
+509            372    IVRVQIR|GS  0.098    .
+509            380    SFMLVAR|KL  0.096    .
+509            381    FMLVARK|LA  0.072    .
+509            391    FVAEVHK|ES  0.073    .
+509            491    VSIECDR|NH  0.071    .
+509            494    ECDRNHR|VA  0.222    .
+509            504    QLLTLSR|DV  0.184    .
+509            516    FPGVTSR|VL  0.093    .
+509            521    SRVLEFR|PG  0.103    .
+509            534    PGSYLLR|VE  0.083    .
+509            542    EVSVEGR|GD  0.077    .
+509            547    GRGDLYR|SE  0.153    .
+509            575    FTTTNIR|ET  0.066    .
+509            671    LVVPEVR|VS  0.081    .
+509            685    DLETDNR|MV  0.113    .
+509            695    MVSCSIR|GV  0.210    .
+509            700    IRGVPCK|YP  0.076    .
+509            709    QPTWTVK|QE  0.069    .
+509            741    CHCCVWR|MT  0.130    .
+509            746    WRMTCPK|IR  0.069    .
+509            748    MTCPKIR|SS  0.130    .
+509            783    VSIECDR|NH  0.071    .
+509            786    ECDRNHR|VA  0.222    .
+509            796    QLLTLSR|DV  0.184    .
+509            808    FPGVTSR|VL  0.105    .
+509            813    SRVLEFK|PG  0.072    .
+509            826    PGSYLLR|VE  0.083    .
+509            834    EVSVEGR|GD  0.077    .
+509            839    GRGDLYR|SE  0.153    .
+509            867    FTTTNIR|ET  0.066    .
+509            963    LVVPEVR|VS  0.081    .
+509            977    DLETDNR|MV  0.113    .
+509            987    MVSCSIR|GV  0.210    .
+509            992    IRGVPCK|YP  0.076    .
+509           1001    QPTWTVK|QE  0.069    .
+509           1033    CHCCVWR|MT  0.130    .
+509           1038    WRMTCPK|IR  0.071    .
+509           1040    MTCPKIR|SS  0.137    .
+509           1052    VECLNWR|SR  0.118    .
+509           1054    CLNWRSR|TG  0.094    .
+509           1057    WRSRTGK|QL  0.260    .
+509           1081    YSGPQER|CQ  0.083    .
+509           1095    SGNHTIR|VV  0.142    .
+509           1104    VGDTSGR|TD  0.072    .
+509           1132    LHSGEYR|LT  0.105    .
+509           1140    TLQEVAR|EV  0.237    .
+509           1150    DTGETDR|WI  0.118    .
+509           1156    RWIDTVR|EV  0.117    .
+509           1170    NSTDIAK|YL  0.072    .
+509           1181    LGSTVAK|FI  0.092    .
+509           1187    KFINNSK|LV  0.066    .
+509           1199    CHCCVWR|MT  0.130    .
+509           1204    WRMTCPK|IR  0.071    .
+509           1206    MTCPKIR|SS  0.137    .
+509           1218    VECLNWR|SR  0.118    .
+509           1220    CLNWRSR|TG  0.094    .
+509           1223    WRSRTGK|QL  0.260    .
+509           1247    YSGPQER|CQ  0.083    .
+509           1261    SGNHTIR|VV  0.142    .
+509           1270    VGDTSGR|TD  0.072    .
+509           1298    LHSGEYR|LT  0.105    .
+509           1306    TLQEVAR|EV  0.237    .
+509           1316    DTGETDR|WI  0.118    .
+509           1322    RWIDTVR|EV  0.117    .
+509           1336    NSTDIAK|YL  0.072    .
+509           1347    LGSTVAK|FI  0.099    .
+509           1353    KFINNSK|EG  0.056    .
+509           1364    LFVQYLR|LM  0.067    .
+509           1398    HLLELTK|QR  0.062    .
+509           1400    LELTKQR|YD  0.094    .
+509           1429    CEDIMAR|VL  0.083    .
+509           1450    DLVEEQK|AV  0.084    .
+509           1457    AVSVLGR|VF  0.119    .
+509           1464    VFTPGSR|GG  0.068    .
+509           1495    QGHLCSR|HC  0.099    .
+509           1509    VVNGTNK|DI  0.093    .
+509           1535    FSILTHK|RV  0.068    .
+509           1536    SILTHKR|VD  0.142    .
+509           1546    SSINEYK|VE  0.067    .
+509           1555    QQANIHK|IS  0.064    .
+509           1572    NIQVNCR|ST  0.202    .
+509           1577    CRSTDTK|VP  0.071    .
+509           1592    VDSVPSR|ST  0.131    .
+509           1597    SRSTNIR|SV  0.321    .
+509           1626    SMSVLER|ER  0.109    .
+509           1628    SVLERER|ER  0.068    .
+509           1630    LERERER|--  0.097    .
+____________________________^_________________
+
+
+
+

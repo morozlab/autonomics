@@ -1,0 +1,3 @@
+#Sequence length aquired from aacomp run
+# col	ident			avg      	dev      	min      	max       	normal (applied)
+2	     Sequence_length	5.926535	0.755075	2.197225	8.517193	log

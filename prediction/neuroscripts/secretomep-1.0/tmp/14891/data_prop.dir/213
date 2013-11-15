@@ -1,0 +1,413 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2440 213         
+MYLVNRKSGEKLERGRGRTRSSRDISKRGREPLKCSPPLVYSTARAREPGSGRVVSMTTETVSPVLKSGVETGAMTMRKK      80
+GGARLLAANDLSAPTKQLVVEGKMFYPHLTIKSDFLKLSPPFVAQRRICAWQLPFALTFRQKSGYHQKEHNFGSPAIRHD     160
+LRRENPVFAEGINVIPSGHGSIAFSVSTPLRPAYEHISAIRILLCLDKPFCNGLDMDSRICLAAKPPQSCPRCVCPSSSS     240
+WVILRFRILQGSTLHKFYFAAEFLHLSFLHIPEIGTLGLPGLRLWNLLVGTLNFHLTPPWSMASIVMSMENPHSTEQADQ     320
+GSFKKKTRRAPRKQKKSKKPYFKLTWEEKEELNERDRKLAEARLASSKISAPNNTTQFLMQEHKTATPNQTPVGMCYDSD     400
+DGGESLSGVSCDDQEEAKQSSGRFFENDFAETFDSMKADMMENKTRSELIEEIVNLDKIVTNLEMEKEKERFTMAYVVGR     480
+LRPSLLRTSVPVRGDKWYIDPEDMRNYEDTFWGRHRGSVPYSRGPNYDMGGFAPKDSSYPRMPFYYRQLKNPNLKYDYGI     560
+GVRKNYGETFHILEVARTCHTCAISYYIILFVTFVTLAPRAGTKTGGDKKGGGSAPGRVKIGNSMSLKNRKAKMPVGIRD     640
+KATVKRLNMYKTAGPKRNRDGQIVQAAEYQEKAKSGERARIEPNRKWFGNTRTLTQNALQRFQSEMGKIQNNPYQVVMKS     720
+SKVPTGLLQETAKTANVHILKTETFESTFGPKKLRKRPKLAAENLSEMVQKIATDTEKHDEKEVPAEDEPKDAPNDYIFQ     800
+AGQSKRIHAELFKVIDSSDVVIQVLDARDPQGTRSKYVEHFLKTEKAHKHLVFVLNKCDLVPTWVTKGWLVNLSKEHPTL     880
+AFHATLKKSFGKGALINLLRQFSKLHGDKKQISVGFIGYPNVGKSSIINTLMHKKCCKVAPLAGETKVWQYVTLFKRVNL     960
+IDCPGVVSNTSDSNADMICKGVVRMEMVPNPSAYIDPIIQKIKPQYLTQAYKIEEWKDGEDFLAQLFAISLALTFTESFS    1040
+LPRSLPPSLSRGKYSSDVVIQVLDARDPQGTRSKYVEHFLKTEKAHKHLVFVLNKCDLVPTWVTKGWLVNLSKEHPTLAF    1120
+HATLKKSFGKGALINLLRQFSKLHGDKKQISVGFIGYPNVGKSSIINTLMHKKCCKVAPLAGETKVWQYVTLFKRVNLID    1200
+CPGVVSNTSDSNADMICKGVVRMEMVPNPSAYIDPIIQKIKPQYLTQAYKIEEWKDGEDFLAQLCKRMGKLLKKGEPDLD    1280
+AVARIVFQDFQRGRLPYFNTPPNTRPEGEERPTDMSFIEDTAPAEVTEETTEGSHPAQRDAPEDVVLYQLGRSGYLRSYL    1360
+HHSLDHYSELNNMPDSSSSRTRRSSPGNSVLFDLGQIKRRIKHQDTVLAYLDDYGYVNEALGGRMNHVTENDVMSSFSLM    1440
+SVGDLDRALRLFQSMNYLPVTGRVDNEVIGLMRVPRCGVPDIEPNYFSAADHNKKRNGRRKRYVTSNDKWEQEELSFYIE    1520
+NYSSTLHNTVTREEMFRAMTVWAEHVPITFYEVEDPSIADIQISFVEKYHGDKYPFDGPMGVLAHAFYPRNGAVHFDNEE    1600
+NFTAHSKKGINFYYTAAHEFGHTLGLRLELAENYRAYLKEMANWHAPAPEGAECIEHIDAVFRHPRNKRLFFIVGDSYYQ    1680
+LERNKNKKMVVSLDFPKKLSDDFPALEGYTVDAAYTDKKSGMIHLFSGNQTWVYRFEPRELLPGYPKPRNETLTPEGVLG    1760
+ATKDKDDTIYFSPERGMEVYKNGELILQKPEDGTDIEAGLPMFVEGYYATITGTNKYFIYRSKTHKTVRVYENRRLSWDY    1840
+NLPMCEENSLLGSPVAEKMTKLCDAYALLGETEHDIKIPEECYQIMDPFDVKPLEESEMFLYTYSSLSLSVLLSLSLSHS    1920
+LSLSFSLPLSLSITHSYLKEMANWHAPAPEGAECIEHIDAVFRHPRNKRLFFIVGDSYYQLERNKNKKMVVSLDFPKKLS    2000
+DDFPALEGYTVDAAYTDKKSEMIHLFSGNQTWVYRFEPRELLPGYPKPRNETLTPDGVLGATKDKDDTIYFSPERGMEVY    2080
+KNGELILQKPEDGTDIEAGLPMFVEGYYATITGTNKYSIYRSKTHKTVRVYENRRLSWDYNLPMCEENSLLGSPVAEKMT    2160
+KLCDAYALLGRQLSDLKTAQAALSTNARAAFASIPSLRCGAAVQKRGLQRIPMIMQDEQQNDNETGHNMIYFELQTGIII    2240
+KQLQKNKKTFQIQFGLDRGQLKIFIYILSVIIYTCSEHINTQPGWDFQRPLFPNFTFRGRNTGRIKISKNTITHTNKYQN    2320
+MHSHTNIHNYTHTKSEENEMLFNIISSSSSHHLKKRENTLTRVTVPLKWAYVCACRVSSKILLRVSAGCVLQFCPGTLHS    2400
+SLLTEFSNIFTFYWASGESLVLMISTHTHTLTHGHTHEKN                                            2480
+......................P.........................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+......................P.........................................................    1440
+.............................................................P..................    1520
+................................................................................    1600
+....................................................................P...........    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................P...............................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+........................................                                            2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+213              6    -MYLVNR|KS  0.100    .
+213              7    MYLVNRK|SG  0.115    .
+213             11    NRKSGEK|LE  0.058    .
+213             14    SGEKLER|GR  0.109    .
+213             16    EKLERGR|GR  0.079    .
+213             18    LERGRGR|TR  0.098    .
+213             20    RGRGRTR|SS  0.127    .
+213             23    GRTRSSR|DI  0.567 *ProP*
+213             27    SSRDISK|RG  0.062    .
+213             28    SRDISKR|GR  0.265    .
+213             30    DISKRGR|EP  0.083    .
+213             34    RGREPLK|CS  0.064    .
+213             45    LVYSTAR|AR  0.102    .
+213             47    YSTARAR|EP  0.102    .
+213             53    REPGSGR|VV  0.128    .
+213             67    TVSPVLK|SG  0.086    .
+213             78    TGAMTMR|KK  0.125    .
+213             79    GAMTMRK|KG  0.099    .
+213             80    AMTMRKK|GG  0.089    .
+213             84    RKKGGAR|LL  0.090    .
+213             96    DLSAPTK|QL  0.089    .
+213            103    QLVVEGK|MF  0.080    .
+213            112    YPHLTIK|SD  0.083    .
+213            117    IKSDFLK|LS  0.067    .
+213            126    PPFVAQR|RI  0.096    .
+213            127    PFVAQRR|IC  0.136    .
+213            140    PFALTFR|QK  0.088    .
+213            142    ALTFRQK|SG  0.078    .
+213            148    KSGYHQK|EH  0.070    .
+213            158    FGSPAIR|HD  0.096    .
+213            162    AIRHDLR|RE  0.089    .
+213            163    IRHDLRR|EN  0.149    .
+213            191    SVSTPLR|PA  0.134    .
+213            201    EHISAIR|IL  0.070    .
+213            208    ILLCLDK|PF  0.067    .
+213            219    GLDMDSR|IC  0.076    .
+213            225    RICLAAK|PP  0.064    .
+213            232    PPQSCPR|CV  0.187    .
+213            245    SSWVILR|FR  0.108    .
+213            247    WVILRFR|IL  0.083    .
+213            256    QGSTLHK|FY  0.093    .
+213            283    LGLPGLR|LW  0.067    .
+213            324    ADQGSFK|KK  0.064    .
+213            325    DQGSFKK|KT  0.098    .
+213            326    QGSFKKK|TR  0.150    .
+213            328    SFKKKTR|RA  0.113    .
+213            329    FKKKTRR|AP  0.202    .
+213            332    KTRRAPR|KQ  0.265    .
+213            333    TRRAPRK|QK  0.124    .
+213            335    RAPRKQK|KS  0.125    .
+213            336    APRKQKK|SK  0.262    .
+213            338    RKQKKSK|KP  0.083    .
+213            339    KQKKSKK|PY  0.135    .
+213            343    SKKPYFK|LT  0.071    .
+213            349    KLTWEEK|EE  0.056    .
+213            355    KEELNER|DR  0.081    .
+213            357    ELNERDR|KL  0.088    .
+213            358    LNERDRK|LA  0.296    .
+213            363    RKLAEAR|LA  0.125    .
+213            368    ARLASSK|IS  0.067    .
+213            384    FLMQEHK|TA  0.071    .
+213            418    DDQEEAK|QS  0.069    .
+213            423    AKQSSGR|FF  0.129    .
+213            437    ETFDSMK|AD  0.063    .
+213            444    ADMMENK|TR  0.065    .
+213            446    MMENKTR|SE  0.145    .
+213            458    EIVNLDK|IV  0.068    .
+213            467    TNLEMEK|EK  0.061    .
+213            469    LEMEKEK|ER  0.066    .
+213            471    MEKEKER|FT  0.121    .
+213            480    MAYVVGR|LR  0.087    .
+213            482    YVVGRLR|PS  0.059    .
+213            487    LRPSLLR|TS  0.081    .
+213            493    RTSVPVR|GD  0.112    .
+213            496    VPVRGDK|WY  0.145    .
+213            505    IDPEDMR|NY  0.095    .
+213            514    EDTFWGR|HR  0.090    .
+213            516    TFWGRHR|GS  0.094    .
+213            523    GSVPYSR|GP  0.091    .
+213            535    MGGFAPK|DS  0.080    .
+213            541    KDSSYPR|MP  0.107    .
+213            547    RMPFYYR|QL  0.072    .
+213            550    FYYRQLK|NP  0.088    .
+213            555    LKNPNLK|YD  0.073    .
+213            563    DYGIGVR|KN  0.072    .
+213            564    YGIGVRK|NY  0.096    .
+213            577    HILEVAR|TC  0.090    .
+213            600    FVTLAPR|AG  0.074    .
+213            604    APRAGTK|TG  0.074    .
+213            609    TKTGGDK|KG  0.066    .
+213            610    KTGGDKK|GG  0.109    .
+213            618    GGSAPGR|VK  0.099    .
+213            620    SAPGRVK|IG  0.054    .
+213            628    GNSMSLK|NR  0.072    .
+213            630    SMSLKNR|KA  0.112    .
+213            631    MSLKNRK|AK  0.097    .
+213            633    LKNRKAK|MP  0.236    .
+213            639    KMPVGIR|DK  0.083    .
+213            641    PVGIRDK|AT  0.065    .
+213            645    RDKATVK|RL  0.060    .
+213            646    DKATVKR|LN  0.202    .
+213            651    KRLNMYK|TA  0.089    .
+213            656    YKTAGPK|RN  0.062    .
+213            657    KTAGPKR|NR  0.258    .
+213            659    AGPKRNR|DG  0.103    .
+213            672    AAEYQEK|AK  0.070    .
+213            674    EYQEKAK|SG  0.094    .
+213            678    KAKSGER|AR  0.064    .
+213            680    KSGERAR|IE  0.075    .
+213            685    ARIEPNR|KW  0.127    .
+213            686    RIEPNRK|WF  0.085    .
+213            692    KWFGNTR|TL  0.087    .
+213            701    TQNALQR|FQ  0.149    .
+213            708    FQSEMGK|IQ  0.062    .
+213            719    PYQVVMK|SS  0.078    .
+213            722    VVMKSSK|VP  0.059    .
+213            733    LLQETAK|TA  0.074    .
+213            741    ANVHILK|TE  0.055    .
+213            752    ESTFGPK|KL  0.060    .
+213            753    STFGPKK|LR  0.068    .
+213            755    FGPKKLR|KR  0.068    .
+213            756    GPKKLRK|RP  0.072    .
+213            757    PKKLRKR|PK  0.186    .
+213            759    KLRKRPK|LA  0.096    .
+213            771    LSEMVQK|IA  0.095    .
+213            778    IATDTEK|HD  0.073    .
+213            782    TEKHDEK|EV  0.076    .
+213            791    PAEDEPK|DA  0.068    .
+213            805    FQAGQSK|RI  0.073    .
+213            806    QAGQSKR|IH  0.177    .
+213            813    IHAELFK|VI  0.066    .
+213            828    IQVLDAR|DP  0.086    .
+213            834    RDPQGTR|SK  0.091    .
+213            836    PQGTRSK|YV  0.110    .
+213            843    YVEHFLK|TE  0.058    .
+213            846    HFLKTEK|AH  0.055    .
+213            849    KTEKAHK|HL  0.063    .
+213            857    LVFVLNK|CD  0.053    .
+213            867    VPTWVTK|GW  0.069    .
+213            875    WLVNLSK|EH  0.057    .
+213            887    AFHATLK|KS  0.065    .
+213            888    FHATLKK|SF  0.201    .
+213            892    LKKSFGK|GA  0.078    .
+213            900    ALINLLR|QF  0.093    .
+213            904    LLRQFSK|LH  0.078    .
+213            909    SKLHGDK|KQ  0.062    .
+213            910    KLHGDKK|QI  0.170    .
+213            924    GYPNVGK|SS  0.080    .
+213            934    INTLMHK|KC  0.059    .
+213            935    NTLMHKK|CC  0.087    .
+213            938    MHKKCCK|VA  0.071    .
+213            947    PLAGETK|VW  0.061    .
+213            956    QYVTLFK|RV  0.064    .
+213            957    YVTLFKR|VN  0.099    .
+213            980    NADMICK|GV  0.078    .
+213            984    ICKGVVR|ME  0.079    .
+213           1001    IDPIIQK|IK  0.064    .
+213           1003    PIIQKIK|PQ  0.060    .
+213           1012    YLTQAYK|IE  0.061    .
+213           1017    YKIEEWK|DG  0.081    .
+213           1043    ESFSLPR|SL  0.126    .
+213           1051    LPPSLSR|GK  0.082    .
+213           1053    PSLSRGK|YS  0.075    .
+213           1066    IQVLDAR|DP  0.086    .
+213           1072    RDPQGTR|SK  0.091    .
+213           1074    PQGTRSK|YV  0.110    .
+213           1081    YVEHFLK|TE  0.058    .
+213           1084    HFLKTEK|AH  0.055    .
+213           1087    KTEKAHK|HL  0.063    .
+213           1095    LVFVLNK|CD  0.053    .
+213           1105    VPTWVTK|GW  0.069    .
+213           1113    WLVNLSK|EH  0.057    .
+213           1125    AFHATLK|KS  0.065    .
+213           1126    FHATLKK|SF  0.201    .
+213           1130    LKKSFGK|GA  0.078    .
+213           1138    ALINLLR|QF  0.093    .
+213           1142    LLRQFSK|LH  0.078    .
+213           1147    SKLHGDK|KQ  0.062    .
+213           1148    KLHGDKK|QI  0.170    .
+213           1162    GYPNVGK|SS  0.080    .
+213           1172    INTLMHK|KC  0.059    .
+213           1173    NTLMHKK|CC  0.087    .
+213           1176    MHKKCCK|VA  0.071    .
+213           1185    PLAGETK|VW  0.061    .
+213           1194    QYVTLFK|RV  0.064    .
+213           1195    YVTLFKR|VN  0.099    .
+213           1218    NADMICK|GV  0.078    .
+213           1222    ICKGVVR|ME  0.079    .
+213           1239    IDPIIQK|IK  0.064    .
+213           1241    PIIQKIK|PQ  0.060    .
+213           1250    YLTQAYK|IE  0.061    .
+213           1255    YKIEEWK|DG  0.081    .
+213           1266    FLAQLCK|RM  0.070    .
+213           1267    LAQLCKR|MG  0.120    .
+213           1270    LCKRMGK|LL  0.180    .
+213           1273    RMGKLLK|KG  0.069    .
+213           1274    MGKLLKK|GE  0.084    .
+213           1284    DLDAVAR|IV  0.149    .
+213           1292    VFQDFQR|GR  0.089    .
+213           1294    QDFQRGR|LP  0.071    .
+213           1305    NTPPNTR|PE  0.093    .
+213           1311    RPEGEER|PT  0.107    .
+213           1339    GSHPAQR|DA  0.123    .
+213           1352    VLYQLGR|SG  0.077    .
+213           1357    GRSGYLR|SY  0.145    .
+213           1380    PDSSSSR|TR  0.090    .
+213           1382    SSSSRTR|RS  0.169    .
+213           1383    SSSRTRR|SS  0.757 *ProP*
+213           1398    FDLGQIK|RR  0.061    .
+213           1399    DLGQIKR|RI  0.158    .
+213           1400    LGQIKRR|IK  0.163    .
+213           1402    QIKRRIK|HQ  0.169    .
+213           1424    NEALGGR|MN  0.091    .
+213           1447    SVGDLDR|AL  0.085    .
+213           1450    DLDRALR|LF  0.117    .
+213           1463    YLPVTGR|VD  0.080    .
+213           1473    EVIGLMR|VP  0.075    .
+213           1476    GLMRVPR|CG  0.240    .
+213           1494    SAADHNK|KR  0.065    .
+213           1495    AADHNKK|RN  0.089    .
+213           1496    ADHNKKR|NG  0.211    .
+213           1499    NKKRNGR|RK  0.217    .
+213           1500    KKRNGRR|KR  0.111    .
+213           1501    KRNGRRK|RY  0.109    .
+213           1502    RNGRRKR|YV  0.835 *ProP*
+213           1509    YVTSNDK|WE  0.054    .
+213           1532    LHNTVTR|EE  0.087    .
+213           1537    TREEMFR|AM  0.100    .
+213           1568    QISFVEK|YH  0.092    .
+213           1573    EKYHGDK|YP  0.074    .
+213           1590    AHAFYPR|NG  0.092    .
+213           1607    NFTAHSK|KG  0.057    .
+213           1608    FTAHSKK|GI  0.152    .
+213           1627    GHTLGLR|LE  0.063    .
+213           1635    ELAENYR|AY  0.086    .
+213           1639    NYRAYLK|EM  0.052    .
+213           1663    HIDAVFR|HP  0.084    .
+213           1666    AVFRHPR|NK  0.181    .
+213           1668    FRHPRNK|RL  0.076    .
+213           1669    RHPRNKR|LF  0.541 *ProP*
+213           1683    SYYQLER|NK  0.081    .
+213           1685    YQLERNK|NK  0.054    .
+213           1687    LERNKNK|KM  0.070    .
+213           1688    ERNKNKK|MV  0.169    .
+213           1697    VSLDFPK|KL  0.070    .
+213           1698    SLDFPKK|LS  0.107    .
+213           1718    DAAYTDK|KS  0.068    .
+213           1719    AAYTDKK|SG  0.156    .
+213           1735    NQTWVYR|FE  0.084    .
+213           1739    VYRFEPR|EL  0.099    .
+213           1747    LLPGYPK|PR  0.058    .
+213           1749    PGYPKPR|NE  0.085    .
+213           1763    GVLGATK|DK  0.066    .
+213           1765    LGATKDK|DD  0.073    .
+213           1775    IYFSPER|GM  0.087    .
+213           1781    RGMEVYK|NG  0.067    .
+213           1789    GELILQK|PE  0.056    .
+213           1816    TITGTNK|YF  0.060    .
+213           1821    NKYFIYR|SK  0.136    .
+213           1823    YFIYRSK|TH  0.062    .
+213           1826    YRSKTHK|TV  0.123    .
+213           1829    KTHKTVR|VY  0.102    .
+213           1834    VRVYENR|RL  0.091    .
+213           1835    RVYENRR|LS  0.102    .
+213           1858    GSPVAEK|MT  0.058    .
+213           1861    VAEKMTK|LC  0.061    .
+213           1877    ETEHDIK|IP  0.058    .
+213           1892    MDPFDVK|PL  0.072    .
+213           1939    ITHSYLK|EM  0.053    .
+213           1963    HIDAVFR|HP  0.084    .
+213           1966    AVFRHPR|NK  0.181    .
+213           1968    FRHPRNK|RL  0.076    .
+213           1969    RHPRNKR|LF  0.541 *ProP*
+213           1983    SYYQLER|NK  0.081    .
+213           1985    YQLERNK|NK  0.054    .
+213           1987    LERNKNK|KM  0.070    .
+213           1988    ERNKNKK|MV  0.169    .
+213           1997    VSLDFPK|KL  0.070    .
+213           1998    SLDFPKK|LS  0.107    .
+213           2018    DAAYTDK|KS  0.064    .
+213           2019    AAYTDKK|SE  0.156    .
+213           2035    NQTWVYR|FE  0.084    .
+213           2039    VYRFEPR|EL  0.099    .
+213           2047    LLPGYPK|PR  0.056    .
+213           2049    PGYPKPR|NE  0.086    .
+213           2063    GVLGATK|DK  0.069    .
+213           2065    LGATKDK|DD  0.073    .
+213           2075    IYFSPER|GM  0.087    .
+213           2081    RGMEVYK|NG  0.067    .
+213           2089    GELILQK|PE  0.056    .
+213           2116    TITGTNK|YS  0.060    .
+213           2121    NKYSIYR|SK  0.125    .
+213           2123    YSIYRSK|TH  0.067    .
+213           2126    YRSKTHK|TV  0.124    .
+213           2129    KTHKTVR|VY  0.102    .
+213           2134    VRVYENR|RL  0.091    .
+213           2135    RVYENRR|LS  0.102    .
+213           2158    GSPVAEK|MT  0.058    .
+213           2161    VAEKMTK|LC  0.061    .
+213           2171    AYALLGR|QL  0.095    .
+213           2177    RQLSDLK|TA  0.065    .
+213           2188    ALSTNAR|AA  0.199    .
+213           2198    ASIPSLR|CG  0.097    .
+213           2205    CGAAVQK|RG  0.061    .
+213           2206    GAAVQKR|GL  0.308    .
+213           2210    QKRGLQR|IP  0.102    .
+213           2241    QTGIIIK|QL  0.071    .
+213           2245    IIKQLQK|NK  0.059    .
+213           2247    KQLQKNK|KT  0.079    .
+213           2248    QLQKNKK|TF  0.117    .
+213           2258    IQFGLDR|GQ  0.083    .
+213           2262    LDRGQLK|IF  0.073    .
+213           2289    PGWDFQR|PL  0.096    .
+213           2298    FPNFTFR|GR  0.127    .
+213           2300    NFTFRGR|NT  0.095    .
+213           2304    RGRNTGR|IK  0.095    .
+213           2306    RNTGRIK|IS  0.061    .
+213           2309    GRIKISK|NT  0.075    .
+213           2317    TITHTNK|YQ  0.066    .
+213           2334    HNYTHTK|SE  0.087    .
+213           2354    SSSHHLK|KR  0.085    .
+213           2355    SSHHLKK|RE  0.108    .
+213           2356    SHHLKKR|EN  0.235    .
+213           2362    RENTLTR|VT  0.086    .
+213           2368    RVTVPLK|WA  0.062    .
+213           2376    AYVCACR|VS  0.086    .
+213           2380    ACRVSSK|IL  0.065    .
+213           2384    SSKILLR|VS  0.087    .
+213           2439    HGHTHEK|N-  0.069    .
+____________________________^_________________
+
+
+
+

@@ -24,7 +24,7 @@ Base = declarative_base()
 
 def ssh_connect(ssh_credentials, retries=None):
     '''
-        ssh_credentials (settings.Credentials):
+        ssh_credentials
             An object holding the connection details for the to-be-created
             SSHConnection
 

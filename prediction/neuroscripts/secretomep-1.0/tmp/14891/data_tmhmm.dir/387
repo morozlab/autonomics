@@ -1,0 +1,9 @@
+# 387 Length: 1812
+# 387 Number of predicted TMHs:  1
+# 387 Exp number of AAs in TMHs: 20.963
+# 387 Exp number, first 60 AAs:  20.95714
+# 387 Total prob of N-in:        0.93382
+# 387 POSSIBLE N-term signal sequence
+387	TMHMM2.0	inside	     1    11
+387	TMHMM2.0	TMhelix	    12    34
+387	TMHMM2.0	outside	    35  1812

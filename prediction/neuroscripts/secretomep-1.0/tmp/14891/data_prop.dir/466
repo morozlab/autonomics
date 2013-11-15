@@ -1,0 +1,234 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1680 466         
+MLLNAVVGASIGLTRFLVGSAVGSWIPGNSGSLLVNTTRNSPISRNLRSSRLNDVSMMCQCLRVLVELVHPLSFVRKHGA      80
+VVDAGLALKAKSIQMAAASDFDFGSRWRWKNNHSIQLCAAETCDPLGANSNLTRVIKFPMTDTGPCYFSFRSVNKFTNEL     160
+ILNFSVTMVEGKHHSTITPTFLYRSDSGAAFTETKGCTIDLGIFEIQFGDTSVGNSLTNTFQKCPLDYDAHFPTHLQDRA     240
+RQMFAFHPFNFVSGLDVDGPVLSGTCSGVELCSCEIPTVALQKENGTVLALVYSLDPITLQWSINDVNVTALNVDSSDIR     320
+TLSRVQVPTNVTSIVAVTVVNTVSGGVAKERIEYLVKDQESNSDGSGKEKSKKSQKSTNVRLQFAMLTEKQRRSIDIQQV     400
+RLGSERRWRGRGRGWRRMERRMERVEMGGRWEGGGGEGGDGGVGGAVEMGGRWWRWRRGRQGGWWRRWRQWRRFSGTWRP     480
+KHSLARQNNLLQVGEVVTTIPTIGFNVETVDYKNMRFQVWDLGGQTSIRPYWRCYYSNTDAIIYVVDSIDKERIGISKAE     560
+LVSMLEEDELKDAILCVFANKQAICGIGQRLHSMNLGLAGGAGDFVCVCKQTEHLSHMRPSSSHRAEAARCTVSRRERET     640
+ETETETETETESKERGGRDIEGAMTPTEVSQELGLSALKNRTWAIFKTSAVKGGMGLEEAMEWWVPMESNPEVWNAFLQS     720
+LGLPLNIQFTDVFGLDPELLAMVPGKPLAALLLFPISENTEKLSVEKQAETTSVSEEVFFMKQTVGNACGTVGILHAVLN     800
+NPSIPVGGELEVFRAACQGKTPGERALLLEENAGIAERHSTAASTGQTAAPSADEKVTLHFVAFVEVAGRLWELDGRKEK     880
+ACDWGIVEGDVFGLDPELLAMVPGQPLAALLLFPISENTEKLSVEKQAETTSVSEEVFFMKQTVGNACGTVGILHAVLNN     960
+PSIPVGGELEVFRAACQGKTPGERALLLEENAGIAERHSTAASTGQTAAPSADEKVTLHFVAFVEVAGRLWELDGRKEKA    1040
+CDWGVVEGGDVLGAAAGAVKRYMACDPEEMRFTVNCPRVSPLQASTASAFLISSLLSTVFTAAGSSSFFSSSLVSSSLVS    1120
+STSSVLAFFISGSSSLASAGRFVSSSFSTSSVTPFSSVAAPFSAGVSSLVSSTGFVSSTGFVSSTGFVSLMVLVSSTVLT    1200
+GVSADMLCETKKTGRFNDSCSNFAEKFVPKNLTSMDLSESSQVSQFYNGKNIFLTGGTGFLGKCFMEKVLRSCPGVGNIY    1280
+MLCRGKRGKTPQERMDKLFSEALFDNVRENLPGQIKKVIPVVGDVLEKGLGLSEEDEKLVTDNCHVIIHSAATIRFDDHI    1360
+KLSLQLNVGGTVKMVEIARKTKNLILATLACNNLPSSLPHLPVQVKGCYGGWQGCEYCTCILLFDCCVFLRCFGVYCWSR    1440
+HDCQSFSIYVPHVMAAMTEPLLRDRPNTYCLTKALTEAFLFQYATDLPMGIFRPSIVGASWKEPAPGWIDNYNGPSGLFI    1520
+AIGKGVLRILEGDVTKVADIIPIDYCVNMLIAVGWYTSTLPVEDKPLIYHCTSGTKHPYTWLQLGTLMLEFFSQQEPYNE    1600
+VFRRPAVNFATSKMELAYWKLISHTIPAYLADGAAKVSGSKPIMRRAYEKVHKASSTFTFFTKREWTGISVNRGFGKLGS    1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+.........................................................P......................     480
+................................................................................     560
+.............................................................................P..     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+......P.........................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+466             15    ASIGLTR|FL  0.099    .
+466             39    LLVNTTR|NS  0.081    .
+466             45    RNSPISR|NL  0.108    .
+466             48    PISRNLR|SS  0.362    .
+466             51    RNLRSSR|LN  0.283    .
+466             63    MMCQCLR|VL  0.074    .
+466             76    HPLSFVR|KH  0.108    .
+466             77    PLSFVRK|HG  0.106    .
+466             89    DAGLALK|AK  0.064    .
+466             91    GLALKAK|SI  0.108    .
+466            106    DFDFGSR|WR  0.079    .
+466            108    DFGSRWR|WK  0.075    .
+466            110    GSRWRWK|NN  0.079    .
+466            134    ANSNLTR|VI  0.096    .
+466            137    NLTRVIK|FP  0.111    .
+466            151    PCYFSFR|SV  0.219    .
+466            155    SFRSVNK|FT  0.077    .
+466            172    VTMVEGK|HH  0.083    .
+466            184    TPTFLYR|SD  0.189    .
+466            195    AAFTETK|GC  0.068    .
+466            223    LTNTFQK|CP  0.069    .
+466            239    PTHLQDR|AR  0.087    .
+466            241    HLQDRAR|QM  0.115    .
+466            283    PTVALQK|EN  0.076    .
+466            320    VDSSDIR|TL  0.101    .
+466            324    DIRTLSR|VQ  0.072    .
+466            349    VSGGVAK|ER  0.066    .
+466            351    GGVAKER|IE  0.097    .
+466            357    RIEYLVK|DQ  0.068    .
+466            368    NSDGSGK|EK  0.069    .
+466            370    DGSGKEK|SK  0.097    .
+466            372    SGKEKSK|KS  0.066    .
+466            373    GKEKSKK|SQ  0.137    .
+466            376    KSKKSQK|ST  0.093    .
+466            381    QKSTNVR|LQ  0.108    .
+466            390    FAMLTEK|QR  0.058    .
+466            392    MLTEKQR|RS  0.095    .
+466            393    LTEKQRR|SI  0.445    .
+466            401    IDIQQVR|LG  0.080    .
+466            406    VRLGSER|RW  0.087    .
+466            407    RLGSERR|WR  0.194    .
+466            409    GSERRWR|GR  0.427    .
+466            411    ERRWRGR|GR  0.136    .
+466            413    RWRGRGR|GW  0.159    .
+466            416    GRGRGWR|RM  0.249    .
+466            417    RGRGWRR|ME  0.164    .
+466            420    GWRRMER|RM  0.326    .
+466            421    WRRMERR|ME  0.204    .
+466            424    MERRMER|VE  0.269    .
+466            430    RVEMGGR|WE  0.101    .
+466            452    AVEMGGR|WW  0.077    .
+466            455    MGGRWWR|WR  0.251    .
+466            457    GRWWRWR|RG  0.135    .
+466            458    RWWRWRR|GR  0.510 *ProP*
+466            460    WRWRRGR|QG  0.439    .
+466            466    RQGGWWR|RW  0.102    .
+466            467    QGGWWRR|WR  0.115    .
+466            469    GWWRRWR|QW  0.286    .
+466            472    RRWRQWR|RF  0.394    .
+466            473    RWRQWRR|FS  0.324    .
+466            479    RFSGTWR|PK  0.101    .
+466            481    SGTWRPK|HS  0.064    .
+466            486    PKHSLAR|QN  0.101    .
+466            513    VETVDYK|NM  0.058    .
+466            516    VDYKNMR|FQ  0.101    .
+466            529    GGQTSIR|PY  0.089    .
+466            533    SIRPYWR|CY  0.102    .
+466            551    VVDSIDK|ER  0.052    .
+466            553    DSIDKER|IG  0.079    .
+466            558    ERIGISK|AE  0.062    .
+466            571    LEEDELK|DA  0.067    .
+466            581    LCVFANK|QA  0.075    .
+466            590    ICGIGQR|LH  0.077    .
+466            610    DFVCVCK|QT  0.072    .
+466            619    EHLSHMR|PS  0.090    .
+466            625    RPSSSHR|AE  0.106    .
+466            630    HRAEAAR|CT  0.110    .
+466            635    ARCTVSR|RE  0.101    .
+466            636    RCTVSRR|ER  0.169    .
+466            638    TVSRRER|ET  0.519 *ProP*
+466            653    ETETESK|ER  0.060    .
+466            655    ETESKER|GG  0.128    .
+466            658    SKERGGR|DI  0.487    .
+466            679    LGLSALK|NR  0.053    .
+466            681    LSALKNR|TW  0.100    .
+466            687    RTWAIFK|TS  0.064    .
+466            692    FKTSAVK|GG  0.061    .
+466            746    LAMVPGK|PL  0.075    .
+466            762    ISENTEK|LS  0.061    .
+466            767    EKLSVEK|QA  0.070    .
+466            782    EEVFFMK|QT  0.067    .
+466            814    GELEVFR|AA  0.137    .
+466            820    RAACQGK|TP  0.069    .
+466            825    GKTPGER|AL  0.083    .
+466            838    NAGIAER|HS  0.095    .
+466            856    APSADEK|VT  0.067    .
+466            870    FVEVAGR|LW  0.076    .
+466            877    LWELDGR|KE  0.072    .
+466            878    WELDGRK|EK  0.060    .
+466            880    LDGRKEK|AC  0.217    .
+466            921    ISENTEK|LS  0.061    .
+466            926    EKLSVEK|QA  0.070    .
+466            941    EEVFFMK|QT  0.067    .
+466            973    GELEVFR|AA  0.137    .
+466            979    RAACQGK|TP  0.069    .
+466            984    GKTPGER|AL  0.083    .
+466            997    NAGIAER|HS  0.095    .
+466           1015    APSADEK|VT  0.067    .
+466           1029    FVEVAGR|LW  0.076    .
+466           1036    LWELDGR|KE  0.072    .
+466           1037    WELDGRK|EK  0.059    .
+466           1039    LDGRKEK|AC  0.205    .
+466           1060    AAAGAVK|RY  0.063    .
+466           1061    AAGAVKR|YM  0.154    .
+466           1071    CDPEEMR|FT  0.085    .
+466           1078    FTVNCPR|VS  0.069    .
+466           1141    SLASAGR|FV  0.230    .
+466           1211    DMLCETK|KT  0.062    .
+466           1212    MLCETKK|TG  0.082    .
+466           1215    ETKKTGR|FN  0.094    .
+466           1226    CSNFAEK|FV  0.116    .
+466           1230    AEKFVPK|NL  0.069    .
+466           1250    SQFYNGK|NI  0.069    .
+466           1263    GTGFLGK|CF  0.066    .
+466           1268    GKCFMEK|VL  0.065    .
+466           1271    FMEKVLR|SC  0.118    .
+466           1284    NIYMLCR|GK  0.111    .
+466           1286    YMLCRGK|RG  0.054    .
+466           1287    MLCRGKR|GK  0.727 *ProP*
+466           1289    CRGKRGK|TP  0.065    .
+466           1294    GKTPQER|MD  0.072    .
+466           1297    PQERMDK|LF  0.143    .
+466           1308    ALFDNVR|EN  0.073    .
+466           1316    NLPGQIK|KV  0.077    .
+466           1317    LPGQIKK|VI  0.124    .
+466           1328    VGDVLEK|GL  0.073    .
+466           1338    LSEEDEK|LV  0.070    .
+466           1355    HSAATIR|FD  0.122    .
+466           1361    RFDDHIK|LS  0.059    .
+466           1373    NVGGTVK|MV  0.095    .
+466           1379    KMVEIAR|KT  0.081    .
+466           1380    MVEIARK|TK  0.087    .
+466           1382    EIARKTK|NL  0.118    .
+466           1406    HLPVQVK|GC  0.070    .
+466           1431    DCCVFLR|CF  0.097    .
+466           1440    GVYCWSR|HD  0.099    .
+466           1463    MTEPLLR|DR  0.076    .
+466           1465    EPLLRDR|PN  0.077    .
+466           1473    NTYCLTK|AL  0.067    .
+466           1493    LPMGIFR|PS  0.105    .
+466           1502    IVGASWK|EP  0.064    .
+466           1524    LFIAIGK|GV  0.081    .
+466           1528    IGKGVLR|IL  0.088    .
+466           1536    LEGDVTK|VA  0.073    .
+466           1565    TLPVEDK|PL  0.066    .
+466           1576    HCTSGTK|HP  0.058    .
+466           1603    PYNEVFR|RP  0.080    .
+466           1604    YNEVFRR|PA  0.182    .
+466           1613    VNFATSK|ME  0.057    .
+466           1620    MELAYWK|LI  0.071    .
+466           1636    LADGAAK|VS  0.068    .
+466           1641    AKVSGSK|PI  0.056    .
+466           1645    GSKPIMR|RA  0.116    .
+466           1646    SKPIMRR|AY  0.218    .
+466           1650    MRRAYEK|VH  0.066    .
+466           1653    AYEKVHK|AS  0.073    .
+466           1663    TFTFFTK|RE  0.065    .
+466           1664    FTFFTKR|EW  0.151    .
+466           1673    TGISVNR|GF  0.151    .
+466           1677    VNRGFGK|LG  0.074    .
+____________________________^_________________
+
+
+
+

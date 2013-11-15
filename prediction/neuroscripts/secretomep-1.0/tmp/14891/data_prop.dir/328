@@ -1,0 +1,354 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1966 328         
+MVMDQDVDKFAGKVKAFLKAKEEIEELVRKRVVANRQSEYPLTKNQLRAEIRAMMAKRKDLLNGSYTAIQSSLRNQKSLF      80
+VDEINTVTEQFEKEEKEEKENPTTTTTSEPTGDDGPPGVGDPVELPPPPPPPPPATIPATAVVPPPVTHHLPPPVMQDPH     160
+HPTVIDTALLHQTDYHTEMFSAAPPPTMSISNLLASVQSSDFRTPVTAAGTTTPGTPEYPESVVSGPPPLLDLPAGYDKP     240
+SSSSRDGYRYDKEGSYRSKSKDPYTSDYKRSSSKPRSSRYEEEYRSSSSSRRRSPSPSRSYSSSKEYDKYGKSVKDLFKT     320
+PDYYSSSRRSGSGHPGSSSSSSRSERRRREEEWYKKHDPYAMLTKYGIPYTGSSSTHRYPDHLTSSSSSRSREDPYYYDR     400
+KRYEEYYKSERSSSSSSRSKDHYYSSHRGSSREYYEKSSSSHHHSERSEDKYKDRSYRGEEGKYYSRGGGRGGEEIEGYP     480
+PGDYPPTLPPPGGSSSREGSYPPREERYPSYPPSSGGGDRHSSPAPDDTASRHSSVEPSPKTDPPAGASSPAVDAPPLAD     560
+NGDGDDQSSPESTVRESAMDRMEQAIANIPRTPEESPPPEPAPTPPVVTAVVPSPSPKFEMKSPPPPQPAPSPFLGCLGS     640
+IADEFEIGMQEPQIYDPKRKAIIDSILPKPKYCDILKETFVDQKQEPEETRTPPEDVPKTPPTVLQVQAPRTPQEPPQTP     720
+PGVPQTPPGAPQTPPGVPQTPPRAPQTPPGELVTPPEAPRTPSEPAPGIPSEAPVILPTNSQEFPTLEGDSYPTTIVSPP     800
+SFPIESESSKPPPLISDMPKPTPATPIVLTTKRMRVKPSLGINESSDEEEGEILSDSEHPKHKPAISPIKEEPGGGDLIE     880
+KEPATGVLLVGQEDHTGEADQVGGGLEDHEGQAGGIKQEDPVTVAAAPPDPGSFPIRSKRDLFKARFFQPDLKIDFAKPE     960
+EDAAQPELAGGESEKQVVNPEKYSRTKRFKDVLQAHAAIMQDEPQEGGSDTTAKDLEPVAAADPATAGISLVGKRKRLLN    1040
+DYIASLESNPEPATKIPKQEGDDQGGEGESIPSKEHLPKLRIKPVSGGMYTSEALTGPPPLHKGSITPDGVPKCVIKLPS    1120
+SGGKGKGRSSRRALRSREASTDSSKSETPVGEGGKSRSTRSRKGRKPPVKSYVEPEDDPDDKGGARRGIIMRKKLEGYDF    1200
+YRETLGSPVNIVAPMVDMSELAWRDLSRHYGADLCYTPMFHSAHFATSANYRAENFTTNAGDRPLIVQFCANDPEMILKA    1280
+AKLVEDQCDAVDLNLGCPQGIAKRGHYGAFLQDDWELIERIVSLLHKELAVPVTVKIRVFDDVERTVRYAKMIERAGCQL    1360
+LTVHGRTREMKGPHTGIADWDKIKAIREAIKIPMFANGNILYSEDIQRCIKHTGVDGVMTAETNLFNPALFTGLHPPTWE    1440
+VVDRYLEIALKYKTGFIYVKGHVFKIYNLSFQVRTDLRDILASVKSVEDIVAAQQKIKAGLMSDSEAVDPVLRVQEVTTC    1520
+DNFKSLPYWICQPYFRSTRLEALSSDTVARETELQQQRALERKQRKEAKRQRKADAAARCVTNPAKRRKYPNCGTCSRNP    1600
+ASAKCIHQLCKPCCLPVTVEQKGRCEHHGVFTDNERWVARHLRTETAESAETMTDREVRVGGKNYDLIRNTAKRYDEGKE    1680
+KPVVGANSTTDKHRRKVEKLMSRMDKPINIPEAPKEWTPAQPREFVRNVMGSSAGAGSGEFHVYRAIRKRTMQREAWMDK    1760
+QKKISDEQAAFEERVRENKEKEEARTAKKRAKRQRKKANKKKPKLEEEEEEEEEEEEEGVKEEEMKEELDFLIHRRPEKL    1840
+KIVIAVVLAELGFLVFRVVTHSNVGASCKVGHIGLVLAEVGILAVGNHPSLQVCQNASRICHPPHHCYINKWDVWVRGIP    1920
+PPICLGVVLDVPQLAYLTPQCCLVPVPELKERLRKRPRISGGRCRN                                      2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+...........................................................P....................     960
+...........................P....................................................    1040
+................................................................................    1120
+..............P........................P........................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................P...............................................    1840
+................................................................................    1920
+..............................................                                      2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+328              9    MDQDVDK|FA  0.109    .
+328             13    VDKFAGK|VK  0.054    .
+328             15    KFAGKVK|AF  0.070    .
+328             19    KVKAFLK|AK  0.076    .
+328             21    KAFLKAK|EE  0.067    .
+328             29    EIEELVR|KR  0.067    .
+328             30    IEELVRK|RV  0.100    .
+328             31    EELVRKR|VV  0.178    .
+328             36    KRVVANR|QS  0.105    .
+328             44    SEYPLTK|NQ  0.062    .
+328             48    LTKNQLR|AE  0.093    .
+328             52    QLRAEIR|AM  0.118    .
+328             57    IRAMMAK|RK  0.073    .
+328             58    RAMMAKR|KD  0.137    .
+328             59    AMMAKRK|DL  0.118    .
+328             74    AIQSSLR|NQ  0.070    .
+328             77    SSLRNQK|SL  0.194    .
+328             93    VTEQFEK|EE  0.055    .
+328             96    QFEKEEK|EE  0.056    .
+328             99    KEEKEEK|EN  0.060    .
+328            203    VQSSDFR|TP  0.088    .
+328            239    LPAGYDK|PS  0.073    .
+328            245    KPSSSSR|DG  0.142    .
+328            249    SSRDGYR|YD  0.099    .
+328            252    DGYRYDK|EG  0.086    .
+328            257    DKEGSYR|SK  0.155    .
+328            259    EGSYRSK|SK  0.109    .
+328            261    SYRSKSK|DP  0.076    .
+328            269    PYTSDYK|RS  0.056    .
+328            270    YTSDYKR|SS  0.443    .
+328            274    YKRSSSK|PR  0.067    .
+328            276    RSSSKPR|SS  0.322    .
+328            279    SKPRSSR|YE  0.371    .
+328            285    RYEEEYR|SS  0.132    .
+328            291    RSSSSSR|RR  0.133    .
+328            292    SSSSSRR|RS  0.124    .
+328            293    SSSSRRR|SP  0.461    .
+328            299    RSPSPSR|SY  0.119    .
+328            305    RSYSSSK|EY  0.088    .
+328            309    SSKEYDK|YG  0.064    .
+328            312    EYDKYGK|SV  0.107    .
+328            315    KYGKSVK|DL  0.081    .
+328            319    SVKDLFK|TP  0.057    .
+328            328    DYYSSSR|RS  0.094    .
+328            329    YYSSSRR|SG  0.340    .
+328            343    SSSSSSR|SE  0.176    .
+328            346    SSSRSER|RR  0.376    .
+328            347    SSRSERR|RR  0.128    .
+328            348    SRSERRR|RE  0.193    .
+328            349    RSERRRR|EE  0.473    .
+328            355    REEEWYK|KH  0.062    .
+328            356    EEEWYKK|HD  0.083    .
+328            365    PYAMLTK|YG  0.069    .
+328            378    GSSSTHR|YP  0.131    .
+328            390    TSSSSSR|SR  0.177    .
+328            392    SSSSRSR|ED  0.093    .
+328            400    DPYYYDR|KR  0.072    .
+328            401    PYYYDRK|RY  0.082    .
+328            402    YYYDRKR|YE  0.153    .
+328            408    RYEEYYK|SE  0.067    .
+328            411    EYYKSER|SS  0.118    .
+328            418    SSSSSSR|SK  0.306    .
+328            420    SSSSRSK|DH  0.079    .
+328            428    HYYSSHR|GS  0.093    .
+328            432    SHRGSSR|EY  0.098    .
+328            437    SREYYEK|SS  0.102    .
+328            447    SHHHSER|SE  0.222    .
+328            451    SERSEDK|YK  0.085    .
+328            453    RSEDKYK|DR  0.087    .
+328            455    EDKYKDR|SY  0.182    .
+328            458    YKDRSYR|GE  0.371    .
+328            463    YRGEEGK|YY  0.094    .
+328            467    EGKYYSR|GG  0.096    .
+328            471    YSRGGGR|GG  0.122    .
+328            497    PGGSSSR|EG  0.081    .
+328            504    EGSYPPR|EE  0.075    .
+328            507    YPPREER|YP  0.214    .
+328            520    SSGGGDR|HS  0.134    .
+328            532    PDDTASR|HS  0.081    .
+328            541    SVEPSPK|TD  0.069    .
+328            575    SPESTVR|ES  0.084    .
+328            581    RESAMDR|ME  0.102    .
+328            591    AIANIPR|TP  0.106    .
+328            618    VPSPSPK|FE  0.094    .
+328            622    SPKFEMK|SP  0.096    .
+328            658    PQIYDPK|RK  0.060    .
+328            659    QIYDPKR|KA  0.160    .
+328            660    IYDPKRK|AI  0.108    .
+328            669    IDSILPK|PK  0.067    .
+328            671    SILPKPK|YC  0.077    .
+328            677    KYCDILK|ET  0.065    .
+328            684    ETFVDQK|QE  0.058    .
+328            691    QEPEETR|TP  0.070    .
+328            699    PPEDVPK|TP  0.069    .
+328            711    LQVQAPR|TP  0.074    .
+328            743    VPQTPPR|AP  0.097    .
+328            760    TPPEAPR|TP  0.083    .
+328            810    IESESSK|PP  0.066    .
+328            820    LISDMPK|PT  0.076    .
+328            832    PIVLTTK|RM  0.058    .
+328            833    IVLTTKR|MR  0.097    .
+328            835    LTTKRMR|VK  0.071    .
+328            837    TKRMRVK|PS  0.075    .
+328            861    SDSEHPK|HK  0.085    .
+328            863    SEHPKHK|PA  0.081    .
+328            870    PAISPIK|EE  0.065    .
+328            881    GGDLIEK|EP  0.057    .
+328            917    GQAGGIK|QE  0.067    .
+328            937    PGSFPIR|SK  0.206    .
+328            939    SFPIRSK|RD  0.055    .
+328            940    FPIRSKR|DL  0.812 *ProP*
+328            944    SKRDLFK|AR  0.071    .
+328            946    RDLFKAR|FF  0.123    .
+328            953    FFQPDLK|ID  0.059    .
+328            958    LKIDFAK|PE  0.082    .
+328            975    AGGESEK|QV  0.076    .
+328            982    QVVNPEK|YS  0.071    .
+328            985    NPEKYSR|TK  0.076    .
+328            987    EKYSRTK|RF  0.071    .
+328            988    KYSRTKR|FK  0.782 *ProP*
+328            990    SRTKRFK|DV  0.133    .
+328           1014    GSDTTAK|DL  0.106    .
+328           1034    GISLVGK|RK  0.063    .
+328           1035    ISLVGKR|KR  0.091    .
+328           1036    SLVGKRK|RL  0.072    .
+328           1037    LVGKRKR|LL  0.238    .
+328           1055    NPEPATK|IP  0.070    .
+328           1058    PATKIPK|QE  0.073    .
+328           1074    GESIPSK|EH  0.072    .
+328           1079    SKEHLPK|LR  0.066    .
+328           1081    EHLPKLR|IK  0.091    .
+328           1083    LPKLRIK|PV  0.123    .
+328           1103    GPPPLHK|GS  0.064    .
+328           1113    TPDGVPK|CV  0.098    .
+328           1117    VPKCVIK|LP  0.072    .
+328           1124    LPSSGGK|GK  0.084    .
+328           1126    SSGGKGK|GR  0.073    .
+328           1128    GGKGKGR|SS  0.189    .
+328           1131    GKGRSSR|RA  0.381    .
+328           1132    KGRSSRR|AL  0.179    .
+328           1135    SSRRALR|SR  0.562 *ProP*
+328           1137    RRALRSR|EA  0.125    .
+328           1145    ASTDSSK|SE  0.082    .
+328           1155    PVGEGGK|SR  0.066    .
+328           1157    GEGGKSR|ST  0.139    .
+328           1160    GKSRSTR|SR  0.574 *ProP*
+328           1162    SRSTRSR|KG  0.112    .
+328           1163    RSTRSRK|GR  0.224    .
+328           1165    TRSRKGR|KP  0.397    .
+328           1166    RSRKGRK|PP  0.083    .
+328           1170    GRKPPVK|SY  0.106    .
+328           1182    EDDPDDK|GG  0.059    .
+328           1186    DDKGGAR|RG  0.072    .
+328           1187    DKGGARR|GI  0.150    .
+328           1192    RRGIIMR|KK  0.099    .
+328           1193    RGIIMRK|KL  0.088    .
+328           1194    GIIMRKK|LE  0.091    .
+328           1202    EGYDFYR|ET  0.087    .
+328           1224    MSELAWR|DL  0.140    .
+328           1228    AWRDLSR|HY  0.126    .
+328           1252    ATSANYR|AE  0.093    .
+328           1263    TTNAGDR|PL  0.105    .
+328           1279    DPEMILK|AA  0.080    .
+328           1282    MILKAAK|LV  0.089    .
+328           1303    CPQGIAK|RG  0.066    .
+328           1304    PQGIAKR|GH  0.170    .
+328           1320    DWELIER|IV  0.086    .
+328           1327    IVSLLHK|EL  0.063    .
+328           1336    AVPVTVK|IR  0.052    .
+328           1338    PVTVKIR|VF  0.130    .
+328           1345    VFDDVER|TV  0.094    .
+328           1348    DVERTVR|YA  0.307    .
+328           1351    RTVRYAK|MI  0.227    .
+328           1355    YAKMIER|AG  0.090    .
+328           1366    LLTVHGR|TR  0.110    .
+328           1368    TVHGRTR|EM  0.089    .
+328           1371    GRTREMK|GP  0.250    .
+328           1382    GIADWDK|IK  0.064    .
+328           1384    ADWDKIK|AI  0.076    .
+328           1387    DKIKAIR|EA  0.112    .
+328           1391    AIREAIK|IP  0.065    .
+328           1408    YSEDIQR|CI  0.090    .
+328           1411    DIQRCIK|HT  0.143    .
+328           1444    TWEVVDR|YL  0.177    .
+328           1451    YLEIALK|YK  0.058    .
+328           1453    EIALKYK|TG  0.066    .
+328           1460    TGFIYVK|GH  0.061    .
+328           1465    VKGHVFK|IY  0.069    .
+328           1474    NLSFQVR|TD  0.089    .
+328           1478    QVRTDLR|DI  0.115    .
+328           1485    DILASVK|SV  0.105    .
+328           1496    IVAAQQK|IK  0.068    .
+328           1498    AAQQKIK|AG  0.063    .
+328           1513    AVDPVLR|VQ  0.067    .
+328           1524    TTCDNFK|SL  0.086    .
+328           1536    ICQPYFR|ST  0.121    .
+328           1539    PYFRSTR|LE  0.130    .
+328           1550    SSDTVAR|ET  0.139    .
+328           1558    TELQQQR|AL  0.110    .
+328           1562    QQRALER|KQ  0.081    .
+328           1563    QRALERK|QR  0.095    .
+328           1565    ALERKQR|KE  0.210    .
+328           1566    LERKQRK|EA  0.130    .
+328           1569    KQRKEAK|RQ  0.077    .
+328           1570    QRKEAKR|QR  0.171    .
+328           1572    KEAKRQR|KA  0.167    .
+328           1573    EAKRQRK|AD  0.273    .
+328           1579    KADAAAR|CV  0.097    .
+328           1586    CVTNPAK|RR  0.054    .
+328           1587    VTNPAKR|RK  0.151    .
+328           1588    TNPAKRR|KY  0.147    .
+328           1589    NPAKRRK|YP  0.121    .
+328           1598    NCGTCSR|NP  0.070    .
+328           1604    RNPASAK|CI  0.082    .
+328           1611    CIHQLCK|PC  0.061    .
+328           1622    PVTVEQK|GR  0.061    .
+328           1624    TVEQKGR|CE  0.124    .
+328           1636    VFTDNER|WV  0.107    .
+328           1640    NERWVAR|HL  0.159    .
+328           1643    WVARHLR|TE  0.218    .
+328           1656    AETMTDR|EV  0.135    .
+328           1659    MTDREVR|VG  0.252    .
+328           1663    EVRVGGK|NY  0.066    .
+328           1669    KNYDLIR|NT  0.087    .
+328           1673    LIRNTAK|RY  0.072    .
+328           1674    IRNTAKR|YD  0.438    .
+328           1679    KRYDEGK|EK  0.072    .
+328           1681    YDEGKEK|PV  0.079    .
+328           1692    ANSTTDK|HR  0.085    .
+328           1694    STTDKHR|RK  0.095    .
+328           1695    TTDKHRR|KV  0.322    .
+328           1696    TDKHRRK|VE  0.071    .
+328           1699    HRRKVEK|LM  0.082    .
+328           1703    VEKLMSR|MD  0.075    .
+328           1706    LMSRMDK|PI  0.196    .
+328           1715    NIPEAPK|EW  0.066    .
+328           1723    WTPAQPR|EF  0.081    .
+328           1727    QPREFVR|NV  0.173    .
+328           1745    GEFHVYR|AI  0.124    .
+328           1748    HVYRAIR|KR  0.223    .
+328           1749    VYRAIRK|RT  0.091    .
+328           1750    YRAIRKR|TM  0.224    .
+328           1754    RKRTMQR|EA  0.097    .
+328           1760    REAWMDK|QK  0.066    .
+328           1762    AWMDKQK|KI  0.100    .
+328           1763    WMDKQKK|IS  0.121    .
+328           1774    QAAFEER|VR  0.093    .
+328           1776    AFEERVR|EN  0.079    .
+328           1779    ERVRENK|EK  0.161    .
+328           1781    VRENKEK|EE  0.064    .
+328           1785    KEKEEAR|TA  0.104    .
+328           1788    EEARTAK|KR  0.133    .
+328           1789    EARTAKK|RA  0.104    .
+328           1790    ARTAKKR|AK  0.231    .
+328           1792    TAKKRAK|RQ  0.071    .
+328           1793    AKKRAKR|QR  0.539 *ProP*
+328           1795    KRAKRQR|KK  0.124    .
+328           1796    RAKRQRK|KA  0.361    .
+328           1797    AKRQRKK|AN  0.132    .
+328           1800    QRKKANK|KK  0.070    .
+328           1801    RKKANKK|KP  0.091    .
+328           1802    KKANKKK|PK  0.152    .
+328           1804    ANKKKPK|LE  0.083    .
+328           1821    EEEEGVK|EE  0.057    .
+328           1826    VKEEEMK|EE  0.065    .
+328           1835    LDFLIHR|RP  0.072    .
+328           1836    DFLIHRR|PE  0.096    .
+328           1839    IHRRPEK|LK  0.114    .
+328           1841    RRPEKLK|IV  0.101    .
+328           1857    LGFLVFR|VV  0.110    .
+328           1869    NVGASCK|VG  0.068    .
+328           1899    VCQNASR|IC  0.081    .
+328           1911    HHCYINK|WD  0.070    .
+328           1917    KWDVWVR|GI  0.094    .
+328           1950    VPVPELK|ER  0.058    .
+328           1952    VPELKER|LR  0.075    .
+328           1954    ELKERLR|KR  0.070    .
+328           1955    LKERLRK|RP  0.169    .
+328           1956    KERLRKR|PR  0.214    .
+328           1958    RLRKRPR|IS  0.113    .
+328           1963    PRISGGR|CR  0.077    .
+328           1965    ISGGRCR|N-  0.105    .
+____________________________^_________________
+
+
+
+

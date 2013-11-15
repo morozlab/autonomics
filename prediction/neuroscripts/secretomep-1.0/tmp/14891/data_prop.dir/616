@@ -1,0 +1,252 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1487 616         
+MGLSKRWLFIMRTTKDISSLFQPLEDIISSTFIPKTISNQLTPNDRKLLSLPARHGGLGIFNPVEIADFEYASSATATAP      80
+LSKIINEQKTQFDPESLHLLKRELESAKSEMLTTKRLNQTKAEELVREALPPTEQRFHQERTRRGSSIWVTSLPLKEHRF     160
+NLNKQEFWDSMSLRYCLELEGRPPNCPCGKPNTTEHSLSCHLGGYVQLRHNEIRDLTANLLKEAGCRDVSREPHLLPITG     240
+VTFRLKSANIANDARLDVAARDFWLPMDKIYTDVRIFNPLAPTNSSIPLDTALKRHEDEKKRCYNERVLEVEQSSFCPLV     320
+FSLTGALGNEAEKFYRRLAKLLADKTKQAYPDTIRYIRQRLAFTLLRTTLYITATYGKLCLKSDFLKLSPPFCRAASYLR     400
+AARLFLLRQKLVTTSKNPTLSTIYHMCDLIQIISRLLKRTWNFKMVRRIGSWLYVRCGYHRFNLHQYIVIQSDLYLTALY     480
+LAAPLFNGRIFFPQKNFDKNFRKISKSLFSLTGLLERSRDYYALPRPPCQTDCHVTIEVTSLVLYIMFLLFSCFLTILHG     560
+TECRSRRNAIECTTNTDPESLGVFEKTILEYHNSARSKHEDTDPLCWSNQLAESAKTWAENLLESGLEKPSNYIASTDKY     640
+GKITRYGENIYRGTLVFDFSDDTDSLTFARDSVKDWYNQEPHYTYTFGTSTGPSDTARKFTQLVWRDTSKVGCGYAVKEN     720
+DYYFVVCEYLTEGNDGGANGYHDNVRRKISCGIPTIENGRATDPGPYYLGHRIKMECDKGYKLEGNAKGQCLRNESFDFK     800
+GYFPRCTGCKIPQSSNGYSVPAAGSILPNTLHVTFFCEHGYTHDDAQIASTDKYGKITRYGENIYRGTLVFDFSDDTDSL     880
+TFARDSVKDWYNQEPHYTYTFGTSTGPSDTAKKFTQLVWRDTSKVGCGYAVKENDYYFVVCEYLTEGNDGGANGYHDNVR     960
+RKISCGIPTIENGRATDPGPYYLGHRIKMECDKGYKLEGNAKGQCLRNESFDFKGDFPRCTGCKIPQSSNGYSVPAAGSI    1040
+LPNTLHVTFFCEHGYTHDDAQIAISCQGNELAAPVPRCRKLNHCLRPIIEKGFAVADLDNTYEPGDSWSNNIPEGDNITI    1120
+ICRPVRVARRVFSLNLVDEREYHQDHWYGIENFQFCLDRVERQKIAGVPNFGVSTLSVMRDGGGGAHIIFTVSNSKMAVF    1200
+EHFFVFCFLVFVLGFCRLMTPLDTKIVENACQHLRTITQYLSQETECQDTDAKGVQVIVDALLELDSERQRLHDALEAET    1280
+IKASVLRHTLLNSPLDTEREIQQAVSDARQGNLNEIDHVQGQLKITKDAIAELTEELNGIIEHDAILKLCFGHVKGGLEH    1360
+NTPQREKISFTHEDIVSDLNFLLNDKAKVQIELNDTWEEVRSCKKNIGRTENGILQLHEDLIEERESAKVTRKQLRGDIL    1440
+ATKRQKEQQGLVTSAKTQKSWRALTRSSLEMSGKRSKSSARKREKVT                                     1520
+................................................................................      80
+...............................................................P................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+......P.........................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...............................................                                     1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+616              5    --MGLSK|RW  0.061    .
+616              6    -MGLSKR|WL  0.231    .
+616             12    RWLFIMR|TT  0.088    .
+616             15    FIMRTTK|DI  0.175    .
+616             35    SSTFIPK|TI  0.075    .
+616             46    QLTPNDR|KL  0.066    .
+616             47    LTPNDRK|LL  0.068    .
+616             54    LLSLPAR|HG  0.153    .
+616             83    ATAPLSK|II  0.072    .
+616             89    KIINEQK|TQ  0.064    .
+616            101    ESLHLLK|RE  0.053    .
+616            102    SLHLLKR|EL  0.222    .
+616            108    RELESAK|SE  0.068    .
+616            115    SEMLTTK|RL  0.066    .
+616            116    EMLTTKR|LN  0.112    .
+616            121    KRLNQTK|AE  0.078    .
+616            127    KAEELVR|EA  0.082    .
+616            136    LPPTEQR|FH  0.083    .
+616            141    QRFHQER|TR  0.093    .
+616            143    FHQERTR|RG  0.086    .
+616            144    HQERTRR|GS  0.561 *ProP*
+616            156    VTSLPLK|EH  0.060    .
+616            159    LPLKEHR|FN  0.095    .
+616            164    HRFNLNK|QE  0.063    .
+616            174    WDSMSLR|YC  0.133    .
+616            182    CLELEGR|PP  0.064    .
+616            190    PNCPCGK|PN  0.067    .
+616            209    GGYVQLR|HN  0.113    .
+616            214    LRHNEIR|DL  0.190    .
+616            222    LTANLLK|EA  0.068    .
+616            227    LKEAGCR|DV  0.172    .
+616            231    GCRDVSR|EP  0.092    .
+616            244    ITGVTFR|LK  0.098    .
+616            246    GVTFRLK|SA  0.090    .
+616            255    NIANDAR|LD  0.086    .
+616            261    RLDVAAR|DF  0.091    .
+616            269    FWLPMDK|IY  0.059    .
+616            275    KIYTDVR|IF  0.082    .
+616            294    PLDTALK|RH  0.054    .
+616            295    LDTALKR|HE  0.159    .
+616            300    KRHEDEK|KR  0.071    .
+616            301    RHEDEKK|RC  0.089    .
+616            302    HEDEKKR|CY  0.141    .
+616            307    KRCYNER|VL  0.148    .
+616            333    LGNEAEK|FY  0.062    .
+616            336    EAEKFYR|RL  0.088    .
+616            337    AEKFYRR|LA  0.101    .
+616            340    FYRRLAK|LL  0.191    .
+616            345    AKLLADK|TK  0.059    .
+616            347    LLADKTK|QA  0.083    .
+616            355    AYPDTIR|YI  0.088    .
+616            358    DTIRYIR|QR  0.123    .
+616            360    IRYIRQR|LA  0.148    .
+616            367    LAFTLLR|TT  0.077    .
+616            378    ITATYGK|LC  0.056    .
+616            382    YGKLCLK|SD  0.067    .
+616            387    LKSDFLK|LS  0.064    .
+616            394    LSPPFCR|AA  0.126    .
+616            400    RAASYLR|AA  0.083    .
+616            403    SYLRAAR|LF  0.124    .
+616            408    ARLFLLR|QK  0.068    .
+616            410    LFLLRQK|LV  0.064    .
+616            416    KLVTTSK|NP  0.056    .
+616            435    LIQIISR|LL  0.073    .
+616            438    IISRLLK|RT  0.117    .
+616            439    ISRLLKR|TW  0.164    .
+616            444    KRTWNFK|MV  0.103    .
+616            447    WNFKMVR|RI  0.097    .
+616            448    NFKMVRR|IG  0.115    .
+616            456    GSWLYVR|CG  0.075    .
+616            461    VRCGYHR|FN  0.094    .
+616            489    APLFNGR|IF  0.084    .
+616            495    RIFFPQK|NF  0.070    .
+616            499    PQKNFDK|NF  0.066    .
+616            502    NFDKNFR|KI  0.133    .
+616            503    FDKNFRK|IS  0.077    .
+616            506    NFRKISK|SL  0.080    .
+616            517    LTGLLER|SR  0.085    .
+616            519    GLLERSR|DY  0.086    .
+616            526    DYYALPR|PP  0.077    .
+616            564    LHGTECR|SR  0.115    .
+616            566    GTECRSR|RN  0.075    .
+616            567    TECRSRR|NA  0.619 *ProP*
+616            586    SLGVFEK|TI  0.070    .
+616            596    EYHNSAR|SK  0.178    .
+616            598    HNSARSK|HE  0.081    .
+616            616    QLAESAK|TW  0.075    .
+616            629    LESGLEK|PS  0.067    .
+616            639    YIASTDK|YG  0.061    .
+616            642    STDKYGK|IT  0.070    .
+616            645    KYGKITR|YG  0.101    .
+616            652    YGENIYR|GT  0.077    .
+616            670    DSLTFAR|DS  0.093    .
+616            674    FARDSVK|DW  0.092    .
+616            698    GPSDTAR|KF  0.161    .
+616            699    PSDTARK|FT  0.084    .
+616            706    FTQLVWR|DT  0.190    .
+616            710    VWRDTSK|VG  0.059    .
+616            718    GCGYAVK|EN  0.061    .
+616            746    GYHDNVR|RK  0.077    .
+616            747    YHDNVRR|KI  0.234    .
+616            748    HDNVRRK|IS  0.119    .
+616            760    PTIENGR|AT  0.100    .
+616            772    PYYLGHR|IK  0.075    .
+616            774    YLGHRIK|ME  0.073    .
+616            779    IKMECDK|GY  0.069    .
+616            782    ECDKGYK|LE  0.059    .
+616            788    KLEGNAK|GQ  0.062    .
+616            793    AKGQCLR|NE  0.082    .
+616            800    NESFDFK|GY  0.074    .
+616            805    FKGYFPR|CT  0.172    .
+616            810    PRCTGCK|IP  0.061    .
+616            853    QIASTDK|YG  0.061    .
+616            856    STDKYGK|IT  0.072    .
+616            859    KYGKITR|YG  0.101    .
+616            866    YGENIYR|GT  0.077    .
+616            884    DSLTFAR|DS  0.093    .
+616            888    FARDSVK|DW  0.092    .
+616            912    GPSDTAK|KF  0.091    .
+616            913    PSDTAKK|FT  0.105    .
+616            920    FTQLVWR|DT  0.184    .
+616            924    VWRDTSK|VG  0.059    .
+616            932    GCGYAVK|EN  0.061    .
+616            960    GYHDNVR|RK  0.077    .
+616            961    YHDNVRR|KI  0.234    .
+616            962    HDNVRRK|IS  0.119    .
+616            974    PTIENGR|AT  0.100    .
+616            986    PYYLGHR|IK  0.075    .
+616            988    YLGHRIK|ME  0.073    .
+616            993    IKMECDK|GY  0.069    .
+616            996    ECDKGYK|LE  0.059    .
+616           1002    KLEGNAK|GQ  0.062    .
+616           1007    AKGQCLR|NE  0.080    .
+616           1014    NESFDFK|GD  0.071    .
+616           1019    FKGDFPR|CT  0.167    .
+616           1024    PRCTGCK|IP  0.061    .
+616           1077    LAAPVPR|CR  0.077    .
+616           1079    APVPRCR|KL  0.095    .
+616           1080    PVPRCRK|LN  0.144    .
+616           1086    KLNHCLR|PI  0.125    .
+616           1091    LRPIIEK|GF  0.065    .
+616           1123    NITIICR|PV  0.103    .
+616           1126    IICRPVR|VA  0.266    .
+616           1129    RPVRVAR|RV  0.389    .
+616           1130    PVRVARR|VF  0.125    .
+616           1140    LNLVDER|EY  0.082    .
+616           1159    FQFCLDR|VE  0.084    .
+616           1162    CLDRVER|QK  0.295    .
+616           1164    DRVERQK|IA  0.079    .
+616           1180    STLSVMR|DG  0.120    .
+616           1196    FTVSNSK|MA  0.057    .
+616           1217    FVLGFCR|LM  0.066    .
+616           1225    MTPLDTK|IV  0.074    .
+616           1235    NACQHLR|TI  0.117    .
+616           1253    CQDTDAK|GV  0.080    .
+616           1269    LELDSER|QR  0.065    .
+616           1271    LDSERQR|LH  0.099    .
+616           1282    LEAETIK|AS  0.054    .
+616           1287    IKASVLR|HT  0.085    .
+616           1299    SPLDTER|EI  0.098    .
+616           1309    QAVSDAR|QG  0.083    .
+616           1324    HVQGQLK|IT  0.075    .
+616           1327    GQLKITK|DA  0.090    .
+616           1348    EHDAILK|LC  0.058    .
+616           1355    LCFGHVK|GG  0.060    .
+616           1365    EHNTPQR|EK  0.083    .
+616           1367    NTPQREK|IS  0.069    .
+616           1386    NFLLNDK|AK  0.055    .
+616           1388    LLNDKAK|VQ  0.076    .
+616           1401    DTWEEVR|SC  0.100    .
+616           1404    EEVRSCK|KN  0.109    .
+616           1405    EVRSCKK|NI  0.124    .
+616           1409    CKKNIGR|TE  0.091    .
+616           1425    EDLIEER|ES  0.074    .
+616           1429    EERESAK|VT  0.079    .
+616           1432    ESAKVTR|KQ  0.094    .
+616           1433    SAKVTRK|QL  0.095    .
+616           1436    VTRKQLR|GD  0.095    .
+616           1443    GDILATK|RQ  0.057    .
+616           1444    DILATKR|QK  0.182    .
+616           1446    LATKRQK|EQ  0.059    .
+616           1456    GLVTSAK|TQ  0.062    .
+616           1459    TSAKTQK|SW  0.123    .
+616           1462    KTQKSWR|AL  0.119    .
+616           1466    SWRALTR|SS  0.117    .
+616           1474    SLEMSGK|RS  0.061    .
+616           1475    LEMSGKR|SK  0.281    .
+616           1477    MSGKRSK|SS  0.092    .
+616           1481    RSKSSAR|KR  0.125    .
+616           1482    SKSSARK|RE  0.079    .
+616           1483    KSSARKR|EK  0.286    .
+616           1485    SARKREK|VT  0.071    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,216 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1452 647         
+MADSQGGTVMSNPNNSEATSSRDQARMREAMAAFAGGQRSATINQNNWNKKFQTMRANKLKTSVVDQNRQNTGNLDRTRR      80
+PGAMTMMKDFYTGYKNEPSKQPIRTLYLGHVTGFQPIRDQYFLIRSVPGRSQYRYSALSYQNTLVTAIECNLPYTALYTY     160
+LAAQDLTRFSCKVPHRYFFSALSTTYTTASDISHADLSTVNGEFPVLVFRRTKVTSLTLISVEENFMRSHEAVSSGPYFT     240
+SWVMFVNIVILIITLATQSIAPIGFTDKLITRQLLRHNLAYETVGYNQTTNFWIGPDFQSLIHLGAKYAPCMRKDQEWFD     320
+SIDRDTVTEDKGGCCVRNDLNVCWQTQATDCTSTFATFYDDKRYLTLMADMYTGHPDLPGKTLSPSIPDVLTLRTATKPS     400
+GREVTQPGLTALFTVDQPLVDVISEENRGNATMPTLACEVSARPCCVGLQGECLIISQEECEFRQGFFHEENTLCSQVSC     480
+ITEICGLSGFLFDDIPDQFYRALLPTFMHAGVVHLLITLVFQATILRDQEKFAGWWRIGFIYMSSGIGGTMLSAILIPYM     560
+PEVGASGALYGILASLLVEVAVNWKIYKNPCIELTKLLLLLAILFLVGLLPWIDNFAHIGGFVFGFLTAFVVLPHINYSD     640
+EDRIAKLVVQIVCGILAVVLFALLFIVFYLAQGSECENCTYLNCIPFTESFCQDATMNLRPRDCKQSHSQVSPNGRDSTV     720
+PDHPFGITTRSADRLLSVVGKRIRVRTFARRSLYGGAIPHLILRQCAQMGSAAPDRDRSKCVRPIKKMSDLDPIKGTNST     800
+EDYGSTNNNIDKPTDKPTDKSTDTTDNPTYTVQEALNHAGVGHGTVIPIFCALITQVTKEAENTVLAISGGVAGGHLITR     880
+FGRLYNIIIFTFLSSIAAIASGMAASFVQFLVFRGITVLFLEIASSASTIYSVEYSPVWTRPYVILRLNSWAIAVDHVIL     960
+IVVHRMEAMAAFAGGQRSATINQNNWNKKFQTMRANKLKTSVVDQNRQNTGNLDRTWRPGAMTMMKDFYTGETDVGDDPA    1040
+RNLGEGFLADLMDREYKTLSKLPPEKWEKIAFFGVFWVFFQFSETGAGLHDFSRTVTTFGEVFPNSYNRNWRRTAKKMLN    1120
+YPGARRAFDIEATSSMDQARMREAMAAFAGGQRSATINQNNWNKKFQTMRANKLKTSVVDQNRQNTGNLDRTRRPGAMTM    1200
+MKDFYTGYKNPETRDQTLRHGRAVSKKSNFDTGKGGFFGTEEGGQTSGGKVETDVGDDPARNLGEGFLADLMDREYKTLS    1280
+KLPPEHRQIRICGRRRLDGLITRQLLRHNLAYETVGYNQTTNFWIGPDFQSLIHLGAKYAPCMRKDQEWFDSIDRDTVTC    1360
+PKRFECVLADTGNRLCVDWMRQDVLTLRTATKHFGREVTRPGLTARLEQCTCNAEVVGSSPALARYFSNFPPYLILNRSH    1440
+SLIFNQTILPTP                                                                        1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+............                                                                        1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+647             22    SEATSSR|DQ  0.125    .
+647             26    SSRDQAR|MR  0.146    .
+647             28    RDQARMR|EA  0.159    .
+647             39    AFAGGQR|SA  0.140    .
+647             50    NQNNWNK|KF  0.067    .
+647             51    QNNWNKK|FQ  0.116    .
+647             56    KKFQTMR|AN  0.092    .
+647             59    QTMRANK|LK  0.120    .
+647             61    MRANKLK|TS  0.074    .
+647             69    SVVDQNR|QN  0.093    .
+647             77    NTGNLDR|TR  0.092    .
+647             79    GNLDRTR|RP  0.103    .
+647             80    NLDRTRR|PG  0.240    .
+647             88    GAMTMMK|DF  0.094    .
+647             95    DFYTGYK|NE  0.055    .
+647            100    YKNEPSK|QP  0.066    .
+647            104    PSKQPIR|TL  0.088    .
+647            118    TGFQPIR|DQ  0.108    .
+647            125    DQYFLIR|SV  0.120    .
+647            130    IRSVPGR|SQ  0.201    .
+647            134    PGRSQYR|YS  0.086    .
+647            168    AAQDLTR|FS  0.115    .
+647            172    LTRFSCK|VP  0.068    .
+647            176    SCKVPHR|YF  0.135    .
+647            210    FPVLVFR|RT  0.074    .
+647            211    PVLVFRR|TK  0.135    .
+647            213    LVFRRTK|VT  0.119    .
+647            228    VEENFMR|SH  0.142    .
+647            268    PIGFTDK|LI  0.065    .
+647            272    TDKLITR|QL  0.081    .
+647            276    ITRQLLR|HN  0.093    .
+647            307    LIHLGAK|YA  0.073    .
+647            313    KYAPCMR|KD  0.081    .
+647            314    YAPCMRK|DQ  0.090    .
+647            324    WFDSIDR|DT  0.084    .
+647            331    DTVTEDK|GG  0.059    .
+647            337    KGGCCVR|ND  0.087    .
+647            362    ATFYDDK|RY  0.057    .
+647            363    TFYDDKR|YL  0.163    .
+647            381    HPDLPGK|TL  0.081    .
+647            394    PDVLTLR|TA  0.073    .
+647            398    TLRTATK|PS  0.085    .
+647            402    ATKPSGR|EV  0.138    .
+647            428    VISEENR|GN  0.098    .
+647            443    ACEVSAR|PC  0.127    .
+647            464    QEECEFR|QG  0.090    .
+647            501    IPDQFYR|AL  0.105    .
+647            527    FQATILR|DQ  0.093    .
+647            531    ILRDQEK|FA  0.110    .
+647            537    KFAGWWR|IG  0.086    .
+647            585    EVAVNWK|IY  0.053    .
+647            588    VNWKIYK|NP  0.064    .
+647            596    PCIELTK|LL  0.052    .
+647            643    NYSDEDR|IA  0.103    .
+647            646    DEDRIAK|LV  0.166    .
+647            700    DATMNLR|PR  0.075    .
+647            702    TMNLRPR|DC  0.171    .
+647            705    LRPRDCK|QS  0.158    .
+647            716    QVSPNGR|DS  0.121    .
+647            730    PFGITTR|SA  0.166    .
+647            734    TTRSADR|LL  0.101    .
+647            741    LLSVVGK|RI  0.074    .
+647            742    LSVVGKR|IR  0.114    .
+647            744    VVGKRIR|VR  0.076    .
+647            746    GKRIRVR|TF  0.078    .
+647            750    RVRTFAR|RS  0.098    .
+647            751    VRTFARR|SL  0.255    .
+647            764    IPHLILR|QC  0.101    .
+647            776    GSAAPDR|DR  0.139    .
+647            778    AAPDRDR|SK  0.093    .
+647            780    PDRDRSK|CV  0.094    .
+647            783    DRSKCVR|PI  0.118    .
+647            786    KCVRPIK|KM  0.131    .
+647            787    CVRPIKK|MS  0.084    .
+647            795    SDLDPIK|GT  0.069    .
+647            812    TNNNIDK|PT  0.079    .
+647            816    IDKPTDK|PT  0.080    .
+647            820    TDKPTDK|ST  0.094    .
+647            859    LITQVTK|EA  0.066    .
+647            880    GGHLITR|FG  0.081    .
+647            883    LITRFGR|LY  0.271    .
+647            914    VQFLVFR|GI  0.096    .
+647            941    YSPVWTR|PY  0.074    .
+647            947    RPYVILR|LN  0.103    .
+647            965    ILIVVHR|ME  0.089    .
+647            977    AFAGGQR|SA  0.140    .
+647            988    NQNNWNK|KF  0.067    .
+647            989    QNNWNKK|FQ  0.116    .
+647            994    KKFQTMR|AN  0.092    .
+647            997    QTMRANK|LK  0.120    .
+647            999    MRANKLK|TS  0.074    .
+647           1007    SVVDQNR|QN  0.093    .
+647           1015    NTGNLDR|TW  0.111    .
+647           1018    NLDRTWR|PG  0.145    .
+647           1026    GAMTMMK|DF  0.109    .
+647           1041    VGDDPAR|NL  0.114    .
+647           1054    LADLMDR|EY  0.066    .
+647           1057    LMDREYK|TL  0.142    .
+647           1061    EYKTLSK|LP  0.053    .
+647           1066    SKLPPEK|WE  0.066    .
+647           1069    PPEKWEK|IA  0.076    .
+647           1094    GLHDFSR|TV  0.153    .
+647           1109    FPNSYNR|NW  0.093    .
+647           1112    SYNRNWR|RT  0.296    .
+647           1113    YNRNWRR|TA  0.239    .
+647           1116    NWRRTAK|KM  0.126    .
+647           1117    WRRTAKK|ML  0.121    .
+647           1125    LNYPGAR|RA  0.149    .
+647           1126    NYPGARR|AF  0.116    .
+647           1140    SSMDQAR|MR  0.140    .
+647           1142    MDQARMR|EA  0.161    .
+647           1153    AFAGGQR|SA  0.140    .
+647           1164    NQNNWNK|KF  0.067    .
+647           1165    QNNWNKK|FQ  0.116    .
+647           1170    KKFQTMR|AN  0.092    .
+647           1173    QTMRANK|LK  0.120    .
+647           1175    MRANKLK|TS  0.074    .
+647           1183    SVVDQNR|QN  0.093    .
+647           1191    NTGNLDR|TR  0.092    .
+647           1193    GNLDRTR|RP  0.103    .
+647           1194    NLDRTRR|PG  0.240    .
+647           1202    GAMTMMK|DF  0.090    .
+647           1209    DFYTGYK|NP  0.059    .
+647           1214    YKNPETR|DQ  0.096    .
+647           1219    TRDQTLR|HG  0.093    .
+647           1222    QTLRHGR|AV  0.476    .
+647           1226    HGRAVSK|KS  0.061    .
+647           1227    GRAVSKK|SN  0.357    .
+647           1234    SNFDTGK|GG  0.071    .
+647           1250    GQTSGGK|VE  0.064    .
+647           1261    VGDDPAR|NL  0.114    .
+647           1274    LADLMDR|EY  0.066    .
+647           1277    LMDREYK|TL  0.146    .
+647           1281    EYKTLSK|LP  0.053    .
+647           1287    KLPPEHR|QI  0.096    .
+647           1290    PEHRQIR|IC  0.287    .
+647           1294    QIRICGR|RR  0.098    .
+647           1295    IRICGRR|RL  0.152    .
+647           1296    RICGRRR|LD  0.133    .
+647           1303    LDGLITR|QL  0.075    .
+647           1307    ITRQLLR|HN  0.092    .
+647           1338    LIHLGAK|YA  0.073    .
+647           1344    KYAPCMR|KD  0.081    .
+647           1345    YAPCMRK|DQ  0.090    .
+647           1355    WFDSIDR|DT  0.081    .
+647           1362    DTVTCPK|RF  0.061    .
+647           1363    TVTCPKR|FE  0.167    .
+647           1374    LADTGNR|LC  0.069    .
+647           1381    LCVDWMR|QD  0.080    .
+647           1388    QDVLTLR|TA  0.091    .
+647           1392    TLRTATK|HF  0.082    .
+647           1396    ATKHFGR|EV  0.132    .
+647           1400    FGREVTR|PG  0.086    .
+647           1406    RPGLTAR|LE  0.084    .
+647           1425    SSPALAR|YF  0.129    .
+647           1438    PYLILNR|SH  0.114    .
+____________________________^_________________
+
+
+
+

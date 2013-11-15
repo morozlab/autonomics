@@ -7,9 +7,8 @@ jobs.py: Holds classes and methods for creating and manipulating autonomics jobs
 
 '''
 
-from sqlalchemy.sql import functions, select, and_
+from sqlalchemy.sql import functions, select, and_, select, or_
 from multiprocessing import Process
-from sqlalchemy.sql import select, and_, or_
 from autonomics.file_io import AlignmentReader, FileExtensions
 from autonomics.file_io import translate_seq_file, make_record, sha1_file
 from autonomics import statistics
@@ -21,7 +20,6 @@ import datetime
 import imaplib
 import os
 import pickle
-import redis
 import shutil
 import ssl
 import subprocess
@@ -29,7 +27,7 @@ import sys
 import threading
 import time
 import glob
-
+import redis
 
 session = netutils.make_db_session()
 
@@ -3368,6 +3366,8 @@ class Qsub:
                 
             Returns the local path of the file it retrieved.
         '''
+        #gets the output created by this Qsub job, returns the local path to the file
+        #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
         try:
             rfile = self.remote_dir + "/" + self.current_output
             lfile = self.local_dir + self.current_output
@@ -3376,6 +3376,7 @@ class Qsub:
             sys.stdout.write("\nError " + str(e.errno) +  "  "  + e.strerror + rfile + "\n")
             sys.stdout.write("Unable to retrieve these rusults;\njob will need to be rerun after checking: " + self.remote_dir)
             return None
+#         return self.local_dir + self.current_output
         return lfile
 
     def resubmit(self, c, memIncrease = 0):
@@ -3452,6 +3453,7 @@ class Qsub:
         sleep_time = 30
         while (retries > 0):
               job_id = c.execute(command)
+              if settings.debug_pipe: print "job_id from qsub submission: ", job_id
               if (job_id == [] or settings.QSUB_OK not in job_id[0]):
                   if(retries > 0):
                      sys.stderr.write("error executing qsub, retrying command: " + command + "\n")

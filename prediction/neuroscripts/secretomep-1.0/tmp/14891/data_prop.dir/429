@@ -1,0 +1,443 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1748 429         
+MKRQFGVIDLMKTVDNVFCNRALVKGLRDVWREKLGERYPMSFKQIILETLQGRPPVQVRLQSQEEGGRERERERERERE      80
+RERERERERSDKNAKCSESKSLLPTTNLSNSDSVHSHFKQLRDGLDGLLNKLPCDSRSNNDVINSSVTSQGIMTSQHMMT     160
+SQHIMKRQFGVIDLMSTMDNVFCDRALVEGLRDVWREKLGERYPMSFKQIILETLQGFGCCYSKDIVKHLEPWEKGSRKT     240
+AGQTGMCGGVRGVGAGGVVSSAFCLLYKLFVLKLTRNQLNSMINHDCVMVRGVALLYLRYTQHPKTFWPWMEPYMDCAEV     320
+GGEGRPEVFFQTPNPSFTKEIDPRAGGGRAITIGDMCEQMLSKLDWFSTLFPRIPVVVSKDLEKKLEERRQARREANGAA     400
+ETEREGYRGREGAYNRIRTEEDRTREGSYGRNREEGREGSYGRSRDEGREGSYNRYREEGREDSSRGRGDDTGSYRGRVD     480
+EVRDGSYRGRGEDGSHRGRGNESREGSYRGRGDQSREGSYRGRDNDQRRRDDDGRDDRSGDRRYNDRRDDRPDNRPGDRR     560
+DERDRRDNKPGDRRDDRRDDRMGDRDRGEMRDDRRDQPDSNPASATEKGEEEEAPKRIIRRYVVEKKSKKKKKKKKDDDD     640
+EEEEGQISDDDSVPEKKEKKKKSRDRSRERSRGRSPERKKKDRRSSSRERKKEKKKKKNRKRSQSRSRSRSKRRRSVSPK     720
+KEDRSVTPDRKDDKSVTPHRKDDQSVTPDRKSGTPPPLKEDRRSPIGSSNVVGAGWGILFCFLIDPSNEDLVYKIPVFIP     800
+CSNSGSNSDTLGIPSIPRHSGPGWSPIWTALRWVEKGEYTCDEIDPRAGGGRAITIGDMCEQMLSKLDWFSTLFPRIPVV     880
+VSKDLEKKLEERRQARREANGAAETEREGYRGREGAYNRIRTEEDRTREGSYGRNREEGREGSYGRSRDEGREGSYNRYR     960
+EEGREDSSRGRGDDTGSYRGRVDEVRDGSYRGRGEDGSHRGRGNESREGSYRGRGDQSREGSYRGRDNDQRRRDDDGRDD    1040
+RSGDRRYNDRRDDRPDNRPGDRRDERDRRDNKPGDRRDDRRDDRMGDRDRGEMRDDRRDQPDSNPASATEKGEEEEAPKR    1120
+IIRRYVVEKKSKKKKKKKKDDDDEEEEGQISDDDSVPEKKEKKKKSRDRSRERSRGRSPERKKKDRRSSSRERKKEKKKK    1200
+KNRKRSQSRSRSRSKRRRSVSPKKEDRSVTPDRKDDKSVTPHRKDDQSVTPDRKSGTPPPLKEDRRSPADDLAPMRRGER    1280
+ERDNEREGERERERKMRRAYIQTVLYSNCHLYSPIDKGRGVSGVSSKSNFGVKIGKKSKKVALPCKHTMALVSALPCKHT    1360
+MALVSALPCKHTMALVSALPCKHTMALVSALPCKHTMALVSALPCKHTMALVSALPCKHTMALVSALPCKHTMALVSALP    1440
+CKHTMALVSALPCKHTMALVSALPCKHTMALVSALPCKHTMALVSALPCKHNMALVSALPCKHNMALVSALPCKHNMALV    1520
+SALPCKHNMALVSALPCKHNMALVSALPCKHNMALVSALPCKHNMALVSALPCKHNMALVSALPCKHNMALVSALPCKHN    1600
+MALVSALPCKHNMALVSALPCKHNMALVSALPCKHTMALVSALPCKHNMALVSALPCKHNMALVSALPCKHNMALVSALP    1680
+SPCLVNITWPLSAPCLNRNDVRRVFQCQNKVVAVQGDHTSITLTPMMQDFSLSNATKIKSLSYQEPEI                1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+.....P..........................................................................     640
+........................................................................P.P.....     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+............................P...................................................    1120
+................................................................................    1200
+...............P.P..............................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+....................................................................                1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+429              2    -----MK|RQ  0.068    .
+429              3    ----MKR|QF  0.246    .
+429             12    GVIDLMK|TV  0.079    .
+429             21    DNVFCNR|AL  0.104    .
+429             25    CNRALVK|GL  0.079    .
+429             28    ALVKGLR|DV  0.124    .
+429             32    GLRDVWR|EK  0.105    .
+429             34    RDVWREK|LG  0.064    .
+429             38    REKLGER|YP  0.072    .
+429             44    RYPMSFK|QI  0.062    .
+429             54    LETLQGR|PP  0.084    .
+429             60    RPPVQVR|LQ  0.129    .
+429             69    SQEEGGR|ER  0.076    .
+429             71    EEGGRER|ER  0.081    .
+429             73    GGRERER|ER  0.097    .
+429             75    RERERER|ER  0.091    .
+429             77    RERERER|ER  0.091    .
+429             79    RERERER|ER  0.090    .
+429             81    RERERER|ER  0.089    .
+429             83    RERERER|ER  0.090    .
+429             85    RERERER|ER  0.086    .
+429             87    RERERER|ER  0.093    .
+429             89    RERERER|SD  0.124    .
+429             92    ERERSDK|NA  0.220    .
+429             95    RSDKNAK|CS  0.067    .
+429            100    AKCSESK|SL  0.077    .
+429            119    SVHSHFK|QL  0.101    .
+429            122    SHFKQLR|DG  0.124    .
+429            131    LDGLLNK|LP  0.058    .
+429            137    KLPCDSR|SN  0.130    .
+429            166    TSQHIMK|RQ  0.076    .
+429            167    SQHIMKR|QF  0.294    .
+429            185    DNVFCDR|AL  0.097    .
+429            192    ALVEGLR|DV  0.107    .
+429            196    GLRDVWR|EK  0.095    .
+429            198    RDVWREK|LG  0.065    .
+429            202    REKLGER|YP  0.072    .
+429            208    RYPMSFK|QI  0.062    .
+429            224    FGCCYSK|DI  0.069    .
+429            228    YSKDIVK|HL  0.077    .
+429            235    HLEPWEK|GS  0.068    .
+429            238    PWEKGSR|KT  0.081    .
+429            239    WEKGSRK|TA  0.153    .
+429            251    GMCGGVR|GV  0.191    .
+429            268    AFCLLYK|LF  0.055    .
+429            273    YKLFVLK|LT  0.069    .
+429            276    FVLKLTR|NQ  0.065    .
+429            291    HDCVMVR|GV  0.105    .
+429            299    VALLYLR|YT  0.068    .
+429            305    RYTQHPK|TF  0.061    .
+429            325    EVGGEGR|PE  0.066    .
+429            339    PNPSFTK|EI  0.067    .
+429            344    TKEIDPR|AG  0.112    .
+429            349    PRAGGGR|AI  0.144    .
+429            363    CEQMLSK|LD  0.055    .
+429            373    FSTLFPR|IP  0.072    .
+429            380    IPVVVSK|DL  0.113    .
+429            384    VSKDLEK|KL  0.062    .
+429            385    SKDLEKK|LE  0.084    .
+429            389    EKKLEER|RQ  0.072    .
+429            390    KKLEERR|QA  0.140    .
+429            393    EERRQAR|RE  0.227    .
+429            394    ERRQARR|EA  0.222    .
+429            404    GAAETER|EG  0.097    .
+429            408    TEREGYR|GR  0.106    .
+429            410    REGYRGR|EG  0.078    .
+429            416    REGAYNR|IR  0.085    .
+429            418    GAYNRIR|TE  0.094    .
+429            423    IRTEEDR|TR  0.085    .
+429            425    TEEDRTR|EG  0.099    .
+429            431    REGSYGR|NR  0.099    .
+429            433    GSYGRNR|EE  0.102    .
+429            437    RNREEGR|EG  0.103    .
+429            443    REGSYGR|SR  0.202    .
+429            445    GSYGRSR|DE  0.129    .
+429            449    RSRDEGR|EG  0.102    .
+429            455    REGSYNR|YR  0.124    .
+429            457    GSYNRYR|EE  0.109    .
+429            461    RYREEGR|ED  0.090    .
+429            466    GREDSSR|GR  0.135    .
+429            468    EDSSRGR|GD  0.126    .
+429            476    DDTGSYR|GR  0.086    .
+429            478    TGSYRGR|VD  0.109    .
+429            483    GRVDEVR|DG  0.125    .
+429            488    VRDGSYR|GR  0.107    .
+429            490    DGSYRGR|GE  0.127    .
+429            497    GEDGSHR|GR  0.087    .
+429            499    DGSHRGR|GN  0.123    .
+429            504    GRGNESR|EG  0.111    .
+429            509    SREGSYR|GR  0.148    .
+429            511    EGSYRGR|GD  0.108    .
+429            516    GRGDQSR|EG  0.104    .
+429            521    SREGSYR|GR  0.115    .
+429            523    EGSYRGR|DN  0.165    .
+429            528    GRDNDQR|RR  0.087    .
+429            529    RDNDQRR|RD  0.257    .
+429            530    DNDQRRR|DD  0.137    .
+429            535    RRDDDGR|DD  0.110    .
+429            538    DDGRDDR|SG  0.295    .
+429            542    DDRSGDR|RY  0.073    .
+429            543    DRSGDRR|YN  0.204    .
+429            547    DRRYNDR|RD  0.081    .
+429            548    RRYNDRR|DD  0.180    .
+429            551    NDRRDDR|PD  0.176    .
+429            555    DDRPDNR|PG  0.072    .
+429            559    DNRPGDR|RD  0.080    .
+429            560    NRPGDRR|DE  0.177    .
+429            563    GDRRDER|DR  0.330    .
+429            565    RRDERDR|RD  0.082    .
+429            566    RDERDRR|DN  0.579 *ProP*
+429            569    RDRRDNK|PG  0.111    .
+429            573    DNKPGDR|RD  0.069    .
+429            574    NKPGDRR|DD  0.129    .
+429            577    GDRRDDR|RD  0.261    .
+429            578    DRRDDRR|DD  0.251    .
+429            581    DDRRDDR|MG  0.226    .
+429            585    DDRMGDR|DR  0.110    .
+429            587    RMGDRDR|GE  0.077    .
+429            591    RDRGEMR|DD  0.125    .
+429            594    GEMRDDR|RD  0.127    .
+429            595    EMRDDRR|DQ  0.163    .
+429            608    PASATEK|GE  0.072    .
+429            616    EEEEAPK|RI  0.059    .
+429            617    EEEAPKR|II  0.138    .
+429            620    APKRIIR|RY  0.200    .
+429            621    PKRIIRR|YV  0.250    .
+429            626    RRYVVEK|KS  0.073    .
+429            627    RYVVEKK|SK  0.139    .
+429            629    VVEKKSK|KK  0.061    .
+429            630    VEKKSKK|KK  0.097    .
+429            631    EKKSKKK|KK  0.111    .
+429            632    KKSKKKK|KK  0.175    .
+429            633    KSKKKKK|KK  0.158    .
+429            634    SKKKKKK|KK  0.162    .
+429            635    KKKKKKK|KD  0.176    .
+429            636    KKKKKKK|DD  0.346    .
+429            656    DDSVPEK|KE  0.061    .
+429            657    DSVPEKK|EK  0.088    .
+429            659    VPEKKEK|KK  0.061    .
+429            660    PEKKEKK|KK  0.092    .
+429            661    EKKEKKK|KS  0.102    .
+429            662    KKEKKKK|SR  0.275    .
+429            664    EKKKKSR|DR  0.148    .
+429            666    KKKSRDR|SR  0.183    .
+429            668    KSRDRSR|ER  0.118    .
+429            670    RDRSRER|SR  0.142    .
+429            672    RSRERSR|GR  0.125    .
+429            674    RERSRGR|SP  0.142    .
+429            678    RGRSPER|KK  0.090    .
+429            679    GRSPERK|KK  0.104    .
+429            680    RSPERKK|KD  0.081    .
+429            681    SPERKKK|DR  0.400    .
+429            683    ERKKKDR|RS  0.119    .
+429            684    RKKKDRR|SS  0.384    .
+429            688    DRRSSSR|ER  0.094    .
+429            690    RSSSRER|KK  0.112    .
+429            691    SSSRERK|KE  0.310    .
+429            692    SSRERKK|EK  0.119    .
+429            694    RERKKEK|KK  0.072    .
+429            695    ERKKEKK|KK  0.098    .
+429            696    RKKEKKK|KK  0.120    .
+429            697    KKEKKKK|KN  0.120    .
+429            698    KEKKKKK|NR  0.124    .
+429            700    KKKKKNR|KR  0.130    .
+429            701    KKKKNRK|RS  0.079    .
+429            702    KKKNRKR|SQ  0.458    .
+429            706    RKRSQSR|SR  0.148    .
+429            708    RSQSRSR|SR  0.185    .
+429            710    QSRSRSR|SK  0.116    .
+429            712    RSRSRSK|RR  0.060    .
+429            713    SRSRSKR|RR  0.767 *ProP*
+429            714    RSRSKRR|RS  0.115    .
+429            715    SRSKRRR|SV  0.704 *ProP*
+429            720    RRSVSPK|KE  0.100    .
+429            721    RSVSPKK|ED  0.099    .
+429            724    SPKKEDR|SV  0.310    .
+429            730    RSVTPDR|KD  0.109    .
+429            731    SVTPDRK|DD  0.082    .
+429            734    PDRKDDK|SV  0.128    .
+429            740    KSVTPHR|KD  0.100    .
+429            741    SVTPHRK|DD  0.099    .
+429            750    QSVTPDR|KS  0.093    .
+429            751    SVTPDRK|SG  0.080    .
+429            759    GTPPPLK|ED  0.057    .
+429            762    PPLKEDR|RS  0.077    .
+429            763    PLKEDRR|SP  0.173    .
+429            794    NEDLVYK|IP  0.057    .
+429            818    GIPSIPR|HS  0.104    .
+429            832    PIWTALR|WV  0.188    .
+429            836    ALRWVEK|GE  0.068    .
+429            847    CDEIDPR|AG  0.087    .
+429            852    PRAGGGR|AI  0.144    .
+429            866    CEQMLSK|LD  0.055    .
+429            876    FSTLFPR|IP  0.072    .
+429            883    IPVVVSK|DL  0.113    .
+429            887    VSKDLEK|KL  0.062    .
+429            888    SKDLEKK|LE  0.084    .
+429            892    EKKLEER|RQ  0.072    .
+429            893    KKLEERR|QA  0.140    .
+429            896    EERRQAR|RE  0.227    .
+429            897    ERRQARR|EA  0.222    .
+429            907    GAAETER|EG  0.097    .
+429            911    TEREGYR|GR  0.106    .
+429            913    REGYRGR|EG  0.078    .
+429            919    REGAYNR|IR  0.085    .
+429            921    GAYNRIR|TE  0.094    .
+429            926    IRTEEDR|TR  0.085    .
+429            928    TEEDRTR|EG  0.099    .
+429            934    REGSYGR|NR  0.099    .
+429            936    GSYGRNR|EE  0.102    .
+429            940    RNREEGR|EG  0.103    .
+429            946    REGSYGR|SR  0.202    .
+429            948    GSYGRSR|DE  0.129    .
+429            952    RSRDEGR|EG  0.102    .
+429            958    REGSYNR|YR  0.124    .
+429            960    GSYNRYR|EE  0.109    .
+429            964    RYREEGR|ED  0.090    .
+429            969    GREDSSR|GR  0.135    .
+429            971    EDSSRGR|GD  0.126    .
+429            979    DDTGSYR|GR  0.086    .
+429            981    TGSYRGR|VD  0.109    .
+429            986    GRVDEVR|DG  0.125    .
+429            991    VRDGSYR|GR  0.107    .
+429            993    DGSYRGR|GE  0.127    .
+429           1000    GEDGSHR|GR  0.087    .
+429           1002    DGSHRGR|GN  0.123    .
+429           1007    GRGNESR|EG  0.111    .
+429           1012    SREGSYR|GR  0.148    .
+429           1014    EGSYRGR|GD  0.108    .
+429           1019    GRGDQSR|EG  0.104    .
+429           1024    SREGSYR|GR  0.115    .
+429           1026    EGSYRGR|DN  0.165    .
+429           1031    GRDNDQR|RR  0.087    .
+429           1032    RDNDQRR|RD  0.257    .
+429           1033    DNDQRRR|DD  0.137    .
+429           1038    RRDDDGR|DD  0.110    .
+429           1041    DDGRDDR|SG  0.295    .
+429           1045    DDRSGDR|RY  0.073    .
+429           1046    DRSGDRR|YN  0.204    .
+429           1050    DRRYNDR|RD  0.081    .
+429           1051    RRYNDRR|DD  0.180    .
+429           1054    NDRRDDR|PD  0.176    .
+429           1058    DDRPDNR|PG  0.072    .
+429           1062    DNRPGDR|RD  0.080    .
+429           1063    NRPGDRR|DE  0.177    .
+429           1066    GDRRDER|DR  0.330    .
+429           1068    RRDERDR|RD  0.082    .
+429           1069    RDERDRR|DN  0.579 *ProP*
+429           1072    RDRRDNK|PG  0.111    .
+429           1076    DNKPGDR|RD  0.069    .
+429           1077    NKPGDRR|DD  0.129    .
+429           1080    GDRRDDR|RD  0.261    .
+429           1081    DRRDDRR|DD  0.251    .
+429           1084    DDRRDDR|MG  0.226    .
+429           1088    DDRMGDR|DR  0.110    .
+429           1090    RMGDRDR|GE  0.077    .
+429           1094    RDRGEMR|DD  0.125    .
+429           1097    GEMRDDR|RD  0.127    .
+429           1098    EMRDDRR|DQ  0.163    .
+429           1111    PASATEK|GE  0.072    .
+429           1119    EEEEAPK|RI  0.059    .
+429           1120    EEEAPKR|II  0.138    .
+429           1123    APKRIIR|RY  0.200    .
+429           1124    PKRIIRR|YV  0.250    .
+429           1129    RRYVVEK|KS  0.073    .
+429           1130    RYVVEKK|SK  0.139    .
+429           1132    VVEKKSK|KK  0.061    .
+429           1133    VEKKSKK|KK  0.097    .
+429           1134    EKKSKKK|KK  0.111    .
+429           1135    KKSKKKK|KK  0.175    .
+429           1136    KSKKKKK|KK  0.158    .
+429           1137    SKKKKKK|KK  0.162    .
+429           1138    KKKKKKK|KD  0.176    .
+429           1139    KKKKKKK|DD  0.346    .
+429           1159    DDSVPEK|KE  0.061    .
+429           1160    DSVPEKK|EK  0.088    .
+429           1162    VPEKKEK|KK  0.061    .
+429           1163    PEKKEKK|KK  0.092    .
+429           1164    EKKEKKK|KS  0.102    .
+429           1165    KKEKKKK|SR  0.275    .
+429           1167    EKKKKSR|DR  0.148    .
+429           1169    KKKSRDR|SR  0.183    .
+429           1171    KSRDRSR|ER  0.118    .
+429           1173    RDRSRER|SR  0.142    .
+429           1175    RSRERSR|GR  0.125    .
+429           1177    RERSRGR|SP  0.142    .
+429           1181    RGRSPER|KK  0.090    .
+429           1182    GRSPERK|KK  0.104    .
+429           1183    RSPERKK|KD  0.081    .
+429           1184    SPERKKK|DR  0.400    .
+429           1186    ERKKKDR|RS  0.119    .
+429           1187    RKKKDRR|SS  0.384    .
+429           1191    DRRSSSR|ER  0.094    .
+429           1193    RSSSRER|KK  0.112    .
+429           1194    SSSRERK|KE  0.310    .
+429           1195    SSRERKK|EK  0.119    .
+429           1197    RERKKEK|KK  0.072    .
+429           1198    ERKKEKK|KK  0.098    .
+429           1199    RKKEKKK|KK  0.120    .
+429           1200    KKEKKKK|KN  0.120    .
+429           1201    KEKKKKK|NR  0.124    .
+429           1203    KKKKKNR|KR  0.130    .
+429           1204    KKKKNRK|RS  0.079    .
+429           1205    KKKNRKR|SQ  0.458    .
+429           1209    RKRSQSR|SR  0.148    .
+429           1211    RSQSRSR|SR  0.185    .
+429           1213    QSRSRSR|SK  0.116    .
+429           1215    RSRSRSK|RR  0.060    .
+429           1216    SRSRSKR|RR  0.767 *ProP*
+429           1217    RSRSKRR|RS  0.115    .
+429           1218    SRSKRRR|SV  0.704 *ProP*
+429           1223    RRSVSPK|KE  0.100    .
+429           1224    RSVSPKK|ED  0.099    .
+429           1227    SPKKEDR|SV  0.310    .
+429           1233    RSVTPDR|KD  0.109    .
+429           1234    SVTPDRK|DD  0.082    .
+429           1237    PDRKDDK|SV  0.128    .
+429           1243    KSVTPHR|KD  0.100    .
+429           1244    SVTPHRK|DD  0.099    .
+429           1253    QSVTPDR|KS  0.093    .
+429           1254    SVTPDRK|SG  0.080    .
+429           1262    GTPPPLK|ED  0.056    .
+429           1265    PPLKEDR|RS  0.073    .
+429           1266    PLKEDRR|SP  0.170    .
+429           1276    DDLAPMR|RG  0.081    .
+429           1277    DLAPMRR|GE  0.119    .
+429           1280    PMRRGER|ER  0.190    .
+429           1282    RRGERER|DN  0.175    .
+429           1286    RERDNER|EG  0.080    .
+429           1290    NEREGER|ER  0.079    .
+429           1292    REGERER|ER  0.068    .
+429           1294    GERERER|KM  0.085    .
+429           1295    ERERERK|MR  0.314    .
+429           1297    ERERKMR|RA  0.446    .
+429           1298    RERKMRR|AY  0.178    .
+429           1317    LYSPIDK|GR  0.079    .
+429           1319    SPIDKGR|GV  0.229    .
+429           1327    VSGVSSK|SN  0.098    .
+429           1333    KSNFGVK|IG  0.064    .
+429           1336    FGVKIGK|KS  0.057    .
+429           1337    GVKIGKK|SK  0.145    .
+429           1339    KIGKKSK|KV  0.068    .
+429           1340    IGKKSKK|VA  0.149    .
+429           1346    KVALPCK|HT  0.073    .
+429           1358    VSALPCK|HT  0.076    .
+429           1370    VSALPCK|HT  0.076    .
+429           1382    VSALPCK|HT  0.076    .
+429           1394    VSALPCK|HT  0.076    .
+429           1406    VSALPCK|HT  0.076    .
+429           1418    VSALPCK|HT  0.076    .
+429           1430    VSALPCK|HT  0.076    .
+429           1442    VSALPCK|HT  0.076    .
+429           1454    VSALPCK|HT  0.076    .
+429           1466    VSALPCK|HT  0.076    .
+429           1478    VSALPCK|HT  0.076    .
+429           1490    VSALPCK|HN  0.074    .
+429           1502    VSALPCK|HN  0.074    .
+429           1514    VSALPCK|HN  0.074    .
+429           1526    VSALPCK|HN  0.074    .
+429           1538    VSALPCK|HN  0.074    .
+429           1550    VSALPCK|HN  0.074    .
+429           1562    VSALPCK|HN  0.074    .
+429           1574    VSALPCK|HN  0.074    .
+429           1586    VSALPCK|HN  0.074    .
+429           1598    VSALPCK|HN  0.074    .
+429           1610    VSALPCK|HN  0.074    .
+429           1622    VSALPCK|HN  0.074    .
+429           1634    VSALPCK|HT  0.076    .
+429           1646    VSALPCK|HN  0.074    .
+429           1658    VSALPCK|HN  0.074    .
+429           1670    VSALPCK|HN  0.074    .
+429           1698    SAPCLNR|ND  0.086    .
+429           1702    LNRNDVR|RV  0.144    .
+429           1703    NRNDVRR|VF  0.207    .
+429           1710    VFQCQNK|VV  0.079    .
+429           1737    SLSNATK|IK  0.074    .
+429           1739    SNATKIK|SL  0.176    .
+____________________________^_________________
+
+
+
+

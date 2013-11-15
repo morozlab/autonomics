@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------
+330	
+
+ psg: 0.38  gvh: 0.46  alm: 0.34  top: 0.70  tms: 3.00  mit: 0.33  mip: 0.08
+ nuc: 0.09  erl: 0.00  erm: 0.40  pox: 0.00  px2: 0.50  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 0.00  tyr: 0.00  leu: 0.00  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 1.00  m_ : 0.00  ncn: 0.03  lps: 0.00  len: 0.48 
+
+	 88.9 %: endoplasmic reticulum
+	 11.1 %: mitochondrial
+
+>> prediction for 330 is end (k=9)
+

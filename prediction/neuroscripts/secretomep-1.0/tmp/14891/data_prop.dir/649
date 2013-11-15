@@ -1,0 +1,223 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1451 649         
+MGQVSPSANPKHKSFGIRADDDSRYVICLLSVVTLKGGGRRPNEKKKETENNKLPTHLHTLNLPLSEDLSAAVLGQHETF      80
+QVNKKQQNEKSSIIHRTKNDIHHQKIEEIRSKMTSAESRNLDLLSEKGASSWLTCLPLQALNFTLNRQEWHDALSARYNL     160
+PLTGESLPTNCVCGEENSIDHSISCKIGVLIYGMRSFEQLDKVITANVAHYRHTNSRPERISSTDPIPKLKHVVGVNTKF     240
+ANLHCIWCFSSVVAMCVPSILLTKCTLGPSPRKGFKASVTITGPRSDPPIPILTTSVIRFPVTPFHVPSRRSSAKPFIFS     320
+STRLTSGMTSFPFMRMGKLLRFRRATWRTDRFSVKLIWSPLNILARIPSTSASLARLRSSIRISGFILFFEHFQTPFFSL     400
+LSAFPCFVLTPDFSNRLDMTDFDKQPSFKALEILAEKYKSVLLKNLFKEDPDRFAKYHQEIEIDGLNLLVDYSKNKINPE     480
+ILIELLNLAKEADVEGMRAKMFSGDQINFTEKRSVLHVALRNRSNFPILINGKDVMPDVNRVLEKMKGFADDLRDGTWKG     560
+VTGKRITDVVNIGIGGSDLGPVMVTEALKPFRGDGPSVHFVSNIDGTHMATTLEKLNYETTMFVIASKTFTTLETITNAK     640
+TARAWFIEKAGSDEGVPKHFIALSTNAVEVGKFGIDTNNMFEFWDWVGGRYSLWSAIGMTIMCYIGSDNFIKLLEGAHAI     720
+DQHFVCAPLEKNIPAILALLGIWYNNFMGAQTHAILPYDQYLHRFAAYFQQGDMESNGKGVSREGNKVGYSTGPIVWGEP     800
+GTNGQHAFYQLIHQGTKLIPCDFILPVNSHHPIGDHHEILTANFLAQTTALMMGRDNKEARSMLSKLTPEEQDRLSVFTE     880
+FPGDRPTNSIVFSKLTPAMLGALIAMYEHKIFVQGVIWNINSYDQFGVELGKKLAIKIQPLLKGDEKVTSEDSSTNGLIS     960
+FIKKNRSDPDLPEPRFTGKIKFPRIPVNRGPTVPGAFRVMDCPPIYANPDLVPKFLSPEDVTKSGSDCCPLIMLAGDEPY    1040
+LRNGDNDDIRVRQSPNCIVFPFFRIILIRLQKYLTPIYRAKSLPPSIGALCRPSFLLALLFSERLCFDFLSTTTIRCSEP    1120
+NVIDSDDHIHVQNKTHNSRITFYLLTSPCHTETKGWGSGVIKCLSKQLHLTWTRPPTNCLIIKKYHDPAVLKKFKMLCIW    1200
+LITNKRLDVFVEAKDFEELQQQKSGDMPKSASYDNFQNITKKNLDTEFSELIDHIKVWRDGTDKLSNKIDFIVCLGGDGT    1280
+LLYASSLFQNSVPPIIAFNLGSLGFLTPFDFKEFPTVLQKVLKGTMGFTLRNRLDTTLWSSAPAAVTSGEDSGDGDSDED    1360
+SDEESDLIPECYQVMNEVVINRGLNSGVCMVDIYCDENFVTTVIGDGVIVATPTGSTAYAAATGASVVAPSVPAKVTIAK    1440
+EGRDLGVSNLG                                                                         1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...........                                                                         1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+649             11    SPSANPK|HK  0.097    .
+649             13    SANPKHK|SF  0.127    .
+649             18    HKSFGIR|AD  0.172    .
+649             24    RADDDSR|YV  0.102    .
+649             36    LSVVTLK|GG  0.067    .
+649             40    TLKGGGR|RP  0.073    .
+649             41    LKGGGRR|PN  0.176    .
+649             45    GRRPNEK|KK  0.076    .
+649             46    RRPNEKK|KE  0.096    .
+649             47    RPNEKKK|ET  0.147    .
+649             53    KETENNK|LP  0.053    .
+649             84    ETFQVNK|KQ  0.060    .
+649             85    TFQVNKK|QQ  0.098    .
+649             90    KKQQNEK|SS  0.085    .
+649             96    KSSIIHR|TK  0.140    .
+649             98    SIIHRTK|ND  0.069    .
+649            105    NDIHHQK|IE  0.069    .
+649            110    QKIEEIR|SK  0.143    .
+649            112    IEEIRSK|MT  0.077    .
+649            119    MTSAESR|NL  0.089    .
+649            127    LDLLSEK|GA  0.073    .
+649            147    LNFTLNR|QE  0.072    .
+649            157    HDALSAR|YN  0.122    .
+649            186    DHSISCK|IG  0.065    .
+649            195    VLIYGMR|SF  0.123    .
+649            202    SFEQLDK|VI  0.062    .
+649            212    ANVAHYR|HT  0.099    .
+649            217    YRHTNSR|PE  0.098    .
+649            220    TNSRPER|IS  0.390    .
+649            229    STDPIPK|LK  0.066    .
+649            231    DPIPKLK|HV  0.086    .
+649            239    VVGVNTK|FA  0.065    .
+649            264    PSILLTK|CT  0.056    .
+649            272    TLGPSPR|KG  0.101    .
+649            273    LGPSPRK|GF  0.082    .
+649            276    SPRKGFK|AS  0.071    .
+649            285    VTITGPR|SD  0.099    .
+649            299    LTTSVIR|FP  0.076    .
+649            310    PFHVPSR|RS  0.116    .
+649            311    FHVPSRR|SS  0.202    .
+649            315    SRRSSAK|PF  0.081    .
+649            323    FIFSSTR|LT  0.086    .
+649            335    TSFPFMR|MG  0.081    .
+649            338    PFMRMGK|LL  0.106    .
+649            341    RMGKLLR|FR  0.088    .
+649            343    GKLLRFR|RA  0.089    .
+649            344    KLLRFRR|AT  0.411    .
+649            348    FRRATWR|TD  0.096    .
+649            351    ATWRTDR|FS  0.254    .
+649            355    TDRFSVK|LI  0.075    .
+649            366    PLNILAR|IP  0.101    .
+649            376    TSASLAR|LR  0.121    .
+649            378    ASLARLR|SS  0.101    .
+649            382    RLRSSIR|IS  0.124    .
+649            416    TPDFSNR|LD  0.094    .
+649            424    DMTDFDK|QP  0.058    .
+649            429    DKQPSFK|AL  0.073    .
+649            437    LEILAEK|YK  0.064    .
+649            439    ILAEKYK|SV  0.095    .
+649            444    YKSVLLK|NL  0.090    .
+649            448    LLKNLFK|ED  0.057    .
+649            453    FKEDPDR|FA  0.111    .
+649            456    DPDRFAK|YH  0.169    .
+649            474    LLVDYSK|NK  0.057    .
+649            476    VDYSKNK|IN  0.064    .
+649            490    ELLNLAK|EA  0.068    .
+649            498    ADVEGMR|AK  0.083    .
+649            500    VEGMRAK|MF  0.079    .
+649            512    QINFTEK|RS  0.056    .
+649            513    INFTEKR|SV  0.425    .
+649            521    VLHVALR|NR  0.077    .
+649            523    HVALRNR|SN  0.163    .
+649            533    PILINGK|DV  0.076    .
+649            541    VMPDVNR|VL  0.084    .
+649            545    VNRVLEK|MK  0.079    .
+649            547    RVLEKMK|GF  0.076    .
+649            554    GFADDLR|DG  0.107    .
+649            559    LRDGTWK|GV  0.106    .
+649            564    WKGVTGK|RI  0.079    .
+649            565    KGVTGKR|IT  0.183    .
+649            589    MVTEALK|PF  0.060    .
+649            592    EALKPFR|GD  0.123    .
+649            615    MATTLEK|LN  0.060    .
+649            628    MFVIASK|TF  0.064    .
+649            640    ETITNAK|TA  0.067    .
+649            643    TNAKTAR|AW  0.177    .
+649            649    RAWFIEK|AG  0.067    .
+649            658    SDEGVPK|HF  0.071    .
+649            672    NAVEVGK|FG  0.072    .
+649            690    WDWVGGR|YS  0.092    .
+649            712    GSDNFIK|LL  0.070    .
+649            731    VCAPLEK|NI  0.070    .
+649            764    YDQYLHR|FA  0.104    .
+649            779    DMESNGK|GV  0.084    .
+649            783    NGKGVSR|EG  0.105    .
+649            787    VSREGNK|VG  0.058    .
+649            817    LIHQGTK|LI  0.056    .
+649            855    TALMMGR|DN  0.122    .
+649            858    MMGRDNK|EA  0.154    .
+649            861    RDNKEAR|SM  0.189    .
+649            866    ARSMLSK|LT  0.079    .
+649            874    TPEEQDR|LS  0.079    .
+649            885    TEFPGDR|PT  0.096    .
+649            894    NSIVFSK|LT  0.074    .
+649            910    IAMYEHK|IF  0.074    .
+649            932    FGVELGK|KL  0.059    .
+649            933    GVELGKK|LA  0.107    .
+649            937    GKKLAIK|IQ  0.058    .
+649            943    KIQPLLK|GD  0.070    .
+649            947    LLKGDEK|VT  0.060    .
+649            963    GLISFIK|KN  0.061    .
+649            964    LISFIKK|NR  0.101    .
+649            966    SFIKKNR|SD  0.123    .
+649            975    PDLPEPR|FT  0.120    .
+649            979    EPRFTGK|IK  0.073    .
+649            981    RFTGKIK|FP  0.066    .
+649            984    GKIKFPR|IP  0.100    .
+649            989    PRIPVNR|GP  0.095    .
+649            998    TVPGAFR|VM  0.066    .
+649           1014    NPDLVPK|FL  0.082    .
+649           1023    SPEDVTK|SG  0.098    .
+649           1042    GDEPYLR|NG  0.067    .
+649           1050    GDNDDIR|VR  0.071    .
+649           1052    NDDIRVR|QS  0.072    .
+649           1064    IVFPFFR|II  0.081    .
+649           1069    FRIILIR|LQ  0.082    .
+649           1072    ILIRLQK|YL  0.159    .
+649           1079    YLTPIYR|AK  0.074    .
+649           1081    TPIYRAK|SL  0.124    .
+649           1092    SIGALCR|PS  0.077    .
+649           1104    ALLFSER|LC  0.087    .
+649           1116    LSTTTIR|CS  0.091    .
+649           1134    HIHVQNK|TH  0.062    .
+649           1139    NKTHNSR|IT  0.097    .
+649           1154    PCHTETK|GW  0.083    .
+649           1162    WGSGVIK|CL  0.097    .
+649           1166    VIKCLSK|QL  0.057    .
+649           1174    LHLTWTR|PP  0.072    .
+649           1183    TNCLIIK|KY  0.066    .
+649           1184    NCLIIKK|YH  0.095    .
+649           1192    HDPAVLK|KF  0.056    .
+649           1193    DPAVLKK|FK  0.114    .
+649           1195    AVLKKFK|ML  0.072    .
+649           1205    IWLITNK|RL  0.059    .
+649           1206    WLITNKR|LD  0.108    .
+649           1214    DVFVEAK|DF  0.084    .
+649           1223    EELQQQK|SG  0.065    .
+649           1229    KSGDMPK|SA  0.115    .
+649           1241    NFQNITK|KN  0.064    .
+649           1242    FQNITKK|NL  0.139    .
+649           1256    ELIDHIK|VW  0.070    .
+649           1259    DHIKVWR|DG  0.124    .
+649           1264    WRDGTDK|LS  0.063    .
+649           1268    TDKLSNK|ID  0.064    .
+649           1312    LTPFDFK|EF  0.059    .
+649           1320    FPTVLQK|VL  0.056    .
+649           1323    VLQKVLK|GT  0.069    .
+649           1331    TMGFTLR|NR  0.077    .
+649           1333    GFTLRNR|LD  0.068    .
+649           1382    NEVVINR|GL  0.107    .
+649           1435    APSVPAK|VT  0.101    .
+649           1440    AKVTIAK|EG  0.069    .
+649           1443    TIAKEGR|DL  0.200    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,250 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1614 524         
+MRRRWRFCCCCCRCCWFYWAQVSSTTIPSTPISLSNLNLILLVICNCSILNPGPRGLKVIYNNVQGLVSPGHLDSVSPPL      80
+NMTKVFEVQDFVYGNSADIIILNETWLKPKISSELIFPTNYKVFRLDRSGHTHPRDPSNPTRFRENGGGVLIAHRENISV     160
+SSFKFSKSNVKAELLTIFLSLSNGKKLCFSTFYRVGTLGDDNFAEFKQHFDCLFSTRNISKHVLIGDFNFSHVNWPASQP     240
+RNRVEELFLSYLLDDLACAIVTTFIDVDVGPIRQARRNIRIYDKGDYESFNSDLSFIDWVTEFSGDIEYNVNRFNIIVTT     320
+LIDKYIPIKSVKPILLPIWYNHECESARVRKENLRKRWKNSSSETDLDNFKAARKHFKNVCESSARLYCDVDDRDVLSKK     400
+FWRQVKVTSKSTRIPPTVNNGTVFRSDLEGQADLFNEQFASNFSEESTYDIDIDSTDSSIECDFSASSVYQVLSKLNARK     480
+GPGPDNIHSIVFKRCAGSLAFPLSLLFEQAYSGGGLPAIWKTANVVPVHKSGDKRDVRNYRPISLTCIASKVYERIVTSR     560
+LLDHCYDMIDSRQHGFLPGRSCLTQLISVYDDLALTDNDKRTSDLILFDFSKAFDSVNHDLLLSKLQLNFGITGKMLSFI     640
+RNYLIGRSQRVVIGGKISSNLSVLSGVPQGSILGPLLFILFINDITECVSGESKIALYADDLKLWSRINGVQDQIDMQIS     720
+VDNLYKWSNINKMKFHPSKCKVISTSSSRCEATWGELPCFLHSYVLGDTVLDNVTVQRDLGVIVNNHLTWNNHTDYILDR     800
+FTDRFNLVRRTTHFVKNPHQRRVLYLTLVRSLLEHCSSVWAPHTVGVLDCLEAALFSHLTGKSLITLTSLLYVVLLKLPV     880
+LLFVTVSFIDPFPIYDKGDSESFNSDLSFIDWVTEFSGDIEYNVNRFNIIVTTLIDKYIPIKSVKPILLPIWYNHECESA     960
+RVRKENLRKRWKNSSSETDLDNFKAARKHFKNVCESSARLYCDVDDRDVLSKKFWRQVKVTSKSTRIPPTVNNGTVFRSD    1040
+LEGQADLFNEQFVSNFSEESTYALDIDSTDSSIECDFSASSVYQVLSKLNARKGPGPDNIHSIVFKRCAGSLAFPLSLLF    1120
+EQAYSGGGLPAIWKTANVVPVHKSGDKRDVRNYRPISLTCIASKVYERIVTSRLLDHCYDMIDSRQHGFLPGRSCLTQLI    1200
+SVYDDLALTDNDKRTSDLILFDFSKAFDSVNHDLLLSKLQLNFGITGKMLSFIRNYLIGRSQRVVIGGKISSNLSVLSGV    1280
+PQGSILGPLLFILFINDITECVSGESKIALYADDLKLWSRINGVQDQIDMQISVDNLYKWSNINKMKFHPSKCKVISTSS    1360
+SRCEATWGELPCFLHSYVLGDTVLDNVTVQRDLGVIVNNHLTWNNHTDYILDRFTDRFNLVRRTTHFVKNPHQRRVLYLT    1440
+LVRSLLEHCSSVWAPHTVGVLDCLEAAPKRAIKWIHGVSHLTSWSNEVYLNHLSTLNILPIHLQFKCNDMKLLYKVMTGL    1520
+VPITLPSYLYIKSPLDVAYPTRSNREIIDNTDFTTLCCSIKATSSAFRNSFFYRSFSYWNSLPSDTRQSPTYSTFCFRLK    1600
+KHLFSLFSTQHPSP                                                                      1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+......................................................P.........................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+...........................P....................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..............                                                                      1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+524              2    -----MR|RR  0.070    .
+524              3    ----MRR|RW  0.109    .
+524              4    ---MRRR|WR  0.110    .
+524              6    -MRRRWR|FC  0.331    .
+524             13    FCCCCCR|CC  0.075    .
+524             55    ILNPGPR|GL  0.110    .
+524             58    PGPRGLK|VI  0.084    .
+524             84    PPLNMTK|VF  0.064    .
+524            108    LNETWLK|PK  0.061    .
+524            110    ETWLKPK|IS  0.065    .
+524            122    IFPTNYK|VF  0.054    .
+524            125    TNYKVFR|LD  0.115    .
+524            128    KVFRLDR|SG  0.387    .
+524            135    SGHTHPR|DP  0.119    .
+524            142    DPSNPTR|FR  0.170    .
+524            144    SNPTRFR|EN  0.122    .
+524            155    GVLIAHR|EN  0.069    .
+524            164    ISVSSFK|FS  0.074    .
+524            167    SSFKFSK|SN  0.100    .
+524            171    FSKSNVK|AE  0.053    .
+524            185    LSLSNGK|KL  0.059    .
+524            186    SLSNGKK|LC  0.092    .
+524            194    CFSTFYR|VG  0.087    .
+524            207    DNFAEFK|QH  0.070    .
+524            217    DCLFSTR|NI  0.100    .
+524            221    STRNISK|HV  0.089    .
+524            241    WPASQPR|NR  0.100    .
+524            243    ASQPRNR|VE  0.087    .
+524            273    VDVGPIR|QA  0.097    .
+524            276    GPIRQAR|RN  0.300    .
+524            277    PIRQARR|NI  0.142    .
+524            280    QARRNIR|IY  0.370    .
+524            284    NIRIYDK|GD  0.068    .
+524            313    IEYNVNR|FN  0.111    .
+524            324    VTTLIDK|YI  0.056    .
+524            329    DKYIPIK|SV  0.109    .
+524            332    IPIKSVK|PI  0.062    .
+524            348    HECESAR|VR  0.081    .
+524            350    CESARVR|KE  0.076    .
+524            351    ESARVRK|EN  0.250    .
+524            355    VRKENLR|KR  0.080    .
+524            356    RKENLRK|RW  0.074    .
+524            357    KENLRKR|WK  0.181    .
+524            359    NLRKRWK|NS  0.068    .
+524            371    TDLDNFK|AA  0.071    .
+524            374    DNFKAAR|KH  0.092    .
+524            375    NFKAARK|HF  0.075    .
+524            378    AARKHFK|NV  0.096    .
+524            386    VCESSAR|LY  0.087    .
+524            394    YCDVDDR|DV  0.106    .
+524            399    DRDVLSK|KF  0.068    .
+524            400    RDVLSKK|FW  0.155    .
+524            403    LSKKFWR|QV  0.135    .
+524            406    KFWRQVK|VT  0.169    .
+524            410    QVKVTSK|ST  0.076    .
+524            413    VTSKSTR|IP  0.116    .
+524            425    NNGTVFR|SD  0.169    .
+524            475    VYQVLSK|LN  0.063    .
+524            479    LSKLNAR|KG  0.073    .
+524            480    SKLNARK|GP  0.098    .
+524            493    IHSIVFK|RC  0.075    .
+524            494    HSIVFKR|CA  0.340    .
+524            521    GLPAIWK|TA  0.066    .
+524            530    NVVPVHK|SG  0.070    .
+524            534    VHKSGDK|RD  0.052    .
+524            535    HKSGDKR|DV  0.592 *ProP*
+524            538    GDKRDVR|NY  0.212    .
+524            541    RDVRNYR|PI  0.233    .
+524            551    LTCIASK|VY  0.068    .
+524            555    ASKVYER|IV  0.105    .
+524            560    ERIVTSR|LL  0.124    .
+524            572    YDMIDSR|QH  0.085    .
+524            580    HGFLPGR|SC  0.128    .
+524            600    ALTDNDK|RT  0.058    .
+524            601    LTDNDKR|TS  0.157    .
+524            612    ILFDFSK|AF  0.070    .
+524            625    HDLLLSK|LQ  0.055    .
+524            635    NFGITGK|ML  0.071    .
+524            641    KMLSFIR|NY  0.088    .
+524            647    RNYLIGR|SQ  0.123    .
+524            650    LIGRSQR|VV  0.484    .
+524            656    RVVIGGK|IS  0.056    .
+524            694    CVSGESK|IA  0.064    .
+524            703    LYADDLK|LW  0.062    .
+524            707    DLKLWSR|IN  0.091    .
+524            726    SVDNLYK|WS  0.062    .
+524            732    KWSNINK|MK  0.066    .
+524            734    SNINKMK|FH  0.074    .
+524            739    MKFHPSK|CK  0.070    .
+524            741    FHPSKCK|VI  0.066    .
+524            749    ISTSSSR|CE  0.079    .
+524            778    DNVTVQR|DL  0.157    .
+524            800    TDYILDR|FT  0.108    .
+524            804    LDRFTDR|FN  0.098    .
+524            809    DRFNLVR|RT  0.086    .
+524            810    RFNLVRR|TT  0.158    .
+524            816    RTTHFVK|NP  0.062    .
+524            821    VKNPHQR|RV  0.114    .
+524            822    KNPHQRR|VL  0.118    .
+524            830    LYLTLVR|SL  0.080    .
+524            862    FSHLTGK|SL  0.092    .
+524            877    LYVVLLK|LP  0.053    .
+524            897    PFPIYDK|GD  0.063    .
+524            926    IEYNVNR|FN  0.111    .
+524            937    VTTLIDK|YI  0.056    .
+524            942    DKYIPIK|SV  0.109    .
+524            945    IPIKSVK|PI  0.062    .
+524            961    HECESAR|VR  0.081    .
+524            963    CESARVR|KE  0.076    .
+524            964    ESARVRK|EN  0.250    .
+524            968    VRKENLR|KR  0.080    .
+524            969    RKENLRK|RW  0.074    .
+524            970    KENLRKR|WK  0.181    .
+524            972    NLRKRWK|NS  0.068    .
+524            984    TDLDNFK|AA  0.071    .
+524            987    DNFKAAR|KH  0.092    .
+524            988    NFKAARK|HF  0.075    .
+524            991    AARKHFK|NV  0.096    .
+524            999    VCESSAR|LY  0.087    .
+524           1007    YCDVDDR|DV  0.106    .
+524           1012    DRDVLSK|KF  0.068    .
+524           1013    RDVLSKK|FW  0.155    .
+524           1016    LSKKFWR|QV  0.135    .
+524           1019    KFWRQVK|VT  0.169    .
+524           1023    QVKVTSK|ST  0.076    .
+524           1026    VTSKSTR|IP  0.116    .
+524           1038    NNGTVFR|SD  0.169    .
+524           1088    VYQVLSK|LN  0.063    .
+524           1092    LSKLNAR|KG  0.073    .
+524           1093    SKLNARK|GP  0.098    .
+524           1106    IHSIVFK|RC  0.075    .
+524           1107    HSIVFKR|CA  0.340    .
+524           1134    GLPAIWK|TA  0.066    .
+524           1143    NVVPVHK|SG  0.070    .
+524           1147    VHKSGDK|RD  0.052    .
+524           1148    HKSGDKR|DV  0.592 *ProP*
+524           1151    GDKRDVR|NY  0.212    .
+524           1154    RDVRNYR|PI  0.233    .
+524           1164    LTCIASK|VY  0.068    .
+524           1168    ASKVYER|IV  0.105    .
+524           1173    ERIVTSR|LL  0.124    .
+524           1185    YDMIDSR|QH  0.085    .
+524           1193    HGFLPGR|SC  0.128    .
+524           1213    ALTDNDK|RT  0.058    .
+524           1214    LTDNDKR|TS  0.157    .
+524           1225    ILFDFSK|AF  0.070    .
+524           1238    HDLLLSK|LQ  0.055    .
+524           1248    NFGITGK|ML  0.071    .
+524           1254    KMLSFIR|NY  0.088    .
+524           1260    RNYLIGR|SQ  0.123    .
+524           1263    LIGRSQR|VV  0.484    .
+524           1269    RVVIGGK|IS  0.056    .
+524           1307    CVSGESK|IA  0.064    .
+524           1316    LYADDLK|LW  0.062    .
+524           1320    DLKLWSR|IN  0.091    .
+524           1339    SVDNLYK|WS  0.062    .
+524           1345    KWSNINK|MK  0.066    .
+524           1347    SNINKMK|FH  0.074    .
+524           1352    MKFHPSK|CK  0.070    .
+524           1354    FHPSKCK|VI  0.066    .
+524           1362    ISTSSSR|CE  0.079    .
+524           1391    DNVTVQR|DL  0.157    .
+524           1413    TDYILDR|FT  0.108    .
+524           1417    LDRFTDR|FN  0.098    .
+524           1422    DRFNLVR|RT  0.086    .
+524           1423    RFNLVRR|TT  0.158    .
+524           1429    RTTHFVK|NP  0.062    .
+524           1434    VKNPHQR|RV  0.114    .
+524           1435    KNPHQRR|VL  0.118    .
+524           1443    LYLTLVR|SL  0.080    .
+524           1469    CLEAAPK|RA  0.069    .
+524           1470    LEAAPKR|AI  0.222    .
+524           1473    APKRAIK|WI  0.197    .
+524           1506    PIHLQFK|CN  0.074    .
+524           1511    FKCNDMK|LL  0.072    .
+524           1515    DMKLLYK|VM  0.056    .
+524           1532    PSYLYIK|SP  0.065    .
+524           1542    DVAYPTR|SN  0.152    .
+524           1545    YPTRSNR|EI  0.351    .
+524           1561    TLCCSIK|AT  0.085    .
+524           1568    ATSSAFR|NS  0.098    .
+524           1574    RNSFFYR|SF  0.242    .
+524           1587    SLPSDTR|QS  0.073    .
+524           1598    YSTFCFR|LK  0.076    .
+524           1600    TFCFRLK|KH  0.062    .
+524           1601    FCFRLKK|HL  0.243    .
+____________________________^_________________
+
+
+
+

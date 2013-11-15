@@ -1,0 +1,342 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2063 295         
+MPDTDMDDEQPTTSRNLLNNRSAANVIDSSSSDDEEIGQHPNQQIVLNNILLELRREEKQRTYDKRRERQSSTDRRLELE      80
+SRRAQYSDSSDSMSDSDREVMNSGRRARDAENADSINSTRRDRRAENADTLNSTRRDRYAENAESINESRRENRATTADA     160
+TNEYQRQYNEANAASINESRRQRLAANPESANATRRARAAALTVEQRAERNARQRDLRRARERRVLLEQLERGAVDINNR     240
+PDAFTTGLRDKPCTKDCGALLFERELGRSDTCCSNGKTLIPTPSILKPYPEDLKDLLLGYNTDPAFAEHPRKFHDFIRNF     320
+NSAFAFASMNCNEEKLLGPGPYVFRVHGDIRYCVSTLYDSNPSYCQLYVLEGSGAEQARVNNPFNSGCSKNLMSLVSRVL     400
+SSVDNPYRAAFIRMADIEKDMKADSKTVFMYFRRGSDPKRYNEPIHEGDVAAVFDGNSGLPEMPGFTVYTDADHALDSIK     480
+RDPYVLLSDDAFCGPHSTSATVDDLHRVDLADIPRHKLTLKIGCCVRLLSLIPGVTNVTLTTRLTVKSVSREIVQCSFDR     560
+GTKSVSVPRQTFNSVCQSVPFSRTQFPLKLDYSLSQISHCSQHLDPMVYPLLFPQGEQGWTTDIYRSNRGKVTELDFAQY     640
+RTAFRATPFSPLHYSRKLFQQYVVDCQVRIESGRLGYLRSTTMQDKFSYRKDTAEGYMEHHESEQIDPTGLSAGVPTVLP     720
+SSFTGGKRWMQQQYQDSMAMTAKFSKPDLFITFTCNPKHPDITKNLGNEGIQVQNDDGTTSTVHRVSSKTPLTASDRPDI     800
+VAATFNLHLKEFHEDLKVAFGEQQAASGVIEFQKRGLPHTHIAVWLKDGYKFRAVEHIDKYIRADIPDPVTEPELHKIVT     880
+TSMLHECSDTRCMQDGKCSKEFPKMFSDFTTFNNDGRVQYKRPDNGRTVVKNGKEFNNTHVVPYNPYLLYKFNAHINVEA     960
+CMSVKTIKYMFKYIHKGYDCANIEKSSRDQVDEIKEFIDCRYISAPEAMWRIRELNLATKSHTVQRLAVHLPNQEIVYFR    1040
+DNELPEDVLDRQKGTTLTHWFSLNAKDSVARQYLYVEIPYHYTYDRAKGFTKRKNNVGDPDSLRIIPRMYYVTPRDLERF    1120
+YLRLLLLHVRGATSFKDLRTYNGTVYYTFEETCRARGLLESNDEWFNCLEEASITAMPAQLRFLFVTLLAHCNPPEAKFL    1200
+WEWFEDAFSEDYVHFHGLTQREASRRARYDMNNLLMRNYGRVQYKRPDNGRTVVKNGKEFNNTHVVPYNPYLLYKFNAHI    1280
+NVEACMSVKTIKYMFKYIHKGYDCANIEKSSRDQVDEIKEFIDCRYISAPEAMWRIRELNLATKSHTVQRLAVHLPNQEI    1360
+VYFRDNELPEDVLDRQKGTTLTHWFSLNAKDSVARQYLYVEIPYHYTYDRAKGFTKRKNNVGDPDSLRIIPRMYYVTPRD    1440
+LERFYLRLLLLHVRGATSFKDLRTYNGTVYYTFEETCRARGLLESNDEWFNCLEEASITAMPAQLRFLFVTLLAHCNPPE    1520
+AKFLWEWFEDAFSEDYVHFHGLTQREASRRARYDMNNLLMRNYRVPLSNFNITAPEFMPSLEAIDNDSRDEFDYMLDAEA    1600
+AWDMLNTDQRFIADTLKYELDKYGNLCCLDRPRVYFIYASGGCGKTFLANTLSTYCKGNSLKYANCAWTGIAATLLEDGV    1680
+TTHSLFKLPVPITCTSTCDIKPPSKHADYLRSLSIIFIDEASMIPLDALRAIDFMLRDITGNSVPFGGKLIVLAGDFRQT    1760
+LPVTPKSSVKGILENCAFNSPLWRHVNPLDLTVNVRADPSELEFKDWLLQLGDGTLRSTHPDATRMQIDIPPQCNVTNDI    1840
+VAAVFPDFSVDRTRSVIVTPLNQDVNTLNDKILKIFEPNTSPREYRSIDKVIEDDSNEISNLTTEFLNSVNPSGMPAHCL    1920
+KLKKGCTVMLLRNLDSKSGLCNGTRLRVESLGNSVIEVSIISGNSRFLGKKAFIPRIKLTPSDSALPFKLQRLQFPLRLA    2000
+YALTINKAQGQEFETVGIYLPSPVFSHGQLYVAFSRAKRFSGIHVHIVNGPFQKYCNISPFRL                     2080
+................................................................................      80
+...........................P....................................................     160
+...............................................................P................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.............................................P..................................    1920
+................................................................................    2000
+......................................P........................                     2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+295             15    EQPTTSR|NL  0.071    .
+295             21    RNLLNNR|SA  0.148    .
+295             55    NILLELR|RE  0.068    .
+295             56    ILLELRR|EE  0.085    .
+295             59    ELRREEK|QR  0.090    .
+295             61    RREEKQR|TY  0.131    .
+295             65    KQRTYDK|RR  0.061    .
+295             66    QRTYDKR|RE  0.176    .
+295             67    RTYDKRR|ER  0.123    .
+295             69    YDKRRER|QS  0.295    .
+295             75    RQSSTDR|RL  0.084    .
+295             76    QSSTDRR|LE  0.143    .
+295             82    RLELESR|RA  0.078    .
+295             83    LELESRR|AQ  0.090    .
+295             98    SMSDSDR|EV  0.213    .
+295            105    EVMNSGR|RA  0.125    .
+295            106    VMNSGRR|AR  0.125    .
+295            108    NSGRRAR|DA  0.622 *ProP*
+295            120    DSINSTR|RD  0.095    .
+295            121    SINSTRR|DR  0.208    .
+295            123    NSTRRDR|RA  0.247    .
+295            124    STRRDRR|AE  0.393    .
+295            135    DTLNSTR|RD  0.080    .
+295            136    TLNSTRR|DR  0.213    .
+295            138    NSTRRDR|YA  0.452    .
+295            150    ESINESR|RE  0.076    .
+295            151    SINESRR|EN  0.168    .
+295            154    ESRRENR|AT  0.338    .
+295            166    ATNEYQR|QY  0.099    .
+295            180    ASINESR|RQ  0.072    .
+295            181    SINESRR|QR  0.146    .
+295            183    NESRRQR|LA  0.303    .
+295            195    ESANATR|RA  0.117    .
+295            196    SANATRR|AR  0.197    .
+295            198    NATRRAR|AA  0.250    .
+295            207    ALTVEQR|AE  0.077    .
+295            210    VEQRAER|NA  0.205    .
+295            213    RAERNAR|QR  0.232    .
+295            215    ERNARQR|DL  0.158    .
+295            218    ARQRDLR|RA  0.261    .
+295            219    RQRDLRR|AR  0.116    .
+295            221    RDLRRAR|ER  0.219    .
+295            223    LRRARER|RV  0.117    .
+295            224    RRARERR|VL  0.617 *ProP*
+295            232    LLEQLER|GA  0.094    .
+295            240    AVDINNR|PD  0.064    .
+295            249    AFTTGLR|DK  0.068    .
+295            251    TTGLRDK|PC  0.064    .
+295            255    RDKPCTK|DC  0.085    .
+295            264    GALLFER|EL  0.089    .
+295            268    FERELGR|SD  0.097    .
+295            277    TCCSNGK|TL  0.063    .
+295            287    PTPSILK|PY  0.053    .
+295            294    PYPEDLK|DL  0.057    .
+295            311    AFAEHPR|KF  0.115    .
+295            312    FAEHPRK|FH  0.097    .
+295            318    KFHDFIR|NF  0.101    .
+295            335    MNCNEEK|LL  0.086    .
+295            345    PGPYVFR|VH  0.096    .
+295            351    RVHGDIR|YC  0.088    .
+295            379    SGAEQAR|VN  0.108    .
+295            390    FNSGCSK|NL  0.066    .
+295            398    LMSLVSR|VL  0.104    .
+295            408    SVDNPYR|AA  0.102    .
+295            413    YRAAFIR|MA  0.216    .
+295            419    RMADIEK|DM  0.066    .
+295            422    DIEKDMK|AD  0.065    .
+295            426    DMKADSK|TV  0.074    .
+295            433    TVFMYFR|RG  0.082    .
+295            434    VFMYFRR|GS  0.227    .
+295            439    RRGSDPK|RY  0.069    .
+295            440    RGSDPKR|YN  0.328    .
+295            480    HALDSIK|RD  0.060    .
+295            481    ALDSIKR|DP  0.143    .
+295            507    TVDDLHR|VD  0.069    .
+295            515    DLADIPR|HK  0.079    .
+295            517    ADIPRHK|LT  0.065    .
+295            521    RHKLTLK|IG  0.060    .
+295            527    KIGCCVR|LL  0.084    .
+295            543    NVTLTTR|LT  0.073    .
+295            547    TTRLTVK|SV  0.145    .
+295            551    TVKSVSR|EI  0.090    .
+295            560    VQCSFDR|GT  0.083    .
+295            563    SFDRGTK|SV  0.285    .
+295            569    KSVSVPR|QT  0.114    .
+295            583    QSVPFSR|TQ  0.083    .
+295            589    RTQFPLK|LD  0.058    .
+295            626    WTTDIYR|SN  0.113    .
+295            629    DIYRSNR|GK  0.288    .
+295            631    YRSNRGK|VT  0.082    .
+295            641    LDFAQYR|TA  0.107    .
+295            645    QYRTAFR|AT  0.082    .
+295            656    SPLHYSR|KL  0.109    .
+295            657    PLHYSRK|LF  0.095    .
+295            669    VVDCQVR|IE  0.082    .
+295            674    VRIESGR|LG  0.077    .
+295            679    GRLGYLR|ST  0.142    .
+295            686    STTMQDK|FS  0.067    .
+295            690    QDKFSYR|KD  0.112    .
+295            691    DKFSYRK|DT  0.104    .
+295            727    SSFTGGK|RW  0.069    .
+295            728    SFTGGKR|WM  0.160    .
+295            743    SMAMTAK|FS  0.084    .
+295            746    MTAKFSK|PD  0.063    .
+295            758    TFTCNPK|HP  0.059    .
+295            764    KHPDITK|NL  0.075    .
+295            785    TTSTVHR|VS  0.129    .
+295            789    VHRVSSK|TP  0.064    .
+295            797    PLTASDR|PD  0.073    .
+295            810    TFNLHLK|EF  0.070    .
+295            817    EFHEDLK|VA  0.066    .
+295            834    GVIEFQK|RG  0.060    .
+295            835    VIEFQKR|GL  0.160    .
+295            847    HIAVWLK|DG  0.075    .
+295            851    WLKDGYK|FR  0.058    .
+295            853    KDGYKFR|AV  0.238    .
+295            860    AVEHIDK|YI  0.069    .
+295            863    HIDKYIR|AD  0.082    .
+295            877    TEPELHK|IV  0.079    .
+295            891    HECSDTR|CM  0.086    .
+295            897    RCMQDGK|CS  0.068    .
+295            900    QDGKCSK|EF  0.064    .
+295            904    CSKEFPK|MF  0.075    .
+295            917    TFNNDGR|VQ  0.087    .
+295            921    DGRVQYK|RP  0.072    .
+295            922    GRVQYKR|PD  0.173    .
+295            927    KRPDNGR|TV  0.150    .
+295            931    NGRTVVK|NG  0.064    .
+295            934    TVVKNGK|EF  0.059    .
+295            951    NPYLLYK|FN  0.073    .
+295            965    EACMSVK|TI  0.063    .
+295            968    MSVKTIK|YM  0.080    .
+295            972    TIKYMFK|YI  0.101    .
+295            976    MFKYIHK|GY  0.065    .
+295            985    DCANIEK|SS  0.085    .
+295            988    NIEKSSR|DQ  0.105    .
+295            995    DQVDEIK|EF  0.062    .
+295           1001    KEFIDCR|YI  0.142    .
+295           1011    APEAMWR|IR  0.095    .
+295           1013    EAMWRIR|EL  0.098    .
+295           1020    ELNLATK|SH  0.080    .
+295           1026    KSHTVQR|LA  0.131    .
+295           1040    QEIVYFR|DN  0.120    .
+295           1051    PEDVLDR|QK  0.114    .
+295           1053    DVLDRQK|GT  0.054    .
+295           1066    WFSLNAK|DS  0.072    .
+295           1071    AKDSVAR|QY  0.091    .
+295           1086    YHYTYDR|AK  0.083    .
+295           1088    YTYDRAK|GF  0.070    .
+295           1092    RAKGFTK|RK  0.065    .
+295           1093    AKGFTKR|KN  0.202    .
+295           1094    KGFTKRK|NN  0.078    .
+295           1104    GDPDSLR|II  0.076    .
+295           1108    SLRIIPR|MY  0.113    .
+295           1115    MYYVTPR|DL  0.121    .
+295           1119    TPRDLER|FY  0.097    .
+295           1123    LERFYLR|LL  0.085    .
+295           1130    LLLLHVR|GA  0.083    .
+295           1136    RGATSFK|DL  0.093    .
+295           1139    TSFKDLR|TY  0.077    .
+295           1154    TFEETCR|AR  0.086    .
+295           1156    EETCRAR|GL  0.092    .
+295           1182    AMPAQLR|FL  0.096    .
+295           1198    CNPPEAK|FL  0.076    .
+295           1221    FHGLTQR|EA  0.089    .
+295           1225    TQREASR|RA  0.091    .
+295           1226    QREASRR|AR  0.156    .
+295           1228    EASRRAR|YD  0.471    .
+295           1237    MNNLLMR|NY  0.123    .
+295           1241    LMRNYGR|VQ  0.083    .
+295           1245    YGRVQYK|RP  0.079    .
+295           1246    GRVQYKR|PD  0.172    .
+295           1251    KRPDNGR|TV  0.150    .
+295           1255    NGRTVVK|NG  0.064    .
+295           1258    TVVKNGK|EF  0.059    .
+295           1275    NPYLLYK|FN  0.073    .
+295           1289    EACMSVK|TI  0.063    .
+295           1292    MSVKTIK|YM  0.080    .
+295           1296    TIKYMFK|YI  0.101    .
+295           1300    MFKYIHK|GY  0.065    .
+295           1309    DCANIEK|SS  0.085    .
+295           1312    NIEKSSR|DQ  0.105    .
+295           1319    DQVDEIK|EF  0.062    .
+295           1325    KEFIDCR|YI  0.142    .
+295           1335    APEAMWR|IR  0.095    .
+295           1337    EAMWRIR|EL  0.098    .
+295           1344    ELNLATK|SH  0.080    .
+295           1350    KSHTVQR|LA  0.131    .
+295           1364    QEIVYFR|DN  0.120    .
+295           1375    PEDVLDR|QK  0.114    .
+295           1377    DVLDRQK|GT  0.054    .
+295           1390    WFSLNAK|DS  0.072    .
+295           1395    AKDSVAR|QY  0.091    .
+295           1410    YHYTYDR|AK  0.083    .
+295           1412    YTYDRAK|GF  0.070    .
+295           1416    RAKGFTK|RK  0.065    .
+295           1417    AKGFTKR|KN  0.202    .
+295           1418    KGFTKRK|NN  0.078    .
+295           1428    GDPDSLR|II  0.076    .
+295           1432    SLRIIPR|MY  0.113    .
+295           1439    MYYVTPR|DL  0.121    .
+295           1443    TPRDLER|FY  0.097    .
+295           1447    LERFYLR|LL  0.085    .
+295           1454    LLLLHVR|GA  0.083    .
+295           1460    RGATSFK|DL  0.093    .
+295           1463    TSFKDLR|TY  0.077    .
+295           1478    TFEETCR|AR  0.086    .
+295           1480    EETCRAR|GL  0.092    .
+295           1506    AMPAQLR|FL  0.096    .
+295           1522    CNPPEAK|FL  0.076    .
+295           1545    FHGLTQR|EA  0.089    .
+295           1549    TQREASR|RA  0.091    .
+295           1550    QREASRR|AR  0.156    .
+295           1552    EASRRAR|YD  0.471    .
+295           1561    MNNLLMR|NY  0.099    .
+295           1564    LLMRNYR|VP  0.179    .
+295           1589    AIDNDSR|DE  0.081    .
+295           1610    MLNTDQR|FI  0.154    .
+295           1617    FIADTLK|YE  0.060    .
+295           1622    LKYELDK|YG  0.060    .
+295           1631    NLCCLDR|PR  0.069    .
+295           1633    CCLDRPR|VY  0.078    .
+295           1645    ASGGCGK|TF  0.061    .
+295           1657    TLSTYCK|GN  0.082    .
+295           1662    CKGNSLK|YA  0.082    .
+295           1687    TTHSLFK|LP  0.062    .
+295           1701    TSTCDIK|PP  0.064    .
+295           1705    DIKPPSK|HA  0.066    .
+295           1711    KHADYLR|SL  0.197    .
+295           1730    IPLDALR|AI  0.098    .
+295           1737    AIDFMLR|DI  0.083    .
+295           1749    SVPFGGK|LI  0.058    .
+295           1758    VLAGDFR|QT  0.087    .
+295           1766    TLPVTPK|SS  0.091    .
+295           1770    TPKSSVK|GI  0.068    .
+295           1784    FNSPLWR|HV  0.158    .
+295           1796    DLTVNVR|AD  0.075    .
+295           1805    PSELEFK|DW  0.071    .
+295           1817    LGDGTLR|ST  0.101    .
+295           1825    THPDATR|MQ  0.110    .
+295           1852    PDFSVDR|TR  0.085    .
+295           1854    FSVDRTR|SV  0.175    .
+295           1871    VNTLNDK|IL  0.061    .
+295           1874    LNDKILK|IF  0.061    .
+295           1883    EPNTSPR|EY  0.119    .
+295           1886    TSPREYR|SI  0.753 *ProP*
+295           1890    EYRSIDK|VI  0.061    .
+295           1921    MPAHCLK|LK  0.068    .
+295           1923    AHCLKLK|KG  0.064    .
+295           1924    HCLKLKK|GC  0.097    .
+295           1932    CTVMLLR|NL  0.071    .
+295           1937    LRNLDSK|SG  0.076    .
+295           1945    GLCNGTR|LR  0.077    .
+295           1947    CNGTRLR|VE  0.075    .
+295           1966    IISGNSR|FL  0.172    .
+295           1970    NSRFLGK|KA  0.069    .
+295           1971    SRFLGKK|AF  0.100    .
+295           1976    KKAFIPR|IK  0.082    .
+295           1978    AFIPRIK|LT  0.055    .
+295           1989    DSALPFK|LQ  0.064    .
+295           1992    LPFKLQR|LQ  0.083    .
+295           1998    RLQFPLR|LA  0.091    .
+295           2007    YALTINK|AQ  0.066    .
+295           2036    LYVAFSR|AK  0.085    .
+295           2038    VAFSRAK|RF  0.068    .
+295           2039    AFSRAKR|FS  0.761 *ProP*
+295           2054    VNGPFQK|YC  0.070    .
+295           2062    CNISPFR|L-  0.084    .
+____________________________^_________________
+
+
+
+

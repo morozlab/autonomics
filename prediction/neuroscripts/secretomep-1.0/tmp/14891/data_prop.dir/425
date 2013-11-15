@@ -1,0 +1,260 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1758 425         
+MSQHLSPEGSVRVRVQSNNSSVSSSRPPSAPLLGDGEFTCIPGVRVFNSDGSARASYRSEIGSAYIMLPDGTYQRYDEFC      80
+QKCSSPLLGDRVKVNVILDQHKGNYPLQFKNQLIYSHLQYKTCLNNQWVTVLGSTLHVSGDPQYLILNDSNYGTPYRIYE     160
+VFPVNNVSTTSYPFYYRGLYIDRERRYKIFVNNRYVVVFGSQLSPGADPNSLYLNQGPNNFVLVTEIYSYDSIPAPVAPT     240
+ATQPTYSFLYRGLPIYTYGYYKIYINAQWLTVLGSQLAPTPDGSAVIYYQNPNTPIRVEQIVAVTPDQPIRPISPRTTSY     320
+NPYHKAFSPSITPSRRSPSRGGKGGGSPSPSRHPHPPGGRSSPGYYGNNTAVNYYNQQTSTSQTTYNNNTPWNTKPQQQQ     400
+PQQKQPSPRQPKQTSPRQPSPRQQSPQQQEAVPSTATYPFKYYGVYIHEDRMYQVKINEKWEVVRGNQIRPIPGNDKALI     480
+VSLDKDRAGIVSEIYLYQPERYTPVNLSIRNIVIKPNLTYYVDLGPNVGCLIVKGSKIQRHPNRSSGMVWFKGTYHEIID     560
+CRMILNGESEEMLGSQLAPTPDGSAVIYYQNPNTPIRVEQIVAVTPDQPIRPISPRTTSYNPYHKAFSPSITPSRRSPSR     640
+GGKGGGSPSPSRHPHPPGGRSSPGYYGNNTAVNYYNQQTSTSQTTYNNNTPWNTKPQQQQPQQKQPSPRQPKQTSPRQPS     720
+PRQQSPQQQEAVPSTATYPFKYYGVYIHEDRMYQVKINEKWEVVRGNQIRPIPGNDKALIVSLDKDRAGIVSEIYLYQPE     800
+RYTPVNLSIRNIVIKPNLTYYVDLGPNVGCLIVKGSKIQRHPNRSSGMVWFKGTYHEIIDCRMILNGESEESAILDNGEG     880
+DDGDKCQCGAPCSILPFQCPNCPTKEQKPPSPAPIPVPPPPTQPLPPTQPISPGPHHSKSPTGILRSPSRTGTTTTTHHS     960
+ERRVEKSVKILTSSPEMNTSSSSSLSSEEDRKIFKNIKIEPDALYSVLLENNTTKIVSGRLIRTKSTRKYVKVTLDNETY    1040
+KSYFIRPVTPECDDEITPITSTGFYRIYINAKWRVIPANNVRPSKQRPGRFVVVYNSSKYYVKAVNVVPVILPEGSKYPT    1120
+APAGGDHPTCSSPVHPHPISPEQHMRQQSASPDTNTLPHTLGELSVSSSQGSDEGSKMVPLSALYDQWGRLKPEFAGLLG    1200
+SREPSVILPDRPGESPFVVLPNGGYKQPDRMPSPPKLWEKPPTPPLREPSPPPQPSTAIPVAINGTLVHTERQYTLTVNS    1280
+ETVTVYGRHFKARKQHPGQYTVKVGDCRYLVPIGTTILPVQQPTKTVTFGPDATLGEGDSDSDIGEGEQGYLVLIQGSWV    1360
+RTGPKAVRPSKTQAGYAVVKHRDSVHLVLETDIRPLGKNEEVVNLECTLANGRRLIRTWFVEKLPRNCLDSIKTLARNSG    1440
+EEPVFIIRNSSTRNINDVDIRKFTSCIRVHFEHSQIIFEDDYLQLAETGFGAACPIWVIIRKNRSPKYYKMISDLTGGVG    1520
+PHMDVSVSDNSYRDYTSQPGPSTGGFSSQPGPSSASSGFNSAAAATRINTTATRTTAATTSRSTASRSATGFSSPRVGGF    1600
+SSPRPTGSPRARANTTGPFHPPPSTSAFTAASSGGFGAGFRSSSSAGRTSRTTVKSSSNNSTVKKSSLFNRLERSGIAST    1680
+ASSGGFGAGFRSSSSAGRTSRTTVKSSSNNSTVKKSSLFNRLERSGIASMLAALSILDGGDCKLTTVPLKLTAAAASQ      1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+.................................................P..............................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+..............................................................................      1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+425             12    SPEGSVR|VR  0.094    .
+425             14    EGSVRVR|VQ  0.086    .
+425             26    SSVSSSR|PP  0.096    .
+425             45    TCIPGVR|VF  0.082    .
+425             54    NSDGSAR|AS  0.126    .
+425             58    SARASYR|SE  0.159    .
+425             75    PDGTYQR|YD  0.095    .
+425             82    YDEFCQK|CS  0.067    .
+425             91    SPLLGDR|VK  0.071    .
+425             93    LLGDRVK|VN  0.058    .
+425            102    VILDQHK|GN  0.064    .
+425            110    NYPLQFK|NQ  0.051    .
+425            121    YSHLQYK|TC  0.062    .
+425            157    NYGTPYR|IY  0.084    .
+425            177    SYPFYYR|GL  0.081    .
+425            183    RGLYIDR|ER  0.069    .
+425            185    LYIDRER|RY  0.069    .
+425            186    YIDRERR|YK  0.339    .
+425            188    DRERRYK|IF  0.115    .
+425            194    KIFVNNR|YV  0.132    .
+425            251    TYSFLYR|GL  0.127    .
+425            262    YTYGYYK|IY  0.061    .
+425            297    NPNTPIR|VE  0.094    .
+425            311    TPDQPIR|PI  0.130    .
+425            316    IRPISPR|TT  0.129    .
+425            325    SYNPYHK|AF  0.077    .
+425            335    PSITPSR|RS  0.071    .
+425            336    SITPSRR|SP  0.322    .
+425            340    SRRSPSR|GG  0.134    .
+425            343    SPSRGGK|GG  0.173    .
+425            352    GSPSPSR|HP  0.083    .
+425            360    PHPPGGR|SS  0.094    .
+425            395    NTPWNTK|PQ  0.063    .
+425            404    QQQPQQK|QP  0.079    .
+425            409    QKQPSPR|QP  0.108    .
+425            412    PSPRQPK|QT  0.227    .
+425            417    PKQTSPR|QP  0.122    .
+425            422    PRQPSPR|QQ  0.190    .
+425            441    TATYPFK|YY  0.094    .
+425            451    VYIHEDR|MY  0.085    .
+425            456    DRMYQVK|IN  0.082    .
+425            460    QVKINEK|WE  0.057    .
+425            465    EKWEVVR|GN  0.087    .
+425            470    VRGNQIR|PI  0.118    .
+425            477    PIPGNDK|AL  0.061    .
+425            485    LIVSLDK|DR  0.061    .
+425            487    VSLDKDR|AG  0.084    .
+425            501    YLYQPER|YT  0.093    .
+425            510    PVNLSIR|NI  0.086    .
+425            515    IRNIVIK|PN  0.078    .
+425            534    VGCLIVK|GS  0.063    .
+425            537    LIVKGSK|IQ  0.054    .
+425            540    KGSKIQR|HP  0.101    .
+425            544    IQRHPNR|SS  0.249    .
+425            552    SGMVWFK|GT  0.082    .
+425            562    HEIIDCR|MI  0.113    .
+425            597    NPNTPIR|VE  0.094    .
+425            611    TPDQPIR|PI  0.130    .
+425            616    IRPISPR|TT  0.129    .
+425            625    SYNPYHK|AF  0.077    .
+425            635    PSITPSR|RS  0.071    .
+425            636    SITPSRR|SP  0.322    .
+425            640    SRRSPSR|GG  0.134    .
+425            643    SPSRGGK|GG  0.173    .
+425            652    GSPSPSR|HP  0.083    .
+425            660    PHPPGGR|SS  0.094    .
+425            695    NTPWNTK|PQ  0.063    .
+425            704    QQQPQQK|QP  0.079    .
+425            709    QKQPSPR|QP  0.108    .
+425            712    PSPRQPK|QT  0.227    .
+425            717    PKQTSPR|QP  0.122    .
+425            722    PRQPSPR|QQ  0.190    .
+425            741    TATYPFK|YY  0.094    .
+425            751    VYIHEDR|MY  0.085    .
+425            756    DRMYQVK|IN  0.082    .
+425            760    QVKINEK|WE  0.057    .
+425            765    EKWEVVR|GN  0.087    .
+425            770    VRGNQIR|PI  0.118    .
+425            777    PIPGNDK|AL  0.061    .
+425            785    LIVSLDK|DR  0.061    .
+425            787    VSLDKDR|AG  0.084    .
+425            801    YLYQPER|YT  0.093    .
+425            810    PVNLSIR|NI  0.086    .
+425            815    IRNIVIK|PN  0.078    .
+425            834    VGCLIVK|GS  0.063    .
+425            837    LIVKGSK|IQ  0.054    .
+425            840    KGSKIQR|HP  0.101    .
+425            844    IQRHPNR|SS  0.249    .
+425            852    SGMVWFK|GT  0.082    .
+425            862    HEIIDCR|MI  0.113    .
+425            885    EGDDGDK|CQ  0.057    .
+425            905    CPNCPTK|EQ  0.064    .
+425            908    CPTKEQK|PP  0.070    .
+425            939    PGPHHSK|SP  0.097    .
+425            946    SPTGILR|SP  0.148    .
+425            950    ILRSPSR|TG  0.094    .
+425            962    TTHHSER|RV  0.247    .
+425            963    THHSERR|VE  0.119    .
+425            966    SERRVEK|SV  0.426    .
+425            969    RVEKSVK|IL  0.070    .
+425            991    LSSEEDR|KI  0.136    .
+425            992    SSEEDRK|IF  0.073    .
+425            995    EDRKIFK|NI  0.068    .
+425            998    KIFKNIK|IE  0.062    .
+425           1015    LENNTTK|IV  0.093    .
+425           1020    TKIVSGR|LI  0.117    .
+425           1023    VSGRLIR|TK  0.188    .
+425           1025    GRLIRTK|ST  0.103    .
+425           1028    IRTKSTR|KY  0.113    .
+425           1029    RTKSTRK|YV  0.108    .
+425           1032    STRKYVK|VT  0.071    .
+425           1041    LDNETYK|SY  0.093    .
+425           1046    YKSYFIR|PV  0.222    .
+425           1066    TSTGFYR|IY  0.098    .
+425           1072    RIYINAK|WR  0.058    .
+425           1074    YINAKWR|VI  0.100    .
+425           1082    IPANNVR|PS  0.090    .
+425           1085    NNVRPSK|QR  0.105    .
+425           1087    VRPSKQR|PG  0.089    .
+425           1090    SKQRPGR|FV  0.556 *ProP*
+425           1099    VVYNSSK|YY  0.065    .
+425           1103    SSKYYVK|AV  0.085    .
+425           1117    ILPEGSK|YP  0.055    .
+425           1146    SPEQHMR|QQ  0.165    .
+425           1177    GSDEGSK|MV  0.059    .
+425           1190    LYDQWGR|LK  0.063    .
+425           1192    DQWGRLK|PE  0.067    .
+425           1202    AGLLGSR|EP  0.085    .
+425           1211    SVILPDR|PG  0.084    .
+425           1226    LPNGGYK|QP  0.065    .
+425           1230    GYKQPDR|MP  0.088    .
+425           1236    RMPSPPK|LW  0.064    .
+425           1240    PPKLWEK|PP  0.066    .
+425           1247    PPTPPLR|EP  0.087    .
+425           1272    TLVHTER|QY  0.094    .
+425           1288    TVTVYGR|HF  0.079    .
+425           1291    VYGRHFK|AR  0.141    .
+425           1293    GRHFKAR|KQ  0.304    .
+425           1294    RHFKARK|QH  0.082    .
+425           1303    PGQYTVK|VG  0.057    .
+425           1308    VKVGDCR|YL  0.109    .
+425           1325    PVQQPTK|TV  0.080    .
+425           1361    IQGSWVR|TG  0.075    .
+425           1365    WVRTGPK|AV  0.086    .
+425           1368    TGPKAVR|PS  0.085    .
+425           1371    KAVRPSK|TQ  0.104    .
+425           1380    AGYAVVK|HR  0.064    .
+425           1382    YAVVKHR|DS  0.114    .
+425           1394    VLETDIR|PL  0.108    .
+425           1398    DIRPLGK|NE  0.066    .
+425           1413    CTLANGR|RL  0.064    .
+425           1414    TLANGRR|LI  0.167    .
+425           1417    NGRRLIR|TW  0.167    .
+425           1423    RTWFVEK|LP  0.061    .
+425           1426    FVEKLPR|NC  0.092    .
+425           1433    NCLDSIK|TL  0.057    .
+425           1437    SIKTLAR|NS  0.108    .
+425           1448    EPVFIIR|NS  0.076    .
+425           1453    IRNSSTR|NI  0.132    .
+425           1461    INDVDIR|KF  0.082    .
+425           1462    NDVDIRK|FT  0.106    .
+425           1468    KFTSCIR|VH  0.064    .
+425           1501    PIWVIIR|KN  0.069    .
+425           1502    IWVIIRK|NR  0.081    .
+425           1504    VIIRKNR|SP  0.368    .
+425           1507    RKNRSPK|YY  0.235    .
+425           1510    RSPKYYK|MI  0.085    .
+425           1533    VSDNSYR|DY  0.118    .
+425           1567    SAAAATR|IN  0.111    .
+425           1574    INTTATR|TT  0.077    .
+425           1582    TAATTSR|ST  0.124    .
+425           1587    SRSTASR|SA  0.227    .
+425           1596    TGFSSPR|VG  0.082    .
+425           1604    GGFSSPR|PT  0.096    .
+425           1610    RPTGSPR|AR  0.085    .
+425           1612    TGSPRAR|AN  0.208    .
+425           1641    GFGAGFR|SS  0.168    .
+425           1648    SSSSAGR|TS  0.117    .
+425           1651    SAGRTSR|TT  0.265    .
+425           1655    TSRTTVK|SS  0.091    .
+425           1664    SNNSTVK|KS  0.066    .
+425           1665    NNSTVKK|SS  0.175    .
+425           1671    KSSLFNR|LE  0.127    .
+425           1674    LFNRLER|SG  0.410    .
+425           1691    GFGAGFR|SS  0.168    .
+425           1698    SSSSAGR|TS  0.117    .
+425           1701    SAGRTSR|TT  0.265    .
+425           1705    TSRTTVK|SS  0.091    .
+425           1714    SNNSTVK|KS  0.066    .
+425           1715    NNSTVKK|SS  0.175    .
+425           1721    KSSLFNR|LE  0.133    .
+425           1724    LFNRLER|SG  0.363    .
+425           1743    LDGGDCK|LT  0.061    .
+425           1750    LTTVPLK|LT  0.065    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+518	
+
+ psg: 0.90  gvh: 0.39  alm: 0.48  top: 0.63  tms: 0.08  mit: 0.29  mip: 0.04
+ nuc: 0.10  erl: 0.00  erm: 0.60  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.13  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 1.00  m2 : 0.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.91  lps: 0.00  len: 0.39 
+
+	 69.6 %: nuclear
+	  8.7 %: vesicles of secretory system
+	  8.7 %: mitochondrial
+	  4.3 %: cytoplasmic
+	  4.3 %: peroxisomal
+	  4.3 %: plasma membrane
+
+>> prediction for 518 is nuc (k=23)
+

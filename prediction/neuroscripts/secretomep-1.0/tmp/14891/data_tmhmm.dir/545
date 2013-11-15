@@ -1,0 +1,24 @@
+# 545 Length: 1574
+# 545 Number of predicted TMHs:  9
+# 545 Exp number of AAs in TMHs: 213.41559
+# 545 Exp number, first 60 AAs:  0.00015
+# 545 Total prob of N-in:        0.84764
+545	TMHMM2.0	inside	     1   279
+545	TMHMM2.0	TMhelix	   280   302
+545	TMHMM2.0	outside	   303   682
+545	TMHMM2.0	TMhelix	   683   705
+545	TMHMM2.0	inside	   706   711
+545	TMHMM2.0	TMhelix	   712   734
+545	TMHMM2.0	outside	   735   743
+545	TMHMM2.0	TMhelix	   744   766
+545	TMHMM2.0	inside	   767   772
+545	TMHMM2.0	TMhelix	   773   795
+545	TMHMM2.0	outside	   796   804
+545	TMHMM2.0	TMhelix	   805   827
+545	TMHMM2.0	inside	   828   833
+545	TMHMM2.0	TMhelix	   834   856
+545	TMHMM2.0	outside	   857   865
+545	TMHMM2.0	TMhelix	   866   888
+545	TMHMM2.0	inside	   889   894
+545	TMHMM2.0	TMhelix	   895   917
+545	TMHMM2.0	outside	   918  1574

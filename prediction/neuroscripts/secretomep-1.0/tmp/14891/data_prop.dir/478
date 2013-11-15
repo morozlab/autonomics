@@ -1,0 +1,216 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1671 478         
+MSRLPRAFRGVPPQINLFKVVKGVTRAPVKSLQGTQIIIAPTSKLQIYIRASTKRGVNNNYFAALTACFTYVMATIEPRF      80
+EGPLERKTDKWKQFHAVLRNSQLYFYRTTDGPGGIPLWYPVYTQNIQHLSLPLSLSPSLPLSLSLSLSLCLSLSPSLSLS     160
+LSLFVIWRLPCVYVFDAHRFIYIAAARRMHHTFLSSTNNPLPQEYELVGTLKLGASTFCNSSNKVLARGYQFSVKTPEME     240
+VNFRARTEEQRNRWIKEIMGAVTEKTTTPQTILTTLSKQMTNRLTDMNPYGYSFNDIPSCALQRGRPHNSCYEDVPQVQF     320
+VQNILVFLAIGNLPVFFAWLDCEKGGLEHNKSPTMKEYTVLDSDLSSPAESDNSLIKIEESEGGSEGEELEVRRSPLAQL     400
+LGIGLVLVSSFLFSGSATGAKYLHHISPGEFLLVRGGYALVLLVPTSLYTGNSLFSFPHKPLVAARCITHGAGYCLKIWC     480
+VKNMKLGDAISLYCTSIIFAGAFARVFLKEKYTMINAVSICSGLAGVIMIAKPSFVFTSPSHLVTCNPYYALIALAAACC     560
+SGAGYCVQRAVGTSVASSVTTFYTNLSVMVGGVVLNFVTGDTYNLPVCYVDRYILSGCGVGACLGLVMLNWGLSIEKSAP     640
+ATLMRNMDIVIAFLVQVFLFREHVDLVSVGGATMILLSTLHDLVPPITRVLSTRSHIESAPGDTYQHTLVVYEWYWPGIT     720
+RDQAEAMLVRAEGNRFLGKLSTITNQNSLFRSRDWLSANQGPVFPDSVDSWWHQPTTHPSIITNHHPLVRDSCHEAGSYS     800
+LSVCIGPDRNFFHYIIKRDPMENKFILVPKPEDRFNTLEGAVDSYIKINNNINILPMKNPAFASPSVTHNSSSSYVDPAS     880
+TDMTVNQHRAPSVSDILDQEMDSLLDSCSDSSSSDARANSYKAAGVCVCDVSEPPVSAQYRTGSWTREPICQIRPTEGKK     960
+CCPNGKAPTKPNRPNIGRQGSESQYMNVNPVPLQQEKRKEKITSTSADNSKYIYAAIPQSQPTSSGSIKTSISEAPSSKV    1040
+YIHGQERSVVNMGFEDAVFDRTNSVFEDPVPDGTDGSAGCYVNCELSNQMAGARVSILEDDLQPATGSKSGQGKMSKASA    1120
+KAAKNKKAKKQAAAAAQPQYPPMGPDIPSYKDPSEHMPTKPTFLNKIEELEQFPVGSGIPCYNDPATSLPTQPPVSRGGG    1200
+KRPSAASAVDQFPVAMPGAMAYTDPCISMATPPHARTGILRSPRQPTTPPAVRGPHFTYDYVSLLDTHQSVIPPPPSSFQ    1280
+SRPIIHGPSLYPVLTRHGLVGARQFTHEHNGGGRSMPMRPPFYNDRIPPTHNSYRGDGYASLPSPNSIRSPFSNRWPNSP    1360
+EQKSDSYESIPSPIRSPFSTSLPRQIPHSKKSNSYESLPSPNVNRSPFSTRWRLSPEHKSDGYESIPSPIRSPLSPRWLI    1440
+SQDRFGNNNFNIRSPLSYGVPFSSSQDQKSEGYVSLPSSQSSQFSNRVPLSQESEGYVSLPSSTPAPFTSRAPPSQDQLS    1520
+EGYVSLPSTPAPFTSRAPPSQDQLSEGYVSIPSSAQTSVPTRVSLPQDQTGEGYVSLISPRHLVSPTAVRGPHFTYDYVS    1600
+LLDTRPSVIPPPPSSFQSRSGPIVHGPSQYPVLTRHGLVGARQFTHEHNVSVLLRVVQNSVNRWLIIVPRG             1680
+........P.......................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.......................................................................             1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+478              3    ----MSR|LP  0.077    .
+478              6    -MSRLPR|AF  0.450    .
+478              9    RLPRAFR|GV  0.502 *ProP*
+478             19    PQINLFK|VV  0.079    .
+478             22    NLFKVVK|GV  0.084    .
+478             26    VVKGVTR|AP  0.090    .
+478             30    VTRAPVK|SL  0.080    .
+478             44    IIAPTSK|LQ  0.061    .
+478             50    KLQIYIR|AS  0.095    .
+478             54    YIRASTK|RG  0.057    .
+478             55    IRASTKR|GV  0.459    .
+478             79    MATIEPR|FE  0.111    .
+478             86    FEGPLER|KT  0.090    .
+478             87    EGPLERK|TD  0.072    .
+478             90    LERKTDK|WK  0.062    .
+478             92    RKTDKWK|QF  0.087    .
+478             99    QFHAVLR|NS  0.082    .
+478            107    SQLYFYR|TT  0.098    .
+478            168    SLFVIWR|LP  0.081    .
+478            179    YVFDAHR|FI  0.083    .
+478            187    IYIAAAR|RM  0.082    .
+478            188    YIAAARR|MH  0.146    .
+478            212    ELVGTLK|LG  0.057    .
+478            224    FCNSSNK|VL  0.065    .
+478            228    SNKVLAR|GY  0.147    .
+478            235    GYQFSVK|TP  0.065    .
+478            244    EMEVNFR|AR  0.084    .
+478            246    EVNFRAR|TE  0.121    .
+478            251    ARTEEQR|NR  0.093    .
+478            253    TEEQRNR|WI  0.125    .
+478            256    QRNRWIK|EI  0.286    .
+478            265    MGAVTEK|TT  0.077    .
+478            278    ILTTLSK|QM  0.062    .
+478            283    SKQMTNR|LT  0.114    .
+478            304    PSCALQR|GR  0.074    .
+478            306    CALQRGR|PH  0.075    .
+478            344    AWLDCEK|GG  0.056    .
+478            351    GGLEHNK|SP  0.101    .
+478            356    NKSPTMK|EY  0.078    .
+478            377    SDNSLIK|IE  0.073    .
+478            393    GEELEVR|RS  0.066    .
+478            394    EELEVRR|SP  0.180    .
+478            421    GSATGAK|YL  0.086    .
+478            435    GEFLLVR|GG  0.075    .
+478            460    LFSFPHK|PL  0.079    .
+478            466    KPLVAAR|CI  0.144    .
+478            477    GAGYCLK|IW  0.065    .
+478            482    LKIWCVK|NM  0.058    .
+478            485    WCVKNMK|LG  0.059    .
+478            505    FAGAFAR|VF  0.097    .
+478            509    FARVFLK|EK  0.069    .
+478            511    RVFLKEK|YT  0.069    .
+478            532    GVIMIAK|PS  0.061    .
+478            569    AGYCVQR|AV  0.207    .
+478            612    PVCYVDR|YI  0.094    .
+478            637    WGLSIEK|SA  0.071    .
+478            645    APATLMR|NM  0.111    .
+478            661    VQVFLFR|EH  0.075    .
+478            689    LVPPITR|VL  0.077    .
+478            694    TRVLSTR|SH  0.181    .
+478            721    YWPGITR|DQ  0.089    .
+478            730    AEAMLVR|AE  0.088    .
+478            735    VRAEGNR|FL  0.133    .
+478            739    GNRFLGK|LS  0.067    .
+478            751    NQNSLFR|SR  0.111    .
+478            753    NSLFRSR|DW  0.100    .
+478            790    NHHPLVR|DS  0.122    .
+478            809    VCIGPDR|NF  0.075    .
+478            817    FFHYIIK|RD  0.057    .
+478            818    FHYIIKR|DP  0.171    .
+478            824    RDPMENK|FI  0.065    .
+478            830    KFILVPK|PE  0.067    .
+478            834    VPKPEDR|FN  0.097    .
+478            847    AVDSYIK|IN  0.055    .
+478            858    INILPMK|NP  0.062    .
+478            889    MTVNQHR|AP  0.091    .
+478            917    SSSSDAR|AN  0.167    .
+478            922    ARANSYK|AA  0.117    .
+478            941    PVSAQYR|TG  0.112    .
+478            947    RTGSWTR|EP  0.081    .
+478            954    EPICQIR|PT  0.110    .
+478            959    IRPTEGK|KC  0.071    .
+478            960    RPTEGKK|CC  0.082    .
+478            966    KCCPNGK|AP  0.058    .
+478            970    NGKAPTK|PN  0.068    .
+478            973    APTKPNR|PN  0.106    .
+478            978    NRPNIGR|QG  0.114    .
+478            997    VPLQQEK|RK  0.068    .
+478            998    PLQQEKR|KE  0.129    .
+478            999    LQQEKRK|EK  0.103    .
+478           1001    QEKRKEK|IT  0.204    .
+478           1011    TSADNSK|YI  0.102    .
+478           1029    TSSGSIK|TS  0.083    .
+478           1039    SEAPSSK|VY  0.071    .
+478           1047    YIHGQER|SV  0.187    .
+478           1061    EDAVFDR|TN  0.111    .
+478           1094    NQMAGAR|VS  0.075    .
+478           1109    QPATGSK|SG  0.075    .
+478           1114    SKSGQGK|MS  0.096    .
+478           1117    GQGKMSK|AS  0.067    .
+478           1121    MSKASAK|AA  0.084    .
+478           1124    ASAKAAK|NK  0.077    .
+478           1126    AKAAKNK|KA  0.098    .
+478           1127    KAAKNKK|AK  0.127    .
+478           1129    AKNKKAK|KQ  0.088    .
+478           1130    KNKKAKK|QA  0.139    .
+478           1151    PDIPSYK|DP  0.087    .
+478           1160    SEHMPTK|PT  0.070    .
+478           1166    KPTFLNK|IE  0.067    .
+478           1197    TQPPVSR|GG  0.108    .
+478           1201    VSRGGGK|RP  0.065    .
+478           1202    SRGGGKR|PS  0.239    .
+478           1236    ATPPHAR|TG  0.066    .
+478           1241    ARTGILR|SP  0.110    .
+478           1244    GILRSPR|QP  0.182    .
+478           1253    TTPPAVR|GP  0.077    .
+478           1282    PSSFQSR|PI  0.182    .
+478           1296    LYPVLTR|HG  0.087    .
+478           1303    HGLVGAR|QF  0.087    .
+478           1314    EHNGGGR|SM  0.100    .
+478           1319    GRSMPMR|PP  0.125    .
+478           1326    PPFYNDR|IP  0.074    .
+478           1335    PTHNSYR|GD  0.122    .
+478           1349    PSPNSIR|SP  0.107    .
+478           1355    RSPFSNR|WP  0.082    .
+478           1363    PNSPEQK|SD  0.089    .
+478           1375    SIPSPIR|SP  0.075    .
+478           1384    FSTSLPR|QI  0.085    .
+478           1390    RQIPHSK|KS  0.067    .
+478           1391    QIPHSKK|SN  0.145    .
+478           1405    PSPNVNR|SP  0.111    .
+478           1411    RSPFSTR|WR  0.087    .
+478           1413    PFSTRWR|LS  0.084    .
+478           1419    RLSPEHK|SD  0.099    .
+478           1431    SIPSPIR|SP  0.077    .
+478           1437    RSPLSPR|WL  0.103    .
+478           1444    WLISQDR|FG  0.088    .
+478           1453    NNNFNIR|SP  0.109    .
+478           1469    SSSQDQK|SE  0.102    .
+478           1487    SSQFSNR|VP  0.099    .
+478           1511    PAPFTSR|AP  0.071    .
+478           1536    PAPFTSR|AP  0.072    .
+478           1562    QTSVPTR|VS  0.102    .
+478           1581    VSLISPR|HL  0.075    .
+478           1590    VSPTAVR|GP  0.073    .
+478           1605    VSLLDTR|PS  0.064    .
+478           1619    PSSFQSR|SG  0.182    .
+478           1635    QYPVLTR|HG  0.089    .
+478           1642    HGLVGAR|QF  0.084    .
+478           1655    NVSVLLR|VV  0.128    .
+478           1663    VQNSVNR|WL  0.108    .
+478           1670    WLIIVPR|G-  0.108    .
+____________________________^_________________
+
+
+
+

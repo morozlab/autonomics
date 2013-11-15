@@ -1,0 +1,424 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2105 288         
+MTYNNGSATKLINSAKIEDTEGGAALDILTKAVFQLSCVTETSDAELPLKQIKSLLQGDTCNGNLSSFELLHAGLVETLL      80
+KFLTPQPSDRETDVLQRVSKLLEVFAFNENNDFDPAPFSSLFHKVQQCLSQIEHFPVKVTEGSADSLSKVATTYQIKCLF     160
+RRHTDNSSSSLRQWGAGTVKVDPLAYVQALERYLLSRGYCREEEEEEDGDSSGDASEDEERIVSRQQNSPSKHRLTLTIN     240
+NHPLPYNMTMYQAIKRYGTHTRLDDDAHPASHSAVWHNIHTIVYKTYESSDRVRSSAVKSAEDDPPPSSLLEKLGSAPPL     320
+LLEGYKGIGVIQLLHILHTISHEWILLLKTDDYNHPILNKELLVNKQIAAKHTRLDDDAHPASHSAVWHNIHTIVYKTYE     400
+SSDRVRSSAVKSAEDDPPPSSLLEKLGSAPPLLLEGYKGIGVIQLLHILHTISHEWILLLKTDDYNHPILNKELLVNKQI     480
+AAKAERQLQDPLVIMTAEYPKWFTPLPYYTPFLFPFDVRLELLHATSFDRDRALQRLLELHPELGKYCNRNSKQPIRTRY     560
+LGHVSGYQPISHQYFLIRSVPGTVVTPLLLMTKQGNFLKYSGTSSENRSGIRLDKDKRCVDRDSVFEQGKVIMNELASSI     640
+SLLEVYYVGEVGTGLGPTLEFYTLLSQAFQETQFGMWRECGTYEIGEKTYTTAPLGLYPRAVSQTDSPALKSLCDNFMFL     720
+GRVIGKAIIDNRILDINLSEPFYRWLLGTHEKMGLVTIKDIDEVLHSSLKQVEVFALRKDAILKRDDISEEERAELILQI     800
+TDDDGGTLEDYCLDFILPGSDVELSPGGRNTALTIHNVEDYLCAVVNFTLKEGVRKQMEAVRTGFSSVMPLSNLQLFYAN     880
+EMKILLCGTAEEKWSEDELKTAIQPDHGYNSQSSAVLFLIQNGSDTLVSKTPHTLFRSPGDLCACWQGVTSFTVVKKSVD     960
+GSPDDYLPSVMTCVNYLKLPDYRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVC    1040
+GGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVV    1120
+CGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRV    1200
+VCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRR    1280
+VVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMR    1360
+RVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRVRKQMEAVRT    1440
+GFSSVMPLSNLQLFYANEMKILLCGTAEEKWSEEELKTAIQPDHGYNSQSSAVLFLIQVMSGESPLLVSRKEAKHCPTGK    1520
+LPVGGFRALHPRFTVVKKSVDGSPDDYLPSVMTCVNYLKLPDYSTAERLREKLLTAEPIRTRYFGHVTGYQPIRDQHFLI    1600
+LSVPGLLYIFEGTQSPATHKERLYFPVTILIYLKFPGINKLAYCQTPIYRDAFAWEDRFLPVVTANHTAEKICFVNLFHN    1680
+VRDGMIRDYDVKKCAIVGASLYRKLKYRTLESENRGQSIGLTEIIPTTKHITFPPQFALFLHKFVFRNISPNILSPVVCL    1760
+PVVCLPVVCLPVVLRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRV    1840
+VCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRMRRVVCGGRVRKQMEAVRTGFSSVMPLSNLQLFYANEMKILLCGTAEE    1920
+KWSEEELKTAIQPDHGYNSQSSAVLFLIQVMSGLSGDEQRSFLRFVTGCPKLPVGGFRALHPRFTVVKKSVDGSPDDYLP    2000
+SVMTCVNYLKLPDYSTAERLREKLLTAEPIRTRYFGHVTGYQPIRDQHFLILSVPGLLYIFEGVSWATLESENRGQSIGL    2080
+TEIILVTTKQITTYKARNHFRNEPL                                                           2160
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+...............................P........P........P........P........P........P...    1040
+.....P........P........P........P........P........P........P........P........P..    1120
+......P........P........P........P........P........P........P........P........P.    1200
+.......P........P........P........P........P........P........P........P........P    1280
+........P........P........P........P........P........P........P........P........    1360
+P........P........P........P........P........P........P........P................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+........................P........P........P........P........P........P........P.    1840
+.......P........P........P........P.............................................    1920
+................................................................................    2000
+................................................................................    2080
+.........................                                                           2160
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 60
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+288             10    NNGSATK|LI  0.062    .
+288             16    KLINSAK|IE  0.080    .
+288             31    ALDILTK|AV  0.068    .
+288             50    DAELPLK|QI  0.062    .
+288             53    LPLKQIK|SL  0.091    .
+288             81    LVETLLK|FL  0.066    .
+288             90    TPQPSDR|ET  0.140    .
+288             97    ETDVLQR|VS  0.064    .
+288            100    VLQRVSK|LL  0.133    .
+288            124    FSSLFHK|VQ  0.062    .
+288            138    IEHFPVK|VT  0.074    .
+288            149    SADSLSK|VA  0.064    .
+288            157    ATTYQIK|CL  0.059    .
+288            161    QIKCLFR|RH  0.076    .
+288            162    IKCLFRR|HT  0.207    .
+288            172    NSSSSLR|QW  0.195    .
+288            180    WGAGTVK|VD  0.058    .
+288            192    YVQALER|YL  0.071    .
+288            197    ERYLLSR|GY  0.121    .
+288            201    LSRGYCR|EE  0.107    .
+288            221    ASEDEER|IV  0.153    .
+288            225    EERIVSR|QQ  0.083    .
+288            232    QQNSPSK|HR  0.059    .
+288            234    NSPSKHR|LT  0.097    .
+288            255    TMYQAIK|RY  0.067    .
+288            256    MYQAIKR|YG  0.151    .
+288            262    RYGTHTR|LD  0.118    .
+288            285    IHTIVYK|TY  0.068    .
+288            292    TYESSDR|VR  0.088    .
+288            294    ESSDRVR|SS  0.131    .
+288            299    VRSSAVK|SA  0.122    .
+288            313    PSSLLEK|LG  0.067    .
+288            326    LLLEGYK|GI  0.076    .
+288            349    EWILLLK|TD  0.055    .
+288            360    NHPILNK|EL  0.054    .
+288            366    KELLVNK|QI  0.062    .
+288            371    NKQIAAK|HT  0.068    .
+288            374    IAAKHTR|LD  0.129    .
+288            397    IHTIVYK|TY  0.068    .
+288            404    TYESSDR|VR  0.088    .
+288            406    ESSDRVR|SS  0.131    .
+288            411    VRSSAVK|SA  0.122    .
+288            425    PSSLLEK|LG  0.067    .
+288            438    LLLEGYK|GI  0.076    .
+288            461    EWILLLK|TD  0.055    .
+288            472    NHPILNK|EL  0.054    .
+288            478    KELLVNK|QI  0.061    .
+288            483    NKQIAAK|AE  0.069    .
+288            486    IAAKAER|QL  0.102    .
+288            501    MTAEYPK|WF  0.065    .
+288            519    LFPFDVR|LE  0.065    .
+288            530    HATSFDR|DR  0.084    .
+288            532    TSFDRDR|AL  0.100    .
+288            536    RDRALQR|LL  0.088    .
+288            546    LHPELGK|YC  0.059    .
+288            550    LGKYCNR|NS  0.083    .
+288            553    YCNRNSK|QP  0.102    .
+288            557    NSKQPIR|TR  0.082    .
+288            559    KQPIRTR|YL  0.115    .
+288            578    HQYFLIR|SV  0.209    .
+288            593    PLLLMTK|QG  0.054    .
+288            599    KQGNFLK|YS  0.077    .
+288            608    GTSSENR|SG  0.120    .
+288            612    ENRSGIR|LD  0.076    .
+288            615    SGIRLDK|DK  0.156    .
+288            617    IRLDKDK|RC  0.061    .
+288            618    RLDKDKR|CV  0.233    .
+288            622    DKRCVDR|DS  0.120    .
+288            630    SVFEQGK|VI  0.070    .
+288            678    TQFGMWR|EC  0.121    .
+288            688    TYEIGEK|TY  0.061    .
+288            700    PLGLYPR|AV  0.125    .
+288            711    TDSPALK|SL  0.125    .
+288            722    NFMFLGR|VI  0.115    .
+288            726    LGRVIGK|AI  0.073    .
+288            732    KAIIDNR|IL  0.100    .
+288            744    LSEPFYR|WL  0.099    .
+288            752    LLGTHEK|MG  0.064    .
+288            759    MGLVTIK|DI  0.119    .
+288            770    VLHSSLK|QV  0.071    .
+288            778    VEVFALR|KD  0.064    .
+288            779    EVFALRK|DA  0.093    .
+288            784    RKDAILK|RD  0.065    .
+288            785    KDAILKR|DD  0.273    .
+288            793    DISEEER|AE  0.080    .
+288            829    ELSPGGR|NT  0.085    .
+288            851    VVNFTLK|EG  0.058    .
+288            855    TLKEGVR|KQ  0.089    .
+288            856    LKEGVRK|QM  0.122    .
+288            862    KQMEAVR|TG  0.080    .
+288            883    FYANEMK|IL  0.061    .
+288            893    CGTAEEK|WS  0.068    .
+288            900    WSEDELK|TA  0.078    .
+288            930    SDTLVSK|TP  0.063    .
+288            937    TPHTLFR|SP  0.229    .
+288            956    TSFTVVK|KS  0.065    .
+288            957    SFTVVKK|SV  0.380    .
+288            978    TCVNYLK|LP  0.056    .
+288            983    LKLPDYR|VV  0.126    .
+288            989    RVVCGGR|MR  0.075    .
+288            991    VCGGRMR|RV  0.115    .
+288            992    CGGRMRR|VV  0.664 *ProP*
+288            998    RVVCGGR|MR  0.072    .
+288           1000    VCGGRMR|RV  0.113    .
+288           1001    CGGRMRR|VV  0.664 *ProP*
+288           1007    RVVCGGR|MR  0.072    .
+288           1009    VCGGRMR|RV  0.113    .
+288           1010    CGGRMRR|VV  0.664 *ProP*
+288           1016    RVVCGGR|MR  0.072    .
+288           1018    VCGGRMR|RV  0.113    .
+288           1019    CGGRMRR|VV  0.664 *ProP*
+288           1025    RVVCGGR|MR  0.072    .
+288           1027    VCGGRMR|RV  0.113    .
+288           1028    CGGRMRR|VV  0.664 *ProP*
+288           1034    RVVCGGR|MR  0.072    .
+288           1036    VCGGRMR|RV  0.113    .
+288           1037    CGGRMRR|VV  0.664 *ProP*
+288           1043    RVVCGGR|MR  0.072    .
+288           1045    VCGGRMR|RV  0.113    .
+288           1046    CGGRMRR|VV  0.664 *ProP*
+288           1052    RVVCGGR|MR  0.072    .
+288           1054    VCGGRMR|RV  0.113    .
+288           1055    CGGRMRR|VV  0.664 *ProP*
+288           1061    RVVCGGR|MR  0.072    .
+288           1063    VCGGRMR|RV  0.113    .
+288           1064    CGGRMRR|VV  0.664 *ProP*
+288           1070    RVVCGGR|MR  0.072    .
+288           1072    VCGGRMR|RV  0.113    .
+288           1073    CGGRMRR|VV  0.664 *ProP*
+288           1079    RVVCGGR|MR  0.072    .
+288           1081    VCGGRMR|RV  0.113    .
+288           1082    CGGRMRR|VV  0.664 *ProP*
+288           1088    RVVCGGR|MR  0.072    .
+288           1090    VCGGRMR|RV  0.113    .
+288           1091    CGGRMRR|VV  0.664 *ProP*
+288           1097    RVVCGGR|MR  0.072    .
+288           1099    VCGGRMR|RV  0.113    .
+288           1100    CGGRMRR|VV  0.664 *ProP*
+288           1106    RVVCGGR|MR  0.072    .
+288           1108    VCGGRMR|RV  0.113    .
+288           1109    CGGRMRR|VV  0.664 *ProP*
+288           1115    RVVCGGR|MR  0.072    .
+288           1117    VCGGRMR|RV  0.113    .
+288           1118    CGGRMRR|VV  0.664 *ProP*
+288           1124    RVVCGGR|MR  0.072    .
+288           1126    VCGGRMR|RV  0.113    .
+288           1127    CGGRMRR|VV  0.664 *ProP*
+288           1133    RVVCGGR|MR  0.072    .
+288           1135    VCGGRMR|RV  0.113    .
+288           1136    CGGRMRR|VV  0.664 *ProP*
+288           1142    RVVCGGR|MR  0.072    .
+288           1144    VCGGRMR|RV  0.113    .
+288           1145    CGGRMRR|VV  0.664 *ProP*
+288           1151    RVVCGGR|MR  0.072    .
+288           1153    VCGGRMR|RV  0.113    .
+288           1154    CGGRMRR|VV  0.664 *ProP*
+288           1160    RVVCGGR|MR  0.072    .
+288           1162    VCGGRMR|RV  0.113    .
+288           1163    CGGRMRR|VV  0.664 *ProP*
+288           1169    RVVCGGR|MR  0.072    .
+288           1171    VCGGRMR|RV  0.113    .
+288           1172    CGGRMRR|VV  0.664 *ProP*
+288           1178    RVVCGGR|MR  0.072    .
+288           1180    VCGGRMR|RV  0.113    .
+288           1181    CGGRMRR|VV  0.664 *ProP*
+288           1187    RVVCGGR|MR  0.072    .
+288           1189    VCGGRMR|RV  0.113    .
+288           1190    CGGRMRR|VV  0.664 *ProP*
+288           1196    RVVCGGR|MR  0.072    .
+288           1198    VCGGRMR|RV  0.113    .
+288           1199    CGGRMRR|VV  0.664 *ProP*
+288           1205    RVVCGGR|MR  0.072    .
+288           1207    VCGGRMR|RV  0.113    .
+288           1208    CGGRMRR|VV  0.664 *ProP*
+288           1214    RVVCGGR|MR  0.072    .
+288           1216    VCGGRMR|RV  0.113    .
+288           1217    CGGRMRR|VV  0.664 *ProP*
+288           1223    RVVCGGR|MR  0.072    .
+288           1225    VCGGRMR|RV  0.113    .
+288           1226    CGGRMRR|VV  0.664 *ProP*
+288           1232    RVVCGGR|MR  0.072    .
+288           1234    VCGGRMR|RV  0.113    .
+288           1235    CGGRMRR|VV  0.664 *ProP*
+288           1241    RVVCGGR|MR  0.072    .
+288           1243    VCGGRMR|RV  0.113    .
+288           1244    CGGRMRR|VV  0.664 *ProP*
+288           1250    RVVCGGR|MR  0.072    .
+288           1252    VCGGRMR|RV  0.113    .
+288           1253    CGGRMRR|VV  0.664 *ProP*
+288           1259    RVVCGGR|MR  0.072    .
+288           1261    VCGGRMR|RV  0.113    .
+288           1262    CGGRMRR|VV  0.664 *ProP*
+288           1268    RVVCGGR|MR  0.072    .
+288           1270    VCGGRMR|RV  0.113    .
+288           1271    CGGRMRR|VV  0.664 *ProP*
+288           1277    RVVCGGR|MR  0.072    .
+288           1279    VCGGRMR|RV  0.113    .
+288           1280    CGGRMRR|VV  0.664 *ProP*
+288           1286    RVVCGGR|MR  0.072    .
+288           1288    VCGGRMR|RV  0.113    .
+288           1289    CGGRMRR|VV  0.664 *ProP*
+288           1295    RVVCGGR|MR  0.072    .
+288           1297    VCGGRMR|RV  0.113    .
+288           1298    CGGRMRR|VV  0.664 *ProP*
+288           1304    RVVCGGR|MR  0.072    .
+288           1306    VCGGRMR|RV  0.113    .
+288           1307    CGGRMRR|VV  0.664 *ProP*
+288           1313    RVVCGGR|MR  0.072    .
+288           1315    VCGGRMR|RV  0.113    .
+288           1316    CGGRMRR|VV  0.664 *ProP*
+288           1322    RVVCGGR|MR  0.072    .
+288           1324    VCGGRMR|RV  0.113    .
+288           1325    CGGRMRR|VV  0.664 *ProP*
+288           1331    RVVCGGR|MR  0.072    .
+288           1333    VCGGRMR|RV  0.113    .
+288           1334    CGGRMRR|VV  0.664 *ProP*
+288           1340    RVVCGGR|MR  0.072    .
+288           1342    VCGGRMR|RV  0.113    .
+288           1343    CGGRMRR|VV  0.664 *ProP*
+288           1349    RVVCGGR|MR  0.072    .
+288           1351    VCGGRMR|RV  0.113    .
+288           1352    CGGRMRR|VV  0.664 *ProP*
+288           1358    RVVCGGR|MR  0.072    .
+288           1360    VCGGRMR|RV  0.113    .
+288           1361    CGGRMRR|VV  0.664 *ProP*
+288           1367    RVVCGGR|MR  0.072    .
+288           1369    VCGGRMR|RV  0.113    .
+288           1370    CGGRMRR|VV  0.664 *ProP*
+288           1376    RVVCGGR|MR  0.072    .
+288           1378    VCGGRMR|RV  0.113    .
+288           1379    CGGRMRR|VV  0.664 *ProP*
+288           1385    RVVCGGR|MR  0.072    .
+288           1387    VCGGRMR|RV  0.113    .
+288           1388    CGGRMRR|VV  0.664 *ProP*
+288           1394    RVVCGGR|MR  0.072    .
+288           1396    VCGGRMR|RV  0.113    .
+288           1397    CGGRMRR|VV  0.664 *ProP*
+288           1403    RVVCGGR|MR  0.072    .
+288           1405    VCGGRMR|RV  0.113    .
+288           1406    CGGRMRR|VV  0.664 *ProP*
+288           1412    RVVCGGR|MR  0.072    .
+288           1414    VCGGRMR|RV  0.113    .
+288           1415    CGGRMRR|VV  0.664 *ProP*
+288           1421    RVVCGGR|MR  0.072    .
+288           1423    VCGGRMR|RV  0.104    .
+288           1424    CGGRMRR|VV  0.656 *ProP*
+288           1430    RVVCGGR|VR  0.070    .
+288           1432    VCGGRVR|KQ  0.082    .
+288           1433    CGGRVRK|QM  0.384    .
+288           1439    KQMEAVR|TG  0.077    .
+288           1460    FYANEMK|IL  0.061    .
+288           1470    CGTAEEK|WS  0.065    .
+288           1477    WSEEELK|TA  0.076    .
+288           1510    SPLLVSR|KE  0.078    .
+288           1511    PLLVSRK|EA  0.101    .
+288           1514    VSRKEAK|HC  0.076    .
+288           1520    KHCPTGK|LP  0.066    .
+288           1527    LPVGGFR|AL  0.103    .
+288           1532    FRALHPR|FT  0.124    .
+288           1537    PRFTVVK|KS  0.068    .
+288           1538    RFTVVKK|SV  0.384    .
+288           1559    TCVNYLK|LP  0.057    .
+288           1568    DYSTAER|LR  0.086    .
+288           1570    STAERLR|EK  0.066    .
+288           1572    AERLREK|LL  0.062    .
+288           1580    LTAEPIR|TR  0.079    .
+288           1582    AEPIRTR|YF  0.106    .
+288           1594    TGYQPIR|DQ  0.112    .
+288           1620    QSPATHK|ER  0.056    .
+288           1622    PATHKER|LY  0.096    .
+288           1634    TILIYLK|FP  0.062    .
+288           1640    KFPGINK|LA  0.058    .
+288           1650    CQTPIYR|DA  0.143    .
+288           1658    AFAWEDR|FL  0.100    .
+288           1671    ANHTAEK|IC  0.069    .
+288           1682    NLFHNVR|DG  0.083    .
+288           1687    VRDGMIR|DY  0.119    .
+288           1692    IRDYDVK|KC  0.066    .
+288           1693    RDYDVKK|CA  0.133    .
+288           1703    VGASLYR|KL  0.073    .
+288           1704    GASLYRK|LK  0.092    .
+288           1706    SLYRKLK|YR  0.105    .
+288           1708    YRKLKYR|TL  0.131    .
+288           1715    TLESENR|GQ  0.121    .
+288           1729    EIIPTTK|HI  0.059    .
+288           1743    FALFLHK|FV  0.077    .
+288           1747    LHKFVFR|NI  0.126    .
+288           1775    CLPVVLR|RV  0.116    .
+288           1776    LPVVLRR|VV  0.304    .
+288           1782    RVVCGGR|MR  0.072    .
+288           1784    VCGGRMR|RV  0.113    .
+288           1785    CGGRMRR|VV  0.664 *ProP*
+288           1791    RVVCGGR|MR  0.072    .
+288           1793    VCGGRMR|RV  0.113    .
+288           1794    CGGRMRR|VV  0.664 *ProP*
+288           1800    RVVCGGR|MR  0.072    .
+288           1802    VCGGRMR|RV  0.113    .
+288           1803    CGGRMRR|VV  0.664 *ProP*
+288           1809    RVVCGGR|MR  0.072    .
+288           1811    VCGGRMR|RV  0.113    .
+288           1812    CGGRMRR|VV  0.664 *ProP*
+288           1818    RVVCGGR|MR  0.072    .
+288           1820    VCGGRMR|RV  0.113    .
+288           1821    CGGRMRR|VV  0.664 *ProP*
+288           1827    RVVCGGR|MR  0.072    .
+288           1829    VCGGRMR|RV  0.113    .
+288           1830    CGGRMRR|VV  0.664 *ProP*
+288           1836    RVVCGGR|MR  0.072    .
+288           1838    VCGGRMR|RV  0.113    .
+288           1839    CGGRMRR|VV  0.664 *ProP*
+288           1845    RVVCGGR|MR  0.072    .
+288           1847    VCGGRMR|RV  0.113    .
+288           1848    CGGRMRR|VV  0.664 *ProP*
+288           1854    RVVCGGR|MR  0.072    .
+288           1856    VCGGRMR|RV  0.113    .
+288           1857    CGGRMRR|VV  0.664 *ProP*
+288           1863    RVVCGGR|MR  0.072    .
+288           1865    VCGGRMR|RV  0.113    .
+288           1866    CGGRMRR|VV  0.664 *ProP*
+288           1872    RVVCGGR|MR  0.072    .
+288           1874    VCGGRMR|RV  0.104    .
+288           1875    CGGRMRR|VV  0.656 *ProP*
+288           1881    RVVCGGR|VR  0.070    .
+288           1883    VCGGRVR|KQ  0.082    .
+288           1884    CGGRVRK|QM  0.384    .
+288           1890    KQMEAVR|TG  0.077    .
+288           1911    FYANEMK|IL  0.061    .
+288           1921    CGTAEEK|WS  0.065    .
+288           1928    WSEEELK|TA  0.076    .
+288           1960    LSGDEQR|SF  0.126    .
+288           1964    EQRSFLR|FV  0.136    .
+288           1971    FVTGCPK|LP  0.054    .
+288           1978    LPVGGFR|AL  0.121    .
+288           1983    FRALHPR|FT  0.124    .
+288           1988    PRFTVVK|KS  0.068    .
+288           1989    RFTVVKK|SV  0.384    .
+288           2010    TCVNYLK|LP  0.057    .
+288           2019    DYSTAER|LR  0.086    .
+288           2021    STAERLR|EK  0.066    .
+288           2023    AERLREK|LL  0.062    .
+288           2031    LTAEPIR|TR  0.079    .
+288           2033    AEPIRTR|YF  0.106    .
+288           2045    TGYQPIR|DQ  0.112    .
+288           2074    TLESENR|GQ  0.123    .
+288           2089    IILVTTK|QI  0.061    .
+288           2095    KQITTYK|AR  0.062    .
+288           2097    ITTYKAR|NH  0.102    .
+288           2101    KARNHFR|NE  0.093    .
+____________________________^_________________
+
+
+
+

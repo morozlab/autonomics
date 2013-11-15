@@ -1,0 +1,275 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1816 385         
+MATCHLLAQTFTICSLDNLLTLCCLAWLYSADRESKSVTLDVVIMSRCSTANHVTFATLIHAQHQLIGLTHGWRLITPSK      80
+TRDTGGSGPSSRFGLGGRLGLSILYQMPVSLLKLTMWLRGYSRWKKVGLNFFGICYRPFYKVLRCGAAVQKRGLQRSHDV     160
+NSMTTRLSNAEIQYIVDGVEQDFRSDGRGAEDYRQIELETRILPNTNGSARCKLGKTEVLVGVKAEVVDVDVHAPHIGKL     240
+VITADCSAVASPKFVGKGSEALENDLTNVLSFLYNSTNTISLKDLCIVKGESCWQLHVDVLFVQCGGNLFDVASIALKAA     320
+LYSTTLPIVKVSGEGIEMEMEVSDDPYHVWKLDVSNCPICITLYQIGGGFAVDPSEEEVACSEGFVHVGVQPNGDMSSME     400
+KAGAGNIDPTTLLEMVEVGVRVGEEIHKQLNKQDPRTSWTLTRPEVVSLLSIVIFPFLSILRRSSRPMSWLNGTTTRSPR     480
+ESSSSKEIEQDIISSLRSYFLFLEMMKSERFEFVISINMVLNRVTYRRRLSYNTKSNKVLLTKTPGGKLVYHYATKKTQA     560
+TKCGDCKRPLRGVPAVRPTKLAGLSKRVKGVSRTYGGSKCSGCVRSRIIRAFLIEEQKIVARDSSRVSIAFSISFDEPRA     640
+TPDHPHKRKLFSTPTSAVHPTNNSRRFSEFFKSEMTMLHMKSFGSDRSLGGCISDLSGEENKENLSLDSLTNQLSQELSI     720
+DASIQSDISFSKPRLSNPIKQMKKNRFSTFFREQYSHLNINSPSSSPGALSSGISVGTPLSLSLDSPCINKNLSLDESHK     800
+KVAAEITTSDCDEVRLDAIENGTKSDQLKDVSGPDELPNITLGYPSPQPVPTKSPMEHPGSPLAASTAAMPPFDESIEEY     880
+PQLKSKPCRSAVSLDTSSFRNSPPTSPITRHDPQHRAAVFPDDSSSDDDVIPPSRRKHGTTILISSGDEDSFLDREAVED     960
+NRAFISDDGSSLNESLGERNRRSEERIRRSEEREEEEDDDEEYDSSFIDDQQIDDQYSGGDESEISLDDLSSEEDDVYQT    1040
+PAILPPKPTPFFTAKTSVPTKPREDPFRTPTTFCYTDVQGTPISKKKRRETCLATPLSVKSKVGTPGMPNRTYSRNLLTI    1120
+SRELYHQFNDNVFGGNLPPDLEIKLNKRLNTTAGRCVYLRKGKQYKAYIELSPKVVDCYERLKETLAHEMCHAATFIIDN    1200
+LMDNHGPVWQKWARRVNLKYPELPPVSRCHSYEIQYKFNYKCTESWCNYKIGRHRMSVALRRSLTLLRPILQRPASFTTR    1280
+ACLTRPLTKRSNVGPIRVLRNEFHTTSVRAGTVVPFKLSDIGEGIAEVTIKEWYVQVGDEVAQFDNICEVQSDKATVTIT    1360
+CRYDGIIKSVHFETEDLCRVGQALVDIEIEDHHVSDDDNAPPPTPADPALQPPSSTPSSQPTASPVSPVAAPVTEKREIL    1440
+TTPAIDLSLVPATGKGGRITKDDLLSFISSGSSASTSQVKVVAQEQPVTTIPTAQIWNNTLSSQPREQSGKDVTHEIKGI    1520
+TKVMVKTMTAAQQVPRFTFHDEYTVNSLIEMKPMLKKVGQEHKVKLTFMPFIIKACSQALVEFPMINAHVNADCTAITYK    1600
+AAHNIGVATDTPHGLMVPNIKNVQNLSIIDIARELERLKVLSENNKLSTDDVTGGTFSLSNVGAVGGTYASPMLVVPEVC    1680
+IGAFGKIQKKPAFNSEGEVYAASTMCISWSGDHRVLDGATVARISLMLSSFGPLLELNLDCNSFFSESIRGTFSLSNVGA    1760
+VGGTYASPMLVVPEVCIGAFGKIQNAHETCFTTEQHAMALCSIKQDKLRLLHTYSS                            1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.....................P......P...................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+........................................................                            1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+385             33    WLYSADR|ES  0.077    .
+385             36    SADRESK|SV  0.220    .
+385             47    DVVIMSR|CS  0.081    .
+385             74    GLTHGWR|LI  0.080    .
+385             80    RLITPSK|TR  0.072    .
+385             82    ITPSKTR|DT  0.186    .
+385             92    GSGPSSR|FG  0.125    .
+385             98    RFGLGGR|LG  0.077    .
+385            113    MPVSLLK|LT  0.062    .
+385            119    KLTMWLR|GY  0.086    .
+385            123    WLRGYSR|WK  0.102    .
+385            125    RGYSRWK|KV  0.093    .
+385            126    GYSRWKK|VG  0.214    .
+385            137    FFGICYR|PF  0.096    .
+385            141    CYRPFYK|VL  0.062    .
+385            144    PFYKVLR|CG  0.086    .
+385            151    CGAAVQK|RG  0.057    .
+385            152    GAAVQKR|GL  0.297    .
+385            156    QKRGLQR|SH  0.147    .
+385            166    VNSMTTR|LS  0.114    .
+385            184    GVEQDFR|SD  0.138    .
+385            188    DFRSDGR|GA  0.143    .
+385            194    RGAEDYR|QI  0.101    .
+385            201    QIELETR|IL  0.073    .
+385            211    NTNGSAR|CK  0.101    .
+385            213    NGSARCK|LG  0.067    .
+385            216    ARCKLGK|TE  0.063    .
+385            224    EVLVGVK|AE  0.052    .
+385            239    HAPHIGK|LV  0.074    .
+385            253    SAVASPK|FV  0.131    .
+385            257    SPKFVGK|GS  0.103    .
+385            283    TNTISLK|DL  0.082    .
+385            289    KDLCIVK|GE  0.061    .
+385            318    VASIALK|AA  0.065    .
+385            330    TTLPIVK|VS  0.071    .
+385            351    DPYHVWK|LD  0.060    .
+385            401    DMSSMEK|AG  0.063    .
+385            421    MVEVGVR|VG  0.073    .
+385            428    VGEEIHK|QL  0.065    .
+385            432    IHKQLNK|QD  0.059    .
+385            436    LNKQDPR|TS  0.086    .
+385            443    TSWTLTR|PE  0.095    .
+385            462    PFLSILR|RS  0.066    .
+385            463    FLSILRR|SS  0.225    .
+385            466    ILRRSSR|PM  0.295    .
+385            477    LNGTTTR|SP  0.125    .
+385            480    TTTRSPR|ES  0.318    .
+385            486    RESSSSK|EI  0.089    .
+385            497    DIISSLR|SY  0.116    .
+385            507    LFLEMMK|SE  0.063    .
+385            510    EMMKSER|FE  0.090    .
+385            523    INMVLNR|VT  0.091    .
+385            527    LNRVTYR|RR  0.076    .
+385            528    NRVTYRR|RL  0.155    .
+385            529    RVTYRRR|LS  0.091    .
+385            535    RLSYNTK|SN  0.089    .
+385            538    YNTKSNK|VL  0.063    .
+385            543    NKVLLTK|TP  0.068    .
+385            548    TKTPGGK|LV  0.069    .
+385            556    VYHYATK|KT  0.064    .
+385            557    YHYATKK|TQ  0.081    .
+385            562    KKTQATK|CG  0.065    .
+385            567    TKCGDCK|RP  0.064    .
+385            568    KCGDCKR|PL  0.202    .
+385            571    DCKRPLR|GV  0.426    .
+385            577    RGVPAVR|PT  0.086    .
+385            580    PAVRPTK|LA  0.125    .
+385            586    KLAGLSK|RV  0.081    .
+385            587    LAGLSKR|VK  0.265    .
+385            589    GLSKRVK|GV  0.115    .
+385            593    RVKGVSR|TY  0.115    .
+385            599    RTYGGSK|CS  0.068    .
+385            605    KCSGCVR|SR  0.105    .
+385            607    SGCVRSR|II  0.102    .
+385            610    VRSRIIR|AF  0.352    .
+385            618    FLIEEQK|IV  0.060    .
+385            622    EQKIVAR|DS  0.130    .
+385            626    VARDSSR|VS  0.083    .
+385            639    ISFDEPR|AT  0.105    .
+385            647    TPDHPHK|RK  0.066    .
+385            648    PDHPHKR|KL  0.227    .
+385            649    DHPHKRK|LF  0.090    .
+385            665    HPTNNSR|RF  0.095    .
+385            666    PTNNSRR|FS  0.195    .
+385            672    RFSEFFK|SE  0.120    .
+385            681    MTMLHMK|SF  0.091    .
+385            687    KSFGSDR|SL  0.212    .
+385            702    LSGEENK|EN  0.056    .
+385            732    SDISFSK|PR  0.056    .
+385            734    ISFSKPR|LS  0.113    .
+385            740    RLSNPIK|QM  0.082    .
+385            743    NPIKQMK|KN  0.069    .
+385            744    PIKQMKK|NR  0.077    .
+385            746    KQMKKNR|FS  0.138    .
+385            752    RFSTFFR|EQ  0.106    .
+385            791    DSPCINK|NL  0.062    .
+385            800    SLDESHK|KV  0.088    .
+385            801    LDESHKK|VA  0.109    .
+385            815    SDCDEVR|LD  0.086    .
+385            824    AIENGTK|SD  0.065    .
+385            829    TKSDQLK|DV  0.142    .
+385            853    PQPVPTK|SP  0.085    .
+385            884    EEYPQLK|SK  0.061    .
+385            886    YPQLKSK|PC  0.069    .
+385            889    LKSKPCR|SA  0.246    .
+385            900    LDTSSFR|NS  0.074    .
+385            910    PTSPITR|HD  0.103    .
+385            916    RHDPQHR|AA  0.093    .
+385            935    DVIPPSR|RK  0.068    .
+385            936    VIPPSRR|KH  0.131    .
+385            937    IPPSRRK|HG  0.088    .
+385            955    EDSFLDR|EA  0.097    .
+385            962    EAVEDNR|AF  0.072    .
+385            979    NESLGER|NR  0.079    .
+385            981    SLGERNR|RS  0.082    .
+385            982    LGERNRR|SE  0.652 *ProP*
+385            986    NRRSEER|IR  0.113    .
+385            988    RSEERIR|RS  0.092    .
+385            989    SEERIRR|SE  0.637 *ProP*
+385            993    IRRSEER|EE  0.106    .
+385           1047    PAILPPK|PT  0.059    .
+385           1055    TPFFTAK|TS  0.070    .
+385           1061    KTSVPTK|PR  0.080    .
+385           1063    SVPTKPR|ED  0.080    .
+385           1068    PREDPFR|TP  0.091    .
+385           1085    QGTPISK|KK  0.055    .
+385           1086    GTPISKK|KR  0.075    .
+385           1087    TPISKKK|RR  0.154    .
+385           1088    PISKKKR|RE  0.171    .
+385           1089    ISKKKRR|ET  0.228    .
+385           1100    ATPLSVK|SK  0.067    .
+385           1102    PLSVKSK|VG  0.082    .
+385           1111    TPGMPNR|TY  0.154    .
+385           1115    PNRTYSR|NL  0.086    .
+385           1122    NLLTISR|EL  0.079    .
+385           1144    PPDLEIK|LN  0.059    .
+385           1147    LEIKLNK|RL  0.060    .
+385           1148    EIKLNKR|LN  0.144    .
+385           1155    LNTTAGR|CV  0.083    .
+385           1160    GRCVYLR|KG  0.088    .
+385           1161    RCVYLRK|GK  0.080    .
+385           1163    VYLRKGK|QY  0.125    .
+385           1166    RKGKQYK|AY  0.073    .
+385           1174    YIELSPK|VV  0.079    .
+385           1181    VVDCYER|LK  0.077    .
+385           1183    DCYERLK|ET  0.064    .
+385           1211    HGPVWQK|WA  0.068    .
+385           1214    VWQKWAR|RV  0.121    .
+385           1215    WQKWARR|VN  0.112    .
+385           1219    ARRVNLK|YP  0.068    .
+385           1228    ELPPVSR|CH  0.087    .
+385           1237    SYEIQYK|FN  0.073    .
+385           1241    QYKFNYK|CT  0.066    .
+385           1250    ESWCNYK|IG  0.059    .
+385           1253    CNYKIGR|HR  0.082    .
+385           1255    YKIGRHR|MS  0.092    .
+385           1261    RMSVALR|RS  0.099    .
+385           1262    MSVALRR|SL  0.216    .
+385           1268    RSLTLLR|PI  0.081    .
+385           1273    LRPILQR|PA  0.110    .
+385           1280    PASFTTR|AC  0.095    .
+385           1285    TRACLTR|PL  0.108    .
+385           1289    LTRPLTK|RS  0.062    .
+385           1290    TRPLTKR|SN  0.293    .
+385           1297    SNVGPIR|VL  0.109    .
+385           1300    GPIRVLR|NE  0.206    .
+385           1309    FHTTSVR|AG  0.073    .
+385           1317    GTVVPFK|LS  0.076    .
+385           1331    IAEVTIK|EW  0.074    .
+385           1354    CEVQSDK|AT  0.064    .
+385           1362    TVTITCR|YD  0.097    .
+385           1368    RYDGIIK|SV  0.086    .
+385           1379    ETEDLCR|VG  0.073    .
+385           1436    AAPVTEK|RE  0.054    .
+385           1437    APVTEKR|EI  0.164    .
+385           1455    LVPATGK|GG  0.060    .
+385           1458    ATGKGGR|IT  0.096    .
+385           1461    KGGRITK|DD  0.132    .
+385           1480    ASTSQVK|VV  0.080    .
+385           1506    TLSSQPR|EQ  0.157    .
+385           1511    PREQSGK|DV  0.136    .
+385           1518    DVTHEIK|GI  0.069    .
+385           1522    EIKGITK|VM  0.056    .
+385           1526    ITKVMVK|TM  0.063    .
+385           1536    AAQQVPR|FT  0.144    .
+385           1552    NSLIEMK|PM  0.062    .
+385           1556    EMKPMLK|KV  0.078    .
+385           1557    MKPMLKK|VG  0.075    .
+385           1563    KVGQEHK|VK  0.059    .
+385           1565    GQEHKVK|LT  0.066    .
+385           1574    FMPFIIK|AC  0.070    .
+385           1600    CTAITYK|AA  0.087    .
+385           1621    LMVPNIK|NV  0.062    .
+385           1633    SIIDIAR|EL  0.100    .
+385           1637    IARELER|LK  0.078    .
+385           1639    RELERLK|VL  0.059    .
+385           1646    VLSENNK|LS  0.065    .
+385           1686    CIGAFGK|IQ  0.061    .
+385           1689    AFGKIQK|KP  0.056    .
+385           1690    FGKIQKK|PA  0.126    .
+385           1714    SWSGDHR|VL  0.117    .
+385           1723    DGATVAR|IS  0.080    .
+385           1750    FFSESIR|GT  0.099    .
+385           1782    CIGAFGK|IQ  0.074    .
+385           1804    MALCSIK|QD  0.059    .
+385           1807    CSIKQDK|LR  0.057    .
+385           1809    IKQDKLR|LL  0.105    .
+____________________________^_________________
+
+
+
+

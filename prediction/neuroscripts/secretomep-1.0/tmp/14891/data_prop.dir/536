@@ -1,0 +1,249 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1595 536         
+MQPQQERSSRSMTSPGTPLPPTKGGGNMSLARLDAQSAISRGQRAAAAAGTKKTHEEQEQMSMQLSSASASIAAGVIRSK      80
+SHLGVSQASQQGAGRKGRRRSSAASSVSRMNSMQTPARRSQLQSTAFATAFSPDLQQNKGPTITVKSTTSSSSSPPRSPH     160
+TRRTRNGSSSSAPLTRRTRNGSGGSGAARVGMSGQTQMSMGGSVGMGGSTGAAASAGMSGGAGMSGQTQMAMGGAGMAGG     240
+GTSAGMSGQMAMGGGAAGVGFSGQQQMGLGGGGGVFSSFNQSFPRKTPQQERSSRSMTSPGTPLPPTKGGGNMSLARLDA     320
+QSAISRGQRAAAAAGKKKPQEEDQLQEQMSMQLSSASASIAAGVIRSKSGVSQASQQGRKSRASRRSSAASSVSRMNSMQ     400
+TPARRSQLQSTAFATAFSPDLQQNKGPTITVKSTTSSSSSPSRSPHTRRTRNGSGGSGAARVGMSGQTQMSMGGSTGAAE     480
+SAGMSGGIEAGMSGQTQMAMGGVAGGGTEASAGMSGQMAMGGGAAGVGISGQQQMGLGGGGGVFSSFNQSFPRKTAQYQL     560
+QEETCNLRNTSSALSMLNKWIHQQQTVVKEQSNNIPEGRDELEAFQKELRQGFLALEDREIHVMQTISAANKHIERLDDE     640
+KQIRAVTKMVSQVQANWDKLRANFTKLNSQVEKSLAVFTLNDMKLEELYQWISNFYRMVIGSIEDALTLVYEEQLYLLKL     720
+TKKIEERKAELELTIQQLKEFEEAVDKALEWRRYKCRDVRTDGYGRRSCWQTVVKEQSNNIPEGRDELEAFQKELRQGFL     800
+ALEDREIHVMQTISAANKHIERLDDEKQIRAVTKMVSQVQANWDKLRANFTKLNSQVEKSLAVFTLVCNVFDIMISPIVG     880
+HPDRARGPLLPYTFQSYEYQIEEKMKVFAEIKITVTLSIEINAKLVVKIEAVFAKLTKKIEERKAELELTIQQLKEFEEA     960
+VDKALEWLGNQEIILKQIIVVQDEESLSILLNKGPTITVKSTTSSSSSPPRSPHTRRTRNGSSSSAPLTRRTRNGSGGSG    1040
+AARVGMSGQTQMSMGGSVGMGGSTGAAASAGMSGGAGMSGQTQMAMGGAGMAGGGTSAGMSGQMAMGGGAAGVGFSGQQQ    1120
+MGLGGGGGVFSSFNQSFPRKTAQYQLQEETCNLRNTSSALSMLNKWIHQQQTVVKEQSNNIPEGRDELEAFQKELRQGFL    1200
+ALEDREIHVMQTISAANKHIERLDDEKQIRAVTKMVSQVQANWDKLRANFTKLNSQVEKSLAVFTLNDMKLEELYQWISN    1280
+FYRMVIGSIEDALTLVYEEQLYLLKSYEYQIEEKMKVFAEIKITVTLSIEINAKLVVKIEAVFAKVGTEFNFLKSLYPLT    1360
+TPLWSVHLVRVQICRMITAGSFITSFQLTKKIEERKAELELTIQQLKEFEEAVDKALEWLGNQEIILKQIIVVQDEESLS    1440
+ILLVQKEEVFELISHVKENMENIETVLKTGEEIGLKEMNRKRVLPGKSWWPVHRGQILLHSYIGRILPSDCFNPYNPSRF    1520
+SLYTKLVNLNTRWTQLDVDCHQKIIQIELNVLSIKEYVLLQWLVKQEERLTVNIEIIIRIELEEIRAQYKLYKLA         1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+...........................................................................         1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+536              7    MQPQQER|SS  0.103    .
+536             10    QQERSSR|SM  0.352    .
+536             23    TPLPPTK|GG  0.071    .
+536             32    GNMSLAR|LD  0.088    .
+536             41    AQSAISR|GQ  0.105    .
+536             44    AISRGQR|AA  0.417    .
+536             52    AAAAGTK|KT  0.072    .
+536             53    AAAGTKK|TH  0.145    .
+536             78    IAAGVIR|SK  0.196    .
+536             80    AGVIRSK|SH  0.066    .
+536             95    SQQGAGR|KG  0.074    .
+536             96    QQGAGRK|GR  0.080    .
+536             98    GAGRKGR|RR  0.311    .
+536             99    AGRKGRR|RS  0.141    .
+536            100    GRKGRRR|SS  0.322    .
+536            109    AASSVSR|MN  0.137    .
+536            118    SMQTPAR|RS  0.084    .
+536            119    MQTPARR|SQ  0.190    .
+536            139    PDLQQNK|GP  0.062    .
+536            146    GPTITVK|ST  0.086    .
+536            157    SSSSPPR|SP  0.213    .
+536            162    PRSPHTR|RT  0.144    .
+536            163    RSPHTRR|TR  0.135    .
+536            165    PHTRRTR|NG  0.158    .
+536            176    SSAPLTR|RT  0.107    .
+536            177    SAPLTRR|TR  0.126    .
+536            179    PLTRRTR|NG  0.191    .
+536            189    GGSGAAR|VG  0.125    .
+536            285    FNQSFPR|KT  0.144    .
+536            286    NQSFPRK|TP  0.100    .
+536            292    KTPQQER|SS  0.107    .
+536            295    QQERSSR|SM  0.331    .
+536            308    TPLPPTK|GG  0.071    .
+536            317    GNMSLAR|LD  0.088    .
+536            326    AQSAISR|GQ  0.105    .
+536            329    AISRGQR|AA  0.411    .
+536            336    AAAAAGK|KK  0.075    .
+536            337    AAAAGKK|KP  0.079    .
+536            338    AAAGKKK|PQ  0.131    .
+536            366    IAAGVIR|SK  0.189    .
+536            368    AGVIRSK|SG  0.068    .
+536            379    QASQQGR|KS  0.161    .
+536            380    ASQQGRK|SR  0.088    .
+536            382    QQGRKSR|AS  0.340    .
+536            385    RKSRASR|RS  0.419    .
+536            386    KSRASRR|SS  0.355    .
+536            395    AASSVSR|MN  0.137    .
+536            404    SMQTPAR|RS  0.084    .
+536            405    MQTPARR|SQ  0.190    .
+536            425    PDLQQNK|GP  0.062    .
+536            432    GPTITVK|ST  0.086    .
+536            443    SSSSPSR|SP  0.180    .
+536            448    SRSPHTR|RT  0.164    .
+536            449    RSPHTRR|TR  0.174    .
+536            451    PHTRRTR|NG  0.210    .
+536            461    GGSGAAR|VG  0.125    .
+536            553    FNQSFPR|KT  0.121    .
+536            554    NQSFPRK|TA  0.128    .
+536            568    EETCNLR|NT  0.089    .
+536            579    ALSMLNK|WI  0.105    .
+536            589    QQQTVVK|EQ  0.073    .
+536            599    NNIPEGR|DE  0.106    .
+536            607    ELEAFQK|EL  0.073    .
+536            610    AFQKELR|QG  0.080    .
+536            619    FLALEDR|EI  0.100    .
+536            632    TISAANK|HI  0.082    .
+536            636    ANKHIER|LD  0.083    .
+536            641    ERLDDEK|QI  0.075    .
+536            644    DDEKQIR|AV  0.165    .
+536            648    QIRAVTK|MV  0.161    .
+536            659    VQANWDK|LR  0.056    .
+536            661    ANWDKLR|AN  0.132    .
+536            666    LRANFTK|LN  0.118    .
+536            673    LNSQVEK|SL  0.094    .
+536            684    FTLNDMK|LE  0.056    .
+536            697    WISNFYR|MV  0.219    .
+536            719    EQLYLLK|LT  0.058    .
+536            722    YLLKLTK|KI  0.061    .
+536            723    LLKLTKK|IE  0.086    .
+536            727    TKKIEER|KA  0.123    .
+536            728    KKIEERK|AE  0.072    .
+536            739    LTIQQLK|EF  0.063    .
+536            747    FEEAVDK|AL  0.060    .
+536            752    DKALEWR|RY  0.071    .
+536            753    KALEWRR|YK  0.124    .
+536            755    LEWRRYK|CR  0.126    .
+536            757    WRRYKCR|DV  0.278    .
+536            760    YKCRDVR|TD  0.300    .
+536            766    RTDGYGR|RS  0.075    .
+536            767    TDGYGRR|SC  0.229    .
+536            775    CWQTVVK|EQ  0.068    .
+536            785    NNIPEGR|DE  0.106    .
+536            793    ELEAFQK|EL  0.073    .
+536            796    AFQKELR|QG  0.080    .
+536            805    FLALEDR|EI  0.100    .
+536            818    TISAANK|HI  0.082    .
+536            822    ANKHIER|LD  0.083    .
+536            827    ERLDDEK|QI  0.075    .
+536            830    DDEKQIR|AV  0.165    .
+536            834    QIRAVTK|MV  0.161    .
+536            845    VQANWDK|LR  0.056    .
+536            847    ANWDKLR|AN  0.132    .
+536            852    LRANFTK|LN  0.118    .
+536            859    LNSQVEK|SL  0.096    .
+536            884    IVGHPDR|AR  0.113    .
+536            886    GHPDRAR|GP  0.072    .
+536            904    EYQIEEK|MK  0.059    .
+536            906    QIEEKMK|VF  0.072    .
+536            912    KVFAEIK|IT  0.056    .
+536            924    SIEINAK|LV  0.086    .
+536            928    NAKLVVK|IE  0.057    .
+536            935    IEAVFAK|LT  0.092    .
+536            938    VFAKLTK|KI  0.066    .
+536            939    FAKLTKK|IE  0.085    .
+536            943    TKKIEER|KA  0.125    .
+536            944    KKIEERK|AE  0.072    .
+536            955    LTIQQLK|EF  0.063    .
+536            963    FEEAVDK|AL  0.069    .
+536            976    NQEIILK|QI  0.068    .
+536            993    LSILLNK|GP  0.066    .
+536           1000    GPTITVK|ST  0.085    .
+536           1011    SSSSPPR|SP  0.213    .
+536           1016    PRSPHTR|RT  0.144    .
+536           1017    RSPHTRR|TR  0.135    .
+536           1019    PHTRRTR|NG  0.158    .
+536           1030    SSAPLTR|RT  0.107    .
+536           1031    SAPLTRR|TR  0.126    .
+536           1033    PLTRRTR|NG  0.191    .
+536           1043    GGSGAAR|VG  0.125    .
+536           1139    FNQSFPR|KT  0.121    .
+536           1140    NQSFPRK|TA  0.128    .
+536           1154    EETCNLR|NT  0.089    .
+536           1165    ALSMLNK|WI  0.105    .
+536           1175    QQQTVVK|EQ  0.073    .
+536           1185    NNIPEGR|DE  0.106    .
+536           1193    ELEAFQK|EL  0.073    .
+536           1196    AFQKELR|QG  0.080    .
+536           1205    FLALEDR|EI  0.100    .
+536           1218    TISAANK|HI  0.082    .
+536           1222    ANKHIER|LD  0.083    .
+536           1227    ERLDDEK|QI  0.075    .
+536           1230    DDEKQIR|AV  0.165    .
+536           1234    QIRAVTK|MV  0.161    .
+536           1245    VQANWDK|LR  0.056    .
+536           1247    ANWDKLR|AN  0.132    .
+536           1252    LRANFTK|LN  0.118    .
+536           1259    LNSQVEK|SL  0.094    .
+536           1270    FTLNDMK|LE  0.056    .
+536           1283    WISNFYR|MV  0.219    .
+536           1305    EQLYLLK|SY  0.070    .
+536           1314    EYQIEEK|MK  0.058    .
+536           1316    QIEEKMK|VF  0.072    .
+536           1322    KVFAEIK|IT  0.056    .
+536           1334    SIEINAK|LV  0.086    .
+536           1338    NAKLVVK|IE  0.058    .
+536           1345    IEAVFAK|VG  0.069    .
+536           1354    TEFNFLK|SL  0.086    .
+536           1370    WSVHLVR|VQ  0.082    .
+536           1375    VRVQICR|MI  0.126    .
+536           1390    TSFQLTK|KI  0.066    .
+536           1391    SFQLTKK|IE  0.091    .
+536           1395    TKKIEER|KA  0.131    .
+536           1396    KKIEERK|AE  0.072    .
+536           1407    LTIQQLK|EF  0.063    .
+536           1415    FEEAVDK|AL  0.069    .
+536           1428    NQEIILK|QI  0.068    .
+536           1446    SILLVQK|EE  0.057    .
+536           1457    ELISHVK|EN  0.068    .
+536           1468    NIETVLK|TG  0.060    .
+536           1476    GEEIGLK|EM  0.055    .
+536           1480    GLKEMNR|KR  0.069    .
+536           1481    LKEMNRK|RV  0.109    .
+536           1482    KEMNRKR|VL  0.162    .
+536           1487    KRVLPGK|SW  0.123    .
+536           1494    SWWPVHR|GQ  0.090    .
+536           1505    LHSYIGR|IL  0.089    .
+536           1519    NPYNPSR|FS  0.083    .
+536           1525    RFSLYTK|LV  0.080    .
+536           1532    LVNLNTR|WT  0.088    .
+536           1543    DVDCHQK|II  0.067    .
+536           1555    LNVLSIK|EY  0.057    .
+536           1565    LLQWLVK|QE  0.062    .
+536           1569    LVKQEER|LT  0.081    .
+536           1579    NIEIIIR|IE  0.068    .
+536           1586    IELEEIR|AQ  0.071    .
+536           1590    EIRAQYK|LY  0.061    .
+536           1593    AQYKLYK|LA  0.073    .
+____________________________^_________________
+
+
+
+

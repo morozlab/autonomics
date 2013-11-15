@@ -1,0 +1,450 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2836 137         
+MGGVRLFPNTASFVKSGMLPNAHFMTLFGNSYSAGTIQCSQEPIETSKQPIRTRCLGHVTGYQPIRDQFFPVSECITNSH      80
+EKSPSMDDLYNVNEFLLSLNYDAPTLVREKGTTPFKLNDSNNLISPSDSVKDSLLLESSTCTIIPESTSCNTISEDLYDV     160
+NEFLLSLNYDPPTLARRSKQPDFDTFSIYSEFKRRDSRCSLLPRPHDNNEKLTLFEFLSGSSDLLFDDITFASSSRDDIS     240
+RDDDISVSTTEDDRFSSHDCCRKTDDSGYNGLAEEEDEMLSLGDFLSETYYSPPSSTRTSSAGSIQGPGSVTGSETSSVM     320
+SDSRGKRKVGQKKGRMKSSRNQLETIKSPSLGSEGSFTLMEILSDPDLTKPSTPGLIEQLLRPLRSGNRSTRSVGRSSTT     400
+STKSSLCGSEVSLTIPEGEEEDSVSCTLMEFLLEMPEPPARPKLSQSTSLLSLSMLQPVHPVAGMRPKACSTDGLAIVRE     480
+NYTWDEFLNDPAMLPPPILKMKENGGLLFNLTKSFKNRQLRKDFSYSESYLRNLRLVFLRETTWARASKLIYLIGFWTNI     560
+PFLFQPSIVDDLPGGEMHNPNKEGSLRKQGNSRIRDWKTRYCAVKDGKFCYYEDKTAFHYASPINEIYCGTLKAKVSDRS     640
+KFKFEVIVPNRTYYFIAETEIEMMEWIEALNKAVADALTDLKSSASSAKELIQRIYEEPSNAFCADCRDPEPKWASINLG     720
+IVVCINCSGSHRDLGVHVSKKFIIQSDPDLGTPSGERLLSTKSGSNKVNFLYRGKEILSINRGVPKSGVHKSGSDFPYKT     800
+AYQFGSLVERRLSIINQPTNNTIYLLQVRSLELDVKAWTDDMVSVFHQIGNKRANQYFEKHLNEDVDPRPPPNGNVKAFI     880
+DAKYRNGGKWTNRISGSPAQLNSQLMEVVQTDELHRTLALLMSGADVKMVDPCQDNSRKTPYLMALASGQKAQAQLLLLN     960
+DADPVLPETTMEINHPGMNEIVDLEGMLEKKGPKTFHAYNKRRCILSGKKLRYYEESNDGSNLKKEIDLCSMIDVQLANT    1040
+ENPEGKEDGYHYMLIRTRSESKDPRTYTFRDRDKEYLSEWCDAIKSTQVFGVSIEKQAKTSSGVPVLIHKCVIYLEDKVD    1120
+QEGIYRISGVKSRYENLKLKCNQNIHDVVFDDENISINDVASLLKLFFRELPVSLLAPWYLQLTNAMEIEDETEKLYQIQ    1200
+DIIYELPGTEFHTLKFLIDHLFKVAQHQETNRMTPENLGVVFGPTLMSTRDPNNEYSRNEYQLVKTLIDYFPWFYHVDVD    1280
+EEAIKREELRQAEEELKKIMSNIAAPEGSSQTSWIVEVSYMRESVNIRIDAGQTLRDVSAEILQRTKLGDGDYALYEFLC    1360
+DGALKRPVHLSEYLLNTTVTLWDERVQRKILVSDWLITSSDWLFTCVGRFLATWFRTLHVYEGRKKWREVGVKVSQETLS    1440
+YDNSRLRGRCSVNLTQITWYLGCESGISPPSEYCFTLRSTDQTKDEQFKVFSASEEQDLWRWLWRINAVKHQELDYRLVK    1520
+SKRAVLTSTSSHRSTVKSHTFWHIYVRARADFGHNSAISCPNCFILGSLERGNRVLSIHPKAQCPLSNEPKMKQFGQEMA    1600
+ELWPKSARARTYMCQKVCDFTAYQSLLPTTNLSNSDPVHSHFKMVLRFLNPTIVYLAVFEGSYLDFRGLSSNRLTLGCFQ    1680
+KVTSQIFEDKDLKPVAFESSYLSLSNDTKTISRGIPSRPFIKGPVAYANFFILSPAPSPAPCPVITMVKEGIKIFLRAKP    1760
+TKARTGVCETAAESATKGYNATIFAYGQTGSGKTFTITGGAERYRDRGMIPRSISYVFQTFEKNPSCMYTMHISYLEIYN    1840
+ENGYDLLDPAKEVTRLEDLPRVYLQEDSEGNFHTRNLTVHQANTEEDALNLLFMGDTNRMTAETPMNMASTRSHCIFTIY    1920
+ISCKSQESPTIRRGKIHLVDLAGCREKVNKYIEALDPEERLNVDADFRKIHFCFQYFKHLLKQNSGARSSHPSEAGSEPV    2000
+STQLVCTEKETKRLKDLVTQRDTEINILVNLLKKERMNTEGDRAISTEGPGVELLPKPANHARQVKHLSKGRQEAFDIFR    2080
+RDYAHNTAIEQNKAELKARMKEAKHIGGLVNKSREKISKTNKRKFLKLGCMAAPYPIWYSALRWGRSRQTEARLQAEVCK    2160
+IAGAKDRDRAPPAPARTAAGFSSVSWVSGRALDNEVTPCNRARRSPGECEVSSIPSRAPSTLQGKGSDPDLAGYSGNGFC    2240
+PVYLYQWPVNRGPTVTKNVLYQGTLNSLSACKGGLKLETLKLSDSTACCAGWGGSNLFFCIFLYFFVWTIHKNTQNSCFF    2320
+PDKKYKKIQKNKNSFVKLFNILVRTFTVFRHSSPLFRVGTWLHGSLSEIEDLTYNIGCNGSKNKSQGYVLKFELNQVTRT    2400
+RVPGDTCRTLALSGQCPDHAAVGFHAGQLHVFFSQRVTEEGREYSATANGVYGFLFGLAGLWGNIMSSAYINPWGIEPTK    2480
+HLLPNSSQITTTFDDDRILARVQNNWLILAAIMFVLLLPGYFCIAKSKKEEEAETSSSESERKPILFEKDKDIVKGIPFV    2560
+EEKIVSPIGFTLFLTTIGIGVSSMCAFDLFKDFGLKRIRDDAFLNNIGIVIPIVGAVGRIAWGIDAPKPRKQVWLCVYNC    2640
+RAVNNAWNDDPSTALCEEVHGDTKHSLEVRYHPDWRVLYCRNRPKQPIRTHYLGDVTGYRPIRDHYFLIRSVNPMAKNRP    2720
+IRTRYLGHLTGWQSISDQYSLIRSFVALLCFPSTLGPLFNPNGNVCTTMLYCRNRPKQPIRTHYLGDVTGYRPIRDHYFL    2800
+IRSVLSASTNLKFIFSILYLQKFHLKNKTDQSELVI                                                2880
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+......P................................................................P........     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+...........................................P....................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+....................................                                                2880
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+137              5    --MGGVR|LF  0.062    .
+137             15    NTASFVK|SG  0.067    .
+137             48    EPIETSK|QP  0.061    .
+137             52    TSKQPIR|TR  0.091    .
+137             54    KQPIRTR|CL  0.123    .
+137             66    TGYQPIR|DQ  0.097    .
+137             82    ITNSHEK|SP  0.078    .
+137            108    DAPTLVR|EK  0.078    .
+137            110    PTLVREK|GT  0.059    .
+137            116    KGTTPFK|LN  0.059    .
+137            131    SPSDSVK|DS  0.083    .
+137            176    DPPTLAR|RS  0.076    .
+137            177    PPTLARR|SK  0.196    .
+137            179    TLARRSK|QP  0.163    .
+137            193    SIYSEFK|RR  0.055    .
+137            194    IYSEFKR|RD  0.149    .
+137            195    YSEFKRR|DS  0.214    .
+137            198    FKRRDSR|CS  0.182    .
+137            204    RCSLLPR|PH  0.113    .
+137            211    PHDNNEK|LT  0.057    .
+137            236    TFASSSR|DD  0.092    .
+137            241    SRDDISR|DD  0.151    .
+137            254    STTEDDR|FS  0.075    .
+137            262    SSHDCCR|KT  0.151    .
+137            263    SHDCCRK|TD  0.081    .
+137            298    SPPSSTR|TS  0.111    .
+137            324    SVMSDSR|GK  0.100    .
+137            326    MSDSRGK|RK  0.058    .
+137            327    SDSRGKR|KV  0.857 *ProP*
+137            328    DSRGKRK|VG  0.103    .
+137            332    KRKVGQK|KG  0.060    .
+137            333    RKVGQKK|GR  0.114    .
+137            335    VGQKKGR|MK  0.109    .
+137            337    QKKGRMK|SS  0.112    .
+137            340    GRMKSSR|NQ  0.119    .
+137            347    NQLETIK|SP  0.069    .
+137            370    SDPDLTK|PS  0.069    .
+137            382    LIEQLLR|PL  0.091    .
+137            385    QLLRPLR|SG  0.266    .
+137            389    PLRSGNR|ST  0.128    .
+137            392    SGNRSTR|SV  0.763 *ProP*
+137            396    STRSVGR|SS  0.216    .
+137            403    SSTTSTK|SS  0.072    .
+137            441    MPEPPAR|PK  0.087    .
+137            443    EPPARPK|LS  0.057    .
+137            466    HPVAGMR|PK  0.093    .
+137            468    VAGMRPK|AC  0.077    .
+137            479    DGLAIVR|EN  0.070    .
+137            500    LPPPILK|MK  0.069    .
+137            502    PPILKMK|EN  0.085    .
+137            513    LLFNLTK|SF  0.068    .
+137            516    NLTKSFK|NR  0.054    .
+137            518    TKSFKNR|QL  0.185    .
+137            521    FKNRQLR|KD  0.213    .
+137            522    KNRQLRK|DF  0.157    .
+137            532    YSESYLR|NL  0.072    .
+137            535    SYLRNLR|LV  0.204    .
+137            540    LRLVFLR|ET  0.112    .
+137            546    RETTWAR|AS  0.077    .
+137            549    TWARASK|LI  0.173    .
+137            582    EMHNPNK|EG  0.060    .
+137            587    NKEGSLR|KQ  0.092    .
+137            588    KEGSLRK|QG  0.079    .
+137            593    RKQGNSR|IR  0.094    .
+137            595    QGNSRIR|DW  0.118    .
+137            598    SRIRDWK|TR  0.142    .
+137            600    IRDWKTR|YC  0.122    .
+137            605    TRYCAVK|DG  0.071    .
+137            608    CAVKDGK|FC  0.068    .
+137            615    FCYYEDK|TA  0.065    .
+137            633    IYCGTLK|AK  0.054    .
+137            635    CGTLKAK|VS  0.065    .
+137            639    KAKVSDR|SK  0.203    .
+137            641    KVSDRSK|FK  0.073    .
+137            643    SDRSKFK|FE  0.073    .
+137            651    EVIVPNR|TY  0.081    .
+137            672    WIEALNK|AV  0.088    .
+137            682    DALTDLK|SS  0.061    .
+137            689    SSASSAK|EL  0.084    .
+137            694    AKELIQR|IY  0.082    .
+137            708    AFCADCR|DP  0.106    .
+137            713    CRDPEPK|WA  0.102    .
+137            732    NCSGSHR|DL  0.167    .
+137            740    LGVHVSK|KF  0.064    .
+137            741    GVHVSKK|FI  0.226    .
+137            757    GTPSGER|LL  0.072    .
+137            762    ERLLSTK|SG  0.086    .
+137            767    TKSGSNK|VN  0.074    .
+137            773    KVNFLYR|GK  0.095    .
+137            775    NFLYRGK|EI  0.061    .
+137            782    EILSINR|GV  0.110    .
+137            786    INRGVPK|SG  0.084    .
+137            791    PKSGVHK|SG  0.093    .
+137            799    GSDFPYK|TA  0.075    .
+137            810    FGSLVER|RL  0.098    .
+137            811    GSLVERR|LS  0.153    .
+137            829    IYLLQVR|SL  0.100    .
+137            836    SLELDVK|AW  0.067    .
+137            852    FHQIGNK|RA  0.062    .
+137            853    HQIGNKR|AN  0.178    .
+137            860    ANQYFEK|HL  0.069    .
+137            869    NEDVDPR|PP  0.074    .
+137            877    PPNGNVK|AF  0.071    .
+137            883    KAFIDAK|YR  0.070    .
+137            885    FIDAKYR|NG  0.089    .
+137            889    KYRNGGK|WT  0.065    .
+137            893    GGKWTNR|IS  0.085    .
+137            916    QTDELHR|TL  0.069    .
+137            928    MSGADVK|MV  0.104    .
+137            938    PCQDNSR|KT  0.078    .
+137            939    CQDNSRK|TP  0.065    .
+137            951    ALASGQK|AQ  0.058    .
+137            990    LEGMLEK|KG  0.058    .
+137            991    EGMLEKK|GP  0.079    .
+137            994    LEKKGPK|TF  0.063    .
+137           1001    TFHAYNK|RR  0.058    .
+137           1002    FHAYNKR|RC  0.130    .
+137           1003    HAYNKRR|CI  0.175    .
+137           1009    RCILSGK|KL  0.067    .
+137           1010    CILSGKK|LR  0.066    .
+137           1012    LSGKKLR|YY  0.150    .
+137           1024    NDGSNLK|KE  0.061    .
+137           1025    DGSNLKK|EI  0.107    .
+137           1046    TENPEGK|ED  0.079    .
+137           1056    YHYMLIR|TR  0.079    .
+137           1058    YMLIRTR|SE  0.119    .
+137           1062    RTRSESK|DP  0.068    .
+137           1065    SESKDPR|TY  0.095    .
+137           1070    PRTYTFR|DR  0.128    .
+137           1072    TYTFRDR|DK  0.098    .
+137           1074    TFRDRDK|EY  0.061    .
+137           1085    EWCDAIK|ST  0.079    .
+137           1096    FGVSIEK|QA  0.059    .
+137           1099    SIEKQAK|TS  0.074    .
+137           1110    VPVLIHK|CV  0.073    .
+137           1118    VIYLEDK|VD  0.055    .
+137           1126    DQEGIYR|IS  0.082    .
+137           1131    YRISGVK|SR  0.070    .
+137           1133    ISGVKSR|YE  0.108    .
+137           1138    SRYENLK|LK  0.069    .
+137           1140    YENLKLK|CN  0.069    .
+137           1165    DVASLLK|LF  0.061    .
+137           1169    LLKLFFR|EL  0.096    .
+137           1195    IEDETEK|LY  0.055    .
+137           1215    TEFHTLK|FL  0.087    .
+137           1223    LIDHLFK|VA  0.069    .
+137           1232    QHQETNR|MT  0.098    .
+137           1250    PTLMSTR|DP  0.079    .
+137           1258    PNNEYSR|NE  0.092    .
+137           1265    NEYQLVK|TL  0.071    .
+137           1285    VDEEAIK|RE  0.056    .
+137           1286    DEEAIKR|EE  0.097    .
+137           1290    IKREELR|QA  0.154    .
+137           1297    QAEEELK|KI  0.061    .
+137           1298    AEEELKK|IM  0.090    .
+137           1322    VEVSYMR|ES  0.069    .
+137           1328    RESVNIR|ID  0.090    .
+137           1336    DAGQTLR|DV  0.173    .
+137           1345    SAEILQR|TK  0.072    .
+137           1347    EILQRTK|LG  0.054    .
+137           1365    LCDGALK|RP  0.052    .
+137           1366    CDGALKR|PV  0.308    .
+137           1385    VTLWDER|VQ  0.072    .
+137           1388    WDERVQR|KI  0.207    .
+137           1389    DERVQRK|IL  0.077    .
+137           1409    LFTCVGR|FL  0.105    .
+137           1416    FLATWFR|TL  0.101    .
+137           1424    LHVYEGR|KK  0.086    .
+137           1425    HVYEGRK|KW  0.078    .
+137           1426    VYEGRKK|WR  0.093    .
+137           1428    EGRKKWR|EV  0.255    .
+137           1433    WREVGVK|VS  0.060    .
+137           1445    LSYDNSR|LR  0.086    .
+137           1447    YDNSRLR|GR  0.091    .
+137           1449    NSRLRGR|CS  0.084    .
+137           1478    EYCFTLR|ST  0.140    .
+137           1484    RSTDQTK|DE  0.069    .
+137           1489    TKDEQFK|VF  0.083    .
+137           1501    EEQDLWR|WL  0.096    .
+137           1505    LWRWLWR|IN  0.098    .
+137           1510    WRINAVK|HQ  0.065    .
+137           1517    HQELDYR|LV  0.106    .
+137           1520    LDYRLVK|SK  0.230    .
+137           1522    YRLVKSK|RA  0.062    .
+137           1523    RLVKSKR|AV  0.406    .
+137           1533    TSTSSHR|ST  0.166    .
+137           1537    SHRSTVK|SH  0.073    .
+137           1547    FWHIYVR|AR  0.098    .
+137           1549    HIYVRAR|AD  0.112    .
+137           1571    ILGSLER|GN  0.079    .
+137           1574    SLERGNR|VL  0.210    .
+137           1581    VLSIHPK|AQ  0.075    .
+137           1591    PLSNEPK|MK  0.084    .
+137           1593    SNEPKMK|QF  0.117    .
+137           1605    MAELWPK|SA  0.089    .
+137           1608    LWPKSAR|AR  0.087    .
+137           1610    PKSARAR|TY  0.130    .
+137           1616    RTYMCQK|VC  0.058    .
+137           1643    PVHSHFK|MV  0.078    .
+137           1647    HFKMVLR|FL  0.111    .
+137           1667    GSYLDFR|GL  0.107    .
+137           1673    RGLSSNR|LT  0.071    .
+137           1681    TLGCFQK|VT  0.090    .
+137           1690    SQIFEDK|DL  0.081    .
+137           1693    FEDKDLK|PV  0.058    .
+137           1709    SLSNDTK|TI  0.098    .
+137           1713    DTKTISR|GI  0.074    .
+137           1718    SRGIPSR|PF  0.136    .
+137           1722    PSRPFIK|GP  0.064    .
+137           1749    PVITMVK|EG  0.056    .
+137           1753    MVKEGIK|IF  0.059    .
+137           1757    GIKIFLR|AK  0.086    .
+137           1759    KIFLRAK|PT  0.062    .
+137           1762    LRAKPTK|AR  0.087    .
+137           1764    AKPTKAR|TG  0.083    .
+137           1777    AAESATK|GY  0.073    .
+137           1793    GQTGSGK|TF  0.068    .
+137           1803    ITGGAER|YR  0.085    .
+137           1805    GGAERYR|DR  0.150    .
+137           1807    AERYRDR|GM  0.086    .
+137           1812    DRGMIPR|SI  0.268    .
+137           1823    VFQTFEK|NP  0.061    .
+137           1851    DLLDPAK|EV  0.076    .
+137           1855    PAKEVTR|LE  0.068    .
+137           1861    RLEDLPR|VY  0.083    .
+137           1875    EGNFHTR|NL  0.112    .
+137           1899    FMGDTNR|MT  0.085    .
+137           1912    MNMASTR|SH  0.150    .
+137           1924    TIYISCK|SQ  0.081    .
+137           1932    QESPTIR|RG  0.096    .
+137           1933    ESPTIRR|GK  0.116    .
+137           1935    PTIRRGK|IH  0.113    .
+137           1945    VDLAGCR|EK  0.064    .
+137           1947    LAGCREK|VN  0.061    .
+137           1950    CREKVNK|YI  0.101    .
+137           1960    ALDPEER|LN  0.071    .
+137           1968    NVDADFR|KI  0.081    .
+137           1969    VDADFRK|IH  0.077    .
+137           1978    FCFQYFK|HL  0.063    .
+137           1982    YFKHLLK|QN  0.073    .
+137           1988    KQNSGAR|SS  0.274    .
+137           2009    QLVCTEK|ET  0.060    .
+137           2012    CTEKETK|RL  0.059    .
+137           2013    TEKETKR|LK  0.141    .
+137           2015    KETKRLK|DL  0.080    .
+137           2021    KDLVTQR|DT  0.118    .
+137           2033    ILVNLLK|KE  0.058    .
+137           2034    LVNLLKK|ER  0.085    .
+137           2036    NLLKKER|MN  0.093    .
+137           2043    MNTEGDR|AI  0.131    .
+137           2057    GVELLPK|PA  0.072    .
+137           2063    KPANHAR|QV  0.207    .
+137           2066    NHARQVK|HL  0.275    .
+137           2070    QVKHLSK|GR  0.070    .
+137           2072    KHLSKGR|QE  0.071    .
+137           2080    EAFDIFR|RD  0.077    .
+137           2081    AFDIFRR|DY  0.138    .
+137           2093    TAIEQNK|AE  0.075    .
+137           2097    QNKAELK|AR  0.067    .
+137           2099    KAELKAR|MK  0.140    .
+137           2101    ELKARMK|EA  0.072    .
+137           2104    ARMKEAK|HI  0.125    .
+137           2112    IGGLVNK|SR  0.085    .
+137           2114    GLVNKSR|EK  0.094    .
+137           2116    VNKSREK|IS  0.059    .
+137           2119    SREKISK|TN  0.069    .
+137           2122    KISKTNK|RK  0.069    .
+137           2123    ISKTNKR|KF  0.197    .
+137           2124    SKTNKRK|FL  0.104    .
+137           2127    NKRKFLK|LG  0.065    .
+137           2143    IWYSALR|WG  0.074    .
+137           2146    SALRWGR|SR  0.317    .
+137           2148    LRWGRSR|QT  0.130    .
+137           2153    SRQTEAR|LQ  0.104    .
+137           2160    LQAEVCK|IA  0.100    .
+137           2165    CKIAGAK|DR  0.078    .
+137           2167    IAGAKDR|DR  0.110    .
+137           2169    GAKDRDR|AP  0.080    .
+137           2176    APPAPAR|TA  0.092    .
+137           2190    VSWVSGR|AL  0.120    .
+137           2201    EVTPCNR|AR  0.066    .
+137           2203    TPCNRAR|RS  0.105    .
+137           2204    PCNRARR|SP  0.769 *ProP*
+137           2217    VSSIPSR|AP  0.113    .
+137           2225    PSTLQGK|GS  0.071    .
+137           2251    YQWPVNR|GP  0.084    .
+137           2257    RGPTVTK|NV  0.072    .
+137           2272    NSLSACK|GG  0.058    .
+137           2276    ACKGGLK|LE  0.054    .
+137           2281    LKLETLK|LS  0.056    .
+137           2312    FVWTIHK|NT  0.054    .
+137           2323    SCFFPDK|KY  0.071    .
+137           2324    CFFPDKK|YK  0.085    .
+137           2326    FPDKKYK|KI  0.079    .
+137           2327    PDKKYKK|IQ  0.089    .
+137           2330    KYKKIQK|NK  0.059    .
+137           2332    KKIQKNK|NS  0.077    .
+137           2337    NKNSFVK|LF  0.074    .
+137           2344    LFNILVR|TF  0.101    .
+137           2350    RTFTVFR|HS  0.103    .
+137           2357    HSSPLFR|VG  0.093    .
+137           2382    IGCNGSK|NK  0.066    .
+137           2384    CNGSKNK|SQ  0.119    .
+137           2391    SQGYVLK|FE  0.070    .
+137           2399    ELNQVTR|TR  0.087    .
+137           2401    NQVTRTR|VP  0.100    .
+137           2408    VPGDTCR|TL  0.089    .
+137           2436    HVFFSQR|VT  0.113    .
+137           2442    RVTEEGR|EY  0.086    .
+137           2480    WGIEPTK|HL  0.064    .
+137           2497    TTFDDDR|IL  0.095    .
+137           2501    DDRILAR|VQ  0.080    .
+137           2526    GYFCIAK|SK  0.083    .
+137           2528    FCIAKSK|KE  0.074    .
+137           2529    CIAKSKK|EE  0.140    .
+137           2542    SSSESER|KP  0.107    .
+137           2543    SSESERK|PI  0.077    .
+137           2549    KPILFEK|DK  0.087    .
+137           2551    ILFEKDK|DI  0.092    .
+137           2555    KDKDIVK|GI  0.065    .
+137           2563    IPFVEEK|IV  0.115    .
+137           2591    CAFDLFK|DF  0.066    .
+137           2596    FKDFGLK|RI  0.055    .
+137           2597    KDFGLKR|IR  0.161    .
+137           2599    FGLKRIR|DD  0.075    .
+137           2619    IVGAVGR|IA  0.117    .
+137           2628    WGIDAPK|PR  0.060    .
+137           2630    IDAPKPR|KQ  0.088    .
+137           2631    DAPKPRK|QV  0.086    .
+137           2641    LCVYNCR|AV  0.114    .
+137           2664    EVHGDTK|HS  0.060    .
+137           2670    KHSLEVR|YH  0.099    .
+137           2676    RYHPDWR|VL  0.075    .
+137           2681    WRVLYCR|NR  0.083    .
+137           2683    VLYCRNR|PK  0.095    .
+137           2685    YCRNRPK|QP  0.061    .
+137           2689    RPKQPIR|TH  0.096    .
+137           2700    GDVTGYR|PI  0.089    .
+137           2703    TGYRPIR|DH  0.278    .
+137           2710    DHYFLIR|SV  0.165    .
+137           2717    SVNPMAK|NR  0.060    .
+137           2719    NPMAKNR|PI  0.110    .
+137           2722    AKNRPIR|TR  0.265    .
+137           2724    NRPIRTR|YL  0.167    .
+137           2743    DQYSLIR|SF  0.102    .
+137           2773    TTMLYCR|NR  0.074    .
+137           2775    MLYCRNR|PK  0.116    .
+137           2777    YCRNRPK|QP  0.061    .
+137           2781    RPKQPIR|TH  0.096    .
+137           2792    GDVTGYR|PI  0.089    .
+137           2795    TGYRPIR|DH  0.278    .
+137           2802    DHYFLIR|SV  0.133    .
+137           2812    SASTNLK|FI  0.086    .
+137           2822    SILYLQK|FH  0.059    .
+137           2826    LQKFHLK|NK  0.064    .
+137           2828    KFHLKNK|TD  0.066    .
+____________________________^_________________
+
+
+
+

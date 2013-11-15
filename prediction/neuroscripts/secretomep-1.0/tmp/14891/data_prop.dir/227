@@ -1,0 +1,334 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2385 227         
+MYVLCQPTSSSCYVLTPFYKCNGPPDQNKLTTNQSSLFRSSDWLLANQGPDIVQSLSGFVNVTYLYPSRPHITSFALLSP      80
+PATALSRVLVSGNKSISDLELENVHVETVEMIEELFAMAGTRPTTGVFSAEYNGAEESLWDTLSAPSKYKLDTVDKTDLV     160
+KWIEMTPFNNQLSNKGHYSSVKFETRKCSEVEEKLMERQEDLISDQKALVGAQEQLLKLQEQLLEKREKEIAEVQTTAKE     240
+EIHSFSSVLKKECETVLAPSRIQKAVAAASEDRSCNIVIHGLTDSPGDSEELLLELWTTLEERPLVKRAQRLGKFSAGHS     320
+RPLKLTLAKDMDRINQWAIDNSMELNAQKYQLLQHGRNDLLKMPYSLPDGTTVERENAVKDLGIVLDSELSWKPHITHVI     400
+KSASQTAGRILRSFETREQDPMLVLMKTFIRPHLEYISPIWSPHLIGEIQRVEAVQRAFTAHISGCEEMTYWQRLHHLGL     480
+YSLQRRRERYKVLYLWKLYHGLLPNHLNLVFKPSARRGPYVERPLGKAKLKSVNSKIFNSCTSTAVSLFNAVPKVVKEQM     560
+TLEGAKRELDKFLSKIPDEPPLKGYGAQNANIHQSSFMVHNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     640
+AAAAAAAAAAAAAAAAAAAALSLSLSLSLSLFLSLPTHLIPQLSIYYTALCASILCVPNTYLFQIKSNRISSSPSLTLSL     720
+SSFLISVSLSLSLSLSLSLSLSLSLSLSLSLTHQDLARIKIKANTVGPRFTGPRFTGQNPFPRALPQRTNMRPVRLVKFL     800
+SIILLLALFLLFVLQNNPQHHQQTSPTTDNLPLQSGSLLSYSSYYLPPGLPPRPRRDNVSVLWVSSLTEGEGHRGFVQEN     880
+LNFLIPLRQEVDLGWFAIDIPSSSDLLTNSNYLERREEEQLSILTSYHRGRSMLMGGNFPITMLGCTPSEYPDIIPLLRN     960
+HTAVYKIGRSMFETTWIPAGWDALINEYLDELWVPTEFARDVYQKAGVLRPITVIGEGFDGAVFRELPSPGEVVKLRKRF    1040
+FPNCHPGDTIFIMVGKSEPRKGVEYVINAFGDEFRTGPACLYLRTKLTNLQQRLIRRRKGRVRMFEMKALDYRDLVLAYK    1120
+AADVFILATHGEGWGRPIMEAMACGLPVIVPLWSGLTGFVKEQYSLSIPVTRLEPAFPDEPWIIHGEKYSELHKWAGINV    1200
+KEMKRQMRWAVDHPNERRDVGLRARVEIGGECSYRLYYQLFNPNTRISDYPPSNHPFSAPIMIAFVYTVVPFLICRGDCF    1280
+GVDEGTLPQTLGDLNNQIQEALNLGGGSTAATTTSDQISPPSPTSILPQPSKPVIGMRDISDNSDDFNRRYHFKSCPNLV    1360
+LSCLNFTRNSIFSLPGWMPKASTRMPFCFAKRHSRVRIRKRHFGILTNCCPNLVLSCLNFTRNSIFSLPGWMPKASTRMP    1440
+FCFAKRHSRVRIRKRHFGILTNWKISYRLLKLDKSRLLPTNLDPLNTMLPTEKLSKVKNMLKIELFCGQHRVQRVQISRS    1520
+LPDVPGTSAGDVPRCKGGRYALSTKCRGEYWEPEAEEHSTTTTTTTYDFARIFAVGVLHSLCPSFLFRSFEHGGFVCDML    1600
+SAAFMSNIWIMELRGDKIRDYLVNRPNQEILVPDWLITSHVTEITSSDWMFNCFGRFLIDNRLQFYQGWRQYMIIYLSGS    1680
+TRLSNLSRGRSLIGSARLCVLLHWLMIFVFECVGMWLFDFCIMLVVSIEIFVSFGVLCMFGFVLFVRLSSTVCCYVQTLF    1760
+FYKQNLAIKWGCLLNGTNNYGRLDPYEPLSCLGLSCSTIYETQGLFLSGIVNFGCDVMGASDKNSSVIANLYYLQQTCPI    1840
+LILSTLTLINLKHIGTWRRHTPFDLLKSDSALRWDRGARHICTEGYSTTQYYNGFFDLSLTISHYLSLYLSLSLSLSLSL    1920
+SAVISLPMTAFNVMISHKYYGAVNKLNVLTAPSQEPTKTSKQPIRTRYLGHVTGYQPIRDQYFMMVDTFVNEDPPTFTTE    2000
+METDRVIEDLVFDRFTVENLLSKLNISKSGGPDRIHPKLLKSLSDNRVVVQLITDLFQRCYDTETIPELWKTAHVTALHK    2080
+KGDKAKASNYRPISLTCVLAKVFEKILRNHILSQLRIPQLETIRPSWRHSHLVRSPHMCVGITPGAYVANRPSISSGGPD    2160
+HMKSIIHRDLFLQVYRSQTMYYLVRHRAYLELNSLFNREDMHFTQLVSDFCDPSRVTGLNTCEVVCDSDFFVNKPWEEGT    2240
+VPNRKLFQANSKEIVVTHTSHMWNLVTPVLGSQEVGDRGYPSPDAFHIAGRPSYLEHCSYLTVETLSSPRYTSASVHSSI    2320
+VSHLTDTPQSSPLQHSSYPHQTSTLQQLSMVNRIKGGAHVQQKEASDLSIIQFPKSELLYILAFL                   2400
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+...........P....................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+.......................................................P........................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+.................................................................                   2400
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+227             20    VLTPFYK|CN  0.066    .
+227             29    GPPDQNK|LT  0.065    .
+227             39    NQSSLFR|SS  0.175    .
+227             69    TYLYPSR|PH  0.078    .
+227             87    PATALSR|VL  0.074    .
+227             94    VLVSGNK|SI  0.080    .
+227            122    FAMAGTR|PT  0.112    .
+227            148    TLSAPSK|YK  0.079    .
+227            150    SAPSKYK|LD  0.061    .
+227            156    KLDTVDK|TD  0.054    .
+227            161    DKTDLVK|WI  0.063    .
+227            175    NNQLSNK|GH  0.071    .
+227            182    GHYSSVK|FE  0.066    .
+227            186    SVKFETR|KC  0.111    .
+227            187    VKFETRK|CS  0.103    .
+227            194    CSEVEEK|LM  0.072    .
+227            198    EEKLMER|QE  0.076    .
+227            207    DLISDQK|AL  0.061    .
+227            218    AQEQLLK|LQ  0.060    .
+227            226    QEQLLEK|RE  0.054    .
+227            227    EQLLEKR|EK  0.164    .
+227            229    LLEKREK|EI  0.084    .
+227            239    EVQTTAK|EE  0.065    .
+227            250    SFSSVLK|KE  0.064    .
+227            251    FSSVLKK|EC  0.185    .
+227            261    TVLAPSR|IQ  0.076    .
+227            264    APSRIQK|AV  0.285    .
+227            273    AAASEDR|SC  0.155    .
+227            303    WTTLEER|PL  0.068    .
+227            307    EERPLVK|RA  0.063    .
+227            308    ERPLVKR|AQ  0.156    .
+227            311    LVKRAQR|LG  0.164    .
+227            314    RAQRLGK|FS  0.151    .
+227            321    FSAGHSR|PL  0.088    .
+227            324    GHSRPLK|LT  0.162    .
+227            329    LKLTLAK|DM  0.079    .
+227            333    LAKDMDR|IN  0.088    .
+227            349    MELNAQK|YQ  0.055    .
+227            357    QLLQHGR|ND  0.077    .
+227            362    GRNDLLK|MP  0.073    .
+227            375    DGTTVER|EN  0.073    .
+227            380    ERENAVK|DL  0.112    .
+227            393    DSELSWK|PH  0.061    .
+227            401    HITHVIK|SA  0.105    .
+227            409    ASQTAGR|IL  0.095    .
+227            412    TAGRILR|SF  0.541 *ProP*
+227            417    LRSFETR|EQ  0.158    .
+227            427    PMLVLMK|TF  0.054    .
+227            431    LMKTFIR|PH  0.074    .
+227            451    LIGEIQR|VE  0.073    .
+227            457    RVEAVQR|AF  0.105    .
+227            474    EMTYWQR|LH  0.074    .
+227            485    GLYSLQR|RR  0.077    .
+227            486    LYSLQRR|RE  0.108    .
+227            487    YSLQRRR|ER  0.113    .
+227            489    LQRRRER|YK  0.223    .
+227            491    RRRERYK|VL  0.067    .
+227            497    KVLYLWK|LY  0.063    .
+227            512    HLNLVFK|PS  0.074    .
+227            516    VFKPSAR|RG  0.079    .
+227            517    FKPSARR|GP  0.107    .
+227            523    RGPYVER|PL  0.104    .
+227            527    VERPLGK|AK  0.072    .
+227            529    RPLGKAK|LK  0.070    .
+227            531    LGKAKLK|SV  0.125    .
+227            536    LKSVNSK|IF  0.081    .
+227            554    LFNAVPK|VV  0.091    .
+227            557    AVPKVVK|EQ  0.061    .
+227            566    MTLEGAK|RE  0.057    .
+227            567    TLEGAKR|EL  0.218    .
+227            571    AKRELDK|FL  0.115    .
+227            575    LDKFLSK|IP  0.056    .
+227            583    PDEPPLK|GY  0.072    .
+227            706    TYLFQIK|SN  0.077    .
+227            709    FQIKSNR|IS  0.081    .
+227            758    THQDLAR|IK  0.109    .
+227            760    QDLARIK|IK  0.055    .
+227            762    LARIKIK|AN  0.082    .
+227            769    ANTVGPR|FT  0.142    .
+227            774    PRFTGPR|FT  0.151    .
+227            783    GQNPFPR|AL  0.123    .
+227            788    PRALPQR|TN  0.100    .
+227            792    PQRTNMR|PV  0.120    .
+227            795    TNMRPVR|LV  0.292    .
+227            798    RPVRLVK|FL  0.197    .
+227            853    PPGLPPR|PR  0.093    .
+227            855    GLPPRPR|RD  0.090    .
+227            856    LPPRPRR|DN  0.649 *ProP*
+227            874    TEGEGHR|GF  0.090    .
+227            888    NFLIPLR|QE  0.070    .
+227            915    NSNYLER|RE  0.100    .
+227            916    SNYLERR|EE  0.122    .
+227            929    ILTSYHR|GR  0.079    .
+227            931    TSYHRGR|SM  0.196    .
+227            959    DIIPLLR|NH  0.074    .
+227            966    NHTAVYK|IG  0.062    .
+227            969    AVYKIGR|SM  0.119    .
+227           1000    VPTEFAR|DV  0.229    .
+227           1005    ARDVYQK|AG  0.060    .
+227           1010    QKAGVLR|PI  0.140    .
+227           1025    FDGAVFR|EL  0.092    .
+227           1035    SPGEVVK|LR  0.064    .
+227           1037    GEVVKLR|KR  0.084    .
+227           1038    EVVKLRK|RF  0.072    .
+227           1039    VVKLRKR|FF  0.133    .
+227           1056    IFIMVGK|SE  0.075    .
+227           1060    VGKSEPR|KG  0.070    .
+227           1061    GKSEPRK|GV  0.234    .
+227           1075    AFGDEFR|TG  0.078    .
+227           1084    PACLYLR|TK  0.072    .
+227           1086    CLYLRTK|LT  0.064    .
+227           1093    LTNLQQR|LI  0.090    .
+227           1096    LQQRLIR|RR  0.187    .
+227           1097    QQRLIRR|RK  0.156    .
+227           1098    QRLIRRR|KG  0.112    .
+227           1099    RLIRRRK|GR  0.225    .
+227           1101    IRRRKGR|VR  0.382    .
+227           1103    RRKGRVR|MF  0.114    .
+227           1108    VRMFEMK|AL  0.072    .
+227           1113    MKALDYR|DL  0.106    .
+227           1120    DLVLAYK|AA  0.066    .
+227           1136    HGEGWGR|PI  0.107    .
+227           1161    GLTGFVK|EQ  0.055    .
+227           1172    LSIPVTR|LE  0.081    .
+227           1188    WIIHGEK|YS  0.067    .
+227           1194    KYSELHK|WA  0.084    .
+227           1201    WAGINVK|EM  0.066    .
+227           1204    INVKEMK|RQ  0.061    .
+227           1205    NVKEMKR|QM  0.149    .
+227           1208    EMKRQMR|WA  0.374    .
+227           1217    VDHPNER|RD  0.070    .
+227           1218    DHPNERR|DV  0.207    .
+227           1223    RRDVGLR|AR  0.083    .
+227           1225    DVGLRAR|VE  0.093    .
+227           1235    GGECSYR|LY  0.091    .
+227           1246    LFNPNTR|IS  0.080    .
+227           1276    VPFLICR|GD  0.089    .
+227           1332    ILPQPSK|PV  0.081    .
+227           1338    KPVIGMR|DI  0.182    .
+227           1349    NSDDFNR|RY  0.072    .
+227           1350    SDDFNRR|YH  0.156    .
+227           1354    NRRYHFK|SC  0.097    .
+227           1368    SCLNFTR|NS  0.096    .
+227           1380    LPGWMPK|AS  0.075    .
+227           1384    MPKASTR|MP  0.090    .
+227           1391    MPFCFAK|RH  0.075    .
+227           1392    PFCFAKR|HS  0.127    .
+227           1395    FAKRHSR|VR  0.202    .
+227           1397    KRHSRVR|IR  0.101    .
+227           1399    HSRVRIR|KR  0.109    .
+227           1400    SRVRIRK|RH  0.271    .
+227           1401    RVRIRKR|HF  0.274    .
+227           1422    SCLNFTR|NS  0.096    .
+227           1434    LPGWMPK|AS  0.075    .
+227           1438    MPKASTR|MP  0.090    .
+227           1445    MPFCFAK|RH  0.075    .
+227           1446    PFCFAKR|HS  0.127    .
+227           1449    FAKRHSR|VR  0.202    .
+227           1451    KRHSRVR|IR  0.101    .
+227           1453    HSRVRIR|KR  0.109    .
+227           1454    SRVRIRK|RH  0.278    .
+227           1455    RVRIRKR|HF  0.288    .
+227           1464    GILTNWK|IS  0.057    .
+227           1468    NWKISYR|LL  0.070    .
+227           1471    ISYRLLK|LD  0.096    .
+227           1474    RLLKLDK|SR  0.057    .
+227           1476    LKLDKSR|LL  0.091    .
+227           1493    TMLPTEK|LS  0.057    .
+227           1496    PTEKLSK|VK  0.053    .
+227           1498    EKLSKVK|NM  0.062    .
+227           1502    KVKNMLK|IE  0.055    .
+227           1511    LFCGQHR|VQ  0.078    .
+227           1514    GQHRVQR|VQ  0.149    .
+227           1519    QRVQISR|SL  0.177    .
+227           1534    SAGDVPR|CK  0.121    .
+227           1536    GDVPRCK|GG  0.071    .
+227           1539    PRCKGGR|YA  0.095    .
+227           1545    RYALSTK|CR  0.065    .
+227           1547    ALSTKCR|GE  0.138    .
+227           1571    TTYDFAR|IF  0.116    .
+227           1588    CPSFLFR|SF  0.317    .
+227           1614    IWIMELR|GD  0.076    .
+227           1617    MELRGDK|IR  0.079    .
+227           1619    LRGDKIR|DY  0.130    .
+227           1625    RDYLVNR|PN  0.087    .
+227           1656    MFNCFGR|FL  0.155    .
+227           1662    RFLIDNR|LQ  0.071    .
+227           1670    QFYQGWR|QY  0.085    .
+227           1682    YLSGSTR|LS  0.095    .
+227           1688    RLSNLSR|GR  0.125    .
+227           1690    SNLSRGR|SL  0.133    .
+227           1697    SLIGSAR|LC  0.072    .
+227           1747    GFVLFVR|LS  0.093    .
+227           1763    QTLFFYK|QN  0.064    .
+227           1769    KQNLAIK|WG  0.062    .
+227           1782    GTNNYGR|LD  0.076    .
+227           1823    VMGASDK|NS  0.066    .
+227           1852    LTLINLK|HI  0.069    .
+227           1858    KHIGTWR|RH  0.075    .
+227           1859    HIGTWRR|HT  0.119    .
+227           1867    TPFDLLK|SD  0.092    .
+227           1873    KSDSALR|WD  0.087    .
+227           1876    SALRWDR|GA  0.324    .
+227           1879    RWDRGAR|HI  0.394    .
+227           1938    NVMISHK|YY  0.086    .
+227           1945    YYGAVNK|LN  0.057    .
+227           1958    PSQEPTK|TS  0.064    .
+227           1961    EPTKTSK|QP  0.060    .
+227           1965    TSKQPIR|TR  0.102    .
+227           1967    KQPIRTR|YL  0.133    .
+227           1979    TGYQPIR|DQ  0.110    .
+227           2005    TEMETDR|VI  0.106    .
+227           2014    EDLVFDR|FT  0.091    .
+227           2023    VENLLSK|LN  0.059    .
+227           2028    SKLNISK|SG  0.085    .
+227           2034    KSGGPDR|IH  0.100    .
+227           2038    PDRIHPK|LL  0.063    .
+227           2041    IHPKLLK|SL  0.088    .
+227           2047    KSLSDNR|VV  0.092    .
+227           2059    ITDLFQR|CY  0.090    .
+227           2071    TIPELWK|TA  0.061    .
+227           2080    HVTALHK|KG  0.058    .
+227           2081    VTALHKK|GD  0.111    .
+227           2084    LHKKGDK|AK  0.058    .
+227           2086    KKGDKAK|AS  0.076    .
+227           2091    AKASNYR|PI  0.093    .
+227           2101    LTCVLAK|VF  0.085    .
+227           2105    LAKVFEK|IL  0.068    .
+227           2108    VFEKILR|NH  0.072    .
+227           2116    HILSQLR|IP  0.063    .
+227           2124    PQLETIR|PS  0.069    .
+227           2128    TIRPSWR|HS  0.122    .
+227           2134    RHSHLVR|SP  0.178    .
+227           2151    GAYVANR|PS  0.091    .
+227           2163    GGPDHMK|SI  0.082    .
+227           2168    MKSIIHR|DL  0.156    .
+227           2176    LFLQVYR|SQ  0.092    .
+227           2185    TMYYLVR|HR  0.083    .
+227           2187    YYLVRHR|AY  0.069    .
+227           2198    LNSLFNR|ED  0.097    .
+227           2215    DFCDPSR|VT  0.081    .
+227           2234    SDFFVNK|PW  0.077    .
+227           2244    EGTVPNR|KL  0.087    .
+227           2245    GTVPNRK|LF  0.072    .
+227           2252    LFQANSK|EI  0.062    .
+227           2278    SQEVGDR|GY  0.071    .
+227           2291    AFHIAGR|PS  0.085    .
+227           2310    ETLSSPR|YT  0.116    .
+227           2353    QLSMVNR|IK  0.159    .
+227           2355    SMVNRIK|GG  0.070    .
+227           2363    GAHVQQK|EA  0.086    .
+227           2375    SIIQFPK|SE  0.071    .
+____________________________^_________________
+
+
+
+

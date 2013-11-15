@@ -1,0 +1,217 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1760 422         
+MMLTINPMMLTDGNEQLKVDLGVLFSKRHAPLLKKDCEEYREIWNEALHSMDCFVMEGGRNFDKLPSDEQGHFYSESSYV      80
+FLCQYWLPLSDFTDDLLDQYLLLEKKNSGGGKKEVAGSEQEEDDGNEQLKVDLGVLFSKRHAPLLKKDCEEYREIWNEAL     160
+HSMDCFVMEGGRNFDKLPSDEQGHFYSESSYVFLCQYWLPLSDFTDDLLDQYLLLEKKNSGGGKKEVAGSEQEEDEDEEE     240
+ALVCRVYFWQGRDSSKMSWPQFSLSSFRSQIKEKVGATMPIEEVRCYQQQESLKFLSYFKGRFIIHKGKRPTAAHPQTGP     320
+VKPRLYQIRQNGNILAQRCVEIGCTSVLLNSGFYIGFCYILKVPVESEDQVTYILYVWIGSKSNEELMNSAIEIGNEAFA     400
+DCDTVTVIYEGNSEPQIFWDALGGKKNYQTNANWLDVMRLFRCSNEKGYFSEKVGATMPIEEVRCYQQQESLKFLSYFKG     480
+RFIIHKGKRPTAAHPQTGPVKPRLYQIRQNGNILAQRCVEIGCTSVLLNSGFCYILKVPVESEDQVTYILYVWIGSKSNE     560
+ELMNSAIEIGNEAFADCDTVTVLYEGNSEPQIFWDALGGKKNYQTNADWLDVMRLFRCSNEKGYFSVTEEFKWPDFCQDH     640
+LLDEDTMILDSGSDVFVWIGETSSEVVRKLALKSAQLYMQHVQDLTGDARKLCIVKRGKENLKFIKLFHGPDFFAMLHCL     720
+SVRHYARPSGSRKLTPGLWPGVRADRQGIAVFLLQLSSFVTKDHEYVAAPYVFVFTFEQAQPTSFTGSHISTQLEAGVSG     800
+MSDLMSATRLMLSNIIILEVRHGNTALWIHNANNSCLLYIYQFPPFSHTMSTTTMSSLSLFGDREKGESVRTQNMTAAVA     880
+ISNIVKSSLGPVGLDKMLVDEVGDVTVTNDGATILKMLEVEHPAAKVLCELAQLQDEEVGDGTTSVVIIAAELLRAADEL     960
+IKQKIHPTTIINGYKQKMGRSPPVHISEDERRSRSLSGIYATDCSFIKRFIGPKLLHGHQFSCHGNRVIDLERGEKNHPA    1040
+KPGGLLKKPLLEAHAMGALVSIISPKLPHSYQLSCHSNRDIDVERGEKNHPAKPGGLAKIPYLRRTQWVCALACKESVKF    1120
+IQDNLSIPATDLGKNCLLNVARTSMSSKIIGADKDFFANMVVQACELIKFTNTKGDTKCPIKSVNSLKAHGKSSRESIFV    1200
+KGYALNCTVASQLMPKTIKNAKIACIDFSLQKSKMKLGVQVIVDDPSKLEAVRQREAAAAAAAAAAAAAAAAAAAAAAAA    1280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1440
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1520
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1600
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATEGFPQC    1680
+IPDDRGQEEFQEAGVLEPEMSKVKSLKFATEAAITILRIDDMIKIYQPSKEDPNSYANAVAQGRFCSWSVCVSLFVNLFY    1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.................................P..............................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+422             18    DGNEQLK|VD  0.063    .
+422             27    LGVLFSK|RH  0.058    .
+422             28    GVLFSKR|HA  0.139    .
+422             34    RHAPLLK|KD  0.063    .
+422             35    HAPLLKK|DC  0.116    .
+422             41    KDCEEYR|EI  0.095    .
+422             60    FVMEGGR|NF  0.077    .
+422             64    GGRNFDK|LP  0.080    .
+422            105    QYLLLEK|KN  0.059    .
+422            106    YLLLEKK|NS  0.096    .
+422            112    KNSGGGK|KE  0.073    .
+422            113    NSGGGKK|EV  0.183    .
+422            130    DGNEQLK|VD  0.068    .
+422            139    LGVLFSK|RH  0.058    .
+422            140    GVLFSKR|HA  0.139    .
+422            146    RHAPLLK|KD  0.063    .
+422            147    HAPLLKK|DC  0.116    .
+422            153    KDCEEYR|EI  0.095    .
+422            172    FVMEGGR|NF  0.077    .
+422            176    GGRNFDK|LP  0.080    .
+422            217    QYLLLEK|KN  0.059    .
+422            218    YLLLEKK|NS  0.096    .
+422            224    KNSGGGK|KE  0.073    .
+422            225    NSGGGKK|EV  0.183    .
+422            245    EEALVCR|VY  0.099    .
+422            252    VYFWQGR|DS  0.102    .
+422            256    QGRDSSK|MS  0.077    .
+422            268    FSLSSFR|SQ  0.122    .
+422            272    SFRSQIK|EK  0.063    .
+422            274    RSQIKEK|VG  0.066    .
+422            285    MPIEEVR|CY  0.126    .
+422            294    QQQESLK|FL  0.071    .
+422            300    KFLSYFK|GR  0.058    .
+422            302    LSYFKGR|FI  0.173    .
+422            307    GRFIIHK|GK  0.074    .
+422            309    FIIHKGK|RP  0.068    .
+422            310    IIHKGKR|PT  0.240    .
+422            322    PQTGPVK|PR  0.060    .
+422            324    TGPVKPR|LY  0.112    .
+422            329    PRLYQIR|QN  0.163    .
+422            338    GNILAQR|CV  0.160    .
+422            362    GFCYILK|VP  0.058    .
+422            382    YVWIGSK|SN  0.075    .
+422            425    WDALGGK|KN  0.063    .
+422            426    DALGGKK|NY  0.074    .
+422            439    NWLDVMR|LF  0.074    .
+422            442    DVMRLFR|CS  0.233    .
+422            447    FRCSNEK|GY  0.071    .
+422            453    KGYFSEK|VG  0.058    .
+422            464    MPIEEVR|CY  0.126    .
+422            473    QQQESLK|FL  0.071    .
+422            479    KFLSYFK|GR  0.058    .
+422            481    LSYFKGR|FI  0.173    .
+422            486    GRFIIHK|GK  0.074    .
+422            488    FIIHKGK|RP  0.068    .
+422            489    IIHKGKR|PT  0.240    .
+422            501    PQTGPVK|PR  0.060    .
+422            503    TGPVKPR|LY  0.112    .
+422            508    PRLYQIR|QN  0.163    .
+422            517    GNILAQR|CV  0.160    .
+422            537    GFCYILK|VP  0.061    .
+422            557    YVWIGSK|SN  0.075    .
+422            600    WDALGGK|KN  0.063    .
+422            601    DALGGKK|NY  0.075    .
+422            614    DWLDVMR|LF  0.072    .
+422            617    DVMRLFR|CS  0.231    .
+422            622    FRCSNEK|GY  0.073    .
+422            632    SVTEEFK|WP  0.063    .
+422            668    TSSEVVR|KL  0.093    .
+422            669    SSEVVRK|LA  0.111    .
+422            673    VRKLALK|SA  0.086    .
+422            690    DLTGDAR|KL  0.087    .
+422            691    LTGDARK|LC  0.076    .
+422            696    RKLCIVK|RG  0.056    .
+422            697    KLCIVKR|GK  0.217    .
+422            699    CIVKRGK|EN  0.058    .
+422            703    RGKENLK|FI  0.058    .
+422            706    ENLKFIK|LF  0.059    .
+422            723    LHCLSVR|HY  0.076    .
+422            727    SVRHYAR|PS  0.110    .
+422            732    ARPSGSR|KL  0.098    .
+422            733    RPSGSRK|LT  0.107    .
+422            743    GLWPGVR|AD  0.101    .
+422            746    PGVRADR|QG  0.184    .
+422            762    LSSFVTK|DH  0.089    .
+422            809    DLMSATR|LM  0.067    .
+422            821    IIILEVR|HG  0.087    .
+422            864    LSLFGDR|EK  0.100    .
+422            866    LFGDREK|GE  0.062    .
+422            871    EKGESVR|TQ  0.073    .
+422            886    AISNIVK|SS  0.071    .
+422            896    GPVGLDK|ML  0.071    .
+422            916    DGATILK|ML  0.067    .
+422            926    VEHPAAK|VL  0.062    .
+422            955    IAAELLR|AA  0.113    .
+422            962    AADELIK|QK  0.056    .
+422            964    DELIKQK|IH  0.057    .
+422            975    TIINGYK|QK  0.061    .
+422            977    INGYKQK|MG  0.067    .
+422            980    YKQKMGR|SP  0.122    .
+422            991    HISEDER|RS  0.075    .
+422            992    ISEDERR|SR  0.215    .
+422            994    EDERRSR|SL  0.501 *ProP*
+422           1008    TDCSFIK|RF  0.058    .
+422           1009    DCSFIKR|FI  0.440    .
+422           1014    KRFIGPK|LL  0.072    .
+422           1027    FSCHGNR|VI  0.096    .
+422           1033    RVIDLER|GE  0.071    .
+422           1036    DLERGEK|NH  0.086    .
+422           1041    EKNHPAK|PG  0.076    .
+422           1047    KPGGLLK|KP  0.057    .
+422           1048    PGGLLKK|PL  0.109    .
+422           1066    VSIISPK|LP  0.066    .
+422           1079    LSCHSNR|DI  0.200    .
+422           1085    RDIDVER|GE  0.082    .
+422           1088    DVERGEK|NH  0.079    .
+422           1093    EKNHPAK|PG  0.079    .
+422           1099    KPGGLAK|IP  0.066    .
+422           1104    AKIPYLR|RT  0.076    .
+422           1105    KIPYLRR|TQ  0.087    .
+422           1115    VCALACK|ES  0.058    .
+422           1119    ACKESVK|FI  0.080    .
+422           1134    PATDLGK|NC  0.051    .
+422           1142    CLLNVAR|TS  0.082    .
+422           1148    RTSMSSK|II  0.099    .
+422           1154    KIIGADK|DF  0.073    .
+422           1169    QACELIK|FT  0.088    .
+422           1174    IKFTNTK|GD  0.068    .
+422           1178    NTKGDTK|CP  0.061    .
+422           1182    DTKCPIK|SV  0.088    .
+422           1188    KSVNSLK|AH  0.077    .
+422           1192    SLKAHGK|SS  0.102    .
+422           1195    AHGKSSR|ES  0.094    .
+422           1201    RESIFVK|GY  0.069    .
+422           1216    ASQLMPK|TI  0.066    .
+422           1219    LMPKTIK|NA  0.063    .
+422           1222    KTIKNAK|IA  0.073    .
+422           1232    IDFSLQK|SK  0.080    .
+422           1234    FSLQKSK|MK  0.072    .
+422           1236    LQKSKMK|LG  0.066    .
+422           1248    IVDDPSK|LE  0.054    .
+422           1253    SKLEAVR|QR  0.086    .
+422           1255    LEAVRQR|EA  0.133    .
+422           1685    QCIPDDR|GQ  0.095    .
+422           1702    LEPEMSK|VK  0.058    .
+422           1704    PEMSKVK|SL  0.077    .
+422           1707    SKVKSLK|FA  0.100    .
+422           1718    AAITILR|ID  0.071    .
+422           1724    RIDDMIK|IY  0.062    .
+422           1730    KIYQPSK|ED  0.057    .
+422           1744    NAVAQGR|FC  0.114    .
+____________________________^_________________
+
+
+
+

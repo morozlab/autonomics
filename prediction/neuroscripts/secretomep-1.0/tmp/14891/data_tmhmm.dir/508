@@ -1,0 +1,20 @@
+# 508 Length: 1632
+# 508 Number of predicted TMHs:  7
+# 508 Exp number of AAs in TMHs: 185.74178
+# 508 Exp number, first 60 AAs:  2e-05
+# 508 Total prob of N-in:        0.00660
+508	TMHMM2.0	outside	     1   638
+508	TMHMM2.0	TMhelix	   639   661
+508	TMHMM2.0	inside	   662   672
+508	TMHMM2.0	TMhelix	   673   695
+508	TMHMM2.0	outside	   696  1281
+508	TMHMM2.0	TMhelix	  1282  1304
+508	TMHMM2.0	inside	  1305  1366
+508	TMHMM2.0	TMhelix	  1367  1389
+508	TMHMM2.0	outside	  1390  1482
+508	TMHMM2.0	TMhelix	  1483  1505
+508	TMHMM2.0	inside	  1506  1533
+508	TMHMM2.0	TMhelix	  1534  1556
+508	TMHMM2.0	outside	  1557  1565
+508	TMHMM2.0	TMhelix	  1566  1585
+508	TMHMM2.0	inside	  1586  1632

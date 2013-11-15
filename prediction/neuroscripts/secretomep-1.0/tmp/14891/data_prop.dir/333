@@ -1,0 +1,282 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1957 333         
+MATVLLTLKGAIKTTRRGVPNGCASCNIVYRNKRWDKVRCNELCPGDLISLTRREESVPCDVILLHGSCVVNESMLTGES      80
+VPLMKESMVADDGSCEYEGGVLNLEHHSRLHVVFGGTSLVQHTASTNKQFIKAPDNGCIAYVLRTGFNTSQGKLLRTIMY     160
+SVKRVTANNFETFLFILFLLQFAIAASAYVWIEGTKDPDRNRYKLFLECTLMYPLIPTSGTKDPDRNRYKLFLECTLILT     240
+SVVPPELPIELSLAVNNSLISLIKMGVCGVKKGDPSALVPVEDAPIGSCQVLATCHSLLHIDGQLIGDPIERATLSVLPW     320
+NLTKGDVVICKSVKQSLKIMRRFHFNSTLKRMSVVVSQQDNNYNVEYFVMTKGAPEVIKTMLAKVPESYDETHKQYTLQG     400
+GRVIALAKRPLGKDVTVRDLQREDAEKDLEFCGFVVFSTPLKKESKAAVTMLRDSSHYIVMITGDSPLTACYVANQLRIS     480
+KKNLILIEKDDGEWVWQTPDESEEYPIDSPAKGFSLCLTGPAMNHCLDLPDKKHGTYFKKIISRVQVFARVTPKQKELAI     560
+TTFKSLGLVTVMCGDGTNDVGALKHADVGVAIISNAPEVKPEKRELERKEKEKSEKKMAILQEFREINQKRTLQERQKLL     640
+EEKLKELQEDTMVKLGDASIASPFTSKYSSVKCVCSIIRQGRCTLVTTLQMFKILALNALIIAYCQSALYLDGVKFSDGQ     720
+ATLQGLLLAGCFLFISRSKPLDKLSKTRPHANIFNLYTISTAMNHCLGLPDKKHGTYFKNIISRVQVFARVTPKQKELAI     800
+TTFKSLGLVTVMCGDGTNDVGALKHADVGVAIISNAPEVKPEKRELERKEKEKSEKKMAILQEFREINQKRTLQERQKLL     880
+EEKLKELQEDTMVKLGDASIASPFTSKYSSVKCVCSIIRQGRCTLVTTLQMFKILALNALIIAYCQSALYLDGVKFSDGQ     960
+ATLQGLLLAGCFLFISRSKPLDKLSKTRPHANIFNLYTISTVLLQFAVHLYTIIKLVDAVHAIEPRKASIDLDAEFSPTL    1040
+LNTIVYIVSVTLQLNTFIINYRGHPYMESLRENKPLCYSAIFTAVFMTILTFGIMPDISSEFSLLVPPDGLKQEVFTTLL    1120
+LDTGMTLNKLAQNNTNTPLRFNFVLFQMIAVIASCEMSVDKLAMVKKMNELEAKNYAKLHDEIEKEIAEGKVRIEGYQKQ    1200
+LAQAKQIKSNKQQYNSISKIIKQYPSRDETTATISQIEEEIKGLKERKSTLEERVTKQKRQFEVLVYSIQQLQCELSDNK    1280
+TGEEEGKMDTRVKHAKQLHFQIASPISEGGDVVSNMDQSSNSSAVINSPPPSPPECETDTQHKQTILQEQADTVLQEEAD    1360
+SIQDTLQDQPDTLVMQDGTQPITSSPPVDLIMEASEPVSNQITVAMETVSTDAPSETLQPIRMPPARSAHSSPLGSPILR    1440
+RLSTSSIKKRRISGSPSPLATPPSNNQPSPLATPPGNNQPLATPPNQSMLPPPCQTTVAMSSPSNQTTVAVATPPDLATS    1520
+PDPLLRELFPESPRSSPISTHILQGTSPSVRSLASPVLQTSSMRRPVSRVALIADDMESVVAMVTNTSVAMVISPNNSPA    1600
+NISDLLQPALGDGTGPALSGADIFDEASSEPDVHFAIDSEPESSYDKVSTGESRGAISRDISFDQSDPSIPEMDPGEEEE    1680
+EEECVIQYPTFPAPDQQEEEEDPYDDPYDDPYYDDVTQNDDVTQHDDVITTEEISITQQDDEEGSPVLYVDDEVPVLRWD    1760
+DTLSRTITPGDVSRGTSRDDVTSRGMSRDVMMPPSNDLIMTSSSPKEQGTLERAGEEVSPSDGPSSGAVTDNNPFQEKED    1840
+DSKSAAGKYFLLGLSVALSLSSSILRGPSAVIAIKIAQTITSHCVENSLAPLSLSLSLSLCLSLLCLFSVSLCLSLSLSL    1920
+RCSVGDSVGVVPVWILVFCRASSKFASNPRRHHKKDI                                               2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.....................................                                               2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+333              9    TVLLTLK|GA  0.061    .
+333             13    TLKGAIK|TT  0.070    .
+333             16    GAIKTTR|RG  0.083    .
+333             17    AIKTTRR|GV  0.213    .
+333             31    SCNIVYR|NK  0.090    .
+333             33    NIVYRNK|RW  0.068    .
+333             34    IVYRNKR|WD  0.344    .
+333             37    RNKRWDK|VR  0.116    .
+333             39    KRWDKVR|CN  0.119    .
+333             53    DLISLTR|RE  0.083    .
+333             54    LISLTRR|EE  0.122    .
+333             85    ESVPLMK|ES  0.071    .
+333            109    NLEHHSR|LH  0.090    .
+333            128    HTASTNK|QF  0.070    .
+333            132    TNKQFIK|AP  0.076    .
+333            144    CIAYVLR|TG  0.075    .
+333            153    FNTSQGK|LL  0.066    .
+333            156    SQGKLLR|TI  0.101    .
+333            163    TIMYSVK|RV  0.080    .
+333            164    IMYSVKR|VT  0.177    .
+333            196    VWIEGTK|DP  0.062    .
+333            200    GTKDPDR|NR  0.072    .
+333            202    KDPDRNR|YK  0.086    .
+333            204    PDRNRYK|LF  0.063    .
+333            222    IPTSGTK|DP  0.066    .
+333            226    GTKDPDR|NR  0.078    .
+333            228    KDPDRNR|YK  0.085    .
+333            230    PDRNRYK|LF  0.061    .
+333            264    SLISLIK|MG  0.060    .
+333            271    MGVCGVK|KG  0.060    .
+333            272    GVCGVKK|GD  0.092    .
+333            312    IGDPIER|AT  0.092    .
+333            324    LPWNLTK|GD  0.064    .
+333            331    GDVVICK|SV  0.154    .
+333            334    VICKSVK|QS  0.066    .
+333            338    SVKQSLK|IM  0.059    .
+333            341    QSLKIMR|RF  0.075    .
+333            342    SLKIMRR|FH  0.132    .
+333            350    HFNSTLK|RM  0.069    .
+333            351    FNSTLKR|MS  0.189    .
+333            372    EYFVMTK|GA  0.075    .
+333            379    GAPEVIK|TM  0.065    .
+333            384    IKTMLAK|VP  0.068    .
+333            394    SYDETHK|QY  0.060    .
+333            402    YTLQGGR|VI  0.063    .
+333            408    RVIALAK|RP  0.059    .
+333            409    VIALAKR|PL  0.181    .
+333            413    AKRPLGK|DV  0.096    .
+333            418    GKDVTVR|DL  0.118    .
+333            422    TVRDLQR|ED  0.080    .
+333            427    QREDAEK|DL  0.081    .
+333            442    VFSTPLK|KE  0.070    .
+333            443    FSTPLKK|ES  0.105    .
+333            446    PLKKESK|AA  0.075    .
+333            453    AAVTMLR|DS  0.151    .
+333            478    YVANQLR|IS  0.087    .
+333            481    NQLRISK|KN  0.078    .
+333            482    QLRISKK|NL  0.138    .
+333            489    NLILIEK|DD  0.073    .
+333            512    PIDSPAK|GF  0.077    .
+333            532    CLDLPDK|KH  0.067    .
+333            533    LDLPDKK|HG  0.076    .
+333            539    KHGTYFK|KI  0.065    .
+333            540    HGTYFKK|II  0.136    .
+333            544    FKKIISR|VQ  0.077    .
+333            550    RVQVFAR|VT  0.128    .
+333            554    FARVTPK|QK  0.082    .
+333            556    RVTPKQK|EL  0.059    .
+333            564    LAITTFK|SL  0.092    .
+333            584    NDVGALK|HA  0.071    .
+333            600    SNAPEVK|PE  0.066    .
+333            603    PEVKPEK|RE  0.051    .
+333            604    EVKPEKR|EL  0.239    .
+333            608    EKRELER|KE  0.071    .
+333            609    KRELERK|EK  0.132    .
+333            611    ELERKEK|EK  0.148    .
+333            613    ERKEKEK|SE  0.085    .
+333            616    EKEKSEK|KM  0.064    .
+333            617    KEKSEKK|MA  0.120    .
+333            625    AILQEFR|EI  0.085    .
+333            630    FREINQK|RT  0.062    .
+333            631    REINQKR|TL  0.213    .
+333            636    KRTLQER|QK  0.087    .
+333            638    TLQERQK|LL  0.077    .
+333            643    QKLLEEK|LK  0.071    .
+333            645    LLEEKLK|EL  0.065    .
+333            654    QEDTMVK|LG  0.061    .
+333            667    ASPFTSK|YS  0.070    .
+333            672    SKYSSVK|CV  0.099    .
+333            679    CVCSIIR|QG  0.081    .
+333            682    SIIRQGR|CT  0.276    .
+333            693    TTLQMFK|IL  0.054    .
+333            715    LYLDGVK|FS  0.058    .
+333            737    CFLFISR|SK  0.074    .
+333            739    LFISRSK|PL  0.062    .
+333            743    RSKPLDK|LS  0.062    .
+333            746    PLDKLSK|TR  0.054    .
+333            748    DKLSKTR|PH  0.090    .
+333            772    CLGLPDK|KH  0.071    .
+333            773    LGLPDKK|HG  0.074    .
+333            779    KHGTYFK|NI  0.065    .
+333            784    FKNIISR|VQ  0.086    .
+333            790    RVQVFAR|VT  0.128    .
+333            794    FARVTPK|QK  0.082    .
+333            796    RVTPKQK|EL  0.059    .
+333            804    LAITTFK|SL  0.092    .
+333            824    NDVGALK|HA  0.071    .
+333            840    SNAPEVK|PE  0.066    .
+333            843    PEVKPEK|RE  0.051    .
+333            844    EVKPEKR|EL  0.239    .
+333            848    EKRELER|KE  0.071    .
+333            849    KRELERK|EK  0.132    .
+333            851    ELERKEK|EK  0.148    .
+333            853    ERKEKEK|SE  0.085    .
+333            856    EKEKSEK|KM  0.064    .
+333            857    KEKSEKK|MA  0.120    .
+333            865    AILQEFR|EI  0.085    .
+333            870    FREINQK|RT  0.062    .
+333            871    REINQKR|TL  0.213    .
+333            876    KRTLQER|QK  0.087    .
+333            878    TLQERQK|LL  0.077    .
+333            883    QKLLEEK|LK  0.071    .
+333            885    LLEEKLK|EL  0.065    .
+333            894    QEDTMVK|LG  0.061    .
+333            907    ASPFTSK|YS  0.070    .
+333            912    SKYSSVK|CV  0.099    .
+333            919    CVCSIIR|QG  0.081    .
+333            922    SIIRQGR|CT  0.276    .
+333            933    TTLQMFK|IL  0.054    .
+333            955    LYLDGVK|FS  0.058    .
+333            977    CFLFISR|SK  0.074    .
+333            979    LFISRSK|PL  0.062    .
+333            983    RSKPLDK|LS  0.062    .
+333            986    PLDKLSK|TR  0.054    .
+333            988    DKLSKTR|PH  0.090    .
+333           1015    HLYTIIK|LV  0.081    .
+333           1026    VHAIEPR|KA  0.123    .
+333           1027    HAIEPRK|AS  0.083    .
+333           1062    TFIINYR|GH  0.083    .
+333           1071    PYMESLR|EN  0.071    .
+333           1074    ESLRENK|PL  0.102    .
+333           1112    VPPDGLK|QE  0.050    .
+333           1129    TGMTLNK|LA  0.066    .
+333           1140    NTNTPLR|FN  0.112    .
+333           1161    CEMSVDK|LA  0.068    .
+333           1166    DKLAMVK|KM  0.056    .
+333           1167    KLAMVKK|MN  0.128    .
+333           1174    MNELEAK|NY  0.067    .
+333           1178    EAKNYAK|LH  0.075    .
+333           1185    LHDEIEK|EI  0.064    .
+333           1191    KEIAEGK|VR  0.059    .
+333           1193    IAEGKVR|IE  0.090    .
+333           1199    RIEGYQK|QL  0.065    .
+333           1205    KQLAQAK|QI  0.069    .
+333           1208    AQAKQIK|SN  0.115    .
+333           1211    KQIKSNK|QQ  0.066    .
+333           1219    QYNSISK|II  0.061    .
+333           1222    SISKIIK|QY  0.069    .
+333           1227    IKQYPSR|DE  0.116    .
+333           1242    QIEEEIK|GL  0.064    .
+333           1245    EEIKGLK|ER  0.052    .
+333           1247    IKGLKER|KS  0.106    .
+333           1248    KGLKERK|ST  0.127    .
+333           1254    KSTLEER|VT  0.093    .
+333           1257    LEERVTK|QK  0.143    .
+333           1259    ERVTKQK|RQ  0.071    .
+333           1260    RVTKQKR|QF  0.189    .
+333           1280    CELSDNK|TG  0.057    .
+333           1287    TGEEEGK|MD  0.073    .
+333           1291    EGKMDTR|VK  0.093    .
+333           1293    KMDTRVK|HA  0.077    .
+333           1296    TRVKHAK|QL  0.116    .
+333           1343    ETDTQHK|QT  0.066    .
+333           1422    ETLQPIR|MP  0.070    .
+333           1427    IRMPPAR|SA  0.382    .
+333           1440    LGSPILR|RL  0.088    .
+333           1441    GSPILRR|LS  0.118    .
+333           1448    LSTSSIK|KR  0.059    .
+333           1449    STSSIKK|RR  0.092    .
+333           1450    TSSIKKR|RI  0.429    .
+333           1451    SSIKKRR|IS  0.181    .
+333           1526    SPDPLLR|EL  0.092    .
+333           1534    LFPESPR|SS  0.111    .
+333           1551    GTSPSVR|SL  0.135    .
+333           1564    LQTSSMR|RP  0.065    .
+333           1565    QTSSMRR|PV  0.287    .
+333           1569    MRRPVSR|VA  0.162    .
+333           1647    PESSYDK|VS  0.062    .
+333           1654    VSTGESR|GA  0.090    .
+333           1659    SRGAISR|DI  0.150    .
+333           1758    DEVPVLR|WD  0.085    .
+333           1765    WDDTLSR|TI  0.083    .
+333           1774    TPGDVSR|GT  0.134    .
+333           1778    VSRGTSR|DD  0.122    .
+333           1784    RDDVTSR|GM  0.108    .
+333           1788    TSRGMSR|DV  0.159    .
+333           1806    MTSSSPK|EQ  0.090    .
+333           1813    EQGTLER|AG  0.097    .
+333           1838    NNPFQEK|ED  0.060    .
+333           1843    EKEDDSK|SA  0.083    .
+333           1848    SKSAAGK|YF  0.085    .
+333           1866    LSSSILR|GP  0.123    .
+333           1875    SAVIAIK|IA  0.071    .
+333           1921    SLSLSLR|CS  0.085    .
+333           1940    WILVFCR|AS  0.092    .
+333           1944    FCRASSK|FA  0.080    .
+333           1950    KFASNPR|RH  0.087    .
+333           1951    FASNPRR|HH  0.167    .
+333           1954    NPRRHHK|KD  0.170    .
+333           1955    PRRHHKK|DI  0.309    .
+____________________________^_________________
+
+
+
+

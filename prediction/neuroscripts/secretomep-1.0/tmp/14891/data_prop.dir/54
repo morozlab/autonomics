@@ -1,0 +1,550 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3770 54          
+MSLGVMHTDKQPIRTRYLGHVTGYQPIRDQYFLMITYLNVKQHILHKHWVIVAVLEGVGPVPDLPECSGPVNRGPNVLCV      80
+SRILSRMGYHYPFLEHGTARVRTKGITNTEDNELLEVGPFNSEENLSLTDQEDELAIAALKLEEEEEAMFYGYVRHHGGH     160
+IDQLISDVFCRTQYVDSVGWCSNMLKGLPVLLLLVQLVYHHGALGYRNNRREEKRCTEERWLSEDVKISSFSGCSRFYGN     240
+LNITDEILEQKLDKGCLENPESALNALSSLRYITGTLTISRTSSLRSLNFLRRLKEIENRDREEYSIRILEIEENSKLCY     320
+LPSKEGLYNRFAELRYKVVSIKNNCIGQPAGNRCSSKCGNSGCWGKGSRFCVAQNGDTSMFTDRGREYGSSSPSAVDTES     400
+TRPQPDTTTTGFTSSQPAGDTSTTAGGQVTSYEPDFSTSPRNPPADPSSTPYTYPEYNTDNSEVSSTPMTDSLRDVTSDS     480
+GRDVTSTPRTKSNWGQETTNRWIAPSKIKINEPLMGILNSHATQGGDNFKKSDFITATAIALNAVNSRLLDKGCLENPES     560
+ALNALSSLRYITGTLTISRTSSLRSLNFLRRLKEIENRDSEEYSIIIVENEKLRSLDLYNLKSVGQYNIQIEENSKLCYL     640
+PSKEGLYNRFAELRYQVVSIKNNCIAQPAGNRCCRFTPLSPTTPFPSAKTIAQNGDTGMFTDRGREYGSSSPSVVDTEST     720
+RPQPDTTTTGFTSSQPAGDTSTTAGGQVTSYEPDFSTSPRNPPADPSSTPYTYPEYNTDNSEVSSTPMTDSLRDVTSDSG     800
+RDVTSTPRTKSNWGQETTNRWIAPSKIKIVSAFQSSTDWEGSAERAIDGDTNDNYWGNSCTHTRDTQYDEPFWIGNFSRA     880
+VRVNSVDIYNRRDCCSDRIEGVMVYAGERLCNRVVWQYDRPMYTVYCNGAKPTDYIRISKRDGRLTLCEVEVTGSYENGY     960
+YETPRAMETSTSAIFKSTGQPDVVVSSSPGGQQFESSYQPKDMSSTPGTPPERRTGSDSSMATDDSDMSSTPATAPERRT    1040
+EGDSFMTTDIDNSATPSKRRTEISMTTDMGNSVWTDDTTLDPYTTGNGLERRTDGTPEPEFLTTYLPVSSETDGEMESKI    1120
+WTDKSWTTEEGVEPSQTPYMSEWTVDNSETPNTKRTGSPDETPTTSGRMKFDTSKPSSEEQPSDYWGKKTEPTQENSWSD    1200
+GYRTENGYQTEGSKGYQTQGSKGYYFQESKGYQTQATKGYRTENKAGGKNLFLANSCTHTRDTQYDEPFWIGNFSRAVRV    1280
+NSVDIYNRRDCCSDRIEGVMVYAGERLCNRVVWQYDRPMYTVYCNGAKPTDYIRISKRDGRLTLCEVEVTGSYENGYYET    1360
+PRAMETSTSAIFKSTGQPDVVVSSSPGGQQFESSYQPKDMSSTPGTPPERRTGSDSSMATDDSDMSSTPATAPERRTEGD    1440
+SFMTTDIDNSATPSKRRTEISMTTDMGNSVWTDDTTLDPYTTGNGVERRTDGTPEPEFLTTYLPVSQETDGEMNSKVWTD    1520
+KSWTTEEGVEPSQTPYMSEWTVDNSETPNTKRTGSPDETPTTSGRMKFDTSKPSSEEQPSDYWGKKTEPTQENSWSDGYR    1600
+TENGYQTEGSKGYRTEGSKGYQTQASKIYQTEGSKGYQTQGSKGYYFQESKGYQTQTTKGYRTENKAWSGDYGPDYVTDQ    1680
+AIPENYSTDEKWTEESTDGNERITGEYRTKGGRTDYKEWTDTASPSPDSTELPKRYTVPVAEGEDWTGDWSGAEMIDVFT    1760
+NGENYMGITDDAWEDMDITVMTERVPVNGRGDNGGPIEVENDWNDLIVEEVELDEDRYWDEGELIVEDIEEDRYNWDDEG    1840
+EMVVEEVEEGRYDDWDSGEELIVEVFTETPAVVKAEMRTWESEMKPEVFMDTGISFYLEKNKKVGETLRGGVLAIDKSLA    1920
+PLSPEQFRLVRPWGGSVSSSIQIHTTQSPASTNSVFVAIEIGEDAEEDVTGDYELKLVFGKMLSSMTCAAGAASGRSNSS    2000
+KPDHLNSLLRGTLKEDIKKREKKARKKRKEHQKLMQKLAAKKKQKLAVTKPSTSSKPSTSPSRSLSKTTPDDHISTTSFK    2080
+TSLSSSVLKEEDHISNSVTSLATSSEPESTELVAETPDPERLELAGPDPERLELAAETLDPDQREFQLAVTTPEPKRTES    2160
+ITSITEQRPPLITHGPRHLKISVLPSSKRVHQISEAQRAVFGFVWKDSPVNSPRGETSTLDRPLQQERKPHKRRNLPSVF    2240
+VMAAQKLRFTLTAFDPNPAQVTLGLEGGACNVEECLGTNLTIEDYKTTPEGNPSEIYMKVTPDPIAFVMKFIDGQMTIEF    2320
+KGSWSVFQQEIATQLATSGSLTITTTTDNSAAEAAAREEAERPAAAALAAAEREAAERAAREAAEAAAAAAAAQALVIEE    2400
+PASSEICFKVHFLETDTDPVDIRLLWDFKELAKPDSSNGYIIAHQETTELGREFVIAVNHPTSGEIYCIRGAVKGDKVTI    2480
+FNTDKFDMGHINLYLQFYIKNEEKIHAILDEIAANPNFEISILYKHGAFGESMNIASFTPYIIHNDKDGKPLKNRDTDDD    2560
+DRVKRAREARKKAEDAGKKGTEPPADGKDWSCGRVKWELPKEEKKFRDAGKLKIPDFGRKEEGPHLQDVGKLKWGGFDAD    2640
+EPKEVVKEKPKVGKLNLGAFGAAATDDAPPPPKKSWKKKKAPAPEMRREEHAELLATESFTAALAAAEREAAERAAREAA    2720
+EAAAAAAAAAAQALVIEEPASSEICFKVHFLETDTDPVDIRLLWDFKELAKPDSSNGYIIAHQETTELGREFVIAVNHPT    2800
+SGEIYCIRGAVKGDKVTIFQTDRFDMGHINLYLQFYIKNEEKIHAILDEIAANPNFEISILYKHGAFGESMNIASFTPYI    2880
+IHNDKDGKPLKNRDTDDDDRVKRAREARKKAEDAGKKGTEPPADGKDWSCGRVKWELPKEEKKFRDAGKLKIPDFGRKEE    2960
+GPHLQDVGKLKWGGFDADEPKEVRLQTMPLLLPRSLGRRRRHPHQRVEHDEEAGVVDSDIMYFLNAQFCVQNIFILLSCW    3040
+FIKKIWCVIALSIIYCHISLSLSLPLSLSLSLSLSLSLLPSLSHSLSSLSLPIHPSSPFHSPGTWSLIPFRLPFTRHKTS    3120
+KQPIRTRYLGHVTGYQPIKDQYFLIRSVPGGKCSLFFHAAQEPTETSKQPIITNQGPVFLPSVGSCLPCGLRGAGEAILA    3200
+IFLNSRGLMICFLVRSFPLDDPRSRTPCIVGIGCISRFLFARPLKLPVTRITNRLSHLARTIVLAPYTYSFRLNKLTDTS    3280
+KQPIRTRYLGPTTVSTGNSLSFYKPWYNLVDQLLQLVIYPEQGSRTPCIVGIGCISRFLFARPLKLPVTRITNRLSHLAR    3360
+TIILAPYTYSFRLNKLTDTSKQPIRTRYLGPTTAPHYVRWDQYVARWLKDRIGYILWIIYMLLLCVAIPLSVSELVSRHA    3440
+EKHIVVWFVAGVFVYVRKFLQVALLRLCISLIIVSAGNCSEIAPHYVRWDQYVARWLKDRIGYILWIIYMLLLCVAIPLS    3520
+VSELVSRHAEKHIVVWFVAGVFVYVTIPITTSGVIHHLCNFSDPPQQKRIIRILMMVPVYSFFSYLGMILKDETIYLNAV    3600
+SSVWMWTLIIDNIAQMWALYCLVIFYQALKHELGPIKPLPKFLCVKAVVFFSFWQGTFLEFLVLVGIIKDSGSTDPDSYT    3680
+ADETAETVQNLLICIEMFGFSIAHHLVFSHKPFVPDHELPPPQFLTSLSHLFDFGDVRTDIRTQMTDTTQIILSSLKRER    3760
+PVCFRPEVIY                                                                          3840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+...........................P....................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+........................................P.......................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+..........                                                                          3840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+54              10    GVMHTDK|QP  0.060    .
+54              14    TDKQPIR|TR  0.086    .
+54              16    KQPIRTR|YL  0.133    .
+54              28    TGYQPIR|DQ  0.105    .
+54              41    ITYLNVK|QH  0.058    .
+54              47    KQHILHK|HW  0.068    .
+54              73    CSGPVNR|GP  0.089    .
+54              82    NVLCVSR|IL  0.086    .
+54              86    VSRILSR|MG  0.088    .
+54             100    LEHGTAR|VR  0.125    .
+54             102    HGTARVR|TK  0.076    .
+54             104    TARVRTK|GI  0.107    .
+54             141    LAIAALK|LE  0.066    .
+54             155    MFYGYVR|HH  0.121    .
+54             171    ISDVFCR|TQ  0.079    .
+54             186    WCSNMLK|GL  0.069    .
+54             207    HGALGYR|NN  0.089    .
+54             210    LGYRNNR|RE  0.154    .
+54             211    GYRNNRR|EE  0.111    .
+54             214    NNRREEK|RC  0.124    .
+54             215    NRREEKR|CT  0.275    .
+54             220    KRCTEER|WL  0.121    .
+54             227    WLSEDVK|IS  0.076    .
+54             236    SFSGCSR|FY  0.132    .
+54             251    DEILEQK|LD  0.058    .
+54             254    LEQKLDK|GC  0.065    .
+54             271    NALSSLR|YI  0.097    .
+54             281    GTLTISR|TS  0.066    .
+54             286    SRTSSLR|SL  0.123    .
+54             292    RSLNFLR|RL  0.090    .
+54             293    SLNFLRR|LK  0.150    .
+54             295    NFLRRLK|EI  0.097    .
+54             300    LKEIENR|DR  0.091    .
+54             302    EIENRDR|EE  0.075    .
+54             308    REEYSIR|IL  0.130    .
+54             317    EIEENSK|LC  0.051    .
+54             324    LCYLPSK|EG  0.058    .
+54             330    KEGLYNR|FA  0.108    .
+54             335    NRFAELR|YK  0.095    .
+54             337    FAELRYK|VV  0.078    .
+54             342    YKVVSIK|NN  0.077    .
+54             353    GQPAGNR|CS  0.093    .
+54             357    GNRCSSK|CG  0.076    .
+54             366    NSGCWGK|GS  0.068    .
+54             369    CWGKGSR|FC  0.098    .
+54             384    TSMFTDR|GR  0.116    .
+54             386    MFTDRGR|EY  0.093    .
+54             402    VDTESTR|PQ  0.076    .
+54             441    DFSTSPR|NP  0.095    .
+54             474    PMTDSLR|DV  0.096    .
+54             482    VTSDSGR|DV  0.214    .
+54             489    DVTSTPR|TK  0.073    .
+54             491    TSTPRTK|SN  0.114    .
+54             501    GQETTNR|WI  0.092    .
+54             507    RWIAPSK|IK  0.067    .
+54             509    IAPSKIK|IN  0.069    .
+54             530    QGGDNFK|KS  0.066    .
+54             531    GGDNFKK|SD  0.144    .
+54             548    LNAVNSR|LL  0.112    .
+54             552    NSRLLDK|GC  0.064    .
+54             569    NALSSLR|YI  0.097    .
+54             579    GTLTISR|TS  0.066    .
+54             584    SRTSSLR|SL  0.123    .
+54             590    RSLNFLR|RL  0.090    .
+54             591    SLNFLRR|LK  0.155    .
+54             593    NFLRRLK|EI  0.095    .
+54             598    LKEIENR|DS  0.105    .
+54             612    IIVENEK|LR  0.055    .
+54             614    VENEKLR|SL  0.121    .
+54             622    LDLYNLK|SV  0.113    .
+54             636    QIEENSK|LC  0.052    .
+54             643    LCYLPSK|EG  0.058    .
+54             649    KEGLYNR|FA  0.107    .
+54             654    NRFAELR|YQ  0.092    .
+54             661    YQVVSIK|NN  0.070    .
+54             672    AQPAGNR|CC  0.065    .
+54             675    AGNRCCR|FT  0.310    .
+54             689    TPFPSAK|TI  0.105    .
+54             703    TGMFTDR|GR  0.105    .
+54             705    MFTDRGR|EY  0.094    .
+54             721    VDTESTR|PQ  0.075    .
+54             760    DFSTSPR|NP  0.095    .
+54             793    PMTDSLR|DV  0.096    .
+54             801    VTSDSGR|DV  0.214    .
+54             808    DVTSTPR|TK  0.073    .
+54             810    TSTPRTK|SN  0.114    .
+54             820    GQETTNR|WI  0.092    .
+54             826    RWIAPSK|IK  0.067    .
+54             828    IAPSKIK|IV  0.097    .
+54             845    WEGSAER|AI  0.091    .
+54             864    NSCTHTR|DT  0.136    .
+54             879    WIGNFSR|AV  0.131    .
+54             882    NFSRAVR|VN  0.214    .
+54             891    SVDIYNR|RD  0.072    .
+54             892    VDIYNRR|DC  0.134    .
+54             898    RDCCSDR|IE  0.097    .
+54             909    MVYAGER|LC  0.077    .
+54             913    GERLCNR|VV  0.117    .
+54             920    VVWQYDR|PM  0.079    .
+54             931    VYCNGAK|PT  0.068    .
+54             937    KPTDYIR|IS  0.074    .
+54             940    DYIRISK|RD  0.094    .
+54             941    YIRISKR|DG  0.217    .
+54             944    ISKRDGR|LT  0.208    .
+54             965    GYYETPR|AM  0.112    .
+54             976    STSAIFK|ST  0.141    .
+54            1001    ESSYQPK|DM  0.111    .
+54            1013    PGTPPER|RT  0.076    .
+54            1014    GTPPERR|TG  0.133    .
+54            1038    PATAPER|RT  0.079    .
+54            1039    ATAPERR|TE  0.227    .
+54            1058    NSATPSK|RR  0.063    .
+54            1059    SATPSKR|RT  0.229    .
+54            1060    ATPSKRR|TE  0.111    .
+54            1091    TGNGLER|RT  0.095    .
+54            1092    GNGLERR|TD  0.200    .
+54            1119    DGEMESK|IW  0.067    .
+54            1124    SKIWTDK|SW  0.121    .
+54            1154    SETPNTK|RT  0.063    .
+54            1155    ETPNTKR|TG  0.151    .
+54            1168    TPTTSGR|MK  0.093    .
+54            1170    TTSGRMK|FD  0.089    .
+54            1175    MKFDTSK|PS  0.073    .
+54            1188    PSDYWGK|KT  0.076    .
+54            1189    SDYWGKK|TE  0.113    .
+54            1203    SWSDGYR|TE  0.117    .
+54            1214    YQTEGSK|GY  0.061    .
+54            1222    YQTQGSK|GY  0.058    .
+54            1230    YYFQESK|GY  0.062    .
+54            1238    YQTQATK|GY  0.064    .
+54            1241    QATKGYR|TE  0.078    .
+54            1245    GYRTENK|AG  0.081    .
+54            1249    ENKAGGK|NL  0.061    .
+54            1261    NSCTHTR|DT  0.120    .
+54            1276    WIGNFSR|AV  0.131    .
+54            1279    NFSRAVR|VN  0.214    .
+54            1288    SVDIYNR|RD  0.072    .
+54            1289    VDIYNRR|DC  0.134    .
+54            1295    RDCCSDR|IE  0.097    .
+54            1306    MVYAGER|LC  0.077    .
+54            1310    GERLCNR|VV  0.117    .
+54            1317    VVWQYDR|PM  0.079    .
+54            1328    VYCNGAK|PT  0.068    .
+54            1334    KPTDYIR|IS  0.074    .
+54            1337    DYIRISK|RD  0.094    .
+54            1338    YIRISKR|DG  0.217    .
+54            1341    ISKRDGR|LT  0.208    .
+54            1362    GYYETPR|AM  0.112    .
+54            1373    STSAIFK|ST  0.141    .
+54            1398    ESSYQPK|DM  0.111    .
+54            1410    PGTPPER|RT  0.076    .
+54            1411    GTPPERR|TG  0.133    .
+54            1435    PATAPER|RT  0.079    .
+54            1436    ATAPERR|TE  0.227    .
+54            1455    NSATPSK|RR  0.063    .
+54            1456    SATPSKR|RT  0.229    .
+54            1457    ATPSKRR|TE  0.111    .
+54            1488    TGNGVER|RT  0.104    .
+54            1489    GNGVERR|TD  0.247    .
+54            1516    DGEMNSK|VW  0.063    .
+54            1521    SKVWTDK|SW  0.127    .
+54            1551    SETPNTK|RT  0.063    .
+54            1552    ETPNTKR|TG  0.151    .
+54            1565    TPTTSGR|MK  0.093    .
+54            1567    TTSGRMK|FD  0.089    .
+54            1572    MKFDTSK|PS  0.073    .
+54            1585    PSDYWGK|KT  0.076    .
+54            1586    SDYWGKK|TE  0.113    .
+54            1600    SWSDGYR|TE  0.117    .
+54            1611    YQTEGSK|GY  0.061    .
+54            1614    EGSKGYR|TE  0.109    .
+54            1619    YRTEGSK|GY  0.063    .
+54            1627    YQTQASK|IY  0.059    .
+54            1635    YQTEGSK|GY  0.059    .
+54            1643    YQTQGSK|GY  0.058    .
+54            1651    YYFQESK|GY  0.062    .
+54            1659    YQTQTTK|GY  0.065    .
+54            1662    QTTKGYR|TE  0.073    .
+54            1666    GYRTENK|AW  0.069    .
+54            1691    NYSTDEK|WT  0.073    .
+54            1702    STDGNER|IT  0.096    .
+54            1708    RITGEYR|TK  0.086    .
+54            1710    TGEYRTK|GG  0.066    .
+54            1713    YRTKGGR|TD  0.083    .
+54            1717    GGRTDYK|EW  0.066    .
+54            1734    DSTELPK|RY  0.057    .
+54            1735    STELPKR|YT  0.238    .
+54            1784    ITVMTER|VP  0.072    .
+54            1790    RVPVNGR|GD  0.089    .
+54            1817    VELDEDR|YW  0.110    .
+54            1833    EDIEEDR|YN  0.096    .
+54            1851    EEVEEGR|YD  0.084    .
+54            1874    ETPAVVK|AE  0.056    .
+54            1878    VVKAEMR|TW  0.091    .
+54            1885    TWESEMK|PE  0.061    .
+54            1900    ISFYLEK|NK  0.065    .
+54            1902    FYLEKNK|KV  0.086    .
+54            1903    YLEKNKK|VG  0.091    .
+54            1909    KVGETLR|GG  0.076    .
+54            1917    GVLAIDK|SL  0.065    .
+54            1928    LSPEQFR|LV  0.144    .
+54            1931    EQFRLVR|PW  0.293    .
+54            1976    TGDYELK|LV  0.073    .
+54            1981    LKLVFGK|ML  0.073    .
+54            1996    AGAASGR|SN  0.170    .
+54            2001    GRSNSSK|PD  0.077    .
+54            2010    HLNSLLR|GT  0.096    .
+54            2014    LLRGTLK|ED  0.064    .
+54            2018    TLKEDIK|KR  0.060    .
+54            2019    LKEDIKK|RE  0.079    .
+54            2020    KEDIKKR|EK  0.160    .
+54            2022    DIKKREK|KA  0.068    .
+54            2023    IKKREKK|AR  0.311    .
+54            2025    KREKKAR|KK  0.170    .
+54            2026    REKKARK|KR  0.078    .
+54            2027    EKKARKK|RK  0.110    .
+54            2028    KKARKKR|KE  0.811 *ProP*
+54            2029    KARKKRK|EH  0.117    .
+54            2033    KRKEHQK|LM  0.067    .
+54            2037    HQKLMQK|LA  0.059    .
+54            2041    MQKLAAK|KK  0.064    .
+54            2042    QKLAAKK|KQ  0.073    .
+54            2043    KLAAKKK|QK  0.124    .
+54            2045    AAKKKQK|LA  0.080    .
+54            2050    QKLAVTK|PS  0.069    .
+54            2056    KPSTSSK|PS  0.072    .
+54            2063    PSTSPSR|SL  0.147    .
+54            2067    PSRSLSK|TT  0.062    .
+54            2080    ISTTSFK|TS  0.056    .
+54            2089    LSSSVLK|EE  0.077    .
+54            2121    ETPDPER|LE  0.067    .
+54            2131    AGPDPER|LE  0.077    .
+54            2144    TLDPDQR|EF  0.084    .
+54            2156    VTTPEPK|RT  0.061    .
+54            2157    TTPEPKR|TE  0.130    .
+54            2168    TSITEQR|PP  0.073    .
+54            2177    LITHGPR|HL  0.086    .
+54            2180    HGPRHLK|IS  0.072    .
+54            2188    SVLPSSK|RV  0.069    .
+54            2189    VLPSSKR|VH  0.157    .
+54            2198    QISEAQR|AV  0.132    .
+54            2206    VFGFVWK|DS  0.066    .
+54            2214    SPVNSPR|GE  0.108    .
+54            2222    ETSTLDR|PL  0.112    .
+54            2228    RPLQQER|KP  0.082    .
+54            2229    PLQQERK|PH  0.065    .
+54            2232    QERKPHK|RR  0.055    .
+54            2233    ERKPHKR|RN  0.212    .
+54            2234    RKPHKRR|NL  0.199    .
+54            2246    FVMAAQK|LR  0.053    .
+54            2248    MAAQKLR|FT  0.124    .
+54            2286    LTIEDYK|TT  0.071    .
+54            2299    PSEIYMK|VT  0.062    .
+54            2310    PIAFVMK|FI  0.113    .
+54            2321    QMTIEFK|GS  0.068    .
+54            2357    AAEAAAR|EE  0.077    .
+54            2362    AREEAER|PA  0.121    .
+54            2373    ALAAAER|EA  0.082    .
+54            2378    EREAAER|AA  0.111    .
+54            2381    AAERAAR|EA  0.285    .
+54            2409    SSEICFK|VH  0.062    .
+54            2423    TDPVDIR|LL  0.085    .
+54            2429    RLLWDFK|EL  0.056    .
+54            2433    DFKELAK|PD  0.061    .
+54            2452    ETTELGR|EF  0.080    .
+54            2470    GEIYCIR|GA  0.119    .
+54            2474    CIRGAVK|GD  0.062    .
+54            2477    GAVKGDK|VT  0.062    .
+54            2485    TIFNTDK|FD  0.066    .
+54            2500    YLQFYIK|NE  0.064    .
+54            2504    YIKNEEK|IH  0.056    .
+54            2525    EISILYK|HG  0.076    .
+54            2547    YIIHNDK|DG  0.060    .
+54            2550    HNDKDGK|PL  0.060    .
+54            2553    KDGKPLK|NR  0.063    .
+54            2555    GKPLKNR|DT  0.146    .
+54            2562    DTDDDDR|VK  0.067    .
+54            2564    DDDDRVK|RA  0.061    .
+54            2565    DDDRVKR|AR  0.463    .
+54            2567    DRVKRAR|EA  0.175    .
+54            2570    KRAREAR|KK  0.324    .
+54            2571    RAREARK|KA  0.139    .
+54            2572    AREARKK|AE  0.139    .
+54            2578    KAEDAGK|KG  0.058    .
+54            2579    AEDAGKK|GT  0.102    .
+54            2588    EPPADGK|DW  0.079    .
+54            2594    KDWSCGR|VK  0.075    .
+54            2596    WSCGRVK|WE  0.064    .
+54            2601    VKWELPK|EE  0.061    .
+54            2604    ELPKEEK|KF  0.063    .
+54            2605    LPKEEKK|FR  0.130    .
+54            2607    KEEKKFR|DA  0.206    .
+54            2611    KFRDAGK|LK  0.068    .
+54            2613    RDAGKLK|IP  0.073    .
+54            2619    KIPDFGR|KE  0.079    .
+54            2620    IPDFGRK|EE  0.096    .
+54            2631    HLQDVGK|LK  0.074    .
+54            2633    QDVGKLK|WG  0.070    .
+54            2643    FDADEPK|EV  0.082    .
+54            2647    EPKEVVK|EK  0.069    .
+54            2649    KEVVKEK|PK  0.075    .
+54            2651    VVKEKPK|VG  0.058    .
+54            2654    EKPKVGK|LN  0.069    .
+54            2673    DAPPPPK|KS  0.062    .
+54            2674    APPPPKK|SW  0.179    .
+54            2677    PPKKSWK|KK  0.073    .
+54            2678    PKKSWKK|KK  0.119    .
+54            2679    KKSWKKK|KA  0.262    .
+54            2680    KSWKKKK|AP  0.174    .
+54            2687    APAPEMR|RE  0.113    .
+54            2688    PAPEMRR|EE  0.118    .
+54            2709    ALAAAER|EA  0.079    .
+54            2714    EREAAER|AA  0.111    .
+54            2717    AAERAAR|EA  0.285    .
+54            2747    SSEICFK|VH  0.062    .
+54            2761    TDPVDIR|LL  0.085    .
+54            2767    RLLWDFK|EL  0.056    .
+54            2771    DFKELAK|PD  0.061    .
+54            2790    ETTELGR|EF  0.080    .
+54            2808    GEIYCIR|GA  0.119    .
+54            2812    CIRGAVK|GD  0.064    .
+54            2815    GAVKGDK|VT  0.062    .
+54            2823    TIFQTDR|FD  0.090    .
+54            2838    YLQFYIK|NE  0.064    .
+54            2842    YIKNEEK|IH  0.056    .
+54            2863    EISILYK|HG  0.076    .
+54            2885    YIIHNDK|DG  0.060    .
+54            2888    HNDKDGK|PL  0.060    .
+54            2891    KDGKPLK|NR  0.063    .
+54            2893    GKPLKNR|DT  0.146    .
+54            2900    DTDDDDR|VK  0.067    .
+54            2902    DDDDRVK|RA  0.061    .
+54            2903    DDDRVKR|AR  0.463    .
+54            2905    DRVKRAR|EA  0.175    .
+54            2908    KRAREAR|KK  0.324    .
+54            2909    RAREARK|KA  0.139    .
+54            2910    AREARKK|AE  0.139    .
+54            2916    KAEDAGK|KG  0.058    .
+54            2917    AEDAGKK|GT  0.102    .
+54            2926    EPPADGK|DW  0.079    .
+54            2932    KDWSCGR|VK  0.075    .
+54            2934    WSCGRVK|WE  0.064    .
+54            2939    VKWELPK|EE  0.061    .
+54            2942    ELPKEEK|KF  0.063    .
+54            2943    LPKEEKK|FR  0.130    .
+54            2945    KEEKKFR|DA  0.206    .
+54            2949    KFRDAGK|LK  0.068    .
+54            2951    RDAGKLK|IP  0.073    .
+54            2957    KIPDFGR|KE  0.079    .
+54            2958    IPDFGRK|EE  0.096    .
+54            2969    HLQDVGK|LK  0.074    .
+54            2971    QDVGKLK|WG  0.070    .
+54            2981    FDADEPK|EV  0.080    .
+54            2984    DEPKEVR|LQ  0.064    .
+54            2994    MPLLLPR|SL  0.156    .
+54            2998    LPRSLGR|RR  0.073    .
+54            2999    PRSLGRR|RR  0.164    .
+54            3000    RSLGRRR|RH  0.107    .
+54            3001    SLGRRRR|HP  0.550 *ProP*
+54            3006    RRHPHQR|VE  0.186    .
+54            3043    LSCWFIK|KI  0.075    .
+54            3044    SCWFIKK|IW  0.098    .
+54            3111    WSLIPFR|LP  0.077    .
+54            3116    FRLPFTR|HK  0.105    .
+54            3118    LPFTRHK|TS  0.066    .
+54            3121    TRHKTSK|QP  0.084    .
+54            3125    TSKQPIR|TR  0.104    .
+54            3127    KQPIRTR|YL  0.133    .
+54            3139    TGYQPIK|DQ  0.077    .
+54            3146    DQYFLIR|SV  0.203    .
+54            3152    RSVPGGK|CS  0.054    .
+54            3168    EPTETSK|QP  0.060    .
+54            3192    CLPCGLR|GA  0.106    .
+54            3206    AIFLNSR|GL  0.081    .
+54            3215    MICFLVR|SF  0.088    .
+54            3223    FPLDDPR|SR  0.112    .
+54            3225    LDDPRSR|TP  0.082    .
+54            3237    GIGCISR|FL  0.096    .
+54            3242    SRFLFAR|PL  0.096    .
+54            3245    LFARPLK|LP  0.088    .
+54            3250    LKLPVTR|IT  0.085    .
+54            3254    VTRITNR|LS  0.085    .
+54            3260    RLSHLAR|TI  0.124    .
+54            3272    PYTYSFR|LN  0.064    .
+54            3275    YSFRLNK|LT  0.138    .
+54            3281    KLTDTSK|QP  0.057    .
+54            3285    TSKQPIR|TR  0.100    .
+54            3287    KQPIRTR|YL  0.123    .
+54            3304    NSLSFYK|PW  0.065    .
+54            3325    YPEQGSR|TP  0.076    .
+54            3337    GIGCISR|FL  0.096    .
+54            3342    SRFLFAR|PL  0.096    .
+54            3345    LFARPLK|LP  0.088    .
+54            3350    LKLPVTR|IT  0.085    .
+54            3354    VTRITNR|LS  0.085    .
+54            3360    RLSHLAR|TI  0.138    .
+54            3372    PYTYSFR|LN  0.064    .
+54            3375    YSFRLNK|LT  0.138    .
+54            3381    KLTDTSK|QP  0.057    .
+54            3385    TSKQPIR|TR  0.097    .
+54            3387    KQPIRTR|YL  0.113    .
+54            3399    TAPHYVR|WD  0.100    .
+54            3406    WDQYVAR|WL  0.126    .
+54            3409    YVARWLK|DR  0.133    .
+54            3411    ARWLKDR|IG  0.084    .
+54            3438    VSELVSR|HA  0.123    .
+54            3442    VSRHAEK|HI  0.073    .
+54            3457    GVFVYVR|KF  0.071    .
+54            3458    VFVYVRK|FL  0.096    .
+54            3466    LQVALLR|LC  0.069    .
+54            3488    IAPHYVR|WD  0.083    .
+54            3495    WDQYVAR|WL  0.126    .
+54            3498    YVARWLK|DR  0.133    .
+54            3500    ARWLKDR|IG  0.084    .
+54            3527    VSELVSR|HA  0.123    .
+54            3531    VSRHAEK|HI  0.073    .
+54            3568    SDPPQQK|RI  0.088    .
+54            3569    DPPQQKR|II  0.193    .
+54            3572    QQKRIIR|IL  0.266    .
+54            3591    YLGMILK|DE  0.069    .
+54            3630    IFYQALK|HE  0.053    .
+54            3637    HELGPIK|PL  0.063    .
+54            3641    PIKPLPK|FL  0.069    .
+54            3646    PKFLCVK|AV  0.066    .
+54            3669    VLVGIIK|DS  0.069    .
+54            3711    HLVFSHK|PF  0.063    .
+54            3738    FDFGDVR|TD  0.077    .
+54            3742    DVRTDIR|TQ  0.076    .
+54            3757    IILSSLK|RE  0.053    .
+54            3758    ILSSLKR|ER  0.148    .
+54            3760    SSLKRER|PV  0.110    .
+54            3765    ERPVCFR|PE  0.079    .
+____________________________^_________________
+
+
+
+

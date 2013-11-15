@@ -1,0 +1,214 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1637 500         
+MYIKCAWNLDLTGPNLREPRFTGQNALPEHPGESGSDCNTVTEHGGSSLLIIKDYMGHVFGAFASHPWSNPEPKFYGNGE      80
+CFLFTLHPEYKVFKWSGKNCYCQMIENNRIIMGGGRIDLSRARRRSHIRHPSSLLICNGVCDLPVNIGTVMMLTMAATNP     160
+CFDEIICNGLQYGILNPGTLEIYPFTCKEFEYQISLLLADRVLLDSVSPFEQIKPDHGVERFCELNVDGSQFRLFNGSRC     240
+FPFRKASPSTYLGYAGHPFCSNGYDQTNCTDSSRVAGICLVESYLTSISIYIICLKLVLSGHWQHMPVICDDGLDSRCLE     320
+VEPFCNIHKHLICDGVEDCLTGGDEKGCMLSSKVCTRSFNIHRGPIRIPYDWILDGEADCFDYGDDKRENWFVCGSGTTT     400
+RYRDHGDNCTEVWWCDERKKEYVELTQVCDTIDSCGNEAIMCGLSKTVFNVEYNMLNADRGGFTKVSPPCLPGMSQFIRN     480
+YDVQCTSMIIKHDFSGFFGKERDLVYITDRTVKKDCRFYFGEQYVLMACIGMCLNEIQCPLNQRPVLHNSCANIRRKILT     560
+LSDSGSMTLVVAHKEHFHNNFFVCENSNCVSYSAVCDTIDNCGDASDEKNCLNSFRCDNQFLVLSQVCDGNYDCHDLTDE     640
+CNSDCSRRLIENSGLSVIAGCFGTVGLVLNLYSLAQGIFSTAQSNTRAVFVQRTFMRLITFGDIFTSVYLVFIFVLNFVY     720
+GPGYCKEQVQWLTSIPCNILGVITAMGSGISSLSMAVLSCFRLKGTKNALHFRTSTEVDLRYKVKMCVVQCGIVCLSVLI     800
+ACVPLIPSLEDRFVNGLAYTGDMKLFVGFVDKKRHLAIIRGYMGKVARSQDRSYTGWSDFSGFFGKERDLVYITGTVKKD     880
+CRFYFGEQYVLMACSSMCLNEVQCPLNQRPVLHNSCANIRRKVLTLSGSGSMTLVVAQKEHFHNNVFVCENSNCVSYSAV     960
+CDTIDNCGDASDEKNCLNSFRCDNQFLVLSQVCDGNYDCHDLTDECNSDCSRRLIENSGLSVIAGCFGTVGLVLNLYSLA    1040
+QGIFSTAQSNTRAVFVQRTFMRLITFGDIFTSVYLVFIFVLNFVYGPGYCKEQVQWLTSIPCNILGVITAMGSGISSLSM    1120
+AVLSCFRLKGTKNALHFRTSTEVDLRYKVKMCVVQCSIVCLSTLIACVPLIPSLEDRFVNGLAYTGDMKLFVGFVDKKRH    1200
+LAIIRGYMGKIARTKDRRSYTGWSWELIRQSVRAMFTSDIKGVTGVKQSFYGNDASCLFKFFVLRSEPQAAFVWGVGLGI    1280
+HCICFVIVVISHLLIGILSSYKSGVPVAGAAGWRRELRAKISAIIISDLCCWVPFLVCCVLHTAEVVDMSPWYSTFSIVI    1360
+LPLNSVLNPILYTDHIFNKLIVLFDIGKKRIDAWKNVVLGIFDSETRDLRKGRTFEVKDPETGEVCEVQNSGSGETCEVQ    1440
+DSRITGEICEGQDSGISGEVCEVQDPETGEICEVQDPETGEISEVEDPGISGKISKVEDSGSGEICEVEDSGSGEICKVQ    1520
+DLESGKICEVKDPGSVAIYEVQDPGISGKISKVEDSGSGETCEVQDTGSGEICEDRHPRSGEICEVQDSGSGEIYELQDP    1600
+GSGEICEVQDSGSEHWPDPFSFLSNKKRARTVVIALA                                               1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+..........................................................P.....................    1600
+.....................................                                               1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+500              4    ---MYIK|CA  0.064    .
+500             17    LTGPNLR|EP  0.069    .
+500             20    PNLREPR|FT  0.394    .
+500             53    SSLLIIK|DY  0.069    .
+500             74    WSNPEPK|FY  0.132    .
+500             91    TLHPEYK|VF  0.071    .
+500             94    PEYKVFK|WS  0.077    .
+500             98    VFKWSGK|NC  0.062    .
+500            109    QMIENNR|II  0.099    .
+500            116    IIMGGGR|ID  0.063    .
+500            121    GRIDLSR|AR  0.088    .
+500            123    IDLSRAR|RR  0.085    .
+500            124    DLSRARR|RS  0.464    .
+500            125    LSRARRR|SH  0.258    .
+500            129    RRRSHIR|HP  0.120    .
+500            188    IYPFTCK|EF  0.060    .
+500            201    SLLLADR|VL  0.070    .
+500            214    SPFEQIK|PD  0.077    .
+500            221    PDHGVER|FC  0.130    .
+500            233    VDGSQFR|LF  0.084    .
+500            239    RLFNGSR|CF  0.068    .
+500            244    SRCFPFR|KA  0.182    .
+500            245    RCFPFRK|AS  0.074    .
+500            274    NCTDSSR|VA  0.105    .
+500            296    IYIICLK|LV  0.066    .
+500            317    DDGLDSR|CL  0.088    .
+500            329    PFCNIHK|HL  0.060    .
+500            346    LTGGDEK|GC  0.056    .
+500            353    GCMLSSK|VC  0.070    .
+500            357    SSKVCTR|SF  0.150    .
+500            363    RSFNIHR|GP  0.091    .
+500            367    IHRGPIR|IP  0.089    .
+500            387    FDYGDDK|RE  0.056    .
+500            388    DYGDDKR|EN  0.130    .
+500            401    GSGTTTR|YR  0.123    .
+500            403    GTTTRYR|DH  0.124    .
+500            418    VWWCDER|KK  0.089    .
+500            419    WWCDERK|KE  0.088    .
+500            420    WCDERKK|EY  0.077    .
+500            446    IMCGLSK|TV  0.086    .
+500            460    NMLNADR|GG  0.081    .
+500            465    DRGGFTK|VS  0.072    .
+500            479    GMSQFIR|NY  0.146    .
+500            491    CTSMIIK|HD  0.075    .
+500            500    FSGFFGK|ER  0.067    .
+500            502    GFFGKER|DL  0.105    .
+500            510    LVYITDR|TV  0.093    .
+500            513    ITDRTVK|KD  0.095    .
+500            514    TDRTVKK|DC  0.150    .
+500            517    TVKKDCR|FY  0.115    .
+500            544    QCPLNQR|PV  0.080    .
+500            555    NSCANIR|RK  0.077    .
+500            556    SCANIRR|KI  0.133    .
+500            557    CANIRRK|IL  0.090    .
+500            574    TLVVAHK|EH  0.065    .
+500            609    GDASDEK|NC  0.057    .
+500            616    NCLNSFR|CD  0.093    .
+500            647    CNSDCSR|RL  0.083    .
+500            648    NSDCSRR|LI  0.199    .
+500            687    TAQSNTR|AV  0.154    .
+500            693    RAVFVQR|TF  0.091    .
+500            697    VQRTFMR|LI  0.101    .
+500            726    YGPGYCK|EQ  0.057    .
+500            762    AVLSCFR|LK  0.073    .
+500            764    LSCFRLK|GT  0.082    .
+500            767    FRLKGTK|NA  0.062    .
+500            773    KNALHFR|TS  0.102    .
+500            781    STEVDLR|YK  0.077    .
+500            783    EVDLRYK|VK  0.054    .
+500            785    DLRYKVK|MC  0.070    .
+500            812    IPSLEDR|FV  0.213    .
+500            824    AYTGDMK|LF  0.053    .
+500            832    FVGFVDK|KR  0.058    .
+500            833    VGFVDKK|RH  0.080    .
+500            834    GFVDKKR|HL  0.220    .
+500            840    RHLAIIR|GY  0.089    .
+500            845    IRGYMGK|VA  0.083    .
+500            848    YMGKVAR|SQ  0.230    .
+500            852    VARSQDR|SY  0.129    .
+500            866    FSGFFGK|ER  0.066    .
+500            868    GFFGKER|DL  0.119    .
+500            878    YITGTVK|KD  0.054    .
+500            879    ITGTVKK|DC  0.131    .
+500            882    TVKKDCR|FY  0.118    .
+500            909    QCPLNQR|PV  0.079    .
+500            920    NSCANIR|RK  0.073    .
+500            921    SCANIRR|KV  0.180    .
+500            922    CANIRRK|VL  0.092    .
+500            939    TLVVAQK|EH  0.063    .
+500            974    GDASDEK|NC  0.057    .
+500            981    NCLNSFR|CD  0.093    .
+500           1012    CNSDCSR|RL  0.083    .
+500           1013    NSDCSRR|LI  0.199    .
+500           1052    TAQSNTR|AV  0.154    .
+500           1058    RAVFVQR|TF  0.091    .
+500           1062    VQRTFMR|LI  0.101    .
+500           1091    YGPGYCK|EQ  0.057    .
+500           1127    AVLSCFR|LK  0.073    .
+500           1129    LSCFRLK|GT  0.082    .
+500           1132    FRLKGTK|NA  0.062    .
+500           1138    KNALHFR|TS  0.102    .
+500           1146    STEVDLR|YK  0.077    .
+500           1148    EVDLRYK|VK  0.054    .
+500           1150    DLRYKVK|MC  0.069    .
+500           1177    IPSLEDR|FV  0.213    .
+500           1189    AYTGDMK|LF  0.053    .
+500           1197    FVGFVDK|KR  0.058    .
+500           1198    VGFVDKK|RH  0.080    .
+500           1199    GFVDKKR|HL  0.220    .
+500           1205    RHLAIIR|GY  0.091    .
+500           1210    IRGYMGK|IA  0.086    .
+500           1213    YMGKIAR|TK  0.086    .
+500           1215    GKIARTK|DR  0.073    .
+500           1217    IARTKDR|RS  0.131    .
+500           1218    ARTKDRR|SY  0.229    .
+500           1229    WSWELIR|QS  0.095    .
+500           1233    LIRQSVR|AM  0.093    .
+500           1241    MFTSDIK|GV  0.073    .
+500           1247    KGVTGVK|QS  0.060    .
+500           1260    DASCLFK|FF  0.059    .
+500           1265    FKFFVLR|SE  0.114    .
+500           1302    GILSSYK|SG  0.068    .
+500           1314    AGAAGWR|RE  0.069    .
+500           1315    GAAGWRR|EL  0.204    .
+500           1318    GWRRELR|AK  0.289    .
+500           1320    RRELRAK|IS  0.077    .
+500           1379    TDHIFNK|LI  0.064    .
+500           1388    VLFDIGK|KR  0.058    .
+500           1389    LFDIGKK|RI  0.081    .
+500           1390    FDIGKKR|ID  0.154    .
+500           1395    KRIDAWK|NV  0.086    .
+500           1407    IFDSETR|DL  0.108    .
+500           1410    SETRDLR|KG  0.139    .
+500           1411    ETRDLRK|GR  0.079    .
+500           1413    RDLRKGR|TF  0.329    .
+500           1418    GRTFEVK|DP  0.107    .
+500           1443    CEVQDSR|IT  0.115    .
+500           1493    DPGISGK|IS  0.069    .
+500           1496    ISGKISK|VE  0.064    .
+500           1518    GSGEICK|VQ  0.058    .
+500           1526    QDLESGK|IC  0.068    .
+500           1531    GKICEVK|DP  0.082    .
+500           1549    DPGISGK|IS  0.070    .
+500           1552    ISGKISK|VE  0.063    .
+500           1576    GEICEDR|HP  0.095    .
+500           1579    CEDRHPR|SG  0.512 *ProP*
+500           1626    FSFLSNK|KR  0.056    .
+500           1627    SFLSNKK|RA  0.102    .
+500           1628    FLSNKKR|AR  0.255    .
+500           1630    SNKKRAR|TV  0.193    .
+____________________________^_________________
+
+
+
+

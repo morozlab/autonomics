@@ -1,0 +1,367 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2166 273         
+MWAAAAPSFVMRIGHEQQAMKEKIKENAEKIKVNKTLPYLVSNVIEILDVDPQAEEDGANVDLDSQRKGKCAVIKTSTRQ      80
+TYFLPVIGLVDAEKLEPGDLVGVNKDSYLILDTLPPEYDSRVKAMEVDERPTEQYSDIGGLDKQIQELIEAVVLPMTHKE     160
+RFENLGIQPPKGVLLFGPPGTGKTLLARACAAQTKSTFLKLAGPQLVQMFIGDGAKLVRDAFALAKEKTPAIIFIDELDA     240
+IAVGDCLMRMFIGDGAKLVRDAFALAKEKTPAIIFIDELDAIGTKRFDSEKAGDREVQRTMLELLNQLDGFSSHQDIKIQ     320
+RDPRGSGDLTWFSQGASRRRVGVVRVVDRETEAKNIAFLKGPSFLVTKSPLILHIGVTIPLAEKWQFSRPSHKNMVHIPE     400
+AFCNQIPASSWFSKNKNSVNGQNIEKFGYVMVAQTISSVCSKKENGLFCSLNTGMFSRCTSDIITPTCSRPPGGSRGGVI     480
+SLPIRHIDQGQACRLTVLEHYVIVDRFGDSRKLADSWIARLDLISPTPPEQHGAGWYTLPDFSQTATELGSKGTVKSPFE     560
+SPHDNTSSPVRSPNMGVGWNTSTKKLTDIIYQVIAATNRVDILDPALLRSGRLDRKIEFPHPNEDARARIMQIHSRKMNV     640
+NSEVNFEELARCTDDFNGAQCKAICVEAGMIALRRGGTELNHEDFMDGILEDQDCIITMWYPGNEQVPPPIIPPPPTLDF     720
+KNRHIETSPGIADIGMMKLSSDLVTKSPLILHIGVTIPLAEKWPFSRPSHKKLSKTDYSLVMNETTSNTFGIAFYTFLKL     800
+FVTKFQHLHGFPKTKTNFLFCSLDTGIFFSRCTNDIITPTSYVLAPTGALAWWGNFITNPPSTSTLTRGIIYPSVEGIAK     880
+VRHVLACPQCRGNCVIAATNRVDILDPALLRSGRLDRKIEFPHPNEDARARIMQIHSRKMNVNSEVNFEELARCTDDFNG     960
+AQCKAICVEAGMIALRRGGTELNHEDFMDGILEDQDCIITMWYPGNEQVPPPIIPPPPTLDFKNRHIETSPSIADIGYSI    1040
+TISPDKTPTAVEKETQTEPAPSRSPPESPKPADIYETVLHPSLMLQRVKRRKTRVDKDKDHPMLPPCTCNKDQDCIITMW    1120
+YPGNEQVPPPIIPPPPTLDFKNRHIETSPSIADIGYSITISPDKTPTAVEKETQTEPAPSRSPTESPKPADIYETVLHPS    1200
+LMLQRVKRRKTRVDKDKDHPMLPPCTCNKNVCQKFFLSTLGYKSDKIVAYSIEVFERSKKAAAVSTNTPDTSLPGPSTED    1280
+YQTAHQLMYLSGAGGGGGEDSKGRVKEEIPRYECSYLSKSFERNLNKHPLLPPCSCRRLCVRKVPEHIRQQIHFDFWSKG    1360
+YCGQKEWMFQHIKDSREDDISTRKAHWSYQLPGEGRELVRVCQAFFLATLGYTSDKVIVNLTSRRDLKDGRGRHKPKHAL    1440
+PDSVKEEVLQHVQSIDWDVQGVKMSGKYEEFLQGHPGITISYETYRKIVSEHKKNLYYDVICSLFQLSQNCSTEKSVPFG    1520
+LKWMLASCSASKNSRGRNTKIWYPGYFLTLNTMQASISIQNEYIFRIGNFRYRSSGPGGTPRSSTKFCEKTRRTTLTLNR    1600
+HTMMFDESADWGDGADLDASLREALLSKPVATPTSKKSKNKYRPESDGMGGRKRKAKAAVVVEKKEKEGVVKSSKRKRVK    1680
+REPENLAEYFKSAAEEISKENAPSEENIPKKKKGKKKKVKFEGDEQNLLSQSMTAGSKALSALSLEGEEGEEDGTSVTET    1760
+RQRTLNSCLKRNPNYLMCTTGVSQTKLRNGRSIPWTGLLNSSNQSKQPIRTRYLGHVTGYQSIRDQYFLIRSVPTSWLSI    1840
+NEREMNEGMKNEFSNFRQKITEKVTKKLIQSAPIIFILTTITRTLNSCLKRNPNYLMCTTGVSQTKLRNGRSIPWTGLLN    1920
+SSNQSKQPIRTRYLGHVTGYQSIRDQYFLIRSVPTSWGDAVSIADFGCGDAKLAQSVTNPVFSFDLVKTNEHVIVANSKK    2000
+YSAVTPSERTVRFENQMGYGGAIQHINDNLNLTPPPLLGAAWGTLVIAEVSSRIPNVDAFAAGVEELGFKLLNKEEPNTF    2080
+FTEMVFKKVKPKENKGLFETLELKPWVSQTKLRNGRSIPWTGLLNSSNQSKQPIRTRYLGHVTGYQSIRDQYFLIRSVPT    2160
+SWLSIS                                                                              2240
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+.................................................P..............................    1120
+................................................................................    1200
+.......P........................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+P...............................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+......                                                                              2240
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+273             12    APSFVMR|IG  0.181    .
+273             21    HEQQAMK|EK  0.065    .
+273             23    QQAMKEK|IK  0.087    .
+273             25    AMKEKIK|EN  0.067    .
+273             30    IKENAEK|IK  0.061    .
+273             32    ENAEKIK|VN  0.066    .
+273             35    EKIKVNK|TL  0.063    .
+273             67    VDLDSQR|KG  0.070    .
+273             68    DLDSQRK|GK  0.099    .
+273             70    DSQRKGK|CA  0.222    .
+273             75    GKCAVIK|TS  0.073    .
+273             79    VIKTSTR|QT  0.079    .
+273             94    GLVDAEK|LE  0.059    .
+273            105    DLVGVNK|DS  0.082    .
+273            121    PPEYDSR|VK  0.075    .
+273            123    EYDSRVK|AM  0.061    .
+273            130    AMEVDER|PT  0.099    .
+273            143    DIGGLDK|QI  0.064    .
+273            159    VLPMTHK|ER  0.060    .
+273            161    PMTHKER|FE  0.090    .
+273            171    LGIQPPK|GV  0.078    .
+273            183    GPPGTGK|TL  0.058    .
+273            188    GKTLLAR|AC  0.102    .
+273            195    ACAAQTK|ST  0.096    .
+273            200    TKSTFLK|LA  0.150    .
+273            216    FIGDGAK|LV  0.075    .
+273            219    DGAKLVR|DA  0.129    .
+273            226    DAFALAK|EK  0.065    .
+273            228    FALAKEK|TP  0.057    .
+273            249    VGDCLMR|MF  0.076    .
+273            257    FIGDGAK|LV  0.075    .
+273            260    DGAKLVR|DA  0.129    .
+273            267    DAFALAK|EK  0.065    .
+273            269    FALAKEK|TP  0.057    .
+273            285    LDAIGTK|RF  0.059    .
+273            286    DAIGTKR|FD  0.208    .
+273            291    KRFDSEK|AG  0.071    .
+273            295    SEKAGDR|EV  0.092    .
+273            299    GDREVQR|TM  0.093    .
+273            318    SSHQDIK|IQ  0.069    .
+273            321    QDIKIQR|DP  0.114    .
+273            324    KIQRDPR|GS  0.416    .
+273            338    FSQGASR|RR  0.074    .
+273            339    SQGASRR|RV  0.343    .
+273            340    QGASRRR|VG  0.090    .
+273            345    RRVGVVR|VV  0.164    .
+273            349    VVRVVDR|ET  0.120    .
+273            354    DRETEAK|NI  0.063    .
+273            360    KNIAFLK|GP  0.067    .
+273            368    PSFLVTK|SP  0.066    .
+273            384    TIPLAEK|WQ  0.055    .
+273            389    EKWQFSR|PS  0.106    .
+273            393    FSRPSHK|NM  0.071    .
+273            414    ASSWFSK|NK  0.084    .
+273            416    SWFSKNK|NS  0.073    .
+273            426    NGQNIEK|FG  0.065    .
+273            442    ISSVCSK|KE  0.070    .
+273            443    SSVCSKK|EN  0.099    .
+273            458    NTGMFSR|CT  0.137    .
+273            470    ITPTCSR|PP  0.084    .
+273            476    RPPGGSR|GG  0.086    .
+273            485    VISLPIR|HI  0.165    .
+273            494    DQGQACR|LT  0.070    .
+273            506    HYVIVDR|FG  0.074    .
+273            511    DRFGDSR|KL  0.086    .
+273            512    RFGDSRK|LA  0.095    .
+273            520    ADSWIAR|LD  0.089    .
+273            552    ATELGSK|GT  0.059    .
+273            556    GSKGTVK|SP  0.098    .
+273            571    NTSSPVR|SP  0.155    .
+273            584    GWNTSTK|KL  0.086    .
+273            585    WNTSTKK|LT  0.113    .
+273            599    VIAATNR|VD  0.067    .
+273            609    LDPALLR|SG  0.081    .
+273            612    ALLRSGR|LD  0.240    .
+273            615    RSGRLDR|KI  0.266    .
+273            616    SGRLDRK|IE  0.075    .
+273            627    HPNEDAR|AR  0.132    .
+273            629    NEDARAR|IM  0.084    .
+273            636    IMQIHSR|KM  0.082    .
+273            637    MQIHSRK|MN  0.107    .
+273            651    NFEELAR|CT  0.098    .
+273            662    FNGAQCK|AI  0.080    .
+273            674    AGMIALR|RG  0.115    .
+273            675    GMIALRR|GG  0.126    .
+273            721    PPTLDFK|NR  0.059    .
+273            723    TLDFKNR|HI  0.192    .
+273            738    ADIGMMK|LS  0.063    .
+273            746    SSDLVTK|SP  0.070    .
+273            762    TIPLAEK|WP  0.054    .
+273            767    EKWPFSR|PS  0.108    .
+273            771    FSRPSHK|KL  0.079    .
+273            772    SRPSHKK|LS  0.106    .
+273            775    SHKKLSK|TD  0.063    .
+273            799    AFYTFLK|LF  0.058    .
+273            804    LKLFVTK|FQ  0.070    .
+273            813    HLHGFPK|TK  0.072    .
+273            815    HGFPKTK|TN  0.062    .
+273            831    TGIFFSR|CT  0.114    .
+273            868    STSTLTR|GI  0.108    .
+273            880    SVEGIAK|VR  0.055    .
+273            882    EGIAKVR|HV  0.113    .
+273            891    LACPQCR|GN  0.109    .
+273            901    VIAATNR|VD  0.068    .
+273            911    LDPALLR|SG  0.081    .
+273            914    ALLRSGR|LD  0.240    .
+273            917    RSGRLDR|KI  0.266    .
+273            918    SGRLDRK|IE  0.075    .
+273            929    HPNEDAR|AR  0.132    .
+273            931    NEDARAR|IM  0.084    .
+273            938    IMQIHSR|KM  0.082    .
+273            939    MQIHSRK|MN  0.107    .
+273            953    NFEELAR|CT  0.098    .
+273            964    FNGAQCK|AI  0.080    .
+273            976    AGMIALR|RG  0.115    .
+273            977    GMIALRR|GG  0.126    .
+273           1023    PPTLDFK|NR  0.059    .
+273           1025    TLDFKNR|HI  0.186    .
+273           1046    ITISPDK|TP  0.066    .
+273           1053    TPTAVEK|ET  0.073    .
+273           1063    TEPAPSR|SP  0.103    .
+273           1070    SPPESPK|PA  0.095    .
+273           1087    PSLMLQR|VK  0.070    .
+273           1089    LMLQRVK|RR  0.053    .
+273           1090    MLQRVKR|RK  0.597 *ProP*
+273           1091    LQRVKRR|KT  0.145    .
+273           1092    QRVKRRK|TR  0.089    .
+273           1094    VKRRKTR|VD  0.325    .
+273           1097    RKTRVDK|DK  0.183    .
+273           1099    TRVDKDK|DH  0.088    .
+273           1111    PPCTCNK|DQ  0.083    .
+273           1141    PPTLDFK|NR  0.059    .
+273           1143    TLDFKNR|HI  0.186    .
+273           1164    ITISPDK|TP  0.066    .
+273           1171    TPTAVEK|ET  0.073    .
+273           1181    TEPAPSR|SP  0.113    .
+273           1188    SPTESPK|PA  0.096    .
+273           1205    PSLMLQR|VK  0.070    .
+273           1207    LMLQRVK|RR  0.053    .
+273           1208    MLQRVKR|RK  0.597 *ProP*
+273           1209    LQRVKRR|KT  0.145    .
+273           1210    QRVKRRK|TR  0.089    .
+273           1212    VKRRKTR|VD  0.325    .
+273           1215    RKTRVDK|DK  0.183    .
+273           1217    TRVDKDK|DH  0.088    .
+273           1229    PPCTCNK|NV  0.086    .
+273           1234    NKNVCQK|FF  0.073    .
+273           1243    LSTLGYK|SD  0.068    .
+273           1246    LGYKSDK|IV  0.079    .
+273           1257    SIEVFER|SK  0.155    .
+273           1259    EVFERSK|KA  0.062    .
+273           1260    VFERSKK|AA  0.339    .
+273           1302    GGGEDSK|GR  0.060    .
+273           1304    GEDSKGR|VK  0.107    .
+273           1306    DSKGRVK|EE  0.058    .
+273           1311    VKEEIPR|YE  0.082    .
+273           1319    ECSYLSK|SF  0.103    .
+273           1323    LSKSFER|NL  0.093    .
+273           1327    FERNLNK|HP  0.054    .
+273           1337    LPPCSCR|RL  0.083    .
+273           1338    PPCSCRR|LC  0.107    .
+273           1342    CRRLCVR|KV  0.137    .
+273           1343    RRLCVRK|VP  0.107    .
+273           1349    KVPEHIR|QQ  0.087    .
+273           1359    HFDFWSK|GY  0.068    .
+273           1365    KGYCGQK|EW  0.057    .
+273           1373    WMFQHIK|DS  0.066    .
+273           1376    QHIKDSR|ED  0.086    .
+273           1383    EDDISTR|KA  0.100    .
+273           1384    DDISTRK|AH  0.068    .
+273           1396    QLPGEGR|EL  0.081    .
+273           1400    EGRELVR|VC  0.077    .
+273           1416    LGYTSDK|VI  0.057    .
+273           1424    IVNLTSR|RD  0.072    .
+273           1425    VNLTSRR|DL  0.225    .
+273           1428    TSRRDLK|DG  0.141    .
+273           1431    RDLKDGR|GR  0.087    .
+273           1433    LKDGRGR|HK  0.078    .
+273           1435    DGRGRHK|PK  0.072    .
+273           1437    RGRHKPK|HA  0.081    .
+273           1445    ALPDSVK|EE  0.055    .
+273           1463    WDVQGVK|MS  0.072    .
+273           1467    GVKMSGK|YE  0.072    .
+273           1486    ISYETYR|KI  0.086    .
+273           1487    SYETYRK|IV  0.098    .
+273           1493    KIVSEHK|KN  0.054    .
+273           1494    IVSEHKK|NL  0.115    .
+273           1515    QNCSTEK|SV  0.114    .
+273           1522    SVPFGLK|WM  0.060    .
+273           1532    ASCSASK|NS  0.056    .
+273           1535    SASKNSR|GR  0.116    .
+273           1537    SKNSRGR|NT  0.120    .
+273           1540    SRGRNTK|IW  0.217    .
+273           1566    QNEYIFR|IG  0.071    .
+273           1571    FRIGNFR|YR  0.111    .
+273           1573    IGNFRYR|SS  0.271    .
+273           1582    GPGGTPR|SS  0.178    .
+273           1586    TPRSSTK|FC  0.106    .
+273           1590    STKFCEK|TR  0.060    .
+273           1592    KFCEKTR|RT  0.084    .
+273           1593    FCEKTRR|TT  0.119    .
+273           1600    TTLTLNR|HT  0.083    .
+273           1622    DLDASLR|EA  0.072    .
+273           1628    REALLSK|PV  0.067    .
+273           1636    VATPTSK|KS  0.056    .
+273           1637    ATPTSKK|SK  0.165    .
+273           1639    PTSKKSK|NK  0.077    .
+273           1641    SKKSKNK|YR  0.079    .
+273           1643    KSKNKYR|PE  0.187    .
+273           1652    SDGMGGR|KR  0.079    .
+273           1653    DGMGGRK|RK  0.071    .
+273           1654    GMGGRKR|KA  0.274    .
+273           1655    MGGRKRK|AK  0.341    .
+273           1657    GRKRKAK|AA  0.415    .
+273           1664    AAVVVEK|KE  0.065    .
+273           1665    AVVVEKK|EK  0.110    .
+273           1667    VVEKKEK|EG  0.055    .
+273           1672    EKEGVVK|SS  0.078    .
+273           1675    GVVKSSK|RK  0.059    .
+273           1676    VVKSSKR|KR  0.141    .
+273           1677    VKSSKRK|RV  0.134    .
+273           1678    KSSKRKR|VK  0.308    .
+273           1680    SKRKRVK|RE  0.065    .
+273           1681    KRKRVKR|EP  0.657 *ProP*
+273           1691    NLAEYFK|SA  0.093    .
+273           1699    AAEEISK|EN  0.063    .
+273           1710    SEENIPK|KK  0.062    .
+273           1711    EENIPKK|KK  0.145    .
+273           1712    ENIPKKK|KG  0.099    .
+273           1713    NIPKKKK|GK  0.132    .
+273           1715    PKKKKGK|KK  0.073    .
+273           1716    KKKKGKK|KK  0.116    .
+273           1717    KKKGKKK|KV  0.217    .
+273           1718    KKGKKKK|VK  0.173    .
+273           1720    GKKKKVK|FE  0.115    .
+273           1738    SMTAGSK|AL  0.060    .
+273           1761    TSVTETR|QR  0.073    .
+273           1763    VTETRQR|TL  0.080    .
+273           1770    TLNSCLK|RN  0.063    .
+273           1771    LNSCLKR|NP  0.186    .
+273           1786    TGVSQTK|LR  0.056    .
+273           1788    VSQTKLR|NG  0.099    .
+273           1791    TKLRNGR|SI  0.377    .
+273           1806    NSSNQSK|QP  0.070    .
+273           1810    QSKQPIR|TR  0.084    .
+273           1812    KQPIRTR|YL  0.135    .
+273           1824    TGYQSIR|DQ  0.117    .
+273           1831    DQYFLIR|SV  0.155    .
+273           1843    WLSINER|EM  0.109    .
+273           1850    EMNEGMK|NE  0.065    .
+273           1857    NEFSNFR|QK  0.087    .
+273           1859    FSNFRQK|IT  0.083    .
+273           1863    RQKITEK|VT  0.064    .
+273           1866    ITEKVTK|KL  0.074    .
+273           1867    TEKVTKK|LI  0.106    .
+273           1883    ILTTITR|TL  0.076    .
+273           1890    TLNSCLK|RN  0.063    .
+273           1891    LNSCLKR|NP  0.179    .
+273           1906    TGVSQTK|LR  0.056    .
+273           1908    VSQTKLR|NG  0.099    .
+273           1911    TKLRNGR|SI  0.377    .
+273           1926    NSSNQSK|QP  0.070    .
+273           1930    QSKQPIR|TR  0.084    .
+273           1932    KQPIRTR|YL  0.135    .
+273           1944    TGYQSIR|DQ  0.117    .
+273           1951    DQYFLIR|SV  0.158    .
+273           1972    FGCGDAK|LA  0.067    .
+273           1988    FSFDLVK|TN  0.067    .
+273           1999    VIVANSK|KY  0.074    .
+273           2000    IVANSKK|YS  0.104    .
+273           2009    AVTPSER|TV  0.096    .
+273           2012    PSERTVR|FE  0.282    .
+273           2053    IAEVSSR|IP  0.073    .
+273           2070    VEELGFK|LL  0.064    .
+273           2074    GFKLLNK|EE  0.059    .
+273           2087    FTEMVFK|KV  0.083    .
+273           2088    TEMVFKK|VK  0.118    .
+273           2090    MVFKKVK|PK  0.069    .
+273           2092    FKKVKPK|EN  0.076    .
+273           2095    VKPKENK|GL  0.071    .
+273           2104    FETLELK|PW  0.053    .
+273           2111    PWVSQTK|LR  0.054    .
+273           2113    VSQTKLR|NG  0.108    .
+273           2116    TKLRNGR|SI  0.377    .
+273           2131    NSSNQSK|QP  0.070    .
+273           2135    QSKQPIR|TR  0.084    .
+273           2137    KQPIRTR|YL  0.135    .
+273           2149    TGYQSIR|DQ  0.117    .
+273           2156    DQYFLIR|SV  0.155    .
+____________________________^_________________
+
+
+
+

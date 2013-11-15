@@ -1,0 +1,396 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2790 142         
+MTKVNQPGSQFGKLLEYLNSPEHLRRGYSPITTLVGKVMCKYCHRALNLGNMPRRSVANKLDAGSCPPELRDLNTFEQIL      80
+LRRVNMFQSTVVLGPTGGHLKRSEKMKAMKGFCVHIPMPLEDTVSQLNDLKPGALVDPDKTIQLLGVPNKDKFVWHHLVD     160
+VNKVYRALEWFVNNNDQYADVKLPASPDEILPQFDIGEPSQQTNVVGSQDVIDFLGELGKSSSESEEKDIVPFHSDDSFL     240
+TIDECMSNSSDYTVLSEMSFEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     320
+ETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     400
+ETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     480
+ETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     560
+ETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     640
+ETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVS     720
+ETSAEETQPSQLTVVGVRDVVSETSAEETQPSQLTVVSETSAEETQPSQLTVVSETSAEETQPVLLSQGGLDAEHTKEVL     800
+GRKFIHLLRRLSGYDTVCKHCANRLLLTRLHVLRLGTVLLSQNSLIQRVKKVEELLKKAERPYTVLEQKTTMCRLCHRFN     880
+GHLSVSKKVKRSKALQDENITTYKELVEARETLANMIDLFIESKYLCVDCGYNTSDQRGKGEKTVSPLTTKNSKIAATAD     960
+RVVVIIGGLIDLTESSSNDQCMKCEKLIFAPELVQQHPDIAPWTRTSNSSWHELADQVDHKCTGENPDKDLNKNMLHKLC    1040
+VTWESKRIRDSVCGENCTKVLDKVVKQFRRLKGGFIFKPDWLETKFLTHMLDDVVLRLDNLNSHCFLCVVSGEDDFNTIM    1120
+STSNQSSIDSTSVDSEESCSMVCGGATAVDQSSDPDNEIKEDDVVISDFSSLNTSGSSQAGADADTTEKARKLIKKMDPD    1200
+DFKNRIEEMSFMNIDALLESNLDSLYEMLKVESTPLLSSDERLELLSFPELFCYGQGSLHDKRPVSLKCGPAKYTEAKLL    1280
+SGDSRFRQNLQYVFYLAGEQLRRKISQSVYCALRNVHGLDKLSSGELLQKLKSNDDGIKRKITTSLRDVPGTKQYWASVK    1360
+SKLRAQTEKYGPPTFFVTFSPAEYAWPELIGMLRDLNKDLPNIDSLTDSELLNKEPALTTRFIHTKFQALLEFIKKGQPL    1440
+GKVKSHFVRYEYQGRGTVHFHCFLWIENAPVLGECTDEEAATFIQRVITCRLPDKNAEPELYEVVKKFQTHACRKYCLRS    1520
+VKSPSLRFTLLCRFGFPFPSSRQFLLRDVLSSLIGRARNKFRKRLYDLVRSYEERNINAYNPTCILLWGGNMDIQFLSEN    1600
+SYTITDYVCKYMLKGEVSNINCDFSSMADTSGSAFQKYIKFAYTFLKQREMSAHEACDLMLLTGGELWSSSEKYVWVPTT    1680
+LPEHRSRTLKKVSELEKNEESTEIFYRDWVHDIYPNRMKKDESLNLFRFISKYERVNRTMGTPLRVKGKEICWLKKRDKE    1760
+PVIYHHQHNVKKSPELFYYSMLSLYKIWRQESDILGESKTYQEEFFRCVDSNVPEFEDLRHYSARRLDIEKARSEMQTKV    1840
+EEAVKGDKAGDDNGKVTAVKSDADDEDSDGTDTNPVMDGVLDHYQQNTGQSGIKTQQELDNFVATLNKDQLDVYNKVTSW    1920
+LLHMEAEHTSGTCKKKDCTGQLLLYVSGFGGTGKTYLITALTGFCFVQREVHKKDMGLLLMAPTGVAALGIGGFTCHAAL    2000
+SLNVQHGQTPKYTSYHGEKLHRTRQVFSDLKCVVIDEISMVSNILLFYISLRLSELFKGQPGGNQPFGGRCVILFGDLLQ    2080
+LQPVQAAYPFEEISSEKIQKLTGGVQFAQNIWRLFEYAELNINQRQKMTVANGQEWKELLGRLRVGGMTGDDVKLLSTRL    2160
+IQLKERDDIHKCKIEVIKYYRELVKHDPRAVCLLPTKAMVGEFNDAMLECTVSKTVTIPAIDDIQPCIASKRQRIEQAIK    2240
+KLDKLDDSRNTAALEQLLILGENVRVMLRRNIDLGKGLVNGSMGTIVKIHLDPISKIVHKISIKFDDIDDVQDILRDRRE    2320
+IMVFSGGFFFRSQFPITLSYSITIHKAQGLTLDTVLTDVGNRLFAPGQMYVCLSRVRSLAGLHLINFSPKKGIANVSALK    2400
+EYVRISNNSVYMPQAPSSVFKVGKSFEQRKWWVNKGAVAKAKDGITNVVKDNIVNKPSGRPKKKVKAIKTKNKTKTTTQN    2480
+TPDTNETQKIISLARRGRNANFHLEGMTSVELNILYSTIITPGLAGSLEGFHNRLAQQLNPDPFNRSRVRVKWLSDDVIQ    2560
+QYMWAVIDRVENSNPGYSFFSMAACFDTYRDPVCPAGEHIRELSLSELTERDFEDKILPTYINQAYMHRRWSSTRVITGT    2640
+KEERMIADGDPMDKDIIALIGNPSTNHWVMTIIDNRPSHKTISYFDSGRYQRQDVAERCLYYLKGLQIYRKTISDLGVQL    2720
+NPVSVNLRTHAIQDGGSVRQENSFDCGVFTLVNLELYLAGLPMTTVSPGKLPLYRANILARLLEFEALKQ              2800
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+..............................................................P.................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+......................................................................              2800
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+142              3    ----MTK|VN  0.062    .
+142             13    PGSQFGK|LL  0.070    .
+142             25    NSPEHLR|RG  0.072    .
+142             26    SPEHLRR|GY  0.246    .
+142             37    ITTLVGK|VM  0.059    .
+142             41    VGKVMCK|YC  0.073    .
+142             45    MCKYCHR|AL  0.084    .
+142             54    NLGNMPR|RS  0.079    .
+142             55    LGNMPRR|SV  0.446    .
+142             60    RRSVANK|LD  0.075    .
+142             71    SCPPELR|DL  0.114    .
+142             82    FEQILLR|RV  0.106    .
+142             83    EQILLRR|VN  0.093    .
+142            101    PTGGHLK|RS  0.063    .
+142            102    TGGHLKR|SE  0.288    .
+142            105    HLKRSEK|MK  0.152    .
+142            107    KRSEKMK|AM  0.097    .
+142            110    EKMKAMK|GF  0.085    .
+142            131    SQLNDLK|PG  0.057    .
+142            140    ALVDPDK|TI  0.060    .
+142            150    LLGVPNK|DK  0.075    .
+142            152    GVPNKDK|FV  0.098    .
+142            163    HLVDVNK|VY  0.069    .
+142            166    DVNKVYR|AL  0.113    .
+142            182    DQYADVK|LP  0.054    .
+142            220    FLGELGK|SS  0.092    .
+142            228    SSESEEK|DI  0.070    .
+142            738    LTVVGVR|DV  0.115    .
+142            797    LDAEHTK|EV  0.073    .
+142            802    TKEVLGR|KF  0.119    .
+142            803    KEVLGRK|FI  0.083    .
+142            809    KFIHLLR|RL  0.082    .
+142            810    FIHLLRR|LS  0.130    .
+142            819    GYDTVCK|HC  0.058    .
+142            824    CKHCANR|LL  0.091    .
+142            829    NRLLLTR|LH  0.070    .
+142            834    TRLHVLR|LG  0.099    .
+142            848    QNSLIQR|VK  0.088    .
+142            850    SLIQRVK|KV  0.082    .
+142            851    LIQRVKK|VE  0.230    .
+142            857    KVEELLK|KA  0.062    .
+142            858    VEELLKK|AE  0.080    .
+142            861    LLKKAER|PY  0.087    .
+142            869    YTVLEQK|TT  0.061    .
+142            874    QKTTMCR|LC  0.075    .
+142            878    MCRLCHR|FN  0.107    .
+142            887    GHLSVSK|KV  0.066    .
+142            888    HLSVSKK|VK  0.126    .
+142            890    SVSKKVK|RS  0.079    .
+142            891    VSKKVKR|SK  0.306    .
+142            893    KKVKRSK|AL  0.081    .
+142            904    ENITTYK|EL  0.066    .
+142            910    KELVEAR|ET  0.093    .
+142            924    DLFIESK|YL  0.060    .
+142            938    YNTSDQR|GK  0.095    .
+142            940    TSDQRGK|GE  0.070    .
+142            943    QRGKGEK|TV  0.088    .
+142            951    VSPLTTK|NS  0.056    .
+142            954    LTTKNSK|IA  0.068    .
+142            961    IAATADR|VV  0.122    .
+142            983    SNDQCMK|CE  0.059    .
+142            986    QCMKCEK|LI  0.066    .
+142           1005    DIAPWTR|TS  0.088    .
+142           1021    ADQVDHK|CT  0.081    .
+142           1029    TGENPDK|DL  0.078    .
+142           1033    PDKDLNK|NM  0.066    .
+142           1038    NKNMLHK|LC  0.065    .
+142           1046    CVTWESK|RI  0.061    .
+142           1047    VTWESKR|IR  0.122    .
+142           1049    WESKRIR|DS  0.197    .
+142           1059    CGENCTK|VL  0.068    .
+142           1063    CTKVLDK|VV  0.075    .
+142           1066    VLDKVVK|QF  0.067    .
+142           1069    KVVKQFR|RL  0.095    .
+142           1070    VVKQFRR|LK  0.145    .
+142           1072    KQFRRLK|GG  0.111    .
+142           1078    KGGFIFK|PD  0.059    .
+142           1085    PDWLETK|FL  0.075    .
+142           1097    LDDVVLR|LD  0.072    .
+142           1160    DPDNEIK|ED  0.070    .
+142           1189    DADTTEK|AR  0.054    .
+142           1191    DTTEKAR|KL  0.092    .
+142           1192    TTEKARK|LI  0.091    .
+142           1195    KARKLIK|KM  0.062    .
+142           1196    ARKLIKK|MD  0.118    .
+142           1203    MDPDDFK|NR  0.059    .
+142           1205    PDDFKNR|IE  0.103    .
+142           1230    SLYEMLK|VE  0.060    .
+142           1242    LLSSDER|LE  0.075    .
+142           1262    QGSLHDK|RP  0.061    .
+142           1263    GSLHDKR|PV  0.232    .
+142           1268    KRPVSLK|CG  0.069    .
+142           1273    LKCGPAK|YT  0.108    .
+142           1278    AKYTEAK|LL  0.069    .
+142           1285    LLSGDSR|FR  0.105    .
+142           1287    SGDSRFR|QN  0.082    .
+142           1302    LAGEQLR|RK  0.072    .
+142           1303    AGEQLRR|KI  0.145    .
+142           1304    GEQLRRK|IS  0.077    .
+142           1314    SVYCALR|NV  0.106    .
+142           1321    NVHGLDK|LS  0.066    .
+142           1330    SGELLQK|LK  0.059    .
+142           1332    ELLQKLK|SN  0.093    .
+142           1339    SNDDGIK|RK  0.054    .
+142           1340    NDDGIKR|KI  0.184    .
+142           1341    DDGIKRK|IT  0.095    .
+142           1347    KITTSLR|DV  0.104    .
+142           1353    RDVPGTK|QY  0.067    .
+142           1360    QYWASVK|SK  0.081    .
+142           1362    WASVKSK|LR  0.081    .
+142           1364    SVKSKLR|AQ  0.083    .
+142           1369    LRAQTEK|YG  0.074    .
+142           1394    ELIGMLR|DL  0.107    .
+142           1398    MLRDLNK|DL  0.074    .
+142           1414    DSELLNK|EP  0.052    .
+142           1421    EPALTTR|FI  0.172    .
+142           1426    TRFIHTK|FQ  0.079    .
+142           1435    ALLEFIK|KG  0.058    .
+142           1436    LLEFIKK|GQ  0.080    .
+142           1442    KGQPLGK|VK  0.071    .
+142           1444    QPLGKVK|SH  0.074    .
+142           1449    VKSHFVR|YE  0.195    .
+142           1455    RYEYQGR|GT  0.087    .
+142           1486    AATFIQR|VI  0.084    .
+142           1491    QRVITCR|LP  0.089    .
+142           1495    TCRLPDK|NA  0.083    .
+142           1506    ELYEVVK|KF  0.064    .
+142           1507    LYEVVKK|FQ  0.113    .
+142           1514    FQTHACR|KY  0.067    .
+142           1515    QTHACRK|YC  0.088    .
+142           1519    CRKYCLR|SV  0.134    .
+142           1522    YCLRSVK|SP  0.149    .
+142           1527    VKSPSLR|FT  0.125    .
+142           1533    RFTLLCR|FG  0.077    .
+142           1542    FPFPSSR|QF  0.070    .
+142           1547    SRQFLLR|DV  0.230    .
+142           1556    LSSLIGR|AR  0.093    .
+142           1558    SLIGRAR|NK  0.093    .
+142           1560    IGRARNK|FR  0.061    .
+142           1562    RARNKFR|KR  0.090    .
+142           1563    ARNKFRK|RL  0.126    .
+142           1564    RNKFRKR|LY  0.214    .
+142           1570    RLYDLVR|SY  0.124    .
+142           1575    VRSYEER|NI  0.152    .
+142           1610    ITDYVCK|YM  0.070    .
+142           1614    VCKYMLK|GE  0.057    .
+142           1637    SGSAFQK|YI  0.085    .
+142           1640    AFQKYIK|FA  0.079    .
+142           1647    FAYTFLK|QR  0.066    .
+142           1649    YTFLKQR|EM  0.097    .
+142           1673    LWSSSEK|YV  0.084    .
+142           1685    TTLPEHR|SR  0.102    .
+142           1687    LPEHRSR|TL  0.101    .
+142           1690    HRSRTLK|KV  0.427    .
+142           1691    RSRTLKK|VS  0.141    .
+142           1697    KVSELEK|NE  0.064    .
+142           1707    STEIFYR|DW  0.104    .
+142           1717    HDIYPNR|MK  0.084    .
+142           1719    IYPNRMK|KD  0.057    .
+142           1720    YPNRMKK|DE  0.497    .
+142           1728    ESLNLFR|FI  0.140    .
+142           1732    LFRFISK|YE  0.067    .
+142           1735    FISKYER|VN  0.089    .
+142           1738    KYERVNR|TM  0.278    .
+142           1745    TMGTPLR|VK  0.113    .
+142           1747    GTPLRVK|GK  0.057    .
+142           1749    PLRVKGK|EI  0.076    .
+142           1755    KEICWLK|KR  0.059    .
+142           1756    EICWLKK|RD  0.072    .
+142           1757    ICWLKKR|DK  0.349    .
+142           1759    WLKKRDK|EP  0.062    .
+142           1771    HHQHNVK|KS  0.061    .
+142           1772    HQHNVKK|SP  0.165    .
+142           1786    SMLSLYK|IW  0.060    .
+142           1789    SLYKIWR|QE  0.129    .
+142           1799    DILGESK|TY  0.059    .
+142           1807    YQEEFFR|CV  0.131    .
+142           1820    PEFEDLR|HY  0.078    .
+142           1825    LRHYSAR|RL  0.183    .
+142           1826    RHYSARR|LD  0.112    .
+142           1831    RRLDIEK|AR  0.065    .
+142           1833    LDIEKAR|SE  0.149    .
+142           1839    RSEMQTK|VE  0.070    .
+142           1845    KVEEAVK|GD  0.065    .
+142           1848    EAVKGDK|AG  0.063    .
+142           1855    AGDDNGK|VT  0.058    .
+142           1860    GKVTAVK|SD  0.085    .
+142           1894    TGQSGIK|TQ  0.058    .
+142           1908    FVATLNK|DQ  0.063    .
+142           1916    QLDVYNK|VT  0.073    .
+142           1934    HTSGTCK|KK  0.069    .
+142           1935    TSGTCKK|KD  0.142    .
+142           1936    SGTCKKK|DC  0.165    .
+142           1954    GFGGTGK|TY  0.059    .
+142           1969    GFCFVQR|EV  0.155    .
+142           1973    VQREVHK|KD  0.068    .
+142           1974    QREVHKK|DM  0.205    .
+142           2011    QHGQTPK|YT  0.079    .
+142           2019    TSYHGEK|LH  0.062    .
+142           2022    HGEKLHR|TR  0.069    .
+142           2024    EKLHRTR|QV  0.132    .
+142           2031    QVFSDLK|CV  0.063    .
+142           2052    LFYISLR|LS  0.080    .
+142           2058    RLSELFK|GQ  0.071    .
+142           2070    NQPFGGR|CV  0.091    .
+142           2097    EEISSEK|IQ  0.056    .
+142           2100    SSEKIQK|LT  0.095    .
+142           2113    FAQNIWR|LF  0.103    .
+142           2125    ELNINQR|QK  0.102    .
+142           2127    NINQRQK|MT  0.077    .
+142           2137    ANGQEWK|EL  0.065    .
+142           2142    WKELLGR|LR  0.079    .
+142           2144    ELLGRLR|VG  0.082    .
+142           2154    MTGDDVK|LL  0.068    .
+142           2159    VKLLSTR|LI  0.083    .
+142           2164    TRLIQLK|ER  0.072    .
+142           2166    LIQLKER|DD  0.106    .
+142           2171    ERDDIHK|CK  0.068    .
+142           2173    DDIHKCK|IE  0.064    .
+142           2178    CKIEVIK|YY  0.073    .
+142           2181    EVIKYYR|EL  0.078    .
+142           2185    YYRELVK|HD  0.062    .
+142           2189    LVKHDPR|AV  0.099    .
+142           2197    VCLLPTK|AM  0.057    .
+142           2214    LECTVSK|TV  0.067    .
+142           2231    QPCIASK|RQ  0.061    .
+142           2232    PCIASKR|QR  0.139    .
+142           2234    IASKRQR|IE  0.113    .
+142           2240    RIEQAIK|KL  0.064    .
+142           2241    IEQAIKK|LD  0.068    .
+142           2244    AIKKLDK|LD  0.059    .
+142           2249    DKLDDSR|NT  0.079    .
+142           2265    ILGENVR|VM  0.064    .
+142           2269    NVRVMLR|RN  0.079    .
+142           2270    VRVMLRR|NI  0.197    .
+142           2276    RNIDLGK|GL  0.071    .
+142           2288    SMGTIVK|IH  0.056    .
+142           2296    HLDPISK|IV  0.067    .
+142           2300    ISKIVHK|IS  0.066    .
+142           2304    VHKISIK|FD  0.066    .
+142           2316    DVQDILR|DR  0.086    .
+142           2318    QDILRDR|RE  0.075    .
+142           2319    DILRDRR|EI  0.280    .
+142           2331    SGGFFFR|SQ  0.186    .
+142           2346    YSITIHK|AQ  0.069    .
+142           2362    LTDVGNR|LF  0.080    .
+142           2375    MYVCLSR|VR  0.077    .
+142           2377    VCLSRVR|SL  0.084    .
+142           2390    LINFSPK|KG  0.072    .
+142           2391    INFSPKK|GI  0.105    .
+142           2400    ANVSALK|EY  0.055    .
+142           2404    ALKEYVR|IS  0.081    .
+142           2421    APSSVFK|VG  0.072    .
+142           2424    SVFKVGK|SF  0.113    .
+142           2429    GKSFEQR|KW  0.118    .
+142           2430    KSFEQRK|WW  0.097    .
+142           2435    RKWWVNK|GA  0.094    .
+142           2440    NKGAVAK|AK  0.091    .
+142           2442    GAVAKAK|DG  0.084    .
+142           2450    GITNVVK|DN  0.071    .
+142           2456    KDNIVNK|PS  0.073    .
+142           2460    VNKPSGR|PK  0.095    .
+142           2462    KPSGRPK|KK  0.089    .
+142           2463    PSGRPKK|KV  0.534 *ProP*
+142           2464    SGRPKKK|VK  0.120    .
+142           2466    RPKKKVK|AI  0.101    .
+142           2469    KKVKAIK|TK  0.073    .
+142           2471    VKAIKTK|NK  0.077    .
+142           2473    AIKTKNK|TK  0.073    .
+142           2475    KTKNKTK|TT  0.079    .
+142           2489    DTNETQK|II  0.075    .
+142           2495    KIISLAR|RG  0.081    .
+142           2496    IISLARR|GR  0.183    .
+142           2498    SLARRGR|NA  0.389    .
+142           2534    LEGFHNR|LA  0.114    .
+142           2546    NPDPFNR|SR  0.121    .
+142           2548    DPFNRSR|VR  0.079    .
+142           2550    FNRSRVR|VK  0.082    .
+142           2552    RSRVRVK|WL  0.092    .
+142           2569    MWAVIDR|VE  0.081    .
+142           2590    ACFDTYR|DP  0.070    .
+142           2601    PAGEHIR|EL  0.118    .
+142           2611    LSELTER|DF  0.111    .
+142           2616    ERDFEDK|IL  0.071    .
+142           2629    NQAYMHR|RW  0.088    .
+142           2630    QAYMHRR|WS  0.208    .
+142           2635    RRWSSTR|VI  0.101    .
+142           2641    RVITGTK|EE  0.056    .
+142           2644    TGTKEER|MI  0.122    .
+142           2654    DGDPMDK|DI  0.070    .
+142           2676    MTIIDNR|PS  0.088    .
+142           2680    DNRPSHK|TI  0.072    .
+142           2689    SYFDSGR|YQ  0.088    .
+142           2692    DSGRYQR|QD  0.227    .
+142           2698    RQDVAER|CL  0.074    .
+142           2704    RCLYYLK|GL  0.064    .
+142           2710    KGLQIYR|KT  0.076    .
+142           2711    GLQIYRK|TI  0.120    .
+142           2728    PVSVNLR|TH  0.086    .
+142           2739    QDGGSVR|QE  0.080    .
+142           2770    TTVSPGK|LP  0.054    .
+142           2775    GKLPLYR|AN  0.086    .
+142           2781    RANILAR|LL  0.099    .
+142           2789    LEFEALK|Q-  0.060    .
+____________________________^_________________
+
+
+
+

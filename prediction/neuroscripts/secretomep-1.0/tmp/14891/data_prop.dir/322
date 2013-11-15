@@ -1,0 +1,329 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1974 322         
+MTSSSDRSESSSSSISLSSSSRQQSEQRSYSPVYEEEQDHSHDGGNTHEVTQDSSNQNSGSGSTNVTHFGAESTRSPSPQ      80
+SASSSSKRTKSTSSSSSSSKKQKGVTAVVMVSEEGVSRIVATQSSSEQSEDVTSRSSRKSESSKSSRKEKSESRKFTRSE     160
+TSISSKSSRKGKSESSKSSRSSEKSESSRSRSSSRKHSEKSSSRHSSKKTTVSIYSEGSYQYDHTDDLISPEPSDASSIQ     240
+TSVSAASEVKDEIKELGSTLLRSLSQNSLPNVKSSPSFTGSPAEDDFTEENSVFTEGSRSSHGSRSKFEEPRSVDSRSEE     320
+SRSDKKGSSGGKSGTSIEISGSSVHPLGRSRSYNTSTGVSEENDEKFNEGASDDEGSMIVYSHDDNDSVILHDSEEDIQE     400
+VSSHSYKQYLQQDEESSSESEDVVEVQEVVHHAAPDHAPSQHTNDGPTTTRSQSPERDDSESRERHRNREQSPDDRPESG     480
+GENRDQSPDHRLESGSEGELSISVEDVTQDEGVSVTDISNDSHNPDNLEFYYDEYRSPVAVYIQSPTKSQVTITYSKKSH     560
+ISWTETASSSTSMSHSQPEIQADEEDGGMSEGEVVSESVVESPLSESEEEEIEEVELQQSQHPEEENEEEEEEEDDIPSS     640
+YHPSWDFPSEHHSSLPVLLTSIIIDPEEDEPSTSESGAYTPGFTLHSGSSITAATDSEEIAYFGPESTVTTSRGLLQLAS     720
+ATSLTESVLDSELYDDTIVLKEEIAAAKSSHSIVLETAMKILHSKSSENVATLVQDLERTLDASDYPVADEIDPLTEDQK     800
+RVIETAEKILENRGESELGDLYQMLIQNTGEVDEDTAIERVLSLISASDSATSAATDELTEILSFCRSTLQDKKSQFMKA     880
+REKLAGRLSAEPFYDPEKDPIRRRISRVRESNEGDLEAVSARYHEAQENLKREFERDAEMIRGYQTVILPVRDSAAWAAL     960
+RSLLSAEYTPEEVDYIMRTGRRFQVPRKPAPPEPEKKSPARNWDHVRKLVAQRQQPRTRRIKLEGEVCDIPDHIAKRMIE    1040
+SQKRQEARRLEIEQGEICEIPRDVEKRMYNAAKKIRKMVSYSNKFAEIVRAQKKRAEEEEQRRLEEEASREEARKKEEEE    1120
+KKKIEEEKRIAREEIERIRQQLEKEREAERLKQEEEEKRRVEEERLRIEAEELREEVERLRKEDEERRMAVRSPSYSSST    1200
+LPDVSFEEIIDADQFGNSNDTTPVPSPVSSQSGIYRTSSIFTPCLTRTSLGTQTDFSTEQHQNTCISTPDFTRRFTYGRN    1280
+LDRRNELLLYGGTDGPFLNRVPREGDHNRTPQQEIAQWTRTSQVSTTGELSFYNLLSLHHLPDVEPACLLPTCPCCTTNT    1360
+ETIHSLRKRLKVMVGKLNEHTEFTLYTLLEMSMFLLEDPDRREHAIDTLEHMDSRFWRNSEDLEIYRKVMLMLHFIEMER    1440
+KDGEKERSFKGKCDRVLTQLLADHRAMPDSTTHVFGSHLLLEEERRRFRNTVDQLEKQRAEAQEEVDDLINALRRERDLG    1520
+DEEIIFLKAQLRGITATKYENEDKVETLEKSLRAPLPPYFSLLVSLSLSPSLSLSLSLSLSLSLSLSLALSLSLSLSLHL    1600
+RSLLPDNENLKEELKKEIYKRKKLKERFLELQDLVNDESVVLVKEVEKRDEEIQTLKDEIDDLKDQITQTEEERDTAKDK    1680
+EDKLLEECERLATAVDDLEDQLKAAQRDITAYKIVLEEKGVNTDEVDGDEVVQAKADLEEAKQDKVALEEQLVELKEALE    1760
+EGEKELVESLEEKDKKIGQLKRALDDNEYLHQTKEDDLYLQNEQLNEAVENLQEQLKNITASGELPPEMGVSQEKYDQLL    1840
+GEVEKMDKERVKLQNHYKDLKSYIDKDTADLIAEIQERDAVIESMNEKLHDLDAIDQLQAELDWTKKQRKVDEQKMAELR    1920
+NAITQVCVHNSYHGYLQVLPWLPLNITSVTMVTTNCYHNNHHLFPGQEGDSGGQ                              2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+.........................................................P......................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+......................................................                              2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+322              7    MTSSSDR|SE  0.153    .
+322             22    SLSSSSR|QQ  0.135    .
+322             28    RQQSEQR|SY  0.176    .
+322             75    FGAESTR|SP  0.146    .
+322             87    SASSSSK|RT  0.066    .
+322             88    ASSSSKR|TK  0.336    .
+322             90    SSSKRTK|ST  0.151    .
+322            100    SSSSSSK|KQ  0.074    .
+322            101    SSSSSKK|QK  0.183    .
+322            103    SSSKKQK|GV  0.196    .
+322            118    SEEGVSR|IV  0.111    .
+322            135    SEDVTSR|SS  0.222    .
+322            138    VTSRSSR|KS  0.382    .
+322            139    TSRSSRK|SE  0.136    .
+322            144    RKSESSK|SS  0.118    .
+322            147    ESSKSSR|KE  0.092    .
+322            148    SSKSSRK|EK  0.105    .
+322            150    KSSRKEK|SE  0.482    .
+322            154    KEKSESR|KF  0.096    .
+322            155    EKSESRK|FT  0.144    .
+322            158    ESRKFTR|SE  0.131    .
+322            166    ETSISSK|SS  0.109    .
+322            169    ISSKSSR|KG  0.100    .
+322            170    SSKSSRK|GK  0.109    .
+322            172    KSSRKGK|SE  0.388    .
+322            177    GKSESSK|SS  0.143    .
+322            180    ESSKSSR|SS  0.423    .
+322            184    SSRSSEK|SE  0.087    .
+322            189    EKSESSR|SR  0.192    .
+322            191    SESSRSR|SS  0.232    .
+322            195    RSRSSSR|KH  0.102    .
+322            196    SRSSSRK|HS  0.199    .
+322            200    SRKHSEK|SS  0.106    .
+322            204    SEKSSSR|HS  0.119    .
+322            208    SSRHSSK|KT  0.086    .
+322            209    SRHSSKK|TT  0.147    .
+322            250    SAASEVK|DE  0.080    .
+322            254    EVKDEIK|EL  0.068    .
+322            262    LGSTLLR|SL  0.126    .
+322            273    NSLPNVK|SS  0.062    .
+322            299    VFTEGSR|SS  0.098    .
+322            305    RSSHGSR|SK  0.213    .
+322            307    SHGSRSK|FE  0.067    .
+322            312    SKFEEPR|SV  0.188    .
+322            317    PRSVDSR|SE  0.143    .
+322            322    SRSEESR|SD  0.240    .
+322            325    EESRSDK|KG  0.198    .
+322            326    ESRSDKK|GS  0.133    .
+322            332    KGSSGGK|SG  0.091    .
+322            349    SVHPLGR|SR  0.150    .
+322            351    HPLGRSR|SY  0.129    .
+322            366    SEENDEK|FN  0.069    .
+322            407    VSSHSYK|QY  0.088    .
+322            451    DGPTTTR|SQ  0.127    .
+322            457    RSQSPER|DD  0.144    .
+322            463    RDDSESR|ER  0.081    .
+322            465    DSESRER|HR  0.076    .
+322            467    ESRERHR|NR  0.105    .
+322            469    RERHRNR|EQ  0.118    .
+322            476    EQSPDDR|PE  0.113    .
+322            484    ESGGENR|DQ  0.115    .
+322            491    DQSPDHR|LE  0.109    .
+322            536    FYYDEYR|SP  0.096    .
+322            548    YIQSPTK|SQ  0.074    .
+322            557    VTITYSK|KS  0.057    .
+322            558    TITYSKK|SH  0.134    .
+322            713    STVTTSR|GL  0.087    .
+322            741    DDTIVLK|EE  0.060    .
+322            748    EEIAAAK|SS  0.083    .
+322            760    VLETAMK|IL  0.058    .
+322            765    MKILHSK|SS  0.101    .
+322            779    LVQDLER|TL  0.086    .
+322            800    PLTEDQK|RV  0.060    .
+322            801    LTEDQKR|VI  0.261    .
+322            808    VIETAEK|IL  0.061    .
+322            813    EKILENR|GE  0.090    .
+322            840    EDTAIER|VL  0.072    .
+322            867    EILSFCR|ST  0.097    .
+322            873    RSTLQDK|KS  0.056    .
+322            874    STLQDKK|SQ  0.103    .
+322            879    KKSQFMK|AR  0.082    .
+322            881    SQFMKAR|EK  0.133    .
+322            883    FMKAREK|LA  0.064    .
+322            887    REKLAGR|LS  0.075    .
+322            898    PFYDPEK|DP  0.060    .
+322            902    PEKDPIR|RR  0.068    .
+322            903    EKDPIRR|RI  0.156    .
+322            904    KDPIRRR|IS  0.129    .
+322            907    IRRRISR|VR  0.341    .
+322            909    RRISRVR|ES  0.101    .
+322            922    LEAVSAR|YH  0.230    .
+322            931    EAQENLK|RE  0.054    .
+322            932    AQENLKR|EF  0.162    .
+322            936    LKREFER|DA  0.246    .
+322            942    RDAEMIR|GY  0.099    .
+322            952    TVILPVR|DS  0.088    .
+322            961    AAWAALR|SL  0.119    .
+322            978    EVDYIMR|TG  0.066    .
+322            981    YIMRTGR|RF  0.168    .
+322            982    IMRTGRR|FQ  0.121    .
+322            987    RRFQVPR|KP  0.107    .
+322            988    RFQVPRK|PA  0.093    .
+322            996    APPEPEK|KS  0.057    .
+322            997    PPEPEKK|SP  0.143    .
+322           1001    EKKSPAR|NW  0.152    .
+322           1007    RNWDHVR|KL  0.117    .
+322           1008    NWDHVRK|LV  0.105    .
+322           1013    RKLVAQR|QQ  0.079    .
+322           1017    AQRQQPR|TR  0.098    .
+322           1019    RQQPRTR|RI  0.093    .
+322           1020    QQPRTRR|IK  0.422    .
+322           1022    PRTRRIK|LE  0.141    .
+322           1036    IPDHIAK|RM  0.067    .
+322           1037    PDHIAKR|MI  0.320    .
+322           1043    RMIESQK|RQ  0.064    .
+322           1044    MIESQKR|QE  0.140    .
+322           1048    QKRQEAR|RL  0.159    .
+322           1049    KRQEARR|LE  0.162    .
+322           1062    EICEIPR|DV  0.149    .
+322           1066    IPRDVEK|RM  0.064    .
+322           1067    PRDVEKR|MY  0.260    .
+322           1073    RMYNAAK|KI  0.081    .
+322           1074    MYNAAKK|IR  0.082    .
+322           1076    NAAKKIR|KM  0.083    .
+322           1077    AAKKIRK|MV  0.138    .
+322           1084    MVSYSNK|FA  0.139    .
+322           1090    KFAEIVR|AQ  0.073    .
+322           1093    EIVRAQK|KR  0.096    .
+322           1094    IVRAQKK|RA  0.149    .
+322           1095    VRAQKKR|AE  0.392    .
+322           1102    AEEEEQR|RL  0.077    .
+322           1103    EEEEQRR|LE  0.103    .
+322           1110    LEEEASR|EE  0.072    .
+322           1114    ASREEAR|KK  0.139    .
+322           1115    SREEARK|KE  0.090    .
+322           1116    REEARKK|EE  0.111    .
+322           1121    KKEEEEK|KK  0.067    .
+322           1122    KEEEEKK|KI  0.118    .
+322           1123    EEEEKKK|IE  0.101    .
+322           1128    KKIEEEK|RI  0.073    .
+322           1129    KIEEEKR|IA  0.208    .
+322           1132    EEKRIAR|EE  0.195    .
+322           1137    AREEIER|IR  0.082    .
+322           1139    EEIERIR|QQ  0.081    .
+322           1144    IRQQLEK|ER  0.072    .
+322           1146    QQLEKER|EA  0.095    .
+322           1150    KEREAER|LK  0.079    .
+322           1152    REAERLK|QE  0.063    .
+322           1158    KQEEEEK|RR  0.057    .
+322           1159    QEEEEKR|RV  0.227    .
+322           1160    EEEEKRR|VE  0.115    .
+322           1165    RRVEEER|LR  0.107    .
+322           1167    VEEERLR|IE  0.073    .
+322           1174    IEAEELR|EE  0.068    .
+322           1179    LREEVER|LR  0.082    .
+322           1181    EEVERLR|KE  0.077    .
+322           1182    EVERLRK|ED  0.149    .
+322           1187    RKEDEER|RM  0.073    .
+322           1188    KEDEERR|MA  0.130    .
+322           1192    ERRMAVR|SP  0.145    .
+322           1236    SQSGIYR|TS  0.126    .
+322           1247    FTPCLTR|TS  0.068    .
+322           1273    STPDFTR|RF  0.082    .
+322           1274    TPDFTRR|FT  0.181    .
+322           1279    RRFTYGR|NL  0.095    .
+322           1283    YGRNLDR|RN  0.082    .
+322           1284    GRNLDRR|NE  0.113    .
+322           1300    DGPFLNR|VP  0.072    .
+322           1303    FLNRVPR|EG  0.373    .
+322           1309    REGDHNR|TP  0.107    .
+322           1320    EIAQWTR|TS  0.089    .
+322           1367    ETIHSLR|KR  0.080    .
+322           1368    TIHSLRK|RL  0.076    .
+322           1369    IHSLRKR|LK  0.210    .
+322           1371    SLRKRLK|VM  0.069    .
+322           1376    LKVMVGK|LN  0.078    .
+322           1401    LLEDPDR|RE  0.080    .
+322           1402    LEDPDRR|EH  0.085    .
+322           1415    LEHMDSR|FW  0.129    .
+322           1418    MDSRFWR|NS  0.603 *ProP*
+322           1427    EDLEIYR|KV  0.093    .
+322           1428    DLEIYRK|VM  0.059    .
+322           1440    HFIEMER|KD  0.096    .
+322           1441    FIEMERK|DG  0.101    .
+322           1445    ERKDGEK|ER  0.063    .
+322           1447    KDGEKER|SF  0.182    .
+322           1450    EKERSFK|GK  0.164    .
+322           1452    ERSFKGK|CD  0.097    .
+322           1455    FKGKCDR|VL  0.107    .
+322           1465    QLLADHR|AM  0.080    .
+322           1485    LLLEEER|RR  0.068    .
+322           1486    LLEEERR|RF  0.113    .
+322           1487    LEEERRR|FR  0.117    .
+322           1489    EERRRFR|NT  0.306    .
+322           1497    TVDQLEK|QR  0.062    .
+322           1499    DQLEKQR|AE  0.085    .
+322           1514    DLINALR|RE  0.077    .
+322           1515    LINALRR|ER  0.124    .
+322           1517    NALRRER|DL  0.432    .
+322           1528    EEIIFLK|AQ  0.060    .
+322           1532    FLKAQLR|GI  0.095    .
+322           1538    RGITATK|YE  0.060    .
+322           1544    KYENEDK|VE  0.054    .
+322           1550    KVETLEK|SL  0.080    .
+322           1553    TLEKSLR|AP  0.079    .
+322           1601    SLSLHLR|SL  0.137    .
+322           1611    PDNENLK|EE  0.057    .
+322           1615    NLKEELK|KE  0.056    .
+322           1616    LKEELKK|EI  0.105    .
+322           1620    LKKEIYK|RK  0.062    .
+322           1621    KKEIYKR|KK  0.196    .
+322           1622    KEIYKRK|KL  0.088    .
+322           1623    EIYKRKK|LK  0.098    .
+322           1625    YKRKKLK|ER  0.073    .
+322           1627    RKKLKER|FL  0.121    .
+322           1644    ESVVLVK|EV  0.077    .
+322           1648    LVKEVEK|RD  0.061    .
+322           1649    VKEVEKR|DE  0.259    .
+322           1657    EEIQTLK|DE  0.066    .
+322           1664    DEIDDLK|DQ  0.066    .
+322           1674    TQTEEER|DT  0.092    .
+322           1678    EERDTAK|DK  0.098    .
+322           1680    RDTAKDK|ED  0.063    .
+322           1683    AKDKEDK|LL  0.071    .
+322           1690    LLEECER|LA  0.095    .
+322           1703    DLEDQLK|AA  0.068    .
+322           1707    QLKAAQR|DI  0.127    .
+322           1713    RDITAYK|IV  0.071    .
+322           1719    KIVLEEK|GV  0.085    .
+322           1735    DEVVQAK|AD  0.064    .
+322           1742    ADLEEAK|QD  0.069    .
+322           1745    EEAKQDK|VA  0.068    .
+322           1756    EQLVELK|EA  0.058    .
+322           1764    ALEEGEK|EL  0.055    .
+322           1773    VESLEEK|DK  0.075    .
+322           1775    SLEEKDK|KI  0.078    .
+322           1776    LEEKDKK|IG  0.081    .
+322           1781    KKIGQLK|RA  0.065    .
+322           1782    KIGQLKR|AL  0.332    .
+322           1794    EYLHQTK|ED  0.060    .
+322           1817    NLQEQLK|NI  0.072    .
+322           1835    MGVSQEK|YD  0.063    .
+322           1845    LLGEVEK|MD  0.059    .
+322           1848    EVEKMDK|ER  0.055    .
+322           1850    EKMDKER|VK  0.085    .
+322           1852    MDKERVK|LQ  0.065    .
+322           1858    KLQNHYK|DL  0.084    .
+322           1861    NHYKDLK|SY  0.079    .
+322           1866    LKSYIDK|DT  0.092    .
+322           1878    IAEIQER|DA  0.110    .
+322           1888    IESMNEK|LH  0.059    .
+322           1906    AELDWTK|KQ  0.060    .
+322           1907    ELDWTKK|QR  0.080    .
+322           1909    DWTKKQR|KV  0.183    .
+322           1910    WTKKQRK|VD  0.097    .
+322           1915    RKVDEQK|MA  0.069    .
+322           1920    QKMAELR|NA  0.116    .
+____________________________^_________________
+
+
+
+

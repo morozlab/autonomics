@@ -1,0 +1,330 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1981 320         
+MRADEKFDLSFKILTVGESGVGKVTFGCKQPIRTRYLGHVTGDWLSANQGPVFPESVGSLGSFNFTPILRSLKALQAYLS      80
+FLFDFLPTHLSPHAVSHTHIVGNKSDKQFKRVVSQEKGAELAANYGIEFLETSAKCGENVDKIYFRNDNTGRFLRITSSP     160
+AQINLFKVVLKSFKLYTRLQSKINTISLYPNYATQKQPIGQLIDCVICVIYIILTPLPIRKLFEPHKAAFNFAMGEGLEH     240
+AVRDLAPEELLNGDGKRSYTRTPIYRDARGKGFHLVNRGTGISGPGKSGSNYTSLFPHSGCWPLLSAFYPPFPITSGNIH     320
+WVIRFSFLRHFCDFQTRSFLSLPPPYPSSEKITLPWPSHLDPMCKSIEPQFLSKHFKSMVDIVALGHTDFYIQRRAYNLN     400
+MCIGPNNYRCFDFIWGRNSLNFLWRGSLSSCPLVNRGTGISGPGKSGSNYTSLFPHSGCWLDQTAQKLTLHYLTDGQVMV     480
+SFAHTKALYYIPVALILKSLVAVTDKEIFDRLVEGKEDDKLYCNCVTTMLRLAQKEAGTYEQRERERERERESERERVRE     560
+REREKERDKLYAFKDGECAEESADNPAMQEVMLGGHLYLALLKERVEMWLKTLRIEMEKTIRNSDVPVDVLSDGRFIKFL     640
+GRLPNIGQALQYFLATGNLKSQSGLDMMQNSGLAIVGDKLNYFRWLSHFSVREGRPTECEVSSIPTPPPGVNIDKFNLLL     720
+YMVRKLYAFKDGECAEESADNPAMQEVMLGGHLYLALLKERVEMWLKTLRIEMEKTIRNSDVPVDVLSDGRFIKFLGRLP     800
+NIGQALQYFLATGNLKSQSGLDMMQNSGLAIVGDKLNYFRWLSHFRLDTPAPFIHPDKSTRSPFNNTQHPSPSPLIINPY     880
+PPLDNEITPCQRARRSPDRVGAFFTEMRTTAVRKLRPEAWGFICPIHTPDGTPCGLLNHLAADVDVTTEMVQDHDIKRHL     960
+VRLGVNPISGPRCGVYVILEGAVIGTVPAKRADSFAKLILEKKVQQIEGLYSDGPVFPGLYIFIGPTRMMRPVRNIVLNS    1040
+REMIGSFEQVYLHVCISKEEYEEGVTTHQELSPTNILSTLGHLIPYMNLNPAPRQTDRQIDRQTDRQTDRQTDRQTDRQT    1120
+DRQTDRQKDRQQTNKQTNTQTNTQINKQTNKQTNPPGRWNLDDFPLGTNAIVAVISYTGYDMEDALIINKGSYERGFAHA    1200
+NILKTSIYDLAPKGNTTEIFGWDPVAFAAAGKSEPPNYNLDSDGLPPIGTKLQYDDPLYSTLDIATGQCKVKRYQGLEPA    1280
+FVHSIRALGNETGTGMLQKVAITLRSTRNPTIGDKFASRHGQKGVCSMMWPAESMPFTEGGIVPDIMFNPHGYPSRMTIG    1360
+MMIETMAGKACAAHGITQDCSAFLHGDGAADEHVGELLKTAGYNYYGTETMYSGQTGNEFEADIFIGLVYYQRLRHMVSD    1440
+KYQREREREREREREREREREREREREREREREREREREREGERERERQRKIKKENVCEREIGKDRIEGREGKQMQDAIT    1520
+DHVSLFVLEDLSLSLSHSLSHSLSLSPFSLKPKQVSNFSQTTTTILTGGLSVLDHRKRPKAVHYENLDHRSKLYNNEVKL    1600
+SGAATPSERTVKWGLSSLDSDAPLTNTGCLVRTTGPVDQLTRQPIKGRKRAGGIRFGEMERDALISHGTAFVMNDRLLNC    1680
+SDIAVTKVCKTCGKTVGVYSAAHHTSKQAWKCKVCGDKSEVVSVKLPYVYSYLTAELAAMNISLSTAGKNNACPTGAKRW    1760
+PKRGICYKESREGKNFRDAEQEFLISYLAANLTFSLTHTRPTICSGLNREGKLEKYLGRAGLEPTTSALHVHCSNLLATS    1840
+LLNRSHSLIILFLTYVIHVVIRKLFLITRIIALCIHNAVFPCPTVSHVTAKRIKACLWYIIYPLTLDSTHKMTLCMFLKF    1920
+LKFLKKTSKTQRARREASYIIISIVDGSIWTTETMILLQEINHTTVSSNIDIIRLKLICLK                       2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+..............P.................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+..............P..............................................                       2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+320              2    -----MR|AD  0.102    .
+320              6    -MRADEK|FD  0.055    .
+320             12    KFDLSFK|IL  0.067    .
+320             23    GESGVGK|VT  0.072    .
+320             29    KVTFGCK|QP  0.055    .
+320             33    GCKQPIR|TR  0.082    .
+320             35    KQPIRTR|YL  0.123    .
+320             70    NFTPILR|SL  0.099    .
+320             73    PILRSLK|AL  0.114    .
+320            104    THIVGNK|SD  0.078    .
+320            107    VGNKSDK|QF  0.076    .
+320            110    KSDKQFK|RV  0.091    .
+320            111    SDKQFKR|VV  0.459    .
+320            117    RVVSQEK|GA  0.073    .
+320            135    FLETSAK|CG  0.068    .
+320            142    CGENVDK|IY  0.070    .
+320            146    VDKIYFR|ND  0.093    .
+320            152    RNDNTGR|FL  0.088    .
+320            155    NTGRFLR|IT  0.208    .
+320            167    AQINLFK|VV  0.072    .
+320            171    LFKVVLK|SF  0.073    .
+320            174    VVLKSFK|LY  0.058    .
+320            178    SFKLYTR|LQ  0.088    .
+320            182    YTRLQSK|IN  0.062    .
+320            196    PNYATQK|QP  0.067    .
+320            220    LTPLPIR|KL  0.071    .
+320            221    TPLPIRK|LF  0.092    .
+320            227    KLFEPHK|AA  0.073    .
+320            243    GLEHAVR|DL  0.119    .
+320            256    LLNGDGK|RS  0.067    .
+320            257    LNGDGKR|SY  0.259    .
+320            261    GKRSYTR|TP  0.073    .
+320            266    TRTPIYR|DA  0.213    .
+320            269    PIYRDAR|GK  0.324    .
+320            271    YRDARGK|GF  0.076    .
+320            278    GFHLVNR|GT  0.180    .
+320            287    GISGPGK|SG  0.095    .
+320            324    NIHWVIR|FS  0.093    .
+320            329    IRFSFLR|HF  0.108    .
+320            337    FCDFQTR|SF  0.093    .
+320            351    PYPSSEK|IT  0.058    .
+320            365    HLDPMCK|SI  0.118    .
+320            374    EPQFLSK|HF  0.067    .
+320            377    FLSKHFK|SM  0.120    .
+320            394    TDFYIQR|RA  0.091    .
+320            395    DFYIQRR|AY  0.116    .
+320            409    IGPNNYR|CF  0.075    .
+320            417    FDFIWGR|NS  0.072    .
+320            425    SLNFLWR|GS  0.106    .
+320            436    SCPLVNR|GT  0.136    .
+320            445    GISGPGK|SG  0.095    .
+320            467    LDQTAQK|LT  0.070    .
+320            486    VSFAHTK|AL  0.072    .
+320            498    PVALILK|SL  0.070    .
+320            506    LVAVTDK|EI  0.071    .
+320            511    DKEIFDR|LV  0.173    .
+320            516    DRLVEGK|ED  0.067    .
+320            520    EGKEDDK|LY  0.058    .
+320            531    CVTTMLR|LA  0.076    .
+320            535    MLRLAQK|EA  0.097    .
+320            543    AGTYEQR|ER  0.076    .
+320            545    TYEQRER|ER  0.095    .
+320            547    EQRERER|ER  0.081    .
+320            549    RERERER|ER  0.097    .
+320            551    RERERER|ES  0.101    .
+320            555    RERESER|ER  0.080    .
+320            557    RESERER|VR  0.095    .
+320            559    SERERVR|ER  0.081    .
+320            561    RERVRER|ER  0.107    .
+320            563    RVRERER|EK  0.077    .
+320            565    REREREK|ER  0.062    .
+320            567    REREKER|DK  0.134    .
+320            569    REKERDK|LY  0.058    .
+320            574    DKLYAFK|DG  0.079    .
+320            603    LYLALLK|ER  0.049    .
+320            605    LALLKER|VE  0.067    .
+320            611    RVEMWLK|TL  0.058    .
+320            614    MWLKTLR|IE  0.068    .
+320            619    LRIEMEK|TI  0.065    .
+320            622    EMEKTIR|NS  0.077    .
+320            635    DVLSDGR|FI  0.073    .
+320            638    SDGRFIK|FL  0.235    .
+320            642    FIKFLGR|LP  0.076    .
+320            660    LATGNLK|SQ  0.075    .
+320            679    LAIVGDK|LN  0.055    .
+320            684    DKLNYFR|WL  0.083    .
+320            692    LSHFSVR|EG  0.113    .
+320            695    FSVREGR|PT  0.315    .
+320            715    PGVNIDK|FN  0.058    .
+320            724    LLLYMVR|KL  0.081    .
+320            725    LLYMVRK|LY  0.076    .
+320            730    RKLYAFK|DG  0.080    .
+320            759    LYLALLK|ER  0.049    .
+320            761    LALLKER|VE  0.067    .
+320            767    RVEMWLK|TL  0.058    .
+320            770    MWLKTLR|IE  0.068    .
+320            775    LRIEMEK|TI  0.065    .
+320            778    EMEKTIR|NS  0.077    .
+320            791    DVLSDGR|FI  0.073    .
+320            794    SDGRFIK|FL  0.235    .
+320            798    FIKFLGR|LP  0.076    .
+320            816    LATGNLK|SQ  0.075    .
+320            835    LAIVGDK|LN  0.055    .
+320            840    DKLNYFR|WL  0.093    .
+320            846    RWLSHFR|LD  0.087    .
+320            858    PFIHPDK|ST  0.078    .
+320            861    HPDKSTR|SP  0.138    .
+320            892    EITPCQR|AR  0.064    .
+320            894    TPCQRAR|RS  0.111    .
+320            895    PCQRARR|SP  0.706 *ProP*
+320            899    ARRSPDR|VG  0.088    .
+320            908    AFFTEMR|TT  0.069    .
+320            913    MRTTAVR|KL  0.096    .
+320            914    RTTAVRK|LR  0.070    .
+320            916    TAVRKLR|PE  0.291    .
+320            957    VQDHDIK|RH  0.055    .
+320            958    QDHDIKR|HL  0.176    .
+320            962    IKRHLVR|LG  0.087    .
+320            972    NPISGPR|CG  0.071    .
+320            990    IGTVPAK|RA  0.068    .
+320            991    GTVPAKR|AD  0.159    .
+320            997    RADSFAK|LI  0.071    .
+320           1002    AKLILEK|KV  0.080    .
+320           1003    KLILEKK|VQ  0.078    .
+320           1028    IFIGPTR|MM  0.097    .
+320           1031    GPTRMMR|PV  0.353    .
+320           1034    RMMRPVR|NI  0.228    .
+320           1041    NIVLNSR|EM  0.081    .
+320           1058    LHVCISK|EE  0.064    .
+320           1094    NLNPAPR|QT  0.145    .
+320           1098    APRQTDR|QI  0.151    .
+320           1102    TDRQIDR|QT  0.139    .
+320           1106    IDRQTDR|QT  0.130    .
+320           1110    TDRQTDR|QT  0.142    .
+320           1114    TDRQTDR|QT  0.142    .
+320           1118    TDRQTDR|QT  0.142    .
+320           1122    TDRQTDR|QT  0.129    .
+320           1126    TDRQTDR|QK  0.138    .
+320           1128    RQTDRQK|DR  0.070    .
+320           1130    TDRQKDR|QQ  0.134    .
+320           1135    DRQQTNK|QT  0.090    .
+320           1147    TNTQINK|QT  0.069    .
+320           1151    INKQTNK|QT  0.071    .
+320           1158    QTNPPGR|WN  0.115    .
+320           1190    DALIINK|GS  0.057    .
+320           1195    NKGSYER|GF  0.082    .
+320           1204    AHANILK|TS  0.058    .
+320           1213    IYDLAPK|GN  0.067    .
+320           1232    AFAAAGK|SE  0.069    .
+320           1251    LPPIGTK|LQ  0.056    .
+320           1270    IATGQCK|VK  0.061    .
+320           1272    TGQCKVK|RY  0.080    .
+320           1273    GQCKVKR|YQ  0.252    .
+320           1286    AFVHSIR|AL  0.143    .
+320           1299    GTGMLQK|VA  0.074    .
+320           1305    KVAITLR|ST  0.110    .
+320           1308    ITLRSTR|NP  0.175    .
+320           1315    NPTIGDK|FA  0.073    .
+320           1319    GDKFASR|HG  0.112    .
+320           1323    ASRHGQK|GV  0.085    .
+320           1356    PHGYPSR|MT  0.101    .
+320           1369    IETMAGK|AC  0.064    .
+320           1399    HVGELLK|TA  0.064    .
+320           1433    GLVYYQR|LR  0.071    .
+320           1435    VYYQRLR|HM  0.066    .
+320           1441    RHMVSDK|YQ  0.075    .
+320           1444    VSDKYQR|ER  0.082    .
+320           1446    DKYQRER|ER  0.092    .
+320           1448    YQRERER|ER  0.089    .
+320           1450    RERERER|ER  0.090    .
+320           1452    RERERER|ER  0.091    .
+320           1454    RERERER|ER  0.090    .
+320           1456    RERERER|ER  0.090    .
+320           1458    RERERER|ER  0.090    .
+320           1460    RERERER|ER  0.090    .
+320           1462    RERERER|ER  0.090    .
+320           1464    RERERER|ER  0.090    .
+320           1466    RERERER|ER  0.090    .
+320           1468    RERERER|ER  0.090    .
+320           1470    RERERER|ER  0.090    .
+320           1472    RERERER|ER  0.090    .
+320           1474    RERERER|ER  0.098    .
+320           1476    RERERER|ER  0.093    .
+320           1478    RERERER|ER  0.093    .
+320           1480    RERERER|EG  0.090    .
+320           1484    REREGER|ER  0.083    .
+320           1486    REGERER|ER  0.078    .
+320           1488    GERERER|QR  0.084    .
+320           1490    RERERQR|KI  0.102    .
+320           1491    ERERQRK|IK  0.261    .
+320           1493    ERQRKIK|KE  0.181    .
+320           1494    RQRKIKK|EN  0.101    .
+320           1500    KENVCER|EI  0.140    .
+320           1504    CEREIGK|DR  0.074    .
+320           1506    REIGKDR|IE  0.118    .
+320           1510    KDRIEGR|EG  0.118    .
+320           1513    IEGREGK|QM  0.163    .
+320           1551    LSPFSLK|PK  0.063    .
+320           1553    PFSLKPK|QV  0.095    .
+320           1576    LSVLDHR|KR  0.078    .
+320           1577    SVLDHRK|RP  0.069    .
+320           1578    VLDHRKR|PK  0.135    .
+320           1580    DHRKRPK|AV  0.104    .
+320           1590    YENLDHR|SK  0.100    .
+320           1592    NLDHRSK|LY  0.059    .
+320           1599    LYNNEVK|LS  0.083    .
+320           1609    AATPSER|TV  0.130    .
+320           1612    PSERTVK|WG  0.115    .
+320           1632    NTGCLVR|TT  0.098    .
+320           1642    PVDQLTR|QP  0.080    .
+320           1646    LTRQPIK|GR  0.067    .
+320           1648    RQPIKGR|KR  0.096    .
+320           1649    QPIKGRK|RA  0.132    .
+320           1650    PIKGRKR|AG  0.188    .
+320           1655    KRAGGIR|FG  0.126    .
+320           1661    RFGEMER|DA  0.103    .
+320           1676    AFVMNDR|LL  0.072    .
+320           1687    SDIAVTK|VC  0.068    .
+320           1690    AVTKVCK|TC  0.065    .
+320           1694    VCKTCGK|TV  0.077    .
+320           1707    AAHHTSK|QA  0.083    .
+320           1711    TSKQAWK|CK  0.077    .
+320           1713    KQAWKCK|VC  0.084    .
+320           1718    CKVCGDK|SE  0.068    .
+320           1725    SEVVSVK|LP  0.059    .
+320           1749    SLSTAGK|NN  0.064    .
+320           1758    ACPTGAK|RW  0.055    .
+320           1759    CPTGAKR|WP  0.143    .
+320           1762    GAKRWPK|RG  0.121    .
+320           1763    AKRWPKR|GI  0.429    .
+320           1768    KRGICYK|ES  0.074    .
+320           1771    ICYKESR|EG  0.080    .
+320           1774    KESREGK|NF  0.250    .
+320           1777    REGKNFR|DA  0.264    .
+320           1800    FSLTHTR|PT  0.086    .
+320           1809    ICSGLNR|EG  0.075    .
+320           1812    GLNREGK|LE  0.121    .
+320           1815    REGKLEK|YL  0.085    .
+320           1819    LEKYLGR|AG  0.077    .
+320           1844    ATSLLNR|SH  0.124    .
+320           1862    VIHVVIR|KL  0.098    .
+320           1863    IHVVIRK|LF  0.066    .
+320           1869    KLFLITR|II  0.084    .
+320           1891    VSHVTAK|RI  0.090    .
+320           1892    SHVTAKR|IK  0.118    .
+320           1894    VTAKRIK|AC  0.062    .
+320           1911    TLDSTHK|MT  0.062    .
+320           1919    TLCMFLK|FL  0.069    .
+320           1922    MFLKFLK|FL  0.061    .
+320           1925    KFLKFLK|KT  0.069    .
+320           1926    FLKFLKK|TS  0.094    .
+320           1929    FLKKTSK|TQ  0.064    .
+320           1932    KTSKTQR|AR  0.099    .
+320           1934    SKTQRAR|RE  0.077    .
+320           1935    KTQRARR|EA  0.650 *ProP*
+320           1974    SNIDIIR|LK  0.086    .
+320           1976    IDIIRLK|LI  0.061    .
+320           1981    LKLICLK|--  0.061    .
+____________________________^_________________
+
+
+
+

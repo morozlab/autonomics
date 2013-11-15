@@ -1,0 +1,286 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1655 486         
+MPFTYNYTQLKSYLVGVLHHTFKDITVTSGGCPPAKTSGKVPELFYPEEVNAGIAEGIKGHAENFAMEREREERNYFQLE      80
+RDKINTFWEITKRQLDEGKALLRNKDREMEDMEERHQVYKQKVKHLLYEHQNNITELKADSTLTLKLEQDEHRGNEGDLR     160
+KDKRSLKIQLKELELSHEDVIKNLKKQHDEAITALRQDSERHAKELQAKYEKKMKVLREELELRRKTEIHEIEERKNGQI     240
+NTLMKNHEKAFSDIKNYYNDITLNNLALINSLKEQVEDMKKKEERSEKQMSEIQAENKRLKEPLEKAKAEVSELKKQLAN     320
+YQKDKQSLQSAKARLKVQEQDLKALNWEHEVLEQRFKQSAKARLKVQEQDLKALNWEHEVLEQRFKQVQQERDDLYSKFV     400
+SAIHERTCSKRRRLSSTRFVTQRQGKNRNRPNQEILVPDWLTNVGSCYKTKHLAHEFSLVLSASNLDATALTVVTRKLED     480
+VLDSKNSAIKDLQYELARVCKAHNDLMRTYEAKLNMFGIPTEELGFRPLESTVGGQPLGQGPAGLKIKVKSENRDPHKMS     560
+SKFIGETIVCVRWRPPANTVLGSTDQCLTVSYSSTAQSVSLWECNKEKIKRVAVSCLDEKPSSLGMVNNKTFVVGYEDSC     640
+DSALQVYSRTPIYRLDLGFCTYRCKLKRKIKGEEPLAYGNVAPIEPYRENPSLALTCSRGIQLAARWKSVTRKFATSILF     720
+HIGFSSHKMSSKFIGETIVCVRWRPPANTVLGSTDQCLTVSYSSTAQSVSLWECNKEKIKRVAVSCLDEKPSSLGMVNNK     800
+TFVVGYEDSCDSALQVWAIGPSNQLTRLTELKTPNRKTTQISTSEKLVASVGEEGHLQVHTIQGGRPVYGAKAGMCLNAC     880
+TQYLGHSILVGSSAGQLHCYDTRSTDATPASTMSSDLVSGPFKTHAAFLHEMTQFNGLTSHQGLTYASLMPVNEVPRIMS     960
+TERLSSTVNRVSVHISPCISVSPSISVSPSIFVSLSLLSLPFLSLSLFHLSLSFSISLSQIYLHLKTERDKERETAREML    1040
+MIRCTSFIAYSLRIRCVFTLEPLSIHCVLLAYSLCIHCVFTVHSLCIHCVSILGIAVHSTQPTIVANSRSDGSILIWDLR    1120
+SGSFPLATFAGHASAIWEVQFESEKSDNLYTASQDGQLLLWNGAALSGVGGLLGGGGKVSPWLTPEISHQKMDVYNLLGS    1200
+DNKLSVNSFDVSKSGRVARKIVHKYRDFGNEPLSRVATCPAAVQPIRRLDLTSNTLWSPPPPPGGSDTPFQQNITPTRVE    1280
+HNSGGGLNQHTGSAQFEQQNSGGPVHFDQQVSQGGLIQQQGARGEETAVLEARMKGVRLNDSGKMNGSHSNDSISNQSGN    1360
+QSGNQSGNQSVSLDNSGSKSSRKKKIKRVPLMTISNQARYKKTPSNSPLQLDIAKLDNRFSGRLGGGDGRKEKEVAGNVF    1440
+SNHGNGGNHGNHGNHGNVTNGGKQPKRVPLVSDQSPRRILLRPASKSSAEHPATSNTQTRRQNKPSPPPSHNPPLRTQCL    1520
+SSEAVSPVQPEQTRMEDDVPEQAKLDQIVPEHPKKEGSPRRVLLRPASSCTEPIKRVVPLTISRPDKLEVTKDTKIQQVV    1600
+NMTNRATVHSIAELLAEPAPNGPVSSKDIAAAEPDQEFKLNDYTKFIVYDCRYIL                             1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+..................P.............................................................    1280
+................................................................................    1360
+........................P.......................................................    1440
+................................................................................    1520
+................................................................................    1600
+.......................................................                             1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+486             11    YNYTQLK|SY  0.083    .
+486             23    VLHHTFK|DI  0.082    .
+486             36    GGCPPAK|TS  0.085    .
+486             40    PAKTSGK|VP  0.060    .
+486             59    GIAEGIK|GH  0.062    .
+486             69    ENFAMER|ER  0.072    .
+486             71    FAMERER|EE  0.082    .
+486             74    EREREER|NY  0.314    .
+486             81    NYFQLER|DK  0.089    .
+486             83    FQLERDK|IN  0.058    .
+486             92    TFWEITK|RQ  0.061    .
+486             93    FWEITKR|QL  0.198    .
+486             99    RQLDEGK|AL  0.061    .
+486            103    EGKALLR|NK  0.081    .
+486            105    KALLRNK|DR  0.070    .
+486            107    LLRNKDR|EM  0.141    .
+486            115    MEDMEER|HQ  0.075    .
+486            120    ERHQVYK|QK  0.079    .
+486            122    HQVYKQK|VK  0.068    .
+486            124    VYKQKVK|HL  0.061    .
+486            138    NNITELK|AD  0.063    .
+486            146    DSTLTLK|LE  0.054    .
+486            153    LEQDEHR|GN  0.107    .
+486            160    GNEGDLR|KD  0.083    .
+486            161    NEGDLRK|DK  0.086    .
+486            163    GDLRKDK|RS  0.130    .
+486            164    DLRKDKR|SL  0.462    .
+486            167    KDKRSLK|IQ  0.113    .
+486            171    SLKIQLK|EL  0.066    .
+486            182    SHEDVIK|NL  0.073    .
+486            185    DVIKNLK|KQ  0.058    .
+486            186    VIKNLKK|QH  0.121    .
+486            196    EAITALR|QD  0.080    .
+486            201    LRQDSER|HA  0.130    .
+486            204    DSERHAK|EL  0.162    .
+486            209    AKELQAK|YE  0.067    .
+486            212    LQAKYEK|KM  0.058    .
+486            213    QAKYEKK|MK  0.097    .
+486            215    KYEKKMK|VL  0.068    .
+486            218    KKMKVLR|EE  0.077    .
+486            224    REELELR|RK  0.074    .
+486            225    EELELRR|KT  0.111    .
+486            226    ELELRRK|TE  0.068    .
+486            235    IHEIEER|KN  0.102    .
+486            236    HEIEERK|NG  0.075    .
+486            245    QINTLMK|NH  0.078    .
+486            249    LMKNHEK|AF  0.079    .
+486            255    KAFSDIK|NY  0.057    .
+486            273    ALINSLK|EQ  0.056    .
+486            280    EQVEDMK|KK  0.058    .
+486            281    QVEDMKK|KE  0.095    .
+486            282    VEDMKKK|EE  0.102    .
+486            285    MKKKEER|SE  0.142    .
+486            288    KEERSEK|QM  0.194    .
+486            298    EIQAENK|RL  0.059    .
+486            299    IQAENKR|LK  0.197    .
+486            301    AENKRLK|EP  0.062    .
+486            306    LKEPLEK|AK  0.059    .
+486            308    EPLEKAK|AE  0.067    .
+486            315    AEVSELK|KQ  0.054    .
+486            316    EVSELKK|QL  0.110    .
+486            323    QLANYQK|DK  0.072    .
+486            325    ANYQKDK|QS  0.069    .
+486            332    QSLQSAK|AR  0.070    .
+486            334    LQSAKAR|LK  0.149    .
+486            336    SAKARLK|VQ  0.067    .
+486            343    VQEQDLK|AL  0.061    .
+486            355    HEVLEQR|FK  0.080    .
+486            357    VLEQRFK|QS  0.067    .
+486            361    RFKQSAK|AR  0.073    .
+486            363    KQSAKAR|LK  0.163    .
+486            365    SAKARLK|VQ  0.067    .
+486            372    VQEQDLK|AL  0.061    .
+486            384    HEVLEQR|FK  0.087    .
+486            386    VLEQRFK|QV  0.092    .
+486            392    KQVQQER|DD  0.096    .
+486            398    RDDLYSK|FV  0.088    .
+486            406    VSAIHER|TC  0.103    .
+486            410    HERTCSK|RR  0.054    .
+486            411    ERTCSKR|RR  0.134    .
+486            412    RTCSKRR|RL  0.151    .
+486            413    TCSKRRR|LS  0.268    .
+486            418    RRLSSTR|FV  0.159    .
+486            423    TRFVTQR|QG  0.087    .
+486            426    VTQRQGK|NR  0.095    .
+486            428    QRQGKNR|NR  0.122    .
+486            430    QGKNRNR|PN  0.093    .
+486            449    NVGSCYK|TK  0.056    .
+486            451    GSCYKTK|HL  0.083    .
+486            476    ALTVVTR|KL  0.136    .
+486            477    LTVVTRK|LE  0.068    .
+486            485    EDVLDSK|NS  0.056    .
+486            490    SKNSAIK|DL  0.084    .
+486            498    LQYELAR|VC  0.082    .
+486            501    ELARVCK|AH  0.161    .
+486            508    AHNDLMR|TY  0.163    .
+486            513    MRTYEAK|LN  0.083    .
+486            527    TEELGFR|PL  0.097    .
+486            546    QGPAGLK|IK  0.055    .
+486            548    PAGLKIK|VK  0.069    .
+486            550    GLKIKVK|SE  0.088    .
+486            554    KVKSENR|DP  0.086    .
+486            558    ENRDPHK|MS  0.079    .
+486            562    PHKMSSK|FI  0.090    .
+486            572    ETIVCVR|WR  0.077    .
+486            574    IVCVRWR|PP  0.085    .
+486            606    SLWECNK|EK  0.058    .
+486            608    WECNKEK|IK  0.069    .
+486            610    CNKEKIK|RV  0.068    .
+486            611    NKEKIKR|VA  0.193    .
+486            620    VSCLDEK|PS  0.062    .
+486            630    LGMVNNK|TF  0.063    .
+486            649    ALQVYSR|TP  0.081    .
+486            654    SRTPIYR|LD  0.077    .
+486            663    LGFCTYR|CK  0.068    .
+486            665    FCTYRCK|LK  0.060    .
+486            667    TYRCKLK|RK  0.073    .
+486            668    YRCKLKR|KI  0.319    .
+486            669    RCKLKRK|IK  0.109    .
+486            671    KLKRKIK|GE  0.153    .
+486            688    APIEPYR|EN  0.076    .
+486            699    LALTCSR|GI  0.089    .
+486            706    GIQLAAR|WK  0.102    .
+486            708    QLAARWK|SV  0.144    .
+486            712    RWKSVTR|KF  0.090    .
+486            713    WKSVTRK|FA  0.221    .
+486            728    IGFSSHK|MS  0.069    .
+486            732    SHKMSSK|FI  0.098    .
+486            742    ETIVCVR|WR  0.077    .
+486            744    IVCVRWR|PP  0.085    .
+486            776    SLWECNK|EK  0.058    .
+486            778    WECNKEK|IK  0.069    .
+486            780    CNKEKIK|RV  0.068    .
+486            781    NKEKIKR|VA  0.193    .
+486            790    VSCLDEK|PS  0.062    .
+486            800    LGMVNNK|TF  0.063    .
+486            827    PSNQLTR|LT  0.110    .
+486            832    TRLTELK|TP  0.066    .
+486            836    ELKTPNR|KT  0.089    .
+486            837    LKTPNRK|TT  0.075    .
+486            846    QISTSEK|LV  0.086    .
+486            866    HTIQGGR|PV  0.109    .
+486            872    RPVYGAK|AG  0.063    .
+486            903    LHCYDTR|ST  0.141    .
+486            923    LVSGPFK|TH  0.072    .
+486            957    PVNEVPR|IM  0.107    .
+486            963    RIMSTER|LS  0.108    .
+486            970    LSSTVNR|VS  0.122    .
+486           1026    QIYLHLK|TE  0.065    .
+486           1029    LHLKTER|DK  0.106    .
+486           1031    LKTERDK|ER  0.069    .
+486           1033    TERDKER|ET  0.127    .
+486           1037    KERETAR|EM  0.103    .
+486           1043    REMLMIR|CT  0.101    .
+486           1053    FIAYSLR|IR  0.077    .
+486           1055    AYSLRIR|CV  0.140    .
+486           1109    TIVANSR|SD  0.151    .
+486           1120    ILIWDLR|SG  0.116    .
+486           1145    VQFESEK|SD  0.065    .
+486           1178    LLGGGGK|VS  0.055    .
+486           1191    PEISHQK|MD  0.059    .
+486           1203    LLGSDNK|LS  0.059    .
+486           1213    NSFDVSK|SG  0.080    .
+486           1216    DVSKSGR|VA  0.164    .
+486           1219    KSGRVAR|KI  0.514 *ProP*
+486           1220    SGRVARK|IV  0.184    .
+486           1224    ARKIVHK|YR  0.078    .
+486           1226    KIVHKYR|DF  0.175    .
+486           1235    GNEPLSR|VA  0.078    .
+486           1247    AAVQPIR|RL  0.079    .
+486           1248    AVQPIRR|LD  0.104    .
+486           1278    QNITPTR|VE  0.090    .
+486           1323    IQQQGAR|GE  0.103    .
+486           1333    TAVLEAR|MK  0.133    .
+486           1335    VLEARMK|GV  0.072    .
+486           1338    ARMKGVR|LN  0.097    .
+486           1344    RLNDSGK|MN  0.081    .
+486           1379    LDNSGSK|SS  0.075    .
+486           1382    SGSKSSR|KK  0.113    .
+486           1383    GSKSSRK|KK  0.090    .
+486           1384    SKSSRKK|KI  0.168    .
+486           1385    KSSRKKK|IK  0.531 *ProP*
+486           1387    SRKKKIK|RV  0.089    .
+486           1388    RKKKIKR|VP  0.134    .
+486           1399    TISNQAR|YK  0.127    .
+486           1401    SNQARYK|KT  0.067    .
+486           1402    NQARYKK|TP  0.300    .
+486           1415    LQLDIAK|LD  0.057    .
+486           1419    IAKLDNR|FS  0.104    .
+486           1423    DNRFSGR|LG  0.104    .
+486           1430    LGGGDGR|KE  0.072    .
+486           1431    GGGDGRK|EK  0.090    .
+486           1433    GDGRKEK|EV  0.249    .
+486           1463    NVTNGGK|QP  0.057    .
+486           1466    NGGKQPK|RV  0.077    .
+486           1467    GGKQPKR|VP  0.128    .
+486           1477    VSDQSPR|RI  0.078    .
+486           1478    SDQSPRR|IL  0.097    .
+486           1482    PRRILLR|PA  0.142    .
+486           1486    LLRPASK|SS  0.084    .
+486           1500    TSNTQTR|RQ  0.096    .
+486           1501    SNTQTRR|QN  0.158    .
+486           1504    QTRRQNK|PS  0.115    .
+486           1516    SHNPPLR|TQ  0.093    .
+486           1534    VQPEQTR|ME  0.100    .
+486           1544    DVPEQAK|LD  0.064    .
+486           1554    IVPEHPK|KE  0.060    .
+486           1555    VPEHPKK|EG  0.103    .
+486           1560    KKEGSPR|RV  0.111    .
+486           1561    KEGSPRR|VL  0.112    .
+486           1565    PRRVLLR|PA  0.125    .
+486           1575    SCTEPIK|RV  0.068    .
+486           1576    CTEPIKR|VV  0.136    .
+486           1584    VPLTISR|PD  0.064    .
+486           1587    TISRPDK|LE  0.145    .
+486           1592    DKLEVTK|DT  0.075    .
+486           1595    EVTKDTK|IQ  0.059    .
+486           1605    VVNMTNR|AT  0.100    .
+486           1627    NGPVSSK|DI  0.099    .
+486           1639    EPDQEFK|LN  0.060    .
+486           1645    KLNDYTK|FI  0.073    .
+486           1652    FIVYDCR|YI  0.090    .
+____________________________^_________________
+
+
+
+

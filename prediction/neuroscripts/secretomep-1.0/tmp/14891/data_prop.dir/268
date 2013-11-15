@@ -1,0 +1,285 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2192 268         
+MDRMDRTLFSVFRTLKIGHSIQLPRDNSAALNMLLPMVLQKEHRKVNELISNSPWFNIDTVLPKIKRTLLHMAANIGTAE      80
+CVSVLLNAGANPNQVDSNGVVPIHFAARNGFKDCIRLLLNKGADATVPDNEGLTSVHWAALSGRNEILADLLSRNIELNI     160
+KDKLDQTPLHFAATHGHYKTVEYLVDHGAQINDRNSDGHTPLILAAKEGHLQALKLLLSYGGNVSSKNNEGLSVLQILVS     240
+NRYLECVYSLTQSHPTQLCNLIEILRMPDKINYRYVIDCIQHICTRKRSLVLRIWETLVSLTINTGKEVMASNCVTTETP     320
+KAFISLVKALKHMSMLDEVSLIVSHCGRSPSIASTSSMHQHSPPRTVSPPTTPTYNSLTRKFEYNNFFESPIILNSVDEV     400
+WNLLDAWMKKLREEIITKRRSDMSLSELLASNSETDLRAGHLFLNDTFNGDVCCMDNFSENLCTVIEGYHLWSRDTFLTT     480
+IFEDFVSRYSDVFKVFLAHNSFFIFNQLKFFLESPIFMKQFNGIRRVVYQKDLALRKKWFYDNLYSETAHDPTAQLHDDT     560
+KITIRRDDVFNSSCSQINSTNVEDLRKNFVISFEGDQGIGAGVRREWFNILTNEMLNEDYALFTHSNDGMTFQPSHISDV     640
+QEDHLSYFRFAGIIMGLSLYHHNVINIHFTKSFYKHILGIPSDYTDVQSIDPGYANSLQWLLDNDISEFEQDLGLTFSED     720
+QVVLGENRVVELKQGGASIAVTEHNKAEYVELVTEYKMTSGIRPQINSFLEGFNTIIPASLVAIFSENELELLMCGIPHI     800
+DPEDWQMNTCYQNYDPTDQVIGWFWEVVREFPPENRALLLQFTTGSSKVPLGGFAGLQGSGEIVPFTISKMHDTGKLPTA     880
+STCFNLLKLPSYKSKETLHTMLKVAIKYGAEGFDFTTELCNPGPSSAGMAPPPPPPTTTPVSAAATTPTPTNKNIGRTTG     960
+GTAPKPSGGISALREWPWRLDHIENTLQNPNFTFHRSDINLIIEPDAIEYINNLLKIPLKRIAVELRHLSTKLHRISKSE    1040
+VQIALRLIFHDNLAHTSVYGRLMVSVITKQKIKRTLLHMAANIGTAECVSVLLNAGANPNQVDSNGVVPIHFAARNGFKD    1120
+CIRLLLNKGADATVPDNEGLTSVHWAALSGRNEILADLLSRNIELNIKDKLDQTPLHFAATHGHYKTVEYLVDHGAQIND    1200
+RNSDGHTPLILAAKEGHLQALKLLLSYGGNVSSKNNEGLSVLQILVSNRYLECVYSLTQSHPTQLCNLIEILRMPDKINY    1280
+RYVIDCIQHICTRKRSLVLRIWETLVSLTINTGKEVMASNCVTTETPKAFISLVKALKHMSMLDEVSLIVSHCGRSPSIA    1360
+STSSMHQHSPPRTVSPPTTPTYNSLTRKFEYNNFFESPIILNSVDEVWNLLDAWMKKLREEIITKRRSDMSLSELLASNS    1440
+ETDLRAGHLFLNDTFNGDVCCMDNFSENLCTVIEGYHLWSRDTFLTTIFEDFVSRYSDVFKVFLAHNSFFIFNQLKFFLE    1520
+SPIFMKQFNGIRRVVYQKDLALRKKWFYDNLYSETAHDPTAQHEDTKITIRRDDVFNSSCSQINSTNVEDLRKNFVISFE    1600
+GDQGIGAGVRREWFNILTNEMLNEDYALFTHSNDGMTFQPSHISDVQEDHLSYFRFAGIIMGLSLYHHNVINIHFTKSFY    1680
+KHILGIPSDYTDVQSIDPGEDQVVLGENRVVELKQGGASIAVTEHNKAEYVELVTEYKMTSGIRPQINSFLEGFNTIIPA    1760
+SLVAIFSENELELLMCGIPHIDPEDWQMNTCYQNYDPTDQVIGWFWEVVREFPPENRALLLQFTTGSSKVPLGGFAGLQG    1840
+SGEIVPFTISKMHDTGKLPTASTCFNLLKLPSYKSKETLHTMLKVAIKYGAEGFDFTTELCNPGPSSAGMAPPPPPPSTT    1920
+PPVSAAPQGTTPTPTNKNNGRTAGTAPKPSVGISALREWPWRLDHIENTLQNPNFTFHRSDINLIIEPDAIEYINNLLKI    2000
+PLKRIAVELRHLSTKLHRISKSEVQIALRLIFHDNLAHTSVLSGSHAFSLFQMSMDKYKFSKSVRCHLSFSVGHFFSTPY    2080
+TLSHDTPYNAVIYNPPVDHKVSKRVTDCSVVHLAAAFQCLTEEILTRTIQRRVQPDSGKVNDFNKEHRYLFDIQPSPSPP    2160
+ALLPDLKANRRHLRRPPKYTNTTTSWTGSLVG                                                    2240
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................                                                    2240
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+268              3    ----MDR|MD  0.088    .
+268              6    -MDRMDR|TL  0.232    .
+268             13    TLFSVFR|TL  0.098    .
+268             16    SVFRTLK|IG  0.097    .
+268             25    HSIQLPR|DN  0.209    .
+268             41    LPMVLQK|EH  0.068    .
+268             44    VLQKEHR|KV  0.138    .
+268             45    LQKEHRK|VN  0.080    .
+268             64    IDTVLPK|IK  0.069    .
+268             66    TVLPKIK|RT  0.060    .
+268             67    VLPKIKR|TL  0.116    .
+268            108    PIHFAAR|NG  0.082    .
+268            112    AARNGFK|DC  0.072    .
+268            116    GFKDCIR|LL  0.080    .
+268            121    IRLLLNK|GA  0.075    .
+268            144    WAALSGR|NE  0.077    .
+268            154    LADLLSR|NI  0.087    .
+268            161    NIELNIK|DK  0.062    .
+268            163    ELNIKDK|LD  0.067    .
+268            179    ATHGHYK|TV  0.091    .
+268            194    GAQINDR|NS  0.097    .
+268            207    PLILAAK|EG  0.059    .
+268            215    GHLQALK|LL  0.056    .
+268            227    GGNVSSK|NN  0.070    .
+268            242    QILVSNR|YL  0.104    .
+268            266    NLIEILR|MP  0.073    .
+268            270    ILRMPDK|IN  0.066    .
+268            274    PDKINYR|YV  0.150    .
+268            286    IQHICTR|KR  0.091    .
+268            287    QHICTRK|RS  0.068    .
+268            288    HICTRKR|SL  0.226    .
+268            293    KRSLVLR|IW  0.154    .
+268            307    LTINTGK|EV  0.081    .
+268            321    VTTETPK|AF  0.059    .
+268            328    AFISLVK|AL  0.059    .
+268            331    SLVKALK|HM  0.063    .
+268            348    IVSHCGR|SP  0.164    .
+268            365    HQHSPPR|TV  0.155    .
+268            380    TYNSLTR|KF  0.096    .
+268            381    YNSLTRK|FE  0.107    .
+268            409    LLDAWMK|KL  0.067    .
+268            410    LDAWMKK|LR  0.100    .
+268            412    AWMKKLR|EE  0.081    .
+268            418    REEIITK|RR  0.059    .
+268            419    EEIITKR|RS  0.159    .
+268            420    EIITKRR|SD  0.152    .
+268            438    NSETDLR|AG  0.079    .
+268            474    GYHLWSR|DT  0.094    .
+268            488    FEDFVSR|YS  0.085    .
+268            494    RYSDVFK|VF  0.069    .
+268            509    FIFNQLK|FF  0.060    .
+268            519    ESPIFMK|QF  0.069    .
+268            525    KQFNGIR|RV  0.086    .
+268            526    QFNGIRR|VV  0.205    .
+268            531    RRVVYQK|DL  0.072    .
+268            536    QKDLALR|KK  0.069    .
+268            537    KDLALRK|KW  0.067    .
+268            538    DLALRKK|WF  0.123    .
+268            561    QLHDDTK|IT  0.068    .
+268            565    DTKITIR|RD  0.075    .
+268            566    TKITIRR|DD  0.130    .
+268            586    TNVEDLR|KN  0.081    .
+268            587    NVEDLRK|NF  0.069    .
+268            604    GIGAGVR|RE  0.068    .
+268            605    IGAGVRR|EW  0.204    .
+268            649    DHLSYFR|FA  0.111    .
+268            671    INIHFTK|SF  0.099    .
+268            675    FTKSFYK|HI  0.069    .
+268            728    VVLGENR|VV  0.093    .
+268            733    NRVVELK|QG  0.076    .
+268            746    AVTEHNK|AE  0.064    .
+268            757    ELVTEYK|MT  0.085    .
+268            763    KMTSGIR|PQ  0.075    .
+268            829    WFWEVVR|EF  0.081    .
+268            836    EFPPENR|AL  0.078    .
+268            848    FTTGSSK|VP  0.054    .
+268            870    VPFTISK|MH  0.067    .
+268            876    KMHDTGK|LP  0.067    .
+268            888    TCFNLLK|LP  0.062    .
+268            893    LKLPSYK|SK  0.092    .
+268            895    LPSYKSK|ET  0.081    .
+268            903    TLHTMLK|VA  0.069    .
+268            907    MLKVAIK|YG  0.075    .
+268            953    TPTPTNK|NI  0.084    .
+268            957    TNKNIGR|TT  0.124    .
+268            965    TGGTAPK|PS  0.072    .
+268            974    GGISALR|EW  0.089    .
+268            979    LREWPWR|LD  0.095    .
+268            996    PNFTFHR|SD  0.115    .
+268           1016    YINNLLK|IP  0.058    .
+268           1020    LLKIPLK|RI  0.069    .
+268           1021    LKIPLKR|IA  0.208    .
+268           1027    RIAVELR|HL  0.152    .
+268           1032    LRHLSTK|LH  0.070    .
+268           1035    LSTKLHR|IS  0.082    .
+268           1038    KLHRISK|SE  0.194    .
+268           1046    EVQIALR|LI  0.076    .
+268           1061    HTSVYGR|LM  0.087    .
+268           1069    MVSVITK|QK  0.068    .
+268           1071    SVITKQK|IK  0.070    .
+268           1073    ITKQKIK|RT  0.058    .
+268           1074    TKQKIKR|TL  0.193    .
+268           1115    PIHFAAR|NG  0.082    .
+268           1119    AARNGFK|DC  0.072    .
+268           1123    GFKDCIR|LL  0.080    .
+268           1128    IRLLLNK|GA  0.075    .
+268           1151    WAALSGR|NE  0.077    .
+268           1161    LADLLSR|NI  0.087    .
+268           1168    NIELNIK|DK  0.062    .
+268           1170    ELNIKDK|LD  0.067    .
+268           1186    ATHGHYK|TV  0.091    .
+268           1201    GAQINDR|NS  0.097    .
+268           1214    PLILAAK|EG  0.059    .
+268           1222    GHLQALK|LL  0.056    .
+268           1234    GGNVSSK|NN  0.070    .
+268           1249    QILVSNR|YL  0.104    .
+268           1273    NLIEILR|MP  0.073    .
+268           1277    ILRMPDK|IN  0.066    .
+268           1281    PDKINYR|YV  0.150    .
+268           1293    IQHICTR|KR  0.091    .
+268           1294    QHICTRK|RS  0.068    .
+268           1295    HICTRKR|SL  0.226    .
+268           1300    KRSLVLR|IW  0.154    .
+268           1314    LTINTGK|EV  0.081    .
+268           1328    VTTETPK|AF  0.059    .
+268           1335    AFISLVK|AL  0.059    .
+268           1338    SLVKALK|HM  0.063    .
+268           1355    IVSHCGR|SP  0.164    .
+268           1372    HQHSPPR|TV  0.155    .
+268           1387    TYNSLTR|KF  0.096    .
+268           1388    YNSLTRK|FE  0.107    .
+268           1416    LLDAWMK|KL  0.067    .
+268           1417    LDAWMKK|LR  0.100    .
+268           1419    AWMKKLR|EE  0.081    .
+268           1425    REEIITK|RR  0.059    .
+268           1426    EEIITKR|RS  0.159    .
+268           1427    EIITKRR|SD  0.152    .
+268           1445    NSETDLR|AG  0.079    .
+268           1481    GYHLWSR|DT  0.094    .
+268           1495    FEDFVSR|YS  0.085    .
+268           1501    RYSDVFK|VF  0.069    .
+268           1516    FIFNQLK|FF  0.060    .
+268           1526    ESPIFMK|QF  0.069    .
+268           1532    KQFNGIR|RV  0.086    .
+268           1533    QFNGIRR|VV  0.205    .
+268           1538    RRVVYQK|DL  0.072    .
+268           1543    QKDLALR|KK  0.069    .
+268           1544    KDLALRK|KW  0.067    .
+268           1545    DLALRKK|WF  0.123    .
+268           1567    AQHEDTK|IT  0.069    .
+268           1571    DTKITIR|RD  0.074    .
+268           1572    TKITIRR|DD  0.143    .
+268           1592    TNVEDLR|KN  0.081    .
+268           1593    NVEDLRK|NF  0.069    .
+268           1610    GIGAGVR|RE  0.068    .
+268           1611    IGAGVRR|EW  0.204    .
+268           1655    DHLSYFR|FA  0.111    .
+268           1677    INIHFTK|SF  0.099    .
+268           1681    FTKSFYK|HI  0.069    .
+268           1709    VVLGENR|VV  0.093    .
+268           1714    NRVVELK|QG  0.076    .
+268           1727    AVTEHNK|AE  0.064    .
+268           1738    ELVTEYK|MT  0.085    .
+268           1744    KMTSGIR|PQ  0.075    .
+268           1810    WFWEVVR|EF  0.081    .
+268           1817    EFPPENR|AL  0.078    .
+268           1829    FTTGSSK|VP  0.054    .
+268           1851    VPFTISK|MH  0.067    .
+268           1857    KMHDTGK|LP  0.067    .
+268           1869    TCFNLLK|LP  0.062    .
+268           1874    LKLPSYK|SK  0.092    .
+268           1876    LPSYKSK|ET  0.081    .
+268           1884    TLHTMLK|VA  0.069    .
+268           1888    MLKVAIK|YG  0.075    .
+268           1937    TPTPTNK|NN  0.073    .
+268           1941    TNKNNGR|TA  0.166    .
+268           1948    TAGTAPK|PS  0.060    .
+268           1957    VGISALR|EW  0.080    .
+268           1962    LREWPWR|LD  0.095    .
+268           1979    PNFTFHR|SD  0.115    .
+268           1999    YINNLLK|IP  0.058    .
+268           2003    LLKIPLK|RI  0.069    .
+268           2004    LKIPLKR|IA  0.208    .
+268           2010    RIAVELR|HL  0.152    .
+268           2015    LRHLSTK|LH  0.070    .
+268           2018    LSTKLHR|IS  0.082    .
+268           2021    KLHRISK|SE  0.194    .
+268           2029    EVQIALR|LI  0.076    .
+268           2057    FQMSMDK|YK  0.059    .
+268           2059    MSMDKYK|FS  0.094    .
+268           2062    DKYKFSK|SV  0.128    .
+268           2065    KFSKSVR|CH  0.082    .
+268           2100    NPPVDHK|VS  0.061    .
+268           2103    VDHKVSK|RV  0.089    .
+268           2104    DHKVSKR|VT  0.259    .
+268           2127    TEEILTR|TI  0.080    .
+268           2131    LTRTIQR|RV  0.093    .
+268           2132    TRTIQRR|VQ  0.171    .
+268           2139    VQPDSGK|VN  0.060    .
+268           2145    KVNDFNK|EH  0.064    .
+268           2148    DFNKEHR|YL  0.160    .
+268           2167    ALLPDLK|AN  0.061    .
+268           2170    PDLKANR|RH  0.060    .
+268           2171    DLKANRR|HL  0.106    .
+268           2174    ANRRHLR|RP  0.252    .
+268           2175    NRRHLRR|PP  0.140    .
+268           2178    HLRRPPK|YT  0.207    .
+____________________________^_________________
+
+
+
+

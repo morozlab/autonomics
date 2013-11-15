@@ -1,0 +1,312 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1921 345         
+MLLRKVNMFQSVIVLGPMGGNLRRSEKMKAMVGHCIHLPMPVQETVDELIPGQLVDPDKTIQVLGMPNKNKFVWNRLVNI      80
+EQIYKVLELLIERNPHYSNVTLPSSPEELLPKFDLGNDDVEPSQDVIDFLRDLGASSPSSSSSQLPSVDLHGNDSFHSLD     160
+SMVTIDALSYHSDSDVELGSLVTLDSTSGPFPTTGDSQLTVVSETTVARPISGETSSLVTLDSTSGPFPTTGDSHGPFPT     240
+TGDSQLTVVSETRTLRSSSQLAKDDKTVIRKYACIGDSGSRRRVPSDSGDMQSASECVDCEESVVRITGGGSDIIGHKRR     320
+VVQHAIDMYRVVAAQCILCSTCRDAFSAKRLQLIRGGGNLETLSSLETRISKLHKLEGRGNQRSGKNVECSRCSTIVGKQ     400
+KVINANCKLQDLSESVVAARGKCMKLLDNLAISHRLCMRCHTKLDAKIPSPSCQISPQSITTDLVATNSLVDSILVLDIK     480
+CKEPQQVCCYCKSRVSAPLMVQYSCLPNPWDNTPKQVTSGEYDSVTTTTTDDTNKNTLIDELITTVKQSSKISTSCGKSC     560
+KLVLRKLIQKFKLLRKGKCIQVSDLDSDVLVILVADAKVRSRLTYIQNVCYLCVVYDTCKSAYGGGKDSATIAKSEVSDS     640
+DIVDDPLGIPQNISDFSSLSDSDADATDNRRQQTDNVRKLLKKVEPEDFNSRIEEMTFTNIDAILQNLDSLYELLKVEST     720
+PVASNDDLLEVLSFPELFFYGVGSLLDTRSKDLKCNPLQYSQTRLLSYHPHFRHNCQYLFYLVGQHVRRRITRSVFGALR     800
+NVQSVKNITAGKFVEMIKNNDPSIKRKVTACLRDIPGTQQYWSSVKQKLLAQTQQFGPPTFFLTLSPAEYTWPELISTLR     880
+ELNKDLPGIDSLSDSELLVKEPVLTALYIHSRFTAILDFIKSAKPLGKVVSHFVRYEYQTRGTVHFHCFLWIEGAPVIGE     960
+QSDQEVATFIQSLITCRMPDKVTEPTLYEFVTKHQKHSCRSYCLKKVGNSKGKCVRMCRFGYPHHPIDCLLLRDVLTSIV    1040
+GRATHKFKKRLYDLPRTTEERYINAYNPILLLLWGGNMDIQYIAENSFSIVGYVTKYMLKEEKSNINYDMSSIIDQPGSM    1120
+LQKYLKFVSKYEKSYTEKGFKVHSNGKCIGKLKERTRTPVIYHHNYNIHTSPELFYYSLLSLYKPFRTEEEILGSSKTYQ    1200
+AEFLNCIDNQDPKYDDLRKFSKRRLDIDKVRENMQAQVDDAIKSKGSKKDDDNDGGDKDGVDDGVAVDDPLDDYARGDSD    1280
+IKTQEDLDNFVKTLNPQQLSAYNKVTSVVLHMVDHDKGICKEASCLNQQLLLYVSGFGGTGKTYLIKALTAFCHVRREVY    1360
+KEDVGALVMAPTGVAALSIGGNTVHFELSIPVEHGSIPKYVSYKPDKLQRVRQKFADLKVCIIDEVSMISNILLQYINMR    1440
+LTEIFKGKDGNDRPFGGRCVILFGDLLQLKPVLASYPFVEVPFEQMQKLTKSVPFTLNLWPLFEFIELTINQRQKSSSKH    1520
+GDEWKNLLSRCRVGALAADDYKLLNTRALSLQHADDPIKCRQEVIEYFINLTKQDSRAVCLLPTRSMVEDFNQAMLQKTC    1600
+TDTVTVAAIDEIQPCAANVQKRIRQAIQKLDKLEDSRNTAALEKVDLNRILQFQELQIGLGVRVMLRRNIDVTKGLVNGS    1680
+MGVIKSIRHNPSTKIVETLEIVFDGIEEPQLILRDRREIMVFVNGFFFRSQFPITISYAITIHKAQGLTLDTVLTDLGKK    1760
+VFGAGQSYVCLSRAYAEARWSTITPVTGDRHQRVKADGDPMSRDIIALIGNPNGSHWVLIIIDNRPDKMKTIYFDSSPFN    1840
+KRTMVARYVTLVSPEIDETTHMIEDGKSSRQTNYFDCGVFALANLELYLANKPADSLCQSKIPLIRAKILSILLEFNRAR    1920
+V                                                                                   2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+........................................................................P.......     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.                                                                                   2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+345              4    ---MLLR|KV  0.099    .
+345              5    --MLLRK|VN  0.067    .
+345             23    PMGGNLR|RS  0.081    .
+345             24    MGGNLRR|SE  0.188    .
+345             27    NLRRSEK|MK  0.186    .
+345             29    RRSEKMK|AM  0.090    .
+345             59    QLVDPDK|TI  0.065    .
+345             69    VLGMPNK|NK  0.061    .
+345             71    GMPNKNK|FV  0.101    .
+345             76    NKFVWNR|LV  0.135    .
+345             85    NIEQIYK|VL  0.055    .
+345             93    LELLIER|NP  0.067    .
+345            112    PEELLPK|FD  0.061    .
+345            131    DVIDFLR|DL  0.135    .
+345            209    SETTVAR|PI  0.128    .
+345            253    TVVSETR|TL  0.078    .
+345            256    SETRTLR|SS  0.393    .
+345            263    SSSQLAK|DD  0.098    .
+345            266    QLAKDDK|TV  0.079    .
+345            270    DDKTVIR|KY  0.104    .
+345            271    DKTVIRK|YA  0.116    .
+345            281    IGDSGSR|RR  0.061    .
+345            282    GDSGSRR|RV  0.180    .
+345            283    DSGSRRR|VP  0.195    .
+345            306    CEESVVR|IT  0.117    .
+345            318    SDIIGHK|RR  0.053    .
+345            319    DIIGHKR|RV  0.214    .
+345            320    IIGHKRR|VV  0.361    .
+345            330    HAIDMYR|VV  0.110    .
+345            343    ILCSTCR|DA  0.116    .
+345            349    RDAFSAK|RL  0.074    .
+345            350    DAFSAKR|LQ  0.102    .
+345            355    KRLQLIR|GG  0.107    .
+345            369    LSSLETR|IS  0.088    .
+345            372    LETRISK|LH  0.083    .
+345            375    RISKLHK|LE  0.081    .
+345            379    LHKLEGR|GN  0.101    .
+345            383    EGRGNQR|SG  0.118    .
+345            386    GNQRSGK|NV  0.378    .
+345            392    KNVECSR|CS  0.097    .
+345            399    CSTIVGK|QK  0.062    .
+345            401    TIVGKQK|VI  0.068    .
+345            408    VINANCK|LQ  0.067    .
+345            420    ESVVAAR|GK  0.110    .
+345            422    VVAARGK|CM  0.059    .
+345            425    ARGKCMK|LL  0.070    .
+345            435    NLAISHR|LC  0.081    .
+345            439    SHRLCMR|CH  0.085    .
+345            443    CMRCHTK|LD  0.063    .
+345            447    HTKLDAK|IP  0.063    .
+345            480    ILVLDIK|CK  0.066    .
+345            482    VLDIKCK|EP  0.061    .
+345            492    QVCCYCK|SR  0.072    .
+345            494    CCYCKSR|VS  0.085    .
+345            515    PWDNTPK|QV  0.095    .
+345            535    TTDDTNK|NT  0.061    .
+345            547    ELITTVK|QS  0.066    .
+345            551    TVKQSSK|IS  0.066    .
+345            558    ISTSCGK|SC  0.074    .
+345            561    SCGKSCK|LV  0.084    .
+345            565    SCKLVLR|KL  0.102    .
+345            566    CKLVLRK|LI  0.071    .
+345            570    LRKLIQK|FK  0.056    .
+345            572    KLIQKFK|LL  0.071    .
+345            575    QKFKLLR|KG  0.076    .
+345            576    KFKLLRK|GK  0.085    .
+345            578    KLLRKGK|CI  0.148    .
+345            598    ILVADAK|VR  0.057    .
+345            600    VADAKVR|SR  0.108    .
+345            602    DAKVRSR|LT  0.089    .
+345            620    VVYDTCK|SA  0.094    .
+345            627    SAYGGGK|DS  0.078    .
+345            634    DSATIAK|SE  0.072    .
+345            670    ADATDNR|RQ  0.070    .
+345            671    DATDNRR|QQ  0.098    .
+345            678    QQTDNVR|KL  0.073    .
+345            679    QTDNVRK|LL  0.094    .
+345            682    NVRKLLK|KV  0.085    .
+345            683    VRKLLKK|VE  0.080    .
+345            692    PEDFNSR|IE  0.074    .
+345            716    SLYELLK|VE  0.057    .
+345            749    GSLLDTR|SK  0.089    .
+345            751    LLDTRSK|DL  0.064    .
+345            754    TRSKDLK|CN  0.077    .
+345            764    LQYSQTR|LL  0.105    .
+345            773    SYHPHFR|HN  0.141    .
+345            788    LVGQHVR|RR  0.066    .
+345            789    VGQHVRR|RI  0.162    .
+345            790    GQHVRRR|IT  0.210    .
+345            793    VRRRITR|SV  0.784 *ProP*
+345            800    SVFGALR|NV  0.095    .
+345            806    RNVQSVK|NI  0.079    .
+345            812    KNITAGK|FV  0.092    .
+345            818    KFVEMIK|NN  0.064    .
+345            825    NNDPSIK|RK  0.057    .
+345            826    NDPSIKR|KV  0.224    .
+345            827    DPSIKRK|VT  0.110    .
+345            833    KVTACLR|DI  0.081    .
+345            846    QYWSSVK|QK  0.062    .
+345            848    WSSVKQK|LL  0.095    .
+345            880    ELISTLR|EL  0.090    .
+345            884    TLRELNK|DL  0.078    .
+345            900    DSELLVK|EP  0.051    .
+345            912    ALYIHSR|FT  0.098    .
+345            921    AILDFIK|SA  0.080    .
+345            924    DFIKSAK|PL  0.095    .
+345            928    SAKPLGK|VV  0.094    .
+345            935    VVSHFVR|YE  0.129    .
+345            941    RYEYQTR|GT  0.084    .
+345            977    QSLITCR|MP  0.089    .
+345            981    TCRMPDK|VT  0.075    .
+345            993    LYEFVTK|HQ  0.066    .
+345            996    FVTKHQK|HS  0.059    .
+345           1000    HQKHSCR|SY  0.157    .
+345           1005    CRSYCLK|KV  0.111    .
+345           1006    RSYCLKK|VG  0.096    .
+345           1011    KKVGNSK|GK  0.064    .
+345           1013    VGNSKGK|CV  0.094    .
+345           1016    SKGKCVR|MC  0.114    .
+345           1019    KCVRMCR|FG  0.222    .
+345           1033    IDCLLLR|DV  0.141    .
+345           1042    LTSIVGR|AT  0.131    .
+345           1046    VGRATHK|FK  0.063    .
+345           1048    RATHKFK|KR  0.062    .
+345           1049    ATHKFKK|RL  0.126    .
+345           1050    THKFKKR|LY  0.237    .
+345           1056    RLYDLPR|TT  0.093    .
+345           1061    PRTTEER|YI  0.114    .
+345           1096    IVGYVTK|YM  0.073    .
+345           1100    VTKYMLK|EE  0.053    .
+345           1103    YMLKEEK|SN  0.074    .
+345           1123    PGSMLQK|YL  0.068    .
+345           1126    MLQKYLK|FV  0.137    .
+345           1130    YLKFVSK|YE  0.063    .
+345           1133    FVSKYEK|SY  0.092    .
+345           1138    EKSYTEK|GF  0.073    .
+345           1141    YTEKGFK|VH  0.058    .
+345           1147    KVHSNGK|CI  0.075    .
+345           1151    NGKCIGK|LK  0.062    .
+345           1153    KCIGKLK|ER  0.058    .
+345           1155    IGKLKER|TR  0.088    .
+345           1157    KLKERTR|TP  0.081    .
+345           1184    SLLSLYK|PF  0.065    .
+345           1187    SLYKPFR|TE  0.124    .
+345           1197    EILGSSK|TY  0.060    .
+345           1213    IDNQDPK|YD  0.065    .
+345           1218    PKYDDLR|KF  0.089    .
+345           1219    KYDDLRK|FS  0.076    .
+345           1222    DLRKFSK|RR  0.061    .
+345           1223    LRKFSKR|RL  0.217    .
+345           1224    RKFSKRR|LD  0.150    .
+345           1229    RRLDIDK|VR  0.067    .
+345           1231    LDIDKVR|EN  0.107    .
+345           1243    QVDDAIK|SK  0.075    .
+345           1245    DDAIKSK|GS  0.069    .
+345           1248    IKSKGSK|KD  0.072    .
+345           1249    KSKGSKK|DD  0.161    .
+345           1258    DNDGGDK|DG  0.059    .
+345           1276    PLDDYAR|GD  0.119    .
+345           1282    RGDSDIK|TQ  0.056    .
+345           1292    DLDNFVK|TL  0.065    .
+345           1304    QLSAYNK|VT  0.114    .
+345           1317    HMVDHDK|GI  0.078    .
+345           1321    HDKGICK|EA  0.076    .
+345           1342    GFGGTGK|TY  0.061    .
+345           1347    GKTYLIK|AL  0.065    .
+345           1356    TAFCHVR|RE  0.091    .
+345           1357    AFCHVRR|EV  0.223    .
+345           1361    VRREVYK|ED  0.080    .
+345           1399    EHGSIPK|YV  0.086    .
+345           1404    PKYVSYK|PD  0.065    .
+345           1407    VSYKPDK|LQ  0.061    .
+345           1410    KPDKLQR|VR  0.074    .
+345           1412    DKLQRVR|QK  0.084    .
+345           1414    LQRVRQK|FA  0.097    .
+345           1419    QKFADLK|VC  0.062    .
+345           1440    LQYINMR|LT  0.088    .
+345           1446    RLTEIFK|GK  0.063    .
+345           1448    TEIFKGK|DG  0.092    .
+345           1453    GKDGNDR|PF  0.090    .
+345           1458    DRPFGGR|CV  0.102    .
+345           1470    GDLLQLK|PV  0.067    .
+345           1488    PFEQMQK|LT  0.062    .
+345           1491    QMQKLTK|SV  0.093    .
+345           1513    ELTINQR|QK  0.079    .
+345           1515    TINQRQK|SS  0.141    .
+345           1519    RQKSSSK|HG  0.064    .
+345           1525    KHGDEWK|NL  0.058    .
+345           1530    WKNLLSR|CR  0.085    .
+345           1532    NLLSRCR|VG  0.068    .
+345           1542    LAADDYK|LL  0.060    .
+345           1547    YKLLNTR|AL  0.079    .
+345           1559    HADDPIK|CR  0.060    .
+345           1561    DDPIKCR|QE  0.080    .
+345           1573    YFINLTK|QD  0.064    .
+345           1577    LTKQDSR|AV  0.093    .
+345           1585    VCLLPTR|SM  0.085    .
+345           1598    NQAMLQK|TC  0.065    .
+345           1621    CAANVQK|RI  0.075    .
+345           1622    AANVQKR|IR  0.248    .
+345           1624    NVQKRIR|QA  0.141    .
+345           1629    IRQAIQK|LD  0.059    .
+345           1632    AIQKLDK|LE  0.057    .
+345           1637    DKLEDSR|NT  0.077    .
+345           1644    NTAALEK|VD  0.055    .
+345           1649    EKVDLNR|IL  0.100    .
+345           1663    QIGLGVR|VM  0.064    .
+345           1667    GVRVMLR|RN  0.090    .
+345           1668    VRVMLRR|NI  0.152    .
+345           1674    RNIDVTK|GL  0.077    .
+345           1685    GSMGVIK|SI  0.113    .
+345           1688    GVIKSIR|HN  0.078    .
+345           1694    RHNPSTK|IV  0.114    .
+345           1714    EPQLILR|DR  0.092    .
+345           1716    QLILRDR|RE  0.086    .
+345           1717    LILRDRR|EI  0.392    .
+345           1729    VNGFFFR|SQ  0.178    .
+345           1744    YAITIHK|AQ  0.071    .
+345           1759    VLTDLGK|KV  0.074    .
+345           1760    LTDLGKK|VF  0.095    .
+345           1773    SYVCLSR|AY  0.089    .
+345           1779    RAYAEAR|WS  0.110    .
+345           1790    TPVTGDR|HQ  0.083    .
+345           1793    TGDRHQR|VK  0.339    .
+345           1795    DRHQRVK|AD  0.080    .
+345           1803    DGDPMSR|DI  0.092    .
+345           1825    LIIIDNR|PD  0.073    .
+345           1828    IDNRPDK|MK  0.181    .
+345           1830    NRPDKMK|TI  0.067    .
+345           1841    DSSPFNK|RT  0.074    .
+345           1842    SSPFNKR|TM  0.142    .
+345           1847    KRTMVAR|YV  0.194    .
+345           1867    HMIEDGK|SS  0.073    .
+345           1870    EDGKSSR|QT  0.091    .
+345           1892    ELYLANK|PA  0.063    .
+345           1901    DSLCQSK|IP  0.054    .
+345           1906    SKIPLIR|AK  0.086    .
+345           1908    IPLIRAK|IL  0.079    .
+345           1918    ILLEFNR|AR  0.071    .
+345           1920    LEFNRAR|V-  0.093    .
+____________________________^_________________
+
+
+
+

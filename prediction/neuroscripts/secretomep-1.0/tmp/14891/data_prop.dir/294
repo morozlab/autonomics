@@ -1,0 +1,298 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2063 294         
+MFGAMMNKFRGPPKQTTPPPEKIETVPTTKSRPPPSGGTSSAYKEPERHHLDTDRTHDNLAQIGVGVRGLKEMALSMGAE      80
+LDRQNDKMDPSIVLVDGEASETESEEEEELDQEDRHSSSPEPTPIPVRRIAQSPFEQNLWERNSHLMSGIAGLVFNWVEG     160
+VRGRTRQTASEIRMSQGSVEKTISDLNSVRTLLEKSGEKLDAIISTPLLISENRERVRERERERERERERERERERERKR     240
+KRKREEERERVLDFWEIQLKFSHVNMQIAGEAFYKKLLQIHFGKGSEIRDPCTGSYRQDFRMFCGFKTIPFPSSNDLVLK     320
+DMFPQFEDFAMSPSGKFMAFTDQKDRLELAVSFVNDNYSVKILHTHDPDHDDEEDEGAIFNMFFDPSERYLIATYRESFD     400
+YNWILVYSIPSFEVVNKIKFKRKETDALWPRVWFLGKETVLYCGNSEESTTACLVSVVTGESKRVHFDIPLLEQNELLLN     480
+NRKTGLKELVVLYPCLTRNTFMKQAILSDVVRDQDHSCLSCARDGGRCVVADYTSPDINCYHVDPTVTTGDGLLSWVGGL     560
+FTVALSTGEDRLYVYSDQYEAQPDILEYSESFDPLRKIMISDIFNPNDFLGTFTEAVNCGNGLVILHVRVQNVVEQMKFA     640
+CEGNSRVVLWAPGSDLSAERTFSGINSRFLVGAISEGAGLFIVNTVAAGSSTFMKQAILSDVVRDQDHSCLSCARDGGRC     720
+VVADYTSPDINCYHVDPTVTTGDGLLSWVGGLFTVALSTGEDRLYVYSDQYEAQPDILEYSESFDPLRKIMISDIFNPND     800
+FLGTFTEAVNCGNGLVILHVRVQNVVEQMKFACEGNSRVVLWAPGSDLSAERTFSGINSRFLVGAISEGAGLFIVNTVAV     880
+CLLFNQNVENMLEWLVVGGVILFLAVLWKYPTFFRDARIGFINYKVRVGVDLIQYLKGTFTLIEQWDITCAKRKNNACIV     960
+FEGHTLTFGEIDRYANQLAHWALDTGLVRGDVVALFMGNSPEFFCTWLGLAKVGVECAFINTNIRGDSLLHSVKVCKARL    1040
+IISSAELAGPVSELSSDLVPLHISHHILGPEGNMDLHTRSECKPSVVFRKNVTYLSPLYYIFTSGTTGLPKAAIMKHKKA    1120
+MWVGYGYAALFNFTAADRLYITLPMYHSAATTVGFGIMITTGCSIVLRKKFSSSNFWRDVVDQRVTVFQYVGEVCRYLVN    1200
+SPFTSRDAQHKLRLAFGNGLRPDVWDVFQKKFGIPKIGEFYASTEGNVIFVNRHNVPHSVGFAPCVLPFLHCARIVRYSV    1280
+ESDSVITDHNGHCVEVAPGEVGLLIGKMSSRYPFDGYVGDKAITNKKILRSVFREGDSWFNTGDLFKEDEQRNMFFMDRI    1360
+GDTFRWKGENVATTEVAQAISSFDQVEEVNAYGVEIPGHEGRAGMVALVLRTSKIDLGALYSHICIKLPSYARPIFIRVQ    1440
+EIIETTGTFKHIKTLLTREGFNPSLVKAPIYFCDPMRGQYVPLDTGLYEKIIRGQIKLLDITIFLLPHYECINYLFEPMY    1520
+VSCPMLLYPIVTIANPNISVVFRKNVTYLSPLYYIFTSGTTGLPKAAIMKHKKAMWVGYGYAALFNFTASDRLYITLPMY    1600
+HSAATTVGFGIMITTGCSIVLRKKFSSSNFWRDVVDQRVTVFQYVGEVCRYLVNSPFTSRDAQHKLRLAFGNGLRPDVWD    1680
+VFQKKFGIPKIGEFYASTEGNVIFVNRHNVPHSVGFAPCVLPFLHCARIVRYSVESDSVITDHNGHCVEVAPGEVGLLIG    1760
+KMSSRYPFDGYVGDKAITNKKILRSVFREGDSWFNTGDLFKEDEQRNMFFMDRIGDTFRWKGENVATTEVAQAISSFDQV    1840
+EEVNAYGVEIPGHEGRAGMVALVLRTSNIDLGALYSHICIKLPSYARPIFIRVQEIIETTGTFKHIKTLLTREGFNPSLV    1920
+KAPIYFCDPMRGQYVPLDTGLYEKIIRGQIKLTVGLIALNFINFINILNDKHKVSVSFNTSPSRPSLPAPNPGLRRVPPQ    2000
+INLFKVVLKSLNITIFLLPHYECVNYLFEPIDQIYTLGYEGDPVRTLTMSSYYTIVKERTGRF                     2080
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+...............................................................                     2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+294              8    FGAMMNK|FR  0.071    .
+294             10    AMMNKFR|GP  0.113    .
+294             14    KFRGPPK|QT  0.071    .
+294             22    TTPPPEK|IE  0.055    .
+294             30    ETVPTTK|SR  0.061    .
+294             32    VPTTKSR|PP  0.097    .
+294             44    GTSSAYK|EP  0.069    .
+294             48    AYKEPER|HH  0.078    .
+294             55    HHLDTDR|TH  0.074    .
+294             68    QIGVGVR|GL  0.081    .
+294             71    VGVRGLK|EM  0.084    .
+294             83    MGAELDR|QN  0.106    .
+294             87    LDRQNDK|MD  0.062    .
+294            115    ELDQEDR|HS  0.101    .
+294            128    PTPIPVR|RI  0.083    .
+294            129    TPIPVRR|IA  0.240    .
+294            142    EQNLWER|NS  0.079    .
+294            162    NWVEGVR|GR  0.079    .
+294            164    VEGVRGR|TR  0.079    .
+294            166    GVRGRTR|QT  0.111    .
+294            173    QTASEIR|MS  0.088    .
+294            181    SQGSVEK|TI  0.071    .
+294            190    SDLNSVR|TL  0.073    .
+294            195    VRTLLEK|SG  0.075    .
+294            199    LEKSGEK|LD  0.052    .
+294            214    LLISENR|ER  0.071    .
+294            216    ISENRER|VR  0.083    .
+294            218    ENRERVR|ER  0.091    .
+294            220    RERVRER|ER  0.111    .
+294            222    RVRERER|ER  0.084    .
+294            224    RERERER|ER  0.090    .
+294            226    RERERER|ER  0.088    .
+294            228    RERERER|ER  0.090    .
+294            230    RERERER|ER  0.088    .
+294            232    RERERER|ER  0.089    .
+294            234    RERERER|ER  0.090    .
+294            236    RERERER|ER  0.083    .
+294            238    RERERER|KR  0.083    .
+294            239    ERERERK|RK  0.238    .
+294            240    RERERKR|KR  0.177    .
+294            241    ERERKRK|RK  0.334    .
+294            242    RERKRKR|KR  0.229    .
+294            243    ERKRKRK|RE  0.323    .
+294            244    RKRKRKR|EE  0.264    .
+294            248    RKREEER|ER  0.076    .
+294            250    REEERER|VL  0.093    .
+294            260    FWEIQLK|FS  0.065    .
+294            275    AGEAFYK|KL  0.070    .
+294            276    GEAFYKK|LL  0.105    .
+294            284    LQIHFGK|GS  0.074    .
+294            289    GKGSEIR|DP  0.114    .
+294            297    PCTGSYR|QD  0.085    .
+294            301    SYRQDFR|MF  0.099    .
+294            307    RMFCGFK|TI  0.053    .
+294            320    SNDLVLK|DM  0.085    .
+294            336    AMSPSGK|FM  0.067    .
+294            344    MAFTDQK|DR  0.060    .
+294            346    FTDQKDR|LE  0.066    .
+294            361    NDNYSVK|IL  0.079    .
+294            389    FFDPSER|YL  0.081    .
+294            396    YLIATYR|ES  0.093    .
+294            417    SFEVVNK|IK  0.067    .
+294            419    EVVNKIK|FK  0.075    .
+294            421    VNKIKFK|RK  0.069    .
+294            422    NKIKFKR|KE  0.223    .
+294            423    KIKFKRK|ET  0.117    .
+294            431    TDALWPR|VW  0.098    .
+294            437    RVWFLGK|ET  0.058    .
+294            463    VVTGESK|RV  0.063    .
+294            464    VTGESKR|VH  0.144    .
+294            482    ELLLNNR|KT  0.083    .
+294            483    LLLNNRK|TG  0.068    .
+294            487    NRKTGLK|EL  0.059    .
+294            498    LYPCLTR|NT  0.078    .
+294            503    TRNTFMK|QA  0.098    .
+294            512    ILSDVVR|DQ  0.144    .
+294            523    SCLSCAR|DG  0.102    .
+294            527    CARDGGR|CV  0.108    .
+294            571    LSTGEDR|LY  0.070    .
+294            596    ESFDPLR|KI  0.083    .
+294            597    SFDPLRK|IM  0.065    .
+294            629    LVILHVR|VQ  0.094    .
+294            638    NVVEQMK|FA  0.080    .
+294            646    ACEGNSR|VV  0.094    .
+294            660    SDLSAER|TF  0.091    .
+294            668    FSGINSR|FL  0.107    .
+294            695    GSSTFMK|QA  0.085    .
+294            704    ILSDVVR|DQ  0.144    .
+294            715    SCLSCAR|DG  0.102    .
+294            719    CARDGGR|CV  0.108    .
+294            763    LSTGEDR|LY  0.070    .
+294            788    ESFDPLR|KI  0.083    .
+294            789    SFDPLRK|IM  0.065    .
+294            821    LVILHVR|VQ  0.094    .
+294            830    NVVEQMK|FA  0.080    .
+294            838    ACEGNSR|VV  0.094    .
+294            852    SDLSAER|TF  0.091    .
+294            860    FSGINSR|FL  0.107    .
+294            909    FLAVLWK|YP  0.064    .
+294            915    KYPTFFR|DA  0.147    .
+294            918    TFFRDAR|IG  0.192    .
+294            925    IGFINYK|VR  0.055    .
+294            927    FINYKVR|VG  0.085    .
+294            937    DLIQYLK|GT  0.063    .
+294            952    WDITCAK|RK  0.061    .
+294            953    DITCAKR|KN  0.129    .
+294            954    ITCAKRK|NN  0.094    .
+294            973    TFGEIDR|YA  0.119    .
+294            989    LDTGLVR|GD  0.085    .
+294           1012    TWLGLAK|VG  0.053    .
+294           1025    FINTNIR|GD  0.080    .
+294           1034    SLLHSVK|VC  0.058    .
+294           1037    HSVKVCK|AR  0.064    .
+294           1039    VKVCKAR|LI  0.111    .
+294           1079    NMDLHTR|SE  0.104    .
+294           1083    HTRSECK|PS  0.063    .
+294           1089    KPSVVFR|KN  0.156    .
+294           1090    PSVVFRK|NV  0.118    .
+294           1111    GTTGLPK|AA  0.067    .
+294           1116    PKAAIMK|HK  0.067    .
+294           1118    AAIMKHK|KA  0.097    .
+294           1119    AIMKHKK|AM  0.132    .
+294           1138    NFTAADR|LY  0.069    .
+294           1168    GCSIVLR|KK  0.092    .
+294           1169    CSIVLRK|KF  0.088    .
+294           1170    SIVLRKK|FS  0.103    .
+294           1178    SSSNFWR|DV  0.470    .
+294           1184    RDVVDQR|VT  0.081    .
+294           1196    YVGEVCR|YL  0.099    .
+294           1206    NSPFTSR|DA  0.123    .
+294           1211    SRDAQHK|LR  0.068    .
+294           1213    DAQHKLR|LA  0.111    .
+294           1221    AFGNGLR|PD  0.071    .
+294           1230    VWDVFQK|KF  0.067    .
+294           1231    WDVFQKK|FG  0.144    .
+294           1236    KKFGIPK|IG  0.064    .
+294           1253    NVIFVNR|HN  0.091    .
+294           1274    PFLHCAR|IV  0.119    .
+294           1277    HCARIVR|YS  0.256    .
+294           1307    VGLLIGK|MS  0.058    .
+294           1311    IGKMSSR|YP  0.107    .
+294           1321    DGYVGDK|AI  0.063    .
+294           1326    DKAITNK|KI  0.066    .
+294           1327    KAITNKK|IL  0.100    .
+294           1330    TNKKILR|SV  0.274    .
+294           1334    ILRSVFR|EG  0.109    .
+294           1347    NTGDLFK|ED  0.064    .
+294           1352    FKEDEQR|NM  0.077    .
+294           1359    NMFFMDR|IG  0.081    .
+294           1365    RIGDTFR|WK  0.118    .
+294           1367    GDTFRWK|GE  0.066    .
+294           1402    IPGHEGR|AG  0.114    .
+294           1411    MVALVLR|TS  0.085    .
+294           1414    LVLRTSK|ID  0.100    .
+294           1427    YSHICIK|LP  0.073    .
+294           1433    KLPSYAR|PI  0.081    .
+294           1438    ARPIFIR|VQ  0.139    .
+294           1450    ETTGTFK|HI  0.064    .
+294           1453    GTFKHIK|TL  0.067    .
+294           1458    IKTLLTR|EG  0.065    .
+294           1467    FNPSLVK|AP  0.054    .
+294           1477    YFCDPMR|GQ  0.097    .
+294           1490    DTGLYEK|II  0.064    .
+294           1493    LYEKIIR|GQ  0.090    .
+294           1497    IIRGQIK|LL  0.077    .
+294           1543    NISVVFR|KN  0.119    .
+294           1544    ISVVFRK|NV  0.122    .
+294           1565    GTTGLPK|AA  0.067    .
+294           1570    PKAAIMK|HK  0.067    .
+294           1572    AAIMKHK|KA  0.097    .
+294           1573    AIMKHKK|AM  0.132    .
+294           1592    NFTASDR|LY  0.073    .
+294           1622    GCSIVLR|KK  0.092    .
+294           1623    CSIVLRK|KF  0.088    .
+294           1624    SIVLRKK|FS  0.103    .
+294           1632    SSSNFWR|DV  0.470    .
+294           1638    RDVVDQR|VT  0.081    .
+294           1650    YVGEVCR|YL  0.099    .
+294           1660    NSPFTSR|DA  0.123    .
+294           1665    SRDAQHK|LR  0.068    .
+294           1667    DAQHKLR|LA  0.111    .
+294           1675    AFGNGLR|PD  0.071    .
+294           1684    VWDVFQK|KF  0.067    .
+294           1685    WDVFQKK|FG  0.144    .
+294           1690    KKFGIPK|IG  0.064    .
+294           1707    NVIFVNR|HN  0.091    .
+294           1728    PFLHCAR|IV  0.119    .
+294           1731    HCARIVR|YS  0.256    .
+294           1761    VGLLIGK|MS  0.058    .
+294           1765    IGKMSSR|YP  0.107    .
+294           1775    DGYVGDK|AI  0.063    .
+294           1780    DKAITNK|KI  0.066    .
+294           1781    KAITNKK|IL  0.100    .
+294           1784    TNKKILR|SV  0.274    .
+294           1788    ILRSVFR|EG  0.109    .
+294           1801    NTGDLFK|ED  0.064    .
+294           1806    FKEDEQR|NM  0.077    .
+294           1813    NMFFMDR|IG  0.081    .
+294           1819    RIGDTFR|WK  0.118    .
+294           1821    GDTFRWK|GE  0.066    .
+294           1856    IPGHEGR|AG  0.114    .
+294           1865    MVALVLR|TS  0.088    .
+294           1881    YSHICIK|LP  0.073    .
+294           1887    KLPSYAR|PI  0.081    .
+294           1892    ARPIFIR|VQ  0.139    .
+294           1904    ETTGTFK|HI  0.064    .
+294           1907    GTFKHIK|TL  0.067    .
+294           1912    IKTLLTR|EG  0.065    .
+294           1921    FNPSLVK|AP  0.054    .
+294           1931    YFCDPMR|GQ  0.097    .
+294           1944    DTGLYEK|II  0.064    .
+294           1947    LYEKIIR|GQ  0.084    .
+294           1951    IIRGQIK|LT  0.068    .
+294           1971    INILNDK|HK  0.058    .
+294           1973    ILNDKHK|VS  0.067    .
+294           1984    FNTSPSR|PS  0.076    .
+294           1995    APNPGLR|RV  0.122    .
+294           1996    PNPGLRR|VP  0.091    .
+294           2005    PQINLFK|VV  0.078    .
+294           2009    LFKVVLK|SL  0.084    .
+294           2045    YEGDPVR|TL  0.075    .
+294           2057    SYYTIVK|ER  0.056    .
+294           2059    YTIVKER|TG  0.080    .
+294           2062    VKERTGR|F-  0.299    .
+____________________________^_________________
+
+
+
+

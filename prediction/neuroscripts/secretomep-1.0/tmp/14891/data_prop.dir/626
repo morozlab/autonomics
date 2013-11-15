@@ -1,0 +1,170 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1476 626         
+MGDIGNMYTLVHQKYVFSLYPSLSLSISLNLMKSSVCGGGTMWGREGVIVIQCPSQKEAQQRICFENDYKICSSIPPHPN      80
+ISTAYARFSDKIPENLPDFPYESTGATAFTESTFVISDFLSEGNLRTFVRENQHLMEHRVEEYEYQVCLLLLQLFRALHH     160
+LSENKVVHRDLKLENVTVGAADHPGGGKKLSLSNFGYALYQPDRAEPFLVTEDSNTWIGGNIHHLPPEIRHPVGDITGLD     240
+YTKSDVFGAGCMIYELLNLENPFENLKLENVTVGAADHPGGGKKLSLSNFGYALYQPDRAEPFLVTEDSNTWIGGNIHHL     320
+PPEIRHPVGDITGLDYTKSDVFGAGCMIYELLNLENPFESDEELVGRNYTQNDLPMIPKRSRYSYALDRLVCLLLRSKPS     400
+KRISAKRAGDLVEVMLWGPEELRGTDKAAAEQMAAEWLEQQRSEMLSNLALKLAENFTPQGAREVFAHVVGKRRRRANMR     480
+GATCPKEVYAFSGHGYNLSSDRNGVLYLLFGATVSIPYAILILLALCRIMILRHQREYTQYLTLNVYSGCVVVFLVTRLP     560
+RGGQFGGPLEIPISPHHHSHNRHLRLPPRIPHLHRPTLQRSPWVLTTPLSPQGTNPLPLSLFMSNHPLSPQGTDKAAAEQ     640
+MAAEWLEQQRSEMLSNLALKLAENFTPQGARVQNSAGFSLEDELKADHFIILYDEKATCHTSALLRYQGQHPIMQPIYTV     720
+DCPDVAPTDGSVAPLTDGPSFCDHDDDGDFRVRVIDIISIAVGLLGTIVNILLFWVIGRNPSLDKKIALLYQNLAAVDVF     800
+NCLVVPLCYMTVSGHGYNLSSDRNGVLYLLFGATVSIPYAILILLALCRIMILRHQREYTQYLTLNVVRGCAVTAWFLCI     880
+GSTLGVWLCFLLHGSQEVGSLVALLKFQSALITILITAIFVFLLASLIFIALLYKDLHGNPVAVPALLKLCQELGKARRT     960
+FVLFFTVTLVFSLFPWVYSITFTLCGPYYNSTTALTPSLNCTLLDTGYISDPKQSYACMLLSLMGMSIGNCAIVIQQRSF    1040
+VETLRRFVTGWCGFRRGEGGMLNYHDGVPDLVIENQAVQKHPGVITAYQTHTIPMTDTPTTVSTVVAPPGDPAATAAVGL    1120
+LGTIVNILLFWVIGRNPSLDKKIALLYQNLAAVDVFNCLVVPLCYMTVSGHGYNLSSDRNGVLYLLFGATVSIPYAILIL    1200
+LALCRIMILRHQREYTQYLTLNVVRGCAVTAWFLCIGSTLGVWLCFLLHGSQEVGSLVALLKFQSALITILITAIFVFLL    1280
+ASLIFIALLYKDLHGNPVAVPALLKLCQELGKARRTFVLFFTVTIVFSLFPWVYSITFTLCGPYYNSTTALTPSLNCTNL    1360
+DTGYISDPKQSYACMLLSLMGMSIGNCAIVIQQRSFVETLRRFVTGWCGFRRGEGGMLNYDGAPDLVIENQAVQQHPGVI    1440
+TAYQTHTIPMTDTPTTVSTVVAPPVDPSATAGQCGP                                                1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+...........................................................................P....     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................................                                                1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+626             14    YTLVHQK|YV  0.080    .
+626             33    ISLNLMK|SS  0.088    .
+626             45    GGTMWGR|EG  0.078    .
+626             57    IQCPSQK|EA  0.072    .
+626             62    QKEAQQR|IC  0.101    .
+626             70    CFENDYK|IC  0.068    .
+626             87    ISTAYAR|FS  0.149    .
+626             91    YARFSDK|IP  0.063    .
+626            126    LSEGNLR|TF  0.073    .
+626            130    NLRTFVR|EN  0.098    .
+626            139    QHLMEHR|VE  0.077    .
+626            156    LLLQLFR|AL  0.077    .
+626            165    HHLSENK|VV  0.072    .
+626            169    ENKVVHR|DL  0.122    .
+626            172    VVHRDLK|LE  0.095    .
+626            188    DHPGGGK|KL  0.060    .
+626            189    HPGGGKK|LS  0.086    .
+626            204    ALYQPDR|AE  0.070    .
+626            230    HLPPEIR|HP  0.081    .
+626            243    TGLDYTK|SD  0.067    .
+626            267    NPFENLK|LE  0.056    .
+626            283    DHPGGGK|KL  0.060    .
+626            284    HPGGGKK|LS  0.086    .
+626            299    ALYQPDR|AE  0.070    .
+626            325    HLPPEIR|HP  0.081    .
+626            338    TGLDYTK|SD  0.067    .
+626            367    DEELVGR|NY  0.086    .
+626            379    DLPMIPK|RS  0.056    .
+626            380    LPMIPKR|SR  0.279    .
+626            382    MIPKRSR|YS  0.091    .
+626            389    YSYALDR|LV  0.101    .
+626            396    LVCLLLR|SK  0.086    .
+626            398    CLLLRSK|PS  0.052    .
+626            401    LRSKPSK|RI  0.109    .
+626            402    RSKPSKR|IS  0.180    .
+626            406    SKRISAK|RA  0.113    .
+626            407    KRISAKR|AG  0.325    .
+626            423    WGPEELR|GT  0.088    .
+626            427    ELRGTDK|AA  0.078    .
+626            442    EWLEQQR|SE  0.090    .
+626            452    LSNLALK|LA  0.078    .
+626            463    FTPQGAR|EV  0.118    .
+626            472    FAHVVGK|RR  0.066    .
+626            473    AHVVGKR|RR  0.134    .
+626            474    HVVGKRR|RR  0.105    .
+626            475    VVGKRRR|RA  0.161    .
+626            476    VGKRRRR|AN  0.510 *ProP*
+626            480    RRRANMR|GA  0.125    .
+626            486    RGATCPK|EV  0.080    .
+626            502    YNLSSDR|NG  0.068    .
+626            528    ILLALCR|IM  0.065    .
+626            533    CRIMILR|HQ  0.092    .
+626            536    MILRHQR|EY  0.291    .
+626            558    VVFLVTR|LP  0.079    .
+626            561    LVTRLPR|GG  0.214    .
+626            582    HHHSHNR|HL  0.097    .
+626            585    SHNRHLR|LP  0.276    .
+626            589    HLRLPPR|IP  0.102    .
+626            595    RIPHLHR|PT  0.093    .
+626            600    HRPTLQR|SP  0.119    .
+626            635    SPQGTDK|AA  0.101    .
+626            650    EWLEQQR|SE  0.090    .
+626            660    LSNLALK|LA  0.078    .
+626            671    FTPQGAR|VQ  0.081    .
+626            685    SLEDELK|AD  0.062    .
+626            696    IILYDEK|AT  0.058    .
+626            706    HTSALLR|YQ  0.142    .
+626            751    DDDGDFR|VR  0.064    .
+626            753    DGDFRVR|VI  0.079    .
+626            779    LFWVIGR|NP  0.074    .
+626            785    RNPSLDK|KI  0.056    .
+626            786    NPSLDKK|IA  0.105    .
+626            823    YNLSSDR|NG  0.068    .
+626            849    ILLALCR|IM  0.065    .
+626            854    CRIMILR|HQ  0.092    .
+626            857    MILRHQR|EY  0.291    .
+626            869    LTLNVVR|GC  0.076    .
+626            906    SLVALLK|FQ  0.076    .
+626            935    FIALLYK|DL  0.071    .
+626            949    AVPALLK|LC  0.055    .
+626            956    LCQELGK|AR  0.062    .
+626            958    QELGKAR|RT  0.097    .
+626            959    ELGKARR|TF  0.098    .
+626           1013    GYISDPK|QS  0.060    .
+626           1038    AIVIQQR|SF  0.118    .
+626           1045    SFVETLR|RF  0.077    .
+626           1046    FVETLRR|FV  0.162    .
+626           1055    TGWCGFR|RG  0.080    .
+626           1056    GWCGFRR|GE  0.223    .
+626           1080    ENQAVQK|HP  0.076    .
+626           1135    LFWVIGR|NP  0.074    .
+626           1141    RNPSLDK|KI  0.056    .
+626           1142    NPSLDKK|IA  0.105    .
+626           1179    YNLSSDR|NG  0.068    .
+626           1205    ILLALCR|IM  0.065    .
+626           1210    CRIMILR|HQ  0.092    .
+626           1213    MILRHQR|EY  0.291    .
+626           1225    LTLNVVR|GC  0.076    .
+626           1262    SLVALLK|FQ  0.076    .
+626           1291    FIALLYK|DL  0.071    .
+626           1305    AVPALLK|LC  0.055    .
+626           1312    LCQELGK|AR  0.062    .
+626           1314    QELGKAR|RT  0.097    .
+626           1315    ELGKARR|TF  0.098    .
+626           1369    GYISDPK|QS  0.060    .
+626           1394    AIVIQQR|SF  0.118    .
+626           1401    SFVETLR|RF  0.077    .
+626           1402    FVETLRR|FV  0.162    .
+626           1411    TGWCGFR|RG  0.080    .
+626           1412    GWCGFRR|GE  0.211    .
+____________________________^_________________
+
+
+
+

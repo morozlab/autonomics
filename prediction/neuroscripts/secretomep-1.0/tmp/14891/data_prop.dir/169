@@ -1,0 +1,504 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2657 169         
+MHYVTYNATLKPQDCHNFQSHAVEVTILREGDLDVGLVQGDSFKQRQSLLKCTKEGYPKDTTITVEIKNGTTASVYTEGH      80
+ETSIIELEESNNIAGRSPGLYVELLLHPGVSLLFDLPASLSHHTNAVDVMRKRCVLKTTISPFQHDMWATNNSGPDDLYS     160
+SVIFNRQIGSRYHYYQVFVCFFVCLFVCLCACLFVYLFVCLFVCVLVCLFICLFVCLFVCLFVCLFVCLFVCLCACLFVY     240
+LFVCLFVCVLVCLFICLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLSVCLSVCRSLKILDCGTDSAVGIGLAG     320
+SDHKSSKYPGWSPGSCAYHSDDGVIYSRGNNQLMVTQQFVSYETLLFAPGVQSLSRDKNKGTKVFSVLALVGVGRSPGLY     400
+VELLLHPGVSLLFDLPASLSHHTNAVDVMRKRCVLTTTISPFQHDMWATNNSGPDDLYSSVIFNRQIGSRYHYYQVQLDP     480
+YLTAPSGERVLSVKSGCPLNRLKILDCGADSAVGIGLAGSDHKSSKYPGWSPGSCAYHSDDGVIYSRGNNQLMGPTCVEG     560
+DMMGCGVRFPDRIRSEGEIIPRGSGEVVCGETVQVYFMKNGKEVGVVEMKVPGKGLYPTIGLGPGDHVFVDFGAIRSRNR     640
+PKQVNSQSELVILGHVTGYQPDSVVYSVRDIEAISPSLFVQLFSSLHLRSWFLLILGGSNSVMVESSGPPTVGHTISVVS     720
+QFHCPLSHSILMQCWIHCILYSRPRSHSGFHVAKMQCRIIWSRYNVMWESRRLQACCGGCCPSLLSPVPSTPCSTCYCYY     800
+DYQTTSVKTVEKTPFQYEDHKKRRRGFIRFSKQSKTSQRLTEEAIHSLGGYGATPRRGGVAPEPVDLNAIHPWLSEVRPM     880
+DLEMRKEIDFLVTTYDREYEEMEKATQPAEEKKRIEDDAVSVAPSHASNVSRKSAYHADRMDLASRIRVAKEAVQKKEQR     960
+KLRTKQRKKHGKIEGLNPLAMPVYSLPLEPTENVRYNRREKYVKLRERYNSSSSSSSSSSSSSSSSSSSNSGKKKRKKKR    1040
+GQKNREWEHTGKTRFDYQYTEGNNNNPQQEPESDPKDVYQPRKARKNVRKTGKQDEDDVIVVPNEEAGFSSKSGSSQCGD    1120
+IEVQNSAEERLVIRRSAFLPAEPYEADSASDGWHPELFQDRSDELQETGTMRRGTGTLDRTMLASTIQVNMPGTLNRPSL    1200
+NRQNSITPIPPPEILEERPVSPVQRTPSRYSPTSPDDFADSVSQVSKKSRKSIFSFAKKKKKRDKAKGDGDSVSVFSFAS    1280
+FKSGLSESEKTERKDAKKRKKAEKKDKKAVEGKELQLSTALNQQKMENIYPWMNQLGSSDEDDGALVGKNLIEEIRIREA    1360
+QEKHRQVEEEEAQKRSIPSDSVLQLGTEVSELEDVPFFIHHNRFGVPDNVQKQPFRLQSASPTEEKQPPPRLRQMSSDPE    1440
+TDGVARKTRKSIVEKSEKTPPMPSLHPTAFQTPLVKKDIFANVIPPNKLAPVTMVTEIQPASQMDSLPLNVRQTASDDER    1520
+DLKREIEEVTQHDDYLQTISVDVSESRKSRQDRRRRKRERSESKRKSRGPRVITSNPIEDRSIDDVPISVDKDVDFTNPI    1600
+LFPEPSAEKRKEIPVVNYTKNMDSHKKDVDKSESIKEITLEKVEKRKKEVSDKVAEKSTPQSGKVELRSETKREIVNMEL    1680
+AANRINHFGTIEDTAPPREDRRKRDRSEKSERRKGDRSEREDRKRRHHDRSERSERRKREKSEKSEKGEESQKRGRSERR    1760
+EKSERREKSERHEKPERREKSERREKSERREKSERREKPERREKRDRSERRDRSERRDRSEKRDRSERRDRSERRDRSER    1840
+RDRSERREGRDRDRSERSERRKKRDTTSDSEADRTEKQKKRRERRESRDSRKSDDGGRRRRKSSGEEKSKDQIKKLAPPR    1920
+HGSPVEVYEKNGTLHALPPHIAKDIKVDIAEKKKRELEVIRQKMDLDFQSVDTKRSVFVAGEQPPSNMDKKGRASPMKQR    2000
+VSSRPRLDPILSQEEVKPKRKPARVIYESDEDKSGSTLHSGDEKPRVVKRQSSVTSNDSTLHDIGDIPSEWNVSMMSRSR    2080
+QFSMKSDDSSVSRVTHRSQLSGRGRSPAGVQPKRSPGKEVKKGKNKGKKGNPREGIWESSLSPREGIWDSSLSPREGIWD    2160
+SSLSPREGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSL    2240
+SPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPR    2320
+EGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGI    2400
+WDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSLSPREGIWDSSLSPLEGIWDSSLSPREGIWDS    2480
+SLSPREGIWDSSLSPLEGIWDSSLSPREGIWDSSFSPREGIWDSSLSPREGIWDSSLTRTGWGTQIFRSRIYWLHGSLSE    2560
+IEVAQRPRSISHRSEYRMQWIQTHLESVWRRHTPFDSQRGNRPTQVNNQSELVTDYQPIRDNHFLIRSVPALVTARVFIP    2640
+RFHAFTGIYVLGTPFDN                                                                   2720
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.....................................P..........................................    1600
+................................................................................    1680
+.......................P.....................P............P.....................    1760
+............................................P...................................    1840
+.........P.............P....................P.....P.........PP..................    1920
+......................................................P.........................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+.................                                                                   2720
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 12
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+169             11    TYNATLK|PQ  0.066    .
+169             29    VEVTILR|EG  0.064    .
+169             44    VQGDSFK|QR  0.063    .
+169             46    GDSFKQR|QS  0.115    .
+169             51    QRQSLLK|CT  0.072    .
+169             54    SLLKCTK|EG  0.064    .
+169             59    TKEGYPK|DT  0.075    .
+169             68    TITVEIK|NG  0.060    .
+169             96    SNNIAGR|SP  0.160    .
+169            131    NAVDVMR|KR  0.088    .
+169            132    AVDVMRK|RC  0.062    .
+169            133    VDVMRKR|CV  0.231    .
+169            137    RKRCVLK|TT  0.070    .
+169            166    SSVIFNR|QI  0.122    .
+169            171    NRQIGSR|YH  0.107    .
+169            301    VCLSVCR|SL  0.099    .
+169            304    SVCRSLK|IL  0.168    .
+169            324    LAGSDHK|SS  0.072    .
+169            327    SDHKSSK|YP  0.103    .
+169            348    DGVIYSR|GN  0.088    .
+169            376    GVQSLSR|DK  0.129    .
+169            378    QSLSRDK|NK  0.069    .
+169            380    LSRDKNK|GT  0.074    .
+169            383    DKNKGTK|VF  0.062    .
+169            395    ALVGVGR|SP  0.122    .
+169            430    NAVDVMR|KR  0.089    .
+169            431    AVDVMRK|RC  0.059    .
+169            432    VDVMRKR|CV  0.217    .
+169            465    SSVIFNR|QI  0.122    .
+169            470    NRQIGSR|YH  0.101    .
+169            489    TAPSGER|VL  0.075    .
+169            494    ERVLSVK|SG  0.081    .
+169            501    SGCPLNR|LK  0.076    .
+169            503    CPLNRLK|IL  0.066    .
+169            523    LAGSDHK|SS  0.072    .
+169            526    SDHKSSK|YP  0.103    .
+169            547    DGVIYSR|GN  0.081    .
+169            568    MMGCGVR|FP  0.095    .
+169            572    GVRFPDR|IR  0.117    .
+169            574    RFPDRIR|SE  0.135    .
+169            582    EGEIIPR|GS  0.113    .
+169            599    VQVYFMK|NG  0.070    .
+169            602    YFMKNGK|EV  0.099    .
+169            610    VGVVEMK|VP  0.067    .
+169            614    EMKVPGK|GL  0.072    .
+169            636    VDFGAIR|SR  0.082    .
+169            638    FGAIRSR|NR  0.086    .
+169            640    AIRSRNR|PK  0.079    .
+169            642    RSRNRPK|QV  0.100    .
+169            669    SVVYSVR|DI  0.175    .
+169            689    FSSLHLR|SW  0.147    .
+169            743    HCILYSR|PR  0.098    .
+169            745    ILYSRPR|SH  0.135    .
+169            754    SGFHVAK|MQ  0.080    .
+169            758    VAKMQCR|II  0.097    .
+169            763    CRIIWSR|YN  0.097    .
+169            771    NVMWESR|RL  0.083    .
+169            772    VMWESRR|LQ  0.096    .
+169            808    YQTTSVK|TV  0.077    .
+169            812    SVKTVEK|TP  0.071    .
+169            821    FQYEDHK|KR  0.059    .
+169            822    QYEDHKK|RR  0.090    .
+169            823    YEDHKKR|RR  0.218    .
+169            824    EDHKKRR|RG  0.142    .
+169            825    DHKKRRR|GF  0.136    .
+169            829    RRRGFIR|FS  0.184    .
+169            832    GFIRFSK|QS  0.145    .
+169            835    RFSKQSK|TS  0.068    .
+169            839    QSKTSQR|LT  0.154    .
+169            856    GYGATPR|RG  0.086    .
+169            857    YGATPRR|GG  0.131    .
+169            878    PWLSEVR|PM  0.075    .
+169            885    PMDLEMR|KE  0.082    .
+169            886    MDLEMRK|EI  0.082    .
+169            897    LVTTYDR|EY  0.085    .
+169            904    EYEEMEK|AT  0.064    .
+169            912    TQPAEEK|KR  0.056    .
+169            913    QPAEEKK|RI  0.137    .
+169            914    PAEEKKR|IE  0.210    .
+169            932    HASNVSR|KS  0.115    .
+169            933    ASNVSRK|SA  0.282    .
+169            940    SAYHADR|MD  0.097    .
+169            946    RMDLASR|IR  0.075    .
+169            948    DLASRIR|VA  0.084    .
+169            951    SRIRVAK|EA  0.298    .
+169            956    AKEAVQK|KE  0.066    .
+169            957    KEAVQKK|EQ  0.120    .
+169            960    VQKKEQR|KL  0.102    .
+169            961    QKKEQRK|LR  0.093    .
+169            963    KEQRKLR|TK  0.307    .
+169            965    QRKLRTK|QR  0.068    .
+169            967    KLRTKQR|KK  0.138    .
+169            968    LRTKQRK|KH  0.154    .
+169            969    RTKQRKK|HG  0.091    .
+169            972    QRKKHGK|IE  0.085    .
+169            995    EPTENVR|YN  0.083    .
+169            998    ENVRYNR|RE  0.156    .
+169            999    NVRYNRR|EK  0.126    .
+169           1001    RYNRREK|YV  0.219    .
+169           1004    RREKYVK|LR  0.067    .
+169           1006    EKYVKLR|ER  0.087    .
+169           1008    YVKLRER|YN  0.095    .
+169           1033    SSSNSGK|KK  0.089    .
+169           1034    SSNSGKK|KR  0.115    .
+169           1035    SNSGKKK|RK  0.133    .
+169           1036    NSGKKKR|KK  0.328    .
+169           1037    SGKKKRK|KK  0.110    .
+169           1038    GKKKRKK|KR  0.156    .
+169           1039    KKKRKKK|RG  0.413    .
+169           1040    KKRKKKR|GQ  0.344    .
+169           1043    KKKRGQK|NR  0.124    .
+169           1045    KRGQKNR|EW  0.211    .
+169           1052    EWEHTGK|TR  0.068    .
+169           1054    EHTGKTR|FD  0.107    .
+169           1076    EPESDPK|DV  0.091    .
+169           1082    KDVYQPR|KA  0.125    .
+169           1083    DVYQPRK|AR  0.089    .
+169           1085    YQPRKAR|KN  0.220    .
+169           1086    QPRKARK|NV  0.194    .
+169           1089    KARKNVR|KT  0.154    .
+169           1090    ARKNVRK|TG  0.119    .
+169           1093    NVRKTGK|QD  0.074    .
+169           1112    EAGFSSK|SG  0.083    .
+169           1130    QNSAEER|LV  0.111    .
+169           1134    EERLVIR|RS  0.070    .
+169           1135    ERLVIRR|SA  0.183    .
+169           1161    PELFQDR|SD  0.149    .
+169           1172    QETGTMR|RG  0.079    .
+169           1173    ETGTMRR|GT  0.211    .
+169           1180    GTGTLDR|TM  0.082    .
+169           1197    MPGTLNR|PS  0.097    .
+169           1202    NRPSLNR|QN  0.090    .
+169           1218    PEILEER|PV  0.183    .
+169           1225    PVSPVQR|TP  0.116    .
+169           1229    VQRTPSR|YS  0.113    .
+169           1247    SVSQVSK|KS  0.085    .
+169           1248    VSQVSKK|SR  0.165    .
+169           1250    QVSKKSR|KS  0.117    .
+169           1251    VSKKSRK|SI  0.138    .
+169           1258    SIFSFAK|KK  0.064    .
+169           1259    IFSFAKK|KK  0.082    .
+169           1260    FSFAKKK|KK  0.108    .
+169           1261    SFAKKKK|KR  0.147    .
+169           1262    FAKKKKK|RD  0.112    .
+169           1263    AKKKKKR|DK  0.454    .
+169           1265    KKKKRDK|AK  0.103    .
+169           1267    KKRDKAK|GD  0.136    .
+169           1282    FSFASFK|SG  0.067    .
+169           1290    GLSESEK|TE  0.062    .
+169           1293    ESEKTER|KD  0.083    .
+169           1294    SEKTERK|DA  0.109    .
+169           1297    TERKDAK|KR  0.081    .
+169           1298    ERKDAKK|RK  0.100    .
+169           1299    RKDAKKR|KK  0.173    .
+169           1300    KDAKKRK|KA  0.194    .
+169           1301    DAKKRKK|AE  0.100    .
+169           1304    KRKKAEK|KD  0.078    .
+169           1305    RKKAEKK|DK  0.202    .
+169           1307    KAEKKDK|KA  0.078    .
+169           1308    AEKKDKK|AV  0.235    .
+169           1313    KKAVEGK|EL  0.071    .
+169           1325    TALNQQK|ME  0.071    .
+169           1349    DGALVGK|NL  0.070    .
+169           1356    NLIEEIR|IR  0.104    .
+169           1358    IEEIRIR|EA  0.109    .
+169           1363    IREAQEK|HR  0.075    .
+169           1365    EAQEKHR|QV  0.220    .
+169           1374    EEEEAQK|RS  0.057    .
+169           1375    EEEAQKR|SI  0.171    .
+169           1403    FFIHHNR|FG  0.090    .
+169           1412    VPDNVQK|QP  0.066    .
+169           1416    VQKQPFR|LQ  0.096    .
+169           1426    ASPTEEK|QP  0.062    .
+169           1431    EKQPPPR|LR  0.077    .
+169           1433    QPPPRLR|QM  0.109    .
+169           1446    ETDGVAR|KT  0.104    .
+169           1447    TDGVARK|TR  0.082    .
+169           1449    GVARKTR|KS  0.292    .
+169           1450    VARKTRK|SI  0.128    .
+169           1455    RKSIVEK|SE  0.087    .
+169           1458    IVEKSEK|TP  0.052    .
+169           1476    FQTPLVK|KD  0.054    .
+169           1477    QTPLVKK|DI  0.131    .
+169           1488    NVIPPNK|LA  0.060    .
+169           1512    SLPLNVR|QT  0.069    .
+169           1520    TASDDER|DL  0.145    .
+169           1523    DDERDLK|RE  0.098    .
+169           1524    DERDLKR|EI  0.234    .
+169           1547    VDVSESR|KS  0.078    .
+169           1548    DVSESRK|SR  0.105    .
+169           1550    SESRKSR|QD  0.334    .
+169           1553    RKSRQDR|RR  0.438    .
+169           1554    KSRQDRR|RR  0.121    .
+169           1555    SRQDRRR|RK  0.154    .
+169           1556    RQDRRRR|KR  0.433    .
+169           1557    QDRRRRK|RE  0.158    .
+169           1558    DRRRRKR|ER  0.674 *ProP*
+169           1560    RRRKRER|SE  0.186    .
+169           1564    RERSESK|RK  0.073    .
+169           1565    ERSESKR|KS  0.262    .
+169           1566    RSESKRK|SR  0.148    .
+169           1568    ESKRKSR|GP  0.307    .
+169           1571    RKSRGPR|VI  0.374    .
+169           1581    SNPIEDR|SI  0.220    .
+169           1592    VPISVDK|DV  0.090    .
+169           1609    PEPSAEK|RK  0.051    .
+169           1610    EPSAEKR|KE  0.229    .
+169           1611    PSAEKRK|EI  0.108    .
+169           1620    PVVNYTK|NM  0.061    .
+169           1626    KNMDSHK|KD  0.066    .
+169           1627    NMDSHKK|DV  0.356    .
+169           1631    HKKDVDK|SE  0.117    .
+169           1636    DKSESIK|EI  0.070    .
+169           1642    KEITLEK|VE  0.053    .
+169           1645    TLEKVEK|RK  0.064    .
+169           1646    LEKVEKR|KK  0.196    .
+169           1647    EKVEKRK|KE  0.071    .
+169           1648    KVEKRKK|EV  0.176    .
+169           1653    KKEVSDK|VA  0.095    .
+169           1657    SDKVAEK|ST  0.103    .
+169           1664    STPQSGK|VE  0.062    .
+169           1668    SGKVELR|SE  0.150    .
+169           1672    ELRSETK|RE  0.058    .
+169           1673    LRSETKR|EI  0.303    .
+169           1684    MELAANR|IN  0.077    .
+169           1698    EDTAPPR|ED  0.080    .
+169           1701    APPREDR|RK  0.156    .
+169           1702    PPREDRR|KR  0.169    .
+169           1703    PREDRRK|RD  0.081    .
+169           1704    REDRRKR|DR  0.646 *ProP*
+169           1706    DRRKRDR|SE  0.151    .
+169           1709    KRDRSEK|SE  0.260    .
+169           1712    RSEKSER|RK  0.094    .
+169           1713    SEKSERR|KG  0.146    .
+169           1714    EKSERRK|GD  0.111    .
+169           1717    ERRKGDR|SE  0.128    .
+169           1720    KGDRSER|ED  0.228    .
+169           1723    RSEREDR|KR  0.206    .
+169           1724    SEREDRK|RR  0.072    .
+169           1725    EREDRKR|RH  0.143    .
+169           1726    REDRKRR|HH  0.654 *ProP*
+169           1730    KRRHHDR|SE  0.207    .
+169           1733    HHDRSER|SE  0.342    .
+169           1736    RSERSER|RK  0.216    .
+169           1737    SERSERR|KR  0.205    .
+169           1738    ERSERRK|RE  0.085    .
+169           1739    RSERRKR|EK  0.581 *ProP*
+169           1741    ERRKREK|SE  0.090    .
+169           1744    KREKSEK|SE  0.117    .
+169           1747    KSEKSEK|GE  0.071    .
+169           1753    KGEESQK|RG  0.058    .
+169           1754    GEESQKR|GR  0.221    .
+169           1756    ESQKRGR|SE  0.126    .
+169           1759    KRGRSER|RE  0.294    .
+169           1760    RGRSERR|EK  0.148    .
+169           1762    RSERREK|SE  0.170    .
+169           1765    RREKSER|RE  0.088    .
+169           1766    REKSERR|EK  0.123    .
+169           1768    KSERREK|SE  0.173    .
+169           1771    RREKSER|HE  0.113    .
+169           1774    KSERHEK|PE  0.106    .
+169           1777    RHEKPER|RE  0.073    .
+169           1778    HEKPERR|EK  0.141    .
+169           1780    KPERREK|SE  0.175    .
+169           1783    RREKSER|RE  0.092    .
+169           1784    REKSERR|EK  0.140    .
+169           1786    KSERREK|SE  0.154    .
+169           1789    RREKSER|RE  0.087    .
+169           1790    REKSERR|EK  0.132    .
+169           1792    KSERREK|SE  0.165    .
+169           1795    RREKSER|RE  0.096    .
+169           1796    REKSERR|EK  0.102    .
+169           1798    KSERREK|PE  0.103    .
+169           1801    RREKPER|RE  0.078    .
+169           1802    REKPERR|EK  0.116    .
+169           1804    KPERREK|RD  0.107    .
+169           1805    PERREKR|DR  0.691 *ProP*
+169           1807    RREKRDR|SE  0.146    .
+169           1810    KRDRSER|RD  0.237    .
+169           1811    RDRSERR|DR  0.226    .
+169           1813    RSERRDR|SE  0.360    .
+169           1816    RRDRSER|RD  0.195    .
+169           1817    RDRSERR|DR  0.255    .
+169           1819    RSERRDR|SE  0.340    .
+169           1822    RRDRSEK|RD  0.118    .
+169           1823    RDRSEKR|DR  0.282    .
+169           1825    RSEKRDR|SE  0.122    .
+169           1828    KRDRSER|RD  0.234    .
+169           1829    RDRSERR|DR  0.232    .
+169           1831    RSERRDR|SE  0.351    .
+169           1834    RRDRSER|RD  0.230    .
+169           1835    RDRSERR|DR  0.205    .
+169           1837    RSERRDR|SE  0.343    .
+169           1840    RRDRSER|RD  0.231    .
+169           1841    RDRSERR|DR  0.202    .
+169           1843    RSERRDR|SE  0.434    .
+169           1846    RRDRSER|RE  0.248    .
+169           1847    RDRSERR|EG  0.140    .
+169           1850    SERREGR|DR  0.540 *ProP*
+169           1852    RREGRDR|DR  0.093    .
+169           1854    EGRDRDR|SE  0.107    .
+169           1857    DRDRSER|SE  0.356    .
+169           1860    RSERSER|RK  0.201    .
+169           1861    SERSERR|KK  0.137    .
+169           1862    ERSERRK|KR  0.111    .
+169           1863    RSERRKK|RD  0.263    .
+169           1864    SERRKKR|DT  0.738 *ProP*
+169           1874    SDSEADR|TE  0.097    .
+169           1877    EADRTEK|QK  0.103    .
+169           1879    DRTEKQK|KR  0.064    .
+169           1880    RTEKQKK|RR  0.100    .
+169           1881    TEKQKKR|RE  0.157    .
+169           1882    EKQKKRR|ER  0.217    .
+169           1884    QKKRRER|RE  0.205    .
+169           1885    KKRRERR|ES  0.678 *ProP*
+169           1888    RERRESR|DS  0.477    .
+169           1891    RESRDSR|KS  0.522 *ProP*
+169           1892    ESRDSRK|SD  0.220    .
+169           1898    KSDDGGR|RR  0.070    .
+169           1899    SDDGGRR|RR  0.096    .
+169           1900    DDGGRRR|RK  0.147    .
+169           1901    DGGRRRR|KS  0.608 *ProP*
+169           1902    GGRRRRK|SS  0.526 *ProP*
+169           1908    KSSGEEK|SK  0.113    .
+169           1910    SGEEKSK|DQ  0.076    .
+169           1914    KSKDQIK|KL  0.074    .
+169           1915    SKDQIKK|LA  0.122    .
+169           1920    KKLAPPR|HG  0.122    .
+169           1930    PVEVYEK|NG  0.050    .
+169           1943    LPPHIAK|DI  0.079    .
+169           1946    HIAKDIK|VD  0.064    .
+169           1952    KVDIAEK|KK  0.054    .
+169           1953    VDIAEKK|KR  0.083    .
+169           1954    DIAEKKK|RE  0.086    .
+169           1955    IAEKKKR|EL  0.302    .
+169           1961    RELEVIR|QK  0.093    .
+169           1963    LEVIRQK|MD  0.058    .
+169           1974    FQSVDTK|RS  0.060    .
+169           1975    QSVDTKR|SV  0.508 *ProP*
+169           1990    PPSNMDK|KG  0.077    .
+169           1991    PSNMDKK|GR  0.106    .
+169           1993    NMDKKGR|AS  0.117    .
+169           1998    GRASPMK|QR  0.073    .
+169           2000    ASPMKQR|VS  0.086    .
+169           2004    KQRVSSR|PR  0.093    .
+169           2006    RVSSRPR|LD  0.077    .
+169           2017    LSQEEVK|PK  0.062    .
+169           2019    QEEVKPK|RK  0.062    .
+169           2020    EEVKPKR|KP  0.131    .
+169           2021    EVKPKRK|PA  0.097    .
+169           2024    PKRKPAR|VI  0.146    .
+169           2033    YESDEDK|SG  0.084    .
+169           2044    LHSGDEK|PR  0.064    .
+169           2046    SGDEKPR|VV  0.110    .
+169           2049    EKPRVVK|RQ  0.105    .
+169           2050    KPRVVKR|QS  0.304    .
+169           2078    NVSMMSR|SR  0.130    .
+169           2080    SMMSRSR|QF  0.096    .
+169           2085    SRQFSMK|SD  0.133    .
+169           2093    DDSSVSR|VT  0.119    .
+169           2097    VSRVTHR|SQ  0.141    .
+169           2103    RSQLSGR|GR  0.154    .
+169           2105    QLSGRGR|SP  0.174    .
+169           2113    PAGVQPK|RS  0.068    .
+169           2114    AGVQPKR|SP  0.311    .
+169           2118    PKRSPGK|EV  0.094    .
+169           2121    SPGKEVK|KG  0.065    .
+169           2122    PGKEVKK|GK  0.122    .
+169           2124    KEVKKGK|NK  0.091    .
+169           2126    VKKGKNK|GK  0.069    .
+169           2128    KGKNKGK|KG  0.076    .
+169           2129    GKNKGKK|GN  0.143    .
+169           2133    GKKGNPR|EG  0.088    .
+169           2144    ESSLSPR|EG  0.092    .
+169           2155    DSSLSPR|EG  0.091    .
+169           2166    DSSLSPR|EG  0.091    .
+169           2177    DSSLSPR|EG  0.091    .
+169           2188    DSSLSPR|EG  0.091    .
+169           2210    DSSLSPR|EG  0.091    .
+169           2221    DSSLSPR|EG  0.091    .
+169           2243    DSSLSPR|EG  0.091    .
+169           2254    DSSLSPR|EG  0.091    .
+169           2276    DSSLSPR|EG  0.091    .
+169           2287    DSSLSPR|EG  0.091    .
+169           2309    DSSLSPR|EG  0.091    .
+169           2320    DSSLSPR|EG  0.091    .
+169           2342    DSSLSPR|EG  0.091    .
+169           2353    DSSLSPR|EG  0.091    .
+169           2375    DSSLSPR|EG  0.091    .
+169           2386    DSSLSPR|EG  0.091    .
+169           2408    DSSLSPR|EG  0.091    .
+169           2419    DSSLSPR|EG  0.091    .
+169           2441    DSSLSPR|EG  0.091    .
+169           2452    DSSLSPR|EG  0.091    .
+169           2474    DSSLSPR|EG  0.091    .
+169           2485    DSSLSPR|EG  0.091    .
+169           2507    DSSLSPR|EG  0.091    .
+169           2518    DSSFSPR|EG  0.097    .
+169           2529    DSSLSPR|EG  0.090    .
+169           2539    WDSSLTR|TG  0.078    .
+169           2548    WGTQIFR|SR  0.104    .
+169           2550    TQIFRSR|IY  0.096    .
+169           2566    EIEVAQR|PR  0.082    .
+169           2568    EVAQRPR|SI  0.139    .
+169           2573    PRSISHR|SE  0.215    .
+169           2577    SHRSEYR|MQ  0.105    .
+169           2590    HLESVWR|RH  0.080    .
+169           2591    LESVWRR|HT  0.146    .
+169           2599    TPFDSQR|GN  0.126    .
+169           2602    DSQRGNR|PT  0.237    .
+169           2620    TDYQPIR|DN  0.115    .
+169           2627    DNHFLIR|SV  0.204    .
+169           2636    PALVTAR|VF  0.087    .
+169           2641    ARVFIPR|FH  0.096    .
+____________________________^_________________
+
+
+
+

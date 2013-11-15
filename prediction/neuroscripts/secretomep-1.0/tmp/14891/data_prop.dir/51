@@ -1,0 +1,578 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3837 51          
+MPNKKETGHRERGEREEGEAQKIDKLMEVFAERYCACNPGVISESQDTVYVLAFSVIILQTDLHNPQIKLHRKMDMESFI      80
+LNNRGIDNDNDLPRELLENIYEGVKKEPIISGRDHFNFLESIDKSIIGKKFNLMEPWRMLTKKRQGEAQKIDKLMEVFAE     160
+RYCACNPGVISESQDTVYVLAFSVIILQTDLHNPQIKLHRKMDMESFILNNRGIDNDNDLPRELLENIYEGVKKEPIISG     240
+RDHFNFLESIDKSIIGKKFNLMEPWRMLVMSTKMQEVVDKTVKPLPDKHFRHIFLFNDILVITKQIQIKGKATTKTTKER     320
+SISTCCYQFRSHLHIGHFKAESFATQWHPYGVRLVDGLDEDRILLELAAYSEEERIEFMTELTEEPIISGRDHFNFLESI     400
+DKSIIGKKFNLMEPWRMLVMSTKMQEVVDKTVKPLPDKHFRHIFLFNDILVITKQIQIRGKATTKTTKERSISTCCYQFR     480
+SHLHIGHFKAESFATQWHPYGVRLVDGLDEDRILLELAAYSEEERIEFMTELTEVTWVYRALENDRIGTLGVSEKIGQST     560
+LSLHSYNSDTDGGRRHTHTLGRRFFKGTLFKSANAAKALSPSTSMFYTKGVSSGDQSGITSDARTSIGGECSSYITESTE     640
+LIRVIPECCSSFSGNLDGSTDANAPSRKHFERLAVDGEKVLKNEHFLVSSGNERGFKINNSFVYGPVLILPYAGFLHWKF     720
+NNLSTASPASVFLLSRLYPKIDTILIGTGDTIDMPSPEFRKACNEHKIGLQIETTQQAIATYSLLLDDLRNFAALLVPAT     800
+QKQITDSEKVYLQRRKSKETNSVMASRIATTFVRSFSAASGEFVRAPVQVFGIEGRYAHALYSAATKQGTLGAVEDQLNS     880
+LQGAIDSVSGLKEYLTLPVCSKEEKKGVLGSAFGEAGVDPLVTNLIDTMIDNKRAKNITGVVSAFNTIMAAQRGEVPCKV     960
+TSARPLSDDHLASLKEALGNFLKENEKLLLETATDEKLIGGMVVEPMDESDPLDISFFGKYSSEPPSWYEFLLDESGVKL    1040
+KAHLKEQLHPPPSHLVAQFVEKACSAVSNTEGVVRVYTKNLWDHALETASHFGWNDSLLREIPVPVRHKLLSHLVKVTVP    1120
+TEIRAQDITQLDFGNVPSQGLAAMFLYHHWISTSFISLHFYQKQVRKDWPGAVVPNVALQLVEPELSHSIEFLQKLSNTP    1200
+LPLTLPQLHANNKLALNVSNVLSTETVAAQTHYDLGEIFFYYSSYNVALTHFQSALTNFKLADAERLNFTEAKVLAYVRG    1280
+LEFLFSTDKSEMDSITAQLEACRGNNFEGCVGVLLLDNQRRELALSERRMLLREIREKSSDQKLHTMAFLCNVKLEVILG    1360
+YTVPQLFWDVLKGERDLVLDFLVFAIKDFLQANKCTRAIDRLKMFVLSIMARKHTRNRAQDILKHLRGPLGLPSPSYQSL    1440
+MPSTAPVPKLAHPQTRDVDLVECYERLTATQSFNTTRDVISKICSLQPNFRAQSYCDMVYRNTQKLPMFTTLCDSFSCPW    1520
+PLALVTAHKLAHMYQHQNSDRALLLLAEIRNYLRTAQFASFKRNNNSRMLEKVEVIFNSMLYNRNIMVSRHRTTVPEEYL    1600
+ASTRVFHASHHASTGQGAGGAANFDTGVISALLTNSSLASTTTDIPDGYNLISAQIASCINNPGSTDLSSLQRFLLSIHD    1680
+KQPNSTLSTTMFLDFAYQIREEGALEVLCAALAKLLMDSEKPEYQTFPSELISRSWAKVSNIKNIDTDMCISTLTRLLDH    1760
+CLTMAPTNLKLIALQAAGRLSVGDNEGTIRLLLSAGALITDGFSNVAMIERWLDSSFYNLVKACMNVGAHLEVSMLCCLK    1840
+SPPEYGTSFQALKRMTQYDHLHLYYPLFWDVNLLECAISQHHKKEEKNKSCPIVYPLFKCKRMDAVSFGSGFIVGSYTEN    1920
+EKTVLSAYGVNRVCQLGYIQNNTQPFGFKSLTLEEKVVKLVSGRAHTLALTESGRVLRWGSNSHGQLGGGDLDVVEINYH    2000
+GADLQSGVIDIAAGMDNSYLLLEDGTIVSAGWSADGQTGTGTTRTARYFTPVKNLPGGVREVSCSGDTVLVRTGEGEVWG    2080
+WGNNEYHQVSPSTDMQVLSPILIMDGVTQVSAGGSFSIFLTESGKVLQSGYLLSDVLQTPTIIPTDHVIREIHASLDHVA    2160
+GVTDDGYLTRWGKGQHNKLLAETQDHITTPTVWDEVPILTVRLGPNKTCIFTDNPIKNVSGLGMIPDPDEEESDDESITL    2240
+ATPADCPDILDMIIELATFEKMADQVAMTVPQLQGDLSAGKFCCAICREGGAVIGYAMFVYTFDLEEGRLMYLEDLYYHD    2320
+LDMGKKKKQNQKGGPATGGGPIRQIGTTKKFQPDTLTKRLEQRKSAQKHKRQNGFEQIKCLSDLVASAAQRTTAFEREEA    2400
+ASAENDSLNVKDGIKRSFYKEFRKVVGQADVVLQVLDVRDPEGCRCFDAETAVLSDYNKRLILVLNKIDLVPFEVAEAWH    2480
+TLLSKQFPTVMFKANTQTQRNRLQQSSQDVKAMNHKALSNRLIKKFFVKFLVTTKRPLWEGCASLEFFVLGWNVTAIPFY    2560
+HDLDMGKKKKQNQKGGPATGGGPIRQIGTTKKFQPDTLTKRLEQRKSAQKHKRQNGFEQIKCLSDLVASRTQGPTKTSKQ    2640
+PIRTQHLGHGTGYQPIRDQYFMIRSVPDGIKRSFYKEFRKVVGQADVVLQVLDVRDPEGCRCFDAETAVLSDYNKRLILV    2720
+LNKIDLVPFEVAEAWHTLLSKQFPTVMFKANTQTQRNRLQQSSQDVKAMNHKALSSSACVGARELTKLLVNYTRNKGIRT    2800
+SIRVGVIGLPNVGKSSLINSLLRSRSCNVGAVPGVTKTIQEVLLDKKIKLLDSPGVVLAQNVGPLATIQNSVKLDSLEDP    2880
+VQPIALILQHCGREQILQHYKIEPFETPSQLLALLAFKFGKLMGEKHRSKGVGSVIWEWLHDLDMGKKKKQNQKGGPATG    2960
+GGPIRQIGTTKKFQPDTLTKRLEQRKSAQKHKRQNGFEQIKCLSDLVASRTQGPTKTSKQPIRTQHLGHGTGYQPIRDQY    3040
+FMIRSVPDGIKRSFYKEFRKVVGQADVVLQVLDVRDPEGCRCFDAETAVLSDYNKRLILVLNKIDLVPFEVAEAWHTLLS    3120
+KQFPTVMFKANTQTQRNRLQQSSQDVKAMNHKALSSSACVGARELTKLLVNYTRNKGIRTSIRVGVIGLPNVGKSSLINS    3200
+LLRSRSCNVGAVPGVTKTIQEVLLDKKIKLLDSPGVVLAQNVGPLATIQNSVKLDSLEDPVQPIALILQHCGREQILQHY    3280
+KIEPFETPSHLLALLAFKFGKLMGGGVPDINAAARVLLKDWNAGSVQFYTKPPQDASLPSHVSSSVVGGWAAEFSMPDEI    3360
+KVEEDTRMEDKGAASNPELTVVFKTDKREKEQIDSYTLLFGILYPVNVVPLVKKQRTAALKKSRKRMDKLGDMFDSAMNN    3440
+MMDCDDDSDDTEIFLHFPTPSQSNKSPPIDLSHYDMSDKTHKSGKLRYRKIGFLGEGQFATVYKAEDLQNENKIVAVKKI    3520
+KLGCRIEAKDGINRTAVREIKLLQEIEHENICGVEHIFHNFCNPLKPLVSKTPHTLSPGDLRARWQGVTSLPTKTSISTA    3600
+VGRTDLERVIKEPSMILGAADIKSYAMMTLRGLEYLHKHWILHRDIKPNNLLIDSNGVLKITDFGLARTFGSPDKNYSHV    3680
+VVTRWYRAPELLFGATSYGTGVDIWAVGCVIAELLQKNPFLPGESDLNQLQQIFETLGTPTEEDWPGLTDLPDYIAFKPC    3760
+PGIPLGDIFVAADDHTIRILQDMFRFDPNKRINCTQALNSPYFFSDPKPTHPEELPVLKDWDRETSPSEGLATSVNL       3840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+.............................................................................       3840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+51               4    ---MPNK|KE  0.059    .
+51               5    --MPNKK|ET  0.158    .
+51              10    KKETGHR|ER  0.113    .
+51              12    ETGHRER|GE  0.099    .
+51              15    HRERGER|EE  0.310    .
+51              22    EEGEAQK|ID  0.058    .
+51              25    EAQKIDK|LM  0.062    .
+51              33    MEVFAER|YC  0.082    .
+51              69    LHNPQIK|LH  0.070    .
+51              72    PQIKLHR|KM  0.082    .
+51              73    QIKLHRK|MD  0.085    .
+51              84    SFILNNR|GI  0.082    .
+51              94    NDNDLPR|EL  0.093    .
+51             105    NIYEGVK|KE  0.050    .
+51             106    IYEGVKK|EP  0.100    .
+51             113    EPIISGR|DH  0.127    .
+51             124    FLESIDK|SI  0.074    .
+51             129    DKSIIGK|KF  0.072    .
+51             130    KSIIGKK|FN  0.100    .
+51             138    NLMEPWR|ML  0.118    .
+51             142    PWRMLTK|KR  0.057    .
+51             143    WRMLTKK|RQ  0.165    .
+51             144    RMLTKKR|QG  0.236    .
+51             150    RQGEAQK|ID  0.060    .
+51             153    EAQKIDK|LM  0.059    .
+51             161    MEVFAER|YC  0.082    .
+51             197    LHNPQIK|LH  0.070    .
+51             200    PQIKLHR|KM  0.082    .
+51             201    QIKLHRK|MD  0.085    .
+51             212    SFILNNR|GI  0.082    .
+51             222    NDNDLPR|EL  0.093    .
+51             233    NIYEGVK|KE  0.050    .
+51             234    IYEGVKK|EP  0.100    .
+51             241    EPIISGR|DH  0.127    .
+51             252    FLESIDK|SI  0.074    .
+51             257    DKSIIGK|KF  0.072    .
+51             258    KSIIGKK|FN  0.100    .
+51             266    NLMEPWR|ML  0.097    .
+51             273    MLVMSTK|MQ  0.081    .
+51             280    MQEVVDK|TV  0.082    .
+51             283    VVDKTVK|PL  0.058    .
+51             288    VKPLPDK|HF  0.061    .
+51             291    LPDKHFR|HI  0.109    .
+51             304    DILVITK|QI  0.065    .
+51             309    TKQIQIK|GK  0.077    .
+51             311    QIQIKGK|AT  0.080    .
+51             315    KGKATTK|TT  0.058    .
+51             318    ATTKTTK|ER  0.062    .
+51             320    TKTTKER|SI  0.226    .
+51             330    TCCYQFR|SH  0.158    .
+51             339    LHIGHFK|AE  0.074    .
+51             353    WHPYGVR|LV  0.089    .
+51             362    DGLDEDR|IL  0.061    .
+51             375    AYSEEER|IE  0.085    .
+51             391    EPIISGR|DH  0.115    .
+51             402    FLESIDK|SI  0.074    .
+51             407    DKSIIGK|KF  0.072    .
+51             408    KSIIGKK|FN  0.100    .
+51             416    NLMEPWR|ML  0.097    .
+51             423    MLVMSTK|MQ  0.081    .
+51             430    MQEVVDK|TV  0.082    .
+51             433    VVDKTVK|PL  0.058    .
+51             438    VKPLPDK|HF  0.061    .
+51             441    LPDKHFR|HI  0.109    .
+51             454    DILVITK|QI  0.062    .
+51             459    TKQIQIR|GK  0.118    .
+51             461    QIQIRGK|AT  0.072    .
+51             465    RGKATTK|TT  0.058    .
+51             468    ATTKTTK|ER  0.061    .
+51             470    TKTTKER|SI  0.226    .
+51             480    TCCYQFR|SH  0.158    .
+51             489    LHIGHFK|AE  0.074    .
+51             503    WHPYGVR|LV  0.089    .
+51             512    DGLDEDR|IL  0.061    .
+51             525    AYSEEER|IE  0.085    .
+51             540    EVTWVYR|AL  0.089    .
+51             546    RALENDR|IG  0.070    .
+51             555    TLGVSEK|IG  0.065    .
+51             574    SDTDGGR|RH  0.070    .
+51             575    DTDGGRR|HT  0.124    .
+51             582    HTHTLGR|RF  0.099    .
+51             583    THTLGRR|FF  0.122    .
+51             586    LGRRFFK|GT  0.145    .
+51             591    FKGTLFK|SA  0.097    .
+51             597    KSANAAK|AL  0.107    .
+51             609    TSMFYTK|GV  0.139    .
+51             624    GITSDAR|TS  0.100    .
+51             643    ESTELIR|VI  0.073    .
+51             667    DANAPSR|KH  0.086    .
+51             668    ANAPSRK|HF  0.105    .
+51             672    SRKHFER|LA  0.224    .
+51             679    LAVDGEK|VL  0.056    .
+51             682    DGEKVLK|NE  0.058    .
+51             694    VSSGNER|GF  0.094    .
+51             697    GNERGFK|IN  0.106    .
+51             719    AGFLHWK|FN  0.069    .
+51             736    SVFLLSR|LY  0.077    .
+51             740    LSRLYPK|ID  0.067    .
+51             760    MPSPEFR|KA  0.185    .
+51             761    PSPEFRK|AC  0.075    .
+51             767    KACNEHK|IG  0.074    .
+51             790    LLLDDLR|NF  0.070    .
+51             802    LVPATQK|QI  0.075    .
+51             809    QITDSEK|VY  0.060    .
+51             814    EKVYLQR|RK  0.099    .
+51             815    KVYLQRR|KS  0.104    .
+51             816    VYLQRRK|SK  0.108    .
+51             818    LQRRKSK|ET  0.191    .
+51             827    NSVMASR|IA  0.117    .
+51             834    IATTFVR|SF  0.139    .
+51             845    ASGEFVR|AP  0.098    .
+51             856    VFGIEGR|YA  0.125    .
+51             867    LYSAATK|QG  0.063    .
+51             892    DSVSGLK|EY  0.054    .
+51             902    TLPVCSK|EE  0.062    .
+51             905    VCSKEEK|KG  0.058    .
+51             906    CSKEEKK|GV  0.161    .
+51             933    DTMIDNK|RA  0.059    .
+51             934    TMIDNKR|AK  0.165    .
+51             936    IDNKRAK|NI  0.098    .
+51             953    TIMAAQR|GE  0.091    .
+51             959    RGEVPCK|VT  0.070    .
+51             964    CKVTSAR|PL  0.122    .
+51             975    DHLASLK|EA  0.057    .
+51             983    ALGNFLK|EN  0.066    .
+51             987    FLKENEK|LL  0.054    .
+51             997    ETATDEK|LI  0.064    .
+51            1020    DISFFGK|YS  0.085    .
+51            1039    LDESGVK|LK  0.055    .
+51            1041    ESGVKLK|AH  0.068    .
+51            1045    KLKAHLK|EQ  0.058    .
+51            1062    VAQFVEK|AC  0.082    .
+51            1075    NTEGVVR|VY  0.091    .
+51            1079    VVRVYTK|NL  0.067    .
+51            1100    WNDSLLR|EI  0.071    .
+51            1107    EIPVPVR|HK  0.065    .
+51            1109    PVPVRHK|LL  0.064    .
+51            1116    LLSHLVK|VT  0.073    .
+51            1124    TVPTEIR|AQ  0.082    .
+51            1163    SLHFYQK|QV  0.086    .
+51            1166    FYQKQVR|KD  0.089    .
+51            1167    YQKQVRK|DW  0.109    .
+51            1195    SIEFLQK|LS  0.062    .
+51            1213    QLHANNK|LA  0.064    .
+51            1260    SALTNFK|LA  0.068    .
+51            1266    KLADAER|LN  0.087    .
+51            1273    LNFTEAK|VL  0.070    .
+51            1279    KVLAYVR|GL  0.092    .
+51            1289    FLFSTDK|SE  0.071    .
+51            1303    AQLEACR|GN  0.079    .
+51            1320    LLLDNQR|RE  0.058    .
+51            1321    LLDNQRR|EL  0.144    .
+51            1328    ELALSER|RM  0.068    .
+51            1329    LALSERR|ML  0.102    .
+51            1333    ERRMLLR|EI  0.102    .
+51            1336    MLLREIR|EK  0.201    .
+51            1338    LREIREK|SS  0.140    .
+51            1343    EKSSDQK|LH  0.065    .
+51            1354    AFLCNVK|LE  0.051    .
+51            1372    LFWDVLK|GE  0.065    .
+51            1375    DVLKGER|DL  0.066    .
+51            1387    FLVFAIK|DF  0.068    .
+51            1394    DFLQANK|CT  0.062    .
+51            1397    QANKCTR|AI  0.114    .
+51            1401    CTRAIDR|LK  0.092    .
+51            1403    RAIDRLK|MF  0.060    .
+51            1412    VLSIMAR|KH  0.101    .
+51            1413    LSIMARK|HT  0.084    .
+51            1416    MARKHTR|NR  0.092    .
+51            1418    RKHTRNR|AQ  0.105    .
+51            1424    RAQDILK|HL  0.066    .
+51            1427    DILKHLR|GP  0.071    .
+51            1449    STAPVPK|LA  0.100    .
+51            1456    LAHPQTR|DV  0.336    .
+51            1466    LVECYER|LT  0.075    .
+51            1477    QSFNTTR|DV  0.186    .
+51            1482    TRDVISK|IC  0.071    .
+51            1491    SLQPNFR|AQ  0.097    .
+51            1501    YCDMVYR|NT  0.089    .
+51            1505    VYRNTQK|LP  0.054    .
+51            1529    ALVTAHK|LA  0.075    .
+51            1541    QHQNSDR|AL  0.078    .
+51            1550    LLLAEIR|NY  0.067    .
+51            1554    EIRNYLR|TA  0.073    .
+51            1562    AQFASFK|RN  0.063    .
+51            1563    QFASFKR|NN  0.126    .
+51            1568    KRNNNSR|ML  0.244    .
+51            1572    NSRMLEK|VE  0.059    .
+51            1584    NSMLYNR|NI  0.107    .
+51            1590    RNIMVSR|HR  0.101    .
+51            1592    IMVSRHR|TT  0.089    .
+51            1604    EYLASTR|VF  0.085    .
+51            1673    DLSSLQR|FL  0.103    .
+51            1681    LLSIHDK|QP  0.080    .
+51            1700    DFAYQIR|EE  0.106    .
+51            1714    LCAALAK|LL  0.078    .
+51            1721    LLMDSEK|PE  0.073    .
+51            1734    PSELISR|SW  0.119    .
+51            1738    ISRSWAK|VS  0.069    .
+51            1743    AKVSNIK|NI  0.066    .
+51            1756    CISTLTR|LL  0.119    .
+51            1770    MAPTNLK|LI  0.056    .
+51            1779    ALQAAGR|LS  0.072    .
+51            1790    DNEGTIR|LL  0.077    .
+51            1811    NVAMIER|WL  0.101    .
+51            1822    SFYNLVK|AC  0.071    .
+51            1840    SMLCCLK|SP  0.069    .
+51            1853    TSFQALK|RM  0.064    .
+51            1854    SFQALKR|MT  0.149    .
+51            1883    AISQHHK|KE  0.074    .
+51            1884    ISQHHKK|EE  0.099    .
+51            1887    HHKKEEK|NK  0.061    .
+51            1889    KKEEKNK|SC  0.106    .
+51            1899    IVYPLFK|CK  0.058    .
+51            1901    YPLFKCK|RM  0.071    .
+51            1902    PLFKCKR|MD  0.179    .
+51            1922    SYTENEK|TV  0.059    .
+51            1932    SAYGVNR|VC  0.091    .
+51            1949    TQPFGFK|SL  0.087    .
+51            1956    SLTLEEK|VV  0.062    .
+51            1959    LEEKVVK|LV  0.082    .
+51            1964    VKLVSGR|AH  0.087    .
+51            1975    ALTESGR|VL  0.086    .
+51            1978    ESGRVLR|WG  0.290    .
+51            2044    TGTGTTR|TA  0.087    .
+51            2047    GTTRTAR|YF  0.315    .
+51            2053    RYFTPVK|NL  0.061    .
+51            2060    NLPGGVR|EV  0.145    .
+51            2072    GDTVLVR|TG  0.087    .
+51            2125    FLTESGK|VL  0.060    .
+51            2150    PTDHVIR|EI  0.126    .
+51            2170    DDGYLTR|WG  0.082    .
+51            2173    YLTRWGK|GQ  0.133    .
+51            2178    GKGQHNK|LL  0.082    .
+51            2202    VPILTVR|LG  0.068    .
+51            2207    VRLGPNK|TC  0.056    .
+51            2217    FTDNPIK|NV  0.076    .
+51            2261    ELATFEK|MA  0.098    .
+51            2281    GDLSAGK|FC  0.067    .
+51            2288    FCCAICR|EG  0.100    .
+51            2309    FDLEEGR|LM  0.064    .
+51            2325    HDLDMGK|KK  0.061    .
+51            2326    DLDMGKK|KK  0.077    .
+51            2327    LDMGKKK|KQ  0.131    .
+51            2328    DMGKKKK|QN  0.169    .
+51            2332    KKKQNQK|GG  0.070    .
+51            2343    TGGGPIR|QI  0.129    .
+51            2349    RQIGTTK|KF  0.065    .
+51            2350    QIGTTKK|FQ  0.105    .
+51            2358    QPDTLTK|RL  0.064    .
+51            2359    PDTLTKR|LE  0.099    .
+51            2363    TKRLEQR|KS  0.104    .
+51            2364    KRLEQRK|SA  0.180    .
+51            2368    QRKSAQK|HK  0.075    .
+51            2370    KSAQKHK|RQ  0.075    .
+51            2371    SAQKHKR|QN  0.344    .
+51            2379    NGFEQIK|CL  0.069    .
+51            2391    VASAAQR|TT  0.091    .
+51            2397    RTTAFER|EE  0.076    .
+51            2411    NDSLNVK|DG  0.065    .
+51            2415    NVKDGIK|RS  0.056    .
+51            2416    VKDGIKR|SF  0.265    .
+51            2420    IKRSFYK|EF  0.084    .
+51            2423    SFYKEFR|KV  0.125    .
+51            2424    FYKEFRK|VV  0.137    .
+51            2439    LQVLDVR|DP  0.084    .
+51            2445    RDPEGCR|CF  0.085    .
+51            2459    VLSDYNK|RL  0.066    .
+51            2460    LSDYNKR|LI  0.119    .
+51            2467    LILVLNK|ID  0.052    .
+51            2485    WHTLLSK|QF  0.063    .
+51            2493    FPTVMFK|AN  0.068    .
+51            2500    ANTQTQR|NR  0.076    .
+51            2502    TQTQRNR|LQ  0.085    .
+51            2511    QSSQDVK|AM  0.067    .
+51            2516    VKAMNHK|AL  0.071    .
+51            2521    HKALSNR|LI  0.110    .
+51            2524    LSNRLIK|KF  0.136    .
+51            2525    SNRLIKK|FF  0.149    .
+51            2529    IKKFFVK|FL  0.071    .
+51            2535    KFLVTTK|RP  0.055    .
+51            2536    FLVTTKR|PL  0.197    .
+51            2567    HDLDMGK|KK  0.063    .
+51            2568    DLDMGKK|KK  0.077    .
+51            2569    LDMGKKK|KQ  0.131    .
+51            2570    DMGKKKK|QN  0.169    .
+51            2574    KKKQNQK|GG  0.070    .
+51            2585    TGGGPIR|QI  0.129    .
+51            2591    RQIGTTK|KF  0.065    .
+51            2592    QIGTTKK|FQ  0.105    .
+51            2600    QPDTLTK|RL  0.064    .
+51            2601    PDTLTKR|LE  0.099    .
+51            2605    TKRLEQR|KS  0.104    .
+51            2606    KRLEQRK|SA  0.180    .
+51            2610    QRKSAQK|HK  0.075    .
+51            2612    KSAQKHK|RQ  0.075    .
+51            2613    SAQKHKR|QN  0.344    .
+51            2621    NGFEQIK|CL  0.068    .
+51            2630    SDLVASR|TQ  0.089    .
+51            2636    RTQGPTK|TS  0.069    .
+51            2639    GPTKTSK|QP  0.065    .
+51            2643    TSKQPIR|TQ  0.121    .
+51            2657    TGYQPIR|DQ  0.140    .
+51            2664    DQYFMIR|SV  0.201    .
+51            2671    SVPDGIK|RS  0.057    .
+51            2672    VPDGIKR|SF  0.303    .
+51            2676    IKRSFYK|EF  0.085    .
+51            2679    SFYKEFR|KV  0.125    .
+51            2680    FYKEFRK|VV  0.137    .
+51            2695    LQVLDVR|DP  0.084    .
+51            2701    RDPEGCR|CF  0.085    .
+51            2715    VLSDYNK|RL  0.066    .
+51            2716    LSDYNKR|LI  0.119    .
+51            2723    LILVLNK|ID  0.052    .
+51            2741    WHTLLSK|QF  0.063    .
+51            2749    FPTVMFK|AN  0.068    .
+51            2756    ANTQTQR|NR  0.076    .
+51            2758    TQTQRNR|LQ  0.085    .
+51            2767    QSSQDVK|AM  0.069    .
+51            2772    VKAMNHK|AL  0.074    .
+51            2783    SACVGAR|EL  0.118    .
+51            2787    GARELTK|LL  0.063    .
+51            2794    LLVNYTR|NK  0.088    .
+51            2796    VNYTRNK|GI  0.075    .
+51            2799    TRNKGIR|TS  0.149    .
+51            2803    GIRTSIR|VG  0.102    .
+51            2814    GLPNVGK|SS  0.068    .
+51            2823    LINSLLR|SR  0.121    .
+51            2825    NSLLRSR|SC  0.092    .
+51            2837    AVPGVTK|TI  0.067    .
+51            2846    QEVLLDK|KI  0.053    .
+51            2847    EVLLDKK|IK  0.062    .
+51            2849    LLDKKIK|LL  0.069    .
+51            2873    TIQNSVK|LD  0.066    .
+51            2893    ILQHCGR|EQ  0.082    .
+51            2901    QILQHYK|IE  0.058    .
+51            2918    LALLAFK|FG  0.056    .
+51            2921    LAFKFGK|LM  0.074    .
+51            2926    GKLMGEK|HR  0.069    .
+51            2928    LMGEKHR|SK  0.186    .
+51            2930    GEKHRSK|GV  0.110    .
+51            2947    HDLDMGK|KK  0.062    .
+51            2948    DLDMGKK|KK  0.076    .
+51            2949    LDMGKKK|KQ  0.127    .
+51            2950    DMGKKKK|QN  0.169    .
+51            2954    KKKQNQK|GG  0.070    .
+51            2965    TGGGPIR|QI  0.129    .
+51            2971    RQIGTTK|KF  0.065    .
+51            2972    QIGTTKK|FQ  0.105    .
+51            2980    QPDTLTK|RL  0.064    .
+51            2981    PDTLTKR|LE  0.099    .
+51            2985    TKRLEQR|KS  0.104    .
+51            2986    KRLEQRK|SA  0.180    .
+51            2990    QRKSAQK|HK  0.075    .
+51            2992    KSAQKHK|RQ  0.075    .
+51            2993    SAQKHKR|QN  0.344    .
+51            3001    NGFEQIK|CL  0.068    .
+51            3010    SDLVASR|TQ  0.089    .
+51            3016    RTQGPTK|TS  0.069    .
+51            3019    GPTKTSK|QP  0.065    .
+51            3023    TSKQPIR|TQ  0.121    .
+51            3037    TGYQPIR|DQ  0.140    .
+51            3044    DQYFMIR|SV  0.201    .
+51            3051    SVPDGIK|RS  0.057    .
+51            3052    VPDGIKR|SF  0.303    .
+51            3056    IKRSFYK|EF  0.085    .
+51            3059    SFYKEFR|KV  0.125    .
+51            3060    FYKEFRK|VV  0.137    .
+51            3075    LQVLDVR|DP  0.084    .
+51            3081    RDPEGCR|CF  0.085    .
+51            3095    VLSDYNK|RL  0.066    .
+51            3096    LSDYNKR|LI  0.119    .
+51            3103    LILVLNK|ID  0.052    .
+51            3121    WHTLLSK|QF  0.063    .
+51            3129    FPTVMFK|AN  0.068    .
+51            3136    ANTQTQR|NR  0.076    .
+51            3138    TQTQRNR|LQ  0.085    .
+51            3147    QSSQDVK|AM  0.069    .
+51            3152    VKAMNHK|AL  0.074    .
+51            3163    SACVGAR|EL  0.118    .
+51            3167    GARELTK|LL  0.063    .
+51            3174    LLVNYTR|NK  0.088    .
+51            3176    VNYTRNK|GI  0.075    .
+51            3179    TRNKGIR|TS  0.149    .
+51            3183    GIRTSIR|VG  0.102    .
+51            3194    GLPNVGK|SS  0.068    .
+51            3203    LINSLLR|SR  0.121    .
+51            3205    NSLLRSR|SC  0.092    .
+51            3217    AVPGVTK|TI  0.067    .
+51            3226    QEVLLDK|KI  0.053    .
+51            3227    EVLLDKK|IK  0.062    .
+51            3229    LLDKKIK|LL  0.069    .
+51            3253    TIQNSVK|LD  0.066    .
+51            3273    ILQHCGR|EQ  0.082    .
+51            3281    QILQHYK|IE  0.059    .
+51            3298    LALLAFK|FG  0.060    .
+51            3301    LAFKFGK|LM  0.085    .
+51            3315    DINAAAR|VL  0.087    .
+51            3319    AARVLLK|DW  0.082    .
+51            3331    SVQFYTK|PP  0.062    .
+51            3361    SMPDEIK|VE  0.065    .
+51            3367    KVEEDTR|ME  0.089    .
+51            3371    DTRMEDK|GA  0.069    .
+51            3384    ELTVVFK|TD  0.063    .
+51            3387    VVFKTDK|RE  0.057    .
+51            3388    VFKTDKR|EK  0.150    .
+51            3390    KTDKREK|EQ  0.062    .
+51            3413    NVVPLVK|KQ  0.055    .
+51            3414    VVPLVKK|QR  0.098    .
+51            3416    PLVKKQR|TA  0.091    .
+51            3421    QRTAALK|KS  0.063    .
+51            3422    RTAALKK|SR  0.117    .
+51            3424    AALKKSR|KR  0.113    .
+51            3425    ALKKSRK|RM  0.101    .
+51            3426    LKKSRKR|MD  0.161    .
+51            3429    SRKRMDK|LG  0.134    .
+51            3465    TPSQSNK|SP  0.107    .
+51            3479    HYDMSDK|TH  0.056    .
+51            3482    MSDKTHK|SG  0.067    .
+51            3485    KTHKSGK|LR  0.071    .
+51            3487    HKSGKLR|YR  0.149    .
+51            3489    SGKLRYR|KI  0.123    .
+51            3490    GKLRYRK|IG  0.227    .
+51            3504    QFATVYK|AE  0.070    .
+51            3513    DLQNENK|IV  0.069    .
+51            3518    NKIVAVK|KI  0.062    .
+51            3519    KIVAVKK|IK  0.097    .
+51            3521    VAVKKIK|LG  0.064    .
+51            3525    KIKLGCR|IE  0.073    .
+51            3529    GCRIEAK|DG  0.068    .
+51            3534    AKDGINR|TA  0.080    .
+51            3538    INRTAVR|EI  0.087    .
+51            3541    TAVREIK|LL  0.159    .
+51            3566    NFCNPLK|PL  0.062    .
+51            3571    LKPLVSK|TP  0.063    .
+51            3582    LSPGDLR|AR  0.100    .
+51            3584    PGDLRAR|WQ  0.079    .
+51            3594    VTSLPTK|TS  0.061    .
+51            3603    ISTAVGR|TD  0.072    .
+51            3608    GRTDLER|VI  0.078    .
+51            3611    DLERVIK|EP  0.139    .
+51            3623    LGAADIK|SY  0.068    .
+51            3631    YAMMTLR|GL  0.101    .
+51            3638    GLEYLHK|HW  0.066    .
+51            3644    KHWILHR|DI  0.105    .
+51            3647    ILHRDIK|PN  0.126    .
+51            3660    DSNGVLK|IT  0.072    .
+51            3668    TDFGLAR|TF  0.087    .
+51            3675    TFGSPDK|NY  0.076    .
+51            3684    SHVVVTR|WY  0.126    .
+51            3687    VVTRWYR|AP  0.160    .
+51            3717    IAELLQK|NP  0.054    .
+51            3758    PDYIAFK|PC  0.059    .
+51            3778    ADDHTIR|IL  0.089    .
+51            3785    ILQDMFR|FD  0.088    .
+51            3790    FRFDPNK|RI  0.063    .
+51            3791    RFDPNKR|IN  0.145    .
+51            3808    YFFSDPK|PT  0.067    .
+51            3819    EELPVLK|DW  0.070    .
+51            3823    VLKDWDR|ET  0.110    .
+____________________________^_________________
+
+
+
+

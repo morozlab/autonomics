@@ -1,0 +1,593 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3850 48          
+MCIEAAKTIWIEKPPQKYKIFSNISRIFDRYTTKFKSLSERYVSLIKNLPPKPPWTELPTRPSGAPVANATIGGTPLEIS      80
+GWSQPWFLSKYLQFYLSIYSLITDYVTTQVGEEAIIKFIHDKTAAPYFSNLVWFIGNNTLMMERCLRNEATHLTRNKLES     160
+LVALHLDDMHYVHDIMQLQMQSLNNMLCEHLLNTLFIPLYVYSLDPSLEYITRFHPVFTCYILTLLYICVSWAGRTKHSL     240
+ARQVDSPQVSTKCALFLLSQVFLILTHPPLVKQLKLYICFEENPNLDSGDVKRRFTKPSSQIQDTFKPAVIPKNKQNLQP     320
+TRLAREHREELKAREAKRVQEESRVRDVEKYQSRRTNSMISQQQKFNQTGYLKSILEPEPGTDPLSGRRVHRVESLKDIS     400
+EYRSRESSTVSKEGSVYSEAVYIDSDDARVESFTDLDPKSPVTMATNDVIATSSRDVTSPHVAIVTDNSADSDPCTTPRD     480
+DECRDEMKTPNEEAPVEVVDADRLEEPQSGDADPIRLEESGETEPQKATAERLESTEPQEATAERLEEDEEEERVEEEGT     560
+QNRDYPVSEDSGIVGSETTERFSQPDDVDEEEEEESRDESSTVQDGSIEDGGPPSPLFRSPDQGDLDRTITLTDQEIEAV     640
+TKDLSAEDGAGKTVPVVPNLPVISTTAEPSLCSPIKTVTDVTDFSDAFHCPPTRSCIFYDALLSCLELGEDDVEALFSGA     720
+LLYAMYTNTAMPHKPPAPFFYDDRVIDRLLNILDKACYIEGIVRPVTVEIAVRLLKVLTTYDNRVLLQDNHIAVLTAVKE     800
+NSVRFLRTFYAGEDNTLFVELFDEEFKAFKKRRPTNVAHLMSDEVMLLGPVYTPLTGIDFTKRLPCGDLEKMRKSLIMFF     880
+TIRKLWQEVVGEEENDLPLLNLSLQVSKGDILNLNNSDLIACSVITDKDAEKRFLVIDTHQLILVEPDNAPGRLGHGVVQ     960
+FVAPLQCVDARPDKDNNRALVVSIEKSATFTAPVSARFLFEDHIRCFAAKTRLKQGRESLQKLKGFKLCHLLDIPGYQPN    1040
+SEEQSGGGGSVSELRMSQMADETLQGVGGRKSLDKLPAPEAIKYNFFLGMSDLDDDLLYDDIFTTNLNFDEPGPSHESEP    1120
+GPLHESEHIEPPADDGEDEPDPPEEEEEEGEVEEEEQMGEVVKEDKSELVAKLEKECEKAKQDYARAKQMITKLRQENNL    1200
+LKEENKIVTENIHRLYQAAKNEIKKLEDAAKENRERRGSRESSERREGRDHERRDRFERSDRSERPERFDRPERTQSEKR    1280
+PERRSRSGRGMSDLDDDLLYDDIFTTNLNFDEPGPSHESEPGPSHESEHIEPPADDGEDEADPPEEEEGEVEEEEQMVEV    1360
+VNEDKSELVSKLEKECEKAKQDYARAKQMITKLRQENNFLKEENKIVTENIHRLYQAAKNEIKKLEDAAKENRERRGSRE    1440
+SSERREGRDHERRDRFERSDRSERPERFDRPERTQSEKRPERRSRSGRAMDEEVRTDTLIKDILARQKGLFVPYFNRDEM    1520
+VMVRIRDFEDYNSLPIDTYGVSMIVNPLTTSTKLYKDQCVYCFDTPLHSALYVDFTRYWAYCQKCLDKSDASVFLRHVRE    1600
+VREREENEDEDPPAKITRLAIGVEGGFDASKEQYEYTDTYTVYVKAEDKNYQLDDTSLPENVRVTARNVINFQSAGAQEQ    1680
+SAQWDGEERKISRFAENLQQLDNGVKVPPGPWVCSMCDKRDNLWMNLTCGTILCGRRYFDGTGGNNHAVDYYETTKYPLA    1760
+VKLGTITPQGADVYSYGEDDMVLDPHLAKHLEHFGINMMHCQQTEKTMTELEIDANMNLKFEYDSILESGVALKPVYGPG    1840
+YLGLINMGNTCYMNSVLQVCDQEPTETTNRNSLFRLRDWLFPIRSVLLNCVPGLATKYLAYNGTPTYEIPTSLAFQLKTL    1920
+VQYIQNPGDYSKADTIPGVLLNCVPGLATKYLAYNGTPTYEIPTSLAFQLKTLVQYIQNPGDYSKADTIPGVGNGVKPAL    2000
+LKTIIGKGHSEFSSSRQQDAHEYFLHIIDLLEKQEKNKPELQSTDNFAFEIEERIQCNQSQKVLYKTRKDYCLSLPLPLH    2080
+LAPNRDEAEAWEARKAEMDRTGERVKGDDCIKYQLDLKQCLEALNSPETITDFLSPDTNVKGTAQTKTSLKTFPPYLMVQ    2160
+ARRFTLTPDWQPKKLDVLLEVPDEVNMEFLRGKGLQSGEVEMSGEPTVAPLEPDQEIVAGLVGMGFALEGCRKAAYHTKN    2240
+AGLEVAMEWVLTHMEDPDFASPLVIETPTAAAPTAGGPDPESIMMICAMGFTESQAKVALRKCDNNLERAADWVFTHPDE    2320
+LDEPENRNIDYTEIIYSWPVLSRVQRNKRDGIFWQRLISFPHIKIPCLQRYPYIRDPNKSCLSTENTGVKPALLKTIIGK    2400
+GHSEFSSSRQQDAHEYFLHIIDLLEKQEKNKPELQSTDNFAFEIEERIQCNQSQKVLYKTRKDYCLSLPLPLHLAPNRDE    2480
+AEAWEARKAEMDRTGERVKGDDCIKYQLDLKQCLEALNSPETITDFLSPDTNVKGTAQTKTSLKTFPPYLMVQARRFTLT    2560
+PDWQPKKLDVLLEVPDEVNMEFLRGKGLQSGEVEMSGEPTVAPLEPDQEIVAGLVGMGFALEGCRKAAYHTKNAGLEVAM    2640
+EWVLTHMEDPDFASPLVIETPTAAAPTAGGPDPESIMMICAMGFTESQAKVALRKCDNNLERAADWVFTHPDELDEPEVP    2720
+VQSGGRERKLLKAKWRDREIERDRDRDRERERERERERERERERERNQTMFATEAVFICWLILSNKSSRDLLSANQRPEF    2800
+PDSVGSCFVGYWSVRENQYNDIYAITYRDPLLQKSFLDFPCPRCGLVTNPEKLVQTLCRFFRYRDPELHGILSAHQTFKR    2880
+LVNTTKLSIMLRICLSQFDENAKFKSDFNSQYHPESLRFDPIGRDMDGNQFWLVTDDEKSHRLYLWRPPYDGSNWTLLSS    2960
+NNTELARVLEQIRPNESEAAIKVTKIGQVYLAQVRPPTPVEEPEKRKKTKKVKEPTTVDLDIEHRVRKNEIGTKPSQSSV    3040
+SYTSCLVQTLSLQSFPNPSQPQERKSLRITDRKVYKFEGDEEDSGEDSEEEIEGQKEKDSEVRAATQTPDNIWYRIWHLA    3120
+SGRYLPPQILFCLRWEFIEFNSVLLKFFDLYSCSVFAESFAIIELQFSLSLSLLPPLTPALPPQYKRAIDLAKSRKRSKK    3200
+FLSISRGFRLLNPSLTTHLHPSGKQPSDGGKQPSDGGNSTDSSSSTNKTNGGAVIPADVARTKAMSRPMLEHPIRKPQFH    3280
+TACRITRQFLDILVTLPSIKEIKKPSEPEDRCWACQGSENLDTMLFCDGCDLATYHMACLHPAIEVIPEEDWYCPICEQL    3360
+LLYLHLQQKFRKLNLHLIARGTPSATKVRKKPKLQHSTVHSAPRYVNILGITNQNSLFRSRDWLSANQGPVFPESLVVTQ    3440
+QRISVPQVYEHNIDDDNVRGRGKRVSSGEEDEVEEDAILMRPEDVVSSESDDEDEFSYRPRAGVSTNGYYNNNGTSPNNS    3520
+YHGYTSTSRRYTGDDFLAEAPTRAVMDNTPPSRMGDPSSNSSHSNPASENYPPILLSQPHGRPTKRPSMMGQQNGGAKPA    3600
+EPPRRTVLPDQLRYRPDNNDSVFLVVKEGGYHLVHPGWEHHLSIPVVETPEHGRHEDGEGQDEHVVKIVPKLAEGGWEGG    3680
+FFRSMNGSLIQLVEGIEGRDRLETSSDLEYSGFRRPISGFLVLSENGPAYQSANHEPTDTSKQPIRTRYLGHVTGYQTIR    3760
+DQYSFPNNFLNILPAISGACFNVVVVPEKLPDVWYPEDANALTTVLAGQCSDTNHEPTDTSKQPIRTRYLGHVTVYQPIR    3840
+DQYSYRDLLF                                                                          3920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+....................................P.....................P.....................    1280
+........P.......................................................................    1360
+...........................................................................P....    1440
+.................P.............................P................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+............................P...................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+.............................................................P..................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+...............................................................................P    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+.......................P........................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+................................................................................    3840
+..........                                                                          3920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 10
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+48               7    MCIEAAK|TI  0.067    .
+48              13    KTIWIEK|PP  0.057    .
+48              17    IEKPPQK|YK  0.064    .
+48              19    KPPQKYK|IF  0.081    .
+48              26    IFSNISR|IF  0.109    .
+48              30    ISRIFDR|YT  0.127    .
+48              34    FDRYTTK|FK  0.078    .
+48              36    RYTTKFK|SL  0.085    .
+48              41    FKSLSER|YV  0.191    .
+48              47    RYVSLIK|NL  0.059    .
+48              52    IKNLPPK|PP  0.082    .
+48              61    WTELPTR|PS  0.096    .
+48              90    QPWFLSK|YL  0.075    .
+48             117    GEEAIIK|FI  0.079    .
+48             122    IKFIHDK|TA  0.079    .
+48             144    NTLMMER|CL  0.075    .
+48             147    MMERCLR|NE  0.165    .
+48             155    EATHLTR|NK  0.078    .
+48             157    THLTRNK|LE  0.062    .
+48             213    SLEYITR|FH  0.079    .
+48             235    CVSWAGR|TK  0.090    .
+48             237    SWAGRTK|HS  0.065    .
+48             242    TKHSLAR|QV  0.210    .
+48             252    SPQVSTK|CA  0.089    .
+48             272    THPPLVK|QL  0.061    .
+48             275    PLVKQLK|LY  0.066    .
+48             292    LDSGDVK|RR  0.069    .
+48             293    DSGDVKR|RF  0.168    .
+48             294    SGDVKRR|FT  0.197    .
+48             297    VKRRFTK|PS  0.300    .
+48             307    QIQDTFK|PA  0.065    .
+48             313    KPAVIPK|NK  0.084    .
+48             315    AVIPKNK|QN  0.061    .
+48             322    QNLQPTR|LA  0.100    .
+48             325    QPTRLAR|EH  0.292    .
+48             328    RLAREHR|EE  0.291    .
+48             332    EHREELK|AR  0.072    .
+48             334    REELKAR|EA  0.149    .
+48             337    LKAREAK|RV  0.228    .
+48             338    KAREAKR|VQ  0.202    .
+48             344    RVQEESR|VR  0.085    .
+48             346    QEESRVR|DV  0.172    .
+48             350    RVRDVEK|YQ  0.088    .
+48             354    VEKYQSR|RT  0.089    .
+48             355    EKYQSRR|TN  0.142    .
+48             365    MISQQQK|FN  0.090    .
+48             373    NQTGYLK|SI  0.073    .
+48             388    TDPLSGR|RV  0.181    .
+48             389    DPLSGRR|VH  0.077    .
+48             392    SGRRVHR|VE  0.256    .
+48             397    HRVESLK|DI  0.093    .
+48             403    KDISEYR|SR  0.131    .
+48             405    ISEYRSR|ES  0.099    .
+48             412    ESSTVSK|EG  0.071    .
+48             429    IDSDDAR|VE  0.093    .
+48             439    FTDLDPK|SP  0.064    .
+48             455    VIATSSR|DV  0.143    .
+48             479    DPCTTPR|DD  0.114    .
+48             484    PRDDECR|DE  0.115    .
+48             488    ECRDEMK|TP  0.062    .
+48             503    EVVDADR|LE  0.074    .
+48             516    GDADPIR|LE  0.122    .
+48             527    GETEPQK|AT  0.072    .
+48             532    QKATAER|LE  0.103    .
+48             545    QEATAER|LE  0.111    .
+48             554    EDEEEER|VE  0.069    .
+48             563    EEGTQNR|DY  0.117    .
+48             581    GSETTER|FS  0.096    .
+48             597    EEEEESR|DE  0.082    .
+48             619    PPSPLFR|SP  0.239    .
+48             628    DQGDLDR|TI  0.073    .
+48             642    EIEAVTK|DL  0.082    .
+48             652    AEDGAGK|TV  0.066    .
+48             676    SLCSPIK|TV  0.099    .
+48             694    FHCPPTR|SC  0.096    .
+48             734    NTAMPHK|PP  0.062    .
+48             744    PFFYDDR|VI  0.085    .
+48             748    DDRVIDR|LL  0.082    .
+48             755    LLNILDK|AC  0.066    .
+48             764    YIEGIVR|PV  0.096    .
+48             773    TVEIAVR|LL  0.071    .
+48             776    IAVRLLK|VL  0.108    .
+48             784    LTTYDNR|VL  0.067    .
+48             799    AVLTAVK|EN  0.056    .
+48             804    VKENSVR|FL  0.102    .
+48             807    NSVRFLR|TF  0.334    .
+48             827    LFDEEFK|AF  0.058    .
+48             830    EEFKAFK|KR  0.057    .
+48             831    EFKAFKK|RR  0.075    .
+48             832    FKAFKKR|RP  0.223    .
+48             833    KAFKKRR|PT  0.220    .
+48             862    TGIDFTK|RL  0.065    .
+48             863    GIDFTKR|LP  0.126    .
+48             871    PCGDLEK|MR  0.056    .
+48             873    GDLEKMR|KS  0.098    .
+48             874    DLEKMRK|SL  0.107    .
+48             883    IMFFTIR|KL  0.097    .
+48             884    MFFTIRK|LW  0.072    .
+48             908    LSLQVSK|GD  0.063    .
+48             928    CSVITDK|DA  0.081    .
+48             932    TDKDAEK|RF  0.061    .
+48             933    DKDAEKR|FL  0.188    .
+48             953    PDNAPGR|LG  0.093    .
+48             971    LQCVDAR|PD  0.101    .
+48             974    VDARPDK|DN  0.166    .
+48             978    PDKDNNR|AL  0.086    .
+48             986    LVVSIEK|SA  0.067    .
+48             997    TAPVSAR|FL  0.121    .
+48            1005    LFEDHIR|CF  0.091    .
+48            1010    IRCFAAK|TR  0.076    .
+48            1012    CFAAKTR|LK  0.088    .
+48            1014    AAKTRLK|QG  0.060    .
+48            1017    TRLKQGR|ES  0.165    .
+48            1022    GRESLQK|LK  0.075    .
+48            1024    ESLQKLK|GF  0.056    .
+48            1027    QKLKGFK|LC  0.054    .
+48            1055    GSVSELR|MS  0.094    .
+48            1070    LQGVGGR|KS  0.101    .
+48            1071    QGVGGRK|SL  0.108    .
+48            1075    GRKSLDK|LP  0.061    .
+48            1083    PAPEAIK|YN  0.060    .
+48            1163    QMGEVVK|ED  0.064    .
+48            1166    EVVKEDK|SE  0.065    .
+48            1172    KSELVAK|LE  0.073    .
+48            1175    LVAKLEK|EC  0.064    .
+48            1179    LEKECEK|AK  0.064    .
+48            1181    KECEKAK|QD  0.070    .
+48            1186    AKQDYAR|AK  0.121    .
+48            1188    QDYARAK|QM  0.093    .
+48            1193    AKQMITK|LR  0.060    .
+48            1195    QMITKLR|QE  0.096    .
+48            1202    QENNLLK|EE  0.064    .
+48            1206    LLKEENK|IV  0.079    .
+48            1214    VTENIHR|LY  0.075    .
+48            1220    RLYQAAK|NE  0.073    .
+48            1224    AAKNEIK|KL  0.070    .
+48            1225    AKNEIKK|LE  0.101    .
+48            1231    KLEDAAK|EN  0.068    .
+48            1234    DAAKENR|ER  0.095    .
+48            1236    AKENRER|RG  0.075    .
+48            1237    KENRERR|GS  0.561 *ProP*
+48            1240    RERRGSR|ES  0.304    .
+48            1245    SRESSER|RE  0.086    .
+48            1246    RESSERR|EG  0.174    .
+48            1249    SERREGR|DH  0.394    .
+48            1253    EGRDHER|RD  0.080    .
+48            1254    GRDHERR|DR  0.149    .
+48            1256    DHERRDR|FE  0.156    .
+48            1259    RRDRFER|SD  0.510 *ProP*
+48            1262    RFERSDR|SE  0.414    .
+48            1265    RSDRSER|PE  0.156    .
+48            1268    RSERPER|FD  0.356    .
+48            1271    RPERFDR|PE  0.249    .
+48            1274    RFDRPER|TQ  0.236    .
+48            1279    ERTQSEK|RP  0.061    .
+48            1280    RTQSEKR|PE  0.164    .
+48            1283    SEKRPER|RS  0.263    .
+48            1284    EKRPERR|SR  0.275    .
+48            1286    RPERRSR|SG  0.407    .
+48            1289    RRSRSGR|GM  0.669 *ProP*
+48            1365    EVVNEDK|SE  0.062    .
+48            1371    KSELVSK|LE  0.067    .
+48            1374    LVSKLEK|EC  0.070    .
+48            1378    LEKECEK|AK  0.063    .
+48            1380    KECEKAK|QD  0.070    .
+48            1385    AKQDYAR|AK  0.121    .
+48            1387    QDYARAK|QM  0.093    .
+48            1392    AKQMITK|LR  0.060    .
+48            1394    QMITKLR|QE  0.098    .
+48            1401    QENNFLK|EE  0.067    .
+48            1405    FLKEENK|IV  0.076    .
+48            1413    VTENIHR|LY  0.075    .
+48            1419    RLYQAAK|NE  0.073    .
+48            1423    AAKNEIK|KL  0.070    .
+48            1424    AKNEIKK|LE  0.101    .
+48            1430    KLEDAAK|EN  0.068    .
+48            1433    DAAKENR|ER  0.095    .
+48            1435    AKENRER|RG  0.075    .
+48            1436    KENRERR|GS  0.561 *ProP*
+48            1439    RERRGSR|ES  0.304    .
+48            1444    SRESSER|RE  0.086    .
+48            1445    RESSERR|EG  0.174    .
+48            1448    SERREGR|DH  0.394    .
+48            1452    EGRDHER|RD  0.080    .
+48            1453    GRDHERR|DR  0.149    .
+48            1455    DHERRDR|FE  0.156    .
+48            1458    RRDRFER|SD  0.510 *ProP*
+48            1461    RFERSDR|SE  0.414    .
+48            1464    RSDRSER|PE  0.156    .
+48            1467    RSERPER|FD  0.356    .
+48            1470    RPERFDR|PE  0.249    .
+48            1473    RFDRPER|TQ  0.236    .
+48            1478    ERTQSEK|RP  0.061    .
+48            1479    RTQSEKR|PE  0.164    .
+48            1482    SEKRPER|RS  0.250    .
+48            1483    EKRPERR|SR  0.260    .
+48            1485    RPERRSR|SG  0.477    .
+48            1488    RRSRSGR|AM  0.682 *ProP*
+48            1495    AMDEEVR|TD  0.066    .
+48            1501    RTDTLIK|DI  0.076    .
+48            1506    IKDILAR|QK  0.102    .
+48            1508    DILARQK|GL  0.060    .
+48            1517    FVPYFNR|DE  0.082    .
+48            1524    DEMVMVR|IR  0.075    .
+48            1526    MVMVRIR|DF  0.128    .
+48            1553    PLTTSTK|LY  0.057    .
+48            1556    TSTKLYK|DQ  0.072    .
+48            1577    LYVDFTR|YW  0.092    .
+48            1584    YWAYCQK|CL  0.075    .
+48            1588    CQKCLDK|SD  0.072    .
+48            1596    DASVFLR|HV  0.194    .
+48            1599    VFLRHVR|EV  0.294    .
+48            1602    RHVREVR|ER  0.242    .
+48            1604    VREVRER|EE  0.091    .
+48            1615    DEDPPAK|IT  0.064    .
+48            1618    PPAKITR|LA  0.197    .
+48            1631    GGFDASK|EQ  0.062    .
+48            1645    TYTVYVK|AE  0.059    .
+48            1649    YVKAEDK|NY  0.054    .
+48            1663    SLPENVR|VT  0.071    .
+48            1667    NVRVTAR|NV  0.154    .
+48            1689    QWDGEER|KI  0.084    .
+48            1690    WDGEERK|IS  0.087    .
+48            1693    EERKISR|FA  0.131    .
+48            1706    QLDNGVK|VP  0.050    .
+48            1719    VCSMCDK|RD  0.062    .
+48            1720    CSMCDKR|DN  0.202    .
+48            1736    GTILCGR|RY  0.087    .
+48            1737    TILCGRR|YF  0.138    .
+48            1756    DYYETTK|YP  0.060    .
+48            1762    KYPLAVK|LG  0.052    .
+48            1789    LDPHLAK|HL  0.076    .
+48            1806    HCQQTEK|TM  0.061    .
+48            1820    DANMNLK|FE  0.070    .
+48            1834    ESGVALK|PV  0.072    .
+48            1870    PTETTNR|NS  0.067    .
+48            1875    NRNSLFR|LR  0.103    .
+48            1877    NSLFRLR|DW  0.089    .
+48            1884    DWLFPIR|SV  0.097    .
+48            1897    VPGLATK|YL  0.064    .
+48            1918    SLAFQLK|TL  0.074    .
+48            1932    NPGDYSK|AD  0.062    .
+48            1950    VPGLATK|YL  0.064    .
+48            1971    SLAFQLK|TL  0.074    .
+48            1985    NPGDYSK|AD  0.063    .
+48            1997    GVGNGVK|PA  0.059    .
+48            2002    VKPALLK|TI  0.072    .
+48            2007    LKTIIGK|GH  0.065    .
+48            2016    SEFSSSR|QQ  0.102    .
+48            2033    IIDLLEK|QE  0.053    .
+48            2036    LLEKQEK|NK  0.062    .
+48            2038    EKQEKNK|PE  0.068    .
+48            2054    AFEIEER|IQ  0.069    .
+48            2062    QCNQSQK|VL  0.069    .
+48            2066    SQKVLYK|TR  0.062    .
+48            2068    KVLYKTR|KD  0.069    .
+48            2069    VLYKTRK|DY  0.113    .
+48            2085    LHLAPNR|DE  0.084    .
+48            2094    AEAWEAR|KA  0.131    .
+48            2095    EAWEARK|AE  0.072    .
+48            2100    RKAEMDR|TG  0.096    .
+48            2104    MDRTGER|VK  0.078    .
+48            2106    RTGERVK|GD  0.067    .
+48            2112    KGDDCIK|YQ  0.057    .
+48            2118    KYQLDLK|QC  0.059    .
+48            2141    SPDTNVK|GT  0.069    .
+48            2147    KGTAQTK|TS  0.057    .
+48            2151    QTKTSLK|TF  0.064    .
+48            2162    YLMVQAR|RF  0.100    .
+48            2163    LMVQARR|FT  0.148    .
+48            2173    TPDWQPK|KL  0.083    .
+48            2174    PDWQPKK|LD  0.070    .
+48            2191    VNMEFLR|GK  0.102    .
+48            2193    MEFLRGK|GL  0.081    .
+48            2232    FALEGCR|KA  0.072    .
+48            2233    ALEGCRK|AA  0.086    .
+48            2239    KAAYHTK|NA  0.098    .
+48            2297    FTESQAK|VA  0.059    .
+48            2301    QAKVALR|KC  0.095    .
+48            2302    AKVALRK|CD  0.083    .
+48            2309    CDNNLER|AA  0.172    .
+48            2327    LDEPENR|NI  0.091    .
+48            2343    SWPVLSR|VQ  0.084    .
+48            2346    VLSRVQR|NK  0.478    .
+48            2348    SRVQRNK|RD  0.071    .
+48            2349    RVQRNKR|DG  0.569 *ProP*
+48            2356    DGIFWQR|LI  0.073    .
+48            2364    ISFPHIK|IP  0.061    .
+48            2370    KIPCLQR|YP  0.077    .
+48            2375    QRYPYIR|DP  0.124    .
+48            2379    YIRDPNK|SC  0.083    .
+48            2390    TENTGVK|PA  0.064    .
+48            2395    VKPALLK|TI  0.071    .
+48            2400    LKTIIGK|GH  0.065    .
+48            2409    SEFSSSR|QQ  0.102    .
+48            2426    IIDLLEK|QE  0.053    .
+48            2429    LLEKQEK|NK  0.062    .
+48            2431    EKQEKNK|PE  0.068    .
+48            2447    AFEIEER|IQ  0.069    .
+48            2455    QCNQSQK|VL  0.069    .
+48            2459    SQKVLYK|TR  0.062    .
+48            2461    KVLYKTR|KD  0.069    .
+48            2462    VLYKTRK|DY  0.113    .
+48            2478    LHLAPNR|DE  0.084    .
+48            2487    AEAWEAR|KA  0.131    .
+48            2488    EAWEARK|AE  0.072    .
+48            2493    RKAEMDR|TG  0.096    .
+48            2497    MDRTGER|VK  0.078    .
+48            2499    RTGERVK|GD  0.067    .
+48            2505    KGDDCIK|YQ  0.057    .
+48            2511    KYQLDLK|QC  0.059    .
+48            2534    SPDTNVK|GT  0.069    .
+48            2540    KGTAQTK|TS  0.057    .
+48            2544    QTKTSLK|TF  0.064    .
+48            2555    YLMVQAR|RF  0.100    .
+48            2556    LMVQARR|FT  0.148    .
+48            2566    TPDWQPK|KL  0.083    .
+48            2567    PDWQPKK|LD  0.070    .
+48            2584    VNMEFLR|GK  0.102    .
+48            2586    MEFLRGK|GL  0.081    .
+48            2625    FALEGCR|KA  0.072    .
+48            2626    ALEGCRK|AA  0.086    .
+48            2632    KAAYHTK|NA  0.098    .
+48            2690    FTESQAK|VA  0.059    .
+48            2694    QAKVALR|KC  0.095    .
+48            2695    AKVALRK|CD  0.083    .
+48            2702    CDNNLER|AA  0.172    .
+48            2726    PVQSGGR|ER  0.060    .
+48            2728    QSGGRER|KL  0.088    .
+48            2729    SGGRERK|LL  0.263    .
+48            2732    RERKLLK|AK  0.064    .
+48            2734    RKLLKAK|WR  0.070    .
+48            2736    LLKAKWR|DR  0.145    .
+48            2738    KAKWRDR|EI  0.103    .
+48            2742    RDREIER|DR  0.100    .
+48            2744    REIERDR|DR  0.106    .
+48            2746    IERDRDR|DR  0.111    .
+48            2748    RDRDRDR|ER  0.099    .
+48            2750    RDRDRER|ER  0.098    .
+48            2752    RDRERER|ER  0.093    .
+48            2754    RERERER|ER  0.091    .
+48            2756    RERERER|ER  0.087    .
+48            2758    RERERER|ER  0.085    .
+48            2760    RERERER|ER  0.096    .
+48            2762    RERERER|ER  0.108    .
+48            2764    RERERER|ER  0.088    .
+48            2766    RERERER|NQ  0.076    .
+48            2786    WLILSNK|SS  0.080    .
+48            2789    LSNKSSR|DL  0.123    .
+48            2797    LLSANQR|PE  0.086    .
+48            2815    VGYWSVR|EN  0.077    .
+48            2828    IYAITYR|DP  0.086    .
+48            2834    RDPLLQK|SF  0.063    .
+48            2843    LDFPCPR|CG  0.073    .
+48            2852    LVTNPEK|LV  0.064    .
+48            2859    LVQTLCR|FF  0.099    .
+48            2862    TLCRFFR|YR  0.507 *ProP*
+48            2864    CRFFRYR|DP  0.121    .
+48            2879    SAHQTFK|RL  0.063    .
+48            2880    AHQTFKR|LV  0.235    .
+48            2886    RLVNTTK|LS  0.062    .
+48            2892    KLSIMLR|IC  0.093    .
+48            2903    QFDENAK|FK  0.071    .
+48            2905    DENAKFK|SD  0.107    .
+48            2918    YHPESLR|FD  0.089    .
+48            2924    RFDPIGR|DM  0.118    .
+48            2939    LVTDDEK|SH  0.063    .
+48            2942    DDEKSHR|LY  0.074    .
+48            2947    HRLYLWR|PP  0.101    .
+48            2967    NNTELAR|VL  0.111    .
+48            2973    RVLEQIR|PN  0.075    .
+48            2982    ESEAAIK|VT  0.066    .
+48            2985    AAIKVTK|IG  0.067    .
+48            2995    VYLAQVR|PP  0.077    .
+48            3005    PVEEPEK|RK  0.057    .
+48            3006    VEEPEKR|KK  0.169    .
+48            3007    EEPEKRK|KT  0.083    .
+48            3008    EPEKRKK|TK  0.130    .
+48            3010    EKRKKTK|KV  0.098    .
+48            3011    KRKKTKK|VK  0.150    .
+48            3013    KKTKKVK|EP  0.069    .
+48            3025    DLDIEHR|VR  0.070    .
+48            3027    DIEHRVR|KN  0.088    .
+48            3028    IEHRVRK|NE  0.242    .
+48            3034    KNEIGTK|PS  0.061    .
+48            3064    PSQPQER|KS  0.093    .
+48            3065    SQPQERK|SL  0.112    .
+48            3068    QERKSLR|IT  0.119    .
+48            3072    SLRITDR|KV  0.192    .
+48            3073    LRITDRK|VY  0.081    .
+48            3076    TDRKVYK|FE  0.127    .
+48            3096    EEIEGQK|EK  0.057    .
+48            3098    IEGQKEK|DS  0.083    .
+48            3103    EKDSEVR|AA  0.112    .
+48            3115    PDNIWYR|IW  0.093    .
+48            3123    WHLASGR|YL  0.093    .
+48            3134    QILFCLR|WE  0.086    .
+48            3146    FNSVLLK|FF  0.072    .
+48            3186    ALPPQYK|RA  0.066    .
+48            3187    LPPQYKR|AI  0.200    .
+48            3193    RAIDLAK|SR  0.077    .
+48            3195    IDLAKSR|KR  0.094    .
+48            3196    DLAKSRK|RS  0.088    .
+48            3197    LAKSRKR|SK  0.193    .
+48            3199    KSRKRSK|KF  0.066    .
+48            3200    SRKRSKK|FL  0.695 *ProP*
+48            3206    KFLSISR|GF  0.075    .
+48            3209    SISRGFR|LL  0.385    .
+48            3224    HLHPSGK|QP  0.102    .
+48            3231    QPSDGGK|QP  0.100    .
+48            3248    SSSSTNK|TN  0.082    .
+48            3261    IPADVAR|TK  0.148    .
+48            3263    ADVARTK|AM  0.066    .
+48            3267    RTKAMSR|PM  0.070    .
+48            3275    MLEHPIR|KP  0.078    .
+48            3276    LEHPIRK|PQ  0.077    .
+48            3284    QFHTACR|IT  0.105    .
+48            3287    TACRITR|QF  0.328    .
+48            3300    VTLPSIK|EI  0.054    .
+48            3303    PSIKEIK|KP  0.065    .
+48            3304    SIKEIKK|PS  0.106    .
+48            3311    PSEPEDR|CW  0.092    .
+48            3369    YLHLQQK|FR  0.062    .
+48            3371    HLQQKFR|KL  0.102    .
+48            3372    LQQKFRK|LN  0.079    .
+48            3380    NLHLIAR|GT  0.098    .
+48            3387    GTPSATK|VR  0.051    .
+48            3389    PSATKVR|KK  0.112    .
+48            3390    SATKVRK|KP  0.083    .
+48            3391    ATKVRKK|PK  0.100    .
+48            3393    KVRKKPK|LQ  0.079    .
+48            3404    TVHSAPR|YV  0.191    .
+48            3419    NQNSLFR|SR  0.113    .
+48            3421    NSLFRSR|DW  0.100    .
+48            3442    LVVTQQR|IS  0.092    .
+48            3459    IDDDNVR|GR  0.097    .
+48            3461    DDNVRGR|GK  0.111    .
+48            3463    NVRGRGK|RV  0.099    .
+48            3464    VRGRGKR|VS  0.744 *ProP*
+48            3481    EDAILMR|PE  0.084    .
+48            3499    EDEFSYR|PR  0.077    .
+48            3501    EFSYRPR|AG  0.088    .
+48            3529    GYTSTSR|RY  0.065    .
+48            3530    YTSTSRR|YT  0.350    .
+48            3543    LAEAPTR|AV  0.135    .
+48            3553    DNTPPSR|MG  0.085    .
+48            3582    LSQPHGR|PT  0.108    .
+48            3585    PHGRPTK|RP  0.124    .
+48            3586    HGRPTKR|PS  0.280    .
+48            3598    QQNGGAK|PA  0.091    .
+48            3604    KPAEPPR|RT  0.074    .
+48            3605    PAEPPRR|TV  0.171    .
+48            3613    VLPDQLR|YR  0.078    .
+48            3615    PDQLRYR|PD  0.073    .
+48            3627    SVFLVVK|EG  0.068    .
+48            3654    ETPEHGR|HE  0.101    .
+48            3667    QDEHVVK|IV  0.085    .
+48            3671    VVKIVPK|LA  0.086    .
+48            3683    WEGGFFR|SM  0.176    .
+48            3699    VEGIEGR|DR  0.075    .
+48            3701    GIEGRDR|LE  0.067    .
+48            3714    LEYSGFR|RP  0.070    .
+48            3715    EYSGFRR|PI  0.201    .
+48            3742    EPTDTSK|QP  0.060    .
+48            3746    TSKQPIR|TR  0.096    .
+48            3748    KQPIRTR|YL  0.132    .
+48            3760    TGYQTIR|DQ  0.105    .
+48            3789    VVVVPEK|LP  0.060    .
+48            3822    EPTDTSK|QP  0.059    .
+48            3826    TSKQPIR|TR  0.097    .
+48            3828    KQPIRTR|YL  0.128    .
+48            3840    TVYQPIR|DQ  0.112    .
+48            3846    RDQYSYR|DL  0.127    .
+____________________________^_________________
+
+
+
+

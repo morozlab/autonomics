@@ -1,0 +1,438 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1703 448         
+MRQGSESNPRCLETFRDVFDADVLNLNPAPDSTFEENEIALPSELVELAKRSEHPPGPGGPPGPPGPPGPPEPPGPPGPP      80
+GPPGPPDGPPEAEAVVEGEGGVEEGEGEVVEGRVGEGRVGEGRVSEGGGGGGFGDTASTKESILEDTPEGEESPSVASDL     160
+LPGLAGKGKVRSNPGSSLRITAKWRRLPGRLVVVSFGGMGLWGVNKADNIYRWRGKKKWQRIKGKLTHVAVGGSMVWGCN     240
+RQMNIYRWLGGHKWKKIGGKLVKIEVSEFNRVWGVNKGMAIYKRHHKKRKWLKVGGAAIQISVGGAGVWVVNKAYHIYYR     320
+VGTYGDKNTRGKKWVRVPGSLKWIASGWGIVVGVNKVDKIWYRTQVSRKFPTGKKWVNVPGRLAQIDVNGMKVYGRNSKH     400
+IIWMSPLAGGKGKRSAAKVSFKAVKGYTLHKGHYLGGYNGRRGRRGFVRLNKAIRVCNRRPNCGGVTYEAKRKGRRKYTL     480
+RRGRKAKKSPSGEVSWLKATVSYGVISAKEWAVLTNIFTYTVKYRMYPVNKKPVDGKVYKFAEGIKQGDTFLFFGRFMVG     560
+TFIFSIQGKGVEGLRITIKAKGASGTVLFSAYKGGKMVSKVTGPYPPVGRGNRYAILIEVAKIGYYITINGARYTVFKHK     640
+IALKLLTGYRFNGLGKAARARWFRHFRSSVMSLRSMTLKKKYAFKGKIRLQDFMVVTGQSTSNRKKWTMNFWAGKHFQYI     720
+YILKCYLSYPASSNSSPIFQIAFHLDFRPAGRGQIVMNTKKGGWGREYRPKKWPFKTKKPYFSFTVRNLKRGFNVVVNGI     800
+HITKPPYRHRIGFKKITHVNFSGAAKWHSFMSEFNRVWGVNKGMAIYKRHHKKRKWLKVGGAAIQISVGGAGVWVVNKAY     880
+HIYYRVGTYGDKNTRGKKWVRVPGSLKWIASGWGIVVGVNKVDKIYYRTQVSRKFPTGKKWVNVPGRLAQIDVNGMKVYG     960
+RNSKHIIWMSPLAGGKGKRSAAKVSFKAVKGYTLHKGHYLGGYNGRRGRRGFVRLNKAIRVCNRRPNCGGVTYEAKRKGK    1040
+RKYTLRRGRKAKKSPSGEVSWLKATVSYGVISAKEWAVLTNIFTYTVKYRMYPVNKKPVDGKVYKFAEGIKQGDTFLFFG    1120
+RFMVGTFIFSIQGKGVEGLRITIKAKGASGTVLFSAYKGGKMVSKVTGPYPPVGRGNRYAILIEVAKIGYYITINGARYT    1200
+VFKHKIALKLLTGYRFNGLGKAARARWFRHFRSSVMSLRSMTLKKKYAFKGKIRLQDFMVVTGQSTSNRKKWTMNFWAGK    1280
+HFQYIYILKCYLSYPASSNSSSIFQIAFHLDFRPAGRGQIVINTKKGGWGREYRPKKWPFKTKKPYFSFTVRNLKRGFNV    1360
+VVNGIHITKPPYRHRIGFKKITHVNFSGAAKWHSFSLYRDFKRWQKKVLRKKSAGGLYYTSTLRIFSQAKARRVYKVKIW    1440
+RVKTWKLIKACKGKARTKKAKCKKVVKLYRVVLFNTKTKKKVTIYLRGIPFGYFRPRKNFRLRGKIGTRCRKKRGKKKCR    1520
+FEYRVCKKKGKKWTNCARSSSRKFPKGMKFVGGAKTITMRMIRYDIQYLHKKYDPVKWRLVGKPKRVKKLWVFKLCSAKN    1600
+KKVRQVETCQVMTTVKIIRSTIKIIGWRRFLKKYPTHTIKKMEDSKVCAGKPITKKKNCAKARVRKFYKVTLVKGKKTTV    1680
+VYTRVIPYSHMKPRKSYVVKSSE                                                             1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................P...............................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+..........................P.....................................................     720
+................................................................................     800
+.....................................................P..........................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+...............................P................................................    1280
+................................................................................    1360
+................................................................................    1440
+..................P......................................................P......    1520
+................................................................................    1600
+................................................................................    1680
+.......................                                                             1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 6
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+448              2    -----MR|QG  0.099    .
+448             10    GSESNPR|CL  0.127    .
+448             16    RCLETFR|DV  0.137    .
+448             50    ELVELAK|RS  0.060    .
+448             51    LVELAKR|SE  0.212    .
+448            113    GEVVEGR|VG  0.079    .
+448            118    GRVGEGR|VG  0.089    .
+448            123    GRVGEGR|VS  0.131    .
+448            140    GDTASTK|ES  0.060    .
+448            167    LPGLAGK|GK  0.066    .
+448            169    GLAGKGK|VR  0.068    .
+448            171    AGKGKVR|SN  0.110    .
+448            179    NPGSSLR|IT  0.098    .
+448            183    SLRITAK|WR  0.067    .
+448            185    RITAKWR|RL  0.082    .
+448            186    ITAKWRR|LP  0.141    .
+448            190    WRRLPGR|LV  0.183    .
+448            206    GLWGVNK|AD  0.063    .
+448            212    KADNIYR|WR  0.111    .
+448            214    DNIYRWR|GK  0.099    .
+448            216    IYRWRGK|KK  0.073    .
+448            217    YRWRGKK|KW  0.265    .
+448            218    RWRGKKK|WQ  0.149    .
+448            221    GKKKWQR|IK  0.134    .
+448            223    KKWQRIK|GK  0.067    .
+448            225    WQRIKGK|LT  0.093    .
+448            241    MVWGCNR|QM  0.082    .
+448            247    RQMNIYR|WL  0.121    .
+448            253    RWLGGHK|WK  0.061    .
+448            255    LGGHKWK|KI  0.102    .
+448            256    GGHKWKK|IG  0.142    .
+448            260    WKKIGGK|LV  0.081    .
+448            263    IGGKLVK|IE  0.058    .
+448            271    EVSEFNR|VW  0.116    .
+448            277    RVWGVNK|GM  0.067    .
+448            283    KGMAIYK|RH  0.069    .
+448            284    GMAIYKR|HH  0.171    .
+448            287    IYKRHHK|KR  0.096    .
+448            288    YKRHHKK|RK  0.139    .
+448            289    KRHHKKR|KW  0.539 *ProP*
+448            290    RHHKKRK|WL  0.171    .
+448            293    KKRKWLK|VG  0.088    .
+448            313    GVWVVNK|AY  0.069    .
+448            320    AYHIYYR|VG  0.084    .
+448            327    VGTYGDK|NT  0.056    .
+448            330    YGDKNTR|GK  0.081    .
+448            332    DKNTRGK|KW  0.071    .
+448            333    KNTRGKK|WV  0.342    .
+448            336    RGKKWVR|VP  0.083    .
+448            342    RVPGSLK|WI  0.062    .
+448            356    IVVGVNK|VD  0.058    .
+448            359    GVNKVDK|IW  0.071    .
+448            363    VDKIWYR|TQ  0.068    .
+448            368    YRTQVSR|KF  0.105    .
+448            369    RTQVSRK|FP  0.105    .
+448            374    RKFPTGK|KW  0.068    .
+448            375    KFPTGKK|WV  0.096    .
+448            382    WVNVPGR|LA  0.116    .
+448            392    IDVNGMK|VY  0.065    .
+448            396    GMKVYGR|NS  0.123    .
+448            399    VYGRNSK|HI  0.116    .
+448            411    SPLAGGK|GK  0.062    .
+448            413    LAGGKGK|RS  0.072    .
+448            414    AGGKGKR|SA  0.380    .
+448            418    GKRSAAK|VS  0.087    .
+448            422    AAKVSFK|AV  0.090    .
+448            425    VSFKAVK|GY  0.069    .
+448            431    KGYTLHK|GH  0.065    .
+448            441    LGGYNGR|RG  0.086    .
+448            442    GGYNGRR|GR  0.111    .
+448            444    YNGRRGR|RG  0.173    .
+448            445    NGRRGRR|GF  0.359    .
+448            449    GRRGFVR|LN  0.123    .
+448            452    GFVRLNK|AI  0.126    .
+448            455    RLNKAIR|VC  0.085    .
+448            459    AIRVCNR|RP  0.097    .
+448            460    IRVCNRR|PN  0.180    .
+448            471    GVTYEAK|RK  0.064    .
+448            472    VTYEAKR|KG  0.110    .
+448            473    TYEAKRK|GR  0.081    .
+448            475    EAKRKGR|RK  0.263    .
+448            476    AKRKGRR|KY  0.110    .
+448            477    KRKGRRK|YT  0.105    .
+448            481    RRKYTLR|RG  0.092    .
+448            482    RKYTLRR|GR  0.123    .
+448            484    YTLRRGR|KA  0.310    .
+448            485    TLRRGRK|AK  0.160    .
+448            487    RRGRKAK|KS  0.334    .
+448            488    RGRKAKK|SP  0.190    .
+448            498    GEVSWLK|AT  0.062    .
+448            509    YGVISAK|EW  0.066    .
+448            523    IFTYTVK|YR  0.055    .
+448            525    TYTVKYR|MY  0.092    .
+448            531    RMYPVNK|KP  0.062    .
+448            532    MYPVNKK|PV  0.138    .
+448            537    KKPVDGK|VY  0.067    .
+448            540    VDGKVYK|FA  0.108    .
+448            546    KFAEGIK|QG  0.063    .
+448            556    TFLFFGR|FM  0.085    .
+448            569    IFSIQGK|GV  0.134    .
+448            575    KGVEGLR|IT  0.082    .
+448            579    GLRITIK|AK  0.091    .
+448            581    RITIKAK|GA  0.086    .
+448            593    VLFSAYK|GG  0.058    .
+448            596    SAYKGGK|MV  0.102    .
+448            600    GGKMVSK|VT  0.085    .
+448            610    PYPPVGR|GN  0.089    .
+448            613    PVGRGNR|YA  0.315    .
+448            622    ILIEVAK|IG  0.062    .
+448            633    ITINGAR|YT  0.087    .
+448            638    ARYTVFK|HK  0.074    .
+448            640    YTVFKHK|IA  0.077    .
+448            644    KHKIALK|LL  0.064    .
+448            650    KLLTGYR|FN  0.096    .
+448            656    RFNGLGK|AA  0.070    .
+448            659    GLGKAAR|AR  0.081    .
+448            661    GKAARAR|WF  0.141    .
+448            664    ARARWFR|HF  0.447    .
+448            667    RWFRHFR|SS  0.599 *ProP*
+448            674    SSVMSLR|SM  0.113    .
+448            679    LRSMTLK|KK  0.074    .
+448            680    RSMTLKK|KY  0.106    .
+448            681    SMTLKKK|YA  0.143    .
+448            685    KKKYAFK|GK  0.076    .
+448            687    KYAFKGK|IR  0.068    .
+448            689    AFKGKIR|LQ  0.086    .
+448            704    GQSTSNR|KK  0.123    .
+448            705    QSTSNRK|KW  0.077    .
+448            706    STSNRKK|WT  0.140    .
+448            715    MNFWAGK|HF  0.066    .
+448            724    QYIYILK|CY  0.057    .
+448            748    AFHLDFR|PA  0.132    .
+448            752    DFRPAGR|GQ  0.085    .
+448            760    QIVMNTK|KG  0.069    .
+448            761    IVMNTKK|GG  0.095    .
+448            766    KKGGWGR|EY  0.107    .
+448            769    GWGREYR|PK  0.282    .
+448            771    GREYRPK|KW  0.070    .
+448            772    REYRPKK|WP  0.268    .
+448            776    PKKWPFK|TK  0.065    .
+448            778    KWPFKTK|KP  0.068    .
+448            779    WPFKTKK|PY  0.102    .
+448            787    YFSFTVR|NL  0.111    .
+448            790    FTVRNLK|RG  0.084    .
+448            791    TVRNLKR|GF  0.249    .
+448            804    NGIHITK|PP  0.062    .
+448            808    ITKPPYR|HR  0.086    .
+448            810    KPPYRHR|IG  0.111    .
+448            814    RHRIGFK|KI  0.080    .
+448            815    HRIGFKK|IT  0.155    .
+448            826    NFSGAAK|WH  0.066    .
+448            836    FMSEFNR|VW  0.135    .
+448            842    RVWGVNK|GM  0.067    .
+448            848    KGMAIYK|RH  0.069    .
+448            849    GMAIYKR|HH  0.171    .
+448            852    IYKRHHK|KR  0.096    .
+448            853    YKRHHKK|RK  0.139    .
+448            854    KRHHKKR|KW  0.539 *ProP*
+448            855    RHHKKRK|WL  0.171    .
+448            858    KKRKWLK|VG  0.088    .
+448            878    GVWVVNK|AY  0.069    .
+448            885    AYHIYYR|VG  0.084    .
+448            892    VGTYGDK|NT  0.056    .
+448            895    YGDKNTR|GK  0.081    .
+448            897    DKNTRGK|KW  0.071    .
+448            898    KNTRGKK|WV  0.342    .
+448            901    RGKKWVR|VP  0.083    .
+448            907    RVPGSLK|WI  0.062    .
+448            921    IVVGVNK|VD  0.058    .
+448            924    GVNKVDK|IY  0.069    .
+448            928    VDKIYYR|TQ  0.066    .
+448            933    YRTQVSR|KF  0.104    .
+448            934    RTQVSRK|FP  0.103    .
+448            939    RKFPTGK|KW  0.068    .
+448            940    KFPTGKK|WV  0.096    .
+448            947    WVNVPGR|LA  0.116    .
+448            957    IDVNGMK|VY  0.065    .
+448            961    GMKVYGR|NS  0.123    .
+448            964    VYGRNSK|HI  0.116    .
+448            976    SPLAGGK|GK  0.062    .
+448            978    LAGGKGK|RS  0.072    .
+448            979    AGGKGKR|SA  0.380    .
+448            983    GKRSAAK|VS  0.087    .
+448            987    AAKVSFK|AV  0.090    .
+448            990    VSFKAVK|GY  0.069    .
+448            996    KGYTLHK|GH  0.065    .
+448           1006    LGGYNGR|RG  0.086    .
+448           1007    GGYNGRR|GR  0.111    .
+448           1009    YNGRRGR|RG  0.173    .
+448           1010    NGRRGRR|GF  0.359    .
+448           1014    GRRGFVR|LN  0.123    .
+448           1017    GFVRLNK|AI  0.126    .
+448           1020    RLNKAIR|VC  0.085    .
+448           1024    AIRVCNR|RP  0.097    .
+448           1025    IRVCNRR|PN  0.180    .
+448           1036    GVTYEAK|RK  0.065    .
+448           1037    VTYEAKR|KG  0.108    .
+448           1038    TYEAKRK|GK  0.087    .
+448           1040    EAKRKGK|RK  0.136    .
+448           1041    AKRKGKR|KY  0.136    .
+448           1042    KRKGKRK|YT  0.120    .
+448           1046    KRKYTLR|RG  0.094    .
+448           1047    RKYTLRR|GR  0.134    .
+448           1049    YTLRRGR|KA  0.317    .
+448           1050    TLRRGRK|AK  0.160    .
+448           1052    RRGRKAK|KS  0.334    .
+448           1053    RGRKAKK|SP  0.190    .
+448           1063    GEVSWLK|AT  0.062    .
+448           1074    YGVISAK|EW  0.066    .
+448           1088    IFTYTVK|YR  0.055    .
+448           1090    TYTVKYR|MY  0.092    .
+448           1096    RMYPVNK|KP  0.062    .
+448           1097    MYPVNKK|PV  0.138    .
+448           1102    KKPVDGK|VY  0.067    .
+448           1105    VDGKVYK|FA  0.108    .
+448           1111    KFAEGIK|QG  0.063    .
+448           1121    TFLFFGR|FM  0.085    .
+448           1134    IFSIQGK|GV  0.134    .
+448           1140    KGVEGLR|IT  0.082    .
+448           1144    GLRITIK|AK  0.091    .
+448           1146    RITIKAK|GA  0.086    .
+448           1158    VLFSAYK|GG  0.058    .
+448           1161    SAYKGGK|MV  0.102    .
+448           1165    GGKMVSK|VT  0.085    .
+448           1175    PYPPVGR|GN  0.089    .
+448           1178    PVGRGNR|YA  0.315    .
+448           1187    ILIEVAK|IG  0.062    .
+448           1198    ITINGAR|YT  0.087    .
+448           1203    ARYTVFK|HK  0.074    .
+448           1205    YTVFKHK|IA  0.077    .
+448           1209    KHKIALK|LL  0.064    .
+448           1215    KLLTGYR|FN  0.096    .
+448           1221    RFNGLGK|AA  0.070    .
+448           1224    GLGKAAR|AR  0.081    .
+448           1226    GKAARAR|WF  0.141    .
+448           1229    ARARWFR|HF  0.447    .
+448           1232    RWFRHFR|SS  0.599 *ProP*
+448           1239    SSVMSLR|SM  0.113    .
+448           1244    LRSMTLK|KK  0.074    .
+448           1245    RSMTLKK|KY  0.106    .
+448           1246    SMTLKKK|YA  0.143    .
+448           1250    KKKYAFK|GK  0.076    .
+448           1252    KYAFKGK|IR  0.068    .
+448           1254    AFKGKIR|LQ  0.086    .
+448           1269    GQSTSNR|KK  0.123    .
+448           1270    QSTSNRK|KW  0.077    .
+448           1271    STSNRKK|WT  0.140    .
+448           1280    MNFWAGK|HF  0.066    .
+448           1289    QYIYILK|CY  0.057    .
+448           1313    AFHLDFR|PA  0.129    .
+448           1317    DFRPAGR|GQ  0.089    .
+448           1325    QIVINTK|KG  0.068    .
+448           1326    IVINTKK|GG  0.089    .
+448           1331    KKGGWGR|EY  0.103    .
+448           1334    GWGREYR|PK  0.282    .
+448           1336    GREYRPK|KW  0.070    .
+448           1337    REYRPKK|WP  0.268    .
+448           1341    PKKWPFK|TK  0.065    .
+448           1343    KWPFKTK|KP  0.068    .
+448           1344    WPFKTKK|PY  0.102    .
+448           1352    YFSFTVR|NL  0.111    .
+448           1355    FTVRNLK|RG  0.084    .
+448           1356    TVRNLKR|GF  0.249    .
+448           1369    NGIHITK|PP  0.062    .
+448           1373    ITKPPYR|HR  0.086    .
+448           1375    KPPYRHR|IG  0.111    .
+448           1379    RHRIGFK|KI  0.080    .
+448           1380    HRIGFKK|IT  0.155    .
+448           1391    NFSGAAK|WH  0.071    .
+448           1399    HSFSLYR|DF  0.106    .
+448           1402    SLYRDFK|RW  0.129    .
+448           1403    LYRDFKR|WQ  0.210    .
+448           1406    DFKRWQK|KV  0.115    .
+448           1407    FKRWQKK|VL  0.132    .
+448           1410    WQKKVLR|KK  0.109    .
+448           1411    QKKVLRK|KS  0.098    .
+448           1412    KKVLRKK|SA  0.275    .
+448           1424    YYTSTLR|IF  0.072    .
+448           1430    RIFSQAK|AR  0.062    .
+448           1432    FSQAKAR|RV  0.173    .
+448           1433    SQAKARR|VY  0.154    .
+448           1436    KARRVYK|VK  0.146    .
+448           1438    RRVYKVK|IW  0.078    .
+448           1441    YKVKIWR|VK  0.084    .
+448           1443    VKIWRVK|TW  0.061    .
+448           1446    WRVKTWK|LI  0.071    .
+448           1449    KTWKLIK|AC  0.063    .
+448           1452    KLIKACK|GK  0.063    .
+448           1454    IKACKGK|AR  0.077    .
+448           1456    ACKGKAR|TK  0.106    .
+448           1458    KGKARTK|KA  0.065    .
+448           1459    GKARTKK|AK  0.540 *ProP*
+448           1461    ARTKKAK|CK  0.080    .
+448           1463    TKKAKCK|KV  0.095    .
+448           1464    KKAKCKK|VV  0.154    .
+448           1467    KCKKVVK|LY  0.068    .
+448           1470    KVVKLYR|VV  0.102    .
+448           1477    VVLFNTK|TK  0.053    .
+448           1479    LFNTKTK|KK  0.065    .
+448           1480    FNTKTKK|KV  0.155    .
+448           1481    NTKTKKK|VT  0.097    .
+448           1487    KVTIYLR|GI  0.079    .
+448           1495    IPFGYFR|PR  0.072    .
+448           1497    FGYFRPR|KN  0.091    .
+448           1498    GYFRPRK|NF  0.164    .
+448           1501    RPRKNFR|LR  0.141    .
+448           1503    RKNFRLR|GK  0.117    .
+448           1505    NFRLRGK|IG  0.063    .
+448           1509    RGKIGTR|CR  0.071    .
+448           1511    KIGTRCR|KK  0.088    .
+448           1512    IGTRCRK|KR  0.179    .
+448           1513    GTRCRKK|RG  0.099    .
+448           1514    TRCRKKR|GK  0.830 *ProP*
+448           1516    CRKKRGK|KK  0.073    .
+448           1517    RKKRGKK|KC  0.239    .
+448           1518    KKRGKKK|CR  0.130    .
+448           1520    RGKKKCR|FE  0.107    .
+448           1524    KCRFEYR|VC  0.109    .
+448           1527    FEYRVCK|KK  0.165    .
+448           1528    EYRVCKK|KG  0.091    .
+448           1529    YRVCKKK|GK  0.112    .
+448           1531    VCKKKGK|KW  0.070    .
+448           1532    CKKKGKK|WT  0.110    .
+448           1538    KWTNCAR|SS  0.170    .
+448           1542    CARSSSR|KF  0.102    .
+448           1543    ARSSSRK|FP  0.121    .
+448           1546    SSRKFPK|GM  0.097    .
+448           1549    KFPKGMK|FV  0.091    .
+448           1555    KFVGGAK|TI  0.057    .
+448           1560    AKTITMR|MI  0.091    .
+448           1563    ITMRMIR|YD  0.336    .
+448           1571    DIQYLHK|KY  0.066    .
+448           1572    IQYLHKK|YD  0.096    .
+448           1577    KKYDPVK|WR  0.064    .
+448           1579    YDPVKWR|LV  0.153    .
+448           1583    KWRLVGK|PK  0.071    .
+448           1585    RLVGKPK|RV  0.074    .
+448           1586    LVGKPKR|VK  0.122    .
+448           1588    GKPKRVK|KL  0.060    .
+448           1589    KPKRVKK|LW  0.401    .
+448           1594    KKLWVFK|LC  0.070    .
+448           1599    FKLCSAK|NK  0.059    .
+448           1601    LCSAKNK|KV  0.144    .
+448           1602    CSAKNKK|VR  0.091    .
+448           1604    AKNKKVR|QV  0.303    .
+448           1616    QVMTTVK|II  0.062    .
+448           1619    TTVKIIR|ST  0.183    .
+448           1623    IIRSTIK|II  0.077    .
+448           1628    IKIIGWR|RF  0.085    .
+448           1629    KIIGWRR|FL  0.174    .
+448           1632    GWRRFLK|KY  0.127    .
+448           1633    WRRFLKK|YP  0.157    .
+448           1640    YPTHTIK|KM  0.070    .
+448           1641    PTHTIKK|ME  0.099    .
+448           1646    KKMEDSK|VC  0.060    .
+448           1651    SKVCAGK|PI  0.083    .
+448           1655    AGKPITK|KK  0.057    .
+448           1656    GKPITKK|KN  0.099    .
+448           1657    KPITKKK|NC  0.152    .
+448           1661    KKKNCAK|AR  0.066    .
+448           1663    KNCAKAR|VR  0.100    .
+448           1665    CAKARVR|KF  0.084    .
+448           1666    AKARVRK|FY  0.339    .
+448           1669    RVRKFYK|VT  0.069    .
+448           1674    YKVTLVK|GK  0.059    .
+448           1676    VTLVKGK|KT  0.068    .
+448           1677    TLVKGKK|TT  0.090    .
+448           1684    TTVVYTR|VI  0.084    .
+448           1692    IPYSHMK|PR  0.063    .
+448           1694    YSHMKPR|KS  0.141    .
+448           1695    SHMKPRK|SY  0.137    .
+448           1700    RKSYVVK|SS  0.145    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,177 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1486 617         
+MAHQVDEERTLAAFLMQMLDREQDDVLTDHVREAVSAILGAVGAENPRKWLSLCKGVLSLAANSEGLSKPADTEGGKDDE      80
+EGDEASFGEVSTAVKNTMAPRWTTKLFAIQCVKQLMNACKDTPHHIDLVKARQRLKVGAALRPAFEGDTPPDVTSMACQV     160
+CSAWISSGVSQDASDLKRIQQLLVSSLQNLQTSTHELIISRYNESTSTLLRLSVLQAWSDVYVKAHQLAAEAESETLDLL     240
+STVDSHETYLSELWMGALRDHALLSLPASFATQLPPNGGTFYCADTIESSKIHYKRMWPSILHAAAMWLNKYPFRSEMDK     320
+MTDMANEDRLFLSIVDLGFILDRYTILKCWQVKEVIKLSVEATSVLVSLPTDQFYIEIPEAAFLLLIGLFSACAVNPTEN     400
+TTAPVVEKSGIHHGTATMGHQFFSVVPHISQGNDFAKIHAIEMCFRFESEHNYIEVLRMLRQKLGPRYVLRSREIPLQML     480
+PAWPVRCVAWISSGVSQDASDLKRIQQLLVSSLQNLQTSTHELIISSPFTNFRLFFHTVSTTTTLLSLSFSLFLYLSLSL     560
+PPSPISLYVTTPPAGITRVPRPSSDCPSSKPGATSTCYMIALLPDDSAIQTKPNQTLTYHPLSGVTIEALCAPSSNHTNH     640
+VICTCLEALSELISSPWSQAKIAYNHSTCVEYVNVLHRTVLTRATAAVHSRALKCLILLQECRRNCGDAADDRLEPGNSF     720
+LFASLEMVMCVLLRRFPEISPTDHPKTSISSYSSIGDTLPAVKEVIKLSVEATSVLVSLPTDQFYIEIPEAAFLLLIGLF     800
+SACAVNPTENTTAPVVEKSGIHHGTATMGHQFFSVVPHISQGLCVIIKDMVIKDSGDRKWLTCVSTALMTLLKNAEGNPK     880
+KAHMESYLTTVTILICSAPPQAVHVNSVYEKTAELFDKMIKEAPVVALRSFKTILVSAEQYVKVSFIRLIGPKLLDLLTS     960
+FQVLIVALQLVKQPIRTRYLGHVTGYQSIRNQYFLIRSVPGIQIIQFQLTDLLSVFRLLLSNCDPGTHIHMLRLLVPVLI    1040
+SVLGRGPTAHKTALAEITSLTQAYPDVVRTLFAENPALKQQLEGAIRAAVSQKQTVMPVRQITLNNNLGIRECLSCNNGE    1120
+KAVGKQKKSSFQLKTFDTDCDIISCDSGKIFDDDIVVVSSEAYKAKPPSTRAARRTAAAIPLPIIPPPLPSQPASPPQTA    1200
+AAPATQLTIPSFLQNAQTVVDIPVVDICNSSELILPGGGLHSNVRVRAAGEGNSMFPWERSVTTSHKLESCQGGGGEPAA    1280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1440
+AAAAAAAAAAAAAAAAAAAAAAFGVNMVYKKRLSYARARARMCVLH                                      1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..............................................                                      1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+617              9    HQVDEER|TL  0.097    .
+617             21    LMQMLDR|EQ  0.125    .
+617             32    VLTDHVR|EA  0.086    .
+617             48    VGAENPR|KW  0.072    .
+617             49    GAENPRK|WL  0.096    .
+617             55    KWLSLCK|GV  0.064    .
+617             69    NSEGLSK|PA  0.072    .
+617             77    ADTEGGK|DD  0.068    .
+617             95    EVSTAVK|NT  0.066    .
+617            101    KNTMAPR|WT  0.106    .
+617            105    APRWTTK|LF  0.065    .
+617            113    FAIQCVK|QL  0.060    .
+617            120    QLMNACK|DT  0.102    .
+617            130    HHIDLVK|AR  0.059    .
+617            132    IDLVKAR|QR  0.121    .
+617            134    LVKARQR|LK  0.071    .
+617            136    KARQRLK|VG  0.060    .
+617            142    KVGAALR|PA  0.099    .
+617            177    QDASDLK|RI  0.068    .
+617            178    DASDLKR|IQ  0.137    .
+617            201    HELIISR|YN  0.076    .
+617            211    STSTLLR|LS  0.072    .
+617            224    WSDVYVK|AH  0.057    .
+617            259    LWMGALR|DH  0.065    .
+617            291    DTIESSK|IH  0.056    .
+617            295    SSKIHYK|RM  0.073    .
+617            296    SKIHYKR|MW  0.317    .
+617            311    AAMWLNK|YP  0.073    .
+617            315    LNKYPFR|SE  0.181    .
+617            320    FRSEMDK|MT  0.095    .
+617            329    DMANEDR|LF  0.075    .
+617            343    LGFILDR|YT  0.088    .
+617            348    DRYTILK|CW  0.070    .
+617            353    LKCWQVK|EV  0.078    .
+617            357    QVKEVIK|LS  0.059    .
+617            408    TAPVVEK|SG  0.089    .
+617            437    QGNDFAK|IH  0.071    .
+617            446    AIEMCFR|FE  0.096    .
+617            458    NYIEVLR|ML  0.099    .
+617            461    EVLRMLR|QK  0.104    .
+617            463    LRMLRQK|LG  0.061    .
+617            467    RQKLGPR|YV  0.115    .
+617            471    GPRYVLR|SR  0.182    .
+617            473    RYVLRSR|EI  0.072    .
+617            486    LPAWPVR|CV  0.143    .
+617            503    QDASDLK|RI  0.068    .
+617            504    DASDLKR|IQ  0.137    .
+617            533    SPFTNFR|LF  0.098    .
+617            578    PPAGITR|VP  0.087    .
+617            581    GITRVPR|PS  0.350    .
+617            590    SDCPSSK|PG  0.068    .
+617            612    DSAIQTK|PN  0.072    .
+617            661    SPWSQAK|IA  0.082    .
+617            678    YVNVLHR|TV  0.101    .
+617            683    HRTVLTR|AT  0.120    .
+617            691    TAAVHSR|AL  0.107    .
+617            694    VHSRALK|CL  0.120    .
+617            703    ILLQECR|RN  0.069    .
+617            704    LLQECRR|NC  0.155    .
+617            713    GDAADDR|LE  0.067    .
+617            734    VMCVLLR|RF  0.075    .
+617            735    MCVLLRR|FP  0.135    .
+617            746    SPTDHPK|TS  0.073    .
+617            763    DTLPAVK|EV  0.059    .
+617            767    AVKEVIK|LS  0.058    .
+617            818    TAPVVEK|SG  0.089    .
+617            848    GLCVIIK|DM  0.066    .
+617            853    IKDMVIK|DS  0.084    .
+617            858    IKDSGDR|KW  0.072    .
+617            859    KDSGDRK|WL  0.102    .
+617            873    ALMTLLK|NA  0.065    .
+617            880    NAEGNPK|KA  0.066    .
+617            881    AEGNPKK|AH  0.103    .
+617            911    VNSVYEK|TA  0.081    .
+617            918    TAELFDK|MI  0.082    .
+617            921    LFDKMIK|EA  0.059    .
+617            929    APVVALR|SF  0.134    .
+617            932    VALRSFK|TI  0.111    .
+617            943    SAEQYVK|VS  0.057    .
+617            948    VKVSFIR|LI  0.125    .
+617            953    IRLIGPK|LL  0.060    .
+617            972    VALQLVK|QP  0.053    .
+617            976    LVKQPIR|TR  0.073    .
+617            978    KQPIRTR|YL  0.122    .
+617            990    TGYQSIR|NQ  0.093    .
+617            997    NQYFLIR|SV  0.188    .
+617           1017    DLLSVFR|LL  0.065    .
+617           1033    THIHMLR|LL  0.110    .
+617           1045    LISVLGR|GP  0.116    .
+617           1051    RGPTAHK|TA  0.064    .
+617           1069    AYPDVVR|TL  0.088    .
+617           1079    AENPALK|QQ  0.058    .
+617           1087    QLEGAIR|AA  0.090    .
+617           1093    RAAVSQK|QT  0.075    .
+617           1100    QTVMPVR|QI  0.088    .
+617           1111    NNNLGIR|EC  0.076    .
+617           1121    SCNNGEK|AV  0.120    .
+617           1125    GEKAVGK|QK  0.070    .
+617           1127    KAVGKQK|KS  0.079    .
+617           1128    AVGKQKK|SS  0.212    .
+617           1134    KSSFQLK|TF  0.086    .
+617           1149    ISCDSGK|IF  0.075    .
+617           1164    VSSEAYK|AK  0.072    .
+617           1166    SEAYKAK|PP  0.078    .
+617           1171    AKPPSTR|AA  0.107    .
+617           1174    PSTRAAR|RT  0.268    .
+617           1175    STRAARR|TA  0.189    .
+617           1245    GLHSNVR|VR  0.095    .
+617           1247    HSNVRVR|AA  0.254    .
+617           1260    SMFPWER|SV  0.220    .
+617           1267    SVTTSHK|LE  0.066    .
+617           1470    GVNMVYK|KR  0.062    .
+617           1471    VNMVYKK|RL  0.110    .
+617           1472    NMVYKKR|LS  0.139    .
+617           1477    KRLSYAR|AR  0.081    .
+617           1479    LSYARAR|AR  0.118    .
+617           1481    YARARAR|MC  0.089    .
+____________________________^_________________
+
+
+
+

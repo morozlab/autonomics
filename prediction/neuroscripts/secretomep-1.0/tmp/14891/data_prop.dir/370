@@ -1,0 +1,279 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1853 370         
+MGGSILSGKKLKILRKLISTTFNKLVSVVPCGLAGDVRGFSLTQRILEYSLCQRKPSHIPGEATRHHTHLNTEGGQNQNW      80
+TSLLKVVEISFLSILSFLPLKIDPPITDIYNLIPTTMAHATMAHRNQCETIRDVNMIRGSLLGVLHYMRYDSENVLSLFL     160
+YDWQKEIEIDKMSDKTFSESYLISSPPNHKFRISYRLTKLMKQPRIMSHIKPLCRLDAVNSIKVRVDRIRIGQVCWRAVY     240
+RGNLDHFWHSTGISRAIYPLNQLVLINLVNEGKSEYFWSRDTGQFGLVASTPITRRAFNHVTATHHIAPAVIVRSTVFEI     320
+SISNFSTIAEREMFPMHNFVSHNIVIRRWQTTIRSHCSCTVSPGVSGAYQISKFISERLGYSLAGKYSIMKHNAIIILVC     400
+EWEAVEEHLQLVADEVVFSFSIRLRAPCTSHEESTEIATNSCYLDKEKKYALYLNDNNIKFADPESWHCYDIDSTETDSE     480
+QDTISIESMDVMPMLINDYSTISDTTELQCKRSKILEHIGRAKFARIAAKIARRDPLNRLSHLPGTIIPIGFFWGLLSHT     560
+LSKPHTTRVCQVGLVLEQGNVLPLRESWIWFSLELDKVLPLRVSWAAVVLDRGDVLPLRGSCFLMYDWYRNVVGDEMRGV     640
+DISNGDKDERERSNALILDQNGASGEEPILVSRTSKSETNCNVTRELVVGVCLRTACELEGSHHIHKRERKGRFCLLLVV     720
+STTLFIMDKVSVSLCLSLSLSLSLSLSLSLSPFVIFLVCNRITICINFSTETDSEQDTISIESMDVMPMLINDYSTISDT     800
+TELQCKRSKILEHIGRAKFARIAAKIARRDPLNRLSHLPGTIIPIGFFWGLLSHTLSKPHTTRVCQVGLVLEQGNVLPLR     880
+ESWIWFSLELDKVLPLRVSWAAVVLDRGDVLPLRGSCFLMYDWYRNVVGDEMRGVDISNGDKDERERSNALILDQNGASG     960
+EEPILVSRTSKSETNCNVTRELLGCRFHDSFREQHAAATYLHIFHVDSRKSDLTLQFSTLYMKNGVCLSLSLSVSFSLSF    1040
+SLSFLLLLLLLLLLLLLLRNYVLSLSVCLSPSLSLSLSFSLCLSVSLSLLSLSLSLSLSLSLSLILSIYIPVQTNPAQFW    1120
+LNSAPQFPLLRTPTHPADQTKLKTIPTQLLLEDLERVYEWANTNSMELNSGKFHLIQHGNLEDLKLPYTLPSGEVLTAEQ    1200
+LVKDLGIFIDPKFTWKDHITIIKRANTMAAWILRTFETRKPEHMLLLYKTYIRPHLEYCSPLWSPTTDRLGEIRRLEAVQ    1280
+RSFTAKIAGLRELNYWERLDKLGLYSIQRRHERYKILSIWKMYVNAIPRPKEIVFAESSRYGPTAVRKRGTSMSSGINTL    1360
+IHNKFTSTGISLFNKLPANVKYHFTIDNAKAALDQYLKHVPDLPPLANYKAPNNNRIIDWLEQGADMKSCQFANKSGHLS    1440
+SQLISVSFWHNIYIVIIIIIIIKLLCGSLYVRSISVAARPRSHSGFHVAKCCGLYLGQLASLSHQHTPALGPNTVYTATK    1520
+GSFRSLYTSNIIDPPRMKYFLPGLSILSCFRVLYTRLFSSRSTFDGVYKTELKTILKSESLSHQHTPALGPNTVYTATKG    1600
+SFRSLYTSNIIDPPRMKYFLPGLSILSCFRVLYTRLFSSRSTFVRSGDRIRSSRLSRVTLMGRGLLPEFFPTLLVEETTG    1680
+VDSRRDRTSDTLLLVDAASSFSDSGRPNTMRFLDLSISEVSREVAFLRAASKRLGATAAAQFCDNTAESTSPWYFVPRTE    1760
+AANSSMEVNISPTVGAFCCDLEPNIANNLYYKLEMNVEVAVPVIHTFGTSSGSFLIFSNDFKHSVAMATVLLTLKGDKRT    1840
+TRRSRVGYQKALT                                                                       1920
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.............                                                                       1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+370              9    GSILSGK|KL  0.065    .
+370             10    SILSGKK|LK  0.063    .
+370             12    LSGKKLK|IL  0.081    .
+370             15    KKLKILR|KL  0.076    .
+370             16    KLKILRK|LI  0.095    .
+370             24    ISTTFNK|LV  0.082    .
+370             38    GLAGDVR|GF  0.101    .
+370             45    GFSLTQR|IL  0.124    .
+370             54    EYSLCQR|KP  0.089    .
+370             55    YSLCQRK|PS  0.076    .
+370             65    IPGEATR|HH  0.091    .
+370             85    NWTSLLK|VV  0.069    .
+370            101    LSFLPLK|ID  0.060    .
+370            125    HATMAHR|NQ  0.077    .
+370            132    NQCETIR|DV  0.166    .
+370            138    RDVNMIR|GS  0.084    .
+370            149    GVLHYMR|YD  0.088    .
+370            165    FLYDWQK|EI  0.066    .
+370            171    KEIEIDK|MS  0.064    .
+370            175    IDKMSDK|TF  0.068    .
+370            190    SSPPNHK|FR  0.061    .
+370            192    PPNHKFR|IS  0.128    .
+370            196    KFRISYR|LT  0.083    .
+370            199    ISYRLTK|LM  0.115    .
+370            202    RLTKLMK|QP  0.061    .
+370            205    KLMKQPR|IM  0.118    .
+370            211    RIMSHIK|PL  0.066    .
+370            215    HIKPLCR|LD  0.065    .
+370            223    DAVNSIK|VR  0.057    .
+370            225    VNSIKVR|VD  0.100    .
+370            228    IKVRVDR|IR  0.270    .
+370            230    VRVDRIR|IG  0.089    .
+370            237    IGQVCWR|AV  0.148    .
+370            241    CWRAVYR|GN  0.123    .
+370            255    HSTGISR|AI  0.087    .
+370            273    NLVNEGK|SE  0.066    .
+370            280    SEYFWSR|DT  0.171    .
+370            295    ASTPITR|RA  0.084    .
+370            296    STPITRR|AF  0.152    .
+370            314    APAVIVR|ST  0.150    .
+370            331    FSTIAER|EM  0.076    .
+370            347    SHNIVIR|RW  0.106    .
+370            348    HNIVIRR|WQ  0.177    .
+370            354    RWQTTIR|SH  0.125    .
+370            373    GAYQISK|FI  0.092    .
+370            378    SKFISER|LG  0.073    .
+370            386    GYSLAGK|YS  0.076    .
+370            391    GKYSIMK|HN  0.066    .
+370            423    VFSFSIR|LR  0.092    .
+370            425    SFSIRLR|AP  0.107    .
+370            446    NSCYLDK|EK  0.061    .
+370            448    CYLDKEK|KY  0.058    .
+370            449    YLDKEKK|YA  0.093    .
+370            460    LNDNNIK|FA  0.076    .
+370            511    TTELQCK|RS  0.062    .
+370            512    TELQCKR|SK  0.173    .
+370            514    LQCKRSK|IL  0.078    .
+370            521    ILEHIGR|AK  0.098    .
+370            523    EHIGRAK|FA  0.084    .
+370            526    GRAKFAR|IA  0.244    .
+370            530    FARIAAK|IA  0.072    .
+370            533    IAAKIAR|RD  0.087    .
+370            534    AAKIARR|DP  0.123    .
+370            539    RRDPLNR|LS  0.083    .
+370            563    LSHTLSK|PH  0.065    .
+370            568    SKPHTTR|VC  0.100    .
+370            585    GNVLPLR|ES  0.087    .
+370            597    FSLELDK|VL  0.052    .
+370            602    DKVLPLR|VS  0.079    .
+370            612    AAVVLDR|GD  0.077    .
+370            619    GDVLPLR|GS  0.075    .
+370            630    LMYDWYR|NV  0.113    .
+370            638    VVGDEMR|GV  0.154    .
+370            647    DISNGDK|DE  0.061    .
+370            650    NGDKDER|ER  0.079    .
+370            652    DKDERER|SN  0.114    .
+370            673    EPILVSR|TS  0.077    .
+370            676    LVSRTSK|SE  0.210    .
+370            685    TNCNVTR|EL  0.099    .
+370            694    VVGVCLR|TA  0.115    .
+370            707    GSHHIHK|RE  0.071    .
+370            708    SHHIHKR|ER  0.214    .
+370            710    HIHKRER|KG  0.089    .
+370            711    IHKRERK|GR  0.215    .
+370            713    KRERKGR|FC  0.329    .
+370            729    TLFIMDK|VS  0.054    .
+370            761    IFLVCNR|IT  0.077    .
+370            806    TTELQCK|RS  0.062    .
+370            807    TELQCKR|SK  0.173    .
+370            809    LQCKRSK|IL  0.078    .
+370            816    ILEHIGR|AK  0.098    .
+370            818    EHIGRAK|FA  0.084    .
+370            821    GRAKFAR|IA  0.244    .
+370            825    FARIAAK|IA  0.072    .
+370            828    IAAKIAR|RD  0.087    .
+370            829    AAKIARR|DP  0.123    .
+370            834    RRDPLNR|LS  0.083    .
+370            858    LSHTLSK|PH  0.065    .
+370            863    SKPHTTR|VC  0.100    .
+370            880    GNVLPLR|ES  0.087    .
+370            892    FSLELDK|VL  0.052    .
+370            897    DKVLPLR|VS  0.079    .
+370            907    AAVVLDR|GD  0.077    .
+370            914    GDVLPLR|GS  0.075    .
+370            925    LMYDWYR|NV  0.113    .
+370            933    VVGDEMR|GV  0.154    .
+370            942    DISNGDK|DE  0.061    .
+370            945    NGDKDER|ER  0.079    .
+370            947    DKDERER|SN  0.114    .
+370            968    EPILVSR|TS  0.077    .
+370            971    LVSRTSK|SE  0.210    .
+370            980    TNCNVTR|EL  0.103    .
+370            986    RELLGCR|FH  0.080    .
+370            992    RFHDSFR|EQ  0.107    .
+370           1009    IFHVDSR|KS  0.085    .
+370           1010    FHVDSRK|SD  0.103    .
+370           1023    FSTLYMK|NG  0.050    .
+370           1059    LLLLLLR|NY  0.064    .
+370           1131    PQFPLLR|TP  0.068    .
+370           1141    HPADQTK|LK  0.068    .
+370           1143    ADQTKLK|TI  0.080    .
+370           1156    LLEDLER|VY  0.087    .
+370           1172    MELNSGK|FH  0.065    .
+370           1185    GNLEDLK|LP  0.056    .
+370           1203    TAEQLVK|DL  0.087    .
+370           1212    GIFIDPK|FT  0.070    .
+370           1216    DPKFTWK|DH  0.077    .
+370           1223    DHITIIK|RA  0.065    .
+370           1224    HITIIKR|AN  0.135    .
+370           1234    MAAWILR|TF  0.096    .
+370           1239    LRTFETR|KP  0.094    .
+370           1240    RTFETRK|PE  0.073    .
+370           1249    HMLLLYK|TY  0.053    .
+370           1253    LYKTYIR|PH  0.063    .
+370           1269    WSPTTDR|LG  0.075    .
+370           1274    DRLGEIR|RL  0.118    .
+370           1275    RLGEIRR|LE  0.105    .
+370           1281    RLEAVQR|SF  0.172    .
+370           1286    QRSFTAK|IA  0.118    .
+370           1291    AKIAGLR|EL  0.078    .
+370           1298    ELNYWER|LD  0.083    .
+370           1301    YWERLDK|LG  0.084    .
+370           1309    GLYSIQR|RH  0.074    .
+370           1310    LYSIQRR|HE  0.154    .
+370           1313    IQRRHER|YK  0.298    .
+370           1315    RRHERYK|IL  0.090    .
+370           1321    KILSIWK|MY  0.059    .
+370           1329    YVNAIPR|PK  0.102    .
+370           1331    NAIPRPK|EI  0.067    .
+370           1340    VFAESSR|YG  0.087    .
+370           1347    YGPTAVR|KR  0.078    .
+370           1348    GPTAVRK|RG  0.073    .
+370           1349    PTAVRKR|GT  0.280    .
+370           1364    NTLIHNK|FT  0.079    .
+370           1375    GISLFNK|LP  0.065    .
+370           1381    KLPANVK|YH  0.064    .
+370           1390    FTIDNAK|AA  0.067    .
+370           1398    ALDQYLK|HV  0.063    .
+370           1410    PPLANYK|AP  0.057    .
+370           1416    KAPNNNR|II  0.119    .
+370           1428    EQGADMK|SC  0.076    .
+370           1435    SCQFANK|SG  0.074    .
+370           1463    IIIIIIK|LL  0.061    .
+370           1472    CGSLYVR|SI  0.136    .
+370           1479    SISVAAR|PR  0.168    .
+370           1481    SVAARPR|SH  0.155    .
+370           1490    SGFHVAK|CC  0.089    .
+370           1520    TVYTATK|GS  0.079    .
+370           1524    ATKGSFR|SL  0.146    .
+370           1536    NIIDPPR|MK  0.081    .
+370           1538    IDPPRMK|YF  0.070    .
+370           1551    SILSCFR|VL  0.077    .
+370           1556    FRVLYTR|LF  0.070    .
+370           1561    TRLFSSR|ST  0.203    .
+370           1569    TFDGVYK|TE  0.056    .
+370           1573    VYKTELK|TI  0.059    .
+370           1577    ELKTILK|SE  0.067    .
+370           1599    TVYTATK|GS  0.079    .
+370           1603    ATKGSFR|SL  0.146    .
+370           1615    NIIDPPR|MK  0.081    .
+370           1617    IDPPRMK|YF  0.070    .
+370           1630    SILSCFR|VL  0.077    .
+370           1635    FRVLYTR|LF  0.073    .
+370           1640    TRLFSSR|ST  0.134    .
+370           1645    SRSTFVR|SG  0.303    .
+370           1649    FVRSGDR|IR  0.069    .
+370           1651    RSGDRIR|SS  0.150    .
+370           1654    DRIRSSR|LS  0.264    .
+370           1657    RSSRLSR|VT  0.371    .
+370           1663    RVTLMGR|GL  0.079    .
+370           1684    TTGVDSR|RD  0.084    .
+370           1685    TGVDSRR|DR  0.142    .
+370           1687    VDSRRDR|TS  0.390    .
+370           1706    SFSDSGR|PN  0.109    .
+370           1711    GRPNTMR|FL  0.136    .
+370           1722    SISEVSR|EV  0.132    .
+370           1728    REVAFLR|AA  0.146    .
+370           1732    FLRAASK|RL  0.070    .
+370           1733    LRAASKR|LG  0.246    .
+370           1758    PWYFVPR|TE  0.089    .
+370           1792    ANNLYYK|LE  0.068    .
+370           1822    IFSNDFK|HS  0.066    .
+370           1835    TVLLTLK|GD  0.053    .
+370           1838    LTLKGDK|RT  0.053    .
+370           1839    TLKGDKR|TT  0.185    .
+370           1842    GDKRTTR|RS  0.224    .
+370           1843    DKRTTRR|SR  0.222    .
+370           1845    RTTRRSR|VG  0.207    .
+370           1850    SRVGYQK|AL  0.075    .
+____________________________^_________________
+
+
+
+

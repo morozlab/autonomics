@@ -1,0 +1,404 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2611 176         
+MMDRAWSVGVEKIIVTAGCKQDIEEALTLVKGEPRLYTTVGVHPTRCGEFDTAPSPTEYMDNLRGYIKDNREKVVALGEL      80
+GLDYDRTKFCDVDTQKKYFTLQLDLAEEFKLPLFLHSRNCADDFIKIITENRSKISGGVIHSFTGSSEEAKQYLEMGFFI     160
+GINGCSLKTEENLVAMASIPTDRLMIETDAPWCGIRNTHAGSKHLPPSSWESKKKEKWMEGCIVKDRCEPCQITQVLDVV     240
+AAVRGEDPFELAETIDMRLTRVLLMSGRKKGQYRTPKNYQNPLGIEGMLTHTRGVEIVPKVPRITKAPEGIHSGSPYPKE     320
+MWFIQKKGPLIQKKGGLSKRNFRSRVMKRFVDIGANLTDSMFRGVYRGKTVHVDDYAAMMDRAWSVGVEKIIVTTGCKQD     400
+IEEALTLVKGEPRLYTTVGVHPTRCGEFDAAPSPTEYMDNLRGFIKDNREKVVALGELGLDYDRTKFCDVDTQKKYFTLQ     480
+LDLAEEFKLPLFLHSRNCADDFIKIISENRSKISGGVIHSFTGSSEEAKQYLEMGFFIGINGCSLKTEENLVAMASIPTD     560
+RLMIETDAPWCGIRNTHAGSKHLPPSSWESKKKEKWMEGCIVKDRCEPCQITQVLDVVAAVRGEDPFELAETIDMRLTRV     640
+LLMSGRKKGQYRTPKNYQNPLGIEGMLTHTRGVEIVPKVPRITKAPEGIHSGAIRKVIRVQSPCDIRRDLQRKQTADNVA     720
+FTLENAVPYLNQEEERVFLNLIQARKPAPEPKPEFIPRINPEPSSKHESVARGDMEKTVWAMRRRGHEPRADAKPGIVIL     800
+LVGLLQLPLLFDIARSCAPKNAVPKRLAGPIIDAVVVTVMSLLFFFVFYLFFWVFLPAHVGYRDPWLERDGLKHIAFFWF     880
+IFTNTICNYICCVFTEPGTPPKITITPDNAMSISIESCIPKEKICLECKCMKAETTHHCSICKKCVLYMDHHCPFVMGCV     960
+GQHNFHFFYSFMMYFYTGMCYAIYMTVGPFFGCHGSPYREITYDCEQVSILSILYIVLCLNLFGATFMNAFNTLALLSNS    1040
+STMSCLLDGINAGFKAAIINFITSISLDNFFNRRSRLYILVVSKRRHPLLFFVPPVVTTLKLVVKHCRTKQRTINFKLPR    1120
+MPKTGGVMKRFVDIGANLTDSMFRGVYRGKTVHVDDYAAMMDRAWSVGVEKIIVTAGCKQDIEAALTLVKGEPRLYTTVG    1200
+VHPTRCGEFDTAPSPTEYMDNLRGYIKDNREKVVALGELGLDYDRTKFCDVDTQKKYFTLQLDLAEEFKLPLFLHSRNCA    1280
+DDFIKIISENRSKISGGVIHSFTGSSDEAKQYLDMGFFIGINGCSLKTEENLVAMASIPTDRLMIETDAPWCGIRNTHAG    1360
+SKHVSPSSWESKKKENDMRLTRVLLMSGRKKGQYRTPKNYQNPLGIEGMLTHTRGVEIVPKVPRITKAPEGIHSGSSGMS    1440
+SLFWLVGIVILLVGLLQLPLLFDIARSCAPKNAVPKRLAGPIIDAVVVTVMSLLFFFVFYLFFWVFLPAHVGYRDPWLER    1520
+DGLKHIAFFWFIFTNTICNYICCVFTEPGTPPKITITPDNAMSISIESCIPKEKICLECKCMKAETTHHCSICKKCVLYM    1600
+DHHCPFVMGCVGQHNFHFFYSFMMYFYTGMCYAIYMTVGPFFGCHGSPYREITYDCEQVSILSILYIVLMLNLFGATFMN    1680
+AFNTLALLSNTSTMSCLLDGINAGFKAAIINFITSISLDNFFNRRSRLYILVVSKRRHPLLFFVPPVVTTLKLVVKHCRT    1760
+KQRTINFKLPRMPKTGGVSVGTWHEDFENTLLCASVLAPVRACGLWLHGININFRLPMANKASFVLKHTRDCDGDTETAK    1840
+DLIHDLLDEIDAELVQDPEYNADYASFEFECQSDSPFEYYQTVEKWCEEREYRGWCNIRKNTNMILPYYSHVLTDLSELS    1920
+IGNFPDVSRYIKHVELKPSNCKRMLISFENDVQRVTCFILTTEEWYKLEFEFRSVEGFVVGDLFSEEFTVYLPIRNPPKI    2000
+WCASVNKIKIQERWLRENREEKVGAMSDEEFEDEMIRTVYFDRTNRVASCNPEKLGYCSVFQFCIQSIENSELRIEMHKQ    2080
+VVAGFLKHGYTVYFSAIDPNVWLHGININSRPPMANKASFVLKHTRDCDGDTETAKDLIHDLLDEIDAELVQDPEYNADY    2160
+ASFEFECQSDSPFEYYQTVEKWCEEREYRGWCNIRKNTNMILPYYSHVLTDLSELSIGNFPDVSRYIKHVELKPSNCKRM    2240
+LISFENDVQRVTCFILTTEEWYKLEFEFRSVEGFVVGDLFSEEFTVYLPIRNPPKIWCASVNKIKIQERWLRENREEKVG    2320
+AMSDEEFEDEMIRTVYFDRTNRVASCNPEKLGYCSVFQFCIQSIENSELRIEMHKQVVAGFLKHGYTVYFSAIDPNGEIT    2400
+YRQNSVDKLLRAIPPHIESSRSLFAVRYSIMILLSAGTRVTDHLTLGQPVFNAVKSLIGSLRSEEDIVPLTKTFALLCMD    2480
+LDKRRFLNISEKLKDMFEVQKEAYYEKDIVLQKQRNFRLVRRVTITPTRVLFQPPELNATNRVLREYGEDNFIRVNLRDE    2560
+DMGPLNIGVEDQITEENPVRIADYLQLWLMQLWLIESMRIIYITTNLILHN                                 2640
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+............................P...................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+.........................P......................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+.........P......................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................................P...........................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+...................................................                                 2640
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+176              4    ---MMDR|AW  0.110    .
+176             12    WSVGVEK|II  0.069    .
+176             20    IVTAGCK|QD  0.056    .
+176             31    EALTLVK|GE  0.054    .
+176             35    LVKGEPR|LY  0.095    .
+176             46    VGVHPTR|CG  0.075    .
+176             64    EYMDNLR|GY  0.081    .
+176             68    NLRGYIK|DN  0.072    .
+176             71    GYIKDNR|EK  0.078    .
+176             73    IKDNREK|VV  0.077    .
+176             86    LGLDYDR|TK  0.066    .
+176             88    LDYDRTK|FC  0.067    .
+176             96    CDVDTQK|KY  0.064    .
+176             97    DVDTQKK|YF  0.089    .
+176            110    DLAEEFK|LP  0.052    .
+176            118    PLFLHSR|NC  0.074    .
+176            126    CADDFIK|II  0.062    .
+176            132    KIITENR|SK  0.128    .
+176            134    ITENRSK|IS  0.078    .
+176            151    GSSEEAK|QY  0.083    .
+176            168    INGCSLK|TE  0.065    .
+176            183    ASIPTDR|LM  0.073    .
+176            196    APWCGIR|NT  0.106    .
+176            203    NTHAGSK|HL  0.062    .
+176            213    PSSWESK|KK  0.079    .
+176            214    SSWESKK|KE  0.126    .
+176            215    SWESKKK|EK  0.136    .
+176            217    ESKKKEK|WM  0.073    .
+176            225    MEGCIVK|DR  0.059    .
+176            227    GCIVKDR|CE  0.093    .
+176            244    DVVAAVR|GE  0.086    .
+176            258    AETIDMR|LT  0.089    .
+176            261    IDMRLTR|VL  0.238    .
+176            268    VLLMSGR|KK  0.098    .
+176            269    LLMSGRK|KG  0.061    .
+176            270    LMSGRKK|GQ  0.112    .
+176            274    RKKGQYR|TP  0.096    .
+176            277    GQYRTPK|NY  0.133    .
+176            293    GMLTHTR|GV  0.157    .
+176            300    GVEIVPK|VP  0.057    .
+176            303    IVPKVPR|IT  0.100    .
+176            306    KVPRITK|AP  0.126    .
+176            319    SGSPYPK|EM  0.076    .
+176            326    EMWFIQK|KG  0.058    .
+176            327    MWFIQKK|GP  0.099    .
+176            333    KGPLIQK|KG  0.060    .
+176            334    GPLIQKK|GG  0.101    .
+176            339    KKGGLSK|RN  0.068    .
+176            340    KGGLSKR|NF  0.145    .
+176            343    LSKRNFR|SR  0.359    .
+176            345    KRNFRSR|VM  0.104    .
+176            348    FRSRVMK|RF  0.249    .
+176            349    RSRVMKR|FV  0.611 *ProP*
+176            363    LTDSMFR|GV  0.125    .
+176            367    MFRGVYR|GK  0.112    .
+176            369    RGVYRGK|TV  0.074    .
+176            382    YAAMMDR|AW  0.119    .
+176            390    WSVGVEK|II  0.064    .
+176            398    IVTTGCK|QD  0.054    .
+176            409    EALTLVK|GE  0.054    .
+176            413    LVKGEPR|LY  0.095    .
+176            424    VGVHPTR|CG  0.073    .
+176            442    EYMDNLR|GF  0.080    .
+176            446    NLRGFIK|DN  0.080    .
+176            449    GFIKDNR|EK  0.079    .
+176            451    IKDNREK|VV  0.076    .
+176            464    LGLDYDR|TK  0.066    .
+176            466    LDYDRTK|FC  0.067    .
+176            474    CDVDTQK|KY  0.064    .
+176            475    DVDTQKK|YF  0.089    .
+176            488    DLAEEFK|LP  0.052    .
+176            496    PLFLHSR|NC  0.074    .
+176            504    CADDFIK|II  0.066    .
+176            510    KIISENR|SK  0.123    .
+176            512    ISENRSK|IS  0.085    .
+176            529    GSSEEAK|QY  0.083    .
+176            546    INGCSLK|TE  0.065    .
+176            561    ASIPTDR|LM  0.073    .
+176            574    APWCGIR|NT  0.106    .
+176            581    NTHAGSK|HL  0.062    .
+176            591    PSSWESK|KK  0.079    .
+176            592    SSWESKK|KE  0.126    .
+176            593    SWESKKK|EK  0.136    .
+176            595    ESKKKEK|WM  0.073    .
+176            603    MEGCIVK|DR  0.059    .
+176            605    GCIVKDR|CE  0.093    .
+176            622    DVVAAVR|GE  0.086    .
+176            636    AETIDMR|LT  0.089    .
+176            639    IDMRLTR|VL  0.238    .
+176            646    VLLMSGR|KK  0.098    .
+176            647    LLMSGRK|KG  0.061    .
+176            648    LMSGRKK|GQ  0.112    .
+176            652    RKKGQYR|TP  0.096    .
+176            655    GQYRTPK|NY  0.133    .
+176            671    GMLTHTR|GV  0.157    .
+176            678    GVEIVPK|VP  0.057    .
+176            681    IVPKVPR|IT  0.100    .
+176            684    KVPRITK|AP  0.124    .
+176            695    IHSGAIR|KV  0.168    .
+176            696    HSGAIRK|VI  0.087    .
+176            699    AIRKVIR|VQ  0.089    .
+176            707    QSPCDIR|RD  0.067    .
+176            708    SPCDIRR|DL  0.252    .
+176            712    IRRDLQR|KQ  0.104    .
+176            713    RRDLQRK|QT  0.103    .
+176            736    LNQEEER|VF  0.080    .
+176            745    LNLIQAR|KP  0.087    .
+176            746    NLIQARK|PA  0.074    .
+176            752    KPAPEPK|PE  0.071    .
+176            758    KPEFIPR|IN  0.083    .
+176            766    NPEPSSK|HE  0.080    .
+176            772    KHESVAR|GD  0.113    .
+176            777    ARGDMEK|TV  0.087    .
+176            783    KTVWAMR|RR  0.087    .
+176            784    TVWAMRR|RG  0.128    .
+176            785    VWAMRRR|GH  0.170    .
+176            790    RRGHEPR|AD  0.127    .
+176            794    EPRADAK|PG  0.072    .
+176            815    LLFDIAR|SC  0.121    .
+176            820    ARSCAPK|NA  0.091    .
+176            825    PKNAVPK|RL  0.067    .
+176            826    KNAVPKR|LA  0.525 *ProP*
+176            863    PAHVGYR|DP  0.104    .
+176            869    RDPWLER|DG  0.088    .
+176            873    LERDGLK|HI  0.065    .
+176            902    EPGTPPK|IT  0.069    .
+176            921    IESCIPK|EK  0.068    .
+176            923    SCIPKEK|IC  0.062    .
+176            929    KICLECK|CM  0.065    .
+176            932    LECKCMK|AE  0.065    .
+176            943    HHCSICK|KC  0.060    .
+176            944    HCSICKK|CV  0.166    .
+176            999    CHGSPYR|EI  0.084    .
+176           1055    GINAGFK|AA  0.075    .
+176           1073    LDNFFNR|RS  0.090    .
+176           1074    DNFFNRR|SR  0.145    .
+176           1076    FFNRRSR|LY  0.165    .
+176           1084    YILVVSK|RR  0.058    .
+176           1085    ILVVSKR|RH  0.113    .
+176           1086    LVVSKRR|HP  0.084    .
+176           1101    PVVTTLK|LV  0.065    .
+176           1105    TLKLVVK|HC  0.079    .
+176           1108    LVVKHCR|TK  0.085    .
+176           1110    VKHCRTK|QR  0.067    .
+176           1112    HCRTKQR|TI  0.149    .
+176           1117    QRTINFK|LP  0.060    .
+176           1120    INFKLPR|MP  0.119    .
+176           1123    KLPRMPK|TG  0.120    .
+176           1129    KTGGVMK|RF  0.067    .
+176           1130    TGGVMKR|FV  0.602 *ProP*
+176           1144    LTDSMFR|GV  0.125    .
+176           1148    MFRGVYR|GK  0.112    .
+176           1150    RGVYRGK|TV  0.074    .
+176           1163    YAAMMDR|AW  0.119    .
+176           1171    WSVGVEK|II  0.069    .
+176           1179    IVTAGCK|QD  0.056    .
+176           1190    AALTLVK|GE  0.054    .
+176           1194    LVKGEPR|LY  0.095    .
+176           1205    VGVHPTR|CG  0.075    .
+176           1223    EYMDNLR|GY  0.081    .
+176           1227    NLRGYIK|DN  0.072    .
+176           1230    GYIKDNR|EK  0.078    .
+176           1232    IKDNREK|VV  0.077    .
+176           1245    LGLDYDR|TK  0.066    .
+176           1247    LDYDRTK|FC  0.067    .
+176           1255    CDVDTQK|KY  0.064    .
+176           1256    DVDTQKK|YF  0.089    .
+176           1269    DLAEEFK|LP  0.052    .
+176           1277    PLFLHSR|NC  0.074    .
+176           1285    CADDFIK|II  0.066    .
+176           1291    KIISENR|SK  0.123    .
+176           1293    ISENRSK|IS  0.085    .
+176           1310    GSSDEAK|QY  0.091    .
+176           1327    INGCSLK|TE  0.065    .
+176           1342    ASIPTDR|LM  0.073    .
+176           1355    APWCGIR|NT  0.106    .
+176           1362    NTHAGSK|HV  0.084    .
+176           1372    PSSWESK|KK  0.074    .
+176           1373    SSWESKK|KE  0.112    .
+176           1374    SWESKKK|EN  0.133    .
+176           1379    KKENDMR|LT  0.111    .
+176           1382    NDMRLTR|VL  0.182    .
+176           1389    VLLMSGR|KK  0.098    .
+176           1390    LLMSGRK|KG  0.061    .
+176           1391    LMSGRKK|GQ  0.112    .
+176           1395    RKKGQYR|TP  0.096    .
+176           1398    GQYRTPK|NY  0.133    .
+176           1414    GMLTHTR|GV  0.157    .
+176           1421    GVEIVPK|VP  0.057    .
+176           1424    IVPKVPR|IT  0.100    .
+176           1427    KVPRITK|AP  0.126    .
+176           1466    LLFDIAR|SC  0.121    .
+176           1471    ARSCAPK|NA  0.091    .
+176           1476    PKNAVPK|RL  0.067    .
+176           1477    KNAVPKR|LA  0.525 *ProP*
+176           1514    PAHVGYR|DP  0.104    .
+176           1520    RDPWLER|DG  0.088    .
+176           1524    LERDGLK|HI  0.065    .
+176           1553    EPGTPPK|IT  0.069    .
+176           1572    IESCIPK|EK  0.068    .
+176           1574    SCIPKEK|IC  0.062    .
+176           1580    KICLECK|CM  0.065    .
+176           1583    LECKCMK|AE  0.065    .
+176           1594    HHCSICK|KC  0.060    .
+176           1595    HCSICKK|CV  0.166    .
+176           1650    CHGSPYR|EI  0.084    .
+176           1706    GINAGFK|AA  0.075    .
+176           1724    LDNFFNR|RS  0.090    .
+176           1725    DNFFNRR|SR  0.145    .
+176           1727    FFNRRSR|LY  0.165    .
+176           1735    YILVVSK|RR  0.058    .
+176           1736    ILVVSKR|RH  0.113    .
+176           1737    LVVSKRR|HP  0.084    .
+176           1752    PVVTTLK|LV  0.065    .
+176           1756    TLKLVVK|HC  0.079    .
+176           1759    LVVKHCR|TK  0.085    .
+176           1761    VKHCRTK|QR  0.067    .
+176           1763    HCRTKQR|TI  0.149    .
+176           1768    QRTINFK|LP  0.060    .
+176           1771    INFKLPR|MP  0.117    .
+176           1774    KLPRMPK|TG  0.147    .
+176           1801    SVLAPVR|AC  0.094    .
+176           1815    GININFR|LP  0.087    .
+176           1821    RLPMANK|AS  0.064    .
+176           1827    KASFVLK|HT  0.100    .
+176           1830    FVLKHTR|DC  0.113    .
+176           1840    GDTETAK|DL  0.077    .
+176           1885    YYQTVEK|WC  0.062    .
+176           1890    EKWCEER|EY  0.080    .
+176           1893    CEEREYR|GW  0.340    .
+176           1899    RGWCNIR|KN  0.081    .
+176           1900    GWCNIRK|NT  0.098    .
+176           1929    NFPDVSR|YI  0.103    .
+176           1932    DVSRYIK|HV  0.205    .
+176           1937    IKHVELK|PS  0.072    .
+176           1942    LKPSNCK|RM  0.054    .
+176           1943    KPSNCKR|ML  0.375    .
+176           1954    FENDVQR|VT  0.122    .
+176           1967    TTEEWYK|LE  0.061    .
+176           1973    KLEFEFR|SV  0.256    .
+176           1995    TVYLPIR|NP  0.090    .
+176           1999    PIRNPPK|IW  0.075    .
+176           2007    WCASVNK|IK  0.066    .
+176           2009    ASVNKIK|IQ  0.072    .
+176           2013    KIKIQER|WL  0.099    .
+176           2016    IQERWLR|EN  0.197    .
+176           2019    RWLRENR|EE  0.169    .
+176           2022    RENREEK|VG  0.106    .
+176           2037    FEDEMIR|TV  0.080    .
+176           2043    RTVYFDR|TN  0.081    .
+176           2046    YFDRTNR|VA  0.196    .
+176           2054    ASCNPEK|LG  0.064    .
+176           2074    IENSELR|IE  0.087    .
+176           2079    LRIEMHK|QV  0.087    .
+176           2087    VVAGFLK|HG  0.064    .
+176           2111    GININSR|PP  0.090    .
+176           2117    RPPMANK|AS  0.068    .
+176           2123    KASFVLK|HT  0.100    .
+176           2126    FVLKHTR|DC  0.113    .
+176           2136    GDTETAK|DL  0.077    .
+176           2181    YYQTVEK|WC  0.062    .
+176           2186    EKWCEER|EY  0.080    .
+176           2189    CEEREYR|GW  0.340    .
+176           2195    RGWCNIR|KN  0.081    .
+176           2196    GWCNIRK|NT  0.098    .
+176           2225    NFPDVSR|YI  0.103    .
+176           2228    DVSRYIK|HV  0.205    .
+176           2233    IKHVELK|PS  0.072    .
+176           2238    LKPSNCK|RM  0.054    .
+176           2239    KPSNCKR|ML  0.375    .
+176           2250    FENDVQR|VT  0.122    .
+176           2263    TTEEWYK|LE  0.061    .
+176           2269    KLEFEFR|SV  0.256    .
+176           2291    TVYLPIR|NP  0.090    .
+176           2295    PIRNPPK|IW  0.075    .
+176           2303    WCASVNK|IK  0.066    .
+176           2305    ASVNKIK|IQ  0.072    .
+176           2309    KIKIQER|WL  0.099    .
+176           2312    IQERWLR|EN  0.197    .
+176           2315    RWLRENR|EE  0.169    .
+176           2318    RENREEK|VG  0.106    .
+176           2333    FEDEMIR|TV  0.080    .
+176           2339    RTVYFDR|TN  0.081    .
+176           2342    YFDRTNR|VA  0.196    .
+176           2350    ASCNPEK|LG  0.064    .
+176           2370    IENSELR|IE  0.087    .
+176           2375    LRIEMHK|QV  0.087    .
+176           2383    VVAGFLK|HG  0.064    .
+176           2402    NGEITYR|QN  0.080    .
+176           2408    RQNSVDK|LL  0.080    .
+176           2411    SVDKLLR|AI  0.095    .
+176           2421    PHIESSR|SL  0.166    .
+176           2427    RSLFAVR|YS  0.106    .
+176           2439    LLSAGTR|VT  0.092    .
+176           2455    PVFNAVK|SL  0.081    .
+176           2462    SLIGSLR|SE  0.177    .
+176           2472    DIVPLTK|TF  0.053    .
+176           2483    LCMDLDK|RR  0.056    .
+176           2484    CMDLDKR|RF  0.083    .
+176           2485    MDLDKRR|FL  0.185    .
+176           2492    FLNISEK|LK  0.072    .
+176           2494    NISEKLK|DM  0.086    .
+176           2501    DMFEVQK|EA  0.068    .
+176           2507    KEAYYEK|DI  0.068    .
+176           2513    KDIVLQK|QR  0.055    .
+176           2515    IVLQKQR|NF  0.080    .
+176           2518    QKQRNFR|LV  0.447    .
+176           2521    RNFRLVR|RV  0.298    .
+176           2522    NFRLVRR|VT  0.123    .
+176           2529    VTITPTR|VL  0.073    .
+176           2542    ELNATNR|VL  0.109    .
+176           2545    ATNRVLR|EY  0.287    .
+176           2554    GEDNFIR|VN  0.100    .
+176           2558    FIRVNLR|DE  0.110    .
+176           2580    TEENPVR|IA  0.109    .
+176           2599    WLIESMR|II  0.094    .
+____________________________^_________________
+
+
+
+

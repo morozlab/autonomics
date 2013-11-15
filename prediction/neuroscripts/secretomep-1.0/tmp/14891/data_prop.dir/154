@@ -1,0 +1,404 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2726 154         
+MGFSSGCLTFPHTINHYSRYRRKYRGISMIELEPPPKYRTLLHKSVTSLLGLVLYCFIDFLYCQAHYSKRNVYPIPSLFM      80
+FLSHSLLLGVLLILAASLRTFHLPRLTLTSIGASVALTLTLQYDVFDLNHNFGVPGYKMITANLVPMAIMALKASRSECG     160
+GVFIAMLISTSLGRCSVRAGDFITGVGLVGMLYLFVRLYSKHFNSLRAVSGLRTRVAIEILCGVVATELVLVMLDTVPTA     240
+GFSFGLLDGVLLALLTLVKLAAVFCRLFYLTDRPPRTDIYAMNDKSTFGTIKFSQEKEGSPTSIEVDIANSELTEGQHGF     320
+HVHQFGDNTNGCISAGPHFNPFKKTHGGPTDDLGTTTVLSLNRGVTKSGVTKSGSDCIMNMCEIPHSSVVTEGVQLLFIA     400
+PSLSLLPNMTLAKNLVHFLKPIKEVVISAPVVFYGLSKVQVVQKKNASAHSLLRHAAVLRSAVPLFHLGNHRNLSINSTF     480
+APEKSVAKEGFTNRWAIAVPAFLTHLCIGAPYAWSAMSGPLTRDQGFVCSAADDWSMTSATAPMGILFAFHGLSAAMAGK     560
+WQMKVGPRAAIAAASLSFGGGFLLSAIGVATHNIGLVYLGYGMFGGIGLGLSYTPPIQTLIEWFPEKRGLASGLTIMGFG     640
+SGALLFGPTAAALLSKFSTLPTYLGSTVQTVTENGRLFAESSGKMVEVVYANTTDLAKLSYSGLEEGFYVVGSGNTDEIF     720
+LFPTQPRSSLHLIRNRRYERKRLARANVHVCAAPCPLKRNFNFIVMRPFTAETRKISRTGLFYHSLPTGAAMTLATIGVG     800
+YTVAMLASAMAIKKPHPNYKVAGVDTSSPAVQTTNNVHTDNMFKLPQFYALGTSLVVIASGGLGLIGVAKPLMSEVFGGT     880
+LPNVVTAAFASSFILMLSVGNLSGRLAWAAISDKIGRPTTFHIFTFGSIAIYASLPTIIQQVVQNQSVASLGAFCGLSVF     960
+AISIFGGVYSLLPAYESDLFGPKYVGANHGKMLLFSSTAALLGPSTFLYLRSASEKAAITDLLSKVDASCFEAKFGSPMT    1040
+MADSLIEAKTVTVAKLMEIAPAGTMDPTPFLYDTSFYSIAAAITGINKCFSFKVAGVDTSSPAVQTTNNVHTDNMFKLPQ    1120
+FYALGTSLVVIASGGLGLIGVAKPLMSEVFGGTLPNVVTAAFASSFILMLSVGNLSGRLAWAAISDKIGRPTTFHIFTFG    1200
+SIAIYASLPTIIQQVVQNQSVASLGAFCGLSVFAISIFGGVYSLLPAYESDLFGPKYVGANHGKMLLFSSTAALLGPSTF    1280
+LYLRSASEKAAITDLLSKVDASCFEAKFGSPMTMADSLIETKTVTVAKLMEIAPAGTMDPTPFLYDTSFYSIAAAITIGA    1360
+ITHSMIRPVDPKWYEKIEELESKPVDKKISPSALAMSDSWFKRVEFSWWQRFVINCLLAGSLPKHVAFIMDGNRRYSKIN    1440
+GITRAESYLMGFEKIGEILDYCEVFRIKVVSVYAFSIENFKRSAEEKEELFQLFEDKMTYLLKNLENLNEKGIKIKVMGD    1520
+ISLFPPHLTKLMAEVQLRTAHNSDFCFNLCLSYTSREEITHSIRTVVNGVREGSLRVTDITESLLDRCMYSEDLPPVDLL    1600
+VRTSGEVRLSDYMLWQSNFAVLQFVKVMWPDFGFMHFVSSLLDYQRQQPRLAEYRAKYGDYLCQMRDWELRSLEERVSEE    1680
+TEQRQEDFVVEIKKKRREMLEDFSKFENFIRSFKFKYWRYYIDLFYIKLTPSLPDFRRALFMYVRRTGPAGHACALLLSS    1760
+PSPRSLFSAPRTLASTPTASKRKNPTQRFPKDPKPKFSHVLADVPHNVSPILDKLALPVRHELYARFCISLLKDYGIQLK    1840
+LSKSGKWSTGLEGCWSLGEGKSFNVQASCSLISDLSSSQSVRKSLIEKAPENTINIIINNLGFKSDQIKLFVASETPTLL    1920
+LSVFDTSPHWMQSNVPTSRHRKVQVQRHLHTQKWDRKVGFSTYSFNKEQRTIPESVLNRGLSLVLLNRALTALAPGLSAG    2000
+KVVYNKSNKDRKTALRTQFASTLLYRDGKKDKMRCLQDVVAEANERDRMALRESLQDLIVDEGVERYFSGVTRSNDLGTV    2080
+FSSLFIDQQPFHTRVALILKNLCERYRDVIMLEAAEMFEKHIYKEALEQASSFNTRLLVERQSRLPFLDTQTNIAQVDCK    2160
+LWRNKCERVKPLQNGQEYSYQVRYWKKLPKVKKTVRDEATGEVKETEEQAQPTTVTGGAVVFKQELIPDESMDTSPSEPT    2240
+PEELSPSSDDYDYYADRKRKRQSRNSRARTKVDNLRRGSRSRKSSVIGTRNSGRKVEDVDPEPAPLTTEPAAKQPDTSGT    2320
+KVEETDSAAAPATDVAIKSEPGQAAPTKGKKSGVCDVCGGDNSKNKNTGQAEEMVSCVDCGRSAHPSCLQFEGQLAETLD    2400
+PDLPGSSGEAILPGKSGCPVYRGRAHLTHKSYFFSKILYQDTSNCKPHRPSPNRVSNRCILSHVLPLIRRFESNRYRIAN    2480
+ANLPIGQTSTIFTKKMGERILPVNRGSGKSGPGKSGSDATSDNDDQLLFCDECDRGFHMYCLKPKIERPPEGSWCMSLPP    2560
+EWISKESKTHPGRVFYFNKLTKQTRWEKPIVTNDEEFPEITTISSDVKRWADESASDDLPGRPDSKRRRVENVSSSSKAT    2640
+GPVSWNGKGKEKRKRVQALAGSVAETVALLRSQVLGLLFGFELSTFCPSKKSKIKRTESHQKIKSRRQFSDNNSLSSYSP    2720
+VTPRSS                                                                              2800
+.....................P..P.......................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+.........................................P......................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+..........................................P.....................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+......                                                                              2800
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+154             19    TINHYSR|YR  0.141    .
+154             21    NHYSRYR|RK  0.092    .
+154             22    HYSRYRR|KY  0.521 *ProP*
+154             23    YSRYRRK|YR  0.118    .
+154             25    RYRRKYR|GI  0.605 *ProP*
+154             37    ELEPPPK|YR  0.058    .
+154             39    EPPPKYR|TL  0.100    .
+154             44    YRTLLHK|SV  0.117    .
+154             69    CQAHYSK|RN  0.057    .
+154             70    QAHYSKR|NV  0.391    .
+154             99    ILAASLR|TF  0.084    .
+154            105    RTFHLPR|LT  0.099    .
+154            138    FGVPGYK|MI  0.069    .
+154            153    MAIMALK|AS  0.063    .
+154            156    MALKASR|SE  0.130    .
+154            174    ISTSLGR|CS  0.084    .
+154            178    LGRCSVR|AG  0.099    .
+154            197    MLYLFVR|LY  0.114    .
+154            201    FVRLYSK|HF  0.057    .
+154            207    KHFNSLR|AV  0.152    .
+154            213    RAVSGLR|TR  0.070    .
+154            215    VSGLRTR|VA  0.104    .
+154            259    ALLTLVK|LA  0.054    .
+154            266    LAAVFCR|LF  0.085    .
+154            273    LFYLTDR|PP  0.074    .
+154            276    LTDRPPR|TD  0.184    .
+154            285    IYAMNDK|ST  0.082    .
+154            292    STFGTIK|FS  0.075    .
+154            297    IKFSQEK|EG  0.060    .
+154            343    PHFNPFK|KT  0.075    .
+154            344    HFNPFKK|TH  0.127    .
+154            363    TVLSLNR|GV  0.155    .
+154            367    LNRGVTK|SG  0.081    .
+154            372    TKSGVTK|SG  0.138    .
+154            413    PNMTLAK|NL  0.062    .
+154            420    NLVHFLK|PI  0.075    .
+154            423    HFLKPIK|EV  0.066    .
+154            438    VFYGLSK|VQ  0.054    .
+154            444    KVQVVQK|KN  0.065    .
+154            445    VQVVQKK|NA  0.122    .
+154            454    SAHSLLR|HA  0.108    .
+154            460    RHAAVLR|SA  0.185    .
+154            472    FHLGNHR|NL  0.076    .
+154            484    STFAPEK|SV  0.128    .
+154            488    PEKSVAK|EG  0.068    .
+154            494    KEGFTNR|WA  0.135    .
+154            523    MSGPLTR|DQ  0.124    .
+154            560    SAAMAGK|WQ  0.078    .
+154            564    AGKWQMK|VG  0.059    .
+154            568    QMKVGPR|AA  0.114    .
+154            627    IEWFPEK|RG  0.060    .
+154            628    EWFPEKR|GL  0.198    .
+154            656    AAALLSK|FS  0.058    .
+154            676    TVTENGR|LF  0.071    .
+154            684    FAESSGK|MV  0.085    .
+154            698    NTTDLAK|LS  0.062    .
+154            727    LFPTQPR|SS  0.112    .
+154            734    SSLHLIR|NR  0.085    .
+154            736    LHLIRNR|RY  0.082    .
+154            737    HLIRNRR|YE  0.388    .
+154            740    RNRRYER|KR  0.157    .
+154            741    NRRYERK|RL  0.101    .
+154            742    RRYERKR|LA  0.291    .
+154            745    ERKRLAR|AN  0.335    .
+154            758    AAPCPLK|RN  0.058    .
+154            759    APCPLKR|NF  0.164    .
+154            767    FNFIVMR|PF  0.102    .
+154            774    PFTAETR|KI  0.077    .
+154            775    FTAETRK|IS  0.106    .
+154            778    ETRKISR|TG  0.065    .
+154            813    ASAMAIK|KP  0.065    .
+154            814    SAMAIKK|PH  0.084    .
+154            820    KPHPNYK|VA  0.095    .
+154            844    HTDNMFK|LP  0.054    .
+154            870    GLIGVAK|PL  0.075    .
+154            905    VGNLSGR|LA  0.118    .
+154            914    WAAISDK|IG  0.063    .
+154            917    ISDKIGR|PT  0.104    .
+154            983    SDLFGPK|YV  0.087    .
+154            991    VGANHGK|ML  0.065    .
+154           1011    STFLYLR|SA  0.137    .
+154           1016    LRSASEK|AA  0.101    .
+154           1025    ITDLLSK|VD  0.053    .
+154           1034    ASCFEAK|FG  0.086    .
+154           1049    DSLIEAK|TV  0.075    .
+154           1055    KTVTVAK|LM  0.071    .
+154           1088    AITGINK|CF  0.059    .
+154           1093    NKCFSFK|VA  0.079    .
+154           1117    HTDNMFK|LP  0.054    .
+154           1143    GLIGVAK|PL  0.075    .
+154           1178    VGNLSGR|LA  0.118    .
+154           1187    WAAISDK|IG  0.063    .
+154           1190    ISDKIGR|PT  0.104    .
+154           1256    SDLFGPK|YV  0.087    .
+154           1264    VGANHGK|ML  0.065    .
+154           1284    STFLYLR|SA  0.137    .
+154           1289    LRSASEK|AA  0.101    .
+154           1298    ITDLLSK|VD  0.053    .
+154           1307    ASCFEAK|FG  0.086    .
+154           1322    DSLIETK|TV  0.069    .
+154           1328    KTVTVAK|LM  0.073    .
+154           1367    ITHSMIR|PV  0.149    .
+154           1372    IRPVDPK|WY  0.092    .
+154           1376    DPKWYEK|IE  0.058    .
+154           1383    IEELESK|PV  0.090    .
+154           1387    ESKPVDK|KI  0.081    .
+154           1388    SKPVDKK|IS  0.101    .
+154           1402    MSDSWFK|RV  0.073    .
+154           1403    SDSWFKR|VE  0.201    .
+154           1411    EFSWWQR|FV  0.157    .
+154           1424    LAGSLPK|HV  0.081    .
+154           1434    FIMDGNR|RY  0.082    .
+154           1435    IMDGNRR|YS  0.136    .
+154           1438    GNRRYSK|IN  0.172    .
+154           1444    KINGITR|AE  0.091    .
+154           1454    YLMGFEK|IG  0.065    .
+154           1466    DYCEVFR|IK  0.079    .
+154           1468    CEVFRIK|VV  0.075    .
+154           1481    FSIENFK|RS  0.057    .
+154           1482    SIENFKR|SA  0.577 *ProP*
+154           1487    KRSAEEK|EE  0.074    .
+154           1497    FQLFEDK|MT  0.060    .
+154           1503    KMTYLLK|NL  0.060    .
+154           1511    LENLNEK|GI  0.070    .
+154           1514    LNEKGIK|IK  0.061    .
+154           1516    EKGIKIK|VM  0.074    .
+154           1530    FPPHLTK|LM  0.059    .
+154           1538    MAEVQLR|TA  0.117    .
+154           1556    CLSYTSR|EE  0.083    .
+154           1564    EITHSIR|TV  0.100    .
+154           1571    TVVNGVR|EG  0.075    .
+154           1576    VREGSLR|VT  0.106    .
+154           1587    TESLLDR|CM  0.083    .
+154           1602    PVDLLVR|TS  0.079    .
+154           1608    RTSGEVR|LS  0.104    .
+154           1626    AVLQFVK|VM  0.055    .
+154           1646    SLLDYQR|QQ  0.067    .
+154           1650    YQRQQPR|LA  0.099    .
+154           1655    PRLAEYR|AK  0.083    .
+154           1657    LAEYRAK|YG  0.071    .
+154           1666    DYLCQMR|DW  0.078    .
+154           1671    MRDWELR|SL  0.164    .
+154           1676    LRSLEER|VS  0.120    .
+154           1684    SEETEQR|QE  0.085    .
+154           1693    DFVVEIK|KK  0.057    .
+154           1694    FVVEIKK|KR  0.088    .
+154           1695    VVEIKKK|RR  0.094    .
+154           1696    VEIKKKR|RE  0.128    .
+154           1697    EIKKKRR|EM  0.116    .
+154           1705    MLEDFSK|FE  0.062    .
+154           1711    KFENFIR|SF  0.108    .
+154           1714    NFIRSFK|FK  0.106    .
+154           1716    IRSFKFK|YW  0.140    .
+154           1719    FKFKYWR|YY  0.104    .
+154           1728    IDLFYIK|LT  0.053    .
+154           1737    PSLPDFR|RA  0.065    .
+154           1738    SLPDFRR|AL  0.152    .
+154           1745    ALFMYVR|RT  0.111    .
+154           1746    LFMYVRR|TG  0.126    .
+154           1764    LSSPSPR|SL  0.255    .
+154           1771    SLFSAPR|TL  0.083    .
+154           1781    STPTASK|RK  0.055    .
+154           1782    TPTASKR|KN  0.238    .
+154           1783    PTASKRK|NP  0.082    .
+154           1788    RKNPTQR|FP  0.121    .
+154           1791    PTQRFPK|DP  0.207    .
+154           1794    RFPKDPK|PK  0.060    .
+154           1796    PKDPKPK|FS  0.079    .
+154           1814    VSPILDK|LA  0.072    .
+154           1820    KLALPVR|HE  0.081    .
+154           1826    RHELYAR|FC  0.095    .
+154           1833    FCISLLK|DY  0.077    .
+154           1840    DYGIQLK|LS  0.057    .
+154           1843    IQLKLSK|SG  0.069    .
+154           1846    KLSKSGK|WS  0.097    .
+154           1861    WSLGEGK|SF  0.072    .
+154           1882    SSSQSVR|KS  0.096    .
+154           1883    SSQSVRK|SL  0.163    .
+154           1888    RKSLIEK|AP  0.072    .
+154           1904    INNLGFK|SD  0.085    .
+154           1909    FKSDQIK|LF  0.074    .
+154           1939    SNVPTSR|HR  0.084    .
+154           1941    VPTSRHR|KV  0.122    .
+154           1942    PTSRHRK|VQ  0.216    .
+154           1947    RKVQVQR|HL  0.140    .
+154           1953    RHLHTQK|WD  0.074    .
+154           1956    HTQKWDR|KV  0.186    .
+154           1957    TQKWDRK|VG  0.069    .
+154           1967    STYSFNK|EQ  0.067    .
+154           1970    SFNKEQR|TI  0.110    .
+154           1979    PESVLNR|GL  0.121    .
+154           1988    SLVLLNR|AL  0.088    .
+154           2001    PGLSAGK|VV  0.056    .
+154           2006    GKVVYNK|SN  0.079    .
+154           2009    VYNKSNK|DR  0.083    .
+154           2011    NKSNKDR|KT  0.106    .
+154           2012    KSNKDRK|TA  0.108    .
+154           2016    DRKTALR|TQ  0.089    .
+154           2026    ASTLLYR|DG  0.081    .
+154           2029    LLYRDGK|KD  0.087    .
+154           2030    LYRDGKK|DK  0.116    .
+154           2032    RDGKKDK|MR  0.067    .
+154           2034    GKKDKMR|CL  0.152    .
+154           2046    VAEANER|DR  0.084    .
+154           2048    EANERDR|MA  0.089    .
+154           2052    RDRMALR|ES  0.082    .
+154           2066    VDEGVER|YF  0.099    .
+154           2073    YFSGVTR|SN  0.182    .
+154           2094    QQPFHTR|VA  0.086    .
+154           2100    RVALILK|NL  0.059    .
+154           2105    LKNLCER|YR  0.094    .
+154           2107    NLCERYR|DV  0.173    .
+154           2120    AAEMFEK|HI  0.068    .
+154           2124    FEKHIYK|EA  0.071    .
+154           2136    ASSFNTR|LL  0.103    .
+154           2141    TRLLVER|QS  0.081    .
+154           2144    LVERQSR|LP  0.134    .
+154           2160    IAQVDCK|LW  0.064    .
+154           2163    VDCKLWR|NK  0.080    .
+154           2165    CKLWRNK|CE  0.060    .
+154           2168    WRNKCER|VK  0.099    .
+154           2170    NKCERVK|PL  0.070    .
+154           2183    EYSYQVR|YW  0.111    .
+154           2186    YQVRYWK|KL  0.130    .
+154           2187    QVRYWKK|LP  0.084    .
+154           2190    YWKKLPK|VK  0.067    .
+154           2192    KKLPKVK|KT  0.068    .
+154           2193    KLPKVKK|TV  0.200    .
+154           2196    KVKKTVR|DE  0.120    .
+154           2204    EATGEVK|ET  0.060    .
+154           2223    GGAVVFK|QE  0.065    .
+154           2257    YDYYADR|KR  0.070    .
+154           2258    DYYADRK|RK  0.074    .
+154           2259    YYADRKR|KR  0.103    .
+154           2260    YADRKRK|RQ  0.172    .
+154           2261    ADRKRKR|QS  0.255    .
+154           2264    KRKRQSR|NS  0.315    .
+154           2267    RQSRNSR|AR  0.325    .
+154           2269    SRNSRAR|TK  0.149    .
+154           2271    NSRARTK|VD  0.061    .
+154           2276    TKVDNLR|RG  0.093    .
+154           2277    KVDNLRR|GS  0.108    .
+154           2280    NLRRGSR|SR  0.299    .
+154           2282    RRGSRSR|KS  0.121    .
+154           2283    RGSRSRK|SS  0.604 *ProP*
+154           2290    SSVIGTR|NS  0.108    .
+154           2294    GTRNSGR|KV  0.208    .
+154           2295    TRNSGRK|VE  0.084    .
+154           2313    TTEPAAK|QP  0.076    .
+154           2321    PDTSGTK|VE  0.052    .
+154           2338    ATDVAIK|SE  0.066    .
+154           2348    GQAAPTK|GK  0.080    .
+154           2350    AAPTKGK|KS  0.071    .
+154           2351    APTKGKK|SG  0.100    .
+154           2364    CGGDNSK|NK  0.064    .
+154           2366    GDNSKNK|NT  0.144    .
+154           2382    SCVDCGR|SA  0.177    .
+154           2415    EAILPGK|SG  0.078    .
+154           2422    SGCPVYR|GR  0.096    .
+154           2424    CPVYRGR|AH  0.086    .
+154           2430    RAHLTHK|SY  0.083    .
+154           2436    KSYFFSK|IL  0.072    .
+154           2446    QDTSNCK|PH  0.059    .
+154           2449    SNCKPHR|PS  0.086    .
+154           2454    HRPSPNR|VS  0.092    .
+154           2458    PNRVSNR|CI  0.104    .
+154           2469    HVLPLIR|RF  0.069    .
+154           2470    VLPLIRR|FE  0.097    .
+154           2475    RRFESNR|YR  0.101    .
+154           2477    FESNRYR|IA  0.144    .
+154           2494    TSTIFTK|KM  0.066    .
+154           2495    STIFTKK|MG  0.132    .
+154           2499    TKKMGER|IL  0.097    .
+154           2505    RILPVNR|GS  0.137    .
+154           2509    VNRGSGK|SG  0.079    .
+154           2514    GKSGPGK|SG  0.124    .
+154           2535    FCDECDR|GF  0.069    .
+154           2543    FHMYCLK|PK  0.059    .
+154           2545    MYCLKPK|IE  0.071    .
+154           2548    LKPKIER|PP  0.089    .
+154           2565    PPEWISK|ES  0.062    .
+154           2568    WISKESK|TH  0.065    .
+154           2573    SKTHPGR|VF  0.079    .
+154           2579    RVFYFNK|LT  0.067    .
+154           2582    YFNKLTK|QT  0.072    .
+154           2585    KLTKQTR|WE  0.090    .
+154           2588    KQTRWEK|PI  0.110    .
+154           2608    TISSDVK|RW  0.065    .
+154           2609    ISSDVKR|WA  0.483    .
+154           2622    SDDLPGR|PD  0.093    .
+154           2626    PGRPDSK|RR  0.058    .
+154           2627    GRPDSKR|RR  0.151    .
+154           2628    RPDSKRR|RV  0.289    .
+154           2629    PDSKRRR|VE  0.139    .
+154           2638    NVSSSSK|AT  0.083    .
+154           2648    PVSWNGK|GK  0.075    .
+154           2650    SWNGKGK|EK  0.081    .
+154           2652    NGKGKEK|RK  0.061    .
+154           2653    GKGKEKR|KR  0.255    .
+154           2654    KGKEKRK|RV  0.116    .
+154           2655    GKEKRKR|VQ  0.162    .
+154           2671    ETVALLR|SQ  0.084    .
+154           2690    STFCPSK|KS  0.064    .
+154           2691    TFCPSKK|SK  0.166    .
+154           2693    CPSKKSK|IK  0.094    .
+154           2695    SKKSKIK|RT  0.080    .
+154           2696    KKSKIKR|TE  0.347    .
+154           2702    RTESHQK|IK  0.073    .
+154           2704    ESHQKIK|SR  0.085    .
+154           2706    HQKIKSR|RQ  0.098    .
+154           2707    QKIKSRR|QF  0.233    .
+154           2724    YSPVTPR|SS  0.152    .
+____________________________^_________________
+
+
+
+

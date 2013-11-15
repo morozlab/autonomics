@@ -1,0 +1,118 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2595 181         
+MKDEDRQFPNFSSTTPWHGIHSSTGVVDVDGDVVLEVVVDGVVVVVEMGEVTVLSFREVEEGVLVVVDGVVVLVVVDGVV      80
+VLEVVDGVEVLVVVDGVVMLVVVDGVEVLVVVDGVVMLVVVDGVEVLVVVDGVVMLVVVDGVEVLVVVDGVVMLVVVDGV     160
+EVLVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVV     240
+DVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVV     320
+VDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLV     400
+VVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVL     480
+VVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVV     560
+LVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVV     640
+VLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGV     720
+VVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDG     800
+VVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVD     880
+GVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDGVVVLVVVDGVVVLVVV     960
+DGLSVTGEVVVDGVVVLVVVDGVVVLVVVDGVSVTGEVVVDGVVVLVVVDGVVVLVVVDGVVVLVVVDVVVVVVDGVSVT    1040
+GEVVVDGVVVLVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVD    1120
+GVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVV    1200
+DGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVV    1280
+VDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEV    1360
+VVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGE    1440
+VVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTG    1520
+EVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVT    1600
+GEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSV    1680
+TGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVS    1760
+VTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGV    1840
+SVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDVVVVVVDGVSVTGEVVVDGVVVLVVVDGVSVTGEV    1920
+VVDGVVVLVVVDGVVVGVVVDGVSVIDEVVVDGVVVLVVVDGVVVLEVVDEVVVIPLHVMPGIRVPRNSVGSAHTGVKIK    2000
+IKILILSSHTPAAVKISLPILRVTISRQCPFDNKSGHLSSRLISVSFWHNWVSFCKMCKALWSSFFNQKPSSGCKLSLKK    2080
+LDLDYETLYTEFQTDWFSWGLAMGVTKCHFWLKTAKTYYCFLARAAGGEGMVTFALASAVITIILYRSHIILQIISAAPT    2160
+KEVSLADTMTDSREIALNVNPLWEKGLGNVGKILDPILHPFICILPGGHLMSPLMVFELVVDIIVVVGDGVVVLGVWVTG    2240
+EVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLVVVDGVSVTGKVVVDGVVVLVVVDGVVVLGLVVDGVVVLV    2320
+VVDGVVVLGLVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVV    2400
+LEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVV    2480
+VLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLEVVDGVVVLGLVVDG    2560
+VCVTVVVMWLVNYGYQPIRDQYFLIWSVPDILLIG                                                 2640
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+...................................                                                 2640
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+181              2    -----MK|DE  0.089    .
+181              6    -MKDEDR|QF  0.071    .
+181             57    VTVLSFR|EV  0.129    .
+181           1984    HVMPGIR|VP  0.085    .
+181           1987    PGIRVPR|NS  0.286    .
+181           1998    SAHTGVK|IK  0.069    .
+181           2000    HTGVKIK|IK  0.072    .
+181           2002    GVKIKIK|IL  0.071    .
+181           2015    HTPAAVK|IS  0.062    .
+181           2022    ISLPILR|VT  0.074    .
+181           2027    LRVTISR|QC  0.080    .
+181           2034    QCPFDNK|SG  0.063    .
+181           2041    SGHLSSR|LI  0.138    .
+181           2056    NWVSFCK|MC  0.065    .
+181           2059    SFCKMCK|AL  0.069    .
+181           2069    SSFFNQK|PS  0.068    .
+181           2075    KPSSGCK|LS  0.067    .
+181           2079    GCKLSLK|KL  0.062    .
+181           2080    CKLSLKK|LD  0.080    .
+181           2107    LAMGVTK|CH  0.066    .
+181           2113    KCHFWLK|TA  0.073    .
+181           2116    FWLKTAK|TY  0.061    .
+181           2124    YYCFLAR|AA  0.148    .
+181           2147    ITIILYR|SH  0.107    .
+181           2161    ISAAPTK|EV  0.096    .
+181           2173    DTMTDSR|EI  0.068    .
+181           2185    VNPLWEK|GL  0.073    .
+181           2192    GLGNVGK|IL  0.114    .
+181           2291    GVSVTGK|VV  0.100    .
+181           2579    YGYQPIR|DQ  0.093    .
+____________________________^_________________
+
+
+
+

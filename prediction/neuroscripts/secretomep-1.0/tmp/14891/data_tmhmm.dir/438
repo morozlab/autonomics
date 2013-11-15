@@ -1,0 +1,10 @@
+# 438 Length: 1724
+# 438 Number of predicted TMHs:  2
+# 438 Exp number of AAs in TMHs: 139.45895
+# 438 Exp number, first 60 AAs:  0.02401
+# 438 Total prob of N-in:        0.00205
+438	TMHMM2.0	outside	     1   739
+438	TMHMM2.0	TMhelix	   740   762
+438	TMHMM2.0	inside	   763   768
+438	TMHMM2.0	TMhelix	   769   791
+438	TMHMM2.0	outside	   792  1724

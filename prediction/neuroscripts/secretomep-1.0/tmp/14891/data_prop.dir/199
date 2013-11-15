@@ -1,0 +1,252 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2498 199         
+MTRFLLLVLNFLTLGSTAVWREATCSDDPTIDPVPWDLAVVPLHFSTDGSSHYMNTYFLKSDATVLGSININNTGNNYYL      80
+AFCTDELPGSSEPDAALTRDAYNDTPSSASGLDGNWTMTMSDVGIVVEFEGEILIDHKYNKSADKAVNCEEQWYGKIAFV     160
+DFCGGGAANYYLAGCDPIVNAVNTVETTLLEEETVICNDGYGRIGPSVMTCLVNGTWNETTPTQCHQLSYSWTCSSTPSD     240
+AVAWQSQFGLDCDLELNGVSCDGCTGDICAYCPDEFIFEACLTSDCSIKVPLSPTKESSLNVHLPVGDPDNGFSITIAAT     320
+MQISDTVYTSTSFDVTSRQYSGAQPSLSSIKTLMDNGDTFEGLQTLLAFVSSVSDLNGLEESIVDILDSVSLSNSHSSIQ     400
+ILSILDELSMNSAADIVHDRVLHLINSAYDACTSNSPAHYFGCKSLMADTLWNMWNHSIITCARNCEGGLVFPFTDVEFV     480
+TSVRPSFVDDFGWRVECDDLGNVTSNLTSYPDKVNLRFDPITLENTTCDVHLVFNISGHLFLDSTELNIITTPIYTMPCS     560
+STPSAASAWTEQFQISCNLQVNGEDCIGCTGDTCTLCPTSIEYKVCLNSDCSISVPLNETAGTNSPLTVDLPSGPLENDF     640
+NITIEVSAEVSGVIVSSTSFEVTDVHLPVGDPDNGFSITIAATMQISDTVYTSTSFDVTSRQYSGAQPSLSSIKTLMDNG     720
+DTFEGLQTLLAFVSSVSDLNGLEESIVDILDSVSLSNSHSSIQILSILDELSMNSAADIVHDRVLHLINSAYDACTSNSP     800
+AHYFGCKSLMADTLWNMWNHSIITCARNCEGGLVFPFTDVEFVTSVRPSFVDDFGWRVECDDLGNVTSNLTSYPDKVNLR     880
+FDPITLENTTCDVHLVFNISGHLFLDSTELNIITTPIYTMPCSSTPSAASAWTEQFQISCNLQVNGEDCIGCTGDTCTLC     960
+PTSIEYKVCLNSDCSISVPLNETAGTNSPLTVDLPSGALENDFNITIEVSAEVSGVIVSSTSFEVTAYPHSGEQPPLQSV    1040
+EDLIAGGDTFEGLQRLHTFVTSLSFMNSTTIEDVLAIIENIPLSQSRSSVEILAILHSLTSQTAVVKVSSRVSDLATEAY    1120
+AASGENSQHYAEECALLTWAVMENLLKIAIPEGSASGVEETAPISADQEYYNKYVDFDFAAEMEEAETEMASENLCDSIR    1200
+QLEISAVEAQKPNAAVGQVSNMSSSVISFSLTLKHKDEVGDEPMTKLGDGSVFIPSITFDSVGIFDEPVMYSYFRLDDNP    1280
+CQGMENADRITSSIVGVNVTYVESDTASEGGTRKRSLELADNSVVRADNDKIDGAIEVLINPSFPILLNTFTLDPNKTNQ    1360
+YFKVKIASGSDMVMVIQIQAEGDVEVWMKYKSFPTSEDLLGVFPDSDLRDEKNDKLEELEFSYWDFGSTDSVLVPSKGEG    1440
+TYYFKVLSNDTDTFSLKVLTTACLEWTTSGWSLDTGNVGILTNSTATHCSYPGPGYFAADIRWWAVKEYIEPIIPVYIVN    1520
+KNDAYLWSPVVMILVMFVSIYLLVRRLDERDKVSRSTLYRLTENETDYSYTVDVCTGLRVGGSTTAAIRIELVGGKGKAA    1600
+LDINQCGIELFGINQTSTFLYHSDKDIGELEYIKVSTDCSGSSPNWYLKEVRVRDHRYHRFPFNGWLGVQAETFSSTIYP    1680
+STEHSPRRLLQFVTSAITEYHCFLSGVLKTRTLPSRTFLLTMAMTRILFVLCFSLVSQDWLILSLLGISPLPLLLLLEWV    1760
+VQQLAYNRSHNHHIEAYSPKEQPMWPRKFHNSCLEIMLTNLPVVSMVVLLAVYPGLAYTSRDVDGQAVLIRFVVLLAGLL    1840
+FIEQPIISWIRCYLIRGTDFLDHTQNFEKKVEDHHLANSASQPTSLLDEMLQSIEKWSGMVRKERKNQQVFIRLIMYVLF    1920
+IGIVVAFAKQDRNVNCYYLNTSLKSLFTKSAKYESIETVDEYWKYLQNNFTETLSDDAFYENTGTIAPSENYLSDGTNII    2000
+ISIARLRQVRIEHQNCTTTNVTEPFVSCWPPYRDGLENKANYSTSWEDHVPLPANARFPTIRYRSYWAWEEGQHSFRTHG    2080
+TLTSYPVSGYTVPLANTPRNAKAQMEYLQKDGWIDRNTRAVLVELTVYNPSTGLMCSVKLLAEFLPTGNIVTSSYFHSVN    2160
+FFLYSQPMSIGKTKVEISYLIFLTMLTVYNMYQFISARTKGTKVWRGFWSLLDLGIMVIGWTAVVLYLIRQEVLQAAIAE    2240
+FNETPIIICLKVRRRLKLQEKRDCLGGLMFLFTVKIIDLFLVNMRIRVLTIITRRSLVSLASLGVPFFVLFATKWVCKAD    2320
+DKPRLEAWKSLWGLSLGSTFGFVLGEVNWAEMRDTHPVLAPIFGFLLGISSVVYFVNLFAVIVCHEMAEVSSGPATDKES    2400
+FPIFTYMGKLLGDFLTFVCPGAGEIARWWGVHWKKHQKEKYAVGEEGDTTRNPYLVESERRVKEQEENIEKLNKMIDVVD    2480
+ERVTKLVNLILERRQIKQ                                                                  2560
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+..................                                                                  2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+199              3    ----MTR|FL  0.095    .
+199             21    GSTAVWR|EA  0.109    .
+199             60    MNTYFLK|SD  0.098    .
+199             99    PDAALTR|DA  0.115    .
+199            138    EILIDHK|YN  0.062    .
+199            141    IDHKYNK|SA  0.169    .
+199            145    YNKSADK|AV  0.091    .
+199            156    EEQWYGK|IA  0.069    .
+199            203    CNDGYGR|IG  0.072    .
+199            289    TSDCSIK|VP  0.054    .
+199            296    VPLSPTK|ES  0.062    .
+199            338    SFDVTSR|QY  0.125    .
+199            351    PSLSSIK|TL  0.075    .
+199            420    ADIVHDR|VL  0.088    .
+199            444    AHYFGCK|SL  0.079    .
+199            464    SIITCAR|NC  0.120    .
+199            484    EFVTSVR|PS  0.073    .
+199            494    VDDFGWR|VE  0.074    .
+199            513    LTSYPDK|VN  0.065    .
+199            517    PDKVNLR|FD  0.086    .
+199            604    PTSIEYK|VC  0.059    .
+199            701    SFDVTSR|QY  0.125    .
+199            714    PSLSSIK|TL  0.075    .
+199            783    ADIVHDR|VL  0.088    .
+199            807    AHYFGCK|SL  0.079    .
+199            827    SIITCAR|NC  0.120    .
+199            847    EFVTSVR|PS  0.073    .
+199            857    VDDFGWR|VE  0.074    .
+199            876    LTSYPDK|VN  0.065    .
+199            880    PDKVNLR|FD  0.086    .
+199            967    PTSIEYK|VC  0.059    .
+199           1055    TFEGLQR|LH  0.075    .
+199           1087    IPLSQSR|SS  0.137    .
+199           1107    SQTAVVK|VS  0.062    .
+199           1111    VVKVSSR|VS  0.083    .
+199           1147    VMENLLK|IA  0.066    .
+199           1173    DQEYYNK|YV  0.071    .
+199           1200    NLCDSIR|QL  0.096    .
+199           1211    SAVEAQK|PN  0.068    .
+199           1234    SFSLTLK|HK  0.078    .
+199           1236    SLTLKHK|DE  0.076    .
+199           1246    GDEPMTK|LG  0.064    .
+199           1275    VMYSYFR|LD  0.075    .
+199           1289    GMENADR|IT  0.107    .
+199           1313    ASEGGTR|KR  0.075    .
+199           1314    SEGGTRK|RS  0.067    .
+199           1315    EGGTRKR|SL  0.331    .
+199           1326    ADNSVVR|AD  0.127    .
+199           1331    VRADNDK|ID  0.083    .
+199           1357    FTLDPNK|TN  0.053    .
+199           1363    KTNQYFK|VK  0.074    .
+199           1365    NQYFKVK|IA  0.089    .
+199           1389    DVEVWMK|YK  0.063    .
+199           1391    EVWMKYK|SF  0.094    .
+199           1409    FPDSDLR|DE  0.066    .
+199           1412    SDLRDEK|ND  0.101    .
+199           1415    RDEKNDK|LE  0.058    .
+199           1437    SVLVPSK|GE  0.066    .
+199           1445    EGTYYFK|VL  0.062    .
+199           1457    TDTFSLK|VL  0.061    .
+199           1502    YFAADIR|WW  0.103    .
+199           1507    IRWWAVK|EY  0.065    .
+199           1521    PVYIVNK|ND  0.054    .
+199           1545    SIYLLVR|RL  0.079    .
+199           1546    IYLLVRR|LD  0.095    .
+199           1550    VRRLDER|DK  0.079    .
+199           1552    RLDERDK|VS  0.056    .
+199           1555    ERDKVSR|ST  0.126    .
+199           1560    SRSTLYR|LT  0.154    .
+199           1579    DVCTGLR|VG  0.065    .
+199           1589    STTAAIR|IE  0.076    .
+199           1596    IELVGGK|GK  0.058    .
+199           1598    LVGGKGK|AA  0.077    .
+199           1625    FLYHSDK|DI  0.099    .
+199           1634    GELEYIK|VS  0.054    .
+199           1649    SPNWYLK|EV  0.085    .
+199           1652    WYLKEVR|VR  0.071    .
+199           1654    LKEVRVR|DH  0.109    .
+199           1657    VRVRDHR|YH  0.191    .
+199           1660    RDHRYHR|FP  0.346    .
+199           1687    STEHSPR|RL  0.095    .
+199           1688    TEHSPRR|LL  0.169    .
+199           1709    FLSGVLK|TR  0.059    .
+199           1711    SGVLKTR|TL  0.080    .
+199           1716    TRTLPSR|TF  0.086    .
+199           1726    LTMAMTR|IL  0.083    .
+199           1768    QQLAYNR|SH  0.099    .
+199           1780    IEAYSPK|EQ  0.066    .
+199           1787    EQPMWPR|KF  0.092    .
+199           1788    QPMWPRK|FH  0.107    .
+199           1821    GLAYTSR|DV  0.267    .
+199           1831    GQAVLIR|FV  0.119    .
+199           1851    PIISWIR|CY  0.079    .
+199           1856    IRCYLIR|GT  0.130    .
+199           1869    HTQNFEK|KV  0.095    .
+199           1870    TQNFEKK|VE  0.133    .
+199           1896    MLQSIEK|WS  0.068    .
+199           1902    KWSGMVR|KE  0.097    .
+199           1903    WSGMVRK|ER  0.101    .
+199           1905    GMVRKER|KN  0.303    .
+199           1906    MVRKERK|NQ  0.081    .
+199           1913    NQQVFIR|LI  0.133    .
+199           1929    IVVAFAK|QD  0.067    .
+199           1932    AFAKQDR|NV  0.114    .
+199           1944    YLNTSLK|SL  0.086    .
+199           1949    LKSLFTK|SA  0.110    .
+199           1952    LFTKSAK|YE  0.072    .
+199           1964    TVDEYWK|YL  0.062    .
+199           2005    IIISIAR|LR  0.075    .
+199           2007    ISIARLR|QV  0.120    .
+199           2010    ARLRQVR|IE  0.264    .
+199           2033    SCWPPYR|DG  0.085    .
+199           2039    RDGLENK|AN  0.060    .
+199           2057    PLPANAR|FP  0.082    .
+199           2062    ARFPTIR|YR  0.109    .
+199           2064    FPTIRYR|SY  0.170    .
+199           2077    EGQHSFR|TH  0.103    .
+199           2099    PLANTPR|NA  0.130    .
+199           2102    NTPRNAK|AQ  0.109    .
+199           2110    QMEYLQK|DG  0.066    .
+199           2116    KDGWIDR|NT  0.111    .
+199           2119    WIDRNTR|AV  0.272    .
+199           2139    GLMCSVK|LL  0.073    .
+199           2172    QPMSIGK|TK  0.057    .
+199           2174    MSIGKTK|VE  0.066    .
+199           2198    YQFISAR|TK  0.114    .
+199           2200    FISARTK|GT  0.077    .
+199           2203    ARTKGTK|VW  0.061    .
+199           2206    KGTKVWR|GF  0.102    .
+199           2230    VVLYLIR|QE  0.060    .
+199           2251    PIIICLK|VR  0.055    .
+199           2253    IICLKVR|RR  0.072    .
+199           2254    ICLKVRR|RL  0.121    .
+199           2255    CLKVRRR|LK  0.115    .
+199           2257    KVRRRLK|LQ  0.104    .
+199           2261    RLKLQEK|RD  0.064    .
+199           2262    LKLQEKR|DC  0.232    .
+199           2275    MFLFTVK|II  0.062    .
+199           2285    LFLVNMR|IR  0.064    .
+199           2287    LVNMRIR|VL  0.093    .
+199           2294    VLTIITR|RS  0.071    .
+199           2295    LTIITRR|SL  0.143    .
+199           2314    FVLFATK|WV  0.073    .
+199           2318    ATKWVCK|AD  0.065    .
+199           2322    VCKADDK|PR  0.055    .
+199           2324    KADDKPR|LE  0.079    .
+199           2329    PRLEAWK|SL  0.078    .
+199           2353    VNWAEMR|DT  0.136    .
+199           2398    SGPATDK|ES  0.070    .
+199           2409    IFTYMGK|LL  0.070    .
+199           2427    GAGEIAR|WW  0.130    .
+199           2434    WWGVHWK|KH  0.070    .
+199           2435    WGVHWKK|HQ  0.112    .
+199           2438    HWKKHQK|EK  0.077    .
+199           2440    KKHQKEK|YA  0.129    .
+199           2451    EEGDTTR|NP  0.083    .
+199           2460    YLVESER|RV  0.123    .
+199           2461    LVESERR|VK  0.168    .
+199           2463    ESERRVK|EQ  0.112    .
+199           2471    QEENIEK|LN  0.055    .
+199           2474    NIEKLNK|MI  0.073    .
+199           2482    IDVVDER|VT  0.070    .
+199           2485    VDERVTK|LV  0.129    .
+199           2493    VNLILER|RQ  0.071    .
+199           2494    NLILERR|QI  0.136    .
+199           2497    LERRQIK|Q-  0.143    .
+____________________________^_________________
+
+
+
+

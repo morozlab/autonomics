@@ -1,0 +1,226 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2320 242         
+MATVLFTLKWAKRTTRRSRHHSYRFSCHGNPQLLKLSSLLLAGRFGPWLSKSPYLRRTRWVRYMNATYAGDYLCDLNYGE      80
+IGTLTSDSMSLSIDAFITHPETVRSTIASKGWVPRGSRSPSWVMGMKYRHRLLVERDRFSNSNSKGLIVSDFVHAEAQHV     160
+KGFLTFGFPPPKLGRSYRSQIKGSAAAAAAAAAAAAAAAAAAALPSTPLLFNENSTCITMGKDPDPIPTVDVPAIDVQHR     240
+ICDLVNRLTTYVEDPPISEQSVLLKVKNKEQIRGIGYDRHRKDILTIDKYFPNHCIADVSVRLRGFCKEMSHLLVWECLP     320
+LIQRAASEDAAKDKEKGADVRLLEKELRDCQREVIELQKKIIQLQDEDLSAAKAVSETVKSEMKSFSAVISNNCAAAVSP     400
+TRLQAVIKKTITPASDIVDRSCNLMIFNLEEEKGEDSPVTAAEDRKAVEQILDELKEKFQLSNLKRVGTKSEKKTRPMIA     480
+TLSSRENLLTLLRKAKELKKNDVVTAWDQLKSQMSPSTTAAEDAFLQYFESTWVLSAIYPIKMWNMHQTVIDGGPRTNNH     560
+SEGNNNALARFIGCSNPSGGLLAEALTQFNEQAEIHIEHCLTGTVSGARKRKKYRDNDERIKKAITNYGLVEFLIFSLGC     640
+TDVGLPLLTVLFKAPRWRSGETELSVVWHIFLPPGLFLWGLDYTSFDLALFRQSGLLCATIVYLSLSSSFQFSLLSRVIS     720
+KNFVDSEALIELPCILNGFPIFTFFRWVNMTLCDFRVLSLSPTVLHQATGRFVSSASSLSTSTLEISYLSSSDAGTYICQ     800
+SEVNGETISSSSASISVVAFETDPVSLTKVVVGNSATLSCSVSVTGLTITWEKGGVSYTGTSPTDTSTSTIVVSYKPSSC     880
+VATLDMCRIINKLMWVTYLYYKLEMNVEVVVLFYEGALSLRYRLTNGHHLDDVHLQLIIETSIIRSSLSLRYRLTNGHHF     960
+DDVHLQLIIETSKPDGWASSKGFFNNPPGFAGWFFSPLSTPMTRLPWQLNWSSMSLRYRLTNDFDVHLQIIIEICKTTVS    1040
+DSAMYSEQAALMVLFLSMPVAVGGASGDTVTLTATMPSDVEVDIEWLRDNGTELVDGGDYTILSEFPVTMTPDTGFQYTR    1120
+STLEIAYFNRDKADNFTTTANLTYNGNELTVANTVGTKAVYLELELVGDFAEIGDPITIYCLYLGSDTIASFTFEKETSS    1200
+SSWIEVTTGTQSTMTNLTRFPDATAAAFLTVSSLVAEDVGNYRCQTEDSTGITTQSLPAAVYSVASAVEQTKLLVDGMAL    1280
+LTATFTSPYRPTGYSLYTQSESSIWSESSTISVISVTESPAILDGADSTVYSVEVAITGDSRDQLVYLQAMIEKKYIQSP    1360
+FVEILYATVYLDTPARVVLYPGQAFSLNCWYSSNTEAIVSVTPIDSLETVQSTTDHDLKYITMIYGDGASDGDYTCQLEI    1440
+DTLTLARSVTVVRNSAPTRHEISANIVEDSEENLECSTEEMEITSPYNIKWTAEPDLGLIEESKRVKSCEYFTVQFYDKV    1520
+DSYLPFIVLEFQQNRSFLNEPVIYKLLAAWFGDIFFSSFAGTRQSGLTRPNWAFLPSDITAECMSRRDHSVSLSLSLSLS    1600
+LSLSLSLSLSLSLSLFSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    1680
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    1760
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    1840
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    1920
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    2000
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    2080
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    2160
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSL    2240
+SISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLYLSLSLSISLSLSLSLSLSLYLSLSLPHQVAEMVKN    2320
+................................................................................      80
+................................................................................     160
+.................P..............................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+242              9    TVLFTLK|WA  0.059    .
+242             12    FTLKWAK|RT  0.059    .
+242             13    TLKWAKR|TT  0.253    .
+242             16    WAKRTTR|RS  0.175    .
+242             17    AKRTTRR|SR  0.309    .
+242             19    RTTRRSR|HH  0.240    .
+242             24    SRHHSYR|FS  0.323    .
+242             35    GNPQLLK|LS  0.060    .
+242             44    SLLLAGR|FG  0.070    .
+242             51    FGPWLSK|SP  0.059    .
+242             56    SKSPYLR|RT  0.129    .
+242             57    KSPYLRR|TR  0.095    .
+242             59    PYLRRTR|WV  0.265    .
+242             62    RRTRWVR|YM  0.290    .
+242            104    THPETVR|ST  0.134    .
+242            110    RSTIASK|GW  0.064    .
+242            115    SKGWVPR|GS  0.112    .
+242            118    WVPRGSR|SP  0.315    .
+242            127    SWVMGMK|YR  0.066    .
+242            129    VMGMKYR|HR  0.097    .
+242            131    GMKYRHR|LL  0.077    .
+242            136    HRLLVER|DR  0.091    .
+242            138    LLVERDR|FS  0.086    .
+242            145    FSNSNSK|GL  0.069    .
+242            161    AEAQHVK|GF  0.068    .
+242            172    FGFPPPK|LG  0.060    .
+242            175    PPPKLGR|SY  0.155    .
+242            178    KLGRSYR|SQ  0.636 *ProP*
+242            182    SYRSQIK|GS  0.067    .
+242            222    TCITMGK|DP  0.079    .
+242            240    AIDVQHR|IC  0.088    .
+242            247    ICDLVNR|LT  0.091    .
+242            265    EQSVLLK|VK  0.067    .
+242            267    SVLLKVK|NK  0.073    .
+242            269    LLKVKNK|EQ  0.070    .
+242            273    KNKEQIR|GI  0.123    .
+242            279    RGIGYDR|HR  0.087    .
+242            281    IGYDRHR|KD  0.073    .
+242            282    GYDRHRK|DI  0.309    .
+242            289    DILTIDK|YF  0.053    .
+242            302    IADVSVR|LR  0.088    .
+242            304    DVSVRLR|GF  0.134    .
+242            308    RLRGFCK|EM  0.077    .
+242            324    CLPLIQR|AA  0.074    .
+242            332    ASEDAAK|DK  0.092    .
+242            334    EDAAKDK|EK  0.082    .
+242            336    AAKDKEK|GA  0.087    .
+242            341    EKGADVR|LL  0.111    .
+242            345    DVRLLEK|EL  0.062    .
+242            348    LLEKELR|DC  0.093    .
+242            352    ELRDCQR|EV  0.127    .
+242            359    EVIELQK|KI  0.062    .
+242            360    VIELQKK|II  0.086    .
+242            373    EDLSAAK|AV  0.078    .
+242            380    AVSETVK|SE  0.098    .
+242            384    TVKSEMK|SF  0.095    .
+242            402    AAVSPTR|LQ  0.080    .
+242            408    RLQAVIK|KT  0.069    .
+242            409    LQAVIKK|TI  0.121    .
+242            420    ASDIVDR|SC  0.120    .
+242            433    FNLEEEK|GE  0.056    .
+242            445    VTAAEDR|KA  0.100    .
+242            446    TAAEDRK|AV  0.208    .
+242            456    QILDELK|EK  0.056    .
+242            458    LDELKEK|FQ  0.066    .
+242            465    FQLSNLK|RV  0.067    .
+242            466    QLSNLKR|VG  0.251    .
+242            470    LKRVGTK|SE  0.092    .
+242            473    VGTKSEK|KT  0.065    .
+242            474    GTKSEKK|TR  0.075    .
+242            476    KSEKKTR|PM  0.120    .
+242            485    IATLSSR|EN  0.067    .
+242            493    NLLTLLR|KA  0.066    .
+242            494    LLTLLRK|AK  0.078    .
+242            496    TLLRKAK|EL  0.155    .
+242            499    RKAKELK|KN  0.077    .
+242            500    KAKELKK|ND  0.072    .
+242            511    TAWDQLK|SQ  0.072    .
+242            542    SAIYPIK|MW  0.076    .
+242            556    VIDGGPR|TN  0.081    .
+242            570    NNNALAR|FI  0.244    .
+242            609    GTVSGAR|KR  0.074    .
+242            610    TVSGARK|RK  0.076    .
+242            611    VSGARKR|KK  0.136    .
+242            612    SGARKRK|KY  0.316    .
+242            613    GARKRKK|YR  0.160    .
+242            615    RKRKKYR|DN  0.193    .
+242            620    YRDNDER|IK  0.089    .
+242            622    DNDERIK|KA  0.063    .
+242            623    NDERIKK|AI  0.314    .
+242            653    LLTVLFK|AP  0.058    .
+242            656    VLFKAPR|WR  0.086    .
+242            658    FKAPRWR|SG  0.209    .
+242            692    FDLALFR|QS  0.079    .
+242            717    QFSLLSR|VI  0.120    .
+242            721    LSRVISK|NF  0.072    .
+242            746    PIFTFFR|WV  0.122    .
+242            756    MTLCDFR|VL  0.078    .
+242            771    LHQATGR|FV  0.146    .
+242            829    DPVSLTK|VV  0.068    .
+242            853    LTITWEK|GG  0.059    .
+242            876    TIVVSYK|PS  0.072    .
+242            888    ATLDMCR|II  0.075    .
+242            892    MCRIINK|LM  0.058    .
+242            902    VTYLYYK|LE  0.059    .
+242            921    EGALSLR|YR  0.086    .
+242            923    ALSLRYR|LT  0.105    .
+242            945    IETSIIR|SS  0.076    .
+242            951    RSSLSLR|YR  0.142    .
+242            953    SLSLRYR|LT  0.108    .
+242            973    LIIETSK|PD  0.063    .
+242            981    DGWASSK|GF  0.069    .
+242           1004    LSTPMTR|LP  0.077    .
+242           1017    WSSMSLR|YR  0.123    .
+242           1019    SMSLRYR|LT  0.116    .
+242           1036    IIIEICK|TT  0.056    .
+242           1088    VDIEWLR|DN  0.119    .
+242           1120    TGFQYTR|ST  0.119    .
+242           1130    EIAYFNR|DK  0.138    .
+242           1132    AYFNRDK|AD  0.058    .
+242           1158    ANTVGTK|AV  0.069    .
+242           1196    ASFTFEK|ET  0.065    .
+242           1219    TMTNLTR|FP  0.099    .
+242           1243    EDVGNYR|CQ  0.072    .
+242           1272    SAVEQTK|LL  0.068    .
+242           1290    TFTSPYR|PT  0.109    .
+242           1342    AITGDSR|DQ  0.087    .
+242           1354    LQAMIEK|KY  0.070    .
+242           1355    QAMIEKK|YI  0.109    .
+242           1376    YLDTPAR|VV  0.089    .
+242           1419    TTDHDLK|YI  0.073    .
+242           1447    DTLTLAR|SV  0.179    .
+242           1453    RSVTVVR|NS  0.090    .
+242           1459    RNSAPTR|HE  0.107    .
+242           1490    TSPYNIK|WT  0.067    .
+242           1504    GLIEESK|RV  0.069    .
+242           1505    LIEESKR|VK  0.174    .
+242           1507    EESKRVK|SC  0.096    .
+242           1519    TVQFYDK|VD  0.062    .
+242           1535    LEFQQNR|SF  0.104    .
+242           1545    NEPVIYK|LL  0.059    .
+242           1563    SSFAGTR|QS  0.093    .
+242           1569    RQSGLTR|PN  0.117    .
+242           1586    TAECMSR|RD  0.074    .
+242           1587    AECMSRR|DH  0.226    .
+242           2319    QVAEMVK|N-  0.063    .
+____________________________^_________________
+
+
+
+

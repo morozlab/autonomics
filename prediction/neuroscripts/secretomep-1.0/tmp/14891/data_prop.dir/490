@@ -1,0 +1,242 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1651 490         
+MIEDACSLASIVELTPSMRNQETRGQFGYWTYLNSGACGSCFRNIESPNVVLKKIGKARNELVYKRIIKEAGHMLDLSHT      80
+NVMKILKGPILYGQQTDRFIFLVLEFAGEPIGTRYNNVRIPESHIKLALLQVSDAVKYLHGERLLHRDIRQDNVTVSGDE     160
+TNPVFKIIDFGLSAVLSEGKSRQESLAIPDFNPIWASPERNYYVWKQGHRMGLVETFQPCPVPSYKSDVWMIGIFGLELL     240
+CHPGPVGFMALYGGTGMYSRYRDDLLRSGDRLISSNGKPLFGELDDDNYNADLAEMFRSCNDNFIRLCILRVMLSTTQHH     320
+TKINSREIFLRPVLSVTHSNDGVARSIALRLLGVTSVLYPETKSVLHAVIRALDSYIEMEREAALFACKKFAAVSQDVSR     400
+TVVPKLKELLTSLSTTEKQKVKILDVLRSMHLTLETGHLVRGLCLDILSQQALESVTVGCLQVLTHITLATRVREPALIR     480
+TLSEDPRERVRSAAVQCLKEVVVVQPALLNEEDVSLLFNIILIPGVADLILKLSEGSSKDIVSRDLLSQQTLSDLPLHIA     560
+LPLYRSSVKLLPSSQHSMNGCPMLIRVIRDGDKEQVRKFLHSLSEQQSSDPSILFSLLPGTSLSTFTELCYCISALRARV     640
+KLTPEHVGMMDNSVVDAAFQKLAEMFRSCNDNFIRLCILRVMLSTTQHHTKINSREIFLRPVLSVTHSNDGVARSIALRL     720
+LGVTSVLYPETKSVLHAVIRALDSYIEMEREAALFACKKFAAVSQDVSRTVVPKLKELLTALSTTEKQKVKILDVLRSMH     800
+LTLETGHLVRGLCLDILSQQALESVTVGCLQVLTHITLATRVREPALIRTLSEDPRERVRSAAVQCLKEVVVVQPALLNK     880
+EDVSLLFNIILIPGVADLILKLSEGSSKDIVSRDLLSQQTLSDLPLHIALPLYLSSVKLLPSSQHSMNGCPMLIRVIRDG     960
+DRGQVRKFLHSLSEQPSSDPSILFSLLPGTSLSTFTELCYCISALRARVKLTPEQVEMMETSVGTERVLVYVKLLITLFT    1040
+HSSEKVRECIVRYVTDFLSTVTLSPWSVYCVSRVAMCNGVWEIAAVTLPNLTTTHPHYRAFFRALTMICEAETGCQEGSV    1120
+KLYDAAVMNIKCQANNAQTHFQGGLLSLRRSQLQILHQLSGVVAVAKMRGGDVSRAVPTLTFIQSRVSTLQDGLRDLQSR    1200
+MIDASPRDRLSSLHTWCETVSELCTKPHLATISTTLASLRTQRFSLPMFFFVQEHATSVALATSPAIEQGFMRIPSNTSL    1280
+LLTVEAVIRGNVSRVSHVLLCVTCKGGRWKKGEVEGMGETVFEKEVPVERGYMKVEMTIEPGSGAEIYFITANALDNSVS    1360
+QFLPISCPKSGFWTQITRPSFIPERIILNFIRRCYRECIVRYVTDFLSTVTLSPWSVYCVSRVAMCNGVWEIAAVTLPNL    1440
+TTTHPHYRAFFRALTLICEAETGCQEGSVKLYDAAVMNIKCQANNAQTHFQGGLLSLRRSQLQILHQLSGVVAVAKMRGG    1520
+DVSRAVPTLSFIQSRVSTLQDGLRDLQSRMIDASPRDRLSSLHTWCETVSELCTKPHLATISPPLATLRTQRFSLPMFFF    1600
+VQEHATSVALATSPAIEQGFMRIPSNTSLLLTVEAVIRGNVSRRIKYELNN                                 1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+............................P...................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+...................................................                                 1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+490             19    ELTPSMR|NQ  0.084    .
+490             24    MRNQETR|GQ  0.157    .
+490             43    ACGSCFR|NI  0.080    .
+490             53    SPNVVLK|KI  0.113    .
+490             54    PNVVLKK|IG  0.090    .
+490             57    VLKKIGK|AR  0.057    .
+490             59    KKIGKAR|NE  0.097    .
+490             65    RNELVYK|RI  0.075    .
+490             66    NELVYKR|II  0.216    .
+490             69    VYKRIIK|EA  0.177    .
+490             84    SHTNVMK|IL  0.062    .
+490             87    NVMKILK|GP  0.062    .
+490             98    YGQQTDR|FI  0.108    .
+490            114    GEPIGTR|YN  0.080    .
+490            119    TRYNNVR|IP  0.114    .
+490            126    IPESHIK|LA  0.066    .
+490            137    QVSDAVK|YL  0.077    .
+490            143    KYLHGER|LL  0.073    .
+490            147    GERLLHR|DI  0.130    .
+490            150    LLHRDIR|QD  0.221    .
+490            166    ETNPVFK|II  0.084    .
+490            180    AVLSEGK|SR  0.067    .
+490            182    LSEGKSR|QE  0.129    .
+490            200    IWASPER|NY  0.089    .
+490            206    RNYYVWK|QG  0.075    .
+490            210    VWKQGHR|MG  0.072    .
+490            226    CPVPSYK|SD  0.088    .
+490            260    GTGMYSR|YR  0.108    .
+490            262    GMYSRYR|DD  0.073    .
+490            267    YRDDLLR|SG  0.110    .
+490            271    LLRSGDR|LI  0.087    .
+490            278    LISSNGK|PL  0.078    .
+490            298    DLAEMFR|SC  0.119    .
+490            306    CNDNFIR|LC  0.073    .
+490            311    IRLCILR|VM  0.070    .
+490            322    TTQHHTK|IN  0.084    .
+490            326    HTKINSR|EI  0.079    .
+490            331    SREIFLR|PV  0.160    .
+490            345    SNDGVAR|SI  0.150    .
+490            350    ARSIALR|LL  0.100    .
+490            363    VLYPETK|SV  0.092    .
+490            371    VLHAVIR|AL  0.126    .
+490            381    SYIEMER|EA  0.068    .
+490            389    AALFACK|KF  0.059    .
+490            390    ALFACKK|FA  0.132    .
+490            400    VSQDVSR|TV  0.138    .
+490            405    SRTVVPK|LK  0.069    .
+490            407    TVVPKLK|EL  0.072    .
+490            418    SLSTTEK|QK  0.076    .
+490            420    STTEKQK|VK  0.056    .
+490            422    TEKQKVK|IL  0.078    .
+490            428    KILDVLR|SM  0.102    .
+490            441    ETGHLVR|GL  0.083    .
+490            472    HITLATR|VR  0.073    .
+490            474    TLATRVR|EP  0.085    .
+490            480    REPALIR|TL  0.082    .
+490            487    TLSEDPR|ER  0.085    .
+490            489    SEDPRER|VR  0.087    .
+490            491    DPRERVR|SA  0.152    .
+490            499    AAVQCLK|EV  0.074    .
+490            532    VADLILK|LS  0.056    .
+490            539    LSEGSSK|DI  0.066    .
+490            544    SKDIVSR|DL  0.121    .
+490            565    IALPLYR|SS  0.119    .
+490            569    LYRSSVK|LL  0.066    .
+490            586    GCPMLIR|VI  0.093    .
+490            589    MLIRVIR|DG  0.504 *ProP*
+490            593    VIRDGDK|EQ  0.057    .
+490            597    GDKEQVR|KF  0.087    .
+490            598    DKEQVRK|FL  0.097    .
+490            637    YCISALR|AR  0.064    .
+490            639    ISALRAR|VK  0.096    .
+490            641    ALRARVK|LT  0.080    .
+490            661    VDAAFQK|LA  0.073    .
+490            667    KLAEMFR|SC  0.142    .
+490            675    CNDNFIR|LC  0.073    .
+490            680    IRLCILR|VM  0.070    .
+490            691    TTQHHTK|IN  0.084    .
+490            695    HTKINSR|EI  0.079    .
+490            700    SREIFLR|PV  0.160    .
+490            714    SNDGVAR|SI  0.150    .
+490            719    ARSIALR|LL  0.100    .
+490            732    VLYPETK|SV  0.092    .
+490            740    VLHAVIR|AL  0.126    .
+490            750    SYIEMER|EA  0.068    .
+490            758    AALFACK|KF  0.059    .
+490            759    ALFACKK|FA  0.132    .
+490            769    VSQDVSR|TV  0.138    .
+490            774    SRTVVPK|LK  0.068    .
+490            776    TVVPKLK|EL  0.074    .
+490            787    ALSTTEK|QK  0.073    .
+490            789    STTEKQK|VK  0.057    .
+490            791    TEKQKVK|IL  0.078    .
+490            797    KILDVLR|SM  0.102    .
+490            810    ETGHLVR|GL  0.083    .
+490            841    HITLATR|VR  0.073    .
+490            843    TLATRVR|EP  0.085    .
+490            849    REPALIR|TL  0.082    .
+490            856    TLSEDPR|ER  0.085    .
+490            858    SEDPRER|VR  0.087    .
+490            860    DPRERVR|SA  0.152    .
+490            868    AAVQCLK|EV  0.074    .
+490            880    QPALLNK|ED  0.061    .
+490            901    VADLILK|LS  0.056    .
+490            908    LSEGSSK|DI  0.066    .
+490            913    SKDIVSR|DL  0.121    .
+490            938    LYLSSVK|LL  0.059    .
+490            955    GCPMLIR|VI  0.098    .
+490            958    MLIRVIR|DG  0.497    .
+490            962    VIRDGDR|GQ  0.077    .
+490            966    GDRGQVR|KF  0.097    .
+490            967    DRGQVRK|FL  0.129    .
+490           1006    YCISALR|AR  0.063    .
+490           1008    ISALRAR|VK  0.092    .
+490           1010    ALRARVK|LT  0.080    .
+490           1027    TSVGTER|VL  0.075    .
+490           1033    RVLVYVK|LL  0.060    .
+490           1045    FTHSSEK|VR  0.059    .
+490           1047    HSSEKVR|EC  0.105    .
+490           1052    VRECIVR|YV  0.210    .
+490           1073    SVYCVSR|VA  0.118    .
+490           1099    TTHPHYR|AF  0.163    .
+490           1103    HYRAFFR|AL  0.122    .
+490           1121    CQEGSVK|LY  0.070    .
+490           1131    AAVMNIK|CQ  0.057    .
+490           1149    GGLLSLR|RS  0.068    .
+490           1150    GLLSLRR|SQ  0.229    .
+490           1167    GVVAVAK|MR  0.071    .
+490           1169    VAVAKMR|GG  0.099    .
+490           1175    RGGDVSR|AV  0.119    .
+490           1186    LTFIQSR|VS  0.076    .
+490           1195    TLQDGLR|DL  0.093    .
+490           1200    LRDLQSR|MI  0.145    .
+490           1207    MIDASPR|DR  0.111    .
+490           1209    DASPRDR|LS  0.091    .
+490           1226    VSELCTK|PH  0.064    .
+490           1240    TTLASLR|TQ  0.094    .
+490           1243    ASLRTQR|FS  0.261    .
+490           1273    IEQGFMR|IP  0.083    .
+490           1289    TVEAVIR|GN  0.085    .
+490           1294    IRGNVSR|VS  0.117    .
+490           1305    LLCVTCK|GG  0.069    .
+490           1308    VTCKGGR|WK  0.080    .
+490           1310    CKGGRWK|KG  0.077    .
+490           1311    KGGRWKK|GE  0.334    .
+490           1324    GETVFEK|EV  0.072    .
+490           1330    KEVPVER|GY  0.141    .
+490           1334    VERGYMK|VE  0.076    .
+490           1369    LPISCPK|SG  0.084    .
+490           1378    FWTQITR|PS  0.078    .
+490           1385    PSFIPER|II  0.079    .
+490           1392    IILNFIR|RC  0.073    .
+490           1393    ILNFIRR|CY  0.144    .
+490           1396    FIRRCYR|EC  0.170    .
+490           1401    YRECIVR|YV  0.169    .
+490           1422    SVYCVSR|VA  0.118    .
+490           1448    TTHPHYR|AF  0.140    .
+490           1452    HYRAFFR|AL  0.110    .
+490           1470    CQEGSVK|LY  0.070    .
+490           1480    AAVMNIK|CQ  0.057    .
+490           1498    GGLLSLR|RS  0.068    .
+490           1499    GLLSLRR|SQ  0.229    .
+490           1516    GVVAVAK|MR  0.071    .
+490           1518    VAVAKMR|GG  0.099    .
+490           1524    RGGDVSR|AV  0.108    .
+490           1535    LSFIQSR|VS  0.082    .
+490           1544    TLQDGLR|DL  0.093    .
+490           1549    LRDLQSR|MI  0.145    .
+490           1556    MIDASPR|DR  0.111    .
+490           1558    DASPRDR|LS  0.091    .
+490           1575    VSELCTK|PH  0.059    .
+490           1589    PPLATLR|TQ  0.092    .
+490           1592    ATLRTQR|FS  0.251    .
+490           1622    IEQGFMR|IP  0.083    .
+490           1638    TVEAVIR|GN  0.077    .
+490           1643    IRGNVSR|RI  0.125    .
+490           1644    RGNVSRR|IK  0.159    .
+490           1646    NVSRRIK|YE  0.123    .
+____________________________^_________________
+
+
+
+

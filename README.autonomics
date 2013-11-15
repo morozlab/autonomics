@@ -6,17 +6,52 @@ THE INSTALLATION
 ----------------
 
 The pipeline is intended to be run on a linux computer with multiple
-nodes (the local computer).  In addition, a HPC cluster (referred to
+nodes (the local computer).  In addition, an HPC cluster (referred to
 as the HPC or remote computer) is required to run blast, bowtie and
-hmmer. The pipeline code, including the mysql database, the
+hmmer. 
+
+The pipeline code itself, including the mysql database, the
 preassembly aps (adapter_trim, quality_trim (cutadapt), khmer (read
-normalization), the assemblers (Trinity & mira), and the code to
-create the GO & KEGG results run on the local machine.  The assemblers
-use multiple nodes; the other aps use a single cpu.  The default
-arguments to the various aps are given in the mysql table:
-default_args.  For nondefault cases the args are inserted into the
-args table (see how to manually insert a project into the pipeline,
-below).
+normalization), the assemblers (Trinity & mira; mira is optional), and
+the code that creates the GO & KEGG results are all run on the local
+machine.  The assemblers use multiple nodes; the other local jobs use
+a single cpu.
+
+The default arguments to the jobs (blast, hmmer, bowtie, trinity, etc)
+are given in the mysql table: default_args.  If you log in to your
+mysql database after it is set up and execute "select * from
+default_args;" you will see what those default args are. For
+nondefault cases the args are inserted into the args table (see how to
+manually insert a project into the pipeline, below).
+
+All the perl scripts, i.e. those ending in .pl, in the autonomics/bin
+and the autonomics/scripts dirs assume that the perl interpreter is at
+/usr/bin/perl  If this is not the case, edit each of the .pl files in
+and enter the correct path at the beginning of each file.
+ That is, change the first line of each file from "#!/usr/bin/perl -w"
+to the correct path.  This line must start with "#!" and must have no
+spaces before it an be the very first line in the file.
+
+A redis keystore is used to speed up the annotation of Gene Ontology
+and Kyoto Encyclopedia of Genes and Genomes terms.  First, download
+and install the redis distribution from http://redis.io/ Then follow
+the instructions to install the redis-server as given in the
+distribution README.  This will create the server:
+/usr/local/bin/redis-server.  Now, be sure /usr/local/bin is in your
+path. Next start the redis server: in the redis distributon dir
+execute "redis-server ./redis.conf".  This start the server in the
+background.  Run the ps command and you should see the redis-server
+running.
+
+Next, download dump.rdb from the autonomics dir on our public ftp
+site: 128.227.123.35, with the following credentials: 
+username  =  moroz-guest password  =  moroz-guest  
+and Put the dump.rdb file in your redis distribution
+dir.  Next stop the redis-server (kill -9 ...).  Do a ps to be sure it
+has stopped.  Now restart the redis-server exactly as you before and
+it will automatically read in the dump file and populate the key store
+with the necessary annotation mappings.  This may take awhile as the
+dump file is large ... be patient.
 
 To start, edit the settings.py file in the autonomics directory and
 enter data appropriate for your situation.  The settings file is
@@ -32,6 +67,25 @@ of your projects are, i.e. number of contigs in the assembled data
 fasta file.  While setting wall time very high is safe, this may incur
 a penalty in setting the priority of your jobs in the submission
 queue.
+
+Add the following to your environment variable PYTHONPATH:
+<path.to.autonomics>:<path.to.autonomics>/autonomics
+and to your CLASSPATH variable:
+<path.to.autonomics>/autonomics/java/bin:<path.to.autonomics>/autonomics/java/mysql-connector-java-5.0.8-bin.jar
+and add to your PATH variable:
+<path.to.autonomics>autonomics./bin 
+in your .bashrc or .cshrc file and then 'source' that file.  
+
+If any of these variables do not exist in your .cshrc or bashrc filem
+then create them there.
+
+For example: 
+PYTHONPATH=/home/morozgroup/autonomics:/home/morozgroup
+CLASSPATH=/home/morozgroup/autonomics/java/bin:/home/morozgroup/autonomics/java/mysql-connector-java-5.0.8-bin.jar
+PATH=//home/morozgroup/autonomics/bin: .....
+
+Add the environment variable: AUTONOMICS_PATH and set it to: <path.to.autonomics>/autonomics
+For example:  AUTONOMICS_PATH=/home/morozgroup/autonomics
 
 Set up the mySQL database for the autonomics pipeline.  Here is how we did it:
 (assumes ZC_DB_NAME = "zero_click" in settings.py; if not, change below to
@@ -54,15 +108,6 @@ initialize the tables. Here is what I did, right after the above commands.
 In the autonomics directory:
 mysql -u root -p zero_click < autonomics/data/autonomics.sql.tables
 mysql -u root -p zero_click < autonomics/data/autonomics.data.for.sql.tables
-
-A redis keystore is used to speed up the annotation of Gene Ontology
-and Kyoto Encyclopedia of Genes and Genomes terms.  First, download
-and install the redis keystore from http://redis.io/ Then download
-dump.rdb from our public ftp site.  Stop your redis keystore if it is
-running, transfer the dump file to your redis directory, and restart
-the redis server. The server should read in the dump file and populate
-the key store with the necessary annotation mappings.  An example of
-this procedure can be found at: http://goo.gl/Db68H (stackoverflow)
 
 The code in autonomics/jobs.py creates qsub files that control jobs on
 the remote hpc cluster.  Our cluster uses the moab control system and
@@ -130,49 +175,70 @@ project names.
 HOW TO MANUALLY INSERT A PROJECT INTO THE PIPELINE
 ----------------------------------------------------
 
-For the reasons given above in the data gremlin section, we manually
-insert projects into the pipeline.  To do that we first create a
-directory with the name of the project <project> in the pipeline
-directory, and then copy the reads into that directory, naming them
-<project>.fastq or in the case of paired end reads, <project>.fastq
-and <project>.fastq.end2.  This naming convention must be strictly
-followed.  The assembled data needs to be named
-<project>_project.fasta.  The pipeline code will automatically name
-the assembled data that way.  If you wish to annotate already
-assembled data, e.g. gene models, you must be sure to name them is
-this way.  The pipeline directory must look like this:
+For the reasons given above, we manually insert projects into the
+pipeline rather than using the data_gremlin.  
 
-<projectA>/<projectA>.fastq
-<projectB>/<projectB>.fastq
+To start a job manually, first create a directory whose name is the
+name of the project <project> in the pipeline directory (the dir you
+specified as the "proj_dir" in the settings.py file), and then copy
+the reads into that directory, naming them <project>.fastq or in the
+case of paired end reads, <project>.fastq and <project>.fastq.end2.
+
+This naming convention MUST be strictly and exactly followed.  The
+pipeline will automatically name the assembled data
+<project>_project.fasta.  If you wish to annotate already assembled
+data, e.g. gene models, you MUST to name the already assembled data
+whether NT or AA as <project>_project.fasta this way.  The pipeline
+directory must look like this:
+
+<projectA>/<projectA>.fastq  (ordinary reads)
+
+<projectB>/<projectB>.fastq  (paired end reads)
 <projectB>/<projectB>.fastq.end2
-<projectG>/<projectG>_project.fasta
+
+<projectG>/<projectG>_project.fasta (already assembled data or gene models)
 
 Where <projectA> might be Aplysia_californica_gastrulation for example.
-The use of fairly short and meaningful names in essential.
+The use of fairly short but meaningful names is important.
 
-To manually initiate the assembly/annotation of a project, after
-copying the reads to the pipeline directory as described above. Use
-the ap: annotate.proj.pl:
-usage: -proj :project_name (REQUIRED)
+Once the data to be assembled/annotated is in the pipeline dir as
+described above, to manually initiate the assembly/annotation of a
+project, call annotate.proj.pl (in the autonomics/bin dir)
+annotate.proj.pl
+usage: -proj :project_name_with_path (REQUIRED)
        -mira   (OPTIONAL, default is Trinity)
        -paired_end   (OPTIONAL, default is non-paired end)
        -noass   (OPTIONAL, use when the assembly step is to be omitted)
        -data   (OPTIONAL [ NT | AA ] - REQUIRED if -noass used)
 The -noass case can be used for annotating gene models.
 
+You may not submit a project more than once with the same name.  If you
+do need to annotate a project for a second time, then change its name
+AND the name(s) or the reads or _project.fasta file.
+
 To sepcify even finer control of the args and aps used during the
 annotation/assembly process the ap systemtools.py can be used instead
 of annotate.proj.pl.  The interface to systemtools.py is complex; see
-python systemtools.py --help systemtools.py is in the
-autonomics/scripts directory.  99% of the time we use the simple
+python systemtools.py --help (systemtools.py is in the
+autonomics/scripts directory).  99% of the time we use the simple
 annotate.proj.pl to initiate jobs; when you execute it, you will see
-how it in turn involves systemtools.py
+how it in turn involves systemtools.py, for example:
 
-When a project is started with annotate.proj.pl or systemtools.py, what
-happens is the data for the project is entered into the mySQL database.
-The manager and dispatcher processes described above then check the
-data once a minute and any new jobs found there are started if their
-dependencies are staisfied.
+% annotate.proj.pl -proj /data/pipeline/aplysia.brain.rear
+python /home/morozgroup/autonomics/scripts/systemtools.py --add-project --assign-workflow --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+  --project-names aplysia.brain.rear
+job submitted successfully
+
+It is essential that the submission ends with: job submitted successfully.
+
+When a project is started with annotate.proj.pl (or systemtools.py), the
+data for the project is entered into the mySQL database in the
+pn_mapping and jn_mapping tables.  The manager and dispatcher
+processes described above then check the database and progress of the
+various running jobs once a minute.  Any jobs found found are queued
+for starting if their dependencies are satisfied.  The number of jobs
+of each job type is limited, e.g. only two blast NR jobs can run at
+once to avoid overloading the HPC cluster queue (this limit can be
+changed in the settings.py file.)
 
 The dependencies are given in the dependency table:
 mysql> select * from dependency;
@@ -212,12 +278,50 @@ mysql> select * from default_configuration;
 | read_normalization | +    |
 +--------------------+------+
 
+-----------------------------------
+CHECKING STATUS OF JOBS IN PIPELINE
+-----------------------------------
+
+The script autonomics/bin/pipe_status allows you to see the status of
+jobs in the autonomics pipeline.
+
+% ./bin/pipe_status 
+
+Usage: ./bin/pipe_status <cmd pa | pn | pname | pid | jobs | q | run |nf | nfns | snf >  <arg1 optional>
+       pipe_status pa: prints <project_id> <project_name> for all projects in database, finished and unfinished, sorted alphabetically
+       pipe_status pn: prints <project_id> <project_name> for all projects in database, finished and unfinished, sorted by project_id
+       pipe_status pname <proj_id>: prints <project_name for that <project_id>
+       pipe_status pid <proj_name>: prints <project_id for that <project_name>
+       pipe_status jobs <proj_id>: prints status of all jobs for that <project_id>
+       pipe_status q : prints jobs in queue
+       pipe_status run : prints all jobs that are currently running
+       pipe_status nf : prints all jobs that are not finished
+       pipe_status snf : prints all jobs that are started but not finished
+       pipe_status nfns : prints all jobs that are not finished and not yet started
+For example:
+% pipe_status pid Strombus_gigas_CNS_mix_trans
+project_id			       project_name
+312				       Strombus_gigas_CNS_mix_trans
+
+% pipe_status jobs 312
+job_id project_id  job_type	job_name	                        q_ts	         started    s_ts	  finished  f_ts         queued
+242     312     adapter_trim  Strombus_gigas_CNS_mix_trans_adapter_trim	2013-04-18 01:03:02  Y    2013-04-18 01:04:23 Y 2013-04-18 01:04:24 Y
+244	312     assemble      Strombus_gigas_CNS_mix_trans_assemble	2013-04-18 01:03:02  Y    2013-04-18 08:19:48 Y 2013-04-18 13:35:45 Y
+..
+..
+
+% pipe_status nf
+job_id	project_id  job_type	job_name	         q_ts	                     started	s_ts	      finished	f_ts           queued
+2178	   549      blast_nr	PAIRED5_blast_nr	2013-11-11 03:00:24		Y    2013-11-11 10:05:52 N    0000-00-00 00:00:00 Y
+
+These are all just shortcuts to accessing the mysql database. If you
+know how to use myql, then you may do that instead.
 
 -----------
 THE RESULTS
 -----------
 
-The pipeline puts the assembled data and annotations in the <project> directory
+The autonomics pipeline puts the assembled data and annotations in the <project> directory
 For example here is the data from a completed project:
 % ls -1 Helix_lucorum_Control/
 Helix_lucorum_Control.fastq          (the original reads)
@@ -238,6 +342,26 @@ sequences placed into that category.
 The above files are the input to the neurobase comparative browser,
 described in the paper YYYYYY.
 
+I recommend checking the results when all jobs for a project are completed.
+Use the script autonomics/bin/check_results
+
+% check_results Helix_lucorum_Space
+Helix_lucorum_Space
+NUM_FA_SEQS	7454
+NR: SEQS_TRIED	7454	SEQS_W_HITS	881 (11%)	SEQS_WO_HITS	6573 (88%)
+SP: SEQS_TRIED	7454	SEQS_W_HITS	415 (5%)	SEQS_WO_HITS	7039 (94%)
+GO: 6603
+gocats: 1926
+KEGG: 405
+pfam: 4734
+quantification: 6916
+
+The first three numbers should always be equal, i.e. 7454 in this
+case, if the two blasts are correct.  If either NR or SP are less than
+the total number of sequences in the XXX_project.fasta file then that
+blast job is incomplete and you need to deal with it as described in
+the next section.
+
 --------------------------------
 DEALING WITH PROBLEMS ON CLUSTER
 --------------------------------
@@ -257,35 +381,43 @@ these sub-jobs are also referred to as jobs.
 The procedure described below assumes some computational
 sophistication on the part of the user.  If this is not the case, the
 easiest, but not the fastest solution, is to just resubmit the entire
-blast or pfam job.  You can do this by executing stop_proj.py <project_name>,
-then restart.py <project_name> <job_type>.
+blast or pfam job.  You can do this by executing:
+ stop_job.py <project_name> <job_type>  and then:
+restart_job <project_name> <job_type>. In addition there is a script:
+stop_project.  
 
-When gettin started you may need to experiment with a few runs to see
+When getting started you may need to experiment with a few runs to see
 how much wall time to give your jobs on the cluster as cluster vary in
 performance.  You modify the wall time in settings.py After modifying
 the settings file, you will need to stop the pipeline by killing all
-processes running the dispatcher and the manager (use the ps command
-and the kill -9 command).  Then restart the pipeline using start.auto.
-You may need to restart any jobs (using restart.py) that were running
-prior to this.
+processes running the dispatcher and the manager, there may be more
+than one of each; (use the ps command and the kill -9 command).  Then
+restart the pipeline using start.auto.  You may need to restart any
+jobs (using restart.py) that were running prior to this.
 
-If a problem with a job is encountered the cluster should send an
-email to the address specified in the settings.py file; otherwise if a
-problem is suspected, log in to the cluster and run the qstat command
-to see the status of all your jobs.  You can also go to the remote_dir
-specified in the setting.py file and then to the dir with your run
-data, e.g. Capitella_proteins_blast_nr20131028171733/.  A done flag
-will be set for each job that has completed,
+If a problem with a job is encountered, the qsub script requires the
+cluster to send an email to the address specified in the settings.py
+file.  But clusters are not perfect and sometimes, if a problem is
+suspected, log in to the cluster and run the qstat command to see the
+status of all your jobs.  
+
+You can also go to the remote_dir specified in the setting.py file and
+then to the dir with your run data,
+e.g. Capitella_proteins_blast_nr20131028171733/.  A done flag will be
+set for each job that has completed,
 e.g. done.Capitella_proteins_blast_nr21. If you count these, for
-example, for blast_nr jobs there should be 100 if all jobs completed.
+example for blast_nr jobs there should be 100 dones, if all jobs
+completed.
+
 If a job is missing, see it it is still running using qstat, if not,
 look in its stderr file to see what the problem is.  If necessary you
-can rerun any failed job by executing, e.g. qsub
-Capitella_proteins_blast_nrXX.qsub where XX is the job number that
-failed.  For successfully completed jobs, all jobs except the last job,
-job 100 in the blast nr case, will have the ap countblast.pl to verify this.
+can rerun any failed job by executing, e.g. 
+"qsub Capitella_proteins_blast_nrXX.qsub" where XX is the job number that
+failed.  For successfully completed jobs, all jobs except the last
+job, job 100 in the blast nr case, will have the same number of seqs blasted.
+Use autonomics/bin/countblasts to verify this:
 
-gator1.ufhpc{plw1080}27: countblast.pl Capitella_proteins_blast_nr 1 100 nr
+gator1.ufhpc{plw1080}27: countblasts Capitella_proteins_blast_nr 1 100 nr
 Capitella_proteins_blast_nr1_blast_nr.txt	325
 Capitella_proteins_blast_nr2_blast_nr.txt	325
 Capitella_proteins_blast_nr3_blast_nr.txt	325
@@ -295,11 +427,12 @@ Capitella_proteins_blast_nr6_blast_nr.txt	325
 Capitella_proteins_blast_nr7_blast_nr.txt	325
 ..
 
-In the rare case of a failed job on the cluster, after repairing it, you can
-merge the blast outputs, Capitella_proteins_blast_nr6_blast_nr.txt for example
-using the ap catall.blasts.pl, for example the command Capitella_proteins NR 100
-will create one file, Capitella_proteins_blast_nr.txt with the merged results.
-The scp that file to your project directory on your local machine.
+In the rare case of a failed job on the cluster, after running it to a
+completed state, you can merge all the blast outputs, using the
+catall_blasts, for example the command "catall_blasts Capitella_proteins NR 100"
+will create one file, Capitella_proteins_blast_nr.txt with the merged
+results.  You can then scp that file to your project directory on your local
+machine.
 
 If the problem encountered was that some jobs did not have enough wall
 time, then edit the relevant qsub files and increase the wall time and
@@ -307,4 +440,45 @@ qsub them again.  If all the qsub files need an increase, use sed and
 a command something like this: sed -i 's/old-wallTime/new-wallTime/g' *.qsub
 This may be an indication that you need to increase the wall time in the
 settings.py file - see above in the section The Installation.
+
+----------------------------------------
+DE-NOVO PREDICTION OF SECRETORY PEPTIDES
+----------------------------------------
+
+As part of this autonomics distribution, in the directory
+autonomics/prediction, is code for de-novo prediction of secretory
+peptides from proteomic data, translated transcriptome data, or
+translated gene models.  The prediction combines multiple distinct
+heuristic tools.
+
+It is optimized for a first pass over high-throughput de-novo
+data of non-standard model organisms, identifying a likely set of
+secreted products.  The prediction is based on a variety of universal
+protein motifs including the presence or absence of N-terminal signal
+peptides, trans-membrane domains, and other sublocalization
+motifs. 
+
+Sensitivity for all parameters may be controlled with minimal
+modification to accommodate different dataset sizes, model organisms
+or sequencing technologies.
+
+Put the input file with the proteins you want a predication for in the
+pipeline dir (proj_dir) and give it the name <proj_name>_proteins.fasta
+
+Then start the prediction process by invoking:
+python autonomics/prediction/predicts.py <proj_name>
+
+The final output will be found in the file  <proj_name>_peptide_prediction
+in the <proj_name> directory.
+
+The output, a line of which looks like this:
+"jgi|Lotgi1|54396|gw1.1.87.1:0.099,0,0,0,-" is interpreted as follows.
+
+The first item in the comma separated output file is the sequence
+name, then next is the signalp4 confidence score between 0 and 1, then
+tmhmm's prediction of transmembrane domain or not (0 or 1), then
+phobius's transmembrane domain prediction (0 or 1), then phobius's
+signal peptide prediction (0 or 1) and finally a '+' or '-' if the
+combined score given by the pipeline suggests a secreted product or
+not.
 

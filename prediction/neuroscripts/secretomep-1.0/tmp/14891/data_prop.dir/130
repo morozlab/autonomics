@@ -1,0 +1,450 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2949 130         
+MDRIERRVKQKQKRMPSATADGGQAKKRKKKVIAGTPYPPDPTGRGSGPLLTTPEPPPGDHKKDILVSVGSSPPVLTKAP      80
+NVPPSYEMGYPGGGGAPQTTAGIPPVLQRMPVMSPAKNNPYPVLLSPSKSSQARQRSSEEQQHHQQQLHWPPHSSSTSSW     160
+QDHHHHHSKSGEDQKQSEPDPTIGYLSTFLNKPQPGKGPGKSMGGPKGPGKGRSKMSDDGNRVEVTKNVKIESIPTPTSD     240
+QHKESVSGGKPTIQILTQPPPSKRHPTPSSSDPLQQLPAPHIMREITRQHELMQQQMQSLSRDQHVTSRDQMTSRDQMDH     320
+DVIQQQLSAAARTPTICVKGISSSKSSSKQQTPSPAAPGNHGNQGGYPPYSASTAADFQMANLYTQQVLQQMALFQHHRV     400
+AASQQQQAGSKGGGKEGKMMDIGGLLIHQKDKSERERFLMDQRQRQSSIEQDKDRYRMSPATAGSGQQLARQRSSEEQQH     480
+HQQQLHWPPHSSSTSSWQDHHHHHSKSGEDQKQSEPDPTIGYLSTFLNKPQPGKGPGKSMGGPKGPGKGRSKMSDDGNRV     560
+EVTKNVKIESIPTPTSDQHKESVSGGKPTIQILTQPPPSKRHPTPSSSDPLQQLPAPHIMREITRQHELMQQQMQSLSRD     640
+QQHVTSRDQMTSRDQMDHDVIQQQLSAAARTPTICVKGISSSKSSSKQQTPSPAAPGNHGNQGGYPPYSASTAADFQMAN     720
+LYTQQVLQQMALFQHHRVAASQQQQVGSKGAGKDAKMMDIGGLLIHQKDKSERERFLMDQRQRQSSIEQDKDRYRMSPAT     800
+AGSGQQLVLGKFPPFDQFPSPMSLGNPAASSQTSRGGGGPRQETKKPPKPVSYSTSSKSYSGYPGGGGGGNGGGKSRKGA     880
+PEDVFRFPDDDEERGRREVAPPKSRGGGGGGGGGAAGVGVGVMVDQIEHDGRGGVGGVVVGGGSYQQRQLHQKLLHEKQM     960
+MELRAQRDKRVEEDIRKFNEEFCKNITSFSAEKMHHGGGGGGQEKMLDSRNIGPQLTITTPHLTLPVSSSAASLLPSSTA    1040
+HFLIAPQVSQIVEAEERRGGGGSGTSGKRKLAGQDHINSLLKSALSLLQKTLKIRPKTRLVNPSYPPHIWHQQSMDPRFV    1120
+EKNLVPVDLMTVKKKLEFGEYPTFEAFYSEVTHFQKNYSEVYPAEHQLRQEIDEIMVVFLRELKTIYSYQQRQLHQKLLH    1200
+EKQMMELRAQRDKRVEEDIRKFNEEFCKNITSFSAEKMHHGGGGGGQEKMLDSRNIGPQLTITTPHLTLPVSSSAASLLP    1280
+SSTAHFLIAPQVSQIVEAEERRGGGGSGTSGKRKLAGQDHINSLLKSALSLLQKTLKIRPKTRLVNPSYPPHIWHQQSMD    1360
+PRFVEKNLVPVDLMTVKKKLEFGEYPTFEAFYSEVTHFQKNYSEVYPAEHQLRQEIDEIMVFDPMEKKVKAAKRTIGKHL    1440
+KAEEYKDVVEFCQGLISDGEVILDDVIYVYMGYSQKKIEDNEGAAVSYQAALGLNQNNPNALRGLAEVLVERDSVDEVAA    1520
+RTFEQLLKLDANIKNNNRYREMLVKWYMRQKPMDINKCKEHMGFLSEIHQKELARRHSTLRHQKSFSLDRAEFLQPYVSS    1600
+LDTDSKIEFFYMKAKLLDEEGRDPSPLVLQQLLPLALGIPFPRPISPPGPISPPGPISPPGAIPPAGDISPGPIPPSDDI    1680
+PFALESSETVVALLLELESLETVVALLLELESSETVVALLLELESSETVVALLLELESSETVVALLLELESSETVVALLL    1760
+ELESSETVVALLLELESSETVVALLLELDSSETVVALMFELESSETVVALLLELESSETVVALLLELESSETVVALLLEL    1840
+EVGKYNFDTEKSDSLEAKSWGSGTTPNSDSGMAVLPDTPAYHPSLVLEVLLLGLWGECMEWSGAPAFNIPYVSRARSGEK    1920
+TLETLISIKDKLERDTCPAKTTTNMLTLPPRDVLSSLGVCASVNCERFCVVHRNTDHLFLGMLASAQLREDVEDIGIGIR    2000
+SLSGVLQSKPTFHNTSLLRLLRRFERYYQYTFSCMMTSLPVTSPDDVVLHVEEEEDRVLTAWRYLVERNEEIITNEEPGA    2080
+LMEVVRQYIISLSPEGRHVNVELLLQTHAQDPSDLLIASLTCQVLHKLVDQGEYDAVKYGEFLERCQGDDPRNPLLNELL    2160
+GEYFRINRRPVEDVVRCFTQAVKFSPNPSGILVKLESLNRDMMCVRDALVDTLLQLIKVERNHKYYIKLALLSGEEMTTR    2240
+SSSLNPERLLKRASDICKSEGAVLAAVGAYKVALSRAPEGGELVVDLARAYLHLPAETYTLHALTLAKRSVGLRPRDPLA    2320
+WNCLGCAAVQGGHYKLAQHAFIQSIELDSNAQAWTNMGLLYLRVKENTLANQCFTLAQSKDPNYTPAWLGQHLVSGQLGW    2400
+LDESDRILSDIVRERSREPTVEGTLSYTVRVLSSCGDGGAPDSELLHELLTLSTRASLLDHPARWQVHNVCGVISEKLGL    2480
+LSTSRGHYNTALQLQLGKSGGNQGNRDVNQGDQDGNQGNKELQNSIDRVTCKMGQYREIPHTKLTVWSALARMKSGEYGA    2560
+ASAILDTMVGEDVAVFQAVLAWLSCDQGAVKSFLTNVTSSAGKLLKALLLHPAEELDEDVMSCEGGGGECLRCLKGGYDY    2640
+NPPKCAPHALYTRANESERGRERERERERERERERERDSFNTPTKDRMLPRVSLSLSLSHSLSHSLSLSFSFSLSLSSVK    2720
+LGVPYTMLGGGGLHASSFPLSLSLSLSLSLSLSLTLSLTHSHYLHANITRRVIAGVCLFSRSSFPLSLSLSLSLSLSLSL    2800
+TLSLTHSHYLHANITRRVIAGVCLFSSRRERKGTIVRNADRCKVHSPLITLPLVHNCGGRERVERERDRERQRDRVLRVR    2880
+DAQRKHSGMILVIYCLVRPSFPAPRSFVQSRGRERSRSIYDRDMRERERERERERERERERGRERERER               2960
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+.........P......................................................................    1040
+................................................................................    1120
+................................................................................    1200
+.............P..................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+.....................................................................               2960
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+130              3    ----MDR|IE  0.075    .
+130              6    -MDRIER|RV  0.342    .
+130              7    MDRIERR|VK  0.173    .
+130              9    RIERRVK|QK  0.128    .
+130             11    ERRVKQK|QK  0.074    .
+130             13    RVKQKQK|RM  0.062    .
+130             14    VKQKQKR|MP  0.264    .
+130             26    ADGGQAK|KR  0.069    .
+130             27    DGGQAKK|RK  0.091    .
+130             28    GGQAKKR|KK  0.244    .
+130             29    GQAKKRK|KK  0.105    .
+130             30    QAKKRKK|KV  0.202    .
+130             31    AKKRKKK|VI  0.345    .
+130             45    PPDPTGR|GS  0.167    .
+130             62    PPPGDHK|KD  0.057    .
+130             63    PPGDHKK|DI  0.216    .
+130             78    SPPVLTK|AP  0.061    .
+130            109    IPPVLQR|MP  0.080    .
+130            117    PVMSPAK|NN  0.055    .
+130            129    VLLSPSK|SS  0.071    .
+130            134    SKSSQAR|QR  0.195    .
+130            136    SSQARQR|SS  0.328    .
+130            169    HHHHHSK|SG  0.135    .
+130            175    KSGEDQK|QS  0.071    .
+130            192    LSTFLNK|PQ  0.062    .
+130            197    NKPQPGK|GP  0.079    .
+130            201    PGKGPGK|SM  0.083    .
+130            207    KSMGGPK|GP  0.092    .
+130            211    GPKGPGK|GR  0.074    .
+130            213    KGPGKGR|SK  0.114    .
+130            215    PGKGRSK|MS  0.076    .
+130            222    MSDDGNR|VE  0.067    .
+130            227    NRVEVTK|NV  0.075    .
+130            230    EVTKNVK|IE  0.056    .
+130            243    PTSDQHK|ES  0.071    .
+130            250    ESVSGGK|PT  0.085    .
+130            263    TQPPPSK|RH  0.054    .
+130            264    QPPPSKR|HP  0.191    .
+130            284    PAPHIMR|EI  0.097    .
+130            288    IMREITR|QH  0.112    .
+130            302    QMQSLSR|DQ  0.091    .
+130            309    DQHVTSR|DQ  0.147    .
+130            315    RDQMTSR|DQ  0.120    .
+130            332    QLSAAAR|TP  0.108    .
+130            339    TPTICVK|GI  0.083    .
+130            345    KGISSSK|SS  0.100    .
+130            349    SSKSSSK|QQ  0.073    .
+130            399    ALFQHHR|VA  0.108    .
+130            411    QQQAGSK|GG  0.085    .
+130            415    GSKGGGK|EG  0.058    .
+130            418    GGGKEGK|MM  0.084    .
+130            430    GLLIHQK|DK  0.088    .
+130            432    LIHQKDK|SE  0.083    .
+130            435    QKDKSER|ER  0.076    .
+130            437    DKSERER|FL  0.175    .
+130            443    RFLMDQR|QR  0.072    .
+130            445    LMDQRQR|QS  0.096    .
+130            453    SSIEQDK|DR  0.071    .
+130            455    IEQDKDR|YR  0.092    .
+130            457    QDKDRYR|MS  0.090    .
+130            471    SGQQLAR|QR  0.139    .
+130            473    QQLARQR|SS  0.184    .
+130            506    HHHHHSK|SG  0.135    .
+130            512    KSGEDQK|QS  0.071    .
+130            529    LSTFLNK|PQ  0.062    .
+130            534    NKPQPGK|GP  0.079    .
+130            538    PGKGPGK|SM  0.083    .
+130            544    KSMGGPK|GP  0.092    .
+130            548    GPKGPGK|GR  0.074    .
+130            550    KGPGKGR|SK  0.114    .
+130            552    PGKGRSK|MS  0.076    .
+130            559    MSDDGNR|VE  0.067    .
+130            564    NRVEVTK|NV  0.075    .
+130            567    EVTKNVK|IE  0.056    .
+130            580    PTSDQHK|ES  0.071    .
+130            587    ESVSGGK|PT  0.085    .
+130            600    TQPPPSK|RH  0.054    .
+130            601    QPPPSKR|HP  0.191    .
+130            621    PAPHIMR|EI  0.097    .
+130            625    IMREITR|QH  0.112    .
+130            639    QMQSLSR|DQ  0.095    .
+130            647    QQHVTSR|DQ  0.170    .
+130            653    RDQMTSR|DQ  0.120    .
+130            670    QLSAAAR|TP  0.108    .
+130            677    TPTICVK|GI  0.083    .
+130            683    KGISSSK|SS  0.100    .
+130            687    SSKSSSK|QQ  0.073    .
+130            737    ALFQHHR|VA  0.110    .
+130            749    QQQVGSK|GA  0.091    .
+130            753    GSKGAGK|DA  0.083    .
+130            756    GAGKDAK|MM  0.090    .
+130            768    GLLIHQK|DK  0.088    .
+130            770    LIHQKDK|SE  0.083    .
+130            773    QKDKSER|ER  0.076    .
+130            775    DKSERER|FL  0.175    .
+130            781    RFLMDQR|QR  0.072    .
+130            783    LMDQRQR|QS  0.096    .
+130            791    SSIEQDK|DR  0.071    .
+130            793    IEQDKDR|YR  0.092    .
+130            795    QDKDRYR|MS  0.090    .
+130            811    QQLVLGK|FP  0.058    .
+130            835    ASSQTSR|GG  0.136    .
+130            841    RGGGGPR|QE  0.089    .
+130            845    GPRQETK|KP  0.062    .
+130            846    PRQETKK|PP  0.103    .
+130            849    ETKKPPK|PV  0.093    .
+130            858    SYSTSSK|SY  0.126    .
+130            875    GGNGGGK|SR  0.080    .
+130            877    NGGGKSR|KG  0.080    .
+130            878    GGGKSRK|GA  0.111    .
+130            886    APEDVFR|FP  0.116    .
+130            894    PDDDEER|GR  0.080    .
+130            896    DDEERGR|RE  0.069    .
+130            897    DEERGRR|EV  0.349    .
+130            903    REVAPPK|SR  0.104    .
+130            905    VAPPKSR|GG  0.128    .
+130            932    QIEHDGR|GG  0.096    .
+130            948    GGSYQQR|QL  0.206    .
+130            953    QRQLHQK|LL  0.092    .
+130            958    QKLLHEK|QM  0.063    .
+130            964    KQMMELR|AQ  0.101    .
+130            967    MELRAQR|DK  0.297    .
+130            969    LRAQRDK|RV  0.092    .
+130            970    RAQRDKR|VE  0.645 *ProP*
+130            976    RVEEDIR|KF  0.072    .
+130            977    VEEDIRK|FN  0.077    .
+130            984    FNEEFCK|NI  0.061    .
+130            993    TSFSAEK|MH  0.073    .
+130           1005    GGGGQEK|ML  0.066    .
+130           1010    EKMLDSR|NI  0.131    .
+130           1057    IVEAEER|RG  0.086    .
+130           1058    VEAEERR|GG  0.212    .
+130           1068    GSGTSGK|RK  0.080    .
+130           1069    SGTSGKR|KL  0.134    .
+130           1070    GTSGKRK|LA  0.158    .
+130           1082    HINSLLK|SA  0.080    .
+130           1090    ALSLLQK|TL  0.063    .
+130           1093    LLQKTLK|IR  0.058    .
+130           1095    QKTLKIR|PK  0.082    .
+130           1097    TLKIRPK|TR  0.061    .
+130           1099    KIRPKTR|LV  0.165    .
+130           1118    QQSMDPR|FV  0.276    .
+130           1122    DPRFVEK|NL  0.074    .
+130           1133    VDLMTVK|KK  0.055    .
+130           1134    DLMTVKK|KL  0.126    .
+130           1135    LMTVKKK|LE  0.119    .
+130           1156    EVTHFQK|NY  0.069    .
+130           1169    PAEHQLR|QE  0.113    .
+130           1181    IMVVFLR|EL  0.085    .
+130           1184    VFLRELK|TI  0.083    .
+130           1192    IYSYQQR|QL  0.160    .
+130           1197    QRQLHQK|LL  0.092    .
+130           1202    QKLLHEK|QM  0.063    .
+130           1208    KQMMELR|AQ  0.101    .
+130           1211    MELRAQR|DK  0.297    .
+130           1213    LRAQRDK|RV  0.092    .
+130           1214    RAQRDKR|VE  0.645 *ProP*
+130           1220    RVEEDIR|KF  0.072    .
+130           1221    VEEDIRK|FN  0.077    .
+130           1228    FNEEFCK|NI  0.061    .
+130           1237    TSFSAEK|MH  0.073    .
+130           1249    GGGGQEK|ML  0.066    .
+130           1254    EKMLDSR|NI  0.131    .
+130           1301    IVEAEER|RG  0.086    .
+130           1302    VEAEERR|GG  0.212    .
+130           1312    GSGTSGK|RK  0.080    .
+130           1313    SGTSGKR|KL  0.134    .
+130           1314    GTSGKRK|LA  0.158    .
+130           1326    HINSLLK|SA  0.080    .
+130           1334    ALSLLQK|TL  0.063    .
+130           1337    LLQKTLK|IR  0.058    .
+130           1339    QKTLKIR|PK  0.082    .
+130           1341    TLKIRPK|TR  0.061    .
+130           1343    KIRPKTR|LV  0.165    .
+130           1362    QQSMDPR|FV  0.276    .
+130           1366    DPRFVEK|NL  0.074    .
+130           1377    VDLMTVK|KK  0.055    .
+130           1378    DLMTVKK|KL  0.126    .
+130           1379    LMTVKKK|LE  0.119    .
+130           1400    EVTHFQK|NY  0.069    .
+130           1413    PAEHQLR|QE  0.118    .
+130           1427    VFDPMEK|KV  0.068    .
+130           1428    FDPMEKK|VK  0.081    .
+130           1430    PMEKKVK|AA  0.070    .
+130           1433    KKVKAAK|RT  0.067    .
+130           1434    KVKAAKR|TI  0.372    .
+130           1438    AKRTIGK|HL  0.073    .
+130           1441    TIGKHLK|AE  0.069    .
+130           1446    LKAEEYK|DV  0.093    .
+130           1476    YMGYSQK|KI  0.079    .
+130           1477    MGYSQKK|IE  0.115    .
+130           1503    NNPNALR|GL  0.093    .
+130           1512    AEVLVER|DS  0.091    .
+130           1521    VDEVAAR|TF  0.101    .
+130           1528    TFEQLLK|LD  0.058    .
+130           1534    KLDANIK|NN  0.063    .
+130           1538    NIKNNNR|YR  0.083    .
+130           1540    KNNNRYR|EM  0.096    .
+130           1545    YREMLVK|WY  0.075    .
+130           1549    LVKWYMR|QK  0.076    .
+130           1551    KWYMRQK|PM  0.065    .
+130           1557    KPMDINK|CK  0.076    .
+130           1559    MDINKCK|EH  0.073    .
+130           1571    LSEIHQK|EL  0.067    .
+130           1575    HQKELAR|RH  0.107    .
+130           1576    QKELARR|HS  0.110    .
+130           1581    RRHSTLR|HQ  0.081    .
+130           1584    STLRHQK|SF  0.192    .
+130           1590    KSFSLDR|AE  0.078    .
+130           1606    SLDTDSK|IE  0.059    .
+130           1613    IEFFYMK|AK  0.061    .
+130           1615    FFYMKAK|LL  0.079    .
+130           1622    LLDEEGR|DP  0.109    .
+130           1643    LGIPFPR|PI  0.116    .
+130           1844    LELEVGK|YN  0.071    .
+130           1851    YNFDTEK|SD  0.076    .
+130           1858    SDSLEAK|SW  0.187    .
+130           1914    NIPYVSR|AR  0.092    .
+130           1916    PYVSRAR|SG  0.141    .
+130           1920    RARSGEK|TL  0.067    .
+130           1929    ETLISIK|DK  0.057    .
+130           1931    LISIKDK|LE  0.072    .
+130           1934    IKDKLER|DT  0.140    .
+130           1940    RDTCPAK|TT  0.066    .
+130           1951    MLTLPPR|DV  0.150    .
+130           1967    ASVNCER|FC  0.093    .
+130           1973    RFCVVHR|NT  0.109    .
+130           1989    LASAQLR|ED  0.084    .
+130           2000    DIGIGIR|SL  0.147    .
+130           2009    SGVLQSK|PT  0.066    .
+130           2019    HNTSLLR|LL  0.081    .
+130           2022    SLLRLLR|RF  0.170    .
+130           2023    LLRLLRR|FE  0.156    .
+130           2026    LLRRFER|YY  0.270    .
+130           2057    VEEEEDR|VL  0.073    .
+130           2063    RVLTAWR|YL  0.081    .
+130           2068    WRYLVER|NE  0.102    .
+130           2086    ALMEVVR|QY  0.106    .
+130           2097    SLSPEGR|HV  0.177    .
+130           2127    TCQVLHK|LV  0.121    .
+130           2138    GEYDAVK|YG  0.066    .
+130           2145    YGEFLER|CQ  0.099    .
+130           2152    CQGDDPR|NP  0.072    .
+130           2165    LLGEYFR|IN  0.074    .
+130           2168    EYFRINR|RP  0.096    .
+130           2169    YFRINRR|PV  0.249    .
+130           2176    PVEDVVR|CF  0.092    .
+130           2183    CFTQAVK|FS  0.052    .
+130           2194    PSGILVK|LE  0.070    .
+130           2200    KLESLNR|DM  0.099    .
+130           2206    RDMMCVR|DA  0.097    .
+130           2218    TLLQLIK|VE  0.055    .
+130           2221    QLIKVER|NH  0.079    .
+130           2224    KVERNHK|YY  0.102    .
+130           2228    NHKYYIK|LA  0.064    .
+130           2240    GEEMTTR|SS  0.113    .
+130           2248    SSLNPER|LL  0.081    .
+130           2251    NPERLLK|RA  0.177    .
+130           2252    PERLLKR|AS  0.160    .
+130           2258    RASDICK|SE  0.134    .
+130           2271    AAVGAYK|VA  0.058    .
+130           2276    YKVALSR|AP  0.100    .
+130           2289    LVVDLAR|AY  0.073    .
+130           2308    HALTLAK|RS  0.055    .
+130           2309    ALTLAKR|SV  0.314    .
+130           2314    KRSVGLR|PR  0.104    .
+130           2316    SVGLRPR|DP  0.086    .
+130           2335    VQGGHYK|LA  0.080    .
+130           2363    MGLLYLR|VK  0.070    .
+130           2365    LLYLRVK|EN  0.061    .
+130           2380    FTLAQSK|DP  0.059    .
+130           2406    WLDESDR|IL  0.105    .
+130           2413    ILSDIVR|ER  0.093    .
+130           2415    SDIVRER|SR  0.146    .
+130           2417    IVRERSR|EP  0.082    .
+130           2430    TLSYTVR|VL  0.160    .
+130           2455    LLTLSTR|AS  0.068    .
+130           2464    LLDHPAR|WQ  0.096    .
+130           2477    CGVISEK|LG  0.052    .
+130           2485    GLLSTSR|GH  0.072    .
+130           2498    LQLQLGK|SG  0.077    .
+130           2506    GGNQGNR|DV  0.222    .
+130           2520    DGNQGNK|EL  0.063    .
+130           2528    LQNSIDR|VT  0.088    .
+130           2532    IDRVTCK|MG  0.068    .
+130           2537    CKMGQYR|EI  0.101    .
+130           2543    REIPHTK|LT  0.064    .
+130           2552    VWSALAR|MK  0.127    .
+130           2554    SALARMK|SG  0.087    .
+130           2591    CDQGAVK|SF  0.073    .
+130           2603    VTSSAGK|LL  0.067    .
+130           2606    SAGKLLK|AL  0.062    .
+130           2632    GGGECLR|CL  0.107    .
+130           2635    ECLRCLK|GG  0.091    .
+130           2644    YDYNPPK|CA  0.077    .
+130           2653    PHALYTR|AN  0.091    .
+130           2659    RANESER|GR  0.107    .
+130           2661    NESERGR|ER  0.101    .
+130           2663    SERGRER|ER  0.091    .
+130           2665    RGRERER|ER  0.088    .
+130           2667    RERERER|ER  0.095    .
+130           2669    RERERER|ER  0.084    .
+130           2671    RERERER|ER  0.104    .
+130           2673    RERERER|ER  0.077    .
+130           2675    RERERER|ER  0.078    .
+130           2677    RERERER|DS  0.099    .
+130           2685    SFNTPTK|DR  0.068    .
+130           2687    NTPTKDR|ML  0.084    .
+130           2691    KDRMLPR|VS  0.079    .
+130           2720    LSLSSVK|LG  0.056    .
+130           2770    LHANITR|RV  0.143    .
+130           2771    HANITRR|VI  0.151    .
+130           2781    GVCLFSR|SS  0.108    .
+130           2816    LHANITR|RV  0.143    .
+130           2817    HANITRR|VI  0.151    .
+130           2828    VCLFSSR|RE  0.073    .
+130           2829    CLFSSRR|ER  0.089    .
+130           2831    FSSRRER|KG  0.305    .
+130           2832    SSRRERK|GT  0.301    .
+130           2837    RKGTIVR|NA  0.102    .
+130           2841    IVRNADR|CK  0.078    .
+130           2843    RNADRCK|VH  0.069    .
+130           2860    VHNCGGR|ER  0.081    .
+130           2862    NCGGRER|VE  0.069    .
+130           2865    GRERVER|ER  0.316    .
+130           2867    ERVERER|DR  0.119    .
+130           2869    VERERDR|ER  0.073    .
+130           2871    RERDRER|QR  0.102    .
+130           2873    RDRERQR|DR  0.086    .
+130           2875    RERQRDR|VL  0.087    .
+130           2878    QRDRVLR|VR  0.368    .
+130           2880    DRVLRVR|DA  0.129    .
+130           2884    RVRDAQR|KH  0.090    .
+130           2885    VRDAQRK|HS  0.117    .
+130           2898    VIYCLVR|PS  0.095    .
+130           2905    PSFPAPR|SF  0.145    .
+130           2911    RSFVQSR|GR  0.129    .
+130           2913    FVQSRGR|ER  0.083    .
+130           2915    QSRGRER|SR  0.151    .
+130           2917    RGRERSR|SI  0.156    .
+130           2922    SRSIYDR|DM  0.189    .
+130           2925    IYDRDMR|ER  0.176    .
+130           2927    DRDMRER|ER  0.093    .
+130           2929    DMRERER|ER  0.081    .
+130           2931    RERERER|ER  0.086    .
+130           2933    RERERER|ER  0.090    .
+130           2935    RERERER|ER  0.091    .
+130           2937    RERERER|ER  0.097    .
+130           2939    RERERER|ER  0.099    .
+130           2941    RERERER|GR  0.097    .
+130           2943    RERERGR|ER  0.094    .
+130           2945    RERGRER|ER  0.089    .
+130           2947    RGRERER|ER  0.082    .
+130           2949    RERERER|--  0.104    .
+____________________________^_________________
+
+
+
+

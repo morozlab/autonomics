@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+470	
+
+ psg: 0.62  gvh: 0.19  alm: 0.48  top: 0.33  tms: 0.08  mit: 0.24  mip: 0.00
+ nuc: 0.97  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.07  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 1.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 1.00  lps: 0.03  len: 0.41 
+
+	 43.5 %: nuclear
+	 26.1 %: mitochondrial
+	  8.7 %: cytoplasmic
+	  8.7 %: Golgi
+	  4.3 %: extracellular, including cell wall
+	  4.3 %: peroxisomal
+	  4.3 %: plasma membrane
+
+>> prediction for 470 is nuc (k=23)
+

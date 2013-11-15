@@ -1,0 +1,261 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1532 570         
+MTIKAGGPIYFFAQDESQYKRRPRKSLSLVHALEEAQDEGAECVAIDTIAPPTSSPSRPVTVEKDHLGSRPGSKESTQNQ      80
+TLVSRLEDDLRVFTEGTEPSLHKFLPLLKQAILTFDLIEPVPTEKPSVHARYLALKAQSGETLDELSGLLEEMFKENRRV     160
+PTIPAEIRSVFTANYNTLVSDTVVEYRVWLKGAPPNLQGQSGTAKLNSQVSELTQSIDGSARSGSKSRYSRRQRGGMWSG     240
+ADTDGGTSSRSNDGQTARRESARRRNIVSDQSDIIEDLYLENHSEFGSRMGRGGEKSGKRRELEALYEPHGHNPTINFSL     320
+VNPNCAAKGWIINPRDGELKDRSLVKYLLERLQKCRFSRVTEEKRVAQLRFPYLIKLYPEFETDLYRPKRALSWANRHKI     400
+GLITEVPHEPSSQLIYAFPDGSTTIYYPDGNICAVVTSCQQGKEQDLTRTINVFQQHQQNNIIASFSPSGVGSVWYDGGK     480
+PAFLSTVLGGCIYSTSGMPSKSWSWNNVDTEDFLLPITDYLTLYFNNSGEVNLHLQLGEECVFVNVKSSRAPTEEAPPTG     560
+LTLVSGLSFRSNTAQAILNAPKTRGRRKMRQKRVSSTRVTDDSETEELHYPHKHSLADQVDRYLITNTKRIVKSVEELLL     640
+HFRQELSLGRLRSADVRATDSEITLLQLPEGYKTVSGGKCKKKSCISLGLNVPPYLVCPERGVKKRGWKVRGSSAVSGNG     720
+LRSPRKRACNTCPISLRLFTNTGQEAPCKCDWKTVPIVCDVEFDQLVSESRSPPLVVVSVFSSRHPEATPYDPMVEEIYY     800
+GMNYRPVTVEKDHLGSSRPGSKESTQNQNLVSRLEDDLRVFTEGTEPSLHKFLPLLKQAILTFDLIEPVPTEKPSVHARY     880
+LALKAQSGETLDELSGLLEEMFKENRRVPTIPAEIRSVFTANYNTLVSDTVVEYRVWLKGAPPNLQGQSGTAKLNSQVSE     960
+LTQSIDGSARSGSKSRYSRRQRGGMWSGADTDGGTSSRSNDGQTARRESARRRNIVSDQSDIIEDLYLENHSEFGSRMGR    1040
+GGEKSGKRRELEALYEPHGHNPTINFSLVNPNCAAKGWIINPREGELKDRSLVKYLLERLQKCRFSRVTEEKRVAQLRFP    1120
+YLIKLYPEFETDLYRPKRALSWANRHKIGLITEVPHEPSSQLIYAFPDGSTTIYYPDGNICAVVTSCQQGKEQDLTRTIN    1200
+VFQQHQQNNIIASFSPSGVGSVWYDGGKPAFLSTVLGGCIYSTSGMPSKSWSWNNVDTEDFLLPITDYLTLYFNNSGEVN    1280
+LHLQLGEECVFVNVKSSRAPTEEAPPTGLTLVSGLSFRSNTAQAILNAPKTRGRRKMRQKRVSSTRVTDDSETEELHYPH    1360
+KHSLADQVDRYLITNTKKIVKSVEELLLHFRQELSLGRLRSADVRATDSEITLSQLPEGYKTVSKVYSDPVQCSVFSLIC    1440
+IRREVQKEELYLSGSERSTLPSVPRERGKEERVEGKCDWKTVPIVCDVEFDQLVSESRCPPLVVVSVFSSRHPEATPYDP    1520
+MVEEIYYGMNYR                                                                        1600
+........................P.......................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+.....................................................................P..........     400
+................................................................................     480
+................................................................................     560
+................................P...............................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+.................P..............................................................    1200
+................................................................................    1280
+............................................................P...................    1360
+................................................................................    1440
+................................................................................    1520
+............                                                                        1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+570              4    ---MTIK|AG  0.071    .
+570             20    QDESQYK|RR  0.054    .
+570             21    DESQYKR|RP  0.185    .
+570             22    ESQYKRR|PR  0.115    .
+570             24    QYKRRPR|KS  0.209    .
+570             25    YKRRPRK|SL  0.544 *ProP*
+570             58    PTSSPSR|PV  0.145    .
+570             64    RPVTVEK|DH  0.082    .
+570             70    KDHLGSR|PG  0.086    .
+570             74    GSRPGSK|ES  0.072    .
+570             85    NQTLVSR|LE  0.074    .
+570             91    RLEDDLR|VF  0.077    .
+570            103    TEPSLHK|FL  0.061    .
+570            109    KFLPLLK|QA  0.057    .
+570            125    EPVPTEK|PS  0.061    .
+570            131    KPSVHAR|YL  0.188    .
+570            136    ARYLALK|AQ  0.073    .
+570            155    LLEEMFK|EN  0.062    .
+570            158    EMFKENR|RV  0.091    .
+570            159    MFKENRR|VP  0.082    .
+570            168    TIPAEIR|SV  0.189    .
+570            187    DTVVEYR|VW  0.082    .
+570            191    EYRVWLK|GA  0.074    .
+570            205    GQSGTAK|LN  0.081    .
+570            222    SIDGSAR|SG  0.200    .
+570            226    SARSGSK|SR  0.066    .
+570            228    RSGSKSR|YS  0.164    .
+570            231    SKSRYSR|RQ  0.375    .
+570            232    KSRYSRR|QR  0.217    .
+570            234    RYSRRQR|GG  0.413    .
+570            250    DGGTSSR|SN  0.163    .
+570            258    NDGQTAR|RE  0.093    .
+570            259    DGQTARR|ES  0.101    .
+570            263    ARRESAR|RR  0.114    .
+570            264    RRESARR|RN  0.122    .
+570            265    RESARRR|NI  0.175    .
+570            289    HSEFGSR|MG  0.124    .
+570            292    FGSRMGR|GG  0.429    .
+570            296    MGRGGEK|SG  0.071    .
+570            299    GGEKSGK|RR  0.060    .
+570            300    GEKSGKR|RE  0.121    .
+570            301    EKSGKRR|EL  0.265    .
+570            328    NPNCAAK|GW  0.084    .
+570            335    GWIINPR|DG  0.121    .
+570            340    PRDGELK|DR  0.067    .
+570            342    DGELKDR|SL  0.125    .
+570            346    KDRSLVK|YL  0.068    .
+570            351    VKYLLER|LQ  0.066    .
+570            354    LLERLQK|CR  0.100    .
+570            356    ERLQKCR|FS  0.107    .
+570            359    QKCRFSR|VT  0.380    .
+570            364    SRVTEEK|RV  0.083    .
+570            365    RVTEEKR|VA  0.116    .
+570            370    KRVAQLR|FP  0.096    .
+570            376    RFPYLIK|LY  0.060    .
+570            387    FETDLYR|PK  0.069    .
+570            389    TDLYRPK|RA  0.060    .
+570            390    DLYRPKR|AL  0.645 *ProP*
+570            397    ALSWANR|HK  0.111    .
+570            399    SWANRHK|IG  0.067    .
+570            443    TSCQQGK|EQ  0.067    .
+570            449    KEQDLTR|TI  0.102    .
+570            480    VWYDGGK|PA  0.064    .
+570            501    TSGMPSK|SW  0.113    .
+570            547    CVFVNVK|SS  0.069    .
+570            550    VNVKSSR|AP  0.093    .
+570            570    VSGLSFR|SN  0.183    .
+570            582    AILNAPK|TR  0.060    .
+570            584    LNAPKTR|GR  0.119    .
+570            586    APKTRGR|RK  0.088    .
+570            587    PKTRGRR|KM  0.407    .
+570            588    KTRGRRK|MR  0.089    .
+570            590    RGRRKMR|QK  0.342    .
+570            592    RRKMRQK|RV  0.101    .
+570            593    RKMRQKR|VS  0.678 *ProP*
+570            598    KRVSSTR|VT  0.180    .
+570            613    ELHYPHK|HS  0.067    .
+570            622    LADQVDR|YL  0.107    .
+570            629    YLITNTK|RI  0.059    .
+570            630    LITNTKR|IV  0.259    .
+570            633    NTKRIVK|SV  0.338    .
+570            643    ELLLHFR|QE  0.066    .
+570            650    QELSLGR|LR  0.073    .
+570            652    LSLGRLR|SA  0.115    .
+570            657    LRSADVR|AT  0.140    .
+570            673    QLPEGYK|TV  0.068    .
+570            679    KTVSGGK|CK  0.056    .
+570            681    VSGGKCK|KK  0.069    .
+570            682    SGGKCKK|KS  0.114    .
+570            683    GGKCKKK|SC  0.171    .
+570            701    YLVCPER|GV  0.133    .
+570            704    CPERGVK|KR  0.113    .
+570            705    PERGVKK|RG  0.109    .
+570            706    ERGVKKR|GW  0.378    .
+570            709    VKKRGWK|VR  0.118    .
+570            711    KRGWKVR|GS  0.221    .
+570            722    VSGNGLR|SP  0.087    .
+570            725    NGLRSPR|KR  0.141    .
+570            726    GLRSPRK|RA  0.086    .
+570            727    LRSPRKR|AC  0.365    .
+570            737    TCPISLR|LF  0.079    .
+570            749    GQEAPCK|CD  0.067    .
+570            753    PCKCDWK|TV  0.073    .
+570            771    QLVSESR|SP  0.095    .
+570            784    VSVFSSR|HP  0.090    .
+570            805    YYGMNYR|PV  0.121    .
+570            811    RPVTVEK|DH  0.068    .
+570            818    DHLGSSR|PG  0.091    .
+570            822    SSRPGSK|ES  0.069    .
+570            833    NQNLVSR|LE  0.089    .
+570            839    RLEDDLR|VF  0.077    .
+570            851    TEPSLHK|FL  0.061    .
+570            857    KFLPLLK|QA  0.057    .
+570            873    EPVPTEK|PS  0.061    .
+570            879    KPSVHAR|YL  0.188    .
+570            884    ARYLALK|AQ  0.073    .
+570            903    LLEEMFK|EN  0.062    .
+570            906    EMFKENR|RV  0.091    .
+570            907    MFKENRR|VP  0.082    .
+570            916    TIPAEIR|SV  0.189    .
+570            935    DTVVEYR|VW  0.082    .
+570            939    EYRVWLK|GA  0.074    .
+570            953    GQSGTAK|LN  0.081    .
+570            970    SIDGSAR|SG  0.200    .
+570            974    SARSGSK|SR  0.066    .
+570            976    RSGSKSR|YS  0.164    .
+570            979    SKSRYSR|RQ  0.375    .
+570            980    KSRYSRR|QR  0.217    .
+570            982    RYSRRQR|GG  0.413    .
+570            998    DGGTSSR|SN  0.163    .
+570           1006    NDGQTAR|RE  0.093    .
+570           1007    DGQTARR|ES  0.101    .
+570           1011    ARRESAR|RR  0.114    .
+570           1012    RRESARR|RN  0.122    .
+570           1013    RESARRR|NI  0.175    .
+570           1037    HSEFGSR|MG  0.124    .
+570           1040    FGSRMGR|GG  0.429    .
+570           1044    MGRGGEK|SG  0.071    .
+570           1047    GGEKSGK|RR  0.060    .
+570           1048    GEKSGKR|RE  0.121    .
+570           1049    EKSGKRR|EL  0.265    .
+570           1076    NPNCAAK|GW  0.083    .
+570           1083    GWIINPR|EG  0.095    .
+570           1088    PREGELK|DR  0.070    .
+570           1090    EGELKDR|SL  0.128    .
+570           1094    KDRSLVK|YL  0.068    .
+570           1099    VKYLLER|LQ  0.066    .
+570           1102    LLERLQK|CR  0.100    .
+570           1104    ERLQKCR|FS  0.107    .
+570           1107    QKCRFSR|VT  0.380    .
+570           1112    SRVTEEK|RV  0.083    .
+570           1113    RVTEEKR|VA  0.116    .
+570           1118    KRVAQLR|FP  0.096    .
+570           1124    RFPYLIK|LY  0.060    .
+570           1135    FETDLYR|PK  0.069    .
+570           1137    TDLYRPK|RA  0.060    .
+570           1138    DLYRPKR|AL  0.645 *ProP*
+570           1145    ALSWANR|HK  0.111    .
+570           1147    SWANRHK|IG  0.067    .
+570           1191    TSCQQGK|EQ  0.067    .
+570           1197    KEQDLTR|TI  0.102    .
+570           1228    VWYDGGK|PA  0.064    .
+570           1249    TSGMPSK|SW  0.113    .
+570           1295    CVFVNVK|SS  0.069    .
+570           1298    VNVKSSR|AP  0.093    .
+570           1318    VSGLSFR|SN  0.183    .
+570           1330    AILNAPK|TR  0.060    .
+570           1332    LNAPKTR|GR  0.119    .
+570           1334    APKTRGR|RK  0.088    .
+570           1335    PKTRGRR|KM  0.407    .
+570           1336    KTRGRRK|MR  0.089    .
+570           1338    RGRRKMR|QK  0.342    .
+570           1340    RRKMRQK|RV  0.101    .
+570           1341    RKMRQKR|VS  0.678 *ProP*
+570           1346    KRVSSTR|VT  0.180    .
+570           1361    ELHYPHK|HS  0.067    .
+570           1370    LADQVDR|YL  0.107    .
+570           1377    YLITNTK|KI  0.060    .
+570           1378    LITNTKK|IV  0.135    .
+570           1381    NTKKIVK|SV  0.121    .
+570           1391    ELLLHFR|QE  0.066    .
+570           1398    QELSLGR|LR  0.073    .
+570           1400    LSLGRLR|SA  0.115    .
+570           1405    LRSADVR|AT  0.140    .
+570           1421    QLPEGYK|TV  0.074    .
+570           1425    GYKTVSK|VY  0.064    .
+570           1442    FSLICIR|RE  0.071    .
+570           1443    SLICIRR|EV  0.279    .
+570           1447    IRREVQK|EE  0.062    .
+570           1457    YLSGSER|ST  0.199    .
+570           1465    TLPSVPR|ER  0.133    .
+570           1467    PSVPRER|GK  0.098    .
+570           1469    VPRERGK|EE  0.072    .
+570           1472    ERGKEER|VE  0.111    .
+570           1476    EERVEGK|CD  0.069    .
+570           1480    EGKCDWK|TV  0.068    .
+570           1498    QLVSESR|CP  0.073    .
+570           1511    VSVFSSR|HP  0.090    .
+570           1532    YYGMNYR|--  0.090    .
+____________________________^_________________
+
+
+
+

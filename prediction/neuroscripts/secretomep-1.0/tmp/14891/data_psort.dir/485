@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+485	
+
+ psg: 0.52  gvh: 0.37  alm: 0.48  top: 0.70  tms: 0.08  mit: 0.39  mip: 0.04
+ nuc: 0.14  erl: 0.00  erm: 0.00  pox: 0.00  px2: 0.00  vac: 0.33  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.09  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 0.00  mNt: 1.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.03  lps: 0.00  len: 0.40 
+
+	 34.8 %: nuclear
+	 26.1 %: cytoplasmic
+	 13.0 %: Golgi
+	  8.7 %: endoplasmic reticulum
+	  8.7 %: mitochondrial
+	  4.3 %: vesicles of secretory system
+	  4.3 %: peroxisomal
+
+>> prediction for 485 is nuc (k=23)
+

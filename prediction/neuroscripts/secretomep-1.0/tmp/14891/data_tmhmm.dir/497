@@ -1,0 +1,71 @@
+# 497 Length: 1641
+# 497 Number of predicted TMHs:  32
+# 497 Exp number of AAs in TMHs: 694.481089999999
+# 497 Exp number, first 60 AAs:  23.56629
+# 497 Total prob of N-in:        0.62792
+# 497 POSSIBLE N-term signal sequence
+497	TMHMM2.0	inside	     1    28
+497	TMHMM2.0	TMhelix	    29    51
+497	TMHMM2.0	outside	    52   117
+497	TMHMM2.0	TMhelix	   118   137
+497	TMHMM2.0	inside	   138   204
+497	TMHMM2.0	TMhelix	   205   227
+497	TMHMM2.0	outside	   228   285
+497	TMHMM2.0	TMhelix	   286   308
+497	TMHMM2.0	inside	   309   314
+497	TMHMM2.0	TMhelix	   315   337
+497	TMHMM2.0	outside	   338   340
+497	TMHMM2.0	TMhelix	   341   363
+497	TMHMM2.0	inside	   364   369
+497	TMHMM2.0	TMhelix	   370   392
+497	TMHMM2.0	outside	   393   401
+497	TMHMM2.0	TMhelix	   402   421
+497	TMHMM2.0	inside	   422   486
+497	TMHMM2.0	TMhelix	   487   506
+497	TMHMM2.0	outside	   507   515
+497	TMHMM2.0	TMhelix	   516   535
+497	TMHMM2.0	inside	   536   546
+497	TMHMM2.0	TMhelix	   547   569
+497	TMHMM2.0	outside	   570   583
+497	TMHMM2.0	TMhelix	   584   606
+497	TMHMM2.0	inside	   607   626
+497	TMHMM2.0	TMhelix	   627   649
+497	TMHMM2.0	outside	   650   709
+497	TMHMM2.0	TMhelix	   710   732
+497	TMHMM2.0	inside	   733   738
+497	TMHMM2.0	TMhelix	   739   758
+497	TMHMM2.0	outside	   759   772
+497	TMHMM2.0	TMhelix	   773   792
+497	TMHMM2.0	inside	   793   803
+497	TMHMM2.0	TMhelix	   804   826
+497	TMHMM2.0	outside	   827   830
+497	TMHMM2.0	TMhelix	   831   849
+497	TMHMM2.0	inside	   850   909
+497	TMHMM2.0	TMhelix	   910   932
+497	TMHMM2.0	outside	   933   990
+497	TMHMM2.0	TMhelix	   991  1013
+497	TMHMM2.0	inside	  1014  1019
+497	TMHMM2.0	TMhelix	  1020  1042
+497	TMHMM2.0	outside	  1043  1045
+497	TMHMM2.0	TMhelix	  1046  1068
+497	TMHMM2.0	inside	  1069  1074
+497	TMHMM2.0	TMhelix	  1075  1097
+497	TMHMM2.0	outside	  1098  1106
+497	TMHMM2.0	TMhelix	  1107  1126
+497	TMHMM2.0	inside	  1127  1191
+497	TMHMM2.0	TMhelix	  1192  1214
+497	TMHMM2.0	outside	  1215  1228
+497	TMHMM2.0	TMhelix	  1229  1251
+497	TMHMM2.0	inside	  1252  1271
+497	TMHMM2.0	TMhelix	  1272  1294
+497	TMHMM2.0	outside	  1295  1401
+497	TMHMM2.0	TMhelix	  1402  1424
+497	TMHMM2.0	inside	  1425  1453
+497	TMHMM2.0	TMhelix	  1454  1476
+497	TMHMM2.0	outside	  1477  1485
+497	TMHMM2.0	TMhelix	  1486  1508
+497	TMHMM2.0	inside	  1509  1514
+497	TMHMM2.0	TMhelix	  1515  1537
+497	TMHMM2.0	outside	  1538  1597
+497	TMHMM2.0	TMhelix	  1598  1620
+497	TMHMM2.0	inside	  1621  1641

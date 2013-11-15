@@ -1,0 +1,467 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3222 97          
+MIWVALAPATQKPLAPSVLKKRLPIREKQQSYEPTEPGKQPIRTRYLGHVAGYPPIRDQYFLIRSESDIREPTDTSKQPI      80
+RARYLGHVTGYQPIRDQYFLKLTHDRNRDIRAGYLQFTTLHYTVIDITSDPYLVPPYLVTPRFSDRINFPRYRKVTVFDP     160
+DLVPTPIYAHPPRMSLNRGPIHEPTEPSKQPIRNSYQPIRDQYFLILSVPRSTRYLKLFFNRTDTCKLPIRTRYLGNVAG     240
+YQPIRDQYFLILSVPSIDFDIEISKTRITGSNGLSEIDPHTSLSYVVTSASARSPALSGFFEAKHPSDLSSQSVAVVYPA     320
+AVFFARHNFKHAAASATVAVSRNRPNQKILVPDWLIANHWALKKLVTLRWILSFVAAHFRSHWLTNNTPAKVFCRLTPTG     400
+PKVDYNNKVLPSARGGFHIAFLHSYILDSRPNSTLCVRMQSQPRPYWSETVARGSPTRRRQWLTGPPAPDIDIDIDIDKH     480
+IDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKH     560
+IDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKH     640
+IDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKHIDIDIDIDKH     720
+IDIDIDIDKHIDIDIDIDKHITLRDKLRLVTSRTDRIRKYYSDWLLTCVGRFLRIDRVPLTVLYRGTESLNVKRFIEENN     800
+VMKNRPNWEMLVPDWLITSHVTLITSSDWLFTWFSRFLFLTNYDKIQLAGTDRNSKQPIRTRYLSHVTGCQPITDQYFLI     880
+RSVPGRHGNTESFGASFNYPALVQLGGIGPRCTGMLGGKVYPPGKSGPGNSGPDKSGSDCSIMSSLIKSFYRQALGSLST     960
+DDWCLLVGHHETAPTETSKQPIRTRYLGHVTGYISQSGTRIIHYQVSIGTLKSKQPIRTRYLGHVTGYQPIRDQYLKSFT    1040
+WGSFYRQALGSLSTDDWCLLVGHHETAPTETSKQPIRTRYLGHVTGYISQSGTRIIHYQVSIGTLKSKQPIRTRYLGHVT    1120
+GYQPIRDQYFLMSTYIVFGEKISCCSYRLYLVMECCYMMHKLLPVARYFRYLSPSAPLGEGVTSHTWNPVTPVLGSHEVG    1200
+AQGHPSNLLKSQLTNQSTEGMLQDSAPTPSASVAMMIKKLLFWVVGASFTCLGFITFLSFSPLLPKKNENNIITPFFLPD    1280
+PSLFYADDARSFKARYMKEMEYREKLGELSEEKLAELEKFYHRNLTIQFLGRPLLPPSMPPHHDQCFKFQGRSYQNRVSV    1360
+VVVFYNELPILLMRTLTCIVHRTLPSNLAEVIVIDDHSEADISEEILSYAETQRIPVTWLRNDYNVGIAKSRRKGIEIAV    1440
+GDTIAILDSHMEIADLWLEPLLDIINNDPTAVAVPHIQMTNEKLYNAPYRHSRHVVTLSHTFGTLYVNHVELPQQPWEAY    1520
+PSSAMLGGGIVALKSVLLKLYPVPVLENSKWGVENNRLSFRAWMCGGGLWSNDCSQVMHPNGQDPGLSRYKLDWSYLIAE    1600
+AVAELLNFCPDERSKERLISKATNRPDLVKLIHEYSRDIRDVEGFDPTKCHSDYKSYTSKVVESYTSFEKDQFLYVGEIQ    1680
+SVSQSDMCLEAYASDVNIWRCRTAPVVIYDNHVFGFTKNGALRYQGSCVDYRHNDTAGALVYLSSCHAPNPSILLMRTLT    1760
+CIVHRTLPSNLAEVIVIDDHSEADISEEILSYAETQRIPVTWLRNDYNVGIAKSRRKGIEIAVGDTIAILDSHMEIADLW    1840
+LEPLLDIINNDPTAVAVPHIQMTNEKLYNAPYRHSRHVVTLSHTFGTLYVNHVELPQQPWEAYPSSAMLGGGIVALKSVL    1920
+LKLYPVPVLENSKWGVENNRLSFRAWMCGGGLWSNDCSQVMHPNGQDPGLSRYKLDWSYLIAEAVAELLNFCPDERSKER    2000
+LISKATNRPDLVKLIHEYSRDIRDVEGFDPTKCHSDYKSYTSKVVESYTSFEKDQFLYVGEIQSVSQSDMCLEAYASDVN    2080
+IWRCRTAPVVIYDNHVFGFTKNGALRYQGSCVDYRHNDTAGALVYLSSCHAPNPSEGTPGYVQDFRTDVPIRTRVLGYVT    2160
+GYQPIRDQYFLIRSIPATYRQIFALRGKQVFRSRDWLSANQGPLTISQSIEMYIFNYTSCTSCEISPAGCSCVPRGNSIL    2240
+HVHSFTPVLISRLKLFHPKRYSATFIYLGLFINVYPAAVREQTAFLVHAPFSWRINGERKRNFAVGKGVISLPSNPPPPP    2320
+EYVNLLTSHTEIIRKSRAYNNMVHGKGDTTISSKFARWANGPTSLMTGHQPIRDQYFLIRSVPDALDFLIISRLGWKSLS    2400
+LEIRTGVKECTCRIEFPLGTQLQPAGEISQDVQDVTCGKAWSNVTGQQPWIIINLPRRILTGGLELTLSSTNLTQKAATS    2480
+GIMSDQYFLIRSVPDTYSSFPSIIMYRFSLCVGPPLIFRKCAVVIFQHCVEYSEIKQPIRSRYLGHVTGWISQSGTSISL    2560
+TRFIHSRTPIYRDARGKLYRGRIPLLLGEVNPPGKSGSGFDTNFIIALASARGPILPPPSMCDASVIIAREFAKYPPEKK    2640
+KGPDPDLPEPRFTGTINFCRYKKLTVFCPDITNTSIYRAKTLPRVSRNSPGNSTEFLKIYSYLRFLIRWRLEICRFGRTW    2720
+HDLRNLQFSDLISQFSNSLFSSRDWLYANQGLVFSDLVGSCYYYYYCCYLSPRVTRQPIRTRYLGHVTGYQPIRDQYFWS    2800
+ILVMSSYLSTSQSVQGSPQDHGLGRCRIRVQCFSQPRTTTNQNSLFRSRDWLSANQGPVFLVNSCYVELPEHESKCPRQS    2880
+SRPRFRQPIRTRYLGHVTGYQPIRDQYFWSILVMSSYLSTSQSVQGSPQDHGLGRCRIRVQCFSQPRKFSIMLDHNAINL    2960
+VDEGVFSIITLISCVKDLIITSSYLRLPLQRLLVTATRYLGYVTGYQPIRDQYFLILSVPDKISNNLPPLASARGPILPP    3040
+PNHPSLKNPIRTRYLGHVTRTGKQPIRTRYLGHVTGYQPIRDLLRGMTYFSAEPTETSKQPIRTRYLGHMTGYQPIRYQY    3120
+FLIWSVPVKDVRCLESMASRSVRNMFVVWEVSFSPYFAPAVANFRNRPKTSKQPIRTHYLGHMTGYQPIRDQYFLIWSGF    3200
+ALYIYPPGTDRKQVNNQSELII                                                              3280
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+.......................................P........................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+......................P.........................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+......................                                                              3280
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+97              12    LAPATQK|PL  0.061    .
+97              20    LAPSVLK|KR  0.057    .
+97              21    APSVLKK|RL  0.152    .
+97              22    PSVLKKR|LP  0.145    .
+97              26    KKRLPIR|EK  0.102    .
+97              28    RLPIREK|QQ  0.065    .
+97              39    EPTEPGK|QP  0.061    .
+97              43    PGKQPIR|TR  0.070    .
+97              45    KQPIRTR|YL  0.144    .
+97              57    AGYPPIR|DQ  0.106    .
+97              64    DQYFLIR|SE  0.143    .
+97              70    RSESDIR|EP  0.073    .
+97              77    EPTDTSK|QP  0.062    .
+97              81    TSKQPIR|AR  0.104    .
+97              83    KQPIRAR|YL  0.156    .
+97              95    TGYQPIR|DQ  0.101    .
+97             101    RDQYFLK|LT  0.076    .
+97             106    LKLTHDR|NR  0.079    .
+97             108    LTHDRNR|DI  0.189    .
+97             111    DRNRDIR|AG  0.319    .
+97             142    PYLVTPR|FS  0.091    .
+97             146    TPRFSDR|IN  0.106    .
+97             151    DRINFPR|YR  0.102    .
+97             153    INFPRYR|KV  0.114    .
+97             154    NFPRYRK|VT  0.109    .
+97             173    IYAHPPR|MS  0.101    .
+97             178    PRMSLNR|GP  0.113    .
+97             189    EPTEPSK|QP  0.060    .
+97             193    PSKQPIR|NS  0.091    .
+97             200    NSYQPIR|DQ  0.101    .
+97             211    LILSVPR|ST  0.106    .
+97             214    SVPRSTR|YL  0.213    .
+97             217    RSTRYLK|LF  0.112    .
+97             222    LKLFFNR|TD  0.093    .
+97             227    NRTDTCK|LP  0.060    .
+97             231    TCKLPIR|TR  0.077    .
+97             233    KLPIRTR|YL  0.113    .
+97             245    AGYQPIR|DQ  0.089    .
+97             265    FDIEISK|TR  0.059    .
+97             267    IEISKTR|IT  0.116    .
+97             293    VTSASAR|SP  0.143    .
+97             304    SGFFEAK|HP  0.079    .
+97             326    AAVFFAR|HN  0.118    .
+97             330    FARHNFK|HA  0.082    .
+97             342    ATVAVSR|NR  0.074    .
+97             344    VAVSRNR|PN  0.088    .
+97             348    RNRPNQK|IL  0.064    .
+97             363    ANHWALK|KL  0.063    .
+97             364    NHWALKK|LV  0.083    .
+97             369    KKLVTLR|WI  0.089    .
+97             380    FVAAHFR|SH  0.114    .
+97             391    TNNTPAK|VF  0.082    .
+97             395    PAKVFCR|LT  0.103    .
+97             402    LTPTGPK|VD  0.052    .
+97             408    KVDYNNK|VL  0.059    .
+97             414    KVLPSAR|GG  0.095    .
+97             430    SYILDSR|PN  0.075    .
+97             438    NSTLCVR|MQ  0.086    .
+97             444    RMQSQPR|PY  0.095    .
+97             453    WSETVAR|GS  0.118    .
+97             458    ARGSPTR|RR  0.076    .
+97             459    RGSPTRR|RQ  0.120    .
+97             460    GSPTRRR|QW  0.190    .
+97             479    IDIDIDK|HI  0.068    .
+97             489    IDIDIDK|HI  0.068    .
+97             499    IDIDIDK|HI  0.068    .
+97             509    IDIDIDK|HI  0.068    .
+97             519    IDIDIDK|HI  0.068    .
+97             529    IDIDIDK|HI  0.068    .
+97             539    IDIDIDK|HI  0.068    .
+97             549    IDIDIDK|HI  0.068    .
+97             559    IDIDIDK|HI  0.068    .
+97             569    IDIDIDK|HI  0.068    .
+97             579    IDIDIDK|HI  0.068    .
+97             589    IDIDIDK|HI  0.068    .
+97             599    IDIDIDK|HI  0.068    .
+97             609    IDIDIDK|HI  0.068    .
+97             619    IDIDIDK|HI  0.068    .
+97             629    IDIDIDK|HI  0.068    .
+97             639    IDIDIDK|HI  0.068    .
+97             649    IDIDIDK|HI  0.068    .
+97             659    IDIDIDK|HI  0.068    .
+97             669    IDIDIDK|HI  0.068    .
+97             679    IDIDIDK|HI  0.068    .
+97             689    IDIDIDK|HI  0.068    .
+97             699    IDIDIDK|HI  0.068    .
+97             709    IDIDIDK|HI  0.068    .
+97             719    IDIDIDK|HI  0.068    .
+97             729    IDIDIDK|HI  0.068    .
+97             739    IDIDIDK|HI  0.059    .
+97             744    DKHITLR|DK  0.090    .
+97             746    HITLRDK|LR  0.052    .
+97             748    TLRDKLR|LV  0.129    .
+97             753    LRLVTSR|TD  0.081    .
+97             756    VTSRTDR|IR  0.189    .
+97             758    SRTDRIR|KY  0.083    .
+97             759    RTDRIRK|YY  0.314    .
+97             771    LLTCVGR|FL  0.091    .
+97             774    CVGRFLR|ID  0.169    .
+97             777    RFLRIDR|VP  0.149    .
+97             785    PLTVLYR|GT  0.082    .
+97             793    TESLNVK|RF  0.069    .
+97             794    ESLNVKR|FI  0.252    .
+97             803    EENNVMK|NR  0.064    .
+97             805    NNVMKNR|PN  0.102    .
+97             836    LFTWFSR|FL  0.079    .
+97             845    FLTNYDK|IQ  0.055    .
+97             853    QLAGTDR|NS  0.085    .
+97             856    GTDRNSK|QP  0.084    .
+97             860    NSKQPIR|TR  0.076    .
+97             862    KQPIRTR|YL  0.127    .
+97             881    DQYFLIR|SV  0.149    .
+97             886    IRSVPGR|HG  0.144    .
+97             911    LGGIGPR|CT  0.103    .
+97             919    TGMLGGK|VY  0.061    .
+97             925    KVYPPGK|SG  0.063    .
+97             935    GNSGPDK|SG  0.106    .
+97             948    IMSSLIK|SF  0.089    .
+97             952    LIKSFYR|QA  0.122    .
+97             979    APTETSK|QP  0.061    .
+97             983    TSKQPIR|TR  0.088    .
+97             985    KQPIRTR|YL  0.140    .
+97            1000    ISQSGTR|II  0.105    .
+97            1012    VSIGTLK|SK  0.075    .
+97            1014    IGTLKSK|QP  0.060    .
+97            1018    KSKQPIR|TR  0.089    .
+97            1020    KQPIRTR|YL  0.124    .
+97            1032    TGYQPIR|DQ  0.106    .
+97            1037    IRDQYLK|SF  0.080    .
+97            1046    TWGSFYR|QA  0.155    .
+97            1073    APTETSK|QP  0.061    .
+97            1077    TSKQPIR|TR  0.088    .
+97            1079    KQPIRTR|YL  0.140    .
+97            1094    ISQSGTR|II  0.105    .
+97            1106    VSIGTLK|SK  0.075    .
+97            1108    IGTLKSK|QP  0.060    .
+97            1112    KSKQPIR|TR  0.089    .
+97            1114    KQPIRTR|YL  0.124    .
+97            1126    TGYQPIR|DQ  0.110    .
+97            1141    YIVFGEK|IS  0.056    .
+97            1148    ISCCSYR|LY  0.114    .
+97            1161    CCYMMHK|LL  0.057    .
+97            1167    KLLPVAR|YF  0.097    .
+97            1170    PVARYFR|YL  0.382    .
+97            1210    HPSNLLK|SQ  0.108    .
+97            1238    SVAMMIK|KL  0.059    .
+97            1239    VAMMIKK|LL  0.116    .
+97            1266    FSPLLPK|KN  0.061    .
+97            1267    SPLLPKK|NE  0.092    .
+97            1290    FYADDAR|SF  0.116    .
+97            1293    DDARSFK|AR  0.154    .
+97            1295    ARSFKAR|YM  0.247    .
+97            1298    FKARYMK|EM  0.149    .
+97            1303    MKEMEYR|EK  0.101    .
+97            1305    EMEYREK|LG  0.061    .
+97            1313    GELSEEK|LA  0.059    .
+97            1319    KLAELEK|FY  0.075    .
+97            1323    LEKFYHR|NL  0.089    .
+97            1332    TIQFLGR|PL  0.079    .
+97            1348    HHDQCFK|FQ  0.075    .
+97            1352    CFKFQGR|SY  0.108    .
+97            1357    GRSYQNR|VS  0.126    .
+97            1374    LPILLMR|TL  0.090    .
+97            1382    LTCIVHR|TL  0.089    .
+97            1414    SYAETQR|IP  0.081    .
+97            1421    IPVTWLR|ND  0.089    .
+97            1430    YNVGIAK|SR  0.088    .
+97            1432    VGIAKSR|RK  0.099    .
+97            1433    GIAKSRR|KG  0.153    .
+97            1434    IAKSRRK|GI  0.125    .
+97            1483    IQMTNEK|LY  0.062    .
+97            1490    LYNAPYR|HS  0.128    .
+97            1493    APYRHSR|HV  0.481    .
+97            1534    GGIVALK|SV  0.085    .
+97            1539    LKSVLLK|LY  0.060    .
+97            1550    PVLENSK|WG  0.052    .
+97            1557    WGVENNR|LS  0.080    .
+97            1561    NNRLSFR|AW  0.147    .
+97            1589    QDPGLSR|YK  0.073    .
+97            1591    PGLSRYK|LD  0.057    .
+97            1613    NFCPDER|SK  0.098    .
+97            1615    CPDERSK|ER  0.056    .
+97            1617    DERSKER|LI  0.124    .
+97            1621    KERLISK|AT  0.062    .
+97            1625    ISKATNR|PD  0.091    .
+97            1630    NRPDLVK|LI  0.066    .
+97            1637    LIHEYSR|DI  0.165    .
+97            1640    EYSRDIR|DV  0.613 *ProP*
+97            1649    EGFDPTK|CH  0.061    .
+97            1655    KCHSDYK|SY  0.087    .
+97            1660    YKSYTSK|VV  0.094    .
+97            1670    SYTSFEK|DQ  0.060    .
+97            1700    SDVNIWR|CR  0.077    .
+97            1702    VNIWRCR|TA  0.100    .
+97            1718    HVFGFTK|NG  0.056    .
+97            1723    TKNGALR|YQ  0.122    .
+97            1732    GSCVDYR|HN  0.132    .
+97            1757    PSILLMR|TL  0.105    .
+97            1765    LTCIVHR|TL  0.089    .
+97            1797    SYAETQR|IP  0.081    .
+97            1804    IPVTWLR|ND  0.089    .
+97            1813    YNVGIAK|SR  0.088    .
+97            1815    VGIAKSR|RK  0.099    .
+97            1816    GIAKSRR|KG  0.153    .
+97            1817    IAKSRRK|GI  0.125    .
+97            1866    IQMTNEK|LY  0.062    .
+97            1873    LYNAPYR|HS  0.128    .
+97            1876    APYRHSR|HV  0.481    .
+97            1917    GGIVALK|SV  0.085    .
+97            1922    LKSVLLK|LY  0.060    .
+97            1933    PVLENSK|WG  0.052    .
+97            1940    WGVENNR|LS  0.080    .
+97            1944    NNRLSFR|AW  0.147    .
+97            1972    QDPGLSR|YK  0.073    .
+97            1974    PGLSRYK|LD  0.057    .
+97            1996    NFCPDER|SK  0.098    .
+97            1998    CPDERSK|ER  0.056    .
+97            2000    DERSKER|LI  0.124    .
+97            2004    KERLISK|AT  0.062    .
+97            2008    ISKATNR|PD  0.091    .
+97            2013    NRPDLVK|LI  0.066    .
+97            2020    LIHEYSR|DI  0.165    .
+97            2023    EYSRDIR|DV  0.613 *ProP*
+97            2032    EGFDPTK|CH  0.061    .
+97            2038    KCHSDYK|SY  0.087    .
+97            2043    YKSYTSK|VV  0.094    .
+97            2053    SYTSFEK|DQ  0.060    .
+97            2083    SDVNIWR|CR  0.077    .
+97            2085    VNIWRCR|TA  0.100    .
+97            2101    HVFGFTK|NG  0.056    .
+97            2106    TKNGALR|YQ  0.122    .
+97            2115    GSCVDYR|HN  0.132    .
+97            2146    GYVQDFR|TD  0.082    .
+97            2152    RTDVPIR|TR  0.073    .
+97            2154    DVPIRTR|VL  0.084    .
+97            2166    TGYQPIR|DQ  0.104    .
+97            2173    DQYFLIR|SI  0.132    .
+97            2180    SIPATYR|QI  0.097    .
+97            2186    RQIFALR|GK  0.081    .
+97            2188    IFALRGK|QV  0.092    .
+97            2192    RGKQVFR|SR  0.121    .
+97            2194    KQVFRSR|DW  0.106    .
+97            2235    GCSCVPR|GN  0.156    .
+97            2252    TPVLISR|LK  0.071    .
+97            2254    VLISRLK|LF  0.060    .
+97            2259    LKLFHPK|RY  0.069    .
+97            2260    KLFHPKR|YS  0.200    .
+97            2280    VYPAAVR|EQ  0.074    .
+97            2294    HAPFSWR|IN  0.093    .
+97            2299    WRINGER|KR  0.081    .
+97            2300    RINGERK|RN  0.106    .
+97            2301    INGERKR|NF  0.181    .
+97            2307    RNFAVGK|GV  0.091    .
+97            2334    SHTEIIR|KS  0.081    .
+97            2335    HTEIIRK|SR  0.087    .
+97            2337    EIIRKSR|AY  0.292    .
+97            2346    NNMVHGK|GD  0.079    .
+97            2354    DTTISSK|FA  0.070    .
+97            2357    ISSKFAR|WA  0.212    .
+97            2373    TGHQPIR|DQ  0.108    .
+97            2380    DQYFLIR|SV  0.206    .
+97            2393    DFLIISR|LG  0.071    .
+97            2397    ISRLGWK|SL  0.091    .
+97            2404    SLSLEIR|TG  0.094    .
+97            2408    EIRTGVK|EC  0.053    .
+97            2413    VKECTCR|IE  0.091    .
+97            2439    QDVTCGK|AW  0.076    .
+97            2457    IIINLPR|RI  0.105    .
+97            2458    IINLPRR|IL  0.190    .
+97            2476    STNLTQK|AA  0.084    .
+97            2491    DQYFLIR|SV  0.163    .
+97            2507    PSIIMYR|FS  0.097    .
+97            2519    GPPLIFR|KC  0.086    .
+97            2520    PPLIFRK|CA  0.107    .
+97            2536    VEYSEIK|QP  0.059    .
+97            2540    EIKQPIR|SR  0.103    .
+97            2542    KQPIRSR|YL  0.146    .
+97            2562    TSISLTR|FI  0.116    .
+97            2567    TRFIHSR|TP  0.086    .
+97            2572    SRTPIYR|DA  0.186    .
+97            2575    PIYRDAR|GK  0.194    .
+97            2577    YRDARGK|LY  0.066    .
+97            2580    ARGKLYR|GR  0.122    .
+97            2582    GKLYRGR|IP  0.074    .
+97            2595    EVNPPGK|SG  0.084    .
+97            2612    IALASAR|GP  0.081    .
+97            2630    ASVIIAR|EF  0.101    .
+97            2634    IAREFAK|YP  0.072    .
+97            2639    AKYPPEK|KK  0.074    .
+97            2640    KYPPEKK|KG  0.065    .
+97            2641    YPPEKKK|GP  0.142    .
+97            2651    PDLPEPR|FT  0.150    .
+97            2660    GTINFCR|YK  0.082    .
+97            2662    INFCRYK|KL  0.064    .
+97            2663    NFCRYKK|LT  0.189    .
+97            2678    TNTSIYR|AK  0.073    .
+97            2680    TSIYRAK|TL  0.072    .
+97            2684    RAKTLPR|VS  0.087    .
+97            2687    TLPRVSR|NS  0.225    .
+97            2698    NSTEFLK|IY  0.063    .
+97            2704    KIYSYLR|FL  0.082    .
+97            2708    YLRFLIR|WR  0.080    .
+97            2710    RFLIRWR|LE  0.064    .
+97            2715    WRLEICR|FG  0.085    .
+97            2718    EICRFGR|TW  0.343    .
+97            2724    RTWHDLR|NL  0.073    .
+97            2743    NSLFSSR|DW  0.106    .
+97            2773    CCYLSPR|VT  0.090    .
+97            2776    LSPRVTR|QP  0.201    .
+97            2780    VTRQPIR|TR  0.082    .
+97            2782    RQPIRTR|YL  0.131    .
+97            2794    TGYQPIR|DQ  0.087    .
+97            2825    QDHGLGR|CR  0.100    .
+97            2827    HGLGRCR|IR  0.081    .
+97            2829    LGRCRIR|VQ  0.090    .
+97            2837    QCFSQPR|TT  0.090    .
+97            2847    NQNSLFR|SR  0.110    .
+97            2849    NSLFRSR|DW  0.100    .
+97            2875    LPEHESK|CP  0.063    .
+97            2878    HESKCPR|QS  0.122    .
+97            2882    CPRQSSR|PR  0.099    .
+97            2884    RQSSRPR|FR  0.136    .
+97            2886    SSRPRFR|QP  0.100    .
+97            2890    RFRQPIR|TR  0.086    .
+97            2892    RQPIRTR|YL  0.142    .
+97            2904    TGYQPIR|DQ  0.087    .
+97            2935    QDHGLGR|CR  0.100    .
+97            2937    HGLGRCR|IR  0.081    .
+97            2939    LGRCRIR|VQ  0.090    .
+97            2947    QCFSQPR|KF  0.102    .
+97            2948    CFSQPRK|FS  0.096    .
+97            2976    TLISCVK|DL  0.064    .
+97            2986    ITSSYLR|LP  0.069    .
+97            2991    LRLPLQR|LL  0.088    .
+97            2998    LLVTATR|YL  0.110    .
+97            3010    TGYQPIR|DQ  0.097    .
+97            3022    ILSVPDK|IS  0.068    .
+97            3034    PPLASAR|GP  0.089    .
+97            3047    PNHPSLK|NP  0.063    .
+97            3051    SLKNPIR|TR  0.095    .
+97            3053    KNPIRTR|YL  0.160    .
+97            3060    YLGHVTR|TG  0.089    .
+97            3063    HVTRTGK|QP  0.091    .
+97            3067    TGKQPIR|TR  0.084    .
+97            3069    KQPIRTR|YL  0.129    .
+97            3081    TGYQPIR|DL  0.146    .
+97            3085    PIRDLLR|GM  0.073    .
+97            3099    EPTETSK|QP  0.057    .
+97            3103    TSKQPIR|TR  0.093    .
+97            3105    KQPIRTR|YL  0.128    .
+97            3117    TGYQPIR|YQ  0.106    .
+97            3129    IWSVPVK|DV  0.151    .
+97            3132    VPVKDVR|CL  0.090    .
+97            3140    LESMASR|SV  0.228    .
+97            3143    MASRSVR|NM  0.379    .
+97            3165    PAVANFR|NR  0.067    .
+97            3167    VANFRNR|PK  0.108    .
+97            3169    NFRNRPK|TS  0.072    .
+97            3172    NRPKTSK|QP  0.060    .
+97            3176    TSKQPIR|TH  0.119    .
+97            3190    TGYQPIR|DQ  0.114    .
+97            3211    YPPGTDR|KQ  0.068    .
+97            3212    PPGTDRK|QV  0.114    .
+____________________________^_________________
+
+
+
+

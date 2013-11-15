@@ -1,0 +1,312 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2058 297         
+MFQFKPKRENFDISKLLLELRKKGNSHQKRFLAYATGPFIKGLEGIPRWGGIHNQSYLQFQIRYRNRFGIVRKRKIRAFK      80
+CSRFQVFILSGTGDMNQTPQNRTEENVTRERNIIGKVLMVIKHPWSLLRVVSLAREVASSECGGLLILVRSLIWYALGCS     160
+WRLLNFIMNAPTIIGAAQPDVLCVHYKFDLYTTNSLLGKISAALTMTVLARIWPGQCSDKFVREKVEGRKFGYLALVMHS     240
+HNGGLAICGAKEREQILTSSKVRLNRPNQEILVPNWLITSHVTSNEMYFKASELESSSAPSSARVFQPTLAEFEKVSVTG     320
+TNHNSLFRSRDLLSANQGPVFPDLIGSATVGKGAYGTAVLYRKKDDDSLVILKEINMHDLSYTERQLALNESLLAHMSLS     400
+LSLSLSLSLYLSISILPQVRVLGMLHHPNIISYYDSFEEDGTLMIEMDLREIVPLLEKLKGFHNCNICSFLLRLGLSALK     480
+HAEIRALLSDSYSDPQLISQQDNYRSDNHTISNQTSQSIINHSNQTSLLRTLAQMLASQSQAIPEYRVLDMFRQMLEACK     560
+HLHDHNVLHRDLKTANIFLTKNDMVKLGDFGISKIIETKGASTVLGTPYYISPEMCEGKQYGPKSDVWALGCVLYEMCNR     640
+EKAFEGSNLPALANKIIKGQFKPVCGSYSSHLREVVDVLLTTDPEKRPSIDIVLNQVLGLVQFYRHREERAERQEVIRSM     720
+IYYLDTSLFCLCPIDLPLTCIIRTVSIGRNHVVASTELHSTYSWGEGSHGQLGHGNRNSTNTPQCVDTLHGKFISSVACG     800
+NGYTLFVTDNGLLLSCGSASSRCLGNYATDNEIFVSTIADINLPPAEEEFYVMVQKPTESSKQPIRTRYLGHVTGYQPIR     880
+DEYVSPDSVSSWGGIFRGMDGATFALASAVTAASHLKLLPSIDVYKKLLSTKFQLPSSSGSGVMASQKVPKWAKSIHFIY     960
+IRCEQAGRLGGGIFSGDGWGHLCACQRTQADATEDVLKPRMCESMLSTDVVAVSCGSSHAALLTKGGAVFTWGTGDTGKL    1040
+GHGSSIDRLLPTPVTFMEEWICLKKVVCGFDGTVFLTEDGTLYACGSNKYNKLGLNKRKGFLLTMKALFYNSKEETTVES    1120
+VNVPTAVKAIGSKRVVEVSVGKYHSSVVVDTGQIYSFGNNKSGQLGVKSFTYDNLASNMESHRTRVQPIPSPLTTTSDPP    1200
+IVTPPLSTTPDPLILIPSPLLSSKYRVLVGCAAQADATEDVLKPRMCESMLSTDVVAVSCGSSHAALLTKGGAVFTWGTG    1280
+DTGKLGHGSSIDRLLPTPVTFMEEWICLKKVVCGFDGTVFLTEDGTLYACGSNKYNKLGLNKRKGFLLTMKALFYNSKEE    1360
+TTVESVNVPTAVKAIGSKRVVEVSVGKYHSSVVVDTGQIYSFGNNKSGQLGVKSFTYDNLASNMESHRTRYVACCETYTV    1440
+AVTDTEGIYLWGHPPPTNLHDMGLRGVALSDSEDSDMDVYSGAGSGKKARSALTTTDGSLKLPKSLSDPDIHFSPGQVTA    1520
+KSAKTSGGGVRKTVSERNAMIEMNDMRTTPIEISLTDAARRASASGHPGLNYIKRVVHCDQSLLIQVSTTAPLKTRRKHT    1600
+GRQTVSSEDNLASSERSESAHRTADEVRHCALSLSLSLSISLSLSPLFLSLSLCLSLSLSLPRYTSLSLPRYTSVLYCVA    1680
+LATTVLSLVRKVPTPLDPQPRHLILGGEEEEEEEEMRTWLRMELEEGGITKPSSDLDTSNGLPSSNVQSAKSKDSGFETT    1760
+QAIKGQPSSTVTKSSKDMTTLMNRGIALRAREHEGRDVPKGSAYPTFFLAQASRVSDKRRLRKKISAVVTEIETTDSDDE    1840
+ALATKSGRYRFNSNTRRGDPYRDKFSLNWRSDVRTNKATELRSKNPSNVNNFKLKSPYGGGGRGVANFSRELECVQEKAE    1920
+LLQEKLSSLEQRHSEQSRELDAFRTTKMDLEEKFSDKWRVLELEKEQTVRELAKYRALLENERNSALQVQGQLESEVREL    2000
+QTQLEVQKQQLTNQTSVMYELQDVLSSIQQRQNERSSVCTMIVLYIFLYNISRYGFQI                          2080
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+..........................................................                          2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+297              5    --MFQFK|PK  0.069    .
+297              7    MFQFKPK|RE  0.061    .
+297              8    FQFKPKR|EN  0.161    .
+297             15    ENFDISK|LL  0.056    .
+297             21    KLLLELR|KK  0.075    .
+297             22    LLLELRK|KG  0.069    .
+297             23    LLELRKK|GN  0.110    .
+297             29    KGNSHQK|RF  0.068    .
+297             30    GNSHQKR|FL  0.418    .
+297             41    ATGPFIK|GL  0.088    .
+297             48    GLEGIPR|WG  0.107    .
+297             63    YLQFQIR|YR  0.091    .
+297             65    QFQIRYR|NR  0.083    .
+297             67    QIRYRNR|FG  0.088    .
+297             72    NRFGIVR|KR  0.068    .
+297             73    RFGIVRK|RK  0.088    .
+297             74    FGIVRKR|KI  0.171    .
+297             75    GIVRKRK|IR  0.178    .
+297             77    VRKRKIR|AF  0.413    .
+297             80    RKIRAFK|CS  0.183    .
+297             83    RAFKCSR|FQ  0.087    .
+297            102    NQTPQNR|TE  0.082    .
+297            109    TEENVTR|ER  0.103    .
+297            111    ENVTRER|NI  0.090    .
+297            116    ERNIIGK|VL  0.074    .
+297            122    KVLMVIK|HP  0.061    .
+297            129    HPWSLLR|VV  0.127    .
+297            135    RVVSLAR|EV  0.121    .
+297            150    GLLILVR|SL  0.107    .
+297            162    ALGCSWR|LL  0.094    .
+297            187    VLCVHYK|FD  0.069    .
+297            199    TNSLLGK|IS  0.079    .
+297            211    TMTVLAR|IW  0.104    .
+297            220    PGQCSDK|FV  0.093    .
+297            223    CSDKFVR|EK  0.091    .
+297            225    DKFVREK|VE  0.068    .
+297            229    REKVEGR|KF  0.095    .
+297            230    EKVEGRK|FG  0.082    .
+297            251    LAICGAK|ER  0.074    .
+297            253    ICGAKER|EQ  0.069    .
+297            261    QILTSSK|VR  0.052    .
+297            263    LTSSKVR|LN  0.109    .
+297            266    SKVRLNR|PN  0.245    .
+297            290    SNEMYFK|AS  0.066    .
+297            304    SAPSSAR|VF  0.098    .
+297            315    TLAEFEK|VS  0.070    .
+297            328    NHNSLFR|SR  0.095    .
+297            330    NSLFRSR|DL  0.105    .
+297            352    GSATVGK|GA  0.080    .
+297            362    GTAVLYR|KK  0.094    .
+297            363    TAVLYRK|KD  0.089    .
+297            364    AVLYRKK|DD  0.087    .
+297            373    DSLVILK|EI  0.058    .
+297            385    DLSYTER|QL  0.096    .
+297            420    SILPQVR|VL  0.080    .
+297            450    MIEMDLR|EI  0.081    .
+297            458    IVPLLEK|LK  0.055    .
+297            460    PLLEKLK|GF  0.063    .
+297            473    ICSFLLR|LG  0.097    .
+297            480    LGLSALK|HA  0.058    .
+297            485    LKHAEIR|AL  0.080    .
+297            505    SQQDNYR|SD  0.119    .
+297            530    NQTSLLR|TL  0.086    .
+297            547    QAIPEYR|VL  0.100    .
+297            553    RVLDMFR|QM  0.081    .
+297            560    QMLEACK|HL  0.065    .
+297            570    DHNVLHR|DL  0.117    .
+297            573    VLHRDLK|TA  0.131    .
+297            581    ANIFLTK|ND  0.066    .
+297            586    TKNDMVK|LG  0.069    .
+297            594    GDFGISK|II  0.072    .
+297            599    SKIIETK|GA  0.107    .
+297            619    PEMCEGK|QY  0.079    .
+297            624    GKQYGPK|SD  0.091    .
+297            640    LYEMCNR|EK  0.071    .
+297            642    EMCNREK|AF  0.064    .
+297            655    LPALANK|II  0.074    .
+297            658    LANKIIK|GQ  0.072    .
+297            662    IIKGQFK|PV  0.097    .
+297            673    SYSSHLR|EV  0.193    .
+297            686    LTTDPEK|RP  0.057    .
+297            687    TTDPEKR|PS  0.167    .
+297            705    GLVQFYR|HR  0.088    .
+297            707    VQFYRHR|EE  0.084    .
+297            710    YRHREER|AE  0.389    .
+297            713    REERAER|QE  0.144    .
+297            718    ERQEVIR|SM  0.178    .
+297            743    PLTCIIR|TV  0.131    .
+297            749    RTVSIGR|NH  0.070    .
+297            777    QLGHGNR|NS  0.083    .
+297            792    VDTLHGK|FI  0.076    .
+297            822    CGSASSR|CL  0.126    .
+297            856    FYVMVQK|PT  0.066    .
+297            862    KPTESSK|QP  0.062    .
+297            866    SSKQPIR|TR  0.086    .
+297            868    KQPIRTR|YL  0.136    .
+297            880    TGYQPIR|DE  0.122    .
+297            897    SWGGIFR|GM  0.129    .
+297            917    TAASHLK|LL  0.064    .
+297            926    PSIDVYK|KL  0.062    .
+297            927    SIDVYKK|LL  0.108    .
+297            932    KKLLSTK|FQ  0.065    .
+297            948    GVMASQK|VP  0.058    .
+297            951    ASQKVPK|WA  0.089    .
+297            954    KVPKWAK|SI  0.091    .
+297            962    IHFIYIR|CE  0.086    .
+297            968    RCEQAGR|LG  0.090    .
+297            987    HLCACQR|TQ  0.099    .
+297            998    ATEDVLK|PR  0.058    .
+297           1000    EDVLKPR|MC  0.122    .
+297           1025    HAALLTK|GG  0.064    .
+297           1039    GTGDTGK|LG  0.060    .
+297           1048    HGSSIDR|LL  0.081    .
+297           1064    EEWICLK|KV  0.067    .
+297           1065    EWICLKK|VV  0.108    .
+297           1089    YACGSNK|YN  0.068    .
+297           1092    GSNKYNK|LG  0.069    .
+297           1097    NKLGLNK|RK  0.063    .
+297           1098    KLGLNKR|KG  0.106    .
+297           1099    LGLNKRK|GF  0.083    .
+297           1106    GFLLTMK|AL  0.060    .
+297           1113    ALFYNSK|EE  0.065    .
+297           1128    NVPTAVK|AI  0.067    .
+297           1133    VKAIGSK|RV  0.066    .
+297           1134    KAIGSKR|VV  0.335    .
+297           1142    VEVSVGK|YH  0.069    .
+297           1161    YSFGNNK|SG  0.073    .
+297           1168    SGQLGVK|SF  0.074    .
+297           1183    SNMESHR|TR  0.085    .
+297           1185    MESHRTR|VQ  0.085    .
+297           1224    SPLLSSK|YR  0.062    .
+297           1226    LLSSKYR|VL  0.119    .
+297           1243    ATEDVLK|PR  0.058    .
+297           1245    EDVLKPR|MC  0.122    .
+297           1270    HAALLTK|GG  0.064    .
+297           1284    GTGDTGK|LG  0.060    .
+297           1293    HGSSIDR|LL  0.081    .
+297           1309    EEWICLK|KV  0.067    .
+297           1310    EWICLKK|VV  0.108    .
+297           1334    YACGSNK|YN  0.068    .
+297           1337    GSNKYNK|LG  0.069    .
+297           1342    NKLGLNK|RK  0.063    .
+297           1343    KLGLNKR|KG  0.106    .
+297           1344    LGLNKRK|GF  0.083    .
+297           1351    GFLLTMK|AL  0.060    .
+297           1358    ALFYNSK|EE  0.065    .
+297           1373    NVPTAVK|AI  0.067    .
+297           1378    VKAIGSK|RV  0.066    .
+297           1379    KAIGSKR|VV  0.335    .
+297           1387    VEVSVGK|YH  0.069    .
+297           1406    YSFGNNK|SG  0.073    .
+297           1413    SGQLGVK|SF  0.074    .
+297           1428    SNMESHR|TR  0.080    .
+297           1430    MESHRTR|YV  0.267    .
+297           1465    LHDMGLR|GV  0.088    .
+297           1487    SGAGSGK|KA  0.094    .
+297           1488    GAGSGKK|AR  0.102    .
+297           1490    GSGKKAR|SA  0.311    .
+297           1501    TTDGSLK|LP  0.052    .
+297           1504    GSLKLPK|SL  0.100    .
+297           1521    PGQVTAK|SA  0.139    .
+297           1524    VTAKSAK|TS  0.101    .
+297           1531    TSGGGVR|KT  0.100    .
+297           1532    SGGGVRK|TV  0.131    .
+297           1537    RKTVSER|NA  0.119    .
+297           1547    IEMNDMR|TT  0.089    .
+297           1560    SLTDAAR|RA  0.130    .
+297           1561    LTDAARR|AS  0.133    .
+297           1574    PGLNYIK|RV  0.060    .
+297           1575    GLNYIKR|VV  0.352    .
+297           1594    STTAPLK|TR  0.056    .
+297           1596    TAPLKTR|RK  0.117    .
+297           1597    APLKTRR|KH  0.127    .
+297           1598    PLKTRRK|HT  0.116    .
+297           1602    RRKHTGR|QT  0.150    .
+297           1616    NLASSER|SE  0.174    .
+297           1622    RSESAHR|TA  0.121    .
+297           1628    RTADEVR|HC  0.092    .
+297           1663    LSLSLPR|YT  0.106    .
+297           1671    TSLSLPR|YT  0.107    .
+297           1690    TVLSLVR|KV  0.087    .
+297           1691    VLSLVRK|VP  0.088    .
+297           1701    PLDPQPR|HL  0.109    .
+297           1717    EEEEEMR|TW  0.086    .
+297           1721    EMRTWLR|ME  0.084    .
+297           1731    EEGGITK|PS  0.069    .
+297           1751    SNVQSAK|SK  0.148    .
+297           1753    VQSAKSK|DS  0.116    .
+297           1764    ETTQAIK|GQ  0.056    .
+297           1773    PSSTVTK|SS  0.108    .
+297           1776    TVTKSSK|DM  0.073    .
+297           1784    MTTLMNR|GI  0.071    .
+297           1789    NRGIALR|AR  0.110    .
+297           1791    GIALRAR|EH  0.096    .
+297           1796    AREHEGR|DV  0.210    .
+297           1800    EGRDVPK|GS  0.069    .
+297           1814    FLAQASR|VS  0.082    .
+297           1818    ASRVSDK|RR  0.061    .
+297           1819    SRVSDKR|RL  0.227    .
+297           1820    RVSDKRR|LR  0.175    .
+297           1822    SDKRRLR|KK  0.226    .
+297           1823    DKRRLRK|KI  0.377    .
+297           1824    KRRLRKK|IS  0.137    .
+297           1845    DEALATK|SG  0.068    .
+297           1848    LATKSGR|YR  0.091    .
+297           1850    TKSGRYR|FN  0.163    .
+297           1856    RFNSNTR|RG  0.095    .
+297           1857    FNSNTRR|GD  0.128    .
+297           1862    RRGDPYR|DK  0.127    .
+297           1864    GDPYRDK|FS  0.062    .
+297           1870    KFSLNWR|SD  0.113    .
+297           1874    NWRSDVR|TN  0.080    .
+297           1877    SDVRTNK|AT  0.115    .
+297           1882    NKATELR|SK  0.139    .
+297           1884    ATELRSK|NP  0.063    .
+297           1893    SNVNNFK|LK  0.077    .
+297           1895    VNNFKLK|SP  0.109    .
+297           1903    PYGGGGR|GV  0.085    .
+297           1910    GVANFSR|EL  0.115    .
+297           1918    LECVQEK|AE  0.060    .
+297           1925    AELLQEK|LS  0.069    .
+297           1932    LSSLEQR|HS  0.184    .
+297           1938    RHSEQSR|EL  0.165    .
+297           1944    RELDAFR|TT  0.081    .
+297           1947    DAFRTTK|MD  0.110    .
+297           1953    KMDLEEK|FS  0.064    .
+297           1957    EEKFSDK|WR  0.058    .
+297           1959    KFSDKWR|VL  0.123    .
+297           1965    RVLELEK|EQ  0.054    .
+297           1970    EKEQTVR|EL  0.091    .
+297           1974    TVRELAK|YR  0.069    .
+297           1976    RELAKYR|AL  0.110    .
+297           1983    ALLENER|NS  0.066    .
+297           1998    QLESEVR|EL  0.095    .
+297           2008    TQLEVQK|QQ  0.065    .
+297           2031    LSSIQQR|QN  0.123    .
+297           2035    QQRQNER|SS  0.094    .
+297           2053    FLYNISR|YG  0.091    .
+____________________________^_________________
+
+
+
+

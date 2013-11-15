@@ -1,0 +1,323 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1532 571         
+MPRSITRHESSKKMGLGDISDPESDSDISQSDSESSDRENTNQCLLHCFALKHDLIDADISKADLKDREKLLVEAIKESN      80
+SLIEIREILNQNPEMLDNITNKLFPETYENKCPNCTCELCDQSFPFIYQLLEHKELYHKKDTKELQIDEDYPIDDTSADS     160
+SDKDSENPSPTVSTLTKVVKKPELNYKELYHLRDQHARKFERLYKTKLTESKQHLSRIRLFEKQLDEFITNFKDSTFNEF     240
+SDSIINSKNIADFLELSRLFAAKKFVKVSRSNQLLQAIKTLCTGLKYAVIPLVVFQRKRLNEKERKLIKVVDKKSVEDSK     320
+KLFLKYTKEFANIFKVVEKTLLLLKDLENESLKGQLSSFLYKMAACALCDQSFPFIYQLLEHKELYHKMSTNNEDKDTKE     400
+LQIDEDYPIDDTSADSSDKDSENPSPTVSTLTKVVKKPELNYKELYHLRDQHARKFERLYKTKLTESKQHLSRIRLFEKQ     480
+LDEFITNFKDSTFNEFSDSIINSKNIADFLELSRLFAAKKFVKVSRSNQLLQAIKTLCTGLKYAVIPLVVFQRKRLNEKE     560
+RKLIKVVDKKSVEDIKKLFLKYTKEFANIFKVVEKTFESSDRENTNQCLLHCFALKHDLIDADISKADLTDREKLLVDAI     640
+KESYSLIEIREMLNQNPEMIDNITNKLFPETYENKCPNCTCELCDQSFPFIYQLLEHKELYHKMPTNNEDKDTKELQIDE     720
+DYPIDDTSADSSDKDSENPSPTVSTLTKVVKKPELNYKELYHLRDQHARKFERLYKTKLTESKQHLSRIRLFEKQLDEFI     800
+TNFKDSTFNEFSDSIINSKNIADFLELSRLFAAKKFVKVSRSNQLLQAIKTLCTGLKYAVIPLVVFQRKRLNEKERKLIK     880
+VVDKKSVEDSKKLFLKYTKEFANIFKVVEKTVLLLKDLENESLKVLAHPLVMPRSITRHESSKKMGLGDISDPESDSDIS     960
+QSDSESSDRENTNQCLLHCFALKHDLIDADISKADLKDREKLLVEAIKESNSLIEIREILNQNPEMLDNITNKLFPETYE    1040
+NKCPNCTCELCDQSFPFIYQLLEHKELYHKKDTKELQIDEDYPIDDTSADSSDKDSENPSPTVSTLTKVVKKPELNYKEL    1120
+YHLRDQHARKFERLYKTKLTESKQHLSRIRLFEKQLDEFITNFKDSTFNEFSDSIINSKNIADFLELSRLFAAKKFVKVS    1200
+RSNQLLQAIKTLCTGLKYAVIPLVVFQRKRLNEKERKLIKVVDKKSVEDSKKLFLKYTKEFANIFKVVEKTLLLLKDLEN    1280
+ESLKGQLSSFLYKMAACALCDQSFPFIYQLLEHKELYHKMSTNNEDKDTKELQIDEDYPIDDTSADSSDKDSENPSPTVS    1360
+TLTKVVKKPELNYKELYHLRDQHARKFERLYKTKLTESKQHLSRIRLFEKQLDEFITNFKDSTFNEFSDSIINSKNIADF    1440
+LELSRLFAAKKFVKVSRSNQLLQAIKTLCTGLKYAVIPLVVFQRKRLNEKERKLIKVVDKKSVEDIKKLFLKYTKEFANI    1520
+FKVVEKTLKPAF                                                                        1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+............                                                                        1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+571              3    ----MPR|SI  0.210    .
+571              7    MPRSITR|HE  0.105    .
+571             12    TRHESSK|KM  0.084    .
+571             13    RHESSKK|MG  0.087    .
+571             38    DSESSDR|EN  0.079    .
+571             52    LHCFALK|HD  0.058    .
+571             62    IDADISK|AD  0.059    .
+571             66    ISKADLK|DR  0.075    .
+571             68    KADLKDR|EK  0.086    .
+571             70    DLKDREK|LL  0.060    .
+571             77    LLVEAIK|ES  0.060    .
+571             86    NSLIEIR|EI  0.095    .
+571            102    LDNITNK|LF  0.062    .
+571            111    PETYENK|CP  0.052    .
+571            134    YQLLEHK|EL  0.061    .
+571            139    HKELYHK|KD  0.059    .
+571            140    KELYHKK|DT  0.150    .
+571            143    YHKKDTK|EL  0.070    .
+571            163    SADSSDK|DS  0.068    .
+571            177    TVSTLTK|VV  0.088    .
+571            180    TLTKVVK|KP  0.064    .
+571            181    LTKVVKK|PE  0.080    .
+571            187    KPELNYK|EL  0.073    .
+571            193    KELYHLR|DQ  0.098    .
+571            198    LRDQHAR|KF  0.122    .
+571            199    RDQHARK|FE  0.084    .
+571            202    HARKFER|LY  0.112    .
+571            205    KFERLYK|TK  0.108    .
+571            207    ERLYKTK|LT  0.080    .
+571            212    TKLTESK|QH  0.059    .
+571            217    SKQHLSR|IR  0.072    .
+571            219    QHLSRIR|LF  0.107    .
+571            223    RIRLFEK|QL  0.077    .
+571            233    EFITNFK|DS  0.065    .
+571            248    DSIINSK|NI  0.067    .
+571            258    DFLELSR|LF  0.065    .
+571            263    SRLFAAK|KF  0.073    .
+571            264    RLFAAKK|FV  0.154    .
+571            267    AAKKFVK|VS  0.062    .
+571            270    KFVKVSR|SN  0.129    .
+571            279    QLLQAIK|TL  0.069    .
+571            286    TLCTGLK|YA  0.071    .
+571            297    PLVVFQR|KR  0.071    .
+571            298    LVVFQRK|RL  0.093    .
+571            299    VVFQRKR|LN  0.177    .
+571            303    RKRLNEK|ER  0.057    .
+571            305    RLNEKER|KL  0.138    .
+571            306    LNEKERK|LI  0.082    .
+571            309    KERKLIK|VV  0.078    .
+571            313    LIKVVDK|KS  0.059    .
+571            314    IKVVDKK|SV  0.340    .
+571            320    KSVEDSK|KL  0.062    .
+571            321    SVEDSKK|LF  0.095    .
+571            325    SKKLFLK|YT  0.074    .
+571            328    LFLKYTK|EF  0.059    .
+571            335    EFANIFK|VV  0.084    .
+571            339    IFKVVEK|TL  0.058    .
+571            345    KTLLLLK|DL  0.058    .
+571            353    LENESLK|GQ  0.061    .
+571            362    LSSFLYK|MA  0.099    .
+571            383    YQLLEHK|EL  0.060    .
+571            388    HKELYHK|MS  0.060    .
+571            396    STNNEDK|DT  0.079    .
+571            399    NEDKDTK|EL  0.062    .
+571            419    SADSSDK|DS  0.068    .
+571            433    TVSTLTK|VV  0.088    .
+571            436    TLTKVVK|KP  0.064    .
+571            437    LTKVVKK|PE  0.080    .
+571            443    KPELNYK|EL  0.073    .
+571            449    KELYHLR|DQ  0.098    .
+571            454    LRDQHAR|KF  0.122    .
+571            455    RDQHARK|FE  0.084    .
+571            458    HARKFER|LY  0.112    .
+571            461    KFERLYK|TK  0.108    .
+571            463    ERLYKTK|LT  0.080    .
+571            468    TKLTESK|QH  0.059    .
+571            473    SKQHLSR|IR  0.072    .
+571            475    QHLSRIR|LF  0.107    .
+571            479    RIRLFEK|QL  0.077    .
+571            489    EFITNFK|DS  0.065    .
+571            504    DSIINSK|NI  0.067    .
+571            514    DFLELSR|LF  0.065    .
+571            519    SRLFAAK|KF  0.073    .
+571            520    RLFAAKK|FV  0.154    .
+571            523    AAKKFVK|VS  0.062    .
+571            526    KFVKVSR|SN  0.129    .
+571            535    QLLQAIK|TL  0.069    .
+571            542    TLCTGLK|YA  0.071    .
+571            553    PLVVFQR|KR  0.071    .
+571            554    LVVFQRK|RL  0.093    .
+571            555    VVFQRKR|LN  0.177    .
+571            559    RKRLNEK|ER  0.057    .
+571            561    RLNEKER|KL  0.138    .
+571            562    LNEKERK|LI  0.082    .
+571            565    KERKLIK|VV  0.078    .
+571            569    LIKVVDK|KS  0.062    .
+571            570    IKVVDKK|SV  0.315    .
+571            576    KSVEDIK|KL  0.061    .
+571            577    SVEDIKK|LF  0.086    .
+571            581    IKKLFLK|YT  0.071    .
+571            584    LFLKYTK|EF  0.059    .
+571            591    EFANIFK|VV  0.089    .
+571            595    IFKVVEK|TF  0.066    .
+571            602    TFESSDR|EN  0.087    .
+571            616    LHCFALK|HD  0.058    .
+571            626    IDADISK|AD  0.059    .
+571            632    KADLTDR|EK  0.068    .
+571            634    DLTDREK|LL  0.059    .
+571            641    LLVDAIK|ES  0.062    .
+571            650    YSLIEIR|EM  0.081    .
+571            666    IDNITNK|LF  0.062    .
+571            675    PETYENK|CP  0.052    .
+571            698    YQLLEHK|EL  0.062    .
+571            703    HKELYHK|MP  0.059    .
+571            711    PTNNEDK|DT  0.073    .
+571            714    NEDKDTK|EL  0.064    .
+571            734    SADSSDK|DS  0.068    .
+571            748    TVSTLTK|VV  0.088    .
+571            751    TLTKVVK|KP  0.064    .
+571            752    LTKVVKK|PE  0.080    .
+571            758    KPELNYK|EL  0.073    .
+571            764    KELYHLR|DQ  0.098    .
+571            769    LRDQHAR|KF  0.122    .
+571            770    RDQHARK|FE  0.084    .
+571            773    HARKFER|LY  0.112    .
+571            776    KFERLYK|TK  0.108    .
+571            778    ERLYKTK|LT  0.080    .
+571            783    TKLTESK|QH  0.059    .
+571            788    SKQHLSR|IR  0.072    .
+571            790    QHLSRIR|LF  0.107    .
+571            794    RIRLFEK|QL  0.077    .
+571            804    EFITNFK|DS  0.065    .
+571            819    DSIINSK|NI  0.067    .
+571            829    DFLELSR|LF  0.065    .
+571            834    SRLFAAK|KF  0.073    .
+571            835    RLFAAKK|FV  0.154    .
+571            838    AAKKFVK|VS  0.062    .
+571            841    KFVKVSR|SN  0.129    .
+571            850    QLLQAIK|TL  0.069    .
+571            857    TLCTGLK|YA  0.071    .
+571            868    PLVVFQR|KR  0.071    .
+571            869    LVVFQRK|RL  0.093    .
+571            870    VVFQRKR|LN  0.177    .
+571            874    RKRLNEK|ER  0.057    .
+571            876    RLNEKER|KL  0.138    .
+571            877    LNEKERK|LI  0.082    .
+571            880    KERKLIK|VV  0.078    .
+571            884    LIKVVDK|KS  0.059    .
+571            885    IKVVDKK|SV  0.340    .
+571            891    KSVEDSK|KL  0.062    .
+571            892    SVEDSKK|LF  0.095    .
+571            896    SKKLFLK|YT  0.074    .
+571            899    LFLKYTK|EF  0.059    .
+571            906    EFANIFK|VV  0.079    .
+571            910    IFKVVEK|TV  0.066    .
+571            916    KTVLLLK|DL  0.062    .
+571            924    LENESLK|VL  0.064    .
+571            934    HPLVMPR|SI  0.206    .
+571            938    MPRSITR|HE  0.103    .
+571            943    TRHESSK|KM  0.084    .
+571            944    RHESSKK|MG  0.087    .
+571            969    DSESSDR|EN  0.079    .
+571            983    LHCFALK|HD  0.058    .
+571            993    IDADISK|AD  0.059    .
+571            997    ISKADLK|DR  0.075    .
+571            999    KADLKDR|EK  0.086    .
+571           1001    DLKDREK|LL  0.060    .
+571           1008    LLVEAIK|ES  0.060    .
+571           1017    NSLIEIR|EI  0.095    .
+571           1033    LDNITNK|LF  0.062    .
+571           1042    PETYENK|CP  0.052    .
+571           1065    YQLLEHK|EL  0.061    .
+571           1070    HKELYHK|KD  0.059    .
+571           1071    KELYHKK|DT  0.150    .
+571           1074    YHKKDTK|EL  0.070    .
+571           1094    SADSSDK|DS  0.068    .
+571           1108    TVSTLTK|VV  0.088    .
+571           1111    TLTKVVK|KP  0.064    .
+571           1112    LTKVVKK|PE  0.080    .
+571           1118    KPELNYK|EL  0.073    .
+571           1124    KELYHLR|DQ  0.098    .
+571           1129    LRDQHAR|KF  0.122    .
+571           1130    RDQHARK|FE  0.084    .
+571           1133    HARKFER|LY  0.112    .
+571           1136    KFERLYK|TK  0.108    .
+571           1138    ERLYKTK|LT  0.080    .
+571           1143    TKLTESK|QH  0.059    .
+571           1148    SKQHLSR|IR  0.072    .
+571           1150    QHLSRIR|LF  0.107    .
+571           1154    RIRLFEK|QL  0.077    .
+571           1164    EFITNFK|DS  0.065    .
+571           1179    DSIINSK|NI  0.067    .
+571           1189    DFLELSR|LF  0.065    .
+571           1194    SRLFAAK|KF  0.073    .
+571           1195    RLFAAKK|FV  0.154    .
+571           1198    AAKKFVK|VS  0.062    .
+571           1201    KFVKVSR|SN  0.129    .
+571           1210    QLLQAIK|TL  0.069    .
+571           1217    TLCTGLK|YA  0.071    .
+571           1228    PLVVFQR|KR  0.071    .
+571           1229    LVVFQRK|RL  0.093    .
+571           1230    VVFQRKR|LN  0.177    .
+571           1234    RKRLNEK|ER  0.057    .
+571           1236    RLNEKER|KL  0.138    .
+571           1237    LNEKERK|LI  0.082    .
+571           1240    KERKLIK|VV  0.078    .
+571           1244    LIKVVDK|KS  0.059    .
+571           1245    IKVVDKK|SV  0.340    .
+571           1251    KSVEDSK|KL  0.062    .
+571           1252    SVEDSKK|LF  0.095    .
+571           1256    SKKLFLK|YT  0.074    .
+571           1259    LFLKYTK|EF  0.059    .
+571           1266    EFANIFK|VV  0.084    .
+571           1270    IFKVVEK|TL  0.058    .
+571           1276    KTLLLLK|DL  0.058    .
+571           1284    LENESLK|GQ  0.061    .
+571           1293    LSSFLYK|MA  0.099    .
+571           1314    YQLLEHK|EL  0.060    .
+571           1319    HKELYHK|MS  0.060    .
+571           1327    STNNEDK|DT  0.079    .
+571           1330    NEDKDTK|EL  0.062    .
+571           1350    SADSSDK|DS  0.068    .
+571           1364    TVSTLTK|VV  0.088    .
+571           1367    TLTKVVK|KP  0.064    .
+571           1368    LTKVVKK|PE  0.080    .
+571           1374    KPELNYK|EL  0.073    .
+571           1380    KELYHLR|DQ  0.098    .
+571           1385    LRDQHAR|KF  0.122    .
+571           1386    RDQHARK|FE  0.084    .
+571           1389    HARKFER|LY  0.112    .
+571           1392    KFERLYK|TK  0.108    .
+571           1394    ERLYKTK|LT  0.080    .
+571           1399    TKLTESK|QH  0.059    .
+571           1404    SKQHLSR|IR  0.072    .
+571           1406    QHLSRIR|LF  0.107    .
+571           1410    RIRLFEK|QL  0.077    .
+571           1420    EFITNFK|DS  0.065    .
+571           1435    DSIINSK|NI  0.067    .
+571           1445    DFLELSR|LF  0.065    .
+571           1450    SRLFAAK|KF  0.073    .
+571           1451    RLFAAKK|FV  0.154    .
+571           1454    AAKKFVK|VS  0.062    .
+571           1457    KFVKVSR|SN  0.129    .
+571           1466    QLLQAIK|TL  0.069    .
+571           1473    TLCTGLK|YA  0.071    .
+571           1484    PLVVFQR|KR  0.071    .
+571           1485    LVVFQRK|RL  0.093    .
+571           1486    VVFQRKR|LN  0.177    .
+571           1490    RKRLNEK|ER  0.057    .
+571           1492    RLNEKER|KL  0.138    .
+571           1493    LNEKERK|LI  0.082    .
+571           1496    KERKLIK|VV  0.078    .
+571           1500    LIKVVDK|KS  0.062    .
+571           1501    IKVVDKK|SV  0.315    .
+571           1507    KSVEDIK|KL  0.061    .
+571           1508    SVEDIKK|LF  0.086    .
+571           1512    IKKLFLK|YT  0.071    .
+571           1515    LFLKYTK|EF  0.059    .
+571           1522    EFANIFK|VV  0.084    .
+571           1526    IFKVVEK|TL  0.069    .
+571           1529    VVEKTLK|PA  0.068    .
+____________________________^_________________
+
+
+
+

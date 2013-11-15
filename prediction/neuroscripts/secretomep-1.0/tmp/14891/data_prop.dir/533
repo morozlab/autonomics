@@ -1,0 +1,56 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1599 533         
+MKCIGETESPWKRPLLIWTWPKVEPDCTKLTLHCWNDAWNSLTIWAGCTFSISIAFRIQEWGMESGVGLIFQLLTPLYIL      80
+CSSCGTPFAPQGTNCLHPGAGRYLLIRFLYTTSRGLGGSAIRPWRQVVCLIQKACSPSIPGDDQLVIPFTRAETRGLLVV     160
+SLGGFIPICSRTTWATTNRSVFSVVRSGVLSVSVSVSVSVSVSVSCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCL     240
+CLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSV     320
+SVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSL     400
+SLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVS     480
+TLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLS     560
+LSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLC     640
+LCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLS     720
+VSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCL     800
+YSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSV     880
+SVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSL     960
+SLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTL    1040
+CLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLS    1120
+LLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLC    1200
+LCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVS    1280
+VSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYS    1360
+LSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSV    1440
+STLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSLSLSLLSVSVSVSVSTLCLCLCLCLYSLSLSL    1520
+SLSCIGETESPWKRPLLIWTWPKVEPDCTKLTLHCWNDAWNSLTIWAGCTFSISIAFRIQEWGMESEQTVYIQVLVDIF     1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+...............................................................................     1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+

@@ -21,7 +21,7 @@ GetOptions(
 sub printUsage{
   print "$0\n";
   print "usage:\n";
-  print "	-proj :project_name (REQUIRED)\n";
+  print "	-proj :project_name_with_path (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
   print "       -noass   (OPTIONAL)\n";
@@ -65,7 +65,10 @@ if ($mira && $noass) {
   exit 0;
 }
 
-my $projdir = "/srv/data2/pipeline/" . $proj . "/";
+# my $projdir = "/srv/data2/pipeline/" . $proj . "/";
+my $projdir = $proj . "/";
+$proj = basename($projdir);
+$proj =~ s/\///;
 
 if (!-d $projdir) {
   print "$projdir does not exist\n";
@@ -137,14 +140,20 @@ if ($blastp) {
 
 my $cmd;
 
+my $scripts_path = $ENV{AUTONOMICS_PATH};
+$scripts_path .= '/scripts';
+
+# my $systools = "/home/pwilliams/autonomics/scripts/systemtools.py";
+my $systools = $scripts_path . "/systemtools.py";
+
 if ($noass) {
   if (($data eq "AA") || (not $fastq)) {  # omit quantification
-    $cmd = "python /home/pwilliams/python_software/autonomics/scripts/systemtools.py --add-project --assign-workflow --add-jobs blast_nr blast_swissprot pfam kegg go --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ $arg --project-names $proj";
+    $cmd = "python $systools --add-project --assign-workflow --add-jobs blast_nr blast_swissprot pfam kegg go --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ $arg --project-names $proj";
   } else {
-    $cmd = "python /home/pwilliams/python_software/autonomics/scripts/systemtools.py --add-project --assign-workflow --add-jobs blast_nr blast_swissprot quantification pfam kegg go --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ quantification:+ $arg --project-names $proj";
+    $cmd = "python $systools --add-project --assign-workflow --add-jobs blast_nr blast_swissprot quantification pfam kegg go --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ quantification:+ $arg --project-names $proj";
   }
 } else {
-  $cmd = "python /home/pwilliams/python_software/autonomics/scripts/systemtools.py --add-project --assign-workflow --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ $arg --project-names $proj";
+  $cmd = "python $systools --add-project --assign-workflow --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ $arg --project-names $proj";
 }
 
 print "$cmd\n";

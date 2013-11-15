@@ -1,0 +1,24 @@
+# 664 Length: 1438
+# 664 Number of predicted TMHs:  9
+# 664 Exp number of AAs in TMHs: 203.23097
+# 664 Exp number, first 60 AAs:  0.07344
+# 664 Total prob of N-in:        0.00561
+664	TMHMM2.0	outside	     1   669
+664	TMHMM2.0	TMhelix	   670   692
+664	TMHMM2.0	inside	   693   703
+664	TMHMM2.0	TMhelix	   704   726
+664	TMHMM2.0	outside	   727   752
+664	TMHMM2.0	TMhelix	   753   775
+664	TMHMM2.0	inside	   776   795
+664	TMHMM2.0	TMhelix	   796   818
+664	TMHMM2.0	outside	   819  1120
+664	TMHMM2.0	TMhelix	  1121  1143
+664	TMHMM2.0	inside	  1144  1154
+664	TMHMM2.0	TMhelix	  1155  1177
+664	TMHMM2.0	outside	  1178  1205
+664	TMHMM2.0	TMhelix	  1206  1228
+664	TMHMM2.0	inside	  1229  1248
+664	TMHMM2.0	TMhelix	  1249  1271
+664	TMHMM2.0	outside	  1272  1375
+664	TMHMM2.0	TMhelix	  1376  1398
+664	TMHMM2.0	inside	  1399  1438

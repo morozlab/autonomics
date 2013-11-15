@@ -1,0 +1,251 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1504 599         
+MLGVGCISSHADPLMAHKGGKRATKRNECSAWSASSLVISFRRLPRYYVRNPYYISSSCFLSFSPPSPSPSLSFSLPISL      80
+YLSPSLTLPLPEINELSLNKGFVEEQALSMELTDTSKQPIRTLYLGHVTGCQPIMDQYFLIRSKDDEEGAKYLVRELNYH     160
+PMSISHTAIFLRSVLNNSDNANFTWRDALVRMEKLKMGTVGHYNTKQSLAMTSILENNHAISEMAVNRLGSVNPFLEAVF     240
+TFLAFCQKDDIFPIPVEVISNFVMDGLRTEDDVDNCKMENTVKACIRQCPLFLSPRSAINIKTIAVKDSLPADTEGLFTS     320
+SLPAKQTDILPDIGNGSMTAAPKIVEKSATPPPTGDVEKAASRPGTQEKPGSRPATQEKPGSRPPTQEKPGSRPATQEKP     400
+VEVKSAPPTPEPEAQKKTRVETEEMITGENPGAVEAGSVKPVNAMPPGPRPPTAEEGVVKPLMAEPPRPKTPAEKDAKDS     480
+AQMSSSIEKPEIDGRTSAADRLVEAHLVGDSLCVGEIPVVKREGSVLIDIEDTVRAYEDEVESITFNKSVHEAMKKFARN     560
+MVLRQVKDAKDSAQMSSSIEKPEIDGRTSAADRLVEAHLVGDSLCVGEIPVVKREGSVLIDIEDTVRAYEDEVESITFNK     640
+SVHEAMKKFARNMVLRQVKSGQSSSSAPDTVSQHRRLQLEQFIKATKILLLTYEKVYKSTEPTDLALKRMLGPQLEYFVN     720
+AMLSKFNFKNRVAVRALKFYADSLLLLGELVKAEEALETAQNIAFQCFNPTDLDLFDILRDRATVLTRLGKKRETAGMLE     800
+QCIQIIERLDGEEFLIKESNLLNELAQVHTNIGNLTYANTLLERSLSIRESIHGSNGLEICDTLSRLAMLRNKMGEPNQA     880
+HSQLNRVMRIQERHDVPRHEFGSTLCNLAAVSAALGEHEKSKVLYHSVLVTKEKQFGLWHPEIATTLSNIAMVHMALGEY     960
+EEAKDALQRTRKIRGRVYGTIYFHSRALTQCRPNRIDERCDSSLGFTPDTLRRRRIRTIYLTMNGGYEMMGIKVDDGRAP    1040
+CHKNINVIYDLIARNRPTEVNNQSYINQNSLFRSRDCLSANQGPANDSDIWSLCNGPYGYLLPSHMVHMALGEYEEAKDA    1120
+LQRTRKIRGRVYANCRTFNGQEPTDRSKQPILIRTRYLDHVTAYQPIRDLQTTQISGHYAMVPMVTFFRLICEKRVELGS    1200
+SSKGRKQGRETIKHVPDVWTVQAKASKNHPLVASTMANLASVSYTMGDLKEAMTLNEEALEIQQACYSDAHPLIAVTIKN    1280
+MAMIENSRGDYDKAKSLYERVLKMEEVIYGELHPAIASTLNNLADCVLEQGETAKAAVLFQRAMETNEIVFGRDHPDVAR    1360
+NLNNLGRAFKEMGDYDGAKSKLTSALQMKQKRYGDAHINLVPTLMNLGDLFNLTKQPNKAREVLSRALKITEKKIGMKHP    1440
+DAAKILRLLGNSFYLMGDLSTSEKLLNKSLDILEQVYETDHPYVLATRADLGSCTRPGAAPRIF                    1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................                    1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+599             18    DPLMAHK|GG  0.059    .
+599             21    MAHKGGK|RA  0.077    .
+599             22    AHKGGKR|AT  0.167    .
+599             25    GGKRATK|RN  0.142    .
+599             26    GKRATKR|NE  0.192    .
+599             42    SLVISFR|RL  0.082    .
+599             43    LVISFRR|LP  0.102    .
+599             46    SFRRLPR|YY  0.244    .
+599             50    LPRYYVR|NP  0.082    .
+599            100    NELSLNK|GF  0.058    .
+599            117    ELTDTSK|QP  0.057    .
+599            121    TSKQPIR|TL  0.107    .
+599            142    DQYFLIR|SK  0.177    .
+599            144    YFLIRSK|DD  0.067    .
+599            151    DDEEGAK|YL  0.067    .
+599            155    GAKYLVR|EL  0.096    .
+599            172    HTAIFLR|SV  0.170    .
+599            186    NANFTWR|DA  0.121    .
+599            191    WRDALVR|ME  0.087    .
+599            194    ALVRMEK|LK  0.103    .
+599            196    VRMEKLK|MG  0.075    .
+599            206    VGHYNTK|QS  0.063    .
+599            228    SEMAVNR|LG  0.091    .
+599            248    FLAFCQK|DD  0.064    .
+599            268    FVMDGLR|TE  0.073    .
+599            277    DDVDNCK|ME  0.060    .
+599            283    KMENTVK|AC  0.062    .
+599            287    TVKACIR|QC  0.080    .
+599            296    PLFLSPR|SA  0.143    .
+599            302    RSAINIK|TI  0.066    .
+599            307    IKTIAVK|DS  0.075    .
+599            325    TSSLPAK|QT  0.101    .
+599            343    SMTAAPK|IV  0.084    .
+599            347    APKIVEK|SA  0.102    .
+599            359    PTGDVEK|AA  0.088    .
+599            363    VEKAASR|PG  0.084    .
+599            369    RPGTQEK|PG  0.073    .
+599            373    QEKPGSR|PA  0.106    .
+599            379    RPATQEK|PG  0.074    .
+599            383    QEKPGSR|PP  0.089    .
+599            389    RPPTQEK|PG  0.065    .
+599            393    QEKPGSR|PA  0.115    .
+599            399    RPATQEK|PV  0.091    .
+599            404    EKPVEVK|SA  0.081    .
+599            416    PEPEAQK|KT  0.062    .
+599            417    EPEAQKK|TR  0.107    .
+599            419    EAQKKTR|VE  0.117    .
+599            440    VEAGSVK|PV  0.082    .
+599            450    AMPPGPR|PP  0.088    .
+599            460    AEEGVVK|PL  0.071    .
+599            468    LMAEPPR|PK  0.115    .
+599            470    AEPPRPK|TP  0.054    .
+599            475    PKTPAEK|DA  0.085    .
+599            478    PAEKDAK|DS  0.072    .
+599            489    MSSSIEK|PE  0.082    .
+599            495    KPEIDGR|TS  0.084    .
+599            501    RTSAADR|LV  0.171    .
+599            521    GEIPVVK|RE  0.066    .
+599            522    EIPVVKR|EG  0.177    .
+599            535    DIEDTVR|AY  0.091    .
+599            548    ESITFNK|SV  0.139    .
+599            555    SVHEAMK|KF  0.062    .
+599            556    VHEAMKK|FA  0.104    .
+599            559    AMKKFAR|NM  0.077    .
+599            564    ARNMVLR|QV  0.220    .
+599            567    MVLRQVK|DA  0.220    .
+599            570    RQVKDAK|DS  0.080    .
+599            581    MSSSIEK|PE  0.082    .
+599            587    KPEIDGR|TS  0.084    .
+599            593    RTSAADR|LV  0.171    .
+599            613    GEIPVVK|RE  0.066    .
+599            614    EIPVVKR|EG  0.177    .
+599            627    DIEDTVR|AY  0.091    .
+599            640    ESITFNK|SV  0.139    .
+599            647    SVHEAMK|KF  0.062    .
+599            648    VHEAMKK|FA  0.104    .
+599            651    AMKKFAR|NM  0.078    .
+599            656    ARNMVLR|QV  0.239    .
+599            659    MVLRQVK|SG  0.126    .
+599            675    DTVSQHR|RL  0.078    .
+599            676    TVSQHRR|LQ  0.176    .
+599            684    QLEQFIK|AT  0.068    .
+599            687    QFIKATK|IL  0.053    .
+599            695    LLLTYEK|VY  0.054    .
+599            698    TYEKVYK|ST  0.096    .
+599            708    PTDLALK|RM  0.048    .
+599            709    TDLALKR|ML  0.357    .
+599            725    VNAMLSK|FN  0.076    .
+599            729    LSKFNFK|NR  0.062    .
+599            731    KFNFKNR|VA  0.127    .
+599            735    KNRVAVR|AL  0.106    .
+599            738    VAVRALK|FY  0.124    .
+599            752    LLGELVK|AE  0.067    .
+599            780    DLFDILR|DR  0.084    .
+599            782    FDILRDR|AT  0.070    .
+599            788    RATVLTR|LG  0.080    .
+599            791    VLTRLGK|KR  0.120    .
+599            792    LTRLGKK|RE  0.082    .
+599            793    TRLGKKR|ET  0.299    .
+599            808    CIQIIER|LD  0.089    .
+599            817    GEEFLIK|ES  0.055    .
+599            844    ANTLLER|SL  0.130    .
+599            849    ERSLSIR|ES  0.132    .
+599            866    ICDTLSR|LA  0.072    .
+599            871    SRLAMLR|NK  0.101    .
+599            873    LAMLRNK|MG  0.069    .
+599            886    AHSQLNR|VM  0.113    .
+599            889    QLNRVMR|IQ  0.304    .
+599            893    VMRIQER|HD  0.077    .
+599            898    ERHDVPR|HE  0.145    .
+599            920    ALGEHEK|SK  0.066    .
+599            922    GEHEKSK|VL  0.074    .
+599            932    HSVLVTK|EK  0.069    .
+599            934    VLVTKEK|QF  0.072    .
+599            964    GEYEEAK|DA  0.086    .
+599            969    AKDALQR|TR  0.074    .
+599            971    DALQRTR|KI  0.087    .
+599            972    ALQRTRK|IR  0.275    .
+599            974    QRTRKIR|GR  0.308    .
+599            976    TRKIRGR|VY  0.170    .
+599            986    TIYFHSR|AL  0.131    .
+599            992    RALTQCR|PN  0.094    .
+599            995    TQCRPNR|ID  0.269    .
+599            999    PNRIDER|CD  0.098    .
+599           1012    FTPDTLR|RR  0.058    .
+599           1013    TPDTLRR|RR  0.098    .
+599           1014    PDTLRRR|RI  0.125    .
+599           1015    DTLRRRR|IR  0.311    .
+599           1017    LRRRRIR|TI  0.322    .
+599           1033    YEMMGIK|VD  0.057    .
+599           1038    IKVDDGR|AP  0.092    .
+599           1043    GRAPCHK|NI  0.079    .
+599           1054    IYDLIAR|NR  0.068    .
+599           1056    DLIARNR|PT  0.097    .
+599           1073    NQNSLFR|SR  0.099    .
+599           1075    NSLFRSR|DC  0.091    .
+599           1118    GEYEEAK|DA  0.086    .
+599           1123    AKDALQR|TR  0.074    .
+599           1125    DALQRTR|KI  0.086    .
+599           1126    ALQRTRK|IR  0.237    .
+599           1128    QRTRKIR|GR  0.252    .
+599           1130    TRKIRGR|VY  0.101    .
+599           1136    RVYANCR|TF  0.106    .
+599           1146    GQEPTDR|SK  0.130    .
+599           1148    EPTDRSK|QP  0.060    .
+599           1154    KQPILIR|TR  0.070    .
+599           1156    PILIRTR|YL  0.095    .
+599           1168    TAYQPIR|DL  0.130    .
+599           1189    PMVTFFR|LI  0.093    .
+599           1194    FRLICEK|RV  0.071    .
+599           1195    RLICEKR|VE  0.105    .
+599           1203    ELGSSSK|GR  0.070    .
+599           1205    GSSSKGR|KQ  0.160    .
+599           1206    SSSKGRK|QG  0.104    .
+599           1209    KGRKQGR|ET  0.141    .
+599           1213    QGRETIK|HV  0.092    .
+599           1224    VWTVQAK|AS  0.066    .
+599           1227    VQAKASK|NH  0.059    .
+599           1250    YTMGDLK|EA  0.062    .
+599           1279    LIAVTIK|NM  0.073    .
+599           1288    AMIENSR|GD  0.083    .
+599           1293    SRGDYDK|AK  0.087    .
+599           1295    GDYDKAK|SL  0.097    .
+599           1300    AKSLYER|VL  0.106    .
+599           1303    LYERVLK|ME  0.122    .
+599           1335    EQGETAK|AA  0.071    .
+599           1342    AAVLFQR|AM  0.118    .
+599           1353    NEIVFGR|DH  0.130    .
+599           1360    DHPDVAR|NL  0.091    .
+599           1367    NLNNLGR|AF  0.107    .
+599           1370    NLGRAFK|EM  0.166    .
+599           1379    GDYDGAK|SK  0.084    .
+599           1381    YDGAKSK|LT  0.078    .
+599           1389    TSALQMK|QK  0.079    .
+599           1391    ALQMKQK|RY  0.084    .
+599           1392    LQMKQKR|YG  0.299    .
+599           1415    DLFNLTK|QP  0.064    .
+599           1419    LTKQPNK|AR  0.059    .
+599           1421    KQPNKAR|EV  0.099    .
+599           1426    AREVLSR|AL  0.122    .
+599           1429    VLSRALK|IT  0.225    .
+599           1433    ALKITEK|KI  0.071    .
+599           1434    LKITEKK|IG  0.100    .
+599           1438    EKKIGMK|HP  0.065    .
+599           1444    KHPDAAK|IL  0.062    .
+599           1447    DAAKILR|LL  0.108    .
+599           1464    DLSTSEK|LL  0.074    .
+599           1468    SEKLLNK|SL  0.088    .
+599           1488    PYVLATR|AD  0.066    .
+599           1496    DLGSCTR|PG  0.067    .
+599           1502    RPGAAPR|IF  0.105    .
+____________________________^_________________
+
+
+
+

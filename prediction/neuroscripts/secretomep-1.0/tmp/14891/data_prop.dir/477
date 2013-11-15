@@ -1,0 +1,238 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1673 477         
+MLFTERKIQLLVATATLAWGVNLPAHLVIIKGTEYYDGKVNRYVDFPITDVLQMMGRAGRPQYDTQGIACVYIHDQKKHF      80
+YKRFLYEPFPVESNLLAVLTDHFNAEIVAGTIKSKQDAMDYLTWTYFFRRLLRNPSYYSLEDLEDDNINTFLSSIVSMKL     160
+QELVDSYCVAVEGPEVRPEILGYIASFYYLSHKTVRMFADTLTPSTSFNDILTLLCQVTEYDEMPVRHNEDKINEEMSTT     240
+LPIRVAAHSYDDPHIKVHLLLQAHFSRQGMPMSDYLTDLKSVHDQAIRILQAMLDVSADNGWLRTSLNIMHLVKMILQGC     320
+WLKDDPLLQLPCVQPYHVPLFYTEQTVNLCFPEMAKFYSGNIECLKKAIGDDFTDREIYQIQKGLSQLPLCRVSHSIKGS     400
+ELLDKNYTPDTAPNGSQWVPVHADKEYSLEVRLAFGSGKSGKNNVRKAACPRFNKPVDETWWVMLGEVETGELIAMKRCG     480
+PSRGVKGIIVPQDHVPHTQLLDLQPIPASIMPTPELRRYFKFTHFNPVQTQVFHTLFHSDENVLLGAPTGSGKTVAAELA     560
+MFRVFTKYPRDKCVYIAPLKALVRERMKDWGDRIGRVLGKKIVELTGDVVPDMKAVVAADIIVTTPEKWDGISRSWQNRK     640
+YVQSVRLLVIDEIHLLGNDRGPVLEVIVSRTNFISSHTEQQVRVVGLSTALANAGDLGSWLNISNAGMFNFKPSVRPVPL     720
+ETHLSGFPGQHYCPRMATMNKPAYNDIRMYSKEKPVLIFVASRRQTRLTAYDLISHAAADDPKQWLHDIGDAELENHIST     800
+VGDQNLKHCLQFGIGLHHAGLQESDRALVEMLFTERKIQLLVATATLAWGVNLPAHLVIIKGTEYYDGKVNRYVDFPITD     880
+VLQMMGRAGRPQYDTQGIACVYIHDQKKHFYKRFLYEPFPVESNLLAVLTDHFNAEIVAGTIKSKQDAMDYLTWTYFFRR     960
+LLRNPSYYSLEDLEDENINTFLSSIVSMKLQELVDSYCVAVEGPEVRPEILGYIASFYYLSHKTVRMFADTLTPSTSFND    1040
+ILTLLCQVTEYDEMPVRHNEDKINEEMSTTLPIRVAAHSYDDPHTKVHLLLQAHFSRQGMPMSDYLTDLKSVHDQAIRIL    1120
+QAMLDVSADNGWLRTSLNIMHLVKLILQGCWLKDDPLLQLPCVQPYHVPLFYTEQTVNLCFPEMAKFYSGNIECLKKAIG    1200
+DDFTDREIYQIQKGLSQLPLCRVSHSIKGSELLDKNYTPDTAPNGSQWVPVHADKEYSLEVRLAFGSGKSGKNHVRKAAC    1280
+PRFNKPVDETWWVMLGEVETGELIAMKRCGPSRGNSLSVPLAFYTPEQPGRHVYTLFVVSQTYLGLDQQYDIYLDVLEQE    1360
+ILYQLDTDFLAEEEEEEFVDPPQDDKKFYEGAQNEYYEGAQNEYYEGVDEEDGFVDALDHPSPQAPVIDTLQDEGVRGPP    1440
+PGFGGSPIRPRDQPGGPTPSMRGPAPPGFSTTSNNTPPPGLTKKKRNRGRKKKGKEEEEEDKWDECNTWEAAHPLAMSAS    1520
+DEFAVETTDAGAAKYTPVQTSTMKKGSHILIKGRPCKVDHISTSKPGKHGSAKCHLVAIDIFTGKKMEEISPAHATVHSP    1600
+DVKRVEYFLSSIDDGFLSLMDDAGDLKEDVRLPESDLGLKIKEFFDNDVPCIVTVLSAMGEECVIDSKAETQK           1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..................................................P.P...........................    1520
+................................................................................    1600
+.........................................................................           1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+477              6    -MLFTER|KI  0.072    .
+477              7    MLFTERK|IQ  0.066    .
+477             31    AHLVIIK|GT  0.065    .
+477             39    TEYYDGK|VN  0.061    .
+477             42    YDGKVNR|YV  0.198    .
+477             57    VLQMMGR|AG  0.103    .
+477             60    MMGRAGR|PQ  0.253    .
+477             77    VYIHDQK|KH  0.056    .
+477             78    YIHDQKK|HF  0.110    .
+477             82    QKKHFYK|RF  0.067    .
+477             83    KKHFYKR|FL  0.314    .
+477            113    IVAGTIK|SK  0.085    .
+477            115    AGTIKSK|QD  0.061    .
+477            129    TWTYFFR|RL  0.079    .
+477            130    WTYFFRR|LL  0.095    .
+477            133    FFRRLLR|NP  0.141    .
+477            159    SSIVSMK|LQ  0.068    .
+477            177    VEGPEVR|PE  0.074    .
+477            193    FYYLSHK|TV  0.071    .
+477            196    LSHKTVR|MF  0.117    .
+477            227    YDEMPVR|HN  0.108    .
+477            232    VRHNEDK|IN  0.081    .
+477            244    STTLPIR|VA  0.091    .
+477            256    YDDPHIK|VH  0.057    .
+477            267    LQAHFSR|QG  0.095    .
+477            280    DYLTDLK|SV  0.080    .
+477            288    VHDQAIR|IL  0.082    .
+477            304    ADNGWLR|TS  0.094    .
+477            314    NIMHLVK|MI  0.067    .
+477            323    LQGCWLK|DD  0.057    .
+477            356    CFPEMAK|FY  0.069    .
+477            366    GNIECLK|KA  0.064    .
+477            367    NIECLKK|AI  0.135    .
+477            376    GDDFTDR|EI  0.120    .
+477            383    EIYQIQK|GL  0.065    .
+477            392    SQLPLCR|VS  0.079    .
+477            398    RVSHSIK|GS  0.074    .
+477            405    GSELLDK|NY  0.059    .
+477            425    VPVHADK|EY  0.065    .
+477            432    EYSLEVR|LA  0.118    .
+477            439    LAFGSGK|SG  0.074    .
+477            442    GSGKSGK|NN  0.069    .
+477            446    SGKNNVR|KA  0.091    .
+477            447    GKNNVRK|AA  0.153    .
+477            452    RKAACPR|FN  0.135    .
+477            455    ACPRFNK|PV  0.172    .
+477            477    GELIAMK|RC  0.070    .
+477            478    ELIAMKR|CG  0.108    .
+477            483    KRCGPSR|GV  0.181    .
+477            486    GPSRGVK|GI  0.215    .
+477            517    MPTPELR|RY  0.081    .
+477            518    PTPELRR|YF  0.094    .
+477            521    ELRRYFK|FT  0.197    .
+477            553    APTGSGK|TV  0.089    .
+477            563    AELAMFR|VF  0.075    .
+477            567    MFRVFTK|YP  0.071    .
+477            570    VFTKYPR|DK  0.089    .
+477            572    TKYPRDK|CV  0.087    .
+477            580    VYIAPLK|AL  0.056    .
+477            584    PLKALVR|ER  0.070    .
+477            586    KALVRER|MK  0.109    .
+477            588    LVRERMK|DW  0.090    .
+477            593    MKDWGDR|IG  0.078    .
+477            596    WGDRIGR|VL  0.293    .
+477            600    IGRVLGK|KI  0.066    .
+477            601    GRVLGKK|IV  0.140    .
+477            614    DVVPDMK|AV  0.068    .
+477            628    IVTTPEK|WD  0.066    .
+477            634    KWDGISR|SW  0.095    .
+477            639    SRSWQNR|KY  0.166    .
+477            640    RSWQNRK|YV  0.134    .
+477            646    KYVQSVR|LL  0.080    .
+477            660    HLLGNDR|GP  0.069    .
+477            670    LEVIVSR|TN  0.099    .
+477            683    HTEQQVR|VV  0.115    .
+477            712    AGMFNFK|PS  0.058    .
+477            716    NFKPSVR|PV  0.098    .
+477            735    GQHYCPR|MA  0.140    .
+477            741    RMATMNK|PA  0.074    .
+477            748    PAYNDIR|MY  0.128    .
+477            752    DIRMYSK|EK  0.059    .
+477            754    RMYSKEK|PV  0.071    .
+477            763    LIFVASR|RQ  0.068    .
+477            764    IFVASRR|QT  0.111    .
+477            767    ASRRQTR|LT  0.233    .
+477            783    AAADDPK|QW  0.066    .
+477            807    VGDQNLK|HC  0.055    .
+477            826    GLQESDR|AL  0.124    .
+477            836    EMLFTER|KI  0.070    .
+477            837    MLFTERK|IQ  0.066    .
+477            861    AHLVIIK|GT  0.065    .
+477            869    TEYYDGK|VN  0.061    .
+477            872    YDGKVNR|YV  0.198    .
+477            887    VLQMMGR|AG  0.103    .
+477            890    MMGRAGR|PQ  0.253    .
+477            907    VYIHDQK|KH  0.056    .
+477            908    YIHDQKK|HF  0.110    .
+477            912    QKKHFYK|RF  0.067    .
+477            913    KKHFYKR|FL  0.314    .
+477            943    IVAGTIK|SK  0.085    .
+477            945    AGTIKSK|QD  0.061    .
+477            959    TWTYFFR|RL  0.079    .
+477            960    WTYFFRR|LL  0.095    .
+477            963    FFRRLLR|NP  0.141    .
+477            989    SSIVSMK|LQ  0.068    .
+477           1007    VEGPEVR|PE  0.074    .
+477           1023    FYYLSHK|TV  0.071    .
+477           1026    LSHKTVR|MF  0.117    .
+477           1057    YDEMPVR|HN  0.108    .
+477           1062    VRHNEDK|IN  0.081    .
+477           1074    STTLPIR|VA  0.091    .
+477           1086    YDDPHTK|VH  0.057    .
+477           1097    LQAHFSR|QG  0.095    .
+477           1110    DYLTDLK|SV  0.080    .
+477           1118    VHDQAIR|IL  0.082    .
+477           1134    ADNGWLR|TS  0.094    .
+477           1144    NIMHLVK|LI  0.062    .
+477           1153    LQGCWLK|DD  0.057    .
+477           1186    CFPEMAK|FY  0.069    .
+477           1196    GNIECLK|KA  0.064    .
+477           1197    NIECLKK|AI  0.135    .
+477           1206    GDDFTDR|EI  0.120    .
+477           1213    EIYQIQK|GL  0.065    .
+477           1222    SQLPLCR|VS  0.079    .
+477           1228    RVSHSIK|GS  0.074    .
+477           1235    GSELLDK|NY  0.059    .
+477           1255    VPVHADK|EY  0.065    .
+477           1262    EYSLEVR|LA  0.118    .
+477           1269    LAFGSGK|SG  0.075    .
+477           1272    GSGKSGK|NH  0.066    .
+477           1276    SGKNHVR|KA  0.103    .
+477           1277    GKNHVRK|AA  0.171    .
+477           1282    RKAACPR|FN  0.141    .
+477           1285    ACPRFNK|PV  0.172    .
+477           1307    GELIAMK|RC  0.071    .
+477           1308    ELIAMKR|CG  0.122    .
+477           1313    KRCGPSR|GN  0.129    .
+477           1331    TPEQPGR|HV  0.165    .
+477           1386    DPPQDDK|KF  0.059    .
+477           1387    PPQDDKK|FY  0.174    .
+477           1437    LQDEGVR|GP  0.077    .
+477           1449    FGGSPIR|PR  0.086    .
+477           1451    GSPIRPR|DQ  0.118    .
+477           1462    GPTPSMR|GP  0.116    .
+477           1483    PPPGLTK|KK  0.057    .
+477           1484    PPGLTKK|KR  0.097    .
+477           1485    PGLTKKK|RN  0.083    .
+477           1486    GLTKKKR|NR  0.275    .
+477           1488    TKKKRNR|GR  0.131    .
+477           1490    KKRNRGR|KK  0.141    .
+477           1491    KRNRGRK|KK  0.571 *ProP*
+477           1492    RNRGRKK|KG  0.116    .
+477           1493    NRGRKKK|GK  0.696 *ProP*
+477           1495    GRKKKGK|EE  0.089    .
+477           1502    EEEEEDK|WD  0.059    .
+477           1534    TDAGAAK|YT  0.094    .
+477           1544    VQTSTMK|KG  0.064    .
+477           1545    QTSTMKK|GS  0.149    .
+477           1552    GSHILIK|GR  0.078    .
+477           1554    HILIKGR|PC  0.079    .
+477           1557    IKGRPCK|VD  0.154    .
+477           1565    DHISTSK|PG  0.056    .
+477           1568    STSKPGK|HG  0.092    .
+477           1573    GKHGSAK|CH  0.084    .
+477           1585    IDIFTGK|KM  0.067    .
+477           1586    DIFTGKK|ME  0.086    .
+477           1603    VHSPDVK|RV  0.087    .
+477           1604    HSPDVKR|VE  0.102    .
+477           1627    DDAGDLK|ED  0.054    .
+477           1631    DLKEDVR|LP  0.074    .
+477           1640    ESDLGLK|IK  0.054    .
+477           1642    DLGLKIK|EF  0.068    .
+477           1668    ECVIDSK|AE  0.060    .
+477           1673    SKAETQK|--  0.074    .
+____________________________^_________________
+
+
+
+

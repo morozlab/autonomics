@@ -1,0 +1,197 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1596 534         
+MGFHALSGQCSDHSSRAYLREARIGSGQCSDRAKVVHTECISSEMIGKWKSLVDTLQVDLRNISSEAKRKHPAVKDAAER      80
+AILKLRSLSAANDKHINEVIARSDDVIQPFILGCETKSAKLIFISINCIQRLISHDAVPDTSITVIIKMLSDLHKHETEL     160
+LKILQTILLLLTSTKLLHGDTLSQAEASGDEELMNTVSEMTNTSWHGLLAALSLLLDAAQDETARELILKSHQDFTSLCG     240
+ALGIGIARDAFITALCKASLPPHYDLLITGTKSAEVCPVSQLPVLPDPPFLPPLSPSQRSFISPSLSNRPSDILPCPSQE     320
+DKGLVMLSAKNVQCMRCLLSMAHCHGKVMGSGWSMLLRTLTHLTWILGLVPTDNGQLAASPSADGSNVERSLFCIGKILE     400
+TCLVNLSRLELLWDQVSQHLLVVCQEKEPSRRTWAALALTKLLRAAIEAEHQTPLNENMELVRSLMSPLVSMSILESEDV     480
+RMKQLECLQEILNSRGHAFPQCAWPPVLHILGSVVSTRTSSEALVRAGFLSLQLLVNDFLPILPDTCVARCIQVTGGYGL     560
+QRVELNISLTAVGLLWHISDFLCQNKDKTGEEGEKEEVPEQTIISGPISALYQSPGESVCFDDLWISLFQKIGDLCIDAR     640
+PPVRKSAGQTLFSALSAQGDLLKSSTWNTVLWKVLFPLLEEVKCLSSTAPDESIPEKTDAPILVHHTRNTACKQWAETQV     720
+GTIGGVARVFQTWRHILFKLDNFSGAWELLLRHIESGALNPTNEVSSAALASFHELLKDNDNYSDEECAELWFVAWHTWY     800
+TVGHKITHAYLGVSGATEDTPSQNFLTSLMKIFPLIYPKVSTRFTEEDMHHLSRVVRGVSAVPIGSELPFVITAQDSKLT     880
+PLQSGVISALRCIGDCPKSDEKLFPHLIIEFLVLGTLSYLPPPVLGTPVADLLEKFYLCFNIPYPSQEDKGLVMLSAKNV     960
+QCMRCLLSMAHCHGKVMGSGWSMLLRTLTHLTWILGLVPTDNGQLAASPSADGSNVERSLFCIGKILETCLVNLSRLELL    1040
+WDQVSQHLLVVCQEKEPSRRTWAALALTKLLRAAIEAEHQTPLNENMELVRSLMSPLVSMSVLESEDVRMKQLECLQEIL    1120
+NSRGHAFPQCAWPPVLHILGSVVSTRTSSEALVRAGFLSLQLLVNDFLPILPDTCAARCIQVTGGYGLQRVELNISLTAV    1200
+GLLWHISDFLCQNKDKTGEEGEEEEVPEQTIISGPISALYQSPGESVCFDDLWISLFQKIGDLCIDARPPVRKSAGQTLF    1280
+SALSAQGDLLKSSSWNTVLWKVLFPLLEEVKCLSSTAPDESIPEKTDAPILVHHTRNTACKQWAETQVTNHLRTTVGTIG    1360
+GVARVFQTWRHILFKLDNFSGAWELLLRHIESGALNPTNEVSSAALASFHELLKDNDNYSDEECAELWFVAWHTWYTVGH    1440
+KITHAYLGVSGATEDTPSQNFLTSLMKIFPLIYPKVSTRFTEEDMHHLSRVVRGVSAVPIGSELPFVITAQDSKLTPLQS    1520
+GVISALRCIGDCPKSDEKLFPHLIIEFLVLGTLSYLPPPVLGTPVADLLDSCQSIGLTRFSLLSNKRARTVVRALA        1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+........................................................P.......................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+....................................................P...........................    1520
+............................................................................        1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+534             16    CSDHSSR|AY  0.083    .
+534             20    SSRAYLR|EA  0.126    .
+534             23    AYLREAR|IG  0.201    .
+534             32    SGQCSDR|AK  0.092    .
+534             34    QCSDRAK|VV  0.113    .
+534             48    SSEMIGK|WK  0.069    .
+534             50    EMIGKWK|SL  0.085    .
+534             61    TLQVDLR|NI  0.101    .
+534             68    NISSEAK|RK  0.076    .
+534             69    ISSEAKR|KH  0.198    .
+534             70    SSEAKRK|HP  0.089    .
+534             75    RKHPAVK|DA  0.085    .
+534             80    VKDAAER|AI  0.084    .
+534             84    AERAILK|LR  0.054    .
+534             86    RAILKLR|SL  0.194    .
+534             94    LSAANDK|HI  0.075    .
+534            102    INEVIAR|SD  0.196    .
+534            117    ILGCETK|SA  0.105    .
+534            120    CETKSAK|LI  0.070    .
+534            131    SINCIQR|LI  0.085    .
+534            148    SITVIIK|ML  0.072    .
+534            155    MLSDLHK|HE  0.075    .
+534            162    HETELLK|IL  0.064    .
+534            175    LLLTSTK|LL  0.061    .
+534            225    AQDETAR|EL  0.079    .
+534            230    ARELILK|SH  0.076    .
+534            248    LGIGIAR|DA  0.114    .
+534            257    FITALCK|AS  0.052    .
+534            272    LLITGTK|SA  0.086    .
+534            299    PLSPSQR|SF  0.117    .
+534            309    SPSLSNR|PS  0.130    .
+534            322    CPSQEDK|GL  0.065    .
+534            330    LVMLSAK|NV  0.075    .
+534            336    KNVQCMR|CL  0.083    .
+534            347    MAHCHGK|VM  0.085    .
+534            358    GWSMLLR|TL  0.103    .
+534            390    DGSNVER|SL  0.175    .
+534            397    SLFCIGK|IL  0.077    .
+534            408    CLVNLSR|LE  0.066    .
+534            427    LVVCQEK|EP  0.060    .
+534            431    QEKEPSR|RT  0.096    .
+534            432    EKEPSRR|TW  0.136    .
+534            441    AALALTK|LL  0.064    .
+534            444    ALTKLLR|AA  0.146    .
+534            463    ENMELVR|SL  0.120    .
+534            481    LESEDVR|MK  0.084    .
+534            483    SEDVRMK|QL  0.067    .
+534            495    QEILNSR|GH  0.071    .
+534            518    GSVVSTR|TS  0.124    .
+534            526    SSEALVR|AG  0.087    .
+534            550    PDTCVAR|CI  0.105    .
+534            562    GGYGLQR|VE  0.071    .
+534            586    DFLCQNK|DK  0.070    .
+534            588    LCQNKDK|TG  0.084    .
+534            595    TGEEGEK|EE  0.060    .
+534            631    WISLFQK|IG  0.066    .
+534            640    DLCIDAR|PP  0.074    .
+534            644    DARPPVR|KS  0.081    .
+534            645    ARPPVRK|SA  0.356    .
+534            663    AQGDLLK|SS  0.071    .
+534            673    WNTVLWK|VL  0.065    .
+534            683    PLLEEVK|CL  0.059    .
+534            697    DESIPEK|TD  0.077    .
+534            708    ILVHHTR|NT  0.127    .
+534            713    TRNTACK|QW  0.096    .
+534            728    TIGGVAR|VF  0.117    .
+534            734    RVFQTWR|HI  0.104    .
+534            739    WRHILFK|LD  0.075    .
+534            752    AWELLLR|HI  0.090    .
+534            778    SFHELLK|DN  0.068    .
+534            805    WYTVGHK|IT  0.066    .
+534            831    FLTSLMK|IF  0.058    .
+534            839    FPLIYPK|VS  0.055    .
+534            843    YPKVSTR|FT  0.147    .
+534            854    DMHHLSR|VV  0.116    .
+534            857    HLSRVVR|GV  0.726 *ProP*
+534            878    ITAQDSK|LT  0.056    .
+534            891    GVISALR|CI  0.104    .
+534            898    CIGDCPK|SD  0.087    .
+534            902    CPKSDEK|LF  0.055    .
+534            935    VADLLEK|FY  0.054    .
+534            950    YPSQEDK|GL  0.068    .
+534            958    LVMLSAK|NV  0.075    .
+534            964    KNVQCMR|CL  0.083    .
+534            975    MAHCHGK|VM  0.085    .
+534            986    GWSMLLR|TL  0.103    .
+534           1018    DGSNVER|SL  0.175    .
+534           1025    SLFCIGK|IL  0.077    .
+534           1036    CLVNLSR|LE  0.066    .
+534           1055    LVVCQEK|EP  0.060    .
+534           1059    QEKEPSR|RT  0.096    .
+534           1060    EKEPSRR|TW  0.136    .
+534           1069    AALALTK|LL  0.064    .
+534           1072    ALTKLLR|AA  0.146    .
+534           1091    ENMELVR|SL  0.120    .
+534           1109    LESEDVR|MK  0.084    .
+534           1111    SEDVRMK|QL  0.068    .
+534           1123    QEILNSR|GH  0.071    .
+534           1146    GSVVSTR|TS  0.124    .
+534           1154    SSEALVR|AG  0.087    .
+534           1178    PDTCAAR|CI  0.092    .
+534           1190    GGYGLQR|VE  0.071    .
+534           1214    DFLCQNK|DK  0.070    .
+534           1216    LCQNKDK|TG  0.083    .
+534           1259    WISLFQK|IG  0.066    .
+534           1268    DLCIDAR|PP  0.074    .
+534           1272    DARPPVR|KS  0.081    .
+534           1273    ARPPVRK|SA  0.356    .
+534           1291    AQGDLLK|SS  0.077    .
+534           1301    WNTVLWK|VL  0.066    .
+534           1311    PLLEEVK|CL  0.059    .
+534           1325    DESIPEK|TD  0.077    .
+534           1336    ILVHHTR|NT  0.127    .
+534           1341    TRNTACK|QW  0.096    .
+534           1353    QVTNHLR|TT  0.094    .
+534           1364    TIGGVAR|VF  0.115    .
+534           1370    RVFQTWR|HI  0.104    .
+534           1375    WRHILFK|LD  0.075    .
+534           1388    AWELLLR|HI  0.090    .
+534           1414    SFHELLK|DN  0.068    .
+534           1441    WYTVGHK|IT  0.066    .
+534           1467    FLTSLMK|IF  0.058    .
+534           1475    FPLIYPK|VS  0.055    .
+534           1479    YPKVSTR|FT  0.147    .
+534           1490    DMHHLSR|VV  0.116    .
+534           1493    HLSRVVR|GV  0.726 *ProP*
+534           1514    ITAQDSK|LT  0.056    .
+534           1527    GVISALR|CI  0.104    .
+534           1534    CIGDCPK|SD  0.087    .
+534           1538    CPKSDEK|LF  0.055    .
+534           1579    QSIGLTR|FS  0.077    .
+534           1586    FSLLSNK|RA  0.065    .
+534           1587    SLLSNKR|AR  0.135    .
+534           1589    LSNKRAR|TV  0.202    .
+534           1593    RARTVVR|AL  0.114    .
+____________________________^_________________
+
+
+
+

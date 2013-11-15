@@ -1,0 +1,345 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2439 214         
+MYVSQYVYILLQIHNHAHDGPEEGVTSTRYTFLTAAPRIYRSDDSAVQCQLYCSDTVEYGRYISSNELLYYQAAVGVIYN      80
+PETKTQRFYQGHNDDIRCIALNPADPNIVATGQAAGHDEKEGQPHVRVWNCETLETLSVFGAGVFQRGVGSVSFSPDGKY     160
+VMAVDEGNDHTIYIYEWSKKHKIASQKGHGDPVLGAEYLPSSNSRFVTYGKGHVLFWELEGGKLVKKSGLFEKNAKPRFV     240
+TSLAFTASGDPVTGDSNGNLFKWSLNDRKIVKAINGAHQGTIYSLAIKDNDIYTGGQDCKVKRFSDSDMTEQDCWALDEK     320
+HGRVKAITFVGDKLAVGTYNNGIVYGLFGDEPEQILYGHGAGDLWGGADHPLENSFATVGQDKVVYIWDAATHAPKHVFS     400
+IEKPGQACAFSPCGSVLAVATTTGEWYVLDANTGDKLSSYVSGDEQIDAIAYSPDGKQIAVGSHDNFVYLFDSSNLKGDY     480
+TATGRCAGHSSFITHLDYSEDGKIIQTTSGDYEHLYWETETGEQITSSKDQRDTTMASYTCILGFPVCGIWPIGYDGTDI     560
+NSLCRSKDGKLLVTADDFGLVNLFRFPCCNPNVSRNSQFRITVGPRFRDTLGGKALVNFLYRGKEIMSLNRGVPKSGSLN     640
+RGPTVVGNLVWRSGAVSEKQIAVGSHDNFVYLFDSSNLKGDYTATGRCAGHSSFITHLDYSEDGKIIQTTSGDYEHLYWE     720
+TETGEQITSSKDQRDTTMASYTCILGFPVCGIWPIGYDGTDINSLCRSKDGKLLVTADDFGLVNLFRFPCCNPNVSRNSQ     800
+FRITVGPRFRDPDLGTPRFRDMISFPRYRKLTLFDPDLGVPKSGSDCSCVQALDAHALPRSGLEKIRQICVGAPTMSKVA     880
+EETAPDREVKKMTEEEIDAMDKSERGARGALSLLAVVILSAAYLVAFCSRLFAVIRFESIIHEFDPWFNYRATHHMVQNG     960
+FYNFLNWFDERAWYPLGRIVGGTVYPGLMLTSGGIHWILQALNIPIHIRDICVFLAPIFSGLTAVTTFFLTRELWSTGAG    1040
+LLAASFIAIAPGYISRSVAGSYDNEGIAIFALMLTFFLWIRAMKHGSVMWAVLAALSYFYMVSAWGGYVFITNLVPLHVL    1120
+IVLLMGKYNSRIYISYSTFYIVGLVCSMQVPFVGFQPLRTSEHMAAFGVFGLIQIVAFLHYLKSVTSKKQFEVLFKTGFL    1200
+LSAVLGFILITCLTWAGYIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQPTTWVAFFFDLHIMVPLFPAGAWICFKHLTP    1280
+ERVFILLYAVFASYFAGVMVRLMLTLTPVVCILSAIALSVIMEKYLAKPATSVQEQNDDGTPKQDDNSLSVVIMTILALL    1360
+SLFSFHCTWITSSAYSSPSIVLATNGPRGTTLVDNNTWNNSHIALVGKAMASNEENAYKIMQDLDVDYVLVIFGGMIGYS    1440
+GDDINKFLWMVRIAEGEHPQDIQHGVTNTKMATPSIPNTNTPFQEGRYFTEQGEYRVDSRASKILMESLMYKMCYYRFGE    1520
+VTVDHRQPAGFDRTRDTVIGDKNVKLTHVEEAFTTTNWLVRIYKVKKPGNRDKVKTHKSKKDKPLKSRKGEKGSVGSTVT    1600
+TSRGFCRLLECAAIPSCAQPRNEGIERKAARSCPIPPPPNFVSHFEGRYFTEQGEYRVDSRASKILMESLMYKMCYYRFG    1680
+EVTVDHRQPAGFDRTRDTVIGDKNVKLTHVEEAFTTTNWLVRIYKVKKPGNRDKVKTHKSKKDKPLKSRKGEKGSVGSTV    1760
+TTSRGFSNRQFSRVSDISHNSVRSSDDVSMTEVDGQYSLFGGVHDVRAKTQSIHEKPRFFDADDAPTDRATADDMDEARQ    1840
+RNMAYEYLCHLEEAKNWIEACINEDLGATIDIEEALRNGVILAKLGHYFAPDVVPMKRVYDADLSRFAKRGLHFKHTDNI    1920
+NYWMSGMSSIGMPHIFFPTTTDLYDKKNMPKVIYCIHALSIWLNKLGKAPNMENLLGIAEFTEEEISEMRRALDDYGISI    2000
+PAFSKIGGILEKEIGVDEAAKHAAVIAINELLQKEDIETTLSALILYLAKLDKTETAQDEGKKSDECDIYEFYLTHSEIQ    2080
+DIINDINEIVRKEIAEAKFRAAISDINKCLVSEDGSAEDLVVALLVPTSKLRNVNELNGPLYLEFLRAAKESRGEENLKL    2160
+AEIQEVVDLANEEMQKRRDLEGALQVANDRLTASDVEGLFDALHHPAFKLPPLQRNSAPKYQATMFFELAKLVDRAEEGE    2240
+GAGIRLNQAQIQDCVKAVNNQVRDVRKFAEAVSAVNICLSQDDPQETLAALHVQAGNFSEVLERCADDYHTWLKEGIFVK    2320
+RAEAEASQGDSNWIELRSPDSQIFFYNPETRELLWVKPENASDVSYYMAQDEIQWVVSRVTAKTLRDEWFDENVDHVIRL    2400
+QSMVRMNQTRKRFRNRLKFLNENEEAALKIQVGRMRRTD                                             2480
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+.......................................                                             2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+214             29    EGVTSTR|YT  0.079    .
+214             38    FLTAAPR|IY  0.071    .
+214             41    AAPRIYR|SD  0.364    .
+214             61    DTVEYGR|YI  0.096    .
+214             84    IYNPETK|TQ  0.060    .
+214             87    PETKTQR|FY  0.092    .
+214             97    GHNDDIR|CI  0.087    .
+214            120    AAGHDEK|EG  0.062    .
+214            127    EGQPHVR|VW  0.094    .
+214            147    GAGVFQR|GV  0.258    .
+214            159    SFSPDGK|YV  0.113    .
+214            179    YIYEWSK|KH  0.054    .
+214            180    IYEWSKK|HK  0.131    .
+214            182    EWSKKHK|IA  0.148    .
+214            187    HKIASQK|GH  0.081    .
+214            205    LPSSNSR|FV  0.250    .
+214            211    RFVTYGK|GH  0.053    .
+214            223    WELEGGK|LV  0.062    .
+214            226    EGGKLVK|KS  0.068    .
+214            227    GGKLVKK|SG  0.101    .
+214            233    KSGLFEK|NA  0.080    .
+214            236    LFEKNAK|PR  0.059    .
+214            238    EKNAKPR|FV  0.219    .
+214            262    SNGNLFK|WS  0.064    .
+214            268    KWSLNDR|KI  0.111    .
+214            269    WSLNDRK|IV  0.107    .
+214            272    NDRKIVK|AI  0.074    .
+214            288    IYSLAIK|DN  0.083    .
+214            300    TGGQDCK|VK  0.061    .
+214            302    GQDCKVK|RF  0.083    .
+214            303    QDCKVKR|FS  0.252    .
+214            320    CWALDEK|HG  0.060    .
+214            323    LDEKHGR|VK  0.087    .
+214            325    EKHGRVK|AI  0.078    .
+214            333    ITFVGDK|LA  0.056    .
+214            383    ATVGQDK|VV  0.068    .
+214            396    AATHAPK|HV  0.088    .
+214            403    HVFSIEK|PG  0.059    .
+214            436    DANTGDK|LS  0.062    .
+214            457    AYSPDGK|QI  0.074    .
+214            477    FDSSNLK|GD  0.065    .
+214            485    DYTATGR|CA  0.101    .
+214            503    DYSEDGK|II  0.066    .
+214            529    EQITSSK|DQ  0.073    .
+214            532    TSSKDQR|DT  0.176    .
+214            565    DINSLCR|SK  0.139    .
+214            567    NSLCRSK|DG  0.056    .
+214            570    CRSKDGK|LL  0.081    .
+214            585    GLVNLFR|FP  0.092    .
+214            595    CNPNVSR|NS  0.075    .
+214            600    SRNSQFR|IT  0.123    .
+214            606    RITVGPR|FR  0.090    .
+214            608    TVGPRFR|DT  0.124    .
+214            614    RDTLGGK|AL  0.058    .
+214            622    LVNFLYR|GK  0.091    .
+214            624    NFLYRGK|EI  0.059    .
+214            631    EIMSLNR|GV  0.128    .
+214            635    LNRGVPK|SG  0.090    .
+214            641    KSGSLNR|GP  0.108    .
+214            652    VGNLVWR|SG  0.151    .
+214            659    SGAVSEK|QI  0.078    .
+214            679    FDSSNLK|GD  0.065    .
+214            687    DYTATGR|CA  0.101    .
+214            705    DYSEDGK|II  0.066    .
+214            731    EQITSSK|DQ  0.073    .
+214            734    TSSKDQR|DT  0.176    .
+214            767    DINSLCR|SK  0.139    .
+214            769    NSLCRSK|DG  0.056    .
+214            772    CRSKDGK|LL  0.081    .
+214            787    GLVNLFR|FP  0.092    .
+214            797    CNPNVSR|NS  0.075    .
+214            802    SRNSQFR|IT  0.123    .
+214            808    RITVGPR|FR  0.100    .
+214            810    TVGPRFR|DP  0.125    .
+214            818    PDLGTPR|FR  0.078    .
+214            820    LGTPRFR|DM  0.089    .
+214            827    DMISFPR|YR  0.075    .
+214            829    ISFPRYR|KL  0.081    .
+214            830    SFPRYRK|LT  0.111    .
+214            842    PDLGVPK|SG  0.074    .
+214            860    DAHALPR|SG  0.144    .
+214            865    PRSGLEK|IR  0.074    .
+214            867    SGLEKIR|QI  0.133    .
+214            878    GAPTMSK|VA  0.060    .
+214            887    EETAPDR|EV  0.098    .
+214            890    APDREVK|KM  0.143    .
+214            891    PDREVKK|MT  0.191    .
+214            902    EIDAMDK|SE  0.071    .
+214            905    AMDKSER|GA  0.133    .
+214            908    KSERGAR|GA  0.317    .
+214            930    LVAFCSR|LF  0.088    .
+214            936    RLFAVIR|FE  0.104    .
+214            951    DPWFNYR|AT  0.121    .
+214            971    LNWFDER|AW  0.100    .
+214            978    AWYPLGR|IV  0.140    .
+214           1009    NIPIHIR|DI  0.115    .
+214           1032    TTFFLTR|EL  0.093    .
+214           1056    APGYISR|SV  0.235    .
+214           1081    TFFLWIR|AM  0.081    .
+214           1084    LWIRAMK|HG  0.134    .
+214           1127    IVLLMGK|YN  0.064    .
+214           1131    MGKYNSR|IY  0.074    .
+214           1159    VGFQPLR|TS  0.080    .
+214           1183    AFLHYLK|SV  0.080    .
+214           1188    LKSVTSK|KQ  0.084    .
+214           1189    KSVTSKK|QF  0.133    .
+214           1196    QFEVLFK|TG  0.054    .
+214           1225    IAPWSGR|FY  0.102    .
+214           1236    WDTGYAK|IH  0.064    .
+214           1276    GAWICFK|HL  0.072    .
+214           1282    KHLTPER|VF  0.065    .
+214           1301    FAGVMVR|LM  0.073    .
+214           1324    LSVIMEK|YL  0.067    .
+214           1328    MEKYLAK|PA  0.083    .
+214           1343    NDDGTPK|QD  0.071    .
+214           1388    LATNGPR|GT  0.084    .
+214           1408    HIALVGK|AM  0.071    .
+214           1419    NEENAYK|IM  0.062    .
+214           1446    SGDDINK|FL  0.069    .
+214           1452    KFLWMVR|IA  0.105    .
+214           1470    HGVTNTK|MA  0.079    .
+214           1487    TPFQEGR|YF  0.136    .
+214           1496    TEQGEYR|VD  0.089    .
+214           1500    EYRVDSR|AS  0.085    .
+214           1503    VDSRASK|IL  0.191    .
+214           1512    MESLMYK|MC  0.070    .
+214           1517    YKMCYYR|FG  0.100    .
+214           1526    EVTVDHR|QP  0.068    .
+214           1533    QPAGFDR|TR  0.127    .
+214           1535    AGFDRTR|DT  0.111    .
+214           1542    DTVIGDK|NV  0.057    .
+214           1545    IGDKNVK|LT  0.063    .
+214           1561    TTNWLVR|IY  0.099    .
+214           1564    WLVRIYK|VK  0.130    .
+214           1566    VRIYKVK|KP  0.072    .
+214           1567    RIYKVKK|PG  0.082    .
+214           1571    VKKPGNR|DK  0.094    .
+214           1573    KPGNRDK|VK  0.065    .
+214           1575    GNRDKVK|TH  0.069    .
+214           1578    DKVKTHK|SK  0.082    .
+214           1580    VKTHKSK|KD  0.061    .
+214           1581    KTHKSKK|DK  0.126    .
+214           1583    HKSKKDK|PL  0.078    .
+214           1586    KKDKPLK|SR  0.077    .
+214           1588    DKPLKSR|KG  0.095    .
+214           1589    KPLKSRK|GE  0.104    .
+214           1592    KSRKGEK|GS  0.076    .
+214           1603    STVTTSR|GF  0.097    .
+214           1607    TSRGFCR|LL  0.116    .
+214           1621    PSCAQPR|NE  0.120    .
+214           1627    RNEGIER|KA  0.093    .
+214           1628    NEGIERK|AA  0.095    .
+214           1631    IERKAAR|SC  0.142    .
+214           1648    VSHFEGR|YF  0.148    .
+214           1657    TEQGEYR|VD  0.089    .
+214           1661    EYRVDSR|AS  0.085    .
+214           1664    VDSRASK|IL  0.191    .
+214           1673    MESLMYK|MC  0.070    .
+214           1678    YKMCYYR|FG  0.100    .
+214           1687    EVTVDHR|QP  0.068    .
+214           1694    QPAGFDR|TR  0.127    .
+214           1696    AGFDRTR|DT  0.111    .
+214           1703    DTVIGDK|NV  0.057    .
+214           1706    IGDKNVK|LT  0.063    .
+214           1722    TTNWLVR|IY  0.099    .
+214           1725    WLVRIYK|VK  0.130    .
+214           1727    VRIYKVK|KP  0.072    .
+214           1728    RIYKVKK|PG  0.082    .
+214           1732    VKKPGNR|DK  0.094    .
+214           1734    KPGNRDK|VK  0.065    .
+214           1736    GNRDKVK|TH  0.069    .
+214           1739    DKVKTHK|SK  0.082    .
+214           1741    VKTHKSK|KD  0.061    .
+214           1742    KTHKSKK|DK  0.126    .
+214           1744    HKSKKDK|PL  0.078    .
+214           1747    KKDKPLK|SR  0.077    .
+214           1749    DKPLKSR|KG  0.095    .
+214           1750    KPLKSRK|GE  0.104    .
+214           1753    KSRKGEK|GS  0.076    .
+214           1764    STVTTSR|GF  0.105    .
+214           1769    SRGFSNR|QF  0.151    .
+214           1773    SNRQFSR|VS  0.123    .
+214           1783    ISHNSVR|SS  0.297    .
+214           1807    GGVHDVR|AK  0.102    .
+214           1809    VHDVRAK|TQ  0.067    .
+214           1816    TQSIHEK|PR  0.077    .
+214           1818    SIHEKPR|FF  0.145    .
+214           1829    DDAPTDR|AT  0.090    .
+214           1839    DDMDEAR|QR  0.086    .
+214           1841    MDEARQR|NM  0.077    .
+214           1855    CHLEEAK|NW  0.060    .
+214           1877    DIEEALR|NG  0.059    .
+214           1884    NGVILAK|LG  0.059    .
+214           1897    PDVVPMK|RV  0.075    .
+214           1898    DVVPMKR|VY  0.150    .
+214           1906    YDADLSR|FA  0.131    .
+214           1909    DLSRFAK|RG  0.122    .
+214           1910    LSRFAKR|GL  0.292    .
+214           1915    KRGLHFK|HT  0.093    .
+214           1946    TTDLYDK|KN  0.059    .
+214           1947    TDLYDKK|NM  0.094    .
+214           1951    DKKNMPK|VI  0.064    .
+214           1965    LSIWLNK|LG  0.057    .
+214           1968    WLNKLGK|AP  0.064    .
+214           1990    EEISEMR|RA  0.075    .
+214           1991    EISEMRR|AL  0.253    .
+214           2005    SIPAFSK|IG  0.066    .
+214           2012    IGGILEK|EI  0.077    .
+214           2021    GVDEAAK|HA  0.069    .
+214           2034    INELLQK|ED  0.056    .
+214           2050    LILYLAK|LD  0.057    .
+214           2053    YLAKLDK|TE  0.064    .
+214           2062    TAQDEGK|KS  0.068    .
+214           2063    AQDEGKK|SD  0.116    .
+214           2091    DINEIVR|KE  0.075    .
+214           2092    INEIVRK|EI  0.089    .
+214           2098    KEIAEAK|FR  0.068    .
+214           2100    IAEAKFR|AA  0.097    .
+214           2108    AISDINK|CL  0.066    .
+214           2130    LLVPTSK|LR  0.059    .
+214           2132    VPTSKLR|NV  0.101    .
+214           2147    LYLEFLR|AA  0.086    .
+214           2150    EFLRAAK|ES  0.112    .
+214           2153    RAAKESR|GE  0.105    .
+214           2159    RGEENLK|LA  0.074    .
+214           2176    ANEEMQK|RR  0.056    .
+214           2177    NEEMQKR|RD  0.127    .
+214           2178    EEMQKRR|DL  0.359    .
+214           2190    LQVANDR|LT  0.074    .
+214           2209    LHHPAFK|LP  0.058    .
+214           2215    KLPPLQR|NS  0.087    .
+214           2220    QRNSAPK|YQ  0.095    .
+214           2231    MFFELAK|LV  0.099    .
+214           2235    LAKLVDR|AE  0.096    .
+214           2245    GEGAGIR|LN  0.087    .
+214           2256    QIQDCVK|AV  0.079    .
+214           2263    AVNNQVR|DV  0.211    .
+214           2266    NQVRDVR|KF  0.189    .
+214           2267    QVRDVRK|FA  0.160    .
+214           2304    FSEVLER|CA  0.124    .
+214           2314    DYHTWLK|EG  0.060    .
+214           2320    KEGIFVK|RA  0.082    .
+214           2321    EGIFVKR|AE  0.135    .
+214           2337    SNWIELR|SP  0.137    .
+214           2351    FYNPETR|EL  0.091    .
+214           2357    RELLWVK|PE  0.061    .
+214           2379    IQWVVSR|VT  0.097    .
+214           2383    VSRVTAK|TL  0.085    .
+214           2386    VTAKTLR|DE  0.091    .
+214           2399    NVDHVIR|LQ  0.085    .
+214           2405    RLQSMVR|MN  0.080    .
+214           2410    VRMNQTR|KR  0.095    .
+214           2411    RMNQTRK|RF  0.077    .
+214           2412    MNQTRKR|FR  0.182    .
+214           2414    QTRKRFR|NR  0.086    .
+214           2416    RKRFRNR|LK  0.111    .
+214           2418    RFRNRLK|FL  0.084    .
+214           2429    NEEAALK|IQ  0.052    .
+214           2434    LKIQVGR|MR  0.093    .
+214           2436    IQVGRMR|RT  0.099    .
+214           2437    QVGRMRR|TD  0.377    .
+____________________________^_________________
+
+
+
+

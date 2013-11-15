@@ -1,0 +1,298 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1481 621         
+MARVTFEGSDPTPQALYVCQVNGTSHSTTEGKQPTLSLCAAYTNAVSTQSSPEVLGYPIALSKPIVMWKEEMGDEMDIED      80
+RGGESSIVTKVRRQLEYYFSLENLATDKYLVSQMDGDQFVPIWTVANFNAVRVKAKTIQRSSDPVGYTSPTTGGPGPNNM     160
+YPYPAMVPLMWGMVPLDMAGYGPPAPEHYGPGPPAIGGGGGSVPGDQGRGGGQRGRGHPGDGPSRRKGRRSTWRYNDRHS     240
+RHKRNDSDGSSTVSSASSFNPPRGNRDHRKPVMSHHYGGNRGMDRDRVNDRLDRLDRIDRDRGGERSNDRGERTSDRGER     320
+TSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSD     400
+RGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGE     480
+RTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTS     560
+DRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGERTSDRGLERGDRLDRERDRFILSKKNIRPVSHRT     640
+VPARRPPREPSIPKPPPDLKESTSFPPLSSKTPVQPEVYFNSSWGPQQQQQTPNITLSPHAATKGSADSATSWRQGPSSS     720
+TPHTKTVQPTQPNQQKPSRSMRPMRKPTKGGARKNDFQPKPVAIQKQHDTSRPTYSDIIRKCQLNATGRQLNALDISEPP     800
+PPPRLSPSPSTTKQPPAPPQQEQTPSSIVTRPTITNPREDNSPPPPAAPTPGIIVENGVGSCSEDEEETLVNCVETKKET     880
+SDDWSNPKNFSMNWFDDGLSEEEGEVVVENSREVVDVVTEKDIVCVEPPPPQHEDPIVEKGAEADSEKQEEEKEEDEEDE     960
+EEGWEDVPEKIEGEDVEAEKEEEVRLEPEKFHFPPEVPPVANGPMIDQDTDSDFDSERDEFFSKRTSDRGERTTDRGERT    1040
+SDRGERTSDRGERTSDRGERTNDRGFEKGDRLDRERDRFILSKKNIRPVSHRTVPARRPPREPSIPKPPPDLKESTSFPP    1120
+LSSKTPVQPEVYFNSSWGPQQQQTPNITLSPHAAAKGSADSATSWRQGPSSSTPHTKTSPVQPTQPNQHKPSRSMRPMRK    1200
+PTKGGARKNDFQPKPVAIQKQHDTSRPTYSDIIRKCQLNATGRQLDALDISEPPPPPRLSPSPSTTKQPPAPPQQQQTPS    1280
+SIVTRPTITNPREDSSPPPAAPTPGIIVENGVGSGSEDEEEETLVNCVETKKETSDDWSNPKNFSMNWFDDGLSEEEGEV    1360
+VVENSREVVVDVVTEKDIVCVEPPPPVKEEDEEDEEEGWEDVPEKIEGEDVEAEKEEEVRLEPEKFHFPPEVPPVANGPM    1440
+IDQDTDSDFDSERDEFFSRSALSLFLPPEHVIVKWAKNNEQ                                           1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+...P............................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+...........................................................................P....    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+.........................................                                           1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+621              3    ----MAR|VT  0.100    .
+621             32    HSTTEGK|QP  0.064    .
+621             63    YPIALSK|PI  0.061    .
+621             69    KPIVMWK|EE  0.071    .
+621             81    EMDIEDR|GG  0.088    .
+621             90    ESSIVTK|VR  0.071    .
+621             92    SIVTKVR|RQ  0.092    .
+621             93    IVTKVRR|QL  0.169    .
+621            108    ENLATDK|YL  0.065    .
+621            132    ANFNAVR|VK  0.072    .
+621            134    FNAVRVK|AK  0.080    .
+621            136    AVRVKAK|TI  0.078    .
+621            140    KAKTIQR|SS  0.189    .
+621            209    VPGDQGR|GG  0.147    .
+621            214    GRGGGQR|GR  0.124    .
+621            216    GGGQRGR|GH  0.092    .
+621            225    PGDGPSR|RK  0.072    .
+621            226    GDGPSRR|KG  0.156    .
+621            227    DGPSRRK|GR  0.066    .
+621            229    PSRRKGR|RS  0.321    .
+621            230    SRRKGRR|ST  0.389    .
+621            234    GRRSTWR|YN  0.149    .
+621            238    TWRYNDR|HS  0.120    .
+621            241    YNDRHSR|HK  0.203    .
+621            243    DRHSRHK|RN  0.072    .
+621            244    RHSRHKR|ND  0.825 *ProP*
+621            263    SSFNPPR|GN  0.120    .
+621            266    NPPRGNR|DH  0.283    .
+621            269    RGNRDHR|KP  0.233    .
+621            270    GNRDHRK|PV  0.166    .
+621            281    HHYGGNR|GM  0.087    .
+621            285    GNRGMDR|DR  0.086    .
+621            287    RGMDRDR|VN  0.080    .
+621            291    RDRVNDR|LD  0.075    .
+621            294    VNDRLDR|LD  0.135    .
+621            297    RLDRLDR|ID  0.197    .
+621            300    RLDRIDR|DR  0.307    .
+621            302    DRIDRDR|GG  0.103    .
+621            306    RDRGGER|SN  0.215    .
+621            310    GERSNDR|GE  0.098    .
+621            313    SNDRGER|TS  0.412    .
+621            317    GERTSDR|GE  0.111    .
+621            320    TSDRGER|TS  0.447    .
+621            324    GERTSDR|GE  0.108    .
+621            327    TSDRGER|TS  0.447    .
+621            331    GERTSDR|GE  0.108    .
+621            334    TSDRGER|TS  0.447    .
+621            338    GERTSDR|GE  0.108    .
+621            341    TSDRGER|TS  0.447    .
+621            345    GERTSDR|GE  0.108    .
+621            348    TSDRGER|TS  0.447    .
+621            352    GERTSDR|GE  0.108    .
+621            355    TSDRGER|TS  0.447    .
+621            359    GERTSDR|GE  0.108    .
+621            362    TSDRGER|TS  0.447    .
+621            366    GERTSDR|GE  0.108    .
+621            369    TSDRGER|TS  0.447    .
+621            373    GERTSDR|GE  0.108    .
+621            376    TSDRGER|TS  0.447    .
+621            380    GERTSDR|GE  0.108    .
+621            383    TSDRGER|TS  0.447    .
+621            387    GERTSDR|GE  0.108    .
+621            390    TSDRGER|TS  0.447    .
+621            394    GERTSDR|GE  0.108    .
+621            397    TSDRGER|TS  0.447    .
+621            401    GERTSDR|GE  0.108    .
+621            404    TSDRGER|TS  0.447    .
+621            408    GERTSDR|GE  0.108    .
+621            411    TSDRGER|TS  0.447    .
+621            415    GERTSDR|GE  0.108    .
+621            418    TSDRGER|TS  0.447    .
+621            422    GERTSDR|GE  0.108    .
+621            425    TSDRGER|TS  0.447    .
+621            429    GERTSDR|GE  0.108    .
+621            432    TSDRGER|TS  0.447    .
+621            436    GERTSDR|GE  0.108    .
+621            439    TSDRGER|TS  0.447    .
+621            443    GERTSDR|GE  0.108    .
+621            446    TSDRGER|TS  0.447    .
+621            450    GERTSDR|GE  0.108    .
+621            453    TSDRGER|TS  0.447    .
+621            457    GERTSDR|GE  0.108    .
+621            460    TSDRGER|TS  0.447    .
+621            464    GERTSDR|GE  0.108    .
+621            467    TSDRGER|TS  0.447    .
+621            471    GERTSDR|GE  0.108    .
+621            474    TSDRGER|TS  0.447    .
+621            478    GERTSDR|GE  0.108    .
+621            481    TSDRGER|TS  0.447    .
+621            485    GERTSDR|GE  0.108    .
+621            488    TSDRGER|TS  0.447    .
+621            492    GERTSDR|GE  0.108    .
+621            495    TSDRGER|TS  0.447    .
+621            499    GERTSDR|GE  0.108    .
+621            502    TSDRGER|TS  0.447    .
+621            506    GERTSDR|GE  0.108    .
+621            509    TSDRGER|TS  0.447    .
+621            513    GERTSDR|GE  0.108    .
+621            516    TSDRGER|TS  0.447    .
+621            520    GERTSDR|GE  0.108    .
+621            523    TSDRGER|TS  0.447    .
+621            527    GERTSDR|GE  0.108    .
+621            530    TSDRGER|TS  0.447    .
+621            534    GERTSDR|GE  0.108    .
+621            537    TSDRGER|TS  0.447    .
+621            541    GERTSDR|GE  0.108    .
+621            544    TSDRGER|TS  0.447    .
+621            548    GERTSDR|GE  0.108    .
+621            551    TSDRGER|TS  0.447    .
+621            555    GERTSDR|GE  0.108    .
+621            558    TSDRGER|TS  0.447    .
+621            562    GERTSDR|GE  0.108    .
+621            565    TSDRGER|TS  0.447    .
+621            569    GERTSDR|GE  0.108    .
+621            572    TSDRGER|TS  0.447    .
+621            576    GERTSDR|GE  0.108    .
+621            579    TSDRGER|TS  0.447    .
+621            583    GERTSDR|GE  0.108    .
+621            586    TSDRGER|TS  0.447    .
+621            590    GERTSDR|GE  0.108    .
+621            593    TSDRGER|TS  0.447    .
+621            597    GERTSDR|GE  0.108    .
+621            600    TSDRGER|TS  0.447    .
+621            604    GERTSDR|GE  0.105    .
+621            607    TSDRGER|TS  0.346    .
+621            611    GERTSDR|GL  0.126    .
+621            615    SDRGLER|GD  0.083    .
+621            618    GLERGDR|LD  0.130    .
+621            621    RGDRLDR|ER  0.162    .
+621            623    DRLDRER|DR  0.082    .
+621            625    LDRERDR|FI  0.099    .
+621            630    DRFILSK|KN  0.064    .
+621            631    RFILSKK|NI  0.106    .
+621            634    LSKKNIR|PV  0.115    .
+621            639    IRPVSHR|TV  0.139    .
+621            644    HRTVPAR|RP  0.095    .
+621            645    RTVPARR|PP  0.082    .
+621            648    PARRPPR|EP  0.207    .
+621            654    REPSIPK|PP  0.060    .
+621            660    KPPPDLK|ES  0.058    .
+621            671    FPPLSSK|TP  0.058    .
+621            704    SPHAATK|GS  0.083    .
+621            714    DSATSWR|QG  0.082    .
+621            725    SSTPHTK|TV  0.104    .
+621            736    TQPNQQK|PS  0.073    .
+621            739    NQQKPSR|SM  0.152    .
+621            742    KPSRSMR|PM  0.498    .
+621            745    RSMRPMR|KP  0.439    .
+621            746    SMRPMRK|PT  0.098    .
+621            749    PMRKPTK|GG  0.067    .
+621            753    PTKGGAR|KN  0.091    .
+621            754    TKGGARK|ND  0.085    .
+621            760    KNDFQPK|PV  0.094    .
+621            766    KPVAIQK|QH  0.080    .
+621            772    KQHDTSR|PT  0.093    .
+621            780    TYSDIIR|KC  0.083    .
+621            781    YSDIIRK|CQ  0.068    .
+621            789    QLNATGR|QL  0.100    .
+621            804    EPPPPPR|LS  0.073    .
+621            813    PSPSTTK|QP  0.057    .
+621            831    PSSIVTR|PT  0.130    .
+621            838    PTITNPR|ED  0.069    .
+621            877    VNCVETK|KE  0.061    .
+621            878    NCVETKK|ET  0.089    .
+621            888    DDWSNPK|NF  0.061    .
+621            912    VVVENSR|EV  0.088    .
+621            921    VDVVTEK|DI  0.079    .
+621            940    EDPIVEK|GA  0.072    .
+621            948    AEADSEK|QE  0.074    .
+621            953    EKQEEEK|EE  0.065    .
+621            970    WEDVPEK|IE  0.068    .
+621            980    EDVEAEK|EE  0.060    .
+621            985    EKEEEVR|LE  0.077    .
+621            990    VRLEPEK|FH  0.066    .
+621           1018    SDFDSER|DE  0.107    .
+621           1024    RDEFFSK|RT  0.071    .
+621           1025    DEFFSKR|TS  0.305    .
+621           1029    SKRTSDR|GE  0.116    .
+621           1032    TSDRGER|TT  0.409    .
+621           1036    GERTTDR|GE  0.099    .
+621           1039    TTDRGER|TS  0.385    .
+621           1043    GERTSDR|GE  0.110    .
+621           1046    TSDRGER|TS  0.447    .
+621           1050    GERTSDR|GE  0.108    .
+621           1053    TSDRGER|TS  0.431    .
+621           1057    GERTSDR|GE  0.108    .
+621           1060    TSDRGER|TN  0.308    .
+621           1064    GERTNDR|GF  0.117    .
+621           1068    NDRGFEK|GD  0.063    .
+621           1071    GFEKGDR|LD  0.066    .
+621           1074    KGDRLDR|ER  0.161    .
+621           1076    DRLDRER|DR  0.081    .
+621           1078    LDRERDR|FI  0.099    .
+621           1083    DRFILSK|KN  0.064    .
+621           1084    RFILSKK|NI  0.106    .
+621           1087    LSKKNIR|PV  0.115    .
+621           1092    IRPVSHR|TV  0.139    .
+621           1097    HRTVPAR|RP  0.095    .
+621           1098    RTVPARR|PP  0.082    .
+621           1101    PARRPPR|EP  0.207    .
+621           1107    REPSIPK|PP  0.060    .
+621           1113    KPPPDLK|ES  0.058    .
+621           1124    FPPLSSK|TP  0.058    .
+621           1156    SPHAAAK|GS  0.093    .
+621           1166    DSATSWR|QG  0.082    .
+621           1177    SSTPHTK|TS  0.074    .
+621           1190    TQPNQHK|PS  0.074    .
+621           1193    NQHKPSR|SM  0.175    .
+621           1196    KPSRSMR|PM  0.509 *ProP*
+621           1199    RSMRPMR|KP  0.439    .
+621           1200    SMRPMRK|PT  0.098    .
+621           1203    PMRKPTK|GG  0.067    .
+621           1207    PTKGGAR|KN  0.091    .
+621           1208    TKGGARK|ND  0.085    .
+621           1214    KNDFQPK|PV  0.094    .
+621           1220    KPVAIQK|QH  0.080    .
+621           1226    KQHDTSR|PT  0.093    .
+621           1234    TYSDIIR|KC  0.083    .
+621           1235    YSDIIRK|CQ  0.068    .
+621           1243    QLNATGR|QL  0.111    .
+621           1258    EPPPPPR|LS  0.073    .
+621           1267    PSPSTTK|QP  0.057    .
+621           1285    PSSIVTR|PT  0.131    .
+621           1292    PTITNPR|ED  0.078    .
+621           1331    VNCVETK|KE  0.061    .
+621           1332    NCVETKK|ET  0.089    .
+621           1342    DDWSNPK|NF  0.061    .
+621           1366    VVVENSR|EV  0.077    .
+621           1376    VDVVTEK|DI  0.076    .
+621           1388    EPPPPVK|EE  0.060    .
+621           1405    WEDVPEK|IE  0.068    .
+621           1415    EDVEAEK|EE  0.060    .
+621           1420    EKEEEVR|LE  0.077    .
+621           1425    VRLEPEK|FH  0.066    .
+621           1453    SDFDSER|DE  0.107    .
+621           1459    RDEFFSR|SA  0.113    .
+621           1474    PEHVIVK|WA  0.076    .
+621           1477    VIVKWAK|NN  0.082    .
+____________________________^_________________
+
+
+
+

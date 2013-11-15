@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+221	
+
+ psg: 0.71  gvh: 0.54  alm: 0.44  top: 0.07  tms: 0.08  mit: 0.21  mip: 0.00
+ nuc: 0.27  erl: 0.00  erm: 0.20  pox: 0.00  px2: 0.50  vac: 0.00  rnp: 0.00
+ act: 0.00  caa: 0.00  yqr: 1.00  tyr: 0.00  leu: 0.11  gpi: 0.00  myr: 0.00
+ dna: 0.00  rib: 0.00  bac: 0.00  m1a: 0.00  m1b: 0.00  m2 : 1.00  mNt: 0.00
+ m3a: 0.00  m3b: 0.00  m_ : 0.00  ncn: 0.91  lps: 0.18  len: 0.58 
+
+	 47.8 %: nuclear
+	 21.7 %: mitochondrial
+	 13.0 %: cytoplasmic
+	  4.3 %: extracellular, including cell wall
+	  4.3 %: Golgi
+	  4.3 %: peroxisomal
+	  4.3 %: plasma membrane
+
+>> prediction for 221 is nuc (k=23)
+

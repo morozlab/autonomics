@@ -1,0 +1,294 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1921 344         
+MVSILLLSTPQLPSLLLDFYSSLTTQLDSLTTQLDHTTTYSNSRGIVPITCDELFKTVEANTDDNLKYCVYFSMLEIYNE      80
+CVRDLLVKDNPKGGLPVRQNPSIGAFYVQGLTKQIVGSYKGIEAKMDEGTNNRTVASTAMNATSSRRGIVPITCDELFKT     160
+VEANTDDNLKYCVYFSMLEIYNECVRDLLVKDNPKGGLPVRQNPSIGAFYVQGLTKQIVGSYKGIEAKMDEGTNNRTVAS     240
+TAMNATSSRAHTVVTIQFDQIKKNEVGEETKRSSIINLVDLAGSERAGSTGATGDRLKEGANINKSLSALGNVISALADA     320
+STGKKKVMVPYRDSVLTKLLQNALGGNSKTIMIAALSPADINYDETLGTLRYADRAKQIKNKAVVNENPMDKLIRELKEE     400
+NDKLKKALGGEMPVATGAPGMSAEDQAAMRKQMEEEIRAQLEANASAMADMQMSDVDRTALAQQQFNEGQLKLLEKEKEK     480
+ESSPHITNLNEDEALSGVIHHLIKDGESIVGRKDPSSEPAIVLSGLSIQKSHAIFVRDGNSVIIKPGVVGAKTKVNGQAL     560
+NGDRTLMHKDRILFGSNHMYVYFDPVNKDCAEGTPDNVDWDFAQKEIAQAKGFGGGGDGQLSKEQQLAQEQILELLPMVS     640
+ESNAISEELNKHMYVLRGYTPVRSSQPKRGLEGNQMKNLVTGNTWLWERGQFMNRRYLMQDLYQRFLDGDTTVDEMPNDE     720
+DPFWDPPGEVLIGTSNAFLQALAYGIDFDEPIMVGDYKGEDQGKLNVMISPCDDKGNSLGEDYFIEDSSELLGKPYNYKV     800
+TIKSCDINESRFFVGSFIKYKLEGDEEHTVTPTVTKTLSPVFNHDRVVRIDKVTQDTLDWFENSCITFLVYGCQEDRASD     880
+AKLMKMSTKELRQKEASTGALKTNALTRQLTKSSVADDSAPLKTEIIVLKRRNEILAKKEKRIQAIVTEWGKKAPEEQKF     960
+EPFYRAISAAAFNTGTMLRSAATVITQVIRAQKLVGSQAGSIGSGGDNGSTTGQSNGTAPSAVTQDTLDWFENSCITFLV    1040
+YGCQEDRASDAKLMKMSTKELRQKEASTGALKTNALTRQLTKSSVADDSAPLKTEIIVLKRRNEILAKKEKRIQAIVTEW    1120
+GKKAPEEQKFEPFYRAISAAAFNTGTMLRSAATVITQVIRAQKLVGSQAGSIGSGGDNGSTAGQSNGTAPSAVGRAAGSK    1200
+ASDSRMLLRSSERAGGSGARRRSAARSRRTKPSRRIVTDGTLLFSPDEVEPPSLPAAHPRIIETFSTSSSTSLGGESTAS    1280
+TTTSEIFHTAPDATLPPPIIKYSLSPTVVVVGPTGPGAGWFGGNLEKMLVPSGSLSKRGSTSGIHVEENYTSYDNFSRAM    1360
+SPFTASVADTIKQFLKEEGEIRIPPTRPRTLPVPRSSRATPNIPKLDDTSYLTLPGDVDYKLDMNWVIPINVGGEDFSVR    1440
+LGSLRRYPDTLLGSDELFNFYRTDLECFFFDRNRMLFEFILQYYQKGKLTVAGGFFAATASPEPHCYGKLEEALVRELDY    1520
+FRIRYELVGGDTEEIEPTLEEQRQEAAAMLQKLEPDLGKWIARKLALYVFLTNPNSSKLAMLWMVVDVFLVVLSLSFILL    1600
+ESEDILYHAFQSGTLHIVNRVVQAVIQAFFTLDFMLRLIAWPSKNTMTGVKSFITNGSNICDFISLIPFYVPQIIQLMDH    1680
+SEVKSLIVIRIIRTFRFTRIFRIVRHSQRLQFVFEFMLVSSLGDLVVLLQLFLIMVVFFASAIYSTETMQPGEGDPGLVS    1760
+IVSAMWWTVVTLTDYLKQPIRTRYLGHVTGYQPIRDQYSQPISDQYYRLSELLTSSLLPVKIPSKIIIPPLSAPFIMPLW    1840
+LANSRGRVKVRQKRLSALKFYPIENICRVSDKFTNALHQNFTYTHTISLSLSLSLSLSLSLSLYYSKSVYISPGFRKKVT    1920
+E                                                                                   2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.                                                                                   2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+344             44    TTYSNSR|GI  0.110    .
+344             56    TCDELFK|TV  0.080    .
+344             67    NTDDNLK|YC  0.053    .
+344             83    IYNECVR|DL  0.085    .
+344             88    VRDLLVK|DN  0.072    .
+344             92    LVKDNPK|GG  0.061    .
+344             98    KGGLPVR|QN  0.086    .
+344            113    YVQGLTK|QI  0.067    .
+344            120    QIVGSYK|GI  0.090    .
+344            125    YKGIEAK|MD  0.073    .
+344            133    DEGTNNR|TV  0.081    .
+344            146    MNATSSR|RG  0.078    .
+344            147    NATSSRR|GI  0.158    .
+344            159    TCDELFK|TV  0.080    .
+344            170    NTDDNLK|YC  0.053    .
+344            186    IYNECVR|DL  0.085    .
+344            191    VRDLLVK|DN  0.072    .
+344            195    LVKDNPK|GG  0.061    .
+344            201    KGGLPVR|QN  0.086    .
+344            216    YVQGLTK|QI  0.067    .
+344            223    QIVGSYK|GI  0.090    .
+344            228    YKGIEAK|MD  0.073    .
+344            236    DEGTNNR|TV  0.081    .
+344            249    MNATSSR|AH  0.114    .
+344            262    IQFDQIK|KN  0.085    .
+344            263    QFDQIKK|NE  0.072    .
+344            271    EVGEETK|RS  0.059    .
+344            272    VGEETKR|SS  0.213    .
+344            286    DLAGSER|AG  0.098    .
+344            296    TGATGDR|LK  0.089    .
+344            298    ATGDRLK|EG  0.059    .
+344            305    EGANINK|SL  0.099    .
+344            324    ADASTGK|KK  0.061    .
+344            325    DASTGKK|KV  0.113    .
+344            326    ASTGKKK|VM  0.105    .
+344            332    KVMVPYR|DS  0.090    .
+344            338    RDSVLTK|LL  0.086    .
+344            349    ALGGNSK|TI  0.063    .
+344            371    ETLGTLR|YA  0.087    .
+344            375    TLRYADR|AK  0.103    .
+344            377    RYADRAK|QI  0.071    .
+344            380    DRAKQIK|NK  0.073    .
+344            382    AKQIKNK|AV  0.098    .
+344            392    NENPMDK|LI  0.062    .
+344            395    PMDKLIR|EL  0.084    .
+344            398    KLIRELK|EE  0.121    .
+344            403    LKEENDK|LK  0.059    .
+344            405    EENDKLK|KA  0.086    .
+344            406    ENDKLKK|AL  0.122    .
+344            430    EDQAAMR|KQ  0.087    .
+344            431    DQAAMRK|QM  0.093    .
+344            438    QMEEEIR|AQ  0.086    .
+344            458    QMSDVDR|TA  0.132    .
+344            472    FNEGQLK|LL  0.066    .
+344            476    QLKLLEK|EK  0.062    .
+344            478    KLLEKEK|EK  0.068    .
+344            480    LEKEKEK|ES  0.072    .
+344            504    VIHHLIK|DG  0.074    .
+344            512    GESIVGR|KD  0.116    .
+344            513    ESIVGRK|DP  0.091    .
+344            530    SGLSIQK|SH  0.066    .
+344            537    SHAIFVR|DG  0.120    .
+344            545    GNSVIIK|PG  0.073    .
+344            552    PGVVGAK|TK  0.061    .
+344            554    VVGAKTK|VN  0.087    .
+344            564    QALNGDR|TL  0.079    .
+344            569    DRTLMHK|DR  0.064    .
+344            571    TLMHKDR|IL  0.165    .
+344            588    YFDPVNK|DC  0.067    .
+344            605    DWDFAQK|EI  0.062    .
+344            611    KEIAQAK|GF  0.118    .
+344            623    GDGQLSK|EQ  0.064    .
+344            651    ISEELNK|HM  0.060    .
+344            657    KHMYVLR|GY  0.130    .
+344            663    RGYTPVR|SS  0.139    .
+344            668    VRSSQPK|RG  0.077    .
+344            669    RSSQPKR|GL  0.499    .
+344            677    LEGNQMK|NL  0.076    .
+344            689    NTWLWER|GQ  0.080    .
+344            695    RGQFMNR|RY  0.071    .
+344            696    GQFMNRR|YL  0.189    .
+344            705    MQDLYQR|FL  0.085    .
+344            758    IMVGDYK|GE  0.073    .
+344            764    KGEDQGK|LN  0.060    .
+344            775    ISPCDDK|GN  0.076    .
+344            794    SSELLGK|PY  0.068    .
+344            799    GKPYNYK|VT  0.062    .
+344            803    NYKVTIK|SC  0.099    .
+344            811    CDINESR|FF  0.085    .
+344            819    FVGSFIK|YK  0.062    .
+344            821    GSFIKYK|LE  0.103    .
+344            836    VTPTVTK|TL  0.074    .
+344            846    PVFNHDR|VV  0.105    .
+344            849    NHDRVVR|ID  0.222    .
+344            852    RVVRIDK|VT  0.150    .
+344            877    YGCQEDR|AS  0.106    .
+344            882    DRASDAK|LM  0.067    .
+344            885    SDAKLMK|MS  0.086    .
+344            889    LMKMSTK|EL  0.088    .
+344            892    MSTKELR|QK  0.116    .
+344            894    TKELRQK|EA  0.080    .
+344            902    ASTGALK|TN  0.052    .
+344            908    KTNALTR|QL  0.110    .
+344            912    LTRQLTK|SS  0.071    .
+344            923    DDSAPLK|TE  0.065    .
+344            930    TEIIVLK|RR  0.064    .
+344            931    EIIVLKR|RN  0.119    .
+344            932    IIVLKRR|NE  0.096    .
+344            938    RNEILAK|KE  0.064    .
+344            939    NEILAKK|EK  0.081    .
+344            941    ILAKKEK|RI  0.076    .
+344            942    LAKKEKR|IQ  0.189    .
+344            952    IVTEWGK|KA  0.061    .
+344            953    VTEWGKK|AP  0.087    .
+344            959    KAPEEQK|FE  0.057    .
+344            965    KFEPFYR|AI  0.154    .
+344            979    NTGTMLR|SA  0.179    .
+344            990    VITQVIR|AQ  0.083    .
+344            993    QVIRAQK|LV  0.205    .
+344           1047    YGCQEDR|AS  0.106    .
+344           1052    DRASDAK|LM  0.067    .
+344           1055    SDAKLMK|MS  0.086    .
+344           1059    LMKMSTK|EL  0.088    .
+344           1062    MSTKELR|QK  0.116    .
+344           1064    TKELRQK|EA  0.080    .
+344           1072    ASTGALK|TN  0.052    .
+344           1078    KTNALTR|QL  0.110    .
+344           1082    LTRQLTK|SS  0.071    .
+344           1093    DDSAPLK|TE  0.065    .
+344           1100    TEIIVLK|RR  0.064    .
+344           1101    EIIVLKR|RN  0.119    .
+344           1102    IIVLKRR|NE  0.096    .
+344           1108    RNEILAK|KE  0.064    .
+344           1109    NEILAKK|EK  0.081    .
+344           1111    ILAKKEK|RI  0.076    .
+344           1112    LAKKEKR|IQ  0.189    .
+344           1122    IVTEWGK|KA  0.061    .
+344           1123    VTEWGKK|AP  0.087    .
+344           1129    KAPEEQK|FE  0.057    .
+344           1135    KFEPFYR|AI  0.154    .
+344           1149    NTGTMLR|SA  0.179    .
+344           1160    VITQVIR|AQ  0.083    .
+344           1163    QVIRAQK|LV  0.205    .
+344           1195    APSAVGR|AA  0.223    .
+344           1200    GRAAGSK|AS  0.066    .
+344           1205    SKASDSR|ML  0.087    .
+344           1209    DSRMLLR|SS  0.184    .
+344           1213    LLRSSER|AG  0.100    .
+344           1220    AGGSGAR|RR  0.085    .
+344           1221    GGSGARR|RS  0.115    .
+344           1222    GSGARRR|SA  0.454    .
+344           1226    RRRSAAR|SR  0.169    .
+344           1228    RSAARSR|RT  0.115    .
+344           1229    SAARSRR|TK  0.408    .
+344           1231    ARSRRTK|PS  0.217    .
+344           1234    RRTKPSR|RI  0.101    .
+344           1235    RTKPSRR|IV  0.321    .
+344           1260    LPAAHPR|II  0.168    .
+344           1301    LPPPIIK|YS  0.058    .
+344           1327    FGGNLEK|ML  0.063    .
+344           1337    PSGSLSK|RG  0.064    .
+344           1338    SGSLSKR|GS  0.394    .
+344           1358    SYDNFSR|AM  0.096    .
+344           1372    SVADTIK|QF  0.069    .
+344           1376    TIKQFLK|EE  0.069    .
+344           1382    KEEGEIR|IP  0.076    .
+344           1387    IRIPPTR|PR  0.078    .
+344           1389    IPPTRPR|TL  0.084    .
+344           1395    RTLPVPR|SS  0.135    .
+344           1398    PVPRSSR|AT  0.186    .
+344           1405    ATPNIPK|LD  0.061    .
+344           1421    PGDVDYK|LD  0.054    .
+344           1440    GEDFSVR|LG  0.070    .
+344           1445    VRLGSLR|RY  0.083    .
+344           1446    RLGSLRR|YP  0.159    .
+344           1462    ELFNFYR|TD  0.077    .
+344           1472    ECFFFDR|NR  0.075    .
+344           1474    FFFDRNR|ML  0.088    .
+344           1486    ILQYYQK|GK  0.074    .
+344           1488    QYYQKGK|LT  0.073    .
+344           1509    EPHCYGK|LE  0.069    .
+344           1516    LEEALVR|EL  0.077    .
+344           1522    RELDYFR|IR  0.067    .
+344           1524    LDYFRIR|YE  0.108    .
+344           1543    PTLEEQR|QE  0.074    .
+344           1552    AAAMLQK|LE  0.060    .
+344           1559    LEPDLGK|WI  0.067    .
+344           1563    LGKWIAR|KL  0.088    .
+344           1564    GKWIARK|LA  0.090    .
+344           1578    TNPNSSK|LA  0.065    .
+344           1620    TLHIVNR|VV  0.205    .
+344           1637    TLDFMLR|LI  0.075    .
+344           1644    LIAWPSK|NT  0.081    .
+344           1651    NTMTGVK|SF  0.079    .
+344           1684    MDHSEVK|SL  0.092    .
+344           1690    KSLIVIR|II  0.109    .
+344           1693    IVIRIIR|TF  0.143    .
+344           1696    RIIRTFR|FT  0.280    .
+344           1699    RTFRFTR|IF  0.292    .
+344           1702    RFTRIFR|IV  0.391    .
+344           1705    RIFRIVR|HS  0.201    .
+344           1709    IVRHSQR|LQ  0.101    .
+344           1777    TLTDYLK|QP  0.056    .
+344           1781    YLKQPIR|TR  0.076    .
+344           1783    KQPIRTR|YL  0.123    .
+344           1795    TGYQPIR|DQ  0.108    .
+344           1808    ISDQYYR|LS  0.078    .
+344           1821    SSLLPVK|IP  0.061    .
+344           1825    PVKIPSK|II  0.064    .
+344           1845    LWLANSR|GR  0.072    .
+344           1847    LANSRGR|VK  0.082    .
+344           1849    NSRGRVK|VR  0.060    .
+344           1851    RGRVKVR|QK  0.098    .
+344           1853    RVKVRQK|RL  0.065    .
+344           1854    VKVRQKR|LS  0.389    .
+344           1859    KRLSALK|FY  0.062    .
+344           1868    PIENICR|VS  0.080    .
+344           1872    ICRVSDK|FT  0.087    .
+344           1907    LSLYYSK|SV  0.090    .
+344           1916    YISPGFR|KK  0.085    .
+344           1917    ISPGFRK|KV  0.127    .
+344           1918    SPGFRKK|VT  0.138    .
+____________________________^_________________
+
+
+
+

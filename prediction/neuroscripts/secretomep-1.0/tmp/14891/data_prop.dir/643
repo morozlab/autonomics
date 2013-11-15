@@ -1,0 +1,270 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1455 643         
+MVLYSRKSGTRITIPNHDFFSGGGIRWAVKRKIMSQFFAKTNMKELFTSCKTHMEGPILEKWRTTIKSGAEIDLHDELAI      80
+TFSSYLQVFGLQDFYPPEVVADHVFKILEAIPKPLFDRWQYFMSQDKKSSRNRPNQGMLVPDWLITSHVCLVMDNMVKQL     160
+CSLFMFLDKEPEVQSKLMTELRSTEINNFRDLANTNRKGKVGPYKIWSKNIRIHFSEYVMHMDPTNWAEPKKFNPDRWND     240
+GFNPASFSYLPFWTGSRGCLGKHLAMMLMKLTLSVLCKNFEMTQAFDLKNPPMINQNMAVMRLINKVKVDRDRERERERE     320
+RERERERARLLPINTEPTGPSKQPIRARYLGHVTGISQSGTIFGLQDFYSPEVVADHVFRILEDIPKPLFDRYRYFMSQQ     400
+KIDTTKMIQKMRRDLTALVTGKLEEFKGFGEQKSDDLIGLLIEANMADDGKAVKGNGVIVAESVVDDLMTVRLYGDCTVG     480
+PRFTGPRFTGTPIYHAKPFPPIIPVNRGPTEPEVQSKLMAELRSTEINNFRDLAKLEYTEKCLLEGLRMGPALLRGTRTY     560
+MLKFLIEANMADDGKAVKGNGVIVAESVVDDLMTVRLYGDCTVGPRFTGPRFTGTPIYHAKPFPPIIPVNRGPTICLVMD     640
+NMVKQLCTLFMFLDKEPEVQSKLMAELRSTEINNFRDLAKLEYTEKCLLEGLRMGPALLRGTRTYITNRKGTVGPYKIWS     720
+KNIRIHFSEYVMHMDPTNWPEPKKFNPDRWNDGFNPASFSYLPFWTGSRGCLGKHLAMMLMKLTLSVLCKNFEMTQAFDL     800
+KNPPMINQNMAVMRLINKVKVDIRLMPSPQDVQCDIRKSQNSFIFEEKRVKKLCAAADLMIARPQEPTDTRKLPIRTPYL     880
+GHVTGYQPIRDQYFLIRSVPARPLYPHDSFVQPRDNIYGHGHTLNEYKAKNAFLDLFLKWTEENGKTIVFWLGPMPFIFV     960
+SDPNMLKSVATDLSGFIKVASLPNRFLFGQKIIGTQSILRYYDFGQKKFLGDTVTLTTRARNTRKRSGLSCDLPHRDVWL    1040
+SEKVWELKDKGITFGITWKIRKKGRPYRIGDRFCDLCTTEKMEILRESRNHQLLNRRSEIMAPLELSRALSGTRKIKDSY    1120
+RKDSFKQLRGWLVGWLERLVMFGAFGMGSRLTMRGFLAFQTTCIDLRFLEIEDLSYGGGIKWAVKRKIMSQFFAKTNMKE    1200
+LFTSCKTHMEGPILEKWRKTVKTGTEVDLHDELAVTFAAYLQVFGLQDFYSPEVIADNVFRILEDIPKPLFNRYQYFFSQ    1280
+QKVDTTKMIQKMRKDLTAIVTQKTEEFKGMGEQKSDDLIGLLIEANMSDDGKEMIVESIRTLTSSDFSETSHMLKYDNGG    1360
+TNTAYFRSENFLAINLPYFNGSEVRVLQKKSGKQDGVNFWWSVTLATPTVPPTAPPTAWSTTSKTHEKANNGIFLTRTDR    1440
+NKQTSYNCQSGTSIS                                                                     1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...............                                                                     1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+643              6    -MVLYSR|KS  0.083    .
+643              7    MVLYSRK|SG  0.091    .
+643             11    SRKSGTR|IT  0.101    .
+643             26    FSGGGIR|WA  0.092    .
+643             30    GIRWAVK|RK  0.062    .
+643             31    IRWAVKR|KI  0.341    .
+643             32    RWAVKRK|IM  0.125    .
+643             40    MSQFFAK|TN  0.093    .
+643             44    FAKTNMK|EL  0.068    .
+643             51    ELFTSCK|TH  0.062    .
+643             61    EGPILEK|WR  0.058    .
+643             63    PILEKWR|TT  0.109    .
+643             67    KWRTTIK|SG  0.072    .
+643            106    VADHVFK|IL  0.079    .
+643            113    ILEAIPK|PL  0.067    .
+643            118    PKPLFDR|WQ  0.074    .
+643            127    YFMSQDK|KS  0.063    .
+643            128    FMSQDKK|SS  0.155    .
+643            131    QDKKSSR|NR  0.087    .
+643            133    KKSSRNR|PN  0.116    .
+643            158    VMDNMVK|QL  0.060    .
+643            169    LFMFLDK|EP  0.060    .
+643            176    EPEVQSK|LM  0.068    .
+643            182    KLMTELR|ST  0.147    .
+643            190    TEINNFR|DL  0.098    .
+643            197    DLANTNR|KG  0.078    .
+643            198    LANTNRK|GK  0.079    .
+643            200    NTNRKGK|VG  0.123    .
+643            205    GKVGPYK|IW  0.093    .
+643            209    PYKIWSK|NI  0.062    .
+643            212    IWSKNIR|IH  0.112    .
+643            231    TNWAEPK|KF  0.071    .
+643            232    NWAEPKK|FN  0.113    .
+643            237    KKFNPDR|WN  0.129    .
+643            257    PFWTGSR|GC  0.068    .
+643            262    SRGCLGK|HL  0.083    .
+643            270    LAMMLMK|LT  0.067    .
+643            278    TLSVLCK|NF  0.077    .
+643            289    TQAFDLK|NP  0.064    .
+643            302    QNMAVMR|LI  0.128    .
+643            306    VMRLINK|VK  0.053    .
+643            308    RLINKVK|VD  0.069    .
+643            311    NKVKVDR|DR  0.115    .
+643            313    VKVDRDR|ER  0.088    .
+643            315    VDRDRER|ER  0.094    .
+643            317    RDRERER|ER  0.095    .
+643            319    RERERER|ER  0.088    .
+643            321    RERERER|ER  0.085    .
+643            323    RERERER|ER  0.087    .
+643            325    RERERER|ER  0.078    .
+643            327    RERERER|AR  0.079    .
+643            329    RERERAR|LL  0.090    .
+643            342    EPTGPSK|QP  0.062    .
+643            346    PSKQPIR|AR  0.091    .
+643            348    KQPIRAR|YL  0.181    .
+643            380    VADHVFR|IL  0.124    .
+643            387    ILEDIPK|PL  0.066    .
+643            392    PKPLFDR|YR  0.074    .
+643            394    PLFDRYR|YF  0.112    .
+643            401    YFMSQQK|ID  0.061    .
+643            406    QKIDTTK|MI  0.082    .
+643            410    TTKMIQK|MR  0.064    .
+643            412    KMIQKMR|RD  0.103    .
+643            413    MIQKMRR|DL  0.284    .
+643            422    TALVTGK|LE  0.064    .
+643            427    GKLEEFK|GF  0.076    .
+643            433    KGFGEQK|SD  0.083    .
+643            451    NMADDGK|AV  0.082    .
+643            454    DDGKAVK|GN  0.074    .
+643            472    DDLMTVR|LY  0.087    .
+643            482    DCTVGPR|FT  0.105    .
+643            487    PRFTGPR|FT  0.138    .
+643            497    TPIYHAK|PF  0.091    .
+643            507    PIIPVNR|GP  0.098    .
+643            517    EPEVQSK|LM  0.069    .
+643            523    KLMAELR|ST  0.150    .
+643            531    TEINNFR|DL  0.148    .
+643            535    NFRDLAK|LE  0.065    .
+643            541    KLEYTEK|CL  0.069    .
+643            548    CLLEGLR|MG  0.074    .
+643            555    MGPALLR|GT  0.084    .
+643            558    ALLRGTR|TY  0.151    .
+643            563    TRTYMLK|FL  0.078    .
+643            575    NMADDGK|AV  0.082    .
+643            578    DDGKAVK|GN  0.074    .
+643            596    DDLMTVR|LY  0.087    .
+643            606    DCTVGPR|FT  0.105    .
+643            611    PRFTGPR|FT  0.138    .
+643            621    TPIYHAK|PF  0.091    .
+643            631    PIIPVNR|GP  0.099    .
+643            644    VMDNMVK|QL  0.062    .
+643            655    LFMFLDK|EP  0.059    .
+643            662    EPEVQSK|LM  0.067    .
+643            668    KLMAELR|ST  0.150    .
+643            676    TEINNFR|DL  0.148    .
+643            680    NFRDLAK|LE  0.065    .
+643            686    KLEYTEK|CL  0.069    .
+643            693    CLLEGLR|MG  0.074    .
+643            700    MGPALLR|GT  0.088    .
+643            703    ALLRGTR|TY  0.177    .
+643            709    RTYITNR|KG  0.077    .
+643            710    TYITNRK|GT  0.075    .
+643            717    GTVGPYK|IW  0.083    .
+643            721    PYKIWSK|NI  0.062    .
+643            724    IWSKNIR|IH  0.112    .
+643            743    TNWPEPK|KF  0.070    .
+643            744    NWPEPKK|FN  0.098    .
+643            749    KKFNPDR|WN  0.131    .
+643            769    PFWTGSR|GC  0.068    .
+643            774    SRGCLGK|HL  0.083    .
+643            782    LAMMLMK|LT  0.067    .
+643            790    TLSVLCK|NF  0.077    .
+643            801    TQAFDLK|NP  0.064    .
+643            814    QNMAVMR|LI  0.135    .
+643            818    VMRLINK|VK  0.058    .
+643            820    RLINKVK|VD  0.066    .
+643            824    KVKVDIR|LM  0.069    .
+643            837    DVQCDIR|KS  0.075    .
+643            838    VQCDIRK|SQ  0.095    .
+643            848    SFIFEEK|RV  0.068    .
+643            849    FIFEEKR|VK  0.096    .
+643            851    FEEKRVK|KL  0.065    .
+643            852    EEKRVKK|LC  0.282    .
+643            863    ADLMIAR|PQ  0.086    .
+643            871    QEPTDTR|KL  0.072    .
+643            872    EPTDTRK|LP  0.069    .
+643            876    TRKLPIR|TP  0.104    .
+643            890    TGYQPIR|DQ  0.116    .
+643            897    DQYFLIR|SV  0.136    .
+643            902    IRSVPAR|PL  0.176    .
+643            914    DSFVQPR|DN  0.159    .
+643            928    HTLNEYK|AK  0.070    .
+643            930    LNEYKAK|NA  0.084    .
+643            939    FLDLFLK|WT  0.068    .
+643            946    WTEENGK|TI  0.059    .
+643            967    SDPNMLK|SV  0.093    .
+643            978    DLSGFIK|VA  0.070    .
+643            985    VASLPNR|FL  0.135    .
+643            991    RFLFGQK|II  0.063    .
+643           1000    GTQSILR|YY  0.101    .
+643           1007    YYDFGQK|KF  0.051    .
+643           1008    YDFGQKK|FL  0.151    .
+643           1019    TVTLTTR|AR  0.072    .
+643           1021    TLTTRAR|NT  0.084    .
+643           1024    TRARNTR|KR  0.267    .
+643           1025    RARNTRK|RS  0.088    .
+643           1026    ARNTRKR|SG  0.257    .
+643           1036    SCDLPHR|DV  0.154    .
+643           1043    DVWLSEK|VW  0.062    .
+643           1048    EKVWELK|DK  0.079    .
+643           1050    VWELKDK|GI  0.088    .
+643           1059    TFGITWK|IR  0.063    .
+643           1061    GITWKIR|KK  0.091    .
+643           1062    ITWKIRK|KG  0.078    .
+643           1063    TWKIRKK|GR  0.089    .
+643           1065    KIRKKGR|PY  0.133    .
+643           1068    KKGRPYR|IG  0.267    .
+643           1072    PYRIGDR|FC  0.078    .
+643           1081    DLCTTEK|ME  0.055    .
+643           1086    EKMEILR|ES  0.079    .
+643           1089    EILRESR|NH  0.103    .
+643           1096    NHQLLNR|RS  0.080    .
+643           1097    HQLLNRR|SE  0.127    .
+643           1108    APLELSR|AL  0.094    .
+643           1114    RALSGTR|KI  0.073    .
+643           1115    ALSGTRK|IK  0.101    .
+643           1117    SGTRKIK|DS  0.160    .
+643           1121    KIKDSYR|KD  0.092    .
+643           1122    IKDSYRK|DS  0.135    .
+643           1126    YRKDSFK|QL  0.084    .
+643           1129    DSFKQLR|GW  0.097    .
+643           1138    LVGWLER|LV  0.110    .
+643           1150    AFGMGSR|LT  0.091    .
+643           1154    GSRLTMR|GF  0.113    .
+643           1167    TTCIDLR|FL  0.101    .
+643           1181    SYGGGIK|WA  0.064    .
+643           1185    GIKWAVK|RK  0.059    .
+643           1186    IKWAVKR|KI  0.287    .
+643           1187    KWAVKRK|IM  0.123    .
+643           1195    MSQFFAK|TN  0.093    .
+643           1199    FAKTNMK|EL  0.068    .
+643           1206    ELFTSCK|TH  0.062    .
+643           1216    EGPILEK|WR  0.058    .
+643           1218    PILEKWR|KT  0.096    .
+643           1219    ILEKWRK|TV  0.131    .
+643           1222    KWRKTVK|TG  0.063    .
+643           1261    IADNVFR|IL  0.127    .
+643           1268    ILEDIPK|PL  0.062    .
+643           1273    PKPLFNR|YQ  0.075    .
+643           1282    YFFSQQK|VD  0.057    .
+643           1287    QKVDTTK|MI  0.077    .
+643           1291    TTKMIQK|MR  0.063    .
+643           1293    KMIQKMR|KD  0.104    .
+643           1294    MIQKMRK|DL  0.167    .
+643           1303    TAIVTQK|TE  0.070    .
+643           1308    QKTEEFK|GM  0.075    .
+643           1314    KGMGEQK|SD  0.088    .
+643           1332    NMSDDGK|EM  0.064    .
+643           1340    MIVESIR|TL  0.085    .
+643           1355    ETSHMLK|YD  0.079    .
+643           1367    TNTAYFR|SE  0.091    .
+643           1385    FNGSEVR|VL  0.080    .
+643           1389    EVRVLQK|KS  0.071    .
+643           1390    VRVLQKK|SG  0.155    .
+643           1393    LQKKSGK|QD  0.080    .
+643           1424    AWSTTSK|TH  0.087    .
+643           1428    TSKTHEK|AN  0.081    .
+643           1437    NGIFLTR|TD  0.090    .
+643           1440    FLTRTDR|NK  0.172    .
+643           1442    TRTDRNK|QT  0.076    .
+____________________________^_________________
+
+
+
+

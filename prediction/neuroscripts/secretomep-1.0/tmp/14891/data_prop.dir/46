@@ -1,0 +1,521 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3977 46          
+MIGTRLFFPDIQTNYEGFYSCSASDGNYTIDSNTTEIRIAYLGSSFLEIPSQIYAVEGSTVEFQCTPPDSFPPAVVYWIK      80
+DGNEVVNMSRSYVSPDYTLVLVGVLQEDKGDYQCVAFNNVTMETRVSLKGELYVTGQEENDGYSKPVPSIASSMTSVDEG     160
+GKIDLLCSFQGELNEPLSFTVKSCLFYTQGNSHEMVKQNGIQYSNLTTPLRWYGYDGSLLSTNSTISIDTSQPRNTTATC     240
+RVSNADGEVEQDTRIVVPEPDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGDGGI     320
+GVKFFTKSGIKCRRRLNIKLIMLISRVGDCVYIDVRIFHPGAQFPGISGQVRIRIGWLFISRILYINAFPRYDGAPGWKI     400
+RTSMYTQSPYRAEREKAVLRNKQYSLNINVLALLTHQTNYEHDVLDVPTAKCQIQDLRSYQELTDTSKQPIRTRYLGHVT     480
+DDAEVSCGEDSMFLILPPSTGALHYTLSNRTHTAAVDLASDALSSPQKLLSLYRDYSTQYHRTPTPERVLIFRENLKKIV     560
+EGNKLATTWTLGMNKFADMTREERQSYLGLNMTGRGSPSFAGTKLEEPVSLVGVPAEKDWRKEGVDGEKKDFAEQEYLEC     640
+TYPDYVNGCHGGWSEHCWDYSAREGRLALERDQKYNPVDGGCGDKYKNMHNGLIASKITGYTEIYGKGKESAVIKALSQR     720
+SVMVAFEVTDYFFNYKNGIIDDKTCDDWGDSSANHAVTAVGYTRNSMVIKNSWGSDWGMSGYFETVRGTDDLPPTRLVTT     800
+DYSAREGRLALERDQKYNPVDGGCGDKYKNMHNGLIASKITGYTEIYGKGKESAVIKALSQRSVMVAFEVTDYFFNYKNG     880
+IIDDKTCDDWGDSSANHAVTAVGYTRNSMVIKNSWGSDWGMSGYFETVRGTDDARGSPSFAGTKLEEPVSLLGVPAEKDW     960
+RKEGVVTGVKNQDSCGSCYTFGAVGVLEINYAIRAGKRKDFAEQEYLECTYPDYVNGCHGGWSEHCWDYSAREGRLALER    1040
+DQKYNPVDGGCGDKYKNMHNGLIASKITGYTEIYGKGKESAVIKALSQRSVMVAFEVTDYFFNYKNGIIDDKTCDDWGDS    1120
+SANHAVTAVGYTRNSMVIKNSWGSDWGMSGYFETVRGTDDCEYFRWGAWPDWQDTGVVDNDPDYIPTEDDDCVDVNADGC    1200
+PCGTNRNQPNQEILVPDWLITSHVTQIKSYDANQPNQEILVPDWLITSHVTQIKSYDWLFTRFGSTSDGAQWEAQGEVKV    1280
+VVKGVGSFTFLLDMFSSTEFTDKVSAQSYPVSVSVRDTLFFEEIIGCDLRTDQSEVVIYIGHMTGYQPIRDQYFLMRSVP    1360
+YNSGTLTTLDVSKGIHDIVISFLALLVVSALVPLRLAITRVPYLGLAFSCSRTVWRRHTPFDSRSHGVTAPDSSLSRLSC    1440
+VAALTTRPTPTEISKHPIRTRYLGHVTGYQPIRDQYFLIRLVPASSHAVPLLLLLVESRYTCQQVSNSQEPTETSKQPIR    1520
+THYLGHVTGCHVTAVISQSGTSISLFAAVPDLILSALCWGLQRQAVHIIHIVITDHRELRLLEPTETSKQPIRTRYLGHV    1600
+TGYQAIRDRYFLIRSEEWCSGGLGEWALSRRRPHLPCTGRIRPTQVNNQSELSRGHVTGYQPIRDQYFLMIRLVPDSSLF    1680
+LVTKWTKQMALFGETKTTTIVRAGANELCTNKEFILQSDLDLPGCSGKRVLPSKSGSNVEFISLTLTDAVPPLFFSSPGI    1760
+MSSSAWRVRLLLLLKRDCEIVTFTKERELRFEIVTFTKEREREFVEVLFSALGVRVREHLRRGGSVRRKCLIQSWNKDEI    1840
+KKGRLSPALCVGNEVTPCQRARRGCFVTNFVCSVNIIWPSKFWRNEWGEKLIKSSNIDLDWAVVRERYQLEPRGRFKRLP    1920
+WTFLGWTTMVGAVTCLLYASNQFPILFSESGVSKAADAPLSDLCSFIKLDDAPLPDRCSFIKLDDAPLPDRCSFIKLDDA    2000
+PLPDRCSFIKLDDAPLPDRCSFIKLDDAPLPDRCSFIKLDDRPLEEGDFGGNLGGGSTVAMIISKLFSKKREASHTVYTV    2080
+AAGVMCYITYKSNSYRSPRPIKLQPELEADSKTNVKLPWGTPVFCRSGSDLWKFGDNEPDLPPCFVSFFFFELFPMLGTL    2160
+TLRDGGVAGALLAQLADNLGSLLRMEFCLDLSFSSGMLYSTVSREDSEELGKDPVRFRTSLCSEPLLSLTGDGEELVRVC    2240
+CWPACSGCFRMTVTSKYDRCSTKSEFEDVLSGDVLDKYKGSDLLICLRREDTSCPSGLLKPQLWEILKVCYKMIPASPPY    2320
+SVPADNLDLRESFAKLQKDLISTISSLVKPATESEGLEGGNVKPKEPEIPEMKHYVNITTGGGQVEDERRSSRSLSDVST    2400
+RQCSFIKHVMGTKLHHSYQFSCHGNCVIHVEMGEKNHPAKPGGLSKSPYLRRTQRVRAQLLRHTERVITRNSKKGEICLS    2480
+GNFLLNKLVKFFSKSGIKCRPDFEKKFTSLFSRKFRDRHISPFFEFRGITLSWLRYDTWNLKHALNAHHSSLETHTQREK    2560
+KQYSGQGVHILITTNQLLHVSVDGLLYELIYINGSIPSLSFSLSGPDPVGSEGLLQVLLQSGTDSAKTSDHDGNDRGLFE    2640
+LSNSRDILLLGTTRSFPPLCLRLTCLLEQQNEKCLYLSFVQKNQVGLAGLTTCETKVRFKRLDLRFLEIQDLSYGRDGCL    2720
+GTRTYIGTGDLLHRHSPRGKDLGTFFDLCSDRYSKSSQSALLVNTSFLSLSLSLSLSLGPLHAPLPHGAVRSHVRAGLDP    2800
+PGPDPVGSGARRACGVKVGRTMFISEKSNWQHNATLRKDLKSLYNRFRYSKSSQSALLVNTSFLSLSLSLSLSLGPLHAP    2880
+LPHGAVRSHVRAGLNPPGPDPVGSEGPEGLRSKGREREREREREIERERERESVWQALTTGYRKKTKSGYHPMICAVYPI    2960
+LQCAQIGSAAPGRIGVCQLSMNQMNLEMYQVPIVEIERYIERVCTVYGCVLLDTFVNYKCHTPGTAPAHAASKGEIEIEI    3040
+EIEIEIEIEIEIEIEIEIELLKITCVCAHAARPNLRNRDKTPPQYHPSSTQRPSGSVVSTGGRVVCFSLPFSNPLTAWYN    3120
+SITPAPQLVHWAKVVWLYTVHTVLPETLVDGSIWTTETMILLQEINHTTVSSNIDIIRLKISGVTNILEKTDGAFPIPTA    3200
+VVINFISLIISLILSLSLSLSLSLSLSLSLSLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    3280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    3360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    3440
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    3520
+AAAAAAAAAAAAAAAAAAAAAAAAAASLSLSLSLSLSLSLSLSLFLSLPPSFSDSLPPSQLTKTIVCPIFLLLFFFFVPS    3600
+IKMTDPCVPPSTNMMSPCEASPLRPKKRKRNHAASAESGKRRNIPSLEDYFNEYREVLEDCAMRQTSARQLLGAASYSTF    3680
+TKIRPVAELFIVDPNNVDKFTSLSCPSHAPHAPLMALSHPSDSSAEWCSGNTFASHAEGPGFESRFGILCKPSSRPSYKL    3760
+VQLRLESHTPLHVGLAHLLCIHLWIIDSFSHSCISHSCSRFSECHLGWLVGWLVILSRRSTKLIERCDAVTPKLYVPLTC    3840
+VKGNRMVPHGFVNLFGSIDSEYVYMLSCFVTMEVSRVVTSQAWVWGGHFRNVEMITVLLILLSPTFSSDFPFPFANNEAK    3920
+PKVAFRDRKLSKFFDLSANKWVNADSSHQLSYATEFCKQVYPNKETDRIRKYWSLIG                           4000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.............................................................................P..    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+........................................................................P.......    2400
+................................................................................    2480
+...................................P............................................    2560
+P...............................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+................................................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+................................................................................    3840
+................................................................................    3920
+.........................................................                           4000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+46               5    --MIGTR|LF  0.080    .
+46              38    SNTTEIR|IA  0.087    .
+46              80    AVVYWIK|DG  0.079    .
+46              90    EVVNMSR|SY  0.083    .
+46             109    GVLQEDK|GD  0.057    .
+46             125    NVTMETR|VS  0.081    .
+46             129    ETRVSLK|GE  0.065    .
+46             145    ENDGYSK|PV  0.067    .
+46             162    SVDEGGK|ID  0.052    .
+46             182    PLSFTVK|SC  0.074    .
+46             197    NSHEMVK|QN  0.082    .
+46             211    NLTTPLR|WY  0.087    .
+46             234    IDTSQPR|NT  0.091    .
+46             241    NTTATCR|VS  0.079    .
+46             254    EVEQDTR|IV  0.092    .
+46             323    DGGIGVK|FF  0.062    .
+46             327    GVKFFTK|SG  0.080    .
+46             331    FTKSGIK|CR  0.051    .
+46             333    KSGIKCR|RR  0.083    .
+46             334    SGIKCRR|RL  0.160    .
+46             335    GIKCRRR|LN  0.129    .
+46             339    RRRLNIK|LI  0.066    .
+46             346    LIMLISR|VG  0.079    .
+46             356    CVYIDVR|IF  0.079    .
+46             372    GISGQVR|IR  0.109    .
+46             374    SGQVRIR|IG  0.078    .
+46             382    GWLFISR|IL  0.070    .
+46             391    YINAFPR|YD  0.133    .
+46             399    DGAPGWK|IR  0.058    .
+46             401    APGWKIR|TS  0.103    .
+46             411    YTQSPYR|AE  0.075    .
+46             414    SPYRAER|EK  0.209    .
+46             416    YRAEREK|AV  0.080    .
+46             420    REKAVLR|NK  0.085    .
+46             422    KAVLRNK|QY  0.065    .
+46             451    LDVPTAK|CQ  0.069    .
+46             458    CQIQDLR|SY  0.119    .
+46             468    ELTDTSK|QP  0.056    .
+46             472    TSKQPIR|TR  0.090    .
+46             474    KQPIRTR|YL  0.139    .
+46             510    HYTLSNR|TH  0.082    .
+46             528    ALSSPQK|LL  0.078    .
+46             534    KLLSLYR|DY  0.129    .
+46             542    YSTQYHR|TP  0.075    .
+46             548    RTPTPER|VL  0.075    .
+46             553    ERVLIFR|EN  0.090    .
+46             557    IFRENLK|KI  0.060    .
+46             558    FRENLKK|IV  0.144    .
+46             564    KIVEGNK|LA  0.062    .
+46             575    WTLGMNK|FA  0.066    .
+46             581    KFADMTR|EE  0.087    .
+46             584    DMTREER|QS  0.184    .
+46             595    GLNMTGR|GS  0.098    .
+46             604    PSFAGTK|LE  0.059    .
+46             618    VGVPAEK|DW  0.071    .
+46             621    PAEKDWR|KE  0.079    .
+46             622    AEKDWRK|EG  0.086    .
+46             629    EGVDGEK|KD  0.060    .
+46             630    GVDGEKK|DF  0.108    .
+46             663    CWDYSAR|EG  0.086    .
+46             666    YSAREGR|LA  0.246    .
+46             671    GRLALER|DQ  0.089    .
+46             674    ALERDQK|YN  0.110    .
+46             685    DGGCGDK|YK  0.060    .
+46             687    GCGDKYK|NM  0.079    .
+46             697    NGLIASK|IT  0.064    .
+46             707    YTEIYGK|GK  0.062    .
+46             709    EIYGKGK|ES  0.065    .
+46             715    KESAVIK|AL  0.094    .
+46             720    IKALSQR|SV  0.308    .
+46             736    DYFFNYK|NG  0.057    .
+46             743    NGIIDDK|TC  0.068    .
+46             764    TAVGYTR|NS  0.091    .
+46             770    RNSMVIK|NS  0.089    .
+46             787    GYFETVR|GT  0.108    .
+46             796    DDLPPTR|LV  0.084    .
+46             805    TTDYSAR|EG  0.081    .
+46             808    YSAREGR|LA  0.228    .
+46             813    GRLALER|DQ  0.089    .
+46             816    ALERDQK|YN  0.110    .
+46             827    DGGCGDK|YK  0.060    .
+46             829    GCGDKYK|NM  0.079    .
+46             839    NGLIASK|IT  0.064    .
+46             849    YTEIYGK|GK  0.062    .
+46             851    EIYGKGK|ES  0.065    .
+46             857    KESAVIK|AL  0.094    .
+46             862    IKALSQR|SV  0.308    .
+46             878    DYFFNYK|NG  0.057    .
+46             885    NGIIDDK|TC  0.068    .
+46             906    TAVGYTR|NS  0.091    .
+46             912    RNSMVIK|NS  0.089    .
+46             929    GYFETVR|GT  0.119    .
+46             935    RGTDDAR|GS  0.079    .
+46             944    PSFAGTK|LE  0.059    .
+46             958    LGVPAEK|DW  0.072    .
+46             961    PAEKDWR|KE  0.086    .
+46             962    AEKDWRK|EG  0.069    .
+46             970    GVVTGVK|NQ  0.054    .
+46             994    EINYAIR|AG  0.088    .
+46             997    YAIRAGK|RK  0.152    .
+46             998    AIRAGKR|KD  0.164    .
+46             999    IRAGKRK|DF  0.216    .
+46            1032    CWDYSAR|EG  0.086    .
+46            1035    YSAREGR|LA  0.246    .
+46            1040    GRLALER|DQ  0.089    .
+46            1043    ALERDQK|YN  0.110    .
+46            1054    DGGCGDK|YK  0.060    .
+46            1056    GCGDKYK|NM  0.079    .
+46            1066    NGLIASK|IT  0.064    .
+46            1076    YTEIYGK|GK  0.062    .
+46            1078    EIYGKGK|ES  0.065    .
+46            1084    KESAVIK|AL  0.094    .
+46            1089    IKALSQR|SV  0.308    .
+46            1105    DYFFNYK|NG  0.057    .
+46            1112    NGIIDDK|TC  0.068    .
+46            1133    TAVGYTR|NS  0.091    .
+46            1139    RNSMVIK|NS  0.089    .
+46            1156    GYFETVR|GT  0.105    .
+46            1165    DDCEYFR|WG  0.069    .
+46            1206    CPCGTNR|NQ  0.088    .
+46            1228    SHVTQIK|SY  0.109    .
+46            1254    SHVTQIK|SY  0.093    .
+46            1262    YDWLFTR|FG  0.099    .
+46            1279    EAQGEVK|VV  0.083    .
+46            1283    EVKVVVK|GV  0.090    .
+46            1303    STEFTDK|VS  0.065    .
+46            1316    PVSVSVR|DT  0.134    .
+46            1330    IIGCDLR|TD  0.071    .
+46            1350    TGYQPIR|DQ  0.113    .
+46            1357    DQYFLMR|SV  0.150    .
+46            1373    TTLDVSK|GI  0.086    .
+46            1395    SALVPLR|LA  0.085    .
+46            1400    LRLAITR|VP  0.081    .
+46            1412    LAFSCSR|TV  0.084    .
+46            1416    CSRTVWR|RH  0.086    .
+46            1417    SRTVWRR|HT  0.132    .
+46            1424    HTPFDSR|SH  0.112    .
+46            1437    PDSSLSR|LS  0.088    .
+46            1447    VAALTTR|PT  0.084    .
+46            1455    TPTEISK|HP  0.060    .
+46            1459    ISKHPIR|TR  0.088    .
+46            1461    KHPIRTR|YL  0.140    .
+46            1473    TGYQPIR|DQ  0.105    .
+46            1480    DQYFLIR|LV  0.107    .
+46            1499    LLLVESR|YT  0.110    .
+46            1516    EPTETSK|QP  0.057    .
+46            1520    TSKQPIR|TH  0.092    .
+46            1563    LCWGLQR|QA  0.099    .
+46            1577    IVITDHR|EL  0.089    .
+46            1580    TDHRELR|LL  0.400    .
+46            1589    EPTETSK|QP  0.058    .
+46            1593    TSKQPIR|TR  0.088    .
+46            1595    KQPIRTR|YL  0.138    .
+46            1607    TGYQAIR|DR  0.104    .
+46            1609    YQAIRDR|YF  0.077    .
+46            1614    DRYFLIR|SE  0.136    .
+46            1630    GEWALSR|RR  0.069    .
+46            1631    EWALSRR|RP  0.092    .
+46            1632    WALSRRR|PH  0.083    .
+46            1640    HLPCTGR|IR  0.080    .
+46            1642    PCTGRIR|PT  0.084    .
+46            1654    NQSELSR|GH  0.108    .
+46            1664    TGYQPIR|DQ  0.094    .
+46            1672    QYFLMIR|LV  0.078    .
+46            1684    SLFLVTK|WT  0.068    .
+46            1687    LVTKWTK|QM  0.059    .
+46            1696    ALFGETK|TT  0.067    .
+46            1702    KTTTIVR|AG  0.081    .
+46            1712    NELCTNK|EF  0.053    .
+46            1728    LPGCSGK|RV  0.082    .
+46            1729    PGCSGKR|VL  0.097    .
+46            1734    KRVLPSK|SG  0.121    .
+46            1767    MSSSAWR|VR  0.070    .
+46            1769    SSAWRVR|LL  0.081    .
+46            1775    RLLLLLK|RD  0.055    .
+46            1776    LLLLLKR|DC  0.221    .
+46            1785    EIVTFTK|ER  0.055    .
+46            1787    VTFTKER|EL  0.101    .
+46            1790    TKERELR|FE  0.259    .
+46            1798    EIVTFTK|ER  0.062    .
+46            1800    VTFTKER|ER  0.092    .
+46            1802    FTKERER|EF  0.083    .
+46            1815    FSALGVR|VR  0.077    .
+46            1817    ALGVRVR|EH  0.079    .
+46            1821    RVREHLR|RG  0.087    .
+46            1822    VREHLRR|GG  0.173    .
+46            1827    RRGGSVR|RK  0.113    .
+46            1828    RGGSVRR|KC  0.112    .
+46            1829    GGSVRRK|CL  0.130    .
+46            1837    LIQSWNK|DE  0.067    .
+46            1841    WNKDEIK|KG  0.059    .
+46            1842    NKDEIKK|GR  0.070    .
+46            1844    DEIKKGR|LS  0.086    .
+46            1860    EVTPCQR|AR  0.072    .
+46            1862    TPCQRAR|RG  0.105    .
+46            1863    PCQRARR|GC  0.401    .
+46            1881    NIIWPSK|FW  0.067    .
+46            1884    WPSKFWR|NE  0.130    .
+46            1890    RNEWGEK|LI  0.059    .
+46            1893    WGEKLIK|SS  0.077    .
+46            1905    LDWAVVR|ER  0.093    .
+46            1907    WAVVRER|YQ  0.077    .
+46            1913    RYQLEPR|GR  0.096    .
+46            1915    QLEPRGR|FK  0.082    .
+46            1917    EPRGRFK|RL  0.066    .
+46            1918    PRGRFKR|LP  0.626 *ProP*
+46            1954    SESGVSK|AA  0.097    .
+46            1968    DLCSFIK|LD  0.065    .
+46            1977    DAPLPDR|CS  0.081    .
+46            1982    DRCSFIK|LD  0.072    .
+46            1991    DAPLPDR|CS  0.081    .
+46            1996    DRCSFIK|LD  0.072    .
+46            2005    DAPLPDR|CS  0.081    .
+46            2010    DRCSFIK|LD  0.072    .
+46            2019    DAPLPDR|CS  0.081    .
+46            2024    DRCSFIK|LD  0.072    .
+46            2033    DAPLPDR|CS  0.080    .
+46            2038    DRCSFIK|LD  0.068    .
+46            2042    FIKLDDR|PL  0.090    .
+46            2065    VAMIISK|LF  0.069    .
+46            2069    ISKLFSK|KR  0.065    .
+46            2070    SKLFSKK|RE  0.083    .
+46            2071    KLFSKKR|EA  0.299    .
+46            2091    MCYITYK|SN  0.074    .
+46            2096    YKSNSYR|SP  0.204    .
+46            2099    NSYRSPR|PI  0.322    .
+46            2102    RSPRPIK|LQ  0.116    .
+46            2112    ELEADSK|TN  0.057    .
+46            2116    DSKTNVK|LP  0.055    .
+46            2126    GTPVFCR|SG  0.149    .
+46            2133    SGSDLWK|FG  0.077    .
+46            2163    LGTLTLR|DG  0.097    .
+46            2184    NLGSLLR|ME  0.074    .
+46            2204    LYSTVSR|ED  0.100    .
+46            2212    DSEELGK|DP  0.060    .
+46            2216    LGKDPVR|FR  0.076    .
+46            2218    KDPVRFR|TS  0.093    .
+46            2238    DGEELVR|VC  0.064    .
+46            2250    ACSGCFR|MT  0.109    .
+46            2256    RMTVTSK|YD  0.066    .
+46            2259    VTSKYDR|CS  0.140    .
+46            2263    YDRCSTK|SE  0.084    .
+46            2277    SGDVLDK|YK  0.069    .
+46            2279    DVLDKYK|GS  0.059    .
+46            2288    DLLICLR|RE  0.068    .
+46            2289    LLICLRR|ED  0.109    .
+46            2300    CPSGLLK|PQ  0.065    .
+46            2308    QLWEILK|VC  0.059    .
+46            2312    ILKVCYK|MI  0.071    .
+46            2330    ADNLDLR|ES  0.090    .
+46            2335    LRESFAK|LQ  0.072    .
+46            2338    SFAKLQK|DL  0.072    .
+46            2349    TISSLVK|PA  0.090    .
+46            2363    LEGGNVK|PK  0.075    .
+46            2365    GGNVKPK|EP  0.080    .
+46            2373    PEIPEMK|HY  0.064    .
+46            2389    GQVEDER|RS  0.086    .
+46            2390    QVEDERR|SS  0.143    .
+46            2393    DERRSSR|SL  0.568 *ProP*
+46            2401    LSDVSTR|QC  0.116    .
+46            2407    RQCSFIK|HV  0.083    .
+46            2413    KHVMGTK|LH  0.059    .
+46            2435    HVEMGEK|NH  0.057    .
+46            2440    EKNHPAK|PG  0.077    .
+46            2446    KPGGLSK|SP  0.077    .
+46            2451    SKSPYLR|RT  0.121    .
+46            2452    KSPYLRR|TQ  0.093    .
+46            2455    YLRRTQR|VR  0.234    .
+46            2457    RRTQRVR|AQ  0.072    .
+46            2462    VRAQLLR|HT  0.125    .
+46            2466    LLRHTER|VI  0.087    .
+46            2470    TERVITR|NS  0.135    .
+46            2473    VITRNSK|KG  0.104    .
+46            2474    ITRNSKK|GE  0.095    .
+46            2487    GNFLLNK|LV  0.064    .
+46            2490    LLNKLVK|FF  0.087    .
+46            2494    LVKFFSK|SG  0.090    .
+46            2498    FSKSGIK|CR  0.056    .
+46            2500    KSGIKCR|PD  0.126    .
+46            2505    CRPDFEK|KF  0.065    .
+46            2506    RPDFEKK|FT  0.107    .
+46            2513    FTSLFSR|KF  0.094    .
+46            2514    TSLFSRK|FR  0.100    .
+46            2516    LFSRKFR|DR  0.567 *ProP*
+46            2518    SRKFRDR|HI  0.151    .
+46            2527    SPFFEFR|GI  0.110    .
+46            2535    ITLSWLR|YD  0.082    .
+46            2542    YDTWNLK|HA  0.061    .
+46            2558    LETHTQR|EK  0.083    .
+46            2560    THTQREK|KQ  0.060    .
+46            2561    HTQREKK|QY  0.545 *ProP*
+46            2627    SGTDSAK|TS  0.069    .
+46            2636    DHDGNDR|GL  0.080    .
+46            2645    FELSNSR|DI  0.075    .
+46            2654    LLLGTTR|SF  0.082    .
+46            2662    FPPLCLR|LT  0.075    .
+46            2673    LEQQNEK|CL  0.063    .
+46            2682    YLSFVQK|NQ  0.062    .
+46            2696    LTTCETK|VR  0.057    .
+46            2698    TCETKVR|FK  0.094    .
+46            2700    ETKVRFK|RL  0.058    .
+46            2701    TKVRFKR|LD  0.470    .
+46            2705    FKRLDLR|FL  0.112    .
+46            2716    QDLSYGR|DG  0.090    .
+46            2723    DGCLGTR|TY  0.072    .
+46            2734    TGDLLHR|HS  0.082    .
+46            2738    LHRHSPR|GK  0.148    .
+46            2740    RHSPRGK|DL  0.126    .
+46            2752    FDLCSDR|YS  0.087    .
+46            2755    CSDRYSK|SS  0.153    .
+46            2791    LPHGAVR|SH  0.143    .
+46            2795    AVRSHVR|AG  0.080    .
+46            2811    PVGSGAR|RA  0.108    .
+46            2812    VGSGARR|AC  0.196    .
+46            2817    RRACGVK|VG  0.063    .
+46            2820    CGVKVGR|TM  0.101    .
+46            2827    TMFISEK|SN  0.091    .
+46            2837    QHNATLR|KD  0.092    .
+46            2838    HNATLRK|DL  0.102    .
+46            2841    TLRKDLK|SL  0.085    .
+46            2846    LKSLYNR|FR  0.095    .
+46            2848    SLYNRFR|YS  0.120    .
+46            2851    NRFRYSK|SS  0.199    .
+46            2887    LPHGAVR|SH  0.141    .
+46            2891    AVRSHVR|AG  0.074    .
+46            2911    EGPEGLR|SK  0.096    .
+46            2913    PEGLRSK|GR  0.067    .
+46            2915    GLRSKGR|ER  0.124    .
+46            2917    RSKGRER|ER  0.092    .
+46            2919    KGRERER|ER  0.090    .
+46            2921    RERERER|ER  0.090    .
+46            2923    RERERER|EI  0.113    .
+46            2927    REREIER|ER  0.079    .
+46            2929    REIERER|ER  0.078    .
+46            2931    IERERER|ES  0.083    .
+46            2943    ALTTGYR|KK  0.078    .
+46            2944    LTTGYRK|KT  0.072    .
+46            2945    TTGYRKK|TK  0.164    .
+46            2947    GYRKKTK|SG  0.085    .
+46            2973    GSAAPGR|IG  0.103    .
+46            2998    PIVEIER|YI  0.092    .
+46            3002    IERYIER|VC  0.079    .
+46            3019    DTFVNYK|CH  0.061    .
+46            3033    PAHAASK|GE  0.069    .
+46            3062    IEIELLK|IT  0.061    .
+46            3072    VCAHAAR|PN  0.084    .
+46            3076    AARPNLR|NR  0.105    .
+46            3078    RPNLRNR|DK  0.149    .
+46            3080    NLRNRDK|TP  0.068    .
+46            3092    HPSSTQR|PS  0.170    .
+46            3103    VVSTGGR|VV  0.119    .
+46            3133    QLVHWAK|VV  0.085    .
+46            3178    SNIDIIR|LK  0.091    .
+46            3180    IDIIRLK|IS  0.064    .
+46            3190    VTNILEK|TD  0.062    .
+46            3583    PPSQLTK|TI  0.066    .
+46            3602    FFVPSIK|MT  0.067    .
+46            3624    CEASPLR|PK  0.087    .
+46            3626    ASPLRPK|KR  0.054    .
+46            3627    SPLRPKK|RK  0.271    .
+46            3628    PLRPKKR|KR  0.218    .
+46            3629    LRPKKRK|RN  0.116    .
+46            3630    RPKKRKR|NH  0.265    .
+46            3640    ASAESGK|RR  0.057    .
+46            3641    SAESGKR|RN  0.153    .
+46            3642    AESGKRR|NI  0.227    .
+46            3655    DYFNEYR|EV  0.078    .
+46            3664    LEDCAMR|QT  0.096    .
+46            3669    MRQTSAR|QL  0.135    .
+46            3682    SYSTFTK|IR  0.070    .
+46            3684    STFTKIR|PV  0.124    .
+46            3699    DPNNVDK|FT  0.090    .
+46            3745    GPGFESR|FG  0.099    .
+46            3751    RFGILCK|PS  0.061    .
+46            3755    LCKPSSR|PS  0.080    .
+46            3759    SSRPSYK|LV  0.093    .
+46            3764    YKLVQLR|LE  0.085    .
+46            3800    ISHSCSR|FS  0.128    .
+46            3818    WLVILSR|RS  0.075    .
+46            3819    LVILSRR|ST  0.218    .
+46            3822    LSRRSTK|LI  0.172    .
+46            3826    STKLIER|CD  0.069    .
+46            3833    CDAVTPK|LY  0.065    .
+46            3842    VPLTCVK|GN  0.067    .
+46            3845    TCVKGNR|MV  0.157    .
+46            3876    VTMEVSR|VV  0.112    .
+46            3890    VWGGHFR|NV  0.166    .
+46            3920    FANNEAK|PK  0.070    .
+46            3922    NNEAKPK|VA  0.073    .
+46            3926    KPKVAFR|DR  0.102    .
+46            3928    KVAFRDR|KL  0.114    .
+46            3929    VAFRDRK|LS  0.134    .
+46            3932    RDRKLSK|FF  0.074    .
+46            3940    FDLSANK|WV  0.063    .
+46            3958    YATEFCK|QV  0.078    .
+46            3964    KQVYPNK|ET  0.073    .
+46            3968    PNKETDR|IR  0.067    .
+46            3970    KETDRIR|KY  0.084    .
+46            3971    ETDRIRK|YW  0.247    .
+____________________________^_________________
+
+
+
+

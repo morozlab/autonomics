@@ -1,0 +1,274 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1786 402         
+MTDSDIHVGHLVRSPKKFEESLKKFVSEIWSSTAKKEPQVYFTVADIRKSMDYPRNIRNMSVIAHVDHGKSTLTDSLVSK      80
+AGIIANEKAGEARFTDTRKDEQERCITIKSTGVSLYYELDEYNMKFLNTTQYHDGKNGFLINLIDSPGHVDFSSEVTAAL     160
+RVTDGALVVVDAVSGVCVQTETVLRQALTERIKPIVFMNKMDRALLELQLDKETLYDTFRKIVENINAIVSIYGEEDGPM     240
+GDIQVDPQFGTVGFGSGLHGWGFSLKQFADFYTKCDKEKCDKYIKKLWGDNYIDAEGKWSKKQKDGAVRGFCKLVLEPIY     320
+KIFSFCMTPPFAPKEAIAFAEKLRVELTNADKELEGKQLFKVIMRKWLPAGETLLQMITIHLPSPVTAQKYRAGMLYEGP     400
+KDDPFMKGIENCDPNAPLMMYVSKMVPTSDKGRFYAFGRVFSGTVGSGYKCRIMGPNFIPGKNEDLNVKTIQRTVLMMGR     480
+YVEHIDTVPAGNTVGLVGVDQYIVKTGTITNESSKDAHNMKQMKFSVSPVVRVAVEAKDPKDLPKLVEGLKRLAKSDPMV     560
+QCYNESSGEHIIAGAGELHLEICLKDLEEDHACIPIKKSDPVVSYKETIGDRSDMMCLSKSPNKHNRLFCKAQPLGEDFC     640
+CMVDDGDITPRQDPKVRAKCYHVAVEAKDPKDLPKLVEGLKRLAKSDPMVQCYNESSGEHIIAGAGELHLEICLKDLEED     720
+HACIPIKKSDPVVSYKETIGDRSDMMCLSKSPNKHNRLFCKAQPLGEDFCCMVDDGDITPRQDPKVRAKIITDKFPENVA     800
+DPGLNDWNVNDARKIWCFGPDQTGPNLVTDVSKGVQYLNEIKDSVVAGFQWAANEGVLCDENMRGVRINVHDVALHADAI     880
+HRGGGQIIPTTRRVVYASVLRAEPSLLEPIYLCEIQCPENSVGGIYGTLTKRRGVVIEEFQVEGTPMFMVKAHLPVNESF     960
+GFSSALRAATGGQAFPQCVFDHWANLPSDPMTVGSQANGIVMVTRKRKGLKDELPQFENYYDNARFQLLLGHVAYVNKHC    1040
+VLYLLREILNFQESQVKSFETHFILMTTAEAVQAAAAAAALFVHKPTLVQEVANQIVTEHGIPKSVINNAAGNFIAPSER    1120
+LTPKGFNTVTSIVLQGTFNVTSTFGNMMIKENTGGTFLNITVSGFKGTGFVLPSACAKAGVDAMTHSLASEWGRYGIRLN    1200
+SIGPGPIYTKGAFDRLDPTGSFMEAGLDNLPVGRMGEGEEIANLACYLVHPVSSWLTGQRIDLDGGMANYMGGMFNGLSK    1280
+IIARIMVKKLRELIIRTVRVLPMDLPVNESFGFSSALRAATGGQAFPQCVFDHWANLPSDPMTVGSQANGIVMVTRKRKG    1360
+LKDELPQFENYYDNARFQLLLGHVAYVNSSAARLKRTKVRFKRLDLRFLKIRALRLIFTKRVLNFQESQVKSFETHFILM    1440
+TTMFARSILRNVGHVRQLKTKPQSVHFPVFNEPIFQQDAFKGHTILVTGGATGLGKAMATMLSKLGANVCIASRSEEKLK    1520
+GTSEEIGNLTGNTVHYYSMDIRDQERVSDIIPTNTYRLPLQIAILYSLFVHKPTLVQEVANQIVTEHGIPKSVINNAAGN    1600
+FIAPSERLTPKGFNTVTSIVLQGTFNVTSTFGNMMIKENTGGTFLNITVSGFKGTGFVLPSACAKAGVDAMTHSLASEWG    1680
+RYGIRLNSIGPGPIYTKGAFDRLDPTGSFMEAGLDNLPVGRMGEGEEIANLACYLVHPVSSWLTGQRIDLDGGMANYMGG    1760
+MFNGLSKVTPDQWDMLEKMIRGTKGS                                                          1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+..........................                                                          1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+402             13    HVGHLVR|SP  0.132    .
+402             16    HLVRSPK|KF  0.191    .
+402             17    LVRSPKK|FE  0.097    .
+402             23    KFEESLK|KF  0.061    .
+402             24    FEESLKK|FV  0.195    .
+402             35    IWSSTAK|KE  0.075    .
+402             36    WSSTAKK|EP  0.120    .
+402             48    FTVADIR|KS  0.084    .
+402             49    TVADIRK|SM  0.119    .
+402             55    KSMDYPR|NI  0.094    .
+402             58    DYPRNIR|NM  0.151    .
+402             70    AHVDHGK|ST  0.076    .
+402             80    TDSLVSK|AG  0.074    .
+402             88    GIIANEK|AG  0.061    .
+402             93    EKAGEAR|FT  0.148    .
+402             98    ARFTDTR|KD  0.097    .
+402             99    RFTDTRK|DE  0.076    .
+402            104    RKDEQER|CI  0.098    .
+402            109    ERCITIK|ST  0.130    .
+402            125    LDEYNMK|FL  0.069    .
+402            136    TQYHDGK|NG  0.062    .
+402            161    EVTAALR|VT  0.081    .
+402            185    QTETVLR|QA  0.084    .
+402            191    RQALTER|IK  0.090    .
+402            193    ALTERIK|PI  0.059    .
+402            200    PIVFMNK|MD  0.065    .
+402            203    FMNKMDR|AL  0.088    .
+402            212    LELQLDK|ET  0.052    .
+402            220    TLYDTFR|KI  0.092    .
+402            221    LYDTFRK|IV  0.116    .
+402            266    GWGFSLK|QF  0.066    .
+402            274    FADFYTK|CD  0.054    .
+402            277    FYTKCDK|EK  0.056    .
+402            279    TKCDKEK|CD  0.070    .
+402            282    DKEKCDK|YI  0.063    .
+402            285    KCDKYIK|KL  0.055    .
+402            286    CDKYIKK|LW  0.131    .
+402            298    YIDAEGK|WS  0.066    .
+402            301    AEGKWSK|KQ  0.062    .
+402            302    EGKWSKK|QK  0.132    .
+402            304    KWSKKQK|DG  0.105    .
+402            309    QKDGAVR|GF  0.089    .
+402            313    AVRGFCK|LV  0.066    .
+402            321    VLEPIYK|IF  0.060    .
+402            334    TPPFAPK|EA  0.070    .
+402            342    AIAFAEK|LR  0.052    .
+402            344    AFAEKLR|VE  0.072    .
+402            352    ELTNADK|EL  0.061    .
+402            357    DKELEGK|QL  0.071    .
+402            361    EGKQLFK|VI  0.059    .
+402            365    LFKVIMR|KW  0.096    .
+402            366    FKVIMRK|WL  0.102    .
+402            390    SPVTAQK|YR  0.066    .
+402            392    VTAQKYR|AG  0.101    .
+402            401    MLYEGPK|DD  0.064    .
+402            407    KDDPFMK|GI  0.083    .
+402            424    LMMYVSK|MV  0.091    .
+402            431    MVPTSDK|GR  0.064    .
+402            433    PTSDKGR|FY  0.134    .
+402            439    RFYAFGR|VF  0.099    .
+402            450    TVGSGYK|CR  0.059    .
+402            452    GSGYKCR|IM  0.145    .
+402            462    PNFIPGK|NE  0.062    .
+402            469    NEDLNVK|TI  0.059    .
+402            473    NVKTIQR|TV  0.090    .
+402            480    TVLMMGR|YV  0.143    .
+402            505    VDQYIVK|TG  0.060    .
+402            515    ITNESSK|DA  0.091    .
+402            521    KDAHNMK|QM  0.066    .
+402            524    HNMKQMK|FS  0.067    .
+402            532    SVSPVVR|VA  0.112    .
+402            538    RVAVEAK|DP  0.077    .
+402            541    VEAKDPK|DL  0.077    .
+402            545    DPKDLPK|LV  0.086    .
+402            551    KLVEGLK|RL  0.060    .
+402            552    LVEGLKR|LA  0.147    .
+402            555    GLKRLAK|SD  0.206    .
+402            585    HLEICLK|DL  0.074    .
+402            597    HACIPIK|KS  0.076    .
+402            598    ACIPIKK|SD  0.100    .
+402            606    DPVVSYK|ET  0.074    .
+402            612    KETIGDR|SD  0.098    .
+402            620    DMMCLSK|SP  0.072    .
+402            624    LSKSPNK|HN  0.059    .
+402            627    SPNKHNR|LF  0.198    .
+402            631    HNRLFCK|AQ  0.077    .
+402            651    DGDITPR|QD  0.082    .
+402            655    TPRQDPK|VR  0.068    .
+402            657    RQDPKVR|AK  0.097    .
+402            659    DPKVRAK|CY  0.091    .
+402            668    HVAVEAK|DP  0.081    .
+402            671    VEAKDPK|DL  0.077    .
+402            675    DPKDLPK|LV  0.086    .
+402            681    KLVEGLK|RL  0.060    .
+402            682    LVEGLKR|LA  0.147    .
+402            685    GLKRLAK|SD  0.206    .
+402            715    HLEICLK|DL  0.074    .
+402            727    HACIPIK|KS  0.076    .
+402            728    ACIPIKK|SD  0.100    .
+402            736    DPVVSYK|ET  0.074    .
+402            742    KETIGDR|SD  0.098    .
+402            750    DMMCLSK|SP  0.072    .
+402            754    LSKSPNK|HN  0.059    .
+402            757    SPNKHNR|LF  0.198    .
+402            761    HNRLFCK|AQ  0.077    .
+402            781    DGDITPR|QD  0.083    .
+402            785    TPRQDPK|VR  0.072    .
+402            787    RQDPKVR|AK  0.088    .
+402            789    DPKVRAK|II  0.094    .
+402            794    AKIITDK|FP  0.070    .
+402            813    WNVNDAR|KI  0.104    .
+402            814    NVNDARK|IW  0.098    .
+402            833    LVTDVSK|GV  0.073    .
+402            842    QYLNEIK|DS  0.064    .
+402            864    LCDENMR|GV  0.110    .
+402            867    ENMRGVR|IN  0.149    .
+402            882    HADAIHR|GG  0.147    .
+402            892    QIIPTTR|RV  0.082    .
+402            893    IIPTTRR|VV  0.174    .
+402            901    VYASVLR|AE  0.069    .
+402            931    IYGTLTK|RR  0.064    .
+402            932    YGTLTKR|RG  0.100    .
+402            933    GTLTKRR|GV  0.325    .
+402            951    TPMFMVK|AH  0.081    .
+402            967    GFSSALR|AA  0.147    .
+402           1005    GIVMVTR|KR  0.082    .
+402           1006    IVMVTRK|RK  0.081    .
+402           1007    VMVTRKR|KG  0.103    .
+402           1008    MVTRKRK|GL  0.430    .
+402           1011    RKRKGLK|DE  0.077    .
+402           1025    NYYDNAR|FQ  0.075    .
+402           1038    HVAYVNK|HC  0.061    .
+402           1046    CVLYLLR|EI  0.070    .
+402           1057    FQESQVK|SF  0.080    .
+402           1085    AALFVHK|PT  0.068    .
+402           1104    TEHGIPK|SV  0.122    .
+402           1120    FIAPSER|LT  0.108    .
+402           1124    SERLTPK|GF  0.081    .
+402           1150    FGNMMIK|EN  0.067    .
+402           1166    ITVSGFK|GT  0.075    .
+402           1178    LPSACAK|AG  0.087    .
+402           1194    LASEWGR|YG  0.103    .
+402           1198    WGRYGIR|LN  0.088    .
+402           1210    PGPIYTK|GA  0.070    .
+402           1215    TKGAFDR|LD  0.111    .
+402           1234    DNLPVGR|MG  0.101    .
+402           1260    SWLTGQR|ID  0.088    .
+402           1280    MFNGLSK|II  0.069    .
+402           1284    LSKIIAR|IM  0.104    .
+402           1288    IARIMVK|KL  0.061    .
+402           1289    ARIMVKK|LR  0.130    .
+402           1291    IMVKKLR|EL  0.089    .
+402           1296    LRELIIR|TV  0.116    .
+402           1299    LIIRTVR|VL  0.145    .
+402           1318    GFSSALR|AA  0.147    .
+402           1356    GIVMVTR|KR  0.082    .
+402           1357    IVMVTRK|RK  0.081    .
+402           1358    VMVTRKR|KG  0.103    .
+402           1359    MVTRKRK|GL  0.430    .
+402           1362    RKRKGLK|DE  0.077    .
+402           1376    NYYDNAR|FQ  0.075    .
+402           1393    VNSSAAR|LK  0.110    .
+402           1395    SSAARLK|RT  0.066    .
+402           1396    SAARLKR|TK  0.435    .
+402           1398    ARLKRTK|VR  0.062    .
+402           1400    LKRTKVR|FK  0.116    .
+402           1402    RTKVRFK|RL  0.061    .
+402           1403    TKVRFKR|LD  0.455    .
+402           1407    FKRLDLR|FL  0.081    .
+402           1410    LDLRFLK|IR  0.075    .
+402           1412    LRFLKIR|AL  0.102    .
+402           1415    LKIRALR|LI  0.238    .
+402           1420    LRLIFTK|RV  0.072    .
+402           1421    RLIFTKR|VL  0.225    .
+402           1431    FQESQVK|SF  0.082    .
+402           1446    MTTMFAR|SI  0.160    .
+402           1450    FARSILR|NV  0.135    .
+402           1456    RNVGHVR|QL  0.112    .
+402           1459    GHVRQLK|TK  0.124    .
+402           1461    VRQLKTK|PQ  0.087    .
+402           1481    FQQDAFK|GH  0.067    .
+402           1496    GATGLGK|AM  0.063    .
+402           1504    MATMLSK|LG  0.055    .
+402           1514    NVCIASR|SE  0.108    .
+402           1518    ASRSEEK|LK  0.075    .
+402           1520    RSEEKLK|GT  0.096    .
+402           1542    YYSMDIR|DQ  0.122    .
+402           1546    DIRDQER|VS  0.092    .
+402           1557    IPTNTYR|LP  0.073    .
+402           1572    YSLFVHK|PT  0.069    .
+402           1591    TEHGIPK|SV  0.122    .
+402           1607    FIAPSER|LT  0.108    .
+402           1611    SERLTPK|GF  0.081    .
+402           1637    FGNMMIK|EN  0.067    .
+402           1653    ITVSGFK|GT  0.075    .
+402           1665    LPSACAK|AG  0.087    .
+402           1681    LASEWGR|YG  0.103    .
+402           1685    WGRYGIR|LN  0.088    .
+402           1697    PGPIYTK|GA  0.070    .
+402           1702    TKGAFDR|LD  0.111    .
+402           1721    DNLPVGR|MG  0.101    .
+402           1747    SWLTGQR|ID  0.088    .
+402           1767    MFNGLSK|VT  0.071    .
+402           1778    QWDMLEK|MI  0.069    .
+402           1781    MLEKMIR|GT  0.114    .
+402           1784    KMIRGTK|GS  0.118    .
+____________________________^_________________
+
+
+
+

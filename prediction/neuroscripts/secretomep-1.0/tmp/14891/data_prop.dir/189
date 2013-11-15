@@ -1,0 +1,325 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2550 189         
+MDILKLSTCDMFAVMPSILFDYSMPYIIVLVTLAAINRQCKEIIYVLSGHVRLPESIRAVGYDLSLDINWASMAYTGIQQ      80
+ASLNVTEKETYYLLIHVKDLDINRTATTVTTEDGTPVELKETFMGVEKDSEKSAKNDFYVIQSMSELALGVHKLTIHFGA     160
+KVQTEKLTGLYRSAYKKSDGTEVYQISTDFEPVDARSAFPCLDEPSQKASWTNTIKVQFPAGMDITNYNVISNALETKAE     240
+REDKNKVLTVNFEKSIAMSTYLVCFAISDFDSKQAKYTREDNSEVLLRVWARRETNFQDSLDYALKVTPAILKKYEEFYG     320
+VNYPLKKLDQIAFPQFNSGAMENWGIITYRESSLLYNSATSSMKEKQRVCAVIAHEVAHQWFGNTVTMAWWNDLWLNEGF     400
+ASFVEYYGIENAEPDWEILNFFYPDEIVAAMDFDSSPGSHPIVVSVSSPEELNGLFDTISYRKGSSINWMMQNFMGETAF     480
+RAGLATYIKNYKWGNAEMVDLFESLNTAAPKDMNVTEIMLTWTEQMGFPYVTVKIEDTKMTVTQDRFSQTIQLQLPRFLR     560
+GEAKEGDVSPYGYKWHVPFQFIGAVEGEDLYTSPIYWITPDKPLEITLDKEFTWVKGNAEGKFYYITTYDNDVWAQLGGS     640
+IETIPEATDRTSLLYDAFSLAKTSMIPYEYALDLTKGLVNETEYVVMYRGLVEVLNAKDLVEDEDAKALFKVTLSLFLSL     720
+SLSLSLSLSLFLSLSLSLSLSLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     800
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATEIMLTWTE     880
+QMGFPYVTVKIEDTKMTVTQDRFSQTIQLQLPRFLRGEAKEGDVSPYGYKWHVPFQFIGAVEGEDLYTSPIYWITPDKPL     960
+EITLDKEFTWVKGNAEGKFYYITTYDNDVWAQLGGSIETIPEATDRTSLLYDAFSLAKTSKIPYEYALDLTKGLVNETEY    1040
+VVMYRGLVEVLNAKDLVEDKDAKALFKVTLSLFLSLSLSLSLSLSLFLSLTQPTVDKLGFTAEDEKYQHFLFCYICYGFL    1120
+WKTGHSQQILRNVANATNEHVVKALDLFDDFVKDPQTVKAEIRDIFVTITRTAIIYDDDSHANWDDMWNLLQESEWEADQ    1200
+KIYIAALAKTNSTEKRDKMIEESFKPKPKSDCYRYLYYIAVYGGSDGLDYAWGKLQEKWTDYTLKYNSTSFSMGYLVEIP    1280
+AAFDTQQKHDEVKAFFEANTDTIGTGLKTVSETLATIKTNIEKKGKFGVMGTKDSEGDNPTNERLIKSVNDFIMEIMRLD    1360
+YARFSKEMNVEPQLVTDNYNYIKQFPESKLTPDSVGAVDEDINTYFRHSLKTLSKDEIIDATCKTFLSSVKLLKSAMYSL    1440
+DQAGSTRKLEEQLSDCKTELDQHRVNIIELQQTLIKNQQEQLSSMTNSVQKVKAYSTVLAQNVAAVSPGVRKSAQDPTQP    1520
+PSSERDKNLVIFGLPETTDRLTKTSVDGLFTELNENPKVKSMKRIGEKNEKGPRPLLISFERRATLMALRKKSRQLHLII    1600
+IFDNNVAVVQVTGYSHGVTPVTIGSTLTSKVSLTKDDNFITCQFLLHKSLLKDDSNYFFIGAGSVQDSSILYHQSTPISS    1680
+TELYSLAGEESSSGGVVGISDSRILLHASAMITGYGIFLVIGIYTSRYLKPIFEEAWYRIHTNIIIAMVLIVSVGIAAIF    1760
+FRQRSVVVGFHELIGFTILGLTVLQIGLGACRPHKKHRYRTLYTYSHLFLACTLFFLVIVNIFMGLSKSSLKVPSHIFVI    1840
+QGVYVIWVVFGSIVGSVMFLGLLLSLTLSSAARVSYPTNCTTNCSYSLSWVEFTPLHYNLTISIPICPNSSWVSVTFSET    1920
+TTYPPQVAVVCLFENSTVSVCPSTNEIYRNYADGRARIAQVDPGRGACIVSIAKSLLPTDTAAVTLGCSGGEGIVLARDL    2000
+SLDDWDRYSMIGRGPVRVLIQIHAITMMIGYGTFFVLSIFVSRYTMRLSCNGHWAVLTCLLVTFLCHTMGLVTVYMLPPW    2080
+PDSKRFLLFHRCTGLTLTTLLVCHIVLMVVKKRVEIPLRLKMPLSLMRHILSLTIFLLSFSECMTGLAKLTNIPSISVVY    2160
+LASYMFVLIVVGFIFSELLHIYFPVKIALYFTVMKLFFGVVLGNKMKSTRDELMFAMSELQQFVSFLVQAIQNRSSNNPV    2240
+NAITCSPADVVEQIVAKQNHINKIVKEAEEQEGTLKEIAVEKAEYQRLEGEINKLQQQLRPTMSVTLHTDVGDMKVELFC    2320
+EECPKTCYNFLALCASDYYNGCVFHRNVRGFLAQTGDPSGTGKGGSSCWEQRYFADEIHENLKHSRRGILSMANSGANKN    2400
+SSQFFFTYAEQAKLDGKYTVFGHVIHGLEALDDLEKVPVDEKHKPITDIKIRRVTIHANPIADMLTCYYDQILYIIFDSN    2480
+NKSKTQSRFSQWSSDIIVTSRLHLPHNLKLNKGRECPFSRETPLTVKYGKRGYRSNKKGSADNNDTLYVR              2560
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+...............P................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+......................................................................              2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+189              5    --MDILK|LS  0.056    .
+189             38    TLAAINR|QC  0.091    .
+189             41    AINRQCK|EI  0.186    .
+189             52    VLSGHVR|LP  0.102    .
+189             58    RLPESIR|AV  0.130    .
+189             88    SLNVTEK|ET  0.075    .
+189             98    YLLIHVK|DL  0.079    .
+189            104    KDLDINR|TA  0.090    .
+189            120    GTPVELK|ET  0.066    .
+189            128    TFMGVEK|DS  0.077    .
+189            132    VEKDSEK|SA  0.076    .
+189            135    DSEKSAK|ND  0.085    .
+189            153    LALGVHK|LT  0.062    .
+189            161    TIHFGAK|VQ  0.070    .
+189            166    AKVQTEK|LT  0.067    .
+189            172    KLTGLYR|SA  0.146    .
+189            176    LYRSAYK|KS  0.066    .
+189            177    YRSAYKK|SD  0.330    .
+189            196    FEPVDAR|SA  0.182    .
+189            208    LDEPSQK|AS  0.067    .
+189            216    SWTNTIK|VQ  0.066    .
+189            238    SNALETK|AE  0.063    .
+189            241    LETKAER|ED  0.072    .
+189            244    KAEREDK|NK  0.097    .
+189            246    EREDKNK|VL  0.068    .
+189            254    LTVNFEK|SI  0.076    .
+189            273    ISDFDSK|QA  0.063    .
+189            276    FDSKQAK|YT  0.091    .
+189            279    KQAKYTR|ED  0.087    .
+189            288    NSEVLLR|VW  0.094    .
+189            292    LLRVWAR|RE  0.099    .
+189            293    LRVWARR|ET  0.157    .
+189            306    SLDYALK|VT  0.063    .
+189            313    VTPAILK|KY  0.055    .
+189            314    TPAILKK|YE  0.131    .
+189            326    GVNYPLK|KL  0.077    .
+189            327    VNYPLKK|LD  0.105    .
+189            350    WGIITYR|ES  0.093    .
+189            364    SATSSMK|EK  0.061    .
+189            366    TSSMKEK|QR  0.079    .
+189            368    SMKEKQR|VC  0.097    .
+189            462    FDTISYR|KG  0.088    .
+189            463    DTISYRK|GS  0.084    .
+189            481    MGETAFR|AG  0.070    .
+189            489    GLATYIK|NY  0.064    .
+189            492    TYIKNYK|WG  0.065    .
+189            511    LNTAAPK|DM  0.078    .
+189            534    FPYVTVK|IE  0.071    .
+189            539    VKIEDTK|MT  0.068    .
+189            546    MTVTQDR|FS  0.126    .
+189            557    IQLQLPR|FL  0.091    .
+189            560    QLPRFLR|GE  0.240    .
+189            564    FLRGEAK|EG  0.070    .
+189            574    VSPYGYK|WH  0.058    .
+189            602    YWITPDK|PL  0.070    .
+189            610    LEITLDK|EF  0.061    .
+189            616    KEFTWVK|GN  0.063    .
+189            622    KGNAEGK|FY  0.070    .
+189            650    IPEATDR|TS  0.075    .
+189            662    DAFSLAK|TS  0.054    .
+189            676    YALDLTK|GL  0.058    .
+189            689    EYVVMYR|GL  0.105    .
+189            698    VEVLNAK|DL  0.068    .
+189            707    VEDEDAK|AL  0.066    .
+189            711    DAKALFK|VT  0.054    .
+189            890    FPYVTVK|IE  0.071    .
+189            895    VKIEDTK|MT  0.068    .
+189            902    MTVTQDR|FS  0.126    .
+189            913    IQLQLPR|FL  0.091    .
+189            916    QLPRFLR|GE  0.240    .
+189            920    FLRGEAK|EG  0.070    .
+189            930    VSPYGYK|WH  0.058    .
+189            958    YWITPDK|PL  0.070    .
+189            966    LEITLDK|EF  0.061    .
+189            972    KEFTWVK|GN  0.063    .
+189            978    KGNAEGK|FY  0.070    .
+189           1006    IPEATDR|TS  0.075    .
+189           1018    DAFSLAK|TS  0.054    .
+189           1021    SLAKTSK|IP  0.065    .
+189           1032    YALDLTK|GL  0.058    .
+189           1045    EYVVMYR|GL  0.105    .
+189           1054    VEVLNAK|DL  0.063    .
+189           1060    KDLVEDK|DA  0.076    .
+189           1063    VEDKDAK|AL  0.070    .
+189           1067    DAKALFK|VT  0.057    .
+189           1097    TQPTVDK|LG  0.067    .
+189           1106    FTAEDEK|YQ  0.058    .
+189           1122    CYGFLWK|TG  0.058    .
+189           1131    HSQQILR|NV  0.122    .
+189           1143    TNEHVVK|AL  0.074    .
+189           1153    LFDDFVK|DP  0.064    .
+189           1159    KDPQTVK|AE  0.057    .
+189           1163    TVKAEIR|DI  0.132    .
+189           1171    IFVTITR|TA  0.085    .
+189           1201    EWEADQK|IY  0.070    .
+189           1209    YIAALAK|TN  0.071    .
+189           1215    KTNSTEK|RD  0.065    .
+189           1216    TNSTEKR|DK  0.524 *ProP*
+189           1218    STEKRDK|MI  0.079    .
+189           1225    MIEESFK|PK  0.062    .
+189           1227    EESFKPK|PK  0.094    .
+189           1229    SFKPKPK|SD  0.077    .
+189           1234    PKSDCYR|YL  0.143    .
+189           1254    LDYAWGK|LQ  0.066    .
+189           1258    WGKLQEK|WT  0.065    .
+189           1265    WTDYTLK|YN  0.083    .
+189           1288    AFDTQQK|HD  0.061    .
+189           1293    QKHDEVK|AF  0.079    .
+189           1308    TIGTGLK|TV  0.086    .
+189           1318    ETLATIK|TN  0.058    .
+189           1323    IKTNIEK|KG  0.061    .
+189           1324    KTNIEKK|GK  0.157    .
+189           1326    NIEKKGK|FG  0.069    .
+189           1333    FGVMGTK|DS  0.071    .
+189           1344    DNPTNER|LI  0.079    .
+189           1347    TNERLIK|SV  0.392    .
+189           1358    FIMEIMR|LD  0.071    .
+189           1363    MRLDYAR|FS  0.116    .
+189           1366    DYARFSK|EM  0.114    .
+189           1383    DNYNYIK|QF  0.063    .
+189           1389    KQFPESK|LT  0.064    .
+189           1407    DINTYFR|HS  0.078    .
+189           1411    YFRHSLK|TL  0.072    .
+189           1415    SLKTLSK|DE  0.064    .
+189           1424    IIDATCK|TF  0.055    .
+189           1431    TFLSSVK|LL  0.061    .
+189           1434    SSVKLLK|SA  0.120    .
+189           1447    DQAGSTR|KL  0.126    .
+189           1448    QAGSTRK|LE  0.075    .
+189           1457    EQLSDCK|TE  0.051    .
+189           1464    TELDQHR|VN  0.103    .
+189           1476    LQQTLIK|NQ  0.064    .
+189           1491    MTNSVQK|VK  0.061    .
+189           1493    NSVQKVK|AY  0.089    .
+189           1511    AVSPGVR|KS  0.084    .
+189           1512    VSPGVRK|SA  0.123    .
+189           1525    QPPSSER|DK  0.115    .
+189           1527    PSSERDK|NL  0.067    .
+189           1540    LPETTDR|LT  0.095    .
+189           1543    TTDRLTK|TS  0.172    .
+189           1558    ELNENPK|VK  0.067    .
+189           1560    NENPKVK|SM  0.100    .
+189           1563    PKVKSMK|RI  0.090    .
+189           1564    KVKSMKR|IG  0.220    .
+189           1568    MKRIGEK|NE  0.059    .
+189           1571    IGEKNEK|GP  0.065    .
+189           1574    KNEKGPR|PL  0.082    .
+189           1582    LLISFER|RA  0.076    .
+189           1583    LISFERR|AT  0.194    .
+189           1590    ATLMALR|KK  0.084    .
+189           1591    TLMALRK|KS  0.079    .
+189           1592    LMALRKK|SR  0.120    .
+189           1594    ALRKKSR|QL  0.110    .
+189           1630    GSTLTSK|VS  0.061    .
+189           1635    SKVSLTK|DD  0.073    .
+189           1648    CQFLLHK|SL  0.067    .
+189           1652    LHKSLLK|DD  0.069    .
+189           1703    VGISDSR|IL  0.071    .
+189           1727    IGIYTSR|YL  0.096    .
+189           1730    YTSRYLK|PI  0.126    .
+189           1739    FEEAWYR|IH  0.085    .
+189           1762    IAAIFFR|QR  0.119    .
+189           1764    AIFFRQR|SV  0.217    .
+189           1792    IGLGACR|PH  0.069    .
+189           1795    GACRPHK|KH  0.092    .
+189           1796    ACRPHKK|HR  0.114    .
+189           1798    RPHKKHR|YR  0.141    .
+189           1800    HKKHRYR|TL  0.131    .
+189           1828    IFMGLSK|SS  0.079    .
+189           1832    LSKSSLK|VP  0.066    .
+189           1873    TLSSAAR|VS  0.107    .
+189           1949    STNEIYR|NY  0.113    .
+189           1955    RNYADGR|AR  0.101    .
+189           1957    YADGRAR|IA  0.090    .
+189           1965    AQVDPGR|GA  0.105    .
+189           1974    CIVSIAK|SL  0.068    .
+189           1998    EGIVLAR|DL  0.096    .
+189           2007    SLDDWDR|YS  0.098    .
+189           2013    RYSMIGR|GP  0.111    .
+189           2017    IGRGPVR|VL  0.093    .
+189           2043    LSIFVSR|YT  0.093    .
+189           2047    VSRYTMR|LS  0.106    .
+189           2084    PPWPDSK|RF  0.053    .
+189           2085    PWPDSKR|FL  0.183    .
+189           2091    RFLLFHR|CT  0.101    .
+189           2111    IVLMVVK|KR  0.054    .
+189           2112    VLMVVKK|RV  0.160    .
+189           2113    LMVVKKR|VE  0.150    .
+189           2119    RVEIPLR|LK  0.073    .
+189           2121    EIPLRLK|MP  0.053    .
+189           2128    MPLSLMR|HI  0.079    .
+189           2149    CMTGLAK|LT  0.054    .
+189           2186    HIYFPVK|IA  0.066    .
+189           2195    LYFTVMK|LF  0.063    .
+189           2205    GVVLGNK|MK  0.058    .
+189           2207    VLGNKMK|ST  0.109    .
+189           2210    NKMKSTR|DE  0.102    .
+189           2234    VQAIQNR|SS  0.120    .
+189           2257    VEQIVAK|QN  0.074    .
+189           2263    KQNHINK|IV  0.115    .
+189           2266    HINKIVK|EA  0.114    .
+189           2276    EQEGTLK|EI  0.060    .
+189           2282    KEIAVEK|AE  0.069    .
+189           2287    EKAEYQR|LE  0.089    .
+189           2294    LEGEINK|LQ  0.062    .
+189           2300    KLQQQLR|PT  0.111    .
+189           2315    TDVGDMK|VE  0.059    .
+189           2325    FCEECPK|TC  0.058    .
+189           2346    NGCVFHR|NV  0.164    .
+189           2349    VFHRNVR|GF  0.261    .
+189           2363    DPSGTGK|GG  0.081    .
+189           2372    SSCWEQR|YF  0.138    .
+189           2383    EIHENLK|HS  0.067    .
+189           2386    ENLKHSR|RG  0.076    .
+189           2387    NLKHSRR|GI  0.161    .
+189           2399    ANSGANK|NS  0.083    .
+189           2413    TYAEQAK|LD  0.075    .
+189           2417    QAKLDGK|YT  0.064    .
+189           2436    ALDDLEK|VP  0.052    .
+189           2442    KVPVDEK|HK  0.052    .
+189           2444    PVDEKHK|PI  0.062    .
+189           2450    KPITDIK|IR  0.062    .
+189           2452    ITDIKIR|RV  0.104    .
+189           2453    TDIKIRR|VT  0.160    .
+189           2482    IFDSNNK|SK  0.071    .
+189           2484    DSNNKSK|TQ  0.073    .
+189           2488    KSKTQSR|FS  0.110    .
+189           2501    DIIVTSR|LH  0.068    .
+189           2509    HLPHNLK|LN  0.056    .
+189           2512    HNLKLNK|GR  0.060    .
+189           2514    LKLNKGR|EC  0.105    .
+189           2520    RECPFSR|ET  0.079    .
+189           2527    ETPLTVK|YG  0.057    .
+189           2530    LTVKYGK|RG  0.060    .
+189           2531    TVKYGKR|GY  0.182    .
+189           2534    YGKRGYR|SN  0.419    .
+189           2537    RGYRSNK|KG  0.133    .
+189           2538    GYRSNKK|GS  0.121    .
+189           2550    NDTLYVR|--  0.077    .
+____________________________^_________________
+
+
+
+

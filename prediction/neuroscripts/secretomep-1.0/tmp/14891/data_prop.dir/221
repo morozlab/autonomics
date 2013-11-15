@@ -1,0 +1,433 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2404 221         
+MAEQAERLRLEALEDELREEQQQLDDAAAAVAVAAQAVQEGGGEEANENHQERVRDEVEIAMERAEERRRRDRQRLQEGE      80
+IGRGDMIDQEIEEYQQAARLLNPDLDHGDNMWNTLRTELALFHRKSDQVENLEREIRRMNGAYTALENNYQVSRRVLDAQ     160
+TRVMDNLPVPTANRPRERTTAVAMRPSKFASGVDNIRSYLARFKIYSKASNIADDSWALINLLTSYLDSRAQKRVLRMNL     240
+GERDPRPTVEEALNEIVRELEEVHPKAQSRSKLFEARQREGERMSDFATRLAEDAVIAYEDENMRKSVMLDVFILGVRDD     320
+GIGKDLLKAKHAEFEEAVKHAIELEAVYQARPAEDTPSRMVFNVVENTKRCYNCGKDGHLRKDCKENRSVQEKGACYNCG     400
+KPGHLARNCYSSAKGNQSPARGQNNAGQQRKGQWNQPGNNRYRQPRDALWNQPGPSGYQQQGRGSWNQPGPSGYQQQRRG     480
+SWNRQGSNRGPMTCNTCGMEGHLSNRCPKTGSIKLISASGEGPGENLLGEHEPIKTQEAEIKTRGPETGKEEMVRNTSVV     560
+GNISEGDGHYYLVVEIDKRKIPALVDTGSKYNLISSRIMGDWLKDKNRDRTNVSLLSAGGGGLDVEGQTKIQLRVGKKLL     640
+NVRFIIAGILETIILGTEFLEMTKAKLNFYDLTLMLDDQQSTIMKVKQGPSRVATVKLNGDNTLQGKGTINCKIEGQISF     720
+PATCYYTSKVGGGESTCLVTLTGAETAIQVDAGQGKESMSVHFANGDVVGTVTELAEGDWKSDIPTWEWGEERRIEAILQ     800
+KLKFEDNELLSTEQKNKVRELVKEYQEIFSLSDKELGLTTLYTHEIKLKENATVVNKNRPIPMHSFETAKEMILDMIEMG     880
+VLEPSTATYRSPLVIVKKKNGKNRMCIDFRLLNEATVSNLHPLPTVQETRNIWFGCKMWSVMDLSSAFWQIPLHEDSRDV     960
+TTIWLNSMGSWRHKVVPMGARTSPAALQSLADRLFGDLKANICAVYLDDIISGAADADVMMENLKLIFERLKIGGLKLKP    1040
+EKCELFKQEVMFLGCKLTEEGLYANQEKIKDLLEMPDPKSKKDVQRLLGLAGYFREFVPKFAEKAKALTSLLQGSEKFEF    1120
+GAEARSSFDEVKTALSNPPCLVWADPNKTLNLFTDASGYCMGFCLMQEDEDGKMHPIHYGSKMFNPSQLHWPSFVKEFYA    1200
+AYWAITRMRFYLYGRRFVLQTDCKAMSFGTFLKKSTANAIIRWSMELSEYEFDIKFVPGKENVVSDFLSRPALPQSSSGL    1280
+YDYIKQGIQEAVADEEEAKRLAATVVNQVSEETRPAPVIGDEEFLRESKEDPTFKTVRKWIREEEKAGDPNMLPPQERQY    1360
+YNKLSRLKIGDRDTICIRYGNPGLTEFRWLICVPESQIVKVIEASHTVAGAHQSSEKTESRIRQKFYFPNMQEEVRLFCK    1440
+TCSDCFKTNQYYRKQPVPELKPYTYKYPGMCVNMDVVQISKGGRFPKVLTMVDKFTKYVVFVPIANEKATTIAKAFLDNY    1520
+VCIWGPPQILVTDNAATFKTAEVMNNLYGLLGIEKKYCAPYHPQGNGIAERFNKVLLHLLQKLVGDNPGQWRQALPRLQL    1600
+AVNSAINRSTGYSAFRLMTGREMTGLDDVLFETRSTKFFESEHHLANDMYHELRKIFRLAGNNLELTHRLQKRIYDRNKQ    1680
+AVSLAVGDKVMIYRPKDTSNNYYKLVTNFKGPYIIIDAWDQHDFLVQRIQDWKKKTGDCRYIVHRNHLRKIPEGMRGHLG    1760
+DQEPERAKADLTEEEETELEDDSEIEEMLLEDDGDDDDDWVRGYRGGSGTEDRRVTRAQAKANQGGPGIGPQNNTRDSGI    1840
+SMGGPRTPPQGTFDRGRNILRDTQYHTPERQRAGENTPVADNNRTARSGGTSQLSTPWRTQILAELTRVFEEEFGEEEGD    1920
+ENLEVQTEQLRGEQDPRPEQEGQVTEPEDEYETVPRERLVRYTEAPPEVIGQYQLPEGQSPGRGKSRLQRSVKQLDQQPD    2000
+TTNRDLYTTAVLAWSDSLRNESRPTKEDAQPERQRSFNRTSEREPLENRQGTAGQVSERPGPATRTPETTQQANSLREHT    2080
+PERLGRPGPSNRTLNTSHRTSREESQRNHEREGDERSIWTSPPIAPGRRTGGYTEEDRRREEELLRMGLGIPTNIFPEIP    2160
+PARQQWRDKMDEMRGGRPLQMGNPANHSTPGRIPTGKEKKTHSPRTETPLRIRPGRPREKLPMINEPMDSVREPQRSYRK    2240
+EDNTAMEWEHPNQQTREEEMSWQNRNPNMTVYRDRTDRSLDSTKDTTKTSNDSFGEFERAPTEGLRVVMQSPKFEARPQP    2320
+REEEPDWQQIHEIAQRLNTIDRENVLRRSDNADDEEMEEVLETENRQEKRVREEGPDETRLLSPPPRRSKRLEGKPKVDY    2400
+KYQQ                                                                                2480
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+.............................................P..................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+..............................................P.................................    1920
+.....................................................................P..........    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+.....................................P..........................................    2320
+......................................................................P.........    2400
+....                                                                                2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+221              7    MAEQAER|LR  0.080    .
+221              9    EQAERLR|LE  0.064    .
+221             18    ALEDELR|EE  0.078    .
+221             53    NENHQER|VR  0.134    .
+221             55    NHQERVR|DE  0.086    .
+221             64    VEIAMER|AE  0.071    .
+221             68    MERAEER|RR  0.083    .
+221             69    ERAEERR|RR  0.188    .
+221             70    RAEERRR|RD  0.106    .
+221             71    AEERRRR|DR  0.479    .
+221             73    ERRRRDR|QR  0.314    .
+221             75    RRRDRQR|LQ  0.146    .
+221             83    QEGEIGR|GD  0.089    .
+221             99    EYQQAAR|LL  0.092    .
+221            116    NMWNTLR|TE  0.070    .
+221            124    ELALFHR|KS  0.135    .
+221            125    LALFHRK|SD  0.091    .
+221            134    QVENLER|EI  0.085    .
+221            137    NLEREIR|RM  0.188    .
+221            138    LEREIRR|MN  0.215    .
+221            154    NNYQVSR|RV  0.117    .
+221            155    NYQVSRR|VL  0.272    .
+221            162    VLDAQTR|VM  0.071    .
+221            174    PVPTANR|PR  0.067    .
+221            176    PTANRPR|ER  0.101    .
+221            178    ANRPRER|TT  0.108    .
+221            185    TTAVAMR|PS  0.089    .
+221            188    VAMRPSK|FA  0.242    .
+221            197    SGVDNIR|SY  0.100    .
+221            202    IRSYLAR|FK  0.167    .
+221            204    SYLARFK|IY  0.064    .
+221            208    RFKIYSK|AS  0.063    .
+221            230    TSYLDSR|AQ  0.101    .
+221            233    LDSRAQK|RV  0.189    .
+221            234    DSRAQKR|VL  0.199    .
+221            237    AQKRVLR|MN  0.212    .
+221            243    RMNLGER|DP  0.090    .
+221            246    LGERDPR|PT  0.178    .
+221            258    ALNEIVR|EL  0.102    .
+221            266    LEEVHPK|AQ  0.069    .
+221            270    HPKAQSR|SK  0.141    .
+221            272    KAQSRSK|LF  0.072    .
+221            277    SKLFEAR|QR  0.116    .
+221            279    LFEARQR|EG  0.077    .
+221            283    RQREGER|MS  0.096    .
+221            290    MSDFATR|LA  0.140    .
+221            305    YEDENMR|KS  0.063    .
+221            306    EDENMRK|SV  0.130    .
+221            318    VFILGVR|DD  0.091    .
+221            324    RDDGIGK|DL  0.068    .
+221            328    IGKDLLK|AK  0.065    .
+221            330    KDLLKAK|HA  0.092    .
+221            339    EFEEAVK|HA  0.064    .
+221            351    EAVYQAR|PA  0.157    .
+221            359    AEDTPSR|MV  0.126    .
+221            369    NVVENTK|RC  0.060    .
+221            370    VVENTKR|CY  0.155    .
+221            376    RCYNCGK|DG  0.068    .
+221            381    GKDGHLR|KD  0.094    .
+221            382    KDGHLRK|DC  0.114    .
+221            385    HLRKDCK|EN  0.070    .
+221            388    KDCKENR|SV  0.274    .
+221            393    NRSVQEK|GA  0.106    .
+221            401    ACYNCGK|PG  0.064    .
+221            407    KPGHLAR|NC  0.115    .
+221            414    NCYSSAK|GN  0.066    .
+221            421    GNQSPAR|GQ  0.146    .
+221            430    NNAGQQR|KG  0.096    .
+221            431    NAGQQRK|GQ  0.100    .
+221            441    NQPGNNR|YR  0.071    .
+221            443    PGNNRYR|QP  0.121    .
+221            446    NRYRQPR|DA  0.630 *ProP*
+221            463    GYQQQGR|GS  0.121    .
+221            478    SGYQQQR|RG  0.099    .
+221            479    GYQQQRR|GS  0.191    .
+221            484    RRGSWNR|QG  0.131    .
+221            489    NRQGSNR|GP  0.123    .
+221            506    EGHLSNR|CP  0.086    .
+221            509    LSNRCPK|TG  0.188    .
+221            514    PKTGSIK|LI  0.076    .
+221            535    GEHEPIK|TQ  0.074    .
+221            542    TQEAEIK|TR  0.076    .
+221            544    EAEIKTR|GP  0.117    .
+221            550    RGPETGK|EE  0.056    .
+221            555    GKEEMVR|NT  0.134    .
+221            578    LVVEIDK|RK  0.059    .
+221            579    VVEIDKR|KI  0.135    .
+221            580    VEIDKRK|IP  0.072    .
+221            590    LVDTGSK|YN  0.054    .
+221            597    YNLISSR|IM  0.115    .
+221            604    IMGDWLK|DK  0.065    .
+221            606    GDWLKDK|NR  0.062    .
+221            608    WLKDKNR|DR  0.098    .
+221            610    KDKNRDR|TN  0.087    .
+221            630    DVEGQTK|IQ  0.058    .
+221            634    QTKIQLR|VG  0.083    .
+221            637    IQLRVGK|KL  0.134    .
+221            638    QLRVGKK|LL  0.085    .
+221            643    KKLLNVR|FI  0.107    .
+221            664    EFLEMTK|AK  0.051    .
+221            666    LEMTKAK|LN  0.079    .
+221            685    QQSTIMK|VK  0.059    .
+221            687    STIMKVK|QG  0.064    .
+221            692    VKQGPSR|VA  0.114    .
+221            697    SRVATVK|LN  0.083    .
+221            707    DNTLQGK|GT  0.065    .
+221            713    KGTINCK|IE  0.062    .
+221            729    TCYYTSK|VG  0.067    .
+221            756    VDAGQGK|ES  0.067    .
+221            781    LAEGDWK|SD  0.070    .
+221            793    WEWGEER|RI  0.106    .
+221            794    EWGEERR|IE  0.105    .
+221            801    IEAILQK|LK  0.059    .
+221            803    AILQKLK|FE  0.064    .
+221            815    LLSTEQK|NK  0.065    .
+221            817    STEQKNK|VR  0.061    .
+221            819    EQKNKVR|EL  0.093    .
+221            823    KVRELVK|EY  0.064    .
+221            834    IFSLSDK|EL  0.067    .
+221            847    LYTHEIK|LK  0.059    .
+221            849    THEIKLK|EN  0.069    .
+221            857    NATVVNK|NR  0.056    .
+221            859    TVVNKNR|PI  0.093    .
+221            870    HSFETAK|EM  0.062    .
+221            890    PSTATYR|SP  0.089    .
+221            897    SPLVIVK|KK  0.064    .
+221            898    PLVIVKK|KN  0.132    .
+221            899    LVIVKKK|NG  0.084    .
+221            902    VKKKNGK|NR  0.059    .
+221            904    KKNGKNR|MC  0.147    .
+221            910    RMCIDFR|LL  0.089    .
+221            930    PTVQETR|NI  0.104    .
+221            937    NIWFGCK|MW  0.065    .
+221            958    PLHEDSR|DV  0.152    .
+221            972    NSMGSWR|HK  0.088    .
+221            974    MGSWRHK|VV  0.098    .
+221            981    VVPMGAR|TS  0.087    .
+221            993    LQSLADR|LF  0.105    .
+221            999    RLFGDLK|AN  0.060    .
+221           1025    VMMENLK|LI  0.062    .
+221           1030    LKLIFER|LK  0.102    .
+221           1032    LIFERLK|IG  0.063    .
+221           1037    LKIGGLK|LK  0.055    .
+221           1039    IGGLKLK|PE  0.060    .
+221           1042    LKLKPEK|CE  0.057    .
+221           1047    EKCELFK|QE  0.060    .
+221           1056    VMFLGCK|LT  0.062    .
+221           1068    LYANQEK|IK  0.066    .
+221           1070    ANQEKIK|DL  0.076    .
+221           1079    LEMPDPK|SK  0.089    .
+221           1081    MPDPKSK|KD  0.063    .
+221           1082    PDPKSKK|DV  0.200    .
+221           1086    SKKDVQR|LL  0.129    .
+221           1095    GLAGYFR|EF  0.089    .
+221           1100    FREFVPK|FA  0.112    .
+221           1104    VPKFAEK|AK  0.056    .
+221           1106    KFAEKAK|AL  0.084    .
+221           1117    LLQGSEK|FE  0.074    .
+221           1125    EFGAEAR|SS  0.177    .
+221           1132    SSFDEVK|TA  0.067    .
+221           1148    VWADPNK|TL  0.062    .
+221           1173    QEDEDGK|MH  0.057    .
+221           1182    PIHYGSK|MF  0.067    .
+221           1196    HWPSFVK|EF  0.064    .
+221           1207    AYWAITR|MR  0.066    .
+221           1209    WAITRMR|FY  0.113    .
+221           1215    RFYLYGR|RF  0.068    .
+221           1216    FYLYGRR|FV  0.110    .
+221           1224    VLQTDCK|AM  0.064    .
+221           1233    SFGTFLK|KS  0.060    .
+221           1234    FGTFLKK|ST  0.122    .
+221           1242    TANAIIR|WS  0.091    .
+221           1255    EYEFDIK|FV  0.078    .
+221           1260    IKFVPGK|EN  0.064    .
+221           1270    VSDFLSR|PA  0.084    .
+221           1285    GLYDYIK|QG  0.062    .
+221           1299    ADEEEAK|RL  0.063    .
+221           1300    DEEEAKR|LA  0.174    .
+221           1314    QVSEETR|PA  0.128    .
+221           1326    GDEEFLR|ES  0.075    .
+221           1329    EFLRESK|ED  0.074    .
+221           1335    KEDPTFK|TV  0.087    .
+221           1338    PTFKTVR|KW  0.097    .
+221           1339    TFKTVRK|WI  0.128    .
+221           1342    TVRKWIR|EE  0.124    .
+221           1346    WIREEEK|AG  0.067    .
+221           1358    MLPPQER|QY  0.104    .
+221           1363    ERQYYNK|LS  0.068    .
+221           1366    YYNKLSR|LK  0.090    .
+221           1368    NKLSRLK|IG  0.055    .
+221           1372    RLKIGDR|DT  0.105    .
+221           1378    RDTICIR|YG  0.098    .
+221           1388    PGLTEFR|WL  0.083    .
+221           1400    PESQIVK|VI  0.071    .
+221           1417    AHQSSEK|TE  0.068    .
+221           1421    SEKTESR|IR  0.074    .
+221           1423    KTESRIR|QK  0.080    .
+221           1425    ESRIRQK|FY  0.082    .
+221           1436    NMQEEVR|LF  0.078    .
+221           1440    EVRLFCK|TC  0.073    .
+221           1447    TCSDCFK|TN  0.077    .
+221           1453    KTNQYYR|KQ  0.076    .
+221           1454    TNQYYRK|QP  0.098    .
+221           1461    QPVPELK|PY  0.071    .
+221           1466    LKPYTYK|YP  0.078    .
+221           1481    DVVQISK|GG  0.053    .
+221           1484    QISKGGR|FP  0.092    .
+221           1487    KGGRFPK|VL  0.164    .
+221           1494    VLTMVDK|FT  0.072    .
+221           1497    MVDKFTK|YV  0.077    .
+221           1508    VPIANEK|AT  0.067    .
+221           1514    KATTIAK|AF  0.060    .
+221           1539    DNAATFK|TA  0.077    .
+221           1555    GLLGIEK|KY  0.055    .
+221           1556    LLGIEKK|YC  0.122    .
+221           1571    GNGIAER|FN  0.114    .
+221           1574    IAERFNK|VL  0.114    .
+221           1582    LLHLLQK|LV  0.091    .
+221           1592    DNPGQWR|QA  0.094    .
+221           1597    WRQALPR|LQ  0.098    .
+221           1608    VNSAINR|ST  0.204    .
+221           1616    TGYSAFR|LM  0.096    .
+221           1621    FRLMTGR|EM  0.085    .
+221           1634    DVLFETR|ST  0.098    .
+221           1637    FETRSTK|FF  0.144    .
+221           1654    DMYHELR|KI  0.083    .
+221           1655    MYHELRK|IF  0.084    .
+221           1658    ELRKIFR|LA  0.133    .
+221           1669    NLELTHR|LQ  0.071    .
+221           1672    LTHRLQK|RI  0.123    .
+221           1673    THRLQKR|IY  0.258    .
+221           1677    QKRIYDR|NK  0.091    .
+221           1679    RIYDRNK|QA  0.066    .
+221           1689    SLAVGDK|VM  0.059    .
+221           1694    DKVMIYR|PK  0.100    .
+221           1696    VMIYRPK|DT  0.080    .
+221           1704    TSNNYYK|LV  0.081    .
+221           1710    KLVTNFK|GP  0.067    .
+221           1728    HDFLVQR|IQ  0.093    .
+221           1733    QRIQDWK|KK  0.060    .
+221           1734    RIQDWKK|KT  0.141    .
+221           1735    IQDWKKK|TG  0.089    .
+221           1740    KKTGDCR|YI  0.091    .
+221           1745    CRYIVHR|NH  0.096    .
+221           1749    VHRNHLR|KI  0.105    .
+221           1750    HRNHLRK|IP  0.140    .
+221           1756    KIPEGMR|GH  0.067    .
+221           1766    GDQEPER|AK  0.096    .
+221           1768    QEPERAK|AD  0.064    .
+221           1802    DDDDWVR|GY  0.091    .
+221           1805    DWVRGYR|GG  0.234    .
+221           1813    GSGTEDR|RV  0.132    .
+221           1814    SGTEDRR|VT  0.116    .
+221           1817    EDRRVTR|AQ  0.275    .
+221           1821    VTRAQAK|AN  0.078    .
+221           1836    GPQNNTR|DS  0.174    .
+221           1846    ISMGGPR|TP  0.090    .
+221           1855    PQGTFDR|GR  0.099    .
+221           1857    GTFDRGR|NI  0.086    .
+221           1861    RGRNILR|DT  0.107    .
+221           1870    QYHTPER|QR  0.076    .
+221           1872    HTPERQR|AG  0.081    .
+221           1884    PVADNNR|TA  0.118    .
+221           1887    DNNRTAR|SG  0.697 *ProP*
+221           1899    QLSTPWR|TQ  0.114    .
+221           1908    ILAELTR|VF  0.094    .
+221           1931    VQTEQLR|GE  0.072    .
+221           1937    RGEQDPR|PE  0.097    .
+221           1956    EYETVPR|ER  0.069    .
+221           1958    ETVPRER|LV  0.109    .
+221           1961    PRERLVR|YT  0.329    .
+221           1983    EGQSPGR|GK  0.106    .
+221           1985    QSPGRGK|SR  0.069    .
+221           1987    PGRGKSR|LQ  0.088    .
+221           1990    GKSRLQR|SV  0.775 *ProP*
+221           1993    RLQRSVK|QL  0.309    .
+221           2004    QPDTTNR|DL  0.098    .
+221           2019    AWSDSLR|NE  0.089    .
+221           2023    SLRNESR|PT  0.089    .
+221           2026    NESRPTK|ED  0.153    .
+221           2033    EDAQPER|QR  0.101    .
+221           2035    AQPERQR|SF  0.097    .
+221           2039    RQRSFNR|TS  0.102    .
+221           2043    FNRTSER|EP  0.085    .
+221           2049    REPLENR|QG  0.087    .
+221           2059    AGQVSER|PG  0.081    .
+221           2065    RPGPATR|TP  0.095    .
+221           2077    QQANSLR|EH  0.099    .
+221           2083    REHTPER|LG  0.091    .
+221           2086    TPERLGR|PG  0.225    .
+221           2092    RPGPSNR|TL  0.130    .
+221           2099    TLNTSHR|TS  0.095    .
+221           2102    TSHRTSR|EE  0.344    .
+221           2107    SREESQR|NH  0.115    .
+221           2111    SQRNHER|EG  0.092    .
+221           2116    EREGDER|SI  0.160    .
+221           2128    PPIAPGR|RT  0.112    .
+221           2129    PIAPGRR|TG  0.133    .
+221           2138    GYTEEDR|RR  0.072    .
+221           2139    YTEEDRR|RE  0.102    .
+221           2140    TEEDRRR|EE  0.127    .
+221           2146    REEELLR|MG  0.078    .
+221           2163    PEIPPAR|QQ  0.090    .
+221           2167    PARQQWR|DK  0.196    .
+221           2169    RQQWRDK|MD  0.072    .
+221           2174    DKMDEMR|GG  0.105    .
+221           2177    DEMRGGR|PL  0.216    .
+221           2192    NHSTPGR|IP  0.116    .
+221           2197    GRIPTGK|EK  0.069    .
+221           2199    IPTGKEK|KT  0.066    .
+221           2200    PTGKEKK|TH  0.104    .
+221           2205    KKTHSPR|TE  0.090    .
+221           2211    RTETPLR|IR  0.069    .
+221           2213    ETPLRIR|PG  0.073    .
+221           2216    LRIRPGR|PR  0.330    .
+221           2218    IRPGRPR|EK  0.093    .
+221           2220    PGRPREK|LP  0.067    .
+221           2232    EPMDSVR|EP  0.091    .
+221           2236    SVREPQR|SY  0.171    .
+221           2239    EPQRSYR|KE  0.296    .
+221           2240    PQRSYRK|ED  0.083    .
+221           2256    HPNQQTR|EE  0.114    .
+221           2265    EMSWQNR|NP  0.083    .
+221           2273    PNMTVYR|DR  0.106    .
+221           2275    MTVYRDR|TD  0.084    .
+221           2278    YRDRTDR|SL  0.518 *ProP*
+221           2284    RSLDSTK|DT  0.074    .
+221           2288    STKDTTK|TS  0.066    .
+221           2299    SFGEFER|AP  0.104    .
+221           2306    APTEGLR|VV  0.105    .
+221           2313    VVMQSPK|FE  0.062    .
+221           2317    SPKFEAR|PQ  0.104    .
+221           2321    EARPQPR|EE  0.105    .
+221           2336    IHEIAQR|LN  0.077    .
+221           2342    RLNTIDR|EN  0.075    .
+221           2347    DRENVLR|RS  0.096    .
+221           2348    RENVLRR|SD  0.245    .
+221           2366    VLETENR|QE  0.081    .
+221           2369    TENRQEK|RV  0.253    .
+221           2370    ENRQEKR|VR  0.230    .
+221           2372    RQEKRVR|EE  0.119    .
+221           2380    EGPDETR|LL  0.074    .
+221           2387    LLSPPPR|RS  0.106    .
+221           2388    LSPPPRR|SK  0.189    .
+221           2390    PPPRRSK|RL  0.131    .
+221           2391    PPRRSKR|LE  0.640 *ProP*
+221           2395    SKRLEGK|PK  0.071    .
+221           2397    RLEGKPK|VD  0.072    .
+221           2401    KPKVDYK|YQ  0.075    .
+____________________________^_________________
+
+
+
+

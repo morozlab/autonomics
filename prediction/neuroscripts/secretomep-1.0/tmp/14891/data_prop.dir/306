@@ -1,0 +1,204 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2032 306         
+MRTTVCWLYGYSHLEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA      80
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     160
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     240
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     320
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALRVYSRGGHSRALTQCRPNRIDESRDSS     400
+LGFTPDTLRRRRRTPTFASGSDSAPSRSVNPPKMSDTEVSELDPLVSKTSSSAPIHITGELHSLALDSPERLSVQEILDQ     480
+SPFLAILPYIEQRDPKHRYRESLQLAYIAIIVPFLTCEWNLNATQVAFVTSLTFTASGLGSVLFGPLSDKYGRRKTAVLT     560
+NSMVFIFTLVCAISPSYWIFLPAAMMCGLNYGGSLSIAYTFWAEVSSTHFRSAGVSLITVFWCAGMTLANIIGLGFLNAY     640
+GWRLFSIVIATPALVPAVLLFILPESPKYLSVKNQHQAVVEALRYKTRKSAEFFEKIIITTEENDQSESNLLEPERIYHS     720
+FILICSSELRADTFKVLFLNSCLQTVFKSIIFIYTKMLVTDYCGMEGLEMMGGDPQEQPGGSVDDPLQCVTLSNKDFTNG     800
+ILLSLVLYLGTASAFLSSRLVGQLDSAKGYAFLATVCNILLFVCMPVLAMYFFLGFFVFNLSSMSVIMYMILPQLYPTLA     880
+RNSGFGLIDGGGKMAASVALFIVVALLDYSVTAALALLLISGDYGGADESPRPIHCIPVNTAFIERLNFILTRSAGVSLI     960
+TVFWCAGMTLANIIGLGFLNAYGWRLFSIVIATPALIPAVLLFILPESPKYLSVKNQHQAVVEALRYKTRKSAEFFEKII    1040
+ITAEENDQSESNLLEPERIYHSFILICSSELRADTFKVLFLNSCLQTVFKAIIFIYTKMLDFTNGILLSLVLYLGTASAF    1120
+LSSRLVGQLDSAKGYAFLATVCNILLFVCMPVLAMYFFLGFFVFNLSSMSVIMYMILPQLYPTLARNSGFGLIDGGGKMA    1200
+ASVALFIVVALLDYSVTAALALLLIQKYEFDLRAQIAYLRFPWYVLQPYGEIFPCARKNFSVSGGSTEVMVLVSGTGVNV    1280
+WAFPVVGVNLGSPHPAENLLRSQSGLLRSQSGLCLLDPNLQGLVHSMLPDLNYPGDDDDDSTNLDEKCLSEKLIESRKDL    1360
+QLVQEKEDDDTEIPVYLTKDKTDTDVIDEVTTDGTQKGQIEVKCEKVSGILTIVPDIFTGISTWCAAGCSPIPEDMETFH    1440
+AVTYKASSISLSQTGAPITRSDNFIEVGCREGYAPATLQSGSLDTQCLEGGYDPAINTLVQCTSGCKDIKSNFLNGAIDT    1520
+TPDLSETEVAAPYQVGAIATVSCSTGYYNPVSIVWAADCTSDKITISVDQIKDLKTGNNLPSTFKDGDTYTVACKYPATQ    1600
+VLTNDVRGQYGVDQGAIDAFSDGSQAGVVVVKCTSGSFVPDIFTAVTTWCAVGCSPIPSDSTQHWAATYPSKSLSVVKSA    1680
+APIVPDIDATIKVGCKSGYAPEMYQLGQFSTRCLSSGFSPSLSNMVKCTAGCSDITAQVANARVVAEKSAIEGAPPFNVG    1760
+SVATIDCSKGYTIQITEKCWQQITDSGQREYSVTHQLLFFFLLKHFNCTNAIESRGGAAIEAHYARLFCSNIYNEMEGIF    1840
+KRGVDPGVDQDLIMEQVMFCGGAGFVEDFLRPGILDMLLGWQRNDGCYAPYDGSHLPEAIALHSKRAKERAAARRNLFNG    1920
+GIEEQNAGAAEKFAMRKPLSEAELRDGCMMHMSSVAGGALTIFVKAMIENHLYVDPLPVYNIGEIETPVHQRLDVYIVLL    2000
+MAILAVIVLVKLCSPKFRRCSRFKNIRLLKVN                                                    2080
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+.P..............................................................................    1920
+................................................................................    2000
+................................                                                    2080
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+306              2    -----MR|TT  0.088    .
+306            374    AAAAALR|VY  0.113    .
+306            378    ALRVYSR|GG  0.088    .
+306            383    SRGGHSR|AL  0.174    .
+306            389    RALTQCR|PN  0.091    .
+306            392    TQCRPNR|ID  0.235    .
+306            397    NRIDESR|DS  0.145    .
+306            409    FTPDTLR|RR  0.060    .
+306            410    TPDTLRR|RR  0.103    .
+306            411    PDTLRRR|RR  0.093    .
+306            412    DTLRRRR|RT  0.256    .
+306            413    TLRRRRR|TP  0.431    .
+306            427    SDSAPSR|SV  0.253    .
+306            433    RSVNPPK|MS  0.089    .
+306            448    LDPLVSK|TS  0.064    .
+306            471    ALDSPER|LS  0.071    .
+306            493    LPYIEQR|DP  0.094    .
+306            496    IEQRDPK|HR  0.118    .
+306            498    QRDPKHR|YR  0.115    .
+306            500    DPKHRYR|ES  0.090    .
+306            550    FGPLSDK|YG  0.058    .
+306            553    LSDKYGR|RK  0.097    .
+306            554    SDKYGRR|KT  0.140    .
+306            555    DKYGRRK|TA  0.082    .
+306            611    VSSTHFR|SA  0.427    .
+306            643    LNAYGWR|LF  0.112    .
+306            668    ILPESPK|YL  0.074    .
+306            673    PKYLSVK|NQ  0.074    .
+306            684    AVVEALR|YK  0.081    .
+306            686    VEALRYK|TR  0.062    .
+306            688    ALRYKTR|KS  0.100    .
+306            689    LRYKTRK|SA  0.270    .
+306            696    SAEFFEK|II  0.079    .
+306            716    NLLEPER|IY  0.075    .
+306            730    ICSSELR|AD  0.085    .
+306            735    LRADTFK|VL  0.066    .
+306            748    CLQTVFK|SI  0.092    .
+306            756    IIFIYTK|ML  0.062    .
+306            795    CVTLSNK|DF  0.064    .
+306            819    SAFLSSR|LV  0.136    .
+306            828    GQLDSAK|GY  0.060    .
+306            881    LYPTLAR|NS  0.100    .
+306            893    LIDGGGK|MA  0.060    .
+306            932    GADESPR|PI  0.104    .
+306            946    NTAFIER|LN  0.083    .
+306            953    LNFILTR|SA  0.236    .
+306            985    LNAYGWR|LF  0.112    .
+306           1010    ILPESPK|YL  0.074    .
+306           1015    PKYLSVK|NQ  0.074    .
+306           1026    AVVEALR|YK  0.081    .
+306           1028    VEALRYK|TR  0.062    .
+306           1030    ALRYKTR|KS  0.100    .
+306           1031    LRYKTRK|SA  0.270    .
+306           1038    SAEFFEK|II  0.085    .
+306           1058    NLLEPER|IY  0.075    .
+306           1072    ICSSELR|AD  0.085    .
+306           1077    LRADTFK|VL  0.066    .
+306           1090    CLQTVFK|AI  0.073    .
+306           1098    IIFIYTK|ML  0.059    .
+306           1124    SAFLSSR|LV  0.136    .
+306           1133    GQLDSAK|GY  0.060    .
+306           1186    LYPTLAR|NS  0.100    .
+306           1198    LIDGGGK|MA  0.060    .
+306           1227    ALLLIQK|YE  0.063    .
+306           1233    KYEFDLR|AQ  0.083    .
+306           1240    AQIAYLR|FP  0.079    .
+306           1257    EIFPCAR|KN  0.084    .
+306           1258    IFPCARK|NF  0.076    .
+306           1301    PAENLLR|SQ  0.163    .
+306           1308    SQSGLLR|SQ  0.119    .
+306           1347    STNLDEK|CL  0.073    .
+306           1352    EKCLSEK|LI  0.064    .
+306           1357    EKLIESR|KD  0.072    .
+306           1358    KLIESRK|DL  0.098    .
+306           1366    LQLVQEK|ED  0.062    .
+306           1379    IPVYLTK|DK  0.068    .
+306           1381    VYLTKDK|TD  0.065    .
+306           1397    TTDGTQK|GQ  0.065    .
+306           1403    KGQIEVK|CE  0.061    .
+306           1406    IEVKCEK|VS  0.060    .
+306           1445    FHAVTYK|AS  0.094    .
+306           1460    TGAPITR|SD  0.156    .
+306           1470    FIEVGCR|EG  0.066    .
+306           1507    QCTSGCK|DI  0.060    .
+306           1510    SGCKDIK|SN  0.080    .
+306           1563    ADCTSDK|IT  0.065    .
+306           1572    ISVDQIK|DL  0.084    .
+306           1575    DQIKDLK|TG  0.055    .
+306           1585    NLPSTFK|DG  0.068    .
+306           1595    TYTVACK|YP  0.064    .
+306           1607    VLTNDVR|GQ  0.080    .
+306           1632    AGVVVVK|CT  0.072    .
+306           1672    AATYPSK|SL  0.095    .
+306           1678    KSLSVVK|SA  0.111    .
+306           1692    DIDATIK|VG  0.058    .
+306           1696    TIKVGCK|SG  0.076    .
+306           1712    LGQFSTR|CL  0.121    .
+306           1727    SLSNMVK|CT  0.074    .
+306           1743    AQVANAR|VV  0.100    .
+306           1748    ARVVAEK|SA  0.120    .
+306           1769    ATIDCSK|GY  0.066    .
+306           1778    TIQITEK|CW  0.076    .
+306           1789    ITDSGQR|EY  0.070    .
+306           1804    LFFFLLK|HF  0.057    .
+306           1815    TNAIESR|GG  0.131    .
+306           1826    IEAHYAR|LF  0.100    .
+306           1841    EMEGIFK|RG  0.053    .
+306           1842    MEGIFKR|GV  0.600 *ProP*
+306           1871    FVEDFLR|PG  0.068    .
+306           1883    MLLGWQR|ND  0.077    .
+306           1905    AIALHSK|RA  0.060    .
+306           1906    IALHSKR|AK  0.219    .
+306           1908    LHSKRAK|ER  0.084    .
+306           1910    SKRAKER|AA  0.113    .
+306           1914    KERAAAR|RN  0.083    .
+306           1915    ERAAARR|NL  0.225    .
+306           1932    NAGAAEK|FA  0.082    .
+306           1936    AEKFAMR|KP  0.067    .
+306           1937    EKFAMRK|PL  0.098    .
+306           1945    LSEAELR|DG  0.097    .
+306           1965    ALTIFVK|AM  0.059    .
+306           1992    ETPVHQR|LD  0.075    .
+306           2011    AVIVLVK|LC  0.065    .
+306           2016    VKLCSPK|FR  0.064    .
+306           2018    LCSPKFR|RC  0.119    .
+306           2019    CSPKFRR|CS  0.146    .
+306           2022    KFRRCSR|FK  0.261    .
+306           2024    RRCSRFK|NI  0.068    .
+306           2027    SRFKNIR|LL  0.095    .
+306           2030    KNIRLLK|VN  0.111    .
+____________________________^_________________
+
+
+
+

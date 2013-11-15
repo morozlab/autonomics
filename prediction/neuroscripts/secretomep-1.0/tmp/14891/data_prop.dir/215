@@ -1,0 +1,412 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2439 215         
+MVRYRPILPIFGYGPIFGHGTIFGHGPISGHGVPSSGTLPNSCACVIVFSRSHYLCVFSYSNISNIQSSHFFNPMYTLLI      80
+TPSQFSVIMSLVADYPMNNDSSSSEDEQQEKKGEQPNTSKIHPHIPPKLPPPLQDTASELNEKLMSLSKEKLLSSSSKVT     160
+PNFQFRTALVFELLGLLASSVPVWTSGRLVLSCYHCVMSLVADYPMNNDSSSSEDEQQEKKGEQPNTSKNTASELNEKLM     240
+SLSKEKLPSSSFKGEGERSSKRYPENALSFFLSLSSSLSPARSSPAKSRERDRSKDSLGRDRSLDRSRDKSEGKDRDKSG     320
+ERGRERNRSREKRRSRDRSREKGRNRDRSCEKDRSWDRSRDRSRERRRSREKGRRDDRRKDNHHRGRSSYHRSDRGGRGR     400
+SSRGGGYHSNRRQHAEQQQRKDDYDEYRRKKFGDAQAWGQATAESLKDVKTDSTLPSSCNSTIAKQMAAQREKRKLLWGS     480
+APKKEGEGSGTAAPKATVWGAGALKDDESGEQTAKFLKLMGVKDVTAENVHEYQATDDRVKKSSQVVEGFEADFTCRKKT     560
+CLCRHPFVDVTRGCNNIALRGFEARRTKIIFHSIFFFECATIPSFAPSRHTAKTPVYKVRKTLKSGCLSLLTIRSFGARD     640
+VLGLTVRVWFEGSVRAIDSLSDTVYFTRIGHTLLVARTASLLVNTTCNTPISRNLRSSRAAAAAAAAARSDRGGRGRGSR     720
+GGGYHSNRRQHAELQQRKDDHDEYRRKKFGDAQAWGQATAESLKDVKTDSTLPSSCNSTIAKQMAAQREKRKLLWGSAPK     800
+KEGEGSGTAAPKATVWGAGALKDDESGEQTAKFLKLMGVKDVTAENVHEYQATDDRVKKSSQVVEGFEADFTCRKKTCLC     880
+RHPFVDVTRGCNNIALRGFEARRAKIIFHSIFFFECATIPSFAPSRHTAKTPVYKVRKTLKSGCLSLLTIRSFGARDVLG     960
+LTVRVWFEGSVRAIDSLSDTVYFTRIGHVVAISLSKYNMQYSNFQESQVKSFETHFSICQLKSAALSHIWASSLCHFFSQ    1040
+PSTKIAVSDRHMVCSGWSELELKLGLCEGIKEVIQCLEDGQNLFFVTSTSASNLTDSEKLTISQITGTRQEVTFNFPAKE    1120
+QSAFIGKFCCYLNYLLKTFSLKWLAKLSEAAVLFSFTRFFFLGMRYNPLVCAVAPHRKRAASLLVNTTRNTYSNFQESQV    1200
+KSFETHFSICQLKSAALSHIWASSLCHFFSQPSTKIAVSDRHMVCSGWSELELKLGLCEGIKEVIQCLEDGQNLFFVTST    1280
+SASNLTDSEKLTISQITGTRQEVTFNFPAKEQSAFIGKFCCYLNYLLKTFSLKWLAKLSEDDKKRLYYSNFIYGPVMDCF    1360
+LTILTCLKQSKHLKILQACYDVLKQFVSVGRIQQLVVEKSLARSGVQAESLASYLCNVPECIDNKMNLLYTDHIFEKQAY    1440
+TVTLVQNVMGALERLQHQNTVKYDFVGKLLGKLAVLGNKDLVCQSVLEFVGRGHANGSQISEALTFVSSQHLEALVLPFL    1520
+TCNYIPFPELKQYFDIVFGSKIVLIGKLCTLLYHKLIFIKYFKERRPKFLLFYPLTVREERRYLLTRTLFELLTVWGNKS    1600
+SVELQPYDHHFAITETIIIIFYYMKQDERMAIRDRLISLLTAGMPVHLDSNHTDVRRAGMVVAEILTQFLEVGTELKFEY    1680
+EDTTDTLRLKSLLEGYTEVDDMAAAPEPIITEPDIALETAADAVTNNGLDSDDEPELIPFGKKDRNLAMVKPPTYLKECV    1760
+EILTETREQERDFDRIEITLRTIPTLLDQSVEGNVDEVALELTQIVLHMTSEFYMVDFNECRKRILTKCAVVAPRTVADY    1840
+LCYQFYEDNYTVAHRLDILDVIVESAKELSKIELPAEDLMERREVKMKPWEVEVMERLKKKTRRFNSATKVVMGTENKFN    1920
+SVCGNFFYALMNQYDKEMRTLNLTEEDTLLLGRLIYTLGMVMHCAGNSPAAPTMSKTVLEFCRVFTDIYVLDEYVKQCIL    2000
+FTASIVAQISPATVMTAEIYPQLMDIKLWAEELLVTESLSAETTRLVVYSLEIMNHVIGEGLGGLFPDLVEHNPVKITQP    2080
+KITEITTKPEGDEVNRKRRILTRPISGKVYYRPKVIQCDKIAAQTITEITLRTIPTLLDQSVEGNVDEVALELTQIVLHM    2160
+TSEFYMVDFNECRKRILTKCAVVAPRTVADYLCYQFYEDNYTVAHRLDILDVIVESAKELSKIELPAEDLMERREVKMKP    2240
+WEVEVMERLKKKTRRFNSATKVVMGTENKFNSVCGNFFYALMNQYDKEMRTLNLTEEDTLLLGRLIYTLGMVMHCAGNSP    2320
+AAPTMSKTVLEFCRVFTDIYVLDEYVKQCILFTASIVAQISPATVMTAEIYPQLMDIKLWAEELLVTESLSAETTRLVVY    2400
+SLEIMNHVIGEGLGGLFPDLVEHNPVKITQPKITEITTS                                             2480
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+............P.................................P.................................     400
+................................................................................     480
+.............................................................P..................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+..........................................................P.....................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+.......................................                                             2480
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+215              3    ----MVR|YR  0.073    .
+215              5    --MVRYR|PI  0.116    .
+215             51    CVIVFSR|SH  0.099    .
+215            111    EDEQQEK|KG  0.061    .
+215            112    DEQQEKK|GE  0.088    .
+215            120    EQPNTSK|IH  0.058    .
+215            128    HPHIPPK|LP  0.072    .
+215            143    ASELNEK|LM  0.057    .
+215            149    KLMSLSK|EK  0.052    .
+215            151    MSLSKEK|LL  0.064    .
+215            158    LLSSSSK|VT  0.073    .
+215            166    TPNFQFR|TA  0.131    .
+215            188    PVWTSGR|LV  0.088    .
+215            220    EDEQQEK|KG  0.061    .
+215            221    DEQQEKK|GE  0.086    .
+215            229    EQPNTSK|NT  0.062    .
+215            238    ASELNEK|LM  0.057    .
+215            244    KLMSLSK|EK  0.055    .
+215            246    MSLSKEK|LP  0.066    .
+215            253    LPSSSFK|GE  0.085    .
+215            258    FKGEGER|SS  0.099    .
+215            261    EGERSSK|RY  0.093    .
+215            262    GERSSKR|YP  0.257    .
+215            282    SSLSPAR|SS  0.116    .
+215            287    ARSSPAK|SR  0.110    .
+215            289    SSPAKSR|ER  0.108    .
+215            291    PAKSRER|DR  0.085    .
+215            293    KSRERDR|SK  0.178    .
+215            295    RERDRSK|DS  0.075    .
+215            300    SKDSLGR|DR  0.084    .
+215            302    DSLGRDR|SL  0.137    .
+215            306    RDRSLDR|SR  0.176    .
+215            308    RSLDRSR|DK  0.123    .
+215            310    LDRSRDK|SE  0.093    .
+215            314    RDKSEGK|DR  0.080    .
+215            316    KSEGKDR|DK  0.171    .
+215            318    EGKDRDK|SG  0.079    .
+215            322    RDKSGER|GR  0.081    .
+215            324    KSGERGR|ER  0.088    .
+215            326    GERGRER|NR  0.089    .
+215            328    RGRERNR|SR  0.115    .
+215            330    RERNRSR|EK  0.103    .
+215            332    RNRSREK|RR  0.062    .
+215            333    NRSREKR|RS  0.682 *ProP*
+215            334    RSREKRR|SR  0.421    .
+215            336    REKRRSR|DR  0.307    .
+215            338    KRRSRDR|SR  0.244    .
+215            340    RSRDRSR|EK  0.132    .
+215            342    RDRSREK|GR  0.065    .
+215            344    RSREKGR|NR  0.103    .
+215            346    REKGRNR|DR  0.105    .
+215            348    KGRNRDR|SC  0.169    .
+215            352    RDRSCEK|DR  0.070    .
+215            354    RSCEKDR|SW  0.277    .
+215            358    KDRSWDR|SR  0.142    .
+215            360    RSWDRSR|DR  0.128    .
+215            362    WDRSRDR|SR  0.118    .
+215            364    RSRDRSR|ER  0.092    .
+215            366    RDRSRER|RR  0.082    .
+215            367    DRSRERR|RS  0.606 *ProP*
+215            368    RSRERRR|SR  0.441    .
+215            370    RERRRSR|EK  0.285    .
+215            372    RRRSREK|GR  0.069    .
+215            374    RSREKGR|RD  0.108    .
+215            375    SREKGRR|DD  0.215    .
+215            378    KGRRDDR|RK  0.220    .
+215            379    GRRDDRR|KD  0.192    .
+215            380    RRDDRRK|DN  0.137    .
+215            385    RKDNHHR|GR  0.105    .
+215            387    DNHHRGR|SS  0.151    .
+215            392    GRSSYHR|SD  0.268    .
+215            395    SYHRSDR|GG  0.246    .
+215            398    RSDRGGR|GR  0.237    .
+215            400    DRGGRGR|SS  0.251    .
+215            403    GRGRSSR|GG  0.425    .
+215            411    GGYHSNR|RQ  0.112    .
+215            412    GYHSNRR|QH  0.133    .
+215            420    HAEQQQR|KD  0.084    .
+215            421    AEQQQRK|DD  0.110    .
+215            428    DDYDEYR|RK  0.085    .
+215            429    DYDEYRR|KK  0.080    .
+215            430    YDEYRRK|KF  0.112    .
+215            431    DEYRRKK|FG  0.407    .
+215            447    ATAESLK|DV  0.076    .
+215            450    ESLKDVK|TD  0.058    .
+215            465    CNSTIAK|QM  0.082    .
+215            471    KQMAAQR|EK  0.099    .
+215            473    MAAQREK|RK  0.058    .
+215            474    AAQREKR|KL  0.485    .
+215            475    AQREKRK|LL  0.096    .
+215            483    LWGSAPK|KE  0.067    .
+215            484    WGSAPKK|EG  0.132    .
+215            495    SGTAAPK|AT  0.072    .
+215            505    WGAGALK|DD  0.081    .
+215            515    SGEQTAK|FL  0.064    .
+215            518    QTAKFLK|LM  0.069    .
+215            523    LKLMGVK|DV  0.087    .
+215            539    YQATDDR|VK  0.075    .
+215            541    ATDDRVK|KS  0.071    .
+215            542    TDDRVKK|SS  0.611 *ProP*
+215            557    EADFTCR|KK  0.072    .
+215            558    ADFTCRK|KT  0.075    .
+215            559    DFTCRKK|TC  0.069    .
+215            564    KKTCLCR|HP  0.079    .
+215            572    PFVDVTR|GC  0.085    .
+215            580    CNNIALR|GF  0.110    .
+215            585    LRGFEAR|RT  0.152    .
+215            586    RGFEARR|TK  0.100    .
+215            588    FEARRTK|II  0.179    .
+215            609    PSFAPSR|HT  0.088    .
+215            613    PSRHTAK|TP  0.065    .
+215            618    AKTPVYK|VR  0.058    .
+215            620    TPVYKVR|KT  0.137    .
+215            621    PVYKVRK|TL  0.083    .
+215            624    KVRKTLK|SG  0.087    .
+215            634    LSLLTIR|SF  0.104    .
+215            639    IRSFGAR|DV  0.246    .
+215            647    VLGLTVR|VW  0.078    .
+215            655    WFEGSVR|AI  0.086    .
+215            668    DTVYFTR|IG  0.088    .
+215            677    HTLLVAR|TA  0.104    .
+215            693    CNTPISR|NL  0.082    .
+215            696    PISRNLR|SS  0.497    .
+215            699    RNLRSSR|AA  0.358    .
+215            709    AAAAAAR|SD  0.195    .
+215            712    AAARSDR|GG  0.275    .
+215            715    RSDRGGR|GR  0.255    .
+215            717    DRGGRGR|GS  0.166    .
+215            720    GRGRGSR|GG  0.314    .
+215            728    GGYHSNR|RQ  0.113    .
+215            729    GYHSNRR|QH  0.111    .
+215            737    HAELQQR|KD  0.084    .
+215            738    AELQQRK|DD  0.098    .
+215            745    DDHDEYR|RK  0.093    .
+215            746    DHDEYRR|KK  0.087    .
+215            747    HDEYRRK|KF  0.122    .
+215            748    DEYRRKK|FG  0.415    .
+215            764    ATAESLK|DV  0.076    .
+215            767    ESLKDVK|TD  0.058    .
+215            782    CNSTIAK|QM  0.082    .
+215            788    KQMAAQR|EK  0.099    .
+215            790    MAAQREK|RK  0.058    .
+215            791    AAQREKR|KL  0.485    .
+215            792    AQREKRK|LL  0.096    .
+215            800    LWGSAPK|KE  0.067    .
+215            801    WGSAPKK|EG  0.132    .
+215            812    SGTAAPK|AT  0.072    .
+215            822    WGAGALK|DD  0.081    .
+215            832    SGEQTAK|FL  0.064    .
+215            835    QTAKFLK|LM  0.069    .
+215            840    LKLMGVK|DV  0.087    .
+215            856    YQATDDR|VK  0.075    .
+215            858    ATDDRVK|KS  0.071    .
+215            859    TDDRVKK|SS  0.611 *ProP*
+215            874    EADFTCR|KK  0.072    .
+215            875    ADFTCRK|KT  0.075    .
+215            876    DFTCRKK|TC  0.069    .
+215            881    KKTCLCR|HP  0.079    .
+215            889    PFVDVTR|GC  0.085    .
+215            897    CNNIALR|GF  0.107    .
+215            902    LRGFEAR|RA  0.180    .
+215            903    RGFEARR|AK  0.109    .
+215            905    FEARRAK|II  0.228    .
+215            926    PSFAPSR|HT  0.088    .
+215            930    PSRHTAK|TP  0.065    .
+215            935    AKTPVYK|VR  0.058    .
+215            937    TPVYKVR|KT  0.137    .
+215            938    PVYKVRK|TL  0.083    .
+215            941    KVRKTLK|SG  0.087    .
+215            951    LSLLTIR|SF  0.104    .
+215            956    IRSFGAR|DV  0.246    .
+215            964    VLGLTVR|VW  0.078    .
+215            972    WFEGSVR|AI  0.086    .
+215            985    DTVYFTR|IG  0.084    .
+215            996    VAISLSK|YN  0.064    .
+215           1010    FQESQVK|SF  0.084    .
+215           1022    FSICQLK|SA  0.083    .
+215           1044    FSQPSTK|IA  0.082    .
+215           1050    KIAVSDR|HM  0.120    .
+215           1063    WSELELK|LG  0.056    .
+215           1071    GLCEGIK|EV  0.076    .
+215           1099    NLTDSEK|LT  0.065    .
+215           1109    SQITGTR|QE  0.068    .
+215           1119    TFNFPAK|EQ  0.094    .
+215           1127    QSAFIGK|FC  0.065    .
+215           1137    YLNYLLK|TF  0.060    .
+215           1142    LKTFSLK|WL  0.063    .
+215           1146    SLKWLAK|LS  0.074    .
+215           1158    VLFSFTR|FF  0.092    .
+215           1165    FFFLGMR|YN  0.067    .
+215           1177    CAVAPHR|KR  0.075    .
+215           1178    AVAPHRK|RA  0.086    .
+215           1179    VAPHRKR|AA  0.217    .
+215           1189    LLVNTTR|NT  0.093    .
+215           1201    FQESQVK|SF  0.084    .
+215           1213    FSICQLK|SA  0.083    .
+215           1235    FSQPSTK|IA  0.082    .
+215           1241    KIAVSDR|HM  0.120    .
+215           1254    WSELELK|LG  0.056    .
+215           1262    GLCEGIK|EV  0.076    .
+215           1290    NLTDSEK|LT  0.065    .
+215           1300    SQITGTR|QE  0.068    .
+215           1310    TFNFPAK|EQ  0.094    .
+215           1318    QSAFIGK|FC  0.065    .
+215           1328    YLNYLLK|TF  0.060    .
+215           1333    LKTFSLK|WL  0.061    .
+215           1337    SLKWLAK|LS  0.069    .
+215           1343    KLSEDDK|KR  0.055    .
+215           1344    LSEDDKK|RL  0.092    .
+215           1345    SEDDKKR|LY  0.148    .
+215           1368    TILTCLK|QS  0.054    .
+215           1371    TCLKQSK|HL  0.069    .
+215           1374    KQSKHLK|IL  0.082    .
+215           1384    ACYDVLK|QF  0.062    .
+215           1391    QFVSVGR|IQ  0.077    .
+215           1399    QQLVVEK|SL  0.085    .
+215           1403    VEKSLAR|SG  0.113    .
+215           1425    PECIDNK|MN  0.060    .
+215           1437    TDHIFEK|QA  0.089    .
+215           1454    VMGALER|LQ  0.074    .
+215           1462    QHQNTVK|YD  0.072    .
+215           1468    KYDFVGK|LL  0.064    .
+215           1472    VGKLLGK|LA  0.060    .
+215           1479    LAVLGNK|DL  0.058    .
+215           1492    VLEFVGR|GH  0.091    .
+215           1531    IPFPELK|QY  0.083    .
+215           1541    DIVFGSK|IV  0.064    .
+215           1547    KIVLIGK|LC  0.054    .
+215           1555    CTLLYHK|LI  0.056    .
+215           1560    HKLIFIK|YF  0.064    .
+215           1563    IFIKYFK|ER  0.058    .
+215           1565    IKYFKER|RP  0.088    .
+215           1566    KYFKERR|PK  0.097    .
+215           1568    FKERRPK|FL  0.143    .
+215           1578    FYPLTVR|EE  0.067    .
+215           1581    LTVREER|RY  0.129    .
+215           1582    TVREERR|YL  0.144    .
+215           1587    RRYLLTR|TL  0.108    .
+215           1599    LTVWGNK|SS  0.069    .
+215           1625    IIFYYMK|QD  0.060    .
+215           1629    YMKQDER|MA  0.081    .
+215           1633    DERMAIR|DR  0.097    .
+215           1635    RMAIRDR|LI  0.096    .
+215           1656    SNHTDVR|RA  0.134    .
+215           1657    NHTDVRR|AG  0.115    .
+215           1677    EVGTELK|FE  0.057    .
+215           1688    DTTDTLR|LK  0.068    .
+215           1690    TDTLRLK|SL  0.077    .
+215           1742    ELIPFGK|KD  0.061    .
+215           1743    LIPFGKK|DR  0.084    .
+215           1745    PFGKKDR|NL  0.089    .
+215           1751    RNLAMVK|PP  0.056    .
+215           1757    KPPTYLK|EC  0.059    .
+215           1767    EILTETR|EQ  0.071    .
+215           1771    ETREQER|DF  0.133    .
+215           1775    QERDFDR|IE  0.085    .
+215           1781    RIEITLR|TI  0.089    .
+215           1822    VDFNECR|KR  0.067    .
+215           1823    DFNECRK|RI  0.070    .
+215           1824    FNECRKR|IL  0.186    .
+215           1828    RKRILTK|CA  0.093    .
+215           1835    CAVVAPR|TV  0.136    .
+215           1855    NYTVAHR|LD  0.066    .
+215           1867    VIVESAK|EL  0.074    .
+215           1871    SAKELSK|IE  0.063    .
+215           1882    AEDLMER|RE  0.067    .
+215           1883    EDLMERR|EV  0.165    .
+215           1886    MERREVK|MK  0.148    .
+215           1888    RREVKMK|PW  0.092    .
+215           1897    EVEVMER|LK  0.072    .
+215           1899    EVMERLK|KK  0.057    .
+215           1900    VMERLKK|KT  0.184    .
+215           1901    MERLKKK|TR  0.098    .
+215           1903    RLKKKTR|RF  0.095    .
+215           1904    LKKKTRR|FN  0.250    .
+215           1910    RFNSATK|VV  0.081    .
+215           1918    VMGTENK|FN  0.070    .
+215           1936    LMNQYDK|EM  0.061    .
+215           1939    QYDKEMR|TL  0.079    .
+215           1953    DTLLLGR|LI  0.082    .
+215           1976    AAPTMSK|TV  0.063    .
+215           1983    TVLEFCR|VF  0.085    .
+215           1996    VLDEYVK|QC  0.055    .
+215           2027    PQLMDIK|LW  0.060    .
+215           2045    LSAETTR|LV  0.137    .
+215           2076    VEHNPVK|IT  0.072    .
+215           2081    VKITQPK|IT  0.073    .
+215           2088    ITEITTK|PE  0.076    .
+215           2096    EGDEVNR|KR  0.068    .
+215           2097    GDEVNRK|RR  0.067    .
+215           2098    DEVNRKR|RI  0.153    .
+215           2099    EVNRKRR|IL  0.493    .
+215           2103    KRRILTR|PI  0.146    .
+215           2108    TRPISGK|VY  0.065    .
+215           2112    SGKVYYR|PK  0.085    .
+215           2114    KVYYRPK|VI  0.062    .
+215           2120    KVIQCDK|IA  0.067    .
+215           2132    ITEITLR|TI  0.091    .
+215           2173    VDFNECR|KR  0.067    .
+215           2174    DFNECRK|RI  0.070    .
+215           2175    FNECRKR|IL  0.186    .
+215           2179    RKRILTK|CA  0.093    .
+215           2186    CAVVAPR|TV  0.136    .
+215           2206    NYTVAHR|LD  0.066    .
+215           2218    VIVESAK|EL  0.074    .
+215           2222    SAKELSK|IE  0.063    .
+215           2233    AEDLMER|RE  0.067    .
+215           2234    EDLMERR|EV  0.165    .
+215           2237    MERREVK|MK  0.148    .
+215           2239    RREVKMK|PW  0.092    .
+215           2248    EVEVMER|LK  0.072    .
+215           2250    EVMERLK|KK  0.057    .
+215           2251    VMERLKK|KT  0.184    .
+215           2252    MERLKKK|TR  0.098    .
+215           2254    RLKKKTR|RF  0.095    .
+215           2255    LKKKTRR|FN  0.250    .
+215           2261    RFNSATK|VV  0.081    .
+215           2269    VMGTENK|FN  0.070    .
+215           2287    LMNQYDK|EM  0.061    .
+215           2290    QYDKEMR|TL  0.079    .
+215           2304    DTLLLGR|LI  0.082    .
+215           2327    AAPTMSK|TV  0.063    .
+215           2334    TVLEFCR|VF  0.085    .
+215           2347    VLDEYVK|QC  0.055    .
+215           2378    PQLMDIK|LW  0.060    .
+215           2396    LSAETTR|LV  0.137    .
+215           2427    VEHNPVK|IT  0.072    .
+215           2432    VKITQPK|IT  0.075    .
+____________________________^_________________
+
+
+
+

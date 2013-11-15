@@ -1,0 +1,243 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1469 633         
+MGSYYGTNANFSNQYNTNPTYHGNYSHPPGNMNSHPPGNMNSNPPGNTPNMVMIRKADVEDLQAEVNELRDLIRLQTNID      80
+QRQQVLFQQQITVQQPLGVPQPLLQPPQSHQPSVSLLSNPGFQQPIYSQTIQLKPLLSEPRPTPQPLRPNPTPLMNNRGC     160
+YSKPLQEGPAQPCPSKQPQKQCKPLDKVHIDSPSFEPKKDNSEDSQCYNNALEKVERLLRDRLHEECSNKELVGNRWTPP     240
+PPPPPPHQPVKHEVIEEIGISYSRPSSSQSPVSYEVQIPFDVSYYIFVIQLPHAILPSILFFQEKDKPRKTGCDETSQNL     320
+RPSEWSTALNFLSEIKDTGFQLFAEKDLAKRFPEPFLHYSCLFTNTQFNVTSFNVDQQIGATLEISQIPDSPTEIIQWVY     400
+VGSAYGVDTEDARKRCIEGAVEFLCVKLGKLSRIGNYIFFHILFTQLSERILFQQIESYPPATFDTEEAFLKNNKLISTV     480
+TTMRDDPNLFALRIDGILSVESCTKFAKQLLKKWRIAPDELKIFSESSTDQFICFYKPRRFLLKQGAALANFKEELSTEI     560
+GILGEEDLSGLSPITPPSPLEGKRKADPVAASSVKKPRTITESPTLSGSKSKLSNLQILQSQLIKSEPEESNSRNTDHQI     640
+KVESGGRDKRLKNVKLANGPSLDLGRQWIRKSPLKLLHENLTWRQCPIHYFNLICRFSGIRKDLSCQPCKYELKGKWRAF     720
+LSVYDGNNSHTFSPVISSSVQEAKKECVIETMKLVEAVCKGVPGKTLTEEEYGQFFQSAKESERNPEIIFGKLQVFGISP     800
+DTNPIKMIYKKFFKDMLKKNDGDAKRWAVVLSGECPAGAEEIARKLVKTMNLSFSVRSLHPVSYEVQIPFDVSYYIFVIQ     880
+LPHAILPSILFFQEKDKPRKTGCDETSQNLRPSEWSTALNFLSEIKDTGFQLFAEKDLAKRFPEPFLHYSCLFTNTQFNV     960
+TSFNVDQQIGATLEISQIPDSPTEIIQWVYVGSAYGVDTEDARKRCIEGAIEFLCVKLGKVSRIGNYIFFHILFTQLSER    1040
+ILFQQIESYPPATFDTEEAFLKNNKLISTVTTMRDDPNLFALRIDGILSVESCTKFAKQLLKKWRIAPDELKIFSESSTD    1120
+QFICFYKPRRFLLKQGAALANFKEELSTEIGILGEEDLNGLSPITPPSPLEGKRKADPVAASSVKKPRTITESPTLSGSK    1200
+SKLSNLQILQSQLIKSEPEERNSGNTDHQIKVESSGRDKQLKNAKLANGPSLDLGRQWIRKSPLTLLHENLTWRQCPIHY    1280
+FNLICRFSGIRKDLSCQPCKYELKGKWRAFLSVYDGNNSHTFSPVISSSVQEAKKECVIETMKLVEAVCKGVPGKTLTEE    1360
+EYGQFFQSAKESERNPEIIFGKLQVFGISPDTNPIKMIYKKFFKDMLKKNDGDAKRWAVVLSGECPAGAEEIARKLVKTM    1440
+NLSFSVRSCDSAPCCLVFYKPRDIILANR                                                       1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+.............................                                                       1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+633             55    PNMVMIR|KA  0.125    .
+633             56    NMVMIRK|AD  0.075    .
+633             70    AEVNELR|DL  0.097    .
+633             74    ELRDLIR|LQ  0.084    .
+633             82    QTNIDQR|QQ  0.080    .
+633            134    SQTIQLK|PL  0.061    .
+633            141    PLLSEPR|PT  0.079    .
+633            148    PTPQPLR|PN  0.074    .
+633            158    TPLMNNR|GC  0.108    .
+633            163    NRGCYSK|PL  0.075    .
+633            176    AQPCPSK|QP  0.059    .
+633            180    PSKQPQK|QC  0.066    .
+633            183    QPQKQCK|PL  0.101    .
+633            187    QCKPLDK|VH  0.061    .
+633            198    SPSFEPK|KD  0.083    .
+633            199    PSFEPKK|DN  0.107    .
+633            214    YNNALEK|VE  0.057    .
+633            217    ALEKVER|LL  0.103    .
+633            220    KVERLLR|DR  0.210    .
+633            222    ERLLRDR|LH  0.072    .
+633            230    HEECSNK|EL  0.065    .
+633            236    KELVGNR|WT  0.075    .
+633            251    PPHQPVK|HE  0.078    .
+633            264    IGISYSR|PS  0.081    .
+633            305    ILFFQEK|DK  0.070    .
+633            307    FFQEKDK|PR  0.063    .
+633            309    QEKDKPR|KT  0.139    .
+633            310    EKDKPRK|TG  0.084    .
+633            321    ETSQNLR|PS  0.094    .
+633            336    NFLSEIK|DT  0.079    .
+633            346    FQLFAEK|DL  0.065    .
+633            350    AEKDLAK|RF  0.058    .
+633            351    EKDLAKR|FP  0.171    .
+633            413    VDTEDAR|KR  0.078    .
+633            414    DTEDARK|RC  0.067    .
+633            415    TEDARKR|CI  0.288    .
+633            427    VEFLCVK|LG  0.051    .
+633            430    LCVKLGK|LS  0.067    .
+633            433    KLGKLSR|IG  0.089    .
+633            450    FTQLSER|IL  0.107    .
+633            472    TEEAFLK|NN  0.058    .
+633            475    AFLKNNK|LI  0.068    .
+633            484    STVTTMR|DD  0.081    .
+633            493    PNLFALR|ID  0.071    .
+633            505    SVESCTK|FA  0.072    .
+633            508    SCTKFAK|QL  0.068    .
+633            512    FAKQLLK|KW  0.066    .
+633            513    AKQLLKK|WR  0.085    .
+633            515    QLLKKWR|IA  0.151    .
+633            522    IAPDELK|IF  0.060    .
+633            537    QFICFYK|PR  0.063    .
+633            539    ICFYKPR|RF  0.089    .
+633            540    CFYKPRR|FL  0.179    .
+633            544    PRRFLLK|QG  0.067    .
+633            553    AALANFK|EE  0.054    .
+633            583    PSPLEGK|RK  0.056    .
+633            584    SPLEGKR|KA  0.273    .
+633            585    PLEGKRK|AD  0.089    .
+633            595    VAASSVK|KP  0.065    .
+633            596    AASSVKK|PR  0.114    .
+633            598    SSVKKPR|TI  0.157    .
+633            610    PTLSGSK|SK  0.061    .
+633            612    LSGSKSK|LS  0.069    .
+633            625    LQSQLIK|SE  0.074    .
+633            634    PEESNSR|NT  0.090    .
+633            641    NTDHQIK|VE  0.063    .
+633            647    KVESGGR|DK  0.072    .
+633            649    ESGGRDK|RL  0.059    .
+633            650    SGGRDKR|LK  0.487    .
+633            652    GRDKRLK|NV  0.077    .
+633            655    KRLKNVK|LA  0.062    .
+633            666    PSLDLGR|QW  0.081    .
+633            670    LGRQWIR|KS  0.080    .
+633            671    GRQWIRK|SP  0.156    .
+633            675    IRKSPLK|LL  0.074    .
+633            684    HENLTWR|QC  0.087    .
+633            696    YFNLICR|FS  0.106    .
+633            701    CRFSGIR|KD  0.073    .
+633            702    RFSGIRK|DL  0.132    .
+633            710    LSCQPCK|YE  0.065    .
+633            714    PCKYELK|GK  0.065    .
+633            716    KYELKGK|WR  0.055    .
+633            718    ELKGKWR|AF  0.098    .
+633            744    SSVQEAK|KE  0.082    .
+633            745    SVQEAKK|EC  0.084    .
+633            753    CVIETMK|LV  0.073    .
+633            760    LVEAVCK|GV  0.085    .
+633            765    CKGVPGK|TL  0.079    .
+633            780    QFFQSAK|ES  0.068    .
+633            784    SAKESER|NP  0.092    .
+633            792    PEIIFGK|LQ  0.058    .
+633            806    PDTNPIK|MI  0.071    .
+633            810    PIKMIYK|KF  0.060    .
+633            811    IKMIYKK|FF  0.148    .
+633            814    IYKKFFK|DM  0.070    .
+633            818    FFKDMLK|KN  0.057    .
+633            819    FKDMLKK|ND  0.117    .
+633            825    KNDGDAK|RW  0.071    .
+633            826    NDGDAKR|WA  0.163    .
+633            844    GAEEIAR|KL  0.090    .
+633            845    AEEIARK|LV  0.103    .
+633            848    IARKLVK|TM  0.062    .
+633            857    NLSFSVR|SL  0.211    .
+633            895    ILFFQEK|DK  0.070    .
+633            897    FFQEKDK|PR  0.063    .
+633            899    QEKDKPR|KT  0.139    .
+633            900    EKDKPRK|TG  0.084    .
+633            911    ETSQNLR|PS  0.094    .
+633            926    NFLSEIK|DT  0.079    .
+633            936    FQLFAEK|DL  0.065    .
+633            940    AEKDLAK|RF  0.058    .
+633            941    EKDLAKR|FP  0.171    .
+633           1003    VDTEDAR|KR  0.078    .
+633           1004    DTEDARK|RC  0.066    .
+633           1005    TEDARKR|CI  0.308    .
+633           1017    IEFLCVK|LG  0.053    .
+633           1020    LCVKLGK|VS  0.065    .
+633           1023    KLGKVSR|IG  0.096    .
+633           1040    FTQLSER|IL  0.107    .
+633           1062    TEEAFLK|NN  0.058    .
+633           1065    AFLKNNK|LI  0.068    .
+633           1074    STVTTMR|DD  0.081    .
+633           1083    PNLFALR|ID  0.071    .
+633           1095    SVESCTK|FA  0.072    .
+633           1098    SCTKFAK|QL  0.068    .
+633           1102    FAKQLLK|KW  0.066    .
+633           1103    AKQLLKK|WR  0.085    .
+633           1105    QLLKKWR|IA  0.151    .
+633           1112    IAPDELK|IF  0.060    .
+633           1127    QFICFYK|PR  0.063    .
+633           1129    ICFYKPR|RF  0.089    .
+633           1130    CFYKPRR|FL  0.179    .
+633           1134    PRRFLLK|QG  0.067    .
+633           1143    AALANFK|EE  0.054    .
+633           1173    PSPLEGK|RK  0.056    .
+633           1174    SPLEGKR|KA  0.273    .
+633           1175    PLEGKRK|AD  0.089    .
+633           1185    VAASSVK|KP  0.065    .
+633           1186    AASSVKK|PR  0.114    .
+633           1188    SSVKKPR|TI  0.157    .
+633           1200    PTLSGSK|SK  0.061    .
+633           1202    LSGSKSK|LS  0.069    .
+633           1215    LQSQLIK|SE  0.083    .
+633           1221    KSEPEER|NS  0.100    .
+633           1231    NTDHQIK|VE  0.064    .
+633           1237    KVESSGR|DK  0.083    .
+633           1239    ESSGRDK|QL  0.067    .
+633           1242    GRDKQLK|NA  0.072    .
+633           1245    KQLKNAK|LA  0.061    .
+633           1256    PSLDLGR|QW  0.082    .
+633           1260    LGRQWIR|KS  0.076    .
+633           1261    GRQWIRK|SP  0.143    .
+633           1274    HENLTWR|QC  0.087    .
+633           1286    YFNLICR|FS  0.106    .
+633           1291    CRFSGIR|KD  0.073    .
+633           1292    RFSGIRK|DL  0.132    .
+633           1300    LSCQPCK|YE  0.065    .
+633           1304    PCKYELK|GK  0.065    .
+633           1306    KYELKGK|WR  0.055    .
+633           1308    ELKGKWR|AF  0.098    .
+633           1334    SSVQEAK|KE  0.082    .
+633           1335    SVQEAKK|EC  0.084    .
+633           1343    CVIETMK|LV  0.073    .
+633           1350    LVEAVCK|GV  0.085    .
+633           1355    CKGVPGK|TL  0.079    .
+633           1370    QFFQSAK|ES  0.068    .
+633           1374    SAKESER|NP  0.092    .
+633           1382    PEIIFGK|LQ  0.058    .
+633           1396    PDTNPIK|MI  0.071    .
+633           1400    PIKMIYK|KF  0.060    .
+633           1401    IKMIYKK|FF  0.148    .
+633           1404    IYKKFFK|DM  0.070    .
+633           1408    FFKDMLK|KN  0.057    .
+633           1409    FKDMLKK|ND  0.117    .
+633           1415    KNDGDAK|RW  0.071    .
+633           1416    NDGDAKR|WA  0.163    .
+633           1434    GAEEIAR|KL  0.090    .
+633           1435    AEEIARK|LV  0.103    .
+633           1438    IARKLVK|TM  0.062    .
+633           1447    NLSFSVR|SC  0.193    .
+633           1460    CCLVFYK|PR  0.066    .
+633           1462    LVFYKPR|DI  0.122    .
+633           1469    DIILANR|--  0.081    .
+____________________________^_________________
+
+
+
+

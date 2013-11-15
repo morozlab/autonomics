@@ -1,0 +1,216 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1687 460         
+MTSKSSNINPYTRRPIPPIPTQTDDPILSTKMAQTRAKLGKYRKSKLTQDMLVKTLHTQATANLQRVTIQNRIHSRAPVA      80
+PVSTPTSDEVAKPPPFPDQMMSEDRRMRLNYEFMKKCVQSAPIPTMSEDTWDSILTMLPPELRENPLYFPLIDSLHFEIE     160
+KEYELSLRRYNVATTLLKPDSSGKMQDTKMRFDEEGLDFSTPWRASYESARAAIAQKLNILHPSMQTILTLSQKYTETLL     240
+IDCSGLRNHGAVDAEHMKNNVILDCEKNEEKLMNSWFHEVVNIFYDKKSFAHLREEQQDSFYNCVSQLMAIILQTLLNNT     320
+INSWVALFDPADQTHLPLYKVQMVLEDGQMTFSPPLEELEETIKSVVTTIAKSLQNVPGVQSWLSGAATFVPIKSAVEDS     400
+IIDANKKVLGERVKGYFELPQKKLIELREKYQYLVDGSAEKEVEDFLESDSPQEETFEKILHYKSVSSEISLEASYGHYE     480
+LIDLNLDQLKNSLVQVSNRCVSRLLNGLVSKHLETNQEIISEFEHIKTTLLKKPDDTKDMIELVAFTTESTTTTIPRLET     560
+LQSYRKTSPMQPRDYISYLITTFSMNKRFFGPYCNLPEPRFTGRKNFPRFEKLTAYHPDIPGTPIYRAKPFPPSIPVNRG     640
+PTVELNRTTLNWPSKIAPVFEENDDIIADAKKEGKFTVMNLSLYSLCVRAHARACPMYCLCILSVGSTTDYSLQREYREW     720
+FITVLHYQLEFCECVEPLSALFQYNLESFEMVKVEEFNECGDIDMMQQYVKDAMQVQKKINDLTAEIEFINKEEVLFQWE     800
+VSNYCEIDQIATLLEPYQKLFTTVLKWQRTEKKWMDGSFVELDPEEVEAAVEEFWQEIYKITKVFAKASFFSLSFLFNCS     880
+CLCDREELLTKQELLHYVFIMRCFPATNGFKIYALKNGLGLVLDIPYHINFESSIPGTESLNHIHRDPNRPKFKPTKINL     960
+KIQEYVEWLTSPEYISEIRKKAMIILSSINNSIVYIVYYTVRGVLVLLLYRILVKSRICGSDMLYPDISGTPIYRAKWAA    1040
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1120
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1200
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1280
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    1360
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVSEHPLFRAHPMGALVCYILIAPVCL    1440
+RVQKNVKDFKSNSPVVGIMCNPGLRGRHWNEMSNIIGFNITPDSGISNAATKEFGLERAMQKMVDEWDVIFFNTTQYRDS    1520
+VQSDPDLGTPSGERLLSTKSGCPLQSDPDLGTPSGERLLSTKSGCPLNRGQIRLISYIGGKKSLHSRYHRWPFILIVQSD    1600
+PDLGTPSGERLLSTKSGCPLNRGQIRLISYIGGKKSCSLNFYYVMAYTIWPHGCLSEIDGKLVPRPGCKELLNRFTSRLL    1680
+PLADNCP                                                                             1760
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+.......                                                                             1760
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+460              4    ---MTSK|SS  0.076    .
+460             13    NINPYTR|RP  0.087    .
+460             14    INPYTRR|PI  0.159    .
+460             31    DPILSTK|MA  0.069    .
+460             36    TKMAQTR|AK  0.100    .
+460             38    MAQTRAK|LG  0.059    .
+460             41    TRAKLGK|YR  0.097    .
+460             43    AKLGKYR|KS  0.092    .
+460             44    KLGKYRK|SK  0.134    .
+460             46    GKYRKSK|LT  0.185    .
+460             54    TQDMLVK|TL  0.066    .
+460             66    ATANLQR|VT  0.095    .
+460             72    RVTIQNR|IH  0.085    .
+460             76    QNRIHSR|AP  0.097    .
+460             92    TSDEVAK|PP  0.064    .
+460            105    QMMSEDR|RM  0.071    .
+460            106    MMSEDRR|MR  0.173    .
+460            108    SEDRRMR|LN  0.174    .
+460            115    LNYEFMK|KC  0.065    .
+460            116    NYEFMKK|CV  0.105    .
+460            143    MLPPELR|EN  0.069    .
+460            161    LHFEIEK|EY  0.062    .
+460            168    EYELSLR|RY  0.077    .
+460            169    YELSLRR|YN  0.086    .
+460            178    VATTLLK|PD  0.061    .
+460            184    KPDSSGK|MQ  0.071    .
+460            189    GKMQDTK|MR  0.075    .
+460            191    MQDTKMR|FD  0.164    .
+460            204    DFSTPWR|AS  0.099    .
+460            211    ASYESAR|AA  0.161    .
+460            217    RAAIAQK|LN  0.063    .
+460            234    ILTLSQK|YT  0.074    .
+460            247    IDCSGLR|NH  0.085    .
+460            258    VDAEHMK|NN  0.060    .
+460            267    VILDCEK|NE  0.058    .
+460            271    CEKNEEK|LM  0.058    .
+460            287    VNIFYDK|KS  0.070    .
+460            288    NIFYDKK|SF  0.115    .
+460            294    KSFAHLR|EE  0.080    .
+460            340    THLPLYK|VQ  0.062    .
+460            364    ELEETIK|SV  0.078    .
+460            372    VVTTIAK|SL  0.073    .
+460            394    ATFVPIK|SA  0.067    .
+460            406    SIIDANK|KV  0.071    .
+460            407    IIDANKK|VL  0.095    .
+460            412    KKVLGER|VK  0.081    .
+460            414    VLGERVK|GY  0.063    .
+460            422    YFELPQK|KL  0.055    .
+460            423    FELPQKK|LI  0.090    .
+460            428    KKLIELR|EK  0.095    .
+460            430    LIELREK|YQ  0.063    .
+460            441    VDGSAEK|EV  0.080    .
+460            459    QEETFEK|IL  0.064    .
+460            464    EKILHYK|SV  0.139    .
+460            490    LNLDQLK|NS  0.057    .
+460            499    LVQVSNR|CV  0.178    .
+460            503    SNRCVSR|LL  0.098    .
+460            511    LNGLVSK|HL  0.080    .
+460            527    SEFEHIK|TT  0.061    .
+460            532    IKTTLLK|KP  0.066    .
+460            533    KTTLLKK|PD  0.105    .
+460            538    KKPDDTK|DM  0.064    .
+460            557    TTTTIPR|LE  0.069    .
+460            565    ETLQSYR|KT  0.093    .
+460            566    TLQSYRK|TS  0.075    .
+460            573    TSPMQPR|DY  0.172    .
+460            587    TTFSMNK|RF  0.055    .
+460            588    TFSMNKR|FF  0.356    .
+460            600    CNLPEPR|FT  0.127    .
+460            604    EPRFTGR|KN  0.099    .
+460            605    PRFTGRK|NF  0.075    .
+460            609    GRKNFPR|FE  0.100    .
+460            612    NFPRFEK|LT  0.108    .
+460            627    PGTPIYR|AK  0.062    .
+460            629    TPIYRAK|PF  0.087    .
+460            639    PSIPVNR|GP  0.104    .
+460            647    PTVELNR|TT  0.068    .
+460            655    TLNWPSK|IA  0.080    .
+460            671    DIIADAK|KE  0.066    .
+460            672    IIADAKK|EG  0.078    .
+460            675    DAKKEGK|FT  0.069    .
+460            689    LYSLCVR|AH  0.086    .
+460            693    CVRAHAR|AC  0.090    .
+460            715    TDYSLQR|EY  0.103    .
+460            718    SLQREYR|EW  0.305    .
+460            753    ESFEMVK|VE  0.058    .
+460            771    MMQQYVK|DA  0.099    .
+460            778    DAMQVQK|KI  0.072    .
+460            779    AMQVQKK|IN  0.098    .
+460            792    EIEFINK|EE  0.051    .
+460            819    LLEPYQK|LF  0.069    .
+460            826    LFTTVLK|WQ  0.064    .
+460            829    TVLKWQR|TE  0.077    .
+460            832    KWQRTEK|KW  0.176    .
+460            833    WQRTEKK|WM  0.131    .
+460            860    FWQEIYK|IT  0.061    .
+460            863    EIYKITK|VF  0.058    .
+460            867    ITKVFAK|AS  0.079    .
+460            885    CSCLCDR|EE  0.061    .
+460            891    REELLTK|QE  0.056    .
+460            902    HYVFIMR|CF  0.075    .
+460            911    PATNGFK|IY  0.054    .
+460            916    FKIYALK|NG  0.056    .
+460            946    SLNHIHR|DP  0.097    .
+460            950    IHRDPNR|PK  0.093    .
+460            952    RDPNRPK|FK  0.073    .
+460            954    PNRPKFK|PT  0.084    .
+460            957    PKFKPTK|IN  0.071    .
+460            961    PTKINLK|IQ  0.064    .
+460            979    EYISEIR|KK  0.073    .
+460            980    YISEIRK|KA  0.116    .
+460            981    ISEIRKK|AM  0.097    .
+460           1002    IVYYTVR|GV  0.107    .
+460           1011    LVLLLYR|IL  0.068    .
+460           1015    LYRILVK|SR  0.073    .
+460           1017    RILVKSR|IC  0.087    .
+460           1035    SGTPIYR|AK  0.084    .
+460           1037    TPIYRAK|WA  0.096    .
+460           1422    SEHPLFR|AH  0.091    .
+460           1441    IAPVCLR|VQ  0.070    .
+460           1444    VCLRVQK|NV  0.146    .
+460           1447    RVQKNVK|DF  0.066    .
+460           1450    KNVKDFK|SN  0.112    .
+460           1465    MCNPGLR|GR  0.096    .
+460           1467    NPGLRGR|HW  0.093    .
+460           1492    ISNAATK|EF  0.081    .
+460           1498    KEFGLER|AM  0.087    .
+460           1502    LERAMQK|MV  0.089    .
+460           1518    FNTTQYR|DS  0.119    .
+460           1534    GTPSGER|LL  0.073    .
+460           1539    ERLLSTK|SG  0.082    .
+460           1557    GTPSGER|LL  0.073    .
+460           1562    ERLLSTK|SG  0.080    .
+460           1569    SGCPLNR|GQ  0.095    .
+460           1573    LNRGQIR|LI  0.135    .
+460           1581    ISYIGGK|KS  0.060    .
+460           1582    SYIGGKK|SL  0.107    .
+460           1587    KKSLHSR|YH  0.108    .
+460           1590    LHSRYHR|WP  0.275    .
+460           1610    GTPSGER|LL  0.073    .
+460           1615    ERLLSTK|SG  0.080    .
+460           1622    SGCPLNR|GQ  0.095    .
+460           1626    LNRGQIR|LI  0.135    .
+460           1634    ISYIGGK|KS  0.058    .
+460           1635    SYIGGKK|SC  0.106    .
+460           1661    LSEIDGK|LV  0.064    .
+460           1665    DGKLVPR|PG  0.092    .
+460           1669    VPRPGCK|EL  0.060    .
+460           1674    CKELLNR|FT  0.119    .
+460           1678    LNRFTSR|LL  0.095    .
+____________________________^_________________
+
+
+
+

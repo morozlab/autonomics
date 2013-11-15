@@ -1,0 +1,192 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1636 502         
+MVTKDLGGVYKCSAPWGEDTQSSVTMETSAVVGVHCGYTVATVTNSNNVTTTLSLATVTKDSVGGYTCSFSYTESEVYTA      80
+TIEQDICLTPPPTPPPTPTSPKSPTYRSPEWYTTSPDWFRAPDNSYLTTYTTLEILGKGGYGTVTKALDTRTGTHVAIKV     160
+MDGRRIKNKTFSKIKNDYIPNEVLLWERLDHPSIPKLLDVVYDRELQVWFLVMEYDAQFSDLFDYIDQNGALNTADSVTV     240
+IRQLVEVVQYLALMGVDHRDLKDENILYNPHTKKIKLIDLGSAANLENKPYVGYRGTDVYIPPEYFSSGCYRPFPAAVWA     320
+IGCIAYILLVGDTPFQTRADVVKYRDLGEMNPRFMERSLRTNFIRRCMLVDPDQRMLLSDLTSHPWLKRVPRKVPLTEQN     400
+LKVLGDDFQLFELLLEPTDPDYVNTEDVHLIRTSVAEGGYGTVTKALDTRTGTHVAIKVMDGRRIKNKTFSKIKNDYIPN     480
+EVLLWERLDHPSIPKLLDVVYDRELQVWFLVMEYDAQFSDLFDYIDQNGALNTADSVTVIRQLVEVVQYLALMGVDHRDL     560
+KDENILYNPHTKKIKLIDLGSAANLENKPYVGYRGTDVYIPPEYFSSGCYRPFPAAVWAIGCIAYILLVGDTPFQTRADV     640
+VPLTEQNLKVLGDDFQLFELLLEPTDPDYVNTEDVHLIRTSVAEVTVTDTELWHSVSESDTTLTTSLIVTNTLTLPTVTC     720
+SWTQDEIELGQSHSTTYRYPLSITTNSSTPTVSCTVSISGSSTHTVTIATTYLEANCTGSTVFDGDAITTSCVIGGLDTF     800
+STTDLTANTSLQWMWGLLTDGEGVDTILDSQFFGGTDLTPSTCLTADTATGIYKSCSSTSGGSTCCNDGTCDTTSPCECD     880
+KCLDYTKLAHTYTFDDANKVLTLQLQVSFVRVLKLTEFIVRVLKLLIVVIVNTQYSINTITNMNCSNTMLPYLGNYGYCH     960
+DYKNWNYPEYNANTHHKYLEIQSDPDLVASSGERICPLNRGATKYQRLVAGIFLLINDGRTINTPFQRFLLFGNLDFRNR    1040
+QNLKNALRAPTRKSKNDAAHPPISPLSKLQYFKAHFSTSFSAFFGGTDLTPSTCLSADTATGIYKSCSSTSGNGLDALFP    1120
+TSPKRSNFAKKWLSYDHKRQIFIFILTLVCADPNTLHGSTCCNDGTCDTTSPCECDKCLDYTKLAHTYTFDDANKELTLQ    1200
+LQIVVIVNTQYSINTITNMNCSNTMLPYLGNYGYCHDYKNWNYPEYNANTHHKYLEIQSDPDLVASSGERICPLNRGATK    1280
+TGSTKSGFDCSLYLKYESVSHDNIPHGYSSERYSCDSHFTSTLFRFHWLKIQIPRNNILETRGVEIPTLLCSPKLILYYE    1360
+EKHSGFWGCGIATTVEFSSDGSYPQIQNIYNNEFNDIPADTTVDSTISYTVSSGNSQTAVTLNLDYITVTITGPDSVESG    1440
+NQVTLTCSLGETTTSPSDWGVKWKLGDTVSCYGIQGGCYGNQGGCYGNQGVAMVIDESTFILTRDVDTTDRTYRCEVTPP    1520
+SGTGQDSAVFYQDHTVTYKSLTLTGPLAVLSSSTATFTCTARSTTTPLSFTWHLDNISTAVGVSSGESESVSLFEVALDG    1600
+DSKWRVVKCEEGVTALEKTVDVFVAEYHAVAWYYLP                                                1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+....................................                                                1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+502              4    ---MVTK|DL  0.101    .
+502             11    DLGGVYK|CS  0.071    .
+502             60    SLATVTK|DS  0.085    .
+502            102    PTPTSPK|SP  0.068    .
+502            107    PKSPTYR|SP  0.230    .
+502            120    TSPDWFR|AP  0.096    .
+502            138    TLEILGK|GG  0.064    .
+502            146    GYGTVTK|AL  0.077    .
+502            151    TKALDTR|TG  0.085    .
+502            159    GTHVAIK|VM  0.061    .
+502            164    IKVMDGR|RI  0.095    .
+502            165    KVMDGRR|IK  0.111    .
+502            167    MDGRRIK|NK  0.102    .
+502            169    GRRIKNK|TF  0.110    .
+502            173    KNKTFSK|IK  0.070    .
+502            175    KTFSKIK|ND  0.058    .
+502            188    EVLLWER|LD  0.073    .
+502            196    DHPSIPK|LL  0.061    .
+502            204    LDVVYDR|EL  0.081    .
+502            242    DSVTVIR|QL  0.089    .
+502            259    LMGVDHR|DL  0.105    .
+502            262    VDHRDLK|DE  0.111    .
+502            273    LYNPHTK|KI  0.069    .
+502            274    YNPHTKK|IK  0.091    .
+502            276    PHTKKIK|LI  0.065    .
+502            289    AANLENK|PY  0.066    .
+502            295    KPYVGYR|GT  0.148    .
+502            312    FSSGCYR|PF  0.126    .
+502            338    DTPFQTR|AD  0.077    .
+502            343    TRADVVK|YR  0.100    .
+502            345    ADVVKYR|DL  0.201    .
+502            353    LGEMNPR|FM  0.122    .
+502            357    NPRFMER|SL  0.180    .
+502            360    FMERSLR|TN  0.199    .
+502            365    LRTNFIR|RC  0.096    .
+502            366    RTNFIRR|CM  0.117    .
+502            375    LVDPDQR|ML  0.072    .
+502            388    TSHPWLK|RV  0.081    .
+502            389    SHPWLKR|VP  0.162    .
+502            392    WLKRVPR|KV  0.371    .
+502            393    LKRVPRK|VP  0.093    .
+502            402    LTEQNLK|VL  0.066    .
+502            432    EDVHLIR|TS  0.083    .
+502            445    GYGTVTK|AL  0.083    .
+502            450    TKALDTR|TG  0.085    .
+502            458    GTHVAIK|VM  0.061    .
+502            463    IKVMDGR|RI  0.095    .
+502            464    KVMDGRR|IK  0.111    .
+502            466    MDGRRIK|NK  0.102    .
+502            468    GRRIKNK|TF  0.110    .
+502            472    KNKTFSK|IK  0.070    .
+502            474    KTFSKIK|ND  0.058    .
+502            487    EVLLWER|LD  0.073    .
+502            495    DHPSIPK|LL  0.061    .
+502            503    LDVVYDR|EL  0.081    .
+502            541    DSVTVIR|QL  0.089    .
+502            558    LMGVDHR|DL  0.105    .
+502            561    VDHRDLK|DE  0.111    .
+502            572    LYNPHTK|KI  0.069    .
+502            573    YNPHTKK|IK  0.091    .
+502            575    PHTKKIK|LI  0.065    .
+502            588    AANLENK|PY  0.066    .
+502            594    KPYVGYR|GT  0.148    .
+502            611    FSSGCYR|PF  0.126    .
+502            637    DTPFQTR|AD  0.076    .
+502            649    LTEQNLK|VL  0.066    .
+502            679    EDVHLIR|TS  0.081    .
+502            738    SHSTTYR|YP  0.101    .
+502            854    TATGIYK|SC  0.079    .
+502            881    SPCECDK|CL  0.067    .
+502            887    KCLDYTK|LA  0.062    .
+502            899    TFDDANK|VL  0.059    .
+502            911    LQVSFVR|VL  0.075    .
+502            914    SFVRVLK|LT  0.126    .
+502            921    LTEFIVR|VL  0.070    .
+502            924    FIVRVLK|LL  0.104    .
+502            963    GYCHDYK|NW  0.064    .
+502            977    NANTHHK|YL  0.091    .
+502            994    VASSGER|IC  0.072    .
+502           1000    RICPLNR|GA  0.115    .
+502           1004    LNRGATK|YQ  0.069    .
+502           1007    GATKYQR|LV  0.104    .
+502           1020    LLINDGR|TI  0.097    .
+502           1028    INTPFQR|FL  0.099    .
+502           1038    FGNLDFR|NR  0.071    .
+502           1040    NLDFRNR|QN  0.071    .
+502           1044    RNRQNLK|NA  0.066    .
+502           1048    NLKNALR|AP  0.072    .
+502           1052    ALRAPTR|KS  0.081    .
+502           1053    LRAPTRK|SK  0.176    .
+502           1055    APTRKSK|ND  0.128    .
+502           1068    PISPLSK|LQ  0.070    .
+502           1073    SKLQYFK|AH  0.059    .
+502           1105    TATGIYK|SC  0.076    .
+502           1124    LFPTSPK|RS  0.057    .
+502           1125    FPTSPKR|SN  0.274    .
+502           1130    KRSNFAK|KW  0.091    .
+502           1131    RSNFAKK|WL  0.167    .
+502           1138    WLSYDHK|RQ  0.067    .
+502           1139    LSYDHKR|QI  0.266    .
+502           1177    SPCECDK|CL  0.067    .
+502           1183    KCLDYTK|LA  0.062    .
+502           1195    TFDDANK|EL  0.061    .
+502           1239    GYCHDYK|NW  0.064    .
+502           1253    NANTHHK|YL  0.091    .
+502           1270    VASSGER|IC  0.072    .
+502           1276    RICPLNR|GA  0.116    .
+502           1280    LNRGATK|TG  0.067    .
+502           1285    TKTGSTK|SG  0.075    .
+502           1295    DCSLYLK|YE  0.065    .
+502           1312    HGYSSER|YS  0.123    .
+502           1325    FTSTLFR|FH  0.105    .
+502           1330    FRFHWLK|IQ  0.064    .
+502           1335    LKIQIPR|NN  0.092    .
+502           1342    NNILETR|GV  0.123    .
+502           1354    TLLCSPK|LI  0.069    .
+502           1362    ILYYEEK|HS  0.073    .
+502           1462    PSDWGVK|WK  0.055    .
+502           1464    DWGVKWK|LG  0.072    .
+502           1504    STFILTR|DV  0.155    .
+502           1511    DVDTTDR|TY  0.066    .
+502           1514    TTDRTYR|CE  0.175    .
+502           1539    DHTVTYK|SL  0.074    .
+502           1562    TFTCTAR|ST  0.131    .
+502           1603    ALDGDSK|WR  0.054    .
+502           1605    DGDSKWR|VV  0.120    .
+502           1608    SKWRVVK|CE  0.169    .
+502           1618    GVTALEK|TV  0.070    .
+____________________________^_________________
+
+
+
+

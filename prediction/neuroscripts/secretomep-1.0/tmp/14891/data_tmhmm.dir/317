@@ -1,0 +1,14 @@
+# 317 Length: 1997
+# 317 Number of predicted TMHs:  4
+# 317 Exp number of AAs in TMHs: 87.66005
+# 317 Exp number, first 60 AAs:  0
+# 317 Total prob of N-in:        0.00000
+317	TMHMM2.0	outside	     1  1871
+317	TMHMM2.0	TMhelix	  1872  1894
+317	TMHMM2.0	inside	  1895  1900
+317	TMHMM2.0	TMhelix	  1901  1923
+317	TMHMM2.0	outside	  1924  1926
+317	TMHMM2.0	TMhelix	  1927  1949
+317	TMHMM2.0	inside	  1950  1955
+317	TMHMM2.0	TMhelix	  1956  1978
+317	TMHMM2.0	outside	  1979  1997

@@ -1,0 +1,273 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1483 620         
+MTKKMGRPSVAVRNTPTAYFDEICQISGLLSCGLEQEWIEFISNQADLQQKCHTAETEVTRLRVQVNQFKSDKEASDLRI      80
+KHIRKQLADEKSQRQSLAKQNEKLIQQINVIRSILEDRDRMSMMTEEEKSTLFNKSALRKHFDRVFDENSMEMDSDQSLE     160
+PSFEGAELEESRSEWKRRSRQSCVRKSERQSSGIIKKKRPSKIPDDDFVHIEPTTSESSEPPIIYPNLKQFNKQNPLPRV     240
+QHAEVVSLKSEATTVSTTDTDSDAEFHASDTESVTSTTSESSLPNRAHHFVLKSQIKPEGCKACRKRLGFSAHALRCKYC     320
+KMVVHQDCKNAAPLPCVPLLSTPSKKQDGTLASYVPKNPPHIPSLLLRCVQEIEARGLTDVGLYRLSGTNKQIKELKERM     400
+LRPRCQVNLRKVDDINVLTGVIKSFLMNLNDPLLTSLLSEDFKDAAERSSLNHIFDCVARLPHENRHTLAFLVSHLQKVS     480
+DSEHTKMPRSNLARVMAPTLVAAVPMTDMDSAVKDSKRSTKVMEILLSLPPSYWSNIMSPNDECSSPTGVGYSGEDPATP     560
+GTPEMLRAMSKKSEKSKPVSVYVRCRPRNSQEKAAASQNIVECTRKEVMVRHSGNNNLSKKYTFDHVYGPDSSQVDLYKG     640
+VAASTMEEVLKGYNCTVFAYGQTGTGKTYTMEEEKSTLFNKSALRKHFDRVFDENSMEMDSDQSLEPSFEGAELEESRSE     720
+WKRRSRQSCVRKSERQSSGIIKKKRPSKIPDDDFVHIEPTTSESSEPPIIYPNLKQFNKQNPLPRVQHAEVVSLKSEATT     800
+VSTTDTDSDAEFHASDTESVTSTTSESSLPNRAHHFVLKSQIKPEGCKACRKRLGFSAHALRCKYCKMVVHQDCKNAAPL     880
+PCVPLLSTPSKKQDGTLASYVPKNPPHIPSLLLRCVQEIEARGLTDVGLYRLSGTNKQIKELKERMLRPRVSDSEHTKMP     960
+RSNLARVMAPTLVAAVPMTDMDSAVKDSKRSTKVMEILLSLPPSYWSNIMSPNDECSSPTGVGYSGEDPATPGTPEMLRA    1040
+MSKKSEKSKPVSVYVRCRPRNSQEKAAASQNIVECTRKEVMVRHSGNNNLSKKYTFDHVYGPDSSQVDLYKGVAASTMEE    1120
+VLKGYNCTVFAKKYTFDHVYGPDSSQVDLYKGVAASTMEEVLKGYNCTVFAYGQTGTGKTYTMEGERSVSSGIAWDKDPK    1200
+IGLIPRCMSHMFDRLNSQASDFSVRVSMLELYNEELFDLLSSNDSNVKLRLFEDSTRKVTGSRGIGSVVIQGLEEVQVMS    1280
+KDEVYTLMERAMQKRQTASTLLNKQSSRSHVVFTVTVHIKTVSQDDECEEEVFKMGKFNLVDLAGSENIGRSGALKDRAR    1360
+EAGSINQSLLTLGRVINALVDRAPHVPYRESKLTRLLQDSLGGKTRTSIVATISPAQCNLEETLSTLDYANRAKNILNKP    1440
+EVNQRSSKKALIKEYTVEIEKLKKELQLNREQALIQFTVILNK                                         1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+...........................................                                         1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+620              3    ----MTK|KM  0.061    .
+620              4    ---MTKK|MG  0.104    .
+620              7    MTKKMGR|PS  0.107    .
+620             13    RPSVAVR|NT  0.149    .
+620             51    QADLQQK|CH  0.063    .
+620             61    AETEVTR|LR  0.077    .
+620             63    TEVTRLR|VQ  0.075    .
+620             70    VQVNQFK|SD  0.070    .
+620             73    NQFKSDK|EA  0.074    .
+620             79    KEASDLR|IK  0.075    .
+620             81    ASDLRIK|HI  0.071    .
+620             84    LRIKHIR|KQ  0.115    .
+620             85    RIKHIRK|QL  0.092    .
+620             91    KQLADEK|SQ  0.073    .
+620             94    ADEKSQR|QS  0.099    .
+620             99    QRQSLAK|QN  0.094    .
+620            103    LAKQNEK|LI  0.064    .
+620            112    QQINVIR|SI  0.120    .
+620            118    RSILEDR|DR  0.102    .
+620            120    ILEDRDR|MS  0.092    .
+620            129    MMTEEEK|ST  0.065    .
+620            135    KSTLFNK|SA  0.087    .
+620            139    FNKSALR|KH  0.076    .
+620            140    NKSALRK|HF  0.130    .
+620            144    LRKHFDR|VF  0.117    .
+620            172    AELEESR|SE  0.095    .
+620            176    ESRSEWK|RR  0.060    .
+620            177    SRSEWKR|RS  0.329    .
+620            178    RSEWKRR|SR  0.263    .
+620            180    EWKRRSR|QS  0.186    .
+620            185    SRQSCVR|KS  0.109    .
+620            186    RQSCVRK|SE  0.175    .
+620            189    CVRKSER|QS  0.121    .
+620            196    QSSGIIK|KK  0.070    .
+620            197    SSGIIKK|KR  0.092    .
+620            198    SGIIKKK|RP  0.128    .
+620            199    GIIKKKR|PS  0.219    .
+620            202    KKKRPSK|IP  0.165    .
+620            229    IIYPNLK|QF  0.067    .
+620            233    NLKQFNK|QN  0.059    .
+620            239    KQNPLPR|VQ  0.110    .
+620            249    AEVVSLK|SE  0.076    .
+620            286    ESSLPNR|AH  0.128    .
+620            293    AHHFVLK|SQ  0.095    .
+620            297    VLKSQIK|PE  0.062    .
+620            302    IKPEGCK|AC  0.060    .
+620            305    EGCKACR|KR  0.066    .
+620            306    GCKACRK|RL  0.090    .
+620            307    CKACRKR|LG  0.173    .
+620            316    FSAHALR|CK  0.087    .
+620            318    AHALRCK|YC  0.074    .
+620            321    LRCKYCK|MV  0.095    .
+620            329    VVHQDCK|NA  0.062    .
+620            345    LLSTPSK|KQ  0.081    .
+620            346    LSTPSKK|QD  0.117    .
+620            357    LASYVPK|NP  0.072    .
+620            368    IPSLLLR|CV  0.212    .
+620            376    VQEIEAR|GL  0.110    .
+620            385    TDVGLYR|LS  0.090    .
+620            391    RLSGTNK|QI  0.072    .
+620            394    GTNKQIK|EL  0.065    .
+620            397    KQIKELK|ER  0.056    .
+620            399    IKELKER|ML  0.088    .
+620            402    LKERMLR|PR  0.177    .
+620            404    ERMLRPR|CQ  0.090    .
+620            410    RCQVNLR|KV  0.137    .
+620            411    CQVNLRK|VD  0.077    .
+620            423    VLTGVIK|SF  0.073    .
+620            443    LLSEDFK|DA  0.073    .
+620            448    FKDAAER|SS  0.111    .
+620            460    IFDCVAR|LP  0.101    .
+620            466    RLPHENR|HT  0.111    .
+620            478    LVSHLQK|VS  0.072    .
+620            486    SDSEHTK|MP  0.075    .
+620            489    EHTKMPR|SN  0.107    .
+620            494    PRSNLAR|VM  0.119    .
+620            514    DMDSAVK|DS  0.061    .
+620            517    SAVKDSK|RS  0.065    .
+620            518    AVKDSKR|ST  0.325    .
+620            521    DSKRSTK|VM  0.144    .
+620            567    GTPEMLR|AM  0.083    .
+620            571    MLRAMSK|KS  0.074    .
+620            572    LRAMSKK|SE  0.248    .
+620            575    MSKKSEK|SK  0.083    .
+620            577    KKSEKSK|PV  0.132    .
+620            584    PVSVYVR|CR  0.075    .
+620            586    SVYVRCR|PR  0.105    .
+620            588    YVRCRPR|NS  0.084    .
+620            593    PRNSQEK|AA  0.083    .
+620            605    NIVECTR|KE  0.073    .
+620            606    IVECTRK|EV  0.088    .
+620            611    RKEVMVR|HS  0.112    .
+620            620    GNNNLSK|KY  0.065    .
+620            621    NNNLSKK|YT  0.168    .
+620            639    SQVDLYK|GV  0.091    .
+620            651    TMEEVLK|GY  0.070    .
+620            667    GQTGTGK|TY  0.066    .
+620            675    YTMEEEK|ST  0.066    .
+620            681    KSTLFNK|SA  0.087    .
+620            685    FNKSALR|KH  0.076    .
+620            686    NKSALRK|HF  0.130    .
+620            690    LRKHFDR|VF  0.117    .
+620            718    AELEESR|SE  0.095    .
+620            722    ESRSEWK|RR  0.060    .
+620            723    SRSEWKR|RS  0.329    .
+620            724    RSEWKRR|SR  0.263    .
+620            726    EWKRRSR|QS  0.186    .
+620            731    SRQSCVR|KS  0.109    .
+620            732    RQSCVRK|SE  0.175    .
+620            735    CVRKSER|QS  0.121    .
+620            742    QSSGIIK|KK  0.070    .
+620            743    SSGIIKK|KR  0.092    .
+620            744    SGIIKKK|RP  0.128    .
+620            745    GIIKKKR|PS  0.219    .
+620            748    KKKRPSK|IP  0.165    .
+620            775    IIYPNLK|QF  0.067    .
+620            779    NLKQFNK|QN  0.059    .
+620            785    KQNPLPR|VQ  0.110    .
+620            795    AEVVSLK|SE  0.076    .
+620            832    ESSLPNR|AH  0.128    .
+620            839    AHHFVLK|SQ  0.095    .
+620            843    VLKSQIK|PE  0.062    .
+620            848    IKPEGCK|AC  0.060    .
+620            851    EGCKACR|KR  0.066    .
+620            852    GCKACRK|RL  0.090    .
+620            853    CKACRKR|LG  0.173    .
+620            862    FSAHALR|CK  0.087    .
+620            864    AHALRCK|YC  0.074    .
+620            867    LRCKYCK|MV  0.095    .
+620            875    VVHQDCK|NA  0.062    .
+620            891    LLSTPSK|KQ  0.081    .
+620            892    LSTPSKK|QD  0.117    .
+620            903    LASYVPK|NP  0.072    .
+620            914    IPSLLLR|CV  0.212    .
+620            922    VQEIEAR|GL  0.110    .
+620            931    TDVGLYR|LS  0.090    .
+620            937    RLSGTNK|QI  0.072    .
+620            940    GTNKQIK|EL  0.065    .
+620            943    KQIKELK|ER  0.056    .
+620            945    IKELKER|ML  0.100    .
+620            948    LKERMLR|PR  0.112    .
+620            950    ERMLRPR|VS  0.114    .
+620            958    SDSEHTK|MP  0.076    .
+620            961    EHTKMPR|SN  0.107    .
+620            966    PRSNLAR|VM  0.119    .
+620            986    DMDSAVK|DS  0.061    .
+620            989    SAVKDSK|RS  0.065    .
+620            990    AVKDSKR|ST  0.325    .
+620            993    DSKRSTK|VM  0.144    .
+620           1039    GTPEMLR|AM  0.083    .
+620           1043    MLRAMSK|KS  0.074    .
+620           1044    LRAMSKK|SE  0.248    .
+620           1047    MSKKSEK|SK  0.083    .
+620           1049    KKSEKSK|PV  0.132    .
+620           1056    PVSVYVR|CR  0.075    .
+620           1058    SVYVRCR|PR  0.105    .
+620           1060    YVRCRPR|NS  0.084    .
+620           1065    PRNSQEK|AA  0.083    .
+620           1077    NIVECTR|KE  0.073    .
+620           1078    IVECTRK|EV  0.088    .
+620           1083    RKEVMVR|HS  0.112    .
+620           1092    GNNNLSK|KY  0.065    .
+620           1093    NNNLSKK|YT  0.168    .
+620           1111    SQVDLYK|GV  0.091    .
+620           1123    TMEEVLK|GY  0.070    .
+620           1132    NCTVFAK|KY  0.061    .
+620           1133    CTVFAKK|YT  0.135    .
+620           1151    SQVDLYK|GV  0.091    .
+620           1163    TMEEVLK|GY  0.070    .
+620           1179    GQTGTGK|TY  0.064    .
+620           1187    YTMEGER|SV  0.190    .
+620           1197    SGIAWDK|DP  0.069    .
+620           1200    AWDKDPK|IG  0.055    .
+620           1206    KIGLIPR|CM  0.101    .
+620           1214    MSHMFDR|LN  0.138    .
+620           1225    ASDFSVR|VS  0.081    .
+620           1248    SNDSNVK|LR  0.053    .
+620           1250    DSNVKLR|LF  0.132    .
+620           1257    LFEDSTR|KV  0.114    .
+620           1258    FEDSTRK|VT  0.075    .
+620           1263    RKVTGSR|GI  0.123    .
+620           1281    EVQVMSK|DE  0.060    .
+620           1290    VYTLMER|AM  0.067    .
+620           1294    MERAMQK|RQ  0.062    .
+620           1295    ERAMQKR|QT  0.240    .
+620           1304    ASTLLNK|QS  0.066    .
+620           1308    LNKQSSR|SH  0.115    .
+620           1320    TVTVHIK|TV  0.091    .
+620           1334    CEEEVFK|MG  0.059    .
+620           1337    EVFKMGK|FN  0.066    .
+620           1351    GSENIGR|SG  0.096    .
+620           1356    GRSGALK|DR  0.083    .
+620           1358    SGALKDR|AR  0.106    .
+620           1360    ALKDRAR|EA  0.148    .
+620           1374    SLLTLGR|VI  0.080    .
+620           1382    INALVDR|AP  0.087    .
+620           1389    APHVPYR|ES  0.095    .
+620           1392    VPYRESK|LT  0.136    .
+620           1395    RESKLTR|LL  0.153    .
+620           1404    QDSLGGK|TR  0.062    .
+620           1406    SLGGKTR|TS  0.102    .
+620           1432    TLDYANR|AK  0.080    .
+620           1434    DYANRAK|NI  0.064    .
+620           1439    AKNILNK|PE  0.066    .
+620           1445    KPEVNQR|SS  0.155    .
+620           1448    VNQRSSK|KA  0.191    .
+620           1449    NQRSSKK|AL  0.156    .
+620           1453    SKKALIK|EY  0.069    .
+620           1461    YTVEIEK|LK  0.050    .
+620           1463    VEIEKLK|KE  0.056    .
+620           1464    EIEKLKK|EL  0.085    .
+620           1470    KELQLNR|EQ  0.081    .
+620           1483    FTVILNK|--  0.061    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,77 @@
+#!/usr/freeware/bin/gawk -f
+
+# 
+# This script parses the output of AllProt, following the general ProtFun
+# raw feature parsing scheme.
+# 
+# VERSION:	2004 Aug 24	launch, K. Rapacki
+# 
+
+BEGIN {	ident=""; nneg=0; npos=0; gotit=0; }
+
+/^Number of amino acids:/ {
+  if (fileexists(fileid".Features/allprot_len/type")) {
+     fn=fileid".Features/allprot_len/feature.out";
+     print ident" "$5 >> fn;
+  }
+  gotit=1;
+}
+
+/^Total number of atoms:/ {
+  if (fileexists(fileid".Features/allprot_natom/type")) {
+     fn=fileid".Features/allprot_natom/feature.out";
+     print ident" "$5 >> fn;
+  }
+  gotit=1;
+}
+
+/^Total number of negatively charged residues/ {
+  if (fileexists(fileid".Features/allprot_nneg/type")) {
+     fn=fileid".Features/allprot_nneg/feature.out";
+     print ident" "$10 >> fn;
+  }
+  nneg=$10;
+  gotit=1;
+}
+
+/^Total number of positively charged residues/ {
+  if (fileexists(fileid".Features/allprot_npos/type")) {
+     fn=fileid".Features/allprot_npos/feature.out";
+     print ident" "$10 >> fn;
+  }
+  npos=$10;
+  gotit=1;
+}
+
+/\/\/\-\/\//{
+
+  if (ident!=""){
+     if (!gotit)
+        printf "*" >> "/dev/stderr";
+     else
+        printf "." >> "/dev/stderr";
+  }
+
+  ident=$2;
+  nneg=0;
+  npos=0;
+  eccnt=0;
+
+  getline;
+  if ($1=="sh:") {
+     printf "*" >> "/dev/stderr";
+     next;
+  }
+
+  gotit=0;
+}
+
+{
+  # un-caught line
+}
+
+END {	if (gotit)
+	   printf "." >> "/dev/stderr";
+	else
+	   printf "*" >> "/dev/stderr";
+}

@@ -1,0 +1,523 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1628 515         
+MCSTSWNTGVESVFIWRGVVSSMMLSGQCSDHSSRARESGQANALTGIMVDSRLSERWWQWYQPYPLWPTYATYKKEPGS      80
+GYVNHKYSSTLYQITAVNNSVRDMCIGDRALGADKMLCLGFYIGDIDTWWGSQHVSMSPSFYENFTATIPILDPSLSYIH     160
+IYICSSLPSVESVFIWRGVASRSHGILTSRSTAAQPERTQFELGLLSVGYLTVARKPFEIQLRASDRTVFQTTLNQNNTS     240
+SKNIEFIFIALSHHFLLGHQNRRIGDFSVWRRHTPVRSDRVGGARQRFLKLPVNYALLQKILIRKLRFMKFETEIVLSLV     320
+RSCISNGFRARAHKNLSHFLVVTRSAHTGVKIKIKILILSAHTPAAVKISLPILKSNWRARSLHLEWGRGILTAAGVCND     400
+KIKILILILTPVDRKAETERQRQKGRDRDRNEDRDRDRDRDRDRDRDRNRGRDNYRHRDRDDYRHRDSVRPGEIDHQSNR     480
+AIQTETESVRGERDRERETETVTERQRDRETETETETETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAE     560
+TERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRD     640
+RKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQ     720
+KGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETE     800
+RQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRK     880
+AETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKG     960
+RDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQ    1040
+RQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAE    1120
+TERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRD    1200
+RKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKAETERQRQKGRDRKPRRRQRDRNGNRDIGGRHTEVG    1280
+RARSHLNLARHTEVRSLKFRGKFRSFAKPHFRMRNHFRKWGFTKLRNFPRNFELRTLVYLARLRLTPHGVIPTHMCGDRT    1360
+RWLCRQGKLLIDGVDERLLILFSPVLIVITEIQQNSLVERGLEHTVCLYGGALPHLILKVCSDRVGGARQPCVKFYSQVR    1440
+FFSRVLFKYTWCDPHMCGVRTRWLCRQVVMRLLCGCYFVVICSGPGGVLQTIVISWFLHVFCVISKHIDQTHIIDDQCYV    1520
+CRACLFVFSCVCRCLGTSQQLYRKNIVLLLYSRTPDLPEPRFTGRINFPRYGTTEPRFTGRINFPRYRKISVFHPEIPGT    1600
+PIYRAKPLPPSIPVNRGPTVCMSICQTE                                                        1680
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+............................                                                        1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+515             17    ESVFIWR|GV  0.113    .
+515             35    CSDHSSR|AR  0.103    .
+515             37    DHSSRAR|ES  0.174    .
+515             53    GIMVDSR|LS  0.083    .
+515             57    DSRLSER|WW  0.100    .
+515             75    PTYATYK|KE  0.057    .
+515             76    TYATYKK|EP  0.115    .
+515             86    SGYVNHK|YS  0.077    .
+515            102    AVNNSVR|DM  0.140    .
+515            109    DMCIGDR|AL  0.088    .
+515            115    RALGADK|ML  0.059    .
+515            177    ESVFIWR|GV  0.106    .
+515            182    WRGVASR|SH  0.167    .
+515            190    HGILTSR|ST  0.128    .
+515            198    TAAQPER|TQ  0.091    .
+515            215    GYLTVAR|KP  0.077    .
+515            216    YLTVARK|PF  0.094    .
+515            223    PFEIQLR|AS  0.096    .
+515            227    QLRASDR|TV  0.144    .
+515            242    QNNTSSK|NI  0.081    .
+515            262    LLGHQNR|RI  0.129    .
+515            263    LGHQNRR|IG  0.123    .
+515            271    GDFSVWR|RH  0.085    .
+515            272    DFSVWRR|HT  0.131    .
+515            277    RRHTPVR|SD  0.246    .
+515            280    TPVRSDR|VG  0.346    .
+515            285    DRVGGAR|QR  0.092    .
+515            287    VGGARQR|FL  0.076    .
+515            290    ARQRFLK|LP  0.101    .
+515            300    NYALLQK|IL  0.064    .
+515            304    LQKILIR|KL  0.082    .
+515            305    QKILIRK|LR  0.077    .
+515            307    ILIRKLR|FM  0.291    .
+515            310    RKLRFMK|FE  0.138    .
+515            321    IVLSLVR|SC  0.084    .
+515            329    CISNGFR|AR  0.089    .
+515            331    SNGFRAR|AH  0.098    .
+515            334    FRARAHK|NL  0.194    .
+515            344    HFLVVTR|SA  0.204    .
+515            351    SAHTGVK|IK  0.067    .
+515            353    HTGVKIK|IK  0.069    .
+515            355    GVKIKIK|IL  0.074    .
+515            368    HTPAAVK|IS  0.059    .
+515            375    ISLPILK|SN  0.078    .
+515            379    ILKSNWR|AR  0.088    .
+515            381    KSNWRAR|SL  0.256    .
+515            389    LHLEWGR|GI  0.091    .
+515            401    AGVCNDK|IK  0.056    .
+515            403    VCNDKIK|IL  0.076    .
+515            414    ILTPVDR|KA  0.112    .
+515            415    LTPVDRK|AE  0.068    .
+515            420    RKAETER|QR  0.106    .
+515            422    AETERQR|QK  0.087    .
+515            424    TERQRQK|GR  0.069    .
+515            426    RQRQKGR|DR  0.188    .
+515            428    RQKGRDR|DR  0.091    .
+515            430    KGRDRDR|NE  0.087    .
+515            434    RDRNEDR|DR  0.117    .
+515            436    RNEDRDR|DR  0.101    .
+515            438    EDRDRDR|DR  0.101    .
+515            440    RDRDRDR|DR  0.126    .
+515            442    RDRDRDR|DR  0.114    .
+515            444    RDRDRDR|DR  0.120    .
+515            446    RDRDRDR|DR  0.128    .
+515            448    RDRDRDR|NR  0.088    .
+515            450    RDRDRNR|GR  0.109    .
+515            452    RDRNRGR|DN  0.135    .
+515            456    RGRDNYR|HR  0.086    .
+515            458    RDNYRHR|DR  0.170    .
+515            460    NYRHRDR|DD  0.131    .
+515            464    RDRDDYR|HR  0.130    .
+515            466    RDDYRHR|DS  0.088    .
+515            470    RHRDSVR|PG  0.094    .
+515            480    IDHQSNR|AI  0.136    .
+515            490    TETESVR|GE  0.096    .
+515            493    ESVRGER|DR  0.309    .
+515            495    VRGERDR|ER  0.120    .
+515            497    GERDRER|ET  0.122    .
+515            505    TETVTER|QR  0.091    .
+515            507    TVTERQR|DR  0.109    .
+515            509    TERQRDR|ET  0.152    .
+515            521    TETETER|QR  0.082    .
+515            523    TETERQR|QK  0.095    .
+515            525    TERQRQK|GR  0.079    .
+515            527    RQRQKGR|DR  0.148    .
+515            529    RQKGRDR|KA  0.123    .
+515            530    QKGRDRK|AE  0.226    .
+515            535    RKAETER|QR  0.107    .
+515            537    AETERQR|QK  0.094    .
+515            539    TERQRQK|GR  0.079    .
+515            541    RQRQKGR|DR  0.148    .
+515            543    RQKGRDR|KA  0.123    .
+515            544    QKGRDRK|AE  0.226    .
+515            549    RKAETER|QR  0.107    .
+515            551    AETERQR|QK  0.094    .
+515            553    TERQRQK|GR  0.079    .
+515            555    RQRQKGR|DR  0.148    .
+515            557    RQKGRDR|KA  0.123    .
+515            558    QKGRDRK|AE  0.226    .
+515            563    RKAETER|QR  0.107    .
+515            565    AETERQR|QK  0.094    .
+515            567    TERQRQK|GR  0.079    .
+515            569    RQRQKGR|DR  0.148    .
+515            571    RQKGRDR|KA  0.123    .
+515            572    QKGRDRK|AE  0.226    .
+515            577    RKAETER|QR  0.107    .
+515            579    AETERQR|QK  0.094    .
+515            581    TERQRQK|GR  0.079    .
+515            583    RQRQKGR|DR  0.148    .
+515            585    RQKGRDR|KA  0.123    .
+515            586    QKGRDRK|AE  0.226    .
+515            591    RKAETER|QR  0.107    .
+515            593    AETERQR|QK  0.094    .
+515            595    TERQRQK|GR  0.079    .
+515            597    RQRQKGR|DR  0.148    .
+515            599    RQKGRDR|KA  0.123    .
+515            600    QKGRDRK|AE  0.226    .
+515            605    RKAETER|QR  0.107    .
+515            607    AETERQR|QK  0.094    .
+515            609    TERQRQK|GR  0.079    .
+515            611    RQRQKGR|DR  0.148    .
+515            613    RQKGRDR|KA  0.123    .
+515            614    QKGRDRK|AE  0.226    .
+515            619    RKAETER|QR  0.107    .
+515            621    AETERQR|QK  0.094    .
+515            623    TERQRQK|GR  0.079    .
+515            625    RQRQKGR|DR  0.148    .
+515            627    RQKGRDR|KA  0.123    .
+515            628    QKGRDRK|AE  0.226    .
+515            633    RKAETER|QR  0.107    .
+515            635    AETERQR|QK  0.094    .
+515            637    TERQRQK|GR  0.079    .
+515            639    RQRQKGR|DR  0.148    .
+515            641    RQKGRDR|KA  0.123    .
+515            642    QKGRDRK|AE  0.226    .
+515            647    RKAETER|QR  0.107    .
+515            649    AETERQR|QK  0.094    .
+515            651    TERQRQK|GR  0.079    .
+515            653    RQRQKGR|DR  0.148    .
+515            655    RQKGRDR|KA  0.123    .
+515            656    QKGRDRK|AE  0.226    .
+515            661    RKAETER|QR  0.107    .
+515            663    AETERQR|QK  0.094    .
+515            665    TERQRQK|GR  0.079    .
+515            667    RQRQKGR|DR  0.148    .
+515            669    RQKGRDR|KA  0.123    .
+515            670    QKGRDRK|AE  0.226    .
+515            675    RKAETER|QR  0.107    .
+515            677    AETERQR|QK  0.094    .
+515            679    TERQRQK|GR  0.079    .
+515            681    RQRQKGR|DR  0.148    .
+515            683    RQKGRDR|KA  0.123    .
+515            684    QKGRDRK|AE  0.226    .
+515            689    RKAETER|QR  0.107    .
+515            691    AETERQR|QK  0.094    .
+515            693    TERQRQK|GR  0.079    .
+515            695    RQRQKGR|DR  0.148    .
+515            697    RQKGRDR|KA  0.123    .
+515            698    QKGRDRK|AE  0.226    .
+515            703    RKAETER|QR  0.107    .
+515            705    AETERQR|QK  0.094    .
+515            707    TERQRQK|GR  0.079    .
+515            709    RQRQKGR|DR  0.148    .
+515            711    RQKGRDR|KA  0.123    .
+515            712    QKGRDRK|AE  0.226    .
+515            717    RKAETER|QR  0.107    .
+515            719    AETERQR|QK  0.094    .
+515            721    TERQRQK|GR  0.079    .
+515            723    RQRQKGR|DR  0.148    .
+515            725    RQKGRDR|KA  0.123    .
+515            726    QKGRDRK|AE  0.226    .
+515            731    RKAETER|QR  0.107    .
+515            733    AETERQR|QK  0.094    .
+515            735    TERQRQK|GR  0.079    .
+515            737    RQRQKGR|DR  0.148    .
+515            739    RQKGRDR|KA  0.123    .
+515            740    QKGRDRK|AE  0.226    .
+515            745    RKAETER|QR  0.107    .
+515            747    AETERQR|QK  0.094    .
+515            749    TERQRQK|GR  0.079    .
+515            751    RQRQKGR|DR  0.148    .
+515            753    RQKGRDR|KA  0.123    .
+515            754    QKGRDRK|AE  0.226    .
+515            759    RKAETER|QR  0.107    .
+515            761    AETERQR|QK  0.094    .
+515            763    TERQRQK|GR  0.079    .
+515            765    RQRQKGR|DR  0.148    .
+515            767    RQKGRDR|KA  0.123    .
+515            768    QKGRDRK|AE  0.226    .
+515            773    RKAETER|QR  0.107    .
+515            775    AETERQR|QK  0.094    .
+515            777    TERQRQK|GR  0.079    .
+515            779    RQRQKGR|DR  0.148    .
+515            781    RQKGRDR|KA  0.123    .
+515            782    QKGRDRK|AE  0.226    .
+515            787    RKAETER|QR  0.107    .
+515            789    AETERQR|QK  0.094    .
+515            791    TERQRQK|GR  0.079    .
+515            793    RQRQKGR|DR  0.148    .
+515            795    RQKGRDR|KA  0.123    .
+515            796    QKGRDRK|AE  0.226    .
+515            801    RKAETER|QR  0.107    .
+515            803    AETERQR|QK  0.094    .
+515            805    TERQRQK|GR  0.079    .
+515            807    RQRQKGR|DR  0.148    .
+515            809    RQKGRDR|KA  0.123    .
+515            810    QKGRDRK|AE  0.226    .
+515            815    RKAETER|QR  0.107    .
+515            817    AETERQR|QK  0.094    .
+515            819    TERQRQK|GR  0.079    .
+515            821    RQRQKGR|DR  0.148    .
+515            823    RQKGRDR|KA  0.123    .
+515            824    QKGRDRK|AE  0.226    .
+515            829    RKAETER|QR  0.107    .
+515            831    AETERQR|QK  0.094    .
+515            833    TERQRQK|GR  0.079    .
+515            835    RQRQKGR|DR  0.148    .
+515            837    RQKGRDR|KA  0.123    .
+515            838    QKGRDRK|AE  0.226    .
+515            843    RKAETER|QR  0.107    .
+515            845    AETERQR|QK  0.094    .
+515            847    TERQRQK|GR  0.079    .
+515            849    RQRQKGR|DR  0.148    .
+515            851    RQKGRDR|KA  0.123    .
+515            852    QKGRDRK|AE  0.226    .
+515            857    RKAETER|QR  0.107    .
+515            859    AETERQR|QK  0.094    .
+515            861    TERQRQK|GR  0.079    .
+515            863    RQRQKGR|DR  0.148    .
+515            865    RQKGRDR|KA  0.123    .
+515            866    QKGRDRK|AE  0.226    .
+515            871    RKAETER|QR  0.107    .
+515            873    AETERQR|QK  0.094    .
+515            875    TERQRQK|GR  0.079    .
+515            877    RQRQKGR|DR  0.148    .
+515            879    RQKGRDR|KA  0.123    .
+515            880    QKGRDRK|AE  0.226    .
+515            885    RKAETER|QR  0.107    .
+515            887    AETERQR|QK  0.094    .
+515            889    TERQRQK|GR  0.079    .
+515            891    RQRQKGR|DR  0.148    .
+515            893    RQKGRDR|KA  0.123    .
+515            894    QKGRDRK|AE  0.226    .
+515            899    RKAETER|QR  0.107    .
+515            901    AETERQR|QK  0.094    .
+515            903    TERQRQK|GR  0.079    .
+515            905    RQRQKGR|DR  0.148    .
+515            907    RQKGRDR|KA  0.123    .
+515            908    QKGRDRK|AE  0.226    .
+515            913    RKAETER|QR  0.107    .
+515            915    AETERQR|QK  0.094    .
+515            917    TERQRQK|GR  0.079    .
+515            919    RQRQKGR|DR  0.148    .
+515            921    RQKGRDR|KA  0.123    .
+515            922    QKGRDRK|AE  0.226    .
+515            927    RKAETER|QR  0.107    .
+515            929    AETERQR|QK  0.094    .
+515            931    TERQRQK|GR  0.079    .
+515            933    RQRQKGR|DR  0.148    .
+515            935    RQKGRDR|KA  0.123    .
+515            936    QKGRDRK|AE  0.226    .
+515            941    RKAETER|QR  0.107    .
+515            943    AETERQR|QK  0.094    .
+515            945    TERQRQK|GR  0.079    .
+515            947    RQRQKGR|DR  0.148    .
+515            949    RQKGRDR|KA  0.123    .
+515            950    QKGRDRK|AE  0.226    .
+515            955    RKAETER|QR  0.107    .
+515            957    AETERQR|QK  0.094    .
+515            959    TERQRQK|GR  0.079    .
+515            961    RQRQKGR|DR  0.148    .
+515            963    RQKGRDR|KA  0.123    .
+515            964    QKGRDRK|AE  0.226    .
+515            969    RKAETER|QR  0.107    .
+515            971    AETERQR|QK  0.094    .
+515            973    TERQRQK|GR  0.079    .
+515            975    RQRQKGR|DR  0.148    .
+515            977    RQKGRDR|KA  0.123    .
+515            978    QKGRDRK|AE  0.226    .
+515            983    RKAETER|QR  0.107    .
+515            985    AETERQR|QK  0.094    .
+515            987    TERQRQK|GR  0.079    .
+515            989    RQRQKGR|DR  0.148    .
+515            991    RQKGRDR|KA  0.123    .
+515            992    QKGRDRK|AE  0.226    .
+515            997    RKAETER|QR  0.107    .
+515            999    AETERQR|QK  0.094    .
+515           1001    TERQRQK|GR  0.079    .
+515           1003    RQRQKGR|DR  0.148    .
+515           1005    RQKGRDR|KA  0.123    .
+515           1006    QKGRDRK|AE  0.226    .
+515           1011    RKAETER|QR  0.107    .
+515           1013    AETERQR|QK  0.094    .
+515           1015    TERQRQK|GR  0.079    .
+515           1017    RQRQKGR|DR  0.148    .
+515           1019    RQKGRDR|KA  0.123    .
+515           1020    QKGRDRK|AE  0.226    .
+515           1025    RKAETER|QR  0.107    .
+515           1027    AETERQR|QK  0.094    .
+515           1029    TERQRQK|GR  0.079    .
+515           1031    RQRQKGR|DR  0.148    .
+515           1033    RQKGRDR|KA  0.123    .
+515           1034    QKGRDRK|AE  0.226    .
+515           1039    RKAETER|QR  0.107    .
+515           1041    AETERQR|QK  0.094    .
+515           1043    TERQRQK|GR  0.079    .
+515           1045    RQRQKGR|DR  0.148    .
+515           1047    RQKGRDR|KA  0.123    .
+515           1048    QKGRDRK|AE  0.226    .
+515           1053    RKAETER|QR  0.107    .
+515           1055    AETERQR|QK  0.094    .
+515           1057    TERQRQK|GR  0.079    .
+515           1059    RQRQKGR|DR  0.148    .
+515           1061    RQKGRDR|KA  0.123    .
+515           1062    QKGRDRK|AE  0.226    .
+515           1067    RKAETER|QR  0.107    .
+515           1069    AETERQR|QK  0.094    .
+515           1071    TERQRQK|GR  0.079    .
+515           1073    RQRQKGR|DR  0.148    .
+515           1075    RQKGRDR|KA  0.123    .
+515           1076    QKGRDRK|AE  0.226    .
+515           1081    RKAETER|QR  0.107    .
+515           1083    AETERQR|QK  0.094    .
+515           1085    TERQRQK|GR  0.079    .
+515           1087    RQRQKGR|DR  0.148    .
+515           1089    RQKGRDR|KA  0.123    .
+515           1090    QKGRDRK|AE  0.226    .
+515           1095    RKAETER|QR  0.107    .
+515           1097    AETERQR|QK  0.094    .
+515           1099    TERQRQK|GR  0.079    .
+515           1101    RQRQKGR|DR  0.148    .
+515           1103    RQKGRDR|KA  0.123    .
+515           1104    QKGRDRK|AE  0.226    .
+515           1109    RKAETER|QR  0.107    .
+515           1111    AETERQR|QK  0.094    .
+515           1113    TERQRQK|GR  0.079    .
+515           1115    RQRQKGR|DR  0.148    .
+515           1117    RQKGRDR|KA  0.123    .
+515           1118    QKGRDRK|AE  0.226    .
+515           1123    RKAETER|QR  0.107    .
+515           1125    AETERQR|QK  0.094    .
+515           1127    TERQRQK|GR  0.079    .
+515           1129    RQRQKGR|DR  0.148    .
+515           1131    RQKGRDR|KA  0.123    .
+515           1132    QKGRDRK|AE  0.226    .
+515           1137    RKAETER|QR  0.107    .
+515           1139    AETERQR|QK  0.094    .
+515           1141    TERQRQK|GR  0.079    .
+515           1143    RQRQKGR|DR  0.148    .
+515           1145    RQKGRDR|KA  0.123    .
+515           1146    QKGRDRK|AE  0.226    .
+515           1151    RKAETER|QR  0.107    .
+515           1153    AETERQR|QK  0.094    .
+515           1155    TERQRQK|GR  0.079    .
+515           1157    RQRQKGR|DR  0.148    .
+515           1159    RQKGRDR|KA  0.123    .
+515           1160    QKGRDRK|AE  0.226    .
+515           1165    RKAETER|QR  0.107    .
+515           1167    AETERQR|QK  0.094    .
+515           1169    TERQRQK|GR  0.079    .
+515           1171    RQRQKGR|DR  0.148    .
+515           1173    RQKGRDR|KA  0.123    .
+515           1174    QKGRDRK|AE  0.226    .
+515           1179    RKAETER|QR  0.107    .
+515           1181    AETERQR|QK  0.094    .
+515           1183    TERQRQK|GR  0.079    .
+515           1185    RQRQKGR|DR  0.148    .
+515           1187    RQKGRDR|KA  0.123    .
+515           1188    QKGRDRK|AE  0.226    .
+515           1193    RKAETER|QR  0.107    .
+515           1195    AETERQR|QK  0.094    .
+515           1197    TERQRQK|GR  0.079    .
+515           1199    RQRQKGR|DR  0.148    .
+515           1201    RQKGRDR|KA  0.123    .
+515           1202    QKGRDRK|AE  0.226    .
+515           1207    RKAETER|QR  0.107    .
+515           1209    AETERQR|QK  0.094    .
+515           1211    TERQRQK|GR  0.079    .
+515           1213    RQRQKGR|DR  0.148    .
+515           1215    RQKGRDR|KA  0.123    .
+515           1216    QKGRDRK|AE  0.226    .
+515           1221    RKAETER|QR  0.107    .
+515           1223    AETERQR|QK  0.094    .
+515           1225    TERQRQK|GR  0.079    .
+515           1227    RQRQKGR|DR  0.148    .
+515           1229    RQKGRDR|KA  0.123    .
+515           1230    QKGRDRK|AE  0.226    .
+515           1235    RKAETER|QR  0.107    .
+515           1237    AETERQR|QK  0.094    .
+515           1239    TERQRQK|GR  0.079    .
+515           1241    RQRQKGR|DR  0.148    .
+515           1243    RQKGRDR|KA  0.123    .
+515           1244    QKGRDRK|AE  0.226    .
+515           1249    RKAETER|QR  0.107    .
+515           1251    AETERQR|QK  0.084    .
+515           1253    TERQRQK|GR  0.072    .
+515           1255    RQRQKGR|DR  0.141    .
+515           1257    RQKGRDR|KP  0.078    .
+515           1258    QKGRDRK|PR  0.221    .
+515           1260    GRDRKPR|RR  0.267    .
+515           1261    RDRKPRR|RQ  0.133    .
+515           1262    DRKPRRR|QR  0.159    .
+515           1264    KPRRRQR|DR  0.455    .
+515           1266    RRRQRDR|NG  0.101    .
+515           1270    RDRNGNR|DI  0.149    .
+515           1275    NRDIGGR|HT  0.120    .
+515           1281    RHTEVGR|AR  0.081    .
+515           1283    TEVGRAR|SH  0.121    .
+515           1290    SHLNLAR|HT  0.089    .
+515           1295    ARHTEVR|SL  0.148    .
+515           1298    TEVRSLK|FR  0.180    .
+515           1300    VRSLKFR|GK  0.161    .
+515           1302    SLKFRGK|FR  0.086    .
+515           1304    KFRGKFR|SF  0.148    .
+515           1308    KFRSFAK|PH  0.075    .
+515           1312    FAKPHFR|MR  0.097    .
+515           1314    KPHFRMR|NH  0.105    .
+515           1318    RMRNHFR|KW  0.118    .
+515           1319    MRNHFRK|WG  0.175    .
+515           1324    RKWGFTK|LR  0.061    .
+515           1326    WGFTKLR|NF  0.079    .
+515           1330    KLRNFPR|NF  0.096    .
+515           1335    PRNFELR|TL  0.091    .
+515           1342    TLVYLAR|LR  0.073    .
+515           1344    VYLARLR|LT  0.066    .
+515           1359    THMCGDR|TR  0.077    .
+515           1361    MCGDRTR|WL  0.118    .
+515           1365    RTRWLCR|QG  0.092    .
+515           1368    WLCRQGK|LL  0.158    .
+515           1377    IDGVDER|LL  0.071    .
+515           1400    QNSLVER|GL  0.143    .
+515           1419    LPHLILK|VC  0.065    .
+515           1424    LKVCSDR|VG  0.096    .
+515           1429    DRVGGAR|QP  0.097    .
+515           1434    ARQPCVK|FY  0.097    .
+515           1440    KFYSQVR|FF  0.115    .
+515           1444    QVRFFSR|VL  0.101    .
+515           1448    FSRVLFK|YT  0.083    .
+515           1460    PHMCGVR|TR  0.067    .
+515           1462    MCGVRTR|WL  0.142    .
+515           1466    RTRWLCR|QV  0.117    .
+515           1471    CRQVVMR|LL  0.131    .
+515           1506    VFCVISK|HI  0.064    .
+515           1522    DQCYVCR|AC  0.089    .
+515           1533    VFSCVCR|CL  0.175    .
+515           1543    TSQQLYR|KN  0.095    .
+515           1544    SQQLYRK|NI  0.074    .
+515           1553    VLLLYSR|TP  0.065    .
+515           1561    PDLPEPR|FT  0.110    .
+515           1565    EPRFTGR|IN  0.108    .
+515           1570    GRINFPR|YG  0.134    .
+515           1577    YGTTEPR|FT  0.110    .
+515           1581    EPRFTGR|IN  0.102    .
+515           1586    GRINFPR|YR  0.130    .
+515           1588    INFPRYR|KI  0.102    .
+515           1589    NFPRYRK|IS  0.124    .
+515           1604    PGTPIYR|AK  0.065    .
+515           1606    TPIYRAK|PL  0.090    .
+515           1616    PSIPVNR|GP  0.093    .
+____________________________^_________________
+
+
+
+

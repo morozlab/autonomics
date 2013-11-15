@@ -1,0 +1,278 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1557 558         
+MRYNPLVCDAAPHRNDNKRACSICQRGVMLLSKPRRTREHNGPTPHSVAIIAKPPLKKPPDSLILERRKKDEQRLKVQEE      80
+VLQQKHHDLKTQWEKETDIRIQKNTVKRRVDSMLKAEGFELEKRREKLRALLDAEEQQYVIEIDAQQETVLERQAKMRAR     160
+AKALREKREQERLAYVEEKLDIRWREECDELRPILARKHQNEVFEERAKQIEISNMIKSREKEEEGMYAALWESDRIMKS     240
+EREERECAAAIQRNKDCLEVLEKQLAAIRLQNESAKKLKEEEARLMEEEKLQREAEERHLLQLDEVDQLESPATPQGRIP     320
+LSRSRILSLVEHALTQPTDRLTRRISVSQLLKEGMYAALWESDRIMKSEREERECAAAIQRNKDCLEVLEKQLAAIRLQN     400
+ESAKKLKEEEARLMEEEKLQREAEERHLLQLDEVDQLESPATPQGRIPLSRSRILSLVEHALTQPTDRLTRRISVSQLLS     480
+EMVKITPKFLVKLTLGCSFLLALPLIFDITIFGQHVDYTQWRCYSTAAGVCANITNGGSMYTQAILCNQNPVTEIPSSVM     560
+FRNGTVMTTSNVSMDDYFVLGHHFYWTEAAKNRYSVRWGLYCESETTELNELICYGFIVGALFSGLFIDRFGRRCLLLGT     640
+ALTGALVQLTLILNDSVGGFIMIQLVLGVIYGCYLVAGVVWCFENLPSQLRLAPAAVGVCLVTLGRVILLVIVVEIPDFQ     720
+EVLVCALFISWVTGTLAITLPESIPFSLSHRLIPQATRDLRKISARWKAYSRILKMSLLDSDVLSELSLFVMDRRYILRL     800
+TGTLLIWCFSLLPFTNRGADEASSLELWYAMRFAVCFAVLLMSIFLNMKIGTWYIIAILNLTNSLLSSSTIAFTGPVVFV     880
+IMQGITEGIYVNLLYITTTAVQGRRATILGFGHTILGFAYLLSSRFYTMGEGGESYKIAISGCSLVAFLISLVFGVVKVK     960
+LARDDDQQDTLVIREKDVMTETVGDKETTPSSPTVPSSSSPEDPPQPDQGRKKYLELGPGVDNVLLLDSKKRRVDVRVDQ    1040
+DNSLIYVNVYREESLEVSTTHHRNPSLVLSYNSENGSEIDDVIAMERREIERLFAEATPTHTPQSLETPLGLSGVTAFQE    1120
+EVIEFREEVRVQGTRPNSLSRFNRHMNTATAEVRAPDPAETPSDEKWRTRMAQLEREYDGEVSEYLEFFTPEPATPLPAN    1200
+VVTEMVTPGENDSGMMITLFPLSFTFRGHLQDEDEGRFDIDRLFGSVDSSEGHVEIDMENSVKRSQQAEAMSHHMNQIKL    1280
+KARRQAKELQAELAIDMRILEALLAETENEKEEAVKRKGELHHEAHAYMQYLDEQVQKEKEAERELEALINEEVEKQWQK    1360
+RVNQWQMEREARRRMTEEMVEIRRKQIAEKLEIQKQEQDGLLRERDELKAAYAEHERLEAGKVKRTKERNLGYQDDLRSQ    1440
+MAYGEAIKGREVEEKTRELQMQNFAEDAYQTKLATALQRPVVDRAHPLRKYQNTQNRLFVLTYSLSVSSHTGPKARCELT    1520
+RARRAEQTDSVAWQVKSRGKIGTIATSLLNLPRSRSR                                               1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+.......................P........................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.....................................                                               1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+558              2    -----MR|YN  0.088    .
+558             14    CDAAPHR|ND  0.078    .
+558             18    PHRNDNK|RA  0.065    .
+558             19    HRNDNKR|AC  0.402    .
+558             26    ACSICQR|GV  0.102    .
+558             33    GVMLLSK|PR  0.064    .
+558             35    MLLSKPR|RT  0.081    .
+558             36    LLSKPRR|TR  0.249    .
+558             38    SKPRRTR|EH  0.226    .
+558             53    SVAIIAK|PP  0.070    .
+558             57    IAKPPLK|KP  0.061    .
+558             58    AKPPLKK|PP  0.082    .
+558             67    DSLILER|RK  0.080    .
+558             68    SLILERR|KK  0.173    .
+558             69    LILERRK|KD  0.077    .
+558             70    ILERRKK|DE  0.271    .
+558             74    RKKDEQR|LK  0.102    .
+558             76    KDEQRLK|VQ  0.071    .
+558             85    EEVLQQK|HH  0.062    .
+558             90    QKHHDLK|TQ  0.074    .
+558             95    LKTQWEK|ET  0.063    .
+558            100    EKETDIR|IQ  0.070    .
+558            103    TDIRIQK|NT  0.117    .
+558            107    IQKNTVK|RR  0.058    .
+558            108    QKNTVKR|RV  0.425    .
+558            109    KNTVKRR|VD  0.147    .
+558            115    RVDSMLK|AE  0.057    .
+558            123    EGFELEK|RR  0.053    .
+558            124    GFELEKR|RE  0.077    .
+558            125    FELEKRR|EK  0.120    .
+558            127    LEKRREK|LR  0.077    .
+558            129    KRREKLR|AL  0.168    .
+558            153    QETVLER|QA  0.083    .
+558            156    VLERQAK|MR  0.123    .
+558            158    ERQAKMR|AR  0.147    .
+558            160    QAKMRAR|AK  0.099    .
+558            162    KMRARAK|AL  0.086    .
+558            165    ARAKALR|EK  0.133    .
+558            167    AKALREK|RE  0.060    .
+558            168    KALREKR|EQ  0.401    .
+558            172    EKREQER|LA  0.106    .
+558            179    LAYVEEK|LD  0.063    .
+558            183    EEKLDIR|WR  0.071    .
+558            185    KLDIRWR|EE  0.095    .
+558            192    EECDELR|PI  0.084    .
+558            197    LRPILAR|KH  0.091    .
+558            198    RPILARK|HQ  0.092    .
+558            207    NEVFEER|AK  0.094    .
+558            209    VFEERAK|QI  0.070    .
+558            218    EISNMIK|SR  0.111    .
+558            220    SNMIKSR|EK  0.144    .
+558            222    MIKSREK|EE  0.061    .
+558            236    ALWESDR|IM  0.077    .
+558            239    ESDRIMK|SE  0.163    .
+558            242    RIMKSER|EE  0.087    .
+558            245    KSEREER|EC  0.230    .
+558            253    CAAAIQR|NK  0.087    .
+558            255    AAIQRNK|DC  0.069    .
+558            263    CLEVLEK|QL  0.065    .
+558            269    KQLAAIR|LQ  0.065    .
+558            276    LQNESAK|KL  0.081    .
+558            277    QNESAKK|LK  0.091    .
+558            279    ESAKKLK|EE  0.077    .
+558            284    LKEEEAR|LM  0.097    .
+558            290    RLMEEEK|LQ  0.068    .
+558            293    EEEKLQR|EA  0.081    .
+558            298    QREAEER|HL  0.091    .
+558            318    PATPQGR|IP  0.068    .
+558            323    GRIPLSR|SR  0.149    .
+558            325    IPLSRSR|IL  0.110    .
+558            340    LTQPTDR|LT  0.086    .
+558            343    PTDRLTR|RI  0.208    .
+558            344    TDRLTRR|IS  0.153    .
+558            352    SVSQLLK|EG  0.061    .
+558            364    ALWESDR|IM  0.077    .
+558            367    ESDRIMK|SE  0.163    .
+558            370    RIMKSER|EE  0.087    .
+558            373    KSEREER|EC  0.230    .
+558            381    CAAAIQR|NK  0.087    .
+558            383    AAIQRNK|DC  0.069    .
+558            391    CLEVLEK|QL  0.065    .
+558            397    KQLAAIR|LQ  0.065    .
+558            404    LQNESAK|KL  0.081    .
+558            405    QNESAKK|LK  0.091    .
+558            407    ESAKKLK|EE  0.077    .
+558            412    LKEEEAR|LM  0.097    .
+558            418    RLMEEEK|LQ  0.068    .
+558            421    EEEKLQR|EA  0.081    .
+558            426    QREAEER|HL  0.091    .
+558            446    PATPQGR|IP  0.068    .
+558            451    GRIPLSR|SR  0.149    .
+558            453    IPLSRSR|IL  0.110    .
+558            468    LTQPTDR|LT  0.086    .
+558            471    PTDRLTR|RI  0.211    .
+558            472    TDRLTRR|IS  0.166    .
+558            484    LLSEMVK|IT  0.068    .
+558            488    MVKITPK|FL  0.065    .
+558            492    TPKFLVK|LT  0.060    .
+558            522    VDYTQWR|CY  0.119    .
+558            562    PSSVMFR|NG  0.108    .
+558            591    YWTEAAK|NR  0.061    .
+558            593    TEAAKNR|YS  0.110    .
+558            597    KNRYSVR|WG  0.099    .
+558            630    SGLFIDR|FG  0.080    .
+558            633    FIDRFGR|RC  0.128    .
+558            634    IDRFGRR|CL  0.119    .
+558            691    NLPSQLR|LA  0.082    .
+558            706    CLVTLGR|VI  0.071    .
+558            751    PFSLSHR|LI  0.112    .
+558            758    LIPQATR|DL  0.093    .
+558            761    QATRDLR|KI  0.207    .
+558            762    ATRDLRK|IS  0.074    .
+558            766    LRKISAR|WK  0.128    .
+558            768    KISARWK|AY  0.100    .
+558            772    RWKAYSR|IL  0.086    .
+558            775    AYSRILK|MS  0.096    .
+558            794    SLFVMDR|RY  0.085    .
+558            795    LFVMDRR|YI  0.123    .
+558            799    DRRYILR|LT  0.120    .
+558            817    LLPFTNR|GA  0.111    .
+558            832    ELWYAMR|FA  0.084    .
+558            849    SIFLNMK|IG  0.058    .
+558            904    TTAVQGR|RA  0.143    .
+558            905    TAVQGRR|AT  0.153    .
+558            925    AYLLSSR|FY  0.095    .
+558            937    EGGESYK|IA  0.070    .
+558            958    LVFGVVK|VK  0.056    .
+558            960    FGVVKVK|LA  0.067    .
+558            963    VKVKLAR|DD  0.161    .
+558            974    QDTLVIR|EK  0.085    .
+558            976    TLVIREK|DV  0.107    .
+558            986    TETVGDK|ET  0.065    .
+558           1011    PQPDQGR|KK  0.079    .
+558           1012    QPDQGRK|KY  0.081    .
+558           1013    PDQGRKK|YL  0.149    .
+558           1030    VLLLDSK|KR  0.053    .
+558           1031    LLLDSKK|RR  0.079    .
+558           1032    LLDSKKR|RV  0.248    .
+558           1033    LDSKKRR|VD  0.171    .
+558           1037    KRRVDVR|VD  0.095    .
+558           1051    IYVNVYR|EE  0.088    .
+558           1063    VSTTHHR|NP  0.079    .
+558           1087    DVIAMER|RE  0.071    .
+558           1088    VIAMERR|EI  0.179    .
+558           1092    ERREIER|LF  0.103    .
+558           1126    EEVIEFR|EE  0.081    .
+558           1130    EFREEVR|VQ  0.086    .
+558           1135    VRVQGTR|PN  0.091    .
+558           1141    RPNSLSR|FN  0.115    .
+558           1144    SLSRFNR|HM  0.508 *ProP*
+558           1154    TATAEVR|AP  0.104    .
+558           1166    ETPSDEK|WR  0.052    .
+558           1168    PSDEKWR|TR  0.112    .
+558           1170    DEKWRTR|MA  0.103    .
+558           1176    RMAQLER|EY  0.095    .
+558           1227    PLSFTFR|GH  0.114    .
+558           1237    QDEDEGR|FD  0.120    .
+558           1242    GRFDIDR|LF  0.104    .
+558           1263    DMENSVK|RS  0.072    .
+558           1264    MENSVKR|SQ  0.407    .
+558           1279    HHMNQIK|LK  0.062    .
+558           1281    MNQIKLK|AR  0.078    .
+558           1283    QIKLKAR|RQ  0.103    .
+558           1284    IKLKARR|QA  0.177    .
+558           1287    KARRQAK|EL  0.232    .
+558           1298    ELAIDMR|IL  0.101    .
+558           1311    AETENEK|EE  0.055    .
+558           1316    EKEEAVK|RK  0.065    .
+558           1317    KEEAVKR|KG  0.140    .
+558           1318    EEAVKRK|GE  0.125    .
+558           1338    LDEQVQK|EK  0.074    .
+558           1340    EQVQKEK|EA  0.079    .
+558           1344    KEKEAER|EL  0.100    .
+558           1356    INEEVEK|QW  0.073    .
+558           1360    VEKQWQK|RV  0.074    .
+558           1361    EKQWQKR|VN  0.235    .
+558           1369    NQWQMER|EA  0.082    .
+558           1372    QMEREAR|RR  0.302    .
+558           1373    MEREARR|RM  0.130    .
+558           1374    EREARRR|MT  0.193    .
+558           1383    EEMVEIR|RK  0.085    .
+558           1384    EMVEIRR|KQ  0.099    .
+558           1385    MVEIRRK|QI  0.101    .
+558           1390    RKQIAEK|LE  0.069    .
+558           1395    EKLEIQK|QE  0.062    .
+558           1403    EQDGLLR|ER  0.066    .
+558           1405    DGLLRER|DE  0.078    .
+558           1409    RERDELK|AA  0.074    .
+558           1417    AYAEHER|LE  0.071    .
+558           1422    ERLEAGK|VK  0.072    .
+558           1424    LEAGKVK|RT  0.065    .
+558           1425    EAGKVKR|TK  0.242    .
+558           1427    GKVKRTK|ER  0.064    .
+558           1429    VKRTKER|NL  0.141    .
+558           1438    GYQDDLR|SQ  0.121    .
+558           1448    AYGEAIK|GR  0.066    .
+558           1450    GEAIKGR|EV  0.253    .
+558           1455    GREVEEK|TR  0.075    .
+558           1457    EVEEKTR|EL  0.084    .
+558           1472    EDAYQTK|LA  0.075    .
+558           1479    LATALQR|PV  0.104    .
+558           1484    QRPVVDR|AH  0.086    .
+558           1489    DRAHPLR|KY  0.099    .
+558           1490    RAHPLRK|YQ  0.113    .
+558           1497    YQNTQNR|LF  0.073    .
+558           1514    SSHTGPK|AR  0.064    .
+558           1516    HTGPKAR|CE  0.087    .
+558           1521    ARCELTR|AR  0.128    .
+558           1523    CELTRAR|RA  0.098    .
+558           1524    ELTRARR|AE  0.215    .
+558           1536    SVAWQVK|SR  0.123    .
+558           1538    AWQVKSR|GK  0.130    .
+558           1540    QVKSRGK|IG  0.060    .
+558           1553    SLLNLPR|SR  0.131    .
+558           1555    LNLPRSR|SR  0.104    .
+558           1557    LPRSRSR|--  0.103    .
+____________________________^_________________
+
+
+
+

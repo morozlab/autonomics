@@ -1,0 +1,409 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2492 204         
+MADILRITTAAVDSLLSSSSCSSVRIKARKVRELSTEDVMRRSGCSERSTLREGERSTLREGERSHFMEEQRSLVEEGEQ      80
+VTTEHRTPARISGVMVDDSVHLVAPSITSSSVSIVTVGEVDLIPTRDGEESSLCVVERVESGYSNTSRDTSRDRSRDHIE     160
+SSYTRTNTSTTTSNLSSNLSSLKSEKVVGSSTPTARTVLSTSQTSQPRTVLSTSQTTQPPAALPSISTTSGLPQGILRPT     240
+SSVPPPPTERVTVERHPSAALSARQALQKGSTAIEKGPVLVRRATTEQQVIPDQSSQIAAAVAAAERRCRGMVVEQRDVQ     320
+LQLERLAAQLEERKYEKQQEKQQQHVDIRCDVSKDMGNSGFPQAHMTDPTLDLTLLPEVATPLNPRSVPVPRTAPRPSAV     400
+EIRQRFIDQAVERDREDERERAGEKQMDIMREGQRRLEEMDLKMRDALAEVKRTRNEVEELRRSEKSRPLADKYLAEIQS     480
+RDIPRRDASHYTTPAYILEARQLLREAEERKREVDEGRFALDATFNCERTGEAEAEIERKVAEAMDKVNQELREERMKGK     560
+KKKPIKKENIPEKKKTIAKMRKDKLSLADKKLLYEKVRKENEHQRIKANLGYLRKQEDQILPVIQDSRSTRRVDHDLPRS     640
+ISLGCRMVPETSSTPLCPRSVSRYRDVSAGISRLEEDRKTDVGVGRTPLTERTVGVGVTHLEEREDIGVGVSRVDQVDVS     720
+CGVSPLHQLINKHLPDETNTSDLLTSSSEDSFVHFVRGGRERRKVTPPPTKRVEWKPQQQLISRYPEPQQPPTSTREQCL     800
+GEIEDAILERLLQEDQDPGVDGELRALLGEEVYRGAKAAGLTPHQIHALVAEVIAEETEGRISQRIEAGGQVAEGKIGKE     880
+AQKEAYSESVKEASYSGNTFEEITDSSRTTSAPTSSVPPPPTERVTVERHPSAALSARQALQKGSTAIEKGPVLVRRATT     960
+EQQVIPDQSSQIAAAVAAAVAATAPYQQLQRDVQLQLERLAAQLEERKYEKQQEKQQQHVDIRCDVSKDMGGNSGFPQAH    1040
+MTDPTLDLTLLPEVATPLNPRSVPVPRTAPRPSAVEIRQRFIDQAVERDREDERETAGEKQLDIMREGQRRLEEMDLKMR    1120
+DALAEARQLLREAEERKREVDEGRFALDATFNCERTGEAEAEIERKVAEAMDKVNQELREERLKGKKKKPAQKENIPEKK    1200
+KTTAKMRKDKLSLADKKLLYEKVRKENEHQRIKANLGYLRKQEDQILPVIQDSRSTRRVDHDLPRSISLGCRMVPETSST    1280
+PLCPRSVSRYRDVSAGISRLEDRKTDVGVGRTPLTERTVGVGVTHLEEREDIGVGVSRVDQVDVSCGVSPLHQLINKHLL    1360
+DETNTSDLLTSSSEESFVHFVRGGRERRKVTAPPTKRVEWKPQQQHISRYSELQQPPTSTREQCLGEIEDAILQRLLQED    1440
+EDPGVDEELRALLGEEVYRGAKAAGLTPHQIHALVAEVIAEETEGRIAQRIEAGGTEGKKEVQSESVKEASYSGNTFEEI    1520
+TDSSRTTSSLSIVVTPSFTHSSRSSSGNKSPPFSPNTPSMSPEPFLSPRDINDMSDEMSINELPTRQPPVEPKQRAPILN    1600
+NTLEDTLEQVPLDLTDQEISYRQVYTPGLTVATSPTTQHHDPTIGQHSIGVETPRETDHSLISQHPLDHTEEDGEEEVMV    1680
+GDPRSSSTMHSSVMTVSYSVTDNPISAGEILPGGVPSELSLLGGPLKDQDPGVDGELRALLGEEVYRGAKAAGLTPHQIH    1760
+ALVAEVIAEETEGRIAQRIEAGGTEGKKEVQSESVKEASYSGNTFEEITDSSRTTSSLSIVVTPSFTHSSRSSSGNKSPP    1840
+FSPNTPSMSPEPFLSPRDINDMSDEMSINELPTRQPPVEPKQRAPILNNTLEDTLEQVPLDLTDQEISYRQVYTPGLTVA    1920
+TSPTTQHHDPTIGQHSIGVETPRETDHSLISQHPLDHTEEDGEEEVMVGDPRSSSTMHSSVMTVSYSVTDNPISAGEILP    2000
+GGVPSELSLLGGPLSEGEWPLSPGNIAALQAIRDPQIRHVYEMRTNATPSQQHQSPHYSPPAPAPPEDRKPPTPARRPSL    2080
+TTPSPLPKTQSAENFETLELVTPLPDASPSPPPFLGLNLEDYSYSEGGRSLMSNDVDITKTRWGDETFLARYRHFFALTD    2160
+PTNCLKTNHELDVAKAVVSKYKEDGVLPSSGEEGLWNAKYIHDSAFHPETGDKQNILGRMSFQVPGGMLITGILMAFYKS    2240
+PLEIFLGQWLNQSFNALVNFTNRSGDKPLPNSVILTAYITATSFATATSIGMNKVLGSRAPPLVGRKQGKYRHRHRLYQL    2320
+YGTMRQQELKEGVVVYDENGNKLGNSPVAARNAITKVTISRICIAAPGMLLTPILMERLEKLPRFRSIGKWQSCAIQTVC    2400
+IGCFLHRRHGKPTREMGVFVHELSLTLSLSLSLSLSLSLSSLPPSYQHLYDDFLTALPPIQSISVDKLETELQESIRAKH    2480
+PERRLVYYNKGL                                                                        2560
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+......................................................................P.........     640
+................................................................................     720
+..........................................P.....................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+........................................................P.......................    1280
+................................................................................    1360
+...........................P....................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+............                                                                        2560
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 4
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+204              6    -MADILR|IT  0.096    .
+204             25    SSCSSVR|IK  0.091    .
+204             27    CSSVRIK|AR  0.071    .
+204             29    SVRIKAR|KV  0.162    .
+204             30    VRIKARK|VR  0.085    .
+204             32    IKARKVR|EL  0.494    .
+204             41    STEDVMR|RS  0.132    .
+204             42    TEDVMRR|SG  0.229    .
+204             48    RSGCSER|ST  0.155    .
+204             52    SERSTLR|EG  0.080    .
+204             56    TLREGER|ST  0.127    .
+204             60    GERSTLR|EG  0.089    .
+204             64    TLREGER|SH  0.135    .
+204             72    HFMEEQR|SL  0.147    .
+204             86    QVTTEHR|TP  0.066    .
+204             90    EHRTPAR|IS  0.132    .
+204            126    VDLIPTR|DG  0.080    .
+204            138    SLCVVER|VE  0.110    .
+204            148    GYSNTSR|DT  0.156    .
+204            152    TSRDTSR|DR  0.116    .
+204            154    RDTSRDR|SR  0.151    .
+204            156    TSRDRSR|DH  0.124    .
+204            165    IESSYTR|TN  0.084    .
+204            183    SNLSSLK|SE  0.076    .
+204            186    SSLKSEK|VV  0.104    .
+204            196    SSTPTAR|TV  0.109    .
+204            208    SQTSQPR|TV  0.093    .
+204            238    LPQGILR|PT  0.106    .
+204            250    PPPPTER|VT  0.072    .
+204            255    ERVTVER|HP  0.137    .
+204            264    SAALSAR|QA  0.196    .
+204            269    ARQALQK|GS  0.095    .
+204            276    GSTAIEK|GP  0.061    .
+204            282    KGPVLVR|RA  0.091    .
+204            283    GPVLVRR|AT  0.272    .
+204            307    AVAAAER|RC  0.074    .
+204            308    VAAAERR|CR  0.179    .
+204            310    AAERRCR|GM  0.266    .
+204            317    GMVVEQR|DV  0.159    .
+204            325    VQLQLER|LA  0.080    .
+204            333    AAQLEER|KY  0.106    .
+204            334    AQLEERK|YE  0.084    .
+204            337    EERKYEK|QQ  0.078    .
+204            341    YEKQQEK|QQ  0.062    .
+204            349    QQHVDIR|CD  0.084    .
+204            354    IRCDVSK|DM  0.106    .
+204            386    ATPLNPR|SV  0.132    .
+204            392    RSVPVPR|TA  0.091    .
+204            396    VPRTAPR|PS  0.107    .
+204            403    PSAVEIR|QR  0.104    .
+204            405    AVEIRQR|FI  0.127    .
+204            413    IDQAVER|DR  0.139    .
+204            415    QAVERDR|ED  0.093    .
+204            419    RDREDER|ER  0.078    .
+204            421    REDERER|AG  0.103    .
+204            425    RERAGEK|QM  0.068    .
+204            431    KQMDIMR|EG  0.079    .
+204            435    IMREGQR|RL  0.082    .
+204            436    MREGQRR|LE  0.160    .
+204            443    LEEMDLK|MR  0.059    .
+204            445    EMDLKMR|DA  0.105    .
+204            452    DALAEVK|RT  0.058    .
+204            453    ALAEVKR|TR  0.189    .
+204            455    AEVKRTR|NE  0.084    .
+204            462    NEVEELR|RS  0.081    .
+204            463    EVEELRR|SE  0.100    .
+204            466    ELRRSEK|SR  0.153    .
+204            468    RRSEKSR|PL  0.196    .
+204            473    SRPLADK|YL  0.078    .
+204            481    LAEIQSR|DI  0.100    .
+204            485    QSRDIPR|RD  0.092    .
+204            486    SRDIPRR|DA  0.389    .
+204            501    AYILEAR|QL  0.077    .
+204            505    EARQLLR|EA  0.097    .
+204            510    LREAEER|KR  0.098    .
+204            511    REAEERK|RE  0.075    .
+204            512    EAEERKR|EV  0.326    .
+204            518    REVDEGR|FA  0.139    .
+204            529    ATFNCER|TG  0.077    .
+204            539    AEAEIER|KV  0.095    .
+204            540    EAEIERK|VA  0.095    .
+204            547    VAEAMDK|VN  0.057    .
+204            553    KVNQELR|EE  0.082    .
+204            556    QELREER|MK  0.271    .
+204            558    LREERMK|GK  0.070    .
+204            560    EERMKGK|KK  0.070    .
+204            561    ERMKGKK|KK  0.093    .
+204            562    RMKGKKK|KP  0.129    .
+204            563    MKGKKKK|PI  0.196    .
+204            566    KKKKPIK|KE  0.065    .
+204            567    KKKPIKK|EN  0.107    .
+204            573    KENIPEK|KK  0.071    .
+204            574    ENIPEKK|KT  0.105    .
+204            575    NIPEKKK|TI  0.103    .
+204            579    KKKTIAK|MR  0.071    .
+204            581    KTIAKMR|KD  0.097    .
+204            582    TIAKMRK|DK  0.095    .
+204            584    AKMRKDK|LS  0.122    .
+204            590    KLSLADK|KL  0.059    .
+204            591    LSLADKK|LL  0.096    .
+204            596    KKLLYEK|VR  0.057    .
+204            598    LLYEKVR|KE  0.091    .
+204            599    LYEKVRK|EN  0.095    .
+204            605    KENEHQR|IK  0.089    .
+204            607    NEHQRIK|AN  0.062    .
+204            614    ANLGYLR|KQ  0.083    .
+204            615    NLGYLRK|QE  0.102    .
+204            628    PVIQDSR|ST  0.123    .
+204            631    QDSRSTR|RV  0.604 *ProP*
+204            632    DSRSTRR|VD  0.151    .
+204            639    VDHDLPR|SI  0.187    .
+204            646    SISLGCR|MV  0.121    .
+204            659    STPLCPR|SV  0.235    .
+204            663    CPRSVSR|YR  0.116    .
+204            665    RSVSRYR|DV  0.291    .
+204            673    VSAGISR|LE  0.084    .
+204            678    SRLEEDR|KT  0.103    .
+204            679    RLEEDRK|TD  0.083    .
+204            686    TDVGVGR|TP  0.092    .
+204            692    RTPLTER|TV  0.146    .
+204            704    VTHLEER|ED  0.094    .
+204            713    IGVGVSR|VD  0.079    .
+204            732    LHQLINK|HL  0.070    .
+204            757    SFVHFVR|GG  0.098    .
+204            760    HFVRGGR|ER  0.164    .
+204            762    VRGGRER|RK  0.091    .
+204            763    RGGRERR|KV  0.562 *ProP*
+204            764    GGRERRK|VT  0.079    .
+204            771    VTPPPTK|RV  0.079    .
+204            772    TPPPTKR|VE  0.173    .
+204            776    TKRVEWK|PQ  0.085    .
+204            784    QQQLISR|YP  0.107    .
+204            796    QPPTSTR|EQ  0.100    .
+204            810    EDAILER|LL  0.082    .
+204            825    GVDGELR|AL  0.083    .
+204            834    LGEEVYR|GA  0.133    .
+204            837    EVYRGAK|AA  0.155    .
+204            861    AEETEGR|IS  0.097    .
+204            865    EGRISQR|IE  0.110    .
+204            876    GQVAEGK|IG  0.069    .
+204            879    AEGKIGK|EA  0.073    .
+204            883    IGKEAQK|EA  0.063    .
+204            891    AYSESVK|EA  0.089    .
+204            908    EITDSSR|TT  0.081    .
+204            924    PPPPTER|VT  0.072    .
+204            929    ERVTVER|HP  0.137    .
+204            938    SAALSAR|QA  0.196    .
+204            943    ARQALQK|GS  0.095    .
+204            950    GSTAIEK|GP  0.061    .
+204            956    KGPVLVR|RA  0.091    .
+204            957    GPVLVRR|AT  0.272    .
+204            991    PYQQLQR|DV  0.127    .
+204            999    VQLQLER|LA  0.080    .
+204           1007    AAQLEER|KY  0.106    .
+204           1008    AQLEERK|YE  0.084    .
+204           1011    EERKYEK|QQ  0.078    .
+204           1015    YEKQQEK|QQ  0.062    .
+204           1023    QQHVDIR|CD  0.086    .
+204           1028    IRCDVSK|DM  0.096    .
+204           1061    ATPLNPR|SV  0.132    .
+204           1067    RSVPVPR|TA  0.091    .
+204           1071    VPRTAPR|PS  0.107    .
+204           1078    PSAVEIR|QR  0.104    .
+204           1080    AVEIRQR|FI  0.127    .
+204           1088    IDQAVER|DR  0.163    .
+204           1090    QAVERDR|ED  0.090    .
+204           1094    RDREDER|ET  0.082    .
+204           1100    RETAGEK|QL  0.063    .
+204           1106    KQLDIMR|EG  0.071    .
+204           1110    IMREGQR|RL  0.080    .
+204           1111    MREGQRR|LE  0.151    .
+204           1118    LEEMDLK|MR  0.059    .
+204           1120    EMDLKMR|DA  0.110    .
+204           1127    DALAEAR|QL  0.075    .
+204           1131    EARQLLR|EA  0.089    .
+204           1136    LREAEER|KR  0.098    .
+204           1137    REAEERK|RE  0.075    .
+204           1138    EAEERKR|EV  0.326    .
+204           1144    REVDEGR|FA  0.139    .
+204           1155    ATFNCER|TG  0.077    .
+204           1165    AEAEIER|KV  0.095    .
+204           1166    EAEIERK|VA  0.095    .
+204           1173    VAEAMDK|VN  0.057    .
+204           1179    KVNQELR|EE  0.076    .
+204           1182    QELREER|LK  0.207    .
+204           1184    LREERLK|GK  0.070    .
+204           1186    EERLKGK|KK  0.069    .
+204           1187    ERLKGKK|KK  0.089    .
+204           1188    RLKGKKK|KP  0.131    .
+204           1189    LKGKKKK|PA  0.198    .
+204           1193    KKKPAQK|EN  0.068    .
+204           1199    KENIPEK|KK  0.070    .
+204           1200    ENIPEKK|KT  0.115    .
+204           1201    NIPEKKK|TT  0.107    .
+204           1205    KKKTTAK|MR  0.073    .
+204           1207    KTTAKMR|KD  0.089    .
+204           1208    TTAKMRK|DK  0.094    .
+204           1210    AKMRKDK|LS  0.127    .
+204           1216    KLSLADK|KL  0.059    .
+204           1217    LSLADKK|LL  0.096    .
+204           1222    KKLLYEK|VR  0.057    .
+204           1224    LLYEKVR|KE  0.091    .
+204           1225    LYEKVRK|EN  0.095    .
+204           1231    KENEHQR|IK  0.089    .
+204           1233    NEHQRIK|AN  0.062    .
+204           1240    ANLGYLR|KQ  0.083    .
+204           1241    NLGYLRK|QE  0.102    .
+204           1254    PVIQDSR|ST  0.123    .
+204           1257    QDSRSTR|RV  0.604 *ProP*
+204           1258    DSRSTRR|VD  0.151    .
+204           1265    VDHDLPR|SI  0.187    .
+204           1272    SISLGCR|MV  0.121    .
+204           1285    STPLCPR|SV  0.235    .
+204           1289    CPRSVSR|YR  0.116    .
+204           1291    RSVSRYR|DV  0.291    .
+204           1299    VSAGISR|LE  0.082    .
+204           1303    ISRLEDR|KT  0.121    .
+204           1304    SRLEDRK|TD  0.082    .
+204           1311    TDVGVGR|TP  0.092    .
+204           1317    RTPLTER|TV  0.146    .
+204           1329    VTHLEER|ED  0.094    .
+204           1338    IGVGVSR|VD  0.079    .
+204           1357    LHQLINK|HL  0.068    .
+204           1382    SFVHFVR|GG  0.091    .
+204           1385    HFVRGGR|ER  0.157    .
+204           1387    VRGGRER|RK  0.103    .
+204           1388    RGGRERR|KV  0.563 *ProP*
+204           1389    GGRERRK|VT  0.081    .
+204           1396    VTAPPTK|RV  0.091    .
+204           1397    TAPPTKR|VE  0.150    .
+204           1401    TKRVEWK|PQ  0.089    .
+204           1409    QQQHISR|YS  0.114    .
+204           1421    QPPTSTR|EQ  0.090    .
+204           1435    EDAILQR|LL  0.089    .
+204           1450    GVDEELR|AL  0.080    .
+204           1459    LGEEVYR|GA  0.133    .
+204           1462    EVYRGAK|AA  0.155    .
+204           1486    AEETEGR|IA  0.111    .
+204           1490    EGRIAQR|IE  0.097    .
+204           1499    AGGTEGK|KE  0.060    .
+204           1500    GGTEGKK|EV  0.088    .
+204           1508    VQSESVK|EA  0.088    .
+204           1525    EITDSSR|TT  0.072    .
+204           1543    SFTHSSR|SS  0.138    .
+204           1549    RSSSGNK|SP  0.081    .
+204           1569    EPFLSPR|DI  0.145    .
+204           1586    INELPTR|QP  0.083    .
+204           1593    QPPVEPK|QR  0.075    .
+204           1595    PVEPKQR|AP  0.077    .
+204           1622    DQEISYR|QV  0.119    .
+204           1655    IGVETPR|ET  0.118    .
+204           1684    VMVGDPR|SS  0.136    .
+204           1727    LLGGPLK|DQ  0.088    .
+204           1738    GVDGELR|AL  0.083    .
+204           1747    LGEEVYR|GA  0.133    .
+204           1750    EVYRGAK|AA  0.155    .
+204           1774    AEETEGR|IA  0.111    .
+204           1778    EGRIAQR|IE  0.097    .
+204           1787    AGGTEGK|KE  0.060    .
+204           1788    GGTEGKK|EV  0.088    .
+204           1796    VQSESVK|EA  0.088    .
+204           1813    EITDSSR|TT  0.072    .
+204           1831    SFTHSSR|SS  0.138    .
+204           1837    RSSSGNK|SP  0.081    .
+204           1857    EPFLSPR|DI  0.145    .
+204           1874    INELPTR|QP  0.083    .
+204           1881    QPPVEPK|QR  0.075    .
+204           1883    PVEPKQR|AP  0.077    .
+204           1910    DQEISYR|QV  0.119    .
+204           1943    IGVETPR|ET  0.118    .
+204           1972    VMVGDPR|SS  0.136    .
+204           2033    AALQAIR|DP  0.073    .
+204           2038    IRDPQIR|HV  0.172    .
+204           2044    RHVYEMR|TN  0.083    .
+204           2069    PAPPEDR|KP  0.064    .
+204           2070    APPEDRK|PP  0.082    .
+204           2076    KPPTPAR|RP  0.086    .
+204           2077    PPTPARR|PS  0.104    .
+204           2088    TPSPLPK|TQ  0.087    .
+204           2129    SYSEGGR|SL  0.135    .
+204           2140    NDVDITK|TR  0.059    .
+204           2142    VDITKTR|WG  0.090    .
+204           2151    DETFLAR|YR  0.075    .
+204           2153    TFLARYR|HF  0.083    .
+204           2166    DPTNCLK|TN  0.059    .
+204           2175    HELDVAK|AV  0.075    .
+204           2180    AKAVVSK|YK  0.090    .
+204           2182    AVVSKYK|ED  0.073    .
+204           2199    EGLWNAK|YI  0.072    .
+204           2213    HPETGDK|QN  0.069    .
+204           2219    KQNILGR|MS  0.145    .
+204           2239    ILMAFYK|SP  0.082    .
+204           2263    LVNFTNR|SG  0.156    .
+204           2267    TNRSGDK|PL  0.064    .
+204           2294    TSIGMNK|VL  0.065    .
+204           2299    NKVLGSR|AP  0.067    .
+204           2306    APPLVGR|KQ  0.117    .
+204           2307    PPLVGRK|QG  0.063    .
+204           2310    VGRKQGK|YR  0.076    .
+204           2312    RKQGKYR|HR  0.108    .
+204           2314    QGKYRHR|HR  0.093    .
+204           2316    KYRHRHR|LY  0.098    .
+204           2325    QLYGTMR|QQ  0.101    .
+204           2330    MRQQELK|EG  0.064    .
+204           2342    YDENGNK|LG  0.052    .
+204           2351    NSPVAAR|NA  0.118    .
+204           2356    ARNAITK|VT  0.070    .
+204           2361    TKVTISR|IC  0.110    .
+204           2378    TPILMER|LE  0.069    .
+204           2381    LMERLEK|LP  0.075    .
+204           2384    RLEKLPR|FR  0.111    .
+204           2386    EKLPRFR|SI  0.211    .
+204           2390    RFRSIGK|WQ  0.077    .
+204           2407    IGCFLHR|RH  0.087    .
+204           2408    GCFLHRR|HG  0.128    .
+204           2411    LHRRHGK|PT  0.206    .
+204           2414    RHGKPTR|EM  0.116    .
+204           2467    QSISVDK|LE  0.063    .
+204           2477    ELQESIR|AK  0.112    .
+204           2479    QESIRAK|HP  0.086    .
+204           2483    RAKHPER|RL  0.086    .
+204           2484    AKHPERR|LV  0.215    .
+204           2490    RLVYYNK|GL  0.075    .
+____________________________^_________________
+
+
+
+

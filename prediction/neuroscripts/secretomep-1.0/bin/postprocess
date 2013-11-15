@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+
+use POSIX;
+
+# Postprocessing of the fun data.
+
+# Calling syntax:
+# postprocess <run file> <howlin file> <pcurve file>
+
+if ($#ARGV != 2) {
+   print "Syntax: postprocess <run file> <howlin file> <pcurve file>\n";
+   exit; }
+
+# Read the pcurve file into memory
+open(IN, $ARGV[2]) || die "Cannot access pcurve file: $ARGV[2]\n";
+while (<IN>) {
+   chomp;
+   $i = index($_, ' ');
+   push(@px, substr($_, 0, $i));
+   push(@py, sprintf("%8.6f", substr($_, ++$i))); }
+close IN;
+
+# Read the necessary howlin data into memory
+open(IN, $ARGV[1]) || die "Cannot access howlin file: $ARGV[1]\n";
+while (<IN>) {
+   push(@names, substr($_, rindex($_, ' ', length $_) + 1)); }
+close IN;
+chomp @names;
+
+# Read the necessary run data into memory
+open(IN, $ARGV[0]) || die "Cannot access run file: $ARGV[0]\n";
+while (<IN>) {
+   next unless /^\s#/;
+   /OUTPUT:\s+(\d\.\d+)\s+ERROR:/;
+   push(@predict, $1); }
+close IN;
+
+# Perform lookup
+$offset = floor($px[0] * 1000);
+while (@names) {
+   $name = shift(@names);
+   $pval = shift(@predict);
+   $i = floor($pval * 1000) - $offset;
+   if ($i < 0) {
+      #warn "Value, $pval, is significantly lower than lowest pcurve value\n";
+      $i = 0; }
+   elsif ($i > $#px) {
+      #warn "Value, $pval, is significantly higher than highest pcurve value\n";
+      $i = $#px; }
+   # Perhaps unnecessary check
+   elsif ($i < $#px) {
+      warn "Internal warning: Faulty lookup: $px[$i] > $pval > ", $px[$i+1], "\n"
+         if ($pval < $px[$i] || $pval >= $px[$i+1]);
+      }
+   print "$py[$i] $name\n"; }

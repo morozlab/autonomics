@@ -1,0 +1,233 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1576 543         
+MDIGWGWMATSPNRVSYSSHTDNKLPNLINLINLINKLHYIIVNGGLSGKWSSQRPSRTLNVSKVTAVLTSFGNVFHSRA      80
+ALTVKEWKYFVENDFCAPLCCTIIDFPHLYNRISLPPESIALTDNPKPNPAAAAAAARQNYELLAMKGTQILTATFERIE     160
+KFISDLYFTDVNIRGRIDSKILDCSLHRSTYSTSQITKFDEIKAAPFKEIRVGEKFFPLWSQHWVKVSVPKSIQSSYPNL     240
+YLSWDVDGAESLVCDANGSPIQGLSCKRREMKLPKNSGDLFIQVSCTGLFGAGNNGMINPPDEDKTYTLSKAHFFARDEL     320
+KHSVFMDLAVLFDICKSTEQETSLNYDALYTGNKIINTILTGEHSLQSYQRAKDIGCRFFSSPDGSGGIRDTIHVIGNCH     400
+IDSAWLWPWRETVRKVARSWSTTLRLFEDGNKFNFAGSQVVQFAWLKEHYPECFSKLKEAVKKGQFTPVGGTWVEMDTNI     480
+PNGESLIRQFLYGQRFYREEFGIHSNILWLPDTFGYSGQLPQVMRQCGVTRFLSQKLSWNLTNTFPHHSFIWQGIDRSSV     560
+IAHFPPGDTYESDVNVKDIMKTVSNNKDKGRTHQQMLLFGHGDGGGGPTPDMMERLDRLEKVPGLPKIHRSSPNEFFTSL     640
+EASKEDLCKWWGELYFELHRGTYTTHAKLKERNRKCEMDLMNLELIATTWDGSDKGKLEEMWKIVLFNQFHDIIPGSSIG     720
+QVFKDAMADYNRFDEMYVKEIERFRGSFRGECIVNPFQWTRTGVLEQDGIYKMCSATAMSIAQPGHCEKRAGSGVGVFET     800
+KGGYKLSNSEIKADFTHTGELVALYQNGESFNYISGCANRFLVFDDVPLFWDAWDVMEYHVETRQEFKPTSCKIVLDNEL     880
+RCSLQIEVPLGIHGHITCTISLDKDAKYLSFVSQVDWKAKHKFLKVEFPLSFSSDHAQYEIQSGLISRPTHSNTSWDSAK     960
+FEVSGHKWVYLGDGGHGMGLVNASKYGFSARHNTLTMSLLRSPTAPDGTADIGKHTIRYGLLPDRSGNLRESGVVKTAWC    1040
+FNNPLTVLNGTGTGALPEPLLNGLDSEGAVIQSIKPSEDGRGVIVRVYEPYGTKWEHIKLSFNHPICRVFETNAVESEAI    1120
+RKSLPITKEGNEIERTVGFGLNAFEIKTLYLEKEPVSGQTRRASSTVSNPSPKKKEFSRMADVEPVVNPSSIHMVIRLPG    1200
+GEICIGVCLFVCLFICLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLFVCLSLNRPRARMADRTVPALPA    1280
+DGPPCRPVGREGIVLDNELRCSLQIEVPLGIHGHITCTISLDKDAKYLSFVSQVDWKAKHKFLKVEFPLSFSSDHAQYEI    1360
+QSGLISRPTHSNTSWDSAKFEVSGHKWAYLGDGGHGMGLVNASKYGFSARHNTLTMSLLRSPTAPDGTADIGKHTIRYGL    1440
+LPDRSGNLRESGVVKTAWCFNNPMTVLNGTGTGALPEPILNGLDSEGAVIQSIKPSEDGRGVIVRVYEPHGTKWEHIKLS    1520
+FNHPICRVFETNAVESEAIRKSLPITKEGNERTVGFGLNAFEIKTLYLEKEPVSVL                            1600
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+........................................................                            1600
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+543             14    MATSPNR|VS  0.072    .
+543             24    SSHTDNK|LP  0.059    .
+543             37    LINLINK|LH  0.065    .
+543             50    NGGLSGK|WS  0.066    .
+543             55    GKWSSQR|PS  0.095    .
+543             58    SSQRPSR|TL  0.305    .
+543             64    RTLNVSK|VT  0.059    .
+543             79    GNVFHSR|AA  0.133    .
+543             85    RAALTVK|EW  0.062    .
+543             88    LTVKEWK|YF  0.064    .
+543            112    FPHLYNR|IS  0.086    .
+543            127    ALTDNPK|PN  0.061    .
+543            138    AAAAAAR|QN  0.119    .
+543            147    YELLAMK|GT  0.062    .
+543            158    LTATFER|IE  0.071    .
+543            161    TFERIEK|FI  0.183    .
+543            174    FTDVNIR|GR  0.075    .
+543            176    DVNIRGR|ID  0.121    .
+543            180    RGRIDSK|IL  0.073    .
+543            188    LDCSLHR|ST  0.091    .
+543            198    STSQITK|FD  0.077    .
+543            203    TKFDEIK|AA  0.072    .
+543            208    IKAAPFK|EI  0.086    .
+543            211    APFKEIR|VG  0.089    .
+543            215    EIRVGEK|FF  0.061    .
+543            226    WSQHWVK|VS  0.064    .
+543            231    VKVSVPK|SI  0.099    .
+543            267    IQGLSCK|RR  0.065    .
+543            268    QGLSCKR|RE  0.105    .
+543            269    GLSCKRR|EM  0.160    .
+543            272    CKRREMK|LP  0.136    .
+543            275    REMKLPK|NS  0.082    .
+543            305    NPPDEDK|TY  0.059    .
+543            311    KTYTLSK|AH  0.069    .
+543            317    KAHFFAR|DE  0.130    .
+543            321    FARDELK|HS  0.061    .
+543            336    VLFDICK|ST  0.083    .
+543            354    ALYTGNK|II  0.074    .
+543            371    SLQSYQR|AK  0.124    .
+543            373    QSYQRAK|DI  0.113    .
+543            378    AKDIGCR|FF  0.088    .
+543            390    DGSGGIR|DT  0.124    .
+543            410    AWLWPWR|ET  0.078    .
+543            414    PWRETVR|KV  0.111    .
+543            415    WRETVRK|VA  0.099    .
+543            418    TVRKVAR|SW  0.324    .
+543            425    SWSTTLR|LF  0.125    .
+543            432    LFEDGNK|FN  0.062    .
+543            447    VQFAWLK|EH  0.057    .
+543            456    YPECFSK|LK  0.078    .
+543            458    ECFSKLK|EA  0.065    .
+543            462    KLKEAVK|KG  0.057    .
+543            463    LKEAVKK|GQ  0.128    .
+543            488    NGESLIR|QF  0.082    .
+543            495    QFLYGQR|FY  0.083    .
+543            498    YGQRFYR|EE  0.253    .
+543            525    QLPQVMR|QC  0.107    .
+543            531    RQCGVTR|FL  0.167    .
+543            536    TRFLSQK|LS  0.071    .
+543            557    IWQGIDR|SS  0.111    .
+543            577    ESDVNVK|DI  0.073    .
+543            581    NVKDIMK|TV  0.067    .
+543            587    KTVSNNK|DK  0.072    .
+543            589    VSNNKDK|GR  0.086    .
+543            591    NNKDKGR|TH  0.106    .
+543            615    TPDMMER|LD  0.076    .
+543            618    MMERLDR|LE  0.143    .
+543            621    RLDRLEK|VP  0.081    .
+543            627    KVPGLPK|IH  0.055    .
+543            630    GLPKIHR|SS  0.141    .
+543            644    TSLEASK|ED  0.057    .
+543            649    SKEDLCK|WW  0.077    .
+543            660    LYFELHR|GT  0.074    .
+543            668    TYTTHAK|LK  0.070    .
+543            670    TTHAKLK|ER  0.070    .
+543            672    HAKLKER|NR  0.084    .
+543            674    KLKERNR|KC  0.093    .
+543            675    LKERNRK|CE  0.226    .
+543            695    TWDGSDK|GK  0.064    .
+543            697    DGSDKGK|LE  0.069    .
+543            703    KLEEMWK|IV  0.067    .
+543            724    SIGQVFK|DA  0.093    .
+543            732    AMADYNR|FD  0.098    .
+543            739    FDEMYVK|EI  0.067    .
+543            743    YVKEIER|FR  0.083    .
+543            745    KEIERFR|GS  0.120    .
+543            749    RFRGSFR|GE  0.109    .
+543            761    NPFQWTR|TG  0.081    .
+543            772    EQDGIYK|MC  0.065    .
+543            789    QPGHCEK|RA  0.088    .
+543            790    PGHCEKR|AG  0.252    .
+543            801    VGVFETK|GG  0.062    .
+543            805    ETKGGYK|LS  0.057    .
+543            812    LSNSEIK|AD  0.075    .
+543            840    ISGCANR|FL  0.082    .
+543            864    EYHVETR|QE  0.085    .
+543            868    ETRQEFK|PT  0.070    .
+543            873    FKPTSCK|IV  0.070    .
+543            881    VLDNELR|CS  0.079    .
+543            904    CTISLDK|DA  0.061    .
+543            907    SLDKDAK|YL  0.071    .
+543            918    VSQVDWK|AK  0.075    .
+543            920    QVDWKAK|HK  0.069    .
+543            922    DWKAKHK|FL  0.077    .
+543            925    AKHKFLK|VE  0.069    .
+543            948    QSGLISR|PT  0.095    .
+543            960    TSWDSAK|FE  0.081    .
+543            967    FEVSGHK|WV  0.073    .
+543            985    GLVNASK|YG  0.069    .
+543            991    KYGFSAR|HN  0.101    .
+543           1001    LTMSLLR|SP  0.098    .
+543           1014    GTADIGK|HT  0.072    .
+543           1018    IGKHTIR|YG  0.077    .
+543           1025    YGLLPDR|SG  0.089    .
+543           1030    DRSGNLR|ES  0.130    .
+543           1036    RESGVVK|TA  0.074    .
+543           1075    AVIQSIK|PS  0.080    .
+543           1081    KPSEDGR|GV  0.152    .
+543           1086    GRGVIVR|VY  0.141    .
+543           1094    YEPYGTK|WE  0.057    .
+543           1099    TKWEHIK|LS  0.067    .
+543           1108    FNHPICR|VF  0.098    .
+543           1121    VESEAIR|KS  0.087    .
+543           1122    ESEAIRK|SL  0.095    .
+543           1128    KSLPITK|EG  0.069    .
+543           1135    EGNEIER|TV  0.165    .
+543           1147    LNAFEIK|TL  0.064    .
+543           1153    KTLYLEK|EP  0.056    .
+543           1161    PVSGQTR|RA  0.102    .
+543           1162    VSGQTRR|AS  0.203    .
+543           1173    VSNPSPK|KK  0.077    .
+543           1174    SNPSPKK|KE  0.078    .
+543           1175    NPSPKKK|EF  0.213    .
+543           1179    KKKEFSR|MA  0.148    .
+543           1197    SIHMVIR|LP  0.132    .
+543           1265    VCLSLNR|PR  0.062    .
+543           1267    LSLNRPR|AR  0.087    .
+543           1269    LNRPRAR|MA  0.184    .
+543           1273    RARMADR|TV  0.123    .
+543           1286    ADGPPCR|PV  0.160    .
+543           1290    PCRPVGR|EG  0.084    .
+543           1300    VLDNELR|CS  0.076    .
+543           1323    CTISLDK|DA  0.061    .
+543           1326    SLDKDAK|YL  0.071    .
+543           1337    VSQVDWK|AK  0.075    .
+543           1339    QVDWKAK|HK  0.069    .
+543           1341    DWKAKHK|FL  0.077    .
+543           1344    AKHKFLK|VE  0.069    .
+543           1367    QSGLISR|PT  0.095    .
+543           1379    TSWDSAK|FE  0.079    .
+543           1386    FEVSGHK|WA  0.066    .
+543           1404    GLVNASK|YG  0.069    .
+543           1410    KYGFSAR|HN  0.101    .
+543           1420    LTMSLLR|SP  0.098    .
+543           1433    GTADIGK|HT  0.072    .
+543           1437    IGKHTIR|YG  0.077    .
+543           1444    YGLLPDR|SG  0.089    .
+543           1449    DRSGNLR|ES  0.130    .
+543           1455    RESGVVK|TA  0.075    .
+543           1494    AVIQSIK|PS  0.080    .
+543           1500    KPSEDGR|GV  0.152    .
+543           1505    GRGVIVR|VY  0.140    .
+543           1513    YEPHGTK|WE  0.058    .
+543           1518    TKWEHIK|LS  0.070    .
+543           1527    FNHPICR|VF  0.098    .
+543           1540    VESEAIR|KS  0.087    .
+543           1541    ESEAIRK|SL  0.095    .
+543           1547    KSLPITK|EG  0.059    .
+543           1552    TKEGNER|TV  0.184    .
+543           1564    LNAFEIK|TL  0.064    .
+543           1570    KTLYLEK|EP  0.057    .
+____________________________^_________________
+
+
+
+

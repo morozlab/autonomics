@@ -1,0 +1,274 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1610 527         
+MPPIRLPDVQLGWCTKCRNLERIVWGEIDREREREREREREKEREREREREGNRREWWEKKKREKEIERERERERESVCV      80
+REREREMLHERERERERERERERERDRERERDRERQRQRQRQREMRERNKREKKGQYATSPDCILPHILCNCITHILSSY     160
+QEPTEPSKQPIRTRYLGHRTGYQPIRDYFLGERPLHGATLLPQDNFLGLEVFQAPQLSSERDKSALFKDFCWRTLLAPPF     240
+CVTRTGIRLVYATRPSKVRFKRLDLRFLEIKGRSTTVTSHNFIRDPYIIVWSIMYVIFINKILRGFVYWSLQWMVGWFAP     320
+KRPIKSFPPIRSVFLKMPGIDLAKLIRKREVTSTELVELYIDRIVEVNPLVNAVVQTAFAKALDEANRIDELMRSDGFNS     400
+DPRYTVENMPYLGVPMTCKEIIFCKGLTATAGLKRRIGHVCKEDADVVKGMRSAGAIIIGLTNTSELAMWWESHNPVYGY     480
+TCNPYDLRCIVGGSSGGEAAAVSSAFSPMGIGSDIGGSIRMPAFFNGVFGHKPSPLLVSNKEKTEVLPRRKVNLPMSWFR     560
+QIIVWSIMYVIFINKILRGFVYWSLQWMVGWFAPKRPIKSFPPIRSVFLKMPGIDLAKLIRKREVTSTELVELYIDRIVE     640
+VNPLVNAVVQTAFAKALDEANRIDELMRSDGFNSDPRYTVENMPYLGVPMTCKEIIFCKGLTATAGLKRRIGHVCKEDAD     720
+VVKGMRSAGAIIIGLTNTSELAMWWESHNPVYGYTCNPYDLRCIVGGSSGGEAAAVSSAFSPMGIGSDIGGSIRMPAFFN     800
+GVFGHKPSPLLVSNKGQFPGDTGMEDMYLGLGPICRYAADLEPMLHAMAFKNGPVDFSTPFNVDGLTATAGLKRRIGHVC     880
+KEDADVVKGMRSAGAIIIGLTNTSELAMWWESHNPVYGFTCNPYDLRCIVGGSSGGEAAAVSSACSPMGIGSDIGGSIRM     960
+PAFFNGVFGHKPSPLLVSNKGMPKFNQWLSATKENADSSPYDLPCKNMYLEALKKLMGKSDHTAYVVITGLLEGIPMAKA    1040
+SLDQLLAMGKELREQIHELLDKNTVLIYPSHPMTAPKHHMPCFTGFNFAYTAIWNIIGVPVTQVPLGLDKNGLPLGVQII    1120
+GGVNQDRLTIAVARELEAAFGGWVDPEEKYKMYKYEPIRYLASPTLRNSGSQTSFPEFVAAENEAERHHMPCFTGFNFAY    1200
+TAIWNIIGVPVTQVPLGLDKNGLPLGVQIIGGVNQDRLTIAVARELEAAFGGWVDPEEKYKMYKYEPIRYLASPTLRNSG    1280
+SQTSFPEFVAAENEAESYCPWCLDSEDILNIRGVERLECGILSVTMPVVVCRSGTKQPIRTRYLGHVTGYQSIRDQYFLL    1360
+VPAFCLSHLHALHPDGTQDVQSVSDNCHPHQELELWYYPDHTHRSTLYCLERHCTGIGTLPGLEEIGMKIGARIKGEIVT    1440
+GGQGSQEMRAIIGLYGGAIPHLILKSERATVRSDRVGGARHDLSPSLSLSLSLSQLMSRLLPALASLSSIFLSSAFSKLV    1520
+SANMKKQILKSNDKACNTKYHHAKHFLSLSLPLSKRDINSTEPTADMHNRIYITHGVMHVYRNRPTSDTSKQPIRTRYLG    1600
+HVTVYRPIRD                                                                          1680
+................................................................................      80
+..................................................P.............................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+..........                                                                          1680
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+527              5    --MPPIR|LP  0.095    .
+527             16    QLGWCTK|CR  0.058    .
+527             18    GWCTKCR|NL  0.137    .
+527             22    KCRNLER|IV  0.146    .
+527             30    VWGEIDR|ER  0.077    .
+527             32    GEIDRER|ER  0.085    .
+527             34    IDRERER|ER  0.082    .
+527             36    RERERER|ER  0.089    .
+527             38    RERERER|ER  0.093    .
+527             40    RERERER|EK  0.099    .
+527             42    REREREK|ER  0.066    .
+527             44    REREKER|ER  0.105    .
+527             46    REKERER|ER  0.082    .
+527             48    KERERER|ER  0.090    .
+527             50    RERERER|EG  0.087    .
+527             54    REREGNR|RE  0.070    .
+527             55    EREGNRR|EW  0.154    .
+527             60    RREWWEK|KK  0.070    .
+527             61    REWWEKK|KR  0.112    .
+527             62    EWWEKKK|RE  0.097    .
+527             63    WWEKKKR|EK  0.240    .
+527             65    EKKKREK|EI  0.078    .
+527             69    REKEIER|ER  0.086    .
+527             71    KEIERER|ER  0.073    .
+527             73    IERERER|ER  0.077    .
+527             75    RERERER|ES  0.088    .
+527             81    RESVCVR|ER  0.107    .
+527             83    SVCVRER|ER  0.076    .
+527             85    CVRERER|EM  0.075    .
+527             91    REMLHER|ER  0.091    .
+527             93    MLHERER|ER  0.092    .
+527             95    HERERER|ER  0.088    .
+527             97    RERERER|ER  0.085    .
+527             99    RERERER|ER  0.094    .
+527            101    RERERER|ER  0.082    .
+527            103    RERERER|ER  0.084    .
+527            105    RERERER|DR  0.123    .
+527            107    RERERDR|ER  0.083    .
+527            109    RERDRER|ER  0.091    .
+527            111    RDRERER|DR  0.121    .
+527            113    RERERDR|ER  0.087    .
+527            115    RERDRER|QR  0.087    .
+527            117    RDRERQR|QR  0.099    .
+527            119    RERQRQR|QR  0.098    .
+527            121    RQRQRQR|QR  0.102    .
+527            123    RQRQRQR|EM  0.088    .
+527            126    QRQREMR|ER  0.302    .
+527            128    QREMRER|NK  0.108    .
+527            130    EMRERNK|RE  0.061    .
+527            131    MRERNKR|EK  0.717 *ProP*
+527            133    ERNKREK|KG  0.067    .
+527            134    RNKREKK|GQ  0.319    .
+527            168    EPTEPSK|QP  0.058    .
+527            172    PSKQPIR|TR  0.081    .
+527            174    KQPIRTR|YL  0.125    .
+527            179    TRYLGHR|TG  0.094    .
+527            186    TGYQPIR|DY  0.145    .
+527            193    DYFLGER|PL  0.072    .
+527            221    PQLSSER|DK  0.101    .
+527            223    LSSERDK|SA  0.113    .
+527            228    DKSALFK|DF  0.078    .
+527            233    FKDFCWR|TL  0.078    .
+527            244    PPFCVTR|TG  0.078    .
+527            248    VTRTGIR|LV  0.101    .
+527            254    RLVYATR|PS  0.077    .
+527            257    YATRPSK|VR  0.084    .
+527            259    TRPSKVR|FK  0.103    .
+527            261    PSKVRFK|RL  0.063    .
+527            262    SKVRFKR|LD  0.492    .
+527            266    FKRLDLR|FL  0.125    .
+527            271    LRFLEIK|GR  0.071    .
+527            273    FLEIKGR|ST  0.126    .
+527            284    TSHNFIR|DP  0.163    .
+527            301    YVIFINK|IL  0.058    .
+527            304    FINKILR|GF  0.077    .
+527            321    VGWFAPK|RP  0.060    .
+527            322    GWFAPKR|PI  0.156    .
+527            325    APKRPIK|SF  0.273    .
+527            331    KSFPPIR|SV  0.238    .
+527            336    IRSVFLK|MP  0.106    .
+527            344    PGIDLAK|LI  0.068    .
+527            347    DLAKLIR|KR  0.074    .
+527            348    LAKLIRK|RE  0.066    .
+527            349    AKLIRKR|EV  0.238    .
+527            363    VELYIDR|IV  0.097    .
+527            381    VQTAFAK|AL  0.073    .
+527            388    ALDEANR|ID  0.080    .
+527            394    RIDELMR|SD  0.107    .
+527            403    GFNSDPR|YT  0.102    .
+527            419    GVPMTCK|EI  0.060    .
+527            425    KEIIFCK|GL  0.071    .
+527            434    TATAGLK|RR  0.054    .
+527            435    ATAGLKR|RI  0.202    .
+527            436    TAGLKRR|IG  0.145    .
+527            442    RIGHVCK|ED  0.075    .
+527            449    EDADVVK|GM  0.076    .
+527            452    DVVKGMR|SA  0.188    .
+527            488    CNPYDLR|CI  0.080    .
+527            520    DIGGSIR|MP  0.072    .
+527            532    NGVFGHK|PS  0.055    .
+527            541    PLLVSNK|EK  0.068    .
+527            543    LVSNKEK|TE  0.060    .
+527            549    KTEVLPR|RK  0.070    .
+527            550    TEVLPRR|KV  0.186    .
+527            551    EVLPRRK|VN  0.059    .
+527            560    LPMSWFR|QI  0.102    .
+527            575    YVIFINK|IL  0.058    .
+527            578    FINKILR|GF  0.077    .
+527            595    VGWFAPK|RP  0.060    .
+527            596    GWFAPKR|PI  0.156    .
+527            599    APKRPIK|SF  0.273    .
+527            605    KSFPPIR|SV  0.238    .
+527            610    IRSVFLK|MP  0.106    .
+527            618    PGIDLAK|LI  0.068    .
+527            621    DLAKLIR|KR  0.074    .
+527            622    LAKLIRK|RE  0.066    .
+527            623    AKLIRKR|EV  0.238    .
+527            637    VELYIDR|IV  0.097    .
+527            655    VQTAFAK|AL  0.073    .
+527            662    ALDEANR|ID  0.080    .
+527            668    RIDELMR|SD  0.107    .
+527            677    GFNSDPR|YT  0.102    .
+527            693    GVPMTCK|EI  0.060    .
+527            699    KEIIFCK|GL  0.071    .
+527            708    TATAGLK|RR  0.054    .
+527            709    ATAGLKR|RI  0.202    .
+527            710    TAGLKRR|IG  0.145    .
+527            716    RIGHVCK|ED  0.075    .
+527            723    EDADVVK|GM  0.076    .
+527            726    DVVKGMR|SA  0.188    .
+527            762    CNPYDLR|CI  0.080    .
+527            794    DIGGSIR|MP  0.072    .
+527            806    NGVFGHK|PS  0.055    .
+527            815    PLLVSNK|GQ  0.076    .
+527            836    GLGPICR|YA  0.170    .
+527            851    LHAMAFK|NG  0.062    .
+527            873    TATAGLK|RR  0.054    .
+527            874    ATAGLKR|RI  0.202    .
+527            875    TAGLKRR|IG  0.145    .
+527            881    RIGHVCK|ED  0.075    .
+527            888    EDADVVK|GM  0.076    .
+527            891    DVVKGMR|SA  0.188    .
+527            927    CNPYDLR|CI  0.081    .
+527            959    DIGGSIR|MP  0.072    .
+527            971    NGVFGHK|PS  0.055    .
+527            980    PLLVSNK|GM  0.064    .
+527            984    SNKGMPK|FN  0.069    .
+527            993    QWLSATK|EN  0.057    .
+527           1006    PYDLPCK|NM  0.053    .
+527           1014    MYLEALK|KL  0.060    .
+527           1015    YLEALKK|LM  0.116    .
+527           1019    LKKLMGK|SD  0.094    .
+527           1039    EGIPMAK|AS  0.067    .
+527           1050    QLLAMGK|EL  0.064    .
+527           1053    AMGKELR|EQ  0.086    .
+527           1062    IHELLDK|NT  0.063    .
+527           1077    HPMTAPK|HH  0.088    .
+527           1110    VPLGLDK|NG  0.057    .
+527           1127    GGVNQDR|LT  0.101    .
+527           1134    LTIAVAR|EL  0.143    .
+527           1149    WVDPEEK|YK  0.056    .
+527           1151    DPEEKYK|MY  0.066    .
+527           1154    EKYKMYK|YE  0.062    .
+527           1159    YKYEPIR|YL  0.076    .
+527           1167    LASPTLR|NS  0.118    .
+527           1187    AENEAER|HH  0.108    .
+527           1220    VPLGLDK|NG  0.057    .
+527           1237    GGVNQDR|LT  0.101    .
+527           1244    LTIAVAR|EL  0.143    .
+527           1259    WVDPEEK|YK  0.056    .
+527           1261    DPEEKYK|MY  0.066    .
+527           1264    EKYKMYK|YE  0.062    .
+527           1269    YKYEPIR|YL  0.076    .
+527           1277    LASPTLR|NS  0.118    .
+527           1312    EDILNIR|GV  0.129    .
+527           1316    NIRGVER|LE  0.091    .
+527           1332    MPVVVCR|SG  0.210    .
+527           1336    VCRSGTK|QP  0.056    .
+527           1340    GTKQPIR|TR  0.084    .
+527           1342    KQPIRTR|YL  0.122    .
+527           1354    TGYQSIR|DQ  0.100    .
+527           1404    YPDHTHR|ST  0.130    .
+527           1412    TLYCLER|HC  0.108    .
+527           1429    LEEIGMK|IG  0.059    .
+527           1433    GMKIGAR|IK  0.131    .
+527           1435    KIGARIK|GE  0.065    .
+527           1449    QGSQEMR|AI  0.123    .
+527           1465    IPHLILK|SE  0.079    .
+527           1468    LILKSER|AT  0.085    .
+527           1472    SERATVR|SD  0.158    .
+527           1475    ATVRSDR|VG  0.223    .
+527           1480    DRVGGAR|HD  0.073    .
+527           1499    LSQLMSR|LL  0.075    .
+527           1518    LSSAFSK|LV  0.113    .
+527           1525    LVSANMK|KQ  0.062    .
+527           1526    VSANMKK|QI  0.112    .
+527           1530    MKKQILK|SN  0.100    .
+527           1534    ILKSNDK|AC  0.064    .
+527           1539    DKACNTK|YH  0.075    .
+527           1544    TKYHHAK|HF  0.071    .
+527           1555    LSLPLSK|RD  0.054    .
+527           1556    SLPLSKR|DI  0.312    .
+527           1570    TADMHNR|IY  0.144    .
+527           1582    GVMHVYR|NR  0.093    .
+527           1584    MHVYRNR|PT  0.101    .
+527           1591    PTSDTSK|QP  0.062    .
+527           1595    TSKQPIR|TR  0.094    .
+527           1597    KQPIRTR|YL  0.124    .
+527           1606    GHVTVYR|PI  0.113    .
+527           1609    TVYRPIR|D-  0.383    .
+____________________________^_________________
+
+
+
+

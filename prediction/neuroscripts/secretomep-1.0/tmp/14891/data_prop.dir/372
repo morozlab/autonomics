@@ -1,0 +1,325 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1848 372         
+MARTHPYSNNRHKRVVCPTCNKPMRSDKLGKHLLTHNTTKECRFCKNPVREDRLLHHETLCQDKVDESVCGRSTGVHEHM      80
+DNSVETLPHCSSVSGFFRSYELNVEKSIDYDKIIEDTCSAVKHIVTESVKRHPIKAQISISLSFYKDVDAGDNVDEFLKR     160
+AAVIIRHGIDVYERFGSGWIFDSHQCSKLELAKYSPLSASGFVRLPKKLRNMKSLLNIRSNDNHCFLYCILAHLFPVKSH     240
+PDRYTKYLEHVDRVAMGDVQFPVKLKDIPKIEQMNNLSISVFQWCRYDVDKGEEECVIPLKHGSGHGTQIDLLYVEDEDT     320
+SHYLLIKSFNSFMRHRTKHHNSMFYCRKCLHGFVDEKKQKAHTEMCIQGINQITVMPKPGFIEFDAKHKQDEKLFRIYYD     400
+FECLTVPYSTCVPSGSSTTKVQKHVPCAFSIVAVSKFPEYKEEPVVFSHPDPLVVTQKFTSELSRIHDNMMKCYEKNQHP     480
+IHMTKADEKAFKSSKTCHICKKDLCWESDTNYPVRDHDHTKKLHNFRGSACNSCNRNYFNRTKRIPAFAHNMKGYDLNLF     560
+IRDLIRSCEEEAMQDEDLETGGKSKISLIPENLEKIKAVFTEKEDRLFHHETLCQDKVDESVCGRSTGVHEHMDDSVETL     640
+PHCSSVSGFFRSYELDVEKSIDYDKIIEDTCSAVKQIVTESVKKHPIKAQISISLSFYKDVDGQRNASEKVFRSQCEPII     720
+AAGDNVDEFLKRAAVIIRHGIDVYERFGSGWIFDSHQCSNLEIAKYSPLSASGFVRLPKKLRDMKSLLNIRSNDNRCFLY     800
+CLLAHMFPVKTHAERYTKYLQHVDKVTMGDVQFPVKLKDIPKIEQMNNLSISVFQWCRYDVDKGEEECVIPLKHGSGHGT     880
+QIDLLYVEDEDTSHYLLIKSFNSFMRHRTKHHNSMFYCRKCLHGFVDEKKQKVHTEMCIQGINQITVMPKPGFIEFDAKH     960
+KQDEKLFRIYYDFECLTVPYSTCVPSGSSTTKVQKHVPCAFSIVAVSKFPEYKEEPVVFSHPDPLVVTQRFTSELSRIHD    1040
+NMMKCYEKNQHPIHMTKADEKAFKSSKTCHICKKDLCWESDTNYPVRDHDHTKKLHNFRGSACNSCNRNYFNRTKRIPAF    1120
+AHNMKGYDLNLFIRDLIRSCEEEAMQDEDLETGGKSKISLIPENLEKIKAVFTEKFTFLDSFAFMSTSLDKLAKNLKTSG    1200
+IDKFTHLKQQFPDQYKLLSEKGVFFYDYASTFDVFEEKVLPAKESFYSQLTETHISDKEYERAQEVYKTMECKSLLDYME    1280
+LYVLTDTLQLCDIFENFRDMCLNSHYLDPCHYVSLPAFAWDAMLRMTGVKLEVLTDIDMYTFVEQGLRGGVTTVNHRYFK    1360
+ANNWYLENFDPEVPSSFIHYVDANNLYGAAMMNKMPTKNFRWLEEEEIESFDVLSTSADRDKCYILEVDLEYPEALHDYH    1440
+TDFPLAVEGKQIQEAQLSDYNRQFLEQHGEEAQLSDYNRQFLEQHGETFSPSRKLVPDLNDKTRYTCSLKNLQLFLKHGL    1520
+VLNKIHRDLVADQEDFMTKYISYNSAKRQQATDDFSKDFWKLCNNAVYGKFIESVRNRTDVKVVTDEKMALKLTSKPQYL    1600
+GMHRLDDDIALVQCTKRKIVLNKPITCGFMVLENAKHIMYEFWYDVLKPRYGSNIKLMLSDTDSFVYAVYTEDGYKDLFE    1680
+MKELMDLAGYHPDTALGKFRDPENKKVPGKFSDEMPTSVIREVVSLKPKMYSIATRELICPVKYKNPSHLCVPECEMGHS    1760
+ARAKGVSSTAKKHITHEDYKRTLFERGTTMTKSRAIRTLNNELYSVEICKRGLSAFDDKKFILEDGISTLSYGHYKLKRT    1840
+DHSQASGM                                                                            1920
+.............P..................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+........                                                                            1920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+372              3    ----MAR|TH  0.081    .
+372             11    HPYSNNR|HK  0.109    .
+372             13    YSNNRHK|RV  0.075    .
+372             14    SNNRHKR|VV  0.827 *ProP*
+372             22    VCPTCNK|PM  0.053    .
+372             25    TCNKPMR|SD  0.184    .
+372             28    KPMRSDK|LG  0.150    .
+372             31    RSDKLGK|HL  0.073    .
+372             40    LTHNTTK|EC  0.064    .
+372             43    NTTKECR|FC  0.076    .
+372             46    KECRFCK|NP  0.105    .
+372             50    FCKNPVR|ED  0.073    .
+372             53    NPVREDR|LL  0.296    .
+372             64    ETLCQDK|VD  0.057    .
+372             72    DESVCGR|ST  0.258    .
+372             98    SVSGFFR|SY  0.181    .
+372            106    YELNVEK|SI  0.074    .
+372            112    KSIDYDK|II  0.068    .
+372            122    DTCSAVK|HI  0.057    .
+372            130    IVTESVK|RH  0.052    .
+372            131    VTESVKR|HP  0.166    .
+372            135    VKRHPIK|AQ  0.075    .
+372            146    ISLSFYK|DV  0.124    .
+372            159    NVDEFLK|RA  0.062    .
+372            160    VDEFLKR|AA  0.242    .
+372            166    RAAVIIR|HG  0.106    .
+372            174    GIDVYER|FG  0.104    .
+372            188    DSHQCSK|LE  0.057    .
+372            193    SKLELAK|YS  0.063    .
+372            204    SASGFVR|LP  0.124    .
+372            207    GFVRLPK|KL  0.111    .
+372            208    FVRLPKK|LR  0.071    .
+372            210    RLPKKLR|NM  0.080    .
+372            213    KKLRNMK|SL  0.166    .
+372            219    KSLLNIR|SN  0.101    .
+372            238    AHLFPVK|SH  0.068    .
+372            243    VKSHPDR|YT  0.149    .
+372            246    HPDRYTK|YL  0.189    .
+372            253    YLEHVDR|VA  0.099    .
+372            264    DVQFPVK|LK  0.057    .
+372            266    QFPVKLK|DI  0.091    .
+372            270    KLKDIPK|IE  0.060    .
+372            286    SVFQWCR|YD  0.088    .
+372            291    CRYDVDK|GE  0.073    .
+372            301    ECVIPLK|HG  0.073    .
+372            327    SHYLLIK|SF  0.077    .
+372            334    SFNSFMR|HR  0.121    .
+372            336    NSFMRHR|TK  0.087    .
+372            338    FMRHRTK|HH  0.066    .
+372            347    NSMFYCR|KC  0.116    .
+372            348    SMFYCRK|CL  0.095    .
+372            357    HGFVDEK|KQ  0.061    .
+372            358    GFVDEKK|QK  0.114    .
+372            360    VDEKKQK|AH  0.066    .
+372            378    QITVMPK|PG  0.068    .
+372            387    FIEFDAK|HK  0.065    .
+372            389    EFDAKHK|QD  0.065    .
+372            393    KHKQDEK|LF  0.058    .
+372            396    QDEKLFR|IY  0.113    .
+372            420    SGSSTTK|VQ  0.073    .
+372            423    STTKVQK|HV  0.080    .
+372            436    SIVAVSK|FP  0.080    .
+372            441    SKFPEYK|EE  0.066    .
+372            458    PLVVTQK|FT  0.075    .
+372            465    FTSELSR|IH  0.098    .
+372            472    IHDNMMK|CY  0.071    .
+372            476    MMKCYEK|NQ  0.066    .
+372            485    HPIHMTK|AD  0.089    .
+372            489    MTKADEK|AF  0.062    .
+372            492    ADEKAFK|SS  0.083    .
+372            495    KAFKSSK|TC  0.065    .
+372            501    KTCHICK|KD  0.061    .
+372            502    TCHICKK|DL  0.172    .
+372            515    DTNYPVR|DH  0.114    .
+372            521    RDHDHTK|KL  0.080    .
+372            522    DHDHTKK|LH  0.078    .
+372            527    KKLHNFR|GS  0.082    .
+372            536    ACNSCNR|NY  0.076    .
+372            541    NRNYFNR|TK  0.107    .
+372            543    NYFNRTK|RI  0.062    .
+372            544    YFNRTKR|IP  0.458    .
+372            553    AFAHNMK|GY  0.071    .
+372            562    DLNLFIR|DL  0.111    .
+372            566    FIRDLIR|SC  0.136    .
+372            583    DLETGGK|SK  0.064    .
+372            585    ETGGKSK|IS  0.061    .
+372            595    IPENLEK|IK  0.058    .
+372            597    ENLEKIK|AV  0.081    .
+372            603    KAVFTEK|ED  0.057    .
+372            606    FTEKEDR|LF  0.080    .
+372            617    ETLCQDK|VD  0.057    .
+372            625    DESVCGR|ST  0.258    .
+372            651    SVSGFFR|SY  0.162    .
+372            659    YELDVEK|SI  0.072    .
+372            665    KSIDYDK|II  0.067    .
+372            675    DTCSAVK|QI  0.057    .
+372            683    IVTESVK|KH  0.053    .
+372            684    VTESVKK|HP  0.096    .
+372            688    VKKHPIK|AQ  0.070    .
+372            699    ISLSFYK|DV  0.144    .
+372            705    KDVDGQR|NA  0.102    .
+372            710    QRNASEK|VF  0.072    .
+372            713    ASEKVFR|SQ  0.138    .
+372            731    NVDEFLK|RA  0.062    .
+372            732    VDEFLKR|AA  0.242    .
+372            738    RAAVIIR|HG  0.106    .
+372            746    GIDVYER|FG  0.104    .
+372            765    SNLEIAK|YS  0.062    .
+372            776    SASGFVR|LP  0.124    .
+372            779    GFVRLPK|KL  0.127    .
+372            780    FVRLPKK|LR  0.076    .
+372            782    RLPKKLR|DM  0.100    .
+372            785    KKLRDMK|SL  0.163    .
+372            791    KSLLNIR|SN  0.089    .
+372            796    IRSNDNR|CF  0.108    .
+372            810    AHMFPVK|TH  0.058    .
+372            815    VKTHAER|YT  0.094    .
+372            818    HAERYTK|YL  0.145    .
+372            825    YLQHVDK|VT  0.069    .
+372            836    DVQFPVK|LK  0.057    .
+372            838    QFPVKLK|DI  0.091    .
+372            842    KLKDIPK|IE  0.060    .
+372            858    SVFQWCR|YD  0.088    .
+372            863    CRYDVDK|GE  0.073    .
+372            873    ECVIPLK|HG  0.073    .
+372            899    SHYLLIK|SF  0.077    .
+372            906    SFNSFMR|HR  0.121    .
+372            908    NSFMRHR|TK  0.087    .
+372            910    FMRHRTK|HH  0.066    .
+372            919    NSMFYCR|KC  0.116    .
+372            920    SMFYCRK|CL  0.095    .
+372            929    HGFVDEK|KQ  0.060    .
+372            930    GFVDEKK|QK  0.108    .
+372            932    VDEKKQK|VH  0.061    .
+372            950    QITVMPK|PG  0.068    .
+372            959    FIEFDAK|HK  0.065    .
+372            961    EFDAKHK|QD  0.065    .
+372            965    KHKQDEK|LF  0.058    .
+372            968    QDEKLFR|IY  0.113    .
+372            992    SGSSTTK|VQ  0.073    .
+372            995    STTKVQK|HV  0.080    .
+372           1008    SIVAVSK|FP  0.080    .
+372           1013    SKFPEYK|EE  0.066    .
+372           1030    PLVVTQR|FT  0.115    .
+372           1037    FTSELSR|IH  0.090    .
+372           1044    IHDNMMK|CY  0.071    .
+372           1048    MMKCYEK|NQ  0.066    .
+372           1057    HPIHMTK|AD  0.089    .
+372           1061    MTKADEK|AF  0.062    .
+372           1064    ADEKAFK|SS  0.083    .
+372           1067    KAFKSSK|TC  0.065    .
+372           1073    KTCHICK|KD  0.061    .
+372           1074    TCHICKK|DL  0.172    .
+372           1087    DTNYPVR|DH  0.114    .
+372           1093    RDHDHTK|KL  0.080    .
+372           1094    DHDHTKK|LH  0.078    .
+372           1099    KKLHNFR|GS  0.082    .
+372           1108    ACNSCNR|NY  0.076    .
+372           1113    NRNYFNR|TK  0.107    .
+372           1115    NYFNRTK|RI  0.062    .
+372           1116    YFNRTKR|IP  0.458    .
+372           1125    AFAHNMK|GY  0.071    .
+372           1134    DLNLFIR|DL  0.111    .
+372           1138    FIRDLIR|SC  0.136    .
+372           1155    DLETGGK|SK  0.064    .
+372           1157    ETGGKSK|IS  0.061    .
+372           1167    IPENLEK|IK  0.058    .
+372           1169    ENLEKIK|AV  0.091    .
+372           1175    KAVFTEK|FT  0.064    .
+372           1191    MSTSLDK|LA  0.061    .
+372           1194    SLDKLAK|NL  0.072    .
+372           1197    KLAKNLK|TS  0.069    .
+372           1203    KTSGIDK|FT  0.077    .
+372           1208    DKFTHLK|QQ  0.061    .
+372           1216    QFPDQYK|LL  0.067    .
+372           1221    YKLLSEK|GV  0.070    .
+372           1238    FDVFEEK|VL  0.062    .
+372           1243    EKVLPAK|ES  0.067    .
+372           1258    ETHISDK|EY  0.073    .
+372           1262    SDKEYER|AQ  0.097    .
+372           1268    RAQEVYK|TM  0.062    .
+372           1273    YKTMECK|SL  0.083    .
+372           1298    DIFENFR|DM  0.076    .
+372           1325    AWDAMLR|MT  0.119    .
+372           1330    LRMTGVK|LE  0.054    .
+372           1348    FVEQGLR|GG  0.066    .
+372           1357    VTTVNHR|YF  0.078    .
+372           1360    VNHRYFK|AN  0.172    .
+372           1394    GAAMMNK|MP  0.072    .
+372           1398    MNKMPTK|NF  0.075    .
+372           1401    MPTKNFR|WL  0.158    .
+372           1420    LSTSADR|DK  0.092    .
+372           1422    TSADRDK|CY  0.070    .
+372           1450    PLAVEGK|QI  0.077    .
+372           1462    QLSDYNR|QF  0.114    .
+372           1479    QLSDYNR|QF  0.108    .
+372           1493    ETFSPSR|KL  0.082    .
+372           1494    TFSPSRK|LV  0.113    .
+372           1502    VPDLNDK|TR  0.053    .
+372           1504    DLNDKTR|YT  0.114    .
+372           1510    RYTCSLK|NL  0.058    .
+372           1517    NLQLFLK|HG  0.059    .
+372           1524    HGLVLNK|IH  0.061    .
+372           1527    VLNKIHR|DL  0.121    .
+372           1539    QEDFMTK|YI  0.065    .
+372           1547    ISYNSAK|RQ  0.067    .
+372           1548    SYNSAKR|QQ  0.143    .
+372           1557    ATDDFSK|DF  0.066    .
+372           1561    FSKDFWK|LC  0.064    .
+372           1570    NNAVYGK|FI  0.087    .
+372           1576    KFIESVR|NR  0.078    .
+372           1578    IESVRNR|TD  0.119    .
+372           1582    RNRTDVK|VV  0.081    .
+372           1588    KVVTDEK|MA  0.056    .
+372           1592    DEKMALK|LT  0.060    .
+372           1596    ALKLTSK|PQ  0.060    .
+372           1604    QYLGMHR|LD  0.071    .
+372           1616    ALVQCTK|RK  0.055    .
+372           1617    LVQCTKR|KI  0.134    .
+372           1618    VQCTKRK|IV  0.113    .
+372           1623    RKIVLNK|PI  0.093    .
+372           1636    MVLENAK|HI  0.064    .
+372           1648    FWYDVLK|PR  0.057    .
+372           1650    YDVLKPR|YG  0.115    .
+372           1656    RYGSNIK|LM  0.054    .
+372           1676    YTEDGYK|DL  0.065    .
+372           1682    KDLFEMK|EL  0.063    .
+372           1698    PDTALGK|FR  0.069    .
+372           1700    TALGKFR|DP  0.124    .
+372           1705    FRDPENK|KV  0.081    .
+372           1706    RDPENKK|VP  0.088    .
+372           1710    NKKVPGK|FS  0.089    .
+372           1721    MPTSVIR|EV  0.094    .
+372           1727    REVVSLK|PK  0.064    .
+372           1729    VVSLKPK|MY  0.084    .
+372           1736    MYSIATR|EL  0.100    .
+372           1743    ELICPVK|YK  0.064    .
+372           1745    ICPVKYK|NP  0.064    .
+372           1762    EMGHSAR|AK  0.152    .
+372           1764    GHSARAK|GV  0.137    .
+372           1771    GVSSTAK|KH  0.082    .
+372           1772    VSSTAKK|HI  0.144    .
+372           1780    ITHEDYK|RT  0.062    .
+372           1781    THEDYKR|TL  0.210    .
+372           1786    KRTLFER|GT  0.100    .
+372           1792    RGTTMTK|SR  0.060    .
+372           1794    TTMTKSR|AI  0.133    .
+372           1797    TKSRAIR|TL  0.411    .
+372           1810    YSVEICK|RG  0.059    .
+372           1811    SVEICKR|GL  0.183    .
+372           1819    LSAFDDK|KF  0.062    .
+372           1820    SAFDDKK|FI  0.101    .
+372           1836    LSYGHYK|LK  0.066    .
+372           1838    YGHYKLK|RT  0.080    .
+372           1839    GHYKLKR|TD  0.202    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,250 @@
+#!/usr/freeware/bin/gawk -f
+BEGIN {
+   class[1]="extracellular, including cell wall";
+   class[2]="endoplasmic reticulum";
+   class[3]="vacuolar";
+   class[4]="mitochondrial";
+   class[5]="cytoplasmic";
+   class[6]="nuclear";
+   class[7]="cytoskeletal";
+   class[8]="Golgi";
+   class[9]="vesicles of secretory system";
+   class[10]="peroxisomal";
+   class[11]="plasma membrane";
+   gotit=1;
+}
+/\/\/\-\/\//{
+   if (!gotit)
+     printf "*" >> "/dev/stderr";
+
+   ident=$2;
+   gotit=0;
+}
+#($1=="PSG:") {
+#   getline;
+#   psg[1]=substr($3,1,length($3)-1);
+#   psg[2]=substr($5,1,length($5)-1);   
+#   psg[3]=$7;
+#   getline;
+#   psg[4]=substr($3,1,length($3)-1);
+#   psg[5]=$6;
+#   getline;
+#   psg[6]=$3;
+#}
+#($1=="GvH:") {
+#   getline;
+#   gvh[1]=$5;
+#   getline;
+#   getline;
+#   getline;
+#   if ($5=="no")
+#     gvh[2]=0;
+#   else
+#     gvh[2]=1;
+#}
+#($1=="ALOM:") {
+#   while ($1!="ALOM")  getline;
+#   alom[1]=$3;
+#   alom[2]=substr($7,1,length($7)-1);
+#}
+#($1=="MTOP:") {
+#   getline;
+#   mtop[1]=$5;
+#   getline;
+#   mtop[2]=$3;
+#   getline;
+#   if ($4=="C-terminal")
+#     mtop[3]=1;
+#   else
+#     mtop[3]=0;
+#
+#}
+#($1=="MITDISC:") {
+#   getline;
+#   mitdisc[1]=$3;
+#   mitdisc[2]=$6;
+#   getline;
+#   mitdisc[3]=$3;
+#   mitdisc[4]=$6;
+#   getline;
+#   mitdisc[5]=$3;
+#   mitdisc[6]=$6;
+#   getline;
+#   mitdisc[7]=$2;
+#}
+#($1=="Gavel:") {
+#   getline;
+#   if ($1=="cleavage") {
+#      gavel[1]=0;
+#      gavel[2]=0;
+#   } else {
+#      gavel[1]=1;
+#      gavel[2]=$4;
+#   }
+#}
+#($1=="NUCDISC:") {
+#
+#   nucdisc[1]=0;
+#   nucdisc[2]=0;
+#   nucdisc[3]=0;
+#
+#   while ($1!="content") {
+#      getline;
+#      if ($1=="pat4:")
+#	 nucdisc[1]+=1;
+#      if ($1=="pat7:")
+#	 nucdisc[2]+=1;
+#      if ($1=="bipartite:")
+#	 nucdisc[3]+=1;
+#   }
+#   nucdisc[4]=$5;
+#   getline;
+#   nucdisc[5]=$3;
+#}
+#($1=="KDEL:") {
+#   if ($8=="none")
+#     kdel[1]=0;
+#   else
+#     kdel[1]=1;
+#   getline;
+#   getline;
+#   if ($5=="none") 
+#     kdel[2]=0;
+#   else
+#     kdel[2]=1;
+#}
+#($1=="SKL:") {
+#   if ($8=="none")
+#     skl[1]=0;
+#   else
+#     skl[1]=1;
+#}
+#($1=="PTS2:") {
+#   if ($6=="none")
+#     pts2[1]=0;
+#   else
+#     pts2[1]=1;   
+#}
+#($1=="VAC:") {
+#   if ($6=="none")
+#     vac[1]=0;
+#   else
+#     vac[1]=1;  
+#
+#
+#   while ($1!="RNA-binding") getline;
+#
+#   if ($3=="none")
+#     vac[2]=0;
+#   else
+#     vac[2]=1;  
+#
+#   getline;
+#   while ($1!="Actinin-type") getline;
+#
+#   while ($1!="") {
+#      if ($2=="1:") {
+#	 if ($3=="none")
+#	   vac[3]=0;
+#	 else
+#	   vac[3]=1;
+#      }
+#      if ($2=="2:") {
+#	 if ($3=="none")
+#	   vac[4]=0;
+#	 else
+#	   vac[4]=1;
+#      }
+#   }
+#}
+#($1=="NMYR:") {
+#   if ($5=="none")
+#     nmyr[1]=0;
+#   else
+#     nmyr[1]=1;
+#
+#   while ($1!="Prenylation") getline;
+#   
+#  if ($3=="none")
+#     nmyr[2]=0;
+#   else
+#     nmyr[2]=1;
+#
+#   while ($1!="memYQRL:") getline;
+#   
+#   if ($9=="none")
+#     nmyr[3]=0;
+#   else
+#     nmyr[3]=1;   
+#   
+#   while ($1!="Tyrosines") getline;
+#   
+#   if ($5=="none")
+#     nmyr[4]=0;
+#   else
+#     nmyr[4]=1;   
+#   
+#   while ($1!="Dileucine") getline;
+#
+#   if ($6=="none")
+#     nmyr[5]=0;
+#   else
+#     nmyr[5]=1;   
+#
+#   while ($1!="checking") getline;
+#   
+#   if ($7=="none")
+#     nmyr[6]=0;
+#   else
+#     nmyr[6]=1;   
+#   
+#   getline;
+#   while ($1!="checking") getline;
+#
+#   if ($7=="none")
+#     nmyr[7]=0;
+#   else
+#     nmyr[7]=1;   
+#   
+#   getline;
+#   while ($1!="checking") getline;
+#
+#   if ($8=="none")
+#     nmyr[8]=0;
+#   else
+#     nmyr[8]=1;   
+#  
+#}
+#($1=="NNCN:") {
+#   
+#}
+#($1=="COIL:") {
+#}
+($2=="%:") {
+
+   printf "." >> "/dev/stderr";
+   gotit=1;
+   for (i=1;i<=11;i++) 
+     val[i]=0;
+
+   while ($2=="%:") {
+      k=index($0,"%:");
+      cs=substr($0,k+3,length($0));
+      for (i=1;i<=11;i++) {
+	 if (cs==class[i]) {
+	    val[i]=$1;
+	    break;
+	 }
+      }
+      getline;
+   }
+
+   if (fileexists(fileid".Features/psort_vect/type")) {
+      fname=fileid".Features/psort_vect/feature.out";
+      printf "%s ",ident >> fname;
+      for (i=1;i<=11;i++) 
+	printf "%.2f ",val[i] >> fname;
+      printf "\n",ident >> fname
+   };
+   
+}

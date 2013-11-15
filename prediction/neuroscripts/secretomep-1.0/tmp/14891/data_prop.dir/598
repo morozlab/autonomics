@@ -1,0 +1,202 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1506 598         
+MLLRMYRNMIEWIRILVALISTVSLPGVTGYSLIAVRYSVSYVYDYSNPSFDVMDLMSAQNKEAVITASYSRQEAVITAS      80
+YNCLIRDFVSSRKALSPSHTLPFNDITVSTVKQFLGAVGSKLAANLNMTKVYDSGSGNLMVGEERSGEISTWSTTKAPEI     160
+TETGGTTGTELLLTEDWSVTDEEEASENKRSDRFTTPYPTTVGEVTEPLETEPLILSTEQGTTTEKGDESTTTGYWTYEV     240
+TREVTDEATEVARETTRPVTEEPVTERVTTEGLMTERETTEEAASERETTERVRTEEAATERETTRPFSDGTEQKTEEDG     320
+VMTDGPTGGVETTTLVYYTTYPVTEEGTDSIETEEETDGTNPVTEPTKPVTEPTEPVTEEATKPVTEPTEPATGPVTEEA     400
+TEYETDEATEEYTVWTEPTRPQTEMTQERTEMTQERTEMTQERTEESGERTDKTEEARTRTEEWVTGATEEWVTGATEEW     480
+VTGATEEWVTGVTEEWVTDLTEPTEERTEPTEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEAT     560
+EERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEER     640
+TEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEA     720
+TEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEERTEATEE     800
+RTEATEERTEATEERTDATEGVTEVTEERTEATEERTDVTEGVTGVTETVTKEWSDFWRTEEEWTEEWITEDERTEESTE     880
+DSLTGQTEPITFRTVISEDSTDGSDATKTEELVTGALTTEPATATQSVALSQCEHESFAASQEGRQGPSCQPDGRYYPQQ     960
+CENTRIVDDGLLRKTLKSGCLSLLTIRSFGARDGLGLSVRVWLGFGLGGYLCRYSLFLSQSPSFFLNLLLYFSSYVVKKL    1040
+FVTGEVTETAALTTSAPVGDNCWQALRNSISQLAYNKDQFLPACQENGNFQRGQCQGTMCWCVEEVTGAMIEGTSKPGVI    1120
+DCQLYIEGVCPKFVRSFNTPFRCSNKCNSDSMCYGSSKCCDTPCGRDCVLPQLPATTKEGLCPALTSTNYLFQEEDQCQL    1200
+KCVNDGACSGQEKCCFNGCGYECKQPSFDTQVYCSPVEPIYRGSIQAPRTDGLVEGDVVSISCDEGFELQGSSEIRCTAE    1280
+GEWDVEPPICKRRECPEIESLDYGRVFIGSSGRSYGNRIAFICDPGYYLTGSEVRSCLADGNWSGTDAICTRGVVSRREC    1360
+PEIESLDYGRVFIGSSGRSYGNRIAFICDPGYYLTGSEVRSCLADGNWYPALGWYCDAMCEGGNRGGFCGGVLSHHLQIH    1440
+PVPLWNLYNITGGHVVSNSNRQPIKTRHLGHVTAYHPIRDTPVSTMPDRFHRPAQRVGEWVSMPVA                  1520
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+..................................................................                  1520
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+598              4    ---MLLR|MY  0.090    .
+598              7    MLLRMYR|NM  0.187    .
+598             14    NMIEWIR|IL  0.082    .
+598             37    YSLIAVR|YS  0.075    .
+598             62    LMSAQNK|EA  0.070    .
+598             72    ITASYSR|QE  0.079    .
+598             86    SYNCLIR|DF  0.107    .
+598             92    RDFVSSR|KA  0.085    .
+598             93    DFVSSRK|AL  0.087    .
+598            112    ITVSTVK|QF  0.060    .
+598            121    LGAVGSK|LA  0.065    .
+598            130    ANLNMTK|VY  0.059    .
+598            145    LMVGEER|SG  0.115    .
+598            156    STWSTTK|AP  0.073    .
+598            189    EEASENK|RS  0.056    .
+598            190    EASENKR|SD  0.261    .
+598            193    ENKRSDR|FT  0.473    .
+598            226    QGTTTEK|GD  0.060    .
+598            242    WTYEVTR|EV  0.124    .
+598            253    EATEVAR|ET  0.085    .
+598            257    VARETTR|PV  0.126    .
+598            267    EEPVTER|VT  0.105    .
+598            277    EGLMTER|ET  0.078    .
+598            287    EEAASER|ET  0.098    .
+598            292    ERETTER|VR  0.086    .
+598            294    ETTERVR|TE  0.078    .
+598            302    EEAATER|ET  0.083    .
+598            306    TERETTR|PF  0.153    .
+598            315    SDGTEQK|TE  0.088    .
+598            368    PVTEPTK|PV  0.064    .
+598            383    VTEEATK|PV  0.066    .
+598            420    VWTEPTR|PQ  0.072    .
+598            429    TEMTQER|TE  0.141    .
+598            436    TEMTQER|TE  0.147    .
+598            443    TEMTQER|TE  0.148    .
+598            450    TEESGER|TD  0.083    .
+598            453    SGERTDK|TE  0.135    .
+598            458    DKTEEAR|TR  0.082    .
+598            460    TEEARTR|TE  0.110    .
+598            507    TEPTEER|TE  0.087    .
+598            514    TEPTEER|TE  0.103    .
+598            521    TEATEER|TE  0.118    .
+598            528    TEATEER|TE  0.118    .
+598            535    TEATEER|TE  0.118    .
+598            542    TEATEER|TE  0.118    .
+598            549    TEATEER|TE  0.118    .
+598            556    TEATEER|TE  0.118    .
+598            563    TEATEER|TE  0.118    .
+598            570    TEATEER|TE  0.118    .
+598            577    TEATEER|TE  0.118    .
+598            584    TEATEER|TE  0.118    .
+598            591    TEATEER|TE  0.118    .
+598            598    TEATEER|TE  0.118    .
+598            605    TEATEER|TE  0.118    .
+598            612    TEATEER|TE  0.118    .
+598            619    TEATEER|TE  0.118    .
+598            626    TEATEER|TE  0.118    .
+598            633    TEATEER|TE  0.118    .
+598            640    TEATEER|TE  0.118    .
+598            647    TEATEER|TE  0.118    .
+598            654    TEATEER|TE  0.118    .
+598            661    TEATEER|TE  0.118    .
+598            668    TEATEER|TE  0.118    .
+598            675    TEATEER|TE  0.118    .
+598            682    TEATEER|TE  0.118    .
+598            689    TEATEER|TE  0.118    .
+598            696    TEATEER|TE  0.118    .
+598            703    TEATEER|TE  0.118    .
+598            710    TEATEER|TE  0.118    .
+598            717    TEATEER|TE  0.118    .
+598            724    TEATEER|TE  0.118    .
+598            731    TEATEER|TE  0.118    .
+598            738    TEATEER|TE  0.118    .
+598            745    TEATEER|TE  0.118    .
+598            752    TEATEER|TE  0.118    .
+598            759    TEATEER|TE  0.118    .
+598            766    TEATEER|TE  0.118    .
+598            773    TEATEER|TE  0.118    .
+598            780    TEATEER|TE  0.118    .
+598            787    TEATEER|TE  0.118    .
+598            794    TEATEER|TE  0.118    .
+598            801    TEATEER|TE  0.118    .
+598            808    TEATEER|TE  0.111    .
+598            815    TEATEER|TD  0.109    .
+598            829    TEVTEER|TE  0.086    .
+598            836    TEATEER|TD  0.103    .
+598            852    VTETVTK|EW  0.070    .
+598            859    EWSDFWR|TE  0.111    .
+598            874    WITEDER|TE  0.075    .
+598            893    TEPITFR|TV  0.113    .
+598            908    DGSDATK|TE  0.065    .
+598            945    AASQEGR|QG  0.106    .
+598            955    SCQPDGR|YY  0.106    .
+598            965    QQCENTR|IV  0.145    .
+598            973    VDDGLLR|KT  0.071    .
+598            974    DDGLLRK|TL  0.070    .
+598            977    LLRKTLK|SG  0.084    .
+598            987    LSLLTIR|SF  0.106    .
+598            992    IRSFGAR|DG  0.113    .
+598           1000    GLGLSVR|VW  0.083    .
+598           1013    LGGYLCR|YS  0.074    .
+598           1038    FSSYVVK|KL  0.077    .
+598           1039    SSYVVKK|LF  0.166    .
+598           1067    NCWQALR|NS  0.073    .
+598           1077    SQLAYNK|DQ  0.059    .
+598           1092    ENGNFQR|GQ  0.143    .
+598           1116    MIEGTSK|PG  0.054    .
+598           1132    IEGVCPK|FV  0.083    .
+598           1135    VCPKFVR|SF  0.124    .
+598           1142    SFNTPFR|CS  0.103    .
+598           1146    PFRCSNK|CN  0.074    .
+598           1158    MCYGSSK|CC  0.061    .
+598           1166    CDTPCGR|DC  0.065    .
+598           1178    QLPATTK|EG  0.053    .
+598           1201    EDQCQLK|CV  0.085    .
+598           1213    ACSGQEK|CC  0.073    .
+598           1224    GCGYECK|QP  0.066    .
+598           1242    PVEPIYR|GS  0.099    .
+598           1249    GSIQAPR|TD  0.113    .
+598           1276    QGSSEIR|CT  0.149    .
+598           1291    VEPPICK|RR  0.053    .
+598           1292    EPPICKR|RE  0.134    .
+598           1293    PPICKRR|EC  0.168    .
+598           1305    ESLDYGR|VF  0.074    .
+598           1313    FIGSSGR|SY  0.144    .
+598           1318    GRSYGNR|IA  0.164    .
+598           1335    LTGSEVR|SC  0.112    .
+598           1352    TDAICTR|GV  0.127    .
+598           1357    TRGVVSR|RE  0.131    .
+598           1358    RGVVSRR|EC  0.149    .
+598           1370    ESLDYGR|VF  0.074    .
+598           1378    FIGSSGR|SY  0.144    .
+598           1383    GRSYGNR|IA  0.164    .
+598           1400    LTGSEVR|SC  0.110    .
+598           1425    MCEGGNR|GG  0.082    .
+598           1461    VVSNSNR|QP  0.105    .
+598           1465    SNRQPIK|TR  0.069    .
+598           1467    RQPIKTR|HL  0.160    .
+598           1479    TAYHPIR|DT  0.128    .
+598           1489    VSTMPDR|FH  0.103    .
+598           1492    MPDRFHR|PA  0.435    .
+598           1496    FHRPAQR|VG  0.083    .
+____________________________^_________________
+
+
+
+

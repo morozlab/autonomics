@@ -1,0 +1,293 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1807 391         
+MQYSNFQGSQVKSFETYFIGPLFSDPLFSDTPIAVARRIFSQNLVDERGVPPGPLLGENNHSWGYGGTAKKSHNNKYKPY      80
+GRMYSIGDVITCYADLEAEPATVSFSKNGTHFGTAFTLTQEQKSKGIFPSISTKNIKYMVNFGQALSKFPLIPGYKMIAF     160
+SNQGAIKPCVTGPQTLADAEFLVMVGLPAAGKSTWAEKKSLETPEKRYNILGTNLIMEKMKVMGLGRKGNYSGRWDSLIT     240
+KACKVLNELFKIVEKKMVKFPRNIILDQTNVYESARRRKIKSFSRFGHRIAVVVVVKGEELKKRAAHREKEEGIVIPDSA     320
+VHEMMKNFSLPALKEGLSEVRFVELGAEEAKGQVEIWNKEGAEKKPSGLAPNKGPVGGATKRFQGRPPFEDALNKRAKQE     400
+GDGGEMSQEGEADPWTREVVIWPKEADPWTNEADQWINEADQWSNEADQWTNEGGPMDQRGGPMDQKRGLLDPRGPPMVH     480
+RRGPNDQRGGPMDQRRPMDQREGPMDQRGGPMGFGGGPMDQNGPMDQRGGPMDQRGGRIDQREGPMDQRGGPMDQRGGRM     560
+GLGGGPMNIGGGPMYQRGGAMDQRGGPMGLGGGPMDIDGQHMDQKRGLLDPRAGSSEKRRGLLDEPRGPHVQRGGRIDQR     640
+EGPMDQRGGPMDQREGPMDQRGGPMDQIGGPMDQIGGPMDQRRPQNSRDASREKGRSPGRDRMNRSHSDHPRGRSNERRG     720
+DDRRRPHDRRDSDRNAHDRRGSNDRRRDDMRRDGRWRVGKTACRHYRQHQGVVNGRFAYETFLESRRVSYRLKFQIDFPE     800
+SCSISHPSTFFHDVHRHHIFSDRGQRRDSRDGPRGGGVRDSRRRDNERPGNQDRRSTERSGGGPHQPLQNIPADNQQGGP     880
+PPVVQEGYQGQQGRGLNRGGMGFNQGRGRGGFNNQQDRGDQGFNQNQDSDFNRGRGRDQRGGGRDNQQTFLSNQMRGQGF     960
+NLRGGGFNRGGDEQTGHGNQDQQQFSHERGNMGGGFRGRGGMGGFQGNQEERGGFSGGFRGRGGRDRNWEDNSNRSNNER    1040
+GGCSSREGFRGREGPHGSAPDGPKMDMLNANLAKMANQIQSGNNNSPKNSSRFEAEALTYNTPERKQYGVTGDKGAGGGN    1120
+QGTSGFGGQQSNYGNPGQQGGGIQAQDSSGNQGQQRGGNHSHQGQERVGNYGNQGQQQGSNHGNQGQQRGGNYGNQEQQR    1200
+LGNYGNIGQQPATVNYGNQGQQRAGNHGNQEQQRVGNYGNQGQQQGGNQGQQRGGNHGNQGQQLATGNYGNQGQQREGNY    1280
+GNQGQQRGNNYGNQRQQTTGSYGNKGQQHATGNCGNQDSTKQDPSQNVSYQQYVSSYTGQLSAIVNKAGSSSKTSQQSTT    1360
+PPVQQYGVAYPPGGYGSGGTVSDPASGGSYGAGGSYGESGGQYNSGVQEPSQFIQKYTSGVKQAPPAAPAQPDGFPSLSQ    1440
+KKQQPPFNQHYGSQSYNTGGAVPSIPTQQYGAGTQQYSNTQQQFQQQQYGAVPPQQQQAQQYNTQQQQYQQYGGGNTGQQ    1520
+QQYNNQQQKFPSYQNYGDVALYGGAIPHLVLKSDSALRSGRRRQTDVARNPLDRYGSGFLSANRKWVEIDTEVKSIIWVL    1600
+RDSALCLCGLGDIGDMFMQLASALSHFVITCLAPPTPSERIVENQMGYSAAIQVITPNQQLKDQVSCYLQANGILDESHG    1680
+YLTHARFSTTQPNHSISWKRSAMKGWRNAGKHSIMKHNAVILVVVKFVLYDMYGYVGRHVYIHDSVEITWLMNKYRITAA    1760
+NENSTMSGTMLDLGGGAFLLPHTVSIIQSDPDLVTPRFSDQNPFPRR                                     1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................P...............     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+...................P............................................................    1760
+...............................................                                     1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+391             12    FQGSQVK|SF  0.091    .
+391             37    TPIAVAR|RI  0.122    .
+391             38    PIAVARR|IF  0.196    .
+391             48    QNLVDER|GV  0.114    .
+391             70    GYGGTAK|KS  0.063    .
+391             71    YGGTAKK|SH  0.113    .
+391             76    KKSHNNK|YK  0.093    .
+391             78    SHNNKYK|PY  0.100    .
+391             82    KYKPYGR|MY  0.105    .
+391            107    ATVSFSK|NG  0.065    .
+391            123    TLTQEQK|SK  0.090    .
+391            125    TQEQKSK|GI  0.101    .
+391            134    FPSISTK|NI  0.073    .
+391            137    ISTKNIK|YM  0.065    .
+391            148    FGQALSK|FP  0.060    .
+391            156    PLIPGYK|MI  0.061    .
+391            167    SNQGAIK|PC  0.074    .
+391            192    GLPAAGK|ST  0.087    .
+391            198    KSTWAEK|KS  0.055    .
+391            199    STWAEKK|SL  0.203    .
+391            206    SLETPEK|RY  0.065    .
+391            207    LETPEKR|YN  0.153    .
+391            219    TNLIMEK|MK  0.061    .
+391            221    LIMEKMK|VM  0.082    .
+391            227    KVMGLGR|KG  0.080    .
+391            228    VMGLGRK|GN  0.082    .
+391            234    KGNYSGR|WD  0.110    .
+391            241    WDSLITK|AC  0.062    .
+391            244    LITKACK|VL  0.059    .
+391            251    VLNELFK|IV  0.096    .
+391            255    LFKIVEK|KM  0.056    .
+391            256    FKIVEKK|MV  0.149    .
+391            259    VEKKMVK|FP  0.062    .
+391            262    KMVKFPR|NI  0.123    .
+391            276    NVYESAR|RR  0.072    .
+391            277    VYESARR|RK  0.099    .
+391            278    YESARRR|KI  0.132    .
+391            279    ESARRRK|IK  0.363    .
+391            281    ARRRKIK|SF  0.480    .
+391            285    KIKSFSR|FG  0.093    .
+391            289    FSRFGHR|IA  0.092    .
+391            297    AVVVVVK|GE  0.062    .
+391            302    VKGEELK|KR  0.059    .
+391            303    KGEELKK|RA  0.099    .
+391            304    GEELKKR|AA  0.292    .
+391            308    KKRAAHR|EK  0.151    .
+391            310    RAAHREK|EE  0.088    .
+391            326    AVHEMMK|NF  0.058    .
+391            334    FSLPALK|EG  0.056    .
+391            341    EGLSEVR|FV  0.107    .
+391            351    LGAEEAK|GQ  0.066    .
+391            359    QVEIWNK|EG  0.058    .
+391            364    NKEGAEK|KP  0.061    .
+391            365    KEGAEKK|PS  0.114    .
+391            373    SGLAPNK|GP  0.059    .
+391            381    PVGGATK|RF  0.055    .
+391            382    VGGATKR|FQ  0.178    .
+391            386    TKRFQGR|PP  0.097    .
+391            395    FEDALNK|RA  0.070    .
+391            396    EDALNKR|AK  0.212    .
+391            398    ALNKRAK|QE  0.132    .
+391            417    EADPWTR|EV  0.102    .
+391            424    EVVIWPK|EA  0.070    .
+391            460    GGPMDQR|GG  0.070    .
+391            467    GGPMDQK|RG  0.052    .
+391            468    GPMDQKR|GL  0.271    .
+391            474    RGLLDPR|GP  0.075    .
+391            481    GPPMVHR|RG  0.085    .
+391            482    PPMVHRR|GP  0.298    .
+391            488    RGPNDQR|GG  0.073    .
+391            495    GGPMDQR|RP  0.082    .
+391            496    GPMDQRR|PM  0.271    .
+391            501    RRPMDQR|EG  0.083    .
+391            508    EGPMDQR|GG  0.080    .
+391            528    NGPMDQR|GG  0.074    .
+391            535    GGPMDQR|GG  0.080    .
+391            538    MDQRGGR|ID  0.258    .
+391            542    GGRIDQR|EG  0.079    .
+391            549    EGPMDQR|GG  0.072    .
+391            556    GGPMDQR|GG  0.095    .
+391            559    MDQRGGR|MG  0.314    .
+391            577    GGPMYQR|GG  0.082    .
+391            584    GGAMDQR|GG  0.102    .
+391            605    GQHMDQK|RG  0.057    .
+391            606    QHMDQKR|GL  0.220    .
+391            612    RGLLDPR|AG  0.080    .
+391            618    RAGSSEK|RR  0.056    .
+391            619    AGSSEKR|RG  0.132    .
+391            620    GSSEKRR|GL  0.342    .
+391            627    GLLDEPR|GP  0.099    .
+391            633    RGPHVQR|GG  0.102    .
+391            636    HVQRGGR|ID  0.218    .
+391            640    GGRIDQR|EG  0.080    .
+391            647    EGPMDQR|GG  0.070    .
+391            654    GGPMDQR|EG  0.071    .
+391            661    EGPMDQR|GG  0.070    .
+391            682    GGPMDQR|RP  0.072    .
+391            683    GPMDQRR|PQ  0.141    .
+391            688    RRPQNSR|DA  0.156    .
+391            692    NSRDASR|EK  0.108    .
+391            694    RDASREK|GR  0.084    .
+391            696    ASREKGR|SP  0.186    .
+391            700    KGRSPGR|DR  0.087    .
+391            702    RSPGRDR|MN  0.086    .
+391            705    GRDRMNR|SH  0.557 *ProP*
+391            712    SHSDHPR|GR  0.164    .
+391            714    SDHPRGR|SN  0.201    .
+391            718    RGRSNER|RG  0.085    .
+391            719    GRSNERR|GD  0.331    .
+391            723    ERRGDDR|RR  0.083    .
+391            724    RRGDDRR|RP  0.145    .
+391            725    RGDDRRR|PH  0.113    .
+391            729    RRRPHDR|RD  0.135    .
+391            730    RRPHDRR|DS  0.304    .
+391            734    DRRDSDR|NA  0.175    .
+391            739    DRNAHDR|RG  0.098    .
+391            740    RNAHDRR|GS  0.199    .
+391            745    RRGSNDR|RR  0.114    .
+391            746    RGSNDRR|RD  0.146    .
+391            747    GSNDRRR|DD  0.191    .
+391            751    RRRDDMR|RD  0.122    .
+391            752    RRDDMRR|DG  0.146    .
+391            755    DMRRDGR|WR  0.189    .
+391            757    RRDGRWR|VG  0.089    .
+391            760    GRWRVGK|TA  0.263    .
+391            764    VGKTACR|HY  0.094    .
+391            767    TACRHYR|QH  0.350    .
+391            776    QGVVNGR|FA  0.110    .
+391            786    ETFLESR|RV  0.097    .
+391            787    TFLESRR|VS  0.093    .
+391            791    SRRVSYR|LK  0.140    .
+391            793    RVSYRLK|FQ  0.076    .
+391            816    FFHDVHR|HH  0.091    .
+391            823    HHIFSDR|GQ  0.086    .
+391            826    FSDRGQR|RD  0.171    .
+391            827    SDRGQRR|DS  0.366    .
+391            830    GQRRDSR|DG  0.308    .
+391            834    DSRDGPR|GG  0.090    .
+391            839    PRGGGVR|DS  0.091    .
+391            842    GGVRDSR|RR  0.206    .
+391            843    GVRDSRR|RD  0.108    .
+391            844    VRDSRRR|DN  0.202    .
+391            848    RRRDNER|PG  0.104    .
+391            854    RPGNQDR|RS  0.084    .
+391            855    PGNQDRR|ST  0.363    .
+391            859    DRRSTER|SG  0.142    .
+391            894    YQGQQGR|GL  0.175    .
+391            898    QGRGLNR|GG  0.087    .
+391            907    MGFNQGR|GR  0.112    .
+391            909    FNQGRGR|GG  0.097    .
+391            918    FNNQQDR|GD  0.094    .
+391            933    QDSDFNR|GR  0.145    .
+391            935    SDFNRGR|GR  0.115    .
+391            937    FNRGRGR|DQ  0.149    .
+391            940    GRGRDQR|GG  0.353    .
+391            944    DQRGGGR|DN  0.097    .
+391            956    FLSNQMR|GQ  0.173    .
+391            963    GQGFNLR|GG  0.096    .
+391            969    RGGGFNR|GG  0.127    .
+391            989    QQFSHER|GN  0.114    .
+391            997    NMGGGFR|GR  0.100    .
+391            999    GGGFRGR|GG  0.128    .
+391           1012    QGNQEER|GG  0.104    .
+391           1020    GFSGGFR|GR  0.109    .
+391           1022    SGGFRGR|GG  0.097    .
+391           1025    FRGRGGR|DR  0.311    .
+391           1027    GRGGRDR|NW  0.125    .
+391           1035    WEDNSNR|SN  0.121    .
+391           1040    NRSNNER|GG  0.138    .
+391           1046    RGGCSSR|EG  0.097    .
+391           1050    SSREGFR|GR  0.094    .
+391           1052    REGFRGR|EG  0.083    .
+391           1064    SAPDGPK|MD  0.057    .
+391           1074    LNANLAK|MA  0.102    .
+391           1088    GNNNSPK|NS  0.093    .
+391           1092    SPKNSSR|FE  0.123    .
+391           1105    TYNTPER|KQ  0.103    .
+391           1106    YNTPERK|QY  0.089    .
+391           1114    YGVTGDK|GA  0.075    .
+391           1156    GNQGQQR|GG  0.112    .
+391           1167    SHQGQER|VG  0.092    .
+391           1189    GNQGQQR|GG  0.112    .
+391           1200    GNQEQQR|LG  0.094    .
+391           1223    GNQGQQR|AG  0.112    .
+391           1234    GNQEQQR|VG  0.097    .
+391           1253    GNQGQQR|GG  0.128    .
+391           1276    GNQGQQR|EG  0.106    .
+391           1287    GNQGQQR|GN  0.127    .
+391           1295    NNYGNQR|QQ  0.087    .
+391           1305    TGSYGNK|GQ  0.077    .
+391           1321    GNQDSTK|QD  0.070    .
+391           1347    LSAIVNK|AG  0.074    .
+391           1353    KAGSSSK|TS  0.067    .
+391           1416    PSQFIQK|YT  0.081    .
+391           1422    KYTSGVK|QA  0.061    .
+391           1441    FPSLSQK|KQ  0.073    .
+391           1442    PSLSQKK|QQ  0.082    .
+391           1529    YNNQQQK|FP  0.081    .
+391           1552    IPHLVLK|SD  0.102    .
+391           1558    KSDSALR|SG  0.102    .
+391           1561    SALRSGR|RR  0.146    .
+391           1562    ALRSGRR|RQ  0.109    .
+391           1563    LRSGRRR|QT  0.337    .
+391           1569    RQTDVAR|NP  0.082    .
+391           1574    ARNPLDR|YG  0.131    .
+391           1584    GFLSANR|KW  0.070    .
+391           1585    FLSANRK|WV  0.133    .
+391           1594    EIDTEVK|SI  0.083    .
+391           1601    SIIWVLR|DS  0.117    .
+391           1640    PPTPSER|IV  0.142    .
+391           1662    TPNQQLK|DQ  0.078    .
+391           1686    GYLTHAR|FS  0.140    .
+391           1699    NHSISWK|RS  0.072    .
+391           1700    HSISWKR|SA  0.607 *ProP*
+391           1704    WKRSAMK|GW  0.090    .
+391           1707    SAMKGWR|NA  0.146    .
+391           1711    GWRNAGK|HS  0.082    .
+391           1716    GKHSIMK|HN  0.075    .
+391           1726    VILVVVK|FV  0.068    .
+391           1738    MYGYVGR|HV  0.136    .
+391           1754    ITWLMNK|YR  0.059    .
+391           1756    WLMNKYR|IT  0.154    .
+391           1797    PDLVTPR|FS  0.114    .
+391           1806    DQNPFPR|R-  0.100    .
+391           1807    QNPFPRR|--  0.149    .
+____________________________^_________________
+
+
+
+

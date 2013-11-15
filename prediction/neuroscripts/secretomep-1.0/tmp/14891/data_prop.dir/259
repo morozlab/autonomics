@@ -1,0 +1,288 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2234 259         
+MNRENSSFFRRVKTFSEDEIVAACRAGDCEKLLSARGKFEPDKFLGEAASAGQIGVLDYLITEGARDFSQAIEFAVQSGE      80
+CEVASFLILCSHCYTHVDSNAVQNFVHRGGEIHQSVDSDGLSEFVFLPKFNLPILISLVEEGRGTAGTDGDVDDCLWFLL     160
+ITRQYNHQMVWQNLGLTYISERWQFETMANSLTDLDLSKNQIGPSLPSCLSKLVNLSHLDCSDNKLTDLPFGRETQHYEY     240
+IIFTSPVPRFRIKISLNFLTLVKTFSEDEIVAACRAGDCEKLLSARGKFEPDKFLGEAASAGQIGVLDYLITEGARDFSQ     320
+AIEFAVQSGECEVASFLILCSHCYTHVDSNAVQNFVHRGGEIHQSVDSDGLSEFVFLPKFNLPILISLVEEGRGTAGTDG     400
+DVDDCLWFLLITRQYNHQMVWQNLGLTYISERWQFETMAKTLTDLDLSKNRIGPSLPSCLSKLVNLSHLDCSDNKLTDLP     480
+LFIFEMTLHSLNYSCNLVDRIPHCCPQTLRTLNLNSNRISSLPTFFAQTRLQTLQLSDNPITTFPSVLCSITSLQKLELE     560
+GCKFSNVPDELSRLEDLQYLTLPKIMRPASATRALPNPSPLLHHLKEKLFDLKPLYEMKLVVVGKAGSGKSTLIRRLGKD     640
+ITRKRNISTVGTHVTKLKMPIRDNSIRLPGTVSRTVTFHVWDLGGVDKFLGEAASAGQIGVLDYLITEGARDFSQAIEFA     720
+VQSGECEVASFLILCSHCTHVDSNAVQNFVHRGGEIHQSVDSDGLSEFVFLPKFNLPILISLVEEGRGTAGTDGDVDDCL     800
+WFLLITRQYNHQMVWQNLGLTYISERWQFETMANSLTDLDLSKNQIGPSLPSCLSKLVNLSHLDCSDNKLTDLPLFIFEM     880
+TLHSLNYSCNLVDRIPHCCPQTLRTLNLNSNRISSLPTFFAQTRLQTLQLSDNPITTFPSVLCSITSLQKLELEGCKFSN     960
+VPDELSRLEDLQYLTLPKIMRPASATRALPNPSPLLHHLKEKLFDLKPLYEMKLVVVGKAGSGKSTLIRRLGKDITRKRN    1040
+ISTVGTHVTKLKMPIRDNSIRLPGTVSRTVTFHVWDLGGVGAHNQCLLTPASLFVIVFSLIEDSVVELREWLGNISIRAP    1120
+NSSAIIVGTHKDKLPSTQAVEEKLNRVLDLIHCWGFGGNVSETVNVKLISSVSNEPEHFKTVDILSAELVRVAGTIECKV    1200
+EGNKTVKALGKLIPNSYFELIRKIVIQKSYFDSLHKVPVITQTELWDIVKEDSLLQDIETNNQLAGAVDIMKNLGILVHF    1280
+NEPSLQFLYFLDPCWLCNMMEIVVKLHEGYPHLASSGGILDQGAIRHVLKGNTVLPDELFPQYLKILNRFEIALKINKEK    1360
+LLVPSLLPHVLPFAVPGEKRYFERQITFSSLPSGLMYRLLVAAIKHIFSVAHLLQDVPAEESDQTTDKSDRTMSISEVSL    1440
+QSLLGIAGKMNLELPVGHESSEFTEILKFLKIWSRGLSFCHPSLHLFIIPLEVGYREGFDIVVSNNSMGSAALCHLVDNV    1520
+STLLDDWYLARFSRDVDSDNRVQQHVPCPSCHRHTFPYEECVAALGITDHILCPEENNLKIPLSDIVPDIFLSDLDDLYL    1600
+AGDLLFSESPDSLLGKGTFGCVYLGEHMGVKVAIKTFNSIPGYPEGAYLDLRREVSILKKMSNPCLVKMIAVKLRPRPCM    1680
+AIEYAPGGDLADKIKPDVVLPRVLLYKMIHQTSCALAYLHRHQVIYRDLKPSNILIFSMDVRVSPNVKLSDYGIAGEGMG    1760
+AKGFHGTPGYQAPEMLLYFGTEEYTTAVDVYSFAFLIYEVMCRSYPYSGQHRVDISQQVIASQRPHHYRTVPVCRMGLWN    1840
+LKKEMERCWAQDPELRPTMIDICKRVSHPGFLMHMGYTVLSGLPPTASYYLPSSSELIILSDTVTTINQALEVTILPDTL    1920
+ERYESCLGVVLHRDLLIALVSTNYCRSLLKFHTVPELSLFGIEETQVTAIAASTDFLLVGGQKGSIKKILADDLIEVVLG    2000
+KTILDTDRDILQILVEERTSETETVVVAHNSLIGSNTTKIFPVVQLIALTDVEIFILTSAFQQISKFQFGIPSPGRMLCV    2080
+SIQSKVFITQYGQKYVDVFDLVKQKRCSKRLEVAACSALDTTSRTLWVGTQFGSIYIFSSKRPFNLITRIRPCSGEIFTI    2160
+LPFYPTWKLESLSVHTMVFVSGKGKFADFARSNSDLPQNSRGDLGDGIFAFIFEEPSTGVLEEFESLSKENGLL          2240
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+.............P..................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+..........................................................................          2240
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 1
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+259              3    ----MNR|EN  0.088    .
+259             10    ENSSFFR|RV  0.134    .
+259             11    NSSFFRR|VK  0.237    .
+259             13    SFFRRVK|TF  0.135    .
+259             25    EIVAACR|AG  0.078    .
+259             31    RAGDCEK|LL  0.069    .
+259             36    EKLLSAR|GK  0.083    .
+259             38    LLSARGK|FE  0.113    .
+259             43    GKFEPDK|FL  0.087    .
+259             66    LITEGAR|DF  0.114    .
+259            108    VQNFVHR|GG  0.116    .
+259            129    EFVFLPK|FN  0.069    .
+259            143    SLVEEGR|GT  0.087    .
+259            163    WFLLITR|QY  0.078    .
+259            182    LTYISER|WQ  0.085    .
+259            199    TDLDLSK|NQ  0.052    .
+259            212    LPSCLSK|LV  0.085    .
+259            225    LDCSDNK|LT  0.058    .
+259            233    TDLPFGR|ET  0.103    .
+259            249    FTSPVPR|FR  0.120    .
+259            251    SPVPRFR|IK  0.086    .
+259            253    VPRFRIK|IS  0.068    .
+259            263    NFLTLVK|TF  0.056    .
+259            275    EIVAACR|AG  0.078    .
+259            281    RAGDCEK|LL  0.069    .
+259            286    EKLLSAR|GK  0.083    .
+259            288    LLSARGK|FE  0.113    .
+259            293    GKFEPDK|FL  0.087    .
+259            316    LITEGAR|DF  0.114    .
+259            358    VQNFVHR|GG  0.116    .
+259            379    EFVFLPK|FN  0.069    .
+259            393    SLVEEGR|GT  0.087    .
+259            413    WFLLITR|QY  0.078    .
+259            432    LTYISER|WQ  0.081    .
+259            440    QFETMAK|TL  0.063    .
+259            449    TDLDLSK|NR  0.051    .
+259            451    LDLSKNR|IG  0.070    .
+259            462    LPSCLSK|LV  0.085    .
+259            475    LDCSDNK|LT  0.061    .
+259            500    SCNLVDR|IP  0.106    .
+259            510    CCPQTLR|TL  0.065    .
+259            518    LNLNSNR|IS  0.077    .
+259            530    TFFAQTR|LQ  0.084    .
+259            556    SITSLQK|LE  0.051    .
+259            563    LELEGCK|FS  0.057    .
+259            573    VPDELSR|LE  0.072    .
+259            584    QYLTLPK|IM  0.057    .
+259            587    TLPKIMR|PA  0.126    .
+259            593    RPASATR|AL  0.081    .
+259            606    PLLHHLK|EK  0.058    .
+259            608    LHHLKEK|LF  0.068    .
+259            613    EKLFDLK|PL  0.060    .
+259            619    KPLYEMK|LV  0.076    .
+259            625    KLVVVGK|AG  0.074    .
+259            630    GKAGSGK|ST  0.092    .
+259            635    GKSTLIR|RL  0.133    .
+259            636    KSTLIRR|LG  0.103    .
+259            639    LIRRLGK|DI  0.247    .
+259            643    LGKDITR|KR  0.077    .
+259            644    GKDITRK|RN  0.078    .
+259            645    KDITRKR|NI  0.325    .
+259            656    VGTHVTK|LK  0.065    .
+259            658    THVTKLK|MP  0.065    .
+259            662    KLKMPIR|DN  0.149    .
+259            667    IRDNSIR|LP  0.116    .
+259            674    LPGTVSR|TV  0.133    .
+259            688    DLGGVDK|FL  0.083    .
+259            711    LITEGAR|DF  0.114    .
+259            752    VQNFVHR|GG  0.116    .
+259            773    EFVFLPK|FN  0.069    .
+259            787    SLVEEGR|GT  0.087    .
+259            807    WFLLITR|QY  0.078    .
+259            826    LTYISER|WQ  0.085    .
+259            843    TDLDLSK|NQ  0.052    .
+259            856    LPSCLSK|LV  0.085    .
+259            869    LDCSDNK|LT  0.061    .
+259            894    SCNLVDR|IP  0.106    .
+259            904    CCPQTLR|TL  0.065    .
+259            912    LNLNSNR|IS  0.077    .
+259            924    TFFAQTR|LQ  0.084    .
+259            950    SITSLQK|LE  0.051    .
+259            957    LELEGCK|FS  0.057    .
+259            967    VPDELSR|LE  0.072    .
+259            978    QYLTLPK|IM  0.057    .
+259            981    TLPKIMR|PA  0.126    .
+259            987    RPASATR|AL  0.081    .
+259           1000    PLLHHLK|EK  0.058    .
+259           1002    LHHLKEK|LF  0.068    .
+259           1007    EKLFDLK|PL  0.060    .
+259           1013    KPLYEMK|LV  0.076    .
+259           1019    KLVVVGK|AG  0.074    .
+259           1024    GKAGSGK|ST  0.092    .
+259           1029    GKSTLIR|RL  0.133    .
+259           1030    KSTLIRR|LG  0.103    .
+259           1033    LIRRLGK|DI  0.247    .
+259           1037    LGKDITR|KR  0.077    .
+259           1038    GKDITRK|RN  0.078    .
+259           1039    KDITRKR|NI  0.325    .
+259           1050    VGTHVTK|LK  0.065    .
+259           1052    THVTKLK|MP  0.065    .
+259           1056    KLKMPIR|DN  0.149    .
+259           1061    IRDNSIR|LP  0.116    .
+259           1068    LPGTVSR|TV  0.133    .
+259           1109    DSVVELR|EW  0.075    .
+259           1118    LGNISIR|AP  0.094    .
+259           1131    IIVGTHK|DK  0.065    .
+259           1133    VGTHKDK|LP  0.067    .
+259           1143    TQAVEEK|LN  0.069    .
+259           1146    VEEKLNR|VL  0.079    .
+259           1167    SETVNVK|LI  0.063    .
+259           1180    NEPEHFK|TV  0.070    .
+259           1191    LSAELVR|VA  0.134    .
+259           1199    AGTIECK|VE  0.057    .
+259           1204    CKVEGNK|TV  0.066    .
+259           1207    EGNKTVK|AL  0.084    .
+259           1211    TVKALGK|LI  0.066    .
+259           1222    SYFELIR|KI  0.080    .
+259           1223    YFELIRK|IV  0.081    .
+259           1228    RKIVIQK|SY  0.103    .
+259           1236    YFDSLHK|VP  0.051    .
+259           1250    ELWDIVK|ED  0.059    .
+259           1272    GAVDIMK|NL  0.069    .
+259           1305    MMEIVVK|LH  0.065    .
+259           1326    LDQGAIR|HV  0.121    .
+259           1330    AIRHVLK|GN  0.072    .
+259           1345    LFPQYLK|IL  0.056    .
+259           1349    YLKILNR|FE  0.084    .
+259           1355    RFEIALK|IN  0.059    .
+259           1358    IALKINK|EK  0.052    .
+259           1360    LKINKEK|LL  0.071    .
+259           1379    FAVPGEK|RY  0.057    .
+259           1380    AVPGEKR|YF  0.226    .
+259           1384    EKRYFER|QI  0.104    .
+259           1398    PSGLMYR|LL  0.092    .
+259           1405    LLVAAIK|HI  0.070    .
+259           1428    SDQTTDK|SD  0.083    .
+259           1431    TTDKSDR|TM  0.126    .
+259           1449    LLGIAGK|MN  0.062    .
+259           1468    EFTEILK|FL  0.056    .
+259           1471    EILKFLK|IW  0.066    .
+259           1475    FLKIWSR|GL  0.101    .
+259           1496    PLEVGYR|EG  0.081    .
+259           1531    DDWYLAR|FS  0.108    .
+259           1534    YLARFSR|DV  0.577 *ProP*
+259           1541    DVDSDNR|VQ  0.062    .
+259           1553    PCPSCHR|HT  0.100    .
+259           1580    PEENNLK|IP  0.050    .
+259           1616    PDSLLGK|GT  0.080    .
+259           1631    GEHMGVK|VA  0.071    .
+259           1635    GVKVAIK|TF  0.063    .
+259           1652    GAYLDLR|RE  0.073    .
+259           1653    AYLDLRR|EV  0.174    .
+259           1659    REVSILK|KM  0.052    .
+259           1660    EVSILKK|MS  0.118    .
+259           1668    SNPCLVK|MI  0.064    .
+259           1673    VKMIAVK|LR  0.054    .
+259           1675    MIAVKLR|PR  0.084    .
+259           1677    AVKLRPR|PC  0.093    .
+259           1693    GGDLADK|IK  0.057    .
+259           1695    DLADKIK|PD  0.062    .
+259           1702    PDVVLPR|VL  0.085    .
+259           1707    PRVLLYK|MI  0.073    .
+259           1721    ALAYLHR|HQ  0.083    .
+259           1727    RHQVIYR|DL  0.137    .
+259           1730    VIYRDLK|PS  0.108    .
+259           1742    IFSMDVR|VS  0.082    .
+259           1748    RVSPNVK|LS  0.081    .
+259           1762    GEGMGAK|GF  0.073    .
+259           1803    IYEVMCR|SY  0.114    .
+259           1812    PYSGQHR|VD  0.095    .
+259           1824    QVIASQR|PH  0.074    .
+259           1829    QRPHHYR|TV  0.177    .
+259           1835    RTVPVCR|MG  0.094    .
+259           1842    MGLWNLK|KE  0.052    .
+259           1843    GLWNLKK|EM  0.107    .
+259           1847    LKKEMER|CW  0.086    .
+259           1856    AQDPELR|PT  0.074    .
+259           1864    TMIDICK|RV  0.079    .
+259           1865    MIDICKR|VS  0.216    .
+259           1922    LPDTLER|YE  0.084    .
+259           1933    LGVVLHR|DL  0.108    .
+259           1946    VSTNYCR|SL  0.105    .
+259           1950    YCRSLLK|FH  0.061    .
+259           1983    LLVGGQK|GS  0.061    .
+259           1987    GQKGSIK|KI  0.063    .
+259           1988    QKGSIKK|IL  0.102    .
+259           2001    IEVVLGK|TI  0.062    .
+259           2008    TILDTDR|DI  0.119    .
+259           2018    QILVEER|TS  0.085    .
+259           2039    IGSNTTK|IF  0.071    .
+259           2066    AFQQISK|FQ  0.064    .
+259           2076    GIPSPGR|ML  0.098    .
+259           2085    CVSIQSK|VF  0.070    .
+259           2094    ITQYGQK|YV  0.077    .
+259           2103    DVFDLVK|QK  0.054    .
+259           2105    FDLVKQK|RC  0.063    .
+259           2106    DLVKQKR|CS  0.194    .
+259           2109    KQKRCSK|RL  0.112    .
+259           2110    QKRCSKR|LE  0.196    .
+259           2124    ALDTTSR|TL  0.084    .
+259           2141    IYIFSSK|RP  0.057    .
+259           2142    YIFSSKR|PF  0.130    .
+259           2149    PFNLITR|IR  0.072    .
+259           2151    NLITRIR|PC  0.130    .
+259           2168    PFYPTWK|LE  0.066    .
+259           2183    MVFVSGK|GK  0.073    .
+259           2185    FVSGKGK|FA  0.103    .
+259           2191    KFADFAR|SN  0.212    .
+259           2201    DLPQNSR|GD  0.068    .
+259           2229    EFESLSK|EN  0.055    .
+____________________________^_________________
+
+
+
+

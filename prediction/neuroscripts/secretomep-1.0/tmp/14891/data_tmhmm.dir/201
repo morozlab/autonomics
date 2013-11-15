@@ -1,0 +1,9 @@
+# 201 Length: 2495
+# 201 Number of predicted TMHs:  1
+# 201 Exp number of AAs in TMHs: 22.06781
+# 201 Exp number, first 60 AAs:  22.06469
+# 201 Total prob of N-in:        0.75417
+# 201 POSSIBLE N-term signal sequence
+201	TMHMM2.0	inside	     1    34
+201	TMHMM2.0	TMhelix	    35    52
+201	TMHMM2.0	outside	    53  2495

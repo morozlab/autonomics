@@ -1,0 +1,596 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 3851 47          
+MICYRICMKSWILVENCPMNNLSMIPIGYFNQKLRMIHYILSVWRRRPHLSSRTVTHSERTAPILMKLGQNSVWCLIRSE      80
+KNFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKKSILAFQISLNDRTSKFEVSILSGIGDMTNFVISGKKE     160
+HDCAGGKTLKPGCLPLLTIHRFWHSRRVRAVVRVWCTISVMLAHGEYERWTQQEWLHNPPLLVRRRFRSGIDTEGMSPRK     240
+ASSVPCGGSRWINLYQCPGERQESRLVCQQGSRPSKGYTVFHITECYGGCGGGYVSGFPEWGNPVHNQIQVCVRWEVAVA     320
+FIPDTGSESEAELTVRLGVHERPTFFPGLGECRRHSPRCLLQKRHRGLEFDKFTYYYEGQLCCSFIKYFNGTIAYTCNIK     400
+TVGDEVRRRFRSGIDTEGMSPRKASSVPCGGSRWINLYQCPGERQESRLVCQQGSRPSEGYTVFHLTLCYGGCGGGYVSG     480
+FPEWGNPVHSQIQVCVRREVACIPNTGSDGSTVRAVKCARQYEQFWTPGKDGWIKCADRSFGEVEIGSRETLCYQRAEVE     560
+LETVLVSEVIPRLLGKGVCESLYGEGMSHSVVVADIAPRMTAKEGPSGWGEGTPDSGIYGGTRDSEFVHVYSENRQCSSW     640
+TLLRGTVHSVIVMLNSQDMSIELRLSGMASAAVEHFLKEDEEVKGFSFENCRRNAFLAKQGAEMPKARKTGTTICGVMFN     720
+EGVVLGADTRATGGSIVCDLNCEKIHYIADNVFCCGAGTAADTEFTTKMISSKMELLKLRTGREGRVISALRMLKQYLFR     800
+YQGHISAALVLGGVDVNGPALYTVYPHGSTDKLPYVTMGSGSLAAMSVFEDGFKMGMNVCSGWFLNTTYLGRTQWVRAIW     880
+NETRIIAQRKVGHVDLLHLVCISLEISKPLCLFAKGIRVKAFGLHPGGEKIHNSVKFQYFWIRFFLLGKPNNSLSCDKVS     960
+AKINFFAKRPSLPTVDGQHLVRIAPVVRFPPVYPTVLNSWAIAVDHVILISLYIVYPHGSTDKLPYVTMGSRSLAAMSAS    1040
+VFEDGFKIGMNVCSMGKKLKLGQSIAWQADSSGWGAYDREEQKPRVQVSPRGDTTSSWEAWESANVGSSSSNWGGGDVWG    1120
+NADATAPAQTESNYPSLSGRRESEYQTPSPPPNDFIPGYAGLFSQGTASSSSTSSGFRTSSRSQSGRRKERVNPSATRSL    1200
+RNIFSIEEPDLGPSQPQASNPYASSTNINKPIGGKVSFVPPSVTNPLVHPAPNNADQHLLGILREPKRVQKSAPPNTSPP    1280
+KTKTTSPKNSNISDKSPSTQLKQMVGAAMGKKLKLGQSIAWQADSSGWGAYDREEQKPRVQVSPRGDTTSSWEAWESANV    1360
+GSSSSNWGGGDVWGNADATAPAQTESNYPSLSGRRESEYQTPSPPPNDFIPGYAGLFSQGTASSSSTSSGFRTSSRSQSG    1440
+RRKERVNPSATRSLRNIFSIEEPDLGPSQPQASNPYASSTNINKPIGGKVSFVPPSVTNPLVHPAPNNADQHLLGILREP    1520
+KRVQKSAPPNTSPPKTKTTSPKNSNISDKSPSTQLKQMVGAGSGDIYNELLKQLVELDRRDANKGKHKVWLAGKHSIMKH    1600
+NAIIIILYIGHVRTLTHVQNSRDKNIRDRCVTNMSSDWQTADTVLSRRTTAKDRKSNSAVNKAARSGNTITEKKYGAGGN    1680
+TQKAIQKNTANLDRETEELKLRPRFRDTIGGRLLSTESGCPLNRGPTVAVNVNQICENFAQDNELFQMSLIKLKSAQNAH    1760
+LKELNVLFPTGPRFCKLVKKCLSYEQKTWFCTYVFSQIWLTFTAYHSLAPATYLGIFCVLSATCNRISGTNTTNRTTDGP    1840
+RFSGQPDLVDKSLPPMVSLNRGPTLKKAKGTLILAGGVAFFRAGPPPACYITLNRSSEQTVKSQSFKITQYIFSLKVYIQ    1920
+LFHNVLSCSPSPRKENPQKTDENKVSESVPEEAQACSTTSTAETPPTGIEEQKPAEEKKENDKLVVPDSEPVKEAPGAVA    2000
+GGMRFKRLDLRFLEMQDQCRISLSKYNMQYSNFQGSQVKSFETYFKRYDRNRSAVSRYKKKCIQPTISGEIYPVTKSGVT    2080
+KSGSETWWYLYLAEPKTLFHGVLYNISAQNRVINCYHECYHDLRILARYIYIILVTALSCCYTTAIRGADAWESQTAPSG    2160
+SSLRFPSISSPDGWEARANSNSAKRVPRYQGTSPDIRIQGTNGEESRGTKMCIVLALVGVDTHEKSLSHLIETFHGCLPP    2240
+AAFEVHVLEDVLHNGVRVARRIFSQNLVDERGVPPGPLVRYRKFPILSRSLVMTIGHFRYRTNGPGGTPRSSTKFCEKTR    2320
+HATLNLNNAYHLFFITFPISVGDYTSVDLLYLLIPPFSLQVNFGQALSKFPLIPGYKMIAFSNQGAIKPCVTGPQTLADA    2400
+EFLVMVGLPAAGKSTWAEKKSLETPEKRYNILGTNLIMEKMKVMGLGRKGNYSGRWDSLITKACKVLNELFKIVERKMVK    2480
+FPRNIILDQTNVYESARRRKIKSFSRFGHRIAVVVVVKGEELQKRAAHREKEEGIVIPDSAVHEMMKNFSLPALKEGLSE    2560
+VRFVELGAEEAKGQVEIWNKEGAEKKPSGLAPNKGPVGGAKKRFQGRPPFEDALNKRAKQEGDGGEMSQEGGQGSRQGPT    2640
+SSNDQRIGPMDQRGGHMVQRGGPMDQRGGPMEQRGGPMDQRGGPMDQRGGPMDQRGGPMDQKRGLLDPRGPPMVHRRGPN    2720
+DQRGGPMDQRRPMDQREGPMDQRGGPMGFGGGPMDQNGPMDQRGGPMDQRGGPMDQRGGPMDQREGPMDQRGGPMGLGGG    2800
+PMDIDGQHMDHKRGLLDPRAGSSEKRRGLLDEPRGPHVQRGGRIDQREGSMDQRGGPMDQREGPMDQRGGPMDQIGGPMD    2880
+QIGGPMDQRRPQNSRDASREKGRSPGRDRMNRSHSDHPRGRSNERRGDDRRRPHDRRDSDRNAHDRRGSNDRRRDDMRRD    2960
+GRGRRRYEISNTIRGIHSGVLDDMRHDSGFLTSLSSLNITFTWFPGSHQLTSPNHVPYLVSSPTDNKLPRTTYDRRSDDR    3040
+SDNPRDNGTLILADGVAGPPNADNNPYSGDHDVGLIALNLNYVKNLIDPSTFFHDVHRHHIFSDRGQRRDSRDGPRGGGV    3120
+RDSRRQDNERPGNQDRRSTERSGGGPHQPLQNIPADNQQGGPPPVVQEGYQGQQGGGLNRGGMGFNQGRGRGGFNNQQDR    3200
+GDQGFNQNQDSDFNRGRGRDQRGGGRDNQQTFLSNQMRGQGFNLRGGGFNRGGDEQTGHGNQDQQQFSHERGNMGGGFRG    3280
+RGGMEGFQGNQEERGGFSGGFRGRGGRDRNWEDNSNRSNNERGGCSSREGFRGREGPHGSAPDGPKMDMLNANLAKMANQ    3360
+IQSGNNNSPKNSSRFEAEALTYNTPERKQYGVTGDKGAGGGNQGTSGFGGQQSNYGNPGQQGGGTQAQDSSGNQGQQRGG    3440
+NHSHQGQERVGNYGNQGQQQGSNHGNQGQQRGGNYGNQEQQRLGNYGNIGQQPATVNYGNQGQQRAGNHGNQEQQRVGNY    3520
+GNQGQQQGGNQGQQRGGNHGNQGQQLATGNYGNQGQQREGLIPLVPVVAPLLIPLECSFVKNELLKNNFETNPSVRKELI    3600
+QHTPVVCFHTSTPFSRDSSPIDTQNIWDTLYKGRISKRSARDPATHYDYSNILRQLSAIVNKAGSSSKTSQQSTTPPVQQ    3680
+YGVAYPPGGYGSGGTVSDPASGGSYGASGSYGESGGQYNSGVQEPSQFIQKYTSGVKQAPPAAPAQPDGFPSLSQKKQQP    3760
+PFNQHYGSQLYNTGGAVPSIPTQQYGAGTQQYSNTQQQFQQQQYGAVPPQQQTQQYNTQQQQYQQYGGGNTGQQQQYNNQ    3840
+QQKFPSYQNYG                                                                         3920
+................................................................................      80
+................................................................................     160
+............................P......................................P............     240
+................................................................................     320
+................................................................................     400
+..........P.....................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+...........................P....................................................    2240
+................................................................................    2320
+................................................................................    2400
+................................................................................    2480
+................................................................................    2560
+................................................................................    2640
+................................................................................    2720
+................................................................................    2800
+................................................................................    2880
+...............................P................................................    2960
+................................................................................    3040
+................................................................................    3120
+................................................................................    3200
+................................................................................    3280
+................................................................................    3360
+................................................................................    3440
+................................................................................    3520
+................................................................................    3600
+................................................................................    3680
+................................................................................    3760
+................................................................................    3840
+...........                                                                         3920
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 5
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+47               5    --MICYR|IC  0.088    .
+47               9    CYRICMK|SW  0.085    .
+47              33    IGYFNQK|LR  0.059    .
+47              35    YFNQKLR|MI  0.151    .
+47              45    YILSVWR|RR  0.061    .
+47              46    ILSVWRR|RP  0.157    .
+47              47    LSVWRRR|PH  0.113    .
+47              53    RPHLSSR|TV  0.283    .
+47              60    TVTHSER|TA  0.086    .
+47              67    TAPILMK|LG  0.062    .
+47              78    SVWCLIR|SE  0.096    .
+47              81    CLIRSEK|NF  0.117    .
+47             122    AAAAAAK|KS  0.066    .
+47             123    AAAAAKK|SI  0.170    .
+47             135    QISLNDR|TS  0.082    .
+47             138    LNDRTSK|FE  0.142    .
+47             158    NFVISGK|KE  0.061    .
+47             159    FVISGKK|EH  0.082    .
+47             167    HDCAGGK|TL  0.059    .
+47             170    AGGKTLK|PG  0.057    .
+47             181    PLLTIHR|FW  0.082    .
+47             186    HRFWHSR|RV  0.175    .
+47             187    RFWHSRR|VR  0.130    .
+47             189    WHSRRVR|AV  0.541 *ProP*
+47             193    RVRAVVR|VW  0.102    .
+47             209    AHGEYER|WT  0.088    .
+47             224    NPPLLVR|RR  0.073    .
+47             225    PPLLVRR|RF  0.150    .
+47             226    PLLVRRR|FR  0.161    .
+47             228    LVRRRFR|SG  0.573 *ProP*
+47             239    TEGMSPR|KA  0.167    .
+47             240    EGMSPRK|AS  0.076    .
+47             250    VPCGGSR|WI  0.086    .
+47             261    YQCPGER|QE  0.081    .
+47             265    GERQESR|LV  0.175    .
+47             273    VCQQGSR|PS  0.071    .
+47             276    QGSRPSK|GY  0.170    .
+47             314    QIQVCVR|WE  0.087    .
+47             336    EAELTVR|LG  0.081    .
+47             342    RLGVHER|PT  0.097    .
+47             353    PGLGECR|RH  0.067    .
+47             354    GLGECRR|HS  0.126    .
+47             358    CRRHSPR|CL  0.168    .
+47             363    PRCLLQK|RH  0.068    .
+47             364    RCLLQKR|HR  0.173    .
+47             366    LLQKRHR|GL  0.115    .
+47             372    RGLEFDK|FT  0.075    .
+47             387    LCCSFIK|YF  0.065    .
+47             400    AYTCNIK|TV  0.073    .
+47             407    TVGDEVR|RR  0.088    .
+47             408    VGDEVRR|RF  0.118    .
+47             409    GDEVRRR|FR  0.198    .
+47             411    EVRRRFR|SG  0.502 *ProP*
+47             422    TEGMSPR|KA  0.167    .
+47             423    EGMSPRK|AS  0.076    .
+47             433    VPCGGSR|WI  0.086    .
+47             444    YQCPGER|QE  0.081    .
+47             448    GERQESR|LV  0.175    .
+47             456    VCQQGSR|PS  0.079    .
+47             497    QIQVCVR|RE  0.084    .
+47             498    IQVCVRR|EV  0.223    .
+47             514    SDGSTVR|AV  0.136    .
+47             517    STVRAVK|CA  0.184    .
+47             520    RAVKCAR|QY  0.107    .
+47             530    QFWTPGK|DG  0.063    .
+47             535    GKDGWIK|CA  0.080    .
+47             539    WIKCADR|SF  0.176    .
+47             549    EVEIGSR|ET  0.070    .
+47             556    ETLCYQR|AE  0.068    .
+47             572    VSEVIPR|LL  0.124    .
+47             576    IPRLLGK|GV  0.116    .
+47             599    VADIAPR|MT  0.100    .
+47             603    APRMTAK|EG  0.070    .
+47             623    GIYGGTR|DS  0.100    .
+47             635    HVYSENR|QC  0.075    .
+47             644    SSWTLLR|GT  0.091    .
+47             664    DMSIELR|LS  0.097    .
+47             678    AVEHFLK|ED  0.062    .
+47             684    KEDEEVK|GF  0.059    .
+47             692    FSFENCR|RN  0.067    .
+47             693    SFENCRR|NA  0.128    .
+47             699    RNAFLAK|QG  0.069    .
+47             706    QGAEMPK|AR  0.069    .
+47             708    AEMPKAR|KT  0.197    .
+47             709    EMPKARK|TG  0.073    .
+47             730    VLGADTR|AT  0.105    .
+47             744    CDLNCEK|IH  0.057    .
+47             768    DTEFTTK|MI  0.070    .
+47             773    TKMISSK|ME  0.073    .
+47             778    SKMELLK|LR  0.063    .
+47             780    MELLKLR|TG  0.085    .
+47             783    LKLRTGR|EG  0.175    .
+47             786    RTGREGR|VI  0.347    .
+47             792    RVISALR|ML  0.096    .
+47             795    SALRMLK|QY  0.085    .
+47             800    LKQYLFR|YQ  0.121    .
+47             832    PHGSTDK|LP  0.059    .
+47             854    VFEDGFK|MG  0.056    .
+47             872    NTTYLGR|TQ  0.066    .
+47             877    GRTQWVR|AI  0.109    .
+47             884    AIWNETR|II  0.090    .
+47             889    TRIIAQR|KV  0.178    .
+47             890    RIIAQRK|VG  0.083    .
+47             908    ISLEISK|PL  0.056    .
+47             915    PLCLFAK|GI  0.079    .
+47             918    LFAKGIR|VK  0.077    .
+47             920    AKGIRVK|AF  0.077    .
+47             930    LHPGGEK|IH  0.057    .
+47             936    KIHNSVK|FQ  0.069    .
+47             943    FQYFWIR|FF  0.095    .
+47             949    RFFLLGK|PN  0.056    .
+47             958    NSLSCDK|VS  0.058    .
+47             962    CDKVSAK|IN  0.070    .
+47             968    KINFFAK|RP  0.064    .
+47             969    INFFAKR|PS  0.188    .
+47             982    DGQHLVR|IA  0.090    .
+47             988    RIAPVVR|FP  0.086    .
+47            1023    PHGSTDK|LP  0.058    .
+47            1032    YVTMGSR|SL  0.089    .
+47            1047    VFEDGFK|IG  0.057    .
+47            1057    NVCSMGK|KL  0.057    .
+47            1058    VCSMGKK|LK  0.082    .
+47            1060    SMGKKLK|LG  0.065    .
+47            1079    GWGAYDR|EE  0.082    .
+47            1083    YDREEQK|PR  0.059    .
+47            1085    REEQKPR|VQ  0.079    .
+47            1091    RVQVSPR|GD  0.128    .
+47            1140    YPSLSGR|RE  0.128    .
+47            1141    PSLSGRR|ES  0.127    .
+47            1178    STSSGFR|TS  0.118    .
+47            1182    GFRTSSR|SQ  0.150    .
+47            1187    SRSQSGR|RK  0.183    .
+47            1188    RSQSGRR|KE  0.112    .
+47            1189    SQSGRRK|ER  0.073    .
+47            1191    SGRRKER|VN  0.252    .
+47            1198    VNPSATR|SL  0.124    .
+47            1201    SATRSLR|NI  0.275    .
+47            1230    SSTNINK|PI  0.075    .
+47            1235    NKPIGGK|VS  0.054    .
+47            1264    HLLGILR|EP  0.074    .
+47            1267    GILREPK|RV  0.149    .
+47            1268    ILREPKR|VQ  0.142    .
+47            1271    EPKRVQK|SA  0.293    .
+47            1281    PNTSPPK|TK  0.064    .
+47            1283    TSPPKTK|TT  0.103    .
+47            1288    TKTTSPK|NS  0.078    .
+47            1295    NSNISDK|SP  0.170    .
+47            1302    SPSTQLK|QM  0.081    .
+47            1311    VGAAMGK|KL  0.064    .
+47            1312    GAAMGKK|LK  0.079    .
+47            1314    AMGKKLK|LG  0.060    .
+47            1333    GWGAYDR|EE  0.082    .
+47            1337    YDREEQK|PR  0.059    .
+47            1339    REEQKPR|VQ  0.079    .
+47            1345    RVQVSPR|GD  0.128    .
+47            1394    YPSLSGR|RE  0.128    .
+47            1395    PSLSGRR|ES  0.127    .
+47            1432    STSSGFR|TS  0.118    .
+47            1436    GFRTSSR|SQ  0.150    .
+47            1441    SRSQSGR|RK  0.183    .
+47            1442    RSQSGRR|KE  0.112    .
+47            1443    SQSGRRK|ER  0.073    .
+47            1445    SGRRKER|VN  0.252    .
+47            1452    VNPSATR|SL  0.124    .
+47            1455    SATRSLR|NI  0.275    .
+47            1484    SSTNINK|PI  0.075    .
+47            1489    NKPIGGK|VS  0.054    .
+47            1518    HLLGILR|EP  0.074    .
+47            1521    GILREPK|RV  0.149    .
+47            1522    ILREPKR|VQ  0.142    .
+47            1525    EPKRVQK|SA  0.293    .
+47            1535    PNTSPPK|TK  0.064    .
+47            1537    TSPPKTK|TT  0.103    .
+47            1542    TKTTSPK|NS  0.078    .
+47            1549    NSNISDK|SP  0.170    .
+47            1556    SPSTQLK|QM  0.084    .
+47            1572    IYNELLK|QL  0.056    .
+47            1579    QLVELDR|RD  0.078    .
+47            1580    LVELDRR|DA  0.185    .
+47            1584    DRRDANK|GK  0.088    .
+47            1586    RDANKGK|HK  0.068    .
+47            1588    ANKGKHK|VW  0.077    .
+47            1594    KVWLAGK|HS  0.063    .
+47            1599    GKHSIMK|HN  0.070    .
+47            1613    LYIGHVR|TL  0.094    .
+47            1622    THVQNSR|DK  0.093    .
+47            1624    VQNSRDK|NI  0.069    .
+47            1627    SRDKNIR|DR  0.115    .
+47            1629    DKNIRDR|CV  0.123    .
+47            1647    ADTVLSR|RT  0.083    .
+47            1648    DTVLSRR|TT  0.113    .
+47            1652    SRRTTAK|DR  0.080    .
+47            1654    RTTAKDR|KS  0.084    .
+47            1655    TTAKDRK|SN  0.192    .
+47            1662    SNSAVNK|AA  0.112    .
+47            1665    AVNKAAR|SG  0.151    .
+47            1673    GNTITEK|KY  0.087    .
+47            1674    NTITEKK|YG  0.103    .
+47            1683    AGGNTQK|AI  0.069    .
+47            1687    TQKAIQK|NT  0.063    .
+47            1694    NTANLDR|ET  0.091    .
+47            1700    RETEELK|LR  0.054    .
+47            1702    TEELKLR|PR  0.079    .
+47            1704    ELKLRPR|FR  0.108    .
+47            1706    KLRPRFR|DT  0.202    .
+47            1712    RDTIGGR|LL  0.087    .
+47            1724    SGCPLNR|GP  0.086    .
+47            1752    FQMSLIK|LK  0.068    .
+47            1754    MSLIKLK|SA  0.085    .
+47            1762    AQNAHLK|EL  0.077    .
+47            1773    LFPTGPR|FC  0.070    .
+47            1776    TGPRFCK|LV  0.202    .
+47            1779    RFCKLVK|KC  0.058    .
+47            1780    FCKLVKK|CL  0.143    .
+47            1787    CLSYEQK|TW  0.068    .
+47            1826    LSATCNR|IS  0.111    .
+47            1835    GTNTTNR|TT  0.115    .
+47            1841    RTTDGPR|FS  0.092    .
+47            1851    QPDLVDK|SL  0.078    .
+47            1861    PMVSLNR|GP  0.067    .
+47            1866    NRGPTLK|KA  0.074    .
+47            1867    RGPTLKK|AK  0.102    .
+47            1869    PTLKKAK|GT  0.070    .
+47            1882    GGVAFFR|AG  0.072    .
+47            1895    CYITLNR|SS  0.135    .
+47            1902    SSEQTVK|SQ  0.093    .
+47            1907    VKSQSFK|IT  0.083    .
+47            1916    QYIFSLK|VY  0.064    .
+47            1933    SCSPSPR|KE  0.126    .
+47            1934    CSPSPRK|EN  0.075    .
+47            1939    RKENPQK|TD  0.073    .
+47            1944    QKTDENK|VS  0.065    .
+47            1973    TGIEEQK|PA  0.081    .
+47            1978    QKPAEEK|KE  0.063    .
+47            1979    KPAEEKK|EN  0.144    .
+47            1983    EKKENDK|LV  0.062    .
+47            1993    PDSEPVK|EA  0.074    .
+47            2004    AVAGGMR|FK  0.086    .
+47            2006    AGGMRFK|RL  0.062    .
+47            2007    GGMRFKR|LD  0.496    .
+47            2011    FKRLDLR|FL  0.108    .
+47            2020    EMQDQCR|IS  0.082    .
+47            2025    CRISLSK|YN  0.069    .
+47            2039    FQGSQVK|SF  0.089    .
+47            2046    SFETYFK|RY  0.064    .
+47            2047    FETYFKR|YD  0.119    .
+47            2050    YFKRYDR|NR  0.201    .
+47            2052    KRYDRNR|SA  0.148    .
+47            2057    NRSAVSR|YK  0.148    .
+47            2059    SAVSRYK|KK  0.067    .
+47            2060    AVSRYKK|KC  0.313    .
+47            2061    VSRYKKK|CI  0.157    .
+47            2076    EIYPVTK|SG  0.072    .
+47            2081    TKSGVTK|SG  0.116    .
+47            2096    LYLAEPK|TL  0.062    .
+47            2111    NISAQNR|VI  0.099    .
+47            2124    ECYHDLR|IL  0.086    .
+47            2128    DLRILAR|YI  0.160    .
+47            2147    CYTTAIR|GA  0.106    .
+47            2164    PSGSSLR|FP  0.099    .
+47            2177    PDGWEAR|AN  0.117    .
+47            2184    ANSNSAK|RV  0.118    .
+47            2185    NSNSAKR|VP  0.185    .
+47            2188    SAKRVPR|YQ  0.505 *ProP*
+47            2197    GTSPDIR|IQ  0.121    .
+47            2207    TNGEESR|GT  0.105    .
+47            2210    EESRGTK|MC  0.111    .
+47            2225    GVDTHEK|SL  0.094    .
+47            2257    VLHNGVR|VA  0.115    .
+47            2260    NGVRVAR|RI  0.250    .
+47            2261    GVRVARR|IF  0.248    .
+47            2271    QNLVDER|GV  0.114    .
+47            2280    PPGPLVR|YR  0.072    .
+47            2282    GPLVRYR|KF  0.089    .
+47            2283    PLVRYRK|FP  0.192    .
+47            2289    KFPILSR|SL  0.099    .
+47            2299    MTIGHFR|YR  0.099    .
+47            2301    IGHFRYR|TN  0.147    .
+47            2310    GPGGTPR|SS  0.177    .
+47            2314    TPRSSTK|FC  0.106    .
+47            2318    STKFCEK|TR  0.063    .
+47            2320    KFCEKTR|HA  0.108    .
+47            2369    FGQALSK|FP  0.059    .
+47            2377    PLIPGYK|MI  0.061    .
+47            2388    SNQGAIK|PC  0.074    .
+47            2413    GLPAAGK|ST  0.087    .
+47            2419    KSTWAEK|KS  0.055    .
+47            2420    STWAEKK|SL  0.203    .
+47            2427    SLETPEK|RY  0.065    .
+47            2428    LETPEKR|YN  0.153    .
+47            2440    TNLIMEK|MK  0.061    .
+47            2442    LIMEKMK|VM  0.082    .
+47            2448    KVMGLGR|KG  0.080    .
+47            2449    VMGLGRK|GN  0.082    .
+47            2455    KGNYSGR|WD  0.110    .
+47            2462    WDSLITK|AC  0.062    .
+47            2465    LITKACK|VL  0.059    .
+47            2472    VLNELFK|IV  0.090    .
+47            2476    LFKIVER|KM  0.072    .
+47            2477    FKIVERK|MV  0.115    .
+47            2480    VERKMVK|FP  0.065    .
+47            2483    KMVKFPR|NI  0.112    .
+47            2497    NVYESAR|RR  0.072    .
+47            2498    VYESARR|RK  0.099    .
+47            2499    YESARRR|KI  0.132    .
+47            2500    ESARRRK|IK  0.363    .
+47            2502    ARRRKIK|SF  0.480    .
+47            2506    KIKSFSR|FG  0.093    .
+47            2510    FSRFGHR|IA  0.092    .
+47            2518    AVVVVVK|GE  0.064    .
+47            2524    KGEELQK|RA  0.064    .
+47            2525    GEELQKR|AA  0.259    .
+47            2529    QKRAAHR|EK  0.147    .
+47            2531    RAAHREK|EE  0.091    .
+47            2547    AVHEMMK|NF  0.058    .
+47            2555    FSLPALK|EG  0.056    .
+47            2562    EGLSEVR|FV  0.107    .
+47            2572    LGAEEAK|GQ  0.066    .
+47            2580    QVEIWNK|EG  0.058    .
+47            2585    NKEGAEK|KP  0.061    .
+47            2586    KEGAEKK|PS  0.114    .
+47            2594    SGLAPNK|GP  0.059    .
+47            2601    GPVGGAK|KR  0.077    .
+47            2602    PVGGAKK|RF  0.075    .
+47            2603    VGGAKKR|FQ  0.221    .
+47            2607    KKRFQGR|PP  0.091    .
+47            2616    FEDALNK|RA  0.070    .
+47            2617    EDALNKR|AK  0.212    .
+47            2619    ALNKRAK|QE  0.132    .
+47            2636    EGGQGSR|QG  0.070    .
+47            2646    TSSNDQR|IG  0.104    .
+47            2653    IGPMDQR|GG  0.092    .
+47            2660    GGHMVQR|GG  0.101    .
+47            2667    GGPMDQR|GG  0.081    .
+47            2674    GGPMEQR|GG  0.079    .
+47            2681    GGPMDQR|GG  0.077    .
+47            2688    GGPMDQR|GG  0.076    .
+47            2695    GGPMDQR|GG  0.072    .
+47            2702    GGPMDQK|RG  0.052    .
+47            2703    GPMDQKR|GL  0.271    .
+47            2709    RGLLDPR|GP  0.075    .
+47            2716    GPPMVHR|RG  0.085    .
+47            2717    PPMVHRR|GP  0.298    .
+47            2723    RGPNDQR|GG  0.073    .
+47            2730    GGPMDQR|RP  0.082    .
+47            2731    GPMDQRR|PM  0.271    .
+47            2736    RRPMDQR|EG  0.083    .
+47            2743    EGPMDQR|GG  0.080    .
+47            2763    NGPMDQR|GG  0.074    .
+47            2770    GGPMDQR|GG  0.076    .
+47            2777    GGPMDQR|GG  0.074    .
+47            2784    GGPMDQR|EG  0.071    .
+47            2791    EGPMDQR|GG  0.082    .
+47            2812    GQHMDHK|RG  0.058    .
+47            2813    QHMDHKR|GL  0.232    .
+47            2819    RGLLDPR|AG  0.082    .
+47            2825    RAGSSEK|RR  0.056    .
+47            2826    AGSSEKR|RG  0.132    .
+47            2827    GSSEKRR|GL  0.342    .
+47            2834    GLLDEPR|GP  0.099    .
+47            2840    RGPHVQR|GG  0.102    .
+47            2843    HVQRGGR|ID  0.207    .
+47            2847    GGRIDQR|EG  0.096    .
+47            2854    EGSMDQR|GG  0.086    .
+47            2861    GGPMDQR|EG  0.071    .
+47            2868    EGPMDQR|GG  0.070    .
+47            2889    GGPMDQR|RP  0.072    .
+47            2890    GPMDQRR|PQ  0.141    .
+47            2895    RRPQNSR|DA  0.156    .
+47            2899    NSRDASR|EK  0.108    .
+47            2901    RDASREK|GR  0.084    .
+47            2903    ASREKGR|SP  0.186    .
+47            2907    KGRSPGR|DR  0.087    .
+47            2909    RSPGRDR|MN  0.086    .
+47            2912    GRDRMNR|SH  0.557 *ProP*
+47            2919    SHSDHPR|GR  0.164    .
+47            2921    SDHPRGR|SN  0.201    .
+47            2925    RGRSNER|RG  0.085    .
+47            2926    GRSNERR|GD  0.331    .
+47            2930    ERRGDDR|RR  0.083    .
+47            2931    RRGDDRR|RP  0.145    .
+47            2932    RGDDRRR|PH  0.113    .
+47            2936    RRRPHDR|RD  0.135    .
+47            2937    RRPHDRR|DS  0.304    .
+47            2941    DRRDSDR|NA  0.175    .
+47            2946    DRNAHDR|RG  0.098    .
+47            2947    RNAHDRR|GS  0.199    .
+47            2952    RRGSNDR|RR  0.114    .
+47            2953    RGSNDRR|RD  0.146    .
+47            2954    GSNDRRR|DD  0.191    .
+47            2958    RRRDDMR|RD  0.136    .
+47            2959    RRDDMRR|DG  0.167    .
+47            2962    DMRRDGR|GR  0.240    .
+47            2964    RRDGRGR|RR  0.087    .
+47            2965    RDGRGRR|RY  0.438    .
+47            2966    DGRGRRR|YE  0.115    .
+47            2974    EISNTIR|GI  0.136    .
+47            2985    GVLDDMR|HD  0.097    .
+47            3027    SSPTDNK|LP  0.053    .
+47            3030    TDNKLPR|TT  0.130    .
+47            3035    PRTTYDR|RS  0.076    .
+47            3036    RTTYDRR|SD  0.191    .
+47            3040    DRRSDDR|SD  0.125    .
+47            3045    DRSDNPR|DN  0.207    .
+47            3084    LNLNYVK|NL  0.056    .
+47            3098    FFHDVHR|HH  0.091    .
+47            3105    HHIFSDR|GQ  0.086    .
+47            3108    FSDRGQR|RD  0.171    .
+47            3109    SDRGQRR|DS  0.366    .
+47            3112    GQRRDSR|DG  0.308    .
+47            3116    DSRDGPR|GG  0.090    .
+47            3121    PRGGGVR|DS  0.113    .
+47            3124    GGVRDSR|RQ  0.223    .
+47            3125    GVRDSRR|QD  0.124    .
+47            3130    RRQDNER|PG  0.100    .
+47            3136    RPGNQDR|RS  0.084    .
+47            3137    PGNQDRR|ST  0.363    .
+47            3141    DRRSTER|SG  0.142    .
+47            3180    QGGGLNR|GG  0.081    .
+47            3189    MGFNQGR|GR  0.112    .
+47            3191    FNQGRGR|GG  0.097    .
+47            3200    FNNQQDR|GD  0.094    .
+47            3215    QDSDFNR|GR  0.145    .
+47            3217    SDFNRGR|GR  0.115    .
+47            3219    FNRGRGR|DQ  0.149    .
+47            3222    GRGRDQR|GG  0.353    .
+47            3226    DQRGGGR|DN  0.097    .
+47            3238    FLSNQMR|GQ  0.173    .
+47            3245    GQGFNLR|GG  0.096    .
+47            3251    RGGGFNR|GG  0.127    .
+47            3271    QQFSHER|GN  0.114    .
+47            3279    NMGGGFR|GR  0.107    .
+47            3281    GGGFRGR|GG  0.124    .
+47            3294    QGNQEER|GG  0.104    .
+47            3302    GFSGGFR|GR  0.109    .
+47            3304    SGGFRGR|GG  0.097    .
+47            3307    FRGRGGR|DR  0.311    .
+47            3309    GRGGRDR|NW  0.125    .
+47            3317    WEDNSNR|SN  0.121    .
+47            3322    NRSNNER|GG  0.138    .
+47            3328    RGGCSSR|EG  0.097    .
+47            3332    SSREGFR|GR  0.094    .
+47            3334    REGFRGR|EG  0.083    .
+47            3346    SAPDGPK|MD  0.057    .
+47            3356    LNANLAK|MA  0.102    .
+47            3370    GNNNSPK|NS  0.093    .
+47            3374    SPKNSSR|FE  0.123    .
+47            3387    TYNTPER|KQ  0.103    .
+47            3388    YNTPERK|QY  0.089    .
+47            3396    YGVTGDK|GA  0.075    .
+47            3438    GNQGQQR|GG  0.112    .
+47            3449    SHQGQER|VG  0.092    .
+47            3471    GNQGQQR|GG  0.112    .
+47            3482    GNQEQQR|LG  0.094    .
+47            3505    GNQGQQR|AG  0.112    .
+47            3516    GNQEQQR|VG  0.097    .
+47            3535    GNQGQQR|GG  0.128    .
+47            3558    GNQGQQR|EG  0.085    .
+47            3581    LECSFVK|NE  0.056    .
+47            3586    VKNELLK|NN  0.068    .
+47            3596    ETNPSVR|KE  0.079    .
+47            3597    TNPSVRK|EL  0.098    .
+47            3616    TSTPFSR|DS  0.181    .
+47            3632    IWDTLYK|GR  0.060    .
+47            3634    DTLYKGR|IS  0.084    .
+47            3637    YKGRISK|RS  0.102    .
+47            3638    KGRISKR|SA  0.461    .
+47            3641    ISKRSAR|DP  0.453    .
+47            3654    DYSNILR|QL  0.119    .
+47            3662    LSAIVNK|AG  0.075    .
+47            3668    KAGSSSK|TS  0.067    .
+47            3731    PSQFIQK|YT  0.081    .
+47            3737    KYTSGVK|QA  0.061    .
+47            3756    FPSLSQK|KQ  0.073    .
+47            3757    PSLSQKK|QQ  0.082    .
+47            3843    YNNQQQK|FP  0.083    .
+____________________________^_________________
+
+
+
+

@@ -1,0 +1,297 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1921 343         
+MNKSLVLKVRVDRIRIGQVCWRCDLKSFDNKVAHFEGNLGSYVIEPTHTSKQPIRTRYLGRLSANQGPVFPDSVGSWLLV      80
+ILYDEPKRSHLNSLKSHIHFTMAGLHTDHGLVPPIKLVDDTWRTTVSKEEFNSMFDGCSTFLELTICAVVKSTVRIGTIF     160
+SYVTTDPTTGFTEEIVLEKHKVPTEISKQPIRTRCLGHVTGYQPIRDQYFQIRQRIGQRRKNMMIYIIFKMTHMHFYMAG     240
+IDQQVGAVPSISINMARWYSTCFTWENSVGRWRGYLDGEEITTNKTGTLKYTVGKKIRGGGSCYLGIMKSFESFREYRGF     320
+AGSITELNLWGKALSPEEIYQMAKRNQVYEEDLLVSWGTLLENKRGNMTVEQNKCFMILHGGMIVTDSQSSEGRLERERE     400
+RERERERERERERERERERETETERDREKERKRRMSFINEICRAAQMTTCGMPDDLIGNGTFDKIGSNPLTKLYLVGDEI     480
+KYRCVRAAAMTYDSEEVATKTCTNGRVWTPVGSVNCTSCAAVGMWECLDGSACVDKSKRCDGTPNCGDRSDESECNNTQV     560
+YWIVIGVLAVLLLFTIPSVIILKRARRARAEALRVKRLTDTWEIKREFLQLEEKLGEGAFGKVFKGLLLTPPDYNITTTV     640
+AVKEISDIATERDKNMFLEEIRLSKKLGNHPNIVGIVGSIIVYKPYLLILEFVDGSDLLDYVQKKREAGTCDLSQEDQVF     720
+ISWQIANGMEYVAGKNFVHRDLAARNVLISAATKYCKVTDFGLARDLYNYDEYQSEGGRLPIKWMSPEAIFELKFTSESD     800
+VWSYGVVLYELFSWGGTPYPGIDPSLLRDRLVNGFRMAAPNGTPDFIYSVMLQCWEFKSSDRPSFTNIRSFIQNHIQEYA     880
+AYVEFTVSIRVRVRGVTQQIPPTSYYFPLQTGACSEYINMAPQSAGDPTGPLETAYTNIQISGDQVQYTVEPEQEAQQQA     960
+VLEEMKKKNSNVEYASVELVHRPEHDQIVPAEVSIGIADNNGMLNPYERSLYTLSLFLSHSLSHSLSLFLSLFLSLPSLN    1040
+AHPHLLYTTQLNIFSFRFFTLKAVDLSNFILIPPSPTYKLLYLPKNTPASQIKREFLQLEEKLGEGAFGKVFKGLLLTPP    1120
+DYNITTTVAVKEISDIATERDKNMFLEEIRLSKKLGNHPNIVGIVGSIIVYEPYLLILEFVDGSDLLDYVQKKREAGTCD    1200
+LSQEDQVFISWQIANGMEYVAGKNFVHRDLAARNVLISAATKYCKVTDFGLARDLYNYDEYQSEGGRLPIKWMSPEAIFE    1280
+LKFTSESDVWSYGVVLYELFSWGGTPYPGIDPSLLRDRLVNGFRMAAPNGTPDFIYSVMLQCWEFKSSDRPSFTNIRSFI    1360
+QNHIQEYAAYVEFTVQYTVEPEQEAQQQAVLEEMKKKNSNVEYASVELVHRPEHDQIVPAYLKGRSSNPSGRPSHVLARG    1440
+YFVTNLKGRSSKSSPPVQHIPQCHCTDSPGPGHPHISAGTRVTRNSSYRYSTRGLVGIHCNQLGSTQAAGGRGGRVRGSS    1520
+SHSLLQEIAWLKGLGEDNVDRGSRDGSSGLDRFTPTAAAEGLEFLGLHCRVRVGLEDLGLDCRVRIGLDGFELDCRVRIG    1600
+LDDFGLDCRVRIGLDDFGLDCRVRIGLDDFGLDCRVRIGLDDFGLDCRVRIGLDDFGLDCRVRIGLDDFGLDCRVRIGLD    1680
+DFGLDWRVSIGLSRVGLLDFEGDDLVGDFDDGSSLSGIMFVCSEESGGNIGSCSACSGTKISSLTVSEAEAPSVAGSSVV    1760
+SSSFGSSGFRLEPTETRKQPIRTRYLGHVTSNQPIRDQYFLIWSVREFYSLHHSYFGCLRFPVSLQLEPTETRKQPIRTR    1840
+YLGHVTSNQPIRDQYFLIWSVRGRVLIKVSNTPCGVMPRASPIPGLARSRFIVRRAPRPPYITPLLLCPESVPHLYTHTH    1920
+L                                                                                   2000
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+.................................P..............................................     480
+................................................................................     560
+....................................P...........................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+................................................................................    1840
+................................................................................    1920
+.                                                                                   2000
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 2
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+343              3    ----MNK|SL  0.072    .
+343              8    NKSLVLK|VR  0.062    .
+343             10    SLVLKVR|VD  0.101    .
+343             13    LKVRVDR|IR  0.230    .
+343             15    VRVDRIR|IG  0.082    .
+343             22    IGQVCWR|CD  0.093    .
+343             26    CWRCDLK|SF  0.092    .
+343             31    LKSFDNK|VA  0.082    .
+343             51    EPTHTSK|QP  0.060    .
+343             55    TSKQPIR|TR  0.095    .
+343             57    KQPIRTR|YL  0.100    .
+343             61    RTRYLGR|LS  0.120    .
+343             87    ILYDEPK|RS  0.056    .
+343             88    LYDEPKR|SH  0.186    .
+343             95    SHLNSLK|SH  0.073    .
+343            116    GLVPPIK|LV  0.090    .
+343            123    LVDDTWR|TT  0.084    .
+343            128    WRTTVSK|EE  0.067    .
+343            151    TICAVVK|ST  0.104    .
+343            155    VVKSTVR|IG  0.063    .
+343            179    EEIVLEK|HK  0.060    .
+343            181    IVLEKHK|VP  0.059    .
+343            188    VPTEISK|QP  0.060    .
+343            192    ISKQPIR|TR  0.082    .
+343            194    KQPIRTR|CL  0.124    .
+343            206    TGYQPIR|DQ  0.126    .
+343            213    DQYFQIR|QR  0.089    .
+343            215    YFQIRQR|IG  0.074    .
+343            219    RQRIGQR|RK  0.079    .
+343            220    QRIGQRR|KN  0.177    .
+343            221    RIGQRRK|NM  0.078    .
+343            230    MIYIIFK|MT  0.072    .
+343            257    ISINMAR|WY  0.166    .
+343            271    WENSVGR|WR  0.106    .
+343            273    NSVGRWR|GY  0.119    .
+343            285    EEITTNK|TG  0.054    .
+343            290    NKTGTLK|YT  0.060    .
+343            295    LKYTVGK|KI  0.082    .
+343            296    KYTVGKK|IR  0.086    .
+343            298    TVGKKIR|GG  0.121    .
+343            309    CYLGIMK|SF  0.066    .
+343            315    KSFESFR|EY  0.095    .
+343            318    ESFREYR|GF  0.321    .
+343            332    ELNLWGK|AL  0.084    .
+343            344    EIYQMAK|RN  0.065    .
+343            345    IYQMAKR|NQ  0.158    .
+343            364    GTLLENK|RG  0.053    .
+343            365    TLLENKR|GN  0.218    .
+343            374    MTVEQNK|CF  0.063    .
+343            394    SQSSEGR|LE  0.098    .
+343            397    SEGRLER|ER  0.241    .
+343            399    GRLERER|ER  0.083    .
+343            401    LERERER|ER  0.085    .
+343            403    RERERER|ER  0.082    .
+343            405    RERERER|ER  0.090    .
+343            407    RERERER|ER  0.090    .
+343            409    RERERER|ER  0.090    .
+343            411    RERERER|ER  0.090    .
+343            413    RERERER|ER  0.099    .
+343            415    RERERER|ER  0.097    .
+343            417    RERERER|ER  0.088    .
+343            419    RERERER|ET  0.130    .
+343            425    RETETER|DR  0.092    .
+343            427    TETERDR|EK  0.097    .
+343            429    TERDREK|ER  0.059    .
+343            431    RDREKER|KR  0.092    .
+343            432    DREKERK|RR  0.081    .
+343            433    REKERKR|RM  0.166    .
+343            434    EKERKRR|MS  0.575 *ProP*
+343            443    FINEICR|AA  0.096    .
+343            464    GNGTFDK|IG  0.063    .
+343            472    GSNPLTK|LY  0.067    .
+343            481    LVGDEIK|YR  0.058    .
+343            483    GDEIKYR|CV  0.169    .
+343            486    IKYRCVR|AA  0.283    .
+343            500    SEEVATK|TC  0.066    .
+343            506    KTCTNGR|VW  0.100    .
+343            536    GSACVDK|SK  0.089    .
+343            538    ACVDKSK|RC  0.064    .
+343            539    CVDKSKR|CD  0.179    .
+343            549    TPNCGDR|SD  0.172    .
+343            583    PSVIILK|RA  0.062    .
+343            584    SVIILKR|AR  0.143    .
+343            586    IILKRAR|RA  0.099    .
+343            587    ILKRARR|AR  0.393    .
+343            589    KRARRAR|AE  0.286    .
+343            594    ARAEALR|VK  0.078    .
+343            596    AEALRVK|RL  0.060    .
+343            597    EALRVKR|LT  0.564 *ProP*
+343            605    TDTWEIK|RE  0.061    .
+343            606    DTWEIKR|EF  0.117    .
+343            614    FLQLEEK|LG  0.060    .
+343            622    GEGAFGK|VF  0.067    .
+343            625    AFGKVFK|GL  0.068    .
+343            643    TTTVAVK|EI  0.071    .
+343            652    SDIATER|DK  0.106    .
+343            654    IATERDK|NM  0.058    .
+343            662    MFLEEIR|LS  0.073    .
+343            665    EEIRLSK|KL  0.133    .
+343            666    EIRLSKK|LG  0.074    .
+343            684    GSIIVYK|PY  0.075    .
+343            704    LLDYVQK|KR  0.070    .
+343            705    LDYVQKK|RE  0.081    .
+343            706    DYVQKKR|EA  0.236    .
+343            735    MEYVAGK|NF  0.059    .
+343            740    GKNFVHR|DL  0.145    .
+343            745    HRDLAAR|NV  0.128    .
+343            754    LISAATK|YC  0.068    .
+343            757    AATKYCK|VT  0.064    .
+343            765    TDFGLAR|DL  0.113    .
+343            779    YQSEGGR|LP  0.074    .
+343            783    GGRLPIK|WM  0.071    .
+343            794    EAIFELK|FT  0.080    .
+343            828    IDPSLLR|DR  0.081    .
+343            830    PSLLRDR|LV  0.102    .
+343            836    RLVNGFR|MA  0.099    .
+343            858    LQCWEFK|SS  0.078    .
+343            862    EFKSSDR|PS  0.097    .
+343            869    PSFTNIR|SF  0.122    .
+343            890    EFTVSIR|VR  0.070    .
+343            892    TVSIRVR|VR  0.117    .
+343            894    SIRVRVR|GV  0.240    .
+343            966    AVLEEMK|KK  0.056    .
+343            967    VLEEMKK|KN  0.100    .
+343            968    LEEMKKK|NS  0.117    .
+343            982    SVELVHR|PE  0.087    .
+343           1009    MLNPYER|SL  0.123    .
+343           1057    LNIFSFR|FF  0.103    .
+343           1062    FRFFTLK|AV  0.082    .
+343           1079    PPSPTYK|LL  0.065    .
+343           1085    KLLYLPK|NT  0.063    .
+343           1093    TPASQIK|RE  0.070    .
+343           1094    PASQIKR|EF  0.205    .
+343           1102    FLQLEEK|LG  0.060    .
+343           1110    GEGAFGK|VF  0.067    .
+343           1113    AFGKVFK|GL  0.068    .
+343           1131    TTTVAVK|EI  0.071    .
+343           1140    SDIATER|DK  0.106    .
+343           1142    IATERDK|NM  0.058    .
+343           1150    MFLEEIR|LS  0.073    .
+343           1153    EEIRLSK|KL  0.133    .
+343           1154    EIRLSKK|LG  0.074    .
+343           1192    LLDYVQK|KR  0.070    .
+343           1193    LDYVQKK|RE  0.081    .
+343           1194    DYVQKKR|EA  0.236    .
+343           1223    MEYVAGK|NF  0.059    .
+343           1228    GKNFVHR|DL  0.145    .
+343           1233    HRDLAAR|NV  0.128    .
+343           1242    LISAATK|YC  0.068    .
+343           1245    AATKYCK|VT  0.064    .
+343           1253    TDFGLAR|DL  0.113    .
+343           1267    YQSEGGR|LP  0.074    .
+343           1271    GGRLPIK|WM  0.071    .
+343           1282    EAIFELK|FT  0.080    .
+343           1316    IDPSLLR|DR  0.081    .
+343           1318    PSLLRDR|LV  0.102    .
+343           1324    RLVNGFR|MA  0.099    .
+343           1346    LQCWEFK|SS  0.078    .
+343           1350    EFKSSDR|PS  0.097    .
+343           1357    PSFTNIR|SF  0.122    .
+343           1395    AVLEEMK|KK  0.056    .
+343           1396    VLEEMKK|KN  0.100    .
+343           1397    LEEMKKK|NS  0.117    .
+343           1411    SVELVHR|PE  0.087    .
+343           1423    IVPAYLK|GR  0.055    .
+343           1425    PAYLKGR|SS  0.166    .
+343           1432    SSNPSGR|PS  0.119    .
+343           1439    PSHVLAR|GY  0.109    .
+343           1447    YFVTNLK|GR  0.055    .
+343           1449    VTNLKGR|SS  0.163    .
+343           1452    LKGRSSK|SS  0.372    .
+343           1481    HISAGTR|VT  0.086    .
+343           1484    AGTRVTR|NS  0.195    .
+343           1489    TRNSSYR|YS  0.230    .
+343           1493    SYRYSTR|GL  0.112    .
+343           1512    TQAAGGR|GG  0.097    .
+343           1515    AGGRGGR|VR  0.195    .
+343           1517    GRGGRVR|GS  0.114    .
+343           1532    QEIAWLK|GL  0.066    .
+343           1541    GEDNVDR|GS  0.101    .
+343           1544    NVDRGSR|DG  0.330    .
+343           1552    GSSGLDR|FT  0.142    .
+343           1570    FLGLHCR|VR  0.071    .
+343           1572    GLHCRVR|VG  0.076    .
+343           1583    DLGLDCR|VR  0.064    .
+343           1585    GLDCRVR|IG  0.079    .
+343           1596    GFELDCR|VR  0.064    .
+343           1598    ELDCRVR|IG  0.067    .
+343           1609    DFGLDCR|VR  0.063    .
+343           1611    GLDCRVR|IG  0.072    .
+343           1622    DFGLDCR|VR  0.063    .
+343           1624    GLDCRVR|IG  0.072    .
+343           1635    DFGLDCR|VR  0.063    .
+343           1637    GLDCRVR|IG  0.072    .
+343           1648    DFGLDCR|VR  0.063    .
+343           1650    GLDCRVR|IG  0.072    .
+343           1661    DFGLDCR|VR  0.063    .
+343           1663    GLDCRVR|IG  0.072    .
+343           1674    DFGLDCR|VR  0.063    .
+343           1676    GLDCRVR|IG  0.072    .
+343           1687    DFGLDWR|VS  0.065    .
+343           1694    VSIGLSR|VG  0.063    .
+343           1740    SACSGTK|IS  0.058    .
+343           1770    FGSSGFR|LE  0.073    .
+343           1777    LEPTETR|KQ  0.067    .
+343           1778    EPTETRK|QP  0.071    .
+343           1782    TRKQPIR|TR  0.099    .
+343           1784    KQPIRTR|YL  0.129    .
+343           1796    TSNQPIR|DQ  0.147    .
+343           1806    FLIWSVR|EF  0.085    .
+343           1820    SYFGCLR|FP  0.072    .
+343           1833    LEPTETR|KQ  0.064    .
+343           1834    EPTETRK|QP  0.072    .
+343           1838    TRKQPIR|TR  0.099    .
+343           1840    KQPIRTR|YL  0.129    .
+343           1852    TSNQPIR|DQ  0.147    .
+343           1862    FLIWSVR|GR  0.076    .
+343           1864    IWSVRGR|VL  0.134    .
+343           1868    RGRVLIK|VS  0.061    .
+343           1879    PCGVMPR|AS  0.083    .
+343           1888    PIPGLAR|SR  0.126    .
+343           1890    PGLARSR|FI  0.079    .
+343           1894    RSRFIVR|RA  0.081    .
+343           1895    SRFIVRR|AP  0.172    .
+343           1898    IVRRAPR|PP  0.180    .
+____________________________^_________________
+
+
+
+

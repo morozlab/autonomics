@@ -1,0 +1,361 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 2345 233         
+MRDGEREREREEREIKRQRQKRRERSRWPIRKGTRSVSSDLLSWIPLLSLSISLSLSLSLSLSLSLSHPLSQSLLLKEYL      80
+RKKRNNDFRNELEGYEAWVKEGERICLNESQTEALKYNKGVDENHLHDSDGSDYPDTKSRLSKCWSSILSWLKSYNRDLK     160
+KRAQKIVKSDAMYWIVMFLVTMNTISVSLKWYGMPDEMNKNMKSVEFVFTFIFIIEMTIRMYGLGVEQYFKSKFNTFDFT     240
+VIFASLFEQFYVQFFDGADMGLTVFRSLRLLRLFKVTRYWTDLRSLAAALLNSLKSIISLLFLLFLFLLIFALLGMQLFG     320
+GHFVFAEQVPRVNFDSFLTALLAVFQMLTGEDWNVIMYNAINALGGAKNYRGGIASIYFIVFMVIMNYTLLNVFLAIAVD     400
+GLADFDMVSDAEKESEKKKEEEKIGVQHELQELDNVDNVEDCNNSSVRALPYQNDFKSADNLDHSIDIDRHAEDSEEENE     480
+EKPEHNPDNWVGPRSSRVWESDIREAAGGTPKKLHHTVPIVPHPSFFIFSPTNPLRRFCHWIVNMRHFDNFILFIILLSC     560
+IMQMLQNPKDLESDNNRGRLWEVGSGILNLLRRFCHWIVNMRHFDNFILFIILLSCIMQMLQNPKDLESDNNRFIEYLEY     640
+GVTVIFCLEMILRVIDLGFVIHPGSYLRDPWNVLDAVVVLVSILRVAVKAPTVKRLTNVMLSMRSLKSINRIQKLKNVFD     720
+SLPSFISPDVEIGGNEKKREWERETERESGKENRFRFLYLISYTPFFFNCSPPKVMRGIVLRAAAATQILNFVKFQFSGE     800
+QLKKNGLYTAARLSPFPIFLPAAARVLGKFFYCTDSSKKTKDECKGYYFAFPSNDAENRKVEQRVWEPHFFRFDNVQSAM     880
+LTLFTVATFEGWPDVMTNMMDASKKDMGPIGPLILWSSISWYQNLSSKWPGTETCGMSNSKFQTQLPTADPTNIPAQFIE     960
+YLEYGVTVIFCLEMILRVIDLGFVIHPGSYLRDPWNVLDAVVVLVSILRVAVKAPTVKRLTNVMLSMRSLKSINRIQKLK    1040
+NVCLCLIKSVGSILNLLLIAILLTFMFSVMGVHMLEGKFFYCTDSSKKTKDECKGYYFAFPSNDAENRKVEQRVWEPHFF    1120
+RFDNVQSAMLTLFTVATFEGWPDVMTNMMDASKKDMGPIENTNPALCIYIVVYLVVMSFFMINIFVGFVIVTFQEKGEKD    1200
+NDSELLDRNKRSCIEFSLKVKPQNKYIPNNVQSLRYKLWQVVSSNFYTNLIMFIIFINTIQLMMPYNDMSEEYEEALEIV    1280
+NKMLVAVFTIDIILKLSAYGVKQYFLGSSWNVFDFVVLVGSFVDIMVSAWYKNNFMIVRLVKMFRAARLIKLLNYGGEMR    1360
+TLLFVFLKALKSLPHVMFLIMLTFYIYAVIGMQIFGKVEANPDGASDYTITRLNNFSSFLNAMIILFRCSTGEAWHAIMR    1440
+DLTPERAQCGKGPEDTGTDTSCGSKFSEVYFCTFVITSQFLVVNLFVSVIIDNFDYLTRDMSIVGLHHLNKFVRKWADFD    1520
+PKATGRIKHEDVIKLLKRISPPLGLGKKCPDRVAYMRMIGMNMPLLQDGTVEFTATLFALVRTSLEICVPDGINEVSKKN    1600
+QELKDKIVKTFPGVRPKLLERVLPIHEEGKEVETVAKIYATLMIQKFYRHLQKKREEEFQKSQQQPLMAVLIRGLSQWLV    1680
+GYYFAFPSNDAENRKVEQRVWEPHFFRFDNVQSAMLTLFTVATFEGWPDVMTNMMDASKKDMGPIENTNPALCIYIVVYL    1760
+VVMSFFMINIFVGFVIVTFQEKGEKDNDSELLDRNKRSCIEFSLKVKPQNKYIPNNVQSLRYKLWQVVSSNFYTNLIMFI    1840
+IFINTIQLMMPYNDMSEEYEEALEIVNKMLVAVFTIDIILKLSAYGVKQYFLGSSWNVFDFVVLVGSFVDIMVSAWYKNN    1920
+FMIVRLVKMFRAARLIKLLNYGGEMRTLLFVFLKALKSLPHVMFLIMLTFYIYAVIGMQIFGKVEANPDGASDYTITRLN    2000
+NFSSFLNAMIILFRCSTGEAWHAIMRDLTPERAQCGKGPEDTGTDTSCGSKFSEVYFCTFVITSQFLVVNLFVSVIIDNF    2080
+DYLTRDMSIVGLHHLNKFVRKWADFDPKATGRIKHEDVIKLLKRISPPLGLGKKCPDRVAYMRMIGMNMPLLQDGTVEFT    2160
+ATLFALVRTSLEICVPDGINEVSKKNQELKDKIVKTFPGVRPKLLERVLPIHEEGKEVETVAKIYATLMIQKFYRHLQKK    2240
+REEEFQKSQQQPLMAGLRITHELSKPLKRQISGELDLDSDDDEFNNPNKKPSHLGLIKRVMNSMKDSTSTTTLGGSSPRL    2320
+PNRTSPSRDIELADMNSPNLLSGDI                                                           2400
+.....................P..........................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+..........P.....................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+....................................P...........................................    1840
+................................................................................    1920
+................................................................................    2000
+................................................................................    2080
+................................................................................    2160
+................................................................................    2240
+................................................................................    2320
+.........................                                                           2400
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 3
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+233              2    -----MR|DG  0.124    .
+233              6    -MRDGER|ER  0.087    .
+233              8    RDGERER|ER  0.081    .
+233             10    GERERER|EE  0.096    .
+233             13    EREREER|EI  0.336    .
+233             16    REEREIK|RQ  0.118    .
+233             17    EEREIKR|QR  0.136    .
+233             19    REIKRQR|QK  0.095    .
+233             21    IKRQRQK|RR  0.065    .
+233             22    KRQRQKR|RE  0.518 *ProP*
+233             23    RQRQKRR|ER  0.181    .
+233             25    RQKRRER|SR  0.448    .
+233             27    KRRERSR|WP  0.119    .
+233             31    RSRWPIR|KG  0.093    .
+233             32    SRWPIRK|GT  0.116    .
+233             35    PIRKGTR|SV  0.205    .
+233             77    SQSLLLK|EY  0.064    .
+233             81    LLKEYLR|KK  0.069    .
+233             82    LKEYLRK|KR  0.071    .
+233             83    KEYLRKK|RN  0.089    .
+233             84    EYLRKKR|NN  0.352    .
+233             89    KRNNDFR|NE  0.117    .
+233            100    GYEAWVK|EG  0.057    .
+233            104    WVKEGER|IC  0.067    .
+233            116    SQTEALK|YN  0.060    .
+233            119    EALKYNK|GV  0.074    .
+233            138    SDYPDTK|SR  0.068    .
+233            140    YPDTKSR|LS  0.074    .
+233            143    TKSRLSK|CW  0.350    .
+233            153    SILSWLK|SY  0.069    .
+233            157    WLKSYNR|DL  0.082    .
+233            160    SYNRDLK|KR  0.110    .
+233            161    YNRDLKK|RA  0.121    .
+233            162    NRDLKKR|AQ  0.213    .
+233            165    LKKRAQK|IV  0.161    .
+233            168    RAQKIVK|SD  0.076    .
+233            190    TISVSLK|WY  0.086    .
+233            200    MPDEMNK|NM  0.065    .
+233            203    EMNKNMK|SV  0.175    .
+233            220    IIEMTIR|MY  0.116    .
+233            231    GVEQYFK|SK  0.070    .
+233            233    EQYFKSK|FN  0.067    .
+233            266    MGLTVFR|SL  0.108    .
+233            269    TVFRSLR|LL  0.164    .
+233            272    RSLRLLR|LF  0.164    .
+233            275    RLLRLFK|VT  0.092    .
+233            278    RLFKVTR|YW  0.120    .
+233            284    RYWTDLR|SL  0.116    .
+233            295    ALLNSLK|SI  0.075    .
+233            331    FAEQVPR|VN  0.093    .
+233            368    NALGGAK|NY  0.066    .
+233            371    GGAKNYR|GG  0.117    .
+233            413    MVSDAEK|ES  0.072    .
+233            417    AEKESEK|KK  0.064    .
+233            418    EKESEKK|KE  0.090    .
+233            419    KESEKKK|EE  0.196    .
+233            423    KKKEEEK|IG  0.066    .
+233            448    CNNSSVR|AL  0.109    .
+233            457    PYQNDFK|SA  0.101    .
+233            470    HSIDIDR|HA  0.160    .
+233            482    EEENEEK|PE  0.059    .
+233            494    DNWVGPR|SS  0.146    .
+233            497    VGPRSSR|VW  0.194    .
+233            504    VWESDIR|EA  0.083    .
+233            512    AAGGTPK|KL  0.069    .
+233            513    AGGTPKK|LH  0.097    .
+233            536    SPTNPLR|RF  0.092    .
+233            537    PTNPLRR|FC  0.204    .
+233            546    HWIVNMR|HF  0.089    .
+233            569    QMLQNPK|DL  0.068    .
+233            577    LESDNNR|GR  0.097    .
+233            579    SDNNRGR|LW  0.114    .
+233            592    GILNLLR|RF  0.073    .
+233            593    ILNLLRR|FC  0.221    .
+233            602    HWIVNMR|HF  0.089    .
+233            625    QMLQNPK|DL  0.070    .
+233            633    LESDNNR|FI  0.152    .
+233            653    CLEMILR|VI  0.087    .
+233            668    HPGSYLR|DP  0.114    .
+233            685    VLVSILR|VA  0.074    .
+233            689    ILRVAVK|AP  0.069    .
+233            694    VKAPTVK|RL  0.067    .
+233            695    KAPTVKR|LT  0.184    .
+233            704    NVMLSMR|SL  0.120    .
+233            707    LSMRSLK|SI  0.324    .
+233            711    SLKSINR|IQ  0.066    .
+233            714    SINRIQK|LK  0.104    .
+233            716    NRIQKLK|NV  0.125    .
+233            737    EIGGNEK|KR  0.061    .
+233            738    IGGNEKK|RE  0.086    .
+233            739    GGNEKKR|EW  0.340    .
+233            743    KKREWER|ET  0.102    .
+233            747    WERETER|ES  0.105    .
+233            751    TERESGK|EN  0.064    .
+233            754    ESGKENR|FR  0.106    .
+233            756    GKENRFR|FL  0.120    .
+233            774    FNCSPPK|VM  0.061    .
+233            777    SPPKVMR|GI  0.101    .
+233            782    MRGIVLR|AA  0.134    .
+233            794    QILNFVK|FQ  0.071    .
+233            803    FSGEQLK|KN  0.062    .
+233            804    SGEQLKK|NG  0.069    .
+233            812    GLYTAAR|LS  0.075    .
+233            825    FLPAAAR|VL  0.097    .
+233            829    AARVLGK|FF  0.070    .
+233            838    YCTDSSK|KT  0.062    .
+233            839    CTDSSKK|TK  0.081    .
+233            841    DSSKKTK|DE  0.108    .
+233            845    KTKDECK|GY  0.073    .
+233            859    SNDAENR|KV  0.144    .
+233            860    NDAENRK|VE  0.073    .
+233            864    NRKVEQR|VW  0.138    .
+233            872    WEPHFFR|FD  0.099    .
+233            904    NMMDASK|KD  0.056    .
+233            905    MMDASKK|DM  0.221    .
+233            928    YQNLSSK|WP  0.083    .
+233            941    CGMSNSK|FQ  0.066    .
+233            977    CLEMILR|VI  0.087    .
+233            992    HPGSYLR|DP  0.114    .
+233           1009    VLVSILR|VA  0.074    .
+233           1013    ILRVAVK|AP  0.069    .
+233           1018    VKAPTVK|RL  0.067    .
+233           1019    KAPTVKR|LT  0.184    .
+233           1028    NVMLSMR|SL  0.120    .
+233           1031    LSMRSLK|SI  0.324    .
+233           1035    SLKSINR|IQ  0.069    .
+233           1038    SINRIQK|LK  0.123    .
+233           1040    NRIQKLK|NV  0.080    .
+233           1048    VCLCLIK|SV  0.098    .
+233           1078    VHMLEGK|FF  0.062    .
+233           1087    YCTDSSK|KT  0.062    .
+233           1088    CTDSSKK|TK  0.081    .
+233           1090    DSSKKTK|DE  0.108    .
+233           1094    KTKDECK|GY  0.073    .
+233           1108    SNDAENR|KV  0.144    .
+233           1109    NDAENRK|VE  0.073    .
+233           1113    NRKVEQR|VW  0.138    .
+233           1121    WEPHFFR|FD  0.099    .
+233           1153    NMMDASK|KD  0.057    .
+233           1154    MMDASKK|DM  0.256    .
+233           1196    IVTFQEK|GE  0.059    .
+233           1199    FQEKGEK|DN  0.068    .
+233           1208    DSELLDR|NK  0.073    .
+233           1210    ELLDRNK|RS  0.056    .
+233           1211    LLDRNKR|SC  0.514 *ProP*
+233           1219    CIEFSLK|VK  0.055    .
+233           1221    EFSLKVK|PQ  0.070    .
+233           1225    KVKPQNK|YI  0.069    .
+233           1235    NNVQSLR|YK  0.097    .
+233           1237    VQSLRYK|LW  0.070    .
+233           1282    ALEIVNK|ML  0.070    .
+233           1295    TIDIILK|LS  0.062    .
+233           1302    LSAYGVK|QY  0.067    .
+233           1332    MVSAWYK|NN  0.073    .
+233           1339    NNFMIVR|LV  0.102    .
+233           1342    MIVRLVK|MF  0.131    .
+233           1345    RLVKMFR|AA  0.094    .
+233           1348    KMFRAAR|LI  0.161    .
+233           1351    RAARLIK|LL  0.156    .
+233           1360    NYGGEMR|TL  0.071    .
+233           1368    LLFVFLK|AL  0.067    .
+233           1371    VFLKALK|SL  0.066    .
+233           1397    GMQIFGK|VE  0.058    .
+233           1412    SDYTITR|LN  0.071    .
+233           1428    AMIILFR|CS  0.085    .
+233           1440    AWHAIMR|DL  0.145    .
+233           1446    RDLTPER|AQ  0.086    .
+233           1451    ERAQCGK|GP  0.084    .
+233           1465    DTSCGSK|FS  0.078    .
+233           1499    NFDYLTR|DM  0.111    .
+233           1511    GLHHLNK|FV  0.097    .
+233           1514    HLNKFVR|KW  0.109    .
+233           1515    LNKFVRK|WA  0.119    .
+233           1522    WADFDPK|AT  0.080    .
+233           1526    DPKATGR|IK  0.088    .
+233           1528    KATGRIK|HE  0.061    .
+233           1534    KHEDVIK|LL  0.062    .
+233           1537    DVIKLLK|RI  0.062    .
+233           1538    VIKLLKR|IS  0.129    .
+233           1547    PPLGLGK|KC  0.058    .
+233           1548    PLGLGKK|CP  0.084    .
+233           1552    GKKCPDR|VA  0.093    .
+233           1557    DRVAYMR|MI  0.137    .
+233           1582    TLFALVR|TS  0.068    .
+233           1598    GINEVSK|KN  0.067    .
+233           1599    INEVSKK|NQ  0.109    .
+233           1604    KKNQELK|DK  0.082    .
+233           1606    NQELKDK|IV  0.074    .
+233           1609    LKDKIVK|TF  0.061    .
+233           1615    KTFPGVR|PK  0.064    .
+233           1617    FPGVRPK|LL  0.086    .
+233           1621    RPKLLER|VL  0.085    .
+233           1630    PIHEEGK|EV  0.091    .
+233           1637    EVETVAK|IY  0.066    .
+233           1646    ATLMIQK|FY  0.061    .
+233           1649    MIQKFYR|HL  0.155    .
+233           1653    FYRHLQK|KR  0.065    .
+233           1654    YRHLQKK|RE  0.133    .
+233           1655    RHLQKKR|EE  0.182    .
+233           1661    REEEFQK|SQ  0.090    .
+233           1673    LMAVLIR|GL  0.152    .
+233           1694    SNDAENR|KV  0.144    .
+233           1695    NDAENRK|VE  0.073    .
+233           1699    NRKVEQR|VW  0.138    .
+233           1707    WEPHFFR|FD  0.099    .
+233           1739    NMMDASK|KD  0.057    .
+233           1740    MMDASKK|DM  0.256    .
+233           1782    IVTFQEK|GE  0.059    .
+233           1785    FQEKGEK|DN  0.068    .
+233           1794    DSELLDR|NK  0.073    .
+233           1796    ELLDRNK|RS  0.056    .
+233           1797    LLDRNKR|SC  0.514 *ProP*
+233           1805    CIEFSLK|VK  0.055    .
+233           1807    EFSLKVK|PQ  0.070    .
+233           1811    KVKPQNK|YI  0.069    .
+233           1821    NNVQSLR|YK  0.097    .
+233           1823    VQSLRYK|LW  0.070    .
+233           1868    ALEIVNK|ML  0.070    .
+233           1881    TIDIILK|LS  0.062    .
+233           1888    LSAYGVK|QY  0.067    .
+233           1918    MVSAWYK|NN  0.073    .
+233           1925    NNFMIVR|LV  0.102    .
+233           1928    MIVRLVK|MF  0.131    .
+233           1931    RLVKMFR|AA  0.094    .
+233           1934    KMFRAAR|LI  0.161    .
+233           1937    RAARLIK|LL  0.156    .
+233           1946    NYGGEMR|TL  0.071    .
+233           1954    LLFVFLK|AL  0.067    .
+233           1957    VFLKALK|SL  0.066    .
+233           1983    GMQIFGK|VE  0.058    .
+233           1998    SDYTITR|LN  0.071    .
+233           2014    AMIILFR|CS  0.085    .
+233           2026    AWHAIMR|DL  0.145    .
+233           2032    RDLTPER|AQ  0.086    .
+233           2037    ERAQCGK|GP  0.084    .
+233           2051    DTSCGSK|FS  0.078    .
+233           2085    NFDYLTR|DM  0.111    .
+233           2097    GLHHLNK|FV  0.097    .
+233           2100    HLNKFVR|KW  0.109    .
+233           2101    LNKFVRK|WA  0.119    .
+233           2108    WADFDPK|AT  0.080    .
+233           2112    DPKATGR|IK  0.088    .
+233           2114    KATGRIK|HE  0.061    .
+233           2120    KHEDVIK|LL  0.062    .
+233           2123    DVIKLLK|RI  0.062    .
+233           2124    VIKLLKR|IS  0.129    .
+233           2133    PPLGLGK|KC  0.058    .
+233           2134    PLGLGKK|CP  0.084    .
+233           2138    GKKCPDR|VA  0.093    .
+233           2143    DRVAYMR|MI  0.137    .
+233           2168    TLFALVR|TS  0.068    .
+233           2184    GINEVSK|KN  0.067    .
+233           2185    INEVSKK|NQ  0.109    .
+233           2190    KKNQELK|DK  0.082    .
+233           2192    NQELKDK|IV  0.074    .
+233           2195    LKDKIVK|TF  0.061    .
+233           2201    KTFPGVR|PK  0.064    .
+233           2203    FPGVRPK|LL  0.086    .
+233           2207    RPKLLER|VL  0.085    .
+233           2216    PIHEEGK|EV  0.091    .
+233           2223    EVETVAK|IY  0.066    .
+233           2232    ATLMIQK|FY  0.061    .
+233           2235    MIQKFYR|HL  0.155    .
+233           2239    FYRHLQK|KR  0.065    .
+233           2240    YRHLQKK|RE  0.133    .
+233           2241    RHLQKKR|EE  0.182    .
+233           2247    REEEFQK|SQ  0.087    .
+233           2258    PLMAGLR|IT  0.073    .
+233           2265    ITHELSK|PL  0.067    .
+233           2268    ELSKPLK|RQ  0.071    .
+233           2269    LSKPLKR|QI  0.310    .
+233           2289    EFNNPNK|KP  0.064    .
+233           2290    FNNPNKK|PS  0.102    .
+233           2298    SHLGLIK|RV  0.072    .
+233           2299    HLGLIKR|VM  0.144    .
+233           2305    RVMNSMK|DS  0.078    .
+233           2319    LGGSSPR|LP  0.075    .
+233           2323    SPRLPNR|TS  0.080    .
+233           2328    NRTSPSR|DI  0.121    .
+____________________________^_________________
+
+
+
+

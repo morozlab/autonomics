@@ -1,0 +1,279 @@
+
+
+         ##### ProP v.1.0b ProPeptide Cleavage Site Prediction #####
+
+
+         ##### Furin-type cleavage site prediction (Arginine/Lysine residues) #####
+
+
+ 1818 384         
+MIFLLLFCIFPLAATTDDEWTSFLKNKKVLEFEEVPKDPELVYSPVERVAKLMSGVSDTDDNVLPTDDVIIYIRRSLQKE      80
+NILERNDIDQLNEPLRDEVVPSSAVTKKNEYGMGMYAVFIYSIAMLVNGLFVFIAYSVFQTLRASKSQADAEPVLEGGFV     160
+EGGPVDNEQPGPSNVIPDIVVAAPIHSILLLFFIFFTRRGTCCVSGMLWRVLIVPPRHQHRLLSDGGVKIGRLWRRDREG     240
+DNPWLVPPPPPASLPNSFREHLYWLMQKDNASQDVFLIGQPGPLRRRVAAAYCATVNREVEHLVLTRDTTESDIKQRREL     320
+STGSSIFQAGPAVRAALTGRALVIEGIERAEQNLLPILNNLLENREMHLEDGRFLVEAGRYDSLVDPGPDLLRVHPDFWV     400
+VALGIPVPPNRGYPLDPPLRSRFQARIVSDPPRSELETILSEIPGEKSPYFHSLLSFASFFKTKEARVLPYIHSGTIEGA     480
+VRVLQNAPNSTCPANMIPKIYPYSVLLPSDSQFSTLLSDLNLSPSLSPGPVCSVALSSSGGATVTCGRDRFTVPAGSCAP     560
+IEPGHYLPTTCQDTLISEIIMSHAVSDICVIGPPGCGKTVAISEFARRLGYEMETIVAYNDMTSRDLLQLRTTNSDGVGT     640
+LSTSTRRNVRCTSGILDGVHKLHHTVLASLAPLCEDRQITLPDGTRLVGSSQFREIQDRTGLTEDELKSKGVLKIHPSFR     720
+MVATGEDKADWMTSEVLGMWHYHHHPTMGTEQQFNLLHALCPTVSNANVDLLKRITNALHTDQNLRSVAQLLSLRRLRTV     800
+LSEVEKGGELSSALHTALLTRFMPALSRRNLASTLGNLGLVETNRDRQVSIEEGEGVVRIGNVSVKKLNGDPHLIPRTLF     880
+YDNNNVVQGAMSGALVVLDGVHKLHHTVLASLAPLCEDRQITLPDGTRLVGSSQFREIQDRTGLTEDELKSKGVLKIHPS     960
+FRMVATGEDKADWMTSEVLGMWHYHHHPTMGTEQQFNLLHALCPTVSNANVDLLKRITNALHTDQNLRSVAQLLSLRRLR    1040
+TVLSEVEKGGELSSALHTALLTRFMPALSRRNLASTLGNLGLVETNRDRQVSIEEGEGVVRIGNVSVKKLNGDPHLIPRT    1120
+LFYNNNNHTILLESLLRSYSTGRHILLVGNQGVGKNKLIDRLLQLIGASREYLQLHRDSTVHALTVQPVIAEGRVHFGDS    1200
+ALVRAVKHGRVLVVDEADKAPTTVTATLRSLLDTGTMWLADGRKIVPHTWMGQEGDKIVKCHPDFRVVFLANRPGFPFLG    1280
+NLKKSHYPLNDSTNYGPDVARDLLERLIRSFGELREMSTTGMFLYPYSTRELVNIIKHIQAYPEDGVTAALCNVLDFEQQ    1360
+DGDIWETIVSILHKHGIPFGAKPAANIAKRYPLSEPPKLIENLKTGPEIGGKLSNSSMRRRSETLIVLETDSSSAYRLDP    1440
+SRVRSVLQGGRKNAGYKVYQGMGGEHCCELRGSIDYWLSDRVESGQVPRQVLGRDGRILVTEWQDEEALVYQLADQDLPS    1520
+TTPVILVRGLALGLTRDPVPDPAPSTIGSDTGVAHLSVLDINGNTVSYIPLPNLQNKSDNSLLITANPCPHTLTPTGYLQ    1600
+KWELSEATLATSLAKWRTMVGEPSRDVNIERTSGLDVSGPKHGKVDPSGAPHVGGNTWAGGTGGRDTAGLGGKGGPYRLD    1680
+AGHNIHQLSDTEKDDIPDEVKRAAREMGKREFEKRLKEIKMSEYDSERYGTFYNAVRPQISSLKQRERERERERDRERER    1760
+EREREREREREREREGVVALEINLNIRLFVCRVYHGIGSDVVPPSKPCAGQRERERGR                          1840
+................................................................................      80
+................................................................................     160
+................................................................................     240
+................................................................................     320
+................................................................................     400
+................................................................................     480
+................................................................................     560
+................................................................................     640
+................................................................................     720
+................................................................................     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+................................................................................    1120
+................................................................................    1200
+................................................................................    1280
+................................................................................    1360
+................................................................................    1440
+................................................................................    1520
+................................................................................    1600
+................................................................................    1680
+................................................................................    1760
+..........................................................                          1840
+ 
+Propeptide cleavage sites predicted:	Arg(R)/Lys(K): 0
+
+
+
+
+Name           Pos    Context     Score  Pred
+____________________________v_________________
+384             25    EWTSFLK|NK  0.056    .
+384             27    TSFLKNK|KV  0.097    .
+384             28    SFLKNKK|VL  0.093    .
+384             37    EFEEVPK|DP  0.067    .
+384             48    VYSPVER|VA  0.090    .
+384             51    PVERVAK|LM  0.140    .
+384             74    DVIIYIR|RS  0.080    .
+384             75    VIIYIRR|SL  0.191    .
+384             79    IRRSLQK|EN  0.071    .
+384             85    KENILER|ND  0.106    .
+384             96    QLNEPLR|DE  0.080    .
+384            107    PSSAVTK|KN  0.093    .
+384            108    SSAVTKK|NE  0.133    .
+384            143    SVFQTLR|AS  0.082    .
+384            146    QTLRASK|SQ  0.204    .
+384            198    FFIFFTR|RG  0.072    .
+384            199    FIFFTRR|GT  0.144    .
+384            210    VSGMLWR|VL  0.080    .
+384            217    VLIVPPR|HQ  0.097    .
+384            221    PPRHQHR|LL  0.163    .
+384            229    LSDGGVK|IG  0.054    .
+384            232    GGVKIGR|LW  0.084    .
+384            235    KIGRLWR|RD  0.214    .
+384            236    IGRLWRR|DR  0.196    .
+384            238    RLWRRDR|EG  0.188    .
+384            259    SLPNSFR|EH  0.093    .
+384            268    LYWLMQK|DN  0.066    .
+384            285    GQPGPLR|RR  0.064    .
+384            286    QPGPLRR|RV  0.228    .
+384            287    PGPLRRR|VA  0.121    .
+384            298    YCATVNR|EV  0.153    .
+384            307    EHLVLTR|DT  0.091    .
+384            315    TTESDIK|QR  0.057    .
+384            317    ESDIKQR|RE  0.075    .
+384            318    SDIKQRR|EL  0.230    .
+384            334    QAGPAVR|AA  0.116    .
+384            340    RAALTGR|AL  0.100    .
+384            349    VIEGIER|AE  0.076    .
+384            365    NNLLENR|EM  0.073    .
+384            373    MHLEDGR|FL  0.085    .
+384            380    FLVEAGR|YD  0.087    .
+384            393    PGPDLLR|VH  0.061    .
+384            411    IPVPPNR|GY  0.083    .
+384            420    PLDPPLR|SR  0.105    .
+384            422    DPPLRSR|FQ  0.090    .
+384            426    RSRFQAR|IV  0.304    .
+384            433    IVSDPPR|SE  0.135    .
+384            447    SEIPGEK|SP  0.062    .
+384            462    SFASFFK|TK  0.065    .
+384            464    ASFFKTK|EA  0.075    .
+384            467    FKTKEAR|VL  0.091    .
+384            482    TIEGAVR|VL  0.084    .
+384            499    PANMIPK|IY  0.063    .
+384            548    ATVTCGR|DR  0.099    .
+384            550    VTCGRDR|FT  0.104    .
+384            598    GPPGCGK|TV  0.085    .
+384            607    AISEFAR|RL  0.157    .
+384            608    ISEFARR|LG  0.137    .
+384            625    YNDMTSR|DL  0.104    .
+384            631    RDLLQLR|TT  0.081    .
+384            646    TLSTSTR|RN  0.109    .
+384            647    LSTSTRR|NV  0.135    .
+384            650    STRRNVR|CT  0.443    .
+384            661    ILDGVHK|LH  0.068    .
+384            677    APLCEDR|QI  0.082    .
+384            686    TLPDGTR|LV  0.117    .
+384            694    VGSSQFR|EI  0.105    .
+384            699    FREIQDR|TG  0.081    .
+384            708    LTEDELK|SK  0.075    .
+384            710    EDELKSK|GV  0.090    .
+384            714    KSKGVLK|IH  0.062    .
+384            720    KIHPSFR|MV  0.313    .
+384            728    VATGEDK|AD  0.054    .
+384            773    ANVDLLK|RI  0.071    .
+384            774    NVDLLKR|IT  0.121    .
+384            786    HTDQNLR|SV  0.164    .
+384            795    AQLLSLR|RL  0.077    .
+384            796    QLLSLRR|LR  0.075    .
+384            798    LSLRRLR|TV  0.222    .
+384            806    VLSEVEK|GG  0.067    .
+384            821    HTALLTR|FM  0.080    .
+384            828    FMPALSR|RN  0.065    .
+384            829    MPALSRR|NL  0.186    .
+384            845    GLVETNR|DR  0.093    .
+384            847    VETNRDR|QV  0.136    .
+384            859    EGEGVVR|IG  0.073    .
+384            866    IGNVSVK|KL  0.072    .
+384            867    GNVSVKK|LN  0.101    .
+384            877    DPHLIPR|TL  0.094    .
+384            903    VLDGVHK|LH  0.064    .
+384            919    APLCEDR|QI  0.082    .
+384            928    TLPDGTR|LV  0.117    .
+384            936    VGSSQFR|EI  0.105    .
+384            941    FREIQDR|TG  0.081    .
+384            950    LTEDELK|SK  0.075    .
+384            952    EDELKSK|GV  0.090    .
+384            956    KSKGVLK|IH  0.062    .
+384            962    KIHPSFR|MV  0.313    .
+384            970    VATGEDK|AD  0.054    .
+384           1015    ANVDLLK|RI  0.071    .
+384           1016    NVDLLKR|IT  0.121    .
+384           1028    HTDQNLR|SV  0.164    .
+384           1037    AQLLSLR|RL  0.077    .
+384           1038    QLLSLRR|LR  0.075    .
+384           1040    LSLRRLR|TV  0.222    .
+384           1048    VLSEVEK|GG  0.067    .
+384           1063    HTALLTR|FM  0.080    .
+384           1070    FMPALSR|RN  0.065    .
+384           1071    MPALSRR|NL  0.186    .
+384           1087    GLVETNR|DR  0.093    .
+384           1089    VETNRDR|QV  0.136    .
+384           1101    EGEGVVR|IG  0.073    .
+384           1108    IGNVSVK|KL  0.072    .
+384           1109    GNVSVKK|LN  0.101    .
+384           1119    DPHLIPR|TL  0.101    .
+384           1137    LLESLLR|SY  0.154    .
+384           1143    RSYSTGR|HI  0.105    .
+384           1155    GNQGVGK|NK  0.060    .
+384           1157    QGVGKNK|LI  0.070    .
+384           1161    KNKLIDR|LL  0.083    .
+384           1170    QLIGASR|EY  0.072    .
+384           1177    EYLQLHR|DS  0.078    .
+384           1194    PVIAEGR|VH  0.067    .
+384           1204    GDSALVR|AV  0.216    .
+384           1207    ALVRAVK|HG  0.101    .
+384           1210    RAVKHGR|VL  0.089    .
+384           1219    VVDEADK|AP  0.057    .
+384           1229    TVTATLR|SL  0.144    .
+384           1243    MWLADGR|KI  0.084    .
+384           1244    WLADGRK|IV  0.091    .
+384           1257    MGQEGDK|IV  0.066    .
+384           1260    EGDKIVK|CH  0.056    .
+384           1266    KCHPDFR|VV  0.105    .
+384           1273    VVFLANR|PG  0.073    .
+384           1283    PFLGNLK|KS  0.053    .
+384           1284    FLGNLKK|SH  0.138    .
+384           1301    YGPDVAR|DL  0.095    .
+384           1306    ARDLLER|LI  0.080    .
+384           1309    LLERLIR|SF  0.448    .
+384           1315    RSFGELR|EM  0.088    .
+384           1330    LYPYSTR|EL  0.089    .
+384           1337    ELVNIIK|HI  0.067    .
+384           1374    IVSILHK|HG  0.070    .
+384           1382    GIPFGAK|PA  0.064    .
+384           1389    PAANIAK|RY  0.071    .
+384           1390    AANIAKR|YP  0.172    .
+384           1398    PLSEPPK|LI  0.076    .
+384           1404    KLIENLK|TG  0.060    .
+384           1412    GPEIGGK|LS  0.059    .
+384           1419    LSNSSMR|RR  0.108    .
+384           1420    SNSSMRR|RS  0.186    .
+384           1421    NSSMRRR|SE  0.252    .
+384           1437    DSSSAYR|LD  0.084    .
+384           1442    YRLDPSR|VR  0.082    .
+384           1444    LDPSRVR|SV  0.176    .
+384           1451    SVLQGGR|KN  0.068    .
+384           1452    VLQGGRK|NA  0.103    .
+384           1457    RKNAGYK|VY  0.072    .
+384           1471    EHCCELR|GS  0.086    .
+384           1481    DYWLSDR|VE  0.075    .
+384           1489    ESGQVPR|QV  0.113    .
+384           1494    PRQVLGR|DG  0.124    .
+384           1497    VLGRDGR|IL  0.248    .
+384           1528    TPVILVR|GL  0.108    .
+384           1536    LALGLTR|DP  0.073    .
+384           1577    LPNLQNK|SD  0.102    .
+384           1601    PTGYLQK|WE  0.054    .
+384           1615    LATSLAK|WR  0.064    .
+384           1617    TSLAKWR|TM  0.083    .
+384           1625    MVGEPSR|DV  0.170    .
+384           1631    RDVNIER|TS  0.089    .
+384           1641    LDVSGPK|HG  0.058    .
+384           1644    SGPKHGK|VD  0.061    .
+384           1665    AGGTGGR|DT  0.098    .
+384           1673    TAGLGGK|GG  0.062    .
+384           1678    GKGGPYR|LD  0.088    .
+384           1693    QLSDTEK|DD  0.082    .
+384           1701    DIPDEVK|RA  0.057    .
+384           1702    IPDEVKR|AA  0.277    .
+384           1705    EVKRAAR|EM  0.373    .
+384           1709    AAREMGK|RE  0.060    .
+384           1710    AREMGKR|EF  0.212    .
+384           1714    GKREFEK|RL  0.079    .
+384           1715    KREFEKR|LK  0.239    .
+384           1717    EFEKRLK|EI  0.062    .
+384           1720    KRLKEIK|MS  0.063    .
+384           1728    SEYDSER|YG  0.078    .
+384           1737    TFYNAVR|PQ  0.092    .
+384           1744    PQISSLK|QR  0.062    .
+384           1746    ISSLKQR|ER  0.129    .
+384           1748    SLKQRER|ER  0.097    .
+384           1750    KQRERER|ER  0.084    .
+384           1752    RERERER|ER  0.088    .
+384           1754    RERERER|DR  0.117    .
+384           1756    RERERDR|ER  0.093    .
+384           1758    RERDRER|ER  0.092    .
+384           1760    RDRERER|ER  0.092    .
+384           1762    RERERER|ER  0.094    .
+384           1764    RERERER|ER  0.087    .
+384           1766    RERERER|ER  0.090    .
+384           1768    RERERER|ER  0.098    .
+384           1770    RERERER|ER  0.090    .
+384           1772    RERERER|ER  0.093    .
+384           1774    RERERER|EG  0.083    .
+384           1787    EINLNIR|LF  0.070    .
+384           1792    IRLFVCR|VY  0.119    .
+384           1806    DVVPPSK|PC  0.058    .
+384           1812    KPCAGQR|ER  0.114    .
+384           1814    CAGQRER|ER  0.089    .
+384           1816    GQRERER|GR  0.094    .
+384           1818    RERERGR|--  0.105    .
+____________________________^_________________
+
+
+
+

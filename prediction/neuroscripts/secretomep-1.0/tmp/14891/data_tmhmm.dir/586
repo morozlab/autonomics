@@ -1,0 +1,24 @@
+# 586 Length: 1513
+# 586 Number of predicted TMHs:  9
+# 586 Exp number of AAs in TMHs: 206.4724
+# 586 Exp number, first 60 AAs:  0.17728
+# 586 Total prob of N-in:        0.01000
+586	TMHMM2.0	outside	     1   661
+586	TMHMM2.0	TMhelix	   662   684
+586	TMHMM2.0	inside	   685   696
+586	TMHMM2.0	TMhelix	   697   719
+586	TMHMM2.0	outside	   720   729
+586	TMHMM2.0	TMhelix	   730   752
+586	TMHMM2.0	inside	   753  1159
+586	TMHMM2.0	TMhelix	  1160  1182
+586	TMHMM2.0	outside	  1183  1196
+586	TMHMM2.0	TMhelix	  1197  1219
+586	TMHMM2.0	inside	  1220  1231
+586	TMHMM2.0	TMhelix	  1232  1254
+586	TMHMM2.0	outside	  1255  1284
+586	TMHMM2.0	TMhelix	  1285  1307
+586	TMHMM2.0	inside	  1308  1327
+586	TMHMM2.0	TMhelix	  1328  1350
+586	TMHMM2.0	outside	  1351  1359
+586	TMHMM2.0	TMhelix	  1360  1382
+586	TMHMM2.0	inside	  1383  1513

@@ -1,0 +1,8 @@
+# 577 Length: 1524
+# 577 Number of predicted TMHs:  1
+# 577 Exp number of AAs in TMHs: 23.3493399999999
+# 577 Exp number, first 60 AAs:  0.28564
+# 577 Total prob of N-in:        0.87756
+577	TMHMM2.0	inside	     1   559
+577	TMHMM2.0	TMhelix	   560   582
+577	TMHMM2.0	outside	   583  1524

@@ -1,0 +1,22 @@
+#SEG hight/low complexity region vectors.
+# col	ident			avg      	dev      	min      	max       	normal (applied)
+2	     High_complexity	0.161090	0.252564	0.000000	1.200000	norm
+3	     High_complexity	0.103579	0.222998	0.000000	1.047000	norm
+4	     High_complexity	0.078450	0.193239	0.000000	1.200000	norm
+5	     High_complexity	0.075631	0.191786	0.000000	1.053000	norm
+6	     High_complexity	0.073493	0.187880	0.000000	1.200000	norm
+7	     High_complexity	0.074123	0.191080	0.000000	1.136000	norm
+8	     High_complexity	0.077741	0.194358	0.000000	1.200000	norm
+9	     High_complexity	0.079574	0.195111	0.000000	1.053000	norm
+10	     High_complexity	0.102998	0.219408	0.000000	1.200000	norm
+11	     High_complexity	0.108733	0.219915	0.000000	1.000000	norm
+12	      Low_complexity	0.855844	0.254438	0.000000	1.818000	norm
+13	      Low_complexity	0.894951	0.223876	0.000000	1.250000	norm
+14	      Low_complexity	0.922592	0.193417	0.000000	1.250000	norm
+15	      Low_complexity	0.923177	0.193370	0.000000	1.538000	norm
+16	      Low_complexity	0.920557	0.188836	0.000000	1.200000	norm
+17	      Low_complexity	0.931088	0.191865	0.000000	1.364000	norm
+18	      Low_complexity	0.924636	0.196379	0.000000	1.538000	norm
+19	      Low_complexity	0.917902	0.196022	0.000000	1.250000	norm
+20	      Low_complexity	0.899109	0.219465	0.000000	1.250000	norm
+21	      Low_complexity	0.874727	0.220009	0.000000	1.000000	norm
