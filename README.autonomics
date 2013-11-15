@@ -472,7 +472,7 @@ The final output will be found in the file  <proj_name>_peptide_prediction
 in the <proj_name> directory.
 
 The output, a line of which looks like this:
-"jgi|Lotgi1|54396|gw1.1.87.1:0.099,0,0,0,-" is interpreted as follows.
+"jgi|Lotgi1|54396|gw1.1.87.1,0.099,0,0,0,-" is interpreted as follows.
 
 The first item in the comma separated output file is the sequence
 name, then next is the signalp4 confidence score between 0 and 1, then
