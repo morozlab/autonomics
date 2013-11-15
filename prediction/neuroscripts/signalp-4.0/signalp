@@ -10,7 +10,10 @@
 
 # full path to the signalp-4.0 directory on your system (mandatory)
 BEGIN {
-    $ENV{SIGNALP} = '/srv/data2/neuroscripts/signalp-4.0';
+     $signalPath = $ENV{AUTONOMICS_PATH};
+     $signalPath .= '/prediction/neuroscripts/signalp-4.0';
+     $ENV{SIGNALP} = $signalPath;
+#    $ENV{SIGNALP} = '/srv/data2/neuroscripts/signalp-4.0';
 }
 
 # determine where to store temporary files (must be writable to all users)
