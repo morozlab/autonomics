@@ -112,8 +112,8 @@ if machine == "":
   print "settings.py unable to find machine it is running on"
   sys.exit()
 
-# INSTALL_DIR is the full path to where the autonomics dir (cloned from github) exists
-# git clone https://github.com/morozlab/autonomics
+# INSTALL_DIR is the full path to where the autonomics dir exists (the one cloned
+# from github)  git clone https://github.com/morozlab/autonomics
 
 if machine == 'acis':
     INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
