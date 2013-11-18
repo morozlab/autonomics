@@ -45,13 +45,16 @@ running.
 
 Next, download dump.rdb from the autonomics dir on our public ftp
 site: 128.227.123.35, with the following credentials: 
-username  =  moroz-guest password  =  moroz-guest  
+username: moroz-guest      password:  moroz-guest  
 and Put the dump.rdb file in your redis distribution
 dir.  Next stop the redis-server (kill -9 ...).  Do a ps to be sure it
 has stopped.  Now restart the redis-server exactly as you before and
 it will automatically read in the dump file and populate the key store
 with the necessary annotation mappings.  This may take awhile as the
 dump file is large ... be patient.
+
+Also download the file autonomics.data.for.sql.tables from the ftp site
+and put that file in the autonomics/data directory.
 
 To start, edit the settings.py file in the autonomics directory and
 enter data appropriate for your situation.  The settings file is
@@ -149,6 +152,24 @@ background and control the pipeline.  The processes monitor the mySQL
 database for jobs to run and the local and remote cluster for job
 completion.  If you wish to use the data gremplin, then execute python
 data_gremlin.py &.
+
+For example: autonomics/start.auto FOO
+results in:
+% ls autonomics/*log*
+dlogFOO  (which is the log from the dispatcher)
+mlogFOO  (log from manager)
+
+% ps -U morozgroup -u morozgroup u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+501       7611  0.0  0.4 245608 24916 ?        S    06:20   0:00 python dispatcher.py
+501       7613  0.0  0.4 251328 26392 ?        S    06:20   0:07 python manager.py
+501      25264  0.0 74.9 10685964 4490928 ?    Sl   Nov12   4:14 redis-server ./redis.conf
+
+If you need to start the pipeline again, BE SURE to run the 'ps'
+command and then 'kill' ALL the dispatcher and manager process that are
+running ... there may be more than one of each.
+
+If you need help from us, we will need to look at your log files.
 
 ----------------
 THE DATA GREMLIN
@@ -441,6 +462,16 @@ a command something like this: sed -i 's/old-wallTime/new-wallTime/g' *.qsub
 This may be an indication that you need to increase the wall time in the
 settings.py file - see above in the section The Installation.
 
+------------------------------------------------------------
+GETTING HELP IN CASE OF TROUBLE WITH THE AUTONOMICS PIPELINE
+------------------------------------------------------------
+
+If you have carefully followed the above instruction for installation
+and you run into problems.  Send an email to plw1080@gmail.com
+
+We will require a record of all the steps you took to install and
+setup the autonomics pipeline and the 2 runtime logfiles.
+
 ----------------------------------------
 DE-NOVO PREDICTION OF SECRETORY PEPTIDES
 ----------------------------------------
@@ -485,4 +516,7 @@ phobius's transmembrane domain prediction (0 or 1), then phobius's
 signal peptide prediction (0 or 1) and finally a '+' or '-' if the
 combined score given by the pipeline suggests a secreted product or
 not.
+
+If you should encounter difficulties with the prediction code, please
+contact: David Girardo  dogirardo@WPI.EDU
 
