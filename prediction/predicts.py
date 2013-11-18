@@ -8,7 +8,7 @@ from autonomics import settings
 
 parser = argparse.ArgumentParser(description='Signaling Peptide prediction script for the zero-click pipeline')
 parser.add_argument('projName', help='Unique identifier (name) for this project. Should be consistantly used across the pipeline.')
-parser.add_argument('--sp_cutoff',default = 0.5)
+parser.add_argument('--sp_cutoff', dest="sp_cutoff", default = 0.5)
 parser.add_argument('--use_tmhmm',action='store_true')
 parser.add_argument('--use_phobtm',action='store_true')
 parser.add_argument('--use_phobsp',action='store_true')
@@ -20,6 +20,7 @@ processor = 'x86_64'
 
 ppath = settings.proj_dir
 apath = os.environ["AUTONOMICS_PATH"]
+
 pred_dir = ppath + '/' + pn + '/prediction/'
 pd = ppath + '/' + pn
 np_dir = apath + '/prediction/neuroscripts/' 
@@ -90,7 +91,7 @@ def main():
             results = parse_predictions(i)
             for n in results: #Write compiled prediction results, restoring original name
                 preds = results[n]
-                isSP = preds[sp]>sp_cutoff and (((not use_tmhmm) or preds[tmhmm] == 0) or (((not use_tmhmm) or preds[tmhmm] == 1) and ((not use_phobtm) or preds[phobtm] == 0) and ((not use_phobsp) or preds[phobsp] ==1)))
+                isSP = preds[sp]>args.sp_cutoff and (((not use_tmhmm) or preds[tmhmm] == 0) or (((not use_tmhmm) or preds[tmhmm] == 1) and ((not use_phobtm) or preds[phobtm] == 0) and ((not use_phobsp) or preds[phobsp] ==1)))
                 preds.append(isSP and '+' or '-')
                 h.write(cypher[int(n)].name + ',' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
     call(['rm','-r',pred_dir]) #Clean up the prediction directory

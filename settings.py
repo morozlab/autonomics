@@ -129,11 +129,11 @@ if machine == 'ap':
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 
 # these paths are on the machine running the autonomics pipeline (acis in our case)
-# proj_dir = "/srv/data2/pipeline/"  # (pipeline_dir) where your project folders will be created
 if machine == 'acis':
    proj_dir = "/srv/data2/pipeline/"   # (pipeline_dir) where your project folders will be created
-if machine == 'ap':
+if machine == 'ap':  # only used by us for testing the distribution on a different machine
    proj_dir = "/data/pipeline/"  # (pipeline_dir) where your project folders will be created
+
 pfam_exec_path = "/srv/data/pfam/PfamScan/"
 khmer_path = "/srv/data2/software/Khmer/scripts/"
 trinity_path = "/srv/data2/software/Trinity/"
