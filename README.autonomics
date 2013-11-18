@@ -106,8 +106,8 @@ Now create the necessary tables in your mySQL database on your local
 machine. (see autonomics/docs/README).  Then load the data to
 initialize the tables. Here is what I did, right after the above commands.
 In the autonomics directory:
-mysql -u root -p zero_click < autonomics/data/autonomics.sql.tables
-mysql -u root -p zero_click < autonomics/data/autonomics.data.for.sql.tables
+mysql -u root --password=XXXXXXXX zero_click < autonomics/data/autonomics.sql.tables
+mysql -u root --password=XXXXXXXX zero_click < autonomics/data/autonomics.data.for.sql.tables
 
 The code in autonomics/jobs.py creates qsub files that control jobs on
 the remote hpc cluster.  Our cluster uses the moab control system and
@@ -461,6 +461,10 @@ motifs.
 Sensitivity for all parameters may be controlled with minimal
 modification to accommodate different dataset sizes, model organisms
 or sequencing technologies.
+
+If you dont have /lib/ld-linux.so.2 on your machine, then get it with:
+"sudo yum /lib/ld-linux.so.2",  or you may need your sysadmin to do
+this for you.  You need this in order run the prediction system.
 
 Put the input file with the proteins you want a predication for in the
 pipeline dir (proj_dir) and give it the name <proj_name>_proteins.fasta
