@@ -407,6 +407,10 @@ blast or pfam job.  You can do this by executing:
 restart_job <project_name> <job_type>. In addition there is a script:
 stop_project.  
 
+Do not restart go or kegg jobs until you are certain that
+blast_swissprot has completed for that project as the go & kegg
+computation need the blast_swissprot results.
+
 When getting started you may need to experiment with a few runs to see
 how much wall time to give your jobs on the cluster as cluster vary in
 performance.  You modify the wall time in settings.py After modifying

@@ -3907,7 +3907,7 @@ class HPCProcess(PipeProcess):
                 else:
                     time.sleep(sleep_time)
                     sleep_time = sleep_time * 2
-                    sys.stderr.write("Error retrieving status of running job " + proc.name + " -retrying after sleeping " + sleep_time + "\nCommand: " + command + "\n")
+                    sys.stderr.write("Error retrieving status of running job " + proc.name + " -retrying after sleeping " + str(sleep_time) + "\nCommand: " + command + "\n")
 
         if(running == 0):
             proc.status = "finished"
