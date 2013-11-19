@@ -2,6 +2,7 @@ from string import replace
 import argparse
 import os
 from copy import copy
+import subprocess
 from subprocess import call
 from Bio import SeqIO
 from autonomics import settings
@@ -14,6 +15,7 @@ parser.add_argument('--sp_cutoff', dest="sp_cutoff", default = 0.5)
 parser.add_argument('--use_tmhmm',action='store_true')
 parser.add_argument('--use_phobtm',action='store_true')
 parser.add_argument('--use_phobsp',action='store_true')
+parser.add_argument('--max_threads',type=int, dest='max_threads', default=1)
 args = parser.parse_args()
 pn = args.projName
 
@@ -33,11 +35,12 @@ outname = '_peptide_prediction'
 
 start = time.time()
 
-print "outname: ", outname
-print "pd: ", pd
-print "fa: ", fa
-print "pred_dir: ", pred_dir
-print "np_dir: ", np_dir
+# print "outname: ", outname
+# print "pd: ", pd
+# print "fa: ", fa
+# print "pred_dir: ", pred_dir
+#print "np_dir: ", np_dir
+print "using: ", args.max_threads, " threads for ", pn
 sys.stdout.flush()
 
 max_contigs = 2000 #4000 is too high, deterimined experimentally. Mysterious HOW errors caused if too high
@@ -74,19 +77,26 @@ def main():
     os.mkdir(pred_dir)
     cypher,t = format_for_predictors() #Format files and create name mapping
     os.chdir(pred_dir)
-    for flnm in (pn + '-%s.prots' % n for n in range(t)):
-        call(np_dir + "signalp-4.0/signalp -t euk -f short " + flnm + " > " + flnm.replace('.prots','_signalp4.out'), shell=True) #Run SignalP v4
-#        call(np_dir + "signalp-3.0/signalp -t euk -f short -trunc 70 " + flnm + " > " + flnm.replace('.prots','_signalp3.out'), shell=True) #Run SignalP v3
-#        call(np_dir + "targetp-1.1/targetp -N " + flnm + " > " + flnm.replace('.prots','_targetp.out'),shell=True) #Run TargetP
+    threads = []
+    def block(): #Wait until threads are free
+        while True:
+            running = sum(x.poll()==None for x in threads)
+            if running >= args.max_threads:
+                time.sleep(10)
+            else: break
 
+    for flnm in (pn + '-%s.prots' % n for n in range(t)):
+        block()
+        threads.append(subprocess.Popen(np_dir + "signalp-4.0/signalp -t euk -f short " + flnm + " > " + flnm.replace('.prots','_signalp4.out'), shell=True)) #Run SignalP v4
         print "cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out')
         sys.stdout.flush()
-        call("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True) #Run TMHMM
-        ###
+        block()
+        threads.append(subprocess.Popen("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True)) #Run TMHMM
         print "Running PHOBIUS: " + flnm
         sys.stdout.flush()
-        call(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True) #Run Phobius
-#    with open(pd + pn + '_final_prediction.out','w+') as h:
+        block()
+        threads.append(subprocess.Popen(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True)) #Run Phobius
+    for thrd in threads: thrd.wait() #Wait for prediction processes to finish
     with open(pd + '/' + pn + outname,'w+') as h:
         h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp\n')
         sp = 0
@@ -104,6 +114,7 @@ def main():
 
     elapsed = (time.time() - start) / 60.0
     print "Total time to run peptide prediction for ", pn, ": ", elapsed, " minutes"
+    sys.stdout.flush()
 
 ####################################################
 def write_fasta_sameline(flnm,seq,mode='w+'):

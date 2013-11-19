@@ -536,7 +536,17 @@ rm -fr prediction
 Be careful with the above you just want to remove the prediction dir.
 <proj_dir>/<project_name>/prediction and nothing else.
 
+You can run predicts with more than one thread and it will speed up
+almost linearly.  by default it uses 1 thread.  if your computer
+supports threads, you can increase the number of threads in multiples
+of 3.  e.g.   for a project named Lottia in  your proj_dir
+
+python predicts.py --max_threads 3 Lottia > & log.3 &
+python predicts.py --max_threads 6 Lottia > & log.6 &
+python predicts.py --max_threads 9 Lottia > & log.9 &
+
 If you want technical information or should encounter difficulties
 with the prediction code, please contact: David Girardo
 dogirardo@WPI.EDU
+
 
