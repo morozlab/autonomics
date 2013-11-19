@@ -5,6 +5,8 @@ from copy import copy
 from subprocess import call
 from Bio import SeqIO
 from autonomics import settings
+import time
+import sys
 
 parser = argparse.ArgumentParser(description='Signaling Peptide prediction script for the zero-click pipeline')
 parser.add_argument('projName', help='Unique identifier (name) for this project. Should be consistantly used across the pipeline.')
@@ -29,11 +31,14 @@ outname = '_peptide_prediction'
 
 ############################################
 
+start = time.time()
+
 print "outname: ", outname
 print "pd: ", pd
 print "fa: ", fa
 print "pred_dir: ", pred_dir
 print "np_dir: ", np_dir
+sys.stdout.flush()
 
 max_contigs = 2000 #4000 is too high, deterimined experimentally. Mysterious HOW errors caused if too high
 def format_for_predictors():
@@ -75,10 +80,11 @@ def main():
 #        call(np_dir + "targetp-1.1/targetp -N " + flnm + " > " + flnm.replace('.prots','_targetp.out'),shell=True) #Run TargetP
 
         print "cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out')
-
+        sys.stdout.flush()
         call("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True) #Run TMHMM
         ###
         print "Running PHOBIUS: " + flnm
+        sys.stdout.flush()
         call(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True) #Run Phobius
 #    with open(pd + pn + '_final_prediction.out','w+') as h:
     with open(pd + '/' + pn + outname,'w+') as h:
@@ -91,10 +97,14 @@ def main():
             results = parse_predictions(i)
             for n in results: #Write compiled prediction results, restoring original name
                 preds = results[n]
-                isSP = preds[sp]>args.sp_cutoff and (((not use_tmhmm) or preds[tmhmm] == 0) or (((not use_tmhmm) or preds[tmhmm] == 1) and ((not use_phobtm) or preds[phobtm] == 0) and ((not use_phobsp) or preds[phobsp] ==1)))
+                isSP = preds[sp]>args.sp_cutoff and (((not args.use_tmhmm) or preds[tmhmm] == 0) or (((not args.use_tmhmm) or preds[tmhmm] == 1) and ((not args.use_phobtm) or preds[phobtm] == 0) and ((not args.use_phobsp) or preds[phobsp] ==1)))
                 preds.append(isSP and '+' or '-')
                 h.write(cypher[int(n)].name + ',' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
     call(['rm','-r',pred_dir]) #Clean up the prediction directory
+
+    elapsed = (time.time() - start) / 60.0
+    print "Total time to run peptide prediction for ", pn, ": ", elapsed, " minutes"
+
 ####################################################
 def write_fasta_sameline(flnm,seq,mode='w+'):
     with open(flnm,mode) as f:

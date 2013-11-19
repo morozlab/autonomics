@@ -501,10 +501,10 @@ Put the input file with the proteins you want a predication for in the
 pipeline dir (proj_dir) and give it the name <proj_name>_proteins.fasta
 
 Then start the prediction process by invoking:
-python autonomics/prediction/predicts.py <proj_name>
+python autonomics/prediction/predicts.py <proj_name> >& log.pred.<proj_name> &
 
-The final output will be found in the file  <proj_name>_peptide_prediction
-in the <proj_name> directory.
+The final output will be found in the file:
+<proj_dir>/<proj_name>/<proj_name>_peptide_prediction
 
 The output, a line of which looks like this:
 "jgi|Lotgi1|54396|gw1.1.87.1,0.099,0,0,0,-" is interpreted as follows.
@@ -517,6 +517,18 @@ signal peptide prediction (0 or 1) and finally a '+' or '-' if the
 combined score given by the pipeline suggests a secreted product or
 not.
 
-If you should encounter difficulties with the prediction code, please
-contact: David Girardo  dogirardo@WPI.EDU
+At the end of the logfile you created, log.pred.<proj_name>, will be
+the total time to do the peptide prediction run.
+
+If you make a mistake or for some reason run predicts.py on the same
+project more than once, you will first need to delete the dir:
+<proj_dir>/<project_name>/prediction i.e. 
+cd <proj_dir>/<project_name>
+rm -fr prediction
+Be careful with the above you just want to remove the prediction dir.
+<proj_dir>/<project_name>/prediction and nothing else.
+
+If you want technical information or should encounter difficulties
+with the prediction code, please contact: David Girardo
+dogirardo@WPI.EDU
 
