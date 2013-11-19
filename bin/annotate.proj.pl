@@ -21,12 +21,13 @@ GetOptions(
 sub printUsage{
   print "$0\n";
   print "usage:\n";
-  print "	-proj :project_name_with_path (REQUIRED)\n";
+  print "	-proj :project_name (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
   print "       -noass   (OPTIONAL)\n";
   print "       -data   (OPTIONAL [ NT | AA ] - REQUIRED if -noass used)\n";
 };
+
 
 # python /home/pwilliams/python_software/zeroclick/scripts/systemtools.py --add-project --assign-workflow --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ --set-args "quality_trim|pipeline_args;--paired-end" "adapter_trim|pipeline_args;--paired-end" "read_normalization|pipeline_args;--paired-end" "assemble|pipeline_args;--paired-end" --project-names Aplysia_californica_hatchling_veliger_12day_HiSeq_trans
 
@@ -38,6 +39,11 @@ if(!defined($proj)) { printUsage(); exit 0; }
 if(!defined($mira)) { $mira = 0; }  else { $mira = 1; }
 if(!defined($noass)) { $noass = 0; $assemble = 1; }  else { $noass = 1; $assemble = 0;}
 if(!defined($paired_end)) { $paired_end = 0; } else { $paired_end = 1; }
+
+my $projdir = $ENV{ PIPEPATH };
+$projdir .= "/";
+$projdir .= $proj;
+$projdir .= "/";
 
 if ($noass && (!defined($data))) {
   print "-data NT | AA must be specified when -noass is set\n";
@@ -64,11 +70,6 @@ if ($mira && $noass) {
   print " can not set mira flag with noass flag\n";
   exit 0;
 }
-
-# my $projdir = "/srv/data2/pipeline/" . $proj . "/";
-my $projdir = $proj . "/";
-$proj = basename($projdir);
-$proj =~ s/\///;
 
 if (!-d $projdir) {
   print "$projdir does not exist\n";

@@ -36,6 +36,15 @@ def main():
        print "FAILED\nFAILED\nFAILED\nFAILED\nFAILED\nFAILED\nFAILED\n"
        sys.exit()
 
+
+    has_fastq = 0
+    fname = settings.proj_dir + "/" + project_name + "/" + project_name +'.fastq'
+    if os.path.exists(fname): has_fastq = 1
+
+    if ((job_type == 'quantification') and (not has_fastq)):
+      print "project has no fastq fastq file and one is needed for quantification"
+      sys.exit()
+
     # setup database connections    
     session = netutils.DBSession("localhost", settings.ZC_DB_NAME,
                                 settings.db_cred.user, settings.db_cred.passwd)

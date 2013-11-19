@@ -411,6 +411,10 @@ Do not restart go or kegg jobs until you are certain that
 blast_swissprot has completed for that project as the go & kegg
 computation need the blast_swissprot results.
 
+Also, do not call restart to do quantification unless you have reads,
+as quantification requires them.  This would apply to gene models for
+example.
+
 When getting started you may need to experiment with a few runs to see
 how much wall time to give your jobs on the cluster as cluster vary in
 performance.  You modify the wall time in settings.py After modifying

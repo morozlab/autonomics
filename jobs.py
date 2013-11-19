@@ -3796,13 +3796,14 @@ class HPCProcess(PipeProcess):
 
             except:
                 if(retries > 0):
-                    sys.stderr.write("Exception raised during mail access!")
+                    sys.stderr.write("Exception raised during mail access -- retrying!")
                     retries -= 1
                     #sleep, then start a new connection to mail server
                     time.sleep(self.retry_interval * 5)
                     self.mail_connect = self._mail_connect()
                     self.mail_connect.select(settings.checkedMailbox)
                 else:
+                    sys.stderr.write("Exception raised during mail access -- giving up no more retries left!")
                     self.disableMail()
                     return 0
 
