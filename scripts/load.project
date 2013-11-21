@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my ($proj_name, $data_type) = @ARGV;
+if( (not defined $proj_name) ||
+    (not defined $data_type)) {
+    print "\nUsage: $0 <proj_name> <NT || AA>\n";
+    exit 0;
+}
+
+if (($data_type ne "AA") && ($data_type ne "NT")) {
+  print "data_type must be AA or NT, you entered: $data_type\n";
+  exit 0;
+}
+
+my $cmd = "loadnb.pl $proj_name $data_type ALL";
+print "$cmd\n";
+system ($cmd);
+if ( $? ) { die "Command failed: $cmd: $!"; }
