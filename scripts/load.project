@@ -14,7 +14,7 @@ if (($data_type ne "AA") && ($data_type ne "NT")) {
   exit 0;
 }
 
-my $cmd = "loadnb.pl $proj_name $data_type ALL";
+my $cmd = "loadnb.pl $proj_name $data_type ALL Moof2011";
 print "$cmd\n";
 system ($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }
