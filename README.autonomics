@@ -480,73 +480,96 @@ and you run into problems.  Send an email to plw1080@gmail.com
 We will require a record of all the steps you took to install and
 setup the autonomics pipeline and the 2 runtime logfiles.
 
-----------------------------------------
-DE-NOVO PREDICTION OF SECRETORY PEPTIDES
-----------------------------------------
 
-As part of this autonomics distribution, in the directory
-autonomics/prediction, is code for de-novo prediction of secretory
-peptides from proteomic data, translated transcriptome data, or
-translated gene models.  The prediction combines multiple distinct
-heuristic tools.
+-----------------------------------
+DE-NOVO PREDICTION OF NEUROPEPTIDES
+-----------------------------------
 
-It is optimized for a first pass over high-throughput de-novo
-data of non-standard model organisms, identifying a likely set of
-secreted products.  The prediction is based on a variety of universal
-protein motifs including the presence or absence of N-terminal signal
-peptides, trans-membrane domains, and other sublocalization
-motifs. 
+Code for de-novo prediction of neuropeptides from proteomic data is
+incliuded in the autonomics distributon and can be found in the
+directory autonomics/prediction.  The prediction is based on the
+results from several heuristic tools, including SignalP4, TMHMM and
+Phobius, which in turn ares based on a variety of universal protein
+motifs including the presence or absence of N-terminal signal peptides
+(SP), transmembrane domains (TM), and other sublocalization motifs.
 
-Sensitivity for all parameters may be controlled with minimal
-modification to accommodate different dataset sizes, model organisms
-or sequencing technologies.
+You need /lib/ld-linux.so.2 on your machine in order run the
+predictioncode.  If you dont have it, you can get it with: "sudo yum
+/lib/ld-linux.so.2", (you may need your sysadmin to do this if you
+dont have root privileges).
 
-If you dont have /lib/ld-linux.so.2 on your machine, then get it with:
-"sudo yum /lib/ld-linux.so.2",  or you may need your sysadmin to do
-this for you.  You need this in order run the prediction system.
+The input to is a file of proteins in fasta format.  The input file
+must in put in the a project dir in the pipeline dir and given the
+name <proj_name>_proteins.fasta
 
-Put the input file with the proteins you want a predication for in the
-pipeline dir (proj_dir) and give it the name <proj_name>_proteins.fasta
+So: <pipeline_dir>/<proj_name>/<proj_name>_proteins.fasta
 
-Then start the prediction process by invoking:
-python autonomics/prediction/predicts.py <proj_name> >& log.pred.<proj_name> &
+Start the prediction by invoking:
 
-The final output will be found in the file:
-<proj_dir>/<proj_name>/<proj_name>_peptide_prediction
+python autonomics/prediction/predicts.py [--max_threads <n>] [--sp_cutoff <float>] <proj_name> >& log.pred.<proj_name>.<sp_cutoff> &
+--sp_cutoff defaults to 0.5 if not specified
+          # this is SignalP4 score for discriminating signal peptides from transmembrane regiosn
+--max_threads defaults to 1 if not specified; must be 1 or a multiple of 3
 
-The output, a line of which looks like this:
+You may also specify the args:
+--use_tmhmm  ('0 or 1',default=1) # Use: TMHMM to predict transmembrane domains
+--use_phobtm ('0 or 1',default=1) # Use: Phobius to predict transmembrane domains
+--use_phobsp ('0 or 1',default=1) # Use: Phobius to predict signal peptides
+You do not normally use these args; they are there for experimentation with the code.
+
+The final output is in two files:
+[file1] <proj_dir>/<proj_name>/<proj_name>_peptide_prediction
+[file2] <proj_dir>/<proj_name>/<proj_name>_peptides_<sp_cutoff_value>.fasta
+
+The output of [file1], a line of which looks like this:
 "jgi|Lotgi1|54396|gw1.1.87.1,0.099,0,0,0,-" is interpreted as follows.
 
 The first item in the comma separated output file is the sequence
-name, then next is the signalp4 confidence score between 0 and 1, then
-tmhmm's prediction of transmembrane domain or not (0 or 1), then
-phobius's transmembrane domain prediction (0 or 1), then phobius's
-signal peptide prediction (0 or 1) and finally a '+' or '-' if the
-combined score given by the pipeline suggests a secreted product or
-not.
+name, the next items are:
+[A] the SignalP4 confidence score, a floating point number between 0 and 1
+[B] the number of transmembrane domains predicted by TMHMM
+[C] the number of transmembrane domains predicted by Phobius
+[D] whether Phobius predicts the presence of a signal peptide (0 or 1)
+[E] a '+' or '-' if the combined score predicts the protein is/isnot a neuropeptide.
 
-At the end of the logfile you created, log.pred.<proj_name>, will be
-the total time to do the peptide prediction run.
+For the combined score [E] to be '+', requires:
+    [A] > sp_cutoff; [B] to be 0 unless ([C] = 0 and [D] is 1)
 
-If you make a mistake or for some reason run predicts.py on the same
-project more than once, you will first need to delete the dir:
-<proj_dir>/<project_name>/prediction i.e. 
+The reasoning is as follows:
+
+[B(TMHMM)] detects the widest range of transmembrane domains.
+However, signal peptides share many traits with transmembrane domains,
+and so can be misclassified.
+
+Phobious is particularly designed to distinguish between tm domains
+and signal peptides, so if [B(TMHMM)] says theirs a tm domain but
+phobius [C(PhobiusTM)] says there is no tm domain and
+[D(PhobiusSP)indicates there is a signal peptide, we assume that
+[B(TMHHM)] misclassified the protein and so ignore its result.
+
+The subset of input proteins whose combined score is '+' are written
+to [file2] in fasta format.
+
+The total time to run the peptide prediction is given at the end of
+the log file you created above.
+
+If for any reason you abort a predicts.py run or it fails to run to completion,
+you must delete the following directory yourself:
+<proj_dir>/<project_name>/prediction
+i.e. 
 cd <proj_dir>/<project_name>
-rm -fr prediction
-Be careful with the above you just want to remove the prediction dir.
-<proj_dir>/<project_name>/prediction and nothing else.
+rm -r prediction
+Be careful not to remove the wrong diretory
 
-You can run predicts with more than one thread and it will speed up
-almost linearly.  by default it uses 1 thread.  if your computer
-supports threads, you can increase the number of threads in multiples
-of 3.  e.g.   for a project named Lottia in  your proj_dir
+You only need to run predicts.py once.  To get a fasta file of the predicted neuropeptides
+for a different SignalP cutoff, use the script: parse_preds.py  as follows:
+python parse_preds.py --sp_cutoff <new_cutogg> <proj_name>
+this  will create a file:
+<pipeline>/<proj_name>/<proj_name>_<cutoff>.fasta
 
-python predicts.py --max_threads 3 Lottia > & log.3 &
-python predicts.py --max_threads 6 Lottia > & log.6 &
-python predicts.py --max_threads 9 Lottia > & log.9 &
-
-If you want technical information or should encounter difficulties
-with the prediction code, please contact: David Girardo
+For more information on the neuropeptide prediction code, please contact: David Girardo
 dogirardo@WPI.EDU
+
+For assitance with the autonomics pipeline code, contact: Peter Williams plw1080@gmail.com
 
 
