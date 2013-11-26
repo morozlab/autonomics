@@ -2333,7 +2333,7 @@ class GOProcess(BlastAssociationProcess):
             mid_arg = self.local_dir + self.base_name
 
         java_cmd += " > " + mid_arg + "_gocats.txt"
-
+        print "java_cmd: ", java_cmd
         proc = subprocess.Popen(java_cmd, shell=True)
         proc.wait()
         die_on_error(proc.returncode, cmd_str=java_cmd)

@@ -116,11 +116,11 @@ if machine == "":
 # from github)  git clone https://github.com/morozlab/autonomics
 
 if machine == 'acis':
-    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+    INSTALL_DIR = "/home/pwilliams/autonomics/"
 if machine == 'oem':
-    INSTALL_DIR = "/home/oem/python_software/autonomics/"
+    INSTALL_DIR = "/home/oem/autonomics/"
 if machine == 'hpc':
-    INSTALL_DIR = "/home/pwilliams/python_software/autonomics/"
+    INSTALL_DIR = "/home/pwilliams/autonomics/"
 if machine == 'pb':
     INSTALL_DIR = "/home/morozgroup/autonomics/"
 if machine == 'ap':
@@ -188,7 +188,7 @@ hpc_cred = Credentials(from_file=CRED_PATH + "hpc")
 zc_cred = Credentials(from_file=CRED_PATH + "data_gremlin")
 
 # SOME EXAMPLES OF CREDS FILES:
-# pwd: /home/pwilliams/python_software/autonomics/credentials
+# pwd: /home/pwilliams/autonomics/credentials
 # ls:  pipeline_mail_account autonomics_pipe_db gator.hpc.ufl.edu
 # cat pipeline_mail_account 
 # host:pop.gmail.com

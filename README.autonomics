@@ -561,11 +561,11 @@ cd <proj_dir>/<project_name>
 rm -r prediction
 Be careful not to remove the wrong diretory
 
-You only need to run predicts.py once.  To get a fasta file of the predicted neuropeptides
-for a different SignalP cutoff, use the script: parse_preds.py  as follows:
-python parse_preds.py --sp_cutoff <new_cutogg> <proj_name>
-this  will create a file:
-<pipeline>/<proj_name>/<proj_name>_<cutoff>.fasta
+You only need to run predicts.py once.  After that, to get a fasta
+file of the predicted neuropeptides for a different SignalP cutoff,
+use the script: parse_preds.py as follows: 
+python parse_preds.py --sp_cutoff <new_cutogg> <proj_name> 
+this will create a file: <pipeline>/<proj_name>/<proj_name>_<cutoff>.fasta
 
 For more information on the neuropeptide prediction code, please contact: David Girardo
 dogirardo@WPI.EDU
