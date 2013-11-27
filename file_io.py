@@ -159,6 +159,7 @@ def translate_seq_file(filePath, fmt):
     for record in SeqIO.parse(f, fmt):
         #write each translated sequence to the new file
         for i in range(-3, 4):
+            if i == 0: continue
             try:
                 SeqIO.write(translate_seq(record, i), translated, "fasta")
             except Exception as e:
