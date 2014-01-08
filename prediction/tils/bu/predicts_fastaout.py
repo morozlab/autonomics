@@ -12,11 +12,12 @@ import sys
 parser = argparse.ArgumentParser(description='Signaling Peptide prediction script for the zero-click pipeline')
 parser.add_argument('projName', help='Unique identifier (name) for this project. Should be consistantly used across the pipeline.')
 parser.add_argument('--sp_cutoff', dest="sp_cutoff", default = 0.5)
-parser.add_argument('--max_threads',type=int, dest='max_threads', default=1)
-
 parser.add_argument('--use_tmhmm',type=int,help='0 or 1',default=1)
 parser.add_argument('--use_phobtm',type=int,help='0 or 1',default=1)
 parser.add_argument('--use_phobsp',type=int,help='0 or 1',default=1)
+parser.add_argument('--max_threads',type=int, dest='max_threads', default=1)
+
+
 
 args = parser.parse_args()
 pn = args.projName
@@ -25,16 +26,15 @@ pn = args.projName
 processor = 'x86_64'
 
 #ppath = settings.proj_dir
-ppath = os.environ["PIPEPATH"]
-apath = os.environ["AUTONOMICS_PATH"]
+ppath = '/srv/data2/pipeline' #os.environ["PIPEPATH"]
+apath = '/srv/data2/pipeline' #os.environ["AUTONOMICS_PATH"]
 
 pred_dir = ppath + '/' + pn + '/prediction/'
 pd = ppath + '/' + pn
 np_dir = apath + '/prediction/neuroscripts/' 
 fa = '%s_proteins.fasta' % pn
-# outname = '_peptide_prediction_' + str(args.sp_cutoff)
 outname = '_peptide_prediction'
-fa_outname = '_predicted_' + str(args.sp_cutoff) + '.fasta'
+fa_outname = '_predicted.fasta'
 
 ############################################
 
@@ -45,9 +45,7 @@ start = time.time()
 # print "fa: ", fa
 # print "pred_dir: ", pred_dir
 #print "np_dir: ", np_dir
-print "\n================================================================================================================================="
-print "using: ", args.max_threads, " threads; and a confidence score threshold of: ", str(args.sp_cutoff), " for: ", pn
-print "=================================================================================================================================\n"
+print "using: ", args.max_threads, " threads for ", pn
 sys.stdout.flush()
 
 max_contigs = 2000 #4000 is too high, deterimined experimentally. Mysterious HOW errors caused if too high
@@ -105,7 +103,7 @@ def main():
         threads.append(subprocess.Popen(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True)) #Run Phobius
     for thrd in threads: thrd.wait() #Wait for prediction processes to finish
     with open(pd + '/' + pn + outname,'w+') as h:
-        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp  sp_cutoff: ' + args.sp_cutoff + '\n')
+        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp\n')
         sp = 0
         tmhmm = 1
         phobtm = 2
@@ -114,24 +112,14 @@ def main():
             results = parse_predictions(i)
             for n in results: #Write compiled prediction results, restoring original name
                 preds = results[n]
-                isSP = float(preds[sp])>float(args.sp_cutoff) and \
-                ((not args.use_tmhmm) or int(preds[tmhmm])==0 or \
-                 (args.use_phobtm or args.use_phobsp) and \
-                 ((not args.use_tmhmm) or int(preds[tmhmm])>0) and \
-                 ((not args.use_phobtm) or int(preds[phobtm])==0) and  \
-                 ((not args.use_phobsp) or int(preds[phobsp])==1) \
-                 )
-
-
+                isSP = float(preds[sp])>float(args.sp_cutoff) and (((not args.use_tmhmm) or preds[tmhmm] == 0) or (((not args.use_tmhmm) or preds[tmhmm] == 1) and ((not args.use_phobtm) or preds[phobtm] == 0) and ((not args.use_phobsp) or preds[phobsp] ==1)))
                 preds.append(isSP and '+' or '-')
                 h.write(cypher[int(n)].name + ',' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
                 if isSP: write_fasta_sameline(pd + '/' + pn + fa_outname,cypher[int(n)],'a+')
     call(['rm','-r',pred_dir]) #Clean up the prediction directory
 
     elapsed = (time.time() - start) / 60.0
-    print "\n================================================================================================================================="
     print "Total time to run peptide prediction for ", pn, ": ", elapsed, " minutes"
-    print "=================================================================================================================================\n"
     sys.stdout.flush()
 
 ####################################################

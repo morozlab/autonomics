@@ -3460,12 +3460,12 @@ class Qsub:
                  t = datetime.datetime.now()
                  if(retries == 0):
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
+                    sys.stderr.write("c.put(" + infile, self.remote_dir + "/" + f + ")\n")
                     sys.stderr.write("Exception raised during input file submission to cluster ... Giving up\n")
                     raise
                  else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
+                    sys.stderr.write("c.put(" + infile, self.remote_dir + "/" + f + ")\n")
                     sys.stderr.write("Exception raised during input file submission to cluster \
                         sleeping for " +  str(sleep_time) + " and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)

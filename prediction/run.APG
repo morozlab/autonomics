@@ -1,0 +1,16 @@
+python predicts.py --sp_cutoff 0.5 --max_threads 21  Aplysia_Gene_Models_Protein_September_2013
+
+python parse_preds.py --sp_cutoff 0.91 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.915 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.92 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.925 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.93 Aplysia_Gene_Models_Protein_September_2013 
+python parse_preds.py --sp_cutoff 0.935 Aplysia_Gene_Models_Protein_September_2013 
+python parse_preds.py --sp_cutoff 0.94 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.95 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.96 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.97 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.98 Aplysia_Gene_Models_Protein_September_2013 
+python parse_preds.py --sp_cutoff 0.99 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 1.0 Aplysia_Gene_Models_Protein_September_2013
+

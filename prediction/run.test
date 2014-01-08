@@ -1,0 +1,36 @@
+#!/bin/csh
+# python predicts.py --sp_cutoff 0.5 --max_threads 21 Pleurobrachia_Filtered_Gene_Models > & log.0.5.PB
+# python parse_preds.py --sp_cutoff 0.6 Pleurobrachia_Filtered_Gene_Models >& log.parse6.Pb
+# python parse_preds.py --sp_cutoff 0.75 Pleurobrachia_Filtered_Gene_Models >& log.parse75.Pb
+# python parse_preds.py --sp_cutoff 0.8 Pleurobrachia_Filtered_Gene_Models >& log.parse8.Pb
+# python parse_preds.py --sp_cutoff 0.85 Pleurobrachia_Filtered_Gene_Models >& log.parse85.Pb
+# python parse_preds.py --sp_cutoff 0.9 Pleurobrachia_Filtered_Gene_Models >& log.parse9.Pb
+
+
+#python parse_preds.py --sp_cutoff 0.91 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.915 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.92 Aplysia_Gene_Models_Protein_September_2013
+python parse_preds.py --sp_cutoff 0.925 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.93 Aplysia_Gene_Models_Protein_September_2013 
+python parse_preds.py --sp_cutoff 0.935 Aplysia_Gene_Models_Protein_September_2013 
+#python parse_preds.py --sp_cutoff 0.94 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.95 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.96 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.97 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 0.98 Aplysia_Gene_Models_Protein_September_2013 
+#python parse_preds.py --sp_cutoff 0.99 Aplysia_Gene_Models_Protein_September_2013
+#python parse_preds.py --sp_cutoff 1.0 Aplysia_Gene_Models_Protein_September_2013
+
+cd /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013
+
+sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.915.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.925.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.935.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.94.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.95.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.96.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.97.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.98.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_0.99.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+#sdb Aplysia_Gene_Models_Protein_September_2013_peptides_1.0.fasta >> /srv/data2/pipeline/Aplysia_Gene_Models_Protein_September_2013/counts
+

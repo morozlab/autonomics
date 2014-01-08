@@ -3371,23 +3371,26 @@ class Qsub:
 
         retries = 12
         sleep_time = 30;
-        while (retries >= 0):
+        while (retries > 0):
             try:
                rfile = self.remote_dir + "/" + self.current_output
                lfile = self.local_dir + self.current_output
                c.get(rfile, lfile)
                break
             except:
-                t = datetime.datetime.now()
+                retries -= 1
                 if(retries == 0):
-                   print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-                   sys.stdout.write("\nError unable to retrieve: " + rfile + " Giving up!!!!....\n")
+                   t = datetime.datetime.now()
+                   sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second) + "\nError unable to retrieve: " + rfile + "\n-retrying after sleeping " + str(sleep_time) + "\n")
                    return None
                 else:
-                   sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second) + "\nError unable to retrieve: " + rfile + "\n-retrying after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
                    time.sleep(sleep_time)
                    sleep_time = sleep_time * 2
-                   retries -= 1
+                   sys.stdout.write("\nError " + str(e.errno) +  "  "  + e.strerror +  "  " + rfile + "\n")
+                   t = datetime.datetime.now()
+                   print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
+                   sys.stdout.write("Unable to retrieve;\n check: " + self.remote_dir)
+#         return self.local_dir + self.current_output
         return lfile
 
     def resubmit(self, c, memIncrease = 0):
@@ -3429,70 +3432,55 @@ class Qsub:
         #put this qsub script on the server
         retries = 10
         sleep_time = 60
-        while (retries >= 0):
+        while (retries > 0):
               try:
                  c.put(self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub")
                  break
               except:
-                 t = datetime.datetime.now()
+                 sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
+                 sys.stderr.write("Exception raised during qsub submission to cluster \
+                     sleeping for two minutes and trying again.\n")
+                 time.sleep(sleep_time)
+                 sleep_time = sleep_time * 2
+                 retries -= 1
                  if(retries == 0):
-                    print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-                    sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
-                    sys.stderr.write("Exception raised during qsub submission to cluster ... Giving up ...\n")
                     raise
-                 else:
-                    sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
-                    sys.stderr.write("Exception raised during qsub submission to cluster \
-                        sleeping for two minutes and trying again. retries left: " +  str(retries) + "\n")
-                    time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
-                    retries -= 1
         #put input files on the server
         for infile in self.inputs.values():
             f = os.path.split(infile)[1]
             retries = 10
             sleep_time = 60
-            while (retries >= 0):
+            while (retries > 0):
               try:
                  c.put(infile, self.remote_dir + "/" + f)
                  break
               except:
-                 t = datetime.datetime.now()
+                 sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
+                 sys.stderr.write("c.put(" + infile, self.remote_dir + "/" + f + ")\n")
+                 sys.stderr.write("Exception raised during input file submission to cluster \
+                     sleeping for " + sleep_time + " and trying again.\n")
+                 time.sleep(sleep_time)
+                 sleep_time = sleep_time * 2
+                 retries -= 1
                  if(retries == 0):
-                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
-                    sys.stderr.write("Exception raised during input file submission to cluster ... Giving up\n")
                     raise
-                 else:
-                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
-                    sys.stderr.write("Exception raised during input file submission to cluster \
-                        sleeping for " +  str(sleep_time) + " and trying again. retries left: " +  str(retries) + "\n")
-                    time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
-                    retries -= 1
 
         #start the job
         command = "cd " + self.remote_dir + ";"
         command += "qsub " + self.name + ".qsub"
         retries = 10
         sleep_time = 30
-        while (retries >= 0):
+        while (retries > 0):
               job_id = c.execute(command)
               if settings.debug_pipe: print "job_id from qsub submission: ", job_id
               if (job_id == [] or settings.QSUB_OK not in job_id[0]):
-                  t = datetime.datetime.now()
                   if(retries > 0):
-                     print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-                     sys.stderr.write("Retrying command: " + command + "\n")
-                     sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + "\n")
+                     sys.stderr.write("error executing qsub, retrying command: " + command + "\n")
+                     retries -= 1
                      time.sleep(sleep_time)
                      sleep_time = sleep_time * 2
-                     retries -= 1
                   else:
-                      print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-                      sys.stderr.write("error executing qsub, abandoning it " + command + "\n")
-                      raise
+                      raise ValueError("error executing qsub, abandoning it " + command + "\n")
               else:
                   break
         self.job_id = job_id[0].strip()
@@ -3795,7 +3783,7 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Exception in _mail_connect() for " + self.job_name + "\n")
                     sys.stderr.write(e.message + "\n")
                     retries -= 1
-                    sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + self.retry_interval + "\n")
+                    sys.stderr.write("retries left: " + str(retries) + "\n")
                     time.sleep(self.retry_interval)
                 else:
                     sys.stderr.write("invoking self._disable_mail\n")
@@ -3811,8 +3799,7 @@ class HPCProcess(PipeProcess):
             memory the job was using when it was killed. If this job did not
             exceed it's memory request, returns 0.
         '''
-        retries = 10
-        sleep_time = 20
+        retries = self.retries
         while(True and self.mail_enabled):
             try:
                 typ, msg_ids = self.mail_connect.search(None, '(SUBJECT "PBS\
@@ -3828,14 +3815,10 @@ class HPCProcess(PipeProcess):
 
             except:
                 if(retries > 0):
-                    t = datetime.datetime.now()
                     sys.stderr.write("Exception raised during mail access -- retrying!")
                     retries -= 1
                     #sleep, then start a new connection to mail server
-                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
-                    time.sleep(sleep_time)
-                    sleep_time = sleep_time * 3
+                    time.sleep(self.retry_interval * 5)
                     self.mail_connect = self._mail_connect()
                     self.mail_connect.select(settings.checkedMailbox)
                 else:
@@ -3930,28 +3913,25 @@ class HPCProcess(PipeProcess):
             return proc.status
 
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
-
         retries = 10
         sleep_time = 120
-        while (retries >= 0):
+        while (retries > 0):
             try:
                 running = int(c.execute(command)[0])
                 break
             except:
-                t = datetime.datetime.now()
+                retries -= 1
                 if(retries == 0):
                     t = datetime.datetime.now()
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error retrieving status of running job - abandoning.\nCommand: " + command + "\n")
+                    sys.stderr.write("Error retrieving status of running job " + proc.name + " - abandoning.\nCommand: " + command + "\n")
                     running = -1
                 else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error retrieving status of running job -retrying after sleeping " + str(sleep_time) + "\nCommand: " + command + "\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    sys.stderr.write("sleeping: "+ sleep_time + " then retrying job")
                     time.sleep(sleep_time)
                     sleep_time = sleep_time * 2
-                    retries -= 1
-
+                    sys.stderr.write("Error retrieving status of running job " + proc.name + " -retrying after sleeping " + str(sleep_time) + "\nCommand: " + command + "\n")
 
         if(running == 0):
             proc.status = "finished"

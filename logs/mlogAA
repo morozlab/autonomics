@@ -1,0 +1,475 @@
+c10node12.acis.ufl.edu
+
+checking dependency of job_id:  2207
+dependency is None
+ calling job.start() for job_id:  2207  job_type:  quantification  job_name:  MIRA.DATA_quantification
+HPC Process Starting job: MIRA.DATA_quantification
+
+checking dependency of job_id:  2208
+dependency is None
+ calling job.start() for job_id:  2208  job_type:  blast_nr  job_name:  MIRA.DATA_blast_nr
+HPC Process Starting job: MIRA.DATA_blast_nr
+
+checking dependency of job_id:  2209
+dependency is None
+ calling job.start() for job_id:  2209  job_type:  blast_swissprot  job_name:  MIRA.DATA_blast_swissprot
+HPC Process Starting job: MIRA.DATA_blast_swissprot
+
+checking dependency of job_id:  2210
+dependency is None
+ calling job.start() for job_id:  2210  job_type:  pfam  job_name:  MIRA.DATA_pfam
+HPC Process Starting job: MIRA.DATA_pfam
+
+checking dependency of job_id:  2213
+dependency is None
+ calling job.start() for job_id:  2213  job_type:  blast_nr  job_name:  FXXX_blast_nr
+HPC Process Starting job: FXXX_blast_nr
+
+checking dependency of job_id:  2214
+dependency is None
+ calling job.start() for job_id:  2214  job_type:  blast_swissprot  job_name:  FXXX_blast_swissprot
+HPC Process Starting job: FXXX_blast_swissprot
+
+checking dependency of job_id:  2215
+dependency is None
+ calling job.start() for job_id:  2215  job_type:  pfam  job_name:  FXXX_pfam
+error executing qsub, retrying command: cd /scratch/lfs/moroz//MIRA.DATA_pfam20131119123527/;qsub MIRA.DATA_pfam19.qsub
+error executing qsub, retrying command: cd /scratch/lfs/moroz//MIRA.DATA_blast_nr20131119123526/;qsub MIRA.DATA_blast_nr57.qsub
+HPC Process Starting job: FXXX_pfam
+
+checking dependency of job_id:  2228
+dependency is None
+ calling job.start() for job_id:  2228  job_type:  quantification  job_name:  FXXX_quantification
+error executing qsub, retrying command: cd /scratch/lfs/moroz//FXXX_pfam20131119123541/;qsub FXXX_pfam1.qsub
+HPC Process Starting job: FXXX_quantification
+
+checking dependency of job_id:  2218
+dependency is None
+ calling job.start() for job_id:  2218  job_type:  adapter_trim  job_name:  FQS2_adapter_trim
+There are no known_adapters for this project, so skipping adapter_trim
+
+manager ..  FQS2_adapter_trim  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 450})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.Process HPCProcess-8:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/multiprocessing/process.py", line 232, in _bootstrap
+    self.run()
+  File "/home/pwilliams/autonomics/jobs.py", line 3994, in run
+    (num_qsubs, qsub_files) = self._split_files(self.hpc_qsub_files)
+  File "/home/pwilliams/autonomics/jobs.py", line 3867, in _split_files
+    self.resources['cpu'])
+  File "/home/pwilliams/autonomics/jobs.py", line 278, in split_input
+    ret = split_fastq(f, job_type, proc_units)
+  File "/home/pwilliams/autonomics/jobs.py", line 289, in split_fastq
+    fh = open(f, 'r')
+IOError: [Errno 2] No such file or directory: u'/srv/data2/pipeline//FXXX/FXXX.fastq'
+error executing qsub, retrying command: cd /scratch/lfs/moroz//MIRA.DATA_pfam20131119123527/;qsub MIRA.DATA_pfam45.qsub
+1
+Got an unexpected exit code.  for jid:  2228
+
+manager .. FXXX_quantification ERROR
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2219
+dependency is None
+ calling job.start() for job_id:  2219  job_type:  quality_trim  job_name:  FQS2_quality_trim
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.cutadapt version 1.1
+Command line parameters: -q 20 -f fastq -m 50 /srv/data2/pipeline//FQS2/FQS2.fastq
+Maximum error rate: 10.00%
+   Processed reads: 88106
+     Trimmed reads: 0 (  0.0%)
+   Total basepairs:      9628909 (9.6 Mbp)
+ Trimmed basepairs:            0 (0.0 Mbp) (0.00% of total)
+   Too short reads: 0 (  0.0% of processed reads)
+    Too long reads: 0 (  0.0% of processed reads)
+        Total time:      2.09 s
+     Time per read:      0.02 ms
+
+
+manager ..  FQS2_quality_trim  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2220
+dependency is None
+ calling job.start() for job_id:  2220  job_type:  read_normalization  job_name:  FQS2_read_normalization
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.c10node12.acis.ufl.edu
+starting pre_assemble
+python /home/pwilliams/python_software/autonomics/scripts/fastq2fasta.py /srv/data2/pipeline//FQS2/FQS2.fastq /srv/data2/pipeline//FQS2/FQS2.fasta
+Converted  88106  seqs
+Found 88106 seqs in /srv/data2/pipeline//FQS2/FQS2.fasta
+mv /srv/data2/pipeline//FQS2/FQS2.fasta /srv/data2/pipeline//FQS2/FQS2.khmer.out
+Only 88106 seqs so skipping khmer
+mv /srv/data2/pipeline//FQS2/FQS2.khmer.out /srv/data2/pipeline//FQS2/FQS2.fasta
+pre_assemble complete
+
+manager ..  FQS2_read_normalization  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2221
+dependency is None
+ calling job.start() for job_id:  2221  job_type:  assemble  job_name:  FQS2_assemble
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 41})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...
+manager ..  MIRA.DATA_quantification  RUNNING
+
+manager ..  MIRA.DATA_blast_nr  RUNNING
+
+manager ..  MIRA.DATA_blast_swissprot  RUNNING
+
+manager ..  MIRA.DATA_pfam  RUNNING
+
+manager ..  FXXX_blast_nr  RUNNING
+
+manager ..  FXXX_blast_swissprot  RUNNING
+
+manager ..  FXXX_pfam  RUNNING
+
+manager ..  FQS2_assemble  RUNNING
+..c10node12.acis.ufl.edu
+perl /srv/data2/software/Trinity/Trinity.pl --seqType fa --single /srv/data2/pipeline/FQS2/FQS2.fasta --JM 40G --inchworm_cpu 20 --CPU 20 --output trinity_out > /dev/null
+mv trinity_out/Trinity.fasta FQS2_project.fasta
+rm -fr trinity_out
+
+manager ..  FQS2_assemble  FINISHED
+STATS:  n90_len    205
+updating run_stats for project_id:  555
+STATS:  min_transcript_len    201
+updating run_stats for project_id:  555
+STATS:  n90    540
+updating run_stats for project_id:  555
+STATS:  n50    266
+updating run_stats for project_id:  555
+STATS:  num_transcripts    612
+updating run_stats for project_id:  555
+STATS:  n50_len    230
+updating run_stats for project_id:  555
+STATS:  max_transcript_len    489
+updating run_stats for project_id:  555
+STATS:  mean_transcript_len    241
+updating run_stats for project_id:  555
+STATS:  num_assembled_bases    147520
+updating run_stats for project_id:  555
+STATS:  num_raw_bases    9628909
+updating run_stats for project_id:  555
+STATS:  num_raw_reads    88106
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 462})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2222
+dependency is None
+ calling job.start() for job_id:  2222  job_type:  quantification  job_name:  FQS2_quantification
+HPC Process Starting job: FQS2_quantification
+
+checking dependency of job_id:  2224
+dependency is None
+ calling job.start() for job_id:  2224  job_type:  blast_swissprot  job_name:  FQS2_blast_swissprot
+HPC Process Starting job: FQS2_blast_swissprot
+
+checking dependency of job_id:  2225
+dependency is None
+ calling job.start() for job_id:  2225  job_type:  pfam  job_name:  FQS2_pfam
+HPC Process Starting job: FQS2_pfam
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 275})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.error executing qsub, retrying command: cd /scratch/lfs/moroz//FQS2_pfam2013111912487/;qsub FQS2_pfam138.qsub
+..('HPC process ', u'MIRA.DATA_quantification', 'done.')
+
+manager ..  MIRA.DATA_quantification  FINISHED
+STATS:  quantification_done    Y
+updating run_stats for project_id:  553
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 287})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...('HPC process ', u'FXXX_blast_swissprot', 'done.')
+
+manager ..  FXXX_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    1762
+updating run_stats for project_id:  554
+STATS:  num_transcripts_with_blast_swissprot_hits    415
+updating run_stats for project_id:  554
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 312})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...('HPC process ', u'MIRA.DATA_blast_swissprot', 'done.')
+
+manager ..  MIRA.DATA_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    17461
+updating run_stats for project_id:  553
+STATS:  num_transcripts_with_blast_swissprot_hits    5454
+updating run_stats for project_id:  553
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 337})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...('HPC process ', u'FQS2_quantification', 'done.')
+
+manager ..  FQS2_quantification  FINISHED
+STATS:  quantification_done    Y
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 349})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+..('HPC process ', u'FQS2_blast_swissprot', 'done.')
+
+manager ..  FQS2_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    1883
+updating run_stats for project_id:  555
+STATS:  num_transcripts_with_blast_swissprot_hits    511
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 374})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+..('HPC process ', u'FXXX_pfam', 'done.')
+
+checking dependency of job_id:  2226
+dependency is None
+ calling job.start() for job_id:  2226  job_type:  kegg  job_name:  FQS2_kegg
+
+checking dependency of job_id:  2227
+dependency is None
+ calling job.start() for job_id:  2227  job_type:  go  job_name:  FQS2_go
+
+manager ..  FXXX_pfam  FINISHED
+STATS:  num_pfam_hits    384
+updating run_stats for project_id:  554
+STATS:  num_transcripts_with_pfam_hits    369
+updating run_stats for project_id:  554
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 59})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 524})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+manager ..  FQS2_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    225
+updating run_stats for project_id:  555
+STATS:  num_kegg_hits    1452
+updating run_stats for project_id:  555
+
+manager ..  FQS2_go  FINISHED
+STATS:  num_go_hits    4479
+updating run_stats for project_id:  555
+STATS:  num_transcripts_with_go_hits    478
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 524})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.('HPC process ', u'MIRA.DATA_pfam', 'done.')
+
+manager ..  MIRA.DATA_pfam  FINISHED
+STATS:  num_pfam_hits    2341
+updating run_stats for project_id:  553
+STATS:  num_transcripts_with_pfam_hits    2330
+updating run_stats for project_id:  553
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 674})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.('HPC process ', u'FQS2_pfam', 'done.')
+
+manager ..  FQS2_pfam  FINISHED
+STATS:  num_pfam_hits    306
+updating run_stats for project_id:  555
+STATS:  num_transcripts_with_pfam_hits    301
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.................................................................('HPC process ', u'MIRA.DATA_blast_nr', 'done.')
+
+manager ..  MIRA.DATA_blast_nr  FINISHED
+STATS:  num_blast_nr_hits    28513
+updating run_stats for project_id:  553
+STATS:  num_transcripts_with_blast_nr_hits    5972
+updating run_stats for project_id:  553
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 1, 'cpu': 924})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2223
+dependency is None
+ calling job.start() for job_id:  2223  job_type:  blast_nr  job_name:  FQS2_blast_nr
+HPC Process Starting job: FQS2_blast_nr
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+........................('HPC process ', u'FQS2_blast_nr', 'done.')
+
+manager ..  FQS2_blast_nr  FINISHED
+STATS:  num_blast_nr_hits    2748
+updating run_stats for project_id:  555
+STATS:  num_transcripts_with_blast_nr_hits    557
+updating run_stats for project_id:  555
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 1, 'cpu': 924})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.('HPC process ', u'FXXX_blast_nr', 'done.')
+
+manager ..  FXXX_blast_nr  FINISHED
+STATS:  num_blast_nr_hits    3876
+updating run_stats for project_id:  554
+STATS:  num_transcripts_with_blast_nr_hits    881
+updating run_stats for project_id:  554
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 2, 'cpu': 1024})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+checking dependency of job_id:  2216
+dependency is None
+ calling job.start() for job_id:  2216  job_type:  kegg  job_name:  FXXX_kegg
+
+checking dependency of job_id:  2217
+dependency is None
+ calling job.start() for job_id:  2217  job_type:  go  job_name:  FXXX_go
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 59})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 2, 'cpu': 1024})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+manager ..  FXXX_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    115
+updating run_stats for project_id:  554
+STATS:  num_kegg_hits    405
+updating run_stats for project_id:  554
+
+manager ..  FXXX_go  FINISHED
+STATS:  num_go_hits    6603
+updating run_stats for project_id:  554
+STATS:  num_transcripts_with_go_hits    407
+updating run_stats for project_id:  554
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 2, 'cpu': 1024})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................MySQL server has gone away, restarting session.
+
+Traceback (most recent call last):
+  File "manager.py", line 344, in <module>
+    main()
+  File "manager.py", line 341, in main
+    settings.db_cred.user, settings.db_cred.passwd)
+  File "/home/pwilliams/autonomics/netutils.py", line 662, in __init__
+    self.conn = self.engine.connect()
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/engine/base.py", line 2472, in connect
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/engine/base.py", line 878, in __init__
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/engine/base.py", line 2558, in raw_connection
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 183, in unique_connection
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 387, in __init__
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 741, in _do_get
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 188, in _create_connection
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 270, in __init__
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/pool.py", line 330, in __connect
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/engine/strategies.py", line 80, in connect
+  File "build/bdist.linux-x86_64/egg/sqlalchemy/engine/default.py", line 281, in connect
+  File "connection.pyx", line 150, in oursql.Connection.__cinit__ (oursqlx/oursql.c:5482)
+  File "connection.pyx", line 183, in oursql.Connection._raise_error (oursqlx/oursql.c:5885)
+sqlalchemy.exc.InterfaceError: (InterfaceError) (2002, "Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)", None) None None

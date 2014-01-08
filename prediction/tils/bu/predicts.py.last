@@ -2,52 +2,42 @@ from string import replace
 import argparse
 import os
 from copy import copy
-import subprocess
 from subprocess import call
 from Bio import SeqIO
-# from autonomics import settings
+from autonomics import settings
 import time
 import sys
 
 parser = argparse.ArgumentParser(description='Signaling Peptide prediction script for the zero-click pipeline')
 parser.add_argument('projName', help='Unique identifier (name) for this project. Should be consistantly used across the pipeline.')
 parser.add_argument('--sp_cutoff', dest="sp_cutoff", default = 0.5)
-parser.add_argument('--max_threads',type=int, dest='max_threads', default=1)
-
-parser.add_argument('--use_tmhmm',type=int,help='0 or 1',default=1)
-parser.add_argument('--use_phobtm',type=int,help='0 or 1',default=1)
-parser.add_argument('--use_phobsp',type=int,help='0 or 1',default=1)
-
+parser.add_argument('--use_tmhmm',action='store_true')
+parser.add_argument('--use_phobtm',action='store_true')
+parser.add_argument('--use_phobsp',action='store_true')
 args = parser.parse_args()
 pn = args.projName
 
 ############################################
 processor = 'x86_64'
 
-#ppath = settings.proj_dir
-ppath = os.environ["PIPEPATH"]
+ppath = settings.proj_dir
 apath = os.environ["AUTONOMICS_PATH"]
 
 pred_dir = ppath + '/' + pn + '/prediction/'
 pd = ppath + '/' + pn
 np_dir = apath + '/prediction/neuroscripts/' 
 fa = '%s_proteins.fasta' % pn
-# outname = '_peptide_prediction_' + str(args.sp_cutoff)
 outname = '_peptide_prediction'
-fa_outname = '_predicted_' + str(args.sp_cutoff) + '.fasta'
 
 ############################################
 
 start = time.time()
 
-# print "outname: ", outname
-# print "pd: ", pd
-# print "fa: ", fa
-# print "pred_dir: ", pred_dir
-#print "np_dir: ", np_dir
-print "\n================================================================================================================================="
-print "using: ", args.max_threads, " threads; and a confidence score threshold of: ", str(args.sp_cutoff), " for: ", pn
-print "=================================================================================================================================\n"
+print "outname: ", outname
+print "pd: ", pd
+print "fa: ", fa
+print "pred_dir: ", pred_dir
+print "np_dir: ", np_dir
 sys.stdout.flush()
 
 max_contigs = 2000 #4000 is too high, deterimined experimentally. Mysterious HOW errors caused if too high
@@ -84,28 +74,21 @@ def main():
     os.mkdir(pred_dir)
     cypher,t = format_for_predictors() #Format files and create name mapping
     os.chdir(pred_dir)
-    threads = []
-    def block(): #Wait until threads are free
-        while True:
-            running = sum(x.poll()==None for x in threads)
-            if running >= args.max_threads:
-                time.sleep(10)
-            else: break
-
     for flnm in (pn + '-%s.prots' % n for n in range(t)):
-        block()
-        threads.append(subprocess.Popen(np_dir + "signalp-4.0/signalp -t euk -f short " + flnm + " > " + flnm.replace('.prots','_signalp4.out'), shell=True)) #Run SignalP v4
+        call(np_dir + "signalp-4.0/signalp -t euk -f short " + flnm + " > " + flnm.replace('.prots','_signalp4.out'), shell=True) #Run SignalP v4
+#        call(np_dir + "signalp-3.0/signalp -t euk -f short -trunc 70 " + flnm + " > " + flnm.replace('.prots','_signalp3.out'), shell=True) #Run SignalP v3
+#        call(np_dir + "targetp-1.1/targetp -N " + flnm + " > " + flnm.replace('.prots','_targetp.out'),shell=True) #Run TargetP
+
         print "cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out')
         sys.stdout.flush()
-        block()
-        threads.append(subprocess.Popen("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True)) #Run TMHMM
+        call("cat " + flnm + " | " + np_dir + "tmhmm-2.0c/bin/decodeanhmm.Linux_" + processor + " -f " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.options -modelfile " + np_dir + "tmhmm-2.0c/lib/TMHMM2.0.model | " + np_dir + "tmhmm-2.0c/bin/tmhmmformat.pl > " + flnm.replace('.prots','_tmhmm.out'),shell=True) #Run TMHMM
+        ###
         print "Running PHOBIUS: " + flnm
         sys.stdout.flush()
-        block()
-        threads.append(subprocess.Popen(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True)) #Run Phobius
-    for thrd in threads: thrd.wait() #Wait for prediction processes to finish
+        call(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True) #Run Phobius
+#    with open(pd + pn + '_final_prediction.out','w+') as h:
     with open(pd + '/' + pn + outname,'w+') as h:
-        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp  sp_cutoff: ' + args.sp_cutoff + '\n')
+        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp\n')
         sp = 0
         tmhmm = 1
         phobtm = 2
@@ -114,25 +97,13 @@ def main():
             results = parse_predictions(i)
             for n in results: #Write compiled prediction results, restoring original name
                 preds = results[n]
-                isSP = float(preds[sp])>float(args.sp_cutoff) and \
-                ((not args.use_tmhmm) or int(preds[tmhmm])==0 or \
-                 (args.use_phobtm or args.use_phobsp) and \
-                 ((not args.use_tmhmm) or int(preds[tmhmm])>0) and \
-                 ((not args.use_phobtm) or int(preds[phobtm])==0) and  \
-                 ((not args.use_phobsp) or int(preds[phobsp])==1) \
-                 )
-
-
+                isSP = preds[sp]>args.sp_cutoff and (((not args.use_tmhmm) or preds[tmhmm] == 0) or (((not args.use_tmhmm) or preds[tmhmm] == 1) and ((not args.use_phobtm) or preds[phobtm] == 0) and ((not args.use_phobsp) or preds[phobsp] ==1)))
                 preds.append(isSP and '+' or '-')
                 h.write(cypher[int(n)].name + ',' + ','.join([str(x) for x in preds]) + '\n') #Write to file, and restore original name
-                if isSP: write_fasta_sameline(pd + '/' + pn + fa_outname,cypher[int(n)],'a+')
     call(['rm','-r',pred_dir]) #Clean up the prediction directory
 
     elapsed = (time.time() - start) / 60.0
-    print "\n================================================================================================================================="
     print "Total time to run peptide prediction for ", pn, ": ", elapsed, " minutes"
-    print "=================================================================================================================================\n"
-    sys.stdout.flush()
 
 ####################################################
 def write_fasta_sameline(flnm,seq,mode='w+'):

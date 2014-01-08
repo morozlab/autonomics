@@ -1,0 +1,662 @@
+c10node12.acis.ufl.edu
+
+checking dependency of job_id:  2334
+dependency is None
+ calling job.start() for job_id:  2334  job_type:  blast_nr  job_name:  Pb6_blast_nr
+HPC Process Starting job: Pb6_blast_nr
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 1, 'cpu': 924})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2335
+dependency is None
+ calling job.start() for job_id:  2335  job_type:  blast_swissprot  job_name:  Pb6_blast_swissprot
+HPC Process Starting job: Pb6_blast_swissprot
+
+checking dependency of job_id:  2336
+dependency is None
+ calling job.start() for job_id:  2336  job_type:  pfam  job_name:  Pb6_pfam
+HPC Process Starting job: Pb6_pfam
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 1, 'cpu': 749})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2339
+dependency is None
+ calling job.start() for job_id:  2339  job_type:  blast_nr  job_name:  Ap5C_blast_nr
+HPC Process Starting job: Ap5C_blast_nr
+
+checking dependency of job_id:  2355
+dependency is None
+ calling job.start() for job_id:  2355  job_type:  blast_swissprot  job_name:  APGM3_blast_swissprot
+HPC Process Starting job: APGM3_blast_swissprot
+
+checking dependency of job_id:  2351
+dependency is None
+ calling job.start() for job_id:  2351  job_type:  pfam  job_name:  SPE3_pfam
+HPC Process Starting job: SPE3_pfam
+
+checking dependency of job_id:  2350
+dependency is None
+ calling job.start() for job_id:  2350  job_type:  blast_swissprot  job_name:  SPE3_blast_swissprot
+HPC Process Starting job: SPE3_blast_swissprot
+
+checking dependency of job_id:  2346
+dependency is None
+ calling job.start() for job_id:  2346  job_type:  pfam  job_name:  ApNOC_pfam
+HPC Process Starting job: ApNOC_pfam
+
+checking dependency of job_id:  2345
+dependency is None
+ calling job.start() for job_id:  2345  job_type:  blast_swissprot  job_name:  ApNOC_blast_swissprot
+HPC Process Starting job: ApNOC_blast_swissprot
+
+checking dependency of job_id:  2341
+dependency is None
+ calling job.start() for job_id:  2341  job_type:  pfam  job_name:  Ap5C_pfam
+HPC Process Starting job: Ap5C_pfam
+
+checking dependency of job_id:  2340
+dependency is None
+ calling job.start() for job_id:  2340  job_type:  blast_swissprot  job_name:  Ap5C_blast_swissprot
+HPC Process Starting job: Ap5C_blast_swissprot
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 99})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.......
+checking dependency of job_id:  2359
+dependency is None
+ calling job.start() for job_id:  2359  job_type:  adapter_trim  job_name:  ApNO60_adapter_trim
+There are no known_adapters for this project, so skipping adapter_trim
+
+manager ..  Pb6_blast_nr  RUNNING
+
+manager ..  Pb6_blast_swissprot  RUNNING
+
+manager ..  Pb6_pfam  RUNNING
+
+manager ..  Ap5C_blast_nr  RUNNING
+
+manager ..  APGM3_blast_swissprot  RUNNING
+
+manager ..  SPE3_pfam  RUNNING
+
+manager ..  SPE3_blast_swissprot  RUNNING
+
+manager ..  ApNOC_pfam  RUNNING
+
+manager ..  ApNOC_blast_swissprot  RUNNING
+
+manager ..  Ap5C_pfam  RUNNING
+
+manager ..  Ap5C_blast_swissprot  RUNNING
+
+manager ..  ApNO60_adapter_trim  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 99})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+..
+checking dependency of job_id:  2360
+dependency is None
+ calling job.start() for job_id:  2360  job_type:  quality_trim  job_name:  ApNO60_quality_trim
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 99})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.........................cutadapt version 1.1
+Command line parameters: -q 20 -f fastq -m 50 /srv/data2/pipeline//ApNO60/ApNO60.fastq
+Maximum error rate: 10.00%
+   Processed reads: 48864782
+     Trimmed reads: 0 (  0.0%)
+   Total basepairs:   5309280896 (5309.3 Mbp)
+ Trimmed basepairs:            0 (0.0 Mbp) (0.00% of total)
+   Too short reads: 6976740 ( 14.3% of processed reads)
+    Too long reads: 0 (  0.0% of processed reads)
+        Total time:   1471.96 s
+     Time per read:      0.03 ms
+
+
+manager ..  ApNO60_quality_trim  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 99})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2361
+dependency is None
+ calling job.start() for job_id:  2361  job_type:  read_normalization  job_name:  ApNO60_read_normalization
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 99})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.c10node12.acis.ufl.edu
+starting pre_assemble
+python /home/pwilliams/autonomics/scripts/fastq2fasta.py /srv/data2/pipeline//ApNO60/ApNO60.fastq /srv/data2/pipeline//ApNO60/ApNO60.fasta
+......Converted  41888042  seqs
+......Found 41888042 seqs in /srv/data2/pipeline//ApNO60/ApNO60.fasta
+python /srv/data2/software/Khmer/scripts/normalize-by-median.py -C 30 -k 20 -N 5 -x 4.0e9 /srv/data2/pipeline//ApNO60/ApNO60.fasta > /dev/null
+
+PARAMETERS:
+ - kmer size =    20 		(-k)
+ - n hashes =     5 		(-N)
+ - min hashsize = 4e+09 	(-x)
+ - paired =	      False 		(-p)
+
+Estimated memory usage is 2e+10 bytes (n_hashes x min_hashsize)
+--------
+..('HPC process ', u'Pb6_blast_swissprot', 'done.')
+
+manager ..  Pb6_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    1447
+updating run_stats for project_id:  576
+STATS:  num_transcripts_with_blast_swissprot_hits    307
+updating run_stats for project_id:  576
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 124})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2337
+dependency is None
+ calling job.start() for job_id:  2337  job_type:  kegg  job_name:  Pb6_kegg
+
+checking dependency of job_id:  2338
+dependency is None
+ calling job.start() for job_id:  2338  job_type:  go  job_name:  Pb6_go
+
+manager ..  Pb6_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    210
+updating run_stats for project_id:  576
+STATS:  num_kegg_hits    1613
+updating run_stats for project_id:  576
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 59})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 124})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.java_cmd:  java -Xmx10g goannot8r.GOAnnotator Pb6 /srv/data2/pipeline//Pb6/Pb6_GO.txt > /srv/data2/pipeline//Pb6/Pb6_gocats.txt
+
+manager ..  Pb6_go  FINISHED
+STATS:  num_go_hits    6525
+updating run_stats for project_id:  576
+STATS:  num_transcripts_with_go_hits    305
+updating run_stats for project_id:  576
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 60})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 124})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+..........................................................................mv /srv/data2/pipeline//ApNO60/ApNO60.fasta.keep /srv/data2/pipeline//ApNO60/ApNO60.khmer.out
+mv /srv/data2/pipeline//ApNO60/ApNO60.khmer.out /srv/data2/pipeline//ApNO60/ApNO60.fasta
+pre_assemble complete
+
+manager ..  ApNO60_read_normalization  FINISHED
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 61})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 124})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2362
+dependency is None
+ calling job.start() for job_id:  2362  job_type:  assemble  job_name:  ApNO60_assemble
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 124})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...............................................................................................................................................................................................................................................................('HPC process ', u'SPE3_blast_swissprot', 'done.')
+
+manager ..  SPE3_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    91443
+updating run_stats for project_id:  579
+STATS:  num_transcripts_with_blast_swissprot_hits    20075
+updating run_stats for project_id:  579
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 149})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2352
+dependency is None
+ calling job.start() for job_id:  2352  job_type:  kegg  job_name:  SPE3_kegg
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 149})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.................
+manager ..  SPE3_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    8429
+updating run_stats for project_id:  579
+STATS:  num_kegg_hits    70664
+updating run_stats for project_id:  579
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 149})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2353
+dependency is None
+ calling job.start() for job_id:  2353  job_type:  go  job_name:  SPE3_go
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 149})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.......................java_cmd:  java -Xmx10g goannot8r.GOAnnotator SPE3 /srv/data2/pipeline//SPE3/SPE3_GO.txt > /srv/data2/pipeline//SPE3/SPE3_gocats.txt
+..
+manager ..  SPE3_go  FINISHED
+STATS:  num_go_hits    178165
+updating run_stats for project_id:  579
+STATS:  num_transcripts_with_go_hits    19863
+updating run_stats for project_id:  579
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 149})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.........................('HPC process ', u'ApNOC_blast_swissprot', 'done.')
+
+manager ..  ApNOC_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    103269
+updating run_stats for project_id:  578
+STATS:  num_transcripts_with_blast_swissprot_hits    25338
+updating run_stats for project_id:  578
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 174})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2356
+dependency is None
+ calling job.start() for job_id:  2356  job_type:  pfam  job_name:  APGM3_pfam
+HPC Process Starting job: APGM3_pfam
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 24})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.2013/12/3 20:28:15
+Retrying command: cd /scratch/lfs/moroz//APGM3_pfam2013123202752/;qsub APGM3_pfam20.qsub
+retries left: 10 sleeping for: 30
+2013/12/3 20:28:53
+Retrying command: cd /scratch/lfs/moroz//APGM3_pfam2013123202752/;qsub APGM3_pfam30.qsub
+retries left: 10 sleeping for: 30
+
+checking dependency of job_id:  2347
+dependency is None
+ calling job.start() for job_id:  2347  job_type:  kegg  job_name:  ApNOC_kegg
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 24})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.2013/12/3 20:29:53
+Retrying command: cd /scratch/lfs/moroz//APGM3_pfam2013123202752/;qsub APGM3_pfam72.qsub
+retries left: 10 sleeping for: 30
+.2013/12/3 20:30:29
+Retrying command: cd /scratch/lfs/moroz//APGM3_pfam2013123202752/;qsub APGM3_pfam79.qsub
+retries left: 10 sleeping for: 30
+.2013/12/3 20:31:6
+Retrying command: cd /scratch/lfs/moroz//APGM3_pfam2013123202752/;qsub APGM3_pfam87.qsub
+retries left: 10 sleeping for: 30
+
+manager ..  ApNOC_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    13276
+updating run_stats for project_id:  578
+STATS:  num_kegg_hits    108000
+updating run_stats for project_id:  578
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 24})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2348
+dependency is None
+ calling job.start() for job_id:  2348  job_type:  go  job_name:  ApNOC_go
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 24})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.........java_cmd:  java -Xmx10g goannot8r.GOAnnotator ApNOC /srv/data2/pipeline//ApNOC/ApNOC_GO.txt > /srv/data2/pipeline//ApNOC/ApNOC_gocats.txt
+.
+manager ..  ApNOC_go  FINISHED
+STATS:  num_go_hits    221010
+updating run_stats for project_id:  578
+STATS:  num_transcripts_with_go_hits    24897
+updating run_stats for project_id:  578
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 24})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+................................................................................................................('HPC process ', u'Ap5C_blast_swissprot', 'done.')
+
+manager ..  Ap5C_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    111409
+updating run_stats for project_id:  577
+STATS:  num_transcripts_with_blast_swissprot_hits    26215
+updating run_stats for project_id:  577
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 49})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2342
+dependency is None
+ calling job.start() for job_id:  2342  job_type:  kegg  job_name:  Ap5C_kegg
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 49})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+manager ..  Ap5C_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    12933
+updating run_stats for project_id:  577
+STATS:  num_kegg_hits    116124
+updating run_stats for project_id:  577
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 49})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2343
+dependency is None
+ calling job.start() for job_id:  2343  job_type:  go  job_name:  Ap5C_go
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 49})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...java_cmd:  java -Xmx10g goannot8r.GOAnnotator Ap5C /srv/data2/pipeline//Ap5C/Ap5C_GO.txt > /srv/data2/pipeline//Ap5C/Ap5C_gocats.txt
+
+manager ..  Ap5C_go  FINISHED
+STATS:  num_go_hits    238008
+updating run_stats for project_id:  577
+STATS:  num_transcripts_with_go_hits    25962
+updating run_stats for project_id:  577
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 49})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...................................................................................('HPC process ', u'Pb6_pfam', 'done.')
+
+manager ..  Pb6_pfam  FINISHED
+STATS:  num_pfam_hits    279
+updating run_stats for project_id:  576
+STATS:  num_transcripts_with_pfam_hits    269
+updating run_stats for project_id:  576
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 199})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+..................check_individual_job()  exceeded:  600
+in stat=exceedMem' self.mem_increment:  200
+........................('HPC process ', u'SPE3_pfam', 'done.')
+
+manager ..  SPE3_pfam  FINISHED
+STATS:  num_pfam_hits    27266
+updating run_stats for project_id:  579
+STATS:  num_transcripts_with_pfam_hits    17195
+updating run_stats for project_id:  579
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 349})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+...check_individual_job()  exceeded:  557
+in stat=exceedMem' self.mem_increment:  200
+.....................('HPC process ', u'ApNOC_pfam', 'done.')
+
+manager ..  ApNOC_pfam  FINISHED
+STATS:  num_pfam_hits    21037
+updating run_stats for project_id:  578
+STATS:  num_transcripts_with_pfam_hits    20241
+updating run_stats for project_id:  578
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 499})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+....................('HPC process ', u'APGM3_pfam', 'done.')
+
+manager ..  APGM3_pfam  FINISHED
+STATS:  num_pfam_hits    30
+updating run_stats for project_id:  580
+STATS:  num_transcripts_with_pfam_hits    22
+updating run_stats for project_id:  580
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 649})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.......('HPC process ', u'Ap5C_pfam', 'done.')
+
+manager ..  Ap5C_pfam  FINISHED
+STATS:  num_pfam_hits    20643
+updating run_stats for project_id:  577
+STATS:  num_transcripts_with_pfam_hits    19368
+updating run_stats for project_id:  577
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 799})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+........................................................................................................................................................................................................('HPC process ', u'APGM3_blast_swissprot', 'done.')
+
+manager ..  APGM3_blast_swissprot  FINISHED
+STATS:  num_blast_swissprot_hits    523
+updating run_stats for project_id:  580
+STATS:  num_transcripts_with_blast_swissprot_hits    200
+updating run_stats for project_id:  580
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2357
+dependency is None
+ calling job.start() for job_id:  2357  job_type:  kegg  job_name:  APGM3_kegg
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+manager ..  APGM3_kegg  FINISHED
+STATS:  num_transcripts_with_kegg_hits    81
+updating run_stats for project_id:  580
+STATS:  num_kegg_hits    865
+updating run_stats for project_id:  580
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2358
+dependency is None
+ calling job.start() for job_id:  2358  job_type:  go  job_name:  APGM3_go
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 0})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.java_cmd:  java -Xmx10g goannot8r.GOAnnotator APGM3 /srv/data2/pipeline//APGM3/APGM3_GO.txt > /srv/data2/pipeline//APGM3/APGM3_gocats.txt
+
+manager ..  APGM3_go  FINISHED
+STATS:  num_go_hits    2696
+updating run_stats for project_id:  580
+STATS:  num_transcripts_with_go_hits    191
+updating run_stats for project_id:  580
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................Exception raised during mail access -- retrying!
+2013/12/4 19:40:56retries left: 9 sleeping for: 20
+Exception raised during mail access -- retrying!
+2013/12/4 19:40:57retries left: 9 sleeping for: 20
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................('HPC process ', u'Pb6_blast_nr', 'done.')
+
+manager ..  Pb6_blast_nr  FINISHED
+STATS:  num_blast_nr_hits    1641
+updating run_stats for project_id:  576
+STATS:  num_transcripts_with_blast_nr_hits    335
+updating run_stats for project_id:  576
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 1, 'cpu': 924})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.
+checking dependency of job_id:  2344
+dependency is None
+ calling job.start() for job_id:  2344  job_type:  blast_nr  job_name:  ApNOC_blast_nr
+HPC Process Starting job: ApNOC_blast_nr
+
+--- Resources ---
+('free resources: ', {'local': 5, 'cpu': 1})
+('total resources: ', {'local': 5, 'cpu': 61})
+('free resources: ', {'blast_nr': 0, 'cpu': 824})
+('total resources: ', {'blast_nr': 2, 'cpu': 1024})
+-----------------
+.....................................................................................................................................................................................................................................................................................................................................................................................................................Exception raised during mail access -- retrying!
+2013/12/5 12:38:12retries left: 9 sleeping for: 20
+......Exception raised during mail access -- retrying!
+2013/12/5 12:44:13retries left: 9 sleeping for: 20
+..........Exception raised during mail access -- retrying!
+2013/12/5 12:53:40retries left: 9 sleeping for: 20
+...........................................................................................................................................................................................................................................................................................................................................................................................................................Exception raised during mail access -- retrying!
+2013/12/5 19:45:53retries left: 9 sleeping for: 20
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................Exception raised during mail access -- retrying!
+2013/12/6 5:1:53retries left: 9 sleeping for: 20
+Exception raised during mail access -- retrying!
+2013/12/6 5:1:53retries left: 9 sleeping for: 20
+.........................................................................................................................................................................................................................................................................................................................c10node12.acis.ufl.edu
+perl /srv/data2/software/Trinity/Trinity.pl --seqType fa --single /srv/data2/pipeline/ApNO60/ApNO60.fasta --JM 40G --inchworm_cpu 60 --CPU 60 --output trinity_out > /dev/null
+mv trinity_out/Trinity.fasta ApNO60_project.fasta
+rm -fr trinity_out
+
+manager ..  ApNO60_assemble  FINISHED
+STATS:  n90_len    212
+updating run_stats for project_id:  581
+STATS:  min_transcript_len    201
+updating run_stats for project_id:  581
+STATS:  n90    111707
+updating run_stats for project_id:  581
+STATS:  n50    47104
+updating run_stats for project_id:  581
+STATS:  num_transcripts    130553
+updating run_stats for project_id:  581
+STATS:  n50_len    282
+updating run_stats for project_id:  581
+STATS:  max_transcript_len    4710
+updating run_stats for project_id:  581
+STATS:  mean_transcript_len    297
+updating run_stats for project_id:  581
+STATS:  num_assembled_bases    38810896
+updating run_stats for project_id:  581

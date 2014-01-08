@@ -1,4 +1,0 @@
-real[5] norm Inside_assignment
-real[5] norm Outide_assignment
-real[5] norm TMHelix_assignment
-integer bool TMHelix_boolean

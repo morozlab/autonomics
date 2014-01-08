@@ -1,8 +1,0 @@
-# 314 Length: 2013
-# 314 Number of predicted TMHs:  1
-# 314 Exp number of AAs in TMHs: 21.97432
-# 314 Exp number, first 60 AAs:  0.005
-# 314 Total prob of N-in:        0.00080
-314	TMHMM2.0	outside	     1  1987
-314	TMHMM2.0	TMhelix	  1988  2010
-314	TMHMM2.0	inside	  2011  2013
