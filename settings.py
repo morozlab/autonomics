@@ -1,4 +1,3 @@
- -*- coding: utf-8 -*-
 '''
 
 @authors: Mathew Citarella & Peter Williams
@@ -191,11 +190,12 @@ PFAM_MAX_WALL_TIME = "48:00:00"
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-# SET ONLY IF USING THE NEUROBASE BROWSER. If you are running only 
-# the autonomics pipeline, ignore these
+#  set to 0 if not using neurobase browser
+USING_NB = 1
 
-NEUROBASE_FASTADB_PATH = os.environ['NEUROBASE_FASTADB_PATH']
-NEUROBASE_DATA_PATH = os.environ['NEUROBASE_DATA_PATH']
+if USING_NB:
+  NEUROBASE_FASTADB_PATH = os.environ['NEUROBASE_FASTADB_PATH']
+  NEUROBASE_DATA_PATH = os.environ['NEUROBASE_DATA_PATH']
 
 # oem
 #    NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"
