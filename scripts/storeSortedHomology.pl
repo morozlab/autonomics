@@ -3,20 +3,21 @@ use strict;
 use DBI;
 # use File::copy;
 
-my $host  = $ENV{HOST};
+my $apath  = $ENV{AUTONOMICS_PATH };
+my $scriptpath = $apath . "/scripts";
 
+my $tmpPath  = $ENV{NEUROBASE_DATA_PATH };
+
+#my $config_file = $apath . '/config.pl';
+#my %config = do $config_file;
+#my $Data_path = $config{queryPath};
+
+=stop
+my $host  = $ENV{HOST};
 if ($host =~ /hpc/) { $host = 'hpc'; }
 elsif ($host =~ /oem/) { $host = 'oem'; }
 else {  print "unable to find host from $host\n"; exit 0; }
-
-open(SPATH, "SCRIPTPATH")  or die "Could not open temp output file: SCRIPTPATH!\n";
-my $SCRIPTPATH = <SPATH>;
-chomp $SCRIPTPATH;
-print "SCRIPTPATH: $SCRIPTPATH\n";
-
-open(DPATH, "DATAPATH")  or die "Could not open temp output file: DATAPATH!\n";
-my $tmpPath  = <DPATH>;
-chomp $tmpPath;
+=cut
 
 my ($projName, $projectID, $sort, $sqldb, $user, $passwd, $debug) = @ARGV;
 if ((not defined $projectID) ||
@@ -38,13 +39,13 @@ print "dbi:mysql:database=".$sqldb.";host=localhost\n";
 my $dsn = "dbi:mysql:database=".$sqldb.";host=localhost";
 my $dbh = DBI->connect($dsn, $user, $passwd);
 
-$tmpPath = $tmpPath . $projName . "/";;
+$tmpPath = $tmpPath . '/' . $projName . "/";;
 print "tmpPath: $tmpPath\n";
 my $outfile = $tmpPath . "homologysort.txt";
 
 # out1 & out2 only used if debug = 1
-my $out1 = $SCRIPTPATH . "homologysort1.txt" . $$;
-my $out2 = $SCRIPTPATH . "homologysort2.txt" . $$;
+my $out1 = $scriptpath . "homologysort1.txt" . $$;
+my $out2 = $scriptpath . "homologysort2.txt" . $$;
 
 print "$0 $projName $projectID $sort $debug\n";
 
@@ -126,19 +127,27 @@ close(OUTFILE);
 #load the data in homology file
 
 my $query = "";
+
+=stop
 if ($host eq 'oem') {
+=cut
+
   if ($debug) {  print 'LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology';}
   $query = "LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
+
+=stop
 } else {
   if ($debug) {  print 'LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology';}
   $query = "LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
 }
+=cut
+
 $dbh->do($query);
 
 unlink($outfile);
 
-my $t1 = $SCRIPTPATH . "ss.done1";
-my $t2 = $SCRIPTPATH . "ss.done2";
+my $t1 = $scriptpath . "ss.done1";
+my $t2 = $scriptpath . "ss.done2";
 
 print "t1: $t1\n";
 print "t2: $t2\n";

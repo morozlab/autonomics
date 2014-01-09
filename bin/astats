@@ -1,0 +1,16 @@
+#!/bin/csh
+
+echo "\nREADS:"
+if (-e $1.fasta) then
+  sdb $1.fasta
+else
+  echo "no file $1.fasta"
+endif
+
+echo "\nCONTIGS:"
+sdb $1_project.fasta
+run.assy.stats.py $1_project.fasta
+if (-e Trinity.timing) then
+  grep 'time to run Trinity' Trinity.timing
+endif
+

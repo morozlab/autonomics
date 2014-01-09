@@ -25,7 +25,7 @@ pn = args.projName
 processor = 'x86_64'
 
 #ppath = settings.proj_dir
-ppath = os.environ["PIPEPATH"]
+ppath = os.environ["PROJECT_PATH"]
 apath = os.environ["AUTONOMICS_PATH"]
 
 pred_dir = ppath + '/' + pn + '/prediction/'

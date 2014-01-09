@@ -315,6 +315,12 @@ def main():
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
+                elif(state == JobState.RETRIES_FAILED):
+                    print("\nmanager .. " + j.job_name + "RETRIES_FAILED")
+                    finished.append(j)
+                    mark_error(j.jid, session)
+                    resources_at_location[j.location].take_from(j)
+                    print_res = 1
                 else:
                     if (lloop_num == 10):
                         print "\nmanager .. ", j.job_name, " RUNNING"
@@ -332,7 +338,7 @@ def main():
             gc.collect()
 
             sys.stdout.write('.')
-            SLEEP_INTERVAL = 60
+#            SLEEP_INTERVAL = 30
             time.sleep(SLEEP_INTERVAL)
         except exc.OperationalError as e:
             if("MySQL server has gone away" in e.message):

@@ -77,7 +77,7 @@ def main():
     ###########################################################################
     #
     #    change to work dir
-    #
+    # 
     ###########################################################################
 
     os.chdir(work_dir)    
@@ -107,20 +107,23 @@ def main():
     #
     ###########################################################################
 
-    trinity_out_dir = "trinity_out"
+    trinity_out_dir = work_dir + 'trinity_out'
     trinity_out = trinity_out_dir + "/Trinity.fasta"
     tcmd = trinity_path + "Trinity.pl"
 
+#    mem = 40G
+    mem = '256G'
+
     if paired_end:
         cmd = "perl " + tcmd + " --seqType fa --left " + in_file1_fasta + \
-              ' --right ' + in_file2_fasta + ' --JM 40G --inchworm_cpu ' + \
+              ' --right ' + in_file2_fasta + ' --JM ' + mem + ' --inchworm_cpu ' + \
               cpus + " --CPU " + cpus + " --output " + trinity_out_dir + \
               " > /dev/null"
         print cmd
         os.system(cmd)
     else:
         cmd = "perl " + tcmd + " --seqType fa --single " + in_file1_fasta + \
-              ' --JM 40G --inchworm_cpu ' + cpus + " --CPU " + cpus + \
+              ' --JM ' + mem + ' --inchworm_cpu ' + cpus + " --CPU " + cpus + \
               " --output " + trinity_out_dir + " > /dev/null"
         print cmd
         os.system(cmd)
@@ -131,8 +134,18 @@ def main():
     #
     ###########################################################################
 
-    tgt = sample_name + "_project.fasta"
+#   work_dir = <pipeline_path>/<proj_dir>
+#    trinity_out_dir = work_dir + 'trinity_out'  == /srv/data2/pipeline/<proj>/trinity_out
+#    trinity_out = trinity_out_dir + "/Trinity.fasta" == /srv/data2/pipeline/<proj>/trinity_out/Trinity.fasta
+
+#    tgt = trinity_out_dir + '/' + sample_name + "_project.fasta"
+    tgt = work_dir + sample_name + "_project.fasta"
     cmd = "mv " + trinity_out + " " + tgt
+    print cmd
+    os.system(cmd)
+
+    src = trinity_out_dir + '/Trinity.timing'
+    cmd = "mv " + src + " " + work_dir
     print cmd
     os.system(cmd)
 

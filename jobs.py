@@ -325,36 +325,21 @@ def split_fasta(q_file, job_type, proc_units):
     fh = open(q_file, 'r')
     directory, file = os.path.split(q_file)
     file_base, file_ext = os.path.splitext(file)
-    seqs_per_file = (get_input_size(q_file)/proc_units) + 1
-    seq_counter = 0
     file_counter = 1
     filenames = []
     file_base += "_" + job_type
     cur_file = file_base + "_" + str(file_counter) + file_ext
-    curpath = (directory + "/" + cur_file)
-    fw = open(curpath, 'w')
-    filenames.append(curpath)
-    for line in fh:
-        line = line.strip()
-        if(">" in line):
-            seq_counter += 1
-            if(seq_counter > int(seqs_per_file)):
-                #close the open partition file
-                fw.close()
-                #increment the file counter and open the next file
-                file_counter += 1
-                cur_file = file_base + "_" + str(file_counter) + file_ext
-                curpath = directory + "/" + cur_file
-                fw = open(curpath, 'w')
-                filenames.append(curpath)
-                #reset the seq_counter to 1
-                seq_counter = 1
-
-        fw.write(line + "\n")
-
-    fw.close()
+    cmd = "sort_db.pl " + q_file + " " + directory
+#    print cmd
+    os.system(cmd)
+    cmd = "partition_db.pl " + str(proc_units) + " " + q_file + " " + file_base + " " + file_ext
+#    print cmd
+    os.system(cmd)
+    for file_counter in range(proc_units): # range starts at 0 .. proc_units-1
+      cur_file = file_base + "_" + str(file_counter + 1) + file_ext
+      curpath = (directory + "/" + cur_file)
+      filenames.append(curpath)
     return filenames
-
 
 class Arguments:
     '''
@@ -746,7 +731,7 @@ class JobState:
     RUNNING = 0
     FINISHED = 1
     ERROR = 2
-
+    RETRIES_FAILED = 3
 
 class Job:
     ''' This class is the ancestor of all analysis tasks.
@@ -794,7 +779,7 @@ class Job:
                 The working directory for this job. All intermediary files
                 and output are placed in this directory.
 
-                Defaults to: settings.proj_dir + pn
+                Defaults to: settings.PROJECT_DIR + pn
 
                 If this is a command-line submitted job, this attribute will
                 be overridden by: PATH_TO_COMMAND_LINE_JOBS/job_name/
@@ -857,9 +842,9 @@ class Job:
         self.files = []
         self.processes = []
         self.executable = executable
-        self.local_dir = settings.proj_dir + "/" + self.pn + "/"
+        self.local_dir = settings.PROJECT_DIR + "/" + self.pn + "/"
         if self.special_run:
-            self.local_dir = settings.proj_dir + "/special_runs/" + \
+            self.local_dir = settings.PROJECT_DIR + "/special_runs/" + \
                             self.job_name + "/"
         self.run_name = self.generate_run_name()
         self.resources = self._default_resources()
@@ -2116,7 +2101,7 @@ class AssemblyProcess(PipeProcess):
 
     def run(self):
 
-        out_dir = settings.proj_dir + self.pn + "/"
+        out_dir = settings.PROJECT_DIR + self.pn + "/"
         if (self.paired_end):
             if (self.assembler == "trinity"):
                 in_file1 = ""
@@ -2175,7 +2160,7 @@ class BlastAssociationProcess(PipeProcess):
                  ):
         PipeProcess.__init__(self)
         self.base_name = base_name
-        self.local_dir = settings.proj_dir + "/" + base_name + "/"
+        self.local_dir = settings.PROJECT_DIR + "/" + base_name + "/"
         self.blast_file = blast_file
         self.current_output = out_file
         self.process_args = process_args
@@ -2321,9 +2306,13 @@ class GOProcess(BlastAssociationProcess):
         else:
             quant_file = self.local_dir + self.base_name + "_quantification.txt"
             mid_arg = self.base_name
-        java_cmd = "java -Xmx10g goannot8r.GOAnnotator " + mid_arg + " "  + \
-            self.current_output
 
+#        java_cmd = "java -Xmx10g goannot8r.GOAnnotator " + mid_arg + " "  + \
+
+        java_cmd = "java -Xmx10g GOAnnotator " + mid_arg + " "  + self.current_output
+        java_cmd += " " + settings.db_cred.user + " " + settings.db_cred.passwd + " " + settings.ZC_DB_NAME + " " + settings.ZC_DB_HOST
+# old jobs.py        java_cmd = "java -Xmx10g goannot8r.GOAnnotator " + mid_arg + " "  + self.current_output
+   
         if(os.path.exists(quant_file)):
             java_cmd += " " + quant_file
 
@@ -2333,7 +2322,7 @@ class GOProcess(BlastAssociationProcess):
             mid_arg = self.local_dir + self.base_name
 
         java_cmd += " > " + mid_arg + "_gocats.txt"
-        print "java_cmd: ", java_cmd
+#        print "java_cmd: ", java_cmd
         proc = subprocess.Popen(java_cmd, shell=True)
         proc.wait()
         die_on_error(proc.returncode, cmd_str=java_cmd)
@@ -3342,7 +3331,7 @@ class Qsub:
         self.qsub = "#! /bin/bash\n";
         self.qsub += "#PBS -r n\n";
         self.qsub += "#PBS -N " + self.name + "\n";
-        self.qsub += "#PBS -o " + self.name + ".stdout\n";
+#        self.qsub += "#PBS -o " + self.name + ".stdout\n";
         self.qsub += "#PBS -e " + self.name + ".stderr\n";
         if(q == 'billed'): self.qsub += "#PBS -W group_list=billed\n"
         else: self.qsub += "#PBS -q " + q + "\n";
@@ -3671,21 +3660,55 @@ class HPCProcess(PipeProcess):
         num_finished = 0
         errors = []
         num_procs = len(self.processes)
+# replace check_indiv_jobs with one ls -1 done*
+#         if(len(self.processes) == num_finished):
+        command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
+#        print "command: ", command, " num_procs: ", num_procs
+        retries = 10
+        sleep_time = 30
+        num_done = 0
+        while (retries >= 0):
+            try:
+#                print "about to execute command = ", command      
+#                res = c.execute(command)
+#                print "res: ", res
+                num_done = int(c.execute(command)[0])
+                print "command = ", command, " num_done = ", num_done
+                break
+            except:
+                t = datetime.datetime.now()
+                if(retries == 0):
+                    t = datetime.datetime.now()
+                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
+                    sys.stderr.write("Error running: " + command + "  Abadoning job\n")
+                    num_done = -1
+                else:
+                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
+                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + "\n")
+                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    time.sleep(sleep_time)
+                    sleep_time = sleep_time * 2
+                    retries -= 1
+        if (num_procs == num_done):
+            return JobState.FINISHED
+        elif (num_done == -1): return JobState.RETRIES_FAILED
+        else: return JobState.RUNNING
+
         for index, proc in enumerate(self.processes):
             stat = self.check_individual_job(index, c)
-            if(stat == 'finished'):
-                proc.finished_count += 1
-                #give error messages time to reach the mail server
-                if(proc.finished_count * settings.mainLoopSleepInterval >=\
-                    settings.waitBeforeMarkComplete):
-                    num_finished += 1
-                    proc.status ="processed"
-            elif(stat == 'exceedMem'):
-                #check if we should restart this job
+#            if(stat == 'finished'):
+#                proc.finished_count += 1
+#                #give error messages time to reach the mail server
+#                if(proc.finished_count * settings.mainLoopSleepInterval >=\
+#                    settings.waitBeforeMarkComplete):
+#                    num_finished += 1
+#                    proc.status ="processed"
+            if(stat == 'exceedMem'):
                 if(self.restart):
-                    print "in stat=exceedMem' self.mem_increment: ", self.mem_increment
+                    print "job stat=exceedMem, restarting with self.mem_increment: ", self.mem_increment, " job_name: ", self.job_name
                     proc.resubmit(c, self.mem_increment)
                 else:
+                    print "job stat=exceedMem, restarting not enabled"
                     num_finished += 1
                     proc.status = "error"
             elif(stat == "error"):
@@ -3698,10 +3721,10 @@ class HPCProcess(PipeProcess):
         self.mail_connect.logout()
         c.close()
 
-        if(len(self.processes) == num_finished):
-            return JobState.FINISHED
-        else:
-            return JobState.RUNNING
+#        if(len(self.processes) == num_finished):
+#            return JobState.FINISHED
+#        else:
+#            return JobState.RUNNING
 
     def _cleanup_local_files(self):
         '''
@@ -3795,7 +3818,7 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Exception in _mail_connect() for " + self.job_name + "\n")
                     sys.stderr.write(e.message + "\n")
                     retries -= 1
-                    sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + self.retry_interval + "\n")
+                    sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(self.retry_interval) + "\n")
                     time.sleep(self.retry_interval)
                 else:
                     sys.stderr.write("invoking self._disable_mail\n")
@@ -3929,6 +3952,7 @@ class HPCProcess(PipeProcess):
             proc.status = "error"
             return proc.status
 
+
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
 
         retries = 10
@@ -3936,6 +3960,7 @@ class HPCProcess(PipeProcess):
         while (retries >= 0):
             try:
                 running = int(c.execute(command)[0])
+#                print "command = ", command, " running = ", running
                 break
             except:
                 t = datetime.datetime.now()
@@ -3952,9 +3977,9 @@ class HPCProcess(PipeProcess):
                     sleep_time = sleep_time * 2
                     retries -= 1
 
-
         if(running == 0):
             proc.status = "finished"
+#            print proc.job_id[:16] + " finished"
         elif(running == -1):
             proc.status = "error"
         else:
@@ -4089,8 +4114,7 @@ class HPCProcess(PipeProcess):
                 self.hpc_command = self._replace_using_dict(self.hpc_command,
                                                             this_input)
                 self.hpc_command = self.hpc_command.replace("<output>",
-                                                            self.remote_dir +\
-                                                             qsub_out)
+                                                            self.remote_dir + qsub_out)
             else:
                 param_dict = self._proc_options_dict(self.job_type, session)
                 param_dict.update(this_input)
@@ -4123,7 +4147,10 @@ class HPCProcess(PipeProcess):
             touch_file = self.remote_dir + "/start." + job_name
             tcommand = "touch " + touch_file
             qsub.append_qsub_command(tcommand)
-            qsub.append_qsub_command(self.hpc_command)
+            acommand = self.hpc_command
+            if (self.job_type == 'pfam'):
+                acommand = self.hpc_command + ' -outfile ' + self.remote_dir + '/' +job_name + '.stdout'
+            qsub.append_qsub_command(acommand)
             touch_file = self.remote_dir + "/done." + job_name
             tcommand = "touch " + touch_file
             qsub.append_qsub_command(tcommand)
