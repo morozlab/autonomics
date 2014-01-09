@@ -44,7 +44,7 @@ if(!defined($noass)) { $noass = 0; $assemble = 1; }  else { $noass = 1; $assembl
 
 if(!defined($paired_end)) { $paired_end = 0; } else { $paired_end = 1; }
 
-my $projdir = $ENV{ PIPEPATH };
+my $projdir = $ENV{ PIPELINE_PATH };
 $projdir .= "/";
 $projdir .= $proj;
 $projdir .= "/";
