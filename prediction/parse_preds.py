@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+<#!/usr/bin/env python
 from Bio import SeqIO
 import argparse
 import os
@@ -19,8 +19,8 @@ phobsp = 4
 
 pn = args.projName
 
-ppath = os.environ["PIPELINE_PATH"]
-apath = os.environ["AUTONOMICS_PATH"]
+ppath = os.environ["PIPELINE_PATH"] + '/'
+apath = os.environ["AUTONOMICS_PATH"] + '/'
 
 pd = ppath + '/' + pn
 fa = '%s_proteins.fasta' % pn

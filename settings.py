@@ -88,12 +88,12 @@ class Credentials:
 # INSTALL_DIR is the full path to where the autonomics dir exists (the one cloned
 # from github)  git clone https://github.com/morozlab/autonomics
 
-INSTALL_DIR = os.environ['AUTONOMICS_PATH']
+INSTALL_DIR = os.environ['AUTONOMICS_PATH'] + "/"
 
 # PROJECT_DIR is where your project folders will be created on the local machine
 # that runs the autonomics pipeline (see README)
 
-PROJECT_DIR = os.environ['PIPELINE_PATH']
+PROJECT_DIR = os.environ['PIPELINE_PATH'] + "/"
 
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 # this group of paths are on the local machine running the autonomics pipeline
@@ -194,8 +194,8 @@ REDIS_PORT = 6379
 USING_NB = 1
 
 if USING_NB:
-  NEUROBASE_FASTADB_PATH = os.environ['NEUROBASE_FASTADB_PATH']
-  NEUROBASE_DATA_PATH = os.environ['NEUROBASE_DATA_PATH']
+  NEUROBASE_FASTADB_PATH = os.environ['NEUROBASE_FASTADB_PATH'] + "/"
+  NEUROBASE_DATA_PATH = os.environ['NEUROBASE_DATA_PATH'] + "/"
 
 # oem
 #    NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"

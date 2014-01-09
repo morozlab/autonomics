@@ -3,10 +3,10 @@ use strict;
 use DBI;
 # use File::copy;
 
-my $apath  = $ENV{AUTONOMICS_PATH };
-my $scriptpath = $apath . "/scripts";
+my $apath  = $ENV{AUTONOMICS_PATH } . "/";
+my $scriptpath = $apath . "scripts";
 
-my $tmpPath  = $ENV{NEUROBASE_DATA_PATH };
+my $tmpPath  = $ENV{NEUROBASE_DATA_PATH } . "/";
 
 #my $config_file = $apath . '/config.pl';
 #my %config = do $config_file;
