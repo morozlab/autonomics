@@ -16,11 +16,11 @@ settings.DISPATCHER_SLEEP_INTERVAL between loops.
 (b) are not marked started, and (c) have all dependencies satisfied, are
 inserted into queue table and jn_mapping table set to queued = 'Y'
 
-2) Iterates over all directories found in settings.proj_dir, treating each
+2) Iterates over all directories found in settings.PROJECT_DIR, treating each
 directory as a project_name.
 
 3) For each project_name, checks if the directory for that project
-(settings.proj_dir + project_name) contains SRC_UPLOADED, which marks that
+(settings.PROJECT_DIR + project_name) contains SRC_UPLOADED, which marks that
 data_gremlin.py has finished its upload. If so, does the following for
 each project.
 
@@ -90,7 +90,7 @@ def main():
         queue_all(session)
 
 #       find names of projects in pipeline_path
-        pipeline_path = settings.proj_dir
+        pipeline_path = settings.PROJECT_DIR
         project_name = ""
         dir_names = [ f for f in os.listdir(pipeline_path)
                                               if isdir(join(pipeline_path,f)) ]
