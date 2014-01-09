@@ -38,7 +38,7 @@ def main():
 
 
     has_fastq = 0
-    fname = settings.proj_dir + "/" + project_name + "/" + project_name +'.fastq'
+    fname = settings.PROJECT_DIR + "/" + project_name + "/" + project_name +'.fastq'
     if os.path.exists(fname): has_fastq = 1
 
     if ((job_type == 'quantification') and (not has_fastq)):
