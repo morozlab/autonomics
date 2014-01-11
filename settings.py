@@ -15,9 +15,6 @@ import re
 
 debug_pipe = 0
 
-hname = os.environ['HOST'] 
-print hname
-
 class Credentials:
     '''
         This class implements functionality to store credentials for accessing
@@ -82,9 +79,6 @@ class Credentials:
         self.user = u
         self.passwd = p
 
-
-# ======= START OF SETTINGS TO MODIFY =====================
-
 # INSTALL_DIR is the full path to where the autonomics dir exists (the one cloned
 # from github)  git clone https://github.com/morozlab/autonomics
 
@@ -95,11 +89,21 @@ INSTALL_DIR = os.environ['AUTONOMICS_PATH'] + "/"
 
 PROJECT_DIR = os.environ['PIPELINE_PATH'] + "/"
 
+
+# ======= START OF SETTINGS TO MODIFY =====================
+
+
+# see QUICK START section of README on setting environment vars.
+
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 # this group of paths are on the local machine running the autonomics pipeline
 
 pfam_exec_path = "/srv/data/pfam/PfamScan/"
+
 khmer_path = "/srv/data2/software/Khmer/scripts/"
+# https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
+# we use normalize-by-median.py
+
 trinity_path = "/srv/data2/pwilliams/trinityrnaseq_r20131110/"
 cutadapt_path = "/usr/local/bin/"
 mira_path = "/usr/bin/"
@@ -187,6 +191,7 @@ QUANTIFICATION_MAX_WALL_TIME = "24:00:00"
 PFAM_MAX_WALL_TIME = "48:00:00"
 
 # REDIS DB CONNECTION DETAILS (http://redis.io/topics/quickstart)
+# these are probably correct for you as they are the defaults
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
@@ -196,19 +201,6 @@ USING_NB = 1
 if USING_NB:
   NEUROBASE_FASTADB_PATH = os.environ['NEUROBASE_FASTADB_PATH'] + "/"
   NEUROBASE_DATA_PATH = os.environ['NEUROBASE_DATA_PATH'] + "/"
-
-# oem
-#    NEUROBASE_FASTADB_PATH = "/var/www/seq_view/database/"
-#    NEUROBASE_DATA_PATH = "/data/neurobase_load_data/"
-# if machine == 'hpc':
-#    NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
-#    NEUROBASE_DATA_PATH = "/data/autonomics_data/"
-# if machine == 'pb':
-#    NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
-#    NEUROBASE_DATA_PATH = "/data/autonomics_data/"
-# if machine == 'ap':
-#    NEUROBASE_FASTADB_PATH = "/var/www/html/neurobase/seq_view/database/"
-#    NEUROBASE_DATA_PATH = "/data/autonomics_data/"
 
 # ======= END OF SETTINGS TO MODIFY =====================
 

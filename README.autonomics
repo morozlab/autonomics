@@ -2,6 +2,30 @@ The autonomics pipeline is described in the paper XXXXXX.
 Here we describe how to install and use the autonomics pipeline (pipeline).
 
 ----------------
+QUICK START
+----------------
+
+1) scan the full installation instructions below.
+
+
+2) in your .bashrc or .cshrc file set the following environment variables:
+
+AUTONOMICS_PATH <path.to.autonomics.dir>, e.g. /home/pwilliams/autonomics
+
+PIPELINE_PATH <path.to.where.your.project.folders.will.be.created>, e.g. /srv/data2/pipeline
+(needs to be in an area that can store big data)
+create this dir
+
+CLASSPATH <path.to.autonomics.dir>/java/bin:<path.to.autonomics.dir>/java/bin/java/mysql-connector-java-5.0.8-bin.jar
+e.g.  /home/pwilliams/autonomics/java/bin:/home/pwilliams/autonomics/java/mysql-connector-java-5.0.8-bin.jar
+
+PATH <path.to.autonomics.dir>/bin
+
+PYTHONPATH <path.to.autonomics.dir>
+you also need to add the path to khmer/python
+
+
+----------------
 THE INSTALLATION
 ----------------
 
@@ -63,6 +87,7 @@ necessary directories.  Some of the aps you will need installed on
 your local machine are: khmer, trinity, mira, cutadapt, redis server,
 ssh server, python 2.7.x, MySQL 5+, biopython, MySQL-python, paramiko,
 pg8000, sqlalchemy; and on your remote cluster: pfam, blast, hmmer.
+
 
 It may require some trial and error to set the wall time for blast NR
 jobs as this will depend on your HPC cluster performance and the size
