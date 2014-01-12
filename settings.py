@@ -87,7 +87,7 @@ INSTALL_DIR = os.environ['AUTONOMICS_PATH'] + "/"
 # PROJECT_DIR is where your project folders will be created on the local machine
 # that runs the autonomics pipeline (see README)
 
-PROJECT_DIR = os.environ['PIPELINE_PATH'] + "/"
+PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 
 
 # ======= START OF SETTINGS TO MODIFY =====================

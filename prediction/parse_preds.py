@@ -19,7 +19,7 @@ phobsp = 4
 
 pn = args.projName
 
-ppath = os.environ["PIPELINE_PATH"] + '/'
+ppath = os.environ["PROJECT_PATH"] + '/'
 apath = os.environ["AUTONOMICS_PATH"] + '/'
 
 pd = ppath + '/' + pn
