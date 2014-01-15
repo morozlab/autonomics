@@ -16,6 +16,11 @@ if (-d $pname) {
   print "===================================================================\n";
   print "\t$pname\n";
   print "===================================================================\n";
+
+  my $cmd = 'astats ' . $pname . '/' . $pname;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
   my $nr_suffix = "_blast_nr.txt";
   my $sw_suffix = "_blast_swissprot.txt";
   my $fa_suffix = "_project.fasta";
@@ -35,7 +40,6 @@ if (-d $pname) {
  
   my $fasta = "./" . $pname . "/" . $pname . $fa_suffix;
   my $res = 0;
-  my $cmd;
   if (-e $fasta) {
     $cmd = "grep \'>\' " . $prefix . $fa_suffix . $wc;
 #    print "$cmd\n";
@@ -43,8 +47,8 @@ if (-d $pname) {
     chomp $res;
   }
   my $num_contigs = $res;
-  print "NUM_CONTIGS:\t$res\n";
-
+#  print "NUM_CONTIGS:\t$res\n";
+  print "\n";
   my $nrf = "./" . $pname . "/" . $pname . $nr_suffix;
   my $nr_hits = 0;
   my $nr_misses = 0;
@@ -155,14 +159,6 @@ if (-d $pname) {
       $num = $n;
   }
   print "quantification lines: $num\n";
-#  my $fp = $pname . '.fasta';
-#  if (-e $fp) {
-    chdir $pname;
-    $cmd = 'astats ' . $pname;
-  #  print "$cmd\n";
-    system($cmd);
-    if ( $? ) { die "Command failed: $cmd: $!"; }
-#  }
 
 =stop
   $f = "./" . $pname . "/" . $pname . $fq_suffix;

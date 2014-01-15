@@ -1,8 +1,29 @@
 #!/bin/csh
 
+
 echo "\nREADS:"
+
+echo '------------------------------'
+echo "Number raw reads:"
+if (-e $1.fastq.before.quality_trim) then
+  num.reads.pl $1.fastq.before.quality_trim
+else
+  echo "no file $1..fastq.before.quality_trim"
+endif
+
+echo '------------------------------'
+echo "Number reads after quality_trim:"
+if (-e $1.fastq) then
+  num.reads.pl $1.fastq
+else
+  echo "no file $1.fastq"
+endif
+
+echo '------------------------------'
+echo "Number reads after read normalization:"
 if (-e $1.fasta) then
-  sdb $1.fasta
+  grep '>' $1.fasta | wc -l
+  sdb.astats $1.fasta
 else
   echo "no file $1.fasta"
 endif
@@ -10,7 +31,7 @@ endif
 echo "\nCONTIGS:"
 sdb $1_project.fasta
 run.assy.stats.py $1_project.fasta
-if (-e Trinity.timing) then
-  grep 'time to run Trinity' Trinity.timing
-endif
+#if (-e Trinity.timing) then
+#  grep 'time to run Trinity' Trinity.timing
+#endif
 

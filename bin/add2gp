@@ -1,0 +1,12 @@
+#!/bin/csh
+
+
+if (-e /data/neurobase_load_data/$1/$1_project.fasta) then
+   cp /data/neurobase_load_data/$1/$1_project.fasta /var/www/genomes/public/$1.fasta
+else
+  echo "no file /data/neurobase_load_data/$1/$1_project.fasta"
+endif
+
+#cp /data/neurobase_load_data/xxx/xxx_project.fasta /var/www/genomes/public/xxx.fasta
+
+
