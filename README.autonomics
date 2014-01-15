@@ -24,6 +24,7 @@ PATH <path.to.autonomics.dir>/bin
 PYTHONPATH <path.to.autonomics.dir>
 you also need to add the path to khmer/python
 
+https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
 
 ----------------
 THE INSTALLATION
@@ -531,7 +532,7 @@ So: <pipeline_dir>/<proj_name>/<proj_name>_proteins.fasta
 
 Start the prediction by invoking:
 
-python autonomics/prediction/predicts.py [--max_threads <n>] [--sp_cutoff <float>] <proj_name> >& log.pred.<proj_name>.<sp_cutoff> &
+python <path.to>/autonomics/prediction/predicts.py [--max_threads <n>] [--sp_cutoff <float 0.0 .. 1.0>] <proj_name> >& log.pred.<proj_name>.<sp_cutoff> &
 --sp_cutoff defaults to 0.5 if not specified
           # this is SignalP4 score for discriminating signal peptides from transmembrane regiosn
 --max_threads defaults to 1 if not specified; must be 1 or a multiple of 3
