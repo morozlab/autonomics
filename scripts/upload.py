@@ -31,7 +31,7 @@ import warnings
 import datetime
 
 # perlPath=settings.PERLPATH
-baseDir = settings.NEUROBASE_DATA_PATH
+baseDir = settings.NEUROBASE_LOAD_DATA_PATH
 dbname = settings.MYSQLDBNAME
 debug = 0
 debug_kegg = 0
@@ -41,7 +41,7 @@ def allPipe(args, s, v):
     s.activateConnection()
     session = s
     #ftp directory
-    baseDir = settings.NEUROBASE_DATA_PATH
+    baseDir = settings.NEUROBASE_LOAD_DATA_PATH
     if(not args.data_dir is None):
         baseDir = args.data_dir
         
@@ -333,7 +333,7 @@ def initProject(publicName, seqType, session):
             cur_id = 0
             
         projectID = int(cur_id) + 1
-        projectPath = settings.NEUROBASE_FASTADB_PATH + str(projectID)
+        projectPath = settings.NEUROBASE_SEQ_PATH + str(projectID)
         if(not os.path.exists(projectPath)):
             os.mkdir(projectPath)
         #create a sequence table for this project
@@ -760,7 +760,7 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
 
     #open the database file for writing
     directory = utils.createTableObject('project_directory', session)
-    dbPath = settings.NEUROBASE_FASTADB_PATH + str(projectID)
+    dbPath = settings.NEUROBASE_SEQ_PATH + str(projectID)
     if(not os.path.exists(dbPath)):
         os.mkdir(dbPath)
     dbFile = open(dbPath + "/" + seqType + "DatabaseFile.fas", 'w')
@@ -993,7 +993,7 @@ def main():
     if(not args.data_dir is None):
         baseDir = args.data_dir
     else:
-        baseDir = settings.NEUROBASE_DATA_PATH
+        baseDir = settings.NEUROBASE_LOAD_DATA_PATH
 
     if(not baseDir.endswith("/")):
             baseDir += "/"
