@@ -8,7 +8,7 @@ echo "Number raw reads:"
 if (-e $1.fastq.before.quality_trim) then
   num.reads.pl $1.fastq.before.quality_trim
 else
-  echo "no file $1..fastq.before.quality_trim"
+  echo "no file $1.fastq.before.quality_trim"
 endif
 
 echo '------------------------------'

@@ -18,6 +18,7 @@ if (-d $pname) {
   print "===================================================================\n";
 
   my $cmd = 'astats ' . $pname . '/' . $pname;
+  print $cmd;
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
