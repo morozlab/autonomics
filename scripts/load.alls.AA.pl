@@ -12,7 +12,7 @@ Helobdella_proteins
 );
 
 foreach my $p (@projs) {
- $cmd = "loadnb.pl $p AA ALL";
+ $cmd = "load.project.pl $p AA ALL";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
