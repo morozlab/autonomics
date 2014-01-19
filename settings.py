@@ -79,21 +79,39 @@ class Credentials:
         self.user = u
         self.passwd = p
 
-# INSTALL_DIR is the full path to where the autonomics dir exists (the one cloned
-# from github)  git clone https://github.com/morozlab/autonomics
-
 INSTALL_DIR = os.environ['AUTONOMICS_PATH'] + "/"
-
-# PROJECT_DIR is where your project folders will be created on the local machine
-# that runs the autonomics pipeline (see README)
-
 PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 
 
-# ======= START OF SETTINGS TO MODIFY =====================
+#=============================================================================================
+# ======= START OF SETTINGS TO SET OR MODIFY =================================================
+#=============================================================================================
 
-
-# see QUICK START section of README on setting environment vars.
+#---------------------------------------------------------------------------------------------
+# SET THESE ENVIRONMENT VARIABLES IN YOUR .cshrc or .bashrc file
+#---------------------------------------------------------------------------------------------
+#
+# AUTONOMICS_PATH The full path to where the autonomics dir exists (the one cloned
+#                 from github)  git clone https://github.com/morozlab/autonomics
+#                 e.g. /home/pwilliams/autonomics
+#
+# PROJECT_PATH    The full path to your project folders will be created on the local machine
+#                 that runs the autonomics pipeline (see README) somewhere that can hold
+#                 big data.  e.g. /srv/data2/pipeline
+#
+# PATH $AUTONOMICS_PATH/bin:$PATH
+#
+# PYTHONPATH $AUTONOMICS_PATH/:<paths.to.khmer.etc>:$PYTHONPATH
+#
+# CLASSPATH  $AUTONOMICS_PATH/java/bin:$AUTONOMICS_PATH/java/mysql-connector-java-5.0.8-bin.jar
+#
+# Disregard the following 3 paths if not using the neurobase browser (the default case)
+#
+# NEUROBASE_SEQ_PATH 
+# NEUROBASE_LOAD_DATA_PATH
+# NEUROBASE_PUBLIC_GENOMES_PATH
+#
+#---------------------------------------------------------------------------------------------
 
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 # this group of paths are on the local machine running the autonomics pipeline
@@ -201,7 +219,7 @@ USING_NB = 1
 if USING_NB:
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
   NEUROBASE_LOAD_DATA_PATH = os.environ['NEUROBASE_LOAD_DATA_PATH'] + "/"
-  NEUROBASE_PUBLIC_GENOMES_PATH os.environ['NEUROBASE_PUBLIC_GENOMES_PATH'] + '/'
+  NEUROBASE_PUBLIC_GENOMES_PATH = os.environ['NEUROBASE_PUBLIC_GENOMES_PATH'] + '/'
 
 # ======= END OF SETTINGS TO MODIFY =====================
 
