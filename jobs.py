@@ -4051,7 +4051,9 @@ class HPCProcess(PipeProcess):
             9) qsub is submitted to the remote cluster and the job is started
             10) monitors status of all qsub jobs and waits for completion
         '''
-        print("HPC Process Starting job: " + self.job_name)
+        t = datetime.datetime.now()
+        print "HPC Process Starting job: " + self.job_name + " " + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
+
         session = netutils.make_db_session()
         #move job-level (non-split) files to the remote cluster
         self.move_job_data()
