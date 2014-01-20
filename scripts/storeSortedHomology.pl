@@ -4,7 +4,7 @@ use DBI;
 # use File::copy;
 
 my $apath  = $ENV{AUTONOMICS_PATH } . "/";
-my $scriptpath = $apath . "scripts";
+my $scriptpath = $apath . "scripts/";
 
 my $tmpPath  = $ENV{NEUROBASE_LOAD_DATA_PATH } . "/";
 

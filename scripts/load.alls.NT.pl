@@ -6,8 +6,7 @@ my $cmd;
 
 my @projs = qw(
 
-hlc4
-
+Aplysia_LE_single_cell_005_clcbio
 );
 
 foreach my $p (@projs) {

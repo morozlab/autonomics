@@ -420,18 +420,49 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
 
     #load the annotation files
     session.activateConnection()
-    if settings.machine == 'oem':
-      with warnings.catch_warnings():
-        warnings.simplefilter("ignore")
-        session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
-    else:
-      with warnings.catch_warnings():
-        warnings.simplefilter("ignore")
-        session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
-    if settings.machine == 'oem':
-      session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-    else:
-      session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+
+
+# LOAD DATA INFILE '/tmp/var_homology_load.txt.999' INTO TABLE homology
+#
+#    if settings.machine == 'oem':
+#      with warnings.catch_warnings():
+#        warnings.simplefilter("ignore")
+#        session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
+#    else:
+#      with warnings.catch_warnings():
+#        warnings.simplefilter("ignore")
+#        session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
+#    if settings.machine == 'oem':
+#      session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+#    else:
+#      session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+
+    try: 
+        print "trying: ", "LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
+        print "exited try #1"
+    except:
+        print "FAILED: ", "LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignor")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
+        print "exited except #1"
+    try:
+        print "trying: ", "LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+        print "exited try #2"
+    except:
+        print "This FAILED: ", "LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
+        print "exited except #2"
 
     if not debug:
       os.remove(homologyLoad)
@@ -447,8 +478,6 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
     now = datetime.datetime.now()
     print str(now)
     print "calling storeSorted for sort_id = 1"
-#    subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 1 " + str(debug) , shell=True).wait()
-#    print "calling: perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + str(projectID) + " 1 " + str(debug)
     print "Calling: perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 1 " + dbname + " " + session.user + " " + session.passwd + " " + str(debug)
     subprocess.Popen("perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 1 " + dbname + " " +
            session.user + " " + session.passwd + " " + str(debug) , shell=True).wait()
@@ -458,8 +487,6 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
     print "calling storeSorted for sort_id = 2"
     now = datetime.datetime.now()
     print str(now)
-#    proc = subprocess.Popen("perl \"" + perlPath + "storeSortedHomology.pl\" " + str(projectID) + " 2 " + str(debug), shell=True)
-#    print "calling: perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + str(projectID) + " 2 " + str(debug)
     print "calling: perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 2 " + str(debug)
 
     proc = subprocess.Popen("perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 2 " + dbname + " " + session.user + " " + session.passwd + " " + str(debug) , shell=True)
@@ -524,10 +551,24 @@ def loadHomologyAlignments(projectID, linkDict, alnReader, session, v = False):
     reportStatus("Loading mysql table  annotation alignments...\n", v)
     session.activateConnection()
 
-    if settings.machine == 'oem':
-      session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
-    else:
-      session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+    try: 
+        print "trying: ", "LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+        print "exited try #1 with success"
+    except:
+        print "FAILED: ", "LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+        print "exited except #1 with success"
+
+#    if settings.machine == 'oem':
+#      session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
+#    else:
+#      session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
 
     if not debug:    os.remove(alignmentLoad)
 
@@ -632,12 +673,26 @@ def loadGO(projectID, linkDict, goFile, session, v = False):
         records += 1
     gLoad.close()
 
-    session.activateConnection()
     print "Loading ", records, " GO records into sql database...\n"
-    if settings.machine == 'oem':
-      session.conn.execute("LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
-    else:
-      session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+    session.activateConnection()
+    try: 
+        print "trying: ", "LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+        print "exited try #1 with success"
+    except:
+        print "FAILED: ", "LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+        print "exited except #1 with success"
+
+#    if settings.machine == 'oem':
+#      session.conn.execute("LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
+#    else:
+#      session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
 
     if not debug:    
       print "os.remove(loadFile)" 
@@ -661,10 +716,24 @@ def loadGOCategories(projectID, projectName, catFile, session, v):
     reportStatus("Loading mysql table go_categories...\n", v)
     session.activateConnection()
 
-    if settings.machine == 'oem':
-      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
-    else:
-      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+    try: 
+        print "trying: ", "LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+        print "exited try #1 with success"
+    except:
+        print "FAILED: ", "LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+        print "exited except #1 with success"
+
+#    if settings.machine == 'oem':
+#      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
+#    else:
+#      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
 
     if not debug:    os.remove(tmpFile)
     pd = utils.createTableObject('project_directory', session)
@@ -699,11 +768,24 @@ def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
     #load the data into the pfam_annotations table
     if(session.conn == None):
         session.activateConnection()
+    try: 
+        print "trying: ", "LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+        print "exited try #1 with success LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations"
+    except:
+        print "FAILED: ", "LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations"
+        print "running except: ", "LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations"
+        with warnings.catch_warnings():
+          warnings.simplefilter("ignore")
+          session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+        print "exited except #1 with success"
 
-    if settings.machine == 'oem':
-      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
-    else:
-      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+#    if settings.machine == 'oem':
+#      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
+#    else:
+#      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
 
     reportStatus("Loading pfam domain counts...\n", v)
     #get category information
@@ -796,21 +878,43 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
     #load the sequences to the table
     retries = 5
     while(retries > 0):
-        try:
-            if settings.machine == 'oem':
-              session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
-              session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
-            else:
-              session.conn.execute("delete from " + str(projectID) + "_sequences")
-              session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
-            break
-        
-        except sqlalchemy.exc.OperationalError as e:
+      try: 
+        try: 
+          print "trying: ", "TRUNCATE TABLE " + str(projectID) + "_sequences"
+          print "trying: ", "LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences"
+          with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
+            session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+            print "exited try with success"
+        except:
+          print "running except: ", "delete from " + str(projectID) + "_sequences"
+          print "running except: ", "LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences"
+          with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            session.conn.execute("delete from " + str(projectID) + "_sequences")
+            session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+            print "exited except #1 with success"
+
+      except sqlalchemy.exc.OperationalError as e:
             time.sleep(60)
             print("MySQL Server went away, reconnecting and trying again.")
             session = netutils.make_db_session(settings.MYSQLDBNAME) 
+      break
     #remove the temporary file
-    if not debug:    os.remove(loadFilePath)
+
+#        try:
+#            if settings.machine == 'oem':
+#              session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
+#              session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+#            else:
+#              session.conn.execute("delete from " + str(projectID) + "_sequences")
+#              session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
+#            break
+
+    if not debug:    
+      os.remove(loadFilePath)
+      print "executed os.remove (", loadFilePath, ")"
 
     print "DONE loading seqs to nn_sequences"
 
