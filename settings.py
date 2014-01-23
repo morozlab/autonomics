@@ -214,7 +214,7 @@ REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
 #  set to 0 if not using neurobase browser
-USING_NB = 1
+USING_NB = 0
 
 if USING_NB:
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"

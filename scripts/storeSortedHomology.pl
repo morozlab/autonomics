@@ -8,17 +8,6 @@ my $scriptpath = $apath . "scripts/";
 
 my $tmpPath  = $ENV{NEUROBASE_LOAD_DATA_PATH } . "/";
 
-#my $config_file = $apath . '/config.pl';
-#my %config = do $config_file;
-#my $Data_path = $config{queryPath};
-
-=stop
-my $host  = $ENV{HOST};
-if ($host =~ /hpc/) { $host = 'hpc'; }
-elsif ($host =~ /oem/) { $host = 'oem'; }
-else {  print "unable to find host from $host\n"; exit 0; }
-=cut
-
 my ($projName, $projectID, $sort, $sqldb, $user, $passwd, $debug) = @ARGV;
 if ((not defined $projectID) ||
     (not defined $sort) ||
@@ -128,19 +117,9 @@ close(OUTFILE);
 
 my $query = "";
 
-=stop
-if ($host eq 'oem') {
-=cut
-
   if ($debug) {  print 'LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology';}
   $query = "LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
 
-=stop
-} else {
-  if ($debug) {  print 'LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology';}
-  $query = "LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
-}
-=cut
 
 $dbh->do($query);
 

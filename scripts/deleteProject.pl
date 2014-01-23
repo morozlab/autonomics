@@ -2,10 +2,12 @@
 use warnings;
 use strict;
 use DBI;
-use Sys::Hostname;
 use File::Basename;
 use File::Path;
-use Cwd;
+# use Cwd;
+use POSIX;
+
+my $db_dir = $ENV{NEUROBASE_SEQ_PATH};
 
 my ($projectID,$root_pw) = @ARGV;
 if ((not defined $projectID) || (not defined $root_pw)) {
@@ -13,24 +15,13 @@ if ((not defined $projectID) || (not defined $root_pw)) {
     exit 0;
 }
 
-my $host = $ENV{HOST};
-if ($host =~ /oem/) {  $host = "oem"; }
-if ($host =~ /hpc/) {  $host = "hpc"; }
-if ($host =~ /acis/) {  $host = "acis"; }
+if (not isdigit $projectID) { 
+   print "projectID: $projectID  must be an integer \n"; 
+   exit 0;
+}
 
 my $dsn = "dbi:mysql:database=moroz_lab;host=localhost";
 my $dbh = DBI->connect($dsn, "root", $root_pw);
-
-my $db_dir = "";
-if ($host eq "hpc") {
-    $db_dir = "/var/www/html/neurobase/seq_view/database/";
-}
-if ($host eq "oem") {
-    $db_dir = "/var/www/seq_view/database";
-}
-if ($host eq "acis") {
-    $db_dir = "/home/pwilliams/foo";
-}
 
 print "Deleting database files:  fasta file and formatdb files\n";
 my $cmd = "/bin/rm -fr $db_dir/$projectID";
