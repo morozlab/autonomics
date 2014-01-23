@@ -420,23 +420,6 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
 
     #load the annotation files
     session.activateConnection()
-
-
-# LOAD DATA INFILE '/tmp/var_homology_load.txt.999' INTO TABLE homology
-#
-#    if settings.machine == 'oem':
-#      with warnings.catch_warnings():
-#        warnings.simplefilter("ignore")
-#        session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
-#    else:
-#      with warnings.catch_warnings():
-#        warnings.simplefilter("ignore")
-#        session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
-#    if settings.machine == 'oem':
-#      session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-#    else:
-#      session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-
     try: 
         print "trying: ", "LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology"
         with warnings.catch_warnings():
@@ -564,12 +547,6 @@ def loadHomologyAlignments(projectID, linkDict, alnReader, session, v = False):
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
         print "exited except #1 with success"
-
-#    if settings.machine == 'oem':
-#      session.conn.execute("LOAD DATA INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
-#    else:
-#      session.conn.execute("LOAD DATA LOCAL INFILE '" + alignmentLoad + "' REPLACE INTO TABLE annotation_alignments")
-
     if not debug:    os.remove(alignmentLoad)
 
 
@@ -688,13 +665,8 @@ def loadGO(projectID, linkDict, goFile, session, v = False):
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
         print "exited except #1 with success"
-
-#    if settings.machine == 'oem':
-#      session.conn.execute("LOAD DATA INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
-#    else:
-#      session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFile + "' REPLACE INTO TABLE go_annotation_new")
-
     if not debug:    
+
       print "os.remove(loadFile)" 
       os.remove(loadFile)
     reportStatus("loadGO done.\n", v)
@@ -729,11 +701,6 @@ def loadGOCategories(projectID, projectName, catFile, session, v):
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
         print "exited except #1 with success"
-
-#    if settings.machine == 'oem':
-#      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
-#    else:
-#      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE go_categories" )
 
     if not debug:    os.remove(tmpFile)
     pd = utils.createTableObject('project_directory', session)
@@ -781,11 +748,6 @@ def loadPfam(projectID, pfamFile, seqType, linkDict, session, v=True):
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
         print "exited except #1 with success"
-
-#    if settings.machine == 'oem':
-#      session.conn.execute("LOAD DATA INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
-#    else:
-#      session.conn.execute("LOAD DATA LOCAL INFILE '" + tmpFile + "' REPLACE INTO TABLE pfam_annotations")
 
     reportStatus("Loading pfam domain counts...\n", v)
     #get category information
@@ -902,15 +864,6 @@ def loadSequences(projectName, seqType, session, seqFile=None, v = False, sbStar
             session = netutils.make_db_session(settings.MYSQLDBNAME) 
       break
     #remove the temporary file
-
-#        try:
-#            if settings.machine == 'oem':
-#              session.conn.execute("TRUNCATE TABLE " + str(projectID) + "_sequences")
-#              session.conn.execute("LOAD DATA INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
-#            else:
-#              session.conn.execute("delete from " + str(projectID) + "_sequences")
-#              session.conn.execute("LOAD DATA LOCAL INFILE '" + loadFilePath + "' INTO TABLE " + str(projectID) + "_sequences")
-#            break
 
     if not debug:    
       os.remove(loadFilePath)
