@@ -32,29 +32,13 @@ if (($load_type ne 'BASIC') && ($load_type ne 'NR')&& ($load_type ne 'ALL') && (
   exit 0;
 }
 
-my $host  = $ENV{HOST};
-
 my @date = `date`;
 chomp(@date);
 my $pwd = `pwd`;
 chomp($pwd);
-print "Executed as \"$0 @ARGV\" on $ENV{HOST} in $pwd  @date\n";
 
-if ($host =~ /hpc/) { $host = 'hpc'; }
-elsif ($host =~ /oem/) { $host = 'oem'; }
-else {  print "unable to find host from $host\n"; exit 0; }
-
-my $dir = "";
-my $sdir = "";
-
-if ($host eq 'oem') {
-  $dir = '/data/neurobase_load_data/';
-  $sdir = '/home/oem/python_software/autonomics/scripts';
-}
-if ($host eq 'hpc') {
-  $dir = '/data/autonomics_data/';
-  $sdir = '/home/pwilliams/python_software/autonomics/scripts';
-}
+my $dir = $ENV{NEUROBASE_LOAD_DATA_PATH};
+my $sdir = $ENV{AUTONOMICS_PATH} . '/scripts';
 
 if (not -e "upload.py") { print "You need to be in $sdir to run this script\n"; exit 0; }
 
