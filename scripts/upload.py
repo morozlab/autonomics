@@ -430,7 +430,7 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
         print "FAILED: ", "LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology"
         print "running except: ", "LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology"
         with warnings.catch_warnings():
-          warnings.simplefilter("ignor")
+          warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
         print "exited except #1"
     try:
