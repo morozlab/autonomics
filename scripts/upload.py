@@ -145,6 +145,7 @@ def allPipe(args, s, v):
     reportStatus("Loading swissprot homology data...\n", v)
     p = Reader(baseName + "_blast_swissprot.txt", args.alnFmt, 2, v)
     p.read()
+    print "sw calling loadHomology"
     loadHomology(args.publicName, projectID, linkDict, p, s, args.deleteH)
     linfo = utils.createTableObject('load_info', s)
     insert = linfo.insert()
@@ -372,7 +373,7 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
     pid = os.getpid()    
     homologyLoad = tmpFilePrefix + "_homology_load.txt." + str(pid)
     annotationLoad = tmpFilePrefix + "_" + str(alnParser.database) + "_annotation_update_load.txt." + str(pid)
-
+    print "homologyLoad: ", homologyLoad
     hl = open(homologyLoad, 'w')
     al = open(annotationLoad, 'w')
 
@@ -425,27 +426,27 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
         with warnings.catch_warnings():
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology")
-        print "exited try #1"
+        print "exited try with success"
     except:
         print "FAILED: ", "LOAD DATA INFILE '" + homologyLoad + "' INTO TABLE homology"
         print "running except: ", "LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology"
         with warnings.catch_warnings():
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + homologyLoad + "' INTO TABLE homology")
-        print "exited except #1"
+        print "exited except with success"
     try:
         print "trying: ", "LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
         with warnings.catch_warnings():
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-        print "exited try #2"
+        print "exited try with success"
     except:
         print "This FAILED: ", "LOAD DATA INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
         print "running except: ", "LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db"
         with warnings.catch_warnings():
           warnings.simplefilter("ignore")
           session.conn.execute("LOAD DATA LOCAL INFILE '" + annotationLoad + "' REPLACE INTO TABLE annotation_db")
-        print "exited except #2"
+        print "exited except with success"
 
     if not debug:
       os.remove(homologyLoad)
@@ -462,7 +463,7 @@ def loadHomology(publicName, projectID, linkDict, alnParser, session, remove = F
     print str(now)
     print "calling storeSorted for sort_id = 1"
     print "Calling: perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 1 " + dbname + " " + session.user + " " + session.passwd + " " + str(debug)
-    subprocess.Popen("perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 1 " + dbname + " " +
+    p = subprocess.Popen("perl \"" + settings.SCRIPTPATH + "storeSortedHomology.pl\" " + publicName + " " + str(projectID) + " 1 " + dbname + " " +
            session.user + " " + session.passwd + " " + str(debug) , shell=True).wait()
 
     #sort by abundance ==> sort_id = 2

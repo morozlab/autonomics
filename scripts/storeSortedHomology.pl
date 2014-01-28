@@ -22,6 +22,8 @@ if ((not defined $projectID) ||
     exit 0;
 }
 
+print "$0 $projName $projectID $sort $debug\n";
+
 print "dbi:mysql:database=".$sqldb.";host=localhost\n";
 #my $dsn = "dbi:mysql:database=moroz_lab;host=localhost";
 
@@ -31,14 +33,17 @@ my $dbh = DBI->connect($dsn, $user, $passwd);
 $tmpPath = $tmpPath . '/' . $projName . "/";;
 print "tmpPath: $tmpPath\n";
 my $outfile = $tmpPath . "homologysort.txt";
+print "outfile = $outfile\n";
 
 # out1 & out2 only used if debug = 1
 my $out1 = $scriptpath . "homologysort1.txt" . $$;
 my $out2 = $scriptpath . "homologysort2.txt" . $$;
 
-print "$0 $projName $projectID $sort $debug\n";
+
 
 open(OUTFILE, ">$outfile") or die "Could not open temp output file: $outfile!\n";
+
+print " opened $outfile for writing\n";
 
 if($sort == 1){
     if ($debug) {  open(OUT1, ">$out1") or die "Could not open temp output file: $out1\n"; }
@@ -113,15 +118,33 @@ elsif($sort == 2){
 
 close(OUTFILE);
 
+# exit 0;
+
 #load the data in homology file
 
 my $query = "";
 
-  if ($debug) {  print 'LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology';}
-  $query = "LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
+# if ($debug) {  print 'LOAD DATA INFILE ' . $dbh->quote($outfile) . ' REPLACE INTO TABLE sorted_homology';}
 
+my $cmd = "python load.homo.py --user $user --password $passwd --outfile $outfile";
+print "$cmd\n";
+system($cmd);
+if ( $? ) { die "Command failed: $cmd: $!"; }
 
-$dbh->do($query);
+=stop
+my $result = eval {
+   $query = "LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
+   print "QUERY: $query\n";
+   $dbh->do("LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology");
+   print "success\n";
+};
+unless ($result) {
+   $query = "LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
+   print "Q2: $query\n";
+   $dbh->do("LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology");
+   print "success\n";
+}
+=cut
 
 unlink($outfile);
 
