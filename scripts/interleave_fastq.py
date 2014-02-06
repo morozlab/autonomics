@@ -26,8 +26,14 @@ output_orphan_filename = str(args.outputFile) + "_unpaired_orphans.fastq"
 f_suffix = args.f_suffix
 r_suffix = args.r_suffix
 
+#python /home/pwilliams/autonomics//scripts/interleave_fastq.py -f1 /srv/data2/pipeline//Aphrocallistes_vastus_4/Aphrocallistes_vastus_4.fastq -f2 /srv/data2/pipeline//Aphrocallistes_vastus_4/Aphrocallistes_vastus_4.fastq.end2 -o /srv/data2/pipeline//Aphrocallistes_vastus_4/Aphrocallistes_vastus_4.fastq_interleaved.fastq  
+
+print "f_suffix: ", f_suffix
+print "r_suffix: ", r_suffix
+
 #######################################################
 if f_suffix:
+    print "inside if f_suffix"
     f_suffix_crop = -len(f_suffix)
     def f_name(name):
         """Remove the suffix from a forward read name."""
@@ -37,6 +43,7 @@ else:
     f_name = None
 
 if r_suffix:
+    print "inside if r_suffix"
     r_suffix_crop = -len(r_suffix)
     def r_name(name):
         """Remove the suffix from a reverse read name."""
@@ -44,6 +51,10 @@ if r_suffix:
         return name[:r_suffix_crop]
 else:
     r_name = None
+
+
+print "f_name: ", f_name
+print "r_name: ", r_name
     
 print("Indexing forward file...")
 forward_dict = SeqIO.index(input_forward_filename, args.fileFormat, key_function=f_name)
