@@ -5,7 +5,7 @@ use File::Basename;
 use Cwd;
 use Getopt::Long;
 
-my($proj, $mira, $data, $paired_end, $noass, $bo, $assonly);
+my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $assonly);
 
 my $cmd_line = "$0 @ARGV";
 my $args0 = "@ARGV";
@@ -15,6 +15,7 @@ GetOptions(
   "mira" => \$mira,
   "data=s" => \$data,
   "noass" => \$noass,
+  "convert_paired_end" => \$cpe,
   "bo" => \$bo,
   "assonly" => \$assonly,
   "paired_end" => \$paired_end,
@@ -26,6 +27,7 @@ sub printUsage{
   print "	-proj :project_name (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
+  print "       -convert_paired_end   (OPTIONAL for format\\1or2)\n";
   print "       -assonly   (OPTIONAL)\n";
   print "       -noass   (OPTIONAL)\n";
   print "       -bo   (run blast_nr only, requires -data to be set also  OPTIONAL)\n";
@@ -38,7 +40,8 @@ sub printUsage{
 
 my $assemble;
 
-if(defined($bo)) { $noass = 1; }
+if(defined($bo)) { $noass = 1; $bo = 1 ;  } else { $bo = 0; }
+if(defined($cpe)) { $cpe = 1; } else { $cpe = 0; }
 
 if(!defined($proj)) { printUsage(); exit 0; }
 if(!defined($mira)) { $mira = 0; }  else { $mira = 1; }
@@ -72,6 +75,11 @@ if ($paired_end && $mira) {
   exit 0;
 }
 
+if ($cpe && ((not $paired_end) || $bo || $mira || $noass)) { 
+  print " can not set convert_paired_end with these args\n";
+  exit 0;
+}
+
 if ($mira && $noass) {
   print " can not set mira flag with noass flag\n";
   exit 0;
@@ -92,8 +100,8 @@ if (-e $fq) {
     $fastq = 0;
 }
 
-my $fa2 = $projdir . $proj . ".fastq.end2";
-if ((-e $fa2) && (!$paired_end)) {
+my $fq2 = $projdir . $proj . ".fastq.end2";
+if ((-e $fq2) && (!$paired_end)) {
   print "this project has paired end data but the paired_end flag is not set!\n";
   exit 0;
 }
@@ -111,8 +119,8 @@ if (not -e $fa) {
 }
 
 if ($paired_end) {
-  if (not -e $fa2) {
-    print "$fa2 is REQUIRED but does not exist!\n";
+  if (not -e $fq2) {
+    print "$fq2 is REQUIRED but does not exist!\n";
     exit 0;
   }
 }
@@ -125,6 +133,16 @@ if ($paired_end) {
 }
 # --aligner bowtie --db-type NT --paired-end | cpu:400 
 #job_type|arg_name1;arg_val1|arg_name2;arg_val2
+
+my $cmd;
+
+my $proj_proj =  $projdir . $proj;
+if ($cpe) {
+  $cmd = "convert.paired.end.format $proj_proj";
+  print "\n\n $cmd\n\n\n WAIT A MINUTE! \n\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
 
 my $arg = "";
 if ($mira) {
@@ -145,7 +163,7 @@ if ($blastp) {
   $arg = "--set-args \"blast_nr|pipeline_args;--aligner blastp\" \"blast_swissprot|pipeline_args;--aligner blastp\" \"pfam|pipeline_args;\"  $quant";
 }
 
-my $cmd;
+
 
 my $scripts_path = $ENV{AUTONOMICS_PATH};
 $scripts_path .= '/scripts';

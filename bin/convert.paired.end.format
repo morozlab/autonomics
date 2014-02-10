@@ -1,0 +1,7 @@
+#!/bin/csh
+
+mv $1.fastq  $1.fastq.orig
+mv $1.fastq.end2  $1.fastq.end2.orig
+
+sed 's/\/1$/ 1/g' $1.fastq.orig > $1.fastq
+sed 's/\/2$/ 2/g' $1.fastq.end2.orig > $1.fastq.end2
