@@ -6,7 +6,7 @@ use Cwd;
 
 my ($file) = @ARGV;
 if ((not defined $file)) {
-    print "\nUsage: $0 <filename-with-list-of-projects to load into nb\n";
+    print "\nUsage: $0 <filename-with-list-of-projects-to-make-public\n";
     exit 0;
 }
 
