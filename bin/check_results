@@ -1,6 +1,5 @@
 #!/usr/bin/perl -w
 use strict;
-use POSIX;
 
 my ($pname) = @ARGV;
 if ((not defined $pname)) {
@@ -13,15 +12,7 @@ $pname =~ s/\///;
 
 
 if (-d $pname) {
-  print "===================================================================\n";
-  print "\t$pname\n";
-  print "===================================================================\n";
-
-  my $cmd = 'astats ' . $pname . '/' . $pname;
-  print $cmd;
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
+  print "\n$pname\n";
   my $nr_suffix = "_blast_nr.txt";
   my $sw_suffix = "_blast_swissprot.txt";
   my $fa_suffix = "_project.fasta";
@@ -41,15 +32,15 @@ if (-d $pname) {
  
   my $fasta = "./" . $pname . "/" . $pname . $fa_suffix;
   my $res = 0;
+  my $cmd;
   if (-e $fasta) {
     $cmd = "grep \'>\' " . $prefix . $fa_suffix . $wc;
 #    print "$cmd\n";
     $res = `$cmd`;
     chomp $res;
   }
-  my $num_contigs = $res;
-#  print "NUM_CONTIGS:\t$res\n";
-  print "\n";
+  print "NUM_FA_SEQS\t$res\n";
+
   my $nrf = "./" . $pname . "/" . $pname . $nr_suffix;
   my $nr_hits = 0;
   my $nr_misses = 0;
@@ -74,7 +65,7 @@ if (-d $pname) {
     $p2 = int(($nr_misses/$res)*100);
   }
 #  print "NR: SEQS_TRIED\t$res\tSEQS_W_HITS\t$nr_hits ($p1%)\tSEQS_WO_HITS\t$nr_misses ($p2%)\tTOTAL\t$nr_total\n";
-  print "BLAST_NR: SEQS_TRIED\t$res\tSEQS_W_HITS\t$nr_hits ($p1%)\tSEQS_WO_HITS\t$nr_misses ($p2%)\n";
+  print "NR: SEQS_TRIED\t$res\tSEQS_W_HITS\t$nr_hits ($p1%)\tSEQS_WO_HITS\t$nr_misses ($p2%)\n";
 
   my $swf = "./" . $pname . "/" . $pname . $sw_suffix;
   my $sw_hits = 0;
@@ -99,7 +90,7 @@ if (-d $pname) {
     $p1 = int(($sw_hits/$res)*100);
     $p2 = int(($sw_misses/$res)*100);
   }
-  print "BLAST_SWISSPROT: SEQS_TRIED\t$res\tSEQS_W_HITS\t$sw_hits ($p1%)\tSEQS_WO_HITS\t$sw_misses ($p2%)\n";
+  print "SP: SEQS_TRIED\t$res\tSEQS_W_HITS\t$sw_hits ($p1%)\tSEQS_WO_HITS\t$sw_misses ($p2%)\n";
 #  print "SP: SEQS_TRIED\t$res\tSEQS_W_HITS\t$sw_hits ($p1%)\tSEQS_WO_HITS\t$sw_misses ($p2%)\tTOTAL\t$sw_total\n";
   my $f = "./" . $pname . "/" . $pname . $go_suffix;
   my $num = 0;
@@ -109,7 +100,7 @@ if (-d $pname) {
       my( $n, @junk ) = split( /\s+/, $num );
       $num = $n
   }
-  print "GO hits: $num\n";
+  print "GO: $num\n";
 
   $f = "./" . $pname . "/" . $pname . $gocat_suffix;
   $num= 0;
@@ -119,7 +110,7 @@ if (-d $pname) {
       my( $n, @junk ) = split( /\s+/, $num );
       $num = $n
   }
-  print "gocats num categories: $num\n";
+  print "gocats: $num\n";
 
   $f = "./" . $pname . "/" . $pname . $kegg_suffix;
   $num= 0;
@@ -129,27 +120,18 @@ if (-d $pname) {
       my( $n, @junk ) = split( /\s+/, $num );
       $num = $n
   }
-  print "KEGG hits: $num\n";
+  print "KEGG: $num\n";
 
   $f = "./" . $pname . "/" . $pname . $pfam_suffix;
-  my $num_hits = 0;
-  my $num_files = 0;
-  my $num_aa = 6 * $num_contigs;
-  my $x = ceil($num_aa / 150);
-  my $numf = ceil($num_aa / $x);
-
+  $num= 0;
   if (-e $f) {
-      $cmd = 'grep -v "^#" ' . $f . ' | grep -v "^$" | wc -l';
-      $num_hits = `$cmd`;
-      my( $n, @junk ) = split( /\s+/, $num_hits );
-      $num_hits = $n;
-      $cmd = "grep Copyright $f | wc -l";
-      $num_files = `$cmd`;
-      ( $n, @junk ) = split( /\s+/, $num_files );
-      $num_files = $n;
+      $cmd = "wc -l $f";
+      $num = `$cmd`;
+      my( $n, @junk ) = split( /\s+/, $num );
+      $num = $n
   }
-  print "pfam hits: $num_hits\n";
-  print "pfam files: $num_files out of $numf\n";  
+  print "pfam: $num\n";
+
 
   $f = "./" . $pname . "/" . $pname . $q_suffix;
   $num= 0;
@@ -159,7 +141,7 @@ if (-d $pname) {
       my( $n, @junk ) = split( /\s+/, $res );
       $num = $n;
   }
-  print "quantification lines: $num\n";
+  print "quantification: $num\n";
 
 =stop
   $f = "./" . $pname . "/" . $pname . $fq_suffix;
