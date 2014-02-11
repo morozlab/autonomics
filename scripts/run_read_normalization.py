@@ -52,17 +52,12 @@ def main():
     parser.add_argument('-in_file', dest='in_file', help = 
                                         'fastq file with path', required=True)
     parser.add_argument('-paired_end', dest='paired_end', default = 0)
-    parser.add_argument('-pe_fsuffix', dest='pe_f_suffix', default = None)
-    parser.add_argument('-pe_rsuffix', dest='pe_r_suffix', default = None)
     args = parser.parse_args()
 
     paired_end = 1
     if args.paired_end == 0:
         paired_end = 0
     in_file = args.in_file
-
-    if args.pe_f_suffix:    pe_f_suffix = args.pe_f_suffix
-    if args.pe_r_suffix:    pe_r_suffix = args.pe_r_suffix
 
     work_dir = os.path.dirname(in_file) + "/"
     in_file_basename = os.path.basename(in_file)
@@ -136,14 +131,9 @@ def main():
 	interleaved_file = in_file1 + "_interleaved.fastq"
 	f1 = in_file1
 	f2 = in_file2
-
-        fsuffix = ""
-        rsuffix = ""
-        if (pe_f_suffix): fsuffix = "-sf " + pe_f_suffix
-        if (pe_r_suffix): rsuffix = "-sr " + pe_r_suffix
-
 	icmd = python_scripts_path + "interleave_fastq.py"
-	cmd = 'python ' + icmd + ' -f1 ' + f1 + ' -f2 ' + f2 + ' ' + fsuffix + ' ' + fsuffix + ' -o ' + interleaved_file + '  > /dev/null'
+	cmd = 'python ' + icmd + ' -f1 ' + f1 + ' -f2 ' + f2 + ' -o ' + \
+                                          interleaved_file + '  > /dev/null'
 	print cmd
         sys.stdout.flush()
         res =os.system(cmd)

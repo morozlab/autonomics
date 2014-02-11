@@ -190,7 +190,8 @@ zc_cred = Credentials(from_file=CRED_PATH + "data_gremlin")
 
 # MAX NUM LOCAL/REMOTE CPUS WE CAN USE AT ONE TIME (depends on your local/hpc_cluster policy/allocation)
 MAX_NUM_LOCAL_CPUS = 61
-MAX_NUM_HPC_CPUS = 1024
+# MAX_NUM_HPC_CPUS = 1024
+MAX_NUM_HPC_CPUS = 4096
 
 # MAX NUM LOCAL JOBS / REMOTE BLAST_NR JOBS WE CAN RUN AT ONE TIME
 # (each job may use multiple cpus)  We limit number blast_nr jobs to 2 as they can take
@@ -236,7 +237,7 @@ normal_queue = 'quenew'
 special_queue = 'quenew_special'
 
 #time the manager waits between checking job status
-mainLoopSleepInterval = 120
+mainLoopSleepInterval = 30
 
 #total seconds job must not be seen in HPC queue to be marked as complete
 waitBeforeMarkComplete = 120

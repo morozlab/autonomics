@@ -3,6 +3,8 @@
 
 Author: Mathew Citarella
 
+Revise by: Peter L. Williams
+
 jobs.py: Holds classes and methods for creating and manipulating autonomics jobs
 
 '''
@@ -530,6 +532,7 @@ class Arguments:
                     setattr(self, row.flag, value_map[row.default_value])
                 else:
                     setattr(self, row.flag, False)
+        session.close()
 
     def _mark_required(self, table_name):
         '''
@@ -544,12 +547,14 @@ class Arguments:
         session = netutils.make_db_session()
 
         if(self.job_type is None):
+            session.close()
             return
         table = netutils.get_table_object(table_name, session)
         results = table.select(and_(table.c.job_type==self.job_type,
                                     table.c.arg_required=='Y')).execute()
         for row in results.fetchall():
             self.mark_value_required(row.flag)
+        session.close()
 
     def _reset_names(self):
         '''
@@ -732,6 +737,7 @@ class JobState:
     FINISHED = 1
     ERROR = 2
     RETRIES_FAILED = 3
+    KILLED = 4   # by stop_job or stop_proj
 
 class Job:
     ''' This class is the ancestor of all analysis tasks.
@@ -993,8 +999,22 @@ class Job:
             returns JobState.FINISHED
 
         '''
+
+        #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
+        # to check this first so can return KILLED to manager so he can decrement resources.
+
+        session = netutils.make_db_session()
+        jn_mapping = netutils.get_table_object("jn_mapping", session)
+        results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
+        row = results.fetchone()
+        session.close()
+        if (row.finished =='Y'):
+            print "returning KILLED"
+            return JobState.KILLED
+
         for p in self.processes:
             if(p.is_alive()):
+                print "Job::check() returning RUNNING for ", self.job_name
                 return JobState.RUNNING
             elif(p.exitcode != 0):
                 print(p.exitcode)
@@ -1004,7 +1024,6 @@ class Job:
                 print "Got an error status for jid: ", self.jid
                 print(self.error_status())
                 return JobState.ERROR
-
         return JobState.FINISHED
 
     def cleanup(self):
@@ -1045,6 +1064,7 @@ class Job:
 
         self.cleanup()
         self.mark_complete()
+        session.close()
 
     def error_status(self):
         '''
@@ -1094,6 +1114,7 @@ class Job:
         else:
             d = netutils.get_table_object('quenew', session)
             d.delete().where(d.c.job_id==self.jid).execute()
+        session.close()
 
     def replace_in_proc_args(self, placeholder, repl):
         '''
@@ -1514,6 +1535,7 @@ class AssemblyJob(LocalJob):
                                                current_timestamp()
                                                )
                 session.conn.execute(u)
+            session.close()
         Job.complete(self)
 
 
@@ -2030,7 +2052,7 @@ class AdapterTrimProcess(PipeProcess):
             die_on_error(p.returncode, cmd_str=cmd)
             #overwrite the original file with the trimmed file
             shutil.move(tmp, f)
-        session = None
+        session.close() #        session = None
 
     def run(self):
         '''
@@ -2501,6 +2523,7 @@ class QualityTrimProcess(PipeProcess):
         die_on_error(p.returncode)
         #re-write the original file as the trimmed file
         shutil.move(tmp, f)
+        session.close()
 
     def run(self):
         #parse the process args
@@ -3359,7 +3382,7 @@ class Qsub:
         #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
 
         retries = 12
-        sleep_time = 30;
+        sleep_time = 5;
         while (retries >= 0):
             try:
                rfile = self.remote_dir + "/" + self.current_output
@@ -3375,7 +3398,7 @@ class Qsub:
                 else:
                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second) + "\nError unable to retrieve: " + rfile + "\n-retrying after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
                    time.sleep(sleep_time)
-                   sleep_time = sleep_time * 2
+                   if (sleep_time < 40): sleep_time = sleep_time * 2
                    retries -= 1
         return lfile
 
@@ -3417,7 +3440,7 @@ class Qsub:
         self.write_qsub()
         #put this qsub script on the server
         retries = 10
-        sleep_time = 60
+        sleep_time = 5
         while (retries >= 0):
               try:
                  c.put(self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub")
@@ -3434,13 +3457,13 @@ class Qsub:
                     sys.stderr.write("Exception raised during qsub submission to cluster \
                         sleeping for two minutes and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
+                    if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
         #put input files on the server
         for infile in self.inputs.values():
             f = os.path.split(infile)[1]
             retries = 10
-            sleep_time = 60
+            sleep_time = 5
             while (retries >= 0):
               try:
                  c.put(infile, self.remote_dir + "/" + f)
@@ -3458,14 +3481,14 @@ class Qsub:
                     sys.stderr.write("Exception raised during input file submission to cluster \
                         sleeping for " +  str(sleep_time) + " and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
+                    if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
 
         #start the job
         command = "cd " + self.remote_dir + ";"
         command += "qsub " + self.name + ".qsub"
         retries = 10
-        sleep_time = 30
+        sleep_time = 5
         while (retries >= 0):
               job_id = c.execute(command)
               if settings.debug_pipe: print "job_id from qsub submission: ", job_id
@@ -3476,7 +3499,7 @@ class Qsub:
                      sys.stderr.write("Retrying command: " + command + "\n")
                      sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + "\n")
                      time.sleep(sleep_time)
-                     sleep_time = sleep_time * 2
+                     if (sleep_time < 40): sleep_time = sleep_time * 2
                      retries -= 1
                   else:
                       print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
@@ -3620,7 +3643,7 @@ class HPCProcess(PipeProcess):
         self.mail_credentials = settings.mail_cred
         self.ssh_credentials = settings.hpc_cred
         self.location = Locations.HPC
-        self.retry_interval = 30
+        self.retry_interval = 5
         self.restart = settings.restart_jobs
         self.mail_connect = None
         self.remote_connect = None
@@ -3646,6 +3669,7 @@ class HPCProcess(PipeProcess):
         self.resources['mem'] = str(mem) + "mb"
         self.mem_increment = self.mem_increment / self.resources['ppn']
 
+
     def check(self, conn = None):
         '''
             Checks the status of this analysis process. 
@@ -3654,6 +3678,20 @@ class HPCProcess(PipeProcess):
             object. If all qsub jobs have finished on the cluster, check returns
             JobState.FINISHED. Otherwise it returns JobState.RUNNING
         '''
+
+        #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
+        # to check this first so can return KILLED to manager so he can decrement resources.
+
+        session = netutils.make_db_session()
+
+        jn_mapping = netutils.get_table_object("jn_mapping", session)
+        results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
+        row = results.fetchone()
+        session.close()
+        if (row.finished =='Y'):
+            print "returning KILLED"
+            return JobState.KILLED
+
         #create connections for the mailServer and reomte client for this check
         self.mail_connect = self._mail_connect()
         c = netutils.ssh_connect(self.ssh_credentials)
@@ -3665,15 +3703,15 @@ class HPCProcess(PipeProcess):
         command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
 #        print "command: ", command, " num_procs: ", num_procs
         retries = 10
-        sleep_time = 30
-        num_done = 0
+        sleep_time = 5
+        num_done i= 0
         while (retries >= 0):
             try:
 #                print "about to execute command = ", command      
 #                res = c.execute(command)
 #                print "res: ", res
                 num_done = int(c.execute(command)[0])
-                print "command = ", command, " num_done = ", num_done
+#                print "command = ", command, " num_done = ", num_done
                 break
             except:
                 t = datetime.datetime.now()
@@ -3687,12 +3725,21 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + "\n")
                     sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
                     time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
+                    if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
         if (num_procs == num_done):
+            self.mail_connect.close()
+            self.mail_connect.logout()
             return JobState.FINISHED
-        elif (num_done == -1): return JobState.RETRIES_FAILED
-        else: return JobState.RUNNING
+
+        elif (num_done == -1): 
+            self.mail_connect.close()
+            self.mail_connect.logout()
+            return JobState.RETRIES_FAILED
+        else: 
+            self.mail_connect.close()
+            self.mail_connect.logout()
+            return JobState.RUNNING
 
         for index, proc in enumerate(self.processes):
             stat = self.check_individual_job(index, c)
@@ -3835,7 +3882,7 @@ class HPCProcess(PipeProcess):
             exceed it's memory request, returns 0.
         '''
         retries = 10
-        sleep_time = 20
+        sleep_time = 5
         while(True and self.mail_enabled):
             try:
                 typ, msg_ids = self.mail_connect.search(None, '(SUBJECT "PBS\
@@ -3858,7 +3905,7 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
                     sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
                     time.sleep(sleep_time)
-                    sleep_time = sleep_time * 3
+                    if (sleep_time < 40): sleep_time = sleep_time * 2
                     self.mail_connect = self._mail_connect()
                     self.mail_connect.select(settings.checkedMailbox)
                 else:
@@ -3956,7 +4003,7 @@ class HPCProcess(PipeProcess):
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
 
         retries = 10
-        sleep_time = 120
+        sleep_time = 5
         while (retries >= 0):
             try:
                 running = int(c.execute(command)[0])
@@ -3974,7 +4021,7 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Error retrieving status of running job -retrying after sleeping " + str(sleep_time) + "\nCommand: " + command + "\n")
                     sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
                     time.sleep(sleep_time)
-                    sleep_time = sleep_time * 2
+                    if (sleep_time <=40): sleep_time = sleep_time * 2
                     retries -= 1
 
         if(running == 0):
@@ -4053,7 +4100,7 @@ class HPCProcess(PipeProcess):
         '''
         t = datetime.datetime.now()
         print "HPC Process Starting job: " + self.job_name + " " + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-
+        session.close()
         session = netutils.make_db_session()
         #move job-level (non-split) files to the remote cluster
         self.move_job_data()
@@ -4131,6 +4178,7 @@ class HPCProcess(PipeProcess):
             #get un-replaced command args to check for the presence of custom output field
             command_args = self._get_cmd_template(self.executable,
                                                   self.job_type, session)
+
             if(command_args is None):
                 command_args = exec_plus_argstr
             if("<output>" in command_args or "<output_hpc>" in command_args):
@@ -4161,12 +4209,18 @@ class HPCProcess(PipeProcess):
             self.processes.append(qsub)
 
         c.close()
+        session.close()
 
         while (True):
             stat = self.check()
             if stat == JobState.FINISHED:
                 break
+            if stat == JobState.KILLED:
+                break
             time.sleep(60)
-        self.complete()
+        if stat == JobState.KILLED:
+            self.cleanup()
+        else:
+            self.complete()
         print("HPC process " , self.job_name,   "done."
 )

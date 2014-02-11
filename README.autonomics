@@ -507,11 +507,11 @@ We will require a record of all the steps you took to install and
 setup the autonomics pipeline and the 2 runtime logfiles.
 
 
------------------------------------
-DE-NOVO PREDICTION OF NEUROPEPTIDES
------------------------------------
+------------------------------------------
+DE-NOVO PREDICTION OF SECRETORY MOLECOULES
+------------------------------------------
 
-Code for de-novo prediction of neuropeptides from proteomic data is
+Code for de-novo prediction of secretory molecules from proteomic data is
 incliuded in the autonomics distributon and can be found in the
 directory autonomics/prediction.  The prediction is based on the
 results from several heuristic tools, including SignalP4, TMHMM and
@@ -588,7 +588,7 @@ rm -r prediction
 Be careful not to remove the wrong diretory
 
 You only need to run predicts.py once.  After that, to get a fasta
-file of the predicted neuropeptides for a different SignalP cutoff,
+file of the predicted secretory molecules for a different SignalP cutoff,
 use the script: parse_preds.py as follows: 
 python parse_preds.py --sp_cutoff <new_cutogg> <proj_name> 
 this will create a file: <pipeline>/<proj_name>/<proj_name>_<cutoff>.fasta

@@ -278,6 +278,7 @@ def main():
                     s = q.select()
                     results = s.execute()
                 for q_row in results.fetchall():
+#                    print "manager looking at queue job_id: ", q_row.job_id, " project_id: ", q_row.project_id, " job_type: ", q_row.job_type
                     if(q_row.job_type == 'upload'):
                         continue
                     args = netutils.get_table_object('args', session)
@@ -304,28 +305,35 @@ def main():
             for j in job_list:
                 state = j.check()
                 if(state == JobState.FINISHED):
-                    print "\nmanager .. ", j.job_name, " FINISHED"
+                    print "\njob_state: ", j.job_name, " FINISHED"
                     finished.append(j)
                     j.complete()
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.ERROR):
-                    print("\nmanager .. " + j.job_name + " ERROR")
+                    print("\njob_state: " + j.job_name + " ERROR")
                     finished.append(j)
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
+                elif(state == JobState.KILLED):
+                    print("\njob_state: " + j.job_name + " KILLED by stop_job or stop_proj")
+                    finished.append(j)
+                    resources_at_location[j.location].take_from(j)
+                    print_res = 1
                 elif(state == JobState.RETRIES_FAILED):
-                    print("\nmanager .. " + j.job_name + "RETRIES_FAILED")
+                    print("\njob_state: " + j.job_name + "RETRIES_FAILED")
                     finished.append(j)
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 else:
-                    if (lloop_num == 10):
-                        print "\nmanager .. ", j.job_name, " RUNNING"
+#                    if (lloop_num == 10):
+                     print "\njob_state: ", j.job_name, " RUNNING"
 
             job_list = [j for j in job_list if not j in finished]
+
+#            print_res = 1
 
             if print_res == 1:
                 print_res = 0
