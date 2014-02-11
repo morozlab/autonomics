@@ -126,7 +126,7 @@ my $query = "";
 
 # if ($debug) {  print 'LOAD DATA INFILE ' . $dbh->quote($outfile) . ' REPLACE INTO TABLE sorted_homology';}
 
-my $cmd = "python load.homo.py --user $user --password $passwd --outfile $outfile";
+my $cmd = "python load.homology.py --user $user --password $passwd --outfile $outfile";
 print "$cmd\n";
 system($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }
