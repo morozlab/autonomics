@@ -326,8 +326,10 @@ for (my $idx=0; $idx<=$#fha; $idx++) {
 }
 
  printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+ my $cmdx = "/bin/rm -fr $temp_dir";
  print "Removing temp dir..........";
-print `/bin/rm -fr $temp_dir`;
+ system($cmdx);
+ if ( $? ) { die "Command failed: $cmdx: $!"; }
  print "done\n";
 
 
