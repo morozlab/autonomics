@@ -1,11 +1,9 @@
 use warnings;
 use strict;
 use DBI;
-# use File::copy;
 
 my $apath  = $ENV{AUTONOMICS_PATH } . "/";
 my $scriptpath = $apath . "scripts/";
-
 my $tmpPath  = $ENV{NEUROBASE_LOAD_DATA_PATH } . "/";
 
 my ($projName, $projectID, $sort, $sqldb, $user, $passwd, $debug) = @ARGV;
@@ -24,27 +22,17 @@ if ((not defined $projectID) ||
 
 print "$0 $projName $projectID $sort $debug\n";
 
-print "dbi:mysql:database=".$sqldb.";host=localhost\n";
-#my $dsn = "dbi:mysql:database=moroz_lab;host=localhost";
-
 my $dsn = "dbi:mysql:database=".$sqldb.";host=localhost";
 my $dbh = DBI->connect($dsn, $user, $passwd);
 
 $tmpPath = $tmpPath . '/' . $projName . "/";;
-print "tmpPath: $tmpPath\n";
 my $outfile = $tmpPath . "homologysort.txt";
 print "outfile = $outfile\n";
 
 # out1 & out2 only used if debug = 1
 my $out1 = $scriptpath . "homologysort1.txt" . $$;
 my $out2 = $scriptpath . "homologysort2.txt" . $$;
-
-
-
 open(OUTFILE, ">$outfile") or die "Could not open temp output file: $outfile!\n";
-
-print " opened $outfile for writing\n";
-
 if($sort == 1){
     if ($debug) {  open(OUT1, ">$out1") or die "Could not open temp output file: $out1\n"; }
     if ($debug) {  print "storeSortedHomology.pl: sorting homology table by evalue into: $outfile\n";}
@@ -118,41 +106,19 @@ elsif($sort == 2){
 
 close(OUTFILE);
 
-# exit 0;
-
 #load the data in homology file
 
 my $query = "";
-
-# if ($debug) {  print 'LOAD DATA INFILE ' . $dbh->quote($outfile) . ' REPLACE INTO TABLE sorted_homology';}
 
 my $cmd = "python load.homology.py --user $user --password $passwd --outfile $outfile";
 print "$cmd\n";
 system($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }
 
-=stop
-my $result = eval {
-   $query = "LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
-   print "QUERY: $query\n";
-   $dbh->do("LOAD DATA INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology");
-   print "success\n";
-};
-unless ($result) {
-   $query = "LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology";
-   print "Q2: $query\n";
-   $dbh->do("LOAD DATA LOCAL INFILE " . $dbh->quote($outfile) . " REPLACE INTO TABLE sorted_homology");
-   print "success\n";
-}
-=cut
-
 unlink($outfile);
 
 my $t1 = $scriptpath . "ss.done1";
 my $t2 = $scriptpath . "ss.done2";
-
-print "t1: $t1\n";
-print "t2: $t2\n";
 
 if($sort == 1) {
   my $cmd = "touch $t1";
