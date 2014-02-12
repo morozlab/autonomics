@@ -114,7 +114,7 @@ PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 #---------------------------------------------------------------------------------------------
 
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
-# this group of paths are on the local machine running the autonomics pipeline
+# this group of paths are used ONLY on the local machine running the autonomics pipeline
 
 pfam_exec_path = "/srv/data/pfam/PfamScan/"
 
@@ -214,8 +214,7 @@ PFAM_MAX_WALL_TIME = "48:00:00"
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-#  set to 0 if not using neurobase browser
-USING_NB = 0
+USING_NB = os.environ['USING_NB']
 
 if USING_NB:
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
