@@ -1,0 +1,131 @@
+#!/usr/bin/env python
+import os,sys,commands,time,shutil
+import locale
+from math import ceil
+from sys import stderr
+
+locale.setlocale(locale.LC_ALL, "")
+
+argc = len(sys.argv) -1 # argv[0]=scriptname
+if (argc < 1):
+  sys.stderr.write('\nExecute as: scandb <dbname> [-lengths || -numbered || -names || -seqids]\n')
+  sys.stderr.write('-lengths:  <seq_length>\n')
+  sys.stderr.write('-numbered: <seq_num> <seq_length>\n')
+  sys.stderr.write('-names: <seq_length> <seq_description>\n')
+  sys.stderr.write('-seqids: <seq_id>\n')
+  sys.stderr.write('\n\t default is summary only\n\n')
+  sys.exit()
+dbname = sys.argv[1]
+print_names = False
+summary_only = True
+lengths = False
+print_seqids = False
+stack = []
+
+if (argc > 1):
+ if (sys.argv[2] == "-lengths" ): lengths = True
+ if (sys.argv[2] == "-names" ): print_names = True
+ if (sys.argv[2] == "-numbered" ): summary_only = False
+ if (sys.argv[2] == "-seqids" ): print_seqids = True
+
+fin = open(dbname,'r')
+total_bplength = 0
+seq_num = 0
+max_seq_length = 0
+min_seq_length = 10000000000000
+bplength = 0
+first_time = True
+lines = 0
+
+if (lengths or print_names or print_seqids):
+  summary_only = False
+for line in fin:
+  lines = lines +1
+  if line[0] == '>':
+    if not first_time:
+      stack.append(bplength)
+      if bplength > max_seq_length: max_seq_length = bplength
+      if bplength < min_seq_length: min_seq_length = bplength
+      if not summary_only:
+        if (lengths) :
+          print bplength
+        else:
+          if not print_seqids:
+             if print_names:
+                print bplength,"\t",
+             else:
+                print "#", seq_num, "\t",bplength          
+      seq_num = seq_num + 1
+      total_bplength = total_bplength + bplength
+      if print_names:
+         print id
+      if print_seqids:
+         line_array = id.split()
+         print line_array[0].lstrip('>')
+ 
+    bplength = 0
+    id = line
+    id = id.rstrip('\n')
+    first_time = False
+  else:
+      bplength = bplength + len(line) - 1 # -1 for /n
+
+if lines:
+  if not summary_only:
+    if (lengths) :
+      print bplength
+    else:
+      if not print_seqids:
+	 if print_names:
+	    print bplength,"\t",
+	 else:
+	   print "#", seq_num, "\t",bplength
+      if print_names:
+	   print id
+      if print_seqids:
+	   line_array = id.split()
+	   print line_array[0].lstrip('>')
+ 
+if print_seqids:
+  sys.exit()
+
+if seq_num >= 0:
+  seq_num = seq_num + 1            
+stack.append(bplength)
+if bplength > max_seq_length: max_seq_length = bplength
+if bplength < min_seq_length: min_seq_length = bplength      
+total_bplength = total_bplength + bplength
+number_sequences = seq_num
+
+stack_len = len(stack)
+mid = stack_len/2
+stack.sort()
+median = stack[mid]
+
+if (not lengths):
+
+  print("------------- %s -------------"%(dbname))
+  x = locale.format("%2d",number_sequences,1)
+  # print("%d sequences"%(number_sequences))
+  print "number sequences: ", x
+
+  x = locale.format("%2d",max_seq_length,1)
+  # print("max sequence length = %d"%(max_seq_length))
+  print "max sequence length: ", x
+
+  x = locale.format("%2d",min_seq_length,1)
+  # print("min sequence length = %d"%(min_seq_length))
+  print "min sequence length: ", x
+
+  x = locale.format("%2d",median,1)
+  # print("median sequence length = %d"%(median))
+  print "median sequence length: ", x
+
+  x = locale.format("%2d",total_bplength,1)
+  # print("total dna count = %d bases\n"%(total_bplength))
+  print "total number residues: ", x
+
+  x = locale.format("%2d",lines,1)
+#  print "total number lines = ", x
+
+#  print number_sequences,"\t",total_bplength
