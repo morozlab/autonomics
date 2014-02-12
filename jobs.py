@@ -3704,7 +3704,7 @@ class HPCProcess(PipeProcess):
 #        print "command: ", command, " num_procs: ", num_procs
         retries = 10
         sleep_time = 5
-        num_done i= 0
+        num_done = 0
         while (retries >= 0):
             try:
 #                print "about to execute command = ", command      

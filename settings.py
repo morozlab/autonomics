@@ -214,7 +214,7 @@ PFAM_MAX_WALL_TIME = "48:00:00"
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-USING_NB = os.environ['USING_NB']
+USING_NB = int(os.environ['USING_NB'])
 
 if USING_NB:
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
