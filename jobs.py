@@ -1014,7 +1014,6 @@ class Job:
 
         for p in self.processes:
             if(p.is_alive()):
-                print "Job::check() returning RUNNING for ", self.job_name
                 return JobState.RUNNING
             elif(p.exitcode != 0):
                 print(p.exitcode)
@@ -4100,7 +4099,7 @@ class HPCProcess(PipeProcess):
         '''
         t = datetime.datetime.now()
         print "HPC Process Starting job: " + self.job_name + " " + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-        session.close()
+
         session = netutils.make_db_session()
         #move job-level (non-split) files to the remote cluster
         self.move_job_data()
