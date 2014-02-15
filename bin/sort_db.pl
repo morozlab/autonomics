@@ -76,7 +76,7 @@ if ((not defined $db_file_with_path) ||
   exit;
 }
 
-print "MAX_BIN_SIZE = $MAX_BIN_SIZE\n";
+# print "MAX_BIN_SIZE = $MAX_BIN_SIZE\n";
 
 my $db_name = basename($db_file_with_path);
 my $db_dir =  dirname($db_file_with_path);

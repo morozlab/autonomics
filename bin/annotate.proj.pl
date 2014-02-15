@@ -101,7 +101,7 @@ if (-e $fq) {
 }
 
 my $fq2 = $projdir . $proj . ".fastq.end2";
-if ((-e $fq2) && (!$paired_end)) {
+if ((! $noass) && (-e $fq2) && (!$paired_end)) {
   print "this project has paired end data but the paired_end flag is not set!\n";
   exit 0;
 }
