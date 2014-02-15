@@ -116,15 +116,15 @@ PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 # this group of paths are used ONLY on the local machine running the autonomics pipeline
 
-pfam_exec_path = "/srv/data/pfam/PfamScan/"
+pfam_exec_path = os.environ['PFAM_LOCAL_PATH']
 
-khmer_path = "/srv/data2/software/Khmer/scripts/"
+khmer_path = os.environ['KHMER_PATH']
 # https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
 # we use normalize-by-median.py
 
-trinity_path = "/srv/data2/pwilliams/trinityrnaseq_r20131110/"
-cutadapt_path = "/usr/local/bin/"
-mira_path = "/usr/bin/"
+trinity_path = os.environ['TRINITY_PATH']
+cutadapt_path =os.environ['CUTADAPT_PATH']
+mira_path =os.environ['MIRA_PATH']
 panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"  # panther is optional
 
 # these paths are on the remote HPC cluster
