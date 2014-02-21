@@ -332,10 +332,8 @@ def split_fasta(q_file, job_type, proc_units):
     file_base += "_" + job_type
     cur_file = file_base + "_" + str(file_counter) + file_ext
     cmd = "sort_db.pl " + q_file + " " + directory
-#    print cmd
     os.system(cmd)
     cmd = "partition_db.pl " + str(proc_units) + " " + q_file + " " + file_base + " " + file_ext
-#    print cmd
     os.system(cmd)
     for file_counter in range(proc_units): # range starts at 0 .. proc_units-1
       cur_file = file_base + "_" + str(file_counter + 1) + file_ext
@@ -2343,7 +2341,6 @@ class GOProcess(BlastAssociationProcess):
             mid_arg = self.local_dir + self.base_name
 
         java_cmd += " > " + mid_arg + "_gocats.txt"
-#        print "java_cmd: ", java_cmd
         proc = subprocess.Popen(java_cmd, shell=True)
         proc.wait()
         die_on_error(proc.returncode, cmd_str=java_cmd)
@@ -3697,58 +3694,9 @@ class HPCProcess(PipeProcess):
         num_finished = 0
         errors = []
         num_procs = len(self.processes)
-# replace check_indiv_jobs with one ls -1 done*
-#         if(len(self.processes) == num_finished):
-        command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
-#        print "command: ", command, " num_procs: ", num_procs
-        retries = 10
-        sleep_time = 5
-        num_done = 0
-        while (retries >= 0):
-            try:
-#                print "about to execute command = ", command      
-#                res = c.execute(command)
-#                print "res: ", res
-                num_done = int(c.execute(command)[0])
-#                print "command = ", command, " num_done = ", num_done
-                break
-            except:
-                t = datetime.datetime.now()
-                if(retries == 0):
-                    t = datetime.datetime.now()
-                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error running: " + command + "  Abadoning job\n")
-                    num_done = -1
-                else:
-                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + "\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
-                    time.sleep(sleep_time)
-                    if (sleep_time < 40): sleep_time = sleep_time * 2
-                    retries -= 1
-        if (num_procs == num_done):
-            self.mail_connect.close()
-            self.mail_connect.logout()
-            return JobState.FINISHED
-
-        elif (num_done == -1): 
-            self.mail_connect.close()
-            self.mail_connect.logout()
-            return JobState.RETRIES_FAILED
-        else: 
-            self.mail_connect.close()
-            self.mail_connect.logout()
-            return JobState.RUNNING
-
+# start of moved block
         for index, proc in enumerate(self.processes):
             stat = self.check_individual_job(index, c)
-#            if(stat == 'finished'):
-#                proc.finished_count += 1
-#                #give error messages time to reach the mail server
-#                if(proc.finished_count * settings.mainLoopSleepInterval >=\
-#                    settings.waitBeforeMarkComplete):
-#                    num_finished += 1
-#                    proc.status ="processed"
             if(stat == 'exceedMem'):
                 if(self.restart):
                     print "job stat=exceedMem, restarting with self.mem_increment: ", self.mem_increment, " job_name: ", self.job_name
@@ -3766,6 +3714,43 @@ class HPCProcess(PipeProcess):
         self.mail_connect.close()
         self.mail_connect.logout()
         c.close()
+# end moved block
+        command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
+        retries = 10
+        sleep_time = 5
+        num_done = 0
+        while (retries >= 0):
+            try:
+                num_done = int(c.execute(command)[0])
+                break
+            except:
+                t = datetime.datetime.now()
+                if(retries == 0):
+                    t = datetime.datetime.now()
+                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
+                    sys.stderr.write("Error running: " + command + "  Abadoning job\n")
+                    num_done = -1
+                else:
+                    sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
+                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + "\n")
+                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    time.sleep(sleep_time)
+                    if (sleep_time < 40): sleep_time = sleep_time * 2
+                    retries -= 1
+        if (num_procs == num_done):
+#            self.mail_connect.close()
+#            self.mail_connect.logout()
+            return JobState.FINISHED
+        elif (num_done == -1): 
+#            self.mail_connect.close()
+#            self.mail_connect.logout()
+            return JobState.RETRIES_FAILED
+        else: 
+#            self.mail_connect.close()
+#            self.mail_connect.logout()
+            return JobState.RUNNING
+
+# moved check_indiv job block form here
 
 #        if(len(self.processes) == num_finished):
 #            return JobState.FINISHED
@@ -4006,7 +3991,6 @@ class HPCProcess(PipeProcess):
         while (retries >= 0):
             try:
                 running = int(c.execute(command)[0])
-#                print "command = ", command, " running = ", running
                 break
             except:
                 t = datetime.datetime.now()
@@ -4025,7 +4009,6 @@ class HPCProcess(PipeProcess):
 
         if(running == 0):
             proc.status = "finished"
-#            print proc.job_id[:16] + " finished"
         elif(running == -1):
             proc.status = "error"
         else:

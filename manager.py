@@ -23,8 +23,6 @@ import datetime
 import gc
 import time
 import sys
-#print "sys_path: ", sys.path
-
 
 def make_upload_job(q_r,args_r):
     ''' 
@@ -207,68 +205,80 @@ class Unbuffered:
 
 
 def main():
+    sys.stdout = Unbuffered(sys.stdout)
 
+#   ======================================
+#   Deal with command line args
+#   ======================================
     parser = argparse.ArgumentParser()
     parser.add_argument("--name", dest="my_name", default=None)
     parser.add_argument("-u", "--user", dest="user", default=None)
     parser.add_argument("-mu", "--mail-user", dest="mailUser", default=None)
-    parser.add_argument("-mh", "--mail-host", dest="mailHost", 
-                                                          default="gmail.com")
+    parser.add_argument("-mh", "--mail-host", dest="mailHost", default="gmail.com")
     parser.add_argument("-du", "--database-user", dest="dbUser", default=None)
     parser.add_argument("-d", "--directory", dest="localDir", 
                       default="/srv/data2/pipeline/", 
+# FIXXXXX
                       help="Directory this manager should watch for new jobs.")
-    parser.add_argument('--remote-dir', dest='remoteDir', 
-                                                default='/scratch/hpc/mcitar/')
-
+    parser.add_argument('--remote-dir', dest='remoteDir', default='/scratch/hpc/mcitar/')
+# FIXXXXX
     parser.add_argument("-q", "--queue", dest="queue", default="bio", 
                                       help="Queue for submission of HPC jobs.")
     parser.add_argument("--sleep-interval", dest="mainLoopSleepInterval", 
                         default=settings.mainLoopSleepInterval, 
      help="How often this manager should sleep between checking job statuses.")
 
-    manager_queues = [settings.special_queue,settings.normal_queue]
-    args = parser.parse_args()
-    sys.stdout = Unbuffered(sys.stdout)
-    if(args.my_name is None):
+    pargs = parser.parse_args()
+
+    if(pargs.my_name is None):
         t = datetime.datetime.now()
         my_name = "manager" + str(t.year) + str(t.month) + str(t.day) + \
                                     str(t.hour) + str(t.minute) + str(t.second)
     else:
-        my_name = args.my_name
+        my_name = pargs.my_name
+    SLEEP_INTERVAL = float(pargs.mainLoopSleepInterval)
+    if(not pargs.user is None):
+       passwd = raw_input("Enter HPC password:")
+       settings.hpc_cred.update(pargs.user, passwd)
+    if(not pargs.mailUser is None):
+        mail_passwd = raw_input("Enter mail account password: ")
+        settings.mail_cred.update(pargs.user, mail_passwd)
+    if(not pargs.dbUser is None):
+        db_passwd = raw_input("Enter database passwod:")
+        settings.db_cred.update(pargs.user, db_passwd)
 
+#   ======================================
+#   Set up resources
+#   ======================================
     local_resources = Resources()
     local_resources.add_resource("cpu", settings.MAX_NUM_LOCAL_CPUS)
     local_resources.add_resource("local", settings.MAX_NUM_LOCAL_JOBS)
-
     HPC_resources = Resources()
     HPC_resources.add_resource("cpu", settings.MAX_NUM_HPC_CPUS)
     HPC_resources.add_resource("blast_nr", settings.MAX_NUM_BLAST_NR_JOBS)
-
     resources_at_location = {Locations.LOCAL: local_resources, 
                              Locations.HPC: HPC_resources}
 
-    SLEEP_INTERVAL = float(args.mainLoopSleepInterval)
-
-    if(not args.user is None):
-       passwd = raw_input("Enter HPC password:")
-       settings.hpc_cred.update(args.user, passwd)
-    if(not args.mailUser is None):
-        mail_passwd = raw_input("Enter mail account password: ")
-        settings.mail_cred.update(args.user, mail_passwd)
-    if(not args.dbUser is None):
-        db_passwd = raw_input("Enter database passwod:")
-        settings.db_cred.update(args.user, db_passwd)
+#   ======================================
+#   Set up mysql db session
+#   ======================================
     session = netutils.DBSession("localhost", settings.ZC_DB_NAME, 
                                 settings.db_cred.user, settings.db_cred.passwd)
+
+#   ======================================
+#   Loop forever in mainloop
+#   ======================================
     job_list = []
     finished = []
-    lloop_num = 0
+    lloop_num = -1
     print_res = 0
+    manager_queues = [settings.special_queue,settings.normal_queue]
 
     while(True):
-        lloop_num = lloop_num + 1
         try:
+#           ======================================
+#           Start eleigible jobs that are in queue
+#           ======================================
             for queue in manager_queues:
                 q = netutils.get_table_object(queue, session)
                 results = ""
@@ -300,8 +310,11 @@ def main():
                         print_res = 1
                         start_job(job, job_list, 
                               resources_at_location[job.location], session, queue)
+#           ======================================
+#           Check state of all started jobs
+#           ======================================
             finished = []
-
+            lloop_num = lloop_num + 1
             for j in job_list:
                 state = j.check()
                 if(state == JobState.FINISHED):
@@ -327,14 +340,16 @@ def main():
                     mark_error(j.jid, session)
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
+                elif(state == JobState.RUNNING):
+                    if ((lloop_num%10) == 0):  print "job_state: ", j.job_name, " RUNNING"
+
                 else:
-#                    if (lloop_num == 10):
-                     print "\njob_state: ", j.job_name, " RUNNING"
+                    print "\njob_state: Unknown State ", j.job_name, " ", state
 
             job_list = [j for j in job_list if not j in finished]
-
-#            print_res = 1
-
+#           ======================================
+#           Print Resources if a job has finished
+#           ======================================
             if print_res == 1:
                 print_res = 0
                 print("\n--- Resources ---")
@@ -342,12 +357,15 @@ def main():
                     print("free resources: ", resources.free)
                     print("total resources: ", resources.totals)
                 print('-----------------')
-
+#           ======================================
+#           Garbage collect & Sleep
+#           ======================================
             gc.collect()
-
             sys.stdout.write('.')
-#            SLEEP_INTERVAL = 30
             time.sleep(SLEEP_INTERVAL)
+#           ======================================
+#           restart mySql server if necessary
+#           ======================================
         except exc.OperationalError as e:
             if("MySQL server has gone away" in e.message):
                 print("MySQL server has gone away, restarting session.\n")
