@@ -1,18 +1,22 @@
 #!/usr/bin/perl -w
 use strict;
 
-my ($log_name) = @ARGV;
+my ($log_name,$sleep_time) = @ARGV;
 if ((not defined $log_name)) {
-    print "\nUsage: $0 <log.name.ext>\n";
+    print "\nUsage: $0 <log.name.ext> <sleep_time in secs between check job status OPTIONAL; default = 600 (10 min)>\n";
     exit 0;
 }
 
+my $st;
+
+if (defined $sleep_time) {  $st = "--sleep-interval $sleep_time"; }
+else { $st = ""; }
 my $cmd = "python dispatcher.py >& dlog$log_name &";
       print "$cmd\n";
       system($cmd);
       if ( $? ) { die "Command failed: $cmd: $!"; }
 
-$cmd = "python manager.py >& mlog$log_name &";
+$cmd = "python manager.py $st >& mlog$log_name &";
       print "$cmd\n";
      system($cmd);
       if ( $? ) { die "Command failed: $cmd: $!"; }

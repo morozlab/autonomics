@@ -236,7 +236,7 @@ normal_queue = 'quenew'
 special_queue = 'quenew_special'
 
 #time the manager waits between checking job status
-mainLoopSleepInterval = 30
+mainLoopSleepInterval = 600
 
 #total seconds job must not be seen in HPC queue to be marked as complete
 waitBeforeMarkComplete = 120

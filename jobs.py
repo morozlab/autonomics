@@ -3,7 +3,7 @@
 
 Author: Mathew Citarella
 
-Revise by: Peter L. Williams
+Revised by: Peter L. Williams
 
 jobs.py: Holds classes and methods for creating and manipulating autonomics jobs
 
@@ -3451,7 +3451,7 @@ class Qsub:
                  else:
                     sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
                     sys.stderr.write("Exception raised during qsub submission to cluster \
-                        sleeping for two minutes and trying again. retries left: " +  str(retries) + "\n")
+                        sleeping for ", str(sleep_time), " secs and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
@@ -3475,7 +3475,7 @@ class Qsub:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
                     sys.stderr.write("c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
                     sys.stderr.write("Exception raised during input file submission to cluster \
-                        sleeping for " +  str(sleep_time) + " and trying again. retries left: " +  str(retries) + "\n")
+                        sleeping for " +  str(sleep_time) + " secs and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
@@ -3493,7 +3493,7 @@ class Qsub:
                   if(retries > 0):
                      print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
                      sys.stderr.write("Retrying command: " + command + "\n")
-                     sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + "\n")
+                     sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
                      time.sleep(sleep_time)
                      if (sleep_time < 40): sleep_time = sleep_time * 2
                      retries -= 1
@@ -3688,7 +3688,7 @@ class HPCProcess(PipeProcess):
             print "returning KILLED"
             return JobState.KILLED
 
-        #create connections for the mailServer and reomte client for this check
+        #create connections for the mailServer and remote client for this check
         self.mail_connect = self._mail_connect()
         c = netutils.ssh_connect(self.ssh_credentials)
         num_finished = 0
@@ -3732,8 +3732,8 @@ class HPCProcess(PipeProcess):
                     num_done = -1
                 else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + "\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + " secs\n")
+                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + " secs\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
@@ -3887,7 +3887,7 @@ class HPCProcess(PipeProcess):
                     retries -= 1
                     #sleep, then start a new connection to mail server
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + " secs\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     self.mail_connect = self._mail_connect()
@@ -3983,9 +3983,7 @@ class HPCProcess(PipeProcess):
             proc.status = "error"
             return proc.status
 
-
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
-
         retries = 10
         sleep_time = 5
         while (retries >= 0):
@@ -4001,8 +3999,8 @@ class HPCProcess(PipeProcess):
                     running = -1
                 else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error retrieving status of running job -retrying after sleeping " + str(sleep_time) + "\nCommand: " + command + "\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + "\n")
+                    sys.stderr.write("Error retrieving status of running job -retrying after sleeping " + str(sleep_time) + " secs\nCommand: " + command + "\n")
+                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + " secs\n")
                     time.sleep(sleep_time)
                     if (sleep_time <=40): sleep_time = sleep_time * 2
                     retries -= 1
