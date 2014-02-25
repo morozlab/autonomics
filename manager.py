@@ -331,9 +331,9 @@ def main():
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.RUNNING):
-                    if ((lloop_num%10) == 0):  
-                      t = datetime.datetime.now()
-                      print str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
+#                    if ((lloop_num%10) == 0):  
+                    t = datetime.datetime.now()
+                    print str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
                 else:
                     print "\njob_state: Unknown State ", j.job_name, " ", state
 
