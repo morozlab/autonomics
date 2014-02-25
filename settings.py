@@ -113,19 +113,22 @@ PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 #
 #---------------------------------------------------------------------------------------------
 
+USING_NB = int(os.environ['USING_NB'])
+
 # PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
 # this group of paths are used ONLY on the local machine running the autonomics pipeline
 
-pfam_exec_path = os.environ['PFAM_LOCAL_PATH']
+if not USING_NB:
+  pfam_exec_path = os.environ['PFAM_LOCAL_PATH']
 
-khmer_path = os.environ['KHMER_PATH']
+  khmer_path = os.environ['KHMER_PATH']
 # https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
 # we use normalize-by-median.py
 
-trinity_path = os.environ['TRINITY_PATH']
-cutadapt_path =os.environ['CUTADAPT_PATH']
-mira_path =os.environ['MIRA_PATH']
-panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"  # panther is optional
+  trinity_path = os.environ['TRINITY_PATH']
+  cutadapt_path =os.environ['CUTADAPT_PATH']
+  mira_path =os.environ['MIRA_PATH']
+  panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"  # panther is optional
 
 # these paths are on the remote HPC cluster
 pfam_data_path = "/scratch/lfs/moroz/pfam/"  # dir where the pfam_scan data files located
@@ -213,8 +216,6 @@ PFAM_MAX_WALL_TIME = "48:00:00"
 # these are probably correct for you as they are the defaults
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
-
-USING_NB = int(os.environ['USING_NB'])
 
 if USING_NB:
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
