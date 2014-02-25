@@ -1,5 +1,9 @@
 #!/bin/csh
 
+if ($#argv == 0) then
+  echo " call as add2gp <project_name>"
+  exit 0
+endif
 
 if (-e /data/neurobase_load_data/$1/$1_project.fasta) then
    cp /data/neurobase_load_data/$1/$1_project.fasta /var/www/genomes/public/$1.fasta
