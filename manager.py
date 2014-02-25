@@ -3,7 +3,7 @@
 Name:        manager.py
 Purpose:     Manage jobs submitted to the autonomics annotation system
 
-Author:      Mathew Citarella
+Author:      Mathew Citarella  Revised By: Peter L. Williams
 
 Created:     01/10/2012
 Copyright:   (c) Mathew Citarella 2012
@@ -215,15 +215,6 @@ def main():
     parser.add_argument("-u", "--user", dest="user", default=None)
     parser.add_argument("-mu", "--mail-user", dest="mailUser", default=None)
     parser.add_argument("-mh", "--mail-host", dest="mailHost", default="gmail.com")
-    parser.add_argument("-du", "--database-user", dest="dbUser", default=None)
-    parser.add_argument("-d", "--directory", dest="localDir", 
-                      default="/srv/data2/pipeline/", 
-# FIXXXXX
-                      help="Directory this manager should watch for new jobs.")
-    parser.add_argument('--remote-dir', dest='remoteDir', default='/scratch/hpc/mcitar/')
-# FIXXXXX
-    parser.add_argument("-q", "--queue", dest="queue", default="bio", 
-                                      help="Queue for submission of HPC jobs.")
     parser.add_argument("--sleep-interval", dest="mainLoopSleepInterval", 
                         default=settings.mainLoopSleepInterval, 
      help="How often this manager should sleep between checking job statuses.")
@@ -237,15 +228,14 @@ def main():
     else:
         my_name = pargs.my_name
     SLEEP_INTERVAL = float(pargs.mainLoopSleepInterval)
+    print "SLEEP_INTERVAL between jobs checks: ", SLEEP_INTERVAL, " secs."
+
     if(not pargs.user is None):
        passwd = raw_input("Enter HPC password:")
        settings.hpc_cred.update(pargs.user, passwd)
     if(not pargs.mailUser is None):
         mail_passwd = raw_input("Enter mail account password: ")
         settings.mail_cred.update(pargs.user, mail_passwd)
-    if(not pargs.dbUser is None):
-        db_passwd = raw_input("Enter database passwod:")
-        settings.db_cred.update(pargs.user, db_passwd)
 
 #   ======================================
 #   Set up resources
@@ -341,8 +331,9 @@ def main():
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.RUNNING):
-                    if ((lloop_num%10) == 0):  print "job_state: ", j.job_name, " RUNNING"
-
+                    if ((lloop_num%10) == 0):  
+                      t = datetime.datetime.now()
+                      print str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
                 else:
                     print "\njob_state: Unknown State ", j.job_name, " ", state
 

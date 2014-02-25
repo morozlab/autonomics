@@ -3722,6 +3722,7 @@ class HPCProcess(PipeProcess):
         while (retries >= 0):
             try:
                 num_done = int(c.execute(command)[0])
+                print "num_procs: ", num_procs, " num_done: ", num_done
                 break
             except:
                 t = datetime.datetime.now()

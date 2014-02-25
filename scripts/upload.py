@@ -992,6 +992,7 @@ def main():
     parser.add_argument("--data-dir", dest='data_dir', default=None)
     parser.add_argument("--init-project", dest="initProject", default=False, const=True, action='store_const')
     parser.add_argument("--nr", dest='nr', default=False, const=True, action='store_const')
+    parser.add_argument("--nb", dest='nb', default=None)
     parser.add_argument("--swissprot", dest='swissprot', default=False, const=True, action='store_const')
     parser.add_argument("--alignment-format", dest='alnFmt', default='hpc-blast')
     parser.add_argument("--delete-homology", dest="deleteH", default=False, const=True, action='store_const')
@@ -1027,6 +1028,8 @@ def main():
     v = args.verbose
     debug = args.debug
     no_quant = args.no_quant
+
+    nb_num = args.nb
 
     if debug: debug = 1
     else: debug = 0

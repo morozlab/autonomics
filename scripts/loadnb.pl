@@ -2,12 +2,13 @@
 use strict;
 use warnings;
 
-my ($pname, $seq_type, $load_type, $rootpw, $debug) = @ARGV;
+my ($pname, $seq_type, $load_type, $rootpw, $nb, $debug) = @ARGV;
 if ((not defined $pname) ||
     (not defined $seq_type) ||
+    (not defined $nb) ||
     (not defined $rootpw) ||
     (not defined $load_type)) {
-    print "\nUsage: $0  <proj_name>  <seq_type[NT|AA]>  <load_type[ALL|BASIC|NR|ALIGN_NR|ALIGN_SP|SP|PFAM|GO|GOCAT|KEGG|BESTA|QUANT]> <root_password>  <DEBUG --optional>\n";
+    print "\nUsage: $0  <proj_name>  <seq_type[NT|AA]>  <load_type[ALL|BASIC|NR|ALIGN_NR|ALIGN_SP|SP|PFAM|GO|GOCAT|KEGG|BESTA|QUANT]> <root_password> <NB#>  <DEBUG --optional>\n";
     exit 0;
 }
 
@@ -72,9 +73,7 @@ if ($load_type ne 'ALL') {
   elsif ($load_type eq 'GOCAT') { $load_type = '--GOCategories'; }
   else { $load_type = ""; }
 
-
-
-  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type $debug $quant >& $log";
+  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
@@ -83,7 +82,7 @@ if ($load_type ne 'ALL') {
 
   my $log = "log." . $pname . ".BASIC";
   $load_type = "";
-  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v  $seq_type $load_type $debug $quant >& $log";
+  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v  $seq_type $load_type --nb $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
@@ -92,7 +91,7 @@ if ($load_type ne 'ALL') {
 
   $load_type = '--nr --annotation';
   $log = "log." . $pname . ".NR";
-  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type $debug $quant >& $log";
+  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
@@ -101,7 +100,7 @@ if ($load_type ne 'ALL') {
 
   $log = "log." . $pname . ".ALIGN_NR";
   $load_type = '--nr --alignments';
-  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type $debug $quant >& $log";
+  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }

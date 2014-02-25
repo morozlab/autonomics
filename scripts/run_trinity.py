@@ -109,7 +109,7 @@ def main():
 
     trinity_out_dir = work_dir + 'trinity_out'
     trinity_out = trinity_out_dir + "/Trinity.fasta"
-    tcmd = trinity_path + "Trinity.pl"
+    tcmd = trinity_path + "/Trinity.pl"
 
 #    mem = 40G
     mem = '256G'
