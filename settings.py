@@ -114,28 +114,27 @@ PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 #---------------------------------------------------------------------------------------------
 
 USING_NB = int(os.environ['USING_NB'])
+RUNNING_AUTONOMICS_PIPELINE = int(os.environ['RUNNING_AUTONOMICS_PIPELINE'])
 
-# PATHS FOR FINDING VARIOUS EXECUTABLES AND DATA DIRECTORIES.
+if USING_NB:
+  NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
+  NEUROBASE_LOAD_DATA_PATH = os.environ['NEUROBASE_LOAD_DATA_PATH'] + "/"
+  NEUROBASE_PUBLIC_GENOMES_PATH = os.environ['NEUROBASE_PUBLIC_GENOMES_PATH'] + '/'
+
 # this group of paths are used ONLY on the local machine running the autonomics pipeline
-
-if not USING_NB:
-  pfam_exec_path = os.environ['PFAM_LOCAL_PATH']
-
-  khmer_path = os.environ['KHMER_PATH']
-# https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
-# we use normalize-by-median.py
-
+if RUNNING_AUTONOMICS_PIPELINE:
+  pfam_exec_path = os.environ['PFAM_LOCAL_PATH'] # "/srv/data/pfam/PfamScan/"
+  khmer_path = os.environ['KHMER_PATH']   # we use normalize-by-median.py
+  # https://github.com/ctb/khmer/blob/master/scripts/normalize-by-median.py
   trinity_path = os.environ['TRINITY_PATH']
-  cutadapt_path =os.environ['CUTADAPT_PATH']
-  mira_path =os.environ['MIRA_PATH']
+  cutadapt_path = os.environ['CUTADAPT_PATH']
+  mira_path = os.environ['MIRA_PATH']
   panther_data_path = "/srv/data2/pwilliams/PANTHER8.0/"  # panther is optional
-
-# these paths are on the remote HPC cluster
-pfam_data_path = "/scratch/lfs/moroz/pfam/"  # dir where the pfam_scan data files located
-remote_dir = "/scratch/lfs/moroz/" #directory where a remote job can create a sub dir
-
-# user name on remote HPC cluster
-hpc_user = "plw1080"
+  # these next paths are on the remote HPC cluster
+  pfam_data_path = os.environ['PFAM_HPC_DATA_PATH'] # "/scratch/lfs/moroz/pfam/"  # dir where the pfam_scan data files located
+  remote_dir = os.environ['REMOTE_DIR'] # "/scratch/lfs/moroz/" #directory where a remote job can create a sub dir
+  # user name on remote HPC cluster
+  hpc_user = os.environ['HPC_USER_NAME'] # "plw1080"
 
 # QSUB_OK is used by jobs.py to check for the success of the HPC cluster sub job submission command
 # i.e. what "qsub xxx.qsub" returns when it successfully submits the qsub script on the cluster.
@@ -216,11 +215,6 @@ PFAM_MAX_WALL_TIME = "48:00:00"
 # these are probably correct for you as they are the defaults
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
-
-if USING_NB:
-  NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
-  NEUROBASE_LOAD_DATA_PATH = os.environ['NEUROBASE_LOAD_DATA_PATH'] + "/"
-  NEUROBASE_PUBLIC_GENOMES_PATH = os.environ['NEUROBASE_PUBLIC_GENOMES_PATH'] + '/'
 
 # ======= END OF SETTINGS TO MODIFY =====================
 

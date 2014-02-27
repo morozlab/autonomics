@@ -508,40 +508,40 @@ setup the autonomics pipeline and the 2 runtime logfiles.
 
 
 ------------------------------------------
-DE-NOVO PREDICTION OF SECRETORY MOLECOULES
+DE-NOVO PREDICTION OF SECRETORY MOLECULES
 ------------------------------------------
 
 Code for de-novo prediction of secretory molecules from proteomic data is
-incliuded in the autonomics distributon and can be found in the
+included in the autonomics distribution and can be found in the
 directory autonomics/prediction.  The prediction is based on the
 results from several heuristic tools, including SignalP4, TMHMM and
-Phobius, which in turn ares based on a variety of universal protein
+Phobius, which in turn are based on a variety of universal protein
 motifs including the presence or absence of N-terminal signal peptides
 (SP), transmembrane domains (TM), and other sublocalization motifs.
 
 You need /lib/ld-linux.so.2 on your machine in order run the
-predictioncode.  If you dont have it, you can get it with: "sudo yum
+prediction code.  If you don't have it, you can get it with: "sudo yum
 /lib/ld-linux.so.2", (you may need your sysadmin to do this if you
 dont have root privileges).
 
-The input to is a file of proteins in fasta format.  The input file
-must in put in the a project dir in the pipeline dir and given the
-name <proj_name>_proteins.fasta
-
-So: <pipeline_dir>/<proj_name>/<proj_name>_proteins.fasta
+The input to the code is a file of proteins in fasta format.  The
+input file must in put in the relevant project dir in the pipeline dir
+and given the name <proj_name>_proteins.fasta  Like:
+   <pipeline_dir>/<proj_name>/<proj_name>_proteins.fasta
 
 Start the prediction by invoking:
+python <path.to>/autonomics/prediction/predicts.py [--max_threads <n>] \
+[--sp_cutoff <float 0.0 .. 1.0>] <proj_name> >& log.pred.<proj_name>.<sp_cutoff> &
 
-python <path.to>/autonomics/prediction/predicts.py [--max_threads <n>] [--sp_cutoff <float 0.0 .. 1.0>] <proj_name> >& log.pred.<proj_name>.<sp_cutoff> &
---sp_cutoff defaults to 0.5 if not specified
-          # this is SignalP4 score for discriminating signal peptides from transmembrane regiosn
---max_threads defaults to 1 if not specified; must be 1 or a multiple of 3
+--sp_cutoff defaults to 0.5 if not specified; this is SignalP4 score for 
+discriminating signal peptides from transmembrane regions
+--max_threads defaults to 1 if not specified; and,  must be 1 or a multiple of 3
 
 You may also specify the args:
 --use_tmhmm  ('0 or 1',default=1) # Use: TMHMM to predict transmembrane domains
 --use_phobtm ('0 or 1',default=1) # Use: Phobius to predict transmembrane domains
 --use_phobsp ('0 or 1',default=1) # Use: Phobius to predict signal peptides
-You do not normally use these args; they are there for experimentation with the code.
+You do not normally use these args; they are for experimentation with the code.
 
 The final output is in two files:
 [file1] <proj_dir>/<proj_name>/<proj_name>_peptide_prediction
@@ -556,22 +556,23 @@ name, the next items are:
 [B] the number of transmembrane domains predicted by TMHMM
 [C] the number of transmembrane domains predicted by Phobius
 [D] whether Phobius predicts the presence of a signal peptide (0 or 1)
-[E] a '+' or '-' if the combined score predicts the protein is/isnot a neuropeptide.
+[E] a '+' or '-' if the combined score predicts the protein is / is not a
+secretory molecoule.
 
 For the combined score [E] to be '+', requires:
     [A] > sp_cutoff; [B] to be 0 unless ([C] = 0 and [D] is 1)
 
 The reasoning is as follows:
 
-[B(TMHMM)] detects the widest range of transmembrane domains.
+[B (TMHMM)] detects the widest range of transmembrane domains.
 However, signal peptides share many traits with transmembrane domains,
 and so can be misclassified.
 
 Phobious is particularly designed to distinguish between tm domains
-and signal peptides, so if [B(TMHMM)] says theirs a tm domain but
-phobius [C(PhobiusTM)] says there is no tm domain and
-[D(PhobiusSP)indicates there is a signal peptide, we assume that
-[B(TMHHM)] misclassified the protein and so ignore its result.
+and signal peptides, so if [B (TMHMM)] says there is a tm domain but
+phobius [C (PhobiusTM)] says there is no tm domain and
+[D (PhobiusSP)] indicates there is a signal peptide, we assume that
+[B (TMHHM)] misclassified the protein and so ignore its result.
 
 The subset of input proteins whose combined score is '+' are written
 to [file2] in fasta format.
@@ -580,16 +581,11 @@ The total time to run the peptide prediction is given at the end of
 the log file you created above.
 
 If for any reason you abort a predicts.py run or it fails to run to completion,
-you must delete the following directory yourself:
-<proj_dir>/<project_name>/prediction
-i.e. 
-cd <proj_dir>/<project_name>
-rm -r prediction
-Be careful not to remove the wrong diretory
+you must delete the following directory before running predicts.py again: 
+<proj_dir>/<project_name>/prediction  Be careful not to remove the wrong diretory.
 
-You only need to run predicts.py once.  After that, to get a fasta
-file of the predicted secretory molecules for a different SignalP cutoff,
-use the script: parse_preds.py as follows: 
+You only need to run predicts.py once for a given project.  After that, to get a
+prediction for a different SignalP cutoff, use the script: parse_preds.py as follows: 
 python parse_preds.py --sp_cutoff <new_cutogg> <proj_name> 
 this will create a file: <pipeline>/<proj_name>/<proj_name>_<cutoff>.fasta
 

@@ -3392,7 +3392,7 @@ class Qsub:
                    sys.stdout.write("\nError unable to retrieve: " + rfile + " Giving up!!!!....\n")
                    return None
                 else:
-                   sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second) + "\nError unable to retrieve: " + rfile + "\n-retrying after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
+                   sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second) + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
                    time.sleep(sleep_time)
                    if (sleep_time < 40): sleep_time = sleep_time * 2
                    retries -= 1
@@ -3450,6 +3450,7 @@ class Qsub:
                     raise
                  else:
                     sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
+                    print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
                     sys.stderr.write("Exception raised during qsub submission to cluster \
                         sleeping for ", str(sleep_time), " secs and trying again. retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
@@ -3492,8 +3493,8 @@ class Qsub:
                   t = datetime.datetime.now()
                   if(retries > 0):
                      print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second)
-                     sys.stderr.write("Retrying command: " + command + "\n")
-                     sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
+                     sys.stderr.write("Retrying command: " + command )
+                     sys.stderr.write(" retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
                      time.sleep(sleep_time)
                      if (sleep_time < 40): sleep_time = sleep_time * 2
                      retries -= 1
@@ -3721,8 +3722,10 @@ class HPCProcess(PipeProcess):
         num_done = 0
         while (retries >= 0):
             try:
+                print "in try, retries = ", retries
                 num_done = int(c.execute(command)[0])
-                print self.job_name, " num_procs: ", num_procs, " num_done: ", num_done
+                dat = str(t.day) + " " + str(t.hour) + ":" + str(t.minute)
+                print dat, " ", self.job_name, " num_procs: ", num_procs, " num_done: ", num_done
                 break
             except:
                 t = datetime.datetime.now()
@@ -3733,8 +3736,8 @@ class HPCProcess(PipeProcess):
                     num_done = -1
                 else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error running: " + command + " sleeping: " + str(sleep_time) + " secs\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + " secs\n")
+                    sys.stderr.write(" Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
+                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
@@ -4000,8 +4003,8 @@ class HPCProcess(PipeProcess):
                     running = -1
                 else:
                     sys.stderr.write("\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second))
-                    sys.stderr.write("Error retrieving status of running job -retrying after sleeping " + str(sleep_time) + " secs\nCommand: " + command + "\n")
-                    sys.stderr.write("retries left: " +  str(retries) + " sleeping for: " +  str(sleep_time) + " secs\n")
+                    sys.stderr.write(" Retrying ", command, " after sleeping " + str(sleep_time) + " secs")
+                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time <=40): sleep_time = sleep_time * 2
                     retries -= 1

@@ -228,7 +228,7 @@ def main():
     else:
         my_name = pargs.my_name
     SLEEP_INTERVAL = float(pargs.mainLoopSleepInterval)
-    print "SLEEP_INTERVAL between jobs checks: ", SLEEP_INTERVAL, " secs."
+    print "\nSLEEP_INTERVAL between jobs checks: ", SLEEP_INTERVAL, " secs."
 
     if(not pargs.user is None):
        passwd = raw_input("Enter HPC password:")
@@ -333,7 +333,7 @@ def main():
                 elif(state == JobState.RUNNING):
 #                    if ((lloop_num%10) == 0):  
                     t = datetime.datetime.now()
-                    print str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
+                    print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
                 else:
                     print "\njob_state: Unknown State ", j.job_name, " ", state
 
