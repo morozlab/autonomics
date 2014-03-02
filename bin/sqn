@@ -1,0 +1,384 @@
+#!/usr/bin/perl -w
+use strict;
+use Sys::Hostname;
+use File::Basename;
+use Cwd;
+use Getopt::Long;
+
+my ($query, $arg1, $arg2, $arg3, $arg4) = @ARGV;
+if ((not defined $query)) {
+    print "\nUsage: $0 <cmd allp | all0p | pd | pdo | pn | pid | st | all | dt | aa | aa1 | aa1c | aa2c | aaid | kgpq | kgpqa | star | sh | shc1 | shc2 | sources | newuser | namechange >  <arg1 optional>  <arg2 optional> <arg3_optional>\n";
+    exit 0;
+}
+
+# my $end =  " | mysql -u moroz_lab --password=Whitney2011 --database=moroz_lab -vvv -t";
+my $tend =  " | mysql -u moroz_lab --password=Whitney2011 --database=moroz_lab";
+my $end = $tend;
+
+if ($query eq 'st') {
+  my $cmd = "echo show tables" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pd') {
+  my $cmd = "echo select projectID,project_name from project_directory" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pdo') {
+  my $cmd = "echo select projectID,project_name from project_directory order by project_name" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'sources') {
+  my $cmd = "echo select id,name from annotation_sources" . $end;
+  # print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'dt') {
+    if (not defined $arg1) {
+	print "need arg1 = table_name\n";
+	exit 0;
+    }
+  my $cmd = "echo \"describe $arg1\"" . $end;
+  # print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'aa') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select projectID,source from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and (source = 2 or source = 1) limit 20\"" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'aa1') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select projectID,source from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and source = 1 limit 20\"" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'aa1c') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select  count(*) from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and source = 1\"" . $tend;
+#    print "$cmd\n";
+    print "ALIGNS_NR: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'aa2c') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select  count(*) from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and source = 2\"" . $tend;
+#    print "$cmd\n";
+    print "ALIGNS_SW: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'star') {
+    if ((not defined $arg1) || (not defined $arg2) || (not defined $arg3)) {
+	print "need   arg1 = table   arg2 = pid (0 if NA)   arg3 = num_rows\n";
+	exit 0;
+    }
+    if ($arg2 == 0) {$arg2 = ""; }
+    else { $arg2 = "where projectID = $arg2"; }
+  my $cmd = "echo \"select * from $arg1 $arg2 limit $arg3\"" . $end;
+   print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'sh') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select * from sorted_homology where project_id = $arg1 limit 30\"" . $end;
+  # print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'shc1') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 1\"" . $end;
+#  print "$cmd\n";
+    print "NRs: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'shc2') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 2\"" . $end;
+#   print "$cmd\n";
+    print "SWPs: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pid') {
+    if (not defined $arg1) {
+	print "need arg1 = project_name\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select projectID,project_name from project_directory where project_name = \'$arg1\'\"" . $end;
+  # print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pn') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select projectID,project_name from project_directory where projectID = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'kgpq') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+    print "\n";
+  my $cmd = "echo \"select projectID,project_name from project_directory where projectID = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*)  from kegg_annotations where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "KEGG: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from go_categories where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "GO: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+  
+  $cmd = "echo \"select count(*) from pfam_annotations where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "PFAM: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  my $table = $arg1 . "_sequences";
+
+  $cmd = "echo \"select max(abundance) from $table\"" . $tend;
+#  print "$cmd\n";
+    print "QUANTIF: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 1\"" . $end;
+#  print "$cmd\n";
+    print "Total NR hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 2\"" . $end;
+#   print "$cmd\n";
+    print "Total SP hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 1 and project_id = $arg1 and sort_id = 1\"" . $end;
+#   print "$cmd\n";
+    print "seqs with NR hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 2 and project_id = $arg1 and sort_id = 1\"" . $end;
+#   print "$cmd\n";
+    print "seqs with SW hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory where projectID=$arg1\"" . $tend;
+#  print "$cmd\n";
+#  system($cmd);
+#  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+}
+
+if ($query eq 'kgpqa') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+    print "\n";
+  my $cmd = "echo \"select projectID,project_name from project_directory where projectID = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*)  from kegg_annotations where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "KEGG: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from go_categories where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "GO: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+  
+  $cmd = "echo \"select count(*) from pfam_annotations where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "PFAM: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  my $table = $arg1 . "_sequences";
+
+  $cmd = "echo \"select max(abundance) from $table\"" . $tend;
+#  print "$cmd\n";
+    print "QUANTIF: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 1\"" . $end;
+#  print "$cmd\n";
+    print "Total NR hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 2\"" . $end;
+#   print "$cmd\n";
+    print "Total SP hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 1 and project_id = $arg1 and sort_id = 1\"" . $end;
+#   print "$cmd\n";
+    print "seqs with NR hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 2 and project_id = $arg1 and sort_id = 1\"" . $end;
+#   print "$cmd\n";
+    print "seqs with SW hits: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select  count(*) from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and source = 1\"" . $tend;
+#    print "$cmd\n";
+    print "ALIGNS_NR: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select  count(*) from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and projectID = $arg1 and source = 2\"" . $tend;
+#    print "$cmd\n";
+    print "ALIGNS_SW: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory where projectID=$arg1\"" . $tend;
+#  print "$cmd\n";
+#  system($cmd);
+#  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+}
+
+if ($query eq 'aaid') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+
+  my $cmd = "echo \"select annotation_id from annotation_alignments join sb_catalog on annotation_alignments.sb_id > sb_catalog.begin and annotation_alignments.sb_id < sb_catalog.end and source = 1 and projectID = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'all') {
+  my $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'alln') {
+  my $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory where go='N' or kegg='N' or pfam='N' or quantification = 'N' or blast_nr='N' or blast_swissprot='N'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'newuser') {
+    if ((not defined $arg1) || (not defined $arg2) || (not defined $arg3)) {
+	print "need   arg1 = user_nam   arg2 = pass_wd   arg3 = persons_name   optional arg4 = email\n";
+	exit 0;
+    }
+    if (not defined $arg4) { $arg4 = ""; }
+    my $cmd = "echo \"insert into users (user_name,password,name,email) values (\'$arg1\',\'$arg2\',\'$arg3\',\'$arg4\')\"" . $tend;
+    print "$cmd\n";
+    system($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+
+    $cmd = "echo \"INSERT INTO permissions SET  project_id = -1, user_id = (select user_id from users where user_name = \'$arg1\')\"" . $tend;
+    print "$cmd\n";
+    system($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+ 
+}
+# select * from project_directory into outfile '/home/oem/args.txt' columns terminated by '\t';
+#  INSERT INTO permissions SET  project_id = -1, user_id = (select user_id from users where user_name = $arg1)
+
+if ($query eq 'namechange') {
+    if ((not defined $arg1) || (not defined $arg2)) {
+	print "need   arg1 = pid  arg2 = newName\n";
+	exit 0;
+    }
+    my $cmd = "echo \"update project_directory set project_name = \'$arg2\' where projectID = \'$arg1\'\"" . $tend;
+    print "$cmd\n";
+    system($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'allp') {
+    my $cmd = "echo \"SELECT project_name, projectID, num_AA_seqs, num_NT_seqs FROM project_directory WHERE (num_AA_seqs != 0) OR (num_NT_seqs != 0)\"" . $tend;
+    print "$cmd\n";
+    system($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+if ($query eq 'all0p') {
+    my $cmd = "echo \"SELECT project_name, projectID, num_AA_seqs, num_NT_seqs FROM project_directory WHERE (num_AA_seqs = 0) AND (num_NT_seqs = 0)\"" . $tend;
+    print "$cmd\n";
+    system($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+}

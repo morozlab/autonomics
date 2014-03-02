@@ -1,0 +1,155 @@
+#!/usr/bin/perl -w
+use strict;
+
+my ($query, $arg1, $arg2, $arg3, $arg4) = @ARGV;
+if ((not defined $query)) {
+    print "\nUsage: $0 <time | time0 | cmd pd | pdo | pn | pid | st | dt | jn | jnp | q | err | star | run |nf | nfns | snf >  <arg1 optional>  <arg2 optional> <arg3_optional>\n";
+    exit 0;
+}
+
+#mysql> select job_name, s_ts, f_ts  from jn_mapping where job_type = 'assemble' and project_id = 581;
+
+my $end =  "\ | mysql -u zeroclick --password=Whitney2011 --database=zero_click -vvv -t";
+my $tend =  " | mysql -u zeroclick --password=Whitney2011 --database=zero_click";
+
+if ($query eq 'pid') {
+    if (not defined $arg1) {
+	print "need arg1 = project_name\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select project_id,project_name from pn_mapping where project_name = \'$arg1\'\"" . $tend;
+  # print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pn') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select project_id,project_name from pn_mapping where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'time') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select project_id, job_type, s_ts, f_ts,TIMESTAMPDIFF(MINUTE,s_ts,f_ts)/60 from jn_mapping where project_id = \'$arg1\'\"" . $tend;
+  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'time0') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+  my $cmd = "echo \"select project_name from pn_mapping where project_id = \'$arg1\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select job_type,TIMESTAMPDIFF(MINUTE,s_ts,f_ts)/60 from jn_mapping where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'st') {
+  my $cmd = "echo show tables" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if (($query eq 'pd')) {
+  my $cmd = "echo select project_id,project_name from pn_mapping" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'pdo') {
+  my $cmd = "echo select project_id,project_name from  pn_mapping order by project_id" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'dt') {
+    if (not defined $arg1) {
+	print "need arg1 = table_name\n";
+	exit 0;
+    }
+  my $cmd = "echo \"describe $arg1\"" . $end;
+  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'nf') {
+  my $cmd = "echo \"select * from jn_mapping where finished = \'N\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'nfns') {
+  my $cmd = "echo \"select * from jn_mapping where started = \'N\' and finished = \'N\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'snf') {
+  my $cmd = "echo \"select * from jn_mapping where started = \'Y\' and finished = \'N\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'run') {
+  my $cmd = "echo \"select * from jn_mapping where started = \'Y\' and finished = \'N\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'err') {
+  my $cmd = "echo \"select * from jn_mapping where finished = \'E\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'q') {
+  my $cmd = "echo \"select * from quenew\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'jn') {
+  my $cmd = "echo \"select * from jn_mapping order by job_id;\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'jnp') {
+  if (not defined $arg1) {
+      print "need arg1 = pid\n";
+      exit 0;
+  }
+  my $cmd = "echo \"select * from jn_mapping where project_id = $arg1\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'star') {
+  if (not defined $arg1) {
+      print "need arg1 = table_name\n";
+      exit 0;
+  }
+  my $cmd = "echo \"select * from $arg1\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+
+# select job_id from args where pipeline_args ='--assembler mira';
