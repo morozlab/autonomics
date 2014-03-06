@@ -105,7 +105,7 @@ if ($load_type ne 'ALL') {
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
-  $cmd = "add2gp $pname";
+  $cmd = "add2gp $pname $nb";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
