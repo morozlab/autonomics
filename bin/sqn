@@ -239,8 +239,17 @@ if ($query eq 'kgpqa') {
 	exit 0;
     }
     print "\n";
+  my $table = $arg1 . "_sequences";
+
+
   my $cmd = "echo \"select projectID,project_name from project_directory where projectID = \'$arg1\'\"" . $tend;
 #  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from $table \"" . $end;
+#  print "$cmd\n";
+  print "Total Sequences: ";
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
@@ -262,13 +271,12 @@ if ($query eq 'kgpqa') {
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
-  my $table = $arg1 . "_sequences";
-
   $cmd = "echo \"select max(abundance) from $table\"" . $tend;
 #  print "$cmd\n";
     print "QUANTIF: ";
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
+
 
   $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 1\"" . $end;
 #  print "$cmd\n";
