@@ -27,7 +27,7 @@ sub printUsage{
   print "	-proj :project_name (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
-  print "       -convert_paired_end   (OPTIONAL for format\\1or2)\n";
+  print '       -convert_paired_end   (OPTIONAL. Use to convert fastq file that have \1 , \2 at end of "@" line to just 1 , 2)\n';
   print "       -assonly   (OPTIONAL)\n";
   print "       -noass   (OPTIONAL)\n";
   print "       -bo   (run blast_nr only, requires -data to be set also  OPTIONAL)\n";
