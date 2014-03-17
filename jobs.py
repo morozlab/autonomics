@@ -2152,6 +2152,7 @@ class AssemblyProcess(PipeProcess):
                 cmd = "python " + settings.SCRIPTPATH + "assembly_pipeline.py\
                      -o " + prefix + "-cpu " + str(self.cpus) + " fastq "\
                       + out_dir
+        print cmd
         p = self._exec_cmd(cmd)
         die_on_error(p.returncode, cmd_str=cmd)
 
@@ -2514,7 +2515,7 @@ class QualityTrimProcess(PipeProcess):
         shutil.copyfile(f,fc )
         cmd = self._prepare_cmd(cmd, param_dict)
         #use the trimmer to trim quality
-
+        print "cutadapt cmd: ", cmd
         p = self._exec_cmd(cmd)
         die_on_error(p.returncode)
         #re-write the original file as the trimmed file

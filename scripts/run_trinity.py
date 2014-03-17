@@ -140,6 +140,7 @@ def main():
 
 #    tgt = trinity_out_dir + '/' + sample_name + "_project.fasta"
     tgt = work_dir + sample_name + "_project.fasta"
+
     cmd = "mv " + trinity_out + " " + tgt
     print cmd
     os.system(cmd)

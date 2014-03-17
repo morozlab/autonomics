@@ -194,7 +194,7 @@ def main():
     khmer_out = work_dir + sample_name + ".khmer.out"
     if seq_count >= settings.KHMER_MIN_SEQS:
         khmer_out2 = fasta_file + ".keep"  # what khmer calls its output.
-	khmer_cmd = khmer_path + "normalize-by-median.py"
+	khmer_cmd = khmer_path + "/normalize-by-median.py"
 
 	cmd = "python " + khmer_cmd + ' -C 30 -k 20 -N 5 -x 4.0e9 ' + \
 						    fasta_file + ' > /dev/null'
