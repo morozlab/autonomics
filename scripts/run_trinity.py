@@ -34,6 +34,7 @@ import argparse
 import os
 import re
 from autonomics import netutils, settings
+import resource, sys
 
 def main():
     parser = argparse.ArgumentParser(description='Submission script for running Trinity.')
@@ -114,11 +115,19 @@ def main():
 #    mem = 40G
     mem = '256G'
 
+# --no_run_quantifygraph ==> trinity_out_dir/chrysalis/quantifyGraph_commands (exec these on grid) & then butterfly_commands.adj
+# http://trinityrnaseq.sourceforge.net/trinity_faq.html#ques_C
+
+    resource.setrlimit(resource.RLIMIT_STACK, (resource.RLIM_INFINITY, resource.RLIM_INFINITY))
+
+#    resource.setrlimit(resource.RLIMIT_STACK, (2**29,-1))
+#    sys.setrecursionlimit(10**6)
+#    os.system('ulimit -s unlimited; some_executable')
+
     if paired_end:
         cmd = "perl " + tcmd + " --seqType fa --left " + in_file1_fasta + \
               ' --right ' + in_file2_fasta + ' --JM ' + mem + ' --inchworm_cpu ' + \
-              cpus + " --CPU " + cpus + " --output " + trinity_out_dir + \
-              " > /dev/null"
+              cpus + " --CPU " + cpus + " --output " + trinity_out_dir + " > /dev/null"
         print cmd
         os.system(cmd)
     else:

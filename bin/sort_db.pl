@@ -110,7 +110,7 @@ my $next_id = "";
 my $line;
 my @sizes;
 
-print "Starting Phase 1 ...\n";
+# print "Starting Phase 1 ...\n";
 my $start_time = time;
 
 if (-d $db_file_with_path) { die "\nCan't open $db_file_with_path -- it is a directory\n\n"; }
@@ -144,7 +144,7 @@ $start_time = time;
 # sort @sizes => @sorted_sizes
 #
 ######################################################################
- print "Starting Phase 2 ...\n";
+# print "Starting Phase 2 ...\n";
 
 my @sorted_sizes = sort {$a <=> $b} @sizes;
 
@@ -168,7 +168,7 @@ $start_time = time;
 # Assumption: no set of equal length seqs has cardinality > MAX_BIN_SIZE.
 #
 ######################################################################
- print "Starting Phase 3 ...\n";
+# print "Starting Phase 3 ...\n";
 
 my $starting_a_bin = 1;
 my $last_size = 0;
@@ -212,7 +212,7 @@ $start_time = time;
 # open file for each bin
 #
 ######################################################################
- print "Starting Phase 4 ...\n";
+# print "Starting Phase 4 ...\n";
 
 my @fha;
 for (my $idx=0; $idx<$num_limits; $idx++) {
@@ -232,7 +232,7 @@ $start_time = time;
 #
 ######################################################################
 
- print "Starting Phase 5 ...\n";
+# print "Starting Phase 5 ...\n";
 
 open INDATA,"$db_file_with_path" or die "Can't open $db_file_with_path: $!\n";
 
@@ -273,7 +273,7 @@ $start_time = time;
 # sort seqs in each bin & concatenate sorted seqs to $db_file_with_path."_sorted"
 #
 ######################################################################
- print "Starting Phase 6 ...\n";
+# print "Starting Phase 6 ...\n";
 
 my @seqs;
 my %hash;
