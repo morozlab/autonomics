@@ -136,7 +136,7 @@ while (1) {
 
 close INDATA;
 
-printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
 ######################################################################
@@ -148,7 +148,7 @@ $start_time = time;
 
 my @sorted_sizes = sort {$a <=> $b} @sizes;
 
- printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
 ######################################################################
@@ -204,7 +204,7 @@ my $num_limits = scalar @limits;
  if ($num_limits > 0) { print "limits: @limits\n"; }
  else { print "limits: infinity\n"; }
 
-printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
 ######################################################################
@@ -223,7 +223,7 @@ for (my $idx=0; $idx<$num_limits; $idx++) {
 my $file_name = $temp_dir . '/' . $db_name . '_inf';
 push @fha, new IO::File ">$file_name";
 
- printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
 ######################################################################
@@ -265,7 +265,7 @@ for (my $idx=0; $idx<=$#fha; $idx++) {
   close $fha[$idx];
 }
 
- printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
 ######################################################################
@@ -325,7 +325,7 @@ for (my $idx=0; $idx<=$#fha; $idx++) {
   close $fha[$idx];
 }
 
- printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
+# printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
  my $cmdx = "/bin/rm -fr $temp_dir";
  print "Removing temp dir..........";
  system($cmdx);
