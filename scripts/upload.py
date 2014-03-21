@@ -342,8 +342,8 @@ def initProject(publicName, seqType, session):
         seqTable.create()
         #insert an entry in the project_directory for the new project
         insert = t.insert()
-        insert.execute(projectID=projectID,  default_type=seqType, path=projectPath, assembly='Y', project_name=publicName)
-# last_mod = functions.current_date(),
+        dat = datetime.datetime.now().strftime("%Y-%m-%d")
+        insert.execute(projectID=projectID,  default_type=seqType, path=projectPath, assembly='Y', project_name=publicName, last_mod=dat)
 
         linfo = utils.createTableObject('load_info', session)
         insert = linfo.insert()
