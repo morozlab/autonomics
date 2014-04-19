@@ -9,7 +9,7 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 from alignment.io import Reader
-from Bio.Blast import NCBIStandalone
+# from Bio.Blast import NCBIStandalone
 from Bio import SeqIO
 from sqlalchemy import *
 from sqlalchemy.sql import functions
@@ -342,8 +342,11 @@ def initProject(publicName, seqType, session):
         seqTable.create()
         #insert an entry in the project_directory for the new project
         insert = t.insert()
-        dat = datetime.datetime.now().strftime("%Y-%m-%d")
-        insert.execute(projectID=projectID,  default_type=seqType, path=projectPath, assembly='Y', project_name=publicName, last_mod=dat)
+        conn = MySQLdb.connect(host=session.host, db=session.db,
+                           user=session.user, passwd=session.passwd)
+        cursor = conn.cursor(MySQLdb.cursors.DictCursor)
+        t = datetime.datetime.now().strftime("%Y-%m-%d")
+        insert.execute(projectID=projectID,  default_type=seqType, path=projectPath, assembly='Y', project_name=publicName, last_mod=t)
 
         linfo = utils.createTableObject('load_info', session)
         insert = linfo.insert()

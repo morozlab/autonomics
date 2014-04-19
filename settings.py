@@ -191,7 +191,7 @@ zc_cred = Credentials(from_file=CRED_PATH + "data_gremlin")
 # passwd:XXXXXXXacis.ufl.edu{pwilliams}1226:
 
 # MAX NUM LOCAL/REMOTE CPUS WE CAN USE AT ONE TIME (depends on your local/hpc_cluster policy/allocation)
-MAX_NUM_LOCAL_CPUS = 61
+MAX_NUM_LOCAL_CPUS = 64
 # MAX_NUM_HPC_CPUS = 1024
 MAX_NUM_HPC_CPUS = 4096
 

@@ -261,7 +261,7 @@ def main():
     job_list = []
     finished = []
     lloop_num = -1
-    print_res = 0
+    print_res = 1
     manager_queues = [settings.special_queue,settings.normal_queue]
 
     while(True):
@@ -308,9 +308,10 @@ def main():
             for j in job_list:
                 state = j.check()
                 if(state == JobState.FINISHED):
-                    print "\njob_state: ", j.job_name, " FINISHED"
                     finished.append(j)
-                    j.complete()
+                    res = j.complete()
+                    if res == 0: print "\njob_state: ", j.job_name, " ERROR"
+                    else: print "\njob_state: ", j.job_name, " FINISHED"
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.ERROR):

@@ -201,9 +201,6 @@ while (my $seq_size = shift @sorted_sizes) {
 
 my $num_limits = scalar @limits;
 
- if ($num_limits > 0) { print "limits: @limits\n"; }
- else { print "limits: infinity\n"; }
-
 # printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
 $start_time = time;
 
@@ -326,11 +323,11 @@ for (my $idx=0; $idx<=$#fha; $idx++) {
 }
 
 # printf  "                 Completed in: %8.3f mins.\n", ((time - $start_time) / 60.0);
- my $cmdx = "/bin/rm -fr $temp_dir";
- print "Removing temp dir..........";
- system($cmdx);
- if ( $? ) { die "Command failed: $cmdx: $!"; }
- print "done\n";
+ if (-e $temp_dir) { 
+   my $cmdx = "/bin/rm -fr $temp_dir";
+   system($cmdx);
+   if ( $? ) { die "Command failed: $cmdx: $!"; }
+ }
 
 
 ######################################################################

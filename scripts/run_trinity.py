@@ -112,17 +112,13 @@ def main():
     trinity_out = trinity_out_dir + "/Trinity.fasta"
     tcmd = trinity_path + "/Trinity.pl"
 
-#    mem = 40G
     mem = '256G'
+    resource.setrlimit(resource.RLIMIT_STACK, (resource.RLIM_INFINITY, resource.RLIM_INFINITY))
 
 # --no_run_quantifygraph ==> trinity_out_dir/chrysalis/quantifyGraph_commands (exec these on grid) & then butterfly_commands.adj
 # http://trinityrnaseq.sourceforge.net/trinity_faq.html#ques_C
 
-    resource.setrlimit(resource.RLIMIT_STACK, (resource.RLIM_INFINITY, resource.RLIM_INFINITY))
-
-#    resource.setrlimit(resource.RLIMIT_STACK, (2**29,-1))
-#    sys.setrecursionlimit(10**6)
-#    os.system('ulimit -s unlimited; some_executable')
+# perl /srv/data2/pwilliams/trinityrnaseq_r20131110/Trinity.pl --seqType fa --left /srv/data2/pipeline/Strombus_gigas_CNS/Strombus_gigas_CNS.fasta --right /srv/data2/pipeline/Strombus_gigas_CNS/Strombus_gigas_CNS.fasta.end2 --JM 256G --inchworm_cpu 60 --CPU 60 --output /srv/data2/pipeline/Strombus_gigas_CNS/trinity_out
 
     if paired_end:
         cmd = "perl " + tcmd + " --seqType fa --left " + in_file1_fasta + \

@@ -50,7 +50,7 @@ my $project_selector = " WHERE project_id='$pid'";
 
 #remove entries from the project_files table  project_files not used
 print "Removing project files entries\n";
-$query = "DELETE FROM project_files WHERE pid ='$pid'";
+$query = "DELETE FROM project_files WHERE projectID ='$pid'";
 $dbh->do($query);
 
 $query = "DELETE FROM load_info WHERE project_id ='$pid'";

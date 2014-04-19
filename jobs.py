@@ -1006,10 +1006,10 @@ class Job:
         results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
         row = results.fetchone()
         session.close()
-        if (row.finished =='Y'):
-            print "returning KILLED"
-            return JobState.KILLED
-
+        if(not row is None):
+            if (row.finished =='Y'):
+                print "returning KILLED"
+                return JobState.KILLED
         for p in self.processes:
             if(p.is_alive()):
                 return JobState.RUNNING
@@ -3392,7 +3392,7 @@ class Qsub:
                    sys.stdout.write("%s"%t + " Error unable to retrieve: " + rfile + " Giving up!!!!....\n")
                    return None
                 else:
-                   sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
+#                   sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
                    time.sleep(sleep_time)
                    if (sleep_time < 40): sleep_time = sleep_time * 2
                    retries -= 1
@@ -3488,8 +3488,8 @@ class Qsub:
               if (job_id == [] or settings.QSUB_OK not in job_id[0]):
                   t = datetime.datetime.now()
                   if(retries > 0):
-                     sys.stderr.write("%s" %t + " Retrying command: " + command )
-                     sys.stderr.write(" retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
+#                     sys.stderr.write("%s" %t + " Retrying command: " + command )
+#                     sys.stderr.write(" retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
                      time.sleep(sleep_time)
                      if (sleep_time < 40): sleep_time = sleep_time * 2
                      retries -= 1
@@ -3689,27 +3689,27 @@ class HPCProcess(PipeProcess):
         num_finished = 0
         errors = []
         num_procs = len(self.processes)
-# start of moved block
-        for index, proc in enumerate(self.processes):
-            stat = self.check_individual_job(index, c)
-            if(stat == 'exceedMem'):
-                if(self.restart):
-                    print "job stat=exceedMem, restarting with self.mem_increment: ", self.mem_increment, " job_name: ", self.job_name
-                    proc.resubmit(c, self.mem_increment)
-                else:
-                    print "job stat=exceedMem, restarting not enabled"
-                    num_finished += 1
-                    proc.status = "error"
-            elif(stat == "error"):
-                errors.append(index)
-            index += 1
-
-        for i in reversed(errors):
-            self.processes.pop(i)
-        self.mail_connect.close()
-        self.mail_connect.logout()
-        c.close()
+## start of moved block
+#        for index, proc in enumerate(self.processes):
+#            stat = self.check_individual_job(index, c)
+#            if(stat == 'exceedMem'):
+#                if(self.restart):
+#                    print "job stat=exceedMem, restarting with self.mem_increment: ", self.mem_increment, " job_name: ", self.job_name
+#                    proc.resubmit(c, self.mem_increment)
+#                else:
+#                    print "job stat=exceedMem, restarting not enabled"
+#                    num_finished += 1
+#                    proc.status = "error"
+#            elif(stat == "error"):
+#                errors.append(index)
+#            index += 1
+#
+#        for i in reversed(errors):
+#            self.processes.pop(i)
 # end moved block
+#        self.mail_connect.close()
+#        self.mail_connect.logout()
+#        c.close()
         command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
         retries = 10
         sleep_time = 5
@@ -3718,7 +3718,7 @@ class HPCProcess(PipeProcess):
             try:
                 num_done = int(c.execute(command)[0])
                 dat = str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute)
-                print dat, " ", self.job_name, " num_procs: ", num_procs, " num_done: ", num_done
+#                print dat, " ", self.job_name, " num_procs: ", num_procs, " num_done: ", num_done
                 break
             except:
                 t = datetime.datetime.now()
@@ -3727,25 +3727,26 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("%s" %t + " Error running: " + command + "  Abadoning job\n")
                     num_done = -1
                 else:
-                    sys.stderr.write("%s" %t + " Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
-                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
+#                    sys.stderr.write("%s" %t + " Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
+#                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time < 40): sleep_time = sleep_time * 2
                     retries -= 1
+        c.close()
         if (num_procs == num_done):
-#            self.mail_connect.close()
-#            self.mail_connect.logout()
+            self.mail_connect.close()
+            self.mail_connect.logout()
             return JobState.FINISHED
         elif (num_done == -1): 
-#            self.mail_connect.close()
-#            self.mail_connect.logout()
+            self.mail_connect.close()
+            self.mail_connect.logout()
             return JobState.RETRIES_FAILED
         else: 
-#            self.mail_connect.close()
-#            self.mail_connect.logout()
+            self.mail_connect.close()
+            self.mail_connect.logout()
             return JobState.RUNNING
 
-# moved check_indiv job block form here
+# moved check_indiv job block from here
 
 #        if(len(self.processes) == num_finished):
 #            return JobState.FINISHED
@@ -3844,7 +3845,7 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("Exception in _mail_connect() for " + self.job_name + "\n")
                     sys.stderr.write(e.message + "\n")
                     retries -= 1
-                    sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(self.retry_interval) + "\n")
+#                    sys.stderr.write("retries left: " + str(retries) + " sleeping for: " + str(self.retry_interval) + "\n")
                     time.sleep(self.retry_interval)
                 else:
                     sys.stderr.write("invoking self._disable_mail\n")
@@ -3988,11 +3989,11 @@ class HPCProcess(PipeProcess):
                 t = datetime.datetime.now()
                 if(retries == 0):
                     t = datetime.datetime.now()
-                    sys.stderr.write("%s" %t + " Error retrieving status of running job - abandoning.\nCommand: " + command + "\n")
+                    sys.stderr.write("%s" %t + " Error retrieving status of running job - abandoning. Job_type: ", self.job_type, " job_name: ", self.job_name, "  Command: " + command + "\n")
                     running = -1
                 else:
-                    sys.stderr.write("%s" %t +" Retrying ", command, " after sleeping " + str(sleep_time) + " secs")
-                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
+#                    sys.stderr.write("%s" %t +" Retrying ", command, " after sleeping " + str(sleep_time) + " secs")
+#                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
                     if (sleep_time <=40): sleep_time = sleep_time * 2
                     retries -= 1
@@ -4008,12 +4009,13 @@ class HPCProcess(PipeProcess):
 
     def complete(self):
         #retrieve the output files
-        self.retrieve_output()
+        result = self.retrieve_output()
         self.cleanup()
+        if result == 0: return 0
+        else: return 1
 
     def cleanup(self):
         self._cleanup_local_files()
-#        self._rm_working_dir()
 
     def move_job_data(self):
         '''
@@ -4044,9 +4046,12 @@ class HPCProcess(PipeProcess):
                 out.write(tmp.read())
                 tmp.close()
                 os.remove(single_f)
+            else:
+                return 0
         c.close()
         out.close()
-        return self.current_output
+#        return self.current_output
+        return 1
 
     def run(self):
         '''
@@ -4194,5 +4199,4 @@ class HPCProcess(PipeProcess):
             self.cleanup()
         else:
             self.complete()
-        print("HPC process " , self.job_name,   "done."
-)
+        print("HPC process " , self.job_name,   "done.")

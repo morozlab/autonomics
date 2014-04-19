@@ -5,7 +5,7 @@ use File::Basename;
 use Cwd;
 use Getopt::Long;
 
-my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $assonly);
+my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $qo, $assonly);
 
 my $cmd_line = "$0 @ARGV";
 my $args0 = "@ARGV";
@@ -17,6 +17,7 @@ GetOptions(
   "noass" => \$noass,
   "convert_paired_end" => \$cpe,
   "bo" => \$bo,
+  "qo" => \$qo,
   "assonly" => \$assonly,
   "paired_end" => \$paired_end,
 );
@@ -31,6 +32,7 @@ sub printUsage{
   print "       -assonly   (OPTIONAL)\n";
   print "       -noass   (OPTIONAL)\n";
   print "       -bo   (run blast_nr only, requires -data to be set also  OPTIONAL)\n";
+  print "       -qo   (run quantification only  OPTIONAL)\n";
   print "       -data   (OPTIONAL [ NT | AA ] - REQUIRED if -noass used)\n";
 };
 
@@ -41,6 +43,7 @@ sub printUsage{
 my $assemble;
 
 if(defined($bo)) { $noass = 1; $bo = 1 ;  } else { $bo = 0; }
+if(defined($qo)) { $qo = 1 ;  } else { $qo = 0; }
 if(defined($cpe)) { $cpe = 1; } else { $cpe = 0; }
 
 if(!defined($proj)) { printUsage(); exit 0; }
@@ -118,6 +121,13 @@ if (not -e $fa) {
   exit 0;
 }
 
+if ($qo) {
+  if (not $fastq) { 
+    print "$fq is REQUIRED but does not exist!\n";
+    exit 0;
+  }
+}
+
 if ($paired_end) {
   if (not -e $fq2) {
     print "$fq2 is REQUIRED but does not exist!\n";
@@ -174,6 +184,9 @@ if ($noass) {
     if ($bo) { #blast_nr only
       $cmd = "python $systools --add-project --assign-workflow" .
              " --add-jobs blast_nr --set-config blast_nr:+ $arg --project-names $proj";
+    } elsif ($qo) { #quantification only
+      $cmd = "python $systools --add-project --assign-workflow" .
+             " --add-jobs quantification --set-config quantification:+ $arg --project-names $proj";
     } else { # run everything except assembly
       if (($data eq "AA") || (not $fastq)) {  # omit quantification since no reads either for genemodels or no reads
         $cmd = "python $systools --add-project --assign-workflow" .
