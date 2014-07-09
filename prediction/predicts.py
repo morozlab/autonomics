@@ -105,7 +105,7 @@ def main():
         threads.append(subprocess.Popen(np_dir + "phobius/phobius.pl " + flnm + " -short > " + flnm.replace('.prots','_phob.out'),shell=True)) #Run Phobius
     for thrd in threads: thrd.wait() #Wait for prediction processes to finish
     with open(pd + '/' + pn + outname,'w+') as h:
-        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp  sp_cutoff: ' + args.sp_cutoff + '\n')
+        h.write('name,sp4,tmhmm,phobtm,phobsp,is_sp  sp_cutoff: ' + str(args.sp_cutoff) + '\n')
         sp = 0
         tmhmm = 1
         phobtm = 2

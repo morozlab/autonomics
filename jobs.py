@@ -31,8 +31,8 @@ import time
 import glob
 import redis
 
-session = netutils.make_db_session()
-
+# session = netutils.make_db_session()
+# print "000 netutils.make_db_session()"
 
 JOB_INPUT_FLAGS = {
     'adapter_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
@@ -111,7 +111,9 @@ def get_job_name(jid, special_run,  retries=5):
 
         Returns the job_name for the job specified by jid.
     '''
-    global session
+#    global session
+    session = netutils.make_db_session()
+    print "111 netutils.make_db_session()"
 
     try:
         jn_mapping = netutils.get_table_object("jn_mapping", session)
@@ -123,6 +125,8 @@ def get_job_name(jid, special_run,  retries=5):
         results = q.execute()
         row = results.fetchone()
         results.close()
+        session.close()
+#        print "111a session.close"
         if special_run:
             return row.job_name
         else:
@@ -132,7 +136,7 @@ def get_job_name(jid, special_run,  retries=5):
         if(retries <= 0):
             raise
         session.close()
-        session = netutils.make_db_session()
+#        print "111b session.close"
         return get_job_name(jid, special_run, retries - 1)
 
 
@@ -141,19 +145,24 @@ def get_project_name(pid, retries=5):
         Same functionality as get_job_name, but returns the project_name for
          the project given by pid instead.
     '''
-    global session
+#    global session
+    session = netutils.make_db_session()
+    print "222 netutils.make_db_session()"
+
     try:
         pn_mapping = netutils.get_table_object("pn_mapping", session)
         results = pn_mapping.select(pn_mapping.c.project_id==pid).execute()
         row = results.fetchone()
         results.close()
+        session.close()
+#        print "222a session.close"
         return row.project_name
     except:
         raise
         if(retries <= 0):
             raise
         session.close()
-        session = netutils.make_db_session()
+#        print "222b session.close"
         return get_project_name(pid, retries - 1)
 
 
@@ -517,6 +526,7 @@ class Arguments:
         '''
 
         session = netutils.make_db_session()
+        print "333 netutils.make_db_session()"
         options = netutils.get_table_object(from_table, session)
         res = session.conn.execute(options.select(options.c.job_type==self.job_type))
         value_map = {'False': False, 'True': True}
@@ -531,6 +541,7 @@ class Arguments:
                 else:
                     setattr(self, row.flag, False)
         session.close()
+#        print "333 session.close"
 
     def _mark_required(self, table_name):
         '''
@@ -542,17 +553,18 @@ class Arguments:
             type these arguments are attached to.
         '''
 
-        session = netutils.make_db_session()
-
         if(self.job_type is None):
-            session.close()
             return
+        session = netutils.make_db_session()
+        print "444 netutils.make_db_session()"
+
         table = netutils.get_table_object(table_name, session)
         results = table.select(and_(table.c.job_type==self.job_type,
                                     table.c.arg_required=='Y')).execute()
         for row in results.fetchall():
             self.mark_value_required(row.flag)
         session.close()
+#        print "444 session.close"
 
     def _reset_names(self):
         '''
@@ -831,7 +843,7 @@ class Job:
                 concurrent analyses to remote computational locations.
     '''
 
-    def __init__(self, pid, jid, t, executable="NA", resources="",
+    def __init__(self, pid, jid, t, executable="NA", resources="",  #class Job:
                  pipeline_arg_str='', process_arg_str=''):
         self.job_type = t
         self.pid = pid
@@ -871,8 +883,10 @@ class Job:
         self.input_files = self._determine_input()
         self.current_output = self._determine_output()
         self.output_files.add(self.current_output)
+        self.session = netutils.make_db_session()
+        print "555 netutils.make_db_session()"
 
-    def _determine_input(self):
+    def _determine_input(self):    #class Job:
         '''
             Interates over the input_flags set in JOB_INPUT_FLAGS for this
             job_type. For each found flag, it checks to see if that flag was
@@ -902,7 +916,7 @@ class Job:
 
         return ret
 
-    def _determine_output(self):
+    def _determine_output(self):    #class Job:
         '''
             Checks to see if the --output-file flag was set in the
             pipeline_args for this job. If so, returns the value of that flag.
@@ -914,7 +928,7 @@ class Job:
 
         return self.current_output
 
-    def _handle_args(self):
+    def _handle_args(self):   #class Job:
         '''
             Provides custom argument handling. Each job should override this
             method depending on its own needs for using the flags set in
@@ -936,14 +950,14 @@ class Job:
         else:
             self.paired_end = False
 
-    def _input_exists(self):
+    def _input_exists(self):  #class Job:
         '''
             Determines if the file path given in self.input_files['input']
             exists. Returns True if so, False otherwise.
         '''
         return os.path.exists(self.input_files['input'])
 
-    def _default_resources(self):
+    def _default_resources(self):  #class Job:
         '''
             Returns a dictionary of default resources this job class requests
             before being run by the manager process. Each class should override
@@ -954,7 +968,7 @@ class Job:
         '''
         return {"cpu": 1}
 
-    def _exec_cmd(self, cmd, blocking=True, capture_output=False):
+    def _exec_cmd(self, cmd, blocking=True, capture_output=False):   #class Job:
         '''
             Executes the command given by 'cmd' locally. If blocking is True
             the thread calling _exec_cmd waits for the command to exit. If
@@ -970,10 +984,10 @@ class Job:
             p.wait()
         return p
 
-    def _rm_working_dir(self):
+    def _rm_working_dir(self):  #class Job:
         pass
 
-    def _set_resources(self, resource_str):
+    def _set_resources(self, resource_str):  #class Job:
         '''
             Given the string resource_str, parses that string and sets
             self.resources equal to rhe dictionary returned.
@@ -982,7 +996,7 @@ class Job:
         '''
         self.resources = self.parse_resources(resource_str)
 
-    def check(self):
+    def check(self):  #class Job:
         '''
             Iterates over the list of objects in self.processes and determines
             if they are still running.
@@ -1001,11 +1015,13 @@ class Job:
         #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
         # to check this first so can return KILLED to manager so he can decrement resources.
 
-        session = netutils.make_db_session()
-        jn_mapping = netutils.get_table_object("jn_mapping", session)
+#        session = netutils.make_db_session()
+#        print "555 netutils.make_db_session()"
+        jn_mapping = netutils.get_table_object("jn_mapping", self.session)
         results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
         row = results.fetchone()
-        session.close()
+#        session.close()
+#        print "555 session.close"
         if(not row is None):
             if (row.finished =='Y'):
                 print "returning KILLED"
@@ -1023,7 +1039,7 @@ class Job:
                 return JobState.ERROR
         return JobState.FINISHED
 
-    def cleanup(self):
+    def cleanup(self):  #class Job:
         '''
             Method tasked with removing undeeded intermediatry files and
             cleaning up the database tables after job execution. Each subclass
@@ -1031,7 +1047,7 @@ class Job:
         '''
         pass
 
-    def complete(self):
+    def complete(self):  #class Job:
         '''
             Marks the job as complete in the Autonomics database. Job status
             is held in the jobs table. 
@@ -1049,9 +1065,9 @@ class Job:
             results by hand (rsync) to the appropriate neurbase server.
 
         '''
-        session = netutils.make_db_session()
-
-        results = session.conn.execute(
+#        session = netutils.make_db_session()
+#        print "666 netutils.make_db_session()"
+        results = self.session.conn.execute(
             "select project_id from jn_mapping where ((project_id = ?) and \
             (job_type = 'upload'))",
             (self.pid))
@@ -1061,9 +1077,10 @@ class Job:
 
         self.cleanup()
         self.mark_complete()
-        session.close()
+#        session.close()
+#        print "666 session.close"
 
-    def error_status(self):
+    def error_status(self):  #class Job:
         '''
             Returns:
                 True if this job did not produce its specified output 
@@ -1075,7 +1092,7 @@ class Job:
 
         return False
 
-    def generate_run_name(self):
+    def generate_run_name(self):  #class Job:
         '''
             Generates a run name for use in naming temporary files and folders.
             
@@ -1090,14 +1107,15 @@ class Job:
                 str(t.hour) + str(t.minute) + str(t.second)
         return name.strip()
 
-    def mark_complete(self):
+    def mark_complete(self):  #class Job:
         '''
             Marks this job as complete in the jobs table. This is currently
             accomplished by setting the finished field = 'Y' and f_ts =
             CURRENT_TIMESTAMP().
         '''
-        session = netutils.make_db_session()
-        jn = netutils.get_table_object('jn_mapping', session)
+#        session = netutils.make_db_session()
+#        print "777 netutils.make_db_session()"
+        jn = netutils.get_table_object('jn_mapping', self.session)
         jn.update(
                   ).where(
                           jn.c.job_id==self.jid
@@ -1106,21 +1124,22 @@ class Job:
                                    finished='Y'
                                    ).execute()
         if self.special_run:
-            d = netutils.get_table_object('quenew_special', session)
+            d = netutils.get_table_object('quenew_special', self.session)
             d.delete().where(d.c.job_id==self.jid).execute()
         else:
-            d = netutils.get_table_object('quenew', session)
+            d = netutils.get_table_object('quenew', self.session)
             d.delete().where(d.c.job_id==self.jid).execute()
-        session.close()
+        self.session.close()
+        print "555 session.close"
 
-    def replace_in_proc_args(self, placeholder, repl):
+    def replace_in_proc_args(self, placeholder, repl):  #class Job:
         '''
             Deprecated by the switch to the command template system.
         '''
         self.process_args.arg_string = self.process_args.arg_string.\
             replace("<" + placeholder + ">" , repl)
 
-    def replace_in_pipe_args(self, placeholder, repl):
+    def replace_in_pipe_args(self, placeholder, repl):  #class Job:
         '''
             Same as replace_in_proc_args.
         '''
@@ -1235,7 +1254,8 @@ class HPCJob(Job):
         self.location = HPCJob.location
         self.mail_connect = None
         self.remote_connect = None
-        self.mail_enabled = True
+#        self.mail_enabled = True
+        self.mail_enabled = False
         self.jid = jid
         self.constructor = HPCProcess
         self._resourceStr = resources
@@ -1518,6 +1538,7 @@ class AssemblyJob(LocalJob):
 
         if(self.assembler in settings.QUANTIFICATION_ASSEMBLERS):
             session = netutils.make_db_session()
+            print "888 netutils.make_db_session()"
             #add the quantification fn to upload
             self.output_files.add(self.local_dir + self.pn + \
                                    "_quantification.txt")
@@ -1533,6 +1554,7 @@ class AssemblyJob(LocalJob):
                                                )
                 session.conn.execute(u)
             session.close()
+#            print "888 session.close"
         Job.complete(self)
 
 
@@ -2027,6 +2049,7 @@ class AdapterTrimProcess(PipeProcess):
 
         #get the adaptors sequences
         session = netutils.make_db_session()
+        print "999 netutils.make_db_session()"
         adapts = netutils.get_adapter_rows(netutils.get_pid(self.project_name,
                                                         session), session)
         if len(adapts) ==0: print "There are no known_adapters for this project, so skipping adapter_trim"
@@ -2049,7 +2072,8 @@ class AdapterTrimProcess(PipeProcess):
             die_on_error(p.returncode, cmd_str=cmd)
             #overwrite the original file with the trimmed file
             shutil.move(tmp, f)
-        session.close() #        session = None
+        session.close()
+#        print "999 session.close"
 
     def run(self):
         '''
@@ -2502,6 +2526,7 @@ class QualityTrimProcess(PipeProcess):
             from the input sequences.
         '''
         session = netutils.make_db_session()
+        print "AAA netutils.make_db_session()"
         tmp = f + ".quality.tmp"
         prog = "cutadapt"
         if(hasattr(args, "quality_trimmer")):
@@ -2521,6 +2546,7 @@ class QualityTrimProcess(PipeProcess):
         #re-write the original file as the trimmed file
         shutil.move(tmp, f)
         session.close()
+#        print "AAA session.close"
 
     def run(self):
         #parse the process args
@@ -2580,6 +2606,7 @@ class ReadNormProcess(PipeProcess, Job):
         else:
             cmd = "python " + settings.SCRIPTPATH + "run_read_normalization.py -in_file\
                  " + self.input_file
+        print cmd
         p = self._exec_cmd(cmd)
         die_on_error(p.returncode, cmd)
 
@@ -3103,20 +3130,6 @@ class QuantificationJob(HPCJob):
         if(hasattr(self.pipeline_args, "paired_end")):
             os.remove(self.local_dir + self.pn + "_combined_for_quant.fastq")
 
-    def move_db_files(self):
-        '''
-            Moves databse files contained in self.db_files to the remote 
-            computational resource, after renaming them to their full remote
-            path.
-        '''
-        c = netutils.ssh_connect(self.ssh_credentials)
-        make_remote_dir(settings.remote_dir + self.run_name, c)
-        for fp in self.db_files:
-            if(os.path.exists(fp)):
-                fn = os.path.split(fp)[1]
-                c.put(fp, self.remote_dir + fn)
-        c.close()
-
     def prep_blast(self):
         '''
             Prepares DB and query files for a quantification job using BLAST.
@@ -3356,7 +3369,7 @@ class Qsub:
         if(q == 'billed'): self.qsub += "#PBS -W group_list=billed\n"
         else: self.qsub += "#PBS -q " + q + "\n";
         self.qsub += "#PBS -m a\n";
-        self.qsub += "#PBS -M " + email + "\n";
+#        self.qsub += "#PBS -M " + email + "\n";
         self.qsub += "#PBS -l walltime=" + walltime + "\n";
         self.qsub += "#PBS -l pmem=" + str(mem) + "\n";
         self.qsub += "#PBS -l nodes=" + str(nodes) + ":ppn=" + str(ppn) + "\n";
@@ -3378,7 +3391,7 @@ class Qsub:
         #gets the output created by this Qsub job, returns the local path to the file
         #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
 
-        retries = 12
+        retries = 12000
         sleep_time = 5;
         while (retries >= 0):
             try:
@@ -3392,9 +3405,9 @@ class Qsub:
                    sys.stdout.write("%s"%t + " Error unable to retrieve: " + rfile + " Giving up!!!!....\n")
                    return None
                 else:
-#                   sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
+                   if (sleep_time > 20): sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
                    time.sleep(sleep_time)
-                   if (sleep_time < 40): sleep_time = sleep_time * 2
+                   if (sleep_time < 300): sleep_time = sleep_time * 2
                    retries -= 1
         return lfile
 
@@ -3434,64 +3447,58 @@ class Qsub:
         '''
         #write the qsub submit file
         self.write_qsub()
-        #put this qsub script on the server
-        retries = 10
+
+        #rsync this qsub script to remote dir
+        lfile = self.local_dir + self.name + ".qsub"
+        cmd = "rsync -avzl " + lfile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir + " >& /dev/null"
+        retries = 0
         sleep_time = 5
-        while (retries >= 0):
-              try:
-                 c.put(self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub")
-                 break
-              except:
-                 t = datetime.datetime.now()
-                 if(retries == 0):
-                    sys.stderr.write("%s"%t + " c.put(" + self.local_dir + self.name + ".qsub", self.remote_dir + "/" + self.name + ".qsub)\n")
-                    sys.stderr.write("Exception raised during qsub submission to cluster ... Giving up ...\n")
-                    raise
-                 else:
-                    sys.stderr.write(" c.put(" + self.local_dir + self.name + ".qsub " + self.remote_dir + "/" + self.name + ".qsub)\n")
-                    sys.stderr.write("%s"%t + " Exception raised during qsub submission to cluster \
-                        sleeping for " + str(sleep_time) + " secs and trying again. retries left: " +  str(retries) + "\n")
-                    time.sleep(sleep_time)
-                    if (sleep_time < 40): sleep_time = sleep_time * 2
-                    retries -= 1
+        ret = 1
+        while (ret != 0):
+          ret = os.system(cmd)
+          if (ret):
+            t = datetime.datetime.now()
+            retries = retries +1
+            if (sleep_time > 20): sys.stderr.write("%s" %t )
+            if (sleep_time > 20): cmd = "rsync -avzl " + lfile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir
+            if (sleep_time > 20): print cmd, " returns: ", ret
+            if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+            time.sleep(sleep_time) 
+            if (sleep_time < 120): sleep_time = sleep_time * 2
+
         #put input files on the server
         for infile in self.inputs.values():
             f = os.path.split(infile)[1]
-            retries = 10
+            cmd = "rsync -avzl " + infile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir + " >& /dev/null"
+            retries = 0
             sleep_time = 5
-            while (retries >= 0):
-              try:
-                 c.put(infile, self.remote_dir + "/" + f)
-                 break
-              except:
-                 t = datetime.datetime.now()
-                 if(retries == 0):
-                    sys.stderr.write("%s"%t + " c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
-                    sys.stderr.write(" Exception raised during input file submission to cluster ... Giving up\n")
-                    raise
-                 else:
-                    sys.stderr.write("%s"%t + " c.put(" + infile + "," + self.remote_dir + "/" + f + ")")
-                    sys.stderr.write(" Exception raised during input file submission to cluster \
-                        sleeping for " +  str(sleep_time) + " secs and trying again. retries left: " +  str(retries) + "\n")
-                    time.sleep(sleep_time)
-                    if (sleep_time < 40): sleep_time = sleep_time * 2
-                    retries -= 1
+            ret = 1
+            while (ret != 0):
+              ret = os.system(cmd)
+              if (ret):
+                t = datetime.datetime.now()
+                retries = retries +1
+                if (sleep_time > 20): cmd = "rsync -avzl " + infile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir 
+                if (sleep_time > 20): print cmd, " retuns: ", ret
+                if (sleep_time > 20): sys.stderr.write("%s" %t )
+                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+                time.sleep(sleep_time) 
+                if (sleep_time < 120): sleep_time = sleep_time * 2
 
         #start the job
         command = "cd " + self.remote_dir + ";"
         command += "qsub " + self.name + ".qsub"
-        retries = 10
+        retries = 10000
         sleep_time = 5
         while (retries >= 0):
               job_id = c.execute(command)
-              if settings.debug_pipe: print "job_id from qsub submission: ", job_id
-              if (job_id == [] or settings.QSUB_OK not in job_id[0]):
+              if (job_id == [] or settings.QSUB_OK not in job_id[0]):   # QSUB_OK = 'moab'
                   t = datetime.datetime.now()
                   if(retries > 0):
-#                     sys.stderr.write("%s" %t + " Retrying command: " + command )
-#                     sys.stderr.write(" retries left: " + str(retries) + " sleeping for: " + str(sleep_time) + " secs\n")
+                     if (sleep_time > 20): sys.stderr.write("command FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + command + "\n")
+                     if (sleep_time > 20): print "job_id returned: ", job_id
                      time.sleep(sleep_time)
-                     if (sleep_time < 40): sleep_time = sleep_time * 2
+                     if (sleep_time < 300): sleep_time = sleep_time * 2
                      retries -= 1
                   else:
                       sys.stderr.write("%s" %t + " error executing qsub, abandoning it " + command + "\n")
@@ -3592,7 +3599,7 @@ class HPCProcess(PipeProcess):
             remote_connect:
                 Holds open ssh connection to the cluster    
     '''
-    def __init__(
+    def __init__(  #class HPCProcess
                  self,
                  input_files,
                  hpc_job_files,
@@ -3638,9 +3645,12 @@ class HPCProcess(PipeProcess):
         self.restart = settings.restart_jobs
         self.mail_connect = None
         self.remote_connect = None
-        self.mail_enabled = True
+#        self.mail_enabled = True
+        self.mail_enabled = False
+        self.session = netutils.make_db_session()
+        print "BBB netutils.make_db_session()"
 
-    def _adjust_cpu4_ppn(self):
+    def _adjust_cpu4_ppn(self):  #class HPCProcess
         '''
             Adjusts the cpu request in self.resources['cpu'] by dividing the
             current value by self.resources['ppn']
@@ -3649,7 +3659,7 @@ class HPCProcess(PipeProcess):
           print "WARNING: in _adjust_cpu4_ppn self.resources[cpu] < resources[ppn] will result in resources = 0"
         self.resources['cpu'] = self.resources['cpu'] / self.resources['ppn']
 
-    def _adjust_mem4_ppn(self):
+    def _adjust_mem4_ppn(self):   #class HPCProcess
         '''
             On the HPC cluster, memory requests are given 'per node'. This
             method adjusts the memory requirement given to each qsub script
@@ -3661,7 +3671,7 @@ class HPCProcess(PipeProcess):
         self.mem_increment = self.mem_increment / self.resources['ppn']
 
 
-    def check(self, conn = None):
+    def check(self, conn = None):   #class HPCProcess
         '''
             Checks the status of this analysis process. 
             
@@ -3673,45 +3683,26 @@ class HPCProcess(PipeProcess):
         #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
         # to check this first so can return KILLED to manager so he can decrement resources.
 
-        session = netutils.make_db_session()
+#        session = netutils.make_db_session()
+#        print "BBB netutils.make_db_session()"
 
-        jn_mapping = netutils.get_table_object("jn_mapping", session)
+        jn_mapping = netutils.get_table_object("jn_mapping", self.session)
         results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
         row = results.fetchone()
-        session.close()
+#        session.close()
+#        print "BBB session.close"
         if (row.finished =='Y'):
             print "returning KILLED"
             return JobState.KILLED
 
         #create connections for the mailServer and remote client for this check
-        self.mail_connect = self._mail_connect()
+
         c = netutils.ssh_connect(self.ssh_credentials)
         num_finished = 0
         errors = []
         num_procs = len(self.processes)
-## start of moved block
-#        for index, proc in enumerate(self.processes):
-#            stat = self.check_individual_job(index, c)
-#            if(stat == 'exceedMem'):
-#                if(self.restart):
-#                    print "job stat=exceedMem, restarting with self.mem_increment: ", self.mem_increment, " job_name: ", self.job_name
-#                    proc.resubmit(c, self.mem_increment)
-#                else:
-#                    print "job stat=exceedMem, restarting not enabled"
-#                    num_finished += 1
-#                    proc.status = "error"
-#            elif(stat == "error"):
-#                errors.append(index)
-#            index += 1
-#
-#        for i in reversed(errors):
-#            self.processes.pop(i)
-# end moved block
-#        self.mail_connect.close()
-#        self.mail_connect.logout()
-#        c.close()
         command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
-        retries = 10
+        retries = 10000
         sleep_time = 5
         num_done = 0
         while (retries >= 0):
@@ -3727,33 +3718,21 @@ class HPCProcess(PipeProcess):
                     sys.stderr.write("%s" %t + " Error running: " + command + "  Abadoning job\n")
                     num_done = -1
                 else:
-#                    sys.stderr.write("%s" %t + " Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
-#                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
+                    if (sleep_time > 20): sys.stderr.write("%s" %t + " Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
+                    if (sleep_time > 20): sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
-                    if (sleep_time < 40): sleep_time = sleep_time * 2
+                    if (sleep_time < 300): sleep_time = sleep_time * 2
                     retries -= 1
         c.close()
         if (num_procs == num_done):
-            self.mail_connect.close()
-            self.mail_connect.logout()
             return JobState.FINISHED
         elif (num_done == -1): 
-            self.mail_connect.close()
-            self.mail_connect.logout()
             return JobState.RETRIES_FAILED
         else: 
-            self.mail_connect.close()
-            self.mail_connect.logout()
             return JobState.RUNNING
 
-# moved check_indiv job block from here
 
-#        if(len(self.processes) == num_finished):
-#            return JobState.FINISHED
-#        else:
-#            return JobState.RUNNING
-
-    def _cleanup_local_files(self):
+    def _cleanup_local_files(self):   #class HPCProcess
         '''
             Iterates over all processes in self.processes and calls cleanup()
             on each of them.
@@ -3762,7 +3741,7 @@ class HPCProcess(PipeProcess):
         for qsub in self.processes:
             qsub.cleanup()
 
-    def _convert_dict_remotepaths(self, file_dict):
+    def _convert_dict_remotepaths(self, file_dict):   #class HPCProcess
         ''' file_dict (dict):
                 A dictionary of flag->file, or flag->file_list pairs. 
                 
@@ -3785,7 +3764,7 @@ class HPCProcess(PipeProcess):
 
         return ret
 
-    def _convert_to_remotepath(self, f):
+    def _convert_to_remotepath(self, f):   #class HPCProcess
         '''
             Converts the local path, f, into a remote path. Returns the remote
             path.
@@ -3793,7 +3772,7 @@ class HPCProcess(PipeProcess):
         fn = os.path.split(f)[1]
         return self.remote_dir + fn
 
-    def _rm_working_dir(self):
+    def _rm_working_dir(self):  #class HPCProcess
         '''
             Removes this job's working directory on the remote computational
             resource.
@@ -3803,7 +3782,7 @@ class HPCProcess(PipeProcess):
         connection.execute(command)
         connection.close()
 
-    def _replace_using_dict(self, s, file_dict):
+    def _replace_using_dict(self, s, file_dict):   #class HPCProcess
         '''
             Iterates over the key, value pairs in file_dict. Replaces each 
             instance of key in s with value. 
@@ -3814,7 +3793,7 @@ class HPCProcess(PipeProcess):
             s = s.replace("<" + key + ">", value)
         return s
 
-    def _disable_mail(self):
+    def _disable_mail(self):   #class HPCProcess
         '''
             Prints an error message and sets mail_enabled = False.
         '''
@@ -3823,7 +3802,7 @@ class HPCProcess(PipeProcess):
                  + "/n")
         self.mail_enabled = False
 
-    def _mail_connect(self):
+    def _mail_connect(self):   #class HPCProcess
         '''
             Returns an active connection to an IMAP-enabled mail server.
             
@@ -3854,7 +3833,7 @@ class HPCProcess(PipeProcess):
 
         return None
 
-    def _exceeded_memory(self, job):
+    def _exceeded_memory(self, job):   #class HPCProcess
         '''
             Checks if job exceeded its memory request during execution on
             the remote cluster. If it did, this method returns the amount of
@@ -3894,13 +3873,13 @@ class HPCProcess(PipeProcess):
 
         return 0
 
-    def _exit_with_error(self, job):
+    def _exit_with_error(self, job):  #class HPCProcess
         '''
             Not implemented.
         '''
         return False
 
-    def _parse_email_body(self, response, directive):
+    def _parse_email_body(self, response, directive):   #class HPCProcess
         '''
             Parses the email text found in response, looking for information
             as determined by the directive.
@@ -3926,7 +3905,7 @@ class HPCProcess(PipeProcess):
 
         return ""
 
-    def _split_files(self, file_dict):
+    def _split_files(self, file_dict):   #class HPCProcess
         '''
             Splits the files found in file_dict.values() into multiple files. 
             
@@ -3955,7 +3934,7 @@ class HPCProcess(PipeProcess):
                 num_parts = len(split_files[flag])
         return (num_parts, split_files)
 
-    def check_individual_job(self, job_index, c):
+    def check_individual_job(self, job_index, c):   #class HPCProcess
         '''
             Checks the job status of the job held at self.processes[job_index],
             using the SSH connection, c.
@@ -3979,7 +3958,7 @@ class HPCProcess(PipeProcess):
             return proc.status
 
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
-        retries = 10
+        retries = 10000
         sleep_time = 5
         while (retries >= 0):
             try:
@@ -3989,13 +3968,14 @@ class HPCProcess(PipeProcess):
                 t = datetime.datetime.now()
                 if(retries == 0):
                     t = datetime.datetime.now()
-                    sys.stderr.write("%s" %t + " Error retrieving status of running job - abandoning. Job_type: ", self.job_type, " job_name: ", self.job_name, "  Command: " + command + "\n")
+                    sys.stderr.write("%s" %t + " Error retrieving status of running job - abandoning. Job_type: " + self.job_type + " job_name: " + self.job_name + "  Command: " + command + "\n")
                     running = -1
                 else:
-#                    sys.stderr.write("%s" %t +" Retrying ", command, " after sleeping " + str(sleep_time) + " secs")
-#                    sys.stderr.write(" retries left: " +  str(retries) + "\n")
+                    if (sleep_time > 20): sys.stderr.write("%s" %t + " Retrying " + command + " after sleeping " + str(sleep_time) + " secs")
+                    if (sleep_time > 20): sys.stderr.write(" retries left: " +  str(retries) + "\n")
+                    if (sleep_time > 20): sys.stderr.write(" cmd returns: " + running + "\n")
                     time.sleep(sleep_time)
-                    if (sleep_time <=40): sleep_time = sleep_time * 2
+                    if (sleep_time <=300): sleep_time = sleep_time * 2
                     retries -= 1
 
         if(running == 0):
@@ -4007,31 +3987,47 @@ class HPCProcess(PipeProcess):
 
         return proc.status
 
-    def complete(self):
+    def complete(self):   #class HPCProcess
         #retrieve the output files
         result = self.retrieve_output()
         self.cleanup()
+#        print "BBB session.close"
+        self.session.close()
         if result == 0: return 0
         else: return 1
 
-    def cleanup(self):
+    def cleanup(self):   #class HPCProcess
         self._cleanup_local_files()
 
-    def move_job_data(self):
+    def move_job_data(self):   #class HPCProcess
         '''
             Moves files in self.hpc_job_files to the remote computational 
-            resource.
+            resource.  Used for ebwt files for quantification.
         '''
         c = netutils.ssh_connect(self.ssh_credentials)
         #make the remote dir, just in case
         c.execute("mkdir " + self.remote_dir)
         for data_file in self.hpc_job_files.values():
             d, fn = os.path.split(data_file)
-            c.put(data_file, self.remote_dir + fn)
+            cmd = "rsync -avzl " + data_file + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir + " >& /dev/null"
+            retries = 0
+            sleep_time = 5
+            ret = 1
+            while (ret != 0):
+              ret = os.system(cmd)
+              print cmd, " retuns: ", ret
+              if (ret):
+                retries = retries +1
+                t = datetime.datetime.now()
+                if (sleep_time > 20): cmd = "rsync -avzl " + data_file + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir
+                if (sleep_time > 20): sys.stderr.write("%s" %t )
+                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+                time.sleep(sleep_time) 
+                if (sleep_time < 300): sleep_time = sleep_time * 2
 
         c.close()
 
-    def retrieve_output(self):
+    def retrieve_output(self):   #class HPCProcess
         '''
             Retrieves the remote output of all processes associated with this
             job.
@@ -4053,7 +4049,7 @@ class HPCProcess(PipeProcess):
 #        return self.current_output
         return 1
 
-    def run(self):
+    def run(self):   #class HPCProcess
         '''
             Performs the majority of the work for starting and monitoring
             individual remote HPC cluster jobs. 
@@ -4078,7 +4074,6 @@ class HPCProcess(PipeProcess):
         t = datetime.datetime.now()
         print "HPC Process Starting job: %s " % t + self.job_name + " " + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second )
 
-        session = netutils.make_db_session()
         #move job-level (non-split) files to the remote cluster
         self.move_job_data()
 
@@ -4131,8 +4126,10 @@ class HPCProcess(PipeProcess):
             this_input.update({flag: remote_input_files[flag][i] \
                                for flag in qsub_flags})
 
+#            session = netutils.make_db_session()
+#            print "HPC::run netutils.make_db_session()"
             self.hpc_command = self._get_cmd_template(self.executable,
-                                                      self.job_type, session)
+                                                      self.job_type, self.session)
             #            self.hpc_command = self._prepare_cmd(self.executable, self.job_type, input_files=this_input, output_file=self.remote_dir + qsub_out)
 
             if(self.hpc_command is None):
@@ -4142,7 +4139,7 @@ class HPCProcess(PipeProcess):
                 self.hpc_command = self.hpc_command.replace("<output>",
                                                             self.remote_dir + qsub_out)
             else:
-                param_dict = self._proc_options_dict(self.job_type, session)
+                param_dict = self._proc_options_dict(self.job_type, self.session)
                 param_dict.update(this_input)
                 param_dict['output'] = self.remote_dir + qsub_out
                 param_dict['num_threads'] = self.resources['ppn']
@@ -4154,7 +4151,10 @@ class HPCProcess(PipeProcess):
 
             #get un-replaced command args to check for the presence of custom output field
             command_args = self._get_cmd_template(self.executable,
-                                                  self.job_type, session)
+                                                  self.job_type, self.session)
+
+#            session.close()
+#            print "HPC::run session.close"
 
             if(command_args is None):
                 command_args = exec_plus_argstr
@@ -4186,7 +4186,7 @@ class HPCProcess(PipeProcess):
             self.processes.append(qsub)
 
         c.close()
-        session.close()
+
 
         while (True):
             stat = self.check()

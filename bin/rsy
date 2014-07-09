@@ -1,0 +1,50 @@
+#!/usr/bin/perl -w
+use strict;
+my $str = 'rsync -avzl ';
+
+my ($file,$tgt
+) = @ARGV;
+if ((not defined $file) || (not defined $tgt) ) { 
+    print "\nUsage: $0 <file|dir> <tgt>\n";
+    exit 0;
+}
+if($file =~ m/.*\/$/) {
+    $file =~ s/\/$//;
+}
+
+my $where;
+
+if ($tgt eq "acis") {
+  $where = "pwilliams\@128.227.70.246:~pwilliams/data2";
+} elsif ($tgt eq "oem") {
+  $where = "--rsh=\'ssh -p 32086\' oem\@128.227.123.35:/home/oem/data";
+} elsif ($tgt eq "ion") {
+  $where = "ionadmin\@10.41.128.76:~";
+} elsif ($tgt eq "gator") {
+  $where = "plw1080\@hipergator.hpc.ufl.edu:~plw1080/bu";
+} elsif ($tgt eq "dev") {
+  $where = "plw1080\@hipergator.hpc.ufl.edu:~plw1080/data2load";} 
+elsif ($tgt eq "hpc2") {
+  $where = "pwilliams\@moroz.hpc.ufl.edu:/data/autonomics_data";
+} elsif ($tgt eq "ap") {
+  $where = "morozgroup\@aplysia.hpc.ufl.edu:/data/autonomics_data";
+} elsif ($tgt eq "pb") {
+  $where = "morozgroup\@pleurobrachia.hpc.ufl.edu:/data/autonomics_data";
+} elsif ($tgt eq "vis") {
+  $where = "administrator\@10.41.128.75:~/pwilliams";
+} elsif ($tgt eq "visx") {
+  $where = "--rsh=\'ssh -p32080\' administrator\@10.41.128.75:~/pwilliams";
+} else {
+  die "Invalid location: $tgt must be gator || hpc2 || acis || vis || visx || oem || ap || pb >\n";
+}
+
+my $cmd = "rsync -avzl " . $file . " " . $where;
+print "$cmd\n";
+system($cmd);
+if ( $? ) { die "Command failed: $cmd: $!"; }
+
+
+
+
+
+

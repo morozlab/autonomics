@@ -191,13 +191,11 @@ zc_cred = Credentials(from_file=CRED_PATH + "data_gremlin")
 # passwd:XXXXXXXacis.ufl.edu{pwilliams}1226:
 
 # MAX NUM LOCAL/REMOTE CPUS WE CAN USE AT ONE TIME (depends on your local/hpc_cluster policy/allocation)
-MAX_NUM_LOCAL_CPUS = 64
+MAX_NUM_LOCAL_CPUS = 60
 # MAX_NUM_HPC_CPUS = 1024
 MAX_NUM_HPC_CPUS = 4096
 
-# MAX NUM LOCAL JOBS / REMOTE BLAST_NR JOBS WE CAN RUN AT ONE TIME
-# (each job may use multiple cpus)  We limit number blast_nr jobs to 2 as they can take
-# a long time and prevent other shorter jobs such as pfam or swissprot from running.
+# MAX NUM LOCAL JOBS / REMOTE BLAST_NR JOBS WE CAN RUN AT ONE TIME (each job may use multiple cpus)
 MAX_NUM_LOCAL_JOBS = 5
 MAX_NUM_BLAST_NR_JOBS = 4
 

@@ -5,10 +5,9 @@ use File::Basename;
 use Cwd;
 use Getopt::Long;
 
-my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $qo, $assonly);
+my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $qo);
 
 my $cmd_line = "$0 @ARGV";
-my $args0 = "@ARGV";
 
 GetOptions(
   "proj=s" => \$proj,
@@ -18,7 +17,6 @@ GetOptions(
   "convert_paired_end" => \$cpe,
   "bo" => \$bo,
   "qo" => \$qo,
-  "assonly" => \$assonly,
   "paired_end" => \$paired_end,
 );
 
@@ -28,9 +26,8 @@ sub printUsage{
   print "	-proj :project_name (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
-  print '       -convert_paired_end   (OPTIONAL. Use to convert fastq file that have \1 , \2 at end of "@" line to just 1 , 2)\n';
-  print "       -assonly   (OPTIONAL)\n";
-  print "       -noass   (OPTIONAL)\n";
+  print '       -convert_paired_end   (OPTIONAL. Use to convert fastq file that have \1 , \2 at end of "@" line to just 1 , 2)';
+  print "\n       -noass   (OPTIONAL)\n";
   print "       -bo   (run blast_nr only, requires -data to be set also  OPTIONAL)\n";
   print "       -qo   (run quantification only  OPTIONAL)\n";
   print "       -data   (OPTIONAL [ NT | AA ] - REQUIRED if -noass used)\n";
@@ -141,6 +138,7 @@ if ($paired_end) {
 } else {
     $quant = "";
 }
+
 # --aligner bowtie --db-type NT --paired-end | cpu:400 
 #job_type|arg_name1;arg_val1|arg_name2;arg_val2
 
@@ -149,28 +147,28 @@ my $cmd;
 my $proj_proj =  $projdir . $proj;
 if ($cpe) {
   $cmd = "convert.paired.end.format $proj_proj";
-  print "\n\n $cmd\n\n\n WAIT A MINUTE! \n\n";
+  print "\n\n $cmd\n\n\n WAIT A WHILE! \n\n";
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 }
 
-my $arg = "";
+my $set_args = "";
 if ($mira) {
-  $arg = "--set-args \"assemble|pipeline_args;--assembler mira\"";
+  $set_args = "--set-args \"assemble|pipeline_args;--assembler mira\"";
 }
 
 # mira, paired_end, noass, blastp
 
 if ($paired_end && $assemble) {
-  $arg = "--set-args \"quality_trim|pipeline_args;--paired-end\" \"adapter_trim|pipeline_args;--paired-end\" \"read_normalization|pipeline_args;--paired-end\" \"assemble|pipeline_args;--paired-end\" $quant";
+  $set_args = "--set-args \"quality_trim|pipeline_args;--paired-end\" \"adapter_trim|pipeline_args;--paired-end\" \"read_normalization|pipeline_args;--paired-end\" \"assemble|pipeline_args;--paired-end\" $quant";
 }
 
 if ($paired_end && $noass) {
-  $arg = "--set-args $quant";
+  $set_args = "--set-args $quant";
 }
 
 if ($blastp) {
-  $arg = "--set-args \"blast_nr|pipeline_args;--aligner blastp\" \"blast_swissprot|pipeline_args;--aligner blastp\" \"pfam|pipeline_args;\"  $quant";
+  $set_args = "--set-args \"blast_nr|pipeline_args;--aligner blastp\" \"blast_swissprot|pipeline_args;--aligner blastp\" \"pfam|pipeline_args;\"  $quant";
 }
 
 
@@ -183,32 +181,27 @@ my $systools = $scripts_path . "/systemtools.py";
 if ($noass) {
     if ($bo) { #blast_nr only
       $cmd = "python $systools --add-project --assign-workflow" .
-             " --add-jobs blast_nr --set-config blast_nr:+ $arg --project-names $proj";
+             " --add-jobs blast_nr --set-config blast_nr:+ $set_args --project-names $proj";
     } elsif ($qo) { #quantification only
       $cmd = "python $systools --add-project --assign-workflow" .
-             " --add-jobs quantification --set-config quantification:+ $arg --project-names $proj";
+             " --add-jobs quantification --set-config quantification:+ $set_args --project-names $proj";
     } else { # run everything except assembly
       if (($data eq "AA") || (not $fastq)) {  # omit quantification since no reads either for genemodels or no reads
         $cmd = "python $systools --add-project --assign-workflow" .
                " --add-jobs blast_nr blast_swissprot pfam kegg go" . 
                " --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+" .
-               " $arg --project-names $proj";
+               " $set_args --project-names $proj";
       } else {  # no assy but run quantification too
         $cmd = "python $systools --add-project --assign-workflow" .
                " --add-jobs blast_nr blast_swissprot pfam kegg go quantification" .
-               " --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ quantification:+ $arg --project-names $proj";
+               " --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ quantification:+ $set_args --project-names $proj";
       }
     }
-} elsif ($assonly) {
-  $cmd = "python $systools --add-project --assign-workflow" .
-          " --add-jobs adapter_trim quality_trim read_normalization assemble" .
-          " --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+" .
-          " $arg --project-names $proj";
 } else { # assemble and everything else
   $cmd = "python $systools --add-project --assign-workflow" .
           " --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go" .
           " --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+" .
-          " $arg --project-names $proj";
+          " $set_args --project-names $proj";
 }
 
 print "$cmd\n";

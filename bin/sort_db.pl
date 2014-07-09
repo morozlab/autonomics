@@ -93,7 +93,7 @@ $output_dir = $db_dir;
 
 # unless (-e $output_dir) { print `mkdir $output_dir`; }
 
-my $temp_dir = $output_dir . '/temp';
+my $temp_dir = $output_dir . '/temp' . $$;
 my $sorted_db_file = $output_dir . '/' . $db_name . '_sorted';
 
 unless (-e $temp_dir) { print `mkdir $temp_dir`; }

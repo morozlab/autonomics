@@ -36,6 +36,8 @@ def main():
     pn_mapping_table = netutils.get_table_object("pn_mapping", session)
     jn_mapping_table = netutils.get_table_object("jn_mapping", session)
     run_stats_table = netutils.get_table_object("run_stats", session)
+    quenew_table = netutils.get_table_object("quenew", session)
+
     s = pn_mapping_table.select(
          pn_mapping_table.c.project_id).where(
               pn_mapping_table.c.project_name==project_name)
@@ -51,6 +53,7 @@ def main():
     u = jn_mapping_table.delete().where(jn_mapping_table.c.project_id==project_id).execute()
     u = pn_mapping_table.delete().where(pn_mapping_table.c.project_id==project_id).execute()
     u = run_stats_table.delete().where(run_stats_table.c.project_id==project_id).execute()
+    u = quenew_table.delete().where(quenew_table.c.project_id==project_id).execute()
     print "successfully deleted: ", project_name
 
 if __name__ == '__main__':

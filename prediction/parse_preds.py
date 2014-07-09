@@ -28,7 +28,7 @@ proteins = pd + "/" + fa
 outname = '_peptide_prediction'
 print "proteins: ", proteins
 
-outfile =  ppath + '/' + pn + '/' + pn + "_peptides_" + str(args.sp_cutoff) + '.fasta'
+outfile =  ppath + '/' + pn + '/' + pn + "_predicted_" + str(args.sp_cutoff) + '.fasta'
 pred = pd + '/' + pn + outname
 print "pred: ", pred
 print "outfile: ", outfile
