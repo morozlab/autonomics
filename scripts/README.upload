@@ -1,0 +1,25 @@
+ARGS to loadnb.pl
+=================
+
+GO: loadGO()
+    parses *_GO.txt file => tmp_file (NB_TMP_PATH/<proj>/go_load.txt.$$)
+    loads above file into go_annotation_new table, sorting results by 2 primary keys, go_id & sb_id
++---------+--------+--------------+---------------+
+| go_id   | sb_id  | annotator_id | annotation_ev |
++---------+--------+--------------+---------------+
+| 0000001 | 213011 | P40414       | 9e-06         |
+| 0000001 | 213012 | P40414       | 6e-06         |
++---------+--------+--------------+---------------+
+   this table is not changed after this.
+
+GOCAT: loadGOCategories()
+  replaces col1 (proj_name) of *_gocats.txt file with projectID and 
+  writes it to tmp_file (NB_TMP_PATH/<proj>/gocat_load.txt.$$)
+  loads above file into go_categories table.
+  this table is not changed after this.
++------------+-------+------------+--------------------------+-------------+--------------------+--------------------+
+| project_id | id    | go_id      | name                     | unique_seqs | unique_annotations | category_abundance |
++------------+-------+------------+--------------------------+-------------+--------------------+--------------------+
+|         17 | 11131 | GO:0016836 | hydro-lyase activity     |         112 |                146 |              22035 |
++------------+-------+------------+--------------------------+-------------+--------------------+--------------------+
+

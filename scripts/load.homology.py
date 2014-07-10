@@ -9,7 +9,7 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 from alignment.io import Reader
-from Bio.Blast import NCBIStandalone
+# from Bio.Blast import NCBIStandalone
 from Bio import SeqIO
 from sqlalchemy import *
 from sqlalchemy.sql import functions
@@ -34,26 +34,30 @@ def main():
     parser = argparse.ArgumentParser(description = "This script contains various methods of loading data into NeuroBase.")
     parser.add_argument('--user', dest='user', required=True, help='Username for mysql database containing NeuroBase data')
     parser.add_argument('--password', dest='passwd', required=True, help='Password for mysql database containing NeuroBase data')
+    parser.add_argument('--host', dest='host', required=True, help='Password for mysql database containing NeuroBase data')
+    parser.add_argument('--db', dest='db', required=True, help='Password for mysql database containing NeuroBase data')
     parser.add_argument('--outfile', dest='outfile', required=True, help='file with data')
     args = parser.parse_args()
 
-    session = utils.DBSession(args.user, args.passwd, 'localhost')
+    session = utils.DBSession(args.user, args.passwd, args.host, args.db)
     session.activateConnection()
     query = ""
     try: 
-        query = "LOAD DATA INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"
-        print "try-ing QUERY: ", query
+        query = "LOAD DATA LOCAL INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"        
+#        query = "LOAD DATA INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"
+#        print "try-ing QUERY: ", query
         with warnings.catch_warnings():
            warnings.simplefilter("ignore")
            session.conn.execute(query)
-        print "exited try with success"
+#        print "exited try with success"
     except:
-        print "FAILED: ", query
-        query = "LOAD DATA LOCAL INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"        
-        print "running except: ", query
+#        print "FAILED: ", query
+        query = "LOAD DATA INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"
+#        query = "LOAD DATA LOCAL INFILE '" + args.outfile + "' REPLACE INTO TABLE sorted_homology"        
+#        print "running except: ", query
         with warnings.catch_warnings():
           warnings.simplefilter("ignore")
           session.conn.execute(query)
-        print "exited except with success"
+#        print "exited except with success"
 if __name__ == '__main__':
     main()

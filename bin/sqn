@@ -1,18 +1,90 @@
-#!/usr/bin/perl -w
+# #!/apps/perl/perls/perl-5.16.0/bin/perl -w
+# #!/usr/bin/perl -w
 use strict;
 use Sys::Hostname;
 use File::Basename;
 use Cwd;
 use Getopt::Long;
 
-my ($query, $arg1, $arg2, $arg3, $arg4) = @ARGV;
-if ((not defined $query)) {
-    print "\nUsage: $0 <cmd allp | all0p | pd | pdo | pn | pid | st | all | dt | aa | aa1 | aa1c | aa2c | aaid | kgpq | kgpqa | star | sh | shc1 | shc2 | sources | newuser | namechange >  <arg1 optional>  <arg2 optional> <arg3_optional>\n";
+
+my %nb_abrevs = (
+'misc' => 'misc',
+'apt' => 'aplysia',
+'apn' => 'aplysia2',
+'pb' => 'pleurobrachia',
+'sandbox' => 'sandbox',
+'genomes' => 'genomes',
+'sponges' => 'porifera',
+'nb1' => 'nb1',
+'molluscs' => 'molluscs',
+'snails' => 'gastropoda',
+'secr' => 'secretoryMolecules',
+'verts' => 'vertebrates',
+'squid' => 'cephalopods',
+'combs' => 'ctenophora',
+    );
+
+my %cmd_abrevs = (
+'ba' => 'list_best_annotations_for_pid',
+'users' => 'list_users',
+'perms' => 'list_permissions',
+'allp' => 'list_num_seqs(nonzero)_for_all_projs',
+'all0p' => 'list_all_projs_with_no_seqs',
+'pd' => 'list_project_directory',
+'pdo' => 'list_project_directory_sorted_by_name',
+'pn' => 'get_proj_name_for_pid',
+'uid' => 'get_user_id_for_user_name',
+'st' => 'show_tables',
+'all' => 'dump_proj_dir',
+'alln' => 'dump_proj_dir_where_fields_missing',
+'dt' => 'describe_table',
+'aa' => 'dump_annotation_alignments_both_sources',
+'aa1' => 'dump_annotation_alignments_source1',
+'aa1c' => 'dump_annotation_alignments_count_source1',
+'aa2c' => 'dump_annotation_alignments_count_source2',
+'aaid' => 'list_annot_id_source1_given_pid',
+'stats' => 'stats_summary',
+'star' => 'select_*_from_arg1(table)_where_arg2=pid_or_0_limit_arg3',
+'sh' => 'select_*_from_sorted_homology_where_project_id_arg1_limit 30',
+'shc1' => 'select_count_*_from_sorted_homology_where_project_id_arg1_source1',
+'shc2' => 'select_count_*_from_sorted_homology_where_project_id_arg1_source2',
+'sources' => 'select_id_name_from_annotation_sources',
+'namechange' => 'arg1:pid_arg2:new_name',
+    );
+
+my ($nb_abrev, $query, $arg1, $arg2, $arg3, $arg4) = @ARGV;
+if ((not defined $query) || (not defined $nb_abrev)) {
+    print "\nUsage: $0 <nb_abrev> <cmd> <arg1 optional>  <arg2 optional> <arg3_optional>\n";
+
+   while( my( $key, $value ) = each %nb_abrevs ){
+	print "$key\t $value\n";
+   }
+   print "\n";
+   while( my( $key, $value ) = each %cmd_abrevs ){
+	print "$key\t $value\n";
+   }
+
+
+    exit 0;
+}
+
+my $nb_name;
+if( exists($nb_abrevs{$nb_abrev} ) ){
+    $nb_name = "nb_".$nb_abrevs{$nb_abrev};
+    print "nb_name: $nb_name\n";
+} else {
+    print "\nINVALID NB_ABREV: $nb_abrev    here are the valid ones\n\n";
+    print "NB_abrev  NB_name\n";
+    while( my( $key, $value ) = each %nb_abrevs ){
+	print "$key\t $value\n";
+    }
+    print "\n";
     exit 0;
 }
 
 # my $end =  " | mysql -u moroz_lab --password=Whitney2011 --database=moroz_lab -vvv -t";
-my $tend =  " | mysql -u moroz_lab --password=Whitney2011 --database=moroz_lab";
+# mysql -u nb --password=q8yqJ6zk --database=nb_aplysia -h db1.ufhpc
+my $tend =  " | mysql -u nb --password=q8yqJ6zk -h db1.ufhpc --database=$nb_name";
 my $end = $tend;
 
 if ($query eq 'st') {
@@ -22,7 +94,29 @@ if ($query eq 'st') {
 }
 
 if ($query eq 'pd') {
-  my $cmd = "echo select projectID,project_name from project_directory" . $end;
+  my $cmd = "echo select projectID,project_name from project_directory order by projectID" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'ba') {
+    if (not defined $arg1) {
+	print "need arg1 = pid\n";
+	exit 0;
+    }
+
+  my $cmd = "echo \"select annot, eval from best_annotations where project_id = $arg1\"" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'users') {
+  my $cmd = "echo \"select * from users\"" . $end;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+if ($query eq 'perms') {
+  my $cmd = "echo \"select * from permissions\"" . $end;
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 }
@@ -165,75 +259,19 @@ if ($query eq 'pn') {
   if ( $? ) { die "Command failed: $cmd: $!"; }
 }
 
-if ($query eq 'kgpq') {
+if ($query eq 'uid') {
     if (not defined $arg1) {
-	print "need arg1 = pid\n";
+	print "need arg1 = user_name\n";
 	exit 0;
     }
-    print "\n";
-  my $cmd = "echo \"select projectID,project_name from project_directory where projectID = \'$arg1\'\"" . $tend;
+  my $cmd = "echo \"select user_id from users where user_name = \'$arg1\'\"" . $tend;
 #  print "$cmd\n";
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  $cmd = "echo \"select count(*)  from kegg_annotations where project_id = \'$arg1\'\"" . $tend;
-#  print "$cmd\n";
-    print "KEGG: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  $cmd = "echo \"select count(*) from go_categories where project_id = \'$arg1\'\"" . $tend;
-#  print "$cmd\n";
-    print "GO: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-  
-  $cmd = "echo \"select count(*) from pfam_annotations where project_id = \'$arg1\'\"" . $tend;
-#  print "$cmd\n";
-    print "PFAM: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  my $table = $arg1 . "_sequences";
-
-  $cmd = "echo \"select max(abundance) from $table\"" . $tend;
-#  print "$cmd\n";
-    print "QUANTIF: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 1\"" . $end;
-#  print "$cmd\n";
-    print "Total NR hits: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  $cmd = "echo \"select count(*) from sorted_homology where project_id = $arg1 and source = 2\"" . $end;
-#   print "$cmd\n";
-    print "Total SP hits: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 1 and project_id = $arg1 and sort_id = 1\"" . $end;
-#   print "$cmd\n";
-    print "seqs with NR hits: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-    $cmd = "echo \"select count(distinct sb_id) from sorted_homology where source = 2 and project_id = $arg1 and sort_id = 1\"" . $end;
-#   print "$cmd\n";
-    print "seqs with SW hits: ";
-  system($cmd);
-  if ( $? ) { die "Command failed: $cmd: $!"; }
-
-  $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory where projectID=$arg1\"" . $tend;
-#  print "$cmd\n";
-#  system($cmd);
-#  if ( $? ) { die "Command failed: $cmd: $!"; }
-
 }
 
-if ($query eq 'kgpqa') {
+
+if ($query eq 'stats') {
     if (not defined $arg1) {
 	print "need arg1 = pid\n";
 	exit 0;
@@ -268,6 +306,12 @@ if ($query eq 'kgpqa') {
   $cmd = "echo \"select count(*) from pfam_annotations where project_id = \'$arg1\'\"" . $tend;
 #  print "$cmd\n";
     print "PFAM: ";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  $cmd = "echo \"select count(*) from pfam_domain_counts where project_id = \'$arg1\'\"" . $tend;
+#  print "$cmd\n";
+    print "PFAM_domain_counts: ";
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
@@ -314,10 +358,10 @@ if ($query eq 'kgpqa') {
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
-  $cmd = "echo \"select projectID,project_name,go,kegg,pfam,quantification,blast_nr,blast_swissprot from project_directory where projectID=$arg1\"" . $tend;
-#  print "$cmd\n";
-#  system($cmd);
-#  if ( $? ) { die "Command failed: $cmd: $!"; }
+  $cmd = "ssh moroz\@pubapps1 /home/moroz/autonomics/bin/sdb /data/neurobase/nb.databases/" . $nb_name . "/" . $arg1 . "/*.fas";
+  print "$cmd\n";
+  system ($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
 
 }
 

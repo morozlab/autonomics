@@ -1,0 +1,14 @@
+#!/bin/csh
+
+if ($#argv == 0) then
+  echo " call as add2gp <project_name> <nbN> "
+  exit 0
+endif
+
+if (-e $NEUROBASE_LOAD_DATA_PATH/$1/$1_project.fasta) then
+   cp $NEUROBASE_LOAD_DATA_PATH/$1/$1_project.fasta $NEUROBASE_PUBLIC_GENOMES_PATH/$2/$1.fasta
+else
+  echo "no file $NEUROBASE_LOAD_DATA_PATH/$1/$1_project.fasta"
+endif
+
+

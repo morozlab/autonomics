@@ -1,7 +1,8 @@
-queryPath => "/var/www/html/neurobase/slimebase2/results",
-dbPath => "/var/www/html/neurobase/seq_view/database/",
+user => "nb",
+password => "q8yqJ6zk",
+host => "db1.ufhpc",
 dsn => "dbi:mysql:database=moroz_lab;host=localhost",
 db_username => "moroz_lab",
 db_password => "Whitney2011",
 db_root_password => "Moof2011",
-[download]
+[_download]

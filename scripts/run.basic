@@ -1,0 +1,1 @@
+python upload.py -p hlc8 --user nb --password q8yqJ6zk -v     --host db1.ufhpc --user nb --database nb_misc   >& log1

@@ -1,14 +1,17 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use strict;
 use warnings;
 
-my ($pname, $seq_type, $load_type, $rootpw, $nb, $debug) = @ARGV;
+my ($pname, $seq_type, $load_type, $rootpw, $nb, $user, $host, $nb_abrev, $debug) = @ARGV;
 if ((not defined $pname) ||
     (not defined $seq_type) ||
     (not defined $nb) ||
+    (not defined $nb_abrev) ||
+    (not defined $host) ||
+    (not defined $user) ||
     (not defined $rootpw) ||
     (not defined $load_type)) {
-    print "\nUsage: $0  <proj_name>  <seq_type[NT|AA]>  <load_type[ALL|BASIC|NR|ALIGN_NR|ALIGN_SP|SP|PFAM|GO|GOCAT|KEGG|BESTA|QUANT]> <root_password> <NB#>  <DEBUG --optional>\n";
+    print "\nUsage: $0  <proj_name>  <seq_type[NT|AA]>  <load_type[ALL|BASIC|NR|ALIGN_NR|ALIGN_SP|SP|PFAM|GO|GOCAT|KEGG|BESTA|QUANT]> <root_password> <NB> <USER> <HOST>  <nb_abrev> <DEBUG --optional>\n";
     exit 0;
 }
 
@@ -19,6 +22,7 @@ else {
   exit 0;
   }
   $debug = "--debug";
+
 }
 
 $seq_type = uc($seq_type);
@@ -57,6 +61,13 @@ if (-e $quant_file) {
 }  else {
     $quant = "--no-quant";
 }
+my $tmpPath  = $ENV{NEUROBASE_TMP_PATH } . "/" . $pname;
+if (not -e $tmpPath) {
+  my $cmd = "mkdir $tmpPath";
+  print "$cmd\n";
+  system ($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
 
 print "load_type: $load_type\n";
 
@@ -73,16 +84,16 @@ if ($load_type ne 'ALL') {
   elsif ($load_type eq 'GOCAT') { $load_type = '--GOCategories'; }
   else { $load_type = ""; }
 
-  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
+  my $cmd = "python upload.py -p $pname --user $user --password $rootpw -v $seq_type $load_type --host $host --user $user --database $nb $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
 } else {
 
-  my $log = "log." . $pname . ".BASIC";
+  my $log = "log." . $pname . "." . $nb . ".BASIC";
   $load_type = "";
-  my $cmd = "python upload.py -p $pname --user root --password $rootpw -v  $seq_type $load_type --nb $nb  $debug $quant >& $log";
+  my $cmd = "python upload.py -p $pname --user $user --password $rootpw -v  $seq_type $load_type  --host $host --user $user --database $nb $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
@@ -90,24 +101,50 @@ if ($load_type ne 'ALL') {
   print "done #1 starting #2\n";
 
   $load_type = '--nr --annotation';
-  $log = "log." . $pname . ".NR";
-  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
+  $log = "log." . $pname . "." . $nb . ".NR";
+  $cmd = "python upload.py -p $pname --user $user --password $rootpw -v $seq_type $load_type --host $host --user $user --database $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
   print "done #2 starting #3\n";
 
-  $log = "log." . $pname . ".ALIGN_NR";
+  $log = "log." . $pname . "." . $nb . ".ALIGN_NR";
   $load_type = '--nr --alignments';
-  $cmd = "python upload.py -p $pname --user root --password $rootpw -v $seq_type $load_type --nb $nb  $debug $quant >& $log";
+  $cmd = "python upload.py -p $pname --user $user --password $rootpw -v $seq_type $load_type --host $host --user $user --database $nb  $debug $quant >& $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
-  $cmd = "add2gp $pname $nb";
+  if (-e $tmpPath) {
+    $cmd = "/bin/rm -fr $tmpPath";
+    print "$cmd\n";
+    system ($cmd);
+    if ( $? ) { die "Command failed: $cmd: $!"; }
+  }
+
+  my $pid;
+
+  $log = "log." . $pname . "." . $nb . ".stats";
+  open LOG,">$log" or die "Unable to open $log for writing:";
+
+  $cmd = "perl /rlts/moroz/autonomics/bin/sqn  $nb_abrev  pid  $pname  | tail -n 1 | cut -f1,1";
+  print LOG "$cmd\n";
+
+  open (GR, "$cmd |") or die "unable to open  pipe:";
+  $pid = <GR>; chomp $pid; print LOG "pid: ==$pid==\n"; close GR;
+
+  close LOG;
+
+  $cmd = "perl /rlts/moroz/autonomics/bin/sqn $nb_abrev stats $pid >> $log";
   print "$cmd\n";
   system ($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }
 
+  $cmd = "ssh moroz\@pubapps1 /home/moroz/autonomics/bin/sdb /data/neurobase/nb.databases/" . $nb . "/" . $pid . "/*.fas >> $log";
+  print "$cmd\n";
+  system ($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+
+  print "done #3 ... check $log for errors\n";
 }

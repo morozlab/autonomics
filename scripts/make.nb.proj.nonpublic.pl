@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use strict;
-use warnings;
 
 my %nb_abrevs = (
 'misc' => 'misc',
@@ -19,14 +18,15 @@ my %nb_abrevs = (
 'combs' => 'ctenophora',
     );
 
-my ($p,$ntaa,$nb_abrev) = @ARGV;
-if ((not defined $p) || (not defined $ntaa) || (not defined $nb_abrev)) {
-   print "\nUsage: $0 proj_name <NT or AA> <NB_abrev, e.g. pb>\n";
-   print "NB_abrev  NB_name\n";
-   while( my( $key, $value ) = each %nb_abrevs ){
+
+my ($nb_abrev, $pid) = @ARGV;
+if ((not defined $pid) ||
+    (not defined $nb_abrev)) {
+  print "\nUsage: $0 nb_abrev pid\n";
+  while( my( $key, $value ) = each %nb_abrevs ){
 	print "$key\t $value\n";
-   }
-   exit 0;
+  }
+  exit 0;
 }
 
 my $nb_name;
@@ -44,12 +44,11 @@ if( exists($nb_abrevs{$nb_abrev} ) ){
     exit 0;
 }
 
-if (($ntaa ne 'NT') && ($ntaa ne 'AA')) {
-   print "\nUsage: $0 proj_name <NT or AA> <NB_num>\n";
-   exit 0;
-}
+my $tend =  " | mysql -u nb --password=q8yqJ6zk -h db1.ufhpc --database=$nb_name";
 
-my $cmd = "load_project.pl $p $ntaa $nb_name $nb_abrev";
+my $cmd = "echo \"delete from permissions where user_id = 2 and project_id = \'$pid\'\"" . $tend;
 print "$cmd\n";
-system ($cmd);
+system($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }
+
+

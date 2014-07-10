@@ -1,0 +1,75 @@
+abstracts  MT
+active_hits  MT
+active_queries  MT
+annotation_alignments  filled
+annotation_db  filled
+annotation_sources  filled
+best_annotations  filled
+blast_queue   MT
+cross_comparisons   MT
+cross_comparisons_list   MT
+cross_comparisons_tmp  MT
+expression  MT
+finished_jobs  filled  MT
+gene_ontology  MT
+
+go_annotation  MT
+
+go_annotation_new  filled
++---------+--------+--------------+---------------+
+| go_id   | sb_id  | annotator_id | annotation_ev |
++---------+--------+--------------+---------------+
+| 0000001 | 213011 | P40414       | 9e-06         |
+
+go_catalog   filled & constant
+
+go_categories   filled   KGPQA
+| project_id | id    | go_id      | name                                     | unique_seqs | unique_annotations | category_abundance |
+|         17 | 32001 | GO:0080023 | 3R-hydroxyacyl-CoA dehydratase activity  |           1 |                  1 |     
+
+go_relationships  filled & constant
+
+go_slim  filled & constant
+
+homology   MT
+interpro  MT
+
+kegg_annotations  filled     KGPQA
++------------+---------+---------+---------+-------------------------------------+----------------+--------+
+| project_id | sb_id   | kegg_id | path_id | kegg_pathway_description            | annotating_acc | evalue |
++------------+---------+---------+---------+-------------------------------------+----------------+--------+
+|         17 | 2510012 | K01344  | 04610   | Complement and coagulation cascades | Q28278         |  9e-06 |
+
+kegg_confs   filled  && constant
+load_info   filled
+loaded_files   MT
+permissions  filled
+
+pfam_annotations    filled     KGPQA
++------------+--------+-----------+---------+-------+------+
+| project_id | sb_id  | pfamA_acc | evalue  | start | stop |
++------------+--------+-----------+---------+-------+------+
+|          3 | 138468 | PF08393   |   5e-23 |     1 |   67 |
+
+pfam_domain_counts  filled
+| project_id | acc     | description                                            | counts |
++------------+---------+--------------------------------------------------------+--------+
+|         16 | PF06371 | Diaphanous GTPase-binding Domain                       |     13 |
+
+pfama    filled & constant
+
+project_directory   filled
+project_files   MT
+project_group_membership  MT
+project_groups   MT
+sb_catalog  filled
+sequence_cart  MT
+sessions  filled
+sort_types  MT
+sorted_homology filled
+species_information  MT
+term   filled
+term2term  filled
+user_group_membership  filled
+users  filled
+

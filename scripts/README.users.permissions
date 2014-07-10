@@ -1,0 +1,46 @@
+see also HOWTO_mysql on acis
+
+TO ADD USER:  [	add.nb.user.pl <nb> <user_name> <md5sum_pw> <real_name> <email>	]
+-----------
+  find out user_name, password, real_name, email_address
+  use md5sum on passwd
+  insert into users values (<user_name>, <md5sum_pw>, <real_name>, <email>);
+
+TO DELETE USER:	 [ delete.nb.user.pl <nb> <user_name> ]
+--------------
+  select user_id from users where user_name = <user_name>;
+  delete from users where user_name = <user_name>;
+  delete from <permissions> where user_id = <user_id>
+
+TO GET USER_ID:
+--------------
+  select user_id from users where user_name = <user_name>;
+
+
+PERMISSIONS:
+===========
+
+TO MAKE PROJECT (<pid>) PUBLIC: (i.e. no password needed)   [ make.nb.proj.public.pl <nb> <pid> ]
+---------------------------------------------------------
+   delete from permissions where project_id = <pid>;
+   insert into permissions values (2, <pid>);
+
+TO MAKE PROJECT (<pid>) PRIVATE:   [ make.nb.proj.nonpublic.pl <nb> <pid> ]
+---------------------------------------------------------
+   delete from permissions where user_id = 2 and project_id = <pid>;
+
+TO ALLOW GLOBAL ACCESS FOR A USER (<user_id>): (password still needed)	[ grant.nb.global.permission.pl <nb> <user_id> ]
+----------------------------------------------------------------------
+   delete from permissions where user_id = <user_id>;
+   insert into permissions values (<user_id>, -1);  OR
+   insert into permissions set  project_id = -1, user_id = (select user_id from users where user_name = <user_name>);
+
+TO REMOVE GLOBAL ACCESS FOR A USER (<user_id>):  [ remove.nb.global.permission.pl <nb> <user_id> ]
+----------------------------------------------------------------------
+   delete from permissions where user_id = <user_id> and project_id = -1;
+
+TO ALLOW (NON GLOBAL) ACCESS FOR <user_id> TO A PROJECT (<pid>):   [ grant.nb.limited.permission.pl <nb> <user_id> <pid> ]
+-------------------------------------------------------------
+   delete from permissions where user_id = <user_id> and project_id = -1;
+   insert into permissions values (<user_id>, <pid>);
+

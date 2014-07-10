@@ -1,6 +1,6 @@
 #!/bin/csh
 if ($#argv != 2) then
-  echo "takes 2 args: file and command   expects file to be a list of files"
+  echo "takes 2 args: file and command   expects file with each line a list of args to cmd"
   exit
 endif
 

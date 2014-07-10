@@ -1,37 +1,47 @@
+#!/usr/bin/env perl
 use warnings;
 use strict;
 use DBI;
 
 my $apath  = $ENV{AUTONOMICS_PATH } . "/";
 my $scriptpath = $apath . "scripts/";
-my $tmpPath  = $ENV{NEUROBASE_LOAD_DATA_PATH } . "/";
+my $tmpPath  = $ENV{NEUROBASE_TMP_PATH } . "/";
 
-my ($projName, $projectID, $sort, $sqldb, $user, $passwd, $debug) = @ARGV;
+my ($projName, $projectID, $sort, $sqldb, $host, $user, $passwd, $debug) = @ARGV;
 if ((not defined $projectID) ||
     (not defined $sort) ||
     (not defined $sqldb) ||
     (not defined $user) ||
+    (not defined $host) ||
     (not defined $passwd) ||
     (not defined $projName) ||
     (not defined $debug)) 
 {
-    print "\nUsage: $0 <proj_name> <proj_id> <sort> <user> <passwd> <debug>\n";
+    print "\nUsage: $0 <proj_name> <proj_id> <sort> <db> <host> <user> <passwd> <debug>\n";
     print "  <sort>  type: 1 for evalue, 2 for abundance>\n";
     exit 0;
 }
 
-print "$0 $projName $projectID $sort $debug\n";
 
-my $dsn = "dbi:mysql:database=".$sqldb.";host=localhost";
+# print "$0 $projName $projectID $sort $debug\n";
+
+my $dsn = "dbi:mysql:database=" . $sqldb . ";host=" . $host;
 my $dbh = DBI->connect($dsn, $user, $passwd);
 
-$tmpPath = $tmpPath . '/' . $projName . "/";;
+$tmpPath = $tmpPath . '/' . $projName . "/";
+if (not -e $tmpPath) {
+  my $cmd = "mkdir $tmpPath";
+  print "$cmd\n";
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
 my $outfile = $tmpPath . "homologysort.txt";
-print "outfile = $outfile\n";
+# print "storeSortedHomology outfile = $outfile\n";
 
 # out1 & out2 only used if debug = 1
-my $out1 = $scriptpath . "homologysort1.txt" . $$;
-my $out2 = $scriptpath . "homologysort2.txt" . $$;
+my $out1 = $tmpPath . "homologysort1.txt" . $$;
+my $out2 = $tmpPath . "homologysort2.txt" . $$;
 open(OUTFILE, ">$outfile") or die "Could not open temp output file: $outfile!\n";
 if($sort == 1){
     if ($debug) {  open(OUT1, ">$out1") or die "Could not open temp output file: $out1\n"; }
@@ -110,15 +120,15 @@ close(OUTFILE);
 
 my $query = "";
 
-my $cmd = "python load.homology.py --user $user --password $passwd --outfile $outfile";
-print "$cmd\n";
+my $cmd = "python load.homology.py --user $user --password $passwd --host $host --db $sqldb --outfile $outfile";
+# print "$cmd\n";
 system($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }
 
 unlink($outfile);
 
-my $t1 = $scriptpath . "ss.done1";
-my $t2 = $scriptpath . "ss.done2";
+my $t1 = $tmpPath . "ss.done1";
+my $t2 = $tmpPath . "ss.done2";
 
 if($sort == 1) {
   my $cmd = "touch $t1";
