@@ -113,7 +113,7 @@ def get_job_name(jid, special_run,  retries=5):
     '''
 #    global session
     session = netutils.make_db_session()
-    print "111 netutils.make_db_session()"
+#    print "111 netutils.make_db_session()"
 
     try:
         jn_mapping = netutils.get_table_object("jn_mapping", session)
@@ -147,7 +147,7 @@ def get_project_name(pid, retries=5):
     '''
 #    global session
     session = netutils.make_db_session()
-    print "222 netutils.make_db_session()"
+#    print "222 netutils.make_db_session()"
 
     try:
         pn_mapping = netutils.get_table_object("pn_mapping", session)
@@ -526,7 +526,7 @@ class Arguments:
         '''
 
         session = netutils.make_db_session()
-        print "333 netutils.make_db_session()"
+#        print "333 netutils.make_db_session()"
         options = netutils.get_table_object(from_table, session)
         res = session.conn.execute(options.select(options.c.job_type==self.job_type))
         value_map = {'False': False, 'True': True}
@@ -556,7 +556,7 @@ class Arguments:
         if(self.job_type is None):
             return
         session = netutils.make_db_session()
-        print "444 netutils.make_db_session()"
+#        print "444 netutils.make_db_session()"
 
         table = netutils.get_table_object(table_name, session)
         results = table.select(and_(table.c.job_type==self.job_type,
@@ -884,7 +884,7 @@ class Job:
         self.current_output = self._determine_output()
         self.output_files.add(self.current_output)
         self.session = netutils.make_db_session()
-        print "555 netutils.make_db_session()"
+#        print "555 netutils.make_db_session()"
 
     def _determine_input(self):    #class Job:
         '''
@@ -1538,7 +1538,7 @@ class AssemblyJob(LocalJob):
 
         if(self.assembler in settings.QUANTIFICATION_ASSEMBLERS):
             session = netutils.make_db_session()
-            print "888 netutils.make_db_session()"
+#            print "888 netutils.make_db_session()"
             #add the quantification fn to upload
             self.output_files.add(self.local_dir + self.pn + \
                                    "_quantification.txt")
@@ -2049,7 +2049,7 @@ class AdapterTrimProcess(PipeProcess):
 
         #get the adaptors sequences
         session = netutils.make_db_session()
-        print "999 netutils.make_db_session()"
+#        print "999 netutils.make_db_session()"
         adapts = netutils.get_adapter_rows(netutils.get_pid(self.project_name,
                                                         session), session)
         if len(adapts) ==0: print "There are no known_adapters for this project, so skipping adapter_trim"
@@ -2526,7 +2526,7 @@ class QualityTrimProcess(PipeProcess):
             from the input sequences.
         '''
         session = netutils.make_db_session()
-        print "AAA netutils.make_db_session()"
+#        print "AAA netutils.make_db_session()"
         tmp = f + ".quality.tmp"
         prog = "cutadapt"
         if(hasattr(args, "quality_trimmer")):
@@ -3479,7 +3479,7 @@ class Qsub:
                 t = datetime.datetime.now()
                 retries = retries +1
                 if (sleep_time > 20): cmd = "rsync -avzl " + infile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir 
-                if (sleep_time > 20): print cmd, " retuns: ", ret
+                if (sleep_time > 20): print cmd, " returns: ", ret
                 if (sleep_time > 20): sys.stderr.write("%s" %t )
                 if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
                 time.sleep(sleep_time) 
@@ -3648,7 +3648,7 @@ class HPCProcess(PipeProcess):
 #        self.mail_enabled = True
         self.mail_enabled = False
         self.session = netutils.make_db_session()
-        print "BBB netutils.make_db_session()"
+#        print "BBB netutils.make_db_session()"
 
     def _adjust_cpu4_ppn(self):  #class HPCProcess
         '''
@@ -4015,10 +4015,10 @@ class HPCProcess(PipeProcess):
             ret = 1
             while (ret != 0):
               ret = os.system(cmd)
-              print cmd, " retuns: ", ret
               if (ret):
                 retries = retries +1
                 t = datetime.datetime.now()
+                if (sleep_time > 20): print cmd, " returns: ", ret
                 if (sleep_time > 20): cmd = "rsync -avzl " + data_file + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir
                 if (sleep_time > 20): sys.stderr.write("%s" %t )
                 if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
