@@ -45,9 +45,9 @@ def do_stats_update( rdict, proj_id, special_run, dir):
             continue
         pair = ""
         pair = {str(key): utility.convert_if_int(value)}
-        print "STATS: ", str(key),"  ", utility.convert_if_int(value)
+#        print "STATS: ", str(key),"  ", utility.convert_if_int(value)
         if not special_run:
-            print "updating run_stats for project_id: ", proj_id
+#            print "updating run_stats for project_id: ", proj_id
             u = stats.update().where(
                              stats.c.project_id==proj_id).values(pair).execute()
         else:

@@ -178,13 +178,13 @@ def start_job(job, job_list, pipe_resources, mysql_session, queue):
               print "depends on: ", dependency.depends_on
 
         if(dependency is None):
+            mysql_session.conn.execute("UPDATE jn_mapping SET started='Y', \
+                   s_ts=CURRENT_TIMESTAMP() WHERE job_id='" + str(job.jid) + "'")
+            remove_from_queue(job.jid, queue, mysql_session)
             print " calling job.start() for job_id: ", job.jid, " job_type: ", job.job_type, " job_name: ", job.job_name
             job.start()
             pipe_resources.give_to(job)
             job_list.append(job)
-            mysql_session.conn.execute("UPDATE jn_mapping SET started='Y', \
-                   s_ts=CURRENT_TIMESTAMP() WHERE job_id='" + str(job.jid) + "'")
-            remove_from_queue(job.jid, queue, mysql_session)
     except Exception as e:
         print "manager in exception after trying to start job"
         sys.stderr.write(e.message + "\n")
@@ -300,13 +300,25 @@ def main():
                         print_res = 1
                         start_job(job, job_list, 
                               resources_at_location[job.location], session, queue)
+
+# code below here will not run till all eligible jobs in queue are
+# started.  some may take awhile to get started, e.g. splitting the
+# reads for quantification
+
 #           ======================================
 #           Check state of all started jobs
 #           ======================================
             finished = []
             lloop_num = lloop_num + 1
+
+            pr_stats = 0
+            if ((lloop_num%10) == 0): pr_stats = 1
+            else:  pr_stats = 0
+
+            pr_stats = 1  # eliminate lloop stuff and print every loop
+            local_job_types = ['quality_trim','adapter_trim', 'read_normalization', 'assemble']
             for j in job_list:
-                state = j.check()
+                state = j.check(pr_stats)
                 if(state == JobState.FINISHED):
                     finished.append(j)
                     res = j.complete()
@@ -332,9 +344,10 @@ def main():
                     resources_at_location[j.location].take_from(j)
                     print_res = 1
                 elif(state == JobState.RUNNING):
-#                    if ((lloop_num%10) == 0):  
-                    t = datetime.datetime.now()
-                    print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
+                     if (j.job_type in local_job_types):
+                       if ((lloop_num%10) == 0):  
+                         t = datetime.datetime.now()
+                         print str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", j.job_name, " RUNNING"
                 else:
                     print "\njob_state: Unknown State ", j.job_name, " ", state
 
@@ -353,7 +366,7 @@ def main():
 #           Garbage collect & Sleep
 #           ======================================
             gc.collect()
-            sys.stdout.write('.')
+#            sys.stdout.write('.')
             time.sleep(SLEEP_INTERVAL)
 #           ======================================
 #           restart mySql server if necessary

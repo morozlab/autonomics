@@ -31,9 +31,6 @@ import time
 import glob
 import redis
 
-# session = netutils.make_db_session()
-# print "000 netutils.make_db_session()"
-
 JOB_INPUT_FLAGS = {
     'adapter_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
     'quality_trim': {'input': '.fastq', 'end2': '.fastq.end2'},
@@ -111,10 +108,7 @@ def get_job_name(jid, special_run,  retries=5):
 
         Returns the job_name for the job specified by jid.
     '''
-#    global session
     session = netutils.make_db_session()
-#    print "111 netutils.make_db_session()"
-
     try:
         jn_mapping = netutils.get_table_object("jn_mapping", session)
         pn_mapping = netutils.get_table_object("pn_mapping", session)
@@ -126,7 +120,6 @@ def get_job_name(jid, special_run,  retries=5):
         row = results.fetchone()
         results.close()
         session.close()
-#        print "111a session.close"
         if special_run:
             return row.job_name
         else:
@@ -136,7 +129,6 @@ def get_job_name(jid, special_run,  retries=5):
         if(retries <= 0):
             raise
         session.close()
-#        print "111b session.close"
         return get_job_name(jid, special_run, retries - 1)
 
 
@@ -145,24 +137,19 @@ def get_project_name(pid, retries=5):
         Same functionality as get_job_name, but returns the project_name for
          the project given by pid instead.
     '''
-#    global session
     session = netutils.make_db_session()
-#    print "222 netutils.make_db_session()"
-
     try:
         pn_mapping = netutils.get_table_object("pn_mapping", session)
         results = pn_mapping.select(pn_mapping.c.project_id==pid).execute()
         row = results.fetchone()
         results.close()
         session.close()
-#        print "222a session.close"
         return row.project_name
     except:
         raise
         if(retries <= 0):
             raise
         session.close()
-#        print "222b session.close"
         return get_project_name(pid, retries - 1)
 
 
@@ -209,10 +196,13 @@ def make_bowtie_index(db_path, out_name, blocking=True):
         aligner. Only supports RNA/DNA database sequences.
     '''
     cmd = "bowtie-build " + db_path + " " + out_name + " >& /dev/null"
+    t = datetime.datetime.now()
+    print "\n%s"%t, " starting bowtie build of ebwt files ", db_path, "\n"
     proc = subprocess.Popen(cmd, shell=True)
     if(blocking):
         proc.wait()
-
+    t = datetime.datetime.now()
+    print "\n%s"%t, " bowtie-build complete ", db_path, "\n"
 
 def make_remote_dir(dir_name, c):
     ''' dir_name (str):
@@ -297,6 +287,8 @@ def split_fastq(f, job_type, proc_units):
 
         Splits a FASTQ-formatted sequence file into proc_units number of files. Returns a list of names for those files.
     '''
+    t = datetime.datetime.now()
+    print "\n%s"%t, " splitting ", f, " into ", proc_units, "parts .... This may take a while if large read file .....\n"
     fh = open(f, 'r')
     d, fname = os.path.split(f)
     base, ext = os.path.splitext(fname)
@@ -323,7 +315,8 @@ def split_fastq(f, job_type, proc_units):
             fw = open(curpath, 'w')
             filenames.append(curpath)
             seq_count = 0
-
+    t = datetime.datetime.now()
+    print "\n%s"%t, " splitting ", f, " Completed\n"
     return filenames
 
 
@@ -333,21 +326,26 @@ def split_fasta(q_file, job_type, proc_units):
 
         Splits a FASTA-formatted file into proc_units number of files. Returns a list of names for those files.
     '''
-    fh = open(q_file, 'r')
+
     directory, file = os.path.split(q_file)
     file_base, file_ext = os.path.splitext(file)
     file_counter = 1
     filenames = []
     file_base += "_" + job_type
-    cur_file = file_base + "_" + str(file_counter) + file_ext
-    cmd = "sort_db.pl " + q_file + " " + directory
+    q2_file = q_file + "." + job_type
+    q2_file_sorted = q_file + "." + job_type + "_sorted"
+    cmd = "cp " + q_file + " " + q2_file
     os.system(cmd)
-    cmd = "partition_db.pl " + str(proc_units) + " " + q_file + " " + file_base + " " + file_ext
+    cmd = "sort_db.pl " + q2_file + " " + directory
+    os.system(cmd)
+    cmd = "partition_db.pl " + str(proc_units) + " " + q2_file + " " + file_base + " " + file_ext
     os.system(cmd)
     for file_counter in range(proc_units): # range starts at 0 .. proc_units-1
       cur_file = file_base + "_" + str(file_counter + 1) + file_ext
       curpath = (directory + "/" + cur_file)
       filenames.append(curpath)
+    os.remove(q2_file)
+    os.remove(q2_file_sorted)
     return filenames
 
 class Arguments:
@@ -526,7 +524,6 @@ class Arguments:
         '''
 
         session = netutils.make_db_session()
-#        print "333 netutils.make_db_session()"
         options = netutils.get_table_object(from_table, session)
         res = session.conn.execute(options.select(options.c.job_type==self.job_type))
         value_map = {'False': False, 'True': True}
@@ -541,7 +538,6 @@ class Arguments:
                 else:
                     setattr(self, row.flag, False)
         session.close()
-#        print "333 session.close"
 
     def _mark_required(self, table_name):
         '''
@@ -556,15 +552,12 @@ class Arguments:
         if(self.job_type is None):
             return
         session = netutils.make_db_session()
-#        print "444 netutils.make_db_session()"
-
         table = netutils.get_table_object(table_name, session)
         results = table.select(and_(table.c.job_type==self.job_type,
                                     table.c.arg_required=='Y')).execute()
         for row in results.fetchall():
             self.mark_value_required(row.flag)
         session.close()
-#        print "444 session.close"
 
     def _reset_names(self):
         '''
@@ -884,7 +877,6 @@ class Job:
         self.current_output = self._determine_output()
         self.output_files.add(self.current_output)
         self.session = netutils.make_db_session()
-#        print "555 netutils.make_db_session()"
 
     def _determine_input(self):    #class Job:
         '''
@@ -996,7 +988,7 @@ class Job:
         '''
         self.resources = self.parse_resources(resource_str)
 
-    def check(self):  #class Job:
+    def check(self,pr_status):  #class Job:
         '''
             Iterates over the list of objects in self.processes and determines
             if they are still running.
@@ -1015,13 +1007,9 @@ class Job:
         #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
         # to check this first so can return KILLED to manager so he can decrement resources.
 
-#        session = netutils.make_db_session()
-#        print "555 netutils.make_db_session()"
         jn_mapping = netutils.get_table_object("jn_mapping", self.session)
         results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
         row = results.fetchone()
-#        session.close()
-#        print "555 session.close"
         if(not row is None):
             if (row.finished =='Y'):
                 print "returning KILLED"
@@ -1065,8 +1053,6 @@ class Job:
             results by hand (rsync) to the appropriate neurbase server.
 
         '''
-#        session = netutils.make_db_session()
-#        print "666 netutils.make_db_session()"
         results = self.session.conn.execute(
             "select project_id from jn_mapping where ((project_id = ?) and \
             (job_type = 'upload'))",
@@ -1077,8 +1063,6 @@ class Job:
 
         self.cleanup()
         self.mark_complete()
-#        session.close()
-#        print "666 session.close"
 
     def error_status(self):  #class Job:
         '''
@@ -1113,8 +1097,6 @@ class Job:
             accomplished by setting the finished field = 'Y' and f_ts =
             CURRENT_TIMESTAMP().
         '''
-#        session = netutils.make_db_session()
-#        print "777 netutils.make_db_session()"
         jn = netutils.get_table_object('jn_mapping', self.session)
         jn.update(
                   ).where(
@@ -1130,7 +1112,6 @@ class Job:
             d = netutils.get_table_object('quenew', self.session)
             d.delete().where(d.c.job_id==self.jid).execute()
         self.session.close()
-        print "555 session.close"
 
     def replace_in_proc_args(self, placeholder, repl):  #class Job:
         '''
@@ -1538,7 +1519,7 @@ class AssemblyJob(LocalJob):
 
         if(self.assembler in settings.QUANTIFICATION_ASSEMBLERS):
             session = netutils.make_db_session()
-#            print "888 netutils.make_db_session()"
+
             #add the quantification fn to upload
             self.output_files.add(self.local_dir + self.pn + \
                                    "_quantification.txt")
@@ -1554,7 +1535,6 @@ class AssemblyJob(LocalJob):
                                                )
                 session.conn.execute(u)
             session.close()
-#            print "888 session.close"
         Job.complete(self)
 
 
@@ -2049,7 +2029,6 @@ class AdapterTrimProcess(PipeProcess):
 
         #get the adaptors sequences
         session = netutils.make_db_session()
-#        print "999 netutils.make_db_session()"
         adapts = netutils.get_adapter_rows(netutils.get_pid(self.project_name,
                                                         session), session)
         if len(adapts) ==0: print "There are no known_adapters for this project, so skipping adapter_trim"
@@ -2073,7 +2052,6 @@ class AdapterTrimProcess(PipeProcess):
             #overwrite the original file with the trimmed file
             shutil.move(tmp, f)
         session.close()
-#        print "999 session.close"
 
     def run(self):
         '''
@@ -2311,31 +2289,38 @@ class GOProcess(BlastAssociationProcess):
             quantification data for the input sequences is detected. 
         '''
         BlastAssociationProcess.run(self)
+
         #run two rounds of file-flattening
         #first, flatten based on seq_id, go_term
         #then flatten based on seq_id, limit 10 records by default (maybe allow pipeline parameter to change this?)
 
+        cmd = "python " + settings.SCRIPTPATH + "/filetools.py  \
+                --fields seq_id:1 sp_acc:2 go_term:3 go_ref:4 comaprtment:5 \
+                gene_id:6 score:7 evalue:8:float --key-col 1 3 --flatten \
+                --filter evalue:lt:1e-04 --flatten-depth 1 " + \
+                self.current_output
         p = self._exec_cmd("python " + settings.SCRIPTPATH + "/filetools.py  \
                 --fields seq_id:1 sp_acc:2 go_term:3 go_ref:4 comaprtment:5 \
                 gene_id:6 score:7 evalue:8:float --key-col 1 3 --flatten \
                 --filter evalue:lt:1e-04 --flatten-depth 1 " + \
                 self.current_output)
         die_on_error(p.returncode)
+        cmd = "wc -l " + self.current_output + "_flattened.txt"
         p = self._exec_cmd("wc -l " + self.current_output + "_flattened.txt",
                            capture_out=True)
-
         die_on_error(p.returncode)
         output = p.stdout.readline()
         num = convert_if_int(output.split(" ")[0])
         tmp_outs = self.current_output + "_flattened.txt"
         if(num > 200000):
             #having more than 200000 records triggers flattening
-
+            cmd = "python " + settings.SCRIPTPATH + "/filetools.py --fields seq_id:1 sp_acc:2 go_term:3 evalue:8:float --key-col 1 --flatten --flatten-depth 10 " + self.current_output  + "_flattened.txt"
             p = self._exec_cmd("python " + settings.SCRIPTPATH + "/filetools.py --fields seq_id:1 sp_acc:2 go_term:3 evalue:8:float --key-col 1 --flatten --flatten-depth 10 " + self.current_output  + "_flattened.txt")
             die_on_error(p.returncode)
             os.remove(tmp_outs)
             tmp_outs = self.current_output + "_flattened.txt_flattened.txt"
 
+        cmd = "mv " + tmp_outs + " " + self.current_output
         p = self._exec_cmd("mv " + tmp_outs + " " + self.current_output)
         die_on_error(p.returncode)
 
@@ -2468,6 +2453,7 @@ class PfamProcess(PipeProcess):
         self.translated = translate_seq_file(self.input_file, "fasta")
         os.chdir(settings.pfam_exec_path)
         #run pfam
+        print  "\n%s"%t ," executing pfam_scan ", self.input_file, "\n"
         p = subprocess.Popen("perl pfam_scan.pl -cpu 1 -outfile " + \
                              self.current_output + " -dir " + \
                              settings.pfam_data_path + " -fasta " + \
@@ -2526,7 +2512,6 @@ class QualityTrimProcess(PipeProcess):
             from the input sequences.
         '''
         session = netutils.make_db_session()
-#        print "AAA netutils.make_db_session()"
         tmp = f + ".quality.tmp"
         prog = "cutadapt"
         if(hasattr(args, "quality_trimmer")):
@@ -2546,7 +2531,6 @@ class QualityTrimProcess(PipeProcess):
         #re-write the original file as the trimmed file
         shutil.move(tmp, f)
         session.close()
-#        print "AAA session.close"
 
     def run(self):
         #parse the process args
@@ -2870,7 +2854,6 @@ class PfamJob(HPCJob, threading.Thread):
     def _default_resources(self):
         ret = HPCJob._default_resources(self)
         ret['wall'] = settings.PFAM_MAX_WALL_TIME
-#        ret['wall'] = "48:00:00"
         ret['modules'] = "module load hmmer"
         return ret
 
@@ -2881,10 +2864,13 @@ class PfamJob(HPCJob, threading.Thread):
     def run(self):
         #check if we need to translate the input
         if(hasattr(self.pipeline_args, "translate")):
+            t = datetime.datetime.now()
+            print "\n%s"%t ," translating fasta data into AA for pfam: ", self.input_file, "\n"
             self.input_files['input'] = translate_seq_file(self.input_files[\
                                             'input'], "fasta")
+            t = datetime.datetime.now()
+            print "\n%s"%t ," finished translating ", self.input_file, "\n"
             self.hpc_qsub_files['input'] = self.input_files['input']
-
         self.executable = "pfam_scan.pl"
         HPCJob.start(self)
 
@@ -3187,11 +3173,14 @@ class QuantificationJob(HPCJob):
         if(self.paired_end):
             #need to combine the two files to a single, combined fastq file
             combined_fn = self.local_dir + self.pn + "_combined_for_quant.fastq"
-
+            t = datetime.datetime.now()
+            print  "\n%s"%t , " combining paired end reads for quantification: " + self.job_name + "\n"
             p = subprocess.Popen("cat " + self.input_files['query'] + " " +\
                                   self.input_files['query2'] + " > " +\
                                    combined_fn, shell=True)
             p.wait()
+            t = datetime.datetime.now()
+            print  "\n%s"%t , " completed combining paired end reads: " + self.job_name + "\n"
             self.hpc_qsub_files['query'] = combined_fn
 
     def start(self):
@@ -3648,7 +3637,6 @@ class HPCProcess(PipeProcess):
 #        self.mail_enabled = True
         self.mail_enabled = False
         self.session = netutils.make_db_session()
-#        print "BBB netutils.make_db_session()"
 
     def _adjust_cpu4_ppn(self):  #class HPCProcess
         '''
@@ -3671,7 +3659,7 @@ class HPCProcess(PipeProcess):
         self.mem_increment = self.mem_increment / self.resources['ppn']
 
 
-    def check(self, conn = None):   #class HPCProcess
+    def check(self, pr_status, conn = None):   #class HPCProcess
         '''
             Checks the status of this analysis process. 
             
@@ -3683,14 +3671,10 @@ class HPCProcess(PipeProcess):
         #  if stop_job or stop_project called for this job it will set finished = 'Y' so need 
         # to check this first so can return KILLED to manager so he can decrement resources.
 
-#        session = netutils.make_db_session()
-#        print "BBB netutils.make_db_session()"
-
         jn_mapping = netutils.get_table_object("jn_mapping", self.session)
         results = jn_mapping.select(jn_mapping.c.job_id==self.jid).execute()
         row = results.fetchone()
-#        session.close()
-#        print "BBB session.close"
+        if(row is None): return JobState.KILLED
         if (row.finished =='Y'):
             print "returning KILLED"
             return JobState.KILLED
@@ -3708,8 +3692,6 @@ class HPCProcess(PipeProcess):
         while (retries >= 0):
             try:
                 num_done = int(c.execute(command)[0])
-                dat = str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute)
-#                print dat, " ", self.job_name, " num_procs: ", num_procs, " num_done: ", num_done
                 break
             except:
                 t = datetime.datetime.now()
@@ -3729,6 +3711,9 @@ class HPCProcess(PipeProcess):
         elif (num_done == -1): 
             return JobState.RETRIES_FAILED
         else: 
+            if pr_status:
+              t = datetime.datetime.now()
+              print "\n" + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + " ", self.job_name, " RUNNING [", num_done, "/", num_procs, "]"
             return JobState.RUNNING
 
 
@@ -3991,7 +3976,6 @@ class HPCProcess(PipeProcess):
         #retrieve the output files
         result = self.retrieve_output()
         self.cleanup()
-#        print "BBB session.close"
         self.session.close()
         if result == 0: return 0
         else: return 1
@@ -4072,7 +4056,7 @@ class HPCProcess(PipeProcess):
             10) monitors status of all qsub jobs and waits for completion
         '''
         t = datetime.datetime.now()
-        print "HPC Process Starting job: %s " % t + self.job_name + " " + str(t.year) + "/" + str(t.month) + "/" + str(t.day) + " " + str(t.hour) + ":" + str(t.minute) + ":" + str(t.second )
+        print "\n%s HPC Process preparing: " % t + self.job_name + "\n"
 
         #move job-level (non-split) files to the remote cluster
         self.move_job_data()
@@ -4126,12 +4110,8 @@ class HPCProcess(PipeProcess):
             this_input.update({flag: remote_input_files[flag][i] \
                                for flag in qsub_flags})
 
-#            session = netutils.make_db_session()
-#            print "HPC::run netutils.make_db_session()"
             self.hpc_command = self._get_cmd_template(self.executable,
                                                       self.job_type, self.session)
-            #            self.hpc_command = self._prepare_cmd(self.executable, self.job_type, input_files=this_input, output_file=self.remote_dir + qsub_out)
-
             if(self.hpc_command is None):
                 self.hpc_command = exec_plus_argstr
                 self.hpc_command = self._replace_using_dict(self.hpc_command,
@@ -4152,9 +4132,6 @@ class HPCProcess(PipeProcess):
             #get un-replaced command args to check for the presence of custom output field
             command_args = self._get_cmd_template(self.executable,
                                                   self.job_type, self.session)
-
-#            session.close()
-#            print "HPC::run session.close"
 
             if(command_args is None):
                 command_args = exec_plus_argstr
@@ -4186,17 +4163,25 @@ class HPCProcess(PipeProcess):
             self.processes.append(qsub)
 
         c.close()
+        t = datetime.datetime.now()
+        print "\n%s HPC Process completed submitting: " % t + self.job_name + "\n"
 
-
+        loop = 0
+        pr_stats = 0
         while (True):
-            stat = self.check()
+            loop = loop + 1 
+            if ((loop%20) == 0): pr_stats = 1           
+            stat = self.check(pr_stats)
+            pr_stats = 0
             if stat == JobState.FINISHED:
                 break
             if stat == JobState.KILLED:
                 break
             time.sleep(60)
+
         if stat == JobState.KILLED:
             self.cleanup()
         else:
             self.complete()
+
         print("HPC process " , self.job_name,   "done.")
