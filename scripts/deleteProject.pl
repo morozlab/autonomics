@@ -1,59 +1,34 @@
 #!/apps/perl/perls/perl-5.16.0/bin/perl -w
-
-#  #!/usr/bin/perl -w
-
 use warnings;
 use strict;
 use DBI;
 use File::Basename;
 use File::Path;
-# use Cwd;
 use POSIX;
-
-my %nb_abrevs = (
-'misc' => 'misc',
-'apt' => 'aplysia',
-'apn' => 'aplysia2',
-'pb' => 'pleurobrachia',
-'sandbox' => 'sandbox',
-'genomes' => 'genomes',
-'sponges' => 'porifera',
-'nb1' => 'nb1',
-'molluscs' => 'molluscs',
-#'snails' => 'gastropoda',
-'secr' => 'secretoryMolecules',
-'verts' => 'vertebrates',
-'squid' => 'cephalopods',
-'combs' => 'ctenophora',
-    );
-
+use nb_names;
 
 my ($pname, $nb_abrev) = @ARGV;
 if ((not defined $pname) || (not defined $nb_abrev)) {
    print "\nUsage: $0 <project_name> <nb_abrev>\n";
    print "NB_abrev  NB_name\n";
-   while( my( $key, $value ) = each %nb_abrevs ){
-	print "$key\t $value\n";
-   }
-    exit 0;
+   nb_names::print_valid_nb_abrevs();
+   exit 0;
 }
 
-my $nb_name;
-if( exists($nb_abrevs{$nb_abrev} ) ){
-    $nb_name = "nb_".$nb_abrevs{$nb_abrev};
+my $nb_name = nb_names::nb_abrev_lookup($nb_abrev);
+if ($nb_name) {
+    print "nb_name: $nb_name\n";
 } else {
-    print "\nUsage: $0 <nb_abrev>  <project_id>\n";
+    print "\nUsage: $0 <nb_abrev>  <project_name>\n";
     print "\nINVALID NB_ABREV: $nb_abrev    here are the valid ones\n\n";
     print "NB_abrev  NB_name\n";
-    while( my( $key, $value ) = each %nb_abrevs ){
-	print "$key\t $value\n";
-    }
+    nb_names::print_valid_nb_abrevs();
     print "\n";
     exit 0;
 }
 
 my $log = "log.del." . $nb_abrev . "." . $pname . "." . $$;
-my $cmd = "delete_project.pl $nb_abrev $pname |& tee $log";
+my $cmd = "delete_project.pl $nb_name $pname |& tee $log";
 # print "$cmd\n";
 system ($cmd);
 if ( $? ) { die "Command failed: $cmd: $!"; }

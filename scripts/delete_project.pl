@@ -1,31 +1,11 @@
 #!/apps/perl/perls/perl-5.16.0/bin/perl -w
 
-#  #!/usr/bin/perl -w
-
 use warnings;
 use strict;
 use DBI;
 use File::Basename;
 use File::Path;
-# use Cwd;
 use POSIX;
-
-my %nb_abrevs = (
-'misc' => 'misc',
-'apt' => 'aplysia',
-'apn' => 'aplysia2',
-'pb' => 'pleurobrachia',
-'sandbox' => 'sandbox',
-'genomes' => 'genomes',
-'sponges' => 'porifera',
-'nb1' => 'nb1',
-'molluscs' => 'molluscs',
-#'snails' => 'gastropoda',
-'secr' => 'secretoryMolecules',
-'verts' => 'vertebrates',
-'squid' => 'cephalopods',
-'combs' => 'ctenophora',
-    );
 
 my $apath  = $ENV{AUTONOMICS_PATH };
 my $config_file = $apath . '/config.pl';
@@ -37,32 +17,14 @@ my $host = $config{host};
 my $db_dir = $ENV{NEUROBASE_SEQ_PATH};
 my $db_dir_local = $ENV{NEUROBASE_SEQ_PATH_LOCAL};
 
-my ($nb_abrev, $pname,) = @ARGV;
-if ((not defined $pname) || (not defined $nb_abrev)) {
-   print "\nUsage: $0 <nb_abrev>  <project_id>\n";
-   print "NB_abrev  NB_name\n";
-   while( my( $key, $value ) = each %nb_abrevs ){
-	print "$key\t $value\n";
-   }
-    exit 0;
-}
-
-my $nb_name;
-if( exists($nb_abrevs{$nb_abrev} ) ){
-    $nb_name = "nb_".$nb_abrevs{$nb_abrev};
-} else {
-    print "\nINVALID NB_ABREV: $nb_abrev    here are the valid ones\n\n";
-    print "NB_abrev  NB_name\n";
-    while( my( $key, $value ) = each %nb_abrevs ){
-	print "$key\t $value\n";
-    }
-    print "\n";
+my ($nb_name, $pname,) = @ARGV;
+if ((not defined $pname) || (not defined $nb_name)) {
+   print "\nUsage: $0 <nb_name>  <project_name>\n";
     exit 0;
 }
 
 my $dsn = "dbi:mysql:database=$nb_name;host=$host";
 my $dbh = DBI->connect($dsn,$user,$pw);
-
 
 my $query = "SELECT projectID FROM project_directory WHERE project_name ='$pname'";
 # print "$query\n";
