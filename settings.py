@@ -107,10 +107,11 @@ PROJECT_DIR = os.environ['PROJECT_PATH'] + "/"
 #
 # Disregard the following 3 paths if not using the neurobase browser (the default case)
 #
-# NEUROBASE_SEQ_PATH 
+# NEUROBASE_TMP_PATH 
 # NEUROBASE_LOAD_DATA_PATH
 # NEUROBASE_PUBLIC_GENOMES_PATH
-#
+# NEUROBASE_HOST
+# NEUROBASE_SEQ_PATH 
 #---------------------------------------------------------------------------------------------
 
 USING_NB = int(os.environ['USING_NB'])
@@ -119,7 +120,7 @@ RUNNING_AUTONOMICS_PIPELINE = int(os.environ['RUNNING_AUTONOMICS_PIPELINE'])
 if USING_NB:
   NEUROBASE_TMP_PATH = os.environ['NEUROBASE_TMP_PATH'] + "/"
   NEUROBASE_SEQ_PATH = os.environ['NEUROBASE_SEQ_PATH'] + "/"
-  NEUROBASE_SEQ_PATH_LOCAL = os.environ['NEUROBASE_SEQ_PATH_LOCAL'] + "/"
+  NEUROBASE_HOST = os.environ['NEUROBASE_HOST']
   NEUROBASE_LOAD_DATA_PATH = os.environ['NEUROBASE_LOAD_DATA_PATH'] + "/"
   NEUROBASE_PUBLIC_GENOMES_PATH = os.environ['NEUROBASE_PUBLIC_GENOMES_PATH'] + '/'
 
@@ -221,6 +222,7 @@ REDIS_PORT = 6379
 # special_runs_dir = "/srv/data2/pipeline/special_runs/"
 
 SCRIPTPATH = INSTALL_DIR + "/scripts/"
+UPLOADPATH = INSTALL_DIR + "/scripts/upload/"
 
 #Path for configuration files
 CONFIG_BASE = "/proj_config/"
