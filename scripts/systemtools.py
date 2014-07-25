@@ -35,7 +35,7 @@ def add_adapters(adapters, session):
             i.execute()
 
 
-def add_job(project_name, job_type, session):
+def add_job(project_name, job_type, session,priority):
     pn = netutils.get_table_object('pn_mapping', session)
     jn = netutils.get_table_object('jn_mapping', session)
     pid = netutils.get_pid(project_name, session)
@@ -43,7 +43,7 @@ def add_job(project_name, job_type, session):
         print("Could not add job: " + job_Type + ", no project_id found for: " + project_name)
         return False
     job_name = project_name + "_" + job_type
-    session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name))
+    session.conn.execute(jn.insert().values(project_id=pid, job_type=job_type, job_name=job_name, priority=priority))
     return True
 
 
@@ -335,6 +335,7 @@ def main():
     parser.add_argument('--set-config', dest='set_config', default=None, nargs='+', help='Set configuration for the jobs supplied with this flag. Format should be --set-config job_type1:code1 job_type2:code2 etc.')
     parser.add_argument("--update-pipe-args", dest="update_pipe_args", default=None, help="Update pipeline_args for projects in the args table. Value is the new value to be set for queue.pipeline_args")
     parser.add_argument("--job-type", dest="job_type", help="Which job type do you want this operation to affect?")
+    parser.add_argument("--priority", dest="priority", help="priority for project")
     parser.add_argument("--project-names", dest="project_names", default=None,  help="Either the name of a project or the path to a list of project names, one per line. Operations will be carried out on these projects.")
 
     args = parser.parse_args()
@@ -344,6 +345,10 @@ def main():
         pns = get_project_names(args.project_names)
     else:
         print("Warning, no project names supplied on command line.")
+
+    priority = 1
+    if(not args.priority is None):
+       priority = args.priority
 
     if(not args.add_adapters is None):
         add_adapters(args.add_adapters, session)
@@ -355,7 +360,7 @@ def main():
     if(not args.add_jobs is None):
         for name in pns:
             for job in args.add_jobs:
-                add_job(name, job, session)
+                add_job(name, job, session, priority)
 
     if(not args.set_config is None):
         for name in pns:

@@ -3327,7 +3327,7 @@ class Qsub:
             except:
                 pass
 
-    def create_pbs_header(self, walltime, q, mem, nodes, ppn, email):
+    def create_pbs_header(self, job_no, walltime, q, mem, nodes, ppn, email):
         '''
             Sets self.qsub using the supplied arguments.
             
@@ -3350,15 +3350,22 @@ class Qsub:
                 The email address that messages about job status should be sent
                 to
         '''
+        if (job_type == "blast_nr"): jn = "nr"
+        elif (job_type == "blast_swissprot"): jn = "sw"
+        elif (job_type == "quantification"): jn = "quant"
+        else: jn = job_type
+        qsub_name = "J" + str(self.jid) + jn + str(job_no)
         self.qsub = "#! /bin/bash\n";
         self.qsub += "#PBS -r n\n";
-        self.qsub += "#PBS -N " + self.name + "\n";
+#        self.qsub += "#PBS -N " + self.name + "\n";
+        self.qsub += "#PBS -N " + qsub_name + "\n";
 #        self.qsub += "#PBS -o " + self.name + ".stdout\n";
         self.qsub += "#PBS -e " + self.name + ".stderr\n";
         if(q == 'billed'): self.qsub += "#PBS -W group_list=billed\n"
         else: self.qsub += "#PBS -q " + q + "\n";
         self.qsub += "#PBS -m a\n";
-#        self.qsub += "#PBS -M " + email + "\n";
+        email = "plw1080@gmail.com"
+        self.qsub += "#PBS -M " + email + "\n";
         self.qsub += "#PBS -l walltime=" + walltime + "\n";
         self.qsub += "#PBS -l pmem=" + str(mem) + "\n";
         self.qsub += "#PBS -l nodes=" + str(nodes) + ":ppn=" + str(ppn) + "\n";
@@ -3394,7 +3401,10 @@ class Qsub:
                    sys.stdout.write("%s"%t + " Error unable to retrieve: " + rfile + " Giving up!!!!....\n")
                    return None
                 else:
-                   if (sleep_time > 20): sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
+                   if (sleep_time > 20): 
+                     sys.stderr.write("\n" + "%s"%t + " Retrying retrieval of " + rfile + " after sleeping " + str(sleep_time) + " retries left: " +  str(retries) + "\n")
+                     print "c.get(",rfile," ",lfile,")"
+
                    time.sleep(sleep_time)
                    if (sleep_time < 300): sleep_time = sleep_time * 2
                    retries -= 1
@@ -4141,7 +4151,8 @@ class HPCProcess(PipeProcess):
             else:
                 qsub = Qsub(job_name, self.remote_dir, these_qsub_files,
                             working_dir)
-            qsub.create_pbs_header(self.resources['wall'],
+            qsub.create_pbs_header(job_no,
+                                   self.resources['wall'],
                                    self.resources['queue'],
                                    self.resources['mem'],
                                    self.resources['nodesPerSubJob'],

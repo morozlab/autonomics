@@ -5,7 +5,7 @@ use File::Basename;
 use Cwd;
 use Getopt::Long;
 
-my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $qo);
+my($proj, $mira, $data, $cpe, $paired_end, $noass, $bo, $qo, $priority);
 
 my $cmd_line = "$0 @ARGV";
 
@@ -13,6 +13,7 @@ GetOptions(
   "proj=s" => \$proj,
   "mira" => \$mira,
   "data=s" => \$data,
+  "priority=i" => \$priority,
   "noass" => \$noass,
   "convert_paired_end" => \$cpe,
   "bo" => \$bo,
@@ -23,8 +24,9 @@ GetOptions(
 sub printUsage{
   print "$0\n";
   print "usage:\n";
-  print "	-proj :project_name (REQUIRED)\n";
+  print "	-proj <project_name> (REQUIRED)\n";
   print "       -mira   (OPTIONAL)\n";
+  print "       -priority <integer> (OPTIONAL)\n";
   print "       -paired_end   (OPTIONAL)\n";
   print '       -convert_paired_end   (OPTIONAL. Use to convert fastq file that have \1 , \2 at end of "@" line to just 1 , 2)';
   print "\n       -noass   (OPTIONAL)\n";
@@ -48,6 +50,8 @@ if(!defined($mira)) { $mira = 0; }  else { $mira = 1; }
 if(!defined($noass)) { $noass = 0; $assemble = 1; }  else { $noass = 1; $assemble = 0;}
 
 if(!defined($paired_end)) { $paired_end = 0; } else { $paired_end = 1; }
+
+if(!defined($priority)) { $priority = 1; }
 
 my $projdir = $ENV{ PROJECT_PATH };
 $projdir .= "/";
@@ -180,25 +184,25 @@ my $systools = $scripts_path . "/systemtools.py";
 
 if ($noass) {
     if ($bo) { #blast_nr only
-      $cmd = "python $systools --add-project --assign-workflow" .
+      $cmd = "python $systools --add-project --assign-workflow" . " --priority $priority" .
              " --add-jobs blast_nr --set-config blast_nr:+ $set_args --project-names $proj";
     } elsif ($qo) { #quantification only
-      $cmd = "python $systools --add-project --assign-workflow" .
+      $cmd = "python $systools --add-project --assign-workflow" . " --priority $priority" .
              " --add-jobs quantification --set-config quantification:+ $set_args --project-names $proj";
     } else { # run everything except assembly
       if (($data eq "AA") || (not $fastq)) {  # omit quantification since no reads either for genemodels or no reads
-        $cmd = "python $systools --add-project --assign-workflow" .
+        $cmd = "python $systools --add-project --assign-workflow" . " --priority $priority" .
                " --add-jobs blast_nr blast_swissprot pfam kegg go" . 
                " --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+" .
                " $set_args --project-names $proj";
       } else {  # no assy but run quantification too
-        $cmd = "python $systools --add-project --assign-workflow" .
+        $cmd = "python $systools --add-project --assign-workflow" . " --priority $priority" .
                " --add-jobs blast_nr blast_swissprot pfam kegg go quantification" .
                " --set-config blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+ quantification:+ $set_args --project-names $proj";
       }
     }
 } else { # assemble and everything else
-  $cmd = "python $systools --add-project --assign-workflow" .
+  $cmd = "python $systools --add-project --assign-workflow" . " --priority $priority" .
           " --add-jobs adapter_trim quality_trim read_normalization assemble quantification blast_nr blast_swissprot pfam kegg go" .
           " --set-config adapter_trim:+ quality_trim:+ read_normalization:+ assemble:+ quantification:+ blast_nr:+ blast_swissprot:+ pfam:+ kegg:+ go:+" .
           " $set_args --project-names $proj";

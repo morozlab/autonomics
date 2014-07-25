@@ -3,7 +3,7 @@ use strict;
 
 my ($query, $arg1, $arg2, $arg3, $arg4) = @ARGV;
 if ((not defined $query)) {
-    print "\nUsage: $0 <time | time0 | cmd pd | pdo | pn | pid | st | dt | jn | jnp | q | err | star | run |nf | nfns | snf >  <arg1 optional>  <arg2 optional> <arg3_optional>\n";
+    print "\nUsage: $0 <time | time0 | cmd pd | pdo | pn | pid | st | dt | jn | jnp | q | err | star | run |nf | nff |  nfns | snf >  <arg1 optional>  <arg2 optional> <arg3_optional>\n";
     exit 0;
 }
 
@@ -90,6 +90,12 @@ if ($query eq 'dt') {
 }
 
 if ($query eq 'nf') {
+  my $cmd = "echo \"select project_id, job_id, job_name, priority, queued, started from jn_mapping where finished = \'N\'\"" . $tend;
+  system($cmd);
+  if ( $? ) { die "Command failed: $cmd: $!"; }
+}
+
+if ($query eq 'nff') {
   my $cmd = "echo \"select * from jn_mapping where finished = \'N\'\"" . $tend;
   system($cmd);
   if ( $? ) { die "Command failed: $cmd: $!"; }

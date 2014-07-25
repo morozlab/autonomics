@@ -33,23 +33,23 @@ def dependencies_satisfied(jid, session):
 
 
 def elligible_jobs(session):
-    query = ''' SELECT project_id, jn_mapping.job_id, job_type
+    query = ''' SELECT project_id, jn_mapping.job_id, job_type, priority
                 FROM jn_mapping
-                WHERE queued='N' and started='N'
+                WHERE queued='N' and started='N' order by priority desc;
             '''
     res = session.conn.execute(query)
     for row in res.fetchall():
         if(dependencies_satisfied(row.job_id, session) and
            configured_to_run(row.project_id, row.job_type, session)):
-#            print "queue.py elligible_jobs():: job_id ", row.job_id, " job_type: ", row.job_type, " proj_id: ", row.project_id
             yield row
 
 
-def insert_in_queue(pid, jid, job_type, queue, session):
+def insert_in_queue(pid, jid, priority, job_type, queue, session):
     q_table = netutils.get_table_object(queue, session)
     jn_mapping = netutils.get_table_object('jn_mapping', session)
     i = q_table.insert().values(project_id = pid,
                                 job_id=jid,
+                                priority=priority,
                                 job_type=job_type)
     u = jn_mapping.update().where(jn_mapping.c.job_id==jid).values(queued='Y')
     t = session.conn.begin()
@@ -82,8 +82,7 @@ def queue_all(session):
         q = settings.normal_queue
         if(job.project_id == 0):
             q = settings.special_queue
-        print "\nqueue.py queue_all(): queuing: pid ", job.project_id, " jid: ", job.job_id, " job_type: ", job.job_type
-        insert_in_queue(job.project_id, job.job_id,
+        insert_in_queue(job.project_id, job.job_id, job.priority,
                         job.job_type, q, session)
         run_stats = netutils.get_table_object('run_stats', session)
         i = run_stats.insert()
@@ -97,7 +96,7 @@ def queue_job(jid, queue, session):
     jn_mapping = netutils.get_table_object('jn_mapping', session)
     res = session.conn.execute(jn_mapping.select(jn_mapping.c.job_id==jid))
     job_row = res.fetchone()
-    insert_in_queue(job_row.project_id, jid,
+    insert_in_queue(job_row.project_id, jid, job_row.priority,
                     job_row.job_type, queue, session)
 
 
