@@ -3253,7 +3253,7 @@ class Qsub:
                 The name of the currently-used output file
     '''
 
-    def __init__(self, n, d, inputs, local_dir, out_file = None):
+    def __init__(self, n, jt, jid, d, inputs, local_dir, out_file = None):
         '''
             n (str):
                 The name to use for this qsub
@@ -3271,6 +3271,8 @@ class Qsub:
             out_file (str):
                 Optional path to the resired local output file for this qsub
         '''
+        self.job_type = jt
+        self.jid = jid
         self.qsub = ""
         self.commands = ""
         self.name = n
@@ -3350,10 +3352,10 @@ class Qsub:
                 The email address that messages about job status should be sent
                 to
         '''
-        if (job_type == "blast_nr"): jn = "nr"
-        elif (job_type == "blast_swissprot"): jn = "sw"
-        elif (job_type == "quantification"): jn = "quant"
-        else: jn = job_type
+        if (self.job_type == "blast_nr"): jn = "nr"
+        elif (self.job_type == "blast_swissprot"): jn = "sw"
+        elif (self.job_type == "quantification"): jn = "quant"
+        else: jn = self.job_type
         qsub_name = "J" + str(self.jid) + jn + str(job_no)
         self.qsub = "#! /bin/bash\n";
         self.qsub += "#PBS -r n\n";
@@ -4146,10 +4148,10 @@ class HPCProcess(PipeProcess):
             if(command_args is None):
                 command_args = exec_plus_argstr
             if("<output>" in command_args or "<output_hpc>" in command_args):
-                qsub = Qsub(job_name, self.remote_dir, these_qsub_files,
+                qsub = Qsub(job_name, self.job_type, self.jid, self.remote_dir, these_qsub_files,
                             working_dir, qsub_out)
             else:
-                qsub = Qsub(job_name, self.remote_dir, these_qsub_files,
+                qsub = Qsub(job_name, self.job_type, self.remote_dir, these_qsub_files,
                             working_dir)
             qsub.create_pbs_header(job_no,
                                    self.resources['wall'],
