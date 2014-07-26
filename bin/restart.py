@@ -24,13 +24,16 @@ def main():
     num_args = len(sys.argv)
 
     arg_list = sys.argv
-    if num_args != 3:
-       print "call is: ", arg_list[0], " project_name job_type"
+    if ((num_args != 3) and (num_args !=4)):
+       print "call is: ", arg_list[0], " <project_name> <job_type> <prioity[OPTIONAL]>"
        for job_type in all_job_types: print job_type
        sys.exit()
     project_name = arg_list[1]
     job_type = arg_list[2]
-    print "project_name: ", project_name, " job_type: ", job_type
+    if (num_args != 4): priority = 1
+    else: priority = arg_list[3]
+    print "project_name: ", project_name, " job_type: ", job_type, " priority: ",priority
+
     if job_type not in all_job_types:
        print "invalid job_type: ", job_type
        print "FAILED\nFAILED\nFAILED\nFAILED\nFAILED\nFAILED\nFAILED\n"
@@ -74,10 +77,10 @@ def main():
        job_name = project_name + '_' + job_type
        if not res.fetchone():
          i = jn_mapping_table.insert()
-         i.execute(project_id = project_id,job_type=job_type,job_name=job_name,started='N',finished='N',queued='Y')
+         i.execute(project_id = project_id,job_type=job_type,job_name=job_name,started='N',finished='N',queued='Y',priority=priority)
          print "successfully restarted (by INSERT) ", job_type, " for ", project_name
        else:
-         u = jn_mapping_table.update().where(and_(jn_mapping_table.c.job_type==job_type, jn_mapping_table.c.project_id==project_id)).values(started = 'N', finished = 'N', queued = 'Y').execute()
+         u = jn_mapping_table.update().where(and_(jn_mapping_table.c.job_type==job_type, jn_mapping_table.c.project_id==project_id)).values(priority=priority,started = 'N', finished = 'N', queued = 'Y').execute()
          print "successfully restarted (by UPDATE) ", job_type, " for ", project_name
 
        # put job in quenew
@@ -85,7 +88,6 @@ def main():
               jn_mapping_table.c.job_type==job_type)).execute()
        row = res.fetchone()
        jid = row.job_id
-       priority = 1
        i = quenew_table.insert()
        i.execute(project_id = project_id,job_id=jid,job_type=job_type,priority=priority)
        print "added job to quenew"
@@ -95,7 +97,7 @@ def main():
     # for all job_types, set jn_mapping: started='N',finished='N',queued='N'
     if job_type == 'all':
       for job_type in all_job_types:
-          u = jn_mapping_table.update().where(and_(jn_mapping_table.c.job_type==job_type, jn_mapping_table.c.project_id==project_id)).values(started = 'N', finished = 'N', queued = 'N').execute()
+          u = jn_mapping_table.update().where(and_(jn_mapping_table.c.job_type==job_type, jn_mapping_table.c.project_id==project_id)).values(priority=priority,started = 'N', finished = 'N', queued = 'N').execute()
           print "successfully restarted ", job_type, " for ", project_name
 
 if __name__ == '__main__':
