@@ -3389,7 +3389,7 @@ class Qsub:
         #gets the output created by this Qsub job, returns the local path to the file
         #sys.stdout.write("Retrieving: " + self.remote_dir + "/" + self.current_output + "\n")
 
-        retries = 12000
+        retries = 30
         sleep_time = 5;
         while (retries >= 0):
             try:
@@ -3408,7 +3408,7 @@ class Qsub:
                      print "c.get(",rfile," ",lfile,")"
 
                    time.sleep(sleep_time)
-                   if (sleep_time < 300): sleep_time = sleep_time * 2
+                   if (sleep_time < 600): sleep_time = sleep_time * 2
                    retries -= 1
         return lfile
 
@@ -3463,7 +3463,7 @@ class Qsub:
             if (sleep_time > 20): sys.stderr.write("%s" %t )
             if (sleep_time > 20): cmd = "rsync -avzl " + lfile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir
             if (sleep_time > 20): print cmd, " returns: ", ret
-            if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+            if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + str(sleep_time) + " secs. (retrying #" + str(retries) + "): " + cmd + "\n")
             time.sleep(sleep_time) 
             if (sleep_time < 120): sleep_time = sleep_time * 2
 
@@ -3482,24 +3482,25 @@ class Qsub:
                 if (sleep_time > 20): cmd = "rsync -avzl " + infile + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir 
                 if (sleep_time > 20): print cmd, " returns: ", ret
                 if (sleep_time > 20): sys.stderr.write("%s" %t )
-                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + str(sleep_time) + " secs. (retrying #" + str(retries) + "): " + cmd + "\n")
                 time.sleep(sleep_time) 
                 if (sleep_time < 120): sleep_time = sleep_time * 2
 
         #start the job
         command = "cd " + self.remote_dir + ";"
-        command += "qsub " + self.name + ".qsub"
-        retries = 10000
+#        command += "qsub " + self.name + ".qsub"
+        command += "qsub " + self.name + ".qsub | tee " + self.name + ".jid"
+        retries = 30
         sleep_time = 5
         while (retries >= 0):
               job_id = c.execute(command)
               if (job_id == [] or settings.QSUB_OK not in job_id[0]):   # QSUB_OK = 'moab'
                   t = datetime.datetime.now()
                   if(retries > 0):
-                     if (sleep_time > 20): sys.stderr.write("command FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + command + "\n")
+                     if (sleep_time > 20): sys.stderr.write("command FAILED (sleeping: " + str(sleep_time) + " secs. (retrying #" + str(retries) + "): " + command + "\n")
                      if (sleep_time > 20): print "job_id returned: ", job_id
                      time.sleep(sleep_time)
-                     if (sleep_time < 300): sleep_time = sleep_time * 2
+                     if (sleep_time < 600): sleep_time = sleep_time * 2
                      retries -= 1
                   else:
                       sys.stderr.write("%s" %t + " error executing qsub, abandoning it " + command + "\n")
@@ -3698,7 +3699,7 @@ class HPCProcess(PipeProcess):
         errors = []
         num_procs = len(self.processes)
         command =  "ls -1 " + self.remote_dir + "/done* | wc -l"
-        retries = 10000
+        retries = 30
         sleep_time = 5
         num_done = 0
         while (retries >= 0):
@@ -3715,7 +3716,7 @@ class HPCProcess(PipeProcess):
                     if (sleep_time > 20): sys.stderr.write("%s" %t + " Retrying: " + command + " sleeping: " + str(sleep_time) + " secs;")
                     if (sleep_time > 20): sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     time.sleep(sleep_time)
-                    if (sleep_time < 300): sleep_time = sleep_time * 2
+                    if (sleep_time < 600): sleep_time = sleep_time * 2
                     retries -= 1
         c.close()
         if (num_procs == num_done):
@@ -3955,7 +3956,7 @@ class HPCProcess(PipeProcess):
             return proc.status
 
         command =  "qstat -u " + settings.hpc_user +  "| grep -c " + proc.job_id[:16]
-        retries = 10000
+        retries = 30
         sleep_time = 5
         while (retries >= 0):
             try:
@@ -3972,7 +3973,7 @@ class HPCProcess(PipeProcess):
                     if (sleep_time > 20): sys.stderr.write(" retries left: " +  str(retries) + "\n")
                     if (sleep_time > 20): sys.stderr.write(" cmd returns: " + running + "\n")
                     time.sleep(sleep_time)
-                    if (sleep_time <=300): sleep_time = sleep_time * 2
+                    if (sleep_time <=600): sleep_time = sleep_time * 2
                     retries -= 1
 
         if(running == 0):
@@ -4017,9 +4018,9 @@ class HPCProcess(PipeProcess):
                 if (sleep_time > 20): print cmd, " returns: ", ret
                 if (sleep_time > 20): cmd = "rsync -avzl " + data_file + " plw1080@hipergator.hpc.ufl.edu:" + self.remote_dir
                 if (sleep_time > 20): sys.stderr.write("%s" %t )
-                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + sleep_time + " secs. (retrying #" + retries + "): " + cmd + "\n")
+                if (sleep_time > 20): sys.stderr.write("cmd FAILED (sleeping: " + str(sleep_time) + " secs. (retrying #" + str(retries) + "): " + cmd + "\n")
                 time.sleep(sleep_time) 
-                if (sleep_time < 300): sleep_time = sleep_time * 2
+                if (sleep_time < 600): sleep_time = sleep_time * 2
 
         c.close()
 
