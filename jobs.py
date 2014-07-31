@@ -3000,7 +3000,7 @@ class QuantificationJob(HPCJob):
         self.hpc_qsub_files['query'] = self.input_files['query']
         self.local_db_path = self.input_files['db']
         self.db_file = os.path.split(self.local_db_path)[1]
-        self.remote_db_path = self.remote_dir + self.db_file
+        self.remote_db_path = self.remote_dir + '/' + self.db_file
         self.process_args.db = self.remote_db_path
 
     def _cleanup_local_files(self):
@@ -3158,9 +3158,9 @@ class QuantificationJob(HPCJob):
         #make the remote directory
         c = netutils.ssh_connect(self.ssh_credentials)
         if self.special_run:
-            make_remote_dir(settings.remote_dir + self.job_name, c)
+            make_remote_dir(settings.remote_dir + '/' + self.job_name, c)
         else:
-            make_remote_dir(settings.remote_dir + self.run_name, c)
+            make_remote_dir(settings.remote_dir + '/' + self.run_name, c)
         c.close()
         for line in out:
             if(line.startswith("\n") or not ".ebwt" in line):
@@ -4152,8 +4152,7 @@ class HPCProcess(PipeProcess):
                 qsub = Qsub(job_name, self.job_type, self.jid, self.remote_dir, these_qsub_files,
                             working_dir, qsub_out)
             else:
-                qsub = Qsub(job_name, self.job_type, self.remote_dir, these_qsub_files,
-                            working_dir)
+                qsub = Qsub(job_name, self.job_type, self.jid, self.remote_dir, these_qsub_files, working_dir)
             qsub.create_pbs_header(job_no,
                                    self.resources['wall'],
                                    self.resources['queue'],
